@@ -17,6 +17,8 @@ from card_builder import build_teams_payload
 from collectors import AITimesCollector, GeekNewsCollector, HuggingFaceCollector
 from collectors.base import BaseCollector
 from utils.filters import select_top_items
+from utils.image_fetch import enrich_item_images
+from utils.translate import localize_items
 
 load_dotenv(Path(__file__).resolve().parent / ".env", encoding="utf-8-sig")
 
@@ -89,10 +91,13 @@ def main() -> int:
         logger.warning("No items passed filtering.")
         return 1
 
-    for item in selected:
-        logger.info("  [%s] %s", item.source, item.title[:80])
+    enriched = enrich_item_images(selected)
+    localized = localize_items(enriched)
+    for item in localized:
+        image_hint = " [img]" if item.image_url else ""
+        logger.info("  [%s]%s %s", item.source, image_hint, item.title[:80])
 
-    payload = build_teams_payload(selected)
+    payload = build_teams_payload(localized)
 
     if dry_run:
         output = json.dumps(payload, ensure_ascii=False, indent=2)

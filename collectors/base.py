@@ -27,6 +27,9 @@ class NewsItem:
     published_at: datetime
     score: int = 0
     matched_keywords: list[str] = field(default_factory=list)
+    image_url: str | None = None
+    title_ko: str | None = None
+    summary_ko: str | None = None
 
 
 class BaseCollector(ABC):

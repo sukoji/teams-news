@@ -51,8 +51,14 @@ KEYWORDS: tuple[str, ...] = (
 )
 
 HF_SOURCE = "Hugging Face Papers"
+GEEKNEWS_SOURCE = "GeekNews"
+AITIMES_SOURCE = "AI Times"
+ALL_SOURCES: tuple[str, ...] = (GEEKNEWS_SOURCE, AITIMES_SOURCE, HF_SOURCE)
+
 MIN_ITEMS = int(os.getenv("MIN_ITEMS", "5"))
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "7"))
+MIN_PER_SOURCE = int(os.getenv("MIN_PER_SOURCE", "1"))
+MAX_PER_SOURCE = int(os.getenv("MAX_PER_SOURCE", "3"))
 
 
 def strip_html(text: str) -> str:
@@ -112,7 +118,7 @@ def score_item(item: NewsItem) -> NewsItem:
 
     if item.source == HF_SOURCE:
         item.matched_keywords = hits or ["AI research"]
-        item.score = 10 + len(hits) * 2
+        item.score = 4 + len(hits) * 2
         return item
 
     item.matched_keywords = hits
@@ -147,6 +153,52 @@ def deduplicate_items(items: list[NewsItem]) -> list[NewsItem]:
     return unique
 
 
+def _group_by_source(ranked: list[NewsItem]) -> dict[str, list[NewsItem]]:
+    grouped: dict[str, list[NewsItem]] = {source: [] for source in ALL_SOURCES}
+    for item in ranked:
+        grouped.setdefault(item.source, []).append(item)
+    return grouped
+
+
+def _select_balanced(ranked: list[NewsItem], max_items: int) -> list[NewsItem]:
+    """Ensure each source contributes when available, then fill by score."""
+    by_source = _group_by_source(ranked)
+    selected: list[NewsItem] = []
+    seen_urls: set[str] = set()
+    source_counts: dict[str, int] = {source: 0 for source in ALL_SOURCES}
+
+    def try_add(item: NewsItem) -> bool:
+        if item.url in seen_urls:
+            return False
+        if source_counts.get(item.source, 0) >= MAX_PER_SOURCE:
+            return False
+        seen_urls.add(item.url)
+        selected.append(item)
+        source_counts[item.source] = source_counts.get(item.source, 0) + 1
+        return True
+
+    # Phase 1: at least MIN_PER_SOURCE from each source (when available).
+    for _ in range(MIN_PER_SOURCE):
+        if len(selected) >= max_items:
+            break
+        for source in ALL_SOURCES:
+            if len(selected) >= max_items:
+                break
+            pool = by_source.get(source, [])
+            index = source_counts.get(source, 0)
+            if index < len(pool):
+                try_add(pool[index])
+
+    # Phase 2: fill remaining slots by global rank, respecting per-source cap.
+    for item in ranked:
+        if len(selected) >= max_items:
+            break
+        try_add(item)
+
+    selected.sort(key=lambda item: (item.score, item.published_at), reverse=True)
+    return selected[:max_items]
+
+
 def select_top_items(items: list[NewsItem]) -> list[NewsItem]:
     scored = [score_item(item) for item in items]
     filtered = [item for item in scored if passes_keyword_filter(item)]
@@ -158,8 +210,10 @@ def select_top_items(items: list[NewsItem]) -> list[NewsItem]:
         reverse=True,
     )
 
-    if len(ranked) >= MIN_ITEMS:
-        return ranked[:MAX_ITEMS]
+    if ranked:
+        balanced = _select_balanced(ranked, MAX_ITEMS)
+        if len(balanced) >= MIN_ITEMS:
+            return balanced
 
     fallback = deduplicate_items(scored)
     fallback = sorted(fallback, key=lambda item: item.published_at, reverse=True)
@@ -167,10 +221,9 @@ def select_top_items(items: list[NewsItem]) -> list[NewsItem]:
     seen: set[str] = set()
 
     for item in ranked + fallback:
-        key = item.url
-        if key in seen:
+        if item.url in seen:
             continue
-        seen.add(key)
+        seen.add(item.url)
         merged.append(item)
         if len(merged) >= MAX_ITEMS:
             break

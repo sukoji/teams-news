@@ -4,6 +4,7 @@ import requests
 
 from collectors.base import DEFAULT_HEADERS, BaseCollector, NewsItem, parse_datetime
 from utils.filters import summarize_text
+from utils.media import is_valid_https_image_url
 from datetime import timedelta
 
 from utils.timezone import KST, now_kst
@@ -56,6 +57,15 @@ class HuggingFaceCollector(BaseCollector):
             )
             summary = summarize_text(raw_summary) or title
             url = f"https://huggingface.co/papers/{paper_id}"
+            thumbnail = entry.get("thumbnail") or paper.get("thumbnail")
+            image_url = thumbnail if is_valid_https_image_url(thumbnail) else None
+            if not image_url:
+                candidate = (
+                    f"https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/"
+                    f"{paper_id}.png"
+                )
+                if is_valid_https_image_url(candidate):
+                    image_url = candidate
 
             items.append(
                 NewsItem(
@@ -64,6 +74,7 @@ class HuggingFaceCollector(BaseCollector):
                     url=url,
                     source=self.source_name,
                     published_at=published_at,
+                    image_url=image_url,
                 )
             )
 
