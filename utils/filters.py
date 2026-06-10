@@ -58,7 +58,13 @@ KEYWORDS: tuple[str, ...] = (
 HF_SOURCE = "Hugging Face Papers"
 GEEKNEWS_SOURCE = "GeekNews"
 AITIMES_SOURCE = "AI Times"
-ALL_SOURCES: tuple[str, ...] = (GEEKNEWS_SOURCE, AITIMES_SOURCE, HF_SOURCE)
+PYTORCH_KOREA_SOURCE = "PyTorch Korea"
+ALL_SOURCES: tuple[str, ...] = (
+    GEEKNEWS_SOURCE,
+    AITIMES_SOURCE,
+    HF_SOURCE,
+    PYTORCH_KOREA_SOURCE,
+)
 
 MIN_ITEMS = int(os.getenv("MIN_ITEMS", "5"))
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "7"))
@@ -141,6 +147,8 @@ def _popularity_score(item: NewsItem) -> float:
     if item.source == GEEKNEWS_SOURCE:
         return min(math.log1p(popularity), 5.0) * 4.0
     if item.source == AITIMES_SOURCE:
+        return popularity / 10.0
+    if item.source == PYTORCH_KOREA_SOURCE:
         return popularity / 10.0
     return min(math.log1p(popularity), 5.0)
 

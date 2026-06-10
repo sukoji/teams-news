@@ -14,7 +14,12 @@ import requests
 from dotenv import load_dotenv
 
 from card_builder import build_teams_payload
-from collectors import AITimesCollector, GeekNewsCollector, HuggingFaceCollector
+from collectors import (
+    AITimesCollector,
+    GeekNewsCollector,
+    HuggingFaceCollector,
+    PyTorchKoreaCollector,
+)
 from collectors.base import BaseCollector
 from utils.filters import select_top_items
 from utils.image_fetch import enrich_item_images
@@ -33,6 +38,7 @@ COLLECTORS: list[BaseCollector] = [
     GeekNewsCollector(),
     AITimesCollector(),
     HuggingFaceCollector(),
+    PyTorchKoreaCollector(),
 ]
 
 

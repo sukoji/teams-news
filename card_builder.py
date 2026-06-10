@@ -10,12 +10,14 @@ SOURCE_COLORS: dict[str, str] = {
     "GeekNews": "Accent",
     "AI Times": "Good",
     "Hugging Face Papers": "Attention",
+    "PyTorch Korea": "Warning",
 }
 
 SOURCE_ICONS: dict[str, str] = {
     "GeekNews": "📰",
     "AI Times": "📡",
     "Hugging Face Papers": "📄",
+    "PyTorch Korea": "🔥",
 }
 
 

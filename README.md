@@ -1,7 +1,7 @@
 # Teams AI / Tech News Bot
 
 AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇**입니다.  
-GeekNews, AI Times, Hugging Face Daily Papers에서 최근 24시간 이내 기사를 수집하고, 키워드 필터링 후 Microsoft Teams 채널에 **Adaptive Card**로 발행합니다.
+GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea 읽을거리&정보공유에서 최근 24시간 이내 기사를 수집하고, 키워드 필터링 후 Microsoft Teams 채널에 **Adaptive Card**로 발행합니다.
 
 ## 저장소 구조
 
@@ -16,7 +16,8 @@ teams_news/
 │   ├── base.py                  # NewsItem, BaseCollector
 │   ├── geeknews.py              # GeekNews RSS
 │   ├── aitimes.py               # AI Times RSS
-│   └── huggingface.py           # HF Daily Papers API
+│   ├── huggingface.py           # HF Daily Papers API
+│   └── pytorch_korea.py         # PyTorch Korea 읽을거리&정보공유 RSS
 └── utils/
     ├── filters.py               # 24h·키워드 필터, 소스 균형 선별
     ├── translate.py             # 영문 → 한국어 요약 (deep-translator)
@@ -32,6 +33,7 @@ teams_news/
 | GeekNews | `https://news.hada.io/rss/news` | RSS (403 시 `/rss` 폴백) |
 | AI Times | `https://cdn.aitimes.com/rss/gn_rss_allArticle.xml` | RSS |
 | Hugging Face Papers | `https://huggingface.co/api/daily_papers` | JSON API |
+| PyTorch Korea | `https://discuss.pytorch.kr/c/news/14` (읽을거리&정보공유) | Discourse RSS (`/c/news/14.rss`) |
 
 ### 수집·필터 기준
 
@@ -46,6 +48,7 @@ teams_news/
 | GeekNews | 토픽 **추천(P)** + **댓글 수** | RSS에 없어 토픽 페이지에서 수집 (`ENABLE_GEEKNEWS_ENGAGEMENT`) |
 | AI Times | RSS **노출 순서** | 앞쪽 기사일수록 높은 점수 (조회수 필드 없음) |
 | Hugging Face | **upvotes**, **댓글**, **GitHub stars** | Daily Papers API 필드 활용 |
+| PyTorch Korea | RSS **노출 순서** | 앞쪽 게시물일수록 높은 점수 (좋아요·댓글은 RSS 미제공) |
 
 최종 점수 = 키워드 관련도 + `IMPORTANCE_WEIGHT` × 인기도 + `RECENCY_WEIGHT` × 최신성(24h 이내). 소스 균형 선별 시 각 소스에서 **가장 높은 점수** 항목을 우선 선택합니다.
 
@@ -104,7 +107,7 @@ on:
 | `DRY_RUN` | | `false` | `true`면 Teams 전송 없이 JSON 출력 |
 | `MAX_ITEMS` | | `7` | 카드에 포함할 최대 기사 수 |
 | `MIN_ITEMS` | | `5` | 키워드 필터 후 목표 최소 기사 수 |
-| `MIN_PER_SOURCE` | | `1` | 소스별 최소 포함 건수 (GeekNews·AI Times·HF 각각) |
+| `MIN_PER_SOURCE` | | `1` | 소스별 최소 포함 건수 (GeekNews·AI Times·HF·PyTorch Korea 각각) |
 | `MAX_PER_SOURCE` | | `3` | 소스별 최대 포함 건수 (HF 독점 방지) |
 | `IMPORTANCE_WEIGHT` | | `1.0` | 인기도/참여 지표 가중치 |
 | `RECENCY_WEIGHT` | | `0.5` | 24시간 이내 최신성 가중치 |
@@ -172,6 +175,7 @@ python main.py --dry-run
 - **GeekNews**: 루트 `/rss`는 403을 반환할 수 있어 `/rss/news`를 우선 사용합니다.
 - **AI Times**: RSS 본문 인코딩이 깨져 보일 수 있으나 제목·링크·날짜는 정상 수집됩니다.
 - **Hugging Face**: Daily Papers API는 당일 큐레이션 목록을 반환하며, arXiv 논문은 AI 연구 관련으로 자동 포함됩니다.
+- **PyTorch Korea**: 읽을거리&정보공유 게시판은 Discourse 카테고리 `news`(id 14)이며, `/c/readings`가 아닌 `/c/news/14.rss`를 사용합니다.
 - **번역**: Google Translate 비공식 API — 간헐적 rate limit 가능. 실패 시 영문 폴백.
 - **이미지**: 일부 사이트는 og:image 미제공 또는 hotlink 차단.
 
