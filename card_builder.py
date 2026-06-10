@@ -26,14 +26,12 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
         {"type": "TextBlock", "text": " ", "separator": True, "spacing": "Medium"},
     ]
 
-    actions: list[dict] = []
-
     for index, item in enumerate(items, start=1):
         body.extend(
             [
                 {
                     "type": "TextBlock",
-                    "text": f"**{index}. {item.title}**",
+                    "text": f"{index}. {item.title}",
                     "wrap": True,
                     "weight": "Bolder",
                     "spacing": "Medium",
@@ -52,14 +50,13 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
                     "spacing": "Small",
                     "wrap": True,
                 },
+                {
+                    "type": "TextBlock",
+                    "text": f"[원문 보기]({item.url})",
+                    "spacing": "Small",
+                    "wrap": True,
+                },
             ]
-        )
-        actions.append(
-            {
-                "type": "Action.OpenUrl",
-                "title": f"원문 보기 {index}",
-                "url": item.url,
-            }
         )
 
         if index < len(items):
@@ -77,7 +74,6 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
         "type": "AdaptiveCard",
         "version": "1.4",
         "body": body,
-        "actions": actions,
         "msteams": {"width": "Full"},
     }
     return card

@@ -8,13 +8,17 @@ import json
 import logging
 import os
 import sys
+from pathlib import Path
 
 import requests
+from dotenv import load_dotenv
 
 from card_builder import build_teams_payload
 from collectors import AITimesCollector, GeekNewsCollector, HuggingFaceCollector
 from collectors.base import BaseCollector
 from utils.filters import select_top_items
+
+load_dotenv(Path(__file__).resolve().parent / ".env", encoding="utf-8-sig")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -44,11 +48,18 @@ def send_to_teams(payload: dict, webhook_url: str) -> None:
         headers={"Content-Type": "application/json"},
         timeout=30,
     )
+    run_id = response.headers.get("x-ms-workflow-run-id", "n/a")
+    body_preview = response.text[:500] if response.text else "(empty)"
+    logger.info(
+        "Teams webhook response: HTTP %s, body=%s, run_id=%s",
+        response.status_code,
+        body_preview,
+        run_id,
+    )
     if response.status_code >= 400:
         raise RuntimeError(
-            f"Teams webhook failed: HTTP {response.status_code} — {response.text[:500]}"
+            f"Teams webhook failed: HTTP {response.status_code} — {body_preview}"
         )
-    logger.info("Successfully posted to Teams (HTTP %s)", response.status_code)
 
 
 def main() -> int:
