@@ -11,7 +11,7 @@ teams_news/
 ├── card_builder.py              # Adaptive Card JSON 생성
 ├── requirements.txt
 ├── .env.example
-├── .github/workflows/cron.yml   # GitHub Actions 스케줄 (매일 09:00 KST)
+├── .github/workflows/cron.yml   # GitHub Actions 스케줄 (매일 10:00 KST)
 ├── collectors/
 │   ├── base.py                  # NewsItem, BaseCollector
 │   ├── geeknews.py              # GeekNews RSS
@@ -58,7 +58,7 @@ teams_news/
 
 | 항목 | 값 |
 |------|-----|
-| 기본 실행 시각 | **매일 09:00 KST** (UTC `0 0 * * *`) |
+| 기본 실행 시각 | **매일 10:00 KST** (UTC `0 1 * * *`) |
 | 워크플로 파일 | `.github/workflows/cron.yml` |
 | 수동 실행 | Actions 탭 → **Daily AI Tech News Bot** → **Run workflow** |
 
@@ -69,8 +69,8 @@ teams_news/
 ```yaml
 on:
   schedule:
-    # 09:00 KST = 00:00 UTC
-    - cron: "0 0 * * *"
+    # 10:00 KST = 01:00 UTC
+    - cron: "0 1 * * *"
     # 18:00 KST = 09:00 UTC — 저녁 digest 추가 시 주석 해제
     # - cron: "0 9 * * *"
 ```
