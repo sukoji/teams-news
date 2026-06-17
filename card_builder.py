@@ -17,11 +17,11 @@ SOURCE_COLORS: dict[str, str] = {
 }
 
 SOURCE_ICONS: dict[str, str] = {
-    "GeekNews": "💬",
+    "GeekNews": "📰",
     "AI Times": "📰",
     "Hugging Face Papers": "📄",
-    "PyTorch Korea": "🔥",
-    "GitHub Trending": "⭐",
+    "PyTorch Korea": "💬",
+    "GitHub Trending": "🔥",
     "전자신문 IT": "📰",
     "NAVER D2": "📰",
     "ZDNet Korea": "📰",
@@ -29,9 +29,12 @@ SOURCE_ICONS: dict[str, str] = {
 
 SOURCE_SECTIONS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("📄 Papers", ("Hugging Face Papers",)),
-    ("📰 News", ("AI Times", "전자신문 IT", "ZDNet Korea", "NAVER D2")),
+    (
+        "📰 News",
+        ("GeekNews", "AI Times", "전자신문 IT", "NAVER D2", "ZDNet Korea"),
+    ),
     ("🔥 Trending", ("GitHub Trending",)),
-    ("💬 Community", ("GeekNews", "PyTorch Korea")),
+    ("💬 Community", ("PyTorch Korea",)),
 )
 
 
@@ -69,17 +72,25 @@ def _item_facts(item: NewsItem) -> list[dict]:
     return facts
 
 
-def _build_item_body(item: NewsItem) -> list[dict]:
+def _build_item_body(
+    index: int, item: NewsItem, *, is_pick: bool = False
+) -> list[dict]:
+    title_prefix = "🏆 오늘의 Pick · " if is_pick else f"{index}. "
+    title_size = "Medium" if is_pick else "Default"
+
     return [
         {
             "type": "Container",
+            "style": "emphasis" if is_pick else "default",
             "spacing": "Medium",
             "items": [
                 {
                     "type": "TextBlock",
-                    "text": f"**{_display_title(item)}**",
+                    "text": f"**{title_prefix}{_display_title(item)}**",
                     "wrap": True,
                     "spacing": "None",
+                    "size": title_size,
+                    "weight": "Bolder" if is_pick else "Default",
                 },
                 {
                     "type": "TextBlock",
@@ -87,7 +98,7 @@ def _build_item_body(item: NewsItem) -> list[dict]:
                     "wrap": True,
                     "spacing": "Small",
                     "isSubtle": True,
-                    "maxLines": 3,
+                    "maxLines": 4 if is_pick else 3,
                 },
                 {
                     "type": "FactSet",
@@ -133,6 +144,8 @@ def _group_by_section(items: list[NewsItem]) -> list[tuple[str, list[NewsItem]]]
 
 def build_adaptive_card(items: list[NewsItem]) -> dict:
     today = datetime.now(tz=KST).strftime("%Y-%m-%d")
+    top_item = max(items, key=lambda x: x.score) if items else None
+    global_index = 0
     body: list[dict] = [
         {
             "type": "Container",
@@ -180,7 +193,9 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
         )
 
         for item_index, item in enumerate(section_items):
-            body.extend(_build_item_body(item))
+            global_index += 1
+            is_pick = top_item is not None and item.url == top_item.url
+            body.extend(_build_item_body(global_index, item, is_pick=is_pick))
             if item_index < len(section_items) - 1:
                 body.append({"type": "TextBlock", "text": " ", "separator": True})
 

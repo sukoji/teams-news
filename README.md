@@ -1,14 +1,14 @@
 # Teams AI / Tech News Bot
 
 AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇**입니다.  
-GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea 읽을거리&정보공유에서 최근 24시간 이내 기사를 수집하고, 키워드 필터링 후 Microsoft Teams 채널에 **Adaptive Card**로 발행합니다.
+GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**에서 최근 24시간(NAVER D2·GitHub Trending은 7일) 이내 기사·레포를 수집하고, 키워드 필터링 후 Microsoft Teams 채널에 **Adaptive Card**로 발행합니다.
 
 ## 저장소 구조
 
 ```
 teams_news/
 ├── main.py                      # 진입점: 수집 → 필터 → 번역 → Teams 전송
-├── card_builder.py              # Adaptive Card JSON 생성 (PIAI 썸네일)
+├── card_builder.py              # Adaptive Card JSON 생성 (섹션·FactSet 레이아웃)
 ├── assets/piai-logo.png         # PIAI 로고 (카드 썸네일 기본값)
 ├── requirements.txt
 ├── .env.example
@@ -18,7 +18,11 @@ teams_news/
 │   ├── geeknews.py              # GeekNews RSS
 │   ├── aitimes.py               # AI Times RSS
 │   ├── huggingface.py           # HF Daily Papers API
-│   └── pytorch_korea.py         # PyTorch Korea 읽을거리&정보공유 RSS
+│   ├── pytorch_korea.py         # PyTorch Korea 읽을거리&정보공유 RSS
+│   ├── github_trending.py       # GitHub Search API (ML/AI 신규 레포)
+│   ├── etnews.py                # 전자신문 IT RSS
+│   ├── naver_d2.py              # NAVER D2 Atom
+│   └── zdnet_korea.py           # ZDNet Korea RSS
 └── utils/
     ├── filters.py               # 24h·키워드 필터, 소스 균형 선별
     ├── translate.py             # 영문 → 한국어 요약 (deep-translator)
@@ -36,6 +40,10 @@ teams_news/
 | AI Times | `https://cdn.aitimes.com/rss/gn_rss_allArticle.xml` | RSS |
 | Hugging Face Papers | `https://huggingface.co/api/daily_papers` | JSON API |
 | PyTorch Korea | `https://discuss.pytorch.kr/c/news/14` (읽을거리&정보공유) | Discourse `/latest.rss` + 카테고리 필터 (robots.txt 준수) |
+| GitHub Trending | `https://api.github.com/search/repositories` | Search API (topic: ML/LLM/PyTorch, 최근 7일 생성) |
+| 전자신문 IT | `https://rss.etnews.com/Section901.xml` | RSS |
+| NAVER D2 | `https://d2.naver.com/d2.atom` | Atom |
+| ZDNet Korea | `https://feeds.feedburner.com/zdkorea` | RSS |
 
 ### robots.txt 준수
 
@@ -47,12 +55,16 @@ teams_news/
 | **AI Times** (`aitimes.com`, `cdn.aitimes.com`) | `Disallow: /admin/` only | `cdn.aitimes.com/rss/*.xml` (RSS) | 기사 HTML·og:image 스크래핑 — **비활성** |
 | **Hugging Face** (`huggingface.co`) | `Allow: /` | `/api/daily_papers` (JSON API) | 논문 썸네일 CDN — **카드에 미사용** |
 | **PyTorch Korea** (`discuss.pytorch.kr`) | `Disallow: /c/*.rss`, `/t/*/*.rss` | `/latest.rss` (사이트 전체 최신 RSS) | `/c/news/14.rss` — **robots.txt 위반** → `/latest.rss`에서 `읽을거리&정보공유` 카테고리만 필터 |
+| **GitHub Trending** (`api.github.com`) | Search API 허용 | `/search/repositories` (인증 없이 일 1회 수준) | `github.com/trending` HTML 스크래핑·Heroku API — **미사용** |
+| **전자신문** (`rss.etnews.com`) | RSS 제공 | `rss.etnews.com/Section901.xml` | 기사 HTML 스크래핑 — **미사용** |
+| **NAVER D2** (`d2.naver.com`) | `Allow: /` | `/d2.atom` (Atom) | — |
+| **ZDNet Korea** (`feeds.feedburner.com`) | FeedBurner RSS | `feeds.feedburner.com/zdkorea` | — |
 
-> **og:image / RSS `<img>` / HF 썸네일**: 기사별 썸네일 수집·표시를 중단했습니다. Adaptive Card 썸네일은 **PIAI 로고**만 사용합니다 (`ENABLE_IMAGE_FETCH=false` 기본).
+> **썸네일**: 기사별 썸네일·og:image 수집·표시를 사용하지 않습니다 (`ENABLE_IMAGE_FETCH=false` 기본). 카드는 텍스트·FactSet 중심 레이아웃입니다.
 
 ### 수집·필터 기준
 
-- **시간**: 최근 24시간 이내 게시물 (HF Papers는 Daily API 특성상 48시간 완화)
+- **시간**: 최근 24시간 이내 게시물 (HF Papers 48h, NAVER D2·GitHub Trending 7일 완화)
 - **키워드**: AI, LLM, Agent, RAG, Deep Learning, Transformer, 오픈소스 등
 - **선별**: 키워드 점수 + **인기도/중요도** + **최신성** 가중 합산 후, **소스별 최소 1건** 보장하여 상위 **5~7건** (기본 7건, 소스당 최대 3건)
 
@@ -64,6 +76,8 @@ teams_news/
 | AI Times | RSS **노출 순서** | 앞쪽 기사일수록 높은 점수 (조회수 필드 없음) |
 | Hugging Face | **upvotes**, **댓글**, **GitHub stars** | Daily Papers API 필드 활용 |
 | PyTorch Korea | RSS **노출 순서** | 앞쪽 게시물일수록 높은 점수 (좋아요·댓글은 RSS 미제공) |
+| GitHub Trending | **GitHub stars** | Search API `stargazers_count`, 5,000 stars 초과 mega-repo 제외 |
+| 전자신문 IT / NAVER D2 / ZDNet Korea | RSS **노출 순서** | 앞쪽 기사일수록 높은 점수 |
 
 최종 점수 = 키워드 관련도 + `IMPORTANCE_WEIGHT` × 인기도 + `RECENCY_WEIGHT` × 최신성(24h 이내). 소스 균형 선별 시 각 소스에서 **가장 높은 점수** 항목을 우선 선택합니다.
 
@@ -125,7 +139,7 @@ on:
 | `DRY_RUN` | | `false` | `true`면 Teams 전송 없이 JSON 출력 |
 | `MAX_ITEMS` | | `7` | 카드에 포함할 최대 기사 수 |
 | `MIN_ITEMS` | | `5` | 키워드 필터 후 목표 최소 기사 수 |
-| `MIN_PER_SOURCE` | | `1` | 소스별 최소 포함 건수 (GeekNews·AI Times·HF·PyTorch Korea 각각) |
+| `MIN_PER_SOURCE` | | `1` | 소스별 최소 포함 건수 (8개 소스 균형) |
 | `MAX_PER_SOURCE` | | `3` | 소스별 최대 포함 건수 (HF 독점 방지) |
 | `IMPORTANCE_WEIGHT` | | `1.0` | 인기도/참여 지표 가중치 |
 | `RECENCY_WEIGHT` | | `0.5` | 24시간 이내 최신성 가중치 |
@@ -166,10 +180,11 @@ python main.py --dry-run
 ## Adaptive Card 형식
 
 - 헤더: `🤖 오늘의 AI/테크 연구 트렌드` (강조 컨테이너)
-- 각 항목: **PIAI 로고 썸네일(80px)** + **제목**, 2~3줄 **요약**, 소스별 **아이콘·색상 배지**
-- 영문 기사(HF Papers 등): `TRANSLATE_TO_KO=true` 시 한국어 제목·요약 표시
-- 하단: 항목별 **원문 보기** 링크
-- Adaptive Card **v1.4** (Teams Workflows 호환)
+- **섹션별 그룹**: 📄 Papers · 📰 News · 🔥 Trending · 💬 Community
+- 각 항목: 번호 + **제목**, 2~3줄 **요약**, **FactSet**(출처·날짜·Stars/Upvotes), **원문 보기** 링크
+- **최고 점수 1건**: `🏆 오늘의 Pick` 배지 + 강조 컨테이너·큰 제목
+- 영문 기사(HF Papers·GitHub 등): `TRANSLATE_TO_KO=true` 시 한국어 제목·요약 표시
+- Adaptive Card **v1.4** (Teams Workflows 호환, 썸네일 없음)
 
 ### 번역 동작
 
@@ -196,6 +211,8 @@ python main.py --dry-run
 - **AI Times**: RSS 본문 인코딩이 깨져 보일 수 있으나 제목·링크·날짜는 정상 수집됩니다.
 - **Hugging Face**: Daily Papers API는 당일 큐레이션 목록을 반환하며, arXiv 논문은 AI 연구 관련으로 자동 포함됩니다.
 - **PyTorch Korea**: `/c/news/14.rss`는 robots.txt에서 `Disallow: /c/*.rss` — `/latest.rss` + 카테고리 필터로 대체.
+- **GitHub Trending**: Search API 비인증 rate limit(시간당 ~60회) — 일 1회 cron에 충분. `gh-trending-api.herokuapp.com`은 2026년 기준 404.
+- **NAVER D2**: Atom 피드 갱신 주기가 길어 7일 창으로 수집.
 - **번역**: Google Translate 비공식 API — 간헐적 rate limit 가능. 실패 시 영문 폴백.
 
 ## 라이선스
