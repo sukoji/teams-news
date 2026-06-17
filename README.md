@@ -182,7 +182,6 @@ python main.py --dry-run
 - 헤더: `🤖 오늘의 AI/테크 연구 트렌드` (강조 컨테이너)
 - **섹션별 그룹**: 📄 Papers · 📰 News · 🔥 Trending · 💬 Community
 - 각 항목: 번호 + **제목**, 2~3줄 **요약**, **FactSet**(출처·날짜·Stars/Upvotes), **원문 보기** 링크
-- **최고 점수 1건**: `🏆 오늘의 Pick` 배지 + 강조 컨테이너·큰 제목
 - 영문 기사(HF Papers·GitHub 등): `TRANSLATE_TO_KO=true` 시 한국어 제목·요약 표시
 - Adaptive Card **v1.4** (Teams Workflows 호환, 썸네일 없음)
 

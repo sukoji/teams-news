@@ -72,25 +72,18 @@ def _item_facts(item: NewsItem) -> list[dict]:
     return facts
 
 
-def _build_item_body(
-    index: int, item: NewsItem, *, is_pick: bool = False
-) -> list[dict]:
-    title_prefix = "🏆 오늘의 Pick · " if is_pick else f"{index}. "
-    title_size = "Medium" if is_pick else "Default"
-
+def _build_item_body(index: int, item: NewsItem) -> list[dict]:
     return [
         {
             "type": "Container",
-            "style": "emphasis" if is_pick else "default",
             "spacing": "Medium",
             "items": [
                 {
                     "type": "TextBlock",
-                    "text": f"**{title_prefix}{_display_title(item)}**",
+                    "text": f"**{index}. {_display_title(item)}**",
                     "wrap": True,
                     "spacing": "None",
-                    "size": title_size,
-                    "weight": "Bolder" if is_pick else "Default",
+                    "weight": "Bolder",
                 },
                 {
                     "type": "TextBlock",
@@ -98,7 +91,7 @@ def _build_item_body(
                     "wrap": True,
                     "spacing": "Small",
                     "isSubtle": True,
-                    "maxLines": 4 if is_pick else 3,
+                    "maxLines": 3,
                 },
                 {
                     "type": "FactSet",
@@ -144,7 +137,6 @@ def _group_by_section(items: list[NewsItem]) -> list[tuple[str, list[NewsItem]]]
 
 def build_adaptive_card(items: list[NewsItem]) -> dict:
     today = datetime.now(tz=KST).strftime("%Y-%m-%d")
-    top_item = max(items, key=lambda x: x.score) if items else None
     global_index = 0
     body: list[dict] = [
         {
@@ -194,8 +186,7 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
 
         for item_index, item in enumerate(section_items):
             global_index += 1
-            is_pick = top_item is not None and item.url == top_item.url
-            body.extend(_build_item_body(global_index, item, is_pick=is_pick))
+            body.extend(_build_item_body(global_index, item))
             if item_index < len(section_items) - 1:
                 body.append({"type": "TextBlock", "text": " ", "separator": True})
 
