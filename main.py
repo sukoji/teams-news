@@ -16,9 +16,13 @@ from dotenv import load_dotenv
 from card_builder import build_teams_payload
 from collectors import (
     AITimesCollector,
+    ETNewsCollector,
     GeekNewsCollector,
+    GitHubTrendingCollector,
     HuggingFaceCollector,
+    NaverD2Collector,
     PyTorchKoreaCollector,
+    ZDNetKoreaCollector,
 )
 from collectors.base import BaseCollector
 from utils.filters import select_top_items
@@ -38,6 +42,10 @@ COLLECTORS: list[BaseCollector] = [
     AITimesCollector(),
     HuggingFaceCollector(),
     PyTorchKoreaCollector(),
+    GitHubTrendingCollector(),
+    ETNewsCollector(),
+    NaverD2Collector(),
+    ZDNetKoreaCollector(),
 ]
 
 

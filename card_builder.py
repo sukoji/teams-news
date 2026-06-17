@@ -10,14 +10,29 @@ SOURCE_COLORS: dict[str, str] = {
     "AI Times": "Good",
     "Hugging Face Papers": "Attention",
     "PyTorch Korea": "Warning",
+    "GitHub Trending": "Accent",
+    "전자신문 IT": "Good",
+    "NAVER D2": "Good",
+    "ZDNet Korea": "Good",
 }
 
 SOURCE_ICONS: dict[str, str] = {
-    "GeekNews": "📰",
-    "AI Times": "📡",
+    "GeekNews": "💬",
+    "AI Times": "📰",
     "Hugging Face Papers": "📄",
     "PyTorch Korea": "🔥",
+    "GitHub Trending": "⭐",
+    "전자신문 IT": "📰",
+    "NAVER D2": "📰",
+    "ZDNet Korea": "📰",
 }
+
+SOURCE_SECTIONS: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("📄 Papers", ("Hugging Face Papers",)),
+    ("📰 News", ("AI Times", "전자신문 IT", "ZDNet Korea", "NAVER D2")),
+    ("🔥 Trending", ("GitHub Trending",)),
+    ("💬 Community", ("GeekNews", "PyTorch Korea")),
+)
 
 
 def _display_title(item: NewsItem) -> str:
@@ -28,20 +43,33 @@ def _display_summary(item: NewsItem) -> str:
     return item.summary_ko or item.summary
 
 
-def _source_badge(source: str) -> dict:
-    icon = SOURCE_ICONS.get(source, "📌")
-    return {
-        "type": "TextBlock",
-        "text": f"{icon} {source}",
-        "weight": "Bolder",
-        "size": "Small",
-        "color": SOURCE_COLORS.get(source, "Default"),
-        "spacing": "None",
-        "wrap": True,
-    }
+def _format_date(item: NewsItem) -> str:
+    return item.published_at.astimezone(KST).strftime("%Y-%m-%d %H:%M")
 
 
-def _build_item_body(index: int, item: NewsItem) -> list[dict]:
+def _engagement_fact(item: NewsItem) -> dict | None:
+    if item.source == "Hugging Face Papers" and item.upvotes > 0:
+        return {"title": "Upvotes", "value": str(item.upvotes)}
+    if item.source == "GitHub Trending" and item.popularity > 0:
+        return {"title": "Stars", "value": f"{item.popularity:,}"}
+    if item.source == "GeekNews" and item.popularity > 0:
+        return {"title": "Points", "value": str(item.popularity)}
+    return None
+
+
+def _item_facts(item: NewsItem) -> list[dict]:
+    icon = SOURCE_ICONS.get(item.source, "📌")
+    facts: list[dict] = [
+        {"title": "출처", "value": f"{icon} {item.source}"},
+        {"title": "날짜", "value": _format_date(item)},
+    ]
+    engagement = _engagement_fact(item)
+    if engagement:
+        facts.append(engagement)
+    return facts
+
+
+def _build_item_body(item: NewsItem) -> list[dict]:
     return [
         {
             "type": "Container",
@@ -49,7 +77,7 @@ def _build_item_body(index: int, item: NewsItem) -> list[dict]:
             "items": [
                 {
                     "type": "TextBlock",
-                    "text": f"**{index}. {_display_title(item)}**",
+                    "text": f"**{_display_title(item)}**",
                     "wrap": True,
                     "spacing": "None",
                 },
@@ -62,32 +90,45 @@ def _build_item_body(index: int, item: NewsItem) -> list[dict]:
                     "maxLines": 3,
                 },
                 {
-                    "type": "ColumnSet",
+                    "type": "FactSet",
                     "spacing": "Small",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "auto",
-                            "items": [_source_badge(item.source)],
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": f"[원문 보기]({item.url})",
-                                    "horizontalAlignment": "Right",
-                                    "spacing": "None",
-                                    "wrap": True,
-                                }
-                            ],
-                        },
-                    ],
+                    "facts": _item_facts(item),
+                },
+                {
+                    "type": "TextBlock",
+                    "text": f"[원문 보기]({item.url})",
+                    "spacing": "Small",
+                    "wrap": True,
                 },
             ],
         }
     ]
+
+
+def _group_by_section(items: list[NewsItem]) -> list[tuple[str, list[NewsItem]]]:
+    by_source: dict[str, list[NewsItem]] = {}
+    for item in items:
+        by_source.setdefault(item.source, []).append(item)
+
+    grouped: list[tuple[str, list[NewsItem]]] = []
+    seen_sources: set[str] = set()
+
+    for section_title, sources in SOURCE_SECTIONS:
+        section_items: list[NewsItem] = []
+        for source in sources:
+            section_items.extend(by_source.get(source, []))
+            seen_sources.add(source)
+        if section_items:
+            grouped.append((section_title, section_items))
+
+    other_items: list[NewsItem] = []
+    for source, source_items in by_source.items():
+        if source not in seen_sources:
+            other_items.extend(source_items)
+    if other_items:
+        grouped.append(("📌 기타", other_items))
+
+    return grouped
 
 
 def build_adaptive_card(items: list[NewsItem]) -> dict:
@@ -116,10 +157,32 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
         },
     ]
 
-    for index, item in enumerate(items, start=1):
-        body.extend(_build_item_body(index, item))
-        if index < len(items):
+    sections = _group_by_section(items)
+    for section_index, (section_title, section_items) in enumerate(sections):
+        if section_index > 0:
             body.append({"type": "TextBlock", "text": " ", "separator": True})
+
+        body.append(
+            {
+                "type": "Container",
+                "style": "emphasis",
+                "spacing": "Medium",
+                "items": [
+                    {
+                        "type": "TextBlock",
+                        "text": section_title,
+                        "weight": "Bolder",
+                        "size": "Medium",
+                        "wrap": True,
+                    }
+                ],
+            }
+        )
+
+        for item_index, item in enumerate(section_items):
+            body.extend(_build_item_body(item))
+            if item_index < len(section_items) - 1:
+                body.append({"type": "TextBlock", "text": " ", "separator": True})
 
     card = {
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",

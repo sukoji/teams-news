@@ -59,10 +59,18 @@ HF_SOURCE = "Hugging Face Papers"
 GEEKNEWS_SOURCE = "GeekNews"
 AITIMES_SOURCE = "AI Times"
 PYTORCH_KOREA_SOURCE = "PyTorch Korea"
+GITHUB_TRENDING_SOURCE = "GitHub Trending"
+ETNEWS_SOURCE = "전자신문 IT"
+NAVER_D2_SOURCE = "NAVER D2"
+ZDNET_KOREA_SOURCE = "ZDNet Korea"
 ALL_SOURCES: tuple[str, ...] = (
+    HF_SOURCE,
+    GITHUB_TRENDING_SOURCE,
     GEEKNEWS_SOURCE,
     AITIMES_SOURCE,
-    HF_SOURCE,
+    ETNEWS_SOURCE,
+    NAVER_D2_SOURCE,
+    ZDNET_KOREA_SOURCE,
     PYTORCH_KOREA_SOURCE,
 )
 
@@ -149,6 +157,10 @@ def _popularity_score(item: NewsItem) -> float:
     if item.source == AITIMES_SOURCE:
         return popularity / 10.0
     if item.source == PYTORCH_KOREA_SOURCE:
+        return popularity / 10.0
+    if item.source == GITHUB_TRENDING_SOURCE:
+        return min(math.log1p(popularity), 7.0) * 3.5
+    if item.source in {ETNEWS_SOURCE, NAVER_D2_SOURCE, ZDNET_KOREA_SOURCE}:
         return popularity / 10.0
     return min(math.log1p(popularity), 5.0)
 
