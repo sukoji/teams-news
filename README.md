@@ -87,12 +87,12 @@ teams_news/
 
 | 항목 | 값 |
 |------|-----|
-| 기본 도착 시각 | **매일 ~10:00 KST** (UTC `17 20 * * *`, GitHub 지연 보정) |
+| 기본 도착 시각 | **매일 ~10:00 KST** (UTC `0 23 * * *`, GitHub 지연 ~2h 보정) |
 | 워크플로 파일 | `.github/workflows/cron.yml` |
 | 수동 실행 | Actions 탭 → **Daily AI Tech News Bot** → **Run workflow** |
 
 > **GitHub Actions 지연**: cron은 UTC 기준이며, 실제 실행은 **수 시간 늦게** 시작되는 경우가 많습니다.  
-> 예) `0 0 * * *`(9:00 KST 의도) → 실제 실행 ~13:30–14:00 KST. 현재 cron은 이 지연을 감안해 **10시경 도착**하도록 조정되어 있습니다.
+> 예) `17 20 * * *` → 실제 도착 ~07:15 KST. 현재 `0 23 * * *` → **~10:00 KST** 목표.
 
 ### 스케줄 커스터마이즈
 
@@ -102,7 +102,7 @@ teams_news/
 on:
   schedule:
     # ~10:00 KST 도착 목표 (GitHub 지연 보정)
-    - cron: "17 20 * * *"
+    - cron: "0 23 * * *"
     # 18:00 KST = 09:00 UTC — 저녁 digest 추가 시 주석 해제
     # - cron: "0 9 * * *"
 ```
