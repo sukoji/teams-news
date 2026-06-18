@@ -179,7 +179,7 @@ python main.py --dry-run
 
 ## Adaptive Card 형식
 
-- 헤더: `🤖 오늘의 AI/테크 연구 트렌드` (강조 컨테이너)
+- 헤더: `📄📰 오늘의 AI 논문 & 테크 뉴스` (강조 컨테이너)
 - **섹션별 그룹**: 📄 Papers · 📰 News · 🔥 Trending · 💬 Community
 - 각 항목: 번호 + **제목**, 2~3줄 **요약**, **FactSet**(출처·날짜·Stars/Upvotes), **원문 보기** 링크
 - 영문 기사(HF Papers·GitHub 등): `TRANSLATE_TO_KO=true` 시 한국어 제목·요약 표시

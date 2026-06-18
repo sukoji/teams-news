@@ -177,7 +177,7 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
         "items": [
             {
                 "type": "TextBlock",
-                "text": "🤖 오늘의 AI/테크 연구 트렌드",
+                "text": "📄📰 오늘의 AI 논문 & 테크 뉴스",
                 "weight": "Bolder",
                 "size": "Large",
                 "wrap": True,
