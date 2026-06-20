@@ -164,8 +164,10 @@ def build_all_feeds(digest: dict, *, dry_run: bool = False) -> list[Path]:
         written.append(path)
         logger.info("Wrote RSS feed: %s (%d items)", path, len(section_items))
 
-    index_path = FEEDS_DIR / "index.json"
-    index_path.write_text(
+    # data/feeds.json — avoids /feed/index.json shadowing the React /feed route on GitHub Pages
+    feeds_catalog_path = PUBLIC_DIR / "data" / "feeds.json"
+    feeds_catalog_path.parent.mkdir(parents=True, exist_ok=True)
+    feeds_catalog_path.write_text(
         __import__("json").dumps(
             {
                 "site_url": SITE_URL,
@@ -185,7 +187,7 @@ def build_all_feeds(digest: dict, *, dry_run: bool = False) -> list[Path]:
         ),
         encoding="utf-8",
     )
-    written.append(index_path)
+    written.append(feeds_catalog_path)
 
     return written
 
@@ -225,7 +227,7 @@ def build_archive_feeds(*, dry_run: bool = False) -> list[Path]:
 
     written: list[Path] = []
     if dry_run:
-        for _, filename, title, _, section_items, _ in feeds:
+        for _, filename, title, _, _, section_items, _ in feeds:
             logger.info("Archive RSS dry run — %s: %d items (%s)", filename, len(section_items), title)
         return written
 

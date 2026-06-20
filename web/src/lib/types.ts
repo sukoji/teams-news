@@ -50,6 +50,7 @@ export const FEED_URLS = {
   trending: `${SITE_BASE}/feed/trending.xml`,
   community: `${SITE_BASE}/feed/community.xml`,
   json: `${SITE_BASE}/data/latest.json`,
+  catalog: `${SITE_BASE}/data/feeds.json`,
   archive: `${SITE_BASE}/data/archive/search-index.json`,
 } as const;
 

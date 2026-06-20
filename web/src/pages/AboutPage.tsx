@@ -1,6 +1,12 @@
 import { SectionCard } from "../styleseed/components/patterns/section-card";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 export function AboutPage() {
+  usePageMeta({
+    title: "About",
+    description: "PIAI Teams News — AI·테크 뉴스 큐레이션 정책 및 GeekNews 비교",
+  });
+
   return (
     <div className="max-w-2xl space-y-8">
       <section>

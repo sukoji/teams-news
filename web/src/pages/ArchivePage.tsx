@@ -4,6 +4,7 @@ import type { Digest } from "../lib/types";
 import { SITE_BASE, fetchArchiveDates, fetchDigest } from "../lib/types";
 import type { ArchiveIndex } from "../lib/archive";
 import { Badge } from "../styleseed/components/ui/badge";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 async function fetchArchiveIndex(): Promise<ArchiveIndex> {
   const res = await fetch(`${SITE_BASE}/data/archive-index.json`);
@@ -14,6 +15,11 @@ async function fetchArchiveIndex(): Promise<ArchiveIndex> {
 export function ArchivePage() {
   const [index, setIndex] = useState<ArchiveIndex>({ dates: [] });
   const [latest, setLatest] = useState<Digest | null>(null);
+
+  usePageMeta({
+    title: "아카이브",
+    description: "날짜별 AI·테크 뉴스 다이제스트 아카이브",
+  });
 
   useEffect(() => {
     fetchArchiveIndex().then(setIndex);

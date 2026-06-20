@@ -6,12 +6,21 @@ import {
   formatEngagement,
   formatRelativeTime,
 } from "../lib/types";
+import { highlightText } from "../lib/highlight";
 import { Badge } from "../styleseed/components/ui/badge";
 import { cn } from "../styleseed/components/ui/utils";
 
-export function NewsCard({ item }: { item: DigestItem }) {
+export function NewsCard({
+  item,
+  highlightQuery,
+}: {
+  item: DigestItem;
+  highlightQuery?: string;
+}) {
   const style = SOURCE_STYLES[item.source] ?? { color: "#8a8f98", icon: "📌" };
   const engagement = formatEngagement(item);
+  const title = displayTitle(item);
+  const summary = displaySummary(item);
 
   return (
     <article
@@ -41,12 +50,12 @@ export function NewsCard({ item }: { item: DigestItem }) {
           rel="noopener noreferrer"
           className="no-underline hover:text-brand"
         >
-          {displayTitle(item)}
+          {highlightText(title, highlightQuery)}
         </a>
       </h2>
 
       <p className="mb-4 flex-1 text-sm leading-relaxed text-text-tertiary line-clamp-3">
-        {displaySummary(item)}
+        {highlightText(summary, highlightQuery)}
       </p>
 
       <div className="flex items-center justify-between gap-2 border-t border-border pt-3 text-xs text-text-disabled">

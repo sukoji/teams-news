@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { ArchiveMeta, FeedFilters, SortMode } from "../lib/archive";
 import { SECTION_LABELS } from "../lib/archive";
 import { cn } from "../styleseed/components/ui/utils";
@@ -42,8 +42,22 @@ function Chip({
 export function FilterPanel({ meta, filters, onChange, className }: FilterPanelProps) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setDrawerOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [drawerOpen]);
+
   const update = (patch: Partial<FeedFilters>) => {
-    onChange({ ...filters, ...patch });
+    onChange({ ...filters, ...patch, page: 1 });
   };
 
   const panel = (
@@ -144,7 +158,12 @@ export function FilterPanel({ meta, filters, onChange, className }: FilterPanelP
           필터 · 정렬
         </button>
         {drawerOpen && (
-          <div className="fixed inset-0 z-[60] flex flex-col bg-surface-page/95 backdrop-blur-sm">
+          <div
+            className="fixed inset-0 z-[60] flex flex-col bg-surface-page/95 backdrop-blur-sm"
+            role="dialog"
+            aria-modal="true"
+            aria-label="필터"
+          >
             <div className="flex items-center justify-between border-b border-border px-4 py-3">
               <span className="font-semibold text-text-primary">필터</span>
               <button type="button" className="ss-chip" onClick={() => setDrawerOpen(false)}>

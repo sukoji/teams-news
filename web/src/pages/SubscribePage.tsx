@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FEED_URLS } from "../lib/types";
 import { SectionCard } from "../styleseed/components/patterns/section-card";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 const FEEDS = [
   { name: "전체 아카이브", url: FEED_URLS.all, desc: "아카이브 최신 50건 RSS 2.0" },
@@ -11,6 +12,7 @@ const FEEDS = [
   { name: "🔥 Trending", url: FEED_URLS.trending, desc: "GitHub ML/AI 레포" },
   { name: "💬 Community", url: FEED_URLS.community, desc: "PyTorch Korea" },
   { name: "JSON API", url: FEED_URLS.json, desc: "구조화된 최신 다이제스트 (REST-style static JSON)" },
+  { name: "피드 카탈로그", url: FEED_URLS.catalog, desc: "모든 RSS 피드 URL 목록 (JSON)" },
   { name: "아카이브 검색 인덱스", url: FEED_URLS.archive, desc: "전체 수집 아카이브 검색용 JSON" },
 ];
 
@@ -33,6 +35,11 @@ function CopyButton({ text }: { text: string }) {
 
 export function SubscribePage() {
   const origin = typeof window !== "undefined" ? window.location.origin : "";
+
+  usePageMeta({
+    title: "RSS & API",
+    description: "PIAI Teams News RSS 피드 및 JSON API — 섹션별 구독, 봇 개발용 확장 메타데이터",
+  });
 
   return (
     <div className="space-y-8">

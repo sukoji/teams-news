@@ -56,6 +56,7 @@ export interface FeedFilters {
   from?: string;
   to?: string;
   sort?: SortMode;
+  page?: number;
 }
 
 const META_URL = `${SITE_BASE}/data/archive/meta.json`;
@@ -103,6 +104,8 @@ export function toDigestItem(item: SearchIndexItem, index: number): DigestItem {
 }
 
 export function parseFilters(search: URLSearchParams): FeedFilters {
+  const pageRaw = search.get("page");
+  const page = pageRaw ? Math.max(1, parseInt(pageRaw, 10) || 1) : 1;
   return {
     q: search.get("q")?.trim() || undefined,
     source: search.get("source")?.trim() || undefined,
@@ -110,6 +113,7 @@ export function parseFilters(search: URLSearchParams): FeedFilters {
     from: search.get("from")?.trim() || undefined,
     to: search.get("to")?.trim() || undefined,
     sort: (search.get("sort") as SortMode) || undefined,
+    page,
   };
 }
 
@@ -121,6 +125,7 @@ export function filtersToSearchParams(filters: FeedFilters): URLSearchParams {
   if (filters.from) params.set("from", filters.from);
   if (filters.to) params.set("to", filters.to);
   if (filters.sort && filters.sort !== "newest") params.set("sort", filters.sort);
+  if (filters.page && filters.page > 1) params.set("page", String(filters.page));
   return params;
 }
 
