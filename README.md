@@ -1,35 +1,57 @@
 # Teams AI / Tech News Bot
 
-AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇**입니다.  
-GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**에서 최근 24시간(NAVER D2·GitHub Trending은 7일) 이내 기사·레포를 수집하고, 키워드 필터링 후 Microsoft Teams 채널에 **Adaptive Card**로 발행합니다.
+AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇 + 웹 다이제스트**입니다.  
+GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**에서 최근 24시간(NAVER D2·GitHub Trending은 7일) 이내 기사·레포를 수집하고, 키워드·섹션 균형 선별 후 **Microsoft Teams**, **웹 사이트**, **RSS/JSON API**로 동일 다이제스트를 발행합니다.
+
+## 웹 사이트 & RSS
+
+| 항목 | URL |
+|------|-----|
+| **웹 다이제스트** | `https://jskh-201910840.github.io/teams-news/` |
+| **RSS (전체)** | `https://jskh-201910840.github.io/teams-news/feed.xml` |
+| **RSS (확장 메타)** | `https://jskh-201910840.github.io/teams-news/feed/full.xml` |
+| **JSON API** | `https://jskh-201910840.github.io/teams-news/data/latest.json` |
+| **구독 페이지** | `https://jskh-201910840.github.io/teams-news/subscribe` |
+
+섹션별 RSS: `/feed/papers.xml` · `/feed/news.xml` · `/feed/trending.xml` · `/feed/community.xml`
+
+> GitHub Pages 최초 배포 후 Settings → Pages → Source를 **GitHub Actions**로 설정하세요.
+
+### 봇 개발자용 RSS 필드
+
+각 `<item>`:
+
+| 필드 | 설명 |
+|------|------|
+| `title` | 한국어 제목 (가능 시) |
+| `link` | **원문 URL** (본문 미포함) |
+| `description` | 한국어/영문 요약 |
+| `pubDate` | RFC 822 게시 시각 |
+| `category` | `papers` \| `news` \| `trending` \| `community` |
+| `source` | 출처명 |
+| `guid` | `SHA-256(url\|date)` — 중복 감지용 |
+
+`feed/full.xml` 추가 네임스페이스: `teams:score`, `teams:engagement`, `teams:section`, `teams:titleOriginal`
 
 ## 저장소 구조
 
 ```
 teams_news/
-├── main.py                      # 진입점: 수집 → 필터 → 번역 → Teams 전송
-├── card_builder.py              # Adaptive Card JSON 생성 (섹션·FactSet 레이아웃)
-├── assets/piai-logo.png         # PIAI 로고 (카드 썸네일 기본값)
+├── main.py                      # 진입점: --teams | --export | --all (기본: all)
+├── card_builder.py              # Adaptive Card JSON (Teams, 변경 없음)
+├── outputs/
+│   ├── export.py                # data/digests/*.json + web/public/data/
+│   └── rss_builder.py           # web/public/feed.xml + feed/*.xml
+├── data/digests/                # YYYY-MM-DD.json, latest.json, archive-index.json
+├── web/                         # Vite + React + Tailwind (StyleSeed Linear 스킨)
+│   ├── src/                     # Home, Archive, Subscribe, About
+│   └── public/                  # feed.xml, data/latest.json (빌드 시 dist에 복사)
+├── assets/piai-logo.png
 ├── requirements.txt
 ├── .env.example
-├── .github/workflows/cron.yml   # GitHub Actions 스케줄 (매일 ~10:00 KST)
-├── collectors/
-│   ├── base.py                  # NewsItem, BaseCollector
-│   ├── geeknews.py              # GeekNews RSS
-│   ├── aitimes.py               # AI Times RSS
-│   ├── huggingface.py           # HF Daily Papers API
-│   ├── pytorch_korea.py         # PyTorch Korea 읽을거리&정보공유 RSS
-│   ├── github_trending.py       # GitHub Search API (ML/AI 신규 레포)
-│   ├── etnews.py                # 전자신문 IT RSS
-│   ├── naver_d2.py              # NAVER D2 Atom
-│   └── zdnet_korea.py           # ZDNet Korea RSS
-└── utils/
-    ├── filters.py               # 24h·키워드 필터, 소스 균형 선별
-    ├── translate.py             # 영문 → 한국어 요약 (deep-translator)
-    ├── thumbnail.py             # PIAI 카드 썸네일 URL
-    ├── image_fetch.py           # (비활성) og:image 스크래핑 — ENABLE_IMAGE_FETCH=false
-    ├── media.py                 # HTTPS 이미지 URL 검증
-    └── timezone.py              # KST 타임존
+├── .github/workflows/cron.yml   # 수집 → export → commit → GitHub Pages 배포
+├── collectors/ …
+└── utils/ …
 ```
 
 ## 데이터 소스
@@ -83,12 +105,14 @@ teams_news/
 
 ## 스케줄 (GitHub Actions)
 
-봇은 **GitHub Actions cron**으로 주기적으로 실행됩니다. 별도 서버나 상시 실행 프로세스는 필요 없습니다.
+봇은 **GitHub Actions cron**으로 주기적으로 실행됩니다. 매 실행마다 Teams 발송, `data/digests/`·RSS 갱신, 웹 빌드, **GitHub Pages** 배포까지 한 번에 수행합니다.
 
 | 항목 | 값 |
 |------|-----|
 | 기본 도착 시각 | **매일 ~10:00 KST** (UTC `0 23 * * *`, GitHub 지연 ~2h 보정) |
 | 워크플로 파일 | `.github/workflows/cron.yml` |
+| 실행 명령 | `python main.py --all` |
+| 배포 | `web/dist` → GitHub Pages (`gh-pages` Actions artifact) |
 | 수동 실행 | Actions 탭 → **Daily AI Tech News Bot** → **Run workflow** |
 
 > **GitHub Actions 지연**: cron은 UTC 기준이며, 실제 실행은 **수 시간 늦게** 시작되는 경우가 많습니다.  
@@ -170,11 +194,28 @@ copy .env.example .env   # Windows (macOS/Linux: cp .env.example .env)
 `.env`에 `TEAMS_WEBHOOK_URL`을 설정한 뒤:
 
 ```bash
-# 실제 Teams 전송
+# Teams + JSON/RSS export (cron 기본 동작)
 python main.py
+python main.py --all
 
-# 수집·카드 생성만 확인 (전송 안 함)
-python main.py --dry-run
+# Teams만
+python main.py --teams
+
+# JSON/RSS export만
+python main.py --export
+
+# 수집·카드·export 확인 (Teams 미전송, export JSON stdout)
+python main.py --export --dry-run
+python main.py --teams --dry-run
+```
+
+### 웹 UI 로컬 개발
+
+```bash
+cd web
+npm install
+npm run dev      # http://localhost:5173/teams-news/
+npm run build    # dist/ → GitHub Pages 아티팩트
 ```
 
 ## Adaptive Card 형식

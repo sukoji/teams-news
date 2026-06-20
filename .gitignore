@@ -17,3 +17,15 @@ Thumbs.db
 _probe_*.py
 _fix_*.py
 _w.py
+
+# Web
+web/node_modules/
+web/dist/
+
+# StyleSeed clone (temporary)
+.styleseed-tmp/
+
+# Dry run artifacts
+dry_run*.log
+dry_run*.json
+.styleseed-tmp/

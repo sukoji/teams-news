@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AI/tech news bot: collect, filter, and post to Microsoft Teams."""
+"""AI/tech news bot: collect, filter, export, RSS, and post to Microsoft Teams."""
 
 from __future__ import annotations
 
@@ -25,6 +25,8 @@ from collectors import (
     ZDNetKoreaCollector,
 )
 from collectors.base import BaseCollector
+from outputs.export import build_digest_payload, export_digest
+from outputs.rss_builder import build_all_feeds
 from utils.filters import format_section_distribution, select_top_items
 from utils.translate import localize_items
 
@@ -77,17 +79,70 @@ def send_to_teams(payload: dict, webhook_url: str) -> None:
         )
 
 
+def run_teams(items, *, dry_run: bool) -> int:
+    payload = build_teams_payload(items)
+
+    if dry_run:
+        output = json.dumps(payload, ensure_ascii=False, indent=2)
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[attr-defined]
+        except (AttributeError, OSError):
+            pass
+        print(output)
+        logger.info("Dry run complete — Teams payload printed, not sent.")
+        return 0
+
+    webhook_url = os.getenv("TEAMS_WEBHOOK_URL", "").strip()
+    if not webhook_url:
+        logger.error("TEAMS_WEBHOOK_URL environment variable is not set.")
+        return 1
+
+    try:
+        send_to_teams(payload, webhook_url)
+    except Exception:
+        logger.exception("Failed to send message to Teams")
+        return 1
+
+    return 0
+
+
+def run_export(items, *, dry_run: bool) -> int:
+    digest = build_digest_payload(items)
+    export_digest(items, dry_run=dry_run)
+    build_all_feeds(digest, dry_run=dry_run)
+    logger.info("Export complete.")
+    return 0
+
+
 def main() -> int:
-    parser = argparse.ArgumentParser(description="AI/tech news Teams bot")
+    parser = argparse.ArgumentParser(description="AI/tech news Teams bot + web export")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--teams",
+        action="store_true",
+        help="Post digest to Microsoft Teams only",
+    )
+    mode.add_argument(
+        "--export",
+        action="store_true",
+        help="Export JSON digest and RSS feeds only",
+    )
+    mode.add_argument(
+        "--all",
+        action="store_true",
+        help="Teams + export (default when no mode flag is given)",
+    )
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Collect and build card JSON without posting to Teams",
+        help="Collect and build without Teams post; export prints JSON when used with --export",
     )
     args = parser.parse_args()
 
     dry_run = args.dry_run or os.getenv("DRY_RUN", "").lower() in {"1", "true", "yes"}
-    webhook_url = os.getenv("TEAMS_WEBHOOK_URL", "").strip()
+
+    do_teams = args.teams or args.all or not (args.teams or args.export or args.all)
+    do_export = args.export or args.all or not (args.teams or args.export or args.all)
 
     logger.info("Starting news collection...")
     raw_items = collect_all()
@@ -117,29 +172,16 @@ def main() -> int:
             format_item_score(item),
         )
 
-    payload = build_teams_payload(localized)
+    exit_code = 0
+    if do_export:
+        if run_export(localized, dry_run=dry_run) != 0:
+            exit_code = 1
+    if do_teams:
+        teams_code = run_teams(localized, dry_run=dry_run)
+        if teams_code != 0:
+            exit_code = teams_code
 
-    if dry_run:
-        output = json.dumps(payload, ensure_ascii=False, indent=2)
-        try:
-            sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[attr-defined]
-        except (AttributeError, OSError):
-            pass
-        print(output)
-        logger.info("Dry run complete — payload printed, not sent.")
-        return 0
-
-    if not webhook_url:
-        logger.error("TEAMS_WEBHOOK_URL environment variable is not set.")
-        return 1
-
-    try:
-        send_to_teams(payload, webhook_url)
-    except Exception:
-        logger.exception("Failed to send message to Teams")
-        return 1
-
-    return 0
+    return exit_code
 
 
 if __name__ == "__main__":

@@ -1,0 +1,71 @@
+@import "./styleseed/css/fonts.css";
+@import "tailwindcss";
+@import "./styleseed/css/theme-linear.css";
+@import "./styleseed/css/base.css";
+
+html,
+body {
+  background: var(--surface-page);
+  color: var(--foreground);
+  transition:
+    background var(--duration-moderate) var(--ease-default),
+    color var(--duration-moderate) var(--ease-default);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* StyleSeed card — cards on background, restrained shadow (DESIGN-LANGUAGE §8, §12) */
+.ss-card {
+  background: var(--card);
+  color: var(--card-foreground);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: var(--shadow-card);
+  transition:
+    border-color var(--duration-normal) var(--ease-default),
+    box-shadow var(--duration-normal) var(--ease-default);
+}
+
+.ss-card:hover {
+  border-color: color-mix(in srgb, var(--brand) 35%, var(--border));
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* Pill toggle — StyleSeed §10 selection UI */
+.ss-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8125rem;
+  font-weight: var(--font-weight-medium);
+  background: var(--card);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-default);
+}
+
+.ss-chip:hover {
+  color: var(--text-secondary);
+  border-color: color-mix(in srgb, var(--brand) 20%, var(--border));
+}
+
+.ss-chip-active {
+  background: var(--brand-tint);
+  color: var(--brand);
+  border-color: color-mix(in srgb, var(--brand) 35%, var(--border));
+}
+
+.ss-section-label {
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}

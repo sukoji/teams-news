@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T10:00:00+09:00",
+  "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
+  "item_count": 4,
+  "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "sample-paper-001",
+          "index": 1,
+          "title": "Scaling Test-Time Compute for LLM Reasoning",
+          "title_ko": "LLM 추론을 위한 테스트 타임 컴퓨트 스케일링",
+          "summary": "Researchers show that allocating more inference compute improves reasoning benchmarks.",
+          "summary_ko": "연구진은 추론 벤치마크 성능 향상을 위해 더 많은 추론 컴퓨트를 할당하는 방법을 제시합니다.",
+          "url": "https://huggingface.co/papers/2401.00001",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-06-20T08:30:00+09:00",
+          "popularity": 42,
+          "upvotes": 42,
+          "score": 18.5,
+          "importance_score": 12.3,
+          "matched_keywords": ["LLM", "reasoning"],
+          "engagement": { "label": "Upvotes", "value": 42 }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "📰 News",
+      "items": [
+        {
+          "id": "sample-news-001",
+          "index": 2,
+          "title": "국내 AI 스타트업, 오픈소스 LLM 파인튜닝 플랫폼 출시",
+          "title_ko": null,
+          "summary": "로컬 환경에서 RAG와 fine-tuning을 지원하는 SaaS 형태의 플랫폼이 공개되었습니다.",
+          "summary_ko": null,
+          "url": "https://news.hada.io/topic?id=12345",
+          "source": "GeekNews",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-06-20T07:15:00+09:00",
+          "popularity": 128,
+          "upvotes": 0,
+          "score": 22.1,
+          "importance_score": 15.0,
+          "matched_keywords": ["LLM", "RAG", "fine-tuning"],
+          "engagement": { "label": "Points", "value": 128 }
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "sample-trend-001",
+          "index": 3,
+          "title": "open-agent-kit/agent-runner",
+          "title_ko": "open-agent-kit/agent-runner — 멀티에이전트 실행 프레임워크",
+          "summary": "Lightweight framework for orchestrating tool-using agents with MCP support.",
+          "summary_ko": "MCP를 지원하는 도구 사용 에이전트 오케스트레이션을 위한 경량 프레임워크입니다.",
+          "url": "https://github.com/open-agent-kit/agent-runner",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-06-19T22:00:00+09:00",
+          "popularity": 2840,
+          "upvotes": 0,
+          "score": 19.8,
+          "importance_score": 14.2,
+          "matched_keywords": ["agent", "MCP"],
+          "engagement": { "label": "Stars", "value": 2840 }
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "💬 Community",
+      "items": [
+        {
+          "id": "sample-community-001",
+          "index": 4,
+          "title": "PyTorch 2.7 로컬 추론 최적화 팁 모음",
+          "title_ko": null,
+          "summary": "커뮤니티에서 공유된 torch.compile과 quantization 실전 노하우.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/example/12345",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-06-20T06:00:00+09:00",
+          "popularity": 15,
+          "upvotes": 0,
+          "score": 11.2,
+          "importance_score": 8.5,
+          "matched_keywords": ["inference"],
+          "engagement": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "sample-paper-001",
+      "index": 1,
+      "title": "Scaling Test-Time Compute for LLM Reasoning",
+      "title_ko": "LLM 추론을 위한 테스트 타임 컴퓨트 스케일링",
+      "summary": "Researchers show that allocating more inference compute improves reasoning benchmarks.",
+      "summary_ko": "연구진은 추론 벤치마크 성능 향상을 위해 더 많은 추론 컴퓨트를 할당하는 방법을 제시합니다.",
+      "url": "https://huggingface.co/papers/2401.00001",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-06-20T08:30:00+09:00",
+      "popularity": 42,
+      "upvotes": 42,
+      "score": 18.5,
+      "importance_score": 12.3,
+      "matched_keywords": ["LLM", "reasoning"],
+      "engagement": { "label": "Upvotes", "value": 42 }
+    },
+    {
+      "id": "sample-news-001",
+      "index": 2,
+      "title": "국내 AI 스타트업, 오픈소스 LLM 파인튜닝 플랫폼 출시",
+      "title_ko": null,
+      "summary": "로컬 환경에서 RAG와 fine-tuning을 지원하는 SaaS 형태의 플랫폼이 공개되었습니다.",
+      "summary_ko": null,
+      "url": "https://news.hada.io/topic?id=12345",
+      "source": "GeekNews",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-06-20T07:15:00+09:00",
+      "popularity": 128,
+      "upvotes": 0,
+      "score": 22.1,
+      "importance_score": 15.0,
+      "matched_keywords": ["LLM", "RAG", "fine-tuning"],
+      "engagement": { "label": "Points", "value": 128 }
+    },
+    {
+      "id": "sample-trend-001",
+      "index": 3,
+      "title": "open-agent-kit/agent-runner",
+      "title_ko": "open-agent-kit/agent-runner — 멀티에이전트 실행 프레임워크",
+      "summary": "Lightweight framework for orchestrating tool-using agents with MCP support.",
+      "summary_ko": "MCP를 지원하는 도구 사용 에이전트 오케스트레이션을 위한 경량 프레임워크입니다.",
+      "url": "https://github.com/open-agent-kit/agent-runner",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-06-19T22:00:00+09:00",
+      "popularity": 2840,
+      "upvotes": 0,
+      "score": 19.8,
+      "importance_score": 14.2,
+      "matched_keywords": ["agent", "MCP"],
+      "engagement": { "label": "Stars", "value": 2840 }
+    },
+    {
+      "id": "sample-community-001",
+      "index": 4,
+      "title": "PyTorch 2.7 로컬 추론 최적화 팁 모음",
+      "title_ko": null,
+      "summary": "커뮤니티에서 공유된 torch.compile과 quantization 실전 노하우.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/example/12345",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-06-20T06:00:00+09:00",
+      "popularity": 15,
+      "upvotes": 0,
+      "score": 11.2,
+      "importance_score": 8.5,
+      "matched_keywords": ["inference"],
+      "engagement": null
+    }
+  ]
+}
