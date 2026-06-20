@@ -5,44 +5,71 @@
     <link>https://jskh-201910840.github.io/teams-news/</link>
     <description>Curated AI papers, tech news, trending repos, and community posts — daily digest with Korean summaries. Links to originals only.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Jun 2026 15:30:06 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 15:40:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
-      <title>LLM 추론을 위한 테스트 타임 컴퓨트 스케일링</title>
-      <link>https://huggingface.co/papers/2401.00001</link>
-      <description>연구진은 추론 벤치마크 성능 향상을 위해 더 많은 추론 컴퓨트를 할당하는 방법을 제시합니다.</description>
-      <pubDate>Sat, 20 Jun 2026 08:30:00 +0900</pubDate>
+      <title>에이전트 및 멀티모달 LLM을 위한 상황 인식 RL</title>
+      <link>https://huggingface.co/papers/2606.17053</link>
+      <description>ContextRL은 쿼리-답변 쌍을 지원하기 위한 컨텍스트 선택을 보상하는 강화 학습을 통해 장기 추론 및 다중 모드 성능을 향상하고 다이버에 대한 표준 방법보다 향상된 성능을 달성합니다.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
       <category>papers</category>
-      <source url="https://huggingface.co/papers/2401.00001">Hugging Face Papers</source>
-      <guid isPermaLink="false">sample-paper-001</guid>
+      <source url="https://huggingface.co/papers/2606.17053">Hugging Face Papers</source>
+      <guid isPermaLink="false">85fc30b04d961b17c54843db7647eec5</guid>
     </item>
     <item>
-      <title>국내 AI 스타트업, 오픈소스 LLM 파인튜닝 플랫폼 출시</title>
-      <link>https://news.hada.io/topic?id=12345</link>
-      <description>로컬 환경에서 RAG와 fine-tuning을 지원하는 SaaS 형태의 플랫폼이 공개되었습니다.</description>
-      <pubDate>Sat, 20 Jun 2026 07:15:00 +0900</pubDate>
+      <title>Moebius: 10B 수준의 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크</title>
+      <link>https://huggingface.co/papers/2606.19195</link>
+      <description>경량 이미지 인페인팅 프레임워크는 새로운 로컬-글로벌 상호 작용 블록 및 적응형 증류 전략을 통해 매개변수와 추론 시간을 크게 줄임으로써 충실도 높은 결과를 달성합니다.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19195">Hugging Face Papers</source>
+      <guid isPermaLink="false">2f5f8fec4770858efeb6c907829f8435</guid>
+    </item>
+    <item>
+      <title>퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=211932</link>
+      <description>퍼플렉시티가 기존 AI 메모리 개념을 뒤집는 새로운 기억 시스템 \'브레인(Brain)\'을 공개했다.</description>
+      <pubDate>Sat, 20 Jun 2026 13:39:19 +0900</pubDate>
       <category>news</category>
-      <source url="https://news.hada.io/topic?id=12345">GeekNews</source>
-      <guid isPermaLink="false">sample-news-001</guid>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=211932">AI Times</source>
+      <guid isPermaLink="false">3d638b9661543a414fe58d91735a5b79</guid>
     </item>
     <item>
-      <title>open-agent-kit/agent-runner — 멀티에이전트 실행 프레임워크</title>
-      <link>https://github.com/open-agent-kit/agent-runner</link>
-      <description>MCP를 지원하는 도구 사용 에이전트 오케스트레이션을 위한 경량 프레임워크입니다.</description>
-      <pubDate>Fri, 19 Jun 2026 22:00:00 +0900</pubDate>
+      <title>메모리 시장, 올해 4배 성장 전망...AI 수요가 견인</title>
+      <link>https://zdnet.co.kr/view/?no=20260619204511</link>
+      <description>[지디넷코리아]전 세계 메모리 반도체 시장이 인공지능(AI) 인프라 수요에 힘입어 올해 폭발적 성장세를 보이고 있다. 서버용 메모리가 전체 메모리에서 차지하는 비중도 절반을 넘어설 것으로 예상된다.</description>
+      <pubDate>Sat, 20 Jun 2026 14:00:03 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260619204511">ZDNet Korea</source>
+      <guid isPermaLink="false">47c036a20247ab8e31f2ea03ca86a682</guid>
+    </item>
+    <item>
+      <title>agiwhitelist/tokdiet — AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API 간의 로컬 스트리밍 역방향 프록시(</title>
+      <link>https://github.com/agiwhitelist/tokdiet</link>
+      <description>AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API(Anthropic, OpenAI, Gemini, MiniMax) 간의 로컬 스트리밍 역방향 프록시.</description>
+      <pubDate>Thu, 18 Jun 2026 20:01:06 +0900</pubDate>
       <category>trending</category>
-      <source url="https://github.com/open-agent-kit/agent-runner">GitHub Trending</source>
-      <guid isPermaLink="false">sample-trend-001</guid>
+      <source url="https://github.com/agiwhitelist/tokdiet">GitHub Trending</source>
+      <guid isPermaLink="false">27688420164052b793732968e3c19af6</guid>
     </item>
     <item>
-      <title>PyTorch 2.7 로컬 추론 최적화 팁 모음</title>
-      <link>https://discuss.pytorch.kr/t/example/12345</link>
-      <description>커뮤니티에서 공유된 torch.compile과 quantization 실전 노하우.</description>
-      <pubDate>Sat, 20 Jun 2026 06:00:00 +0900</pubDate>
+      <title>haydenbleasel/batchwork — AI 제공자를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.</title>
+      <link>https://github.com/haydenbleasel/batchwork</link>
+      <description>AI 제공업체를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.</description>
+      <pubDate>Sat, 20 Jun 2026 11:28:30 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/haydenbleasel/batchwork">GitHub Trending</source>
+      <guid isPermaLink="false">eea8e7e30889f9db752b3fea3cfeb8ff</guid>
+    </item>
+    <item>
+      <title>Cua Driver: Windows와 Linux 데스크톱 백그라운드 컴퓨터 사용 프로젝트 (feat. Claude Code, MCP)</title>
+      <link>https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807</link>
+      <description>Cua Driver 소개 코딩 에이전트나 범용 에이전트에게 "컴퓨터를 직접 쓰게" 하면 작업의 폭이 크게 넓어집니다. 코드를 고치고, 앱을 실행하고, 실제 창을 읽고, 버튼을 누르고, 자기가 만든 결과를 스스로 검증하는 컴퓨터 유즈(Computer-Use) 의 순환이 만들어지기 때문입니다. 그런데 이 순환에는 오래된 걸림돌이 하나 있었습니다.</description>
+      <pubDate>Sat, 20 Jun 2026 09:30:08 +0900</pubDate>
       <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/example/12345">PyTorch Korea</source>
-      <guid isPermaLink="false">sample-community-001</guid>
+      <source url="https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807">PyTorch Korea</source>
+      <guid isPermaLink="false">5570883f447c082f98a5a5190d358d9b</guid>
     </item>
   </channel>
 </rss>

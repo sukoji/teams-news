@@ -1,32 +1,67 @@
 {
   "schema_version": 1,
   "date": "2026-06-20",
-  "generated_at": "2026-06-20T10:00:00+09:00",
+  "generated_at": "2026-06-20T15:40:45.998633+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 4,
+  "item_count": 7,
   "sections": [
     {
       "id": "papers",
       "title": "📄 Papers",
       "items": [
         {
-          "id": "sample-paper-001",
+          "id": "85fc30b04d961b17c54843db7647eec5",
           "index": 1,
-          "title": "Scaling Test-Time Compute for LLM Reasoning",
-          "title_ko": "LLM 추론을 위한 테스트 타임 컴퓨트 스케일링",
-          "summary": "Researchers show that allocating more inference compute improves reasoning benchmarks.",
-          "summary_ko": "연구진은 추론 벤치마크 성능 향상을 위해 더 많은 추론 컴퓨트를 할당하는 방법을 제시합니다.",
-          "url": "https://huggingface.co/papers/2401.00001",
+          "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+          "title_ko": "에이전트 및 멀티모달 LLM을 위한 상황 인식 RL",
+          "summary": "ContextRL enhances long-horizon reasoning and multimodal performance through reinforcement learning that rewards context selection for supporting query-answer pairs, achieving improvements over standard methods on diver…",
+          "summary_ko": "ContextRL은 쿼리-답변 쌍을 지원하기 위한 컨텍스트 선택을 보상하는 강화 학습을 통해 장기 추론 및 다중 모드 성능을 향상하고 다이버에 대한 표준 방법보다 향상된 성능을 달성합니다.",
+          "url": "https://huggingface.co/papers/2606.17053",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-06-20T08:30:00+09:00",
-          "popularity": 42,
-          "upvotes": 42,
-          "score": 18.5,
-          "importance_score": 12.3,
-          "matched_keywords": ["LLM", "reasoning"],
-          "engagement": { "label": "Upvotes", "value": 42 }
+          "published_at": "2026-06-19T09:00:00+09:00",
+          "popularity": 21,
+          "upvotes": 5,
+          "score": 25.27,
+          "importance_score": 9.27,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
+            "multimodal",
+            "reinforcement learning",
+            "reasoning"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 5
+          }
+        },
+        {
+          "id": "2f5f8fec4770858efeb6c907829f8435",
+          "index": 2,
+          "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+          "title_ko": "Moebius: 10B 수준의 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크",
+          "summary": "A lightweight image inpainting framework achieves high-fidelity results with significantly reduced parameters and inference time through novel local-global interaction blocks and adaptive distillation strategies.",
+          "summary_ko": "경량 이미지 인페인팅 프레임워크는 새로운 로컬-글로벌 상호 작용 블록 및 적응형 증류 전략을 통해 매개변수와 추론 시간을 크게 줄임으로써 충실도 높은 결과를 달성합니다.",
+          "url": "https://huggingface.co/papers/2606.19195",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-06-19T09:00:00+09:00",
+          "popularity": 276,
+          "upvotes": 102,
+          "score": 24.87,
+          "importance_score": 16.87,
+          "matched_keywords": [
+            "ai",
+            "inference"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 102
+          }
         }
       ]
     },
@@ -35,23 +70,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "sample-news-001",
-          "index": 2,
-          "title": "국내 AI 스타트업, 오픈소스 LLM 파인튜닝 플랫폼 출시",
+          "id": "3d638b9661543a414fe58d91735a5b79",
+          "index": 3,
+          "title": "퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시",
           "title_ko": null,
-          "summary": "로컬 환경에서 RAG와 fine-tuning을 지원하는 SaaS 형태의 플랫폼이 공개되었습니다.",
+          "summary": "퍼플렉시티가 기존 AI 메모리 개념을 뒤집는 새로운 기억 시스템 \\'브레인(Brain)\\'을 공개했다.",
           "summary_ko": null,
-          "url": "https://news.hada.io/topic?id=12345",
-          "source": "GeekNews",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211932",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-20T07:15:00+09:00",
-          "popularity": 128,
+          "published_at": "2026-06-20T13:39:19+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.1,
-          "importance_score": 15.0,
-          "matched_keywords": ["LLM", "RAG", "fine-tuning"],
-          "engagement": { "label": "Points", "value": 128 }
+          "score": 19.58,
+          "importance_score": 19.16,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "47c036a20247ab8e31f2ea03ca86a682",
+          "index": 4,
+          "title": "메모리 시장, 올해 4배 성장 전망...AI 수요가 견인",
+          "title_ko": null,
+          "summary": "[지디넷코리아]전 세계 메모리 반도체 시장이 인공지능(AI) 인프라 수요에 힘입어 올해 폭발적 성장세를 보이고 있다. 서버용 메모리가 전체 메모리에서 차지하는 비중도 절반을 넘어설 것으로 예상된다.",
+          "summary_ko": null,
+          "url": "https://zdnet.co.kr/view/?no=20260619204511",
+          "source": "ZDNet Korea",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-06-20T14:00:03+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 19.65,
+          "importance_score": 19.3,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
         }
       ]
     },
@@ -60,23 +118,56 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "sample-trend-001",
-          "index": 3,
-          "title": "open-agent-kit/agent-runner",
-          "title_ko": "open-agent-kit/agent-runner — 멀티에이전트 실행 프레임워크",
-          "summary": "Lightweight framework for orchestrating tool-using agents with MCP support.",
-          "summary_ko": "MCP를 지원하는 도구 사용 에이전트 오케스트레이션을 위한 경량 프레임워크입니다.",
-          "url": "https://github.com/open-agent-kit/agent-runner",
+          "id": "27688420164052b793732968e3c19af6",
+          "index": 5,
+          "title": "agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (",
+          "title_ko": "agiwhitelist/tokdiet — AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API 간의 로컬 스트리밍 역방향 프록시(",
+          "summary": "Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (Anthropic, OpenAI, Gemini, MiniMax).",
+          "summary_ko": "AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API(Anthropic, OpenAI, Gemini, MiniMax) 간의 로컬 스트리밍 역방향 프록시.",
+          "url": "https://github.com/agiwhitelist/tokdiet",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-06-19T22:00:00+09:00",
-          "popularity": 2840,
-          "upvotes": 0,
-          "score": 19.8,
-          "importance_score": 14.2,
-          "matched_keywords": ["agent", "MCP"],
-          "engagement": { "label": "Stars", "value": 2840 }
+          "published_at": "2026-06-18T20:01:06+09:00",
+          "popularity": 68,
+          "upvotes": 68,
+          "score": 28.82,
+          "importance_score": 14.82,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "claude",
+            "gemini"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 68
+          }
+        },
+        {
+          "id": "eea8e7e30889f9db752b3fea3cfeb8ff",
+          "index": 6,
+          "title": "haydenbleasel/batchwork — Unified batch API for AI providers. Save up to 50% on LLM costs.",
+          "title_ko": "haydenbleasel/batchwork — AI 제공자를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.",
+          "summary": "Unified batch API for AI providers. Save up to 50% on LLM costs.",
+          "summary_ko": "AI 제공업체를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.",
+          "url": "https://github.com/haydenbleasel/batchwork",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-06-20T11:28:30+09:00",
+          "popularity": 48,
+          "upvotes": 48,
+          "score": 25.75,
+          "importance_score": 21.87,
+          "matched_keywords": [
+            "ai",
+            "llm"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 48
+          }
         }
       ]
     },
@@ -85,22 +176,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "sample-community-001",
-          "index": 4,
-          "title": "PyTorch 2.7 로컬 추론 최적화 팁 모음",
+          "id": "5570883f447c082f98a5a5190d358d9b",
+          "index": 7,
+          "title": "Cua Driver: Windows와 Linux 데스크톱 백그라운드 컴퓨터 사용 프로젝트 (feat. Claude Code, MCP)",
           "title_ko": null,
-          "summary": "커뮤니티에서 공유된 torch.compile과 quantization 실전 노하우.",
+          "summary": "Cua Driver 소개 코딩 에이전트나 범용 에이전트에게 \"컴퓨터를 직접 쓰게\" 하면 작업의 폭이 크게 넓어집니다. 코드를 고치고, 앱을 실행하고, 실제 창을 읽고, 버튼을 누르고, 자기가 만든 결과를 스스로 검증하는 컴퓨터 유즈(Computer-Use) 의 순환이 만들어지기 때문입니다. 그런데 이 순환에는 오래된 걸림돌이 하나 있었습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/example/12345",
+          "url": "https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-06-20T06:00:00+09:00",
-          "popularity": 15,
+          "published_at": "2026-06-20T09:30:08+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 11.2,
-          "importance_score": 8.5,
-          "matched_keywords": ["inference"],
+          "score": 21.61,
+          "importance_score": 17.33,
+          "matched_keywords": [
+            "claude",
+            "mcp"
+          ],
           "engagement": null
         }
       ]
@@ -108,79 +202,173 @@
   ],
   "items": [
     {
-      "id": "sample-paper-001",
+      "id": "85fc30b04d961b17c54843db7647eec5",
       "index": 1,
-      "title": "Scaling Test-Time Compute for LLM Reasoning",
-      "title_ko": "LLM 추론을 위한 테스트 타임 컴퓨트 스케일링",
-      "summary": "Researchers show that allocating more inference compute improves reasoning benchmarks.",
-      "summary_ko": "연구진은 추론 벤치마크 성능 향상을 위해 더 많은 추론 컴퓨트를 할당하는 방법을 제시합니다.",
-      "url": "https://huggingface.co/papers/2401.00001",
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "title_ko": "에이전트 및 멀티모달 LLM을 위한 상황 인식 RL",
+      "summary": "ContextRL enhances long-horizon reasoning and multimodal performance through reinforcement learning that rewards context selection for supporting query-answer pairs, achieving improvements over standard methods on diver…",
+      "summary_ko": "ContextRL은 쿼리-답변 쌍을 지원하기 위한 컨텍스트 선택을 보상하는 강화 학습을 통해 장기 추론 및 다중 모드 성능을 향상하고 다이버에 대한 표준 방법보다 향상된 성능을 달성합니다.",
+      "url": "https://huggingface.co/papers/2606.17053",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-06-20T08:30:00+09:00",
-      "popularity": 42,
-      "upvotes": 42,
-      "score": 18.5,
-      "importance_score": 12.3,
-      "matched_keywords": ["LLM", "reasoning"],
-      "engagement": { "label": "Upvotes", "value": 42 }
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "popularity": 21,
+      "upvotes": 5,
+      "score": 25.27,
+      "importance_score": 9.27,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "multimodal",
+        "reinforcement learning",
+        "reasoning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 5
+      }
     },
     {
-      "id": "sample-news-001",
+      "id": "2f5f8fec4770858efeb6c907829f8435",
       "index": 2,
-      "title": "국내 AI 스타트업, 오픈소스 LLM 파인튜닝 플랫폼 출시",
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "title_ko": "Moebius: 10B 수준의 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크",
+      "summary": "A lightweight image inpainting framework achieves high-fidelity results with significantly reduced parameters and inference time through novel local-global interaction blocks and adaptive distillation strategies.",
+      "summary_ko": "경량 이미지 인페인팅 프레임워크는 새로운 로컬-글로벌 상호 작용 블록 및 적응형 증류 전략을 통해 매개변수와 추론 시간을 크게 줄임으로써 충실도 높은 결과를 달성합니다.",
+      "url": "https://huggingface.co/papers/2606.19195",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-06-19T09:00:00+09:00",
+      "popularity": 276,
+      "upvotes": 102,
+      "score": 24.87,
+      "importance_score": 16.87,
+      "matched_keywords": [
+        "ai",
+        "inference"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 102
+      }
+    },
+    {
+      "id": "3d638b9661543a414fe58d91735a5b79",
+      "index": 3,
+      "title": "퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시",
       "title_ko": null,
-      "summary": "로컬 환경에서 RAG와 fine-tuning을 지원하는 SaaS 형태의 플랫폼이 공개되었습니다.",
+      "summary": "퍼플렉시티가 기존 AI 메모리 개념을 뒤집는 새로운 기억 시스템 \\'브레인(Brain)\\'을 공개했다.",
       "summary_ko": null,
-      "url": "https://news.hada.io/topic?id=12345",
-      "source": "GeekNews",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211932",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-06-20T07:15:00+09:00",
-      "popularity": 128,
+      "published_at": "2026-06-20T13:39:19+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.1,
-      "importance_score": 15.0,
-      "matched_keywords": ["LLM", "RAG", "fine-tuning"],
-      "engagement": { "label": "Points", "value": 128 }
+      "score": 19.58,
+      "importance_score": 19.16,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
     },
     {
-      "id": "sample-trend-001",
-      "index": 3,
-      "title": "open-agent-kit/agent-runner",
-      "title_ko": "open-agent-kit/agent-runner — 멀티에이전트 실행 프레임워크",
-      "summary": "Lightweight framework for orchestrating tool-using agents with MCP support.",
-      "summary_ko": "MCP를 지원하는 도구 사용 에이전트 오케스트레이션을 위한 경량 프레임워크입니다.",
-      "url": "https://github.com/open-agent-kit/agent-runner",
+      "id": "47c036a20247ab8e31f2ea03ca86a682",
+      "index": 4,
+      "title": "메모리 시장, 올해 4배 성장 전망...AI 수요가 견인",
+      "title_ko": null,
+      "summary": "[지디넷코리아]전 세계 메모리 반도체 시장이 인공지능(AI) 인프라 수요에 힘입어 올해 폭발적 성장세를 보이고 있다. 서버용 메모리가 전체 메모리에서 차지하는 비중도 절반을 넘어설 것으로 예상된다.",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20260619204511",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-06-20T14:00:03+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.65,
+      "importance_score": 19.3,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "27688420164052b793732968e3c19af6",
+      "index": 5,
+      "title": "agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (",
+      "title_ko": "agiwhitelist/tokdiet — AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API 간의 로컬 스트리밍 역방향 프록시(",
+      "summary": "Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (Anthropic, OpenAI, Gemini, MiniMax).",
+      "summary_ko": "AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API(Anthropic, OpenAI, Gemini, MiniMax) 간의 로컬 스트리밍 역방향 프록시.",
+      "url": "https://github.com/agiwhitelist/tokdiet",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-06-19T22:00:00+09:00",
-      "popularity": 2840,
-      "upvotes": 0,
-      "score": 19.8,
-      "importance_score": 14.2,
-      "matched_keywords": ["agent", "MCP"],
-      "engagement": { "label": "Stars", "value": 2840 }
+      "published_at": "2026-06-18T20:01:06+09:00",
+      "popularity": 68,
+      "upvotes": 68,
+      "score": 28.82,
+      "importance_score": 14.82,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "claude",
+        "gemini"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 68
+      }
     },
     {
-      "id": "sample-community-001",
-      "index": 4,
-      "title": "PyTorch 2.7 로컬 추론 최적화 팁 모음",
+      "id": "eea8e7e30889f9db752b3fea3cfeb8ff",
+      "index": 6,
+      "title": "haydenbleasel/batchwork — Unified batch API for AI providers. Save up to 50% on LLM costs.",
+      "title_ko": "haydenbleasel/batchwork — AI 제공자를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.",
+      "summary": "Unified batch API for AI providers. Save up to 50% on LLM costs.",
+      "summary_ko": "AI 제공업체를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.",
+      "url": "https://github.com/haydenbleasel/batchwork",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-06-20T11:28:30+09:00",
+      "popularity": 48,
+      "upvotes": 48,
+      "score": 25.75,
+      "importance_score": 21.87,
+      "matched_keywords": [
+        "ai",
+        "llm"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 48
+      }
+    },
+    {
+      "id": "5570883f447c082f98a5a5190d358d9b",
+      "index": 7,
+      "title": "Cua Driver: Windows와 Linux 데스크톱 백그라운드 컴퓨터 사용 프로젝트 (feat. Claude Code, MCP)",
       "title_ko": null,
-      "summary": "커뮤니티에서 공유된 torch.compile과 quantization 실전 노하우.",
+      "summary": "Cua Driver 소개 코딩 에이전트나 범용 에이전트에게 \"컴퓨터를 직접 쓰게\" 하면 작업의 폭이 크게 넓어집니다. 코드를 고치고, 앱을 실행하고, 실제 창을 읽고, 버튼을 누르고, 자기가 만든 결과를 스스로 검증하는 컴퓨터 유즈(Computer-Use) 의 순환이 만들어지기 때문입니다. 그런데 이 순환에는 오래된 걸림돌이 하나 있었습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/example/12345",
+      "url": "https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-06-20T06:00:00+09:00",
-      "popularity": 15,
+      "published_at": "2026-06-20T09:30:08+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 11.2,
-      "importance_score": 8.5,
-      "matched_keywords": ["inference"],
+      "score": 21.61,
+      "importance_score": 17.33,
+      "matched_keywords": [
+        "claude",
+        "mcp"
+      ],
       "engagement": null
     }
   ]
