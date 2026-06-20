@@ -3,13 +3,15 @@ import { FEED_URLS } from "../lib/types";
 import { SectionCard } from "../styleseed/components/patterns/section-card";
 
 const FEEDS = [
-  { name: "전체 다이제스트", url: FEED_URLS.all, desc: "모든 섹션 통합 RSS 2.0" },
+  { name: "전체 아카이브", url: FEED_URLS.all, desc: "아카이브 최신 50건 RSS 2.0" },
+  { name: "일일 Top 7", url: FEED_URLS.daily, desc: "오늘의 큐레이션 다이제스트 (Teams 카드)" },
   { name: "확장 메타데이터", url: FEED_URLS.full, desc: "점수·섹션·참여 지표 포함 (봇 개발용)" },
   { name: "📄 Papers", url: FEED_URLS.papers, desc: "Hugging Face Daily Papers" },
   { name: "📰 News", url: FEED_URLS.news, desc: "GeekNews, AI Times, ETNews, NAVER D2, ZDNet" },
   { name: "🔥 Trending", url: FEED_URLS.trending, desc: "GitHub ML/AI 레포" },
   { name: "💬 Community", url: FEED_URLS.community, desc: "PyTorch Korea" },
   { name: "JSON API", url: FEED_URLS.json, desc: "구조화된 최신 다이제스트 (REST-style static JSON)" },
+  { name: "아카이브 검색 인덱스", url: FEED_URLS.archive, desc: "전체 수집 아카이브 검색용 JSON" },
 ];
 
 function CopyButton({ text }: { text: string }) {

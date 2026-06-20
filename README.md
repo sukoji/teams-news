@@ -1,21 +1,37 @@
 # Teams AI / Tech News Bot
 
-AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇 + 웹 다이제스트**입니다.  
-GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**에서 최근 24시간(NAVER D2·GitHub Trending은 7일) 이내 기사·레포를 수집하고, 키워드·섹션 균형 선별 후 **Microsoft Teams**, **웹 사이트**, **RSS/JSON API**로 동일 다이제스트를 발행합니다.
+AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇 + 웹 다이제스트 + 누적 아카이브**입니다.  
+GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**에서 기사·레포를 **매시간 수집·누적**하고, 키워드 매칭 항목은 **아카이브에 영구 저장**됩니다. 매일 **섹션 균형 Top 7**은 Microsoft Teams 카드·일일 다이제스트로 발행합니다.
 
 ## 웹 사이트 & RSS
 
 | 항목 | URL |
 |------|-----|
-| **웹 다이제스트** | `https://jskh-201910840.github.io/teams-news/` |
-| **RSS (전체)** | `https://jskh-201910840.github.io/teams-news/feed.xml` |
-| **RSS (확장 메타)** | `https://jskh-201910840.github.io/teams-news/feed/full.xml` |
-| **JSON API** | `https://jskh-201910840.github.io/teams-news/data/latest.json` |
+| **웹 다이제스트 (오늘 Top 7)** | `https://jskh-201910840.github.io/teams-news/` |
+| **전체 피드 (아카이브)** | `https://jskh-201910840.github.io/teams-news/feed` |
+| **검색** | `https://jskh-201910840.github.io/teams-news/search?q=LLM` |
+| **RSS (아카이브 최신 50)** | `https://jskh-201910840.github.io/teams-news/feed.xml` |
+| **RSS (일일 Top 7)** | `https://jskh-201910840.github.io/teams-news/feed/daily.xml` |
+| **JSON API (다이제스트)** | `https://jskh-201910840.github.io/teams-news/data/latest.json` |
+| **검색 인덱스 JSON** | `https://jskh-201910840.github.io/teams-news/data/archive/search-index.json` |
 | **구독 페이지** | `https://jskh-201910840.github.io/teams-news/subscribe` |
 
-섹션별 RSS: `/feed/papers.xml` · `/feed/news.xml` · `/feed/trending.xml` · `/feed/community.xml`
+섹션별 RSS (아카이브 기준): `/feed/papers.xml` · `/feed/news.xml` · `/feed/trending.xml` · `/feed/community.xml`
 
 > GitHub Pages 최초 배포 후 Settings → Pages → Source를 **GitHub Actions**로 설정하세요.
+
+### 웹 페이지
+
+| 경로 | 설명 |
+|------|------|
+| `/` | 오늘의 Top 7 하이라이트 + 전체 피드 링크 |
+| `/feed` | 아카이브 전체 — 페이지네이션, 필터, 정렬 |
+| `/search?q=…&source=…&section=…&from=…` | 전문 검색 + 필터 칩 |
+| `/source/geeknews` | 소스별 아카이브 |
+| `/section/papers` | 섹션별 아카이브 |
+| `/archive` | 날짜별 다이제스트 (수집·다이제스트 건수 표시) |
+
+헤더에 **고정 검색창** · **`/` 키**로 검색 포커스 · 모바일 **필터 드로어** 지원.
 
 ### 봇 개발자용 RSS 필드
 
@@ -37,22 +53,54 @@ GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending*
 
 ```
 teams_news/
-├── main.py                      # 진입점: --teams | --export | --all (기본: all)
-├── card_builder.py              # Adaptive Card JSON (Teams, 변경 없음)
+├── main.py                      # --ingest | --digest | --export | --teams
+├── card_builder.py              # Adaptive Card JSON (Teams)
 ├── outputs/
-│   ├── export.py                # data/digests/*.json + web/public/data/
-│   └── rss_builder.py           # web/public/feed.xml + feed/*.xml
-├── data/digests/                # YYYY-MM-DD.json, latest.json, archive-index.json
-├── web/                         # Vite + React + Tailwind (StyleSeed Linear 스킨)
-│   ├── src/                     # Home, Archive, Subscribe, About
-│   └── public/                  # feed.xml, data/latest.json (빌드 시 dist에 복사)
-├── assets/piai-logo.png
-├── requirements.txt
-├── .env.example
-├── .github/workflows/cron.yml   # 수집 → export → commit → GitHub Pages 배포
+│   ├── archive.py               # items.jsonl + search-index.json (누적 아카이브)
+│   ├── export.py                # data/digests/*.json (일일 Top 7)
+│   └── rss_builder.py           # feed.xml (아카이브) + feed/daily.xml (Top 7)
+├── data/
+│   ├── archive/                 # items.jsonl, search-index.json, meta.json
+│   └── digests/                 # YYYY-MM-DD.json, latest.json, archive-index.json
+├── web/                         # Vite + React + Tailwind (StyleSeed Linear)
+│   ├── src/pages/               # Home, Feed, Search, Source, Section, Archive…
+│   └── public/data/archive/     # GitHub Pages 정적 데이터
+├── .github/workflows/
+│   ├── ingest.yml               # 매시간 아카이브 수집
+│   └── cron.yml                 # 매일 Top 7 + Teams + Pages 배포
 ├── collectors/ …
 └── utils/ …
 ```
+
+## 데이터 모델
+
+### 아카이브 (`data/archive/items.jsonl`)
+
+키워드 매칭 항목을 **URL 해시 기준 dedupe**하여 append-only JSONL로 저장합니다.
+
+| 필드 | 설명 |
+|------|------|
+| `id` | `SHA-256(normalized_url)[:32]` |
+| `title`, `title_ko` | 원문·한국어 제목 |
+| `summary`, `summary_ko` | 요약 |
+| `url`, `source`, `source_slug` | 원문 URL·출처 |
+| `section`, `section_id` | papers / news / trending / community |
+| `published_at` | 원문 게시 시각 (KST ISO) |
+| `collected_at` | 수집 시각 |
+| `score`, `importance_score` | 키워드·인기·최신성 점수 |
+| `popularity`, `upvotes` | 소스별 참여 지표 |
+| `matched_keywords`, `engagement` | 매칭 키워드·표시용 지표 |
+
+매 ingest 실행 시 `search-index.json`(클라이언트 검색용)과 `meta.json`(소스·섹션·날짜별 건수)을 재생성합니다.
+
+### 일일 다이제스트 (`data/digests/YYYY-MM-DD.json`)
+
+Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
+
+### 검색 인덱스 규모 한도
+
+- 클라이언트 fuse.js 검색 — **~10,000건**까지 권장 (그 이상은 search-index 분할 또는 서버 검색 검토)
+- RSS `feed.xml` — 아카이브 **최신 50건**
 
 ## 데이터 소스
 
@@ -105,18 +153,19 @@ teams_news/
 
 ## 스케줄 (GitHub Actions)
 
-봇은 **GitHub Actions cron**으로 주기적으로 실행됩니다. 매 실행마다 Teams 발송, `data/digests/`·RSS 갱신, 웹 빌드, **GitHub Pages** 배포까지 한 번에 수행합니다.
+두 워크플로로 분리됩니다.
+
+| 워크플로 | cron (UTC) | 명령 | 역할 |
+|----------|------------|------|------|
+| **Hourly Archive Ingest** (`ingest.yml`) | `0 * * * *` (매시 정각) | `python main.py --ingest` | 키워드 매칭 항목 아카이브 append, search-index, RSS |
+| **Daily AI Tech News Bot** (`cron.yml`) | `0 23 * * *` (~10:00 KST) | `python main.py --digest` | ingest + Top 7 export + Teams + GitHub Pages |
 
 | 항목 | 값 |
 |------|-----|
-| 기본 도착 시각 | **매일 ~10:00 KST** (UTC `0 23 * * *`, GitHub 지연 ~2h 보정) |
-| 워크플로 파일 | `.github/workflows/cron.yml` |
-| 실행 명령 | `python main.py --all` |
-| 배포 | `web/dist` → GitHub Pages (`gh-pages` Actions artifact) |
-| 수동 실행 | Actions 탭 → **Daily AI Tech News Bot** → **Run workflow** |
+| 일일 도착 시각 | **매일 ~10:00 KST** (UTC `0 23 * * *`, GitHub 지연 ~2h 보정) |
+| 수동 실행 | Actions 탭 → 해당 워크플로 → **Run workflow** |
 
-> **GitHub Actions 지연**: cron은 UTC 기준이며, 실제 실행은 **수 시간 늦게** 시작되는 경우가 많습니다.  
-> 예) `17 20 * * *` → 실제 도착 ~07:15 KST. 현재 `0 23 * * *` → **~10:00 KST** 목표.
+> **GitHub Actions 지연**: cron은 UTC 기준이며, 실제 실행은 **수 분~수 시간** 늦게 시작될 수 있습니다.
 
 ### 스케줄 커스터마이즈
 
@@ -194,19 +243,27 @@ copy .env.example .env   # Windows (macOS/Linux: cp .env.example .env)
 `.env`에 `TEAMS_WEBHOOK_URL`을 설정한 뒤:
 
 ```bash
-# Teams + JSON/RSS export (cron 기본 동작)
-python main.py
+# 매시간 아카이브 수집 (Teams·다이제스트 없음)
+python main.py --ingest
+
+# 일일 다이제스트: ingest + Top 7 export + Teams
+python main.py --digest
+
+# Teams + JSON/RSS export (ingest 포함)
 python main.py --all
 
-# Teams만
+# Teams만 (Top 7)
 python main.py --teams
 
-# JSON/RSS export만
+# JSON/RSS export만 (Top 7 + daily.xml)
 python main.py --export
 
-# 수집·카드·export 확인 (Teams 미전송, export JSON stdout)
+# 번역 생략 (로컬 테스트용)
+python main.py --ingest --no-translate
+
+# 수집·카드·export 확인 (Teams 미전송)
 python main.py --export --dry-run
-python main.py --teams --dry-run
+python main.py --ingest --dry-run
 ```
 
 ### 웹 UI 로컬 개발

@@ -1,66 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>PIAI Teams News — Daily Digest</title>
-    <link>https://jskh-201910840.github.io/teams-news/</link>
-    <description>Curated AI papers, tech news, trending repos, and community posts — daily digest with Korean summaries. Links to originals only.</description>
+    <title>PIAI Teams News — Latest from Archive</title>
+    <link>https://jskh-201910840.github.io/teams-news/feed</link>
+    <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Jun 2026 15:40:46 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 15:55:43 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
-      <title>에이전트 및 멀티모달 LLM을 위한 상황 인식 RL</title>
-      <link>https://huggingface.co/papers/2606.17053</link>
-      <description>ContextRL은 쿼리-답변 쌍을 지원하기 위한 컨텍스트 선택을 보상하는 강화 학습을 통해 장기 추론 및 다중 모드 성능을 향상하고 다이버에 대한 표준 방법보다 향상된 성능을 달성합니다.</description>
-      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.17053">Hugging Face Papers</source>
-      <guid isPermaLink="false">85fc30b04d961b17c54843db7647eec5</guid>
-    </item>
-    <item>
-      <title>Moebius: 10B 수준의 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크</title>
-      <link>https://huggingface.co/papers/2606.19195</link>
-      <description>경량 이미지 인페인팅 프레임워크는 새로운 로컬-글로벌 상호 작용 블록 및 적응형 증류 전략을 통해 매개변수와 추론 시간을 크게 줄임으로써 충실도 높은 결과를 달성합니다.</description>
-      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.19195">Hugging Face Papers</source>
-      <guid isPermaLink="false">2f5f8fec4770858efeb6c907829f8435</guid>
-    </item>
-    <item>
-      <title>퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=211932</link>
-      <description>퍼플렉시티가 기존 AI 메모리 개념을 뒤집는 새로운 기억 시스템 \'브레인(Brain)\'을 공개했다.</description>
-      <pubDate>Sat, 20 Jun 2026 13:39:19 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=211932">AI Times</source>
-      <guid isPermaLink="false">3d638b9661543a414fe58d91735a5b79</guid>
-    </item>
-    <item>
-      <title>메모리 시장, 올해 4배 성장 전망...AI 수요가 견인</title>
-      <link>https://zdnet.co.kr/view/?no=20260619204511</link>
-      <description>[지디넷코리아]전 세계 메모리 반도체 시장이 인공지능(AI) 인프라 수요에 힘입어 올해 폭발적 성장세를 보이고 있다. 서버용 메모리가 전체 메모리에서 차지하는 비중도 절반을 넘어설 것으로 예상된다.</description>
-      <pubDate>Sat, 20 Jun 2026 14:00:03 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260619204511">ZDNet Korea</source>
-      <guid isPermaLink="false">47c036a20247ab8e31f2ea03ca86a682</guid>
-    </item>
-    <item>
-      <title>agiwhitelist/tokdiet — AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API 간의 로컬 스트리밍 역방향 프록시(</title>
+      <title>agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (</title>
       <link>https://github.com/agiwhitelist/tokdiet</link>
-      <description>AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API(Anthropic, OpenAI, Gemini, MiniMax) 간의 로컬 스트리밍 역방향 프록시.</description>
+      <description>Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (Anthropic, OpenAI, Gemini, MiniMax).</description>
       <pubDate>Thu, 18 Jun 2026 20:01:06 +0900</pubDate>
       <category>trending</category>
       <source url="https://github.com/agiwhitelist/tokdiet">GitHub Trending</source>
-      <guid isPermaLink="false">27688420164052b793732968e3c19af6</guid>
+      <guid isPermaLink="false">66275883b5f5c602f0d72dfe189723bb</guid>
     </item>
     <item>
-      <title>haydenbleasel/batchwork — AI 제공자를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.</title>
+      <title>haydenbleasel/batchwork — Unified batch API for AI providers. Save up to 50% on LLM costs.</title>
       <link>https://github.com/haydenbleasel/batchwork</link>
-      <description>AI 제공업체를 위한 통합 배치 API입니다. LLM 비용을 최대 50% 절약하세요.</description>
+      <description>Unified batch API for AI providers. Save up to 50% on LLM costs.</description>
       <pubDate>Sat, 20 Jun 2026 11:28:30 +0900</pubDate>
       <category>trending</category>
       <source url="https://github.com/haydenbleasel/batchwork">GitHub Trending</source>
-      <guid isPermaLink="false">eea8e7e30889f9db752b3fea3cfeb8ff</guid>
+      <guid isPermaLink="false">984479a5afa7a89e8493a58e34616304</guid>
+    </item>
+    <item>
+      <title>wellwelwel/blue-spec — 🌊 Blue Spec is a toolkit for Security-Driven Hardening (SDH), a defensive workflow to help AI agents</title>
+      <link>https://github.com/wellwelwel/blue-spec</link>
+      <description>🌊 Blue Spec is a toolkit for Security-Driven Hardening (SDH), a defensive workflow to help AI agents detect what a system does and harden the defenses that matter.</description>
+      <pubDate>Sat, 20 Jun 2026 07:29:52 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/wellwelwel/blue-spec">GitHub Trending</source>
+      <guid isPermaLink="false">9e489ff6715d44fc48d9882920ee3fae</guid>
+    </item>
+    <item>
+      <title>Context-Aware RL for Agentic and Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2606.17053</link>
+      <description>ContextRL enhances long-horizon reasoning and multimodal performance through reinforcement learning that rewards context selection for supporting query-answer pairs, achieving improvements over standard methods on diver…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.17053">Hugging Face Papers</source>
+      <guid isPermaLink="false">4fc30ae6982427be060cd936188ccd4b</guid>
+    </item>
+    <item>
+      <title>liebaojun/MakoCode — MakoCode — 茉子版 Agent | Galgame 风格桌面 AI Agent，零门槛体验 Agent 的乐趣</title>
+      <link>https://github.com/liebaojun/MakoCode</link>
+      <description>MakoCode — 茉子版 Agent | Galgame 风格桌面 AI Agent，零门槛体验 Agent 的乐趣</description>
+      <pubDate>Sat, 20 Jun 2026 15:18:13 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/liebaojun/MakoCode">GitHub Trending</source>
+      <guid isPermaLink="false">ffff496d1d81262979da44d5a979f793</guid>
+    </item>
+    <item>
+      <title>Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance</title>
+      <link>https://huggingface.co/papers/2606.19195</link>
+      <description>A lightweight image inpainting framework achieves high-fidelity results with significantly reduced parameters and inference time through novel local-global interaction blocks and adaptive distillation strategies.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19195">Hugging Face Papers</source>
+      <guid isPermaLink="false">037c8044c197abdb6d1bf6ed95c21675</guid>
+    </item>
+    <item>
+      <title>Playful Agentic Robot Learning</title>
+      <link>https://huggingface.co/papers/2606.19419</link>
+      <description>Embodied robots learn reusable skills through self-directed play and exploration, then apply these skills to improve performance on downstream tasks without additional training.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19419">Hugging Face Papers</source>
+      <guid isPermaLink="false">366bb322ae095172a08540616610925e</guid>
+    </item>
+    <item>
+      <title>Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents</title>
+      <link>https://huggingface.co/papers/2606.19704</link>
+      <description>Aggregate-score leaderboards in agent benchmarks fail to capture deployment-relevant dimensions and show rank instability, necessitating new evaluation frameworks based on predictive validity and out-of-distribution cri…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19704">Hugging Face Papers</source>
+      <guid isPermaLink="false">e9bc1a82946d9cce28fd0d051c4edf37</guid>
+    </item>
+    <item>
+      <title>Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages</title>
+      <link>https://huggingface.co/papers/2606.20517</link>
+      <description>Multi-LCB addresses the limitation of LiveCodeBench by providing a multi-language benchmark for evaluating LLMs across twelve programming languages while maintaining contamination controls and evaluation protocols.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20517">Hugging Face Papers</source>
+      <guid isPermaLink="false">42feefbb9a2f5476e635388309cbd1e3</guid>
+    </item>
+    <item>
+      <title>yahyambk57-stack/Ai-Object-Isolation-Toolkit — 2026 Next-Gen AI Photo Background Remover &amp; Object Removal Tool</title>
+      <link>https://github.com/yahyambk57-stack/Ai-Object-Isolation-Toolkit</link>
+      <description>2026 Next-Gen AI Photo Background Remover &amp; Object Removal Tool</description>
+      <pubDate>Sat, 20 Jun 2026 14:07:45 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/yahyambk57-stack/Ai-Object-Isolation-Toolkit">GitHub Trending</source>
+      <guid isPermaLink="false">957b672b352e6b3cde802418843d906c</guid>
+    </item>
+    <item>
+      <title>FlowBender: Feedback-Aware Training for Self-Correcting Conditional Flows</title>
+      <link>https://huggingface.co/papers/2606.20404</link>
+      <description>FlowBender is a closed-loop framework that addresses constraint satisfaction in diffusion and flow models by training networks to correct alignment errors using inference-time feedback, outperforming traditional supervi…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20404">Hugging Face Papers</source>
+      <guid isPermaLink="false">4dfbea416f90e65f37f333c4b060ca46</guid>
+    </item>
+    <item>
+      <title>DF3DV-1K: A Large-Scale Dataset and Benchmark for Distractor-Free Novel View Synthesis</title>
+      <link>https://huggingface.co/papers/2604.13416</link>
+      <description>A large-scale real-world dataset called DF3DV-1K is introduced to address the lack of clean and cluttered image sets for distractor-free radiance field research, containing 1,048 scenes with 89,924 images across 128 dis…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2604.13416">Hugging Face Papers</source>
+      <guid isPermaLink="false">b8eb32a7612b2271d8682ddff6af2552</guid>
+    </item>
+    <item>
+      <title>Happy-Chen-CH/Educational_RAG_System — 面向教育场景的RAG智能问答系统，融合关键词匹配与语义检索双引擎，融合MySQL和RAG技术，先经过MySQL数据库的检索(还融合了Redis辅助储存和搜索)，若无符合条件答案，则进入RAG系统，RA</title>
+      <link>https://github.com/Happy-Chen-CH/Educational_RAG_System</link>
+      <description>面向教育场景的RAG智能问答系统，融合关键词匹配与语义检索双引擎，融合MySQL和RAG技术，先经过MySQL数据库的检索(还融合了Redis辅助储存和搜索)，若无符合条件答案，则进入RAG系统，RAG知识库中的知识储存在Milvus向量数据库中</description>
+      <pubDate>Mon, 15 Jun 2026 20:51:02 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/Happy-Chen-CH/Educational_RAG_System">GitHub Trending</source>
+      <guid isPermaLink="false">502c3c17e4e2169850bedec273d4b091</guid>
+    </item>
+    <item>
+      <title>LichAmnesia/awesome-ad-video-prompts — Curated, original high-craft prompts for AI video ads (Seedance 2.0 / Veo 3 / Kling / Runway). Compa</title>
+      <link>https://github.com/LichAmnesia/awesome-ad-video-prompts</link>
+      <description>Curated, original high-craft prompts for AI video ads (Seedance 2.0 / Veo 3 / Kling / Runway). Companion to HeyDreaming.</description>
+      <pubDate>Tue, 16 Jun 2026 13:36:23 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/LichAmnesia/awesome-ad-video-prompts">GitHub Trending</source>
+      <guid isPermaLink="false">e8a2a6131dc661b9956d12de3ee13d01</guid>
+    </item>
+    <item>
+      <title>S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence</title>
+      <link>https://huggingface.co/papers/2606.20515</link>
+      <description>S-Agent is a spatial reasoning framework that enhances visual language models with temporal memory and hierarchical spatial tools to enable continuous 3D world understanding from multi-view imagery.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20515">Hugging Face Papers</source>
+      <guid isPermaLink="false">e4af48d71f6421b1299a775d3c4ee610</guid>
     </item>
     <item>
       <title>Cua Driver: Windows와 Linux 데스크톱 백그라운드 컴퓨터 사용 프로젝트 (feat. Claude Code, MCP)</title>
@@ -69,7 +150,313 @@
       <pubDate>Sat, 20 Jun 2026 09:30:08 +0900</pubDate>
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807">PyTorch Korea</source>
-      <guid isPermaLink="false">5570883f447c082f98a5a5190d358d9b</guid>
+      <guid isPermaLink="false">c2964e7392c33c0927d71e019f33f955</guid>
+    </item>
+    <item>
+      <title>DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects</title>
+      <link>https://huggingface.co/papers/2606.15133</link>
+      <description>DragMesh-2 enables dexterous hand-object interaction through contact-driven manipulation, with PICA enhancing robustness under varying contact loads without tactile feedback.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.15133">Hugging Face Papers</source>
+      <guid isPermaLink="false">5bb703a3829c606fb02d8703a19e839d</guid>
+    </item>
+    <item>
+      <title>moely-ai/claude-fable-5-prompt — A curated collection of Claude Fable 5 system prompts for developers and researchers. Discover more </title>
+      <link>https://github.com/moely-ai/claude-fable-5-prompt</link>
+      <description>A curated collection of Claude Fable 5 system prompts for developers and researchers. Discover more advanced prompt engineering tools at Moely AI.</description>
+      <pubDate>Mon, 15 Jun 2026 17:32:52 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/moely-ai/claude-fable-5-prompt">GitHub Trending</source>
+      <guid isPermaLink="false">f62cba45dba18534587608e61f1261ad</guid>
+    </item>
+    <item>
+      <title>joeseesun/qiaomu-llm-mcp — 把多模型 Provider、本地密钥和 HeavySkill 讨论统一成 MCP 网关 | Local MCP gateway for multi-provider LLM routing, secr</title>
+      <link>https://github.com/joeseesun/qiaomu-llm-mcp</link>
+      <description>把多模型 Provider、本地密钥和 HeavySkill 讨论统一成 MCP 网关 | Local MCP gateway for multi-provider LLM routing, secrets, and HeavySkill discussions.</description>
+      <pubDate>Fri, 19 Jun 2026 12:29:52 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/joeseesun/qiaomu-llm-mcp">GitHub Trending</source>
+      <guid isPermaLink="false">8f1c8129e37c7434ef63b2e8c24476da</guid>
+    </item>
+    <item>
+      <title>No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages</title>
+      <link>https://huggingface.co/papers/2606.16827</link>
+      <description>Research addresses code generation challenges for no-resource programming languages by developing benchmarks and proposing a method that combines further pre-training with weight difference transfer to create specialize…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16827">Hugging Face Papers</source>
+      <guid isPermaLink="false">a3f633a9ea6cb2cffbe2ca2e4b848f44</guid>
+    </item>
+    <item>
+      <title>Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation</title>
+      <link>https://huggingface.co/papers/2606.16429</link>
+      <description>Hybrid linear attention models can be improved through a novel initialization technique that enhances conversion from pretrained Transformers by leveraging teacher attention statistics and alignment steps.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16429">Hugging Face Papers</source>
+      <guid isPermaLink="false">8b3d7e4eb2f24b0839a9d2db21a51a4d</guid>
+    </item>
+    <item>
+      <title>JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising</title>
+      <link>https://huggingface.co/papers/2606.20563</link>
+      <description>A fast, training-free framework generates text-driven 3D visual illusions by decoupling generation into cross-space dual-branch denoising and view-conditioned texture synthesis for seamless geometric fusion and semantic…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20563">Hugging Face Papers</source>
+      <guid isPermaLink="false">f7e0cb7cdaa8c219c5c913b6645a6025</guid>
+    </item>
+    <item>
+      <title>Lekien082/AI-Photo-Background-Remover — An easy-to-use desktop utility powered by AI to automatically remove background from photos locally,</title>
+      <link>https://github.com/Lekien082/AI-Photo-Background-Remover</link>
+      <description>An easy-to-use desktop utility powered by AI to automatically remove background from photos locally, offline, and in high resolution.</description>
+      <pubDate>Mon, 15 Jun 2026 20:11:37 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/Lekien082/AI-Photo-Background-Remover">GitHub Trending</source>
+      <guid isPermaLink="false">cfa50e6a1c3ef70a06326fc21e9bbbf5</guid>
+    </item>
+    <item>
+      <title>001TMF/harness-forge — Turn Claude Code into its own Meta-Harness — a skill that evolves the scaffolding around a fixed mod</title>
+      <link>https://github.com/001TMF/harness-forge</link>
+      <description>Turn Claude Code into its own Meta-Harness — a skill that evolves the scaffolding around a fixed model (memory, retrieval, context, prompts) via a native propose→score→Pareto loop.</description>
+      <pubDate>Mon, 15 Jun 2026 02:05:50 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/001TMF/harness-forge">GitHub Trending</source>
+      <guid isPermaLink="false">a54f923070d2445398df142055ffe998</guid>
+    </item>
+    <item>
+      <title>메모리 시장, 올해 4배 성장 전망...AI 수요가 견인</title>
+      <link>https://zdnet.co.kr/view/?no=20260619204511</link>
+      <description>[지디넷코리아]전 세계 메모리 반도체 시장이 인공지능(AI) 인프라 수요에 힘입어 올해 폭발적 성장세를 보이고 있다. 서버용 메모리가 전체 메모리에서 차지하는 비중도 절반을 넘어설 것으로 예상된다.</description>
+      <pubDate>Sat, 20 Jun 2026 14:00:03 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260619204511">ZDNet Korea</source>
+      <guid isPermaLink="false">61282dd4bb5450186b8e5fddf3435ed1</guid>
+    </item>
+    <item>
+      <title>퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=211932</link>
+      <description>퍼플렉시티가 기존 AI 메모리 개념을 뒤집는 새로운 기억 시스템 \'브레인(Brain)\'을 공개했다.</description>
+      <pubDate>Sat, 20 Jun 2026 13:39:19 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=211932">AI Times</source>
+      <guid isPermaLink="false">39bce4fdddfcd1b9c9442b2699a058a8</guid>
+    </item>
+    <item>
+      <title>voice-input-src: 단 하나의 Claude Code 프롬프트로 직접 만들어 사용하는 macOS 음성 입력 앱</title>
+      <link>https://discuss.pytorch.kr/t/voice-input-src-claude-code-macos/10788</link>
+      <description>voice-input-src 소개 voice-input-src는 Fn 키를 누르는 동안 말을 하면, 인식된 텍스트를 현재 포커스된 입력창에 바로 넣어 주는 macOS 메뉴 막대(menu-bar) 음성 입력 앱입니다.</description>
+      <pubDate>Sat, 20 Jun 2026 12:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/voice-input-src-claude-code-macos/10788">PyTorch Korea</source>
+      <guid isPermaLink="false">471e1e7a5ead9bf474d50d4751c55eaf</guid>
+    </item>
+    <item>
+      <title>Lolner95/AIGX — Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index </title>
+      <link>https://github.com/Lolner95/AIGX</link>
+      <description>Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the right rules, forbidden imports, and gotchas to each file.</description>
+      <pubDate>Wed, 17 Jun 2026 06:41:55 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/Lolner95/AIGX">GitHub Trending</source>
+      <guid isPermaLink="false">44f46b61294e3d82f7be8f14d5bdd755</guid>
+    </item>
+    <item>
+      <title>lucidrains/poly-attention — Implementation of Poly-attention, a higher-order self-attention proposed by Chakrabarti et al. of Co</title>
+      <link>https://github.com/lucidrains/poly-attention</link>
+      <description>Implementation of Poly-attention, a higher-order self-attention proposed by Chakrabarti et al. of Columbia</description>
+      <pubDate>Sat, 20 Jun 2026 01:04:21 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/lucidrains/poly-attention">GitHub Trending</source>
+      <guid isPermaLink="false">861544bc5bb6e899e487cd6ffd0f83e4</guid>
+    </item>
+    <item>
+      <title>Google, 피부 질환 이해를 돕는 AI 도구 연구 공개 (feat. JAMA Dermatology)</title>
+      <link>https://discuss.pytorch.kr/t/google-ai-feat-jama-dermatology/10765</link>
+      <description>피부 질환 정보를 이해한다는 것: 접근과 이해 사이의 간극 성인의 절반 이상 이 건강 정보를 얻기 위해 인터넷을 사용하고, 3명 중 1명 은 인공지능(AI)에 건강 관련 질문을 던집니다. 그러나 정보에 접근할 수 있다는 것이 곧 그 정보를 쉽게 이해 하거나 올바르게 해석 할 수 있다는 뜻은 아닙니다.</description>
+      <pubDate>Fri, 19 Jun 2026 20:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-ai-feat-jama-dermatology/10765">PyTorch Korea</source>
+      <guid isPermaLink="false">74b0e185761507473e1b7b4d1887c1d6</guid>
+    </item>
+    <item>
+      <title>토큰 압축의 착시: RTK에 회의적인 이유</title>
+      <link>https://news.hada.io/topic?id=30660</link>
+      <description>RTK는 코딩 에이전트의 터미널 출력을 압축해 비용을 낮추겠다고 약속하지만, 원시 출력 감소 가 곧 더 저렴하고 안전하며 정확한 소프트웨어 엔지니어링을 뜻하지는 않음 “60~90% 절감”은 LLM 청구액 이 그만큼 줄었다는 뜻이 아니라, RTK가 제거한 명령줄 출력 비...</description>
+      <pubDate>Sat, 20 Jun 2026 15:21:18 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=30660">GeekNews</source>
+      <guid isPermaLink="false">94032dd5e31725cb019728045effd18c</guid>
+    </item>
+    <item>
+      <title>FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines</title>
+      <link>https://huggingface.co/papers/2606.19605</link>
+      <description>FAPO optimizes LLM pipelines by combining prompt editing with structural changes, demonstrating superior performance across multiple benchmarks and security tasks.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19605">Hugging Face Papers</source>
+      <guid isPermaLink="false">ed136d81684f8e5274cb937157b8389e</guid>
+    </item>
+    <item>
+      <title>시스템 취약점 탐색 능력으로 미 정부가 관련 LLM 모델의 외국인 사용중지 조치한 건에 대한 생각</title>
+      <link>https://discuss.pytorch.kr/t/llm/10810</link>
+      <description>번역하면 번역이 정말 이상해져 요약한 내용을 올립니다. 자세한 내용은 글 말미의 링크로 가보세요. 이 글 내용과 관련 있는 다른 글이 어제 날짜로 여기 올라와 있네요.</description>
+      <pubDate>Fri, 19 Jun 2026 17:25:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llm/10810">PyTorch Korea</source>
+      <guid isPermaLink="false">000a978c43526a61a9e48d6f8e6725d1</guid>
+    </item>
+    <item>
+      <title>Thinking with Visual Grounding</title>
+      <link>https://huggingface.co/papers/2606.16122</link>
+      <description>Visually grounded thinking integrates natural-language reasoning with explicit visual evidence grounding in vision-language models, improving reasoning accuracy through scalable synthesis and reinforcement learning tech…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16122">Hugging Face Papers</source>
+      <guid isPermaLink="false">da4aceee5a136068f67d3c1b0ffec7a7</guid>
+    </item>
+    <item>
+      <title>SaaS 대체하기: AI와 함께한 광고SDK 에러 모니터링 시스템 구축기</title>
+      <link>https://d2.naver.com/helloworld/8319114</link>
+      <description>네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 서드파티 SDK 환경에서 범용 에러 모니터링 도구 연동 시 발생하는 구조적 한계를 극복하기 위해, AI Agent를 활용해 전용 Javascript 에러 모니터링 시스템을 직접 구축한 경험과 그 가능성을 공유합니다.</description>
+      <pubDate>Tue, 16 Jun 2026 23:14:39 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/8319114">NAVER D2</source>
+      <guid isPermaLink="false">e4579006c87a8d881977e73f86e693e8</guid>
+    </item>
+    <item>
+      <title>Understanding the Behaviors of Environment-aware Information Retrieval</title>
+      <link>https://huggingface.co/papers/2606.16817</link>
+      <description>Large language models can be trained via reinforcement learning to adapt query formulation strategies for different retrievers, with distinct optimal query styles and improved performance through retriever-specific guid…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16817">Hugging Face Papers</source>
+      <guid isPermaLink="false">5ac09dba5d6f61a125f670f7e2dce312</guid>
+    </item>
+    <item>
+      <title>LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents</title>
+      <link>https://huggingface.co/papers/2606.20529</link>
+      <description>LEDGERAGENT is a method for customer service agents that maintains task states in a separate ledger to improve policy adherence and state management during tool calling.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20529">Hugging Face Papers</source>
+      <guid isPermaLink="false">be00eaa1ef99ddf64ff575acbcad5420</guid>
+    </item>
+    <item>
+      <title>catnip-ai-tech/MaineCoon — MaineCoon: Pursuing a Real-Time Audio-Visual Social World Model — technical report &amp; project links. </title>
+      <link>https://github.com/catnip-ai-tech/MaineCoon</link>
+      <description>MaineCoon: Pursuing a Real-Time Audio-Visual Social World Model — technical report &amp; project links. 🌐 https://mainecoon.tech/</description>
+      <pubDate>Thu, 18 Jun 2026 18:03:53 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/catnip-ai-tech/MaineCoon">GitHub Trending</source>
+      <guid isPermaLink="false">f1e0aa256e55f20382d10110200a0b0a</guid>
+    </item>
+    <item>
+      <title>ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?</title>
+      <link>https://huggingface.co/papers/2606.19531</link>
+      <description>ImageWAM demonstrates that pretrained image editing models can effectively replace video generation in world action models for robot control, achieving better performance with reduced computational costs.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19531">Hugging Face Papers</source>
+      <guid isPermaLink="false">1f3b7c726d3083f278815ea75280f9e2</guid>
+    </item>
+    <item>
+      <title>HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining</title>
+      <link>https://huggingface.co/papers/2606.20521</link>
+      <description>Egocentric human video can effectively replace teleoperated robot trajectories for embodied model pretraining, achieving better performance with reduced data collection costs.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20521">Hugging Face Papers</source>
+      <guid isPermaLink="false">9803e4b8cfd353b3bf9517c581bccdf9</guid>
+    </item>
+    <item>
+      <title>The Data Manifold under the Microscope</title>
+      <link>https://huggingface.co/papers/2606.15760</link>
+      <description>A benchmarking framework is introduced to study data-manifold geometry by extending dSprites and COIL-20 datasets with additional transformation dimensions and dense sampling, enabling accurate estimation of curvature,…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.15760">Hugging Face Papers</source>
+      <guid isPermaLink="false">3877afbe4673fa5734551395d8dc9d04</guid>
+    </item>
+    <item>
+      <title>Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe</title>
+      <link>https://huggingface.co/papers/2606.20381</link>
+      <description>Uniform 4-bit training with RHT-based quantization outperforms E2M1-based methods by eliminating shrinkage bias and improving training stability across large language model architectures.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20381">Hugging Face Papers</source>
+      <guid isPermaLink="false">e0229752a03265a6e82b41f8bf83e900</guid>
+    </item>
+    <item>
+      <title>FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining</title>
+      <link>https://huggingface.co/papers/2606.20506</link>
+      <description>FreeStyle is a scalable dual-reference generation framework that uses community LoRA mining to create large-scale style-content triplets while addressing content leakage through disentanglement mechanisms and a comprehe…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20506">Hugging Face Papers</source>
+      <guid isPermaLink="false">d5dbfb780fe38d95abe2bb04d3de798d</guid>
+    </item>
+    <item>
+      <title>Duration Aware Scheduling for ASR Serving Under Workload Drift</title>
+      <link>https://huggingface.co/papers/2603.11273</link>
+      <description>Duration-aware scheduling policies improve ASR serving latency by leveraging audio length as a predictor for processing time, with SJF and HRRN algorithms showing significant median latency reductions while maintaining…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2603.11273">Hugging Face Papers</source>
+      <guid isPermaLink="false">be84215cc5ee6c4015424959dd1c6346</guid>
+    </item>
+    <item>
+      <title>OM1: 로봇을 위한 모듈형 멀티모달 AI 런타임</title>
+      <link>https://discuss.pytorch.kr/t/om1-ai/10786</link>
+      <description>OM1 소개 OM1은 멀티모달 AI 에이전트를 디지털 환경과 물리 로봇 양쪽에서 만들고 배포하기 위한 모듈형 AI 런타임입니다. OpenMind가 개발했으며, 휴머노이드와 사족보행 로봇은 물론 폰 앱, TurtleBot 4 같은 교육용 로봇, 그리고 Gazebo와 Isaac Sim 같은 시뮬레이터까지 하나의 런타임으로 다룹니다.</description>
+      <pubDate>Fri, 19 Jun 2026 18:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/om1-ai/10786">PyTorch Korea</source>
+      <guid isPermaLink="false">3212e3451aae02b8b1382e9f191ef6f7</guid>
+    </item>
+    <item>
+      <title>스펙만 바꾸면 프롬프트가 따라옵니다 - 답변 생성 모델 자동화 파이프라인</title>
+      <link>https://d2.naver.com/helloworld/2852215</link>
+      <description>네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 입력 스펙이 자주 바뀌는 쇼핑 에이전트 답변 모델 개발에서, 변경된 스펙만 입력하면 결함 탐지/프롬프트 최적화/SFT 학습 데이터 생성을 에이전트가 폐쇄 루프로 돌리는 자동화 파이프라인을 설계하며 얻은 구조와 적용 경험을 공유합니다.</description>
+      <pubDate>Thu, 18 Jun 2026 19:17:54 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/2852215">NAVER D2</source>
+      <guid isPermaLink="false">037151ef501fe071e079ba83b98174fc</guid>
+    </item>
+    <item>
+      <title>Current World Models Lack a Persistent State Core</title>
+      <link>https://huggingface.co/papers/2606.20545</link>
+      <description>Current world models fail to maintain consistent world states when unobserved, indicating a need for design changes that prioritize physical state stability over appearance fidelity.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20545">Hugging Face Papers</source>
+      <guid isPermaLink="false">73a16db15fb7ec87c1aee9f4a7bc2d16</guid>
+    </item>
+    <item>
+      <title>The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation</title>
+      <link>https://huggingface.co/papers/2606.20536</link>
+      <description>Analysis of FID variance across different training and sampling seeds reveals significant reproducibility issues in image generation evaluation, with retraining causing larger fluctuations than resampling, and recommend…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20536">Hugging Face Papers</source>
+      <guid isPermaLink="false">851ca5b5796509fb9ec6eb94a9c7a283</guid>
+    </item>
+    <item>
+      <title>도구에서 동료로 — AI 에이전트 자율 성장 프레임워크</title>
+      <link>https://d2.naver.com/helloworld/4399330</link>
+      <description>네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 매 세션 초기화되는 AI의 한계를 넘어, 경험을 축적하고 스스로 성장하는 에이전트 프레임워크 GNOSIS의 설계 원칙과 구현 사례를 소개합니다.</description>
+      <pubDate>Wed, 17 Jun 2026 20:31:17 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/4399330">NAVER D2</source>
+      <guid isPermaLink="false">1fcd6d6bac70356c2e2e8b67107c2f62</guid>
+    </item>
+    <item>
+      <title>AI 에이전트를 위한 Playwright E2E 테스트 하네스 구축하기</title>
+      <link>https://d2.naver.com/helloworld/6811215</link>
+      <description>네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 AI 에이전트가 코드를 짜는 시대, 우리는 그 코드를 어떻게 믿을 수 있을까요? Playwright 기반 E2E 테스트를 구축하고, 에이전트가 직접 테스트 코드를 작성 및 검증하는 워크플로우를 만든 여정을 공유합니다.</description>
+      <pubDate>Mon, 15 Jun 2026 19:51:03 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/6811215">NAVER D2</source>
+      <guid isPermaLink="false">8f18abb60dc88041649010d4f3eb5934</guid>
     </item>
   </channel>
 </rss>

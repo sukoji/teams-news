@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import type { Digest, DigestItem } from "../lib/types";
 import { fetchDigest } from "../lib/types";
+import { fetchArchiveMeta } from "../lib/archive";
 import { NewsCard } from "../components/NewsCard";
 import { SectionChips, type SectionFilter } from "../components/SectionChips";
 
@@ -14,6 +16,7 @@ function sectionCounts(items: DigestItem[]): Record<string, number> {
 
 export function HomePage() {
   const [digest, setDigest] = useState<Digest | null>(null);
+  const [archiveTotal, setArchiveTotal] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<SectionFilter>("all");
 
@@ -21,6 +24,9 @@ export function HomePage() {
     fetchDigest()
       .then(setDigest)
       .catch((e: Error) => setError(e.message));
+    fetchArchiveMeta()
+      .then((m) => setArchiveTotal(m.total))
+      .catch(() => setArchiveTotal(null));
   }, []);
 
   if (error) {
@@ -57,6 +63,15 @@ export function HomePage() {
           </h1>
           <p className="text-text-secondary">
             {digest.title} · {digest.item_count}건 · {digest.date}
+            {archiveTotal != null && (
+              <>
+                {" "}
+                ·{" "}
+                <Link to="/feed" className="text-brand no-underline hover:underline">
+                  전체 피드 {archiveTotal.toLocaleString()}건 →
+                </Link>
+              </>
+            )}
           </p>
         </div>
       </section>

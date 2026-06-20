@@ -5,7 +5,7 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Jun 2026 15:40:46 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 15:55:43 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
@@ -15,7 +15,52 @@
       <pubDate>Sat, 20 Jun 2026 09:30:08 +0900</pubDate>
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807">PyTorch Korea</source>
-      <guid isPermaLink="false">5570883f447c082f98a5a5190d358d9b</guid>
+      <guid isPermaLink="false">c2964e7392c33c0927d71e019f33f955</guid>
+    </item>
+    <item>
+      <title>voice-input-src: 단 하나의 Claude Code 프롬프트로 직접 만들어 사용하는 macOS 음성 입력 앱</title>
+      <link>https://discuss.pytorch.kr/t/voice-input-src-claude-code-macos/10788</link>
+      <description>voice-input-src 소개 voice-input-src는 Fn 키를 누르는 동안 말을 하면, 인식된 텍스트를 현재 포커스된 입력창에 바로 넣어 주는 macOS 메뉴 막대(menu-bar) 음성 입력 앱입니다.</description>
+      <pubDate>Sat, 20 Jun 2026 12:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/voice-input-src-claude-code-macos/10788">PyTorch Korea</source>
+      <guid isPermaLink="false">471e1e7a5ead9bf474d50d4751c55eaf</guid>
+    </item>
+    <item>
+      <title>Google, 피부 질환 이해를 돕는 AI 도구 연구 공개 (feat. JAMA Dermatology)</title>
+      <link>https://discuss.pytorch.kr/t/google-ai-feat-jama-dermatology/10765</link>
+      <description>피부 질환 정보를 이해한다는 것: 접근과 이해 사이의 간극 성인의 절반 이상 이 건강 정보를 얻기 위해 인터넷을 사용하고, 3명 중 1명 은 인공지능(AI)에 건강 관련 질문을 던집니다. 그러나 정보에 접근할 수 있다는 것이 곧 그 정보를 쉽게 이해 하거나 올바르게 해석 할 수 있다는 뜻은 아닙니다.</description>
+      <pubDate>Fri, 19 Jun 2026 20:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-ai-feat-jama-dermatology/10765">PyTorch Korea</source>
+      <guid isPermaLink="false">74b0e185761507473e1b7b4d1887c1d6</guid>
+    </item>
+    <item>
+      <title>시스템 취약점 탐색 능력으로 미 정부가 관련 LLM 모델의 외국인 사용중지 조치한 건에 대한 생각</title>
+      <link>https://discuss.pytorch.kr/t/llm/10810</link>
+      <description>번역하면 번역이 정말 이상해져 요약한 내용을 올립니다. 자세한 내용은 글 말미의 링크로 가보세요. 이 글 내용과 관련 있는 다른 글이 어제 날짜로 여기 올라와 있네요.</description>
+      <pubDate>Fri, 19 Jun 2026 17:25:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llm/10810">PyTorch Korea</source>
+      <guid isPermaLink="false">000a978c43526a61a9e48d6f8e6725d1</guid>
+    </item>
+    <item>
+      <title>OM1: 로봇을 위한 모듈형 멀티모달 AI 런타임</title>
+      <link>https://discuss.pytorch.kr/t/om1-ai/10786</link>
+      <description>OM1 소개 OM1은 멀티모달 AI 에이전트를 디지털 환경과 물리 로봇 양쪽에서 만들고 배포하기 위한 모듈형 AI 런타임입니다. OpenMind가 개발했으며, 휴머노이드와 사족보행 로봇은 물론 폰 앱, TurtleBot 4 같은 교육용 로봇, 그리고 Gazebo와 Isaac Sim 같은 시뮬레이터까지 하나의 런타임으로 다룹니다.</description>
+      <pubDate>Fri, 19 Jun 2026 18:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/om1-ai/10786">PyTorch Korea</source>
+      <guid isPermaLink="false">3212e3451aae02b8b1382e9f191ef6f7</guid>
+    </item>
+    <item>
+      <title>Qwen-RobotWorld: 자연어를 행동 인터페이스로 삼은 임바디드 월드 모델 (feat. Qwen Team)</title>
+      <link>https://discuss.pytorch.kr/t/qwen-robotworld-feat-qwen-team/10793</link>
+      <description>Qwen-RobotWorld 소개 로봇을 학습시킬 때 가장 비싼 자원은 무엇일까요? GPU도, 모델 파라미터도 아닌 실제 세계의 경험 입니다. 사람은 컵을 잡다가 떨어뜨리고, 물을 따르다 넘치는 과정을 일상에서 수없이 겪으며 물리 법칙을 체득하지만, 로봇은 이런 경험 하나하나를 사람이 직접 원격 조작(teleoperation)으로 수집하거나 실제 하드웨어를 위험하게 굴려가며 모아야 합니다.</description>
+      <pubDate>Fri, 19 Jun 2026 16:30:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/qwen-robotworld-feat-qwen-team/10793">PyTorch Korea</source>
+      <guid isPermaLink="false">f2954bbba3798f0121bd88e55be9fa58</guid>
     </item>
   </channel>
 </rss>

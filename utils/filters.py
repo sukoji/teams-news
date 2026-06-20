@@ -360,6 +360,19 @@ def format_item_score(item: NewsItem) -> str:
     )
 
 
+def prepare_archive_items(items: list[NewsItem]) -> list[NewsItem]:
+    """Score, keyword-filter, and dedupe all matching items (not capped at top 7)."""
+    scored = [score_item(item) for item in items]
+    filtered = [item for item in scored if passes_keyword_filter(item)]
+    ranked = sorted(
+        deduplicate_items(filtered),
+        key=lambda item: (item.score, item.importance_score, item.published_at),
+        reverse=True,
+    )
+    logger.info("Archive candidates: %d keyword-matched items", len(ranked))
+    return ranked
+
+
 def select_top_items(items: list[NewsItem]) -> list[NewsItem]:
     scored = [score_item(item) for item in items]
     filtered = [item for item in scored if passes_keyword_filter(item)]

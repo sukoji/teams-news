@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:teams="https://piai.postech.ac.kr/teams-news/rss/1.0">
+<rss version="2.0">
   <channel>
-    <title>PIAI Teams News — Daily Full Metadata</title>
-    <link>https://jskh-201910840.github.io/teams-news/feed/full.xml</link>
-    <description>Extended RSS with scores, sections, and engagement metrics for bot builders.</description>
+    <title>PIAI Teams News — Daily Top 7</title>
+    <link>https://jskh-201910840.github.io/teams-news/feed/daily.xml</link>
+    <description>Today's curated top 7 digest for Teams card.</description>
     <language>ko</language>
     <lastBuildDate>Sat, 20 Jun 2026 15:55:43 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
@@ -16,11 +16,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.17053">Hugging Face Papers</source>
       <guid isPermaLink="false">85fc30b04d961b17c54843db7647eec5</guid>
-      <teams:source>Hugging Face Papers</teams:source>
-      <teams:section>papers</teams:section>
-      <teams:score>25.27</teams:score>
-      <teams:titleOriginal>Context-Aware RL for Agentic and Multimodal LLMs</teams:titleOriginal>
-      <teams:engagement label="Upvotes">5</teams:engagement>
     </item>
     <item>
       <title>Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance</title>
@@ -30,11 +25,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.19195">Hugging Face Papers</source>
       <guid isPermaLink="false">2f5f8fec4770858efeb6c907829f8435</guid>
-      <teams:source>Hugging Face Papers</teams:source>
-      <teams:section>papers</teams:section>
-      <teams:score>24.87</teams:score>
-      <teams:titleOriginal>Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance</teams:titleOriginal>
-      <teams:engagement label="Upvotes">102</teams:engagement>
     </item>
     <item>
       <title>퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시</title>
@@ -44,11 +34,6 @@
       <category>news</category>
       <source url="https://www.aitimes.com/news/articleView.html?idxno=211932">AI Times</source>
       <guid isPermaLink="false">3d638b9661543a414fe58d91735a5b79</guid>
-      <teams:source>AI Times</teams:source>
-      <teams:section>news</teams:section>
-      <teams:score>19.53</teams:score>
-      <teams:titleOriginal>퍼플렉시티, 밤마다 스스로 학습하는 AI 에이전트 메모리 '브레인' 출시</teams:titleOriginal>
-      
     </item>
     <item>
       <title>메모리 시장, 올해 4배 성장 전망...AI 수요가 견인</title>
@@ -58,11 +43,6 @@
       <category>news</category>
       <source url="https://zdnet.co.kr/view/?no=20260619204511">ZDNet Korea</source>
       <guid isPermaLink="false">47c036a20247ab8e31f2ea03ca86a682</guid>
-      <teams:source>ZDNet Korea</teams:source>
-      <teams:section>news</teams:section>
-      <teams:score>19.6</teams:score>
-      <teams:titleOriginal>메모리 시장, 올해 4배 성장 전망...AI 수요가 견인</teams:titleOriginal>
-      
     </item>
     <item>
       <title>agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (</title>
@@ -72,11 +52,6 @@
       <category>trending</category>
       <source url="https://github.com/agiwhitelist/tokdiet">GitHub Trending</source>
       <guid isPermaLink="false">27688420164052b793732968e3c19af6</guid>
-      <teams:source>GitHub Trending</teams:source>
-      <teams:section>trending</teams:section>
-      <teams:score>28.82</teams:score>
-      <teams:titleOriginal>agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (</teams:titleOriginal>
-      <teams:engagement label="Stars">68</teams:engagement>
     </item>
     <item>
       <title>haydenbleasel/batchwork — Unified batch API for AI providers. Save up to 50% on LLM costs.</title>
@@ -86,11 +61,6 @@
       <category>trending</category>
       <source url="https://github.com/haydenbleasel/batchwork">GitHub Trending</source>
       <guid isPermaLink="false">eea8e7e30889f9db752b3fea3cfeb8ff</guid>
-      <teams:source>GitHub Trending</teams:source>
-      <teams:section>trending</teams:section>
-      <teams:score>25.76</teams:score>
-      <teams:titleOriginal>haydenbleasel/batchwork — Unified batch API for AI providers. Save up to 50% on LLM costs.</teams:titleOriginal>
-      <teams:engagement label="Stars">49</teams:engagement>
     </item>
     <item>
       <title>Cua Driver: Windows와 Linux 데스크톱 백그라운드 컴퓨터 사용 프로젝트 (feat. Claude Code, MCP)</title>
@@ -100,11 +70,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cua-driver-windows-linux-feat-claude-code-mcp/10807">PyTorch Korea</source>
       <guid isPermaLink="false">5570883f447c082f98a5a5190d358d9b</guid>
-      <teams:source>PyTorch Korea</teams:source>
-      <teams:section>community</teams:section>
-      <teams:score>21.56</teams:score>
-      <teams:titleOriginal>Cua Driver: Windows와 Linux 데스크톱 백그라운드 컴퓨터 사용 프로젝트 (feat. Claude Code, MCP)</teams:titleOriginal>
-      
     </item>
   </channel>
 </rss>

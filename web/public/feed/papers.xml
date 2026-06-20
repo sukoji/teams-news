@@ -5,26 +5,314 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Jun 2026 15:40:46 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 15:55:43 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
-      <title>에이전트 및 멀티모달 LLM을 위한 상황 인식 RL</title>
+      <title>Context-Aware RL for Agentic and Multimodal LLMs</title>
       <link>https://huggingface.co/papers/2606.17053</link>
-      <description>ContextRL은 쿼리-답변 쌍을 지원하기 위한 컨텍스트 선택을 보상하는 강화 학습을 통해 장기 추론 및 다중 모드 성능을 향상하고 다이버에 대한 표준 방법보다 향상된 성능을 달성합니다.</description>
+      <description>ContextRL enhances long-horizon reasoning and multimodal performance through reinforcement learning that rewards context selection for supporting query-answer pairs, achieving improvements over standard methods on diver…</description>
       <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.17053">Hugging Face Papers</source>
-      <guid isPermaLink="false">85fc30b04d961b17c54843db7647eec5</guid>
+      <guid isPermaLink="false">4fc30ae6982427be060cd936188ccd4b</guid>
     </item>
     <item>
-      <title>Moebius: 10B 수준의 성능을 갖춘 0.2B 경량 이미지 인페인팅 프레임워크</title>
+      <title>Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance</title>
       <link>https://huggingface.co/papers/2606.19195</link>
-      <description>경량 이미지 인페인팅 프레임워크는 새로운 로컬-글로벌 상호 작용 블록 및 적응형 증류 전략을 통해 매개변수와 추론 시간을 크게 줄임으로써 충실도 높은 결과를 달성합니다.</description>
+      <description>A lightweight image inpainting framework achieves high-fidelity results with significantly reduced parameters and inference time through novel local-global interaction blocks and adaptive distillation strategies.</description>
       <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.19195">Hugging Face Papers</source>
-      <guid isPermaLink="false">2f5f8fec4770858efeb6c907829f8435</guid>
+      <guid isPermaLink="false">037c8044c197abdb6d1bf6ed95c21675</guid>
+    </item>
+    <item>
+      <title>Playful Agentic Robot Learning</title>
+      <link>https://huggingface.co/papers/2606.19419</link>
+      <description>Embodied robots learn reusable skills through self-directed play and exploration, then apply these skills to improve performance on downstream tasks without additional training.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19419">Hugging Face Papers</source>
+      <guid isPermaLink="false">366bb322ae095172a08540616610925e</guid>
+    </item>
+    <item>
+      <title>Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents</title>
+      <link>https://huggingface.co/papers/2606.19704</link>
+      <description>Aggregate-score leaderboards in agent benchmarks fail to capture deployment-relevant dimensions and show rank instability, necessitating new evaluation frameworks based on predictive validity and out-of-distribution cri…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19704">Hugging Face Papers</source>
+      <guid isPermaLink="false">e9bc1a82946d9cce28fd0d051c4edf37</guid>
+    </item>
+    <item>
+      <title>Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages</title>
+      <link>https://huggingface.co/papers/2606.20517</link>
+      <description>Multi-LCB addresses the limitation of LiveCodeBench by providing a multi-language benchmark for evaluating LLMs across twelve programming languages while maintaining contamination controls and evaluation protocols.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20517">Hugging Face Papers</source>
+      <guid isPermaLink="false">42feefbb9a2f5476e635388309cbd1e3</guid>
+    </item>
+    <item>
+      <title>FlowBender: Feedback-Aware Training for Self-Correcting Conditional Flows</title>
+      <link>https://huggingface.co/papers/2606.20404</link>
+      <description>FlowBender is a closed-loop framework that addresses constraint satisfaction in diffusion and flow models by training networks to correct alignment errors using inference-time feedback, outperforming traditional supervi…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20404">Hugging Face Papers</source>
+      <guid isPermaLink="false">4dfbea416f90e65f37f333c4b060ca46</guid>
+    </item>
+    <item>
+      <title>DF3DV-1K: A Large-Scale Dataset and Benchmark for Distractor-Free Novel View Synthesis</title>
+      <link>https://huggingface.co/papers/2604.13416</link>
+      <description>A large-scale real-world dataset called DF3DV-1K is introduced to address the lack of clean and cluttered image sets for distractor-free radiance field research, containing 1,048 scenes with 89,924 images across 128 dis…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2604.13416">Hugging Face Papers</source>
+      <guid isPermaLink="false">b8eb32a7612b2271d8682ddff6af2552</guid>
+    </item>
+    <item>
+      <title>S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence</title>
+      <link>https://huggingface.co/papers/2606.20515</link>
+      <description>S-Agent is a spatial reasoning framework that enhances visual language models with temporal memory and hierarchical spatial tools to enable continuous 3D world understanding from multi-view imagery.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20515">Hugging Face Papers</source>
+      <guid isPermaLink="false">e4af48d71f6421b1299a775d3c4ee610</guid>
+    </item>
+    <item>
+      <title>DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects</title>
+      <link>https://huggingface.co/papers/2606.15133</link>
+      <description>DragMesh-2 enables dexterous hand-object interaction through contact-driven manipulation, with PICA enhancing robustness under varying contact loads without tactile feedback.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.15133">Hugging Face Papers</source>
+      <guid isPermaLink="false">5bb703a3829c606fb02d8703a19e839d</guid>
+    </item>
+    <item>
+      <title>No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages</title>
+      <link>https://huggingface.co/papers/2606.16827</link>
+      <description>Research addresses code generation challenges for no-resource programming languages by developing benchmarks and proposing a method that combines further pre-training with weight difference transfer to create specialize…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16827">Hugging Face Papers</source>
+      <guid isPermaLink="false">a3f633a9ea6cb2cffbe2ca2e4b848f44</guid>
+    </item>
+    <item>
+      <title>Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation</title>
+      <link>https://huggingface.co/papers/2606.16429</link>
+      <description>Hybrid linear attention models can be improved through a novel initialization technique that enhances conversion from pretrained Transformers by leveraging teacher attention statistics and alignment steps.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16429">Hugging Face Papers</source>
+      <guid isPermaLink="false">8b3d7e4eb2f24b0839a9d2db21a51a4d</guid>
+    </item>
+    <item>
+      <title>JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising</title>
+      <link>https://huggingface.co/papers/2606.20563</link>
+      <description>A fast, training-free framework generates text-driven 3D visual illusions by decoupling generation into cross-space dual-branch denoising and view-conditioned texture synthesis for seamless geometric fusion and semantic…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20563">Hugging Face Papers</source>
+      <guid isPermaLink="false">f7e0cb7cdaa8c219c5c913b6645a6025</guid>
+    </item>
+    <item>
+      <title>FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines</title>
+      <link>https://huggingface.co/papers/2606.19605</link>
+      <description>FAPO optimizes LLM pipelines by combining prompt editing with structural changes, demonstrating superior performance across multiple benchmarks and security tasks.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19605">Hugging Face Papers</source>
+      <guid isPermaLink="false">ed136d81684f8e5274cb937157b8389e</guid>
+    </item>
+    <item>
+      <title>Thinking with Visual Grounding</title>
+      <link>https://huggingface.co/papers/2606.16122</link>
+      <description>Visually grounded thinking integrates natural-language reasoning with explicit visual evidence grounding in vision-language models, improving reasoning accuracy through scalable synthesis and reinforcement learning tech…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16122">Hugging Face Papers</source>
+      <guid isPermaLink="false">da4aceee5a136068f67d3c1b0ffec7a7</guid>
+    </item>
+    <item>
+      <title>Understanding the Behaviors of Environment-aware Information Retrieval</title>
+      <link>https://huggingface.co/papers/2606.16817</link>
+      <description>Large language models can be trained via reinforcement learning to adapt query formulation strategies for different retrievers, with distinct optimal query styles and improved performance through retriever-specific guid…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16817">Hugging Face Papers</source>
+      <guid isPermaLink="false">5ac09dba5d6f61a125f670f7e2dce312</guid>
+    </item>
+    <item>
+      <title>LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents</title>
+      <link>https://huggingface.co/papers/2606.20529</link>
+      <description>LEDGERAGENT is a method for customer service agents that maintains task states in a separate ledger to improve policy adherence and state management during tool calling.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20529">Hugging Face Papers</source>
+      <guid isPermaLink="false">be00eaa1ef99ddf64ff575acbcad5420</guid>
+    </item>
+    <item>
+      <title>ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?</title>
+      <link>https://huggingface.co/papers/2606.19531</link>
+      <description>ImageWAM demonstrates that pretrained image editing models can effectively replace video generation in world action models for robot control, achieving better performance with reduced computational costs.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19531">Hugging Face Papers</source>
+      <guid isPermaLink="false">1f3b7c726d3083f278815ea75280f9e2</guid>
+    </item>
+    <item>
+      <title>HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining</title>
+      <link>https://huggingface.co/papers/2606.20521</link>
+      <description>Egocentric human video can effectively replace teleoperated robot trajectories for embodied model pretraining, achieving better performance with reduced data collection costs.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20521">Hugging Face Papers</source>
+      <guid isPermaLink="false">9803e4b8cfd353b3bf9517c581bccdf9</guid>
+    </item>
+    <item>
+      <title>The Data Manifold under the Microscope</title>
+      <link>https://huggingface.co/papers/2606.15760</link>
+      <description>A benchmarking framework is introduced to study data-manifold geometry by extending dSprites and COIL-20 datasets with additional transformation dimensions and dense sampling, enabling accurate estimation of curvature,…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.15760">Hugging Face Papers</source>
+      <guid isPermaLink="false">3877afbe4673fa5734551395d8dc9d04</guid>
+    </item>
+    <item>
+      <title>Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe</title>
+      <link>https://huggingface.co/papers/2606.20381</link>
+      <description>Uniform 4-bit training with RHT-based quantization outperforms E2M1-based methods by eliminating shrinkage bias and improving training stability across large language model architectures.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20381">Hugging Face Papers</source>
+      <guid isPermaLink="false">e0229752a03265a6e82b41f8bf83e900</guid>
+    </item>
+    <item>
+      <title>FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining</title>
+      <link>https://huggingface.co/papers/2606.20506</link>
+      <description>FreeStyle is a scalable dual-reference generation framework that uses community LoRA mining to create large-scale style-content triplets while addressing content leakage through disentanglement mechanisms and a comprehe…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20506">Hugging Face Papers</source>
+      <guid isPermaLink="false">d5dbfb780fe38d95abe2bb04d3de798d</guid>
+    </item>
+    <item>
+      <title>Duration Aware Scheduling for ASR Serving Under Workload Drift</title>
+      <link>https://huggingface.co/papers/2603.11273</link>
+      <description>Duration-aware scheduling policies improve ASR serving latency by leveraging audio length as a predictor for processing time, with SJF and HRRN algorithms showing significant median latency reductions while maintaining…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2603.11273">Hugging Face Papers</source>
+      <guid isPermaLink="false">be84215cc5ee6c4015424959dd1c6346</guid>
+    </item>
+    <item>
+      <title>Current World Models Lack a Persistent State Core</title>
+      <link>https://huggingface.co/papers/2606.20545</link>
+      <description>Current world models fail to maintain consistent world states when unobserved, indicating a need for design changes that prioritize physical state stability over appearance fidelity.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20545">Hugging Face Papers</source>
+      <guid isPermaLink="false">73a16db15fb7ec87c1aee9f4a7bc2d16</guid>
+    </item>
+    <item>
+      <title>The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation</title>
+      <link>https://huggingface.co/papers/2606.20536</link>
+      <description>Analysis of FID variance across different training and sampling seeds reveals significant reproducibility issues in image generation evaluation, with retraining causing larger fluctuations than resampling, and recommend…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20536">Hugging Face Papers</source>
+      <guid isPermaLink="false">851ca5b5796509fb9ec6eb94a9c7a283</guid>
+    </item>
+    <item>
+      <title>LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI</title>
+      <link>https://huggingface.co/papers/2606.18021</link>
+      <description>LegalHalluLens audits AI systems in legal workflows by identifying specific error patterns and directional biases in hallucinations across different claim types, enabling more reliable deployment through targeted diagno…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.18021">Hugging Face Papers</source>
+      <guid isPermaLink="false">3e40a4ead044728e467b13f0adef4d1a</guid>
+    </item>
+    <item>
+      <title>ENPIRE: Agentic Robot Policy Self-Improvement in the Real World</title>
+      <link>https://huggingface.co/papers/2606.19980</link>
+      <description>ENPIRE framework enables autonomous robotics research through a closed-loop system that automates policy improvement via environment feedback, policy refinement, and evolutionary code optimization.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19980">Hugging Face Papers</source>
+      <guid isPermaLink="false">881200170e1fc09ce73c16d3e00fb106</guid>
+    </item>
+    <item>
+      <title>Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States</title>
+      <link>https://huggingface.co/papers/2606.19334</link>
+      <description>A comprehensive corpus and access layer for U.S. local ordinance codes has been developed to enable machine-readable legal AI research, addressing the lack of authoritative legal text at scale for local regulations.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19334">Hugging Face Papers</source>
+      <guid isPermaLink="false">f6c59777d68458a976ad471e687e2663</guid>
+    </item>
+    <item>
+      <title>Configurable Clinical Information Extraction with Agentic RAG: What Works, What Breaks, and Why</title>
+      <link>https://huggingface.co/papers/2606.19602</link>
+      <description>ACIE, an agentic RAG system deployed in a clinical setting, demonstrates high accuracy in extracting medical information from complex patient contexts, achieving 96.5% acceptance rate by nuclear-medicine physicians acro…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19602">Hugging Face Papers</source>
+      <guid isPermaLink="false">ecc901b8b9d7b19b9f5b39823d709232</guid>
+    </item>
+    <item>
+      <title>Adaptive Volumetric Mechanical Property Fields Invariant to Resolution</title>
+      <link>https://huggingface.co/papers/2606.18231</link>
+      <description>AdaVoMP predicts dense spatially-varying mechanical properties for 3D objects using a sparse adaptive voxel structure and transformer encoder-decoder model, enabling realistic deformable simulations with improved accura…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.18231">Hugging Face Papers</source>
+      <guid isPermaLink="false">6baafb7900f196f9b16c50e36a9d2f5a</guid>
+    </item>
+    <item>
+      <title>Selective Synergistic Learning for Video Object-Centric Learning</title>
+      <link>https://huggingface.co/papers/2606.15527</link>
+      <description>Selective Synergistic Learning (SSync) addresses limitations in video object-centric learning by selectively distilling reliable cues through pseudo-labeling and transitive merging to improve object decomposition qualit…</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.15527">Hugging Face Papers</source>
+      <guid isPermaLink="false">7daa5add176220697583c83839a4cbba</guid>
+    </item>
+    <item>
+      <title>ReSyn: A Generalized Recursive Regular Expression Synthesis Framework</title>
+      <link>https://huggingface.co/papers/2603.24624</link>
+      <description>A divide-and-conquer framework named ReSyn enhances regex synthesis accuracy by decomposing complex problems, combined with a parameter-efficient synthesizer called Set2Regex that handles example permutation invariance.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2603.24624">Hugging Face Papers</source>
+      <guid isPermaLink="false">18664f74e957411cfdb76c63935851fe</guid>
+    </item>
+    <item>
+      <title>Holo-World: Unified Camera, Object and Weather Control for Video World Model</title>
+      <link>https://huggingface.co/papers/2606.20083</link>
+      <description>A unified controllable video world model generates videos from a single image while preserving scene structure and transferring to target weather states through specialized parameterization and conditioning techniques.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20083">Hugging Face Papers</source>
+      <guid isPermaLink="false">5b735933a294cade3e23b027d735a5f9</guid>
+    </item>
+    <item>
+      <title>LooseControlVideo: Directorial Video Control using Spatial Blocking</title>
+      <link>https://huggingface.co/papers/2606.19495</link>
+      <description>LooseControlVideo enables intuitive 3D spatial control in text-to-video generation using sparse oriented 3D boxes as proxies, achieving superior trajectory accuracy and occlusion handling compared to existing methods.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19495">Hugging Face Papers</source>
+      <guid isPermaLink="false">19fd72d4f2bf9939186bcaeeecc8474c</guid>
+    </item>
+    <item>
+      <title>JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines</title>
+      <link>https://huggingface.co/papers/2606.19830</link>
+      <description>Game development frameworks and benchmarks were created using data from game jam competitions to evaluate code generation and project-level programming capabilities.</description>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.19830">Hugging Face Papers</source>
+      <guid isPermaLink="false">5f7cdcd88f408baf89e38c5a2fadbc7e</guid>
     </item>
   </channel>
 </rss>

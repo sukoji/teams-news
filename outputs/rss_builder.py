@@ -6,6 +6,7 @@ from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
+from outputs.archive import get_archive_items_by_section, get_latest_archive_items
 from utils.timezone import KST
 
 logger = logging.getLogger(__name__)
@@ -119,38 +120,24 @@ def build_all_feeds(digest: dict, *, dry_run: bool = False) -> list[Path]:
 
     feeds: list[tuple[str | None, str, str, str, list[dict], bool]] = [
         (
-            None,
-            "feed.xml",
-            f"{SITE_TITLE} — Daily Digest",
-            f"{SITE_URL}/",
-            SITE_DESCRIPTION,
+            "daily.xml",
+            "daily.xml",
+            f"{SITE_TITLE} — Daily Top 7",
+            f"{SITE_URL}/feed/daily.xml",
+            "Today's curated top 7 digest for Teams card.",
             items,
             False,
         ),
         (
             "full.xml",
             "full.xml",
-            f"{SITE_TITLE} — Full Metadata Feed",
+            f"{SITE_TITLE} — Daily Full Metadata",
             f"{SITE_URL}/feed/full.xml",
             "Extended RSS with scores, sections, and engagement metrics for bot builders.",
             items,
             True,
         ),
     ]
-
-    for section_id, section_desc in SECTION_FEEDS.items():
-        section_items = [i for i in items if i.get("section_id") == section_id]
-        feeds.append(
-            (
-                f"{section_id}.xml",
-                f"{section_id}.xml",
-                f"{SITE_TITLE} — {section_desc.split(' — ')[0]}",
-                f"{SITE_URL}/feed/{section_id}.xml",
-                section_desc,
-                section_items,
-                False,
-            )
-        )
 
     written: list[Path] = []
     if dry_run:
@@ -185,6 +172,7 @@ def build_all_feeds(digest: dict, *, dry_run: bool = False) -> list[Path]:
                 "date": date_str,
                 "feeds": {
                     "all": f"{SITE_URL}/feed.xml",
+                    "daily": f"{SITE_URL}/feed/daily.xml",
                     "full": f"{SITE_URL}/feed/full.xml",
                     **{
                         sid: f"{SITE_URL}/feed/{sid}.xml"
@@ -198,5 +186,66 @@ def build_all_feeds(digest: dict, *, dry_run: bool = False) -> list[Path]:
         encoding="utf-8",
     )
     written.append(index_path)
+
+    return written
+
+
+ARCHIVE_FEED_LIMIT = 50
+
+
+def build_archive_feeds(*, dry_run: bool = False) -> list[Path]:
+    """Build main feed.xml and section feeds from the full archive."""
+    archive_items = get_latest_archive_items(ARCHIVE_FEED_LIMIT)
+
+    feeds: list[tuple[str | None, str, str, str, list[dict], bool]] = [
+        (
+            None,
+            "feed.xml",
+            f"{SITE_TITLE} — Latest from Archive",
+            f"{SITE_URL}/feed",
+            f"Latest {ARCHIVE_FEED_LIMIT} keyword-matched items from the growing archive.",
+            archive_items,
+            False,
+        ),
+    ]
+
+    for section_id, section_desc in SECTION_FEEDS.items():
+        section_items = get_archive_items_by_section(section_id, ARCHIVE_FEED_LIMIT)
+        feeds.append(
+            (
+                f"{section_id}.xml",
+                f"{section_id}.xml",
+                f"{SITE_TITLE} — {section_desc.split(' — ')[0]}",
+                f"{SITE_URL}/feed/{section_id}.xml",
+                section_desc,
+                section_items,
+                False,
+            )
+        )
+
+    written: list[Path] = []
+    if dry_run:
+        for _, filename, title, _, section_items, _ in feeds:
+            logger.info("Archive RSS dry run — %s: %d items (%s)", filename, len(section_items), title)
+        return written
+
+    FEEDS_DIR.mkdir(parents=True, exist_ok=True)
+    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
+
+    for subdir, filename, title, link, description, section_items, extended in feeds:
+        xml = build_rss_channel(
+            channel_title=title,
+            channel_link=link,
+            channel_description=description,
+            items=section_items,
+            extended=extended,
+        )
+        if subdir is None:
+            path = PUBLIC_DIR / filename
+        else:
+            path = FEEDS_DIR / filename
+        path.write_text(xml, encoding="utf-8")
+        written.append(path)
+        logger.info("Wrote archive RSS feed: %s (%d items)", path, len(section_items))
 
     return written

@@ -188,9 +188,32 @@ def export_digest(
 
 def _update_archive_index(digests_dir: Path, web_data_dir: Path) -> None:
     dates = sorted(
-        p.stem for p in digests_dir.glob("*.json") if p.stem != "latest"
+        p.stem for p in digests_dir.glob("*.json") if p.stem not in {"latest", "archive-index"}
     )
-    index = {"dates": list(reversed(dates))}
+
+    date_counts: dict[str, int] = {}
+    archive_meta = ROOT / "data" / "archive" / "meta.json"
+    if archive_meta.exists():
+        try:
+            meta = json.loads(archive_meta.read_text(encoding="utf-8"))
+            date_counts = meta.get("date_counts", {})
+        except json.JSONDecodeError:
+            pass
+
+    digest_counts: dict[str, int] = {}
+    for date in dates:
+        digest_path = digests_dir / f"{date}.json"
+        try:
+            digest = json.loads(digest_path.read_text(encoding="utf-8"))
+            digest_counts[date] = digest.get("item_count", 0)
+        except (json.JSONDecodeError, OSError):
+            digest_counts[date] = 0
+
+    index = {
+        "dates": list(reversed(dates)),
+        "digest_counts": digest_counts,
+        "archive_counts": {d: date_counts.get(d, 0) for d in dates},
+    }
     encoded = json.dumps(index, ensure_ascii=False, indent=2)
     (digests_dir / "archive-index.json").write_text(encoded, encoding="utf-8")
     (web_data_dir / "archive-index.json").write_text(encoded, encoding="utf-8")

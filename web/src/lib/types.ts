@@ -43,12 +43,14 @@ export const SITE_BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 export const FEED_URLS = {
   all: `${SITE_BASE}/feed.xml`,
+  daily: `${SITE_BASE}/feed/daily.xml`,
   full: `${SITE_BASE}/feed/full.xml`,
   papers: `${SITE_BASE}/feed/papers.xml`,
   news: `${SITE_BASE}/feed/news.xml`,
   trending: `${SITE_BASE}/feed/trending.xml`,
   community: `${SITE_BASE}/feed/community.xml`,
   json: `${SITE_BASE}/data/latest.json`,
+  archive: `${SITE_BASE}/data/archive/search-index.json`,
 } as const;
 
 export const SOURCE_STYLES: Record<string, { color: string; icon: string }> = {
@@ -109,4 +111,10 @@ export async function fetchArchiveDates(): Promise<string[]> {
     /* fallback below */
   }
   return [];
+}
+
+export interface ArchiveIndexManifest {
+  dates: string[];
+  digest_counts?: Record<string, number>;
+  archive_counts?: Record<string, number>;
 }
