@@ -1,14 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { useDebouncedValue } from "../hooks/useDebouncedValue";
-import { fetchSearchIndex, getSearchFuse, searchWithFuse } from "../lib/archive";
+import { fetchSearchIndex, getSearchFuse, searchWithFuse, toDigestItem } from "../lib/archive";
 import type { SearchIndexItem } from "../lib/archive";
-import { highlightText } from "../lib/highlight";
 import { loadRecentSearches, saveRecentSearch } from "../lib/recentSearches";
 import { cn } from "../styleseed/components/ui/utils";
+import { NewsCard } from "./NewsCard";
 
 const DEBOUNCE_MS = 200;
-const PREVIEW_LIMIT = 5;
+const PREVIEW_LIMIT = 8;
 
 interface SearchBarProps {
   className?: string;
@@ -156,8 +156,7 @@ export function SearchBar({ className, compact }: SearchBarProps) {
       {showDropdown && (
         <div
           id="search-dropdown"
-          className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-lg border border-border bg-surface-page shadow-lg"
-          role="listbox"
+          className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-lg border border-border bg-surface-page shadow-lg ring-1 ring-black/5"
           aria-label={showPreview ? "검색 미리보기" : "최근 검색"}
         >
           {showRecent && (
@@ -197,35 +196,34 @@ export function SearchBar({ className, compact }: SearchBarProps) {
                   전체 보기 →
                 </Link>
               </div>
-              {previewLoading ? (
-                <ul className="divide-y divide-border">
-                  {Array.from({ length: 3 }, (_, i) => (
-                    <li key={i} className="px-3 py-2.5">
-                      <div className="h-3.5 w-3/4 animate-pulse rounded bg-surface-subtle" />
-                      <div className="mt-1.5 h-2.5 w-1/3 animate-pulse rounded bg-surface-subtle" />
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <ul className="divide-y divide-border">
-                  {previewItems.map((item) => (
-                    <li key={item.id} role="option">
-                      <Link
-                        to={`/item/${item.id}`}
-                        className="block px-3 py-2.5 no-underline hover:bg-surface-subtle touch-target"
-                        onMouseDown={(e) => e.preventDefault()}
-                      >
-                        <p className="line-clamp-1 text-sm font-medium text-text-primary">
-                          {highlightText(item.title_ko || item.title, debouncedQ)}
-                        </p>
-                        <p className="mt-0.5 text-xs text-text-tertiary">
-                          {item.source} · {item.section}
-                        </p>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
+              <div
+                className="max-h-[min(70vh,32rem)] overflow-y-auto overscroll-contain divide-y divide-border"
+                role="listbox"
+                aria-label="검색 결과 미리보기"
+              >
+                {previewLoading ? (
+                  Array.from({ length: 4 }, (_, i) => (
+                    <div key={i} className="px-3 py-2.5" aria-hidden>
+                      <div className="mb-2 flex gap-2">
+                        <div className="h-4 w-16 animate-pulse rounded-full bg-surface-subtle" />
+                        <div className="h-4 w-12 animate-pulse rounded-full bg-surface-subtle" />
+                      </div>
+                      <div className="h-4 w-full animate-pulse rounded bg-surface-subtle" />
+                      <div className="mt-1 h-4 w-4/5 animate-pulse rounded bg-surface-subtle" />
+                    </div>
+                  ))
+                ) : (
+                  previewItems.map((item, i) => (
+                    <div key={item.id} role="option" onMouseDown={(e) => e.preventDefault()}>
+                      <NewsCard
+                        item={toDigestItem(item, i + 1)}
+                        highlightQuery={debouncedQ}
+                        compact
+                      />
+                    </div>
+                  ))
+                )}
+              </div>
             </div>
           )}
         </div>

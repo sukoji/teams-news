@@ -15,14 +15,54 @@ import { cn } from "../styleseed/components/ui/utils";
 export function NewsCard({
   item,
   highlightQuery,
+  compact,
 }: {
   item: DigestItem;
   highlightQuery?: string;
+  compact?: boolean;
 }) {
   const style = SOURCE_STYLES[item.source] ?? { color: "#8a8f98", icon: "📌" };
   const engagement = formatEngagement(item);
   const title = displayTitle(item);
   const summary = displaySummary(item);
+
+  if (compact) {
+    return (
+      <article
+        data-slot="news-card"
+        data-variant="compact"
+        className="flex flex-col gap-1.5 px-3 py-2.5 transition-colors hover:bg-surface-subtle"
+      >
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge
+            variant="secondary"
+            className="border-transparent text-[10px] font-semibold uppercase tracking-wide text-white"
+            style={{ backgroundColor: style.color }}
+          >
+            {style.icon} {item.source}
+          </Badge>
+          <span className="text-[11px] text-text-tertiary">{item.section}</span>
+          {engagement && (
+            <span className="text-[11px] font-semibold text-brand">{engagement}</span>
+          )}
+          <time
+            dateTime={item.published_at}
+            className="ml-auto shrink-0 text-[11px] text-text-disabled"
+          >
+            {formatRelativeTime(item.published_at)}
+          </time>
+        </div>
+        <h2 className="text-sm font-medium leading-snug text-text-primary">
+          <Link
+            to={itemDetailPath(item.id)}
+            className="line-clamp-2 no-underline hover:text-brand"
+          >
+            {highlightText(title, highlightQuery)}
+          </Link>
+        </h2>
+      </article>
+    );
+  }
 
   return (
     <article
