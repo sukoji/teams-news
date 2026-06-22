@@ -6,6 +6,8 @@ from collectors.base import NewsItem
 from utils.sections import SOURCE_SECTIONS
 from utils.timezone import KST
 
+NEWS_PAGE_URL = "https://jskh-201910840.github.io/teams-news/"
+
 SOURCE_COLORS: dict[str, str] = {
     "GeekNews": "Accent",
     "AI Times": "Good",
@@ -244,6 +246,13 @@ def build_adaptive_card(items: list[NewsItem]) -> dict:
         "type": "AdaptiveCard",
         "version": "1.4",
         "body": body,
+        "actions": [
+            {
+                "type": "Action.OpenUrl",
+                "title": "📰 뉴스 페이지 바로가기",
+                "url": NEWS_PAGE_URL,
+            }
+        ],
         "msteams": {"width": "Full"},
     }
     return card
