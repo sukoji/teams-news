@@ -42,15 +42,16 @@ def _engagement(item: NewsItem) -> dict | None:
     return None
 
 
-def _stable_guid(url: str, digest_date: str) -> str:
-    raw = f"{url.strip().lower()}|{digest_date}"
-    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:32]
+def url_hash(url: str) -> str:
+    """Stable item id from normalized URL — must match web/src/lib/archive.ts."""
+    normalized = url.strip().rstrip("/").lower()
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:32]
 
 
 def _serialize_item(item: NewsItem, digest_date: str, index: int) -> dict:
     section_title = _source_to_section().get(item.source, "📌 기타")
     return {
-        "id": _stable_guid(item.url, digest_date),
+        "id": url_hash(item.url),
         "index": index,
         "title": item.title,
         "title_ko": item.title_ko,

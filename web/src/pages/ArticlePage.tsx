@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { RelatedNewsCard } from "../components/RelatedNewsCard";
 import { usePageMeta } from "../hooks/usePageMeta";
 import {
-  findItemById,
+  resolveItem,
   fetchSearchIndex,
   getMoreFromSource,
   getRelatedItems,
@@ -71,7 +71,7 @@ export function ArticlePage() {
     Promise.all([fetchSearchIndex(), fetchDigest().catch(() => null)])
       .then(async ([index, digest]) => {
         if (cancelled) return;
-        const found = findItemById(index.items, id);
+        const found = await resolveItem(id, index.items, digest);
         if (!found) {
           setNotFound(true);
           setItem(null);

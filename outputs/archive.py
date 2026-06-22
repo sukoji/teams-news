@@ -1,13 +1,12 @@
 from __future__ import annotations
 
-import hashlib
 import json
 import logging
 from datetime import datetime
 from pathlib import Path
 
 from collectors.base import NewsItem
-from outputs.export import _serialize_item, _source_to_section
+from outputs.export import _serialize_item, _source_to_section, url_hash
 from utils.timezone import KST
 
 logger = logging.getLogger(__name__)
@@ -31,11 +30,6 @@ SOURCE_SLUGS: dict[str, str] = {
 }
 
 SLUG_TO_SOURCE = {slug: name for name, slug in SOURCE_SLUGS.items()}
-
-
-def url_hash(url: str) -> str:
-    normalized = url.split("?")[0].rstrip("/").lower()
-    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:32]
 
 
 def _archive_entry(item: NewsItem, *, collected_at: datetime) -> dict:

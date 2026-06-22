@@ -1,4 +1,4 @@
-import type { DigestItem } from "./types";
+import type { Digest, DigestItem } from "./types";
 import { SITE_BASE } from "./types";
 
 export interface ArchiveMeta {
@@ -214,11 +214,93 @@ export function itemDetailPath(id: string): string {
   return `/item/${id}`;
 }
 
+/** Matches outputs/export.py url_hash — stable id from normalized URL. */
+export async function urlHash(url: string): Promise<string> {
+  const normalized = url.trim().replace(/\/$/, "").toLowerCase();
+  const data = new TextEncoder().encode(normalized);
+  const digest = await crypto.subtle.digest("SHA-256", data);
+  const hex = Array.from(new Uint8Array(digest))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+  return hex.slice(0, 32);
+}
+
+export function sourceToSlug(source: string): string {
+  for (const [slug, name] of Object.entries(SOURCE_SLUGS)) {
+    if (name === source) return slug;
+  }
+  return source.toLowerCase().replace(/\s+/g, "-");
+}
+
+export function digestItemToSearchIndex(item: DigestItem): SearchIndexItem {
+  return {
+    id: item.id,
+    t: item.title_ko || item.title,
+    s: item.summary_ko || item.summary,
+    src: sourceToSlug(item.source),
+    sec: item.section_id,
+    pub: item.published_at,
+    col: item.published_at,
+    score: item.score,
+    pop: item.popularity,
+    url: item.url,
+    source: item.source,
+    section: item.section,
+    title: item.title,
+    title_ko: item.title_ko,
+    summary: item.summary,
+    summary_ko: item.summary_ko,
+    engagement: item.engagement,
+    matched_keywords: item.matched_keywords ?? [],
+  };
+}
+
+export function findItemByUrl(
+  items: SearchIndexItem[],
+  url: string,
+): SearchIndexItem | undefined {
+  return items.find((i) => i.url === url);
+}
+
 export function findItemById(
   items: SearchIndexItem[],
   id: string,
 ): SearchIndexItem | undefined {
   return items.find((i) => i.id === id);
+}
+
+export async function resolveItem(
+  id: string,
+  items: SearchIndexItem[],
+  digest: Digest | null,
+): Promise<SearchIndexItem | undefined> {
+  const byId = findItemById(items, id);
+  if (byId) return byId;
+
+  for (const item of items) {
+    if ((await urlHash(item.url)) === id) return item;
+  }
+
+  if (digest) {
+    let digestItem = digest.items.find((d) => d.id === id);
+    if (!digestItem) {
+      for (const d of digest.items) {
+        if ((await urlHash(d.url)) === id) {
+          digestItem = d;
+          break;
+        }
+      }
+    }
+
+    if (digestItem) {
+      const archived = findItemByUrl(items, digestItem.url);
+      if (archived) return archived;
+      const canonicalId = await urlHash(digestItem.url);
+      return digestItemToSearchIndex({ ...digestItem, id: canonicalId });
+    }
+  }
+
+  return undefined;
 }
 
 export async function getRelatedItems(
