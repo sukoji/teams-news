@@ -49,6 +49,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <NavLink to="/feed" className={navLinkClass}>
                 피드
               </NavLink>
+              <NavLink to="/search" className={navLinkClass}>
+                검색
+              </NavLink>
               <NavLink to="/archive" className={navLinkClass}>
                 아카이브
               </NavLink>
