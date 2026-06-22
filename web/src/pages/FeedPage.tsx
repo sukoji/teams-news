@@ -16,6 +16,10 @@ import {
   toDigestItem,
 } from "../lib/archive";
 import type { ArchiveMeta, FeedFilters, SearchIndexItem } from "../lib/archive";
+import {
+  SEARCH_SUGGESTIONS,
+  loadRecentSearches,
+} from "../lib/recentSearches";
 
 const LAST_VISIT_KEY = "teams-news-last-visit";
 const LAST_TOTAL_KEY = "teams-news-last-total";
@@ -40,6 +44,100 @@ function recordVisit(total: number) {
   }
 }
 
+function SearchEmptyPrompt({ onSearch }: { onSearch: (q: string) => void }) {
+  const recent = useMemo(() => loadRecentSearches(), []);
+
+  return (
+    <div className="ss-card p-8 text-center">
+      <p className="text-lg font-medium text-text-primary">검색어를 입력하세요</p>
+      <p className="mt-2 text-sm text-text-tertiary">
+        상단 검색창에 키워드를 입력하면 결과가 바로 표시됩니다.
+      </p>
+      {(recent.length > 0 || SEARCH_SUGGESTIONS.length > 0) && (
+        <div className="mt-6 flex flex-wrap justify-center gap-2">
+          {recent.map((term) => (
+            <button
+              key={term}
+              type="button"
+              className="ss-chip touch-target"
+              onClick={() => onSearch(term)}
+            >
+              {term}
+            </button>
+          ))}
+          {SEARCH_SUGGESTIONS.filter((s) => !recent.includes(s)).map((term) => (
+            <button
+              key={term}
+              type="button"
+              className="ss-chip touch-target"
+              onClick={() => onSearch(term)}
+            >
+              {term}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function NoResultsState({
+  query,
+  hasFilters,
+  onClear,
+  onSearch,
+}: {
+  query: string;
+  hasFilters: boolean;
+  onClear: () => void;
+  onSearch: (q: string) => void;
+}) {
+  const recent = useMemo(
+    () => loadRecentSearches().filter((r) => r.toLowerCase() !== query.toLowerCase()),
+    [query],
+  );
+
+  return (
+    <div className="ss-card p-8 text-center">
+      <p className="text-lg font-medium text-text-primary">결과 없음</p>
+      <p className="mt-2 text-sm text-text-tertiary">
+        &ldquo;{query}&rdquo;에 맞는 항목이 없습니다. 다른 키워드를 시도해 보세요.
+      </p>
+      <div className="mt-6 flex flex-wrap justify-center gap-2">
+        {hasFilters && (
+          <button type="button" className="ss-chip ss-chip-active touch-target" onClick={onClear}>
+            필터 초기화
+          </button>
+        )}
+        {recent.slice(0, 4).map((term) => (
+          <button
+            key={term}
+            type="button"
+            className="ss-chip touch-target"
+            onClick={() => onSearch(term)}
+          >
+            {term}
+          </button>
+        ))}
+        {SEARCH_SUGGESTIONS.filter(
+          (s) => s.toLowerCase() !== query.toLowerCase() && !recent.includes(s),
+        )
+          .slice(0, 3)
+          .map((term) => (
+            <button
+              key={term}
+              type="button"
+              className="ss-chip touch-target"
+              onClick={() => onSearch(term)}
+            >
+              {term}
+            </button>
+          ))}
+      </div>
+    </div>
+  );
+}
+
 export function FeedPage() {
   const [searchParams] = useSearchParams();
   const location = useLocation();
@@ -52,8 +150,12 @@ export function FeedPage() {
   const [items, setItems] = useState<SearchIndexItem[]>([]);
   const [filtered, setFiltered] = useState<SearchIndexItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const [searching, setSearching] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [newCount, setNewCount] = useState<number | null>(null);
+
+  const hasExtraFilters = !!(filters.source || filters.section || filters.from || filters.to);
+  const awaitingQuery = isSearch && !filters.q;
 
   usePageMeta({
     title: isSearch ? (filters.q ? `"${filters.q}" 검색` : "검색") : "전체 피드",
@@ -76,18 +178,26 @@ export function FeedPage() {
 
   useEffect(() => {
     if (!items.length) return;
+    if (awaitingQuery) {
+      setFiltered([]);
+      setSearching(false);
+      return;
+    }
+
     let cancelled = false;
+    setSearching(true);
 
     (async () => {
       const fuseResults = filters.q ? await searchArchive(items, filters.q) : undefined;
       if (cancelled) return;
       setFiltered(filterItems(items, filters, fuseResults));
+      setSearching(false);
     })();
 
     return () => {
       cancelled = true;
     };
-  }, [items, filters.q, filters.source, filters.section, filters.from, filters.to, filters.sort]);
+  }, [items, filters.q, filters.source, filters.section, filters.from, filters.to, filters.sort, awaitingQuery]);
 
   const applyFilters = useCallback(
     (next: FeedFilters) => {
@@ -171,60 +281,85 @@ export function FeedPage() {
         </aside>
 
         <div className="space-y-4">
-          <p className="text-sm text-text-tertiary">
-            {filtered.length.toLocaleString()}건
-            {filters.q && ` · "${filters.q}"`}
-          </p>
-
-          {pageItems.length === 0 ? (
-            <div className="ss-card p-8 text-center">
-              <p className="text-text-tertiary">조건에 맞는 항목이 없습니다.</p>
-              {(filters.q || filters.source || filters.section || filters.from || filters.to) && (
-                <button
-                  type="button"
-                  className="ss-chip ss-chip-active mt-4 touch-target"
-                  onClick={() => applyFilters({})}
-                >
-                  필터 초기화
-                </button>
-              )}
-            </div>
+          {awaitingQuery ? (
+            <SearchEmptyPrompt onSearch={(q) => applyFilters({ q })} />
           ) : (
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              {pageItems.map((item, i) => (
-                <NewsCard
-                  key={item.id}
-                  item={toDigestItem(item, (safePage - 1) * PAGE_SIZE + i + 1)}
-                  highlightQuery={filters.q}
-                />
-              ))}
-            </div>
-          )}
+            <>
+              <p className="text-sm text-text-tertiary" aria-live="polite">
+                {searching ? (
+                  "검색 중…"
+                ) : (
+                  <>
+                    <span className="font-medium text-text-secondary">
+                      {filtered.length.toLocaleString()}건
+                    </span>
+                    {filters.q && ` · "${filters.q}"`}
+                  </>
+                )}
+              </p>
 
-          {totalPages > 1 && (
-            <nav className="flex items-center justify-center gap-2 pt-4" aria-label="페이지">
-              <button
-                type="button"
-                disabled={safePage <= 1}
-                className="ss-chip touch-target disabled:opacity-40"
-                aria-label="이전 페이지"
-                onClick={() => goToPage(safePage - 1)}
-              >
-                ← 이전
-              </button>
-              <span className="text-sm text-text-tertiary" aria-live="polite">
-                {safePage} / {totalPages}
-              </span>
-              <button
-                type="button"
-                disabled={safePage >= totalPages}
-                className="ss-chip touch-target disabled:opacity-40"
-                aria-label="다음 페이지"
-                onClick={() => goToPage(safePage + 1)}
-              >
-                다음 →
-              </button>
-            </nav>
+              {searching ? (
+                <SkeletonGrid count={4} />
+              ) : pageItems.length === 0 ? (
+                filters.q ? (
+                  <NoResultsState
+                    query={filters.q}
+                    hasFilters={hasExtraFilters}
+                    onClear={() => applyFilters({})}
+                    onSearch={(q) => applyFilters({ q })}
+                  />
+                ) : (
+                  <div className="ss-card p-8 text-center">
+                    <p className="text-text-tertiary">조건에 맞는 항목이 없습니다.</p>
+                    {hasExtraFilters && (
+                      <button
+                        type="button"
+                        className="ss-chip ss-chip-active mt-4 touch-target"
+                        onClick={() => applyFilters({})}
+                      >
+                        필터 초기화
+                      </button>
+                    )}
+                  </div>
+                )
+              ) : (
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                  {pageItems.map((item, i) => (
+                    <NewsCard
+                      key={item.id}
+                      item={toDigestItem(item, (safePage - 1) * PAGE_SIZE + i + 1)}
+                      highlightQuery={filters.q}
+                    />
+                  ))}
+                </div>
+              )}
+
+              {!searching && totalPages > 1 && (
+                <nav className="flex items-center justify-center gap-2 pt-4" aria-label="페이지">
+                  <button
+                    type="button"
+                    disabled={safePage <= 1}
+                    className="ss-chip touch-target disabled:opacity-40"
+                    aria-label="이전 페이지"
+                    onClick={() => goToPage(safePage - 1)}
+                  >
+                    ← 이전
+                  </button>
+                  <span className="text-sm text-text-tertiary" aria-live="polite">
+                    {safePage} / {totalPages}
+                  </span>
+                  <button
+                    type="button"
+                    disabled={safePage >= totalPages}
+                    className="ss-chip touch-target disabled:opacity-40"
+                    aria-label="다음 페이지"
+                    onClick={() => goToPage(safePage + 1)}
+                  >
+                    다음 →
+                  </button>
+                </nav>
+              )}
+            </>
           )}
         </div>
       </div>

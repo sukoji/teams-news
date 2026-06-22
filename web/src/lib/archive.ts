@@ -165,24 +165,55 @@ export function filterItems(
   return result;
 }
 
+const FUSE_KEYS = [
+  { name: "t", weight: 0.5 },
+  { name: "s", weight: 0.3 },
+  { name: "title", weight: 0.4 },
+  { name: "summary", weight: 0.2 },
+  { name: "matched_keywords", weight: 0.2 },
+] as const;
+
+type ArchiveFuse = import("fuse.js").default<SearchIndexItem>;
+
+let fuseModulePromise: Promise<typeof import("fuse.js")> | null = null;
+let cachedFuse: ArchiveFuse | null = null;
+let cachedFuseItems: SearchIndexItem[] | null = null;
+
+function loadFuseModule() {
+  if (!fuseModulePromise) {
+    fuseModulePromise = import("fuse.js");
+  }
+  return fuseModulePromise;
+}
+
+/** Memoized fuse instance — recreated only when the items array reference changes. */
+export async function getSearchFuse(items: SearchIndexItem[]): Promise<ArchiveFuse> {
+  const { default: Fuse } = await loadFuseModule();
+  if (cachedFuseItems !== items) {
+    cachedFuse = new Fuse(items, {
+      keys: [...FUSE_KEYS],
+      threshold: 0.4,
+      ignoreLocation: true,
+    });
+    cachedFuseItems = items;
+  }
+  return cachedFuse!;
+}
+
+export function searchWithFuse(fuse: ArchiveFuse, query: string, limit?: number): SearchIndexItem[] {
+  const trimmed = query.trim();
+  if (!trimmed) return [];
+  const results = fuse.search(trimmed, limit != null ? { limit } : undefined);
+  return results.map((r) => r.item);
+}
+
 export async function searchArchive(
   items: SearchIndexItem[],
   query: string,
 ): Promise<SearchIndexItem[]> {
   if (!query.trim()) return items;
-  const Fuse = (await import("fuse.js")).default;
-  const fuse = new Fuse(items, {
-    keys: [
-      { name: "t", weight: 0.5 },
-      { name: "s", weight: 0.3 },
-      { name: "title", weight: 0.4 },
-      { name: "summary", weight: 0.2 },
-      { name: "matched_keywords", weight: 0.2 },
-    ],
-    threshold: 0.4,
-    ignoreLocation: true,
-  });
-  return fuse.search(query).map((r) => r.item);
+  const fuse = await getSearchFuse(items);
+  return searchWithFuse(fuse, query);
 }
 
 export const PAGE_SIZE = 24;

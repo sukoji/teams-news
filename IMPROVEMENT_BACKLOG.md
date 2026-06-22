@@ -93,6 +93,7 @@ Research reference: [GeekNews](https://news.hada.io) topic pages (related posts,
 | **Duplicate detection UI** | Same story from multiple sources — cluster view |
 | **i18n EN/KO toggle** | Korean-first; optional English UI strings |
 | **Archive full-text search** | Currently title/summary/keywords only |
+| **Server-side / embedding search** | Live client fuse.js search done (2026-06-22); future: vector similarity, server index for large archives |
 
 ## What we beat GeekNews (keep investing)
 
@@ -102,11 +103,13 @@ Research reference: [GeekNews](https://news.hada.io) topic pages (related posts,
 - Section-specific RSS + JSON API + extended metadata feed
 - Dark/light mode, StyleSeed Linear design system
 - Archive search with filters, sort, shareable URL state
+- **Live search-as-you-type** — debounced input, instant fuse.js results, URL sync (`?q=`), header preview dropdown, empty states
 - Microsoft Teams Adaptive Card delivery
 - Multi-source aggregation beyond HN-style link board
 
 ## Completed this round (2026-06-22)
 
+- **Live search-as-you-type** — 200ms debounce, memoized fuse.js, instant NewsCard grid, `?q=` URL sync, header preview dropdown, 검색어/결과 없음 empty states
 - **Related news taxonomy** — topic classifier (`topics.ts`), improved scoring, Korean topic badges
 - **Article detail page** at `/item/:id` — wide layout, breadcrumb, back nav
 - **함께 보면 좋을 뉴스** — same-topic recommendations via taxonomy (not loose similarity only)
