@@ -5,9 +5,27 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 23 Jun 2026 18:44:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 21:34:54 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>그룹화된 쿼리 전문가: GQA Self-Attention에 대한 전문가 혼합</title>
+      <link>https://huggingface.co/papers/2606.20945</link>
+      <description>GQE(그룹화된 쿼리 전문가)는 그룹화된 쿼리 주의의 키-값 캐시 이점을 유지하면서 토큰 콘텐츠를 기반으로 쿼리 헤드를 선택적으로 활성화하여 Transformer 효율성을 향상시킵니다.</description>
+      <pubDate>Tue, 23 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20945">Hugging Face Papers</source>
+      <guid isPermaLink="false">0aa1fc054258cd08527b86e6f79847b5</guid>
+    </item>
+    <item>
+      <title>Arbor: 제어 가능한 3D 자산 생성을 위한 명시적 기하학적 조건화</title>
+      <link>https://huggingface.co/papers/2606.23514</link>
+      <description>Arbor는 점유, 회피 및 접촉 영역을 정의하는 제약 메시를 통해 텍스트 조건 잠재 생성에서 명시적인 3D 공간 제어를 가능하게 하며 제약 조건 준수를 향상시키면서 객체 품질을 유지합니다.</description>
+      <pubDate>Tue, 23 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.23514">Hugging Face Papers</source>
+      <guid isPermaLink="false">b3c45c62dfc5604ab253aae5a154dcdb</guid>
+    </item>
     <item>
       <title>DataClaw0: 원시 스트림에서 다중 모드 데이터를 조정하는 에이전트</title>
       <link>https://huggingface.co/papers/2606.21337</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.18829">Hugging Face Papers</source>
       <guid isPermaLink="false">3ea93a9a28e5650f1bb1791236109d17</guid>
-    </item>
-    <item>
-      <title>BrainG3N: 제어 가능한 3D 뇌 MRI 생성을 위한 이중 목적 토크나이저</title>
-      <link>https://huggingface.co/papers/2606.19651</link>
-      <description>3D 뇌 MRI 생성 모델은 마스크 자동 인코더 토크나이저를 사용하여 의료 작업 수행과 제어된 이미지 생성을 모두 지원하는 임상적으로 유익한 임베딩을 생성합니다.</description>
-      <pubDate>Mon, 22 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.19651">Hugging Face Papers</source>
-      <guid isPermaLink="false">86d7f542e6280a76479841086c5ab22d</guid>
-    </item>
-    <item>
-      <title>WorldLines: Long-Horizon Stateful Embodied Agent 벤치마킹 및 모델링</title>
-      <link>https://huggingface.co/papers/2606.18847</link>
-      <description>WorldLines 벤치마크는 가정 시나리오를 통해 구현된 에이전트의 장기 메모리를 평가하는 반면 ObsMem 프레임워크는 의사 결정을 위한 부분 관찰 및 메모리 변환 문제를 해결합니다.</description>
-      <pubDate>Mon, 22 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.18847">Hugging Face Papers</source>
-      <guid isPermaLink="false">686054d67ea18f1f474a622a18e3ab12</guid>
     </item>
   </channel>
 </rss>
