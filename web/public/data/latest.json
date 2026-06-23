@@ -1,57 +1,114 @@
 {
   "schema_version": 1,
-  "date": "2026-06-22",
-  "generated_at": "2026-06-22T09:54:21.510452+09:00",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T09:02:04.404637+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 6,
+  "item_count": 7,
   "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "e8be7f86224d2f73ae8c34cb147e9d24",
+          "index": 1,
+          "title": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+          "title_ko": "PerceptionDLM: 다중 모드 확산 언어 모델을 사용한 평행 영역 인식",
+          "summary": "PerceptionDLM enables efficient parallel region perception in multimodal diffusion language models through structured attention masking and efficient prompting, achieving faster inference without sacrificing caption qua…",
+          "summary_ko": "PerceptionDLM은 구조화된 주의 마스킹과 효율적인 프롬프트를 통해 다중 모드 확산 언어 모델에서 효율적인 병렬 영역 인식을 가능하게 하며 캡션 품질을 희생하지 않고 더 빠른 추론을 달성합니다.",
+          "url": "https://huggingface.co/papers/2606.19534",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-06-22T09:00:00+09:00",
+          "popularity": 156,
+          "upvotes": 50,
+          "score": 25.17,
+          "importance_score": 15.17,
+          "matched_keywords": [
+            "multimodal",
+            "diffusion",
+            "inference"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 50
+          }
+        },
+        {
+          "id": "516f697732fcc8176382c2264652e7f5",
+          "index": 2,
+          "title": "Multi-Turn Reflective Masking Elicits Reasoning in Mask Diffusion Models",
+          "title_ko": "다중 회전 반사 마스킹으로 마스크 확산 모델의 추론 유도",
+          "summary": "Reflective Masking enables iterative local refinement in Mask Diffusion Models through lightweight post-training, supporting multi-turn reasoning without architectural changes.",
+          "summary_ko": "반사 마스킹은 가벼운 사후 훈련을 통해 마스크 확산 모델의 반복적인 국소 개선을 가능하게 하며 아키텍처 변경 없이 다중 회전 추론을 지원합니다.",
+          "url": "https://huggingface.co/papers/2606.16700",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-06-22T09:00:00+09:00",
+          "popularity": 28,
+          "upvotes": 9,
+          "score": 22.1,
+          "importance_score": 10.1,
+          "matched_keywords": [
+            "ai",
+            "diffusion",
+            "reasoning",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 9
+          }
+        }
+      ]
+    },
     {
       "id": "news",
       "title": "📰 News",
       "items": [
         {
-          "id": "5395a11f9d8c0bf84feb56e31f47b765",
-          "index": 1,
-          "title": "Reddit을 이용해 AI 검색을 조작하는 일은 너무 쉽다",
+          "id": "0eeae2c4d1656ad73f4e6ce7644452ef",
+          "index": 3,
+          "title": "[6월22일] \"내 치즈를 옮긴 것은 챗GPT\"… 종이책에서 AI로 이동하는 '조언 산업'",
           "title_ko": null,
-          "summary": "단 13단어 분량의 짧은 텍스트만으로도 ChatGPT와 Google AI 검색을 구동하는 AI 에이전트의 출력을 일관되게 스팸·스캠 콘텐츠로 바꿀 수 있음 Reddit, Wikipedia, Quora, Facebook 같은 사용자 생성 콘텐츠(UGC) 사이트에 홍보성 문구를 심는 방식으로 AI 도구 출...",
+          "summary": "AI의 급격한 발전과 간편한 요약 기능이 자기계발서 판매 감소의 원인 중 하나라는 분석이 나왔습니다.",
           "summary_ko": null,
-          "url": "https://news.hada.io/topic?id=30702",
-          "source": "GeekNews",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211972",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-22T09:50:02+09:00",
-          "popularity": 5,
+          "published_at": "2026-06-23T07:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 20.15,
-          "importance_score": 17.14,
+          "score": 22.58,
+          "importance_score": 19.15,
           "matched_keywords": [
             "ai",
             "gpt"
           ],
-          "engagement": {
-            "label": "Points",
-            "value": 5
-          }
+          "engagement": null
         },
         {
-          "id": "f665fa414eb2f2f3c250ce4feb31aabd",
-          "index": 2,
-          "title": "\"갤럭시 S26 FE 벤치마크 등장…엑시노스 2500 칩 확인\"",
+          "id": "d7ec3a40fe1a5f93a229122a22650e5a",
+          "index": 4,
+          "title": "사람과 AI Agent를 위한 통합 Context Provider 구축",
           "title_ko": null,
-          "summary": "[지디넷코리아]삼성전자가 올가을 출시할 것으로 예상되는 보급형 플래그십 스마트폰 ‘갤럭시 S26 FE’의 벤치마크 테스트 결과가 공개됐다고 IT매체 폰아레나가 21일(현지시간) 보도했다.보도에 따르면 모델명 SM-S741N인 갤럭시S26 FE 한국 출시 모델은 긱벤치 벤치마크에서 싱글코어 2255점, 멀티코어 7450점을 기록했다.",
+          "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 팀 내 데이터/서빙 레이어 자산을 자동으로 수집하여 제공하는 AI 플랫폼 마련 및 이를 통한 팀 내 업무 효율화 경험을 공유합니다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260622084134",
-          "source": "ZDNet Korea",
+          "url": "https://d2.naver.com/helloworld/7056385",
+          "source": "NAVER D2",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-22T08:56:06+09:00",
+          "published_at": "2026-06-22T19:52:41+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.8,
-          "importance_score": 19.6,
+          "score": 20.26,
+          "importance_score": 14.52,
           "matched_keywords": [
-            "모델"
+            "ai",
+            "agent"
           ],
           "engagement": null
         }
@@ -62,35 +119,8 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "66275883b5f5c602f0d72dfe189723bb",
-          "index": 3,
-          "title": "agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (",
-          "title_ko": "agiwhitelist/tokdiet — AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API 간의 로컬 스트리밍 역방향 프록시(",
-          "summary": "Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (Anthropic, OpenAI, Gemini, MiniMax).",
-          "summary_ko": "AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API(Anthropic, OpenAI, Gemini, MiniMax) 간의 로컬 스트리밍 역방향 프록시.",
-          "url": "https://github.com/agiwhitelist/tokdiet",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-06-18T20:01:06+09:00",
-          "popularity": 69,
-          "upvotes": 69,
-          "score": 28.87,
-          "importance_score": 14.87,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "claude",
-            "gemini"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 69
-          }
-        },
-        {
           "id": "59bd03a59046a73ecd6b54aba4d65103",
-          "index": 4,
+          "index": 5,
           "title": "raiyanyahya/recall — Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable m",
           "title_ko": "raiyanyahya/recall — 토큰을 낭비하지 말고 매 세션마다 프로젝트를 다시 설명하세요. 회상은 Claude Code의 내구성을 높여줍니다.",
           "summary": "Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.",
@@ -99,18 +129,43 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-06-22T08:04:56+09:00",
-          "popularity": 82,
-          "upvotes": 82,
-          "score": 28.09,
-          "importance_score": 24.71,
+          "published_at": "2026-06-23T07:01:40+09:00",
+          "popularity": 322,
+          "upvotes": 322,
+          "score": 32.8,
+          "importance_score": 29.39,
           "matched_keywords": [
             "ai",
             "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 82
+            "value": 322
+          }
+        },
+        {
+          "id": "3432d3b59cdfbde8ec57fb8a545009aa",
+          "index": 6,
+          "title": "sums001/Windows-Copilot-API — Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models thro",
+          "title_ko": "sums001/Windows-Copilot-API — Windows Copilot을 OpenAI 호환 API로 리버스 엔지니어링했습니다. 다음을 통해 GPT-4 및 GPT-5 모델에 액세스하세요.",
+          "summary": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
+          "summary_ko": "Windows Copilot을 OpenAI 호환 API로 리버스 엔지니어링했습니다. API 키나 청구 없이 간단한 REST 인터페이스를 통해 GPT-4 및 GPT-5 모델에 액세스하세요.",
+          "url": "https://github.com/sums001/Windows-Copilot-API",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-06-23T00:21:29+09:00",
+          "popularity": 342,
+          "upvotes": 342,
+          "score": 31.62,
+          "importance_score": 26.82,
+          "matched_keywords": [
+            "ai",
+            "gpt"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 342
           }
         }
       ]
@@ -120,46 +175,26 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "fbc7fe8a324c4aea2697ab548feb131f",
-          "index": 5,
-          "title": "[2026/06/15 ~ 21] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+          "id": "9bbe1f5f73d26b2199e5beb7dce9fe99",
+          "index": 7,
+          "title": "agents-best-practices: Codex와 Claude Code용 에이전트 하니스 설계 모범 사례 스킬",
           "title_ko": null,
-          "summary": "[2026/06/15 ~ 21] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주에 선정된 10편의 논문을 살펴보면, 에이전트의 기억, 실행 하네스, 점진적 추론, 자동화된 피드백 루프를 중심으로, LLM을 단순 생성기가 아니라 지속적으로 학습하고 수정되는 시스템 으로 다루고 있습니다.",
+          "summary": "agents-best-practices 소개 AI 에이전트를 실제 시스템에 붙여 일을 시키려고 하면, 모델 자체보다 그 주변을 둘러싼 런타임(runtime) 에서 문제가 생기는 경우가 많습니다. 도구를 무한정 호출하거나, 컨텍스트가 압축되며 진행 중이던 승인 상태를 잃거나, 어떤 결정을 왜 내렸는지 추적할 수 없는 일이 대표적입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/2026-06-15-21-ai-ml/10844",
+          "url": "https://discuss.pytorch.kr/t/agents-best-practices-codex-claude-code/10842",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-06-22T06:30:07+09:00",
-          "popularity": 99,
+          "published_at": "2026-06-22T10:30:12+09:00",
+          "popularity": 92,
           "upvotes": 0,
-          "score": 25.19,
-          "importance_score": 18.48,
+          "score": 23.51,
+          "importance_score": 9.81,
           "matched_keywords": [
             "ai",
-            "llm",
-            "추론"
-          ],
-          "engagement": null
-        },
-        {
-          "id": "6e2facea736f53d658d3e5f7d8e87937",
-          "index": 6,
-          "title": "llm-wiki: Karpathy의 방법론으로 흩어진 정보를 지식 그래프로 키우는 에이전트 스킬",
-          "title_ko": null,
-          "summary": "llm-wiki 소개 논문, 블로그 글, 트윗, 메모처럼 매일 접하는 정보는 대개 한 번 읽고 흩어집니다. 필요할 때마다 다시 검색하고 같은 자료를 또 읽지만, 정작 그 사이의 연결은 머릿속에만 남습니다. llm-wiki는 이런 파편화된 정보를 한 번 정제해 두고 계속 이어 붙이는 개인 지식 베이스로 바꾸는 에이전트 스킬입니다.",
-          "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/llm-wiki-karpathy/10843",
-          "source": "PyTorch Korea",
-          "section": "💬 Community",
-          "section_id": "community",
-          "published_at": "2026-06-22T08:30:41+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 19.71,
-          "importance_score": 19.42,
-          "matched_keywords": [
-            "llm"
+            "agent",
+            "claude",
+            "모델"
           ],
           "engagement": null
         }
@@ -168,81 +203,105 @@
   ],
   "items": [
     {
-      "id": "5395a11f9d8c0bf84feb56e31f47b765",
+      "id": "e8be7f86224d2f73ae8c34cb147e9d24",
       "index": 1,
-      "title": "Reddit을 이용해 AI 검색을 조작하는 일은 너무 쉽다",
+      "title": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+      "title_ko": "PerceptionDLM: 다중 모드 확산 언어 모델을 사용한 평행 영역 인식",
+      "summary": "PerceptionDLM enables efficient parallel region perception in multimodal diffusion language models through structured attention masking and efficient prompting, achieving faster inference without sacrificing caption qua…",
+      "summary_ko": "PerceptionDLM은 구조화된 주의 마스킹과 효율적인 프롬프트를 통해 다중 모드 확산 언어 모델에서 효율적인 병렬 영역 인식을 가능하게 하며 캡션 품질을 희생하지 않고 더 빠른 추론을 달성합니다.",
+      "url": "https://huggingface.co/papers/2606.19534",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-06-22T09:00:00+09:00",
+      "popularity": 156,
+      "upvotes": 50,
+      "score": 25.17,
+      "importance_score": 15.17,
+      "matched_keywords": [
+        "multimodal",
+        "diffusion",
+        "inference"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 50
+      }
+    },
+    {
+      "id": "516f697732fcc8176382c2264652e7f5",
+      "index": 2,
+      "title": "Multi-Turn Reflective Masking Elicits Reasoning in Mask Diffusion Models",
+      "title_ko": "다중 회전 반사 마스킹으로 마스크 확산 모델의 추론 유도",
+      "summary": "Reflective Masking enables iterative local refinement in Mask Diffusion Models through lightweight post-training, supporting multi-turn reasoning without architectural changes.",
+      "summary_ko": "반사 마스킹은 가벼운 사후 훈련을 통해 마스크 확산 모델의 반복적인 국소 개선을 가능하게 하며 아키텍처 변경 없이 다중 회전 추론을 지원합니다.",
+      "url": "https://huggingface.co/papers/2606.16700",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-06-22T09:00:00+09:00",
+      "popularity": 28,
+      "upvotes": 9,
+      "score": 22.1,
+      "importance_score": 10.1,
+      "matched_keywords": [
+        "ai",
+        "diffusion",
+        "reasoning",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 9
+      }
+    },
+    {
+      "id": "0eeae2c4d1656ad73f4e6ce7644452ef",
+      "index": 3,
+      "title": "[6월22일] \"내 치즈를 옮긴 것은 챗GPT\"… 종이책에서 AI로 이동하는 '조언 산업'",
       "title_ko": null,
-      "summary": "단 13단어 분량의 짧은 텍스트만으로도 ChatGPT와 Google AI 검색을 구동하는 AI 에이전트의 출력을 일관되게 스팸·스캠 콘텐츠로 바꿀 수 있음 Reddit, Wikipedia, Quora, Facebook 같은 사용자 생성 콘텐츠(UGC) 사이트에 홍보성 문구를 심는 방식으로 AI 도구 출...",
+      "summary": "AI의 급격한 발전과 간편한 요약 기능이 자기계발서 판매 감소의 원인 중 하나라는 분석이 나왔습니다.",
       "summary_ko": null,
-      "url": "https://news.hada.io/topic?id=30702",
-      "source": "GeekNews",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211972",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-06-22T09:50:02+09:00",
-      "popularity": 5,
+      "published_at": "2026-06-23T07:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 20.15,
-      "importance_score": 17.14,
+      "score": 22.58,
+      "importance_score": 19.15,
       "matched_keywords": [
         "ai",
         "gpt"
       ],
-      "engagement": {
-        "label": "Points",
-        "value": 5
-      }
+      "engagement": null
     },
     {
-      "id": "f665fa414eb2f2f3c250ce4feb31aabd",
-      "index": 2,
-      "title": "\"갤럭시 S26 FE 벤치마크 등장…엑시노스 2500 칩 확인\"",
+      "id": "d7ec3a40fe1a5f93a229122a22650e5a",
+      "index": 4,
+      "title": "사람과 AI Agent를 위한 통합 Context Provider 구축",
       "title_ko": null,
-      "summary": "[지디넷코리아]삼성전자가 올가을 출시할 것으로 예상되는 보급형 플래그십 스마트폰 ‘갤럭시 S26 FE’의 벤치마크 테스트 결과가 공개됐다고 IT매체 폰아레나가 21일(현지시간) 보도했다.보도에 따르면 모델명 SM-S741N인 갤럭시S26 FE 한국 출시 모델은 긱벤치 벤치마크에서 싱글코어 2255점, 멀티코어 7450점을 기록했다.",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 팀 내 데이터/서빙 레이어 자산을 자동으로 수집하여 제공하는 AI 플랫폼 마련 및 이를 통한 팀 내 업무 효율화 경험을 공유합니다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260622084134",
-      "source": "ZDNet Korea",
+      "url": "https://d2.naver.com/helloworld/7056385",
+      "source": "NAVER D2",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-06-22T08:56:06+09:00",
+      "published_at": "2026-06-22T19:52:41+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.8,
-      "importance_score": 19.6,
+      "score": 20.26,
+      "importance_score": 14.52,
       "matched_keywords": [
-        "모델"
+        "ai",
+        "agent"
       ],
       "engagement": null
     },
     {
-      "id": "66275883b5f5c602f0d72dfe189723bb",
-      "index": 3,
-      "title": "agiwhitelist/tokdiet — Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (",
-      "title_ko": "agiwhitelist/tokdiet — AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API 간의 로컬 스트리밍 역방향 프록시(",
-      "summary": "Local streaming reverse proxy between AI coding agents (Claude Code, Cursor, Codex) and model APIs (Anthropic, OpenAI, Gemini, MiniMax).",
-      "summary_ko": "AI 코딩 에이전트(Claude Code, Cursor, Codex)와 모델 API(Anthropic, OpenAI, Gemini, MiniMax) 간의 로컬 스트리밍 역방향 프록시.",
-      "url": "https://github.com/agiwhitelist/tokdiet",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-06-18T20:01:06+09:00",
-      "popularity": 69,
-      "upvotes": 69,
-      "score": 28.87,
-      "importance_score": 14.87,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "claude",
-        "gemini"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 69
-      }
-    },
-    {
       "id": "59bd03a59046a73ecd6b54aba4d65103",
-      "index": 4,
+      "index": 5,
       "title": "raiyanyahya/recall — Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable m",
       "title_ko": "raiyanyahya/recall — 토큰을 낭비하지 말고 매 세션마다 프로젝트를 다시 설명하세요. 회상은 Claude Code의 내구성을 높여줍니다.",
       "summary": "Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.",
@@ -251,61 +310,66 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-06-22T08:04:56+09:00",
-      "popularity": 82,
-      "upvotes": 82,
-      "score": 28.09,
-      "importance_score": 24.71,
+      "published_at": "2026-06-23T07:01:40+09:00",
+      "popularity": 322,
+      "upvotes": 322,
+      "score": 32.8,
+      "importance_score": 29.39,
       "matched_keywords": [
         "ai",
         "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 82
+        "value": 322
       }
     },
     {
-      "id": "fbc7fe8a324c4aea2697ab548feb131f",
-      "index": 5,
-      "title": "[2026/06/15 ~ 21] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
-      "title_ko": null,
-      "summary": "[2026/06/15 ~ 21] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주에 선정된 10편의 논문을 살펴보면, 에이전트의 기억, 실행 하네스, 점진적 추론, 자동화된 피드백 루프를 중심으로, LLM을 단순 생성기가 아니라 지속적으로 학습하고 수정되는 시스템 으로 다루고 있습니다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/2026-06-15-21-ai-ml/10844",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-06-22T06:30:07+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 25.19,
-      "importance_score": 18.48,
+      "id": "3432d3b59cdfbde8ec57fb8a545009aa",
+      "index": 6,
+      "title": "sums001/Windows-Copilot-API — Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models thro",
+      "title_ko": "sums001/Windows-Copilot-API — Windows Copilot을 OpenAI 호환 API로 리버스 엔지니어링했습니다. 다음을 통해 GPT-4 및 GPT-5 모델에 액세스하세요.",
+      "summary": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
+      "summary_ko": "Windows Copilot을 OpenAI 호환 API로 리버스 엔지니어링했습니다. API 키나 청구 없이 간단한 REST 인터페이스를 통해 GPT-4 및 GPT-5 모델에 액세스하세요.",
+      "url": "https://github.com/sums001/Windows-Copilot-API",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-06-23T00:21:29+09:00",
+      "popularity": 342,
+      "upvotes": 342,
+      "score": 31.62,
+      "importance_score": 26.82,
       "matched_keywords": [
         "ai",
-        "llm",
-        "추론"
+        "gpt"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Stars",
+        "value": 342
+      }
     },
     {
-      "id": "6e2facea736f53d658d3e5f7d8e87937",
-      "index": 6,
-      "title": "llm-wiki: Karpathy의 방법론으로 흩어진 정보를 지식 그래프로 키우는 에이전트 스킬",
+      "id": "9bbe1f5f73d26b2199e5beb7dce9fe99",
+      "index": 7,
+      "title": "agents-best-practices: Codex와 Claude Code용 에이전트 하니스 설계 모범 사례 스킬",
       "title_ko": null,
-      "summary": "llm-wiki 소개 논문, 블로그 글, 트윗, 메모처럼 매일 접하는 정보는 대개 한 번 읽고 흩어집니다. 필요할 때마다 다시 검색하고 같은 자료를 또 읽지만, 정작 그 사이의 연결은 머릿속에만 남습니다. llm-wiki는 이런 파편화된 정보를 한 번 정제해 두고 계속 이어 붙이는 개인 지식 베이스로 바꾸는 에이전트 스킬입니다.",
+      "summary": "agents-best-practices 소개 AI 에이전트를 실제 시스템에 붙여 일을 시키려고 하면, 모델 자체보다 그 주변을 둘러싼 런타임(runtime) 에서 문제가 생기는 경우가 많습니다. 도구를 무한정 호출하거나, 컨텍스트가 압축되며 진행 중이던 승인 상태를 잃거나, 어떤 결정을 왜 내렸는지 추적할 수 없는 일이 대표적입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/llm-wiki-karpathy/10843",
+      "url": "https://discuss.pytorch.kr/t/agents-best-practices-codex-claude-code/10842",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-06-22T08:30:41+09:00",
-      "popularity": 100,
+      "published_at": "2026-06-22T10:30:12+09:00",
+      "popularity": 92,
       "upvotes": 0,
-      "score": 19.71,
-      "importance_score": 19.42,
+      "score": 23.51,
+      "importance_score": 9.81,
       "matched_keywords": [
-        "llm"
+        "ai",
+        "agent",
+        "claude",
+        "모델"
       ],
       "engagement": null
     }
