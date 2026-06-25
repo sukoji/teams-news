@@ -121,16 +121,20 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 
 | 소스 | robots.txt | 허용 경로 (봇이 사용) | 비허용·조정 |
 |------|------------|----------------------|-------------|
-| **GeekNews** (`news.hada.io`) | `User-agent: *` → `Allow: /` | `/rss/news`, `/rss` (RSS), `/topic?id=` (인기도) | `/api/`, `/auth/`, `/login` 등 — 미사용 |
+| **GeekNews** (`news.hada.io`) | `User-agent: *` → `Allow: /` | `/rss/news`, `/rss` (RSS) | `/topic?id=` (인기도) — **기본 비활성** (`ENABLE_GEEKNEWS_ENGAGEMENT=false`); `/api/`, `/auth/` 등 — 미사용 |
 | **AI Times** (`aitimes.com`, `cdn.aitimes.com`) | `Disallow: /admin/` only | `cdn.aitimes.com/rss/*.xml` (RSS) | 기사 HTML·og:image 스크래핑 — **비활성** |
 | **Hugging Face** (`huggingface.co`) | `Allow: /` | `/api/daily_papers` (JSON API) | 논문 썸네일 CDN — **카드에 미사용** |
 | **PyTorch Korea** (`discuss.pytorch.kr`) | `Disallow: /c/*.rss`, `/t/*/*.rss` | `/latest.rss` (사이트 전체 최신 RSS) | `/c/news/14.rss` — **robots.txt 위반** → `/latest.rss`에서 `읽을거리&정보공유` 카테고리만 필터 |
 | **GitHub Trending** (`api.github.com`) | Search API 허용 | `/search/repositories` (인증 없이 일 1회 수준) | `github.com/trending` HTML 스크래핑·Heroku API — **미사용** |
-| **전자신문** (`rss.etnews.com`) | RSS 제공 | `rss.etnews.com/Section901.xml` | 기사 HTML 스크래핑 — **미사용** |
-| **NAVER D2** (`d2.naver.com`) | `Allow: /` | `/d2.atom` (Atom) | — |
-| **ZDNet Korea** (`feeds.feedburner.com`) | FeedBurner RSS | `feeds.feedburner.com/zdkorea` | — |
+| **전자신문** (`rss.etnews.com`) | `User-agent: *` → `Allow: /` (2026-06-25 확인) | `rss.etnews.com/Section901.xml` | 기사 HTML 스크래핑 — **미사용** |
+| **NAVER D2** (`d2.naver.com`) | robots.txt **404** — RFC 9309상 전 경로 허용 (2026-06-25 확인) | `/d2.atom` (Atom) | — |
+| **ZDNet Korea** (`feeds.feedburner.com`) | 유효 robots.txt 없음 (HTML 응답) | `feeds.feedburner.com/zdkorea` | FeedBurner 공개 RSS |
 
 > **썸네일**: 기사별 썸네일·og:image 수집·표시를 사용하지 않습니다 (`ENABLE_IMAGE_FETCH=false` 기본). 카드는 텍스트·FactSet 중심 레이아웃입니다.
+
+**User-Agent**: `PIAI-TeamsNews/1.0 (+https://jskh-201910840.github.io/teams-news/about)` — 모든 HTTP 수집 요청에 사용합니다.
+
+**CI 검증**: PR/push 시 [`Collection Compliance`](.github/workflows/compliance.yml) 워크플로가 `python scripts/check_robots.py`를 실행합니다. 웹훅 변경 전 요약은 [`COMPLIANCE.md`](COMPLIANCE.md)를 참고하세요.
 
 ### 수집·필터 기준
 
@@ -142,7 +146,7 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 
 | 소스 | 신호 | 비고 |
 |------|------|------|
-| GeekNews | 토픽 **추천(P)** + **댓글 수** | RSS에 없어 토픽 페이지에서 수집 (`ENABLE_GEEKNEWS_ENGAGEMENT`) |
+| GeekNews | 토픽 **추천(P)** + **댓글 수** | RSS에 없어 토픽 페이지에서 수집 — **기본 비활성** (`ENABLE_GEEKNEWS_ENGAGEMENT=false`, 0.3s 간격) |
 | AI Times | RSS **노출 순서** | 앞쪽 기사일수록 높은 점수 (조회수 필드 없음) |
 | Hugging Face | **upvotes**, **댓글**, **GitHub stars** | Daily Papers API 필드 활용 |
 | PyTorch Korea | RSS **노출 순서** | 앞쪽 게시물일수록 높은 점수 (좋아요·댓글은 RSS 미제공) |
@@ -218,7 +222,7 @@ on:
 | `RECENCY_WEIGHT` | | `0.5` | 24시간 이내 최신성 가중치 |
 | `RECENCY_WINDOW_HOURS` | | `24` | 최신성 부스트 적용 시간 창 |
 | `MIN_UPVOTES` | | `0` | HF 논문 upvote 하한 (미만 시 인기도 50% 감소) |
-| `ENABLE_GEEKNEWS_ENGAGEMENT` | | `true` | GeekNews 토픽 페이지에서 P/댓글 수집 |
+| `ENABLE_GEEKNEWS_ENGAGEMENT` | | `false` | `true`면 GeekNews 토픽 페이지에서 P/댓글 수집 (0.3s 간격) |
 | `TRANSLATE_TO_KO` | | `true` | 영문 제목·요약을 한국어로 번역 |
 | `KOREAN_SUMMARY_MAX_CHARS` | | `180` | 한국어 요약 최대 글자 수 (2~3문장) |
 | `PIAI_THUMBNAIL_URL` | | GitHub raw `assets/piai-logo.png` | 카드 80px 썸네일 HTTPS URL (Teams 렌더링용) |

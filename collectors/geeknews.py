@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import os
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
 from datetime import timedelta
 
 import feedparser
@@ -16,8 +16,10 @@ from utils.timezone import KST, now_kst
 logger = logging.getLogger(__name__)
 
 ENABLE_GEEKNEWS_ENGAGEMENT = os.getenv(
-    "ENABLE_GEEKNEWS_ENGAGEMENT", "true"
+    "ENABLE_GEEKNEWS_ENGAGEMENT", "false"
 ).lower() in {"1", "true", "yes"}
+
+GEEKNEWS_TOPIC_FETCH_DELAY_SEC = 0.3
 
 GEEKNEWS_RSS_URLS = (
     "https://news.hada.io/rss/news",
@@ -57,18 +59,11 @@ def _attach_geeknews_engagement(items: list[NewsItem]) -> None:
     topic_ids = [_topic_id_from_url(item.url) for item in items]
     engagement: dict[str, tuple[int, int]] = {}
 
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        futures = {
-            executor.submit(_fetch_topic_engagement, topic_id): topic_id
-            for topic_id in topic_ids
-            if topic_id
-        }
-        for future in as_completed(futures):
-            topic_id = futures[future]
-            try:
-                engagement[topic_id] = future.result()
-            except Exception:
-                engagement[topic_id] = (0, 0)
+    for topic_id in topic_ids:
+        if not topic_id:
+            continue
+        engagement[topic_id] = _fetch_topic_engagement(topic_id)
+        time.sleep(GEEKNEWS_TOPIC_FETCH_DELAY_SEC)
 
     for item, topic_id in zip(items, topic_ids):
         if not topic_id:
