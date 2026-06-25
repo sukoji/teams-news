@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-06-25",
-  "generated_at": "2026-06-25T09:06:49.661048+09:00",
+  "generated_at": "2026-06-25T09:59:34.735124+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -37,30 +37,31 @@
           }
         },
         {
-          "id": "330eb9f1910b398dc8705fab0f65dc96",
+          "id": "c3284f9f2a7ba2092ae3535a19b2c9c2",
           "index": 2,
-          "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
-          "title_ko": "NatureBench: 코딩 에이전트가 Nature-Family 논문의 게시된 SOTA와 일치할 수 있습니까?",
-          "summary": "NatureBench presents a cross-disciplinary benchmark of 90 scientific tasks derived from Nature publications to assess AI coding agents' ability to achieve discovery rather than just reproduction, revealing that current…",
-          "summary_ko": "NatureBench는 단순한 복제가 아닌 발견을 달성하는 AI 코딩 에이전트의 능력을 평가하기 위해 Nature 간행물에서 파생된 90개 과학 작업에 대한 학제간 벤치마크를 제시하여 현재…",
-          "url": "https://huggingface.co/papers/2606.24530",
+          "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
+          "title_ko": "DiffusionBench: 확산 변압기의 전체적인 평가",
+          "summary": "Researchers introduce NanoGen, a unified framework for training and evaluating diffusion transformers that demonstrates the need for comprehensive benchmarking beyond ImageNet class-conditional generation to assess true…",
+          "summary_ko": "연구원들은 실제 평가를 위해 ImageNet 클래스 조건 생성을 넘어 포괄적인 벤치마킹의 필요성을 보여주는 확산 변환기 교육 및 평가를 위한 통합 프레임워크인 NanoGen을 소개합니다.",
+          "url": "https://huggingface.co/papers/2606.24888",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-06-24T09:00:00+09:00",
-          "popularity": 130,
-          "upvotes": 48,
-          "score": 26.63,
-          "importance_score": 14.63,
+          "popularity": 67,
+          "upvotes": 4,
+          "score": 26.66,
+          "importance_score": 12.66,
           "matched_keywords": [
             "ai",
-            "agent",
+            "transformer",
+            "diffusion",
             "benchmark",
-            "paper"
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 48
+            "value": 4
           }
         }
       ]
@@ -70,49 +71,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "946eb88fafb0d8f745c2ac500c7fed83",
+          "id": "97a460facfc666fc10bb6521aea935fc",
           "index": 3,
-          "title": "VibeThinker-3B: SFT+GRPO로 Opus 4.5 추론 성능을 넘긴 3B 모델",
+          "title": "손정의 회장 \"AI 거품론은 모독... 아직 초지능 서막에 불과\"",
           "title_ko": null,
-          "summary": "VibeThinker-3B 는 3B 파라미터만으로 검증 가능한 추론을 어디까지 압축할 수 있는지 실험한 소형 밀집 모델임 학습 파이프라인은 Spectrum-to-Signal 사후학습을 바탕으로 커리큘럼 지도 미세조정, 다중 도메인 강화학습, 오프라인 자기증류를 결합함 AI...",
+          "summary": "손정의 소프트뱅크 회장이 AI 시장을 둘러싼 거품론을 강하게 일축하며 AI 혁명은 이제 시작 단계에 불과하다고 강조했다.",
           "summary_ko": null,
-          "url": "https://news.hada.io/topic?id=30800",
-          "source": "GeekNews",
-          "section": "📰 News",
-          "section_id": "news",
-          "published_at": "2026-06-25T05:41:04+09:00",
-          "popularity": 8,
-          "upvotes": 0,
-          "score": 24.07,
-          "importance_score": 17.36,
-          "matched_keywords": [
-            "ai",
-            "추론",
-            "모델"
-          ],
-          "engagement": {
-            "label": "Points",
-            "value": 8
-          }
-        },
-        {
-          "id": "ef02b85828f3677d01496a1188fb7072",
-          "index": 4,
-          "title": "구글 AI 핵심 인력 이탈 가속화… '제미나이' 주역 2명 앤트로픽행 예고",
-          "title_ko": null,
-          "summary": "구글 AI 조직의 핵심 인재 이탈이 이어지고 있다.",
-          "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212075",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212076",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-25T08:35:38+09:00",
-          "popularity": 100,
+          "published_at": "2026-06-25T09:06:11+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.89,
-          "importance_score": 19.78,
+          "score": 19.71,
+          "importance_score": 19.53,
           "matched_keywords": [
             "ai"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "685755cbe4050478e24845aed9a5317c",
+          "index": 4,
+          "title": "살 빼는 약이 폭력성도 줄인다?…도파민 변화 완화해 충동 제어",
+          "title_ko": null,
+          "summary": "비만과 당 조절 치료에 활용되는 GLP-1 계열 의약품이 체중 감소 효과를 넘어 공격적 성향을 완화할 가능성이 있다는 분석 결과가 제시됐다. 17일(현지시간) 뉴욕포스트는 최근 학술 저널 크리미놀로지(Criminology)에 게재된 연구 내용을 인용해 이 같은 내용을 전했다.",
+          "summary_ko": null,
+          "url": "https://www.etnews.com/20260624000338",
+          "source": "전자신문 IT",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-06-25T08:40:00+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 19.62,
+          "importance_score": 19.35,
+          "matched_keywords": [
+            "연구"
           ],
           "engagement": null
         }
@@ -134,10 +130,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-06-25T07:44:56+09:00",
-          "popularity": 170,
-          "upvotes": 170,
-          "score": 36.71,
-          "importance_score": 27.43,
+          "popularity": 176,
+          "upvotes": 176,
+          "score": 36.65,
+          "importance_score": 27.18,
           "matched_keywords": [
             "ai",
             "agent",
@@ -146,7 +142,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 170
+            "value": 176
           }
         },
         {
@@ -161,17 +157,17 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-06-25T01:35:05+09:00",
-          "popularity": 659,
-          "upvotes": 659,
-          "score": 34.15,
-          "importance_score": 29.59,
+          "popularity": 662,
+          "upvotes": 662,
+          "score": 33.99,
+          "importance_score": 29.24,
           "matched_keywords": [
             "ai",
             "gpt"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 659
+            "value": 662
           }
         }
       ]
@@ -192,10 +188,10 @@
           "section": "💬 Community",
           "section_id": "community",
           "published_at": "2026-06-25T06:30:06+09:00",
-          "popularity": 100,
+          "popularity": 99,
           "upvotes": 0,
-          "score": 28.46,
-          "importance_score": 18.91,
+          "score": 28.17,
+          "importance_score": 18.45,
           "matched_keywords": [
             "ai",
             "연구",
@@ -236,76 +232,72 @@
       }
     },
     {
-      "id": "330eb9f1910b398dc8705fab0f65dc96",
+      "id": "c3284f9f2a7ba2092ae3535a19b2c9c2",
       "index": 2,
-      "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
-      "title_ko": "NatureBench: 코딩 에이전트가 Nature-Family 논문의 게시된 SOTA와 일치할 수 있습니까?",
-      "summary": "NatureBench presents a cross-disciplinary benchmark of 90 scientific tasks derived from Nature publications to assess AI coding agents' ability to achieve discovery rather than just reproduction, revealing that current…",
-      "summary_ko": "NatureBench는 단순한 복제가 아닌 발견을 달성하는 AI 코딩 에이전트의 능력을 평가하기 위해 Nature 간행물에서 파생된 90개 과학 작업에 대한 학제간 벤치마크를 제시하여 현재…",
-      "url": "https://huggingface.co/papers/2606.24530",
+      "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
+      "title_ko": "DiffusionBench: 확산 변압기의 전체적인 평가",
+      "summary": "Researchers introduce NanoGen, a unified framework for training and evaluating diffusion transformers that demonstrates the need for comprehensive benchmarking beyond ImageNet class-conditional generation to assess true…",
+      "summary_ko": "연구원들은 실제 평가를 위해 ImageNet 클래스 조건 생성을 넘어 포괄적인 벤치마킹의 필요성을 보여주는 확산 변환기 교육 및 평가를 위한 통합 프레임워크인 NanoGen을 소개합니다.",
+      "url": "https://huggingface.co/papers/2606.24888",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-06-24T09:00:00+09:00",
-      "popularity": 130,
-      "upvotes": 48,
-      "score": 26.63,
-      "importance_score": 14.63,
+      "popularity": 67,
+      "upvotes": 4,
+      "score": 26.66,
+      "importance_score": 12.66,
       "matched_keywords": [
         "ai",
-        "agent",
+        "transformer",
+        "diffusion",
         "benchmark",
-        "paper"
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 48
+        "value": 4
       }
     },
     {
-      "id": "946eb88fafb0d8f745c2ac500c7fed83",
+      "id": "97a460facfc666fc10bb6521aea935fc",
       "index": 3,
-      "title": "VibeThinker-3B: SFT+GRPO로 Opus 4.5 추론 성능을 넘긴 3B 모델",
+      "title": "손정의 회장 \"AI 거품론은 모독... 아직 초지능 서막에 불과\"",
       "title_ko": null,
-      "summary": "VibeThinker-3B 는 3B 파라미터만으로 검증 가능한 추론을 어디까지 압축할 수 있는지 실험한 소형 밀집 모델임 학습 파이프라인은 Spectrum-to-Signal 사후학습을 바탕으로 커리큘럼 지도 미세조정, 다중 도메인 강화학습, 오프라인 자기증류를 결합함 AI...",
+      "summary": "손정의 소프트뱅크 회장이 AI 시장을 둘러싼 거품론을 강하게 일축하며 AI 혁명은 이제 시작 단계에 불과하다고 강조했다.",
       "summary_ko": null,
-      "url": "https://news.hada.io/topic?id=30800",
-      "source": "GeekNews",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-06-25T05:41:04+09:00",
-      "popularity": 8,
-      "upvotes": 0,
-      "score": 24.07,
-      "importance_score": 17.36,
-      "matched_keywords": [
-        "ai",
-        "추론",
-        "모델"
-      ],
-      "engagement": {
-        "label": "Points",
-        "value": 8
-      }
-    },
-    {
-      "id": "ef02b85828f3677d01496a1188fb7072",
-      "index": 4,
-      "title": "구글 AI 핵심 인력 이탈 가속화… '제미나이' 주역 2명 앤트로픽행 예고",
-      "title_ko": null,
-      "summary": "구글 AI 조직의 핵심 인재 이탈이 이어지고 있다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212075",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212076",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-06-25T08:35:38+09:00",
-      "popularity": 100,
+      "published_at": "2026-06-25T09:06:11+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 19.89,
-      "importance_score": 19.78,
+      "score": 19.71,
+      "importance_score": 19.53,
       "matched_keywords": [
         "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "685755cbe4050478e24845aed9a5317c",
+      "index": 4,
+      "title": "살 빼는 약이 폭력성도 줄인다?…도파민 변화 완화해 충동 제어",
+      "title_ko": null,
+      "summary": "비만과 당 조절 치료에 활용되는 GLP-1 계열 의약품이 체중 감소 효과를 넘어 공격적 성향을 완화할 가능성이 있다는 분석 결과가 제시됐다. 17일(현지시간) 뉴욕포스트는 최근 학술 저널 크리미놀로지(Criminology)에 게재된 연구 내용을 인용해 이 같은 내용을 전했다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260624000338",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-06-25T08:40:00+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 19.62,
+      "importance_score": 19.35,
+      "matched_keywords": [
+        "연구"
       ],
       "engagement": null
     },
@@ -321,10 +313,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-06-25T07:44:56+09:00",
-      "popularity": 170,
-      "upvotes": 170,
-      "score": 36.71,
-      "importance_score": 27.43,
+      "popularity": 176,
+      "upvotes": 176,
+      "score": 36.65,
+      "importance_score": 27.18,
       "matched_keywords": [
         "ai",
         "agent",
@@ -333,7 +325,7 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 170
+        "value": 176
       }
     },
     {
@@ -348,17 +340,17 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-06-25T01:35:05+09:00",
-      "popularity": 659,
-      "upvotes": 659,
-      "score": 34.15,
-      "importance_score": 29.59,
+      "popularity": 662,
+      "upvotes": 662,
+      "score": 33.99,
+      "importance_score": 29.24,
       "matched_keywords": [
         "ai",
         "gpt"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 659
+        "value": 662
       }
     },
     {
@@ -373,10 +365,10 @@
       "section": "💬 Community",
       "section_id": "community",
       "published_at": "2026-06-25T06:30:06+09:00",
-      "popularity": 100,
+      "popularity": 99,
       "upvotes": 0,
-      "score": 28.46,
-      "importance_score": 18.91,
+      "score": 28.17,
+      "importance_score": 18.45,
       "matched_keywords": [
         "ai",
         "연구",
