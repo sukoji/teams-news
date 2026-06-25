@@ -5,9 +5,36 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Jun 2026 01:28:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:07:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>계획은 지속되지 않습니다: 컨텍스트 관리가 LLM 에이전트에 대한 로드 베어링인 이유</title>
+      <link>https://huggingface.co/papers/2606.22953</link>
+      <description>표준 LLM 에이전트는 계획 콘텐츠를 지속 상태로 유지하기보다는 컨텍스트에 남아 있는 계획 콘텐츠에 의존하며 재생 페어링 진단 및 압축 스트레스 테스트를 통해 증거를 보여줍니다.</description>
+      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.22953">Hugging Face Papers</source>
+      <guid isPermaLink="false">5ff7e4e0d180857e3b49b592b9917db9</guid>
+    </item>
+    <item>
+      <title>학습 과제로 미래 행동 예측하기</title>
+      <link>https://huggingface.co/papers/2606.11445</link>
+      <description>행동 예측자는 단일 궤적에서 대규모 추론 모델 출력을 예측하도록 훈련되어 대규모 언어 모델을 능가하는 동시에 계산 비용도 크게 절감합니다.</description>
+      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.11445">Hugging Face Papers</source>
+      <guid isPermaLink="false">08c10e5c808d33d74824fe510391d615</guid>
+    </item>
+    <item>
+      <title>비언어적 발화의 화자 정체성: 조건부 증류 및 전문가 혼합 접근 방식</title>
+      <link>https://huggingface.co/papers/2606.21215</link>
+      <description>새로운 화자 검증 프레임워크는 고정된 자체 감독 기능을 ECAPA-TDNN 및 MoE 모듈과 결합하여 음성 및 비언어적 발성 모두에 대한 신원 검증을 향상시키는 동시에 음성 인식을 유지합니다.</description>
+      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.21215">Hugging Face Papers</source>
+      <guid isPermaLink="false">233473986c7122258859830a6bf061eb</guid>
+    </item>
     <item>
       <title>Lite Any Stereo V2: 더욱 빠르고 강력해진 효율적인 제로샷 스테레오 매칭</title>
       <link>https://huggingface.co/papers/2606.24457</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.19930">Hugging Face Papers</source>
       <guid isPermaLink="false">d7405498ad41a326b60ada551ee01143</guid>
-    </item>
-    <item>
-      <title>FedOT: 연합 LDM에 대한 워터마크를 통한 소유권 확인 및 누출 추적</title>
-      <link>https://huggingface.co/papers/2606.22875</link>
-      <description>FedOT는 워터마크 제거를 방지하기 위해 청크 워터마킹 및 잠재 벡터 변환을 도입하여 연합 잠재 확산 모델에서 소유권 확인 및 누출 추적을 가능하게 하는 새로운 프레임워크입니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.22875">Hugging Face Papers</source>
-      <guid isPermaLink="false">a2325fd2ee2d9924d57ebc3286455474</guid>
-    </item>
-    <item>
-      <title>OpenThoughts-Agent: 에이전트 모델을 위한 데이터 레시피</title>
-      <link>https://huggingface.co/papers/2606.24855</link>
-      <description>에이전트 언어 모델 훈련을 위한 오픈 소스 데이터 큐레이션 파이프라인이 제시되어 체계적인 실험과 확장 가능한 훈련 데이터를 통해 탁월한 성능을 보여줍니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24855">Hugging Face Papers</source>
-      <guid isPermaLink="false">d83fdb7373a5a0bad197321c7bdb159f</guid>
-    </item>
-    <item>
-      <title>자체 확인 함정 탈출: 에이전트 경험 학습을 위한 실행-증류-검증 패러다임</title>
-      <link>https://huggingface.co/papers/2606.24428</link>
-      <description>EDV는 여러 이기종 에이전트를 사용하여 LLM 에이전트에 대한 신뢰할 수 있는 환경을 공동으로 구축하고 실행-추출-검증 프로세스를 통해 자체 확인 오류를 방지하는 3단계 프레임워크입니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24428">Hugging Face Papers</source>
-      <guid isPermaLink="false">e0ef66b82bf282af3859967cfe58c124</guid>
     </item>
   </channel>
 </rss>
