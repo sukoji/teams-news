@@ -5,9 +5,63 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Jun 2026 12:56:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 16:56:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>JetSpec: 병렬 트리 제도를 통해 추측 디코딩의 확장 한도 깨기</title>
+      <link>https://huggingface.co/papers/2606.18394</link>
+      <description>JetSpec은 효율적인 전방 초안 작성과 인과 조건 조정을 결합하여 다양한 벤치마크에서 LLM 추론 속도와 수용률을 향상시키는 추측적 디코딩 프레임워크입니다.</description>
+      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.18394">Hugging Face Papers</source>
+      <guid isPermaLink="false">94b45dad9f49f00798f8644ec164401d</guid>
+    </item>
+    <item>
+      <title>검증의 지평: 코딩 에이전트 보상에 대한 묘책은 없습니다</title>
+      <link>https://huggingface.co/papers/2606.26300</link>
+      <description>AI 에이전트의 검증 문제는 프록시 신호를 인간의 의도와 일치시키는 어려움으로 인해 발생하며 생성 기능과 함께 진화하는 적응형 검증 시스템이 필요합니다.</description>
+      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.26300">Hugging Face Papers</source>
+      <guid isPermaLink="false">ca49759e3ee97f6f4bd92f56a70fca38</guid>
+    </item>
+    <item>
+      <title>훈련 후가 생물학적 추론 모델을 형성하는 방법</title>
+      <link>https://huggingface.co/papers/2606.16517</link>
+      <description>생물학적 추론 모델의 훈련 후 단계는 모델을 생물학적 언어와 일치시키는 지속적인 사전 훈련, 지도된 미세 조정을 통해 도메인 내 성능을 개선하지만 빨간색으로 일반화에 다르게 영향을 미칩니다.</description>
+      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16517">Hugging Face Papers</source>
+      <guid isPermaLink="false">6a65ca19856a7e89eea3cff790432183</guid>
+    </item>
+    <item>
+      <title>CoffeeBench: 이기종 다중 에이전트 경제에서 장거리 LLM 에이전트 벤치마킹</title>
+      <link>https://huggingface.co/papers/2606.16613</link>
+      <description>CoffeeBench는 기업이 이익을 극대화하기 위해 90일 동안 상호 작용하는 다중 에이전트 경제 시뮬레이션에서 LLM 에이전트를 평가하여 다양한 모델 간의 의사소통 패턴과 성과의 차이를 드러냅니다.</description>
+      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.16613">Hugging Face Papers</source>
+      <guid isPermaLink="false">e4c9de6f25116b5eed4c667015e0530b</guid>
+    </item>
+    <item>
+      <title>세계 모델의 환각은 예측 가능하고 예방 가능합니다</title>
+      <link>https://huggingface.co/papers/2606.27326</link>
+      <description>세계 모델은 상태-행동 공간의 낮은 데이터 영역에서 환각을 나타내며, 이는 데이터 중심 신호 및 적용 범위 인식 샘플링 기술을 사용하여 감지하고 완화할 수 있습니다.</description>
+      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27326">Hugging Face Papers</source>
+      <guid isPermaLink="false">2c704fea2a0ada9c391af737630ef3b5</guid>
+    </item>
+    <item>
+      <title>보상 모델의 이산화</title>
+      <link>https://huggingface.co/papers/2606.21795</link>
+      <description>강화 학습의 보상 모델은 똑같이 좋은 응답에 서로 다른 점수를 할당하는 과민성 문제로 인해 정책 학습이 좋지 않지만 이는 이산화를 통해 완화될 수 있습니다.</description>
+      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.21795">Hugging Face Papers</source>
+      <guid isPermaLink="false">891d2e7cb92cf5c0b41bbc681af93d7d</guid>
+    </item>
     <item>
       <title>OPID: 에이전트 강화 학습을 위한 정책 기반 기술 증류</title>
       <link>https://huggingface.co/papers/2606.26790</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.24033">Hugging Face Papers</source>
       <guid isPermaLink="false">da9d33ad3bae53aeefe5789f225e3c62</guid>
-    </item>
-    <item>
-      <title>MEMPROBE: 숨겨진 사용자 상태 복구를 통해 장기 에이전트 메모리 조사</title>
-      <link>https://huggingface.co/papers/2606.24595</link>
-      <description>LLM 에이전트의 장기 메모리는 메모리 복구 벤치마크 테스트인 MEMPROBE에서 입증된 것처럼 에이전트 메모리에서 구조화된 사용자 상태를 재구성하여 감사 가능한 상호 작용 후 아티팩트로 평가되어야 합니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24595">Hugging Face Papers</source>
-      <guid isPermaLink="false">0978767d2f7ce7d520759d79e79bbb2a</guid>
-    </item>
-    <item>
-      <title>EBench: 일반 모바일 조작 정책의 기본 진단</title>
-      <link>https://huggingface.co/papers/2606.18239</link>
-      <description>EBench는 다양한 작업과 차원에 걸쳐 일반 모바일 조작 정책을 평가하기 위한 포괄적인 시뮬레이션 벤치마크로, 국가 간 고유한 기능 프로필과 일반화 패턴을 보여줍니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.18239">Hugging Face Papers</source>
-      <guid isPermaLink="false">444e8a0343743bde3bbba00fcc98a3a9</guid>
-    </item>
-    <item>
-      <title>TryOnCrafter: 렌더링 가능한 4D 체험 프록시를 통해 사실적인 비디오 가상 체험을 위한 카메라 궤적 해방</title>
-      <link>https://huggingface.co/papers/2606.26092</link>
-      <description>카메라 제어 가능 비디오 가상 시험 프레임워크는 전방향 보기를 위해 명시적인 인간-환경 분리 및 DiT 기반 비디오 생성 기능을 갖춘 4D 프록시를 사용합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26092">Hugging Face Papers</source>
-      <guid isPermaLink="false">23f037c5a05f645cd414810827d98ee9</guid>
-    </item>
-    <item>
-      <title>에이전트 모델에 대한 비판</title>
-      <link>https://huggingface.co/papers/2606.23991</link>
-      <description>진정한 인공 기관에는 목표, 정체성, 의사 결정, 자기 규제 및 학습을 위한 내부화된 구조가 필요하며 자율 시스템과 작업별 시스템을 구별합니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.23991">Hugging Face Papers</source>
-      <guid isPermaLink="false">2e001241fe3befaa170186e1f4b2066c</guid>
-    </item>
-    <item>
-      <title>InSight: 조종 가능한 VLA를 통한 자가 유도 기술 획득</title>
-      <link>https://huggingface.co/papers/2606.24884</link>
-      <description>InSight는 기본 동작 수준 조정 및 자동화된 데모 생성을 통해 비전-언어-동작 모델에 대한 자율적 기술 획득을 가능하게 합니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24884">Hugging Face Papers</source>
-      <guid isPermaLink="false">14250bb2e532c80b1446e6d7e393a4d6</guid>
-    </item>
-    <item>
-      <title>Multi4D: 다단계 경쟁 할당을 통한 고충실도 동적 가우스 스플래팅</title>
-      <link>https://huggingface.co/papers/2606.22197</link>
-      <description>Multi4D는 적응형 전문화와 효율적인 분석을 가능하게 하는 다단계 경쟁 할당 프레임워크를 통해 동적 3D 가우스 스플래팅에서 모션 일관성과 시각적 충실도 사이의 균형을 해결합니다.</description>
-      <pubDate>Wed, 24 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.22197">Hugging Face Papers</source>
-      <guid isPermaLink="false">836b89c92a9642fe3f97af1dc6a6459e</guid>
     </item>
   </channel>
 </rss>
