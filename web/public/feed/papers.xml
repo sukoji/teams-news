@@ -5,9 +5,27 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 05:00:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:42:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>CogniRoute: 옴니모달 모델에서 사회적 증거를 라우팅하는 방법 학습</title>
+      <link>https://huggingface.co/papers/2606.20970</link>
+      <description>CogniRoute는 인지 스키마 분해 및 경로 인식 강화 학습을 통해 다중 모달 추론을 향상시키는 소셜 비디오 질문 답변을 위한 스키마 기반 전문가 혼합 프레임워크입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20970">Hugging Face Papers</source>
+      <guid isPermaLink="false">da28dad3d229daf3af6c607c3a456170</guid>
+    </item>
+    <item>
+      <title>Gist 토큰을 통해 단순화된 Sparse Attention</title>
+      <link>https://huggingface.co/papers/2604.20920</link>
+      <description>SSA(Simplified Sparse Attention)는 사전 훈련 중 gist 토큰 기반 주의 마스킹을 통해 장기 컨텍스트 추론 비용을 줄여 아키텍처 수정 없이 추론 시 효율적인 청크 선택을 가능하게 합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2604.20920">Hugging Face Papers</source>
+      <guid isPermaLink="false">aa21530c3d0a9721a44ef37151676dbe</guid>
+    </item>
     <item>
       <title>토큰나이저에 대한 갤럭시 가이드: 과학 기반 모델을 위한 벤치마크</title>
       <link>https://huggingface.co/papers/2606.25610</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.24551">Hugging Face Papers</source>
       <guid isPermaLink="false">bcfa1d78992ff98a9b3d283f1f9c2c45</guid>
-    </item>
-    <item>
-      <title>로봇 제어를 위한 상황별 세계 모델링</title>
-      <link>https://huggingface.co/papers/2606.26025</link>
-      <description>ICWM을 사용하면 로봇 정책이 자체 생성된 상호 작용에서 시스템 변수를 추론할 수 있으므로 시스템 식별을 상황 내 적응으로 처리하여 매개변수 업데이트 없이 새로운 구성에 적응할 수 있습니다.</description>
-      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26025">Hugging Face Papers</source>
-      <guid isPermaLink="false">fd68a0b36e2453517ac8566ff5d6810c</guid>
-    </item>
-    <item>
-      <title>PhysiFormer: 월드 공간에서 역학을 시뮬레이션하는 방법 학습</title>
-      <link>https://huggingface.co/papers/2606.27364</link>
-      <description>PhysiFormer는 좌표 공간 확산을 사용하여 명시적인 유도 편향 없이 물리적으로 그럴듯한 3D 객체 모션을 생성하여 효율적인 다중 객체 추론과 복잡한 재료 및 지형에 대한 일반화를 가능하게 합니다.</description>
-      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.27364">Hugging Face Papers</source>
-      <guid isPermaLink="false">529be8a1b1e39f11b2006c1e000347b4</guid>
     </item>
   </channel>
 </rss>

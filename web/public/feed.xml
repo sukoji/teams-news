@@ -5,9 +5,36 @@
     <link>https://jskh-201910840.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 05:00:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:42:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Supermemory: 대화에서 사실을 추출해 AI에 장기 기억을 부여하는 메모리 엔진</title>
+      <link>https://discuss.pytorch.kr/t/supermemory-ai/10661</link>
+      <description>Supermemory 소개 Supermemory는 대화가 끝날 때마다 맥락이 사라지는 문제를 풀기 위해, 대화에서 사실을 추출해 영속적으로 저장하는 AI 메모리 및 컨텍스트 엔진입니다. 대부분의 LLM 기반 도구는 한 세션이 끝나면 사용자가 누구인지, 무엇을 작업하고 있었는지를 잊어버립니다.</description>
+      <pubDate>Tue, 30 Jun 2026 06:30:50 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/supermemory-ai/10661">PyTorch Korea</source>
+      <guid isPermaLink="false">f9b095852aea86aacc689e1a849c1e5d</guid>
+    </item>
+    <item>
+      <title>CogniRoute: 옴니모달 모델에서 사회적 증거를 라우팅하는 방법 학습</title>
+      <link>https://huggingface.co/papers/2606.20970</link>
+      <description>CogniRoute는 인지 스키마 분해 및 경로 인식 강화 학습을 통해 다중 모달 추론을 향상시키는 소셜 비디오 질문 답변을 위한 스키마 기반 전문가 혼합 프레임워크입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.20970">Hugging Face Papers</source>
+      <guid isPermaLink="false">da28dad3d229daf3af6c607c3a456170</guid>
+    </item>
+    <item>
+      <title>Gist 토큰을 통해 단순화된 Sparse Attention</title>
+      <link>https://huggingface.co/papers/2604.20920</link>
+      <description>SSA(Simplified Sparse Attention)는 사전 훈련 중 gist 토큰 기반 주의 마스킹을 통해 장기 컨텍스트 추론 비용을 줄여 아키텍처 수정 없이 추론 시 효율적인 청크 선택을 가능하게 합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2604.20920">Hugging Face Papers</source>
+      <guid isPermaLink="false">aa21530c3d0a9721a44ef37151676dbe</guid>
+    </item>
     <item>
       <title>토큰나이저에 대한 갤럭시 가이드: 과학 기반 모델을 위한 벤치마크</title>
       <link>https://huggingface.co/papers/2606.25610</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.27771">Hugging Face Papers</source>
       <guid isPermaLink="false">b32bc1aea6b526e4bbb0170a04d33160</guid>
-    </item>
-    <item>
-      <title>Ko-WideSearch: 웹 에이전트에 의한 철저한 집합 열거를 위한 한국어 범위 검색 벤치마크</title>
-      <link>https://huggingface.co/papers/2606.27595</link>
-      <description>한국의 웹 에이전트 벤치마크는 속성 테이블을 사용하여 엔터티 멤버십을 완전히 열거하도록 요구하여 검색 기능의 폭을 평가하고 정확한 세트 ID에도 불구하고 행 복구에서 일관된 실패를 나타냅니다.</description>
-      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.27595">Hugging Face Papers</source>
-      <guid isPermaLink="false">5fb652cca6e024f1ba0059145ab0345b</guid>
-    </item>
-    <item>
-      <title>잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리</title>
-      <link>https://huggingface.co/papers/2606.27378</link>
-      <description>공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.</description>
-      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.27378">Hugging Face Papers</source>
-      <guid isPermaLink="false">d20c99847a0b2ea096bf68f3ca83a096</guid>
-    </item>
-    <item>
-      <title>End to End 유저 모니터링 RUM 으로 한방에 해결!!</title>
-      <link>https://d2.naver.com/helloworld/9227131</link>
-      <description>네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 End To End 모니터링을 별도의 작업없이 제공 받을수 있는 nFront RUM 서비스를 소개합니다. 내부 솔루션만으로 구현한 서비스로 별도의 비용 없이 AI report까지 제공되는 Real User Monitoring 서비스 입니다.</description>
-      <pubDate>Mon, 29 Jun 2026 20:06:13 +0900</pubDate>
-      <category>news</category>
-      <source url="https://d2.naver.com/helloworld/9227131">NAVER D2</source>
-      <guid isPermaLink="false">7f5737ed36ec37192e495d69c3ad9d60</guid>
     </item>
   </channel>
 </rss>
