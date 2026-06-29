@@ -5,9 +5,99 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 29 Jun 2026 09:04:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 13:07:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SingGuard: 동적 추론을 갖춘 정책 적응형 다중 모드 LLM 가드레일</title>
+      <link>https://huggingface.co/papers/2606.22873</link>
+      <description>SingGuard는 빠른 속도에서 느린 속도의 추론 모드를 통해 자연어 규칙을 동적으로 적용하여 실시간 대화에서 안전성을 평가하는 정책 적응형 다중 모드 가드레일 시스템입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.22873">Hugging Face Papers</source>
+      <guid isPermaLink="false">082c39fd68396d10754452cf44251ebe</guid>
+    </item>
+    <item>
+      <title>ProMSA: 지식 기반 시각적 질문 응답을 위한 프로그레시브 다중 모드 검색 에이전트</title>
+      <link>https://huggingface.co/papers/2606.27974</link>
+      <description>검색 전략을 적응적으로 선택하고 시퀀스 수준 강화 학습을 통해 최적화하는 지식 기반 시각적 질문 답변을 위한 진보적인 다중 모드 검색 에이전트입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27974">Hugging Face Papers</source>
+      <guid isPermaLink="false">dfee86f3eff24f96c0c9e1cf4812a7a3</guid>
+    </item>
+    <item>
+      <title>NormGuard: 흐름 일치 강화 학습에서 보상 보존 규범 제약 조건</title>
+      <link>https://huggingface.co/papers/2606.27771</link>
+      <description>훈련 후 강화 학습은 속도 표준 인플레이션을 통해 흐름 기반 생성기의 지각 품질을 저하시킵니다. 이는 봇을 유지하기 위해 추론 시간 수정이 아닌 훈련 시간 개입이 필요합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27771">Hugging Face Papers</source>
+      <guid isPermaLink="false">b32bc1aea6b526e4bbb0170a04d33160</guid>
+    </item>
+    <item>
+      <title>Ko-WideSearch: 웹 에이전트에 의한 철저한 집합 열거를 위한 한국어 범위 검색 벤치마크</title>
+      <link>https://huggingface.co/papers/2606.27595</link>
+      <description>한국의 웹 에이전트 벤치마크는 속성 테이블을 사용하여 엔터티 멤버십을 완전히 열거하도록 요구하여 검색 기능의 폭을 평가하고 정확한 세트 ID에도 불구하고 행 복구에서 일관된 실패를 나타냅니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27595">Hugging Face Papers</source>
+      <guid isPermaLink="false">5fb652cca6e024f1ba0059145ab0345b</guid>
+    </item>
+    <item>
+      <title>잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리</title>
+      <link>https://huggingface.co/papers/2606.27378</link>
+      <description>공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27378">Hugging Face Papers</source>
+      <guid isPermaLink="false">d20c99847a0b2ea096bf68f3ca83a096</guid>
+    </item>
+    <item>
+      <title>Qwen-Image-2.0-RL 기술 보고서</title>
+      <link>https://huggingface.co/papers/2606.27608</link>
+      <description>강화 학습 및 정책 기반 증류 접근 방식은 이미지 생성 및 편집 작업을 위한 확산 모델의 시각적 품질과 지침 따르기 기능을 향상합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27608">Hugging Face Papers</source>
+      <guid isPermaLink="false">68d6d1682c95a56bcf7802d7ff45ce1e</guid>
+    </item>
+    <item>
+      <title>PhysisForcing: 로봇 조작을 위한 물리 강화 월드 시뮬레이터</title>
+      <link>https://huggingface.co/papers/2606.28128</link>
+      <description>PhysisForcing은 DiT 기반 프레임워크에서 픽셀 수준 궤적 정렬 및 의미 수준 관계 정렬 손실을 통해 물리적 일관성을 강화하여 구현된 비디오 생성을 향상합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28128">Hugging Face Papers</source>
+      <guid isPermaLink="false">4c0148736dc28a7dee42f441e1a6e0a0</guid>
+    </item>
+    <item>
+      <title>가교 작업으로서의 번역: 조작 기술을 인간에서 로봇으로 이전</title>
+      <link>https://huggingface.co/papers/2606.28133</link>
+      <description>시각-언어-동작과 결합된 초기 헤드-카메라 프레임의 상대 손목 변환을 기반으로 한 브리징 동작 표현을 사용하여 인간 조작 기술을 로봇에 보다 효과적으로 전달합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28133">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ca2e71b77e5a6d7153046b06089d64c</guid>
+    </item>
+    <item>
+      <title>Google의 Paper Assistant 도구를 통한 과학적 검토 자동화를 향하여</title>
+      <link>https://huggingface.co/papers/2606.28277</link>
+      <description>PAT와 같은 AI 지원 과학 검토 시스템은 고급 추론 확장을 사용하여 인간의 감독을 유지하면서 수학적 오류를 식별하고 연구 품질을 향상시킵니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28277">Hugging Face Papers</source>
+      <guid isPermaLink="false">919cb70af8f1a09a5e7742c54f2bd434</guid>
+    </item>
+    <item>
+      <title>SimFoundry: 정책 학습 및 평가를 위한 모듈식 자동화 장면 생성</title>
+      <link>https://huggingface.co/papers/2606.28276</link>
+      <description>SimFoundry는 자동화된 시뮬레이션 구성과 일반화 및 성능 예측을 향상시키는 다양한 장면 변형을 통해 제로샷 실제 로봇 정책 교육을 가능하게 합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28276">Hugging Face Papers</source>
+      <guid isPermaLink="false">b81a125b3ae95e8e25a131ee2facb117</guid>
+    </item>
     <item>
       <title>ABACUS: 이미지 개수 이해 및 생성 연결을 위한 통합 기반 모델 적용</title>
       <link>https://huggingface.co/papers/2606.23835</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.16316">Hugging Face Papers</source>
       <guid isPermaLink="false">5dc454f6ca09a2d1d200a1a64883f84f</guid>
-    </item>
-    <item>
-      <title>V-Zero: 세밀한 시각적 추론을 위한 대조 증거 게이팅을 사용한 Answer-Label-Free 온 정책 증류</title>
-      <link>https://huggingface.co/papers/2606.25319</link>
-      <description>V-Zero라는 시각적 추론을 위한 새로운 레이블 없는 프레임워크가 제시됩니다. 이 프레임워크는 대조 증거 게이팅을 사용하여 주석이 달린 답변 레이블을 요구하지 않고 세분화된 시각적 추론을 개선하여 더 빠른 속도를 달성합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25319">Hugging Face Papers</source>
-      <guid isPermaLink="false">cb2d7b65c3e1c2ccb13de1130494459d</guid>
-    </item>
-    <item>
-      <title>MVTrack4Gen: 4D 비디오 생성을 위한 기하학적 감독으로서의 다중 시점 추적</title>
-      <link>https://huggingface.co/papers/2606.26087</link>
-      <description>기하학적 일관성과 모션 충실도를 향상시키기 위해 다시점 추적 감독을 통해 모션 인식 확산 모델을 향상시키는 새로운 뷰 비디오 합성 방법입니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26087">Hugging Face Papers</source>
-      <guid isPermaLink="false">93fbaeca25642e4c57433487c9596e30</guid>
-    </item>
-    <item>
-      <title>UnityShots: 경계 인식 게이팅을 사용한 메모리 기반 멀티샷 오디오-비디오 생성</title>
-      <link>https://huggingface.co/papers/2606.21661</link>
-      <description>UnityShots는 경계 조건 게이트가 있는 고정 크기의 장기 및 단기 메모리 슬롯을 사용하여 비디오 컷 전체에서 일관된 피사체 모양과 오디오를 유지하는 메모리 기반 오디오-비디오 생성 시스템입니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.21661">Hugging Face Papers</source>
-      <guid isPermaLink="false">da1938f7127d20743b9bd87fae233660</guid>
-    </item>
-    <item>
-      <title>CAVEWOMAN: 언어 입력 및 출력 압축 하에서 대규모 언어 모델이 작동하는 방식</title>
-      <link>https://huggingface.co/papers/2606.24083</link>
-      <description>2채널 평가에서는 출력 압축이 비용을 줄이는 반면 입력 압축은 비용을 증가시키고 모델과 데이터 세트 전체의 정확도를 저하시키는 것으로 나타났습니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24083">Hugging Face Papers</source>
-      <guid isPermaLink="false">8ab5715f0cb3564d68d6bf806ec7a253</guid>
-    </item>
-    <item>
-      <title>NL2Code를 넘어서: 멀티모달 코드 인텔리전스에 대한 구조화된 조사</title>
-      <link>https://huggingface.co/papers/2606.15932</link>
-      <description>이 설문 조사에서는 시각적 입력을 기반으로 코드를 생성하고 추론하는 다중 모드 코드 인텔리전스 시스템을 탐색하고 GUI, 과학적 시각화, 구조화된 그래픽 및 새로운 프레임워크 전반에 걸친 접근 방식을 분류합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.15932">Hugging Face Papers</source>
-      <guid isPermaLink="false">b98cb8dea305f73d91eae33293d94ab3</guid>
-    </item>
-    <item>
-      <title>Agentic AI를 향한 히치하이커를 위한 가이드: 기초부터 시스템까지</title>
-      <link>https://huggingface.co/papers/2606.24937</link>
-      <description>이 책은 강화 학습, 학습 등의 고급 주제와 함께 트랜스포머 아키텍처 및 훈련 방법과 같은 기본 요소를 다루는 자율 AI 시스템 구축에 대한 포괄적인 가이드를 제공합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24937">Hugging Face Papers</source>
-      <guid isPermaLink="false">a906e54e34c05bf8191838557c5f83aa</guid>
-    </item>
-    <item>
-      <title>Wan-Streamer v0.1: 엔드투엔드 실시간 대화형 기반 모델</title>
-      <link>https://huggingface.co/papers/2606.25041</link>
-      <description>Wan-Streamer는 인과적 주의 메커니즘과 시각, 청각 및 텍스트 양식의 통합 처리를 통해 실시간 시청각 상호 작용을 가능하게 하는 통합된 엔드 투 엔드 다중 모드 모델입니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25041">Hugging Face Papers</source>
-      <guid isPermaLink="false">78e27ffcb58860868b12856a0e06df97</guid>
-    </item>
-    <item>
-      <title>DomainShuttle: Freeform Open Domain 주제 기반 텍스트-비디오 생성</title>
-      <link>https://huggingface.co/papers/2606.26058</link>
-      <description>DomainShuttle은 도메인 인식 모델링 및 이중 RoPE 체계를 통해 도메인 내 및 도메인 간 시나리오 전반에 걸쳐 높은 충실도와 유연성을 갖춘 개방형 도메인 주제 기반 텍스트-비디오 생성을 가능하게 합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26058">Hugging Face Papers</source>
-      <guid isPermaLink="false">c1f7a6b1f477f8f782c322dafd0e5991</guid>
-    </item>
-    <item>
-      <title>가볍게 보고, 무겁게 생각하라: 다중 모드 사고 연쇄 추론이 할 수 있는 것과 할 수 없는 것</title>
-      <link>https://huggingface.co/papers/2606.22565</link>
-      <description>다중 모드 사고 사슬 추론은 추론 프로세스 중에 시각적 성찰을 유지하는 데 한계가 있지만 다양한 작업에 걸쳐 선택적 효율성을 보여줍니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.22565">Hugging Face Papers</source>
-      <guid isPermaLink="false">6238ef534a0eef9f6b108ad50d950ee9</guid>
-    </item>
-    <item>
-      <title>향상된 대규모 언어 확산 모델</title>
-      <link>https://huggingface.co/papers/2606.25331</link>
-      <description>완전히 양방향 주의를 기울이는 마스크 확산 언어 모델은 기존 모델과의 경쟁력을 유지하면서 다양한 벤치마크에서 자동 회귀 모델보다 성능이 뛰어납니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25331">Hugging Face Papers</source>
-      <guid isPermaLink="false">219f83e5c1efc1e0c00d059418ba9963</guid>
     </item>
   </channel>
 </rss>

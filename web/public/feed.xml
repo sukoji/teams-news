@@ -5,9 +5,198 @@
     <link>https://jskh-201910840.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 29 Jun 2026 09:04:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 13:07:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)</title>
+      <link>https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939</link>
+      <description>prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:30:20 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939">PyTorch Korea</source>
+      <guid isPermaLink="false">046496ca0c75f56e91713c0bfa74e082</guid>
+    </item>
+    <item>
+      <title>SingGuard: 동적 추론을 갖춘 정책 적응형 다중 모드 LLM 가드레일</title>
+      <link>https://huggingface.co/papers/2606.22873</link>
+      <description>SingGuard는 빠른 속도에서 느린 속도의 추론 모드를 통해 자연어 규칙을 동적으로 적용하여 실시간 대화에서 안전성을 평가하는 정책 적응형 다중 모드 가드레일 시스템입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.22873">Hugging Face Papers</source>
+      <guid isPermaLink="false">082c39fd68396d10754452cf44251ebe</guid>
+    </item>
+    <item>
+      <title>headroom: AI 에이전트가 읽는 토큰을 LLM 전에 최대 95% 줄이는 컨텍스트 압축 계층</title>
+      <link>https://discuss.pytorch.kr/t/headroom-ai-llm-95/10936</link>
+      <description>headroom 소개 headroom은 AI 에이전트가 읽는 모든 입력(도구 출력, 로그, RAG 청크, 파일, 대화 기록)을 LLM에 전달되기 전에 압축하는 컨텍스트 압축 계층입니다. 같은 답을 유지하면서 토큰만 줄이는 것을 목표로 하며, 저자들은 실제 에이전트 워크로드에서 60~95% 적은 토큰으로 동일한 결과를 얻었다고 보고합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 11:30:52 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/headroom-ai-llm-95/10936">PyTorch Korea</source>
+      <guid isPermaLink="false">6ada47f1f3314b44084bf95fe6bd02c7</guid>
+    </item>
+    <item>
+      <title>ProMSA: 지식 기반 시각적 질문 응답을 위한 프로그레시브 다중 모드 검색 에이전트</title>
+      <link>https://huggingface.co/papers/2606.27974</link>
+      <description>검색 전략을 적응적으로 선택하고 시퀀스 수준 강화 학습을 통해 최적화하는 지식 기반 시각적 질문 답변을 위한 진보적인 다중 모드 검색 에이전트입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27974">Hugging Face Papers</source>
+      <guid isPermaLink="false">dfee86f3eff24f96c0c9e1cf4812a7a3</guid>
+    </item>
+    <item>
+      <title>중국 360, 앤트로픽 '미토스' 대항마 '의천도룡' 공개</title>
+      <link>https://zdnet.co.kr/view/?no=20260629112748</link>
+      <description>[지디넷코리아]중국 사이버보안 기업 360시큐리티테크놀로지가 앤트로픽의 인공지능(AI) 보안 모델 '미토스(Mythos)'에 맞서는 자체 AI 보안 체계를 공개했다.미국의 수출통제로 촉발된 미중 AI 사이버 역량 경쟁이 취약점 탐지와 자동 방어 영역으로 확산되는 양상이다.29일 로이터 등 외신에 따르면 360 창업자 저우훙이 회장은 베이징에서 열린 ISC.AI 2026 사이버보안 컨퍼런스에…</description>
+      <pubDate>Mon, 29 Jun 2026 12:34:31 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260629112748">ZDNet Korea</source>
+      <guid isPermaLink="false">bb3585419901c608529947b7ce4bd37e</guid>
+    </item>
+    <item>
+      <title>NormGuard: 흐름 일치 강화 학습에서 보상 보존 규범 제약 조건</title>
+      <link>https://huggingface.co/papers/2606.27771</link>
+      <description>훈련 후 강화 학습은 속도 표준 인플레이션을 통해 흐름 기반 생성기의 지각 품질을 저하시킵니다. 이는 봇을 유지하기 위해 추론 시간 수정이 아닌 훈련 시간 개입이 필요합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27771">Hugging Face Papers</source>
+      <guid isPermaLink="false">b32bc1aea6b526e4bbb0170a04d33160</guid>
+    </item>
+    <item>
+      <title>Ko-WideSearch: 웹 에이전트에 의한 철저한 집합 열거를 위한 한국어 범위 검색 벤치마크</title>
+      <link>https://huggingface.co/papers/2606.27595</link>
+      <description>한국의 웹 에이전트 벤치마크는 속성 테이블을 사용하여 엔터티 멤버십을 완전히 열거하도록 요구하여 검색 기능의 폭을 평가하고 정확한 세트 ID에도 불구하고 행 복구에서 일관된 실패를 나타냅니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27595">Hugging Face Papers</source>
+      <guid isPermaLink="false">5fb652cca6e024f1ba0059145ab0345b</guid>
+    </item>
+    <item>
+      <title>잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리</title>
+      <link>https://huggingface.co/papers/2606.27378</link>
+      <description>공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27378">Hugging Face Papers</source>
+      <guid isPermaLink="false">d20c99847a0b2ea096bf68f3ca83a096</guid>
+    </item>
+    <item>
+      <title>End to End 유저 모니터링 RUM 으로 한방에 해결!!</title>
+      <link>https://d2.naver.com/helloworld/9227131</link>
+      <description>네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 End To End 모니터링을 별도의 작업없이 제공 받을수 있는 nFront RUM 서비스를 소개합니다. 내부 솔루션만으로 구현한 서비스로 별도의 비용 없이 AI report까지 제공되는 Real User Monitoring 서비스 입니다.</description>
+      <pubDate>Mon, 29 Jun 2026 20:06:13 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/9227131">NAVER D2</source>
+      <guid isPermaLink="false">7f5737ed36ec37192e495d69c3ad9d60</guid>
+    </item>
+    <item>
+      <title>'램마겟돈'의 진짜 피해자는 중소기업과 소비자…"예전 가격은 다시 없을 것"</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=212225</link>
+      <description>AI 데이터센터 투자 경쟁이 세계 메모리 시장을 뒤흔들면서, 이른바 \'램마겟돈(RAMageddon)\'의 후폭풍이 커지고 있다. 지금까지는 애플이나 마이크로소프트(MS) 같은 대형 기업의 제품 가격 상승이 주목받았지만, 실제 피해는 자금력과 협상력이 부족한 중소 제조업체와 일반 소비자에게 집중될 것이라는 경고가 잇따르고 있다.</description>
+      <pubDate>Mon, 29 Jun 2026 12:33:42 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=212225">AI Times</source>
+      <guid isPermaLink="false">eeaa41d9234fd85bc03d6e14a5a9a1c8</guid>
+    </item>
+    <item>
+      <title>PaddleOCR: 문서와 이미지를 LLM용 구조화 데이터로 바꾸는 OCR 툴킷</title>
+      <link>https://discuss.pytorch.kr/t/paddleocr-llm-ocr/10935</link>
+      <description>PaddleOCR 소개 PaddleOCR은 PDF와 이미지 문서를 LLM이 곧바로 사용할 수 있는 구조화된 데이터(JSON, Markdown)로 변환하는 OCR 툴킷입니다. 단순히 이미지에서 글자를 뽑아내는 데서 그치지 않고, 표와 수식, 도장, 차트 같은 복잡한 요소까지 인식해 문서의 구조를 보존한 형태로 출력하는 데 초점을 맞춥니다.</description>
+      <pubDate>Mon, 29 Jun 2026 12:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/paddleocr-llm-ocr/10935">PyTorch Korea</source>
+      <guid isPermaLink="false">c21d8951c7de595d899469cfd1de71fa</guid>
+    </item>
+    <item>
+      <title>스마트공장 넘어 'AI 공장'…중기부, 제조 AI 에이전트 첫 실증</title>
+      <link>https://www.etnews.com/20260629000204</link>
+      <description>원료 상태가 조금만 달라져도 품질이 달라지는 식품 공장. 앞으로는 숙련 작업자의 경험 대신 인공지능(AI)이 원료와 생산 데이터를 실시간으로 분석해 최적의 공정 조건을 제안하고 불량 가능성까지 미리 예측한다. 화장품 공장에서는 신제품 처방 설계부터 품질관리, 규제 검토까지 AI가 함께 의사결정을 지원한다.</description>
+      <pubDate>Mon, 29 Jun 2026 12:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260629000204">전자신문 IT</source>
+      <guid isPermaLink="false">5f2ccb81e9723b514e28655a13d2bb8e</guid>
+    </item>
+    <item>
+      <title>금오공대, K-MOSA 정책 관련 정부 핵심 연구용역 2개 수주…K-방산 기술 경쟁력 입증</title>
+      <link>https://www.etnews.com/20260629000200</link>
+      <description>국립금오공과대학교(총장 김상호)가 차세대 국방 안보의 핵심 패러다임으로 주목받고 있는 '국방 무인체계 모듈화(K-MOSA) 정책'과 관련한 정부 핵심 연구용역 2개 과제를 수주했다.</description>
+      <pubDate>Mon, 29 Jun 2026 11:12:07 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260629000200">전자신문 IT</source>
+      <guid isPermaLink="false">cf267626557e30b025d6049d6f07b879</guid>
+    </item>
+    <item>
+      <title>Qwen-Image-2.0-RL 기술 보고서</title>
+      <link>https://huggingface.co/papers/2606.27608</link>
+      <description>강화 학습 및 정책 기반 증류 접근 방식은 이미지 생성 및 편집 작업을 위한 확산 모델의 시각적 품질과 지침 따르기 기능을 향상합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.27608">Hugging Face Papers</source>
+      <guid isPermaLink="false">68d6d1682c95a56bcf7802d7ff45ce1e</guid>
+    </item>
+    <item>
+      <title>AI 자율주행로봇이 항공기 점검…규제샌드박스 5건 승인</title>
+      <link>https://www.etnews.com/20260629000115</link>
+      <description>앞으로 인공지능(AI) 자율주행로봇이 공항 계류장에서 항공기 외관을 스스로 점검할 수 있게 된다. 최대 12시간 걸리던 항공기 외관 검사가 1시간 이내로 단축되고, 고위험 작업도 크게 줄일 수 있을 것으로 기대된다. 산업통상자원부는 29일 제3차 산업융합 규제특례심의위원회(서면)를 열고 산업융합 규제샌드박스 5건을 승인했다고 밝혔다.</description>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260629000115">전자신문 IT</source>
+      <guid isPermaLink="false">aa91c3b8fa7828afeb7ae196001f37cb</guid>
+    </item>
+    <item>
+      <title>PhysisForcing: 로봇 조작을 위한 물리 강화 월드 시뮬레이터</title>
+      <link>https://huggingface.co/papers/2606.28128</link>
+      <description>PhysisForcing은 DiT 기반 프레임워크에서 픽셀 수준 궤적 정렬 및 의미 수준 관계 정렬 손실을 통해 물리적 일관성을 강화하여 구현된 비디오 생성을 향상합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28128">Hugging Face Papers</source>
+      <guid isPermaLink="false">4c0148736dc28a7dee42f441e1a6e0a0</guid>
+    </item>
+    <item>
+      <title>가교 작업으로서의 번역: 조작 기술을 인간에서 로봇으로 이전</title>
+      <link>https://huggingface.co/papers/2606.28133</link>
+      <description>시각-언어-동작과 결합된 초기 헤드-카메라 프레임의 상대 손목 변환을 기반으로 한 브리징 동작 표현을 사용하여 인간 조작 기술을 로봇에 보다 효과적으로 전달합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28133">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ca2e71b77e5a6d7153046b06089d64c</guid>
+    </item>
+    <item>
+      <title>Show GN: AI 코딩 에이전트 여러 개를 한 창에서 조율하는 올인원 데스크톱 터미널 — Orch term</title>
+      <link>https://news.hada.io/topic?id=30932</link>
+      <description>터미널·코드 에디터·브라우저·Git을 한 창에 담고, 그 위에서 여러 AI 코딩 에이전트(Claude Code, Codex, Gemini CLI 등)를 동시에 돌려 조율하는 데스크톱 앱입니다. Windows와 macOS를 지원합니다. 왜 만들었나 AI 에이전트로 개발하다 보니, 터미널 하나에 에이전트 하나만 붙여 쓰는 게 답답했습니</description>
+      <pubDate>Mon, 29 Jun 2026 11:05:55 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=30932">GeekNews</source>
+      <guid isPermaLink="false">f75027940e8d83fd9562d24161d4d270</guid>
+    </item>
+    <item>
+      <title>Google의 Paper Assistant 도구를 통한 과학적 검토 자동화를 향하여</title>
+      <link>https://huggingface.co/papers/2606.28277</link>
+      <description>PAT와 같은 AI 지원 과학 검토 시스템은 고급 추론 확장을 사용하여 인간의 감독을 유지하면서 수학적 오류를 식별하고 연구 품질을 향상시킵니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28277">Hugging Face Papers</source>
+      <guid isPermaLink="false">919cb70af8f1a09a5e7742c54f2bd434</guid>
+    </item>
+    <item>
+      <title>[단독]AI 교육 플랫폼 '엔트리' 공공 전환…내년 8월 서비스 목표</title>
+      <link>https://www.etnews.com/20260628000076</link>
+      <description>초·중·고교 인공지능(AI)·소프트웨어(SW) 실습교육에 활용되는 네이버의 민간 비영리 플랫폼 '엔트리'가 공공 운영체계로 전환된다. 학교 현장에서 안정적인 AI 실습 환경을 제공하기 위해서다. 28일 과학기술정보통신부가 이해민 조국혁신당 의원실에 제출한 자료에 따르면 정부는 초중등 AI 실습교육 플랫폼 구축 사업을 통해 엔트리를 공공기관으로 이전해 지속 운영하는 방안을 추진하고 있다.</description>
+      <pubDate>Sun, 28 Jun 2026 17:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260628000076">전자신문 IT</source>
+      <guid isPermaLink="false">eeb4503bb2a821b7010d8ab051ae9220</guid>
+    </item>
+    <item>
+      <title>SimFoundry: 정책 학습 및 평가를 위한 모듈식 자동화 장면 생성</title>
+      <link>https://huggingface.co/papers/2606.28276</link>
+      <description>SimFoundry는 자동화된 시뮬레이션 구성과 일반화 및 성능 예측을 향상시키는 다양한 장면 변형을 통해 제로샷 실제 로봇 정책 교육을 가능하게 합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28276">Hugging Face Papers</source>
+      <guid isPermaLink="false">b81a125b3ae95e8e25a131ee2facb117</guid>
+    </item>
     <item>
       <title>Emmimal/context-graph-benchmark — 다중 에이전트 LLM 시스템을 위한 순수 Python 구조 메모리 벤치마크 — 컨텍스트 그래프 대 벡터 RAG</title>
       <link>https://github.com/Emmimal/context-graph-benchmark</link>
@@ -268,195 +457,6 @@
       <category>news</category>
       <source url="https://zdnet.co.kr/view/?no=20260628131540">ZDNet Korea</source>
       <guid isPermaLink="false">f842b0d14cb14a36877caeb2975542c3</guid>
-    </item>
-    <item>
-      <title>“AI로 생산성 10배 향상”…AWS 등 빅테크, 개발인력 재편 본격화</title>
-      <link>https://www.etnews.com/20260628000073</link>
-      <description>인공지능(AI)이 코드 작성과 테스트·문서화 등 반복 업무를 빠르게 흡수하면서 빅테크 기업 개발조직 운영 방식이 바뀌고 있다. AI를 활용해 보다 적은 인원으로 더 많은 업무를 수행하며 개인당 생산성을 높이는 모양새다.</description>
-      <pubDate>Sun, 28 Jun 2026 12:10:38 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260628000073">전자신문 IT</source>
-      <guid isPermaLink="false">a93d4335a442bb06c29a647cc89cbed3</guid>
-    </item>
-    <item>
-      <title>[정유신의 핀테크스토리]스페이스X 이후, 월가가 우주 데이터와 AI에 베팅하는 이유</title>
-      <link>https://www.etnews.com/20260628000071</link>
-      <description>스페이스X 상장은 우주산업이 더 이상 정부 예산과 국가 프로젝트에만 의존하는 영역이 아님을 보여준다. 특히 상장 직후 스페이스X가 글로벌 시가총액 최상위권에 진입한 것은 단지 한 기업의 성공이 아니라, 우주 인프라와 데이터의 미래 가치에 대한 월가의 기대를 상징한다.</description>
-      <pubDate>Sun, 28 Jun 2026 12:06:51 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260628000071">전자신문 IT</source>
-      <guid isPermaLink="false">d1053ce78590a53b06a70e2bb137432f</guid>
-    </item>
-    <item>
-      <title>춘천 기업혁신파크, 의료데이터 기반 'AI 리빙랩' 구축 나선다</title>
-      <link>https://www.etnews.com/20260626000051</link>
-      <description>춘천 기업혁신파크가 지역 대학병원의 의료데이터를 기반으로 정밀의료 데이터 플랫폼을 구축하고 이를 활용한 AI 기반 의료·바이오 산업 생태계 조성에 나선다. 춘천 기업혁신파크는 지난 26일 강원대학교 미래도서관 대회의실에서 열린 제4차 바이오테크 혁신포럼에서 질환별 정밀의료 데이터 플랫폼 구축과 'AI 리빙랩(AI Living Lab)' 조성 구상을 제시했다.</description>
-      <pubDate>Sun, 28 Jun 2026 12:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260626000051">전자신문 IT</source>
-      <guid isPermaLink="false">e09a02a64658980102f6a892dea1ada2</guid>
-    </item>
-    <item>
-      <title>스페이스X, 내달 7일 나스닥100 편입</title>
-      <link>https://www.etnews.com/20260628000052</link>
-      <description>일론 머스크가 이끄는 우주·인공지능(AI) 기업 스페이스X가 내달 7일 기술주 중심의 나스닥 100 지수에 편입된다. 나스닥은 26일(현지시간) 공시를 통해 스페이스X가 내달 7일부터 나스닥 100 지수 구성 종목에 포함한다고 발표했다. 나스닥 100은 나스닥 시장에 상장된 비금융 기업 가운데 시가총액이 큰 100개 종목으로 구성되는 대표 지수다.</description>
-      <pubDate>Sun, 28 Jun 2026 10:47:45 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260628000052">전자신문 IT</source>
-      <guid isPermaLink="false">9700ab39b6e2c31746967bf50ad0ac52</guid>
-    </item>
-    <item>
-      <title>SK, 'K-AI 얼라이언스' 50개사로 확대…“글로벌 네트워크 강화”</title>
-      <link>https://www.etnews.com/20260628000049</link>
-      <description>SK가 주도해 결성한 인공지능(AI) 기업 연합체 'K-AI 얼라이언스'가 미국에서 글로벌 사업 기회를 모색했다. SK AI위원회는 K-AI 얼라이언스가 지난 26일 미국 실리콘밸리에서 '유나이트 2026'을 개최했다고 28일 밝혔다.</description>
-      <pubDate>Sun, 28 Jun 2026 10:30:41 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260628000049">전자신문 IT</source>
-      <guid isPermaLink="false">3fbcd0065987d22d8a86376b4351430b</guid>
-    </item>
-    <item>
-      <title>1분기 국내 프리미엄 폰 비중 70% 이상 고공행진 지속</title>
-      <link>https://www.etnews.com/20260626000098</link>
-      <description>올 1분기 국내 스마트폰 시장 프리미엄폰 비중이 70%를 넘어섰다. 제조사들이 수익성이 높은 플래그십과 고용량 모델 판매에 집중하고, 소비자도 교체 주기를 늘리는 대신 고가 제품을 선택하는데 따라 프리미엄폰 선호 형상이 대세로 자리잡고 있다.</description>
-      <pubDate>Sun, 28 Jun 2026 10:30:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260626000098">전자신문 IT</source>
-      <guid isPermaLink="false">09a747d4526cd87bcf2e574202a21841</guid>
-    </item>
-    <item>
-      <title>LG스마트코티지, B2B 맞춤형 20평대 신제품 출시</title>
-      <link>https://www.etnews.com/20260628000035</link>
-      <description>LG전자가 모듈러 주택 'LG스마트코티지' 제품군을 다각화한다. 20평대 모델 2종을 추가하고 가전과 IoT기기 등을 선택할 수 있도록 옵션 체계를 세분화했다. LG전자가 출시하는 20평대 단층형 모델은 'MONO Core 72(면적 72.9㎡, 약 22평)'와 'MONO Core 82(면적 82.1㎡, 약 24평)'다.</description>
-      <pubDate>Sun, 28 Jun 2026 10:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260628000035">전자신문 IT</source>
-      <guid isPermaLink="false">5ccd767407043dc60d31936346ad9f3b</guid>
-    </item>
-    <item>
-      <title>DSpark: Speculative decoding을 활용한 LLM 추론 가속화 [pdf]</title>
-      <link>https://news.hada.io/topic?id=30902</link>
-      <description>DSpark: 준자기회귀(semi-autoregressive) 생성과 신뢰도 스케줄링을 결합한 추측 디코딩(speculative decoding) 프레임워크 병렬 드래프터(parallel drafter) 가 한 번의 순전파로 긴 토큰 블록을 제안하지만 토큰 간 의존성 부재로 후반부 수락률 급감(acceptance decay)...</description>
-      <pubDate>Sun, 28 Jun 2026 09:35:01 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=30902">GeekNews</source>
-      <guid isPermaLink="false">dffd5242e92898beb01037942838a21d</guid>
-    </item>
-    <item>
-      <title>SIA(Self-Improving AI): 하네스와 모델 가중치를 함께 진화시키는 자기 개선 AI 에이전트 루프에 대한 연구 (feat. Hexo Labs)</title>
-      <link>https://discuss.pytorch.kr/t/sia-self-improving-ai-ai-feat-hexo-labs/10950</link>
-      <description>SIA(Self-Improving AI) 연구 소개 새로운 분야를 처음 배우는 신입 엔지니어를 떠올려 봅시다. 처음에는 선배가 정리해 준 체크리스트와 도구 사용법을 따라 하며 일을 해냅니다. 시간이 지나면 더 나은 작업 순서나 자동화 스크립트를 스스로 만들어 외부 절차를 다듬습니다.</description>
-      <pubDate>Sun, 28 Jun 2026 08:30:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sia-self-improving-ai-ai-feat-hexo-labs/10950">PyTorch Korea</source>
-      <guid isPermaLink="false">34001fa24b69c8f29a7cd82787435ac6</guid>
-    </item>
-    <item>
-      <title>오픈 웨이트 LLM과 폐쇄형 LLM의 격차</title>
-      <link>https://news.hada.io/topic?id=30896</link>
-      <description>Artificial Analysis Intelligence Index에서는 오픈 웨이트 LLM 이 폐쇄형 LLM의 과거 성능을 따라잡는 시간이 2024년 여름부터 꾸준히 줄어드는 흐름을 보임 이 단일 지표에 추세선을 그으면 격차가 2026년 12월 3일 0개월이 되어, 오픈 모델이 지표상 최전선 폐쇄...</description>
-      <pubDate>Sun, 28 Jun 2026 08:35:27 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=30896">GeekNews</source>
-      <guid isPermaLink="false">daf7b9308a2aa6afed93bd9cd4d79324</guid>
-    </item>
-    <item>
-      <title>“우리 친구 아이가”… 지중해 향유고래들, 지역별 '사투리' 쓴다</title>
-      <link>https://www.etnews.com/20260625000402</link>
-      <description>지중해에 서식하는 향유고래들이 바다 동쪽과 서쪽으로 나뉘어 서로 다른 '방언(사투리)'을 사용한다는 사실이 밝혀졌다. 사람의 언어처럼 향유고래 역시 지역에 따라 소통 방식에 미세한 차이가 확인된 것이다. 24일(현지시간) 영국 가디언에 따르면 세인트앤드루스 대학교 루크 렌델 박사 연구팀은 최근 국제학술지 '왕립학회지 B'를 통해 지중해 향유고래들의 울음소리를 분석한 결과를 발표했다.</description>
-      <pubDate>Sun, 28 Jun 2026 06:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260625000402">전자신문 IT</source>
-      <guid isPermaLink="false">a5ba49f524004071797c9a01a93e589c</guid>
-    </item>
-    <item>
-      <title>GSMA MWC26 상하이, AI 경제와 6G 혁신으로 전 세계 참석자들의 호응 속에 폐막</title>
-      <link>https://zdnet.co.kr/view/?no=20260628011003</link>
-      <description>[지디넷코리아] 143개 국가 및 지역의 참석자들이 약 300명의 연사와 400곳 이상의 후원사, 전시업체 및 파트너와 함께 SNIEC에서 AI 시대 연결성의 미래 모색 상하이, 2026년 6월 28일 /PRNewswire/ -- MWC26 상하이(MWC26 Shanghai)가 AI 경제, 6G 혁신 등을 중심으로 3일간 진행된 콘퍼런스와 전시회를 마치고 폐막했다.</description>
-      <pubDate>Sun, 28 Jun 2026 01:10:03 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260628011003">ZDNet Korea</source>
-      <guid isPermaLink="false">f415e70e28cf997dd2666188e8377d6a</guid>
-    </item>
-    <item>
-      <title>eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있습니다</title>
-      <link>https://github.com/eli-labz/Godcoder</link>
-      <description>데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 귀하의 코드는 귀하의 컴퓨터에 남아 있으며 모델 제공자에게만 전달됩니다.</description>
-      <pubDate>Sat, 27 Jun 2026 13:15:17 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/eli-labz/Godcoder">GitHub Trending</source>
-      <guid isPermaLink="false">e737fc0ece5e2ee6d1535fce50e35703</guid>
-    </item>
-    <item>
-      <title>MADEVAL/AngleCraft — 7+2 저널리즘 앵글 유형을 사용하여 건조하고 전문적인 주제를 참여도가 높은 콘텐츠로 전환합니다. AI 스킬 f</title>
-      <link>https://github.com/MADEVAL/AngleCraft</link>
-      <description>7+2 저널리즘 각도 유형을 사용하여 무미건조한 전문가 주제를 참여도가 높은 콘텐츠로 전환하세요. 모든 LLM, 틈새시장, 모든 언어를 위한 AI 기술입니다.</description>
-      <pubDate>Sat, 27 Jun 2026 19:33:08 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/MADEVAL/AngleCraft">GitHub Trending</source>
-      <guid isPermaLink="false">60b6b42743841e3a99d52981c1b26a8a</guid>
-    </item>
-    <item>
-      <title>onism1767-creator/potato — 무료 간편한 AI 가시성 확인 - Claude의 웹 검색에서 브랜드가 얼마나 자주 언급 및 인용되는지 측정</title>
-      <link>https://github.com/onism1767-creator/potato</link>
-      <description>무료 간편한 AI 가시성 확인 - Claude의 웹 검색 답변에서 브랜드가 얼마나 자주 언급되고 인용되는지 측정합니다. 결정적, 재현 가능, 로컬에서 100% 실행, 기본적으로 $0 모의.</description>
-      <pubDate>Tue, 23 Jun 2026 02:29:01 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/onism1767-creator/potato">GitHub Trending</source>
-      <guid isPermaLink="false">50e69dfb4a3ea9d45939fcaabb0674d9</guid>
-    </item>
-    <item>
-      <title>2천 명이 내 AI 어시스턴트를 해킹하려 한 뒤 벌어진 일</title>
-      <link>https://news.hada.io/topic?id=30881</link>
-      <description>hackmyclaw.com은 이메일로 AI 어시스턴트 Fiu 를 속여 secrets.env 를 유출시키는 공개 실험이었고, Hacker News 1위 이후 2,000명 이상이 6,000건 넘게 시도했지만 비밀은 새지 않음 방어는 VPS에서 동작하는 어시스턴트에 몇 줄짜리 프롬프트 인젝션 방지 규칙...</description>
-      <pubDate>Sun, 28 Jun 2026 00:36:13 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=30881">GeekNews</source>
-      <guid isPermaLink="false">9a06e00fd07313e89e765698df490cc2</guid>
-    </item>
-    <item>
-      <title>MADEVAL/HumanAI — 기계 생성 텍스트를 9개 언어로 사람이 쓴 것처럼 들리도록 다시 작성하는 AI 기술 - 5단계 파이</title>
-      <link>https://github.com/MADEVAL/HumanAI</link>
-      <description>기계 생성 텍스트를 9개 언어로 사람이 쓴 소리로 다시 작성하는 AI 기술 - 5단계 파이프라인: 정리 → 특이성 → 어조 → 리듬 → 교정.</description>
-      <pubDate>Fri, 26 Jun 2026 01:38:01 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/MADEVAL/HumanAI">GitHub Trending</source>
-      <guid isPermaLink="false">2b9d768195c654ab68886f71cd593958</guid>
-    </item>
-    <item>
-      <title>Agent Reach: AI 에이전트가 소셜미디어와 웹을 읽게 해주는 CLI 도구</title>
-      <link>https://discuss.pytorch.kr/t/agent-reach-ai-cli/10937</link>
-      <description>Agent Reach 소개 Agent Reach는 AI 에이전트가 인터넷의 여러 플랫폼을 읽고 검색할 수 있도록 도구 설정을 한 번에 끝내주는 CLI입니다. 코딩 에이전트는 이미 코드를 쓰고 문서를 고치지만, 막상 트위터 토론이나 Reddit 피드백, YouTube 자막처럼 플랫폼 안쪽에 있는 정보를 가져오라고 하면 막히는 경우가 많습니다.</description>
-      <pubDate>Sat, 27 Jun 2026 19:30:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agent-reach-ai-cli/10937">PyTorch Korea</source>
-      <guid isPermaLink="false">2aeef88d19ccfc634aec79d2c6a685e2</guid>
-    </item>
-    <item>
-      <title>애플 '비전 프로' 총괄 부사장, 오픈AI로 이직…AI 하드웨어 개발 주도</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=212185</link>
-      <description>애플의 혼합현실(MR) 헤드셋 \'비전 프로\'와 스마트 안경 개발을 총괄해 온 하드웨어 엔지니어링 부사장이 회사를 떠나 오픈AI로 이직한다.블룸버그는 26일(현지시간) 소식통을 인용, 폴 미드 부사장이 다음 주 중 애플에서 퇴사하고 오픈AI의 하드웨어 사업부에 합류할 예정이라고 보도했다.</description>
-      <pubDate>Sat, 27 Jun 2026 19:29:32 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=212185">AI Times</source>
-      <guid isPermaLink="false">160cf9ab3fd859a9d3ce8ea5b825597f</guid>
-    </item>
-    <item>
-      <title>에이전트 장기 프로젝트 벤치마크 'AA-브리프케이스' 공개...1위는 '페이블 5'</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=212179</link>
-      <description>AI 모델의 실제 업무 수행 능력을 평가하기 위한 새로운 벤치마크가 등장했다. 단일 질문에 답하는 기존 평가 방식을 넘어, 몇주에 걸친 장기 프로젝트를 얼마나 완성도 있게 수행하는지를 측정하는 것이 핵심이다.</description>
-      <pubDate>Sat, 27 Jun 2026 13:36:05 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=212179">AI Times</source>
-      <guid isPermaLink="false">5fccc5c44ecd04fbc6b81cf4c7d31950</guid>
-    </item>
-    <item>
-      <title>제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에</title>
-      <link>https://zdnet.co.kr/view/?no=20260627135408</link>
-      <description>[지디넷코리아]구글이 현지 시각 6월 25일 AI 에이전트가 사람 없이 화면을 보고 클릭·입력·탐색하는 '컴퓨터 유즈(Computer Use)' 기능을 제미나이 3.5 플래시에 기본 도구로 내장한다고 밝혔다. 개발자는 제미나이 API와 제미나이 엔터프라이즈 에이전트 플랫폼에서 이 기능을 바로 쓸 수 있다.</description>
-      <pubDate>Sat, 27 Jun 2026 13:54:08 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260627135408">ZDNet Korea</source>
-      <guid isPermaLink="false">bb5fba9b2cb2450c245566af30f560a1</guid>
     </item>
   </channel>
 </rss>

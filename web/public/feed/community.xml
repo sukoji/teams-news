@@ -5,9 +5,36 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 29 Jun 2026 09:04:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 13:07:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)</title>
+      <link>https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939</link>
+      <description>prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:30:20 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939">PyTorch Korea</source>
+      <guid isPermaLink="false">046496ca0c75f56e91713c0bfa74e082</guid>
+    </item>
+    <item>
+      <title>headroom: AI 에이전트가 읽는 토큰을 LLM 전에 최대 95% 줄이는 컨텍스트 압축 계층</title>
+      <link>https://discuss.pytorch.kr/t/headroom-ai-llm-95/10936</link>
+      <description>headroom 소개 headroom은 AI 에이전트가 읽는 모든 입력(도구 출력, 로그, RAG 청크, 파일, 대화 기록)을 LLM에 전달되기 전에 압축하는 컨텍스트 압축 계층입니다. 같은 답을 유지하면서 토큰만 줄이는 것을 목표로 하며, 저자들은 실제 에이전트 워크로드에서 60~95% 적은 토큰으로 동일한 결과를 얻었다고 보고합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 11:30:52 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/headroom-ai-llm-95/10936">PyTorch Korea</source>
+      <guid isPermaLink="false">6ada47f1f3314b44084bf95fe6bd02c7</guid>
+    </item>
+    <item>
+      <title>PaddleOCR: 문서와 이미지를 LLM용 구조화 데이터로 바꾸는 OCR 툴킷</title>
+      <link>https://discuss.pytorch.kr/t/paddleocr-llm-ocr/10935</link>
+      <description>PaddleOCR 소개 PaddleOCR은 PDF와 이미지 문서를 LLM이 곧바로 사용할 수 있는 구조화된 데이터(JSON, Markdown)로 변환하는 OCR 툴킷입니다. 단순히 이미지에서 글자를 뽑아내는 데서 그치지 않고, 표와 수식, 도장, 차트 같은 복잡한 요소까지 인식해 문서의 구조를 보존한 형태로 출력하는 데 초점을 맞춥니다.</description>
+      <pubDate>Mon, 29 Jun 2026 12:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/paddleocr-llm-ocr/10935">PyTorch Korea</source>
+      <guid isPermaLink="false">c21d8951c7de595d899469cfd1de71fa</guid>
+    </item>
     <item>
       <title>[2026/06/22 ~ 28] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-06-22-28-ai-ml/10959</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sakana-ai-llm-fugu-fugu-ultra/10858">PyTorch Korea</source>
       <guid isPermaLink="false">5e3921fb3733487d79ab348da8ba8672</guid>
-    </item>
-    <item>
-      <title>Dive into Claude Code: Claude Code 코드로 분석한 AI 에이전트 시스템의 설계 공간에 대한 연구 (feat. MBZUAI)</title>
-      <link>https://discuss.pytorch.kr/t/dive-into-claude-code-claude-code-ai-feat-mbzuai/10725</link>
-      <description>Dive into Claude Code: 소개 우리는 매일 AI 코딩 에이전트에게 "이 테스트 좀 고쳐줘"라고 말하지만, 그 한 줄의 요청이 내부에서 어떤 경로를 거쳐 실제 셸 명령과 파일 수정으로 바뀌는지는 거의 들여다보지 않습니다. 마치 자동차의 핸들과 페달만 알 뿐 엔진룸을 열어본 적이 없는 운전자와 비슷합니다.</description>
-      <pubDate>Mon, 22 Jun 2026 12:30:29 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/dive-into-claude-code-claude-code-ai-feat-mbzuai/10725">PyTorch Korea</source>
-      <guid isPermaLink="false">d35d736f2fc2a424dfbd046085381d05</guid>
-    </item>
-    <item>
-      <title>ponytail: AI 코딩 에이전트가 꼭 필요한 코드만 쓰게 만드는 규칙셋</title>
-      <link>https://discuss.pytorch.kr/t/ponytail-ai/10859</link>
-      <description>ponytail 소개 AI 코딩 에이전트에게 날짜 선택기를 만들어 달라고 하면, 에이전트는 flatpickr 같은 라이브러리를 설치하고 래퍼 컴포넌트를 작성한 뒤 스타일시트를 추가하고 타임존 처리를 어떻게 할지 논의하기 시작합니다. 정작 필요한 것은 브라우저에 이미 들어 있는 &lt;input type="date"&gt; 한 줄인데도 그렇습니다.</description>
-      <pubDate>Mon, 22 Jun 2026 13:00:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ponytail-ai/10859">PyTorch Korea</source>
-      <guid isPermaLink="false">71e070366668fa1de00d2e72433aa695</guid>
-    </item>
-    <item>
-      <title>llm-wiki: Karpathy의 방법론으로 흩어진 정보를 지식 그래프로 키우는 에이전트 스킬</title>
-      <link>https://discuss.pytorch.kr/t/llm-wiki-karpathy/10843</link>
-      <description>llm-wiki 소개 논문, 블로그 글, 트윗, 메모처럼 매일 접하는 정보는 대개 한 번 읽고 흩어집니다. 필요할 때마다 다시 검색하고 같은 자료를 또 읽지만, 정작 그 사이의 연결은 머릿속에만 남습니다. llm-wiki는 이런 파편화된 정보를 한 번 정제해 두고 계속 이어 붙이는 개인 지식 베이스로 바꾸는 에이전트 스킬입니다.</description>
-      <pubDate>Mon, 22 Jun 2026 08:30:41 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llm-wiki-karpathy/10843">PyTorch Korea</source>
-      <guid isPermaLink="false">6e2facea736f53d658d3e5f7d8e87937</guid>
     </item>
   </channel>
 </rss>
