@@ -5,9 +5,45 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 02:39:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 05:00:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>토큰나이저에 대한 갤럭시 가이드: 과학 기반 모델을 위한 벤치마크</title>
+      <link>https://huggingface.co/papers/2606.25610</link>
+      <description>천문 이미지에 대한 네 가지 토큰화 방법은 재구성 품질, 물리적 특성 예측 및 형태학적 보존에서 뚜렷한 강점을 보여 주지만 모든 작업에서 탁월한 단일 접근 방식은 없습니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.25610">Hugging Face Papers</source>
+      <guid isPermaLink="false">59e310be9e58517ac2822c8797b02169</guid>
+    </item>
+    <item>
+      <title>AgentOdyssey: 테스트 시간 연속 학습 에이전트를 위한 개방형 장거리 텍스트 게임 생성</title>
+      <link>https://huggingface.co/papers/2606.24893</link>
+      <description>AgentOdyssey는 절차적으로 생성된 텍스트 게임을 통해 테스트 시간 연속 학습 에이전트를 평가하고 연속적이고 장기적인 설정에서 학습, 기억, 탐색 및 계획 기능을 측정합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.24893">Hugging Face Papers</source>
+      <guid isPermaLink="false">3b4d0d5c453c741666b9a185e90779b6</guid>
+    </item>
+    <item>
+      <title>Qwen-RobotManip 기술 보고서: 정렬을 통해 로봇 조작 기반 모델의 규모 잠금 해제</title>
+      <link>https://huggingface.co/papers/2606.17846</link>
+      <description>로봇 조작을 위한 Vision-Language-Action 기반 모델은 표현, 모션 및 행동 차원 전반에 걸친 통합 정렬을 통해 일반화를 달성하여 다양한 데이터에 대한 대규모 교육을 가능하게 합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.17846">Hugging Face Papers</source>
+      <guid isPermaLink="false">4f75070dfd6b94113b1faa811c6c4f57</guid>
+    </item>
+    <item>
+      <title>Qwen-RobotNav 기술 보고서: 에이전트 탐색 시스템용으로 설계된 확장 가능한 탐색 모델</title>
+      <link>https://huggingface.co/papers/2606.18112</link>
+      <description>Qwen-RobotNav는 동적 작업 모드 및 관찰 매개변수를 활성화하는 매개변수화된 인터페이스를 갖춘 확장 가능한 탐색 모델로, 다중 작업 훈련 및 제로샷 생성을 통해 최첨단 성능을 달성합니다.</description>
+      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.18112">Hugging Face Papers</source>
+      <guid isPermaLink="false">33dba13ba5989f788fc9527dbf3d348a</guid>
+    </item>
     <item>
       <title>실행 여부: LLM 기반 프로그램 복구에서 코드 실행의 비용 효율성 분석</title>
       <link>https://huggingface.co/papers/2606.26978</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.27364">Hugging Face Papers</source>
       <guid isPermaLink="false">529be8a1b1e39f11b2006c1e000347b4</guid>
-    </item>
-    <item>
-      <title>빠른 LeWorld모델</title>
-      <link>https://huggingface.co/papers/2606.26217</link>
-      <description>Fast-LeWM은 자동 회귀 롤아웃을 병렬 작업 접두사 예측으로 대체하여 시각적 계획을 가속화하고 장거리 예측 중 계산 비용과 지연 시간 누적을 줄입니다.</description>
-      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26217">Hugging Face Papers</source>
-      <guid isPermaLink="false">0e17d579d9e85365a0c474a6587de393</guid>
-    </item>
-    <item>
-      <title>COrigami: 시각적으로 인식 가능한 평면 접이식 종이접기를 공동 디자인하기 위한 AI 파이프라인</title>
-      <link>https://huggingface.co/papers/2606.26299</link>
-      <description>컴퓨터 종이접기 시스템은 AI 기반 최적화 및 미적 평가를 사용하여 자연어에서 주름 패턴을 생성하여 수학적으로 제한된 디자인에서 인간-AI ​​협업을 가능하게 합니다.</description>
-      <pubDate>Fri, 26 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26299">Hugging Face Papers</source>
-      <guid isPermaLink="false">8f90f93736c46793140539df38309491</guid>
-    </item>
-    <item>
-      <title>물리학 질문 장면 그래프: 텍스트-비디오 생성의 물리적 타당성에 대한 세밀한 평가</title>
-      <link>https://huggingface.co/papers/2606.25306</link>
-      <description>비전 언어 모델 기반의 계층적 질문 그래프 프레임워크는 세분화된 위반 감지 및 인간 상관 관계 검증을 통해 비디오 생성 모델의 물리적 법칙 준수 여부를 평가합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25306">Hugging Face Papers</source>
-      <guid isPermaLink="false">e129d363188b7fe2d3b2c628c705f3e1</guid>
-    </item>
-    <item>
-      <title>Thinking Token이 안전에 도움이 되나요?</title>
-      <link>https://huggingface.co/papers/2606.25013</link>
-      <description>연구에 따르면 추론 모델의 안전 결과는 심의가 나타나지만 최종 응답에 실질적으로 영향을 미치지 않는 초기 숨겨진 표현과 현재의 안전 개입을 통해 예측할 수 있는 것으로 나타났습니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25013">Hugging Face Papers</source>
-      <guid isPermaLink="false">07ad957eb29e88035ad084791945ec98</guid>
     </item>
   </channel>
 </rss>
