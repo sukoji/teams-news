@@ -5,9 +5,36 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 18:41:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 21:12:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>IID를 넘어서: 테이블 형식 기반 모델은 실제로 얼마나 일반적입니까?</title>
+      <link>https://huggingface.co/papers/2606.30410</link>
+      <description>테이블 형식 기반 모델은 다양한 데이터 조건에 걸쳐 다양한 성능을 보여 주며, 기존 방법은 여전히 ​​복잡한 대규모 데이터 세트에 대한 새로운 접근 방식보다 성능이 뛰어납니다.</description>
+      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30410">Hugging Face Papers</source>
+      <guid isPermaLink="false">a74cfbff87ac58bbfb3a94b9392b486c</guid>
+    </item>
+    <item>
+      <title>자유형 인터리브 텍스트 이미지 생성을 위한 조명 통합 다중 모드 모델</title>
+      <link>https://huggingface.co/papers/2606.30054</link>
+      <description>ILLUME-X는 향상된 데이터 효율성, 안정적인 훈련 프로세스 및 포괄적인 평가 지표를 통해 텍스트 이미지 생성을 향상시키는 통합 다중 모드 패러다임입니다.</description>
+      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30054">Hugging Face Papers</source>
+      <guid isPermaLink="false">73e24261e3b0ebbe9e9b4753fd85ca63</guid>
+    </item>
+    <item>
+      <title>RaysUp: 기하학 인식 광선 표현을 통한 초경량 범용 기능 업샘플링</title>
+      <link>https://huggingface.co/papers/2606.22749</link>
+      <description>RaysUp은 향상된 효율성과 정확성으로 형상 인식 레이 도메인 기술을 사용하여 고해상도 기능을 재구성하는 경량의 작업 독립적 기능 업샘플링 프레임워크입니다.</description>
+      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.22749">Hugging Face Papers</source>
+      <guid isPermaLink="false">a3de63af0f16ba70a45d962ed0216c22</guid>
+    </item>
     <item>
       <title>비디오-MME-논리: 비디오 시간-논리 추론을 위한 제어된 진단 벤치마크</title>
       <link>https://huggingface.co/papers/2606.27828</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.26015">Hugging Face Papers</source>
       <guid isPermaLink="false">615837990c1128f99dd138abd40a0695</guid>
-    </item>
-    <item>
-      <title>클러스터, 라우팅, 에스컬레이션: 비용 인식 LLM 서비스를 위한 계단식 프레임워크</title>
-      <link>https://huggingface.co/papers/2606.27457</link>
-      <description>클러스터링 및 품질 추정을 기반으로 쿼리를 적절한 모델로 라우팅하여 정확성과 비용의 균형을 맞추는 대규모 언어 모델을 배포하기 위한 계단식 접근 방식입니다.</description>
-      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.27457">Hugging Face Papers</source>
-      <guid isPermaLink="false">70d1ee0e49e911110919ed05e6289cd1</guid>
-    </item>
-    <item>
-      <title>말하는 동안 생각하기: 반응적이고 지능적인 대화 음성 에이전트를 위한 추론 시간 지식 전달</title>
-      <link>https://huggingface.co/papers/2511.07397</link>
-      <description>대화형 채우기를 사용하면 소규모 실시간 모델이 응답성을 유지하면서 지연된 추론 출력을 통합하여 음성 에이전트의 대기 시간과 기능 간의 격차를 해소할 수 있습니다.</description>
-      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2511.07397">Hugging Face Papers</source>
-      <guid isPermaLink="false">b2244551042a9be951025a6e5686173c</guid>
-    </item>
-    <item>
-      <title>접는 방법 배우기: LeHome Challenge 2026에서 상을 받은 솔루션(온라인 1위, 오프라인 2위)</title>
-      <link>https://huggingface.co/papers/2606.27163</link>
-      <description>강화 학습으로 개선된 비전-언어-행동 정책은 양손 의류 접기의 성공 추정 및 이점 계산을 위해 공유 네트워크 예측을 사용하고 다음과 같은 확립된 RL 기술을 사용합니다.</description>
-      <pubDate>Mon, 29 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.27163">Hugging Face Papers</source>
-      <guid isPermaLink="false">a2af1d18c15a5f947f2933726294fa6b</guid>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,18 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 18:41:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 21:12:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Decepticon: 교전 규칙 안에서 실제 공격 체인을 수행하는 자율 레드팀 에이전트 프로젝트</title>
+      <link>https://discuss.pytorch.kr/t/decepticon/10468</link>
+      <description>Decepticon 소개 "AI 해킹 도구"라고 하면 보통 nmap을 한 번 돌리고 리포트를 출력하는 데모를 떠올리기 쉽습니다. Decepticon은 그런 스캐너가 아니라, 정찰(reconnaissance)부터 익스플로잇, 권한 상승, 측면 이동, 명령·제어(C2)까지 실제 공격자가 밟는 공격 체인(kill chain)을 자율적으로 수행하는 레드팀 에이전트입니다.</description>
+      <pubDate>Tue, 30 Jun 2026 20:30:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/decepticon/10468">PyTorch Korea</source>
+      <guid isPermaLink="false">1dc507bab3897238992495d7d253f328</guid>
+    </item>
     <item>
       <title>ELF: 임베딩 공간에 머무는 연속 확산 언어 모델(Continuous Diffusion Language Model)에 대한 연구</title>
       <link>https://discuss.pytorch.kr/t/elf-continuous-diffusion-language-model/10215</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/gn-claude-code-ai/10845">PyTorch Korea</source>
       <guid isPermaLink="false">63b81bbe893b3a6aea8253215847cbb5</guid>
-    </item>
-    <item>
-      <title>atlas-gic: 프롬프트를 가중치로 삼아 스스로 개선하는 멀티 에이전트 트레이딩 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/atlas-gic/10838</link>
-      <description>atlas-gic 소개 대규모 언어 모델을 어떤 작업에 맞춰 개선할 때 보통은 가중치를 다시 학습합니다. atlas-gic(ATLAS)은 이 발상을 뒤집어, 모델 가중치 대신 에이전트의 프롬프트를 조정 대상으로 두고 시장 성과를 기준으로 스스로 개선하는 멀티 에이전트 트레이딩 프레임워크입니다.</description>
-      <pubDate>Tue, 23 Jun 2026 17:30:06 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/atlas-gic/10838">PyTorch Korea</source>
-      <guid isPermaLink="false">7af4d9077b3732fb834db4a402187550</guid>
     </item>
   </channel>
 </rss>
