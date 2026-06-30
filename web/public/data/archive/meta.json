@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-01T00:30:19.899100+09:00",
-  "total": 672,
+  "generated_at": "2026-07-01T02:57:44.297788+09:00",
+  "total": 686,
   "sources": [
     {
       "slug": "huggingface",
       "name": "Hugging Face Papers",
-      "count": 257
+      "count": 265
     },
     {
       "slug": "etnews",
@@ -14,14 +14,14 @@
       "count": 148
     },
     {
+      "slug": "github-trending",
+      "name": "GitHub Trending",
+      "count": 77
+    },
+    {
       "slug": "pytorch-korea",
       "name": "PyTorch Korea",
       "count": 75
-    },
-    {
-      "slug": "github-trending",
-      "name": "GitHub Trending",
-      "count": 71
     },
     {
       "slug": "zdnet-korea",
@@ -53,22 +53,22 @@
     {
       "id": "papers",
       "title": "📄 Papers",
-      "count": 257
+      "count": 265
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "count": 77
     },
     {
       "id": "community",
       "title": "💬 Community",
       "count": 75
-    },
-    {
-      "id": "trending",
-      "title": "🔥 Trending",
-      "count": 71
     }
   ],
   "date_counts": {
-    "2026-07-01": 5,
-    "2026-06-30": 80,
+    "2026-07-01": 11,
+    "2026-06-30": 88,
     "2026-06-29": 66,
     "2026-06-28": 36,
     "2026-06-27": 21,
