@@ -1,53 +1,113 @@
 {
   "schema_version": 1,
-  "date": "2026-06-29",
-  "generated_at": "2026-06-29T09:04:18.259837+09:00",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T09:00:20.003490+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 6,
+  "item_count": 7,
   "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "082c39fd68396d10754452cf44251ebe",
+          "index": 1,
+          "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+          "title_ko": "SingGuard: 동적 추론을 갖춘 정책 적응형 다중 모드 LLM 가드레일",
+          "summary": "SingGuard is a policy-adaptive multimodal guardrail system that evaluates safety in real-time conversations by dynamically applying natural-language rules through fast-to-slow reasoning modes.",
+          "summary_ko": "SingGuard는 빠른 속도에서 느린 속도의 추론 모드를 통해 자연어 규칙을 동적으로 적용하여 실시간 대화에서 안전성을 평가하는 정책 적응형 다중 모드 가드레일 시스템입니다.",
+          "url": "https://huggingface.co/papers/2606.22873",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-06-29T09:00:00+09:00",
+          "popularity": 57,
+          "upvotes": 11,
+          "score": 24.18,
+          "importance_score": 12.18,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "multimodal",
+            "reasoning"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 11
+          }
+        },
+        {
+          "id": "d20c99847a0b2ea096bf68f3ca83a096",
+          "index": 2,
+          "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+          "title_ko": "잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리",
+          "summary": "An axiomatic evaluation framework reveals systematic failures in latent thought representations of LLMs across multiple reasoning tasks, demonstrating that current representations fail to satisfy fundamental functional…",
+          "summary_ko": "공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.",
+          "url": "https://huggingface.co/papers/2606.27378",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-06-29T09:00:00+09:00",
+          "popularity": 103,
+          "upvotes": 36,
+          "score": 23.93,
+          "importance_score": 13.93,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "reasoning"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 36
+          }
+        }
+      ]
+    },
     {
       "id": "news",
       "title": "📰 News",
       "items": [
         {
-          "id": "2d186ab00b529bcc7932b682326cbd0b",
-          "index": 1,
-          "title": "김준기 래블업 CTO “풀스택 AI 인프라로 GPU 한계 넘는다”",
+          "id": "9318293d2c00bca515ec4b8136c9c316",
+          "index": 3,
+          "title": "[6월29일] '챗GPT' 비밀번호를 공유하면 안 되는 이유...\"넷플릭스와는 달라\"",
           "title_ko": null,
-          "summary": "최근 국내 AI 시장에서 안정적이고 효율적인 GPU 공급을 내세운 서비스가 급증하고 있다.",
+          "summary": "AI 챗봇의 대중화로 최근 국내외에서 챗GPT와 클로드, 제미나이 등의 유료 요금제 계정을 공유하는 사례가 늘고 있습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212203",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212217",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-29T02:50:53+09:00",
+          "published_at": "2026-06-30T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 18.7,
-          "importance_score": 17.41,
+          "score": 22.58,
+          "importance_score": 19.16,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "gpt"
           ],
           "engagement": null
         },
         {
-          "id": "96914e39c893d1bae96833d0322c3ee9",
-          "index": 2,
-          "title": "\"아이폰18 프로, 최대 30만원 오른다\"",
+          "id": "a6b45c7096899f1322b63b010dab2bf8",
+          "index": 4,
+          "title": "에스위너스 'AIoT 기반 화주용 운송 품질 리포트' 론칭",
           "title_ko": null,
-          "summary": "[지디넷코리아]애플이 올가을 출시할 예정인 아이폰18 프로 가격이 최대 200달러(약 30만원) 인상될 수 있다는 전망이 나왔다고 IT매체 맥루머스가 최근 보도했다.시장조사기관 IDC는 앞서 애플이 아이폰18 프로 모델은 100달러(약 15만원), 기본 모델은 50달러(약 7만원) 오를 것으로 예상했다. 그런데 이 가격 인상폭이 더 커질 것이란 추가 전망이 나왔다.",
+          "summary": "화물 운송 전 과정을 한 눈에 파악할 수 있는 인공지능사물인터넷(AIoT)서비스가 나왔다. AIoT 컨테이너 관제 솔루션 전문기업 에스위너스(대표 최형림)는 자체 개발한 'AIoT 기반 화주용 운송 품질 리포트' 서비스를 국내 해운선사를 대상으로 공급한다고 30일 밝혔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260629080640",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260629000187",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-29T08:17:36+09:00",
+          "published_at": "2026-06-30T00:34:00+09:00",
           "popularity": 98,
           "upvotes": 0,
-          "score": 19.64,
-          "importance_score": 19.48,
+          "score": 18.04,
+          "importance_score": 16.28,
           "matched_keywords": [
-            "모델"
+            "ai"
           ],
           "engagement": null
         }
@@ -59,7 +119,7 @@
       "items": [
         {
           "id": "e942f3f8c1f0089ec23e7d3c1037b482",
-          "index": 3,
+          "index": 5,
           "title": "benchflow-ai/awesome-evals — A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blog",
           "title_ko": "benchflow-ai/awesome-evals — AI 에이전트 구축 및 평가를 위한 최고의 리소스를 선별한 비BS 라이브러리 — 논문, 블로그",
           "summary": "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow.",
@@ -68,11 +128,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-06-28T18:05:19+09:00",
-          "popularity": 561,
-          "upvotes": 561,
-          "score": 38.04,
-          "importance_score": 25.92,
+          "published_at": "2026-06-29T23:45:40+09:00",
+          "popularity": 586,
+          "upvotes": 586,
+          "score": 39.39,
+          "importance_score": 28.46,
           "matched_keywords": [
             "ai",
             "agent",
@@ -81,14 +141,14 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 561
+            "value": 586
           }
         },
         {
           "id": "e737fc0ece5e2ee6d1535fce50e35703",
-          "index": 4,
+          "index": 6,
           "title": "eli-labz/Godcoder — A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on",
-          "title_ko": "eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있습니다",
+          "title_ko": "eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있어요",
           "summary": "A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on your machine and only ever leaves to the model provider. The AI Agent builds its own Harnes.",
           "summary_ko": "데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 귀하의 코드는 귀하의 컴퓨터에 남아 있으며 모델 제공자에게만 전달됩니다.",
           "url": "https://github.com/eli-labz/Godcoder",
@@ -96,10 +156,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-06-29T03:38:56+09:00",
-          "popularity": 245,
-          "upvotes": 245,
-          "score": 34.14,
-          "importance_score": 27.01,
+          "popularity": 251,
+          "upvotes": 251,
+          "score": 30.35,
+          "importance_score": 19.35,
           "matched_keywords": [
             "ai",
             "llm",
@@ -107,7 +167,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 245
+            "value": 251
           }
         }
       ]
@@ -117,49 +177,27 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "aa62f798c46672fa81e5aab4921b3643",
-          "index": 5,
-          "title": "agentgateway: MCP와 A2A, LLM 트래픽을 하나로 묶는 AI 에이전트용 오픈소스 게이트웨이",
+          "id": "046496ca0c75f56e91713c0bfa74e082",
+          "index": 7,
+          "title": "1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)",
           "title_ko": null,
-          "summary": "agentgateway 소개 AI 에이전트가 실제 업무에 투입되면서, 에이전트는 더 이상 혼자 동작하지 않습니다. 에이전트끼리 작업을 주고받고(agent-to-agent), 내부 시스템이나 도구를 호출하고(agent-to-tool), 외부 LLM에 추론을 요청합니다(agent-to-LLM).",
+          "summary": "prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/agentgateway-mcp-a2a-llm-ai/10957",
+          "url": "https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-06-28T12:30:35+09:00",
-          "popularity": 96,
+          "published_at": "2026-06-29T09:30:20+09:00",
+          "popularity": 93,
           "upvotes": 0,
-          "score": 27.32,
-          "importance_score": 11.03,
+          "score": 26.4,
+          "importance_score": 9.51,
           "matched_keywords": [
             "ai",
             "llm",
-            "agent",
-            "추론",
-            "mcp"
-          ],
-          "engagement": null
-        },
-        {
-          "id": "7a12dc0864d7cbb9309eab804537ce4e",
-          "index": 6,
-          "title": "LLM Wiki Newsroom: 신문사 편집국을 본뜬 멀티에이전트로 지식을 위키로 관리 (Claude Code 기반)",
-          "title_ko": null,
-          "summary": "안드레 카파시의 LLM Wiki 개념( https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f )을 보고 개인적으로 스크랩하고 있는 신문 기사를 중심으로 몇달 간 돌려보고 있습니다. LLM한테 그때그때 모은 문서를 던져 주면 서로 연결된 위키로 정리하고, 문서를 하나 넣어도 관련 페이지들이 모두 같이 갱신 되게 하는 방식입니다.",
-          "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/llm-wiki-newsroom-claude-code/10966",
-          "source": "PyTorch Korea",
-          "section": "💬 Community",
-          "section_id": "community",
-          "published_at": "2026-06-28T19:31:06+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 20.08,
-          "importance_score": 14.25,
-          "matched_keywords": [
-            "llm",
-            "claude"
+            "reinforcement learning",
+            "모델",
+            "training"
           ],
           "engagement": null
         }
@@ -168,50 +206,104 @@
   ],
   "items": [
     {
-      "id": "2d186ab00b529bcc7932b682326cbd0b",
+      "id": "082c39fd68396d10754452cf44251ebe",
       "index": 1,
-      "title": "김준기 래블업 CTO “풀스택 AI 인프라로 GPU 한계 넘는다”",
+      "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+      "title_ko": "SingGuard: 동적 추론을 갖춘 정책 적응형 다중 모드 LLM 가드레일",
+      "summary": "SingGuard is a policy-adaptive multimodal guardrail system that evaluates safety in real-time conversations by dynamically applying natural-language rules through fast-to-slow reasoning modes.",
+      "summary_ko": "SingGuard는 빠른 속도에서 느린 속도의 추론 모드를 통해 자연어 규칙을 동적으로 적용하여 실시간 대화에서 안전성을 평가하는 정책 적응형 다중 모드 가드레일 시스템입니다.",
+      "url": "https://huggingface.co/papers/2606.22873",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-06-29T09:00:00+09:00",
+      "popularity": 57,
+      "upvotes": 11,
+      "score": 24.18,
+      "importance_score": 12.18,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "multimodal",
+        "reasoning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 11
+      }
+    },
+    {
+      "id": "d20c99847a0b2ea096bf68f3ca83a096",
+      "index": 2,
+      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+      "title_ko": "잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리",
+      "summary": "An axiomatic evaluation framework reveals systematic failures in latent thought representations of LLMs across multiple reasoning tasks, demonstrating that current representations fail to satisfy fundamental functional…",
+      "summary_ko": "공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.",
+      "url": "https://huggingface.co/papers/2606.27378",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-06-29T09:00:00+09:00",
+      "popularity": 103,
+      "upvotes": 36,
+      "score": 23.93,
+      "importance_score": 13.93,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "reasoning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 36
+      }
+    },
+    {
+      "id": "9318293d2c00bca515ec4b8136c9c316",
+      "index": 3,
+      "title": "[6월29일] '챗GPT' 비밀번호를 공유하면 안 되는 이유...\"넷플릭스와는 달라\"",
       "title_ko": null,
-      "summary": "최근 국내 AI 시장에서 안정적이고 효율적인 GPU 공급을 내세운 서비스가 급증하고 있다.",
+      "summary": "AI 챗봇의 대중화로 최근 국내외에서 챗GPT와 클로드, 제미나이 등의 유료 요금제 계정을 공유하는 사례가 늘고 있습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212203",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212217",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-06-29T02:50:53+09:00",
+      "published_at": "2026-06-30T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 18.7,
-      "importance_score": 17.41,
+      "score": 22.58,
+      "importance_score": 19.16,
+      "matched_keywords": [
+        "ai",
+        "gpt"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "a6b45c7096899f1322b63b010dab2bf8",
+      "index": 4,
+      "title": "에스위너스 'AIoT 기반 화주용 운송 품질 리포트' 론칭",
+      "title_ko": null,
+      "summary": "화물 운송 전 과정을 한 눈에 파악할 수 있는 인공지능사물인터넷(AIoT)서비스가 나왔다. AIoT 컨테이너 관제 솔루션 전문기업 에스위너스(대표 최형림)는 자체 개발한 'AIoT 기반 화주용 운송 품질 리포트' 서비스를 국내 해운선사를 대상으로 공급한다고 30일 밝혔다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260629000187",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-06-30T00:34:00+09:00",
+      "popularity": 98,
+      "upvotes": 0,
+      "score": 18.04,
+      "importance_score": 16.28,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "96914e39c893d1bae96833d0322c3ee9",
-      "index": 2,
-      "title": "\"아이폰18 프로, 최대 30만원 오른다\"",
-      "title_ko": null,
-      "summary": "[지디넷코리아]애플이 올가을 출시할 예정인 아이폰18 프로 가격이 최대 200달러(약 30만원) 인상될 수 있다는 전망이 나왔다고 IT매체 맥루머스가 최근 보도했다.시장조사기관 IDC는 앞서 애플이 아이폰18 프로 모델은 100달러(약 15만원), 기본 모델은 50달러(약 7만원) 오를 것으로 예상했다. 그런데 이 가격 인상폭이 더 커질 것이란 추가 전망이 나왔다.",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260629080640",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-06-29T08:17:36+09:00",
-      "popularity": 98,
-      "upvotes": 0,
-      "score": 19.64,
-      "importance_score": 19.48,
-      "matched_keywords": [
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
       "id": "e942f3f8c1f0089ec23e7d3c1037b482",
-      "index": 3,
+      "index": 5,
       "title": "benchflow-ai/awesome-evals — A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blog",
       "title_ko": "benchflow-ai/awesome-evals — AI 에이전트 구축 및 평가를 위한 최고의 리소스를 선별한 비BS 라이브러리 — 논문, 블로그",
       "summary": "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow.",
@@ -220,11 +312,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-06-28T18:05:19+09:00",
-      "popularity": 561,
-      "upvotes": 561,
-      "score": 38.04,
-      "importance_score": 25.92,
+      "published_at": "2026-06-29T23:45:40+09:00",
+      "popularity": 586,
+      "upvotes": 586,
+      "score": 39.39,
+      "importance_score": 28.46,
       "matched_keywords": [
         "ai",
         "agent",
@@ -233,14 +325,14 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 561
+        "value": 586
       }
     },
     {
       "id": "e737fc0ece5e2ee6d1535fce50e35703",
-      "index": 4,
+      "index": 6,
       "title": "eli-labz/Godcoder — A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on",
-      "title_ko": "eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있습니다",
+      "title_ko": "eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있어요",
       "summary": "A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on your machine and only ever leaves to the model provider. The AI Agent builds its own Harnes.",
       "summary_ko": "데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 귀하의 코드는 귀하의 컴퓨터에 남아 있으며 모델 제공자에게만 전달됩니다.",
       "url": "https://github.com/eli-labz/Godcoder",
@@ -248,10 +340,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-06-29T03:38:56+09:00",
-      "popularity": 245,
-      "upvotes": 245,
-      "score": 34.14,
-      "importance_score": 27.01,
+      "popularity": 251,
+      "upvotes": 251,
+      "score": 30.35,
+      "importance_score": 19.35,
       "matched_keywords": [
         "ai",
         "llm",
@@ -259,53 +351,31 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 245
+        "value": 251
       }
     },
     {
-      "id": "aa62f798c46672fa81e5aab4921b3643",
-      "index": 5,
-      "title": "agentgateway: MCP와 A2A, LLM 트래픽을 하나로 묶는 AI 에이전트용 오픈소스 게이트웨이",
+      "id": "046496ca0c75f56e91713c0bfa74e082",
+      "index": 7,
+      "title": "1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)",
       "title_ko": null,
-      "summary": "agentgateway 소개 AI 에이전트가 실제 업무에 투입되면서, 에이전트는 더 이상 혼자 동작하지 않습니다. 에이전트끼리 작업을 주고받고(agent-to-agent), 내부 시스템이나 도구를 호출하고(agent-to-tool), 외부 LLM에 추론을 요청합니다(agent-to-LLM).",
+      "summary": "prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/agentgateway-mcp-a2a-llm-ai/10957",
+      "url": "https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-06-28T12:30:35+09:00",
-      "popularity": 96,
+      "published_at": "2026-06-29T09:30:20+09:00",
+      "popularity": 93,
       "upvotes": 0,
-      "score": 27.32,
-      "importance_score": 11.03,
+      "score": 26.4,
+      "importance_score": 9.51,
       "matched_keywords": [
         "ai",
         "llm",
-        "agent",
-        "추론",
-        "mcp"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "7a12dc0864d7cbb9309eab804537ce4e",
-      "index": 6,
-      "title": "LLM Wiki Newsroom: 신문사 편집국을 본뜬 멀티에이전트로 지식을 위키로 관리 (Claude Code 기반)",
-      "title_ko": null,
-      "summary": "안드레 카파시의 LLM Wiki 개념( https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f )을 보고 개인적으로 스크랩하고 있는 신문 기사를 중심으로 몇달 간 돌려보고 있습니다. LLM한테 그때그때 모은 문서를 던져 주면 서로 연결된 위키로 정리하고, 문서를 하나 넣어도 관련 페이지들이 모두 같이 갱신 되게 하는 방식입니다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/llm-wiki-newsroom-claude-code/10966",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-06-28T19:31:06+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 20.08,
-      "importance_score": 14.25,
-      "matched_keywords": [
-        "llm",
-        "claude"
+        "reinforcement learning",
+        "모델",
+        "training"
       ],
       "engagement": null
     }
