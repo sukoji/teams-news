@@ -5,9 +5,27 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 01 Jul 2026 09:03:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 09:07:14 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic, Opus급 성능에 근접한 가장 에이전틱한 Sonnet 모델 Claude Sonnet 5 출시</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-opus-sonnet-claude-sonnet-5/11015</link>
+      <description>Claude Sonnet 5 소개 Anthropic 이 2026년 6월 30일, Sonnet 계열의 최신 모델인 Claude Sonnet 5 를 공개했습니다. Anthropic은 이 모델을 "지금까지 가장 에이전틱(agentic)한 Sonnet"으로 소개합니다. 계획을 세우고, 브라우저와 터미널 같은 도구를 사용하며, 사람의 개입 없이 자율적으로 작업을 끝까지 수행하는 능력이 핵심입니다.</description>
+      <pubDate>Wed, 01 Jul 2026 07:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-opus-sonnet-claude-sonnet-5/11015">PyTorch Korea</source>
+      <guid isPermaLink="false">c233aa12700119e25b9c00bbc4612177</guid>
+    </item>
+    <item>
+      <title>Anthropic, Slack에서 @Claude를 팀원처럼 호출하는 Claude Tag 기능 및 멀티플레이어 에이전트 협업 가이드 공개</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-slack-claude-claude-tag/11009</link>
+      <description>Claude Tag 소개 지금까지 우리가 AI와 일하는 방식은 대부분 싱글 플레이어(Single Player) 경험이었습니다. 한 사람이 하나의 채팅 창을 열어, 한 명의 어시스턴트와 일대일로 대화하며 작업을 끝내는 구조입니다.</description>
+      <pubDate>Wed, 01 Jul 2026 08:31:00 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-slack-claude-claude-tag/11009">PyTorch Korea</source>
+      <guid isPermaLink="false">3bd51ddd0f7c2e6a1f4b022752388915</guid>
+    </item>
     <item>
       <title>BitRobot, 실제 가정의 500시간 휴머노이드 로봇 데이터셋 HIW-500 공개 (feat. Unitree)</title>
       <link>https://discuss.pytorch.kr/t/bitrobot-500-hiw-500-feat-unitree/11010</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cs336/10835">PyTorch Korea</source>
       <guid isPermaLink="false">1b5655f87ca7ffadea68d81faf3b5cdc</guid>
-    </item>
-    <item>
-      <title>PixelRAG: 문서를 텍스트가 아닌 스크린샷으로 검색하는 시각 기반 RAG 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/pixelrag-rag/10870</link>
-      <description>PixelRAG 소개 검색 증강 생성(RAG)의 첫 단계는 보통 문서를 텍스트로 변환하는 일입니다. 웹페이지의 HTML을 파싱하거나 PDF에서 글자를 추출해 텍스트 청크로 쪼갠 뒤 임베딩하는 방식인데, 이 과정에서 표·차트·레이아웃·인포그래픽처럼 글자만으로는 복원되지 않는 시각적 구조 가 사라집니다.</description>
-      <pubDate>Wed, 24 Jun 2026 06:30:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pixelrag-rag/10870">PyTorch Korea</source>
-      <guid isPermaLink="false">e6c115ce3c98e6723126b5aad3cbb061</guid>
-    </item>
-    <item>
-      <title>deepclaude: Claude Code의 에이전트 루프를 DeepSeek 등 더 저렴한 백엔드로 돌리는 도구</title>
-      <link>https://discuss.pytorch.kr/t/deepclaude-claude-code-deepseek/10832</link>
-      <description>deepclaude 소개 deepclaude는 Claude Code의 자율 에이전트 루프를 그대로 쓰면서, 그 뒤에서 실제로 추론하는 모델만 DeepSeek V4 Pro, OpenRouter, 또는 Anthropic 호환 백엔드로 바꿔 주는 도구입니다.</description>
-      <pubDate>Tue, 23 Jun 2026 21:30:22 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/deepclaude-claude-code-deepseek/10832">PyTorch Korea</source>
-      <guid isPermaLink="false">1b9242b5b5f743ecdb6a37370891eb3e</guid>
     </item>
   </channel>
 </rss>
