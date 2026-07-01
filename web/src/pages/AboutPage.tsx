@@ -16,7 +16,7 @@ export function AboutPage() {
           <strong className="text-text-primary">PIAI Teams News</strong>는 포항공대
           인공지능연구원(PIAI)에서 운영하는 AI·테크 뉴스 큐레이션 서비스입니다. GeekNews, AI Times,
           Hugging Face Daily Papers, GitHub Trending, PyTorch Korea, 전자신문 IT, NAVER D2, ZDNet
-          Korea 등 <strong className="text-text-primary">robots.txt를 준수하는</strong>{" "}
+          Korea, Elvis AI Newsletter 등 <strong className="text-text-primary">robots.txt를 준수하는</strong>{" "}
           공개 RSS/API만 사용합니다.
         </p>
       </section>

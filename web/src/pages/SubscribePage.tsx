@@ -7,7 +7,7 @@ const FEEDS = [
   { name: "전체 아카이브", url: FEED_URLS.all, desc: "아카이브 최신 50건 RSS 2.0" },
   { name: "일일 Top 7", url: FEED_URLS.daily, desc: "오늘의 큐레이션 다이제스트 (Teams 카드)" },
   { name: "확장 메타데이터", url: FEED_URLS.full, desc: "점수·섹션·참여 지표 포함 (봇 개발용)" },
-  { name: "📄 Papers", url: FEED_URLS.papers, desc: "Hugging Face Daily Papers" },
+  { name: "📄 Papers", url: FEED_URLS.papers, desc: "Hugging Face Daily Papers, Elvis AI Newsletter" },
   { name: "📰 News", url: FEED_URLS.news, desc: "GeekNews, AI Times, ETNews, NAVER D2, ZDNet" },
   { name: "🔥 Trending", url: FEED_URLS.trending, desc: "GitHub ML/AI 레포" },
   { name: "💬 Community", url: FEED_URLS.community, desc: "PyTorch Korea" },

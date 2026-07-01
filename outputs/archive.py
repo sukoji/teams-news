@@ -27,6 +27,7 @@ SOURCE_SLUGS: dict[str, str] = {
     "전자신문 IT": "etnews",
     "NAVER D2": "naver-d2",
     "ZDNet Korea": "zdnet-korea",
+    "Elvis AI Newsletter": "elvis-newsletter",
 }
 
 SLUG_TO_SOURCE = {slug: name for name, slug in SOURCE_SLUGS.items()}

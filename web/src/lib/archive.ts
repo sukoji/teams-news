@@ -232,6 +232,7 @@ export const SOURCE_SLUGS: Record<string, string> = {
   etnews: "전자신문 IT",
   "naver-d2": "NAVER D2",
   "zdnet-korea": "ZDNet Korea",
+  "elvis-newsletter": "Elvis AI Newsletter",
 };
 
 export const SECTION_LABELS: Record<string, string> = {

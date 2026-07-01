@@ -13,7 +13,7 @@ Teams 웹훅·워크플로 변경 전 참고용 요약입니다.
 | 식별 가능 User-Agent | `PIAI-TeamsNews/1.0 (+https://sukoji.github.io/teams-news/about)` |
 | robots.txt CI 검증 | PR/push 시 [Collection Compliance](.github/workflows/compliance.yml) 워크플로 |
 
-## 소스별 robots.txt (2026-06-25 확인)
+## 소스별 robots.txt (2026-07-01 확인)
 
 | 소스 | robots.txt | 봇이 사용하는 경로 | 비고 |
 |------|------------|-------------------|------|
@@ -25,6 +25,7 @@ Teams 웹훅·워크플로 변경 전 참고용 요약입니다.
 | 전자신문 IT | `Allow: /` | `rss.etnews.com/Section901.xml` | |
 | NAVER D2 | **404** (파일 없음) | `d2.naver.com/d2.atom` | RFC 9309상 전 경로 허용 |
 | ZDNet Korea | 유효한 robots.txt 없음 | `feeds.feedburner.com/zdkorea` | FeedBurner RSS 공개 피드 |
+| Elvis AI Newsletter | `Disallow: /feed/private` only (public `/feed` 허용) | `nlp.elvissaravia.com/feed` | Substack RSS excerpt |
 
 ## 웹훅 변경 시 체크리스트
 

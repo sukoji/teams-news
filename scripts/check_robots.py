@@ -79,6 +79,12 @@ CHECKS: list[PathCheck] = [
         "/zdkorea",
         "https://feeds.feedburner.com/robots.txt",
     ),
+    PathCheck(
+        "Elvis AI Newsletter",
+        "https://nlp.elvissaravia.com",
+        "/feed",
+        "https://nlp.elvissaravia.com/robots.txt",
+    ),
 ]
 
 SKIP_NOTES = [

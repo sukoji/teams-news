@@ -1,4 +1,5 @@
 from collectors.aitimes import AITimesCollector
+from collectors.elvis_newsletter import ElvisNewsletterCollector
 from collectors.etnews import ETNewsCollector
 from collectors.geeknews import GeekNewsCollector
 from collectors.github_trending import GitHubTrendingCollector
@@ -16,4 +17,5 @@ __all__ = [
     "ETNewsCollector",
     "NaverD2Collector",
     "ZDNetKoreaCollector",
+    "ElvisNewsletterCollector",
 ]

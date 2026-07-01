@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 from card_builder import build_teams_payload
 from collectors import (
     AITimesCollector,
+    ElvisNewsletterCollector,
     ETNewsCollector,
     GeekNewsCollector,
     GitHubTrendingCollector,
@@ -49,6 +50,7 @@ COLLECTORS: list[BaseCollector] = [
     ETNewsCollector(),
     NaverD2Collector(),
     ZDNetKoreaCollector(),
+    ElvisNewsletterCollector(),
 ]
 
 

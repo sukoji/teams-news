@@ -57,6 +57,7 @@ KEYWORDS: tuple[str, ...] = (
 )
 
 HF_SOURCE = "Hugging Face Papers"
+ELVIS_NEWSLETTER_SOURCE = "Elvis AI Newsletter"
 GEEKNEWS_SOURCE = "GeekNews"
 AITIMES_SOURCE = "AI Times"
 PYTORCH_KOREA_SOURCE = "PyTorch Korea"
@@ -66,6 +67,7 @@ NAVER_D2_SOURCE = "NAVER D2"
 ZDNET_KOREA_SOURCE = "ZDNet Korea"
 ALL_SOURCES: tuple[str, ...] = (
     HF_SOURCE,
+    ELVIS_NEWSLETTER_SOURCE,
     GITHUB_TRENDING_SOURCE,
     GEEKNEWS_SOURCE,
     AITIMES_SOURCE,
@@ -138,7 +140,7 @@ def _keyword_hits(text: str) -> list[str]:
 
 
 def _keyword_score(item: NewsItem, hits: list[str]) -> float:
-    if item.source == HF_SOURCE:
+    if item.source in {HF_SOURCE, ELVIS_NEWSLETTER_SOURCE}:
         return 4.0 + len(hits) * 2.0
 
     score = len(hits) * 3.0
@@ -162,7 +164,7 @@ def _popularity_score(item: NewsItem) -> float:
         return popularity / 10.0
     if item.source == GITHUB_TRENDING_SOURCE:
         return min(math.log1p(popularity), 7.0) * 3.5
-    if item.source in {ETNEWS_SOURCE, NAVER_D2_SOURCE, ZDNET_KOREA_SOURCE}:
+    if item.source in {ETNEWS_SOURCE, NAVER_D2_SOURCE, ZDNET_KOREA_SOURCE, ELVIS_NEWSLETTER_SOURCE}:
         return popularity / 10.0
     return min(math.log1p(popularity), 5.0)
 
@@ -182,6 +184,8 @@ def score_item(item: NewsItem) -> NewsItem:
 
     if item.source == HF_SOURCE:
         item.matched_keywords = hits or ["AI research"]
+    elif item.source == ELVIS_NEWSLETTER_SOURCE:
+        item.matched_keywords = hits or ["AI newsletter"]
     else:
         item.matched_keywords = hits
 
@@ -198,7 +202,7 @@ def score_item(item: NewsItem) -> NewsItem:
 
 
 def passes_keyword_filter(item: NewsItem) -> bool:
-    if item.source == HF_SOURCE:
+    if item.source in {HF_SOURCE, ELVIS_NEWSLETTER_SOURCE}:
         return True
     return bool(item.matched_keywords)
 

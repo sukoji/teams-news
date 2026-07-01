@@ -58,6 +58,7 @@ export const SOURCE_STYLES: Record<string, { color: string; icon: string }> = {
   GeekNews: { color: "#6366f1", icon: "📰" },
   "AI Times": { color: "#0ea5e9", icon: "📰" },
   "Hugging Face Papers": { color: "#f59e0b", icon: "📄" },
+  "Elvis AI Newsletter": { color: "#ff6719", icon: "📄" },
   "PyTorch Korea": { color: "#ee4c2c", icon: "💬" },
   "GitHub Trending": { color: "#8b5cf6", icon: "🔥" },
   "전자신문 IT": { color: "#10b981", icon: "📰" },

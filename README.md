@@ -1,7 +1,7 @@
 # Teams AI / Tech News Bot
 
 AI 연구원·개발자를 위한 **AI/테크 뉴스 자동 수집 봇 + 웹 다이제스트 + 누적 아카이브**입니다.  
-GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**에서 기사·레포를 **매시간 수집·누적**하고, 키워드 매칭 항목은 **아카이브에 영구 저장**됩니다. 매일 **섹션 균형 Top 7**은 Microsoft Teams 카드·일일 다이제스트로 발행합니다.
+GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending**, **전자신문 IT**, **NAVER D2**, **ZDNet Korea**, **Elvis AI Newsletter**에서 기사·레포를 **매시간 수집·누적**하고, 키워드 매칭 항목은 **아카이브에 영구 저장**됩니다. 매일 **섹션 균형 Top 7**은 Microsoft Teams 카드·일일 다이제스트로 발행합니다.
 
 ## 웹 사이트 & RSS
 
@@ -114,6 +114,7 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 | 전자신문 IT | `https://rss.etnews.com/Section901.xml` | RSS |
 | NAVER D2 | `https://d2.naver.com/d2.atom` | Atom |
 | ZDNet Korea | `https://feeds.feedburner.com/zdkorea` | RSS |
+| Elvis AI Newsletter | `https://nlp.elvissaravia.com/feed` | RSS (Substack) |
 
 ### robots.txt 준수
 
@@ -129,6 +130,7 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 | **전자신문** (`rss.etnews.com`) | `User-agent: *` → `Allow: /` (2026-06-25 확인) | `rss.etnews.com/Section901.xml` | 기사 HTML 스크래핑 — **미사용** |
 | **NAVER D2** (`d2.naver.com`) | robots.txt **404** — RFC 9309상 전 경로 허용 (2026-06-25 확인) | `/d2.atom` (Atom) | — |
 | **ZDNet Korea** (`feeds.feedburner.com`) | 유효 robots.txt 없음 (HTML 응답) | `feeds.feedburner.com/zdkorea` | FeedBurner 공개 RSS |
+| **Elvis AI Newsletter** (`nlp.elvissaravia.com`) | `Disallow: /feed/private` only — public `/feed` 허용 (2026-07-01 확인) | `nlp.elvissaravia.com/feed` (RSS) | Substack excerpt만 사용 |
 
 > **썸네일**: 기사별 썸네일·og:image 수집·표시를 사용하지 않습니다 (`ENABLE_IMAGE_FETCH=false` 기본). 카드는 텍스트·FactSet 중심 레이아웃입니다.
 
@@ -138,7 +140,7 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 
 ### 수집·필터 기준
 
-- **시간**: 최근 24시간 이내 게시물 (HF Papers 48h, NAVER D2·GitHub Trending 7일 완화)
+- **시간**: 최근 24시간 이내 게시물 (HF Papers 48h, NAVER D2·GitHub Trending·Elvis AI Newsletter 7일 완화)
 - **키워드**: AI, LLM, Agent, RAG, Deep Learning, Transformer, 오픈소스 등
 - **선별**: 키워드 점수 + **인기도/중요도** + **최신성** 가중 합산 후, **소스별 최소 1건** 보장하여 상위 **5~7건** (기본 7건, 소스당 최대 3건)
 
@@ -151,7 +153,7 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 | Hugging Face | **upvotes**, **댓글**, **GitHub stars** | Daily Papers API 필드 활용 |
 | PyTorch Korea | RSS **노출 순서** | 앞쪽 게시물일수록 높은 점수 (좋아요·댓글은 RSS 미제공) |
 | GitHub Trending | **GitHub stars** | Search API `stargazers_count`, 5,000 stars 초과 mega-repo 제외 |
-| 전자신문 IT / NAVER D2 / ZDNet Korea | RSS **노출 순서** | 앞쪽 기사일수록 높은 점수 |
+| 전자신문 IT / NAVER D2 / ZDNet Korea / Elvis AI Newsletter | RSS **노출 순서** | 앞쪽 기사일수록 높은 점수 |
 
 최종 점수 = 키워드 관련도 + `IMPORTANCE_WEIGHT` × 인기도 + `RECENCY_WEIGHT` × 최신성(24h 이내). 소스 균형 선별 시 각 소스에서 **가장 높은 점수** 항목을 우선 선택합니다.
 
@@ -314,6 +316,7 @@ npm run build    # dist/ → GitHub Pages 아티팩트
 - **PyTorch Korea**: `/c/news/14.rss`는 robots.txt에서 `Disallow: /c/*.rss` — `/latest.rss` + 카테고리 필터로 대체.
 - **GitHub Trending**: Search API 비인증 rate limit(시간당 ~60회) — 일 1회 cron에 충분. `gh-trending-api.herokuapp.com`은 2026년 기준 404.
 - **NAVER D2**: Atom 피드 갱신 주기가 길어 7일 창으로 수집.
+- **Elvis AI Newsletter**: 주간 발행(Substack)이라 7일 창으로 수집. RSS excerpt만 사용.
 - **번역**: Google Translate 비공식 API — 간헐적 rate limit 가능. 실패 시 영문 폴백.
 
 ## 라이선스
