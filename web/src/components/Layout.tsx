@@ -113,12 +113,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </a>
             </span>
             <a
-              href="https://github.com/jskh-201910840/teams-news"
+              href="https://github.com/sukoji/teams-news"
               className="text-brand no-underline hover:underline"
               target="_blank"
               rel="noreferrer"
             >
-              GitHub — jskh-201910840/teams-news
+              GitHub — sukoji/teams-news
             </a>
             <span className="text-xs">
               JSON: {SITE_BASE}/data/latest.json · {SITE_BASE}/data/feeds.json

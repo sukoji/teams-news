@@ -6,7 +6,7 @@ from collectors.base import NewsItem
 from utils.sections import SOURCE_SECTIONS
 from utils.timezone import KST
 
-NEWS_PAGE_URL = "https://jskh-201910840.github.io/teams-news/"
+NEWS_PAGE_URL = "https://sukoji.github.io/teams-news/"
 
 SOURCE_COLORS: dict[str, str] = {
     "GeekNews": "Accent",

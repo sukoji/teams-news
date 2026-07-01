@@ -47,12 +47,12 @@ export function AboutPage() {
         <p className="mt-4 text-xs text-text-tertiary">
           소스 코드:{" "}
           <a
-            href="https://github.com/jskh-201910840/teams-news"
+            href="https://github.com/sukoji/teams-news"
             className="text-brand no-underline hover:underline"
             target="_blank"
             rel="noreferrer"
           >
-            github.com/jskh-201910840/teams-news
+            github.com/sukoji/teams-news
           </a>
         </p>
       </SectionCard>

@@ -7,14 +7,14 @@ GeekNews, AI Times, Hugging Face Daily Papers, PyTorch Korea, **GitHub Trending*
 
 | 항목 | URL |
 |------|-----|
-| **웹 다이제스트 (오늘 Top 7)** | `https://jskh-201910840.github.io/teams-news/` |
-| **전체 피드 (아카이브)** | `https://jskh-201910840.github.io/teams-news/feed` |
-| **검색** | `https://jskh-201910840.github.io/teams-news/search?q=LLM` |
-| **RSS (아카이브 최신 50)** | `https://jskh-201910840.github.io/teams-news/feed.xml` |
-| **RSS (일일 Top 7)** | `https://jskh-201910840.github.io/teams-news/feed/daily.xml` |
-| **JSON API (다이제스트)** | `https://jskh-201910840.github.io/teams-news/data/latest.json` |
-| **검색 인덱스 JSON** | `https://jskh-201910840.github.io/teams-news/data/archive/search-index.json` |
-| **구독 페이지** | `https://jskh-201910840.github.io/teams-news/subscribe` |
+| **웹 다이제스트 (오늘 Top 7)** | `https://sukoji.github.io/teams-news/` |
+| **전체 피드 (아카이브)** | `https://sukoji.github.io/teams-news/feed` |
+| **검색** | `https://sukoji.github.io/teams-news/search?q=LLM` |
+| **RSS (아카이브 최신 50)** | `https://sukoji.github.io/teams-news/feed.xml` |
+| **RSS (일일 Top 7)** | `https://sukoji.github.io/teams-news/feed/daily.xml` |
+| **JSON API (다이제스트)** | `https://sukoji.github.io/teams-news/data/latest.json` |
+| **검색 인덱스 JSON** | `https://sukoji.github.io/teams-news/data/archive/search-index.json` |
+| **구독 페이지** | `https://sukoji.github.io/teams-news/subscribe` |
 
 섹션별 RSS (아카이브 기준): `/feed/papers.xml` · `/feed/news.xml` · `/feed/trending.xml` · `/feed/community.xml`
 
@@ -132,7 +132,7 @@ Teams 카드용 **큐레이션 Top 7** (섹션 균형). 기존 스키마 유지.
 
 > **썸네일**: 기사별 썸네일·og:image 수집·표시를 사용하지 않습니다 (`ENABLE_IMAGE_FETCH=false` 기본). 카드는 텍스트·FactSet 중심 레이아웃입니다.
 
-**User-Agent**: `PIAI-TeamsNews/1.0 (+https://jskh-201910840.github.io/teams-news/about)` — 모든 HTTP 수집 요청에 사용합니다.
+**User-Agent**: `PIAI-TeamsNews/1.0 (+https://sukoji.github.io/teams-news/about)` — 모든 HTTP 수집 요청에 사용합니다.
 
 **CI 검증**: PR/push 시 [`Collection Compliance`](.github/workflows/compliance.yml) 워크플로가 `python scripts/check_robots.py`를 실행합니다. 웹훅 변경 전 요약은 [`COMPLIANCE.md`](COMPLIANCE.md)를 참고하세요.
 
@@ -297,7 +297,7 @@ npm run build    # dist/ → GitHub Pages 아티팩트
 ### 썸네일 (PIAI) 정책
 
 - 모든 카드 항목에 **포항공대 인공지능연구원(PIAI) 로고**를 80px 썸네일로 표시합니다.
-- 기본 URL: `https://raw.githubusercontent.com/jskh-201910840/teams-news/master/assets/piai-logo.png`
+- 기본 URL: `https://raw.githubusercontent.com/sukoji/teams-news/master/assets/piai-logo.png`
 - 공식 로고 출처: `https://piai.postech.ac.kr/webroot/images/korean/layout/logo-v3.png` (저장소 `assets/piai-logo.png`와 동일)
 - `PIAI_THUMBNAIL_URL`로 HTTPS URL을 재정의할 수 있습니다. URL이 없거나 유효하지 않으면 텍스트-only 레이아웃으로 폴백합니다.
 - **비활성화된 기능**: RSS `<img>`/media 태그, HF paper 썸네일, 기사 og:image 스크래핑 (`ENABLE_IMAGE_FETCH=false` 기본)

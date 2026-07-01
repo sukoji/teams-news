@@ -10,7 +10,7 @@ Teams 웹훅·워크플로 변경 전 참고용 요약입니다.
 | 전체 기사 HTML 스크래핑 | **하지 않음** — RSS/Atom/JSON API만 사용 |
 | 본문 전문 저장·전송 | **하지 않음** — 제목·요약·원문 URL만 |
 | og:image / 썸네일 스크래핑 | **기본 비활성** (`ENABLE_IMAGE_FETCH=false`) |
-| 식별 가능 User-Agent | `PIAI-TeamsNews/1.0 (+https://jskh-201910840.github.io/teams-news/about)` |
+| 식별 가능 User-Agent | `PIAI-TeamsNews/1.0 (+https://sukoji.github.io/teams-news/about)` |
 | robots.txt CI 검증 | PR/push 시 [Collection Compliance](.github/workflows/compliance.yml) 워크플로 |
 
 ## 소스별 robots.txt (2026-06-25 확인)

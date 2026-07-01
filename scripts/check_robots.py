@@ -12,7 +12,7 @@ from urllib.robotparser import RobotFileParser
 import requests
 
 # Keep in sync with collectors.base.BOT_USER_AGENT
-USER_AGENT = "PIAI-TeamsNews/1.0 (+https://jskh-201910840.github.io/teams-news/about)"
+USER_AGENT = "PIAI-TeamsNews/1.0 (+https://sukoji.github.io/teams-news/about)"
 TIMEOUT = 20
 
 

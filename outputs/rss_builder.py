@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_DIR = ROOT / "web" / "public"
 FEEDS_DIR = PUBLIC_DIR / "feed"
 
-SITE_URL = "https://jskh-201910840.github.io/teams-news"
+SITE_URL = "https://sukoji.github.io/teams-news"
 SITE_TITLE = "PIAI Teams News"
 SITE_DESCRIPTION = (
     "Curated AI papers, tech news, trending repos, and community posts — "

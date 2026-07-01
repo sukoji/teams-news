@@ -3,8 +3,8 @@ import { useEffect } from "react";
 const SITE = "PIAI Teams News";
 const DEFAULT_DESC =
   "PIAI Teams News — curated AI papers, tech news, trending repos, and community posts with Korean summaries.";
-const OG_IMAGE = "https://jskh-201910840.github.io/teams-news/og-image.png?v=2";
-const SITE_URL = "https://jskh-201910840.github.io/teams-news/";
+const OG_IMAGE = "https://sukoji.github.io/teams-news/og-image.png?v=2";
+const SITE_URL = "https://sukoji.github.io/teams-news/";
 
 interface PageMeta {
   title?: string;

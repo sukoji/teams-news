@@ -9,7 +9,7 @@ from typing import Optional
 logger = logging.getLogger(__name__)
 
 BOT_USER_AGENT = (
-    "PIAI-TeamsNews/1.0 (+https://jskh-201910840.github.io/teams-news/about)"
+    "PIAI-TeamsNews/1.0 (+https://sukoji.github.io/teams-news/about)"
 )
 
 DEFAULT_HEADERS = {
