@@ -5,9 +5,18 @@
     <link>https://jskh-201910840.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 01 Jul 2026 09:07:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 14:23:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM Semantic Router가 공개한, 모델 API 안에서 협업하는 마이크로 에이전트 (feat. Looper)</title>
+      <link>https://discuss.pytorch.kr/t/vllm-semantic-router-api-feat-looper/11005</link>
+      <description>vLLM Semantic Router의 마이크로 에이전트 소개 지금 업계의 시선은 대부분 "다음 프론티어 모델은 무엇인가"에 쏠려 있습니다. 그러나 vLLM 팀이 공개한 이번 글은 더 흥미로운 층위가 모델 앞단 에 있다고 말합니다. 바로 라우터(router) 입니다.</description>
+      <pubDate>Wed, 01 Jul 2026 12:30:24 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-semantic-router-api-feat-looper/11005">PyTorch Korea</source>
+      <guid isPermaLink="false">0b297c4298ba3fdc75f98150f4498238</guid>
+    </item>
     <item>
       <title>Anthropic, Opus급 성능에 근접한 가장 에이전틱한 Sonnet 모델 Claude Sonnet 5 출시</title>
       <link>https://discuss.pytorch.kr/t/anthropic-opus-sonnet-claude-sonnet-5/11015</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/awesome-autoresearch/10826">PyTorch Korea</source>
       <guid isPermaLink="false">76f52f1a5b742ea3bec2db26c1a9b8fb</guid>
-    </item>
-    <item>
-      <title>밑바닥부터 언어 모델을 구현하는 스탠퍼드의 CS336 수업의 첫번째 과제에 대한 공식 저장소</title>
-      <link>https://discuss.pytorch.kr/t/cs336/10835</link>
-      <description>assignment1-basics 소개 대규모 언어 모델을 다룰 때 많은 학습자가 고수준 라이브러리의 추상화 뒤에서 내부 동작을 건너뛰게 됩니다. 스탠퍼드의 CS336 Language Modeling From Scratch 강의는 이 추상화를 걷어내고, 토크나이저부터 트랜스포머 언어 모델과 학습 루프까지 직접 구현하도록 설계된 과목입니다.</description>
-      <pubDate>Wed, 24 Jun 2026 08:30:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cs336/10835">PyTorch Korea</source>
-      <guid isPermaLink="false">1b5655f87ca7ffadea68d81faf3b5cdc</guid>
     </item>
   </channel>
 </rss>
