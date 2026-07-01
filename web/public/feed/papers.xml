@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 01 Jul 2026 14:23:25 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 18:51:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GEAR: 이미지 합성을 위한 안내된 엔드투엔드 자동 회귀</title>
+      <link>https://huggingface.co/papers/2606.32039</link>
+      <description>GEAR는 표현 정렬을 사용하여 벡터 양자화된 토크나이저와 자동회귀 생성기를 공동으로 엔드투엔드 훈련하고 수렴을 향상시키는 이중 판독 접근 방식을 통해 비미분성 문제를 극복합니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.32039">Hugging Face Papers</source>
+      <guid isPermaLink="false">f98172985b1361dd80b43e29f6a2ec28</guid>
+    </item>
+    <item>
+      <title>다중 블록 확산 언어 모델</title>
+      <link>https://huggingface.co/papers/2606.29215</link>
+      <description>다중 블록 확산 언어 모델은 향상된 훈련 전략과 최적화된 디코딩 알고리즘을 통해 단일 블록 확산을 동시 블록 디코딩으로 확장합니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.29215">Hugging Face Papers</source>
+      <guid isPermaLink="false">2d92fc8ca4d8bebe92f66161b70e8c6d</guid>
+    </item>
+    <item>
+      <title>🤖 AI Agents Weekly: GPT-5.6, Ornith-1.0, Codex Inside OpenAI, Claude Tag, Qwen-AgentWorld, AI SDK 7 등</title>
+      <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-56-ornith-10</link>
+      <description>GPT-5.6, Ornith-1.0, Codex Inside OpenAI, Claude Tag, Qwen-AgentWorld, AI SDK 7 등</description>
+      <pubDate>Sun, 28 Jun 2026 00:01:56 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-56-ornith-10">Elvis AI Newsletter</source>
+      <guid isPermaLink="false">dc689259d001fa9c1a1562f041c93b49</guid>
+    </item>
+    <item>
+      <title>메타인지 피드백을 통한 강화 학습은 LLM에서 충실한 불확실성 표현을 이끌어냅니다.</title>
+      <link>https://huggingface.co/papers/2606.32032</link>
+      <description>메타인지 피드백과 메타인지 데이터 선택을 통한 강화 학습은 성능과 불확실성에 대한 정확한 자체 평가를 가능하게 하여 대규모 언어 모델 보정을 개선합니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.32032">Hugging Face Papers</source>
+      <guid isPermaLink="false">1e755b30808640e7c3a37aeafd5de802</guid>
+    </item>
+    <item>
+      <title>RedVox: 언어 간 음성 모델의 안전성 및 공정성 격차</title>
+      <link>https://huggingface.co/papers/2606.26968</link>
+      <description>음성 모델에 대한 다국어 안전 및 공정성 벤치마크는 언어 및 자연 조건 전반에 걸쳐 지속적인 취약성을 드러냅니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.26968">Hugging Face Papers</source>
+      <guid isPermaLink="false">9994f937ec4ffaab8bfd8a3dfd14d44c</guid>
+    </item>
+    <item>
+      <title>DataEvolver: 텍스트가 풍부한 이미지 생성을 위한 자체 진화 다중 에이전트 데이터 구성</title>
+      <link>https://huggingface.co/papers/2606.31537</link>
+      <description>DataEvolver는 거부된 샘플의 피드백을 활용하여 데이터 품질을 반복적으로 향상함으로써 텍스트가 풍부한 이미지 생성을 개선하는 자체 진화하는 다중 에이전트 프레임워크입니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31537">Hugging Face Papers</source>
+      <guid isPermaLink="false">58a1644d69222618c9c1ec6cc479f11f</guid>
+    </item>
+    <item>
+      <title>MuSViT: 악보 표현을 위한 기초 비전 모델</title>
+      <link>https://huggingface.co/papers/2606.31811</link>
+      <description>MuSViT는 수백만 개의 악보 페이지에 대해 사전 훈련된 비전 변환기 기반 기반 모델로, 선형 프로빙과 기호 감지 작업 모두에서 악보 인식 및 기호 감지 작업에서 탁월한 성능을 보여줍니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31811">Hugging Face Papers</source>
+      <guid isPermaLink="false">666b0958ebc00155651ebcdae1fc2487</guid>
+    </item>
+    <item>
+      <title>작은 두뇌, 큰 업적: 컴팩트 언어 모델 탐색</title>
+      <link>https://huggingface.co/papers/2606.30062</link>
+      <description>소규모 언어 모델은 GPU 가속 없이 장치에서 직접 검색 증강 생성 작업을 효과적으로 수행할 수 있습니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30062">Hugging Face Papers</source>
+      <guid isPermaLink="false">2a33d8a23f1d14cd839dfcabd613e266</guid>
+    </item>
+    <item>
+      <title>🥇금주의 최고 AI 논문</title>
+      <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ef2</link>
+      <description>금주의 상위 AI 논문(6월 21일~28일)</description>
+      <pubDate>Mon, 29 Jun 2026 00:44:22 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ef2">Elvis AI Newsletter</source>
+      <guid isPermaLink="false">1670bde0a39461b588ddffda60dfba96</guid>
+    </item>
+    <item>
+      <title>SkillHone: 지속적인 의사결정 기록을 통한 지속적인 상담원 기술 발전을 위한 도구</title>
+      <link>https://huggingface.co/papers/2606.08671</link>
+      <description>SkillHone은 지속적인 의사 결정 기록을 유지하고 연구 및 도구 기반 분석 작업 전반에 걸쳐 성능 향상을 위한 연습 피드백을 통합하여 상담원 기술의 지속적인 발전을 가능하게 합니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.08671">Hugging Face Papers</source>
+      <guid isPermaLink="false">27d2f7a7b056194980b827138e3163ee</guid>
+    </item>
+    <item>
+      <title>프리미티브가 아닌 객체로서의 장면: 제시되지 않은 뷰에서 인스턴스 구조화된 3D 토큰화</title>
+      <link>https://huggingface.co/papers/2606.29513</link>
+      <description>피드포워드 프레임워크는 3D 장면을 다중 뷰 이미지에서 인스턴스 구조의 토큰 그룹으로 분해하여 3D 주석 없이 객체 수준에서 직접 재구성, 분할 및 조작을 가능하게 합니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.29513">Hugging Face Papers</source>
+      <guid isPermaLink="false">542958d7450dc066e8cd40c1157d24e5</guid>
+    </item>
     <item>
       <title>Dockerless: 코딩 에이전트를 위한 환경 없는 프로그램 검증자</title>
       <link>https://huggingface.co/papers/2606.28436</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.29445">Hugging Face Papers</source>
       <guid isPermaLink="false">f2583df121af257be0a4f31c0e8dcc90</guid>
-    </item>
-    <item>
-      <title>시각적 세계 모델링 평가의 롱테일 제거</title>
-      <link>https://huggingface.co/papers/2606.24256</link>
-      <description>현재의 시각적 세계 모델은 표준 벤치마크에서 현실성을 달성했음에도 불구하고 드물고 불규칙한 시나리오로 인해 어려움을 겪고 있는 일반적인 물리적 상호 작용을 넘어서는 제한된 일반화를 보여줍니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24256">Hugging Face Papers</source>
-      <guid isPermaLink="false">fe7f3192e8d9b121fa3e9d51c95e0f1d</guid>
-    </item>
-    <item>
-      <title>암시적 걷기: 신경 장면 표현을 통한 대화형 세계 탐색</title>
-      <link>https://huggingface.co/papers/2606.30045</link>
-      <description>NeuWorld는 장면을 컴팩트한 신경 암시적 상태로 표현하고 궤적 조건 렌더링을 위한 확산 변환기와 함께 변환기 VAE를 사용하여 효율적인 대화형 비디오 생성을 가능하게 합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30045">Hugging Face Papers</source>
-      <guid isPermaLink="false">9698fd7a50fdf464b9600d5b6f30f2cb</guid>
-    </item>
-    <item>
-      <title>AsyncOPD: 정책에 따른 증류는 얼마나 오래될 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2606.24143</link>
-      <description>비동기식 정책 기반 증류는 학습자 업데이트에서 롤아웃 생성을 분리하여 학습 후 대규모 언어 모델의 학습 병목 현상을 해결합니다. 하지만 오래된 정책 데이터에 문제가 발생합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24143">Hugging Face Papers</source>
-      <guid isPermaLink="false">e95bd095433a772cd8bc1ee618a078ec</guid>
-    </item>
-    <item>
-      <title>ReasoningLens: 대규모 추론 모델을 위한 계층적 시각화 및 진단 감사</title>
-      <link>https://huggingface.co/papers/2606.23404</link>
-      <description>ReasoningLens는 대규모 추론 모델의 복잡한 추론 체인에 대한 계층적 시각화 및 진단 감사를 제공하는 오픈 소스 프레임워크로, 다음을 통해 구조화된 분석 및 오류 감지를 가능하게 합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.23404">Hugging Face Papers</source>
-      <guid isPermaLink="false">492b8d1e752ef8078c16fcb7f9d08348</guid>
-    </item>
-    <item>
-      <title>LiveEdit: 실시간 확산 기반 스트리밍 비디오 편집을 향하여</title>
-      <link>https://huggingface.co/papers/2606.26740</link>
-      <description>새로운 스트리밍 비디오 편집 프레임워크는 3단계 증류 파이프라인과 AR 기반 마스크 캐시를 통해 안정적인 장수평 보존 및 실시간 응답성을 갖춘 인과적인 프레임별 편집을 가능하게 합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26740">Hugging Face Papers</source>
-      <guid isPermaLink="false">b5a7283d4febc7f3f0d2ec0c77b105ba</guid>
-    </item>
-    <item>
-      <title>TACO: 에이전트 도구 사용을 위한 도구 강화 신용 최적화</title>
-      <link>https://huggingface.co/papers/2606.30251</link>
-      <description>TACO(Tool-Augmented Credit Optimization)는 이중 이점 채널을 통해 유용하거나 중복되거나 오해의 소지가 있는 코드 작업을 구별하여 다중 모드 에이전트 성능을 향상시킵니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30251">Hugging Face Papers</source>
-      <guid isPermaLink="false">4ae1fcb243eae7b1a282239ef91984ca</guid>
-    </item>
-    <item>
-      <title>Nemotron-Labs-Diffusion-Image: 고해상도 이미지 합성을 위한 마스크된 이산 확산의 발전</title>
-      <link>https://huggingface.co/papers/2606.29814</link>
-      <description>새로운 메커니즘과 최적화를 통해 토큰 개선 및 훈련 효율성의 한계를 해결하는 텍스트-이미지 합성을 위한 마스킹된 이산 확산 모델입니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29814">Hugging Face Papers</source>
-      <guid isPermaLink="false">4346bf1dbb6c3fc72a645e3cce6355db</guid>
-    </item>
-    <item>
-      <title>PolicyGuard: LLM 에이전트의 정책 준수를 위한 대화 기반 하위 에이전트 검증기</title>
-      <link>https://huggingface.co/papers/2606.29225</link>
-      <description>POLICYGUARD는 다중 턴 상호작용 전반에 걸쳐 상황별 추론과 대화별 피드백을 제공하여 LLM 에이전트 정책 준수를 향상시키는 하위 에이전트 검증 도구입니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29225">Hugging Face Papers</source>
-      <guid isPermaLink="false">108f69dd108480fac8d615cf5d7f2487</guid>
-    </item>
-    <item>
-      <title>GUICrafter: 주석이 없는 대규모 스크린샷을 활용하는 약한 감독 GUI 에이전트</title>
-      <link>https://huggingface.co/papers/2606.29705</link>
-      <description>GUICrafter는 주석이 없는 스크린샷과 시각적 기반 및 강화 학습 보정을 위한 2단계 커리큘럼 학습 프레임워크를 사용하는 약한 지도 방식을 통해 GUI 에이전트 데이터 문제를 해결합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29705">Hugging Face Papers</source>
-      <guid isPermaLink="false">8fe992be327c46da8fe7c32b825764a8</guid>
-    </item>
-    <item>
-      <title>ReFreeKV: 임계값 없는 KV 캐시 압축을 향하여</title>
-      <link>https://huggingface.co/papers/2502.16886</link>
-      <description>ReFreeKV는 다양한 환경에서 전체 캐시 성능을 유지하면서 압축 예산을 적응적으로 할당하는 임계값 없는 접근 방식을 도입하여 임계값 종속 KV 캐시 정리의 한계를 해결합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2502.16886">Hugging Face Papers</source>
-      <guid isPermaLink="false">337b6a2c14c4920d8257c6a57e63c6b1</guid>
-    </item>
-    <item>
-      <title>오르카: 세상은 당신의 마음 속에 있다</title>
-      <link>https://huggingface.co/papers/2606.30534</link>
-      <description>Orca는 다중 모드 데이터를 사용한 다음 상태 예측 모델링을 통해 통합된 세계 잠재 공간을 구축하고 전문화된 기준선에 비해 다운스트림 작업에서 우수한 성능을 보여줍니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30534">Hugging Face Papers</source>
-      <guid isPermaLink="false">e6be5c46d8628804bdc0c861618e4486</guid>
     </item>
   </channel>
 </rss>
