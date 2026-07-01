@@ -1,65 +1,63 @@
 {
   "schema_version": 1,
-  "date": "2026-06-30",
-  "generated_at": "2026-06-30T09:00:20.003490+09:00",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T09:03:11.699528+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 7,
+  "item_count": 6,
   "sections": [
     {
       "id": "papers",
       "title": "📄 Papers",
       "items": [
         {
-          "id": "082c39fd68396d10754452cf44251ebe",
+          "id": "c0bcbfb8e38eab77a77d229fdcb75248",
           "index": 1,
-          "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
-          "title_ko": "SingGuard: 동적 추론을 갖춘 정책 적응형 다중 모드 LLM 가드레일",
-          "summary": "SingGuard is a policy-adaptive multimodal guardrail system that evaluates safety in real-time conversations by dynamically applying natural-language rules through fast-to-slow reasoning modes.",
-          "summary_ko": "SingGuard는 빠른 속도에서 느린 속도의 추론 모드를 통해 자연어 규칙을 동적으로 적용하여 실시간 대화에서 안전성을 평가하는 정책 적응형 다중 모드 가드레일 시스템입니다.",
-          "url": "https://huggingface.co/papers/2606.22873",
+          "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+          "title_ko": "매개변수가 아닌 지평선 확장: 35B 에이전트로 수조 매개변수 성능 도달",
+          "summary": "Agents-A1, a 35B Mixture-of-Experts Agentic Model, achieves trillion-parameter-level performance through long-horizon trajectory scaling and heterogeneous agent ability scaling via a three-stage training approach involv…",
+          "summary_ko": "35B 전문가 혼합 에이전트 모델인 Agents-A1은 3단계 교육 접근 방식을 통해 장거리 궤적 확장 및 이종 에이전트 능력 확장을 통해 1000조 매개변수 수준의 성능을 달성합니다.",
+          "url": "https://huggingface.co/papers/2606.30616",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-06-29T09:00:00+09:00",
-          "popularity": 57,
-          "upvotes": 11,
-          "score": 24.18,
-          "importance_score": 12.18,
+          "published_at": "2026-06-30T09:00:00+09:00",
+          "popularity": 212,
+          "upvotes": 67,
+          "score": 26.08,
+          "importance_score": 16.08,
           "matched_keywords": [
             "ai",
-            "llm",
-            "multimodal",
-            "reasoning"
+            "agent",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 11
+            "value": 67
           }
         },
         {
-          "id": "d20c99847a0b2ea096bf68f3ca83a096",
+          "id": "b3eec78989dbfc67bf68aa290efa7d00",
           "index": 2,
-          "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
-          "title_ko": "잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리",
-          "summary": "An axiomatic evaluation framework reveals systematic failures in latent thought representations of LLMs across multiple reasoning tasks, demonstrating that current representations fail to satisfy fundamental functional…",
-          "summary_ko": "공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.",
-          "url": "https://huggingface.co/papers/2606.27378",
+          "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
+          "title_ko": "대리인적 기권: 대리인은 조치를 취하는 대신 언제 중지해야 하는지 알고 있습니까?",
+          "summary": "Agentic abstention involves determining when an AI agent should cease interaction under uncertainty, requiring sequential decision-making across multiple environments and task types.",
+          "summary_ko": "에이전트 기권에는 AI 에이전트가 불확실성 하에서 상호 작용을 중단해야 하는 시기를 결정하는 것이 포함되며, 여러 환경과 작업 유형에 걸쳐 순차적인 의사 결정이 필요합니다.",
+          "url": "https://huggingface.co/papers/2606.28733",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-06-29T09:00:00+09:00",
-          "popularity": 103,
-          "upvotes": 36,
-          "score": 23.93,
-          "importance_score": 13.93,
+          "published_at": "2026-06-30T09:00:00+09:00",
+          "popularity": 280,
+          "upvotes": 120,
+          "score": 24.92,
+          "importance_score": 16.92,
           "matched_keywords": [
             "ai",
-            "llm",
-            "reasoning"
+            "agent"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 36
+            "value": 120
           }
         }
       ]
@@ -69,106 +67,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "9318293d2c00bca515ec4b8136c9c316",
+          "id": "cea5fe2ac01dabc2bccedeb5dc97539e",
           "index": 3,
-          "title": "[6월29일] '챗GPT' 비밀번호를 공유하면 안 되는 이유...\"넷플릭스와는 달라\"",
+          "title": "[6월30일] 프로토타입 90개 만든 AI...이제 인간 경쟁력은 '선택'",
           "title_ko": null,
-          "summary": "AI 챗봇의 대중화로 최근 국내외에서 챗GPT와 클로드, 제미나이 등의 유료 요금제 계정을 공유하는 사례가 늘고 있습니다.",
+          "summary": "AI가 코드를 작성하는 시대를 넘어, 최근에는 AI가 만든 코드를 AI가 검토하고 수정하는 \\'AI 루프\\'까지 등장하고 있습니다. 인간은 직접 구현보다 전체 과정을 감독하는 역할로 이동하고 있습니다.그리고 실제로 AI 루프를 가동하면 어떤 현상이 일어나는지에 대한 이야기가 등장했습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212217",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212264",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-06-30T07:00:00+09:00",
+          "published_at": "2026-07-01T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.58,
-          "importance_score": 19.16,
-          "matched_keywords": [
-            "ai",
-            "gpt"
-          ],
-          "engagement": null
-        },
-        {
-          "id": "a6b45c7096899f1322b63b010dab2bf8",
-          "index": 4,
-          "title": "에스위너스 'AIoT 기반 화주용 운송 품질 리포트' 론칭",
-          "title_ko": null,
-          "summary": "화물 운송 전 과정을 한 눈에 파악할 수 있는 인공지능사물인터넷(AIoT)서비스가 나왔다. AIoT 컨테이너 관제 솔루션 전문기업 에스위너스(대표 최형림)는 자체 개발한 'AIoT 기반 화주용 운송 품질 리포트' 서비스를 국내 해운선사를 대상으로 공급한다고 30일 밝혔다.",
-          "summary_ko": null,
-          "url": "https://www.etnews.com/20260629000187",
-          "source": "전자신문 IT",
-          "section": "📰 News",
-          "section_id": "news",
-          "published_at": "2026-06-30T00:34:00+09:00",
-          "popularity": 98,
-          "upvotes": 0,
-          "score": 18.04,
-          "importance_score": 16.28,
+          "score": 19.57,
+          "importance_score": 19.14,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
-        }
-      ]
-    },
-    {
-      "id": "trending",
-      "title": "🔥 Trending",
-      "items": [
-        {
-          "id": "e942f3f8c1f0089ec23e7d3c1037b482",
-          "index": 5,
-          "title": "benchflow-ai/awesome-evals — A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blog",
-          "title_ko": "benchflow-ai/awesome-evals — AI 에이전트 구축 및 평가를 위한 최고의 리소스를 선별한 비BS 라이브러리 — 논문, 블로그",
-          "summary": "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow.",
-          "summary_ko": "논문, 블로그, 강연, 도구, 벤치마크 등 AI 에이전트 구축 및 평가를 위한 최고의 리소스로 구성된 선별된 비BS 라이브러리입니다. BenchFlow에서 관리합니다.",
-          "url": "https://github.com/benchflow-ai/awesome-evals",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-06-29T23:45:40+09:00",
-          "popularity": 586,
-          "upvotes": 586,
-          "score": 39.39,
-          "importance_score": 28.46,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "benchmark",
-            "paper"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 586
-          }
         },
         {
-          "id": "e737fc0ece5e2ee6d1535fce50e35703",
-          "index": 6,
-          "title": "eli-labz/Godcoder — A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on",
-          "title_ko": "eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있어요",
-          "summary": "A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on your machine and only ever leaves to the model provider. The AI Agent builds its own Harnes.",
-          "summary_ko": "데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 귀하의 코드는 귀하의 컴퓨터에 남아 있으며 모델 제공자에게만 전달됩니다.",
-          "url": "https://github.com/eli-labz/Godcoder",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-06-29T03:38:56+09:00",
-          "popularity": 251,
-          "upvotes": 251,
-          "score": 30.35,
-          "importance_score": 19.35,
+          "id": "656380f79e5f57c1a27e36432d336b10",
+          "index": 4,
+          "title": "AI 에이전트 회사 차리기: 설립부터 어디서든 동기화까지",
+          "title_ko": null,
+          "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 AI 에이전트로 나만의 회사를 차리고, 어디서 접속하든 같은 구성원이 같은 목표로 일하게 만든 이야기입니다. 발표 대상 AI 에이전트 활용에 관심있는 분들 목차 PROLOGUE — Claude Code, 매일 쓰는데 왜 매번 처음인가요?",
+          "summary_ko": null,
+          "url": "https://d2.naver.com/helloworld/3897377",
+          "source": "NAVER D2",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-06-30T20:00:48+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 20.28,
+          "importance_score": 14.57,
           "matched_keywords": [
             "ai",
-            "llm",
-            "agent"
+            "claude"
           ],
-          "engagement": {
-            "label": "Stars",
-            "value": 251
-          }
+          "engagement": null
         }
       ]
     },
@@ -177,27 +116,47 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "046496ca0c75f56e91713c0bfa74e082",
-          "index": 7,
-          "title": "1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)",
+          "id": "c233aa12700119e25b9c00bbc4612177",
+          "index": 5,
+          "title": "Anthropic, Opus급 성능에 근접한 가장 에이전틱한 Sonnet 모델 Claude Sonnet 5 출시",
           "title_ko": null,
-          "summary": "prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.",
+          "summary": "Claude Sonnet 5 소개 Anthropic 이 2026년 6월 30일, Sonnet 계열의 최신 모델인 Claude Sonnet 5 를 공개했습니다. Anthropic은 이 모델을 \"지금까지 가장 에이전틱(agentic)한 Sonnet\"으로 소개합니다. 계획을 세우고, 브라우저와 터미널 같은 도구를 사용하며, 사람의 개입 없이 자율적으로 작업을 끝까지 수행하는 능력이 핵심입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939",
+          "url": "https://discuss.pytorch.kr/t/anthropic-opus-sonnet-claude-sonnet-5/11015",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-06-29T09:30:20+09:00",
-          "popularity": 93,
+          "published_at": "2026-07-01T07:30:47+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 26.4,
-          "importance_score": 9.51,
+          "score": 25.58,
+          "importance_score": 19.26,
+          "matched_keywords": [
+            "agent",
+            "claude",
+            "모델"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "3bd51ddd0f7c2e6a1f4b022752388915",
+          "index": 6,
+          "title": "Anthropic, Slack에서 @Claude를 팀원처럼 호출하는 Claude Tag 기능 및 멀티플레이어 에이전트 협업 가이드 공개",
+          "title_ko": null,
+          "summary": "Claude Tag 소개 지금까지 우리가 AI와 일하는 방식은 대부분 싱글 플레이어(Single Player) 경험이었습니다. 한 사람이 하나의 채팅 창을 열어, 한 명의 어시스턴트와 일대일로 대화하며 작업을 끝내는 구조입니다.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/anthropic-slack-claude-claude-tag/11009",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-07-01T08:31:00+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 22.89,
+          "importance_score": 19.78,
           "matched_keywords": [
             "ai",
-            "llm",
-            "reinforcement learning",
-            "모델",
-            "training"
+            "claude"
           ],
           "engagement": null
         }
@@ -206,176 +165,141 @@
   ],
   "items": [
     {
-      "id": "082c39fd68396d10754452cf44251ebe",
+      "id": "c0bcbfb8e38eab77a77d229fdcb75248",
       "index": 1,
-      "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
-      "title_ko": "SingGuard: 동적 추론을 갖춘 정책 적응형 다중 모드 LLM 가드레일",
-      "summary": "SingGuard is a policy-adaptive multimodal guardrail system that evaluates safety in real-time conversations by dynamically applying natural-language rules through fast-to-slow reasoning modes.",
-      "summary_ko": "SingGuard는 빠른 속도에서 느린 속도의 추론 모드를 통해 자연어 규칙을 동적으로 적용하여 실시간 대화에서 안전성을 평가하는 정책 적응형 다중 모드 가드레일 시스템입니다.",
-      "url": "https://huggingface.co/papers/2606.22873",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "title_ko": "매개변수가 아닌 지평선 확장: 35B 에이전트로 수조 매개변수 성능 도달",
+      "summary": "Agents-A1, a 35B Mixture-of-Experts Agentic Model, achieves trillion-parameter-level performance through long-horizon trajectory scaling and heterogeneous agent ability scaling via a three-stage training approach involv…",
+      "summary_ko": "35B 전문가 혼합 에이전트 모델인 Agents-A1은 3단계 교육 접근 방식을 통해 장거리 궤적 확장 및 이종 에이전트 능력 확장을 통해 1000조 매개변수 수준의 성능을 달성합니다.",
+      "url": "https://huggingface.co/papers/2606.30616",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-06-29T09:00:00+09:00",
-      "popularity": 57,
-      "upvotes": 11,
-      "score": 24.18,
-      "importance_score": 12.18,
+      "published_at": "2026-06-30T09:00:00+09:00",
+      "popularity": 212,
+      "upvotes": 67,
+      "score": 26.08,
+      "importance_score": 16.08,
       "matched_keywords": [
         "ai",
-        "llm",
-        "multimodal",
-        "reasoning"
+        "agent",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 11
+        "value": 67
       }
     },
     {
-      "id": "d20c99847a0b2ea096bf68f3ca83a096",
+      "id": "b3eec78989dbfc67bf68aa290efa7d00",
       "index": 2,
-      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
-      "title_ko": "잠재 사고의 형식화: LLM의 사고 표현에 대한 4가지 공리",
-      "summary": "An axiomatic evaluation framework reveals systematic failures in latent thought representations of LLMs across multiple reasoning tasks, demonstrating that current representations fail to satisfy fundamental functional…",
-      "summary_ko": "공리적 평가 프레임워크는 여러 추론 작업에 걸쳐 LLM의 잠재적 사고 표현의 체계적 실패를 드러내고, 현재 표현이 기본적인 기능을 충족하지 못함을 보여줍니다.",
-      "url": "https://huggingface.co/papers/2606.27378",
+      "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
+      "title_ko": "대리인적 기권: 대리인은 조치를 취하는 대신 언제 중지해야 하는지 알고 있습니까?",
+      "summary": "Agentic abstention involves determining when an AI agent should cease interaction under uncertainty, requiring sequential decision-making across multiple environments and task types.",
+      "summary_ko": "에이전트 기권에는 AI 에이전트가 불확실성 하에서 상호 작용을 중단해야 하는 시기를 결정하는 것이 포함되며, 여러 환경과 작업 유형에 걸쳐 순차적인 의사 결정이 필요합니다.",
+      "url": "https://huggingface.co/papers/2606.28733",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-06-29T09:00:00+09:00",
-      "popularity": 103,
-      "upvotes": 36,
-      "score": 23.93,
-      "importance_score": 13.93,
+      "published_at": "2026-06-30T09:00:00+09:00",
+      "popularity": 280,
+      "upvotes": 120,
+      "score": 24.92,
+      "importance_score": 16.92,
       "matched_keywords": [
         "ai",
-        "llm",
-        "reasoning"
+        "agent"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 36
+        "value": 120
       }
     },
     {
-      "id": "9318293d2c00bca515ec4b8136c9c316",
+      "id": "cea5fe2ac01dabc2bccedeb5dc97539e",
       "index": 3,
-      "title": "[6월29일] '챗GPT' 비밀번호를 공유하면 안 되는 이유...\"넷플릭스와는 달라\"",
+      "title": "[6월30일] 프로토타입 90개 만든 AI...이제 인간 경쟁력은 '선택'",
       "title_ko": null,
-      "summary": "AI 챗봇의 대중화로 최근 국내외에서 챗GPT와 클로드, 제미나이 등의 유료 요금제 계정을 공유하는 사례가 늘고 있습니다.",
+      "summary": "AI가 코드를 작성하는 시대를 넘어, 최근에는 AI가 만든 코드를 AI가 검토하고 수정하는 \\'AI 루프\\'까지 등장하고 있습니다. 인간은 직접 구현보다 전체 과정을 감독하는 역할로 이동하고 있습니다.그리고 실제로 AI 루프를 가동하면 어떤 현상이 일어나는지에 대한 이야기가 등장했습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212217",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212264",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-06-30T07:00:00+09:00",
+      "published_at": "2026-07-01T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.58,
-      "importance_score": 19.16,
-      "matched_keywords": [
-        "ai",
-        "gpt"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "a6b45c7096899f1322b63b010dab2bf8",
-      "index": 4,
-      "title": "에스위너스 'AIoT 기반 화주용 운송 품질 리포트' 론칭",
-      "title_ko": null,
-      "summary": "화물 운송 전 과정을 한 눈에 파악할 수 있는 인공지능사물인터넷(AIoT)서비스가 나왔다. AIoT 컨테이너 관제 솔루션 전문기업 에스위너스(대표 최형림)는 자체 개발한 'AIoT 기반 화주용 운송 품질 리포트' 서비스를 국내 해운선사를 대상으로 공급한다고 30일 밝혔다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20260629000187",
-      "source": "전자신문 IT",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-06-30T00:34:00+09:00",
-      "popularity": 98,
-      "upvotes": 0,
-      "score": 18.04,
-      "importance_score": 16.28,
+      "score": 19.57,
+      "importance_score": 19.14,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "e942f3f8c1f0089ec23e7d3c1037b482",
-      "index": 5,
-      "title": "benchflow-ai/awesome-evals — A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blog",
-      "title_ko": "benchflow-ai/awesome-evals — AI 에이전트 구축 및 평가를 위한 최고의 리소스를 선별한 비BS 라이브러리 — 논문, 블로그",
-      "summary": "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow.",
-      "summary_ko": "논문, 블로그, 강연, 도구, 벤치마크 등 AI 에이전트 구축 및 평가를 위한 최고의 리소스로 구성된 선별된 비BS 라이브러리입니다. BenchFlow에서 관리합니다.",
-      "url": "https://github.com/benchflow-ai/awesome-evals",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-06-29T23:45:40+09:00",
-      "popularity": 586,
-      "upvotes": 586,
-      "score": 39.39,
-      "importance_score": 28.46,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "benchmark",
-        "paper"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 586
-      }
-    },
-    {
-      "id": "e737fc0ece5e2ee6d1535fce50e35703",
-      "index": 6,
-      "title": "eli-labz/Godcoder — A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on",
-      "title_ko": "eli-labz/Godcoder — 데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 당신의 코드는 계속 켜져 있어요",
-      "summary": "A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on your machine and only ever leaves to the model provider. The AI Agent builds its own Harnes.",
-      "summary_ko": "데스크탑을 위한 로컬 우선 오픈 소스 코딩 에이전트입니다. 자신의 LLM 키를 가져오세요. 귀하의 코드는 귀하의 컴퓨터에 남아 있으며 모델 제공자에게만 전달됩니다.",
-      "url": "https://github.com/eli-labz/Godcoder",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-06-29T03:38:56+09:00",
-      "popularity": 251,
-      "upvotes": 251,
-      "score": 30.35,
-      "importance_score": 19.35,
-      "matched_keywords": [
-        "ai",
-        "llm",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 251
-      }
-    },
-    {
-      "id": "046496ca0c75f56e91713c0bfa74e082",
-      "index": 7,
-      "title": "1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)",
+      "id": "656380f79e5f57c1a27e36432d336b10",
+      "index": 4,
+      "title": "AI 에이전트 회사 차리기: 설립부터 어디서든 동기화까지",
       "title_ko": null,
-      "summary": "prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 AI 에이전트로 나만의 회사를 차리고, 어디서 접속하든 같은 구성원이 같은 목표로 일하게 만든 이야기입니다. 발표 대상 AI 에이전트 활용에 관심있는 분들 목차 PROLOGUE — Claude Code, 매일 쓰는데 왜 매번 처음인가요?",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939",
+      "url": "https://d2.naver.com/helloworld/3897377",
+      "source": "NAVER D2",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-06-30T20:00:48+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 20.28,
+      "importance_score": 14.57,
+      "matched_keywords": [
+        "ai",
+        "claude"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "c233aa12700119e25b9c00bbc4612177",
+      "index": 5,
+      "title": "Anthropic, Opus급 성능에 근접한 가장 에이전틱한 Sonnet 모델 Claude Sonnet 5 출시",
+      "title_ko": null,
+      "summary": "Claude Sonnet 5 소개 Anthropic 이 2026년 6월 30일, Sonnet 계열의 최신 모델인 Claude Sonnet 5 를 공개했습니다. Anthropic은 이 모델을 \"지금까지 가장 에이전틱(agentic)한 Sonnet\"으로 소개합니다. 계획을 세우고, 브라우저와 터미널 같은 도구를 사용하며, 사람의 개입 없이 자율적으로 작업을 끝까지 수행하는 능력이 핵심입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/anthropic-opus-sonnet-claude-sonnet-5/11015",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-06-29T09:30:20+09:00",
-      "popularity": 93,
+      "published_at": "2026-07-01T07:30:47+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 26.4,
-      "importance_score": 9.51,
+      "score": 25.58,
+      "importance_score": 19.26,
+      "matched_keywords": [
+        "agent",
+        "claude",
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "3bd51ddd0f7c2e6a1f4b022752388915",
+      "index": 6,
+      "title": "Anthropic, Slack에서 @Claude를 팀원처럼 호출하는 Claude Tag 기능 및 멀티플레이어 에이전트 협업 가이드 공개",
+      "title_ko": null,
+      "summary": "Claude Tag 소개 지금까지 우리가 AI와 일하는 방식은 대부분 싱글 플레이어(Single Player) 경험이었습니다. 한 사람이 하나의 채팅 창을 열어, 한 명의 어시스턴트와 일대일로 대화하며 작업을 끝내는 구조입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/anthropic-slack-claude-claude-tag/11009",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-07-01T08:31:00+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 22.89,
+      "importance_score": 19.78,
       "matched_keywords": [
         "ai",
-        "llm",
-        "reinforcement learning",
-        "모델",
-        "training"
+        "claude"
       ],
       "engagement": null
     }
