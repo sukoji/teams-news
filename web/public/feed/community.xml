@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 02 Jul 2026 05:07:25 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 07:19:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenAI, 사설 MCP 서버를 공개하지 않고 연결하는 Secure MCP Tunnel 공개</title>
+      <link>https://discuss.pytorch.kr/t/openai-mcp-secure-mcp-tunnel/11016</link>
+      <description>Secure MCP Tunnel 소개 Model Context Protocol(MCP) 이 등장하면서 AI 시스템이 외부 도구와 데이터에 연결되는 일이 한결 쉬워졌습니다. 그런데 정작 팀이 가장 중요하게 여기는 MCP 서버는, 가장 외부에 노출하고 싶지 않은 서버인 경우가 많습니다.</description>
+      <pubDate>Thu, 02 Jul 2026 06:30:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-mcp-secure-mcp-tunnel/11016">PyTorch Korea</source>
+      <guid isPermaLink="false">55494aa7acad724a22339607d4b5dd26</guid>
+    </item>
     <item>
       <title>eve: 파일시스템을 저작 인터페이스로 삼는 AI 에이전트 프레임워크 프로젝트 (feat. Vercel)</title>
       <link>https://discuss.pytorch.kr/t/eve-ai-feat-vercel/10993</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/awesome-harness-engineering-ai/10556">PyTorch Korea</source>
       <guid isPermaLink="false">9def413cd16eeeb295f464713df1cb8a</guid>
-    </item>
-    <item>
-      <title>LLM Graph Builder: 비정형 데이터를 LLM으로 Neo4j 지식 그래프로 바꾸는 오픈소스 도구</title>
-      <link>https://discuss.pytorch.kr/t/llm-graph-builder-llm-neo4j/10812</link>
-      <description>LLM Graph Builder 소개 PDF, 문서, 유튜브 영상, 웹 페이지처럼 구조가 없는 데이터는 그 안에 풍부한 정보를 담고 있어도 기계가 곧바로 질의하기 어렵습니다. 어떤 개체(entity)가 등장하고 그 개체들이 서로 어떻게 연결되는지는 사람이 읽어야 알 수 있고, 단순 키워드 검색이나 벡터 검색만으로는 문서 사이를 잇는 관계를 따라가기 어렵습니다.</description>
-      <pubDate>Wed, 24 Jun 2026 14:30:48 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llm-graph-builder-llm-neo4j/10812">PyTorch Korea</source>
-      <guid isPermaLink="false">b2be7d03b28fad99e66689d88773269d</guid>
     </item>
   </channel>
 </rss>
