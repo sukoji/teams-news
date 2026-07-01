@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 01 Jul 2026 21:37:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:45:00 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MOPD: LLM 사후 교육의 역량 통합을 위한 다중 교사 온 정책 증류</title>
+      <link>https://huggingface.co/papers/2606.30406</link>
+      <description>MOPD(Multi-teacher On-Policy Distillation)는 전문 강화 학습 교사와 정책 기반 증류를 통해 대규모 언어 모델에서 여러 도메인 기능을 효율적으로 통합할 수 있게 해줍니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30406">Hugging Face Papers</source>
+      <guid isPermaLink="false">900f306214433da19b0e44bb9fbceace</guid>
+    </item>
+    <item>
+      <title>재료 과학의 시각적 기록 잠금 해제: 과학 문헌의 대규모 다중 모드 데이터 세트</title>
+      <link>https://huggingface.co/papers/2606.29667</link>
+      <description>복합적인 과학적 수치를 개별 패널로 처리하고 대규모 언어 모델을 사용하여 구조화된 주석을 생성하는 MatMMExtract라는 새로운 파이프라인이 도입되었습니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.29667">Hugging Face Papers</source>
+      <guid isPermaLink="false">a04720fb5519a12ce5bd495ee69114b4</guid>
+    </item>
+    <item>
+      <title>어휘 합의: 근거 있는 단어 학습과 인공 에이전트의 공유 의미</title>
+      <link>https://huggingface.co/papers/2606.22207</link>
+      <description>시각적 임베딩과 어휘 학습자를 사용한 기반 단어 학습 실험은 의미론적 관련성보다는 지각적 거리가 이름 지정 및 기억의 뚜렷한 패턴을 통해 획득 성공을 결정한다는 것을 보여줍니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.22207">Hugging Face Papers</source>
+      <guid isPermaLink="false">60493d8a2b0d2d19795fa6d91df6c194</guid>
+    </item>
+    <item>
+      <title>Goku: 지침 기반 비디오 편집을 위한 백만 규모의 범용 데이터 세트 및 벤치마크</title>
+      <link>https://huggingface.co/papers/2606.30599</link>
+      <description>고급 데이터 합성 및 네트워크 아키텍처를 통해 다중 작업 및 구조적 조작을 지원하는 대규모 비디오 편집 데이터 세트 및 모델이 도입되었습니다.</description>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30599">Hugging Face Papers</source>
+      <guid isPermaLink="false">7807857fd746ed6cff33ae51ffc8fcca</guid>
+    </item>
     <item>
       <title>LLM 에이전트의 절차적 메모리 관리: 제어, 적응 및 평가</title>
       <link>https://huggingface.co/papers/2606.23127</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.25363">Hugging Face Papers</source>
       <guid isPermaLink="false">fe65901dc17843d5337cbc00406056b6</guid>
-    </item>
-    <item>
-      <title>대리인적 기권: 대리인은 조치를 취하는 대신 언제 중지해야 하는지 알고 있습니까?</title>
-      <link>https://huggingface.co/papers/2606.28733</link>
-      <description>에이전트 기권에는 AI 에이전트가 불확실성 하에서 상호 작용을 중단해야 하는 시기를 결정하는 것이 포함되며, 여러 환경과 작업 유형에 걸쳐 순차적인 의사 결정이 필요합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.28733">Hugging Face Papers</source>
-      <guid isPermaLink="false">b3eec78989dbfc67bf68aa290efa7d00</guid>
-    </item>
-    <item>
-      <title>액션에서 월드 모델링으로 이전 가능한 역학 사전 학습</title>
-      <link>https://huggingface.co/papers/2606.29501</link>
-      <description>행동 조건이 적용된 세계 모델링은 대규모 조작 데이터에 대한 사전 훈련을 통해 로봇 학습을 위한 이전 가능한 역학 사전을 가능하게 하며 시뮬레이터 기반 정책 평가와 비디오 행동 예측을 모두 지원합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29501">Hugging Face Papers</source>
-      <guid isPermaLink="false">ed91c7f67f00d3a0a910a5853ba2e63f</guid>
-    </item>
-    <item>
-      <title>신약 발견을 넘어: 나노기술 분자 최적화(NMO) 벤치마크</title>
-      <link>https://huggingface.co/papers/2606.30170</link>
-      <description>NMO(나노기술 분자 최적화) 벤치마크는 새로운 생성 모델 접근법이 필요한 물리학 기반 분자 설계 과제를 소개하고, 약물 발견에 초점을 맞춘 측정 기준을 넘어 과학 연구를 가능하게 합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30170">Hugging Face Papers</source>
-      <guid isPermaLink="false">d1342393580ded1585988dbc97aa1598</guid>
-    </item>
-    <item>
-      <title>FLISP를 사용한 대규모 터널 공대지 협업: 고속 LiDAR-IMU 동기화 경로 플래너</title>
-      <link>https://huggingface.co/papers/2606.25393</link>
-      <description>수력 발전 터널 검사는 인프라 무결성에 매우 중요하지만 수동 방법으로는 여전히 비효율적이고 위험합니다.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25393">Hugging Face Papers</source>
-      <guid isPermaLink="false">8ac4bc26cab147ef7abdb9f65732ae76</guid>
     </item>
   </channel>
 </rss>
