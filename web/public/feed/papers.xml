@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 02 Jul 2026 13:59:39 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 17:20:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>비대칭 상호변동학습을 통한 다중모달 연속추론</title>
+      <link>https://huggingface.co/papers/2607.00461</link>
+      <description>비대칭 상호변동학습(Asymmetric Mutual Variational Learning)은 양방향 보정을 사용하여 답변 누출을 방지하고 잠재 공간 안정성을 향상함으로써 다중 모달 추론에서 열차 추론 불일치를 해결합니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00461">Hugging Face Papers</source>
+      <guid isPermaLink="false">d1c0d23dc9cd74bc8f0ddea770715d97</guid>
+    </item>
+    <item>
+      <title>MemSyco-Bench: 에이전트 메모리의 사교성 벤치마킹</title>
+      <link>https://huggingface.co/papers/2607.01071</link>
+      <description>메모리는 LLM 기반 에이전트에서 중요한 역할을 하지만 검색된 메모리는 에이전트가 사실적 정확성을 희생하면서 사용자와 과도하게 정렬되는 아첨 문제를 일으킬 수 있으므로 다음을 평가하는 새로운 평가 벤치마크가 필요합니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01071">Hugging Face Papers</source>
+      <guid isPermaLink="false">c0e8d34077d2fa515595403034dd2379</guid>
+    </item>
+    <item>
+      <title>PerceptionRubrics: 다중 모달 평가를 인간의 인식으로 보정</title>
+      <link>https://huggingface.co/papers/2606.28322</link>
+      <description>PerceptionRubrics는 원자성 감사 및 게이트 채점 메커니즘을 통해 벤치마크 점수와 실제 성능 간의 격차를 식별하는 루브릭 기반 평가 프레임워크를 제공합니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28322">Hugging Face Papers</source>
+      <guid isPermaLink="false">efa6a289980f17b04caeedb5da4c4266</guid>
+    </item>
+    <item>
+      <title>ELDR: PD 분리 MoE 서비스를 위한 전문가 지역 인식 디코드 라우팅</title>
+      <link>https://huggingface.co/papers/2607.00466</link>
+      <description>ELDR은 전문가 활성화를 예측하고 그에 따라 요청을 라우팅하여 성능을 향상시키는 사전 채우기-디코드 분리된 전문가 혼합 서비스를 위한 전문가 위치 인식 디코드 라우터입니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00466">Hugging Face Papers</source>
+      <guid isPermaLink="false">2df4cc9a724ce6bcdb2086bbe847b584</guid>
+    </item>
+    <item>
+      <title>Seed2.0 모델 카드: 현실 세계의 복잡성을 위한 인텔리전스 프론티어를 향하여</title>
+      <link>https://huggingface.co/papers/2607.00248</link>
+      <description>Seed2.0은 강력한 평가를 통해 추론, 시각적 이해 및 검색 기능을 향상시키면서 롱테일 지식과 과제에 따른 복잡한 지침을 다루면서 복잡한 실제 작업을 해결합니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00248">Hugging Face Papers</source>
+      <guid isPermaLink="false">28f28b3bfd06499c23e2fabc98d1721a</guid>
+    </item>
+    <item>
+      <title>역계획으로서의 개인화: 구조적 노이즈 제거를 통한 에이전트적 슬라이드 생성을 위한 잠재 설계 의도 학습</title>
+      <link>https://huggingface.co/papers/2607.00407</link>
+      <description>페이지 수준 슬라이드 개인화는 문제를 역계획으로 공식화하고 다중 에이전트 강화 학습 접근 방식을 사용하여 특별한 요구 사항 없이 설계 의도를 학습하는 새로운 프레임워크를 통해 해결됩니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00407">Hugging Face Papers</source>
+      <guid isPermaLink="false">84e0aab988f56b9434e8a79837d839f5</guid>
+    </item>
+    <item>
+      <title>ASPIRE: 로봇 공학을 위한 에이전트/기술 발견</title>
+      <link>https://huggingface.co/papers/2607.00272</link>
+      <description>ASPIRE는 반복 탐색을 통해 로봇 제어 프로그램을 자율적으로 개발하고 개선하는 지속적인 학습 시스템으로, 조작 및 가사 분야에서 탁월한 성능과 제로샷 일반화를 달성합니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00272">Hugging Face Papers</source>
+      <guid isPermaLink="false">7b710e8bc6e443cb931b44847a317a31</guid>
+    </item>
+    <item>
+      <title>NoPA: 비모수적 온라인 3D 장면 그래프 생성</title>
+      <link>https://huggingface.co/papers/2607.00529</link>
+      <description>NoPA는 커널 밀도 추정 및 부분을 통해 계산 효율성을 유지하면서 기하학적 세부 사항을 유지하는 실시간 3D 장면 그래프 생성을 위한 비모수적 분포 기반 접근 방식을 도입합니다.</description>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00529">Hugging Face Papers</source>
+      <guid isPermaLink="false">cf371816a49777af4c462ca46b0f7062</guid>
+    </item>
     <item>
       <title>CausalMix: 언어 모델 훈련을 위한 인과 추론으로서의 데이터 혼합</title>
       <link>https://huggingface.co/papers/2607.01104</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.30968">Hugging Face Papers</source>
       <guid isPermaLink="false">1223a0ccafbab9cba2b3b2a80ed46263</guid>
-    </item>
-    <item>
-      <title>Xiaomi-GUI-0 기술 보고서</title>
-      <link>https://huggingface.co/papers/2606.31410</link>
-      <description>실제 장치 환경에서 훈련된 기본 다중 모드 GUI 에이전트는 기존 벤치마크 기반 접근 방식에 비해 뛰어난 성능과 안정성을 보여줍니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31410">Hugging Face Papers</source>
-      <guid isPermaLink="false">55e1103d4e5ccb48d02155ae34ddfa76</guid>
-    </item>
-    <item>
-      <title>DOPD: 이중 정책 증류</title>
-      <link>https://huggingface.co/papers/2606.30626</link>
-      <description>DOPD는 장점 격차와 확률을 기반으로 교사와 학생 정책 간의 토큰 수준 감독을 동적으로 라우팅하여 정책 기반 증류의 특권 환상을 해결하고 능력 이전을 개선합니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30626">Hugging Face Papers</source>
-      <guid isPermaLink="false">046264c30506cdc032806f6cc17a7077</guid>
-    </item>
-    <item>
-      <title>진화 미세 조정: 371개 최적화 작업 전반에 걸쳐 발견하는 방법 학습</title>
-      <link>https://huggingface.co/papers/2606.29082</link>
-      <description>진화적인 미세 조정을 통해 대규모 언어 모델은 검색 궤적을 통해 학습하고 수학적 추측 및 최적화에 대한 향상된 성능을 보여줌으로써 교차 작업 문제 해결 기능을 개발할 수 있습니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29082">Hugging Face Papers</source>
-      <guid isPermaLink="false">6df7df006b530ba02402548b215a84ad</guid>
-    </item>
-    <item>
-      <title>PolyFlow: 아티스트 스타일 메시 생성을 위한 흐름 매칭을 포함하는 연속 토폴로지</title>
-      <link>https://huggingface.co/papers/2606.30673</link>
-      <description>PolyFlow는 토폴로지 임베더를 사용하여 연속 메시 표현을 도입하고 병렬 메시 생성을 위해 Transformer와 흐름 일치를 적용하여 비교보다 더 빠른 추론과 정밀한 해상도 제어를 달성합니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30673">Hugging Face Papers</source>
-      <guid isPermaLink="false">bdf21a3bd62c6dcd88638b7654f8e7f0</guid>
-    </item>
-    <item>
-      <title>BrainJanus: 뇌, 시각, 언어 전반에 걸친 이해와 생성을 위한 통합 모델</title>
-      <link>https://huggingface.co/papers/2606.30319</link>
-      <description>BrainJanus는 공유 Omni 공간을 통해 뇌, 시각 및 언어를 통합한 최초의 통합 뇌 모델을 나타내며 토큰화된 표현을 통해 신경 활동과 감각 자극 간의 양방향 매핑을 가능하게 합니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30319">Hugging Face Papers</source>
-      <guid isPermaLink="false">8b6149cbe6964e28d468096e4b568ee6</guid>
-    </item>
-    <item>
-      <title>LUMOS: 접근성 기반 AI 에이전트를 위한 시맨틱 운영 체제 계층</title>
-      <link>https://huggingface.co/papers/2606.30697</link>
-      <description>LUMOS는 운영 체제 메타데이터를 기계가 읽을 수 있는 형식으로 변환하는 의미론적 상호 작용 계층을 제공하여 AI 에이전트가 기존의 시각적인 방식보다 컴퓨터 인터페이스와 더 효율적으로 상호 작용할 수 있도록 합니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30697">Hugging Face Papers</source>
-      <guid isPermaLink="false">9e2b7a8b6c231e6474feb6bda74613cf</guid>
-    </item>
-    <item>
-      <title>MemLearner: 비디오 세계 모델에 대한 컨텍스트 메모리 쿼리 방법 학습</title>
-      <link>https://huggingface.co/papers/2606.31734</link>
-      <description>MemLearner는 쿼리 토큰과 함께 학습 기반 적응형 컨텍스트 쿼리를 사용하여 폐색 및 동적 객체가 있는 긴 비디오 시퀀스에서 장면 일관성과 메모리를 향상함으로써 비디오 세계 모델을 개선합니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31734">Hugging Face Papers</source>
-      <guid isPermaLink="false">239e34625dd7ead22622bab00c577350</guid>
-    </item>
-    <item>
-      <title>AVTok: 전체적인 오디오-비디오 생성을 위한 1D 통합 토큰화</title>
-      <link>https://huggingface.co/papers/2606.30811</link>
-      <description>AVTok은 공유 인코더-디코더 및 모달별 쿼리와 함께 듀얼 스트림 변환기 아키텍처를 사용하여 컴팩트한 1차원 잠재 표현을 생성하는 오디오-비디오 생성을 위한 통합 토크나이저입니다.</description>
-      <pubDate>Wed, 01 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30811">Hugging Face Papers</source>
-      <guid isPermaLink="false">e0b3dbde11f47d2da125069522c96ca6</guid>
     </item>
   </channel>
 </rss>
