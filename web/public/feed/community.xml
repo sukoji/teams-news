@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 02 Jul 2026 17:20:04 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 20:35:45 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Epicure: 식재료 임베딩의 숨은 기하학과 궁합 탐색, 화학 vs 레시피 맥락의 세 자매 모델</title>
+      <link>https://discuss.pytorch.kr/t/epicure-vs/10453</link>
+      <description>Epicure 소개 요리를 하다 보면 누구나 한 번쯤 "이 재료에 뭘 곁들이지?" 하는 순간을 마주합니다. 셰프가 미소(miso) 를 손에 들면 자연스럽게 미림, 다시, 참기름으로 손이 가고, 올리브유(olive oil) 를 들면 바질, 토마토, 프로슈토를 떠올립니다. 이런 직관은 수많은 레시피 속에 녹아 있는 지식이자, 오랜 시간 요리하며 몸에 밴 감각입니다.</description>
+      <pubDate>Thu, 02 Jul 2026 18:30:07 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/epicure-vs/10453">PyTorch Korea</source>
+      <guid isPermaLink="false">2bc21f0db50e860266b7c46080947467</guid>
+    </item>
     <item>
       <title>[GN⁺] Atlassian의 DESIGN.md 공개 - 이식 가능한 디자인 컨텍스트를 실전 테스트하며 얻은 교훈</title>
       <link>https://discuss.pytorch.kr/t/gn-atlassian-design-md/11019</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/agentic-stack/10829">PyTorch Korea</source>
       <guid isPermaLink="false">157454d243ca81155b7f4f0f87a58733</guid>
-    </item>
-    <item>
-      <title>TileKernels: DeepSeek AI가 공개한, LLM 연산을 위한 고성능 TileLang 기반 GPU 커널 라이브러리</title>
-      <link>https://discuss.pytorch.kr/t/tilekernels-deepseek-ai-llm-tilelang-gpu/9878</link>
-      <description>TileKernels 소개 현대 대규모 언어 모델(LLM)의 학습과 추론에서 GPU 커널 최적화는 연산 효율을 좌우하는 핵심 요소입니다. 특히 Mixture of Experts(MoE) 아키텍처가 널리 쓰이면서 게이팅(Gating), 전문가 라우팅(Expert Routing), 양자화(Quantization) 등 다양한 연산 커널의 하드웨어 수준 최적화 필요성이 높아졌습니다.</description>
-      <pubDate>Wed, 24 Jun 2026 20:30:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/tilekernels-deepseek-ai-llm-tilelang-gpu/9878">PyTorch Korea</source>
-      <guid isPermaLink="false">2b15696a42466297db9e53783673c625</guid>
     </item>
   </channel>
 </rss>
