@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 03 Jul 2026 17:10:57 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 20:35:20 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AGVBench: 정맥 인식을 위한 데이터 증강의 신뢰성 중심 벤치마크</title>
+      <link>https://huggingface.co/papers/2607.02271</link>
+      <description>연구에서는 여러 데이터 세트 및 아키텍처에서 정맥 인식을 위한 30가지 증강 전략을 평가하여 정확성과 적대적 보안 간의 불일치를 밝히고 데이터 세트별 효율성을 강조합니다.</description>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02271">Hugging Face Papers</source>
+      <guid isPermaLink="false">1bb00ec118a2c5fae3ca92a5fbd447c9</guid>
+    </item>
     <item>
       <title>Breaking Failure Cascades: 의료 다중모달 추론을 위한 단계 인식 강화 학습</title>
       <link>https://huggingface.co/papers/2606.31825</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.20997">Hugging Face Papers</source>
       <guid isPermaLink="false">84990556f2c367a64a5bbf02dc0da42b</guid>
-    </item>
-    <item>
-      <title>LLM이 부주의하게 테이블을 읽을 때: 데이터 참조 오류 측정 및 줄이기</title>
-      <link>https://huggingface.co/papers/2606.32029</link>
-      <description>대규모 언어 모델은 테이블을 처리할 때 데이터 참조 오류를 나타냅니다. 이는 비판 기반 필터링 및 거부 샘플링을 통해 완화할 수 있으며 경량 4B 매개변수 모델은 높은 탐지율을 달성합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.32029">Hugging Face Papers</source>
-      <guid isPermaLink="false">43bc9d100c528d571f80c15faf0c570d</guid>
     </item>
   </channel>
 </rss>
