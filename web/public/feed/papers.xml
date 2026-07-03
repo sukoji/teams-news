@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 03 Jul 2026 13:44:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 17:10:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Breaking Failure Cascades: 의료 다중모달 추론을 위한 단계 인식 강화 학습</title>
+      <link>https://huggingface.co/papers/2606.31825</link>
+      <description>단계적 프로세스 보상을 통해 계단식 오류를 해결함으로써 임상 이미지 추론을 개선하기 위해 MRPO라는 강화 학습 접근 방식이 도입되어 기존 방법보다 우수한 성능을 보여줍니다.</description>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31825">Hugging Face Papers</source>
+      <guid isPermaLink="false">6b0a396fa4ed229b7dfd910cc463ac97</guid>
+    </item>
+    <item>
+      <title>EvoPolicyGym: 대화형 환경에서 자율적 정책 진화 평가</title>
+      <link>https://huggingface.co/papers/2607.02440</link>
+      <description>자율 에이전트는 고정된 예산 내에서 반복 편집을 통해 정책 개선을 평가하며, 성공적인 정책 발전에는 작업별 메커니즘과 피드백이 제한된 개선이 모두 필요하다는 것을 보여줍니다.</description>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02440">Hugging Face Papers</source>
+      <guid isPermaLink="false">dac9113cc93e6904d14ad14e3a1ca156</guid>
+    </item>
+    <item>
+      <title>일반 추론을 위한 전이성: 다중 영역 RLVR을 위한 자동화된 커리큘럼</title>
+      <link>https://huggingface.co/papers/2606.25178</link>
+      <description>TAC(전이 인식 커리큘럼)는 그라디언트 기하학 정렬을 사용하여 도메인 간 전이 가능성을 추정하고 다른 도메인에 광범위한 이점을 제공하는 도메인의 우선 순위를 지정하여 다중 도메인 강화 학습을 개선합니다.</description>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.25178">Hugging Face Papers</source>
+      <guid isPermaLink="false">0efa7e920bd2c89bf23d8c285df651f7</guid>
+    </item>
+    <item>
+      <title>InstanceControl: 인스턴스 라벨링 없이 제어 가능한 복잡한 이미지 생성</title>
+      <link>https://huggingface.co/papers/2606.31924</link>
+      <description>InstanceControl은 비전 언어 모델을 사용하여 텍스트 프롬프트와 시각적 조건 간의 인스턴스 수준 대응을 설정하는 동시에 적응형 마스크 개선 기능을 사용하여 다중 인스턴스 이미지 생성을 지원합니다.</description>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31924">Hugging Face Papers</source>
+      <guid isPermaLink="false">e235ffefbf551d81fb357605137997b0</guid>
+    </item>
     <item>
       <title>AgenticDataBench: 데이터 에이전트를 위한 포괄적인 벤치마크</title>
       <link>https://huggingface.co/papers/2607.01647</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.32029">Hugging Face Papers</source>
       <guid isPermaLink="false">43bc9d100c528d571f80c15faf0c570d</guid>
-    </item>
-    <item>
-      <title>상태 예측 분리 가설</title>
-      <link>https://huggingface.co/papers/2607.01218</link>
-      <description>Transformers에서 상태 예측과 토큰 예측을 분리하면 다양한 규모에 걸쳐 언어 모델링 성능과 효율성이 향상됩니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01218">Hugging Face Papers</source>
-      <guid isPermaLink="false">ae49866baef99bb950911de81aeed2ca</guid>
-    </item>
-    <item>
-      <title>ABot-M0.5: 통합 이동성 및 조작 세계 행동 모델</title>
-      <link>https://huggingface.co/papers/2607.00678</link>
-      <description>ABot-M0.5는 자동 회귀 예측의 시간적 세분성 정렬, 동작 공간 분리 및 열차 테스트 일관성을 통해 성능을 향상시키는 모바일 조작을 위한 월드 액션 모델입니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00678">Hugging Face Papers</source>
-      <guid isPermaLink="false">b96aa96dd1c1a030ddfb71c975ba7331</guid>
-    </item>
-    <item>
-      <title>AtomiMed: 보편적인 임상 인식 의료 보고서 평가를 위한 계층적 원자 사실 확인</title>
-      <link>https://huggingface.co/papers/2606.31292</link>
-      <description>AtomiMed는 임상 내러티브를 원자적 사실로 분해하고 에이전트 교차 검증 프로세스를 사용하여 의료 보고서 생성을 위한 새로운 평가 프레임워크를 제시합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31292">Hugging Face Papers</source>
-      <guid isPermaLink="false">309d86f1924b9d31dc2c9713470f631a</guid>
-    </item>
-    <item>
-      <title>반복적인 메타 반영을 통한 자율적인 과학적 발견</title>
-      <link>https://huggingface.co/papers/2607.01131</link>
-      <description>자율적인 과학적 발견 프레임워크는 대규모 언어 모델과 동적 코드 생성을 사용하여 개방형 연구를 수행하는 동시에 메타 반영 및 다중 모드 데이터 처리를 통해 통계적 엄격함을 유지합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01131">Hugging Face Papers</source>
-      <guid isPermaLink="false">8780e805a5e2ff9d0e5a219dd1a0cc15</guid>
     </item>
   </channel>
 </rss>
