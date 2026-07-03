@@ -50,10 +50,11 @@ export function SearchBar({ className, compact }: SearchBarProps) {
   const syncUrl = useCallback(
     (query: string, replace = true) => {
       const trimmed = query.trim();
+      const queryChanged = trimmed !== urlQ;
       const next = new URLSearchParams(params);
       if (trimmed) next.set("q", trimmed);
       else next.delete("q");
-      next.delete("page");
+      if (queryChanged) next.delete("page");
 
       let targetPath = location.pathname;
       if (trimmed && location.pathname === "/") {
