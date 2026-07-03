@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 03 Jul 2026 09:08:15 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 13:44:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic이 공개한 Claude Fable 5 프롬프팅 가이드: 강력해진 모델에 맞춰 프롬프트 다시 쓰기</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-claude-fable-5/11062</link>
+      <description>Claude Fable 5 프롬프팅 가이드 소개 Anthropic이 Claude Fable 5와 Claude Mythos 5 를 공개하면서, 이 모델을 실제로 잘 쓰기 위한 별도의 프롬프팅 가이드( Prompting Claude Fable 5 )도 함께 내놓았습니다.</description>
+      <pubDate>Fri, 03 Jul 2026 13:30:20 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-claude-fable-5/11062">PyTorch Korea</source>
+      <guid isPermaLink="false">fd63ee94be1d032f8f8410ffff2ebc06</guid>
+    </item>
+    <item>
+      <title>TabFM: 표 형식 데이터를 위한 제로샷 파운데이션 모델 (feat. Google Research)</title>
+      <link>https://discuss.pytorch.kr/t/tabfm-feat-google-research/11058</link>
+      <description>TabFM 소개 새로운 예측 문제를 만났을 때 우리는 보통 데이터를 정제하고, 어떤 특징(feature)을 만들지 고민하고, 모델을 여러 번 학습시키며 하이퍼파라미터를 조금씩 바꿔가는 지루한 과정을 반복합니다. 정작 문제의 본질을 파악하는 시간보다, 모델이 신호를 잡아내도록 데이터를 다듬는 부수적인 작업에 더 많은 시간을 쏟곤 합니다.</description>
+      <pubDate>Fri, 03 Jul 2026 12:30:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/tabfm-feat-google-research/11058">PyTorch Korea</source>
+      <guid isPermaLink="false">ff8456bc693a88e32ac8b43ceb2c9a9d</guid>
+    </item>
+    <item>
+      <title>Cowart: Codex에서 AI 이미지를 생성하고 주석으로 수정하는 로컬 무한 캔버스 플러그인</title>
+      <link>https://discuss.pytorch.kr/t/cowart-codex-ai/11051</link>
+      <description>Cowart 소개 이미지를 다루는 작업은 대화형 명령줄만으로는 답답할 때가 많습니다. 어떤 그림을 어디에 놓을지, 어떤 부분을 어떻게 고칠지는 텍스트로 설명하기보다 화면 위에 펼쳐 놓고 보는 편이 직관적입니다. Cowart는 이 간극을 메우는 도구로, AI 코딩 에이전트인 Codex 안에서 열리는 로컬 무한 캔버스(local infinite canvas) 플러그인입니다.</description>
+      <pubDate>Fri, 03 Jul 2026 11:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/cowart-codex-ai/11051">PyTorch Korea</source>
+      <guid isPermaLink="false">614a0f950f74a6fa893feab656cb4df5</guid>
+    </item>
     <item>
       <title>Cloudflare Monetization Gateway: 에이전트에게 API, 데이터, MCP 도구를 x402로 판매하기</title>
       <link>https://discuss.pytorch.kr/t/cloudflare-monetization-gateway-api-mcp-x402/11061</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/unlimited-ocr-kv-ocr-feat-baidu/10908">PyTorch Korea</source>
       <guid isPermaLink="false">ead822ba1886aba34c6de5027b0479b4</guid>
-    </item>
-    <item>
-      <title>OpenAI와 Broadcom이 공개한 첫 자체 LLM 추론 전용 칩 Jalapeño (feat. Celestica)</title>
-      <link>https://discuss.pytorch.kr/t/openai-broadcom-llm-jalapeno-feat-celestica/10925</link>
-      <description>Jalapeño 소개 OpenAI 와 Broadcom (NASDAQ: AVGO)이 OpenAI의 첫 자체 추론 가속기 Jalapeño(할라페뇨) 를 공개했습니다. OpenAI는 이 칩을 자사 첫 "지능 프로세서(Intelligence Processor)"로 부르며, 대규모 언어 모델(Large Language Model, LLM) 추론을 위해 백지 상태에서 새로 설계한 가속기라고 설명합니다.</description>
-      <pubDate>Thu, 25 Jun 2026 16:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-broadcom-llm-jalapeno-feat-celestica/10925">PyTorch Korea</source>
-      <guid isPermaLink="false">8b65ce1afa56b6d4977322882c67f834</guid>
-    </item>
-    <item>
-      <title>LLM 에이전트 간 통신 프로토콜 기술 분류 체계: MCP, A2A 등 9개 프로토콜에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/llm-mcp-a2a-9/10893</link>
-      <description>LLM 에이전트 통신 프로토콜 택소노미 소개 여러 명의 전문가가 한 방에 모여 협업한다고 상상해 봅시다. 각자 실력은 뛰어나지만, 한 사람은 영어로, 다른 사람은 모스 부호로, 또 다른 사람은 손짓으로만 말한다면 회의는 시작도 하기 전에 무너집니다. 협업의 전제는 능력이 아니라 공통의 의사소통 약속(프로토콜) 입니다.</description>
-      <pubDate>Thu, 25 Jun 2026 09:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llm-mcp-a2a-9/10893">PyTorch Korea</source>
-      <guid isPermaLink="false">8e1fbf8f1bc2116b024a510cb9a0382c</guid>
-    </item>
-    <item>
-      <title>MiMoCode: 세션 간 영속 메모리를 갖춘 Xiaomi의 터미널 AI 코딩 에이전트</title>
-      <link>https://discuss.pytorch.kr/t/mimocode-xiaomi-ai/10664</link>
-      <description>MiMoCode 소개 MiMoCode는 터미널에서 동작하는 AI 코딩 어시스턴트로, Xiaomi의 MiMo 팀이 공개한 오픈소스 프로젝트입니다. 코드를 읽고 쓰며 명령을 실행하고 Git을 관리하는 일반적인 코딩 에이전트 기능에 더해, 세션이 바뀌어도 프로젝트에 대한 이해를 유지하는 영속 메모리 시스템을 갖춘 것이 가장 큰 특징입니다.</description>
-      <pubDate>Thu, 25 Jun 2026 12:30:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/mimocode-xiaomi-ai/10664">PyTorch Korea</source>
-      <guid isPermaLink="false">d27e73aacf4eba2f89697c81f3aed5bd</guid>
     </item>
   </channel>
 </rss>
