@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 03 Jul 2026 20:35:20 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 23:09:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DeepSpec: 추측 디코딩 초안 모델을 학습하고 평가하는 DeepSeek의 풀스택 코드베이스</title>
+      <link>https://discuss.pytorch.kr/t/deepspec-deepseek/11049</link>
+      <description>DeepSpec 소개 대형 언어 모델의 생성은 한 번의 순전파(forward pass)에서 토큰을 하나씩 만들어 내기 때문에, 모델이 클수록 토큰당 지연 시간이 길어집니다. 추측 디코딩(Speculative Decoding)은 이 병목을 줄이기 위한 기법입니다.</description>
+      <pubDate>Fri, 03 Jul 2026 21:30:51 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/deepspec-deepseek/11049">PyTorch Korea</source>
+      <guid isPermaLink="false">87db694f9344da81fcbb233fc4952760</guid>
+    </item>
     <item>
       <title>Obscura: AI 에이전트와 웹 스크래핑을 위한 Rust 기반 경량 헤드리스 브라우저</title>
       <link>https://discuss.pytorch.kr/t/obscura-ai-rust/11048</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cc-skills-golang-ai-go/10833">PyTorch Korea</source>
       <guid isPermaLink="false">79dc362218668e5b7f4f265b70a7e9ce</guid>
-    </item>
-    <item>
-      <title>Agent-as-a-Router: 실행 피드백으로 진화하는 코딩 작업용 LLM 라우팅에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/agent-as-a-router-llm/10924</link>
-      <description>Agent-as-a-Router 소개 여러 명의 동료와 함께 일하는 팀을 떠올려 봅시다. 어떤 동료는 복잡한 알고리즘을 기막히게 잘 풀고, 어떤 동료는 지저분한 버그를 귀신같이 잡아내며, 또 다른 동료는 테스트 코드 작성에 일가견이 있습니다. 유능한 팀장이라면 모든 일을 한 사람에게 몰아주지 않고, 각 작업에 가장 잘 맞는 사람에게 일을 배분할 것입니다.</description>
-      <pubDate>Fri, 26 Jun 2026 11:00:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agent-as-a-router-llm/10924">PyTorch Korea</source>
-      <guid isPermaLink="false">9b6d18ea0ff6aca87d26c1d5885d2064</guid>
     </item>
   </channel>
 </rss>
