@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-03",
-  "generated_at": "2026-07-03T09:02:27.013047+09:00",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T09:01:50.006609+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,53 +10,53 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "d1c0d23dc9cd74bc8f0ddea770715d97",
+          "id": "3b2b9e10dc85f52157f19939d2f26173",
           "index": 1,
-          "title": "Multimodal Continuous Reasoning via Asymmetric Mutual Variational Learning",
-          "title_ko": "비대칭 상호변동학습을 통한 다중모달 연속추론",
-          "summary": "Asymmetric Mutual Variational Learning addresses train-inference mismatch in multimodal reasoning by using bidirectional calibration to prevent answer leakage and improve latent-space stability.",
-          "summary_ko": "비대칭 상호변동학습(Asymmetric Mutual Variational Learning)은 답변 누출을 방지하고 잠재 공간 안정성을 향상시키기 위해 양방향 보정을 사용하여 다중 모달 추론에서 열차 추론 불일치를 해결합니다.",
-          "url": "https://huggingface.co/papers/2607.00461",
+          "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
+          "title_ko": "AgenticDataBench: 데이터 에이전트를 위한 포괄적인 벤치마크",
+          "summary": "A comprehensive benchmark named AgenticDataBench is introduced to evaluate data agents across diverse domains with fine-grained task annotations and skill-based coverage metrics.",
+          "summary_ko": "세분화된 작업 주석과 기술 기반 적용 범위 지표를 사용하여 다양한 도메인의 데이터 에이전트를 평가하기 위해 AgenticDataBench라는 포괄적인 벤치마크가 도입되었습니다.",
+          "url": "https://huggingface.co/papers/2607.01647",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-02T09:00:00+09:00",
-          "popularity": 47,
-          "upvotes": 16,
-          "score": 23.61,
-          "importance_score": 11.61,
+          "published_at": "2026-07-03T09:00:00+09:00",
+          "popularity": 66,
+          "upvotes": 21,
+          "score": 24.61,
+          "importance_score": 12.61,
           "matched_keywords": [
             "ai",
-            "multimodal",
-            "reasoning",
-            "inference"
+            "agent",
+            "rag",
+            "benchmark"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 16
+            "value": 21
           }
         },
         {
-          "id": "27995fe1186d4fc7386dd5b958627c4c",
+          "id": "6b0a396fa4ed229b7dfd910cc463ac97",
           "index": 2,
-          "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
-          "title_ko": "CausalMix: 언어 모델 훈련을 위한 인과 추론으로서의 데이터 혼합",
-          "summary": "CausalMix addresses limitations in LLM data mixing by formulating mixture optimization as a causal inference problem, enabling dynamic adaptation to shifting data distributions without costly retraining.",
-          "summary_ko": "CausalMix는 인과 추론 문제로 혼합 최적화를 공식화하여 LLM 데이터 혼합의 한계를 해결하고 비용이 많이 드는 재교육 없이 데이터 분포 이동에 대한 동적 적응을 가능하게 합니다.",
-          "url": "https://huggingface.co/papers/2607.01104",
+          "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
+          "title_ko": "Breaking Failure Cascades: 의료 다중모달 추론을 위한 단계 인식 강화 학습",
+          "summary": "A reinforcement learning approach called MRPO is introduced to improve clinical image reasoning by addressing cascading errors through step-wise process rewards, demonstrating superior performance over existing methods.",
+          "summary_ko": "단계적 프로세스 보상을 통해 계단식 오류를 해결함으로써 임상 이미지 추론을 개선하기 위해 MRPO라는 강화 학습 접근 방식이 도입되어 기존 방법보다 우수한 성능을 보여줍니다.",
+          "url": "https://huggingface.co/papers/2606.31825",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-02T09:00:00+09:00",
-          "popularity": 33,
+          "published_at": "2026-07-03T09:00:00+09:00",
+          "popularity": 35,
           "upvotes": 14,
-          "score": 22.58,
-          "importance_score": 10.58,
+          "score": 22.75,
+          "importance_score": 10.75,
           "matched_keywords": [
             "ai",
-            "llm",
-            "inference",
-            "training"
+            "multimodal",
+            "reinforcement learning",
+            "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
@@ -70,47 +70,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "357c695618b1ba18ef141e4491ea2312",
+          "id": "c0891eeef24d074407b24155bf600647",
           "index": 3,
-          "title": "[7월2일] 'VLA vs 월드 모델' 경쟁의 의미…피지컬 AI 전쟁의 핵심은",
+          "title": "[7월3일] \"비싼 모델만 쓸 필요 없다\"…AI 토큰 비용 절감이 보여주는 변화",
           "title_ko": null,
-          "summary": "과학기술정보통신부(장관 배경훈)가 1일 공개한 ‘피지컬 AI 핵심 경쟁력 확보 전략’에는 국내에서 갖춰야 할 핵심 기술로 \\'피지컬 AI 파운데이션 모델\\'과 \\'월드 모델\\'이 나란히 꼽혔습니다. 피지컬 AI 파운데이션 모델은 \\'로봇이 계획·추론·행동을 통합적으로 수행하도록 설계된 범용 모델\\'로 소개됐습니다.",
+          "summary": "최근 해외 AI 업계에서 가장 큰 화두 중 하나는 기업의 \\'AI 토큰 비용 줄이기\\'입니다. AI 에이전트가 여러 단계를 거쳐 작업을 수행하면서 토큰 사용량이 급증하고, AI 예산이 예상보다 빠르게 소진되는 사례가 잇따르고 있습니다.이에 따라 해외의 주요 기업들은 과거 클라우드 컴퓨팅에서 활용했던 \\'핀옵스(FinOps)\\' 개념을 AI 운영에도 적용하기 시작한 것으로 알려졌습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212351",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212386",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-03T07:00:00+09:00",
+          "published_at": "2026-07-04T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.58,
+          "score": 22.58,
           "importance_score": 19.15,
           "matched_keywords": [
             "ai",
-            "추론",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "aa1eb9b86f558019e6c5bbaa162c8e78",
+          "id": "9ff9babaf038d6f60328417782e84099",
           "index": 4,
-          "title": "“韓 반도체 대규모 투자, 종말의 시작”…'빅쇼트' 마이클 버리, 삼전닉스 800조 투자에 찬물",
+          "title": "하루 커피 3잔이 간암 위험 크게 낮춰…“디카페인도 효과”",
           "title_ko": null,
-          "summary": "2008년 글로벌 금융위기를 예측해 영화 빅쇼트의 실제 모델로 알려진 마이클 버리가 인공지능(AI) 반도체 시장의 버블 붕괴를 경고하며 대규모 공매도에 나섰다. 1일(현지시간) CNBC 등 외신에 따르면 버리는 자신의 서브스택을 통해 엔비디아를 비롯해 어플라이드 머티어리얼즈, 테슬라, 아이셰어즈 반도체 ETF(SOXX), 캐터필러 등에 대한 새로운 숏(공매도) 포지션을 구축했다고 밝혔다.",
+          "summary": "커피를 규칙적으로 마시는 습관이 간 건강을 지키는 데 도움이 될 수 있다는 연구 결과가 나왔다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260702000486",
+          "url": "https://www.etnews.com/20260703000173",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-02T21:32:11+09:00",
-          "popularity": 97,
+          "published_at": "2026-07-04T06:00:00+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 20.3,
-          "importance_score": 14.91,
+          "score": 19.27,
+          "importance_score": 18.64,
           "matched_keywords": [
-            "ai",
-            "모델"
+            "연구"
           ],
           "engagement": null
         }
@@ -121,55 +119,54 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "6edeb35b269093e7c3bc6b33b6caee46",
+          "id": "e3143271b7741482c8bba76c7f6b70da",
           "index": 5,
-          "title": "rak7777/mythic-mcp-proxy — Mythos Router 2026: Zero-Drift Local Reasoning Protocol with Adaptive Claude Opus 4.8",
-          "title_ko": "rak7777/mythic-mcp-proxy — Mythos Router 2026: 적응형 Claude Opus 4.8을 사용한 제로 드리프트 로컬 추론 프로토콜",
-          "summary": "Mythos Router 2026: Zero-Drift Local Reasoning Protocol with Adaptive Claude Opus 4.8",
-          "summary_ko": "Mythos Router 2026: 적응형 Claude Opus 4.8을 사용한 제로 드리프트 로컬 추론 프로토콜",
-          "url": "https://github.com/rak7777/mythic-mcp-proxy",
+          "title": "uzairansaruzi/hermex — Native iPhone app for your Hermes agent",
+          "title_ko": "uzairansaruzi/hermex — Hermes 에이전트를 위한 기본 iPhone 앱",
+          "summary": "Native iPhone app for your Hermes agent",
+          "summary_ko": "Hermes 에이전트를 위한 기본 iPhone 앱",
+          "url": "https://github.com/uzairansaruzi/hermex",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-03T08:55:10+09:00",
-          "popularity": 153,
-          "upvotes": 153,
-          "score": 33.6,
-          "importance_score": 27.58,
-          "matched_keywords": [
-            "claude",
-            "mcp",
-            "reasoning"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 153
-          }
-        },
-        {
-          "id": "02e49f72effb013cb56ace687f578353",
-          "index": 6,
-          "title": "rafaelmateo123/Arena-of-Autonomous-Threads — Top AI Agent Simulator: Build a Local Reddit Forum for LLM Testing 2026",
-          "title_ko": "rafaelmateo123/Arena-of-Autonomous-Threads — 최고의 AI 에이전트 시뮬레이터: 2026년 LLM 테스트를 위한 로컬 Reddit 포럼 구축",
-          "summary": "Top AI Agent Simulator: Build a Local Reddit Forum for LLM Testing 2026",
-          "summary_ko": "최고의 AI 에이전트 시뮬레이터: 2026년 LLM 테스트를 위한 로컬 Reddit 포럼 구축",
-          "url": "https://github.com/rafaelmateo123/Arena-of-Autonomous-Threads",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-07-03T08:06:15+09:00",
-          "popularity": 152,
-          "upvotes": 152,
-          "score": 33.41,
-          "importance_score": 27.22,
+          "published_at": "2026-07-04T08:42:07+09:00",
+          "popularity": 443,
+          "upvotes": 443,
+          "score": 34.27,
+          "importance_score": 31.2,
           "matched_keywords": [
             "ai",
-            "llm",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 152
+            "value": 443
+          }
+        },
+        {
+          "id": "e46c2dc6a3515cee1c0969875f767e24",
+          "index": 6,
+          "title": "SuperJJ007/CSswitch — 让 Claude Science 的推理走自选的第三方 API（DeepSeek / 通义千问 / 任意 OpenAI 兼容端点），保留工具调用·Skill·MCP·代码执行，含本地虚拟登录跳过。ma",
+          "title_ko": "SuperJJ007/CSswitch - Claude Science의 추론이 선택한 타사 API(DeepSeek/Tongyi Qianwen/모든 OpenAI 호환 엔드포인트)를 통해 진행되도록 하여 로컬 가상 로그인 건너뛰기를 포함하여 도구 호출·스킬·MCP·코드 실행을 유지합니다. 엄마",
+          "summary": "让 Claude Science 的推理走自选的第三方 API（DeepSeek / 通义千问 / 任意 OpenAI 兼容端点），保留工具调用·Skill·MCP·代码执行，含本地虚拟登录跳过。macOS 菜单栏 app。仅供个人学习研究，使用者自负风险。",
+          "summary_ko": "Claude Science의 추론이 선택한 타사 API(DeepSeek/Tongyi Qianwen/모든 OpenAI 호환 엔드포인트)를 통해 진행되고 로컬 가상 로그인 건너뛰기를 포함하여 도구 호출, 기술, MCP 및 코드 실행을 유지합니다. macOS 메뉴바 앱.",
+          "url": "https://github.com/SuperJJ007/CSswitch",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-07-04T07:47:47+09:00",
+          "popularity": 163,
+          "upvotes": 163,
+          "score": 33.59,
+          "importance_score": 27.34,
+          "matched_keywords": [
+            "ai",
+            "claude",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 163
           }
         }
       ]
@@ -179,26 +176,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "1475803cf934801537137abdceb51a27",
+          "id": "692c8a877af7370a26a59799775ed30e",
           "index": 7,
-          "title": "Feedback Distillation: LLM 피드백 증류로 Lean 정리 증명 학습하기 (feat. Meta FAIR)",
+          "title": "Anthropic, 수출통제 해제로 돌아온 Claude Fable 5, 주간 사용량의 50%까지 무료 제공 (~7/8, 16:59:59, KST)",
           "title_ko": null,
-          "summary": "Feedback Distillation 소개 처음 어려운 수학 문제를 풀 때를 떠올려 봅시다. 정답만 통째로 외우기보다는, 선생님이 \"이 부분에서 절댓값을 경우로 나눠봐\", \"여기서는 분모를 없애는 게 낫다\" 같은 짧은 조언을 줄 때 우리는 훨씬 빠르게 성장합니다. 이 논문은 바로 이 직관을 LLM 사후학습(post-training)에 옮긴 연구입니다.",
+          "summary": "Claude Fable 5 소개 Anthropic 의 최상위 모델 Claude Fable 5 가 3주 가까이 접속이 끊겼다가 지난 7월 1일 다시 열렸습니다. 그리고 이 재배포를 기념하듯, 지금 Claude 구독 요금제 사용자라면 누구나 7월 7일까지 일주일간 Fable 5를 추가 비용 없이 사용할 수 있는 프로모션이 진행되고 있습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/feedback-distillation-llm-lean-feat-meta-fair/10484",
+          "url": "https://discuss.pytorch.kr/t/anthropic-claude-fable-5-50-7-8-1659-kst/11065",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-02T12:30:16+09:00",
-          "popularity": 94,
+          "published_at": "2026-07-03T14:30:03+09:00",
+          "popularity": 96,
           "upvotes": 0,
-          "score": 24.12,
-          "importance_score": 10.84,
+          "score": 18.74,
+          "importance_score": 11.88,
           "matched_keywords": [
-            "ai",
-            "llm",
-            "연구",
-            "training"
+            "claude",
+            "모델"
           ],
           "engagement": null
         }
@@ -207,53 +202,53 @@
   ],
   "items": [
     {
-      "id": "d1c0d23dc9cd74bc8f0ddea770715d97",
+      "id": "3b2b9e10dc85f52157f19939d2f26173",
       "index": 1,
-      "title": "Multimodal Continuous Reasoning via Asymmetric Mutual Variational Learning",
-      "title_ko": "비대칭 상호변동학습을 통한 다중모달 연속추론",
-      "summary": "Asymmetric Mutual Variational Learning addresses train-inference mismatch in multimodal reasoning by using bidirectional calibration to prevent answer leakage and improve latent-space stability.",
-      "summary_ko": "비대칭 상호변동학습(Asymmetric Mutual Variational Learning)은 답변 누출을 방지하고 잠재 공간 안정성을 향상시키기 위해 양방향 보정을 사용하여 다중 모달 추론에서 열차 추론 불일치를 해결합니다.",
-      "url": "https://huggingface.co/papers/2607.00461",
+      "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
+      "title_ko": "AgenticDataBench: 데이터 에이전트를 위한 포괄적인 벤치마크",
+      "summary": "A comprehensive benchmark named AgenticDataBench is introduced to evaluate data agents across diverse domains with fine-grained task annotations and skill-based coverage metrics.",
+      "summary_ko": "세분화된 작업 주석과 기술 기반 적용 범위 지표를 사용하여 다양한 도메인의 데이터 에이전트를 평가하기 위해 AgenticDataBench라는 포괄적인 벤치마크가 도입되었습니다.",
+      "url": "https://huggingface.co/papers/2607.01647",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-02T09:00:00+09:00",
-      "popularity": 47,
-      "upvotes": 16,
-      "score": 23.61,
-      "importance_score": 11.61,
+      "published_at": "2026-07-03T09:00:00+09:00",
+      "popularity": 66,
+      "upvotes": 21,
+      "score": 24.61,
+      "importance_score": 12.61,
       "matched_keywords": [
         "ai",
-        "multimodal",
-        "reasoning",
-        "inference"
+        "agent",
+        "rag",
+        "benchmark"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 16
+        "value": 21
       }
     },
     {
-      "id": "27995fe1186d4fc7386dd5b958627c4c",
+      "id": "6b0a396fa4ed229b7dfd910cc463ac97",
       "index": 2,
-      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
-      "title_ko": "CausalMix: 언어 모델 훈련을 위한 인과 추론으로서의 데이터 혼합",
-      "summary": "CausalMix addresses limitations in LLM data mixing by formulating mixture optimization as a causal inference problem, enabling dynamic adaptation to shifting data distributions without costly retraining.",
-      "summary_ko": "CausalMix는 인과 추론 문제로 혼합 최적화를 공식화하여 LLM 데이터 혼합의 한계를 해결하고 비용이 많이 드는 재교육 없이 데이터 분포 이동에 대한 동적 적응을 가능하게 합니다.",
-      "url": "https://huggingface.co/papers/2607.01104",
+      "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
+      "title_ko": "Breaking Failure Cascades: 의료 다중모달 추론을 위한 단계 인식 강화 학습",
+      "summary": "A reinforcement learning approach called MRPO is introduced to improve clinical image reasoning by addressing cascading errors through step-wise process rewards, demonstrating superior performance over existing methods.",
+      "summary_ko": "단계적 프로세스 보상을 통해 계단식 오류를 해결함으로써 임상 이미지 추론을 개선하기 위해 MRPO라는 강화 학습 접근 방식이 도입되어 기존 방법보다 우수한 성능을 보여줍니다.",
+      "url": "https://huggingface.co/papers/2606.31825",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-02T09:00:00+09:00",
-      "popularity": 33,
+      "published_at": "2026-07-03T09:00:00+09:00",
+      "popularity": 35,
       "upvotes": 14,
-      "score": 22.58,
-      "importance_score": 10.58,
+      "score": 22.75,
+      "importance_score": 10.75,
       "matched_keywords": [
         "ai",
-        "llm",
-        "inference",
-        "training"
+        "multimodal",
+        "reinforcement learning",
+        "reasoning"
       ],
       "engagement": {
         "label": "Upvotes",
@@ -261,123 +256,118 @@
       }
     },
     {
-      "id": "357c695618b1ba18ef141e4491ea2312",
+      "id": "c0891eeef24d074407b24155bf600647",
       "index": 3,
-      "title": "[7월2일] 'VLA vs 월드 모델' 경쟁의 의미…피지컬 AI 전쟁의 핵심은",
+      "title": "[7월3일] \"비싼 모델만 쓸 필요 없다\"…AI 토큰 비용 절감이 보여주는 변화",
       "title_ko": null,
-      "summary": "과학기술정보통신부(장관 배경훈)가 1일 공개한 ‘피지컬 AI 핵심 경쟁력 확보 전략’에는 국내에서 갖춰야 할 핵심 기술로 \\'피지컬 AI 파운데이션 모델\\'과 \\'월드 모델\\'이 나란히 꼽혔습니다. 피지컬 AI 파운데이션 모델은 \\'로봇이 계획·추론·행동을 통합적으로 수행하도록 설계된 범용 모델\\'로 소개됐습니다.",
+      "summary": "최근 해외 AI 업계에서 가장 큰 화두 중 하나는 기업의 \\'AI 토큰 비용 줄이기\\'입니다. AI 에이전트가 여러 단계를 거쳐 작업을 수행하면서 토큰 사용량이 급증하고, AI 예산이 예상보다 빠르게 소진되는 사례가 잇따르고 있습니다.이에 따라 해외의 주요 기업들은 과거 클라우드 컴퓨팅에서 활용했던 \\'핀옵스(FinOps)\\' 개념을 AI 운영에도 적용하기 시작한 것으로 알려졌습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212351",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212386",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-03T07:00:00+09:00",
+      "published_at": "2026-07-04T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.58,
+      "score": 22.58,
       "importance_score": 19.15,
       "matched_keywords": [
         "ai",
-        "추론",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "aa1eb9b86f558019e6c5bbaa162c8e78",
+      "id": "9ff9babaf038d6f60328417782e84099",
       "index": 4,
-      "title": "“韓 반도체 대규모 투자, 종말의 시작”…'빅쇼트' 마이클 버리, 삼전닉스 800조 투자에 찬물",
+      "title": "하루 커피 3잔이 간암 위험 크게 낮춰…“디카페인도 효과”",
       "title_ko": null,
-      "summary": "2008년 글로벌 금융위기를 예측해 영화 빅쇼트의 실제 모델로 알려진 마이클 버리가 인공지능(AI) 반도체 시장의 버블 붕괴를 경고하며 대규모 공매도에 나섰다. 1일(현지시간) CNBC 등 외신에 따르면 버리는 자신의 서브스택을 통해 엔비디아를 비롯해 어플라이드 머티어리얼즈, 테슬라, 아이셰어즈 반도체 ETF(SOXX), 캐터필러 등에 대한 새로운 숏(공매도) 포지션을 구축했다고 밝혔다.",
+      "summary": "커피를 규칙적으로 마시는 습관이 간 건강을 지키는 데 도움이 될 수 있다는 연구 결과가 나왔다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260702000486",
+      "url": "https://www.etnews.com/20260703000173",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-02T21:32:11+09:00",
-      "popularity": 97,
+      "published_at": "2026-07-04T06:00:00+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 20.3,
-      "importance_score": 14.91,
+      "score": 19.27,
+      "importance_score": 18.64,
       "matched_keywords": [
-        "ai",
-        "모델"
+        "연구"
       ],
       "engagement": null
     },
     {
-      "id": "6edeb35b269093e7c3bc6b33b6caee46",
+      "id": "e3143271b7741482c8bba76c7f6b70da",
       "index": 5,
-      "title": "rak7777/mythic-mcp-proxy — Mythos Router 2026: Zero-Drift Local Reasoning Protocol with Adaptive Claude Opus 4.8",
-      "title_ko": "rak7777/mythic-mcp-proxy — Mythos Router 2026: 적응형 Claude Opus 4.8을 사용한 제로 드리프트 로컬 추론 프로토콜",
-      "summary": "Mythos Router 2026: Zero-Drift Local Reasoning Protocol with Adaptive Claude Opus 4.8",
-      "summary_ko": "Mythos Router 2026: 적응형 Claude Opus 4.8을 사용한 제로 드리프트 로컬 추론 프로토콜",
-      "url": "https://github.com/rak7777/mythic-mcp-proxy",
+      "title": "uzairansaruzi/hermex — Native iPhone app for your Hermes agent",
+      "title_ko": "uzairansaruzi/hermex — Hermes 에이전트를 위한 기본 iPhone 앱",
+      "summary": "Native iPhone app for your Hermes agent",
+      "summary_ko": "Hermes 에이전트를 위한 기본 iPhone 앱",
+      "url": "https://github.com/uzairansaruzi/hermex",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-03T08:55:10+09:00",
-      "popularity": 153,
-      "upvotes": 153,
-      "score": 33.6,
-      "importance_score": 27.58,
-      "matched_keywords": [
-        "claude",
-        "mcp",
-        "reasoning"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 153
-      }
-    },
-    {
-      "id": "02e49f72effb013cb56ace687f578353",
-      "index": 6,
-      "title": "rafaelmateo123/Arena-of-Autonomous-Threads — Top AI Agent Simulator: Build a Local Reddit Forum for LLM Testing 2026",
-      "title_ko": "rafaelmateo123/Arena-of-Autonomous-Threads — 최고의 AI 에이전트 시뮬레이터: 2026년 LLM 테스트를 위한 로컬 Reddit 포럼 구축",
-      "summary": "Top AI Agent Simulator: Build a Local Reddit Forum for LLM Testing 2026",
-      "summary_ko": "최고의 AI 에이전트 시뮬레이터: 2026년 LLM 테스트를 위한 로컬 Reddit 포럼 구축",
-      "url": "https://github.com/rafaelmateo123/Arena-of-Autonomous-Threads",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-07-03T08:06:15+09:00",
-      "popularity": 152,
-      "upvotes": 152,
-      "score": 33.41,
-      "importance_score": 27.22,
+      "published_at": "2026-07-04T08:42:07+09:00",
+      "popularity": 443,
+      "upvotes": 443,
+      "score": 34.27,
+      "importance_score": 31.2,
       "matched_keywords": [
         "ai",
-        "llm",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 152
+        "value": 443
       }
     },
     {
-      "id": "1475803cf934801537137abdceb51a27",
+      "id": "e46c2dc6a3515cee1c0969875f767e24",
+      "index": 6,
+      "title": "SuperJJ007/CSswitch — 让 Claude Science 的推理走自选的第三方 API（DeepSeek / 通义千问 / 任意 OpenAI 兼容端点），保留工具调用·Skill·MCP·代码执行，含本地虚拟登录跳过。ma",
+      "title_ko": "SuperJJ007/CSswitch - Claude Science의 추론이 선택한 타사 API(DeepSeek/Tongyi Qianwen/모든 OpenAI 호환 엔드포인트)를 통해 진행되도록 하여 로컬 가상 로그인 건너뛰기를 포함하여 도구 호출·스킬·MCP·코드 실행을 유지합니다. 엄마",
+      "summary": "让 Claude Science 的推理走自选的第三方 API（DeepSeek / 通义千问 / 任意 OpenAI 兼容端点），保留工具调用·Skill·MCP·代码执行，含本地虚拟登录跳过。macOS 菜单栏 app。仅供个人学习研究，使用者自负风险。",
+      "summary_ko": "Claude Science의 추론이 선택한 타사 API(DeepSeek/Tongyi Qianwen/모든 OpenAI 호환 엔드포인트)를 통해 진행되고 로컬 가상 로그인 건너뛰기를 포함하여 도구 호출, 기술, MCP 및 코드 실행을 유지합니다. macOS 메뉴바 앱.",
+      "url": "https://github.com/SuperJJ007/CSswitch",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-07-04T07:47:47+09:00",
+      "popularity": 163,
+      "upvotes": 163,
+      "score": 33.59,
+      "importance_score": 27.34,
+      "matched_keywords": [
+        "ai",
+        "claude",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 163
+      }
+    },
+    {
+      "id": "692c8a877af7370a26a59799775ed30e",
       "index": 7,
-      "title": "Feedback Distillation: LLM 피드백 증류로 Lean 정리 증명 학습하기 (feat. Meta FAIR)",
+      "title": "Anthropic, 수출통제 해제로 돌아온 Claude Fable 5, 주간 사용량의 50%까지 무료 제공 (~7/8, 16:59:59, KST)",
       "title_ko": null,
-      "summary": "Feedback Distillation 소개 처음 어려운 수학 문제를 풀 때를 떠올려 봅시다. 정답만 통째로 외우기보다는, 선생님이 \"이 부분에서 절댓값을 경우로 나눠봐\", \"여기서는 분모를 없애는 게 낫다\" 같은 짧은 조언을 줄 때 우리는 훨씬 빠르게 성장합니다. 이 논문은 바로 이 직관을 LLM 사후학습(post-training)에 옮긴 연구입니다.",
+      "summary": "Claude Fable 5 소개 Anthropic 의 최상위 모델 Claude Fable 5 가 3주 가까이 접속이 끊겼다가 지난 7월 1일 다시 열렸습니다. 그리고 이 재배포를 기념하듯, 지금 Claude 구독 요금제 사용자라면 누구나 7월 7일까지 일주일간 Fable 5를 추가 비용 없이 사용할 수 있는 프로모션이 진행되고 있습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/feedback-distillation-llm-lean-feat-meta-fair/10484",
+      "url": "https://discuss.pytorch.kr/t/anthropic-claude-fable-5-50-7-8-1659-kst/11065",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-02T12:30:16+09:00",
-      "popularity": 94,
+      "published_at": "2026-07-03T14:30:03+09:00",
+      "popularity": 96,
       "upvotes": 0,
-      "score": 24.12,
-      "importance_score": 10.84,
+      "score": 18.74,
+      "importance_score": 11.88,
       "matched_keywords": [
-        "ai",
-        "llm",
-        "연구",
-        "training"
+        "claude",
+        "모델"
       ],
       "engagement": null
     }
