@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 05 Jul 2026 08:58:43 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 12:34:58 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>gemini-web2api: 웹 채팅 화면을 OpenAI 호환 API로 바꾸는 단일 파일 프록시</title>
+      <link>https://discuss.pytorch.kr/t/gemini-web2api-openai-api/11075</link>
+      <description>gemini-web2api 소개 Google Gemini의 공식 API를 쓰려면 Google AI Studio나 Vertex AI에 가입하고 API 키를 발급받아야 하며, 사용량에 따라 과금됩니다. gemini-web2api는 이 과정을 건너뛰고, 브라우저로 접속하는 Gemini 웹 채팅 화면 자체를 OpenAI 호환 REST API처럼 쓸 수 있게 바꿔주는 파이썬 스크립트입니다.</description>
+      <pubDate>Sun, 05 Jul 2026 09:30:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gemini-web2api-openai-api/11075">PyTorch Korea</source>
+      <guid isPermaLink="false">aea0ef2821746ebe89a13fae1cb1889b</guid>
+    </item>
     <item>
       <title>Awesome Claude Skills: 1,000개 넘는 Claude 스킬을 정리한 목록</title>
       <link>https://discuss.pytorch.kr/t/awesome-claude-skills-1-000-claude/11063</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openhanako-ai/10371">PyTorch Korea</source>
       <guid isPermaLink="false">90f9d82ccd84c75aca04d38192710e75</guid>
-    </item>
-    <item>
-      <title>뉴로모픽(neuromorphic) 컴퓨팅 선언문: 메모리 물리학이 지배하는 Post-von Neumann 시대현실 문제 제기</title>
-      <link>https://discuss.pytorch.kr/t/neuromorphic-post-von-neumann/10948</link>
-      <description>출처: The Neuromorphic Manifesto: - by Hellbound 현재 생성 AI는 수조 개 파라미터로 폭발적으로 성장하면서 에너지 위기를 초래하고 있습니다. von Neumann 아키텍처(프로세서와 메모리가 분리된 구조)는 데이터 이동에 막대한 전력을 소모해 데이터센터가 전력망을 갉아먹고 지구를 태우는 상황입니다. 이는 지속 불가능합니다.</description>
-      <pubDate>Fri, 26 Jun 2026 18:06:44 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/neuromorphic-post-von-neumann/10948">PyTorch Korea</source>
-      <guid isPermaLink="false">0dc77b022c379d02798869c8645ccef3</guid>
     </item>
   </channel>
 </rss>
