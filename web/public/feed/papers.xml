@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 06 Jul 2026 14:13:44 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 19:26:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OrbitQuant: 이미지 및 비디오 확산 변환기를 위한 데이터 독립적인 양자화</title>
+      <link>https://huggingface.co/papers/2607.02461</link>
+      <description>OrbitQuant는 다양한 시간 단계와 양식에 걸쳐 재보정이 필요하지 않은 정규화된 회전 기반을 사용하여 확산 변환기에 대한 효율적인 사후 훈련 양자화를 가능하게 합니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02461">Hugging Face Papers</source>
+      <guid isPermaLink="false">25a7d1ae0e88b7f84dcd820af8c99e2d</guid>
+    </item>
+    <item>
+      <title>DataComp-VLM: 비전 언어 모델을 위한 향상된 개방형 데이터 세트</title>
+      <link>https://huggingface.co/papers/2606.28551</link>
+      <description>DCVLM(VLM용 DataComp)은 비전 언어 모델에서 데이터 큐레이션 전략을 평가하기 위한 포괄적인 벤치마크를 설정하여 필터링보다 데이터 혼합이 모델 성능을 크게 향상시킨다는 것을 입증합니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28551">Hugging Face Papers</source>
+      <guid isPermaLink="false">b98f72f96bc92ecf58e3cc1cf635dadb</guid>
+    </item>
+    <item>
+      <title>MultAttnAttrib: 긴 문서 질문 답변의 교육이 필요 없는 다중 모달 속성</title>
+      <link>https://huggingface.co/papers/2607.01420</link>
+      <description>MultAttnAttrib는 주의 헤드와 보정된 임계값을 사용하여 문서에서 소스 증거를 찾는 교육이 필요 없는 다중 모달 속성 방법으로, 기존에 비해 뛰어난 정확성과 효율성을 달성합니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01420">Hugging Face Papers</source>
+      <guid isPermaLink="false">275408a8f62f0ac6928bcd72059a00cc</guid>
+    </item>
+    <item>
+      <title>지리적 맥락 정렬을 통해 관찰 기반 잔여 흐름을 통한 해석 중심의 클라우드 제거</title>
+      <link>https://huggingface.co/papers/2607.02471</link>
+      <description>지리적으로 고정된 클라우드 제거 프레임워크는 물리적 기반 잔류 반전과 비전 기반 모델의 의미론적 다양체 제약 조건을 결합하여 클라우드 제거의 의미론적 드리프트를 해결합니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02471">Hugging Face Papers</source>
+      <guid isPermaLink="false">51ce11db3754a4d7728eca3330e6a745</guid>
+    </item>
     <item>
       <title>훈련 정책 최적화의 신기루: LLM 강화 학습의 실제 목표인 단조로운 추론 정책</title>
       <link>https://huggingface.co/papers/2606.29526</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.00115">Hugging Face Papers</source>
       <guid isPermaLink="false">4f6c6c2e55206ef0a03fde0cfdafe76a</guid>
-    </item>
-    <item>
-      <title>문학 텍스트의 AI 번역은 "괜찮다"지만 독자들은 여전히 ​​인간 번역을 선호한다</title>
-      <link>https://huggingface.co/papers/2606.26040</link>
-      <description>인간 독자는 기계 번역보다 인간 번역된 문학 작품을 선호합니다. 기계 번역 지표가 자동 번역을 선호함에도 불구하고 후자는 몰입도가 낮고 인간 번역과 구별하기가 더 어렵습니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.26040">Hugging Face Papers</source>
-      <guid isPermaLink="false">9bd09499053d3c0e579e3e9cefcf9bd9</guid>
-    </item>
-    <item>
-      <title>비대칭 상호변동학습을 통한 다중모달 연속추론</title>
-      <link>https://huggingface.co/papers/2607.00461</link>
-      <description>비대칭 상호변동학습(Asymmetric Mutual Variational Learning)은 양방향 보정을 사용하여 답변 누출을 방지하고 잠재 공간 안정성을 향상함으로써 다중 모달 추론에서 열차 추론 불일치를 해결합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00461">Hugging Face Papers</source>
-      <guid isPermaLink="false">d1c0d23dc9cd74bc8f0ddea770715d97</guid>
-    </item>
-    <item>
-      <title>MemSyco-Bench: 에이전트 메모리의 사교성 벤치마킹</title>
-      <link>https://huggingface.co/papers/2607.01071</link>
-      <description>메모리는 LLM 기반 에이전트에서 중요한 역할을 하지만 검색된 메모리는 에이전트가 사실적 정확성을 희생하면서 사용자와 과도하게 정렬되는 아첨 문제를 일으킬 수 있으므로 다음을 평가하는 새로운 평가 벤치마크가 필요합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01071">Hugging Face Papers</source>
-      <guid isPermaLink="false">c0e8d34077d2fa515595403034dd2379</guid>
-    </item>
-    <item>
-      <title>PerceptionRubrics: 다중 모달 평가를 인간의 인식으로 보정</title>
-      <link>https://huggingface.co/papers/2606.28322</link>
-      <description>PerceptionRubrics는 원자성 감사 및 게이트 채점 메커니즘을 통해 벤치마크 점수와 실제 성능 간의 격차를 식별하는 루브릭 기반 평가 프레임워크를 제공합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.28322">Hugging Face Papers</source>
-      <guid isPermaLink="false">efa6a289980f17b04caeedb5da4c4266</guid>
     </item>
   </channel>
 </rss>
