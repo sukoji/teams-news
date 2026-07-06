@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 06 Jul 2026 09:08:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 14:13:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>훈련 정책 최적화의 신기루: LLM 강화 학습의 실제 목표인 단조로운 추론 정책</title>
+      <link>https://huggingface.co/papers/2606.29526</link>
+      <description>대규모 언어 모델에 대한 강화 학습의 훈련-추론 불일치는 불안정성을 초래하며, 이는 일관된 정책 개선을 보장하는 새로운 정책 최적화 목표 및 프레임워크를 통해 해결됩니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.29526">Hugging Face Papers</source>
+      <guid isPermaLink="false">ff407cbe3f1e4da0bf8a14fe70c19c97</guid>
+    </item>
+    <item>
+      <title>AGE: 그래프 검색 증강 생성에서 그래프 임베딩을 위한 적응형 마스킹</title>
+      <link>https://huggingface.co/papers/2607.00052</link>
+      <description>GraphRAG는 LLM용 그래프 구조 데이터를 통합하여 RAG를 확장하고, Transformer 기반 자기 지도 학습을 사용하는 AGE(그래프 임베딩)에 대한 적응형 마스킹을 통해 잠재 기능 오정렬을 해결합니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00052">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab7f16235f3a786200159c150c73133f</guid>
+    </item>
+    <item>
+      <title>Embodied.cpp: 이기종 로봇에 구현된 AI 모델의 휴대용 추론 런타임</title>
+      <link>https://huggingface.co/papers/2607.02501</link>
+      <description>Embodied.cpp는 모듈식 실행 레이어와 최적화된 추론을 통해 이기종 에지 장치 전반에 비전-언어-액션 및 월드-액션 모델을 효율적으로 배포할 수 있는 휴대용 C++ 런타임입니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02501">Hugging Face Papers</source>
+      <guid isPermaLink="false">4184bbf80d72a426dc5adbe6319c362f</guid>
+    </item>
+    <item>
+      <title>AI 에이전트 보안: 다계층 에이전트 레드팀 구성을 위한 통합 프레임워크</title>
+      <link>https://huggingface.co/papers/2606.31227</link>
+      <description>AI-Infra-Guard는 인프라, 프로토콜, 에이전트 동작 및 모델 계층을 포괄하는 계층형 탐지 패러다임을 통해 AI 인프라 보안을 해결하는 오픈 소스 프레임워크입니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31227">Hugging Face Papers</source>
+      <guid isPermaLink="false">9bce97fe4258bac6d51a960253f7494c</guid>
+    </item>
+    <item>
+      <title>VLA-Corrector: 적응형 작업 지평선을 위한 경량 감지 및 수정 추론</title>
+      <link>https://huggingface.co/papers/2607.01804</link>
+      <description>VLA-Corrector는 적응형 교정 재계획을 가능하게 하는 경량 잠재 공간 비전 모니터를 도입하여 비전-언어-동작 모델의 동작 청크 제한 사항을 해결하고 제어의 견고성을 향상시킵니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01804">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ac0c94bc105b10bf6f5f37042b93ab7</guid>
+    </item>
     <item>
       <title>🥇금주의 최고 AI 논문</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-0b9</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.28322">Hugging Face Papers</source>
       <guid isPermaLink="false">efa6a289980f17b04caeedb5da4c4266</guid>
-    </item>
-    <item>
-      <title>ELDR: PD 분리 MoE 서비스를 위한 전문가 지역 인식 디코드 라우팅</title>
-      <link>https://huggingface.co/papers/2607.00466</link>
-      <description>ELDR은 전문가 활성화를 예측하고 그에 따라 요청을 라우팅하여 성능을 향상시키는 사전 채우기-디코드 분리된 전문가 혼합 서비스를 위한 전문가 위치 인식 디코드 라우터입니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00466">Hugging Face Papers</source>
-      <guid isPermaLink="false">2df4cc9a724ce6bcdb2086bbe847b584</guid>
-    </item>
-    <item>
-      <title>Seed2.0 모델 카드: 현실 세계의 복잡성을 위한 인텔리전스 프론티어를 향하여</title>
-      <link>https://huggingface.co/papers/2607.00248</link>
-      <description>Seed2.0은 강력한 평가를 통해 추론, 시각적 이해 및 검색 기능을 향상시키면서 롱테일 지식과 과제에 따른 복잡한 지침을 다루면서 복잡한 실제 작업을 해결합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00248">Hugging Face Papers</source>
-      <guid isPermaLink="false">28f28b3bfd06499c23e2fabc98d1721a</guid>
-    </item>
-    <item>
-      <title>역계획으로서의 개인화: 구조적 노이즈 제거를 통한 에이전트적 슬라이드 생성을 위한 잠재 설계 의도 학습</title>
-      <link>https://huggingface.co/papers/2607.00407</link>
-      <description>페이지 수준 슬라이드 개인화는 문제를 역계획으로 공식화하고 다중 에이전트 강화 학습 접근 방식을 사용하여 특별한 요구 사항 없이 설계 의도를 학습하는 새로운 프레임워크를 통해 해결됩니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00407">Hugging Face Papers</source>
-      <guid isPermaLink="false">84e0aab988f56b9434e8a79837d839f5</guid>
-    </item>
-    <item>
-      <title>ASPIRE: 로봇 공학을 위한 에이전트/기술 발견</title>
-      <link>https://huggingface.co/papers/2607.00272</link>
-      <description>ASPIRE는 반복 탐색을 통해 로봇 제어 프로그램을 자율적으로 개발하고 개선하는 지속적인 학습 시스템으로, 조작 및 가사 분야에서 탁월한 성능과 제로샷 일반화를 달성합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00272">Hugging Face Papers</source>
-      <guid isPermaLink="false">7b710e8bc6e443cb931b44847a317a31</guid>
-    </item>
-    <item>
-      <title>NoPA: 비모수적 온라인 3D 장면 그래프 생성</title>
-      <link>https://huggingface.co/papers/2607.00529</link>
-      <description>NoPA는 커널 밀도 추정 및 부분을 통해 계산 효율성을 유지하면서 기하학적 세부 사항을 유지하는 실시간 3D 장면 그래프 생성을 위한 비모수적 분포 기반 접근 방식을 도입합니다.</description>
-      <pubDate>Thu, 02 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00529">Hugging Face Papers</source>
-      <guid isPermaLink="false">cf371816a49777af4c462ca46b0f7062</guid>
     </item>
   </channel>
 </rss>

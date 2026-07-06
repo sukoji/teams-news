@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 06 Jul 2026 09:08:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 14:13:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Google Stitch 살펴보기: 프롬프트로 UI를 만드는 Google Labs 디자인 도구와 Stitch SDK 출시 (MCP, DESIGN.md, Agent Skills)</title>
+      <link>https://discuss.pytorch.kr/t/google-stitch-ui-google-labs-stitch-sdk-mcp-design-md-agent-skills/11094</link>
+      <description>Google Stitch 소개 Google Stitch는 Google Labs가 만든 AI 기반 UI 디자인 도구입니다. 자연어 프롬프트, 손으로 그린 와이어프레임, 스크린샷을 받아 편집 가능한 사용자 인터페이스와 실제로 동작하는 프론트엔드 코드(HTML/CSS)로 바꿔줍니다.</description>
+      <pubDate>Mon, 06 Jul 2026 12:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-stitch-ui-google-labs-stitch-sdk-mcp-design-md-agent-skills/11094">PyTorch Korea</source>
+      <guid isPermaLink="false">352714b66102f6b97f14ce5a761455ca</guid>
+    </item>
+    <item>
+      <title>OpenUI: JSON보다 적은 토큰으로 UI를 스트리밍하는 생성형 UI 오픈 표준</title>
+      <link>https://discuss.pytorch.kr/t/openui-json-ui-ui/11072</link>
+      <description>OpenUI 소개 LLM이 화면을 직접 그려주는 생성형 UI(Generative UI)는 보통 모델이 JSON으로 UI 구조를 출력하고, 클라이언트가 그 JSON을 파싱해 컴포넌트를 렌더링하는 방식으로 구현됩니다. 문제는 JSON 자체가 중괄호·따옴표·키 이름을 반복하는 장황한 포맷이라, 화면 하나를 표현하는 데도 토큰을 상당히 소모한다는 점입니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:30:24 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openui-json-ui-ui/11072">PyTorch Korea</source>
+      <guid isPermaLink="false">02b3f0b20d80330435452e5242f1ee47</guid>
+    </item>
     <item>
       <title>Memora: 추상화와 구체성을 함께 잡는 에이전트의 장기 기억 구조에 대한 연구 (feat. Microsoft Research)</title>
       <link>https://discuss.pytorch.kr/t/memora-feat-microsoft-research/11069</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ornith-1-0-llm-feat-deepreinforce/10951">PyTorch Korea</source>
       <guid isPermaLink="false">58065d0bc66a20427415fe65ce66c424</guid>
-    </item>
-    <item>
-      <title>agentgateway: MCP와 A2A, LLM 트래픽을 하나로 묶는 AI 에이전트용 오픈소스 게이트웨이</title>
-      <link>https://discuss.pytorch.kr/t/agentgateway-mcp-a2a-llm-ai/10957</link>
-      <description>agentgateway 소개 AI 에이전트가 실제 업무에 투입되면서, 에이전트는 더 이상 혼자 동작하지 않습니다. 에이전트끼리 작업을 주고받고(agent-to-agent), 내부 시스템이나 도구를 호출하고(agent-to-tool), 외부 LLM에 추론을 요청합니다(agent-to-LLM).</description>
-      <pubDate>Sun, 28 Jun 2026 12:30:35 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agentgateway-mcp-a2a-llm-ai/10957">PyTorch Korea</source>
-      <guid isPermaLink="false">aa62f798c46672fa81e5aab4921b3643</guid>
-    </item>
-    <item>
-      <title>SIA(Self-Improving AI): 하네스와 모델 가중치를 함께 진화시키는 자기 개선 AI 에이전트 루프에 대한 연구 (feat. Hexo Labs)</title>
-      <link>https://discuss.pytorch.kr/t/sia-self-improving-ai-ai-feat-hexo-labs/10950</link>
-      <description>SIA(Self-Improving AI) 연구 소개 새로운 분야를 처음 배우는 신입 엔지니어를 떠올려 봅시다. 처음에는 선배가 정리해 준 체크리스트와 도구 사용법을 따라 하며 일을 해냅니다. 시간이 지나면 더 나은 작업 순서나 자동화 스크립트를 스스로 만들어 외부 절차를 다듬습니다.</description>
-      <pubDate>Sun, 28 Jun 2026 08:30:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sia-self-improving-ai-ai-feat-hexo-labs/10950">PyTorch Korea</source>
-      <guid isPermaLink="false">34001fa24b69c8f29a7cd82787435ac6</guid>
     </item>
   </channel>
 </rss>

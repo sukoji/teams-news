@@ -5,9 +5,180 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 06 Jul 2026 09:08:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 14:13:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>훈련 정책 최적화의 신기루: LLM 강화 학습의 실제 목표인 단조로운 추론 정책</title>
+      <link>https://huggingface.co/papers/2606.29526</link>
+      <description>대규모 언어 모델에 대한 강화 학습의 훈련-추론 불일치는 불안정성을 초래하며, 이는 일관된 정책 개선을 보장하는 새로운 정책 최적화 목표 및 프레임워크를 통해 해결됩니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.29526">Hugging Face Papers</source>
+      <guid isPermaLink="false">ff407cbe3f1e4da0bf8a14fe70c19c97</guid>
+    </item>
+    <item>
+      <title>Google Stitch 살펴보기: 프롬프트로 UI를 만드는 Google Labs 디자인 도구와 Stitch SDK 출시 (MCP, DESIGN.md, Agent Skills)</title>
+      <link>https://discuss.pytorch.kr/t/google-stitch-ui-google-labs-stitch-sdk-mcp-design-md-agent-skills/11094</link>
+      <description>Google Stitch 소개 Google Stitch는 Google Labs가 만든 AI 기반 UI 디자인 도구입니다. 자연어 프롬프트, 손으로 그린 와이어프레임, 스크린샷을 받아 편집 가능한 사용자 인터페이스와 실제로 동작하는 프론트엔드 코드(HTML/CSS)로 바꿔줍니다.</description>
+      <pubDate>Mon, 06 Jul 2026 12:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-stitch-ui-google-labs-stitch-sdk-mcp-design-md-agent-skills/11094">PyTorch Korea</source>
+      <guid isPermaLink="false">352714b66102f6b97f14ce5a761455ca</guid>
+    </item>
+    <item>
+      <title>AGE: 그래프 검색 증강 생성에서 그래프 임베딩을 위한 적응형 마스킹</title>
+      <link>https://huggingface.co/papers/2607.00052</link>
+      <description>GraphRAG는 LLM용 그래프 구조 데이터를 통합하여 RAG를 확장하고, Transformer 기반 자기 지도 학습을 사용하는 AGE(그래프 임베딩)에 대한 적응형 마스킹을 통해 잠재 기능 오정렬을 해결합니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00052">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab7f16235f3a786200159c150c73133f</guid>
+    </item>
+    <item>
+      <title>[AI 해커톤 후기] 코드와 문서만 읽은 LLM은 어떻게 사람과 같은 팀을 1위로 골랐을까</title>
+      <link>https://d2.naver.com/helloworld/2541696</link>
+      <description>2026년 봄, 네이버는 개발 직군 중심으로 열리던 Engineering Day를 모든 직군이 함께하는 '모두의 Engineering Day'로 넓혔습니다. 행사의 마지막 순서는 AI 해커톤이었습니다. 목표는 단순히 AI를 써보는 것이 아니라, 사람이 하던 반복 업무를 AI로 줄이고 그 과정에서 'AI native로 일해 보는 경험'을 만드는 것이었습니다.</description>
+      <pubDate>Mon, 06 Jul 2026 21:47:16 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/2541696">NAVER D2</source>
+      <guid isPermaLink="false">132451ebe5ce7daa002c60a5295564dc</guid>
+    </item>
+    <item>
+      <title>OpenUI: JSON보다 적은 토큰으로 UI를 스트리밍하는 생성형 UI 오픈 표준</title>
+      <link>https://discuss.pytorch.kr/t/openui-json-ui-ui/11072</link>
+      <description>OpenUI 소개 LLM이 화면을 직접 그려주는 생성형 UI(Generative UI)는 보통 모델이 JSON으로 UI 구조를 출력하고, 클라이언트가 그 JSON을 파싱해 컴포넌트를 렌더링하는 방식으로 구현됩니다. 문제는 JSON 자체가 중괄호·따옴표·키 이름을 반복하는 장황한 포맷이라, 화면 하나를 표현하는 데도 토큰을 상당히 소모한다는 점입니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:30:24 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openui-json-ui-ui/11072">PyTorch Korea</source>
+      <guid isPermaLink="false">02b3f0b20d80330435452e5242f1ee47</guid>
+    </item>
+    <item>
+      <title>Embodied.cpp: 이기종 로봇에 구현된 AI 모델의 휴대용 추론 런타임</title>
+      <link>https://huggingface.co/papers/2607.02501</link>
+      <description>Embodied.cpp는 모듈식 실행 레이어와 최적화된 추론을 통해 이기종 에지 장치 전반에 비전-언어-액션 및 월드-액션 모델을 효율적으로 배포할 수 있는 휴대용 C++ 런타임입니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02501">Hugging Face Papers</source>
+      <guid isPermaLink="false">4184bbf80d72a426dc5adbe6319c362f</guid>
+    </item>
+    <item>
+      <title>지식재산처, 특허 빅데이터로 국가 R&amp;D 전략 지원…AI·우주·바이오 미래기술 한눈에</title>
+      <link>https://www.etnews.com/20260706000189</link>
+      <description>지식재산처가 인공지능(AI), 우주, 바이오 등 미래 핵심 산업 기술 경쟁력 확보를 위해 특허 빅데이터 분석에 나선다. 글로벌 기술 패권 경쟁이 치열해지는 가운데 특허 정보를 기반으로 국가 연구개발(R&amp;D) 전략 수립과 첨단산업 육성을 지원한다. 지식재산처는 '2026년 특허 빅데이터 기반 산업혁신 지원사업'을 추진한다고 6일 밝혔다.</description>
+      <pubDate>Mon, 06 Jul 2026 11:21:25 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000189">전자신문 IT</source>
+      <guid isPermaLink="false">4741ad6103dc453bfb6eb6623be33337</guid>
+    </item>
+    <item>
+      <title>농식품부 '푸드테크산업 기본계획' 첫 수립…조리로봇부터 수출까지 청사진</title>
+      <link>https://www.etnews.com/20260706000284</link>
+      <description>농림축산식품부가 푸드테크를 차세대 성장산업으로 육성하기 위한 첫 법정 기본계획을 내놨다. 지역 특화 클러스터를 구축하고 민간 투자와 전문인력 양성을 확대하는 한편 AI·로봇을 접목한 식품 제조 혁신과 K푸드 수출 고도화를 추진한다. 규제개선 창구를 일원화하고 산업분류 체계도 새로 마련해 푸드테크 산업 기반을 본격 구축한다.</description>
+      <pubDate>Mon, 06 Jul 2026 14:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000284">전자신문 IT</source>
+      <guid isPermaLink="false">b0f25a0ba9fbd9939d009939be487450</guid>
+    </item>
+    <item>
+      <title>지티원,  AI 거버넌스 핵심 신기술 특허 2건 출원…“AI 라이프사이클 관리 표준화 선도”</title>
+      <link>https://www.etnews.com/20260706000251</link>
+      <description>인공지능(AI) 거버넌스 전문 기업 지티원(대표 이수용)은 자사 AI 거버넌스 솔루션 'AI Workbench'의 핵심 경쟁력을 강화할 신기술 특허 2건을 출원하며, AI 거버넌스 시장 공략을 가속화한다고 6일 밝혔다. 이번에 출원한 특허는 △프로세스·체크리스트·산출물 매핑 기반의 AI 라이프사이클 컴플라이언스 관리 시스템과 △AI 유형별 지표 자동 매핑 기반 통합 모니터링 시스템이다.</description>
+      <pubDate>Mon, 06 Jul 2026 13:15:36 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000251">전자신문 IT</source>
+      <guid isPermaLink="false">86fae3dab5057f9aec406aa59a845b90</guid>
+    </item>
+    <item>
+      <title>메모리 가격 급등세 둔화…소비자 구매력 한계에 기업용과 ‘양극화’</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=212454</link>
+      <description>AI 서버 시장의 폭발적인 수요에 힘입어 메모리 반도체 가격 상승세가 3분기에도 이어질 전망이다. 다만, 지난 2분기 60%에 달했던 가파른 가격 급등은 한풀 꺾일 것으로 보인다.</description>
+      <pubDate>Mon, 06 Jul 2026 12:20:17 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=212454">AI Times</source>
+      <guid isPermaLink="false">f5cbfb48f9ccab2244df6a55658c4659</guid>
+    </item>
+    <item>
+      <title>[HCT 2.0, 대한민국 미래 전략산업의 신뢰를 완성하는 기술 파트너](1)방산·우주위성 등 국가 전략사업 동반자</title>
+      <link>https://www.etnews.com/20260706000243</link>
+      <description>경기도 이천에 위치한 국제공인시험·교정기관 에이치시티(HCT). 시험동 안으로 들어서자 대형 시험설비가 쉼 없이 가동되고 있었다. 연구원들은 새롭게 개발된 첨단 제품을 다양한 시험장비에 연결해 성능과 안전성을 확인하느라 분주했다.</description>
+      <pubDate>Mon, 06 Jul 2026 13:13:52 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000243">전자신문 IT</source>
+      <guid isPermaLink="false">8203b800e231b67ee44caca4e48f2915</guid>
+    </item>
+    <item>
+      <title>“SK하이닉스, 10일 美 나스닥에 44조 규모 ADR 상장…외국기업 역대 최대”</title>
+      <link>https://www.etnews.com/20260706000231</link>
+      <description>SK하이닉스가 약 44조원 규모의 미국예탁증서(ADR)를 미국 나스닥에 상장하며 외국 기업 기준 역대 최대 규모의 미국 증시 상장에 도전한다. 단순한 자금 조달을 넘어 인공지능(AI) 반도체 시장에서 글로벌 경쟁력을 강화하고 미국 투자자 저변을 확대하기 위한 전략이라는 평가가 나온다.</description>
+      <pubDate>Mon, 06 Jul 2026 13:03:30 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000231">전자신문 IT</source>
+      <guid isPermaLink="false">4952cd6f401203081bd7a36fc58af0cf</guid>
+    </item>
+    <item>
+      <title>엔코아, IBK기업은행 AI 데이터 포털 구축…임직원 리터러시 강화</title>
+      <link>https://zdnet.co.kr/view/?no=20260706113730</link>
+      <description>[지디넷코리아]엔코아가 금융권 데이터 포털 구축을 통해 데이터 기반 의사결정과 인공지능(AI) 활용 지원에 나섰다.</description>
+      <pubDate>Mon, 06 Jul 2026 11:37:53 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260706113730">ZDNet Korea</source>
+      <guid isPermaLink="false">d94d010cc0667967d4ce2252101ec310</guid>
+    </item>
+    <item>
+      <title>AI 에이전트 보안: 다계층 에이전트 레드팀 구성을 위한 통합 프레임워크</title>
+      <link>https://huggingface.co/papers/2606.31227</link>
+      <description>AI-Infra-Guard는 인프라, 프로토콜, 에이전트 동작 및 모델 계층을 포괄하는 계층형 탐지 패러다임을 통해 AI 인프라 보안을 해결하는 오픈 소스 프레임워크입니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31227">Hugging Face Papers</source>
+      <guid isPermaLink="false">9bce97fe4258bac6d51a960253f7494c</guid>
+    </item>
+    <item>
+      <title>SNS에 아이 사진 올렸다가…“AI 성착취물에 나와”</title>
+      <link>https://www.etnews.com/20260706000139</link>
+      <description>인공지능(AI)을 활용해 아동 성착취물을 제작하는 범죄가 늘어나자 영국 당국이 부모와 보호자들에게 자녀 사진을 온라인에 공개하지 말 것을 당부했다. 3일(현지시간) 영국 가디언은 영국 국가범죄청(NCA)과 인터넷 감시기관 인터넷워치재단(IWF)이 AI를 이용한 아동 성착취물 확산을 막기 위해 새로운 온라인 안전 지침을 마련했다고 전했다.</description>
+      <pubDate>Mon, 06 Jul 2026 10:35:04 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000139">전자신문 IT</source>
+      <guid isPermaLink="false">fc30d43dc983430dd934a5d6d4089cd8</guid>
+    </item>
+    <item>
+      <title>KT, 3년간 12조 투입…AX플랫폼 기업 도약 총력</title>
+      <link>https://www.etnews.com/20260706000105</link>
+      <description>KT가 차세대 네트워크·정보보안에 3년간 12조원을 투입하는 한편 토큰 팩토리·스테이블코인 기반 금융 플랫폼 등 신사업 확장에 나선다. 박윤영 대표 체제에서 차세대 네트워크에 기반한 단단한 본질과 AI 등 혁신 성장 동력을 확보, AX 플랫폼 컴퍼니로 도약하겠다는 방침이다.</description>
+      <pubDate>Mon, 06 Jul 2026 10:04:40 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000105">전자신문 IT</source>
+      <guid isPermaLink="false">c3b53a30e7e84185446b4a1d133ee72d</guid>
+    </item>
+    <item>
+      <title>구윤철 “AI 에이전틱 커머스 선점해야…서비스산업기본법 제정 시급”</title>
+      <link>https://www.etnews.com/20260706000096</link>
+      <description>구윤철 부총리 겸 재정경제부 장관이 서비스산업 경쟁력 강화를 위해 AI 에이전틱 커머스 시장 선점과 서비스산업발전기본법 제정을 추진하겠다고 6일 밝혔다. 재정경제부는 이날 서울 웨스틴조선에서 민관합동 서비스산업 경쟁력 강화 TF 2차 회의를 개최하고 AI·융합 시대 K-서비스산업 발전전략과 K-컬처 글로벌 확산 전략, 서비스산업 활성화 정책 과제 등을 논의했다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:50:04 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260706000096">전자신문 IT</source>
+      <guid isPermaLink="false">4e758b765de07fe43135b172a333a018</guid>
+    </item>
+    <item>
+      <title>VLA-Corrector: 적응형 작업 지평선을 위한 경량 감지 및 수정 추론</title>
+      <link>https://huggingface.co/papers/2607.01804</link>
+      <description>VLA-Corrector는 적응형 교정 재계획을 가능하게 하는 경량 잠재 공간 비전 모니터를 도입하여 비전-언어-동작 모델의 동작 청크 제한 사항을 해결하고 제어의 견고성을 향상시킵니다.</description>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01804">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ac0c94bc105b10bf6f5f37042b93ab7</guid>
+    </item>
+    <item>
+      <title>덜한 것이 더 낫다, 대체로</title>
+      <link>https://news.hada.io/topic?id=31170</link>
+      <description>AI로 무엇이든 빠르게 만들 수 있는 시대에, 양을 늘리는 것이 더 나은 결과로 이어지지 않으며 의도 와 극도의 세심함 으로 만든 제품만이 오래 살아남음 뛰어난 제품의 핵심은 단순함 과 명료함 이며, 이는 뇌의 인지 부하를 줄이...</description>
+      <pubDate>Mon, 06 Jul 2026 11:20:02 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=31170">GeekNews</source>
+      <guid isPermaLink="false">e0c4f59f897f59eeee5a671ee9a54bee</guid>
+    </item>
     <item>
       <title>simonlin1212/Vibe-Research — Vibe-Research: 귀하의 개인 거래 조사 에이전트 · A주/미국 주식/홍콩 주식에 대한 개인 투자 조사 에이전트: 일일 리뷰, 정보 레이더, 개별 주식 데이터, 섹터 센터, 내 포지션,</title>
       <link>https://github.com/simonlin1212/Vibe-Research</link>
@@ -286,177 +457,6 @@
       <category>news</category>
       <source url="https://www.etnews.com/20260703000111">전자신문 IT</source>
       <guid isPermaLink="false">55c44fe21a78395a619c558d6e56f30f</guid>
-    </item>
-    <item>
-      <title>BYD코리아, 상반기 1.1만대 뚫었다…'돌핀' 수입차 3위 돌풍에 폭풍성장</title>
-      <link>https://www.etnews.com/20260703000115</link>
-      <description>BYD코리아가 올해 상반기에만 지난해 연간 실적의 두 배에 달하는 판매고를 올리며 수입차 시장 판도를 뒤흔들고 있다. 수입차 시장이 전기차 중심으로 급격히 재편되는 흐름 속에서, BYD코리아는 실속형 소비자들의 수요에 부응하며 폭풍성장하고 있다. 한국수입자동차협회(KAIDA)에 따르면 BYD코리아의 올해 상반기(1~6월) 누적 판매량은 1만1675대로 집계됐다.</description>
-      <pubDate>Sun, 05 Jul 2026 15:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260703000115">전자신문 IT</source>
-      <guid isPermaLink="false">484c0f8b936eb8d4cec631815e675635</guid>
-    </item>
-    <item>
-      <title>[뉴스줌인]농업 데이터 주권 확보…농림위성 활용시대 열린다</title>
-      <link>https://www.etnews.com/20260705000015</link>
-      <description>농림위성 발사로 농업 분야도 '위성 데이터 주권' 시대를 맞게 됐다. 지금까지 유럽 등 해외 위성영상에 의존해 농지를 조사하고 작황을 분석했다면 앞으로는 우리 위성이 수집한 데이터를 기반으로 농정 전반의 의사결정이 이뤄진다. 정부는 위성 데이터를 민간에도 단계적으로 개방해 한국형 농업 인공지능(AI) 생태계 구축에도 속도를 낸다는 구상이다.</description>
-      <pubDate>Sun, 05 Jul 2026 13:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260705000015">전자신문 IT</source>
-      <guid isPermaLink="false">aa100635e7d5b8153541446095638c37</guid>
-    </item>
-    <item>
-      <title>KAIST, AI 에이전트의 전력 비용 규명..."챗봇보다 최대 136배 에너지 사용"</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=212437</link>
-      <description>한국과학기술연구원(KAIST) 연구진이 AI 에이전트의 계산 비용과 에너지 소비를 분석한 결과, 기존 생성 AI보다 질문 한 건당 최대 136.5배 많은 에너지를 사용하는 것으로 나타났다.</description>
-      <pubDate>Sun, 05 Jul 2026 12:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=212437">AI Times</source>
-      <guid isPermaLink="false">1a086deecbaf122717319b5e49a76e5e</guid>
-    </item>
-    <item>
-      <title>gemini-web2api: 웹 채팅 화면을 OpenAI 호환 API로 바꾸는 단일 파일 프록시</title>
-      <link>https://discuss.pytorch.kr/t/gemini-web2api-openai-api/11075</link>
-      <description>gemini-web2api 소개 Google Gemini의 공식 API를 쓰려면 Google AI Studio나 Vertex AI에 가입하고 API 키를 발급받아야 하며, 사용량에 따라 과금됩니다. gemini-web2api는 이 과정을 건너뛰고, 브라우저로 접속하는 Gemini 웹 채팅 화면 자체를 OpenAI 호환 REST API처럼 쓸 수 있게 바꿔주는 파이썬 스크립트입니다.</description>
-      <pubDate>Sun, 05 Jul 2026 09:30:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gemini-web2api-openai-api/11075">PyTorch Korea</source>
-      <guid isPermaLink="false">aea0ef2821746ebe89a13fae1cb1889b</guid>
-    </item>
-    <item>
-      <title>금오공대·포항공대·한양대, AI중심대학 선정…경쟁률 10대 1</title>
-      <link>https://www.etnews.com/20260703000194</link>
-      <description>금오공대, 포항공대, 한양대가 정부의 'AI 중심대학' 지원 사업에 신규 선정됐다. 대학 조직과 커리큘럼을 인공지능(AI) 중심으로 전면 개편하고, 산업 현장의 디지털 전환(AX)을 주도할 융합 인재 양성에 본격적으로 나선다. 5일 과학기술정보통신부에 따르면 이번 신규 AI 중심대학 공모는 기존 소프트웨어(SW) 중심대학 사업에 참여하지 않았던 대학을 대상으로 진행됐다.</description>
-      <pubDate>Sun, 05 Jul 2026 12:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260703000194">전자신문 IT</source>
-      <guid isPermaLink="false">754d72d716c6d88164af5740493cc6f7</guid>
-    </item>
-    <item>
-      <title>세계 AI 지출, 3년 뒤 7245조원…“수백 에이전트 사용시 통제 위기”</title>
-      <link>https://www.etnews.com/20260705000047</link>
-      <description>세계 각국의 인공지능(AI) 지출이 3년 뒤 4조 7000억 달러(약 7245조원)에 달할 것이라는 전망이 나왔다. 기업이 업무 효율화를 위해 1000개 이상의 AI 에이전트를 도입하는 등 사용량이 폭발적으로 늘어날 것으로 예상되기 때문이다. 그러나 기술의 급격한 확산에 비례해 기업 내부의 AI 통제권 상실이라는 경고도 나오고 있다.</description>
-      <pubDate>Sun, 05 Jul 2026 11:57:44 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260705000047">전자신문 IT</source>
-      <guid isPermaLink="false">78f01c2a2d4883899573d8e12b1e88bb</guid>
-    </item>
-    <item>
-      <title>삼성 무풍에어컨, 10년 간 2000만대 팔았다</title>
-      <link>https://zdnet.co.kr/view/?no=20260705081511</link>
-      <description>[지디넷코리아]삼성전자 '무풍에어컨'이 올해 출시 10년을 맞아 글로벌 누적 판매량 2000만대를 돌파했다.삼성전자는 무풍에어컨이 직바람 없는 냉방 기술과 인공지능(AI) 성능을 앞세워 최근 유럽, 아시아, 중남미 등에서 대규모 B2B(기업 간 거래) 수주 계약을 이뤘다고 5일 밝혔다. 올해 초여름 폭염이 엄습한 유럽에서는 호텔을 중심으로 상업용 공조 솔루션 공급이 활발하다.</description>
-      <pubDate>Sun, 05 Jul 2026 11:00:02 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260705081511">ZDNet Korea</source>
-      <guid isPermaLink="false">ed33c4863a89dd20a35d506a67f0de33</guid>
-    </item>
-    <item>
-      <title>Linux htop/top 화면에 보이는 값들 해설 (2019)</title>
-      <link>https://news.hada.io/topic?id=31136</link>
-      <description>Ubuntu Server 16.04 x64의 htop 화면 을 출발점으로 uptime, load average, Tasks, PID, 프로세스 트리, 상태, CPU 시간, 우선순위, 메모리 지표가 실제로 무엇을 뜻하는지 /proc 와 명령어 출력으로 추적함 화면의 많은 값은 procfs 와 /etc/pas...</description>
-      <pubDate>Sun, 05 Jul 2026 09:49:42 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=31136">GeekNews</source>
-      <guid isPermaLink="false">1f51707af49cec1e5da0594b245572d2</guid>
-    </item>
-    <item>
-      <title>웹 개발자를 위한 Safari MCP 서버</title>
-      <link>https://news.hada.io/topic?id=31131</link>
-      <description>Safari Technology Preview 247의 Safari MCP 서버 는 코딩 에이전트를 실제 Safari 창에 연결해, 웹 개발·디버깅 중 브라우저에서 보이는 상태를 직접 확인하게 함 에이전트는 DOM , 네트워크 요청, 스크린샷, 콘솔 출력에 접근해 코드만으로는 알기 어려운 렌더링 ...</description>
-      <pubDate>Sun, 05 Jul 2026 08:01:38 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=31131">GeekNews</source>
-      <guid isPermaLink="false">bd33345cd513a3662b2a634a75d0bde6</guid>
-    </item>
-    <item>
-      <title>[단독] '미토스 쇼크'에 금융권 AI 보안 재정비…KB국민은행, 내부통제 고도화</title>
-      <link>https://www.etnews.com/20260703000108</link>
-      <description>앤트로픽의 고성능 인공지능(AI) '미토스' 공개를 계기로 금융권이 생성형 AI 보안체계 고도화에 속도를 내고 있다. 금융보안원이 고성능 AI 시대에 대응하기 위한 금융권 보안 가이드라인을 처음 제시한 가운데, KB국민은행이 생성형 AI 업무환경 전반에 대한 보안체계 재정비에 착수했다. 5일 금융권에 따르면 KB국민은행은 클라우드 기반 업무 환경의 보안통제 체계를 재정비하고 있다.</description>
-      <pubDate>Sun, 05 Jul 2026 02:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260703000108">전자신문 IT</source>
-      <guid isPermaLink="false">3af834d76372680f59edd697142df234</guid>
-    </item>
-    <item>
-      <title>오른손잡이도 예외 없었다…사람이 무의식 중에 왼쪽으로 걷는 이유는?</title>
-      <link>https://www.etnews.com/20260703000278</link>
-      <description>사람은 주변에 다른 사람이 전혀 없는 상황에서도 걸을 때 자연스럽게 왼쪽 방향으로 치우치는 경향이 있다는 연구 결과가 나왔다. 1일(현지시간) 뉴욕포스트는 스페인 나바라대학교 연구진이 국제학술지 '네이처 커뮤니케이션스(Nature Communications)'에 발표한 연구를 인용해, 인간에게는 시계 반대 방향으로 이동하려는 선천적인 보행 특성이 확인됐다고 전했다.</description>
-      <pubDate>Sat, 04 Jul 2026 22:30:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260703000278">전자신문 IT</source>
-      <guid isPermaLink="false">f8f6fb823282b91cb88c105e846d3f52</guid>
-    </item>
-    <item>
-      <title>“영양 섭취·복제에 생존 경쟁까지”…자연 세포 같은 '인공 세포' 최초 개발</title>
-      <link>https://www.etnews.com/20260702000405</link>
-      <description>무생물인 화학 성분만을 활용해 자연 세포처럼 스스로 영양을 섭취하고 성장하며 복제까지 할 수 있는 인공 세포가 세계 최초로 개발됐다. 1일(현지시간) 미국 CNN 방송에 따르면 미네소타 대학교의 합성 생물학자인 케이트 아다말라 교수 연구팀은 미국 기반 비영리 오픈소스 연구 기구 '바이오틱'을 통해 인공 세포인 일명 '스퍼드셀(SpudCell)'의 작동 원리를 담은 논문을 공개했다.</description>
-      <pubDate>Sat, 04 Jul 2026 22:30:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260702000405">전자신문 IT</source>
-      <guid isPermaLink="false">bfeae1c3a7bb203d0a84f1c459e8ceea</guid>
-    </item>
-    <item>
-      <title>Leanstral 1.5: 모두를 위한 증명 풍요</title>
-      <link>https://news.hada.io/topic?id=31124</link>
-      <description>형식 검증을 실제 개발 작업에 더 가깝게 쓰려는 흐름 속에서, Mistral AI가 Lean 4 용 Apache-2.0 모델 Leanstral 1.5 를 공개함 모델은 119B 총 파라미터 중 6B만 활성화하며, 중간 학습·지도 미세조정·CISPO 강화학습을 거쳐 증명 작성과 코드 저장소 작업을 함께...</description>
-      <pubDate>Sun, 05 Jul 2026 01:44:33 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=31124">GeekNews</source>
-      <guid isPermaLink="false">6379d21c0734eaa23fb06d679020e959</guid>
-    </item>
-    <item>
-      <title>ai4s-research/open-science — Open Science — 과학자를 위한 개방형 AI 워크벤치입니다. Claude Science의 오픈 소스 대안: 로컬</title>
-      <link>https://github.com/ai4s-research/open-science</link>
-      <description>Open Science — 과학자들을 위한 개방형 AI 작업대입니다. Claude Science의 오픈 소스 대안: Tauri + MCP + 에이전트 기술을 기반으로 구축된 로컬 우선, 모델 독립적, 재현 가능한 AI 연구 데스크탑(macOS 및 Windows).</description>
-      <pubDate>Sun, 05 Jul 2026 00:29:23 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/ai4s-research/open-science">GitHub Trending</source>
-      <guid isPermaLink="false">17ba15088de4f4848c95442ef8e671f1</guid>
-    </item>
-    <item>
-      <title>7-e1even/learn-agent — 살아남은 AI 에이전트를 처음부터 작성합니다. 메커니즘은 실제 제품 Reina | 처음부터 코딩 에이전트 구축 - Claude Code / Codex / 방법</title>
-      <link>https://github.com/7-e1even/learn-agent</link>
-      <description>Claude Code / Codex / Cursor가 실제로 내부적으로 작동하는 방식과 같이 코딩 에이전트를 처음부터 구축합니다. 15개의 실행 가능한 레슨, 제로 딥.</description>
-      <pubDate>Sat, 04 Jul 2026 15:42:29 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/7-e1even/learn-agent">GitHub Trending</source>
-      <guid isPermaLink="false">71ff613647ab167cc5685170afe63834</guid>
-    </item>
-    <item>
-      <title>redevops-io/context-runtime — 컨텍스트 런타임 — LLM 컨텍스트를 위한 데이터베이스 쿼리 플래너입니다. 모델이 응답하기 전에 무엇을 보는지 결정합니다.</title>
-      <link>https://github.com/redevops-io/context-runtime</link>
-      <description>Context Runtime — LLM 컨텍스트를 위한 데이터베이스 쿼리 플래너입니다. 모델이 응답하기 전에 무엇을 보는지 결정합니다. 이를 계획하고, 재사용된 기판을 통해 실행하고, 결과를 통해 학습합니다.</description>
-      <pubDate>Sun, 05 Jul 2026 00:44:53 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/redevops-io/context-runtime">GitHub Trending</source>
-      <guid isPermaLink="false">7f65979f62351d9548a318c5d111e495</guid>
-    </item>
-    <item>
-      <title>oxbshw/Agent-Span — AI 에이전트를 위한 웹 액세스 게이트웨이 — 채널 52개, MCP 도구 92개, SDK 9개, 자가 복구 백엔드, asy</title>
-      <link>https://github.com/oxbshw/Agent-Span</link>
-      <description>AI 에이전트를 위한 웹 액세스 게이트웨이 — 채널 52개, MCP 도구 92개, SDK 9개, 자가 복구 백엔드, 비동기 Rust</description>
-      <pubDate>Thu, 02 Jul 2026 20:56:30 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/oxbshw/Agent-Span">GitHub Trending</source>
-      <guid isPermaLink="false">c9631abe1ae89e41c7ebe33580fce74f</guid>
-    </item>
-    <item>
-      <title>luojieLLMaaS/haxiv — CPU, Apple MLX, Metal, CUDA의 LLM(Llama/Gemma/Qwen)을 위한 딥 러닝 프레임워크입니다. PyTorch/ONN 로드</title>
-      <link>https://github.com/luojieLLMaaS/haxiv</link>
-      <description>CPU, Apple MLX, Metal, CUDA의 LLM(Llama/Gemma/Qwen)을 위한 딥 러닝 프레임워크입니다. 제로 변환으로 PyTorch/ONNX/TF/GGUF를 로드합니다.</description>
-      <pubDate>Sat, 04 Jul 2026 18:59:14 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/luojieLLMaaS/haxiv">GitHub Trending</source>
-      <guid isPermaLink="false">fdd3c0e19412d46350cabea03d3740f0</guid>
-    </item>
-    <item>
-      <title>fafa-ai-data-lab/ai-data-analyst-agent — 신뢰할 수 있고 추적 가능하며 자체 성장하는 AI 데이터 분석 에이전트를 위한 방법론 + 템플릿:metric-fi</title>
-      <link>https://github.com/fafa-ai-data-lab/ai-data-analyst-agent</link>
-      <description>신뢰할 수 있고 추적 가능하며 자체 성장하는 AI 데이터 분석 에이전트를 위한 방법론 + 템플릿: 지표 우선, 독립적인 읽기 전용 검증 및 자체 성장 규칙 라이브러리.</description>
-      <pubDate>Tue, 30 Jun 2026 11:22:40 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/fafa-ai-data-lab/ai-data-analyst-agent">GitHub Trending</source>
-      <guid isPermaLink="false">614dff17590e36e1520dc5c73eed6200</guid>
     </item>
   </channel>
 </rss>
