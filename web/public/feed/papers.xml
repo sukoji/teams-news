@@ -5,9 +5,144 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 07 Jul 2026 12:34:25 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 16:41:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLM-as-a-Verifier: 범용 검증 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.05391</link>
+      <description>LLM-as-a-Verifier는 다양한 벤치마크에서 솔루션 정확성 평가 및 에이전트 성능을 개선하기 위해 여러 차원에 걸쳐 확장되는 확률적 검증 프레임워크를 도입합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05391">Hugging Face Papers</source>
+      <guid isPermaLink="false">13a26f4fcee956e7c952f0a3d7a71f0c</guid>
+    </item>
+    <item>
+      <title>UI-MOPD: 지속적인 GUI 에이전트 학습을 위한 다중 플랫폼 온 정책 증류</title>
+      <link>https://huggingface.co/papers/2607.04425</link>
+      <description>Uni-GUI 데이터 세트와 UI-MOPD 방법은 다중 교사 기반 정책 증류를 통해 제한된 데이터 및 플랫폼별 기능 저하를 해결하여 크로스 플랫폼 GUI 에이전트 교육을 가능하게 합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04425">Hugging Face Papers</source>
+      <guid isPermaLink="false">19d9fd44486413f117b3e9f58c3acefb</guid>
+    </item>
+    <item>
+      <title>표현 자동 인코더를 사용한 멀티플레이어 대화형 세계 모델</title>
+      <link>https://huggingface.co/papers/2607.05352</link>
+      <description>광범위한 게임플레이 데이터를 기반으로 훈련된 대규모 멀티플레이어 세계 모델은 여러 에이전트의 동작에 걸쳐 일관성을 유지하면서 복잡한 물리 기반 환경에서 안정적인 장거리 롤아웃을 보여줍니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05352">Hugging Face Papers</source>
+      <guid isPermaLink="false">a93a06a2caff483e964a7dcb9665b277</guid>
+    </item>
+    <item>
+      <title>OmniOpt: 최신 최적화 도구의 분류, 기하학 및 벤치마킹</title>
+      <link>https://huggingface.co/papers/2607.04033</link>
+      <description>OmniOpt는 메타 파이프라인 변환, 표준 제한 선형 최소화 오라클 및 크로스 도메인 벤치마크를 시스템에 결합하여 대규모 모델 교육에서 최적화 도구 선택을 위한 통합 프레임워크를 제공합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04033">Hugging Face Papers</source>
+      <guid isPermaLink="false">7b2f1963bbb1c8763369de48b92c235b</guid>
+    </item>
+    <item>
+      <title>dOPSD: 확산 언어 모델을 위한 정책에 따른 자체 증류</title>
+      <link>https://huggingface.co/papers/2607.04428</link>
+      <description>확산형 대형 언어 모델은 사후 학습을 통한 추론 향상에 어려움을 겪지만, 내부 잡음 제거 궤적을 사용한 새로운 정책 자체 증류 방법은 수학적 추론과 공동 작업을 향상시킵니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04428">Hugging Face Papers</source>
+      <guid isPermaLink="false">e65f5b23730031f42094f326121fe4e0</guid>
+    </item>
+    <item>
+      <title>EVA-Client: 실제 로봇에 구현된 정책을 위한 통합 데이터 수집, 추론 및 배포 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.02646</link>
+      <description>EVA-Client는 검사 가능한 실행 워크플로를 갖춘 구성 요소 분리 아키텍처를 통해 실제 로봇 정책 배포, 데이터 수집 및 평가를 통합하는 오픈 소스 프레임워크입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02646">Hugging Face Papers</source>
+      <guid isPermaLink="false">e4e4640742049a0e3de10d6ba6a09e82</guid>
+    </item>
+    <item>
+      <title>CONFLUX: RL 사후 훈련을 통한 3D 흉부-CT 합성을 위한 잠재 확산 모델</title>
+      <link>https://huggingface.co/papers/2607.02998</link>
+      <description>메타데이터 조건화 및 강화 학습 개선을 통해 임상 속성을 제어할 수 있는 동시에 충실도가 높은 결과를 달성하는 흉부 CT 생성을 위한 3D 잠재 확산 모델입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02998">Hugging Face Papers</source>
+      <guid isPermaLink="false">df4c36276c6f11016c4db08cdaf8e05c</guid>
+    </item>
+    <item>
+      <title>PixWorld: 픽셀 공간에서 3D 장면 생성 및 재구성 통합</title>
+      <link>https://huggingface.co/papers/2607.05373</link>
+      <description>PixWorld는 직접적인 이미지 수준 감독 및 형상 인식 기능 정렬을 통해 잠재 공간 방법의 한계를 극복하는 3D 재구성 및 생성을 위한 통합 픽셀 공간 확산 접근 방식을 제시합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05373">Hugging Face Papers</source>
+      <guid isPermaLink="false">d8737097ddd1bbfe08be6ae0ec302e5b</guid>
+    </item>
+    <item>
+      <title>GORGO: 지역 간 네트워크 인식 LLM 서비스를 위한 온라인 튜닝</title>
+      <link>https://huggingface.co/papers/2602.11688</link>
+      <description>GORGO는 새로운 합성 데이터 세트에 대한 진화 전략 튜닝을 통해 네트워크 대기 시간, 사전 채우기 비용 및 대기열 지연을 공동으로 고려하여 LLM 추론 로드 밸런싱을 최적화하는 프록시 아키텍처입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2602.11688">Hugging Face Papers</source>
+      <guid isPermaLink="false">3fa648db84c6fc07ea39738f451f1471</guid>
+    </item>
+    <item>
+      <title>InternVLA-A1.5: 구성 일반화를 위한 통합 이해, 잠재 예측 및 작업</title>
+      <link>https://huggingface.co/papers/2607.04988</link>
+      <description>InternVLA-A1.5는 사전 훈련된 비전 언어 모델을 잠재 공간의 미래 예측과 통합하여 보존된 의미론과 장거리 실행을 통해 효율적인 로봇 조작을 가능하게 합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04988">Hugging Face Papers</source>
+      <guid isPermaLink="false">2d159377cc12bd98c9df8de02ce8f67d</guid>
+    </item>
+    <item>
+      <title>모든 시각적 토큰이 똑같이 중요합니까? 비전 언어 검색을 위한 객체 증거 보존 토큰 병합</title>
+      <link>https://huggingface.co/papers/2607.04605</link>
+      <description>객체 인식 토큰 병합 프레임워크 SaMer는 쿼리 선택 가능한 시각적 증거를 보존하면서 이미지 측 토큰을 압축하여 스토리지를 크게 줄이고 검색 성능을 향상시킵니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04605">Hugging Face Papers</source>
+      <guid isPermaLink="false">972d0c13312f05661afe70674681c63c</guid>
+    </item>
+    <item>
+      <title>몇 단계 생성 모델링을 위한 지각 흐름 매칭</title>
+      <link>https://huggingface.co/papers/2607.03524</link>
+      <description>Perceptual Flow Matching은 지각 특징 공간에서 흐름 일치를 감독하여 효율적인 몇 단계 생성을 가능하게 하고, 샘플링 단계를 줄이고 정확도를 향상시켜 고품질 결과를 달성합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03524">Hugging Face Papers</source>
+      <guid isPermaLink="false">6216342af5f71c2c3d62561fe807ab83</guid>
+    </item>
+    <item>
+      <title>EdgeBench: 실제 환경에서 학습의 확장 법칙 공개</title>
+      <link>https://huggingface.co/papers/2607.05155</link>
+      <description>38,000시간의 실제 에이전트 상호 작용을 분석하면 134개의 다양한 작업에 걸쳐 성능 및 기하급수적인 학습 속도 향상을 위한 로그-시그모이드 스케일링 법칙이 드러납니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05155">Hugging Face Papers</source>
+      <guid isPermaLink="false">d6360dd7dfbe74170d37ccb05745f006</guid>
+    </item>
+    <item>
+      <title>Deform360: 변형 가능한 세계 모델을 위한 대규모 다중 뷰 시각촉각 데이터세트</title>
+      <link>https://huggingface.co/papers/2607.05390</link>
+      <description>변형 가능한 객체 역학을 연구하기 위해 Deform360이라는 대규모 시각촉각 데이터세트가 도입되어 로봇 조작 작업을 위한 2D 비디오와 3D 입자 세계 모델을 비교할 수 있습니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05390">Hugging Face Papers</source>
+      <guid isPermaLink="false">803d3e9a4ee4d1dcb33e9d6b3054bf61</guid>
+    </item>
+    <item>
+      <title>PixCon: 기초 모델 반지도 분할을 위한 순수 양성 대조 학습</title>
+      <link>https://huggingface.co/papers/2607.03068</link>
+      <description>PixCon은 클래스별 메모리 뱅크와 함께 명확한 양성 픽셀 대비 학습을 사용하여 기존 방법보다 정확도를 향상시키는 준지도 의미론적 분할 프레임워크입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03068">Hugging Face Papers</source>
+      <guid isPermaLink="false">74d21693bcd28d7277e45fd9c0e7b97c</guid>
+    </item>
     <item>
       <title>GigaWorld-1: 로봇 정책 평가를 위한 세계 모델 구축을 위한 로드맵</title>
       <link>https://huggingface.co/papers/2607.02642</link>
@@ -322,141 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.31924">Hugging Face Papers</source>
       <guid isPermaLink="false">e235ffefbf551d81fb357605137997b0</guid>
-    </item>
-    <item>
-      <title>AgenticDataBench: 데이터 에이전트를 위한 포괄적인 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.01647</link>
-      <description>세분화된 작업 주석과 기술 기반 적용 범위 지표를 사용하여 다양한 도메인의 데이터 에이전트를 평가하기 위해 AgenticDataBench라는 포괄적인 벤치마크가 도입되었습니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01647">Hugging Face Papers</source>
-      <guid isPermaLink="false">3b2b9e10dc85f52157f19939d2f26173</guid>
-    </item>
-    <item>
-      <title>가중치로서의 프로그램: 퍼지 기능을 위한 프로그래밍 패러다임</title>
-      <link>https://huggingface.co/papers/2607.02512</link>
-      <description>퍼지 함수 프로그래밍은 4B 컴파일러와 0.6B 인터프리터를 사용하여 자연어 사양을 컴팩트한 신경 아티팩트로 컴파일하여 메모리 사용량을 줄이고 더 빠른 추론으로 효율적인 로컬 실행을 달성합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02512">Hugging Face Papers</source>
-      <guid isPermaLink="false">9070c5ba9670178cb8763dcafa5bf7ee</guid>
-    </item>
-    <item>
-      <title>다중 분해능 흐름 매칭: 단계적 샘플링을 통한 훈련이 필요 없는 확산 가속화</title>
-      <link>https://huggingface.co/papers/2607.01642</link>
-      <description>MrFlow는 저해상도 생성과 픽셀 공간 초해상도 및 노이즈 주입을 결합하여 텍스트-이미지 확산을 가속화하여 교육이나 런타임 수정 없이 최대 25배의 속도 향상을 달성합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01642">Hugging Face Papers</source>
-      <guid isPermaLink="false">5ed8fee55213dd7690d233dc8bcfacf1</guid>
-    </item>
-    <item>
-      <title>AgenticSTS: Long-Horizon LLM 에이전트를 위한 제한된 메모리 테스트베드</title>
-      <link>https://huggingface.co/papers/2607.02255</link>
-      <description>장거리 LLM 에이전트를 위한 제한된 계약 접근 방식은 입력된 검색을 사용하여 새로운 프롬프트를 조합하여 메모리 구성 요소에 대한 격리된 분석을 가능하게 하고 복잡한 의사 결정 프로세스에서 향상된 성능을 보여줍니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02255">Hugging Face Papers</source>
-      <guid isPermaLink="false">acfb6ffc2bf9d5361b40524f7bd4926f</guid>
-    </item>
-    <item>
-      <title>하이브리드 주의 모델로 변신</title>
-      <link>https://huggingface.co/papers/2606.30562</link>
-      <description>FlashMorph는 예산이 제한된 최적화 문제로 하이브리드 레이어 선택을 공식화하는 효율적인 레이어 선택 방법으로, 변형 가능한 모델과 선형화 정규화를 사용하여 긴 컨텍스트 효율성을 향상시킵니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.30562">Hugging Face Papers</source>
-      <guid isPermaLink="false">d338126b7a5f1f5d820e92d68dd2a325</guid>
-    </item>
-    <item>
-      <title>AnyGroundBench: 비전 언어 모델의 비디오 접지를 위한 전문 도메인 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.02269</link>
-      <description>비전-언어 모델은 전문화된 시공간 비디오 기반 작업에서 도메인 적응에 어려움을 겪으며 제로 샷 일반화 및 상황 내 학습 기능의 한계를 강조합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02269">Hugging Face Papers</source>
-      <guid isPermaLink="false">60292d274f1a9bce465075616843c09a</guid>
-    </item>
-    <item>
-      <title>SRA에서 자체 흐름으로: 데이터 확대 또는 자체 감독?</title>
-      <link>https://huggingface.co/papers/2607.02508</link>
-      <description>연구에서는 확산 변환기의 자체 정렬 방법 뒤에 있는 메커니즘을 조사하여 성능 향상이 주로 토큰 간보다는 노이즈 차원에 따른 데이터 증대에서 비롯된다는 사실을 발견했습니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02508">Hugging Face Papers</source>
-      <guid isPermaLink="false">a23678ecfef6bd7a8035218e77ff03e1</guid>
-    </item>
-    <item>
-      <title>분포별 보상을 통한 시각적 생성 모델 최적화</title>
-      <link>https://huggingface.co/papers/2607.02291</link>
-      <description>시각적 생성을 위한 새로운 강화 학습 프레임워크는 분포별 보상을 사용하여 이미지 다양성과 품질을 향상시키는 동시에 모드 붕괴 및 계산 효율성 문제를 해결합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02291">Hugging Face Papers</source>
-      <guid isPermaLink="false">440fc1a198881eac7a9aa88cc6670485</guid>
-    </item>
-    <item>
-      <title>검색 에이전트가 질문해야 하는 경우: 설명 인식 심층 검색을 위한 DiscoBench</title>
-      <link>https://huggingface.co/papers/2606.27669</link>
-      <description>DiscoBench는 다양한 실제 도메인에 걸쳐 다단계 정보 검색 작업에서 명확한 질문 및 복구를 통해 모호한 쿼리를 처리하는 검색 에이전트의 능력을 평가합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.27669">Hugging Face Papers</source>
-      <guid isPermaLink="false">1a64df4ff985ceb08be87c54bc9d31a5</guid>
-    </item>
-    <item>
-      <title>Denser neq Better: 지속적인 사후 교육을 위한 정책에 따른 자체 증류의 한계</title>
-      <link>https://huggingface.co/papers/2607.01763</link>
-      <description>지속적인 사후 훈련의 정책 자체 증류는 도메인 내 전문화를 가속화하지만 망각을 방지하지 못하고 배포 외부 시나리오에서 붕괴될 수 있어 정책 데이터만으로는 충분하지 않음을 나타냅니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01763">Hugging Face Papers</source>
-      <guid isPermaLink="false">cfebd7933e841ab06009f11571858802</guid>
-    </item>
-    <item>
-      <title>원스텝 시각적 생성을 위한 표현 분포 매칭</title>
-      <link>https://huggingface.co/papers/2607.02375</link>
-      <description>표현 분포 일치(Representation Distribution Matching)는 최적화된 배치 크기 및 다중 인코더 평가를 통해 향상된 성능과 함께 사전 훈련된 인코더에서 특징 분포를 일치시켜 고품질 이미지 생성을 가능하게 합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02375">Hugging Face Papers</source>
-      <guid isPermaLink="false">ff599073786bf111adcd868eea7462b4</guid>
-    </item>
-    <item>
-      <title>대화형 방사선학 보고서 작성을 위한 이산 확산 언어 모델</title>
-      <link>https://huggingface.co/papers/2607.01436</link>
-      <description>확산 언어 모델은 더 빠른 디코딩 및 양방향 텍스트 편집 기능을 제공하면서 의료용 시각적 질문 응답에서 자동 회귀 모델과 일치하거나 그 이상입니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01436">Hugging Face Papers</source>
-      <guid isPermaLink="false">548a25d66367df7a2819dbe1d40e9435</guid>
-    </item>
-    <item>
-      <title>해야 할 일을 배우기 전에 움직이는 법 배우기: VLA를 위한 작업에 구애받지 않는 사전 훈련</title>
-      <link>https://huggingface.co/papers/2607.02466</link>
-      <description>작업에 구애받지 않는 사전 훈련 프레임워크는 레이블이 지정되지 않은 데이터에 대한 자체 감독 역동역학과 가벼운 언어 기반을 사용하여 로봇 모델을 훈련하여 최소한의 전문가 시연으로 우수한 성능을 달성합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02466">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f7051e44f9dfe27202fb6c45a1df676</guid>
-    </item>
-    <item>
-      <title>PACE: 에이전트 능력 평가를 위한 프록시</title>
-      <link>https://huggingface.co/papers/2607.02032</link>
-      <description>PACE는 원자 평가 인스턴스의 작은 하위 집합을 사용하여 비용이 많이 드는 에이전트 LLM 벤치마크 성능을 예측하여 적은 비용으로 높은 정확도를 달성하는 프레임워크입니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02032">Hugging Face Papers</source>
-      <guid isPermaLink="false">0a0137770111aebc019c9b3e80e1e3f8</guid>
-    </item>
-    <item>
-      <title>WorldDirector: 영구 동적 메모리로 제어 가능한 월드 시뮬레이터 구축</title>
-      <link>https://huggingface.co/papers/2607.02517</link>
-      <description>WorldDirector는 3D 궤적 및 카메라 움직임의 LLM 조정을 통해 시각적 렌더링에서 의미론적 동작 계획을 분리함으로써 지속적인 객체 메모리로 제어 가능한 비디오 생성을 가능하게 합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02517">Hugging Face Papers</source>
-      <guid isPermaLink="false">5ae0c16b707321b905821d9a913aa7ff</guid>
     </item>
   </channel>
 </rss>
