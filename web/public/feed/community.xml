@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 07 Jul 2026 09:03:51 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 12:34:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MaxKB: RAG 파이프라인과 워크플로우를 갖춘 기업용 오픈소스 에이전트 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/maxkb-rag/11088</link>
+      <description>MaxKB 소개 MaxKB는 기업 수준의 에이전트를 구축하기 위해 검색 증강 생성(RAG, Retrieval-Augmented Generation) 파이프라인과 워크플로우 엔진, MCP 도구 사용(tool-use)을 하나로 통합한 오픈소스 플랫폼입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 12:30:44 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/maxkb-rag/11088">PyTorch Korea</source>
+      <guid isPermaLink="false">9bf641078c98a62c6bcf9e38ed7cd209</guid>
+    </item>
+    <item>
+      <title>LangChain이 설명하는 루프 엔지니어링의 기술, 에이전트를 감싸는 네 겹의 루프</title>
+      <link>https://discuss.pytorch.kr/t/langchain/11100</link>
+      <description>LangChain이 말하는 루프 엔지니어링 소개 루프 엔지니어링(Loop Engineering) 은 하나의 에이전트를 여러 겹의 반복 구조(loop)로 감싸서, 그저 "돌아가기만 하는" 에이전트를 "믿고 맡길 수 있는" 에이전트로 끌어올리는 설계 기법입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 11:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/langchain/11100">PyTorch Korea</source>
+      <guid isPermaLink="false">ba6517eb65d7f655c4b8cc6efaefac62</guid>
+    </item>
+    <item>
+      <title>ICML 2026에서 우수 논문상과 Test of Time상을 수상한 10편의 논문 소개</title>
+      <link>https://discuss.pytorch.kr/t/icml-2026-test-of-time-10/11112</link>
+      <description>ICML 2026 수상 논문 소개 ICML(International Conference on Machine Learning)은 NeurIPS , ICLR 와 함께 머신러닝 분야에서 가장 권위 있는 학회 중 하나입니다. 최근 ICML 2026 블로그 에는 올해의 수상 논문들이 발표되었습니다.</description>
+      <pubDate>Tue, 07 Jul 2026 08:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/icml-2026-test-of-time-10/11112">PyTorch Korea</source>
+      <guid isPermaLink="false">698209848c990e03c98ffac458c9d735</guid>
+    </item>
     <item>
       <title>SkillComposer: 스킬을 몇 개나 어떤 순서로 쓸지 한 번에 예측하는 LLM 에이전트 스킬 조합 방식에 대한 연구</title>
       <link>https://discuss.pytorch.kr/t/skillcomposer-llm/11090</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/code-as-agent-harness-ai/10920">PyTorch Korea</source>
       <guid isPermaLink="false">d9533580e47f066dccc5232cde6e60ce</guid>
-    </item>
-    <item>
-      <title>1조 파라미터 규모로 에이전틱 강화학습을 수행하는 prime-rl 0.6.0의 최적화 총정리 (feat. Prime Intellect)</title>
-      <link>https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939</link>
-      <description>prime-rl 0.6.0 소개 최근 대규모 언어 모델(Large Language Model, LLM)의 성능을 끌어올리는 핵심 동력은 사전 학습(pre-training)의 규모 확장에서 사후 학습(post-training) , 그중에서도 강화 학습(Reinforcement Learning, RL) 으로 빠르게 옮겨가고 있습니다.</description>
-      <pubDate>Mon, 29 Jun 2026 09:30:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/1-prime-rl-0-6-0-feat-prime-intellect/10939">PyTorch Korea</source>
-      <guid isPermaLink="false">046496ca0c75f56e91713c0bfa74e082</guid>
-    </item>
-    <item>
-      <title>headroom: AI 에이전트가 읽는 토큰을 LLM 전에 최대 95% 줄이는 컨텍스트 압축 계층</title>
-      <link>https://discuss.pytorch.kr/t/headroom-ai-llm-95/10936</link>
-      <description>headroom 소개 headroom은 AI 에이전트가 읽는 모든 입력(도구 출력, 로그, RAG 청크, 파일, 대화 기록)을 LLM에 전달되기 전에 압축하는 컨텍스트 압축 계층입니다. 같은 답을 유지하면서 토큰만 줄이는 것을 목표로 하며, 저자들은 실제 에이전트 워크로드에서 60~95% 적은 토큰으로 동일한 결과를 얻었다고 보고합니다.</description>
-      <pubDate>Mon, 29 Jun 2026 11:30:52 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/headroom-ai-llm-95/10936">PyTorch Korea</source>
-      <guid isPermaLink="false">6ada47f1f3314b44084bf95fe6bd02c7</guid>
-    </item>
-    <item>
-      <title>PaddleOCR: 문서와 이미지를 LLM용 구조화 데이터로 바꾸는 OCR 툴킷</title>
-      <link>https://discuss.pytorch.kr/t/paddleocr-llm-ocr/10935</link>
-      <description>PaddleOCR 소개 PaddleOCR은 PDF와 이미지 문서를 LLM이 곧바로 사용할 수 있는 구조화된 데이터(JSON, Markdown)로 변환하는 OCR 툴킷입니다. 단순히 이미지에서 글자를 뽑아내는 데서 그치지 않고, 표와 수식, 도장, 차트 같은 복잡한 요소까지 인식해 문서의 구조를 보존한 형태로 출력하는 데 초점을 맞춥니다.</description>
-      <pubDate>Mon, 29 Jun 2026 12:30:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/paddleocr-llm-ocr/10935">PyTorch Korea</source>
-      <guid isPermaLink="false">c21d8951c7de595d899469cfd1de71fa</guid>
     </item>
   </channel>
 </rss>
