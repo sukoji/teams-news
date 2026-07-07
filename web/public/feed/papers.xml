@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 07 Jul 2026 16:41:56 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 20:09:21 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>워크플로 유도를 통한 다중 턴 에이전트 과학 문헌 검색</title>
+      <link>https://huggingface.co/papers/2607.00597</link>
+      <description>Paper Pilot은 실행 가능한 워크플로를 사용하여 사용자 피드백과 제어된 워크플로 손상 교육을 통합하여 검색 정확도를 높이고 오류를 줄이는 다단계 문헌 검색 에이전트입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00597">Hugging Face Papers</source>
+      <guid isPermaLink="false">d4d88b2dcc5eb63fe80f935d4ba40759</guid>
+    </item>
+    <item>
+      <title>EXIST 2026의 AI 마법사: 밈의 다중 모드 성차별 식별을 위한 계층적 소프트 라벨 학습</title>
+      <link>https://huggingface.co/papers/2607.04410</link>
+      <description>밈에 대한 다중 모드 성차별 식별 시스템은 비전 언어 임베딩을 갖춘 계층적 조건부 소프트 라벨 예측과 KL 발산 및 불확실성 가중치를 통해 훈련된 경량 Gated MLP를 사용합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04410">Hugging Face Papers</source>
+      <guid isPermaLink="false">10b8f6d838f0300766002ed5d582d7e4</guid>
+    </item>
+    <item>
+      <title>KVpop - 예측 온라인 정리를 통한 키-값 캐시 압축</title>
+      <link>https://huggingface.co/papers/2607.05061</link>
+      <description>KVpop은 future-attention 타겟을 사용하여 유지 또는 삭제 결정을 직접 감독함으로써 최적의 키-값 캐시 제거를 학습하고, 메모리 사용량을 줄이면서 높은 성능을 달성합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05061">Hugging Face Papers</source>
+      <guid isPermaLink="false">af01e349259bfae0049397869763398f</guid>
+    </item>
+    <item>
+      <title>MV-Forcing: 4D 기반 시공간 자기 강제를 통한 긴 다중 뷰 비디오 생성</title>
+      <link>https://huggingface.co/papers/2607.05376</link>
+      <description>비디오 확산 프레임워크는 4D 기하학적 브리징 및 시공간 증류 기술을 통해 시간 및 뷰별 자동 회귀를 결합하여 긴 다중 뷰의 일관된 비디오를 생성합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05376">Hugging Face Papers</source>
+      <guid isPermaLink="false">7291634460a336872aab2ddd696e4cb2</guid>
+    </item>
+    <item>
+      <title>MANCE: 다양한 인식 개념 삭제</title>
+      <link>https://huggingface.co/papers/2607.03973</link>
+      <description>다양체 제약 가설은 추정된 표현 다양체에 업데이트를 투영하여 비선형 개념 제거에서 최첨단 결과를 달성함으로써 향상된 개념 삭제를 가능하게 합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03973">Hugging Face Papers</source>
+      <guid isPermaLink="false">a6b23d52cd7f010ff55b09d513ecdb0f</guid>
+    </item>
     <item>
       <title>LLM-as-a-Verifier: 범용 검증 프레임워크</title>
       <link>https://huggingface.co/papers/2607.05391</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.01002">Hugging Face Papers</source>
       <guid isPermaLink="false">4b6b0b96ebe740aa9ffad0a921eaf4e4</guid>
-    </item>
-    <item>
-      <title>AGVBench: 정맥 인식을 위한 데이터 증강의 신뢰성 중심 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.02271</link>
-      <description>연구에서는 여러 데이터 세트 및 아키텍처에서 정맥 인식을 위한 30가지 증강 전략을 평가하여 정확성과 적대적 보안 간의 불일치를 밝히고 데이터 세트별 효율성을 강조합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02271">Hugging Face Papers</source>
-      <guid isPermaLink="false">1bb00ec118a2c5fae3ca92a5fbd447c9</guid>
-    </item>
-    <item>
-      <title>Breaking Failure Cascades: 의료 다중모달 추론을 위한 단계 인식 강화 학습</title>
-      <link>https://huggingface.co/papers/2606.31825</link>
-      <description>단계적 프로세스 보상을 통해 계단식 오류를 해결함으로써 임상 이미지 추론을 개선하기 위해 MRPO라는 강화 학습 접근 방식이 도입되어 기존 방법보다 우수한 성능을 보여줍니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31825">Hugging Face Papers</source>
-      <guid isPermaLink="false">6b0a396fa4ed229b7dfd910cc463ac97</guid>
-    </item>
-    <item>
-      <title>EvoPolicyGym: 대화형 환경에서 자율적 정책 진화 평가</title>
-      <link>https://huggingface.co/papers/2607.02440</link>
-      <description>자율 에이전트는 고정된 예산 내에서 반복 편집을 통해 정책 개선을 평가하며, 성공적인 정책 발전에는 작업별 메커니즘과 피드백이 제한된 개선이 모두 필요하다는 것을 보여줍니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02440">Hugging Face Papers</source>
-      <guid isPermaLink="false">dac9113cc93e6904d14ad14e3a1ca156</guid>
-    </item>
-    <item>
-      <title>일반 추론을 위한 전이성: 다중 영역 RLVR을 위한 자동화된 커리큘럼</title>
-      <link>https://huggingface.co/papers/2606.25178</link>
-      <description>TAC(전이 인식 커리큘럼)는 그라디언트 기하학 정렬을 사용하여 도메인 간 전이 가능성을 추정하고 다른 도메인에 광범위한 이점을 제공하는 도메인의 우선 순위를 지정하여 다중 도메인 강화 학습을 개선합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.25178">Hugging Face Papers</source>
-      <guid isPermaLink="false">0efa7e920bd2c89bf23d8c285df651f7</guid>
-    </item>
-    <item>
-      <title>InstanceControl: 인스턴스 라벨링 없이 제어 가능한 복잡한 이미지 생성</title>
-      <link>https://huggingface.co/papers/2606.31924</link>
-      <description>InstanceControl은 비전 언어 모델을 사용하여 텍스트 프롬프트와 시각적 조건 간의 인스턴스 수준 대응을 설정하는 동시에 적응형 마스크 개선 기능을 사용하여 다중 인스턴스 이미지 생성을 지원합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31924">Hugging Face Papers</source>
-      <guid isPermaLink="false">e235ffefbf551d81fb357605137997b0</guid>
     </item>
   </channel>
 </rss>
