@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 07 Jul 2026 20:09:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 23:39:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>종방향 흉부 X선 보고서를 위한 전환 인식 N 최고 샘플링</title>
+      <link>https://huggingface.co/papers/2606.28393</link>
+      <description>설정 간 거리 측정법을 통해 이전 검사와 현재 검사 간의 변경 사항을 인코딩하여 종단적 환자 기록을 활용하는 흉부 X선 보고서 생성을 위한 훈련이 필요 없는 새로운 샘플링 방법입니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.28393">Hugging Face Papers</source>
+      <guid isPermaLink="false">14980570c32b29a74fe251f9eada91ec</guid>
+    </item>
+    <item>
+      <title>텍스트 인텔리전스에 대한 회귀 없는 통합 오디오 인텔리전스</title>
+      <link>https://huggingface.co/papers/2607.05196</link>
+      <description>공유 변환기 디코더를 통해 오디오 및 텍스트 처리를 통합하고 유지하면서 여러 오디오 및 음성 작업에서 우수한 성능을 달성하는 통합 오디오-텍스트 대형 언어 모델이 제시됩니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05196">Hugging Face Papers</source>
+      <guid isPermaLink="false">4f68501cd9e612f9918e2c67c353b44a</guid>
+    </item>
+    <item>
+      <title>SynCity 3000: 장면 규모 3D 확산 부트스트래핑</title>
+      <link>https://huggingface.co/papers/2607.05392</link>
+      <description>SynCity 3000은 합성 장면 데이터에 대한 미세 조정을 통해 이미지-3D 생성기를 컨벌루션 연산자로 적용하여 크고 일관된 3D 장면을 생성합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05392">Hugging Face Papers</source>
+      <guid isPermaLink="false">07077fe0a0f76cfe2e854a03be995a70</guid>
+    </item>
+    <item>
+      <title>오디오 임베딩을 통한 취향 인식 음악 검색</title>
+      <link>https://huggingface.co/papers/2607.03296</link>
+      <description>HEAR 제품군의 오디오 인코더는 맛 예측을 위해 평가되었으며, Gated late-fusion은 뛰어난 순위 상관관계를 보여주고, 지속되는 음악에서 인간 수준의 정확도를 달성하는 최고의 모델을 제공합니다.</description>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03296">Hugging Face Papers</source>
+      <guid isPermaLink="false">dbf82534902a42f863638670c602e537</guid>
+    </item>
     <item>
       <title>워크플로 유도를 통한 다중 턴 에이전트 과학 문헌 검색</title>
       <link>https://huggingface.co/papers/2607.00597</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.27821">Hugging Face Papers</source>
       <guid isPermaLink="false">92f8d6493f6502b6fa98ebc271ec6491</guid>
-    </item>
-    <item>
-      <title>AutoMem: 인지 기술로서의 기억 자동 학습</title>
-      <link>https://huggingface.co/papers/2607.01224</link>
-      <description>대규모 언어 모델의 메모리 관리는 메모리 구조 최적화와 숙련도 향상을 모두 자동화하는 프레임워크를 통해 훈련 가능한 기술로 처리되어 상당한 성능 향상을 가져옵니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01224">Hugging Face Papers</source>
-      <guid isPermaLink="false">308d80231b641bacd3b84f8cb95dbc2c</guid>
-    </item>
-    <item>
-      <title>WARP: 훈련 데이터 포트폴리오 복구를 위한 가중치 공간 분석</title>
-      <link>https://huggingface.co/papers/2607.01686</link>
-      <description>WARP는 모델 병합 및 특징 추출을 통해 가중치 공간의 기하학적 발자국을 분석하여 출시된 모델 가중치에서 훈련 데이터 구성을 추론하는 프레임워크입니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01686">Hugging Face Papers</source>
-      <guid isPermaLink="false">e8a05b09bc7c7960ff66c58a0201b86e</guid>
-    </item>
-    <item>
-      <title>DuoMem: 이중 공간 증류를 통해 가능한 온디바이스 메모리 에이전트를 향하여</title>
-      <link>https://huggingface.co/papers/2606.29961</link>
-      <description>DuoMem은 상황 공간 및 매개변수 공간 증류를 통해 대규모 언어 모델에서 컴팩트 학생 모델로 절차적 문제 해결을 전환하여 고성능을 달성하는 이중 공간 증류 프레임워크입니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29961">Hugging Face Papers</source>
-      <guid isPermaLink="false">7cd3f40e916a52d0e75a1a0dc5f18433</guid>
-    </item>
-    <item>
-      <title>Logit-Contribution Scoring은 비문자 검색 헤드를 식별합니다.</title>
-      <link>https://huggingface.co/papers/2607.01002</link>
-      <description>LOCOS(로짓 기여 점수)는 응답 토큰에 대한 출력 값 회로의 기여도를 측정하여 대규모 언어 모델에서 비문자적 컨텍스트 합성을 담당하는 어텐션 헤드를 식별합니다.</description>
-      <pubDate>Fri, 03 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01002">Hugging Face Papers</source>
-      <guid isPermaLink="false">4b6b0b96ebe740aa9ffad0a921eaf4e4</guid>
     </item>
   </channel>
 </rss>
