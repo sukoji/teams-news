@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Jul 2026 01:42:48 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 03:19:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>하나의 레이어로 충분합니까? 단일 변환기 계층 훈련은 전체 매개변수 RL 훈련과 일치할 수 있음</title>
+      <link>https://huggingface.co/papers/2607.01232</link>
+      <description>변환기 모델의 강화 학습 적응은 모든 계층에 걸쳐 균일한 매개변수 업데이트가 아닌 특정 중간 계층에서 고도로 집중된 개선을 보여줍니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01232">Hugging Face Papers</source>
+      <guid isPermaLink="false">f2428603dcd31fe35a726a9cae1f4a7c</guid>
+    </item>
+    <item>
+      <title>VIBE: 실제 음성을 통한 대규모 오디오 언어 모델에 대한 음성 유도 개방형 바이어스 평가</title>
+      <link>https://huggingface.co/papers/2604.17248</link>
+      <description>대규모 오디오 언어 모델은 사람이 녹음한 음성을 사용하여 개방형 작업을 통해 평가할 때 현실적인 시나리오에서 체계적인 생성 편향을 나타내며 편향 크기는 작업 및 트리거에 따라 크게 다릅니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2604.17248">Hugging Face Papers</source>
+      <guid isPermaLink="false">8a5f39dd98ee19767faf42a51d2056b2</guid>
+    </item>
     <item>
       <title>SWE-검토: 에이전트적 코드 검토를 통해 문제 해결 루프 종료</title>
       <link>https://huggingface.co/papers/2607.06065</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.00597">Hugging Face Papers</source>
       <guid isPermaLink="false">d4d88b2dcc5eb63fe80f935d4ba40759</guid>
-    </item>
-    <item>
-      <title>EXIST 2026의 AI 마법사: 밈의 다중 모드 성차별 식별을 위한 계층적 소프트 라벨 학습</title>
-      <link>https://huggingface.co/papers/2607.04410</link>
-      <description>밈에 대한 다중 모드 성차별 식별 시스템은 비전 언어 임베딩을 갖춘 계층적 조건부 소프트 라벨 예측과 KL 발산 및 불확실성 가중치를 통해 훈련된 경량 Gated MLP를 사용합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04410">Hugging Face Papers</source>
-      <guid isPermaLink="false">10b8f6d838f0300766002ed5d582d7e4</guid>
-    </item>
-    <item>
-      <title>KVpop - 예측 온라인 정리를 통한 키-값 캐시 압축</title>
-      <link>https://huggingface.co/papers/2607.05061</link>
-      <description>KVpop은 future-attention 타겟을 사용하여 유지 또는 삭제 결정을 직접 감독함으로써 최적의 키-값 캐시 제거를 학습하고, 메모리 사용량을 줄이면서 높은 성능을 달성합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05061">Hugging Face Papers</source>
-      <guid isPermaLink="false">af01e349259bfae0049397869763398f</guid>
     </item>
   </channel>
 </rss>
