@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:55:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:50:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>pxpipe: 컨텍스트를 이미지로 렌더링해 Claude Code 토큰 비용을 줄이는 로컬 프록시</title>
+      <link>https://discuss.pytorch.kr/t/pxpipe-claude-code/11114</link>
+      <description>pxpipe 소개 pxpipe는 Claude Code가 API로 보내는 요청에서 부피가 큰 텍스트 컨텍스트를 PNG 이미지로 렌더링해 입력 토큰을 줄이는 로컬 프록시입니다. 시스템 프롬프트, 도구 문서, 오래된 대화 이력처럼 매 요청마다 반복 전송되는 큰 덩어리를 요청이 사용자의 머신을 떠나기 전에 압축된 이미지 페이지로 치환합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 08:30:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pxpipe-claude-code/11114">PyTorch Korea</source>
+      <guid isPermaLink="false">57ff7f22471e2dfb1f44d361a2b5fa69</guid>
+    </item>
     <item>
       <title>Brain2Qwerty v2: MEG 뇌 신호만으로 문장을 해독하는 비침습적 BCI (feat. Meta AI)</title>
       <link>https://discuss.pytorch.kr/t/brain2qwerty-v2-meg-bci-feat-meta-ai/11070</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/autotts-test-time-scaling-llm/10487">PyTorch Korea</source>
       <guid isPermaLink="false">0b0923766ac2c6897843a0bada6887dd</guid>
-    </item>
-    <item>
-      <title>Supermemory: 대화에서 사실을 추출해 AI에 장기 기억을 부여하는 메모리 엔진</title>
-      <link>https://discuss.pytorch.kr/t/supermemory-ai/10661</link>
-      <description>Supermemory 소개 Supermemory는 대화가 끝날 때마다 맥락이 사라지는 문제를 풀기 위해, 대화에서 사실을 추출해 영속적으로 저장하는 AI 메모리 및 컨텍스트 엔진입니다. 대부분의 LLM 기반 도구는 한 세션이 끝나면 사용자가 누구인지, 무엇을 작업하고 있었는지를 잊어버립니다.</description>
-      <pubDate>Tue, 30 Jun 2026 06:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/supermemory-ai/10661">PyTorch Korea</source>
-      <guid isPermaLink="false">f9b095852aea86aacc689e1a849c1e5d</guid>
     </item>
   </channel>
 </rss>

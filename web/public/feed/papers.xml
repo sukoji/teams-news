@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:55:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:50:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Light-Omni: 장기 기억을 통한 행위적 비디오 이해의 추론에 대한 성찰</title>
+      <link>https://huggingface.co/papers/2607.05511</link>
+      <description>Light-Omni는 이중 상황 상태를 통해 효율적인 비디오 이해를 가능하게 하는 다중 모드 에이전트 프레임워크로, 유지하면서 반복적 추론을 제거하여 더 빠르고 정확한 비디오 처리를 달성합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05511">Hugging Face Papers</source>
+      <guid isPermaLink="false">51ec308463316008746fb103d74797a8</guid>
+    </item>
+    <item>
+      <title>SkillOpt-Lite: 단일 Vibe 라인을 통한 더 좋고 빠른 에이전트 자체 진화</title>
+      <link>https://huggingface.co/papers/2607.03451</link>
+      <description>궤적 탐색, 연결을 통해 수렴 및 일반화를 유지하면서 중복을 제거하는 0차 최적화 형식화를 통해 스킬 최적화를 위한 최소 실행 가능한 파이프라인을 제안합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03451">Hugging Face Papers</source>
+      <guid isPermaLink="false">189b3820eb17b25986e54023d4d65113</guid>
+    </item>
+    <item>
+      <title>TREK: 탐구를 위한 증류, 개선을 위한 강화</title>
+      <link>https://huggingface.co/papers/2607.05339</link>
+      <description>TREK는 모방이 아닌 탐색을 위한 증류를 사용하여 정책 최적화를 위한 탐색 지원을 확장하고 까다로운 수학적 추론 및 에이전트 작업의 성능을 향상시킵니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05339">Hugging Face Papers</source>
+      <guid isPermaLink="false">59989aee4fc68cc78a3ea347b0c12cf7</guid>
+    </item>
+    <item>
+      <title>AlayaWorld: 긴 지평선 및 재생 가능한 비디오 세계 생성</title>
+      <link>https://huggingface.co/papers/2607.06291</link>
+      <description>AlayaWorld는 실시간 사용자 상호 작용을 가능하게 하고 모듈식 아키텍처 내에서 다양한 작업을 지원하는 대화형 생성 세계를 만들기 위한 오픈 소스 프레임워크입니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06291">Hugging Face Papers</source>
+      <guid isPermaLink="false">6ae3f4a860565fd4c806cbf6bd9f46dd</guid>
+    </item>
+    <item>
+      <title>RynnWorld-4D: 로봇 조작을 위한 4D 구현 세계 모델</title>
+      <link>https://huggingface.co/papers/2607.06559</link>
+      <description>다중 모드 4D 세계 모델은 단일 RGB-D 이미지 및 언어 지침에서 동기화된 RGB, 깊이 및 광학 흐름 데이터를 생성하여 통합 확산 프로세스 및 i…</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06559">Hugging Face Papers</source>
+      <guid isPermaLink="false">e777a3d4f8f887c16c165087bfef73a7</guid>
+    </item>
+    <item>
+      <title>Nemotron-Labs-Diffusion: 자기회귀, 확산 및 자기 추측 디코딩을 통합하는 삼중 모드 언어 모델</title>
+      <link>https://huggingface.co/papers/2607.05722</link>
+      <description>Nemotron-Labs-Diffusion은 자동 회귀, 확산 및 자체 추측 디코딩을 결합하여 기존 모델에 비해 뛰어난 처리량과 효율성을 달성하는 3중 모드 언어 모델입니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05722">Hugging Face Papers</source>
+      <guid isPermaLink="false">7193888abc98f04e91e6be6f8b5fa7c5</guid>
+    </item>
+    <item>
+      <title>SIEVE: VLA 모델을 사용한 모방 학습을 위한 구조 인식 데이터 선택</title>
+      <link>https://huggingface.co/papers/2607.06442</link>
+      <description>SIEVE는 재사용 가능한 시각-운동 기본 요소와 전환 인터페이스를 식별하여 정책 학습 효율성을 향상시키는 시각-언어-행동 모방 학습을 위한 구조 인식 데이터 선택 방법입니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06442">Hugging Face Papers</source>
+      <guid isPermaLink="false">d564d662fe494ee236c382f5148905d7</guid>
+    </item>
+    <item>
+      <title>RynnWorld-Teleop: 디지털 원격운영을 위한 행동 조건이 적용된 세계 모델</title>
+      <link>https://huggingface.co/papers/2607.06558</link>
+      <description>디지털 원격 조작은 물리적 로봇 상호 작용을 생성 세계 모델로 대체하여 로봇 공학을 위한 다양한 훈련 데이터를 생성함으로써 효율적인 제로샷 Sim2Real 전송과 향상된 실제 성능을 가능하게 합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06558">Hugging Face Papers</source>
+      <guid isPermaLink="false">66610b7380a50c40cc00b3d8d9c6f548</guid>
+    </item>
     <item>
       <title>SeKV: 장기 컨텍스트 LLM 추론을 위한 계층적 의미 메모리를 갖춘 분해능 적응형 KV 캐시</title>
       <link>https://huggingface.co/papers/2606.31145</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.01233">Hugging Face Papers</source>
       <guid isPermaLink="false">69bb5db018a539b56c395d2d96b812ce</guid>
-    </item>
-    <item>
-      <title>AnyBokeh: 광학 지문 전송을 사용한 물리학 기반 Any-to-Any Bokeh 편집</title>
-      <link>https://huggingface.co/papers/2606.31959</link>
-      <description>AnyBokeh는 전체 초점을 재구성할 필요 없이 소스 흐림 상태를 추정하고 다양한 초점과 조리개 설정 간에 광학 특성을 전송하는 보케 편집을 위한 물리 기반 프레임워크입니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31959">Hugging Face Papers</source>
-      <guid isPermaLink="false">296b2b310f0a0ba0ab608b127e086035</guid>
-    </item>
-    <item>
-      <title>생성된 콘텐츠 강화</title>
-      <link>https://huggingface.co/papers/2405.03650</link>
-      <description>공동 적대적 프레임워크는 그래프 컨벌루션 네트워크를 사용하여 장면 그래프를 강화하여 희박한 장면 설명에서 의미상 더 풍부한 시각적 콘텐츠를 생성합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2405.03650">Hugging Face Papers</source>
-      <guid isPermaLink="false">17dadc17bc0e25a02183c1c198a19918</guid>
-    </item>
-    <item>
-      <title>OrbitQuant: 이미지 및 비디오 확산 변환기를 위한 데이터 독립적인 양자화</title>
-      <link>https://huggingface.co/papers/2607.02461</link>
-      <description>OrbitQuant는 다양한 시간 단계와 양식에 걸쳐 재보정이 필요하지 않은 정규화된 회전 기반을 사용하여 확산 변환기에 대한 효율적인 사후 훈련 양자화를 가능하게 합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02461">Hugging Face Papers</source>
-      <guid isPermaLink="false">25a7d1ae0e88b7f84dcd820af8c99e2d</guid>
-    </item>
-    <item>
-      <title>DataComp-VLM: 비전 언어 모델을 위한 향상된 개방형 데이터 세트</title>
-      <link>https://huggingface.co/papers/2606.28551</link>
-      <description>DCVLM(VLM용 DataComp)은 비전 언어 모델에서 데이터 큐레이션 전략을 평가하기 위한 포괄적인 벤치마크를 설정하여 필터링보다 데이터 혼합이 모델 성능을 크게 향상시킨다는 것을 입증합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.28551">Hugging Face Papers</source>
-      <guid isPermaLink="false">b98f72f96bc92ecf58e3cc1cf635dadb</guid>
-    </item>
-    <item>
-      <title>MultAttnAttrib: 긴 문서 질문 답변의 교육이 필요 없는 다중 모달 속성</title>
-      <link>https://huggingface.co/papers/2607.01420</link>
-      <description>MultAttnAttrib는 주의 헤드와 보정된 임계값을 사용하여 문서에서 소스 증거를 찾는 교육이 필요 없는 다중 모달 속성 방법으로, 기존에 비해 뛰어난 정확성과 효율성을 달성합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01420">Hugging Face Papers</source>
-      <guid isPermaLink="false">275408a8f62f0ac6928bcd72059a00cc</guid>
-    </item>
-    <item>
-      <title>지리적 맥락 정렬을 통해 관찰 기반 잔여 흐름을 통한 해석 중심의 클라우드 제거</title>
-      <link>https://huggingface.co/papers/2607.02471</link>
-      <description>지리적으로 고정된 클라우드 제거 프레임워크는 물리적 기반 잔류 반전과 비전 기반 모델의 의미론적 다양체 제약 조건을 결합하여 클라우드 제거의 의미론적 드리프트를 해결합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02471">Hugging Face Papers</source>
-      <guid isPermaLink="false">51ce11db3754a4d7728eca3330e6a745</guid>
-    </item>
-    <item>
-      <title>훈련 정책 최적화의 신기루: LLM 강화 학습의 실제 목표인 단조로운 추론 정책</title>
-      <link>https://huggingface.co/papers/2606.29526</link>
-      <description>대규모 언어 모델에 대한 강화 학습의 훈련-추론 불일치는 불안정성을 초래하며, 이는 일관된 정책 개선을 보장하는 새로운 정책 최적화 목표 및 프레임워크를 통해 해결됩니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29526">Hugging Face Papers</source>
-      <guid isPermaLink="false">ff407cbe3f1e4da0bf8a14fe70c19c97</guid>
-    </item>
-    <item>
-      <title>AGE: 그래프 검색 증강 생성에서 그래프 임베딩을 위한 적응형 마스킹</title>
-      <link>https://huggingface.co/papers/2607.00052</link>
-      <description>GraphRAG는 LLM용 그래프 구조 데이터를 통합하여 RAG를 확장하고, Transformer 기반 자기 지도 학습을 사용하는 AGE(그래프 임베딩)에 대한 적응형 마스킹을 통해 잠재 기능 오정렬을 해결합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00052">Hugging Face Papers</source>
-      <guid isPermaLink="false">ab7f16235f3a786200159c150c73133f</guid>
     </item>
   </channel>
 </rss>
