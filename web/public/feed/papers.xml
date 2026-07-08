@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 23:14:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 01:42:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SWE-검토: 에이전트적 코드 검토를 통해 문제 해결 루프 종료</title>
+      <link>https://huggingface.co/papers/2607.06065</link>
+      <description>에이전트적 코드 검토 프레임워크는 반복 검토 및 개정 주기를 통해 AI 생성 풀 요청을 향상시켜 코드 품질과 문제 해결 기능을 모두 향상시킵니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06065">Hugging Face Papers</source>
+      <guid isPermaLink="false">95d3fc37e0d9873168018b7ada4b6916</guid>
+    </item>
+    <item>
+      <title>RuleChef: 사람이 편집할 수 있는 규칙으로 LLM 작업 지식 기반 구축</title>
+      <link>https://huggingface.co/papers/2607.01293</link>
+      <description>RuleChef는 대규모 언어 모델을 활용하여 예제 기반 학습과 사람의 피드백을 통해 NLP 작업에 대한 실행 가능한 규칙을 생성하고 반복적으로 개선하여 빠르고 검사 가능한 규칙 시스템을 만듭니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01293">Hugging Face Papers</source>
+      <guid isPermaLink="false">c18d50b69957acaed99f31b57fde50c0</guid>
+    </item>
+    <item>
+      <title>한 번에 멀티모달 1세대 토큰에 참석</title>
+      <link>https://huggingface.co/papers/2607.03738</link>
+      <description>다중 모드 대형 언어 모델은 의미론적 요구 사항에 따라 시각적 및 텍스트 양식 변화에 주의를 기울여 생성 중에 뚜렷한 주의 패턴을 나타내며 이러한 패턴을 활용하여 개선할 수 있습니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03738">Hugging Face Papers</source>
+      <guid isPermaLink="false">e68e5bc36fdcb78bd6bd17af9c32c256</guid>
+    </item>
+    <item>
+      <title>SceneFrom3D: 객체 수준 제어를 통한 뷰 스케줄링을 통한 형상 조건 야외 3D 장면 생성</title>
+      <link>https://huggingface.co/papers/2607.04540</link>
+      <description>SceneFrom3D는 입력 형상에서 뷰를 자동으로 예약하고 ID 이미지 및 형상 준수 매개변수를 통해 객체 모양 및 형상 준수를 제어하여 3D 실외 장면을 생성합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04540">Hugging Face Papers</source>
+      <guid isPermaLink="false">43fcedee8244e2224cc0ec46e785381f</guid>
+    </item>
     <item>
       <title>HunyuanOCR-1.5: 경량 OCR VLM을 더 빠르고 더 좋게 만들기</title>
       <link>https://huggingface.co/papers/2607.04884</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.05061">Hugging Face Papers</source>
       <guid isPermaLink="false">af01e349259bfae0049397869763398f</guid>
-    </item>
-    <item>
-      <title>MV-Forcing: 4D 기반 시공간 자기 강제를 통한 긴 다중 뷰 비디오 생성</title>
-      <link>https://huggingface.co/papers/2607.05376</link>
-      <description>비디오 확산 프레임워크는 4D 기하학적 브리징 및 시공간 증류 기술을 통해 시간 및 뷰별 자동 회귀를 결합하여 긴 다중 뷰의 일관된 비디오를 생성합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05376">Hugging Face Papers</source>
-      <guid isPermaLink="false">7291634460a336872aab2ddd696e4cb2</guid>
-    </item>
-    <item>
-      <title>MANCE: 다양한 인식 개념 삭제</title>
-      <link>https://huggingface.co/papers/2607.03973</link>
-      <description>다양체 제약 가설은 추정된 표현 다양체에 업데이트를 투영하여 비선형 개념 제거에서 최첨단 결과를 달성함으로써 향상된 개념 삭제를 가능하게 합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03973">Hugging Face Papers</source>
-      <guid isPermaLink="false">a6b23d52cd7f010ff55b09d513ecdb0f</guid>
-    </item>
-    <item>
-      <title>LLM-as-a-Verifier: 범용 검증 프레임워크</title>
-      <link>https://huggingface.co/papers/2607.05391</link>
-      <description>LLM-as-a-Verifier는 다양한 벤치마크에서 솔루션 정확성 평가 및 에이전트 성능을 개선하기 위해 여러 차원에 걸쳐 확장되는 확률적 검증 프레임워크를 도입합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05391">Hugging Face Papers</source>
-      <guid isPermaLink="false">13a26f4fcee956e7c952f0a3d7a71f0c</guid>
-    </item>
-    <item>
-      <title>UI-MOPD: 지속적인 GUI 에이전트 학습을 위한 다중 플랫폼 온 정책 증류</title>
-      <link>https://huggingface.co/papers/2607.04425</link>
-      <description>Uni-GUI 데이터 세트와 UI-MOPD 방법은 다중 교사 기반 정책 증류를 통해 제한된 데이터 및 플랫폼별 기능 저하를 해결하여 크로스 플랫폼 GUI 에이전트 교육을 가능하게 합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04425">Hugging Face Papers</source>
-      <guid isPermaLink="false">19d9fd44486413f117b3e9f58c3acefb</guid>
     </item>
   </channel>
 </rss>
