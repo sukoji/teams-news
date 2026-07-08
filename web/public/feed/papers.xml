@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 20:06:55 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 23:14:40 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>HunyuanOCR-1.5: 경량 OCR VLM을 더 빠르고 더 좋게 만들기</title>
+      <link>https://huggingface.co/papers/2607.04884</link>
+      <description>HunyuanOCR-1.5는 DFlash를 통한 효율성 향상과 Agentic Data Flow를 통한 향상된 기능을 통해 OCR 기능을 향상시켜 빠른 추론과 광범위한 작업을 달성하는 경량 엔드 투 엔드 비전 언어 모델입니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04884">Hugging Face Papers</source>
+      <guid isPermaLink="false">95ad9ec4063b372b1900df1fddba26ea</guid>
+    </item>
+    <item>
+      <title>SiamJEPA: JEPA에서 Siamese Student 인코더의 역할</title>
+      <link>https://huggingface.co/papers/2607.04044</link>
+      <description>JEPA 모델의 Siamese Student 인코더는 효과적인 정규화를 통해 표현 분리성과 교육 효율성을 향상시키며, 제한된 교육 예산 하에서 단일 인코더 변형 및 MAE보다 뛰어난 성능을 발휘합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.04044">Hugging Face Papers</source>
+      <guid isPermaLink="false">82dc0bdf8020e31687a16696db05e1bd</guid>
+    </item>
+    <item>
+      <title>절단 위치, 깊이: 화학에 대한 BPE 및 Unigram-LM</title>
+      <link>https://huggingface.co/papers/2607.05691</link>
+      <description>바이트 쌍 인코딩과 Unigram-LM은 다양한 말뭉치 유형과 어휘 크기에 걸쳐 두 가지 접근 방식 간에 수렴이 이루어지지 않고 화학 언어 모델에서 뚜렷하게 다른 하위 단어 어휘를 생성합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05691">Hugging Face Papers</source>
+      <guid isPermaLink="false">f0441d3ae55a178c277845241a7dc45b</guid>
+    </item>
+    <item>
+      <title>Rank-Then-Act: 프레임 순서 진행을 통한 무보상 제어</title>
+      <link>https://huggingface.co/papers/2607.01897</link>
+      <description>Rank-Then-Act 프레임워크는 비전 언어 모델을 상관 기반 보상이 있는 순서 채점자로 사용하여 비디오 데모에서 제어 정책을 학습하여 환경 보상 없이 안정적인 작업 간 전송을 가능하게 합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.01897">Hugging Face Papers</source>
+      <guid isPermaLink="false">2714b3691098248f323a40b6ffd57313</guid>
+    </item>
     <item>
       <title>CanvasAgent: 시각적 도구 오케스트레이션을 통해 복잡한 이미지 생성 및 편집 가능</title>
       <link>https://huggingface.co/papers/2607.05465</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.04425">Hugging Face Papers</source>
       <guid isPermaLink="false">19d9fd44486413f117b3e9f58c3acefb</guid>
-    </item>
-    <item>
-      <title>표현 자동 인코더를 사용한 멀티플레이어 대화형 세계 모델</title>
-      <link>https://huggingface.co/papers/2607.05352</link>
-      <description>광범위한 게임플레이 데이터를 기반으로 훈련된 대규모 멀티플레이어 세계 모델은 여러 에이전트의 동작에 걸쳐 일관성을 유지하면서 복잡한 물리 기반 환경에서 안정적인 장거리 롤아웃을 보여줍니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05352">Hugging Face Papers</source>
-      <guid isPermaLink="false">a93a06a2caff483e964a7dcb9665b277</guid>
-    </item>
-    <item>
-      <title>OmniOpt: 최신 최적화 도구의 분류, 기하학 및 벤치마킹</title>
-      <link>https://huggingface.co/papers/2607.04033</link>
-      <description>OmniOpt는 메타 파이프라인 변환, 표준 제한 선형 최소화 오라클 및 크로스 도메인 벤치마크를 시스템에 결합하여 대규모 모델 교육에서 최적화 도구 선택을 위한 통합 프레임워크를 제공합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04033">Hugging Face Papers</source>
-      <guid isPermaLink="false">7b2f1963bbb1c8763369de48b92c235b</guid>
-    </item>
-    <item>
-      <title>dOPSD: 확산 언어 모델을 위한 정책에 따른 자체 증류</title>
-      <link>https://huggingface.co/papers/2607.04428</link>
-      <description>확산형 대형 언어 모델은 사후 학습을 통한 추론 향상에 어려움을 겪지만, 내부 잡음 제거 궤적을 사용한 새로운 정책 자체 증류 방법은 수학적 추론과 공동 작업을 향상시킵니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04428">Hugging Face Papers</source>
-      <guid isPermaLink="false">e65f5b23730031f42094f326121fe4e0</guid>
-    </item>
-    <item>
-      <title>EVA-Client: 실제 로봇에 구현된 정책을 위한 통합 데이터 수집, 추론 및 배포 프레임워크</title>
-      <link>https://huggingface.co/papers/2607.02646</link>
-      <description>EVA-Client는 검사 가능한 실행 워크플로를 갖춘 구성 요소 분리 아키텍처를 통해 실제 로봇 정책 배포, 데이터 수집 및 평가를 통합하는 오픈 소스 프레임워크입니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02646">Hugging Face Papers</source>
-      <guid isPermaLink="false">e4e4640742049a0e3de10d6ba6a09e82</guid>
     </item>
   </channel>
 </rss>
