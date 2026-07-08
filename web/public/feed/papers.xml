@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:50:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:54:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Hierarchical Sparse Attention Done Right: 무한 컨텍스트 모델링을 향하여</title>
+      <link>https://huggingface.co/papers/2607.02980</link>
+      <description>Hierarchical Landmark Sparse Attention은 청크 선택을 엔드투엔드 학습하여 효율적인 장기 컨텍스트 언어 모델링을 가능하게 하며, 훈련 범위를 넘어서 추정하는 동시에 전체 주의에 필적하는 성능을 달성합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02980">Hugging Face Papers</source>
+      <guid isPermaLink="false">c6c4d227c167821cbcbf334af84b0495</guid>
+    </item>
+    <item>
+      <title>통합된 다중 모드 세대로서의 비전</title>
+      <link>https://huggingface.co/papers/2607.06560</link>
+      <description>통합 다중 모드 모델은 자연어와 시각적 프롬프트를 사용하여 컴퓨터 비전 작업을 생성 문제로 공식화하여 다양한 비전 작업 전반에 걸쳐 특수 시스템에 필적하는 성능을 달성합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06560">Hugging Face Papers</source>
+      <guid isPermaLink="false">26454afb717c439c6e1588ad329f7b64</guid>
+    </item>
+    <item>
+      <title>MentalThink: 정신적 SVG 세계에서 생각 형성하기</title>
+      <link>https://huggingface.co/papers/2607.03530</link>
+      <description>MentalThink를 사용하면 다중 모드 대형 언어 모델이 SVG 코드를 공간 문제 해결을 위한 실행 가능한 중간 표현으로 생성하고 해석하여 시각적 기호 추론을 수행할 수 있습니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03530">Hugging Face Papers</source>
+      <guid isPermaLink="false">375f079b4472e84f9e6e1023d14d0edf</guid>
+    </item>
+    <item>
+      <title>MuseBench: MLLM의 의도 수준 시청각 예술 이해 벤치마킹</title>
+      <link>https://huggingface.co/papers/2606.30026</link>
+      <description>미묘한 예술적 이해에 대한 다중 모드 대형 언어 모델을 평가하기 위해 Musebench라는 포괄적인 벤치마크가 도입되었으며, 이는 현재 모델과 인간 전문가 성능 간의 상당한 격차를 드러냅니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30026">Hugging Face Papers</source>
+      <guid isPermaLink="false">139d7860f0f62dee898f418e659fbde4</guid>
+    </item>
+    <item>
+      <title>옴니모달 고밀도 비디오 캡션을 위한 병렬 자동회귀 디코딩</title>
+      <link>https://huggingface.co/papers/2607.02963</link>
+      <description>시간 접지 정확도를 유지하면서 시간적으로 구별되는 이벤트 전반에 걸쳐 약한 로컬 종속성을 활용하여 생성 효율성을 향상시키는 고밀도 비디오 캡션을 위한 병렬 자동 회귀 프레임워크입니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02963">Hugging Face Papers</source>
+      <guid isPermaLink="false">d88b301ad1794780225be0ce86e3f889</guid>
+    </item>
+    <item>
+      <title>DSpark: 반자동회귀 생성을 통한 신뢰도 예약 추측 디코딩</title>
+      <link>https://huggingface.co/papers/2607.05147</link>
+      <description>DSpark는 병렬 초안 생성과 낭비를 줄이고 높은 동시성 설정에서 처리량을 향상시키는 적응형 검증을 결합하여 LLM 추론 속도를 향상시킵니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05147">Hugging Face Papers</source>
+      <guid isPermaLink="false">b76d5f17abff534e89bd6acc2a73d11a</guid>
+    </item>
+    <item>
+      <title>음성에서 레이어별 교차 언어 우울증 탐지: 대조 정렬을 통한 분석</title>
+      <link>https://huggingface.co/papers/2607.02920</link>
+      <description>감독된 대조 정렬 프레임워크는 영어와 중국어의 WavLM 임베딩을 우울증 감지를 위한 공유 임상 공간으로 매핑하고, 언어 간 일반화 문제를 해결하고 성과를 공개합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02920">Hugging Face Papers</source>
+      <guid isPermaLink="false">decbc4b62ccea75f2c5a410723590117</guid>
+    </item>
+    <item>
+      <title>3D HAMSTER: 3D 궤적 안내를 통해 계층적 비전 언어 동작 모델의 브리징 계획 및 제어</title>
+      <link>https://huggingface.co/papers/2606.31329</link>
+      <description>3D HAMSTER 프레임워크는 비전 언어 모델과 깊이 인코딩을 통합하여 포인트 클라우드 기반 제어 정책을 위한 미터법으로 정확한 3D 궤적을 생성함으로써 로봇 조작을 향상시킵니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.31329">Hugging Face Papers</source>
+      <guid isPermaLink="false">80aa7fbdb655cec61abd094f2aba359f</guid>
+    </item>
+    <item>
+      <title>CGGS: 자기 중심의 3D 장면 생성을 위한 일관성이 강화된 기하학적 가우스 스플래팅</title>
+      <link>https://huggingface.co/papers/2607.03819</link>
+      <description>CGGS는 자기 중심 생성, 레이아웃 장식 및 기하학적 개선을 포함하는 다단계 접근 방식을 통해 3D 콘텐츠 인식을 향상하고 기하학적 왜곡을 해결하는 텍스트-3D 프레임워크입니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03819">Hugging Face Papers</source>
+      <guid isPermaLink="false">8ed35747a9a331af9e1b637848eb47bd</guid>
+    </item>
+    <item>
+      <title>후기 상호작용 검색 모델의 이론적 용량 정량화 및 확장</title>
+      <link>https://huggingface.co/papers/2607.05803</link>
+      <description>MaxSim 유사성은 희소 벡터 간의 내적을 정확하게 복제하고 논리 연산을 지원합니다. Signed MaxSim을 사용하면 이 기능을 실제 값 벡터로 확장하는 동시에 검색 성능을 향상시킬 수 있습니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05803">Hugging Face Papers</source>
+      <guid isPermaLink="false">b9f5c104eb9f4a2224d5678bfd189140</guid>
+    </item>
+    <item>
+      <title>Flex-Forcing: 통합된 자동 회귀 및 양방향 비디오 확산 모델을 향하여</title>
+      <link>https://huggingface.co/papers/2607.03509</link>
+      <description>Flex-Forcing을 사용하면 시간 및 노이즈 제거 단계에 걸쳐 유연한 청킹 메커니즘을 통해 비디오 확산 모델이 양방향 및 자동 회귀 생성 체제에서 작동할 수 있어 비디오 품질이 향상되고...</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03509">Hugging Face Papers</source>
+      <guid isPermaLink="false">e5eadcf1457ed405551bec7fd729a71f</guid>
+    </item>
     <item>
       <title>Light-Omni: 장기 기억을 통한 행위적 비디오 이해의 추론에 대한 성찰</title>
       <link>https://huggingface.co/papers/2607.05511</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.03068">Hugging Face Papers</source>
       <guid isPermaLink="false">74d21693bcd28d7277e45fd9c0e7b97c</guid>
-    </item>
-    <item>
-      <title>GigaWorld-1: 로봇 정책 평가를 위한 세계 모델 구축을 위한 로드맵</title>
-      <link>https://huggingface.co/papers/2607.02642</link>
-      <description>로봇 정책 평가를 위한 세계 모델은 새로운 벤치마크를 통해 체계적으로 연구되어 장기적인 롤아웃 일관성과 로봇별 제어 가능성이 단기적인 시각적인 것보다 더 중요하다는 것을 보여줍니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02642">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ea8fd5da7c969d172c841deb5eb9f2a</guid>
-    </item>
-    <item>
-      <title>ResearchStudio-Reel: 종이에서 포스터, 비디오, 블로그에 이르기까지 연구의 마지막 단계를 자동화하세요</title>
-      <link>https://huggingface.co/papers/2607.04438</link>
-      <description>ResearchStudio-Reel은 공유 문서 추출기를 중심으로 전문 기술을 구성하고 하드 합격/불합격을 통해 포스터, 비디오, 블로그 등 일관되고 편집 가능한 아티팩트를 생성하여 연구 보급을 자동화합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04438">Hugging Face Papers</source>
-      <guid isPermaLink="false">605d37143f8793783f91bbc6ea642e16</guid>
-    </item>
-    <item>
-      <title>ResearchStudio-Idea: ML 컨퍼런스 결과에서 얻은 증거 기반 연구 아이디어 기술 제품군</title>
-      <link>https://huggingface.co/papers/2607.04439</link>
-      <description>ResearchStudio-Idea는 문헌 검색, 신규성 확인, 패턴 기반 생성을 결합하여 추적 가능한 연구 제안을 생성하는 효과적인 연구 아이디어 구상을 위한 기술 모음을 제공합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04439">Hugging Face Papers</source>
-      <guid isPermaLink="false">9f29de01c0cc4838216af3213efe8b8d</guid>
-    </item>
-    <item>
-      <title>음절 토큰화를 위한 화자-분리된 청크-와이즈 회귀</title>
-      <link>https://huggingface.co/papers/2607.04064</link>
-      <description>화자가 분리된 음절 토크나이저는 교란된 학생 표현을 깨끗한 교사 대상으로 회귀하여 음절 경계 감지 및 음성 언어 모델링 성능을 향상시킵니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04064">Hugging Face Papers</source>
-      <guid isPermaLink="false">3bbce8e8750cc9e57d4edaa2a5c7238c</guid>
-    </item>
-    <item>
-      <title>Wan-Streamer v0.2: 더 높은 해상도, 동일한 대기 시간</title>
-      <link>https://huggingface.co/papers/2607.04443</link>
-      <description>Wan-Streamer v0.2는 다중 GPU 병렬 처리를 갖춘 최적화된 Thinker-Performer 아키텍처를 통해 낮은 대기 시간을 유지하면서 시각적 해상도를 높여 시청각 상호 작용을 향상시킵니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04443">Hugging Face Papers</source>
-      <guid isPermaLink="false">0af3ee24f0dd49c708d29ffc62a370ae</guid>
-    </item>
-    <item>
-      <title>규모에 따른 LLM 에이전트의 안전 테스트: 위험 발견부터 증거 기반 검증까지</title>
-      <link>https://huggingface.co/papers/2607.01793</link>
-      <description>자동화된 안전 테스트 프레임워크 Vera는 3단계 파이프라인을 사용하여 구조화된 위험 분류, 조합 사례 생성 및 적응형 샌드박스 실행을 통해 LLM 에이전트의 안전 위험을 식별하고 테스트합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01793">Hugging Face Papers</source>
-      <guid isPermaLink="false">f395f9437036249eb5d89b881eab0503</guid>
-    </item>
-    <item>
-      <title>조밀한 공간 인식을 위한 비전 사전 훈련</title>
-      <link>https://huggingface.co/papers/2607.05247</link>
-      <description>경계 모델링은 깊이 추정을 향상하고 구현된 AI 애플리케이션을 지원하는 하위 픽셀 표현을 학습하여 조밀한 공간 인식을 가능하게 합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05247">Hugging Face Papers</source>
-      <guid isPermaLink="false">debbec5c75b7255b0f1ec06cde86390e</guid>
-    </item>
-    <item>
-      <title>Mastermind: 리포지토리 규모의 취약성 재현을 위한 전략 기반 학습</title>
-      <link>https://huggingface.co/papers/2607.01764</link>
-      <description>소프트웨어 엔지니어링 에이전트의 취약성 재현 기능을 향상시키기 위해 전략 학습을 작업별 경험과 분리하는 Mastermind라는 이중 루프 프레임워크가 도입되었습니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01764">Hugging Face Papers</source>
-      <guid isPermaLink="false">e2ef7122b2a4662deb62973d33f6e69c</guid>
-    </item>
-    <item>
-      <title>PraMem: 장거리 행동 예측을 위한 실습 기반 경험 기억</title>
-      <link>https://huggingface.co/papers/2607.02881</link>
-      <description>긴 범위의 행동 예측은 PraMem을 통해 향상됩니다. PraMem은 긴 역사적 시퀀스를 경험적 메모리로 변환하여 정확성을 향상시킵니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02881">Hugging Face Papers</source>
-      <guid isPermaLink="false">c1c736849a428dc4e79a2d48aca55417</guid>
-    </item>
-    <item>
-      <title>잘 알려지지 않은 간질 치료를 권장하고 연기하도록 LLM 교육</title>
-      <link>https://huggingface.co/papers/2606.31036</link>
-      <description>MANANA라는 비모수적 프롬프트 학습 프레임워크는 현지 처방 관행에 적응하고 신뢰도가 낮은 사례에 대해 불확실성 기반 연기 신호를 제공함으로써 소아 간질 치료 결정을 개선합니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31036">Hugging Face Papers</source>
-      <guid isPermaLink="false">6071c4129014b2c05e739d34a296802c</guid>
-    </item>
-    <item>
-      <title>인간과 LLM 연구 아이디어 간의 격차 측정</title>
-      <link>https://huggingface.co/papers/2607.01233</link>
-      <description>대규모 언어 모델은 특정 기회 패턴과 패러다임을 중심으로 클러스터링된 연구 아이디어를 생성하며 인간 연구 논문에서 발견되는 더 광범위하고 다양한 분포와 체계적으로 다릅니다.</description>
-      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01233">Hugging Face Papers</source>
-      <guid isPermaLink="false">69bb5db018a539b56c395d2d96b812ce</guid>
     </item>
   </channel>
 </rss>

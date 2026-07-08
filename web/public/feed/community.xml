@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:50:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:54:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Xybrid: 앱과 게임에서 LLM과 음성 AI를 온디바이스로 실행하는 크로스플랫폼 런타임</title>
+      <link>https://discuss.pytorch.kr/t/xybrid-llm-ai/11121</link>
+      <description>Xybrid 소개 Xybrid는 언어 모델(LLM), 음성 인식(ASR), 음성 합성(TTS)을 서버가 아닌 사용자 기기 위에서 직접 돌리기 위한 크로스플랫폼 런타임입니다. 모바일 앱이나 게임에 AI 기능을 넣으려면 보통 클라우드 API를 호출해야 하는데, 이렇게 하면 네트워크 지연이 생기고 사용자 데이터가 외부로 나가며 호출량에 따라 비용이 늘어납니다.</description>
+      <pubDate>Wed, 08 Jul 2026 14:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/xybrid-llm-ai/11121">PyTorch Korea</source>
+      <guid isPermaLink="false">9a3294f5e0d92f93aaae357be684c692</guid>
+    </item>
+    <item>
+      <title>vLLM Hook: vLLM에 배포된 모델의 내부 상태를 관찰하고 제어하는 플러그인</title>
+      <link>https://discuss.pytorch.kr/t/vllm-hook-vllm/11123</link>
+      <description>vLLM Hook 소개 대규모 언어 모델(LLM)을 서비스로 배포할 때는 보통 vLLM 같은 추론 엔진 위에 모델을 올립니다. 추론 엔진은 지연 시간과 메모리, 하드웨어 사용을 최적화하기 위해 개발 단계에서 쓰던 여러 기능을 꺼 버리는데, 그 과정에서 모델 내부 상태에 접근하고 수정하는 길도 함께 막힙니다.</description>
+      <pubDate>Wed, 08 Jul 2026 12:30:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-hook-vllm/11123">PyTorch Korea</source>
+      <guid isPermaLink="false">2d6063f1974578f3fb975e5758f0d2b9</guid>
+    </item>
     <item>
       <title>pxpipe: 컨텍스트를 이미지로 렌더링해 Claude Code 토큰 비용을 줄이는 로컬 프록시</title>
       <link>https://discuss.pytorch.kr/t/pxpipe-claude-code/11114</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/skillspector-ai-nvidia/10986">PyTorch Korea</source>
       <guid isPermaLink="false">fca4680ab94f114589bff2918e8ccdd7</guid>
-    </item>
-    <item>
-      <title>Awesome Claude Design: DESIGN.md 한 장으로 UI를 스캐폴딩하는 디자인 시스템 모음</title>
-      <link>https://discuss.pytorch.kr/t/awesome-claude-design-design-md-ui/10667</link>
-      <description>awesome-claude-design 소개 awesome-claude-design는 Claude Design에 그대로 넣을 수 있는 DESIGN.md 파일을 모아둔 큐레이션 모음집입니다.</description>
-      <pubDate>Tue, 30 Jun 2026 10:30:24 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/awesome-claude-design-design-md-ui/10667">PyTorch Korea</source>
-      <guid isPermaLink="false">208ed651f3345fc961d6de55015f441d</guid>
-    </item>
-    <item>
-      <title>AutoTTS: Test-Time Scaling 전략을 LLM 에이전트가 자동으로 발견하는 환경 기반 프레임워크에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/autotts-test-time-scaling-llm/10487</link>
-      <description>AutoTTS 소개 새로운 보드게임을 처음 배울 때를 떠올려 봅시다. 우리는 보통 고수들이 정리해 둔 정석(定石)을 외우는 것에서 시작합니다. 하지만 진짜 실력은, 수많은 판을 직접 두면서 "여기서는 공격적으로, 저기서는 물러서야 한다"는 감각을 스스로 체득할 때 늘어납니다.</description>
-      <pubDate>Tue, 30 Jun 2026 08:30:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/autotts-test-time-scaling-llm/10487">PyTorch Korea</source>
-      <guid isPermaLink="false">0b0923766ac2c6897843a0bada6887dd</guid>
     </item>
   </channel>
 </rss>
