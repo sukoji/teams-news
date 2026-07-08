@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 14:54:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 17:32:20 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>기초부터 적용까지: 실제 VLA 모델 개선</title>
+      <link>https://huggingface.co/papers/2607.06403</link>
+      <description>LingBot-VLA 2.0은 다양한 로봇 구성에 대한 확장된 데이터 전처리 및 교육을 통해 작업 및 실시예 전반에 걸쳐 일반화를 강화하고 공동 작업을 위한 전신 자유도를 포함하도록 작업 공간을 확장합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06403">Hugging Face Papers</source>
+      <guid isPermaLink="false">2e0141f5db7118d6bd908ec7d18e0975</guid>
+    </item>
+    <item>
+      <title>TurnOPD: 효율적인 Long-Horizon Agent 교육을 위해 On-Policy Distillation Turn-Aware 만들기</title>
+      <link>https://huggingface.co/papers/2607.05804</link>
+      <description>장거리 에이전트 교육에서 효율적인 정책 기반 증류를 위한 턴레벨 예산 책정 전략은 전체 수평 롤아웃 및 얕은 토큰 집중의 비효율성을 해결합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05804">Hugging Face Papers</source>
+      <guid isPermaLink="false">f94e66941d30b4cbd3c66ed9cd61b987</guid>
+    </item>
+    <item>
+      <title>Gemma 4 기술 보고서</title>
+      <link>https://huggingface.co/papers/2607.02770</link>
+      <description>Gemma 4는 다양한 아키텍처, 향상된 추론 기능, 다양한 작업 전반에 걸쳐 향상된 성능을 갖춘 효율적인 다중 모드 언어 모델을 도입합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02770">Hugging Face Papers</source>
+      <guid isPermaLink="false">268eec8cb96d34ef5ede2a92f5f0b921</guid>
+    </item>
+    <item>
+      <title>Image2Sim: 생성 신경 시뮬레이터를 통해 구현된 탐색 크기 조정</title>
+      <link>https://huggingface.co/papers/2607.05765</link>
+      <description>Image2Sim은 분리된 3D 공간 앵커링 및 사실적 렌더링 기술을 통해 RGB-D 이미지에서 충실도가 높은 대화형 환경을 생성함으로써 확장 가능한 내장 탐색 훈련을 가능하게 합니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05765">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab7c0f57f45307448a0d63a3c8165b85</guid>
+    </item>
+    <item>
+      <title>PointDiT: 단안 기하학 추정을 위한 픽셀 공간 확산</title>
+      <link>https://huggingface.co/papers/2607.02515</link>
+      <description>일반 ViT 아키텍처를 사용하는 미니멀한 픽셀 공간 확산 변환기는 DINOv3의 이미지 토큰에 따라 조정된 3D 포인트 맵 패치를 직접 처리하여 크기를 유지하면서 복잡한 잠재 기반 모델보다 성능이 뛰어납니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.02515">Hugging Face Papers</source>
+      <guid isPermaLink="false">1daf0221e84af605e9742d0fcb361ca9</guid>
+    </item>
+    <item>
+      <title>클래식 캐시 정책이 실패할 경우: 의미 검색 버퍼에 대한 학습 강화 대체</title>
+      <link>https://huggingface.co/papers/2607.00394</link>
+      <description>연구에서는 의미론적 캐시 교체를 전환 비용의 온라인 문제로 공식화하고 기존 휴리스트보다 성능이 뛰어난 학습 강화 프레임워크인 SOLAR를 제안함으로써 LLM 에이전트의 캐시 관리를 다루고 있습니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00394">Hugging Face Papers</source>
+      <guid isPermaLink="false">f0bb9e2e01664c42abbb406d9ba93805</guid>
+    </item>
+    <item>
+      <title>PluraMath: 고자원 언어를 넘어 수학적 추론 평가 확장</title>
+      <link>https://huggingface.co/papers/2607.05992</link>
+      <description>PluraMath는 PolyMath 데이터 세트를 18개의 잘 표현되지 않은 언어로 확장하여 고자원 언어와 저자원 언어 간의 다국어 수학적 추론 성능의 지속적인 격차를 드러냅니다.</description>
+      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05992">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ccdd18faaf4b6833eef72e47665b944</guid>
+    </item>
     <item>
       <title>Hierarchical Sparse Attention Done Right: 무한 컨텍스트 모델링을 향하여</title>
       <link>https://huggingface.co/papers/2607.02980</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.05373">Hugging Face Papers</source>
       <guid isPermaLink="false">d8737097ddd1bbfe08be6ae0ec302e5b</guid>
-    </item>
-    <item>
-      <title>GORGO: 지역 간 네트워크 인식 LLM 서비스를 위한 온라인 튜닝</title>
-      <link>https://huggingface.co/papers/2602.11688</link>
-      <description>GORGO는 새로운 합성 데이터 세트에 대한 진화 전략 튜닝을 통해 네트워크 대기 시간, 사전 채우기 비용 및 대기열 지연을 공동으로 고려하여 LLM 추론 로드 밸런싱을 최적화하는 프록시 아키텍처입니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2602.11688">Hugging Face Papers</source>
-      <guid isPermaLink="false">3fa648db84c6fc07ea39738f451f1471</guid>
-    </item>
-    <item>
-      <title>InternVLA-A1.5: 구성 일반화를 위한 통합 이해, 잠재 예측 및 작업</title>
-      <link>https://huggingface.co/papers/2607.04988</link>
-      <description>InternVLA-A1.5는 사전 훈련된 비전 언어 모델을 잠재 공간의 미래 예측과 통합하여 보존된 의미론과 장거리 실행을 통해 효율적인 로봇 조작을 가능하게 합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04988">Hugging Face Papers</source>
-      <guid isPermaLink="false">2d159377cc12bd98c9df8de02ce8f67d</guid>
-    </item>
-    <item>
-      <title>모든 시각적 토큰이 똑같이 중요합니까? 비전 언어 검색을 위한 객체 증거 보존 토큰 병합</title>
-      <link>https://huggingface.co/papers/2607.04605</link>
-      <description>객체 인식 토큰 병합 프레임워크 SaMer는 쿼리 선택 가능한 시각적 증거를 보존하면서 이미지 측 토큰을 압축하여 스토리지를 크게 줄이고 검색 성능을 향상시킵니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04605">Hugging Face Papers</source>
-      <guid isPermaLink="false">972d0c13312f05661afe70674681c63c</guid>
-    </item>
-    <item>
-      <title>몇 단계 생성 모델링을 위한 지각 흐름 매칭</title>
-      <link>https://huggingface.co/papers/2607.03524</link>
-      <description>Perceptual Flow Matching은 지각 특징 공간에서 흐름 일치를 감독하여 효율적인 몇 단계 생성을 가능하게 하고, 샘플링 단계를 줄이고 정확도를 향상시켜 고품질 결과를 달성합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03524">Hugging Face Papers</source>
-      <guid isPermaLink="false">6216342af5f71c2c3d62561fe807ab83</guid>
-    </item>
-    <item>
-      <title>EdgeBench: 실제 환경에서 학습의 확장 법칙 공개</title>
-      <link>https://huggingface.co/papers/2607.05155</link>
-      <description>38,000시간의 실제 에이전트 상호 작용을 분석하면 134개의 다양한 작업에 걸쳐 성능 및 기하급수적인 학습 속도 향상을 위한 로그-시그모이드 스케일링 법칙이 드러납니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05155">Hugging Face Papers</source>
-      <guid isPermaLink="false">d6360dd7dfbe74170d37ccb05745f006</guid>
-    </item>
-    <item>
-      <title>Deform360: 변형 가능한 세계 모델을 위한 대규모 다중 뷰 시각촉각 데이터세트</title>
-      <link>https://huggingface.co/papers/2607.05390</link>
-      <description>변형 가능한 객체 역학을 연구하기 위해 Deform360이라는 대규모 시각촉각 데이터세트가 도입되어 로봇 조작 작업을 위한 2D 비디오와 3D 입자 세계 모델을 비교할 수 있습니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05390">Hugging Face Papers</source>
-      <guid isPermaLink="false">803d3e9a4ee4d1dcb33e9d6b3054bf61</guid>
-    </item>
-    <item>
-      <title>PixCon: 기초 모델 반지도 분할을 위한 순수 양성 대조 학습</title>
-      <link>https://huggingface.co/papers/2607.03068</link>
-      <description>PixCon은 클래스별 메모리 뱅크와 함께 명확한 양성 픽셀 대비 학습을 사용하여 기존 방법보다 정확도를 향상시키는 준지도 의미론적 분할 프레임워크입니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03068">Hugging Face Papers</source>
-      <guid isPermaLink="false">74d21693bcd28d7277e45fd9c0e7b97c</guid>
     </item>
   </channel>
 </rss>
