@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 10 Jul 2026 05:48:36 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 07:24:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SOMA: SMPL, MHR, Anny 등, 인체 모델을 표현하는 방식을 하나로 잇는 바디 레이어 (feat. NVIDIA)</title>
+      <link>https://discuss.pytorch.kr/t/soma-smpl-mhr-anny-feat-nvidia/11109</link>
+      <description>SOMA 소개 3D 인체를 다루는 연구자라면 한 번쯤 이런 상황을 겪어보셨을 것입니다. 어린이까지 표현할 수 있는 모델로 캐릭터의 체형을 잡아 두었는데, 정작 쓰려는 모션 캡쳐 데이터셋은 전혀 다른 모델을 기준으로 만들어져 있어서, 둘을 잇는 변환 코드를 처음부터 새로 짜야 했던 경험 말입니다.</description>
+      <pubDate>Fri, 10 Jul 2026 06:30:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/soma-smpl-mhr-anny-feat-nvidia/11109">PyTorch Korea</source>
+      <guid isPermaLink="false">3ed9c2ba9723a6d0f64e40fdfe67e793</guid>
+    </item>
     <item>
       <title>TencentDB Agent Memory: AI 에이전트를 위한 계층형 로컬 기억 시스템</title>
       <link>https://discuss.pytorch.kr/t/tencentdb-agent-memory-ai/11150</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openai-mcp-secure-mcp-tunnel/11016">PyTorch Korea</source>
       <guid isPermaLink="false">55494aa7acad724a22339607d4b5dd26</guid>
-    </item>
-    <item>
-      <title>eve: 파일시스템을 저작 인터페이스로 삼는 AI 에이전트 프레임워크 프로젝트 (feat. Vercel)</title>
-      <link>https://discuss.pytorch.kr/t/eve-ai-feat-vercel/10993</link>
-      <description>eve 소개 eve는 Vercel이 공개한, 지속성 있는(durable) AI 에이전트를 위한 파일시스템 우선(filesystem-first) 프레임워크입니다. 에이전트를 코드 깊숙한 곳의 추상화로 숨기는 대신, 에이전트의 핵심 능력을 약속된 위치의 평범한 파일과 폴더로 표현합니다. 그 결과 프로젝트를 들여다보고, 확장하고, 운영하기가 쉬워집니다.</description>
-      <pubDate>Wed, 01 Jul 2026 21:30:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/eve-ai-feat-vercel/10993">PyTorch Korea</source>
-      <guid isPermaLink="false">d7d18b5e1caef9b36caef502a87c4c7c</guid>
     </item>
   </channel>
 </rss>
