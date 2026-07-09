@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Jul 2026 21:05:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:57:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>에이전트 강화 학습을 위한 단일 롤아웃 비동기 최적화</title>
+      <link>https://huggingface.co/papers/2607.07508</link>
+      <description>단일 롤아웃 최적화를 사용한 비동기 강화 학습은 복잡한 작업에 대한 LLM 교육의 안정성 문제를 해결하여 코딩 및 추론 벤치마크에서 기존 방법보다 성능이 뛰어납니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07508">Hugging Face Papers</source>
+      <guid isPermaLink="false">e9091c296290ee7eb5a94141f979af0c</guid>
+    </item>
+    <item>
+      <title>일어나서 터치하세요! MLLM의 마스크 분리 촉각 정렬 학습</title>
+      <link>https://huggingface.co/papers/2607.00302</link>
+      <description>Splash는 다중 모드 LLM이 선택적 매개변수 업데이트를 통해 비전 언어 추론을 희생하지 않고 촉각 감지 기능을 획득할 수 있도록 하는 마스크 분리 촉각 정렬 학습 프레임워크입니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.00302">Hugging Face Papers</source>
+      <guid isPermaLink="false">95ba45a232a94f4fc64b6df82fc219bb</guid>
+    </item>
+    <item>
+      <title>AgentLens: 코딩 에이전트 평가를 위한 생산 평가 궤적 검토</title>
+      <link>https://huggingface.co/papers/2607.06624</link>
+      <description>대화형 코드 에이전트에 대한 프로덕션 평가 벤치마크인 AgentLens를 소개합니다. 대부분의 코드 에이전트 벤치마크는 실행을 단일 비트로 줄입니다. 작업이 통과되었습니까?</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06624">Hugging Face Papers</source>
+      <guid isPermaLink="false">d43b336ae9b8c696840cb413ddcad301</guid>
+    </item>
+    <item>
+      <title>희소 델타 메모리: 희소성을 통해 선형 RNN 상태 확장</title>
+      <link>https://huggingface.co/papers/2607.07386</link>
+      <description>Sparse Delta Memory는 희소 주소 지정을 통해 게이트 선형 RNN을 확장하여 계산 효율성을 유지하면서 향상된 장기 컨텍스트 학습 및 검색을 위해 숨겨진 상태 용량을 극적으로 늘립니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07386">Hugging Face Papers</source>
+      <guid isPermaLink="false">1f31aa7c16d88c1481f046fd933fb796</guid>
+    </item>
     <item>
       <title>구현된 에이전트 아키텍처 설계 자동화</title>
       <link>https://huggingface.co/papers/2606.30111</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.06291">Hugging Face Papers</source>
       <guid isPermaLink="false">6ae3f4a860565fd4c806cbf6bd9f46dd</guid>
-    </item>
-    <item>
-      <title>RynnWorld-4D: 로봇 조작을 위한 4D 구현 세계 모델</title>
-      <link>https://huggingface.co/papers/2607.06559</link>
-      <description>다중 모드 4D 세계 모델은 단일 RGB-D 이미지 및 언어 지침에서 동기화된 RGB, 깊이 및 광학 흐름 데이터를 생성하여 통합 확산 프로세스 및 i…</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06559">Hugging Face Papers</source>
-      <guid isPermaLink="false">e777a3d4f8f887c16c165087bfef73a7</guid>
-    </item>
-    <item>
-      <title>Nemotron-Labs-Diffusion: 자기회귀, 확산 및 자기 추측 디코딩을 통합하는 삼중 모드 언어 모델</title>
-      <link>https://huggingface.co/papers/2607.05722</link>
-      <description>Nemotron-Labs-Diffusion은 자동 회귀, 확산 및 자체 추측 디코딩을 결합하여 기존 모델에 비해 뛰어난 처리량과 효율성을 달성하는 3중 모드 언어 모델입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05722">Hugging Face Papers</source>
-      <guid isPermaLink="false">7193888abc98f04e91e6be6f8b5fa7c5</guid>
-    </item>
-    <item>
-      <title>SIEVE: VLA 모델을 사용한 모방 학습을 위한 구조 인식 데이터 선택</title>
-      <link>https://huggingface.co/papers/2607.06442</link>
-      <description>SIEVE는 재사용 가능한 시각-운동 기본 요소와 전환 인터페이스를 식별하여 정책 학습 효율성을 향상시키는 시각-언어-행동 모방 학습을 위한 구조 인식 데이터 선택 방법입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06442">Hugging Face Papers</source>
-      <guid isPermaLink="false">d564d662fe494ee236c382f5148905d7</guid>
-    </item>
-    <item>
-      <title>RynnWorld-Teleop: 디지털 원격운영을 위한 행동 조건이 적용된 세계 모델</title>
-      <link>https://huggingface.co/papers/2607.06558</link>
-      <description>디지털 원격 조작은 물리적 로봇 상호 작용을 생성 세계 모델로 대체하여 로봇 공학을 위한 다양한 훈련 데이터를 생성함으로써 효율적인 제로샷 Sim2Real 전송과 향상된 실제 성능을 가능하게 합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06558">Hugging Face Papers</source>
-      <guid isPermaLink="false">66610b7380a50c40cc00b3d8d9c6f548</guid>
     </item>
   </channel>
 </rss>
