@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Jul 2026 17:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 21:05:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>구현된 에이전트 아키텍처 설계 자동화</title>
+      <link>https://huggingface.co/papers/2606.30111</link>
+      <description>자동화된 에이전트 아키텍처 검색은 구현된 에이전트 성능을 향상시킬 수 있는 잠재력을 보여주며 시뮬레이션 기반 트래픽의 최적화 신호, 로컬 최적 및 크레딧 할당과 관련된 문제를 드러냅니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2606.30111">Hugging Face Papers</source>
+      <guid isPermaLink="false">45a97fa918c00244f15395fd2c7db913</guid>
+    </item>
+    <item>
+      <title>상상된 롤아웃은 동적이 아닌 운동학적입니다: 장수평 세계 모델 실패의 진단</title>
+      <link>https://huggingface.co/papers/2607.05966</link>
+      <description>세계 모델은 동적인 상상보다는 운동학적으로 인해 장기적인 실패를 나타냅니다. 이는 정책 보상이 마찰에 걸쳐 붕괴되는 동안 평평하게 유지되는 가상의 운동학적 일관성 오류를 측정하여 입증되었습니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05966">Hugging Face Papers</source>
+      <guid isPermaLink="false">785c12f7c946fcd92b4605fac271ccf9</guid>
+    </item>
     <item>
       <title>심층적인 기본 구조 추론을 통한 정확하고 학제적이며 투명한 구조 속성 이해</title>
       <link>https://huggingface.co/papers/2607.07708</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.06558">Hugging Face Papers</source>
       <guid isPermaLink="false">66610b7380a50c40cc00b3d8d9c6f548</guid>
-    </item>
-    <item>
-      <title>SeKV: 장기 컨텍스트 LLM 추론을 위한 계층적 의미 메모리를 갖춘 분해능 적응형 KV 캐시</title>
-      <link>https://huggingface.co/papers/2606.31145</link>
-      <description>SeKV는 컨텍스트를 GPU-CPU 메모리 계층 전체에 저장된 엔트로피 기반 범위로 압축하여 메모리 오버헤드를 최소화하면서 효율적인 장기 컨텍스트 처리를 가능하게 하는 해상도 적응형 시맨틱 KV 캐시를 도입합니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31145">Hugging Face Papers</source>
-      <guid isPermaLink="false">14bcf766ab5a4439b3be2ad869415e39</guid>
-    </item>
-    <item>
-      <title>GaP: 변형 자동화 작업을 위한 정책으로서의 그래프 다중 에이전트 자가 학습 하네스</title>
-      <link>https://huggingface.co/papers/2607.05369</link>
-      <description>Graph-as-Policy 시스템은 모듈형 로봇 기술과 다중 에이전트 코딩을 결합하여 병렬 시뮬레이션 개선을 통해 가변 자동화 작업의 신뢰성을 향상시킵니다.</description>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05369">Hugging Face Papers</source>
-      <guid isPermaLink="false">b0d133975d0c55be98faf5de0cdef5e0</guid>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Jul 2026 17:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 21:05:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TencentDB Agent Memory: AI 에이전트를 위한 계층형 로컬 기억 시스템</title>
+      <link>https://discuss.pytorch.kr/t/tencentdb-agent-memory-ai/11150</link>
+      <description>TencentDB Agent Memory 소개 TencentDB Agent Memory는 AI 에이전트에게 장기 기억과 단기 기억을 완전 로컬로 제공하는 오픈소스 메모리 시스템입니다. 에이전트를 쓰다 보면 같은 SOP, 프로젝트 배경, 도구 사용 규칙, 출력 형식을 매번 다시 설명하게 되는데, 이런 정보는 반복 입력할 필요도 없고 그렇다고 컨텍스트에 무작정 쏟아부을 것도 아닙니다.</description>
+      <pubDate>Thu, 09 Jul 2026 18:30:02 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/tencentdb-agent-memory-ai/11150">PyTorch Korea</source>
+      <guid isPermaLink="false">63dd212124df928e3ef73272748ac89a</guid>
+    </item>
     <item>
       <title>DeepTeam: LLM과 AI 에이전트를 레드팀하는 오픈소스 보안 테스트 프레임워크</title>
       <link>https://discuss.pytorch.kr/t/deepteam-llm-ai/11161</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/eve-ai-feat-vercel/10993">PyTorch Korea</source>
       <guid isPermaLink="false">d7d18b5e1caef9b36caef502a87c4c7c</guid>
-    </item>
-    <item>
-      <title>agentsview: 모든 AI 코딩 에이전트의 세션을 로컬에서 검색하고 분석하는 도구</title>
-      <link>https://discuss.pytorch.kr/t/agentsview-ai/10992</link>
-      <description>agentsview 소개 요즘은 한 명의 개발자가 Claude Code, Codex, Cursor, Gemini CLI 등 여러 코딩 에이전트를 번갈아 씁니다. 그런데 각 에이전트는 세션 기록을 제각기 다른 디렉토리에 흩어 놓기 때문에, "지난주에 어떤 대화에서 이 코드를 고쳤더라", "이번 달 토큰 비용이 얼마였지" 같은 질문에 답하기가 어렵습니다.</description>
-      <pubDate>Wed, 01 Jul 2026 15:30:02 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agentsview-ai/10992">PyTorch Korea</source>
-      <guid isPermaLink="false">22866f2cc6c4a8757134e44915a7ffaa</guid>
     </item>
   </channel>
 </rss>
