@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-08",
-  "generated_at": "2026-07-08T08:55:00.958397+09:00",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T09:06:01.245247+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "13a26f4fcee956e7c952f0a3d7a71f0c",
+          "id": "51ec308463316008746fb103d74797a8",
           "index": 1,
-          "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-          "title_ko": "LLM-as-a-Verifier: 범용 검증 프레임워크",
-          "summary": "LLM-as-a-Verifier introduces a probabilistic verification framework that scales across multiple dimensions to improve solution correctness assessment and agent performance across various benchmarks.",
-          "summary_ko": "LLM-as-a-Verifier는 다양한 벤치마크에서 솔루션 정확성 평가 및 에이전트 성능을 개선하기 위해 여러 차원에 걸쳐 확장되는 확률적 검증 프레임워크를 도입합니다.",
-          "url": "https://huggingface.co/papers/2607.05391",
+          "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+          "title_ko": "Light-Omni: 장기 기억을 통한 행위적 비디오 이해의 추론에 대한 성찰",
+          "summary": "Light-Omni is a multimodal agent framework that enables efficient video understanding through dual contextual states, achieving faster and more accurate video processing by eliminating iterative reasoning while maintain…",
+          "summary_ko": "Light-Omni는 이중 상황 상태를 통해 효율적인 비디오 이해를 가능하게 하는 다중 모드 에이전트 프레임워크로, 유지하면서 반복적 추론을 제거하여 더 빠르고 정확한 비디오 처리를 달성합니다.",
+          "url": "https://huggingface.co/papers/2607.05511",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-07T09:00:00+09:00",
-          "popularity": 431,
-          "upvotes": 9,
-          "score": 28.02,
-          "importance_score": 18.03,
-          "matched_keywords": [
-            "llm",
-            "agent",
-            "benchmark"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 9
-          }
-        },
-        {
-          "id": "19d9fd44486413f117b3e9f58c3acefb",
-          "index": 2,
-          "title": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
-          "title_ko": "UI-MOPD: 지속적인 GUI 에이전트 학습을 위한 다중 플랫폼 온 정책 증류",
-          "summary": "Uni-GUI dataset and UI-MOPD method enable cross-platform GUI agent training by addressing limited data and platform-specific capability degradation through multi-teacher on-policy distillation.",
-          "summary_ko": "Uni-GUI 데이터 세트 및 UI-MOPD 방법은 다중 교사 기반 정책 증류를 통해 제한된 데이터 및 플랫폼별 기능 저하를 해결하여 크로스 플랫폼 GUI 에이전트 교육을 가능하게 합니다.",
-          "url": "https://huggingface.co/papers/2607.04425",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-07-07T09:00:00+09:00",
-          "popularity": 129,
-          "upvotes": 62,
-          "score": 26.62,
-          "importance_score": 14.64,
+          "published_at": "2026-07-08T09:00:00+09:00",
+          "popularity": 78,
+          "upvotes": 19,
+          "score": 25.11,
+          "importance_score": 13.11,
           "matched_keywords": [
             "ai",
             "agent",
-            "training",
-            "dataset"
+            "multimodal",
+            "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 62
+            "value": 19
+          }
+        },
+        {
+          "id": "2e0141f5db7118d6bd908ec7d18e0975",
+          "index": 2,
+          "title": "From Foundation to Application: Improving VLA Models in Practice",
+          "title_ko": "기초부터 적용까지: 실제 VLA 모델 개선",
+          "summary": "LingBot-VLA 2.0 enhances generalization across tasks and embodiments through expanded data preprocessing and training on diverse robot configurations, extends action space to include whole-body degrees of freedom for co…",
+          "summary_ko": "LingBot-VLA 2.0은 다양한 로봇 구성에 대한 확장된 데이터 전처리 및 교육을 통해 작업 및 실시예 전반에 걸쳐 일반화를 강화하고 공동 작업을 위한 전신 자유도를 포함하도록 작업 공간을 확장합니다.",
+          "url": "https://huggingface.co/papers/2607.06403",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-07-08T09:00:00+09:00",
+          "popularity": 292,
+          "upvotes": 11,
+          "score": 25.04,
+          "importance_score": 17.04,
+          "matched_keywords": [
+            "ai",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 11
           }
         }
       ]
@@ -69,21 +68,21 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "f58265d667bdc42b65e4643961b9a0a5",
+          "id": "0bac72a550f70c0a8886c3fc64806cd6",
           "index": 3,
-          "title": "[7월7일] AI가 벌어준 돈, 82%는 '인프라'의 몫...모델은 11% 불과",
+          "title": "[7월8일] \"최고 모델이 공짜\"…오픈AI·앤트로픽이 무료 토큰 경쟁에 나선 이유",
           "title_ko": null,
-          "summary": "생성 AI 시장은 기술 사상 유례없는 성장 속도를 이어가고 있습니다.",
+          "summary": "최근 미국 AI 업계에서는 새로운 가격 경쟁이 시작됐습니다. 이번에는 요금 인하가 아니라, 아예 최고 성능 AI를 \\'무료\\'로 제공하는 경쟁입니다.더 주목할 점은 이를 주도하는 곳이 가장 비싸고 성능이 뛰어난 프론티어 모델 기업인 오픈AI와 앤트로픽이라는 것입니다.물론, 이들이 모든 사용자를 대상으로 무료 서비스에 나선 것은 아닙니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212495",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212534",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-08T07:00:00+09:00",
+          "published_at": "2026-07-09T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.6,
-          "importance_score": 19.2,
+          "score": 22.56,
+          "importance_score": 19.13,
           "matched_keywords": [
             "ai",
             "모델"
@@ -91,23 +90,24 @@
           "engagement": null
         },
         {
-          "id": "3c61fa7617e3c053d4361663b328a91c",
+          "id": "e387cb7c4fbb854fda61cfd05f37ab9c",
           "index": 4,
-          "title": "“아이 낳으면 유방암 위험 낮아진다?”…10년간 유방 보호하는 면역세포 발견",
+          "title": "스페이스XAI, 오퍼스급 AI 모델 '그록 4.5' 공개",
           "title_ko": null,
-          "summary": "아이를 출산한 경험이 여성의 유방암 발병 위험을 낮추는 데 긍정적인 영향을 줄 수 있다는 연구 결과가 발표됐다. 3일(현지시간) 데일리메일에 따르면 호주 피터 맥칼럼 암센터 연구진은 임신 과정에서 유방 조직에 암세포를 공격하는 면역세포인 '킬러 T세포(killer T-cells)'가 형성되고, 이 세포가 출산 이후에도 약 10년 동안 남아 유방을 보호하는 기능을 수행한다는 사실을 확인했다.",
+          "summary": "스페이스XAI는 코딩과 에이전트형 작업에 특화한 새 인공지능(AI) 모델 '그록 4.5(Grok 4.5)'를 출시했다고 8일(현지시간) 밝혔다. 그록 4.5는 코딩, 에이전트형 작업, 지식 업무에 맞춰 개발됐다. 스페이스XAI는 그록 4.5가 실제 엔지니어링 작업에서 높은 성능을 내도록 개발됐다고 설명했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260707000388",
+          "url": "https://www.etnews.com/20260709000006",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-08T06:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-07-09T07:34:17+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.39,
-          "importance_score": 18.78,
+          "score": 22.58,
+          "importance_score": 19.26,
           "matched_keywords": [
-            "연구"
+            "ai",
+            "모델"
           ],
           "engagement": null
         }
@@ -128,11 +128,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-08T01:24:01+09:00",
-          "popularity": 306,
-          "upvotes": 306,
-          "score": 37.48,
-          "importance_score": 26.91,
+          "published_at": "2026-07-09T01:54:56+09:00",
+          "popularity": 390,
+          "upvotes": 390,
+          "score": 38.39,
+          "importance_score": 27.9,
           "matched_keywords": [
             "ai",
             "agent",
@@ -141,32 +141,31 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 306
+            "value": 390
           }
         },
         {
-          "id": "e3143271b7741482c8bba76c7f6b70da",
+          "id": "8c1a63064bfb749fff677d90bd6e3e5f",
           "index": 6,
-          "title": "uzairansaruzi/hermex — Native iPhone app for your Hermes agent",
-          "title_ko": "uzairansaruzi/hermex — Hermes 에이전트를 위한 기본 iPhone 앱",
-          "summary": "Native iPhone app for your Hermes agent",
-          "summary_ko": "Hermes 에이전트를 위한 기본 iPhone 앱",
-          "url": "https://github.com/uzairansaruzi/hermex",
+          "title": "synthetic-sciences/openscience — The open-source AI workbench for scientific research",
+          "title_ko": "Synthetic-sciences/openscience — 과학 연구를 위한 오픈 소스 AI 워크벤치",
+          "summary": "The open-source AI workbench for scientific research",
+          "summary_ko": "과학 연구를 위한 오픈 소스 AI 워크벤치",
+          "url": "https://github.com/synthetic-sciences/openscience",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-08T07:35:05+09:00",
-          "popularity": 676,
-          "upvotes": 676,
-          "score": 35.53,
-          "importance_score": 32.26,
+          "published_at": "2026-07-09T08:59:50+09:00",
+          "popularity": 1742,
+          "upvotes": 1742,
+          "score": 34.48,
+          "importance_score": 34.46,
           "matched_keywords": [
-            "ai",
-            "agent"
+            "ai"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 676
+            "value": 1742
           }
         }
       ]
@@ -176,24 +175,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "26cf282c4ddb8061f3806042c41a8a6d",
+          "id": "7631f2df14271db1d8165245bfa7652c",
           "index": 7,
-          "title": "J-space: LLM 내부에 창발한 글로벌 워크스페이스와 이를 읽는 Jacobian Lens (feat. Anthropic)",
+          "title": "ai-engineering-interview-questions: AI 엔지니어 면접 문답 치트시트",
           "title_ko": null,
-          "summary": "언어 모델도 \"말하지 않은 생각\"을 따로 품고 있을까? 지금 이 문장을 읽는 동안에도 우리 뇌에서는 엄청난 양의 처리가 일어나고 있습니다. 자세를 바로잡고, 호흡을 조절하고, 화면 위의 선과 곡선을 단어로 바꿉니다.",
+          "summary": "ai-engineering-interview-questions 소개 AI 엔지니어, Gen AI 엔지니어, LLM 엔지니어, Agentic AI 엔지니어 같은 직군의 면접은 전통적인 소프트웨어 엔지니어 면접과 다루는 범위가 상당히 다릅니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/j-space-llm-jacobian-lens-feat-anthropic/11125",
+          "url": "https://discuss.pytorch.kr/t/ai-engineering-interview-questions-ai/11074",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-07T21:30:47+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-09T06:30:12+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 20.42,
-          "importance_score": 15.05,
+          "score": 25.36,
+          "importance_score": 18.82,
           "matched_keywords": [
+            "ai",
             "llm",
-            "모델"
+            "agent"
           ],
           "engagement": null
         }
@@ -202,74 +202,73 @@
   ],
   "items": [
     {
-      "id": "13a26f4fcee956e7c952f0a3d7a71f0c",
+      "id": "51ec308463316008746fb103d74797a8",
       "index": 1,
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-      "title_ko": "LLM-as-a-Verifier: 범용 검증 프레임워크",
-      "summary": "LLM-as-a-Verifier introduces a probabilistic verification framework that scales across multiple dimensions to improve solution correctness assessment and agent performance across various benchmarks.",
-      "summary_ko": "LLM-as-a-Verifier는 다양한 벤치마크에서 솔루션 정확성 평가 및 에이전트 성능을 개선하기 위해 여러 차원에 걸쳐 확장되는 확률적 검증 프레임워크를 도입합니다.",
-      "url": "https://huggingface.co/papers/2607.05391",
+      "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+      "title_ko": "Light-Omni: 장기 기억을 통한 행위적 비디오 이해의 추론에 대한 성찰",
+      "summary": "Light-Omni is a multimodal agent framework that enables efficient video understanding through dual contextual states, achieving faster and more accurate video processing by eliminating iterative reasoning while maintain…",
+      "summary_ko": "Light-Omni는 이중 상황 상태를 통해 효율적인 비디오 이해를 가능하게 하는 다중 모드 에이전트 프레임워크로, 유지하면서 반복적 추론을 제거하여 더 빠르고 정확한 비디오 처리를 달성합니다.",
+      "url": "https://huggingface.co/papers/2607.05511",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-07T09:00:00+09:00",
-      "popularity": 431,
-      "upvotes": 9,
-      "score": 28.02,
-      "importance_score": 18.03,
-      "matched_keywords": [
-        "llm",
-        "agent",
-        "benchmark"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 9
-      }
-    },
-    {
-      "id": "19d9fd44486413f117b3e9f58c3acefb",
-      "index": 2,
-      "title": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
-      "title_ko": "UI-MOPD: 지속적인 GUI 에이전트 학습을 위한 다중 플랫폼 온 정책 증류",
-      "summary": "Uni-GUI dataset and UI-MOPD method enable cross-platform GUI agent training by addressing limited data and platform-specific capability degradation through multi-teacher on-policy distillation.",
-      "summary_ko": "Uni-GUI 데이터 세트 및 UI-MOPD 방법은 다중 교사 기반 정책 증류를 통해 제한된 데이터 및 플랫폼별 기능 저하를 해결하여 크로스 플랫폼 GUI 에이전트 교육을 가능하게 합니다.",
-      "url": "https://huggingface.co/papers/2607.04425",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-07-07T09:00:00+09:00",
-      "popularity": 129,
-      "upvotes": 62,
-      "score": 26.62,
-      "importance_score": 14.64,
+      "published_at": "2026-07-08T09:00:00+09:00",
+      "popularity": 78,
+      "upvotes": 19,
+      "score": 25.11,
+      "importance_score": 13.11,
       "matched_keywords": [
         "ai",
         "agent",
-        "training",
-        "dataset"
+        "multimodal",
+        "reasoning"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 62
+        "value": 19
       }
     },
     {
-      "id": "f58265d667bdc42b65e4643961b9a0a5",
+      "id": "2e0141f5db7118d6bd908ec7d18e0975",
+      "index": 2,
+      "title": "From Foundation to Application: Improving VLA Models in Practice",
+      "title_ko": "기초부터 적용까지: 실제 VLA 모델 개선",
+      "summary": "LingBot-VLA 2.0 enhances generalization across tasks and embodiments through expanded data preprocessing and training on diverse robot configurations, extends action space to include whole-body degrees of freedom for co…",
+      "summary_ko": "LingBot-VLA 2.0은 다양한 로봇 구성에 대한 확장된 데이터 전처리 및 교육을 통해 작업 및 실시예 전반에 걸쳐 일반화를 강화하고 공동 작업을 위한 전신 자유도를 포함하도록 작업 공간을 확장합니다.",
+      "url": "https://huggingface.co/papers/2607.06403",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-07-08T09:00:00+09:00",
+      "popularity": 292,
+      "upvotes": 11,
+      "score": 25.04,
+      "importance_score": 17.04,
+      "matched_keywords": [
+        "ai",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 11
+      }
+    },
+    {
+      "id": "0bac72a550f70c0a8886c3fc64806cd6",
       "index": 3,
-      "title": "[7월7일] AI가 벌어준 돈, 82%는 '인프라'의 몫...모델은 11% 불과",
+      "title": "[7월8일] \"최고 모델이 공짜\"…오픈AI·앤트로픽이 무료 토큰 경쟁에 나선 이유",
       "title_ko": null,
-      "summary": "생성 AI 시장은 기술 사상 유례없는 성장 속도를 이어가고 있습니다.",
+      "summary": "최근 미국 AI 업계에서는 새로운 가격 경쟁이 시작됐습니다. 이번에는 요금 인하가 아니라, 아예 최고 성능 AI를 \\'무료\\'로 제공하는 경쟁입니다.더 주목할 점은 이를 주도하는 곳이 가장 비싸고 성능이 뛰어난 프론티어 모델 기업인 오픈AI와 앤트로픽이라는 것입니다.물론, 이들이 모든 사용자를 대상으로 무료 서비스에 나선 것은 아닙니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212495",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212534",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-08T07:00:00+09:00",
+      "published_at": "2026-07-09T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.6,
-      "importance_score": 19.2,
+      "score": 22.56,
+      "importance_score": 19.13,
       "matched_keywords": [
         "ai",
         "모델"
@@ -277,23 +276,24 @@
       "engagement": null
     },
     {
-      "id": "3c61fa7617e3c053d4361663b328a91c",
+      "id": "e387cb7c4fbb854fda61cfd05f37ab9c",
       "index": 4,
-      "title": "“아이 낳으면 유방암 위험 낮아진다?”…10년간 유방 보호하는 면역세포 발견",
+      "title": "스페이스XAI, 오퍼스급 AI 모델 '그록 4.5' 공개",
       "title_ko": null,
-      "summary": "아이를 출산한 경험이 여성의 유방암 발병 위험을 낮추는 데 긍정적인 영향을 줄 수 있다는 연구 결과가 발표됐다. 3일(현지시간) 데일리메일에 따르면 호주 피터 맥칼럼 암센터 연구진은 임신 과정에서 유방 조직에 암세포를 공격하는 면역세포인 '킬러 T세포(killer T-cells)'가 형성되고, 이 세포가 출산 이후에도 약 10년 동안 남아 유방을 보호하는 기능을 수행한다는 사실을 확인했다.",
+      "summary": "스페이스XAI는 코딩과 에이전트형 작업에 특화한 새 인공지능(AI) 모델 '그록 4.5(Grok 4.5)'를 출시했다고 8일(현지시간) 밝혔다. 그록 4.5는 코딩, 에이전트형 작업, 지식 업무에 맞춰 개발됐다. 스페이스XAI는 그록 4.5가 실제 엔지니어링 작업에서 높은 성능을 내도록 개발됐다고 설명했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260707000388",
+      "url": "https://www.etnews.com/20260709000006",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-08T06:00:00+09:00",
-      "popularity": 100,
+      "published_at": "2026-07-09T07:34:17+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 19.39,
-      "importance_score": 18.78,
+      "score": 22.58,
+      "importance_score": 19.26,
       "matched_keywords": [
-        "연구"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
@@ -308,11 +308,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-08T01:24:01+09:00",
-      "popularity": 306,
-      "upvotes": 306,
-      "score": 37.48,
-      "importance_score": 26.91,
+      "published_at": "2026-07-09T01:54:56+09:00",
+      "popularity": 390,
+      "upvotes": 390,
+      "score": 38.39,
+      "importance_score": 27.9,
       "matched_keywords": [
         "ai",
         "agent",
@@ -321,53 +321,53 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 306
+        "value": 390
       }
     },
     {
-      "id": "e3143271b7741482c8bba76c7f6b70da",
+      "id": "8c1a63064bfb749fff677d90bd6e3e5f",
       "index": 6,
-      "title": "uzairansaruzi/hermex — Native iPhone app for your Hermes agent",
-      "title_ko": "uzairansaruzi/hermex — Hermes 에이전트를 위한 기본 iPhone 앱",
-      "summary": "Native iPhone app for your Hermes agent",
-      "summary_ko": "Hermes 에이전트를 위한 기본 iPhone 앱",
-      "url": "https://github.com/uzairansaruzi/hermex",
+      "title": "synthetic-sciences/openscience — The open-source AI workbench for scientific research",
+      "title_ko": "Synthetic-sciences/openscience — 과학 연구를 위한 오픈 소스 AI 워크벤치",
+      "summary": "The open-source AI workbench for scientific research",
+      "summary_ko": "과학 연구를 위한 오픈 소스 AI 워크벤치",
+      "url": "https://github.com/synthetic-sciences/openscience",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-08T07:35:05+09:00",
-      "popularity": 676,
-      "upvotes": 676,
-      "score": 35.53,
-      "importance_score": 32.26,
+      "published_at": "2026-07-09T08:59:50+09:00",
+      "popularity": 1742,
+      "upvotes": 1742,
+      "score": 34.48,
+      "importance_score": 34.46,
       "matched_keywords": [
-        "ai",
-        "agent"
+        "ai"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 676
+        "value": 1742
       }
     },
     {
-      "id": "26cf282c4ddb8061f3806042c41a8a6d",
+      "id": "7631f2df14271db1d8165245bfa7652c",
       "index": 7,
-      "title": "J-space: LLM 내부에 창발한 글로벌 워크스페이스와 이를 읽는 Jacobian Lens (feat. Anthropic)",
+      "title": "ai-engineering-interview-questions: AI 엔지니어 면접 문답 치트시트",
       "title_ko": null,
-      "summary": "언어 모델도 \"말하지 않은 생각\"을 따로 품고 있을까? 지금 이 문장을 읽는 동안에도 우리 뇌에서는 엄청난 양의 처리가 일어나고 있습니다. 자세를 바로잡고, 호흡을 조절하고, 화면 위의 선과 곡선을 단어로 바꿉니다.",
+      "summary": "ai-engineering-interview-questions 소개 AI 엔지니어, Gen AI 엔지니어, LLM 엔지니어, Agentic AI 엔지니어 같은 직군의 면접은 전통적인 소프트웨어 엔지니어 면접과 다루는 범위가 상당히 다릅니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/j-space-llm-jacobian-lens-feat-anthropic/11125",
+      "url": "https://discuss.pytorch.kr/t/ai-engineering-interview-questions-ai/11074",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-07T21:30:47+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-09T06:30:12+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 20.42,
-      "importance_score": 15.05,
+      "score": 25.36,
+      "importance_score": 18.82,
       "matched_keywords": [
+        "ai",
         "llm",
-        "모델"
+        "agent"
       ],
       "engagement": null
     }
