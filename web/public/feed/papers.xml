@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 10 Jul 2026 03:04:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 05:48:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TESSERA v2: 픽셀 기반 지구 기초 모델 확장</title>
+      <link>https://huggingface.co/papers/2607.03949</link>
+      <description>대규모 제어 실험을 통해 지구 관측 기반 모델에 대한 최적의 확장 전략을 밝혀 인코더 성장, 다운스트림 성능 선택 및 모드를 통해 효율적인 교육 및 배포를 가능하게 합니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03949">Hugging Face Papers</source>
+      <guid isPermaLink="false">787a37687e0dccba57dd1764941d0d3b</guid>
+    </item>
+    <item>
+      <title>OmniTacTune: 시각적 정책의 촉각적 잔여 적응을 위한 정책 독립적인 실제 RL</title>
+      <link>https://huggingface.co/papers/2607.03723</link>
+      <description>OmniTacTune은 접촉이 많은 조작 작업의 성공률을 향상시키는 2단계 강화 학습 접근 방식을 통해 시각적 로봇 정책에 대한 촉각 피드백을 효율적으로 적용할 수 있습니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03723">Hugging Face Papers</source>
+      <guid isPermaLink="false">4e01f93847aeb498551415def72994ff</guid>
+    </item>
+    <item>
+      <title>유방암 분류를 위한 대형 비전 모델의 토큰 기반 듀얼 뷰 융합 및 적용</title>
+      <link>https://huggingface.co/papers/2607.06309</link>
+      <description>토큰 중심의 듀얼 뷰 학습 프레임워크는 냉동 비전 변환기의 프롬프트 기반 적응과 교차 뷰 융합을 통합하여 유방 조영술 이미지에서 유방암 분류를 개선합니다.</description>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.06309">Hugging Face Papers</source>
+      <guid isPermaLink="false">d722e5bcbd7dace338a107ca411caa7f</guid>
+    </item>
     <item>
       <title>에이전트 강화 학습을 위한 단일 롤아웃 비동기 최적화</title>
       <link>https://huggingface.co/papers/2607.07508</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.05511">Hugging Face Papers</source>
       <guid isPermaLink="false">51ec308463316008746fb103d74797a8</guid>
-    </item>
-    <item>
-      <title>SkillOpt-Lite: 단일 Vibe 라인을 통한 더 좋고 빠른 에이전트 자체 진화</title>
-      <link>https://huggingface.co/papers/2607.03451</link>
-      <description>궤적 탐색, 연결을 통해 수렴 및 일반화를 유지하면서 중복을 제거하는 0차 최적화 형식화를 통해 스킬 최적화를 위한 최소 실행 가능한 파이프라인을 제안합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03451">Hugging Face Papers</source>
-      <guid isPermaLink="false">189b3820eb17b25986e54023d4d65113</guid>
-    </item>
-    <item>
-      <title>TREK: 탐구를 위한 증류, 개선을 위한 강화</title>
-      <link>https://huggingface.co/papers/2607.05339</link>
-      <description>TREK는 모방이 아닌 탐색을 위한 증류를 사용하여 정책 최적화를 위한 탐색 지원을 확장하고 까다로운 수학적 추론 및 에이전트 작업의 성능을 향상시킵니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05339">Hugging Face Papers</source>
-      <guid isPermaLink="false">59989aee4fc68cc78a3ea347b0c12cf7</guid>
-    </item>
-    <item>
-      <title>AlayaWorld: 긴 지평선 및 재생 가능한 비디오 세계 생성</title>
-      <link>https://huggingface.co/papers/2607.06291</link>
-      <description>AlayaWorld는 실시간 사용자 상호 작용을 가능하게 하고 모듈식 아키텍처 내에서 다양한 작업을 지원하는 대화형 생성 세계를 만들기 위한 오픈 소스 프레임워크입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06291">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ae3f4a860565fd4c806cbf6bd9f46dd</guid>
     </item>
   </channel>
 </rss>
