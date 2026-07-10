@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 10 Jul 2026 13:53:56 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 17:24:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상</title>
+      <link>https://huggingface.co/papers/2607.08765</link>
+      <description>Canvas360은 기하학적 인식 사전 훈련과 미세 조정을 결합한 상황 내 파노라마 생성을 위한 2단계 프레임워크로, 개선된 기하학적 구조를 위한 대규모 데이터 세트와 새로운 모델링 기술을 특징으로 합니다.</description>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08765">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee6d451d99ac89d7d96d65ec6ae59fc8</guid>
+    </item>
+    <item>
+      <title>LongE2V: 비디오 확산 모델을 사용한 장수평 이벤트 기반 비디오 재구성, 예측 및 프레임 보간</title>
+      <link>https://huggingface.co/papers/2607.08770</link>
+      <description>LongE2V는 사전 훈련된 비디오 확산 사전 분석을 활용하고 시간적 안정성 및 프레임 보간 문제를 해결함으로써 희소 이벤트 스트림에서 고품질 비디오 복구를 가능하게 합니다.</description>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08770">Hugging Face Papers</source>
+      <guid isPermaLink="false">e08f50cffb3ee2d3e9fc4becb5503df0</guid>
+    </item>
+    <item>
+      <title>온디바이스 시맨틱 오디오 생성을 위한 양자화된 네이티브 런타임</title>
+      <link>https://huggingface.co/papers/2607.08526</link>
+      <description>종속성이 없는 런타임은 오디오 품질을 유지하면서 양자화 및 활성화 조정을 통해 임베디드 장치에서 효율적인 텍스트-음악 생성을 가능하게 합니다.</description>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08526">Hugging Face Papers</source>
+      <guid isPermaLink="false">e4bd9638a177bbf1b6193a29a18d7a07</guid>
+    </item>
     <item>
       <title>방언을 언어처럼 조종할 수 있나요? 아랍어 LLM의 희소 뉴런 및 분산 방향</title>
       <link>https://huggingface.co/papers/2607.03936</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.05435">Hugging Face Papers</source>
       <guid isPermaLink="false">7e1eb5fbd8331724979a160c4eac8312</guid>
-    </item>
-    <item>
-      <title>기초부터 적용까지: 실제 VLA 모델 개선</title>
-      <link>https://huggingface.co/papers/2607.06403</link>
-      <description>LingBot-VLA 2.0은 다양한 로봇 구성에 대한 확장된 데이터 전처리 및 교육을 통해 작업 및 실시예 전반에 걸쳐 일반화를 강화하고 공동 작업을 위한 전신 자유도를 포함하도록 작업 공간을 확장합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06403">Hugging Face Papers</source>
-      <guid isPermaLink="false">2e0141f5db7118d6bd908ec7d18e0975</guid>
-    </item>
-    <item>
-      <title>TurnOPD: 효율적인 Long-Horizon Agent 교육을 위해 On-Policy Distillation Turn-Aware 만들기</title>
-      <link>https://huggingface.co/papers/2607.05804</link>
-      <description>장거리 에이전트 교육에서 효율적인 정책 기반 증류를 위한 턴레벨 예산 책정 전략은 전체 수평 롤아웃 및 얕은 토큰 집중의 비효율성을 해결합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05804">Hugging Face Papers</source>
-      <guid isPermaLink="false">f94e66941d30b4cbd3c66ed9cd61b987</guid>
-    </item>
-    <item>
-      <title>Gemma 4 기술 보고서</title>
-      <link>https://huggingface.co/papers/2607.02770</link>
-      <description>Gemma 4는 다양한 아키텍처, 향상된 추론 기능, 다양한 작업 전반에 걸쳐 향상된 성능을 갖춘 효율적인 다중 모드 언어 모델을 도입합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.02770">Hugging Face Papers</source>
-      <guid isPermaLink="false">268eec8cb96d34ef5ede2a92f5f0b921</guid>
     </item>
   </channel>
 </rss>
