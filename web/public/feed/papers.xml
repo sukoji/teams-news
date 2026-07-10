@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 10 Jul 2026 17:24:51 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 20:53:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DrugGen 2: 약물 발견 향상을 위한 질병 인식 언어 모델</title>
+      <link>https://huggingface.co/papers/2607.08404</link>
+      <description>DrugGen-2는 지도 학습과 GRPO를 이용한 강화 학습으로 GPT-2를 미세 조정하여 질병 온톨로지와 표적 단백질 서열에 맞춰진 소분자를 생성하여 우수한 분자 분할을 달성합니다.</description>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08404">Hugging Face Papers</source>
+      <guid isPermaLink="false">13a2283eb1e8ca417aedea931e4ba1a9</guid>
+    </item>
+    <item>
+      <title>선형 주의 아키텍처: 메커니즘, 절충 및 교차 계층 라우팅</title>
+      <link>https://huggingface.co/papers/2607.07953</link>
+      <description>소프트맥스 어텐션과 순환 선형 어텐션 아키텍처의 비교 분석에서는 다양한 매개변수 규모와 시퀀스 길이에 걸쳐 표현성, 메모리 관리 및 훈련 효율성을 검사합니다.</description>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07953">Hugging Face Papers</source>
+      <guid isPermaLink="false">6290a97ea28207c07c87dbe35b393560</guid>
+    </item>
+    <item>
+      <title>정점 회로에 대한 희박하고 잘린 상태 벡터 시뮬레이터</title>
+      <link>https://huggingface.co/papers/2607.07816</link>
+      <description>정점 양자 회로는 벡터화된 연산 및 하드웨어 가속을 통해 희소 상태 벡터 표현을 사용하여 고전적으로 효율적으로 시뮬레이션할 수 있습니다.</description>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07816">Hugging Face Papers</source>
+      <guid isPermaLink="false">3c596f76e9006467d39d5b693dc876a1</guid>
+    </item>
     <item>
       <title>기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상</title>
       <link>https://huggingface.co/papers/2607.08765</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.05691">Hugging Face Papers</source>
       <guid isPermaLink="false">f0441d3ae55a178c277845241a7dc45b</guid>
-    </item>
-    <item>
-      <title>Rank-Then-Act: 프레임 순서 진행을 통한 무보상 제어</title>
-      <link>https://huggingface.co/papers/2607.01897</link>
-      <description>Rank-Then-Act 프레임워크는 비전 언어 모델을 상관 기반 보상이 있는 순서 채점자로 사용하여 비디오 데모에서 제어 정책을 학습하여 환경 보상 없이 안정적인 작업 간 전송을 가능하게 합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01897">Hugging Face Papers</source>
-      <guid isPermaLink="false">2714b3691098248f323a40b6ffd57313</guid>
-    </item>
-    <item>
-      <title>CanvasAgent: 시각적 도구 오케스트레이션을 통해 복잡한 이미지 생성 및 편집 가능</title>
-      <link>https://huggingface.co/papers/2607.05465</link>
-      <description>다중 회전 상호 작용 및 하이브리드 보상 최적화를 통해 여러 시각적 도구를 조율하는 복잡한 이미지 생성 워크플로를 위한 대규모 다중 모드 도구 사용 데이터 세트 및 에이전트가 제공됩니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05465">Hugging Face Papers</source>
-      <guid isPermaLink="false">8248aa3c14eef29ad8c40cbe05bb1e25</guid>
-    </item>
-    <item>
-      <title>Bibby AI: 학술 연구, 글쓰기 및 출판을 위한 편집자 기반 에이전트 플랫폼</title>
-      <link>https://huggingface.co/papers/2607.05435</link>
-      <description>Bibby AI는 학술 글쓰기 워크플로우를 통합된 연구-작성-출판 파이프라인으로 통합하여 통합을 통해 문헌 관리, 인용 삽입 및 서식 지정을 간소화하는 편집자 기반 플랫폼입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05435">Hugging Face Papers</source>
-      <guid isPermaLink="false">7e1eb5fbd8331724979a160c4eac8312</guid>
     </item>
   </channel>
 </rss>
