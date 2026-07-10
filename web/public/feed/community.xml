@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 10 Jul 2026 09:06:38 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 13:53:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Tesseract-Torch: 컨테이너화한 과학 계산 코드를 PyTorch 자동미분에 연결하는 라이브러리</title>
+      <link>https://discuss.pytorch.kr/t/tesseract-torch-pytorch/11177</link>
+      <description>Tesseract-Torch 소개 실제 과학 연구 파이프라인은 하나의 언어나 프레임워크로 끝나지 않는 경우가 많습니다. 메시 생성기는 C++로, 솔버는 Julia로, 후처리는 Python으로 작성돼 있는 식입니다. 이런 이기종 도구를 하나로 묶어 함께 동작시키는 것도 번거롭지만, 그 파이프라인 전체에 걸쳐 그래디언트를 흘려보내 최적화까지 하는 일은 훨씬 더 어렵습니다.</description>
+      <pubDate>Fri, 10 Jul 2026 11:30:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/tesseract-torch-pytorch/11177">PyTorch Korea</source>
+      <guid isPermaLink="false">f169ef84a41d522771cef74657c40cc7</guid>
+    </item>
     <item>
       <title>claude-usage: Claude Code 토큰 사용량과 비용을 확인하는 로컬 대시보드</title>
       <link>https://discuss.pytorch.kr/t/claude-usage-claude-code/11174</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/feedback-distillation-llm-lean-feat-meta-fair/10484">PyTorch Korea</source>
       <guid isPermaLink="false">1475803cf934801537137abdceb51a27</guid>
-    </item>
-    <item>
-      <title>DevSpace: ChatGPT를 내 컴퓨터의 로컬 코드에 연결하는 자체 호스팅 MCP 서버</title>
-      <link>https://discuss.pytorch.kr/t/devspace-chatgpt-mcp/10994</link>
-      <description>DevSpace 소개 ChatGPT에게 코드를 다루게 하려면 보통 파일을 복사해 붙여넣거나 별도 서비스에 업로드해야 합니다. DevSpace는 이 과정을 뒤집어, ChatGPT가 내 컴퓨터의 실제 프로젝트를 직접 읽고 수정하고 실행하도록 안전하게 연결하는 자체 호스팅(self-hosted) MCP 서버입니다.</description>
-      <pubDate>Thu, 02 Jul 2026 08:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/devspace-chatgpt-mcp/10994">PyTorch Korea</source>
-      <guid isPermaLink="false">81958c01943999632b459df74d403b0e</guid>
     </item>
   </channel>
 </rss>
