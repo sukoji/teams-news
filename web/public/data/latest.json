@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-09",
-  "generated_at": "2026-07-09T09:06:01.245247+09:00",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T09:01:07.013373+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,59 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "51ec308463316008746fb103d74797a8",
+          "id": "787a37687e0dccba57dd1764941d0d3b",
           "index": 1,
-          "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
-          "title_ko": "Light-Omni: 장기 기억을 통한 행위적 비디오 이해의 추론에 대한 성찰",
-          "summary": "Light-Omni is a multimodal agent framework that enables efficient video understanding through dual contextual states, achieving faster and more accurate video processing by eliminating iterative reasoning while maintain…",
-          "summary_ko": "Light-Omni는 이중 상황 상태를 통해 효율적인 비디오 이해를 가능하게 하는 다중 모드 에이전트 프레임워크로, 유지하면서 반복적 추론을 제거하여 더 빠르고 정확한 비디오 처리를 달성합니다.",
-          "url": "https://huggingface.co/papers/2607.05511",
+          "title": "TESSERA v2: Scaling Pixel-wise Earth Foundation Models",
+          "title_ko": "TESSERA v2: 픽셀 기반 지구 기초 모델 확장",
+          "summary": "Large-scale controlled experiments reveal optimal scaling strategies for Earth-observation foundation models, enabling efficient training and deployment through encoder growth, downstream performance selection, and mode…",
+          "summary_ko": "대규모 제어 실험을 통해 지구 관측 기반 모델에 대한 최적의 확장 전략을 밝혀 인코더 성장, 다운스트림 성능 선택 및 모드를 통해 효율적인 교육 및 배포를 가능하게 합니다.",
+          "url": "https://huggingface.co/papers/2607.03949",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-08T09:00:00+09:00",
-          "popularity": 78,
-          "upvotes": 19,
-          "score": 25.11,
-          "importance_score": 13.11,
+          "published_at": "2026-07-09T09:00:00+09:00",
+          "popularity": 642,
+          "upvotes": 1,
+          "score": 28.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "agent",
-            "multimodal",
-            "reasoning"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 19
-          }
-        },
-        {
-          "id": "2e0141f5db7118d6bd908ec7d18e0975",
-          "index": 2,
-          "title": "From Foundation to Application: Improving VLA Models in Practice",
-          "title_ko": "기초부터 적용까지: 실제 VLA 모델 개선",
-          "summary": "LingBot-VLA 2.0 enhances generalization across tasks and embodiments through expanded data preprocessing and training on diverse robot configurations, extends action space to include whole-body degrees of freedom for co…",
-          "summary_ko": "LingBot-VLA 2.0은 다양한 로봇 구성에 대한 확장된 데이터 전처리 및 교육을 통해 작업 및 실시예 전반에 걸쳐 일반화를 강화하고 공동 작업을 위한 전신 자유도를 포함하도록 작업 공간을 확장합니다.",
-          "url": "https://huggingface.co/papers/2607.06403",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-07-08T09:00:00+09:00",
-          "popularity": 292,
-          "upvotes": 11,
-          "score": 25.04,
-          "importance_score": 17.04,
-          "matched_keywords": [
-            "ai",
+            "foundation model",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 11
+            "value": 1
+          }
+        },
+        {
+          "id": "e9091c296290ee7eb5a94141f979af0c",
+          "index": 2,
+          "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+          "title_ko": "에이전트 강화 학습을 위한 단일 롤아웃 비동기 최적화",
+          "summary": "Asynchronous reinforcement learning with single-rollout optimization addresses stability issues in LLM training for complex tasks, outperforming existing methods in coding and reasoning benchmarks.",
+          "summary_ko": "단일 롤아웃 최적화를 사용한 비동기 강화 학습은 복잡한 작업에 대한 LLM 교육의 안정성 문제를 해결하여 코딩 및 추론 벤치마크에서 기존 방법보다 성능이 뛰어납니다.",
+          "url": "https://huggingface.co/papers/2607.07508",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-07-09T09:00:00+09:00",
+          "popularity": 17,
+          "upvotes": 6,
+          "score": 26.67,
+          "importance_score": 8.67,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
+            "reinforcement learning",
+            "reasoning",
+            "benchmark",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 6
           }
         }
       ]
@@ -68,46 +72,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "0bac72a550f70c0a8886c3fc64806cd6",
+          "id": "85840523a0567b65db5c615760fecd26",
           "index": 3,
-          "title": "[7월8일] \"최고 모델이 공짜\"…오픈AI·앤트로픽이 무료 토큰 경쟁에 나선 이유",
+          "title": "[7월9일] AX의 숨은 주역 'AI 챔피언'...동료가 동료를 설득한다",
           "title_ko": null,
-          "summary": "최근 미국 AI 업계에서는 새로운 가격 경쟁이 시작됐습니다. 이번에는 요금 인하가 아니라, 아예 최고 성능 AI를 \\'무료\\'로 제공하는 경쟁입니다.더 주목할 점은 이를 주도하는 곳이 가장 비싸고 성능이 뛰어난 프론티어 모델 기업인 오픈AI와 앤트로픽이라는 것입니다.물론, 이들이 모든 사용자를 대상으로 무료 서비스에 나선 것은 아닙니다.",
+          "summary": "국내외 많은 기업이 AI 전환(AX)을 추진하고 있습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212534",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212566",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-09T07:00:00+09:00",
+          "published_at": "2026-07-10T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.56,
-          "importance_score": 19.13,
+          "score": 19.58,
+          "importance_score": 19.16,
           "matched_keywords": [
-            "ai",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "e387cb7c4fbb854fda61cfd05f37ab9c",
+          "id": "e07a9d596b386f5cb29b17d8b9a9b086",
           "index": 4,
-          "title": "스페이스XAI, 오퍼스급 AI 모델 '그록 4.5' 공개",
+          "title": "GIST, 페로브스카이트 태양전지 세계 최초 상용화 나선다",
           "title_ko": null,
-          "summary": "스페이스XAI는 코딩과 에이전트형 작업에 특화한 새 인공지능(AI) 모델 '그록 4.5(Grok 4.5)'를 출시했다고 8일(현지시간) 밝혔다. 그록 4.5는 코딩, 에이전트형 작업, 지식 업무에 맞춰 개발됐다. 스페이스XAI는 그록 4.5가 실제 엔지니어링 작업에서 높은 성능을 내도록 개발됐다고 설명했다.",
+          "summary": "[지디넷코리아]세계 최초로 페로브스카이트 태양전지 상용화가 추진된다. 오는 2030년 시장진입이 목표다.이광희 광주과학기술원(GIST) 전략연구사업단장(신소재공학과 교수)은 울산과학기술원(UNIST)과 한국생산기술연구원, 한국전력공사 전력연구원 등이 참여하는 페로브스카이트 태양전지 상용화에 착수했다고 10일 밝혔다.사업은 오는 2030년까지 총 437억원을 투입한다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260709000006",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20260709202922",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-09T07:34:17+09:00",
-          "popularity": 99,
+          "published_at": "2026-07-10T08:00:02+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.58,
-          "importance_score": 19.26,
+          "score": 19.79,
+          "importance_score": 19.58,
           "matched_keywords": [
-            "ai",
-            "모델"
+            "연구"
           ],
           "engagement": null
         }
@@ -118,54 +120,56 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "17ba15088de4f4848c95442ef8e671f1",
+          "id": "6f0c7bf766fe30c05bf2c3f070333f33",
           "index": 5,
-          "title": "ai4s-research/open-science — Open Science — an open AI workbench for scientists. Open-source alternative to Claude Science: local",
-          "title_ko": "ai4s-research/open-science — Open Science — 과학자를 위한 개방형 AI 워크벤치입니다. Claude Science의 오픈 소스 대안: 로컬",
-          "summary": "Open Science — an open AI workbench for scientists. Open-source alternative to Claude Science: local-first, model-agnostic, reproducible AI research desktop (macOS & Windows), built on Tauri + MCP + agent skills.",
-          "summary_ko": "Open Science — 과학자들을 위한 개방형 AI 작업대입니다. Claude Science의 오픈 소스 대안: Tauri + MCP + 에이전트 기술을 기반으로 구축된 로컬 우선, 모델 독립적, 재현 가능한 AI 연구 데스크탑(macOS 및 Windows).",
-          "url": "https://github.com/ai4s-research/open-science",
+          "title": "ronak-create/FableCut — Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-relo",
+          "title_ko": "ronak-create/FableCut — AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, live-relo",
+          "summary": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+          "summary_ko": "AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, 라이브 다시 로드 UI",
+          "url": "https://github.com/ronak-create/FableCut",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-09T01:54:56+09:00",
-          "popularity": 390,
-          "upvotes": 390,
-          "score": 38.39,
-          "importance_score": 27.9,
+          "published_at": "2026-07-10T07:42:14+09:00",
+          "popularity": 222,
+          "upvotes": 222,
+          "score": 34.65,
+          "importance_score": 28.38,
           "matched_keywords": [
             "ai",
             "agent",
-            "claude",
             "mcp"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 390
+            "value": 222
           }
         },
         {
-          "id": "8c1a63064bfb749fff677d90bd6e3e5f",
+          "id": "03272f90051219bf79a3a06a072bb8b4",
           "index": 6,
-          "title": "synthetic-sciences/openscience — The open-source AI workbench for scientific research",
-          "title_ko": "Synthetic-sciences/openscience — 과학 연구를 위한 오픈 소스 AI 워크벤치",
-          "summary": "The open-source AI workbench for scientific research",
-          "summary_ko": "과학 연구를 위한 오픈 소스 AI 워크벤치",
-          "url": "https://github.com/synthetic-sciences/openscience",
+          "title": "eli-labz/Cognitive-Core-Skills — A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, plan",
+          "title_ko": "eli-labz/Cognitive-Core-Skills — 인지 핵심 기술(지각, 기억, 추론, 계획)에 대한 보편적이고 업계 중립적인 분류법입니다.",
+          "summary": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verification, learning, governance) for LLMs, SLMs, AI agents, and world models — with schemas, 159 skill…",
+          "summary_ko": "LLM, SLM, AI 에이전트 및 세계 모델을 위한 인지 핵심 기술(인식, 기억, 추론, 계획, 행동, 검증, 학습, 거버넌스)에 대한 보편적이고 업계 중립적인 분류 — 스키마, 159개 기술 포함…",
+          "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-09T08:59:50+09:00",
-          "popularity": 1742,
-          "upvotes": 1742,
-          "score": 34.48,
-          "importance_score": 34.46,
+          "published_at": "2026-07-06T08:22:11+09:00",
+          "popularity": 273,
+          "upvotes": 273,
+          "score": 33.65,
+          "importance_score": 19.65,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "llm",
+            "agent",
+            "reasoning"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1742
+            "value": 273
           }
         }
       ]
@@ -175,25 +179,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "7631f2df14271db1d8165245bfa7652c",
+          "id": "93b15c2008b7fddc6c046e77ad193127",
           "index": 7,
-          "title": "ai-engineering-interview-questions: AI 엔지니어 면접 문답 치트시트",
+          "title": "claude-usage: Claude Code 토큰 사용량과 비용을 확인하는 로컬 대시보드",
           "title_ko": null,
-          "summary": "ai-engineering-interview-questions 소개 AI 엔지니어, Gen AI 엔지니어, LLM 엔지니어, Agentic AI 엔지니어 같은 직군의 면접은 전통적인 소프트웨어 엔지니어 면접과 다루는 범위가 상당히 다릅니다.",
+          "summary": "claude-usage 소개 Claude Code는 API, Pro, Max 요금제와 관계없이 세션마다 토큰 수·모델·프로젝트 정보를 담은 사용 로그를 로컬에 자동으로 남깁니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/ai-engineering-interview-questions-ai/11074",
+          "url": "https://discuss.pytorch.kr/t/claude-usage-claude-code/11174",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-09T06:30:12+09:00",
-          "popularity": 99,
+          "published_at": "2026-07-10T08:30:35+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 25.36,
-          "importance_score": 18.82,
+          "score": 22.89,
+          "importance_score": 19.79,
           "matched_keywords": [
-            "ai",
-            "llm",
-            "agent"
+            "claude",
+            "모델"
           ],
           "engagement": null
         }
@@ -202,172 +205,175 @@
   ],
   "items": [
     {
-      "id": "51ec308463316008746fb103d74797a8",
+      "id": "787a37687e0dccba57dd1764941d0d3b",
       "index": 1,
-      "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
-      "title_ko": "Light-Omni: 장기 기억을 통한 행위적 비디오 이해의 추론에 대한 성찰",
-      "summary": "Light-Omni is a multimodal agent framework that enables efficient video understanding through dual contextual states, achieving faster and more accurate video processing by eliminating iterative reasoning while maintain…",
-      "summary_ko": "Light-Omni는 이중 상황 상태를 통해 효율적인 비디오 이해를 가능하게 하는 다중 모드 에이전트 프레임워크로, 유지하면서 반복적 추론을 제거하여 더 빠르고 정확한 비디오 처리를 달성합니다.",
-      "url": "https://huggingface.co/papers/2607.05511",
+      "title": "TESSERA v2: Scaling Pixel-wise Earth Foundation Models",
+      "title_ko": "TESSERA v2: 픽셀 기반 지구 기초 모델 확장",
+      "summary": "Large-scale controlled experiments reveal optimal scaling strategies for Earth-observation foundation models, enabling efficient training and deployment through encoder growth, downstream performance selection, and mode…",
+      "summary_ko": "대규모 제어 실험을 통해 지구 관측 기반 모델에 대한 최적의 확장 전략을 밝혀 인코더 성장, 다운스트림 성능 선택 및 모드를 통해 효율적인 교육 및 배포를 가능하게 합니다.",
+      "url": "https://huggingface.co/papers/2607.03949",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-08T09:00:00+09:00",
-      "popularity": 78,
-      "upvotes": 19,
-      "score": 25.11,
-      "importance_score": 13.11,
+      "published_at": "2026-07-09T09:00:00+09:00",
+      "popularity": 642,
+      "upvotes": 1,
+      "score": 28.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
-        "agent",
-        "multimodal",
-        "reasoning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 19
-      }
-    },
-    {
-      "id": "2e0141f5db7118d6bd908ec7d18e0975",
-      "index": 2,
-      "title": "From Foundation to Application: Improving VLA Models in Practice",
-      "title_ko": "기초부터 적용까지: 실제 VLA 모델 개선",
-      "summary": "LingBot-VLA 2.0 enhances generalization across tasks and embodiments through expanded data preprocessing and training on diverse robot configurations, extends action space to include whole-body degrees of freedom for co…",
-      "summary_ko": "LingBot-VLA 2.0은 다양한 로봇 구성에 대한 확장된 데이터 전처리 및 교육을 통해 작업 및 실시예 전반에 걸쳐 일반화를 강화하고 공동 작업을 위한 전신 자유도를 포함하도록 작업 공간을 확장합니다.",
-      "url": "https://huggingface.co/papers/2607.06403",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-07-08T09:00:00+09:00",
-      "popularity": 292,
-      "upvotes": 11,
-      "score": 25.04,
-      "importance_score": 17.04,
-      "matched_keywords": [
-        "ai",
+        "foundation model",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 11
+        "value": 1
       }
     },
     {
-      "id": "0bac72a550f70c0a8886c3fc64806cd6",
+      "id": "e9091c296290ee7eb5a94141f979af0c",
+      "index": 2,
+      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "title_ko": "에이전트 강화 학습을 위한 단일 롤아웃 비동기 최적화",
+      "summary": "Asynchronous reinforcement learning with single-rollout optimization addresses stability issues in LLM training for complex tasks, outperforming existing methods in coding and reasoning benchmarks.",
+      "summary_ko": "단일 롤아웃 최적화를 사용한 비동기 강화 학습은 복잡한 작업에 대한 LLM 교육의 안정성 문제를 해결하여 코딩 및 추론 벤치마크에서 기존 방법보다 성능이 뛰어납니다.",
+      "url": "https://huggingface.co/papers/2607.07508",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-07-09T09:00:00+09:00",
+      "popularity": 17,
+      "upvotes": 6,
+      "score": 26.67,
+      "importance_score": 8.67,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "reinforcement learning",
+        "reasoning",
+        "benchmark",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 6
+      }
+    },
+    {
+      "id": "85840523a0567b65db5c615760fecd26",
       "index": 3,
-      "title": "[7월8일] \"최고 모델이 공짜\"…오픈AI·앤트로픽이 무료 토큰 경쟁에 나선 이유",
+      "title": "[7월9일] AX의 숨은 주역 'AI 챔피언'...동료가 동료를 설득한다",
       "title_ko": null,
-      "summary": "최근 미국 AI 업계에서는 새로운 가격 경쟁이 시작됐습니다. 이번에는 요금 인하가 아니라, 아예 최고 성능 AI를 \\'무료\\'로 제공하는 경쟁입니다.더 주목할 점은 이를 주도하는 곳이 가장 비싸고 성능이 뛰어난 프론티어 모델 기업인 오픈AI와 앤트로픽이라는 것입니다.물론, 이들이 모든 사용자를 대상으로 무료 서비스에 나선 것은 아닙니다.",
+      "summary": "국내외 많은 기업이 AI 전환(AX)을 추진하고 있습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212534",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212566",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-09T07:00:00+09:00",
+      "published_at": "2026-07-10T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.56,
-      "importance_score": 19.13,
+      "score": 19.58,
+      "importance_score": 19.16,
       "matched_keywords": [
-        "ai",
-        "모델"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "e387cb7c4fbb854fda61cfd05f37ab9c",
+      "id": "e07a9d596b386f5cb29b17d8b9a9b086",
       "index": 4,
-      "title": "스페이스XAI, 오퍼스급 AI 모델 '그록 4.5' 공개",
+      "title": "GIST, 페로브스카이트 태양전지 세계 최초 상용화 나선다",
       "title_ko": null,
-      "summary": "스페이스XAI는 코딩과 에이전트형 작업에 특화한 새 인공지능(AI) 모델 '그록 4.5(Grok 4.5)'를 출시했다고 8일(현지시간) 밝혔다. 그록 4.5는 코딩, 에이전트형 작업, 지식 업무에 맞춰 개발됐다. 스페이스XAI는 그록 4.5가 실제 엔지니어링 작업에서 높은 성능을 내도록 개발됐다고 설명했다.",
+      "summary": "[지디넷코리아]세계 최초로 페로브스카이트 태양전지 상용화가 추진된다. 오는 2030년 시장진입이 목표다.이광희 광주과학기술원(GIST) 전략연구사업단장(신소재공학과 교수)은 울산과학기술원(UNIST)과 한국생산기술연구원, 한국전력공사 전력연구원 등이 참여하는 페로브스카이트 태양전지 상용화에 착수했다고 10일 밝혔다.사업은 오는 2030년까지 총 437억원을 투입한다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260709000006",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20260709202922",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-09T07:34:17+09:00",
-      "popularity": 99,
+      "published_at": "2026-07-10T08:00:02+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.58,
-      "importance_score": 19.26,
+      "score": 19.79,
+      "importance_score": 19.58,
       "matched_keywords": [
-        "ai",
-        "모델"
+        "연구"
       ],
       "engagement": null
     },
     {
-      "id": "17ba15088de4f4848c95442ef8e671f1",
+      "id": "6f0c7bf766fe30c05bf2c3f070333f33",
       "index": 5,
-      "title": "ai4s-research/open-science — Open Science — an open AI workbench for scientists. Open-source alternative to Claude Science: local",
-      "title_ko": "ai4s-research/open-science — Open Science — 과학자를 위한 개방형 AI 워크벤치입니다. Claude Science의 오픈 소스 대안: 로컬",
-      "summary": "Open Science — an open AI workbench for scientists. Open-source alternative to Claude Science: local-first, model-agnostic, reproducible AI research desktop (macOS & Windows), built on Tauri + MCP + agent skills.",
-      "summary_ko": "Open Science — 과학자들을 위한 개방형 AI 작업대입니다. Claude Science의 오픈 소스 대안: Tauri + MCP + 에이전트 기술을 기반으로 구축된 로컬 우선, 모델 독립적, 재현 가능한 AI 연구 데스크탑(macOS 및 Windows).",
-      "url": "https://github.com/ai4s-research/open-science",
+      "title": "ronak-create/FableCut — Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-relo",
+      "title_ko": "ronak-create/FableCut — AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, live-relo",
+      "summary": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+      "summary_ko": "AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, 라이브 다시 로드 UI",
+      "url": "https://github.com/ronak-create/FableCut",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-09T01:54:56+09:00",
-      "popularity": 390,
-      "upvotes": 390,
-      "score": 38.39,
-      "importance_score": 27.9,
+      "published_at": "2026-07-10T07:42:14+09:00",
+      "popularity": 222,
+      "upvotes": 222,
+      "score": 34.65,
+      "importance_score": 28.38,
       "matched_keywords": [
         "ai",
         "agent",
-        "claude",
         "mcp"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 390
+        "value": 222
       }
     },
     {
-      "id": "8c1a63064bfb749fff677d90bd6e3e5f",
+      "id": "03272f90051219bf79a3a06a072bb8b4",
       "index": 6,
-      "title": "synthetic-sciences/openscience — The open-source AI workbench for scientific research",
-      "title_ko": "Synthetic-sciences/openscience — 과학 연구를 위한 오픈 소스 AI 워크벤치",
-      "summary": "The open-source AI workbench for scientific research",
-      "summary_ko": "과학 연구를 위한 오픈 소스 AI 워크벤치",
-      "url": "https://github.com/synthetic-sciences/openscience",
+      "title": "eli-labz/Cognitive-Core-Skills — A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, plan",
+      "title_ko": "eli-labz/Cognitive-Core-Skills — 인지 핵심 기술(지각, 기억, 추론, 계획)에 대한 보편적이고 업계 중립적인 분류법입니다.",
+      "summary": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verification, learning, governance) for LLMs, SLMs, AI agents, and world models — with schemas, 159 skill…",
+      "summary_ko": "LLM, SLM, AI 에이전트 및 세계 모델을 위한 인지 핵심 기술(인식, 기억, 추론, 계획, 행동, 검증, 학습, 거버넌스)에 대한 보편적이고 업계 중립적인 분류 — 스키마, 159개 기술 포함…",
+      "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-09T08:59:50+09:00",
-      "popularity": 1742,
-      "upvotes": 1742,
-      "score": 34.48,
-      "importance_score": 34.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 1742
-      }
-    },
-    {
-      "id": "7631f2df14271db1d8165245bfa7652c",
-      "index": 7,
-      "title": "ai-engineering-interview-questions: AI 엔지니어 면접 문답 치트시트",
-      "title_ko": null,
-      "summary": "ai-engineering-interview-questions 소개 AI 엔지니어, Gen AI 엔지니어, LLM 엔지니어, Agentic AI 엔지니어 같은 직군의 면접은 전통적인 소프트웨어 엔지니어 면접과 다루는 범위가 상당히 다릅니다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/ai-engineering-interview-questions-ai/11074",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-07-09T06:30:12+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 25.36,
-      "importance_score": 18.82,
+      "published_at": "2026-07-06T08:22:11+09:00",
+      "popularity": 273,
+      "upvotes": 273,
+      "score": 33.65,
+      "importance_score": 19.65,
       "matched_keywords": [
         "ai",
         "llm",
-        "agent"
+        "agent",
+        "reasoning"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 273
+      }
+    },
+    {
+      "id": "93b15c2008b7fddc6c046e77ad193127",
+      "index": 7,
+      "title": "claude-usage: Claude Code 토큰 사용량과 비용을 확인하는 로컬 대시보드",
+      "title_ko": null,
+      "summary": "claude-usage 소개 Claude Code는 API, Pro, Max 요금제와 관계없이 세션마다 토큰 수·모델·프로젝트 정보를 담은 사용 로그를 로컬에 자동으로 남깁니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/claude-usage-claude-code/11174",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-07-10T08:30:35+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 22.89,
+      "importance_score": 19.79,
+      "matched_keywords": [
+        "claude",
+        "모델"
       ],
       "engagement": null
     }
