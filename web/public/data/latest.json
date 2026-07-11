@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-11",
-  "generated_at": "2026-07-11T08:54:55.769754+09:00",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T08:51:09.611356+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,60 +10,54 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "e9091c296290ee7eb5a94141f979af0c",
+          "id": "ee6d451d99ac89d7d96d65ec6ae59fc8",
           "index": 1,
-          "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
-          "title_ko": "에이전트 강화 학습을 위한 단일 롤아웃 비동기 최적화",
-          "summary": "Asynchronous reinforcement learning with single-rollout optimization addresses stability issues in LLM training for complex tasks, outperforming existing methods in coding and reasoning benchmarks.",
-          "summary_ko": "단일 롤아웃 최적화를 사용한 비동기 강화 학습은 복잡한 작업에 대한 LLM 교육의 안정성 문제를 해결하여 코딩 및 추론 벤치마크에서 기존 방법보다 성능이 뛰어납니다.",
-          "url": "https://huggingface.co/papers/2607.07508",
+          "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
+          "title_ko": "기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상",
+          "summary": "Canvas360 is a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with fine-tuning, featuring a large-scale dataset and novel modeling techniques for improved geometric cons…",
+          "summary_ko": "Canvas360은 기하학적 인식 사전 훈련과 미세 조정을 결합한 상황 내 파노라마 생성을 위한 2단계 프레임워크로, 개선된 기하학적 구조를 위한 대규모 데이터 세트와 새로운 모델링 기술을 특징으로 합니다.",
+          "url": "https://huggingface.co/papers/2607.08765",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-09T09:00:00+09:00",
-          "popularity": 30,
-          "upvotes": 10,
-          "score": 28.3,
-          "importance_score": 10.3,
+          "published_at": "2026-07-10T09:00:00+09:00",
+          "popularity": 44,
+          "upvotes": 17,
+          "score": 23.42,
+          "importance_score": 11.42,
           "matched_keywords": [
             "ai",
-            "llm",
-            "agent",
-            "reinforcement learning",
-            "reasoning",
-            "benchmark",
-            "training"
+            "fine-tuning",
+            "training",
+            "dataset"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 10
+            "value": 17
           }
         },
         {
-          "id": "787a37687e0dccba57dd1764941d0d3b",
+          "id": "5d9bcda5ffff897116fee733f1171e4d",
           "index": 2,
-          "title": "TESSERA v2: Scaling Pixel-wise Earth Foundation Models",
-          "title_ko": "TESSERA v2: 픽셀 기반 지구 기초 모델 확장",
-          "summary": "Large-scale controlled experiments reveal optimal scaling strategies for Earth-observation foundation models, enabling efficient training and deployment through encoder growth, downstream performance selection, and mode…",
-          "summary_ko": "대규모 제어 실험을 통해 지구 관측 기반 모델에 대한 최적의 확장 전략을 밝혀 인코더 성장, 다운스트림 성능 선택 및 모드를 통해 효율적인 교육 및 배포를 가능하게 합니다.",
-          "url": "https://huggingface.co/papers/2607.03949",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: GPT-5.6 Family, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, The Harness Effect, and More",
+          "title_ko": "🤖 AI 에이전트 주간: GPT-5.6 제품군, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, 하네스 효과 등",
+          "summary": "GPT-5.6 Family, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, The Harness Effect, and More",
+          "summary_ko": "GPT-5.6 제품군, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, 하네스 효과 등",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-56-family-meta",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-09T09:00:00+09:00",
-          "popularity": 649,
-          "upvotes": 1,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-07-12T01:33:08+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 23.48,
+          "importance_score": 16.96,
           "matched_keywords": [
             "ai",
-            "foundation model",
-            "training"
+            "agent",
+            "gpt"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 1
-          }
+          "engagement": null
         }
       ]
     },
@@ -72,46 +66,48 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "bc6bee4d251cb93cbf4e5494ae833c3d",
+          "id": "b783081d12772d3070627d8b16c0e94a",
           "index": 3,
-          "title": "[7월10일] GPT-5.6이 보여준 '파레토 프론티어' 경쟁...벤치마크 기준이 바뀌기 시작",
+          "title": "\"여러 모델 섞어 써도 한계 명확\"…통념 깨진 '오케스트레이션' 효과",
           "title_ko": null,
-          "summary": "오픈AI의 \\'GPT-5.6\\'는 현존 최고 성능이라고 단정하기는 어렵습니다. 그러나 이번 출시는 단순히 벤치마크 1위를 차지했는지 여부보다 더 중요한 의미를 갖는다는 평가가 나왔습니다.그동안 AI 모델은 누가 더 높은 벤치마크 점수를 기록하는지가 핵심이었습니다. 그러나, 이번에는 \\'파레토 최적화\\'라는 개념이 집중 부각됐습니다.",
+          "summary": "여러 AI 모델을 함께 활용하면 서로의 약점을 보완해 더 높은 성능을 낼 수 있다는 \\'오케스트레이션\\' 통념에 제동을 거는 연구 결과가 나왔다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212613",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212625",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-11T07:00:00+09:00",
+          "published_at": "2026-07-11T17:04:28+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.6,
-          "importance_score": 19.2,
+          "score": 22.71,
+          "importance_score": 13.43,
           "matched_keywords": [
             "ai",
-            "gpt",
+            "연구",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "6e2cbcb456e6feb41e93b41884e74226",
+          "id": "5f071a263dbee424e810e9f71201336a",
           "index": 4,
-          "title": "AI는 리더의 '경험 권력'을 어떻게 무너뜨렸는가",
+          "title": "'같은 말 무한반복' AI 고질병 해결…리퀴드 AI, '안티둠' 오픈소스 공개",
           "title_ko": null,
-          "summary": "[지디넷코리아]주니어가 가져온 기획서의 빈약한 논리를 채워주고, 어색한 장표 구조를 잡아주며, 놓치기 쉬운 데이터 오류들을 매의 눈으로 찾아내는 과정. 그것은 리더가 스스로의 가치를 조직에 증명하는 가장 직관적인 방법이었다.",
+          "summary": "[지디넷코리아]작은 AI 추론 모델이 같은 문장을 끝없이 반복하다 멈추지 못하는 '둠 루프(doom loop)' 문제를 겨냥한 해결책이 나왔다. 리퀴드 AI(Liquid AI)가 7월 7일 이를 고치는 학습 기법 '안티둠(Antidoom)'을 오픈소스로 공개했다.둠 루프는 모델이 한 구간을 내놓은 뒤 그 구간을 계속 되풀이하는 현상이다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260710185750",
+          "url": "https://zdnet.co.kr/view/?no=20260711220316",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-11T08:30:01+09:00",
-          "popularity": 100,
+          "published_at": "2026-07-11T22:03:16+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.91,
-          "importance_score": 19.83,
+          "score": 23.65,
+          "importance_score": 15.4,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "추론",
+            "모델"
           ],
           "engagement": null
         }
@@ -122,55 +118,54 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "ce919ce2e7e266cb38cbda0bbd66c3c6",
+          "id": "6f0c7bf766fe30c05bf2c3f070333f33",
           "index": 5,
-          "title": "simonlin1212/Vibe-Research — Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、",
-          "title_ko": "simonlin1212/Vibe-Research — Vibe-Research: 귀하의 개인 거래 조사 에이전트 · A주/미국 주식/홍콩 주식에 대한 개인 투자 조사 에이전트: 일일 리뷰, 정보 레이더, 개별 주식 데이터, 섹터 센터, 내 포지션,",
-          "summary": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
-          "summary_ko": "Vibe-Research: 귀하의 개인 거래 조사 에이전트 · A주/미국 주식/홍콩 주식에 대한 개인 투자 조사 에이전트: 일일 리뷰, 정보 레이더, 개별 주식 데이터, 부문 센터, 내 위치, 연구 기록. Vibe-Research는 데이터와 기능을 결합하여 AI 기반 투자 리서치를 만듭니다.",
-          "url": "https://github.com/simonlin1212/Vibe-Research",
+          "title": "ronak-create/FableCut — Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-relo",
+          "title_ko": "ronak-create/FableCut — AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, live-relo",
+          "summary": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+          "summary_ko": "AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, 라이브 다시 로드 UI",
+          "url": "https://github.com/ronak-create/FableCut",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-11T00:26:12+09:00",
-          "popularity": 666,
-          "upvotes": 666,
-          "score": 33.99,
-          "importance_score": 29.23,
+          "published_at": "2026-07-11T23:25:13+09:00",
+          "popularity": 338,
+          "upvotes": 338,
+          "score": 34.43,
+          "importance_score": 26.46,
           "matched_keywords": [
             "ai",
-            "agent"
+            "agent",
+            "mcp"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 666
+            "value": 338
           }
         },
         {
-          "id": "03272f90051219bf79a3a06a072bb8b4",
+          "id": "982fa1101a151db35714111ffa472c37",
           "index": 6,
-          "title": "eli-labz/Cognitive-Core-Skills — A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, plan",
-          "title_ko": "eli-labz/Cognitive-Core-Skills — 인지 핵심 기술(지각, 기억, 추론, 계획)에 대한 보편적이고 업계 중립적인 분류법입니다.",
-          "summary": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verification, learning, governance) for LLMs, SLMs, AI agents, and world models — with schemas, 159 skill…",
-          "summary_ko": "LLM, SLM, AI 에이전트 및 세계 모델을 위한 인지 핵심 기술(인식, 기억, 추론, 계획, 행동, 검증, 학습, 거버넌스)에 대한 보편적이고 업계 중립적인 분류 — 스키마, 159개 기술 포함…",
-          "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
+          "title": "olemeyer/rocketplaneIO — Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixe",
+          "title_ko": "olemeyer/rocketplaneIO — Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 문제를 해결하는 부조종사",
+          "summary": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
+          "summary_ko": "Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 보호된 자체 확인 작업을 통해 문제를 해결하는 부조종사입니다. BYO-LLM, 에어갭이 가능합니다.",
+          "url": "https://github.com/olemeyer/rocketplaneIO",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-06T08:22:11+09:00",
-          "popularity": 273,
-          "upvotes": 273,
-          "score": 33.65,
-          "importance_score": 19.65,
+          "published_at": "2026-07-12T07:10:14+09:00",
+          "popularity": 129,
+          "upvotes": 129,
+          "score": 29.69,
+          "importance_score": 26.34,
           "matched_keywords": [
             "ai",
-            "llm",
-            "agent",
-            "reasoning"
+            "llm"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 273
+            "value": 129
           }
         }
       ]
@@ -180,25 +175,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "4bb7db1267f7858fffef90464b22e133",
+          "id": "133880f3ce9188ae8a422dad06b579a7",
           "index": 7,
-          "title": "OpenAI가 공개한 GPT-5.6 공식 활용 가이드: 마이그레이션부터 프롬프팅, Pro 모드까지",
+          "title": "Cairn: 상태 공간 탐색으로 침투 테스트와 CTF를 푸는 범용 AI 문제 해결 엔진",
           "title_ko": null,
-          "summary": "GPT-5.6 모델 가이드 소개 OpenAI 가 개발자 문서 사이트에 GPT-5.6 모델 패밀리를 위한 공식 활용 가이드(Model Guidance)를 공개했습니다.",
+          "summary": "Cairn 소개 침투 테스트, 취약점 연구, 수학 증명, CTF 문제는 겉보기엔 서로 다른 분야지만 구조가 같습니다. 시작점(원본, target IP나 대상 시스템)이 명확하고, 도착점(셸 획득이나 플래그 획득 같은 목표)도 명확한데, 그 사이를 잇는 경로만 알 수 없다는 점입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/openai-gpt-5-6-pro/11195",
+          "url": "https://discuss.pytorch.kr/t/cairn-ctf-ai/11176",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-10T16:30:42+09:00",
+          "published_at": "2026-07-11T11:30:58+09:00",
           "popularity": 98,
           "upvotes": 0,
-          "score": 22.38,
-          "importance_score": 12.97,
+          "score": 18.35,
+          "importance_score": 10.91,
           "matched_keywords": [
             "ai",
-            "gpt",
-            "모델"
+            "연구"
           ],
           "engagement": null
         }
@@ -207,177 +201,171 @@
   ],
   "items": [
     {
-      "id": "e9091c296290ee7eb5a94141f979af0c",
+      "id": "ee6d451d99ac89d7d96d65ec6ae59fc8",
       "index": 1,
-      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
-      "title_ko": "에이전트 강화 학습을 위한 단일 롤아웃 비동기 최적화",
-      "summary": "Asynchronous reinforcement learning with single-rollout optimization addresses stability issues in LLM training for complex tasks, outperforming existing methods in coding and reasoning benchmarks.",
-      "summary_ko": "단일 롤아웃 최적화를 사용한 비동기 강화 학습은 복잡한 작업에 대한 LLM 교육의 안정성 문제를 해결하여 코딩 및 추론 벤치마크에서 기존 방법보다 성능이 뛰어납니다.",
-      "url": "https://huggingface.co/papers/2607.07508",
+      "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
+      "title_ko": "기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상",
+      "summary": "Canvas360 is a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with fine-tuning, featuring a large-scale dataset and novel modeling techniques for improved geometric cons…",
+      "summary_ko": "Canvas360은 기하학적 인식 사전 훈련과 미세 조정을 결합한 상황 내 파노라마 생성을 위한 2단계 프레임워크로, 개선된 기하학적 구조를 위한 대규모 데이터 세트와 새로운 모델링 기술을 특징으로 합니다.",
+      "url": "https://huggingface.co/papers/2607.08765",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-09T09:00:00+09:00",
-      "popularity": 30,
-      "upvotes": 10,
-      "score": 28.3,
-      "importance_score": 10.3,
+      "published_at": "2026-07-10T09:00:00+09:00",
+      "popularity": 44,
+      "upvotes": 17,
+      "score": 23.42,
+      "importance_score": 11.42,
       "matched_keywords": [
         "ai",
-        "llm",
-        "agent",
-        "reinforcement learning",
-        "reasoning",
-        "benchmark",
-        "training"
+        "fine-tuning",
+        "training",
+        "dataset"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 10
+        "value": 17
       }
     },
     {
-      "id": "787a37687e0dccba57dd1764941d0d3b",
+      "id": "5d9bcda5ffff897116fee733f1171e4d",
       "index": 2,
-      "title": "TESSERA v2: Scaling Pixel-wise Earth Foundation Models",
-      "title_ko": "TESSERA v2: 픽셀 기반 지구 기초 모델 확장",
-      "summary": "Large-scale controlled experiments reveal optimal scaling strategies for Earth-observation foundation models, enabling efficient training and deployment through encoder growth, downstream performance selection, and mode…",
-      "summary_ko": "대규모 제어 실험을 통해 지구 관측 기반 모델에 대한 최적의 확장 전략을 밝혀 인코더 성장, 다운스트림 성능 선택 및 모드를 통해 효율적인 교육 및 배포를 가능하게 합니다.",
-      "url": "https://huggingface.co/papers/2607.03949",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: GPT-5.6 Family, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, The Harness Effect, and More",
+      "title_ko": "🤖 AI 에이전트 주간: GPT-5.6 제품군, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, 하네스 효과 등",
+      "summary": "GPT-5.6 Family, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, The Harness Effect, and More",
+      "summary_ko": "GPT-5.6 제품군, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, 하네스 효과 등",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-56-family-meta",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-09T09:00:00+09:00",
-      "popularity": 649,
-      "upvotes": 1,
-      "score": 28.0,
-      "importance_score": 18.0,
+      "published_at": "2026-07-12T01:33:08+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 23.48,
+      "importance_score": 16.96,
       "matched_keywords": [
         "ai",
-        "foundation model",
-        "training"
+        "agent",
+        "gpt"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 1
-      }
+      "engagement": null
     },
     {
-      "id": "bc6bee4d251cb93cbf4e5494ae833c3d",
+      "id": "b783081d12772d3070627d8b16c0e94a",
       "index": 3,
-      "title": "[7월10일] GPT-5.6이 보여준 '파레토 프론티어' 경쟁...벤치마크 기준이 바뀌기 시작",
+      "title": "\"여러 모델 섞어 써도 한계 명확\"…통념 깨진 '오케스트레이션' 효과",
       "title_ko": null,
-      "summary": "오픈AI의 \\'GPT-5.6\\'는 현존 최고 성능이라고 단정하기는 어렵습니다. 그러나 이번 출시는 단순히 벤치마크 1위를 차지했는지 여부보다 더 중요한 의미를 갖는다는 평가가 나왔습니다.그동안 AI 모델은 누가 더 높은 벤치마크 점수를 기록하는지가 핵심이었습니다. 그러나, 이번에는 \\'파레토 최적화\\'라는 개념이 집중 부각됐습니다.",
+      "summary": "여러 AI 모델을 함께 활용하면 서로의 약점을 보완해 더 높은 성능을 낼 수 있다는 \\'오케스트레이션\\' 통념에 제동을 거는 연구 결과가 나왔다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212613",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212625",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-11T07:00:00+09:00",
+      "published_at": "2026-07-11T17:04:28+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.6,
-      "importance_score": 19.2,
+      "score": 22.71,
+      "importance_score": 13.43,
       "matched_keywords": [
         "ai",
-        "gpt",
+        "연구",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "6e2cbcb456e6feb41e93b41884e74226",
+      "id": "5f071a263dbee424e810e9f71201336a",
       "index": 4,
-      "title": "AI는 리더의 '경험 권력'을 어떻게 무너뜨렸는가",
+      "title": "'같은 말 무한반복' AI 고질병 해결…리퀴드 AI, '안티둠' 오픈소스 공개",
       "title_ko": null,
-      "summary": "[지디넷코리아]주니어가 가져온 기획서의 빈약한 논리를 채워주고, 어색한 장표 구조를 잡아주며, 놓치기 쉬운 데이터 오류들을 매의 눈으로 찾아내는 과정. 그것은 리더가 스스로의 가치를 조직에 증명하는 가장 직관적인 방법이었다.",
+      "summary": "[지디넷코리아]작은 AI 추론 모델이 같은 문장을 끝없이 반복하다 멈추지 못하는 '둠 루프(doom loop)' 문제를 겨냥한 해결책이 나왔다. 리퀴드 AI(Liquid AI)가 7월 7일 이를 고치는 학습 기법 '안티둠(Antidoom)'을 오픈소스로 공개했다.둠 루프는 모델이 한 구간을 내놓은 뒤 그 구간을 계속 되풀이하는 현상이다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260710185750",
+      "url": "https://zdnet.co.kr/view/?no=20260711220316",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-11T08:30:01+09:00",
-      "popularity": 100,
+      "published_at": "2026-07-11T22:03:16+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 19.91,
-      "importance_score": 19.83,
+      "score": 23.65,
+      "importance_score": 15.4,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "추론",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "ce919ce2e7e266cb38cbda0bbd66c3c6",
+      "id": "6f0c7bf766fe30c05bf2c3f070333f33",
       "index": 5,
-      "title": "simonlin1212/Vibe-Research — Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、",
-      "title_ko": "simonlin1212/Vibe-Research — Vibe-Research: 귀하의 개인 거래 조사 에이전트 · A주/미국 주식/홍콩 주식에 대한 개인 투자 조사 에이전트: 일일 리뷰, 정보 레이더, 개별 주식 데이터, 섹터 센터, 내 포지션,",
-      "summary": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
-      "summary_ko": "Vibe-Research: 귀하의 개인 거래 조사 에이전트 · A주/미국 주식/홍콩 주식에 대한 개인 투자 조사 에이전트: 일일 리뷰, 정보 레이더, 개별 주식 데이터, 부문 센터, 내 위치, 연구 기록. Vibe-Research는 데이터와 기능을 결합하여 AI 기반 투자 리서치를 만듭니다.",
-      "url": "https://github.com/simonlin1212/Vibe-Research",
+      "title": "ronak-create/FableCut — Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-relo",
+      "title_ko": "ronak-create/FableCut — AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, live-relo",
+      "summary": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+      "summary_ko": "AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, 라이브 다시 로드 UI",
+      "url": "https://github.com/ronak-create/FableCut",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-11T00:26:12+09:00",
-      "popularity": 666,
-      "upvotes": 666,
-      "score": 33.99,
-      "importance_score": 29.23,
+      "published_at": "2026-07-11T23:25:13+09:00",
+      "popularity": 338,
+      "upvotes": 338,
+      "score": 34.43,
+      "importance_score": 26.46,
       "matched_keywords": [
         "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 666
-      }
-    },
-    {
-      "id": "03272f90051219bf79a3a06a072bb8b4",
-      "index": 6,
-      "title": "eli-labz/Cognitive-Core-Skills — A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, plan",
-      "title_ko": "eli-labz/Cognitive-Core-Skills — 인지 핵심 기술(지각, 기억, 추론, 계획)에 대한 보편적이고 업계 중립적인 분류법입니다.",
-      "summary": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verification, learning, governance) for LLMs, SLMs, AI agents, and world models — with schemas, 159 skill…",
-      "summary_ko": "LLM, SLM, AI 에이전트 및 세계 모델을 위한 인지 핵심 기술(인식, 기억, 추론, 계획, 행동, 검증, 학습, 거버넌스)에 대한 보편적이고 업계 중립적인 분류 — 스키마, 159개 기술 포함…",
-      "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-07-06T08:22:11+09:00",
-      "popularity": 273,
-      "upvotes": 273,
-      "score": 33.65,
-      "importance_score": 19.65,
-      "matched_keywords": [
-        "ai",
-        "llm",
         "agent",
-        "reasoning"
+        "mcp"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 273
+        "value": 338
       }
     },
     {
-      "id": "4bb7db1267f7858fffef90464b22e133",
+      "id": "982fa1101a151db35714111ffa472c37",
+      "index": 6,
+      "title": "olemeyer/rocketplaneIO — Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixe",
+      "title_ko": "olemeyer/rocketplaneIO — Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 문제를 해결하는 부조종사",
+      "summary": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
+      "summary_ko": "Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 보호된 자체 확인 작업을 통해 문제를 해결하는 부조종사입니다. BYO-LLM, 에어갭이 가능합니다.",
+      "url": "https://github.com/olemeyer/rocketplaneIO",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-07-12T07:10:14+09:00",
+      "popularity": 129,
+      "upvotes": 129,
+      "score": 29.69,
+      "importance_score": 26.34,
+      "matched_keywords": [
+        "ai",
+        "llm"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 129
+      }
+    },
+    {
+      "id": "133880f3ce9188ae8a422dad06b579a7",
       "index": 7,
-      "title": "OpenAI가 공개한 GPT-5.6 공식 활용 가이드: 마이그레이션부터 프롬프팅, Pro 모드까지",
+      "title": "Cairn: 상태 공간 탐색으로 침투 테스트와 CTF를 푸는 범용 AI 문제 해결 엔진",
       "title_ko": null,
-      "summary": "GPT-5.6 모델 가이드 소개 OpenAI 가 개발자 문서 사이트에 GPT-5.6 모델 패밀리를 위한 공식 활용 가이드(Model Guidance)를 공개했습니다.",
+      "summary": "Cairn 소개 침투 테스트, 취약점 연구, 수학 증명, CTF 문제는 겉보기엔 서로 다른 분야지만 구조가 같습니다. 시작점(원본, target IP나 대상 시스템)이 명확하고, 도착점(셸 획득이나 플래그 획득 같은 목표)도 명확한데, 그 사이를 잇는 경로만 알 수 없다는 점입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/openai-gpt-5-6-pro/11195",
+      "url": "https://discuss.pytorch.kr/t/cairn-ctf-ai/11176",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-10T16:30:42+09:00",
+      "published_at": "2026-07-11T11:30:58+09:00",
       "popularity": 98,
       "upvotes": 0,
-      "score": 22.38,
-      "importance_score": 12.97,
+      "score": 18.35,
+      "importance_score": 10.91,
       "matched_keywords": [
         "ai",
-        "gpt",
-        "모델"
+        "연구"
       ],
       "engagement": null
     }
