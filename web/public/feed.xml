@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:56:48 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 12:26:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>하드웨어 인식 동적 추측 디코딩(DSD): 배치 크기에 맞춰 초안 토큰 수를 조절하는 추론 최적화 (feat. Cohere)</title>
+      <link>https://discuss.pytorch.kr/t/dsd-feat-cohere/11200</link>
+      <description>하드웨어 인식 동적 추측 디코딩(DSD) 소개 대규모 언어 모델(LLM)은 한 번에 토큰 하나씩 생성합니다. 이 순차적 특성 때문에 실제 서비스에서 체감하는 속도는 GPU의 연산 능력이 아니라 "다음 토큰 하나를 얼마나 빨리 뽑아내느냐"에 크게 좌우됩니다. 이 병목을 완화하는 대표적인 기법이 추측 디코딩(Speculative Decoding, SD) 입니다.</description>
+      <pubDate>Sun, 12 Jul 2026 10:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/dsd-feat-cohere/11200">PyTorch Korea</source>
+      <guid isPermaLink="false">088eae0166b61dfbc56e6398df023d10</guid>
+    </item>
+    <item>
+      <title>현대홈쇼핑, '리바트 집테리어' 상담 예약 방송</title>
+      <link>https://zdnet.co.kr/view/?no=20260712112910</link>
+      <description>[지디넷코리아]현대홈쇼핑이 토탈 인테리어 브랜드 '리바트 집테리어' 상담 예약 방송을 열고 최대 1천만원 할인 등 다양한 혜택을 제공한다.현대홈쇼핑은 오는 13일 오후 6시 30분 TV라이브를 통해 현대리바트의 토탈 인테리어 브랜드 '리바트 집테리어' 리모델링 상담 예약 방송을 진행한다고 12일 밝혔다.리바트 집테리어는 현대리바트가 2022년 선보인 종합 인테리어 브랜드다.</description>
+      <pubDate>Sun, 12 Jul 2026 11:29:10 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260712112910">ZDNet Korea</source>
+      <guid isPermaLink="false">d40628c7f6d71df8702adbf8591abede</guid>
+    </item>
+    <item>
+      <title>머스크 "애플 소송은 사기의 새 차원" vs 알트먼 "최고 벤치마크는 머스크의 집착"</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=212675</link>
+      <description>일론 머스크와 샘 알트먼 CEO가 오픈AI의 애플 소송 문제를 두고 다시 공개 설전을 벌였다. 머스크는 알트먼을 향해 \"사기를 완전히 새로운 차원으로 끌어올렸다\"고 비난했고, 알트먼은 \"가장 좋은 벤치마크는 일론이 다시 나에게 집착하고 있다는 것\"이라고 받아쳤다.머스크는 11일(현지시간) X를 통해 알트먼을 비난했다.</description>
+      <pubDate>Sun, 12 Jul 2026 10:53:21 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=212675">AI Times</source>
+      <guid isPermaLink="false">c1f24f8c652864e7beb964adc0af495d</guid>
+    </item>
+    <item>
+      <title>Ghost Font - 사람은 읽지만 AI는 읽기 어려운 글꼴</title>
+      <link>https://news.hada.io/topic?id=31343</link>
+      <description>Ghost Font 는 배경과 같은 점들의 움직임으로 글자를 만들어, 사람은 영상에서 메시지를 인식하지만 개별 프레임을 분석하는 AI는 쉽게 해독하지 못하게 하는 시각 커뮤니케이션 실험임 전통적인 TTF 글꼴 대신 움직임·영상·노이즈·미끼 메시지 를 결합하며, 영상을...</description>
+      <pubDate>Sun, 12 Jul 2026 09:44:08 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=31343">GeekNews</source>
+      <guid isPermaLink="false">d0cf2565f50b1fb19901d0585d242eeb</guid>
+    </item>
     <item>
       <title>‘터미네이터 2’ 기술의 구술사(2017)</title>
       <link>https://news.hada.io/topic?id=31335</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.07953">Hugging Face Papers</source>
       <guid isPermaLink="false">6290a97ea28207c07c87dbe35b393560</guid>
-    </item>
-    <item>
-      <title>정점 회로에 대한 희박하고 잘린 상태 벡터 시뮬레이터</title>
-      <link>https://huggingface.co/papers/2607.07816</link>
-      <description>정점 양자 회로는 벡터화된 연산 및 하드웨어 가속을 통해 희소 상태 벡터 표현을 사용하여 고전적으로 효율적으로 시뮬레이션할 수 있습니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07816">Hugging Face Papers</source>
-      <guid isPermaLink="false">3c596f76e9006467d39d5b693dc876a1</guid>
-    </item>
-    <item>
-      <title>기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상</title>
-      <link>https://huggingface.co/papers/2607.08765</link>
-      <description>Canvas360은 기하학적 인식 사전 훈련과 미세 조정을 결합한 상황 내 파노라마 생성을 위한 2단계 프레임워크로, 개선된 기하학적 구조를 위한 대규모 데이터 세트와 새로운 모델링 기술을 특징으로 합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08765">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee6d451d99ac89d7d96d65ec6ae59fc8</guid>
-    </item>
-    <item>
-      <title>OpenAI가 공개한 GPT-5.6 공식 활용 가이드: 마이그레이션부터 프롬프팅, Pro 모드까지</title>
-      <link>https://discuss.pytorch.kr/t/openai-gpt-5-6-pro/11195</link>
-      <description>GPT-5.6 모델 가이드 소개 OpenAI 가 개발자 문서 사이트에 GPT-5.6 모델 패밀리를 위한 공식 활용 가이드(Model Guidance)를 공개했습니다.</description>
-      <pubDate>Fri, 10 Jul 2026 16:30:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-gpt-5-6-pro/11195">PyTorch Korea</source>
-      <guid isPermaLink="false">4bb7db1267f7858fffef90464b22e133</guid>
-    </item>
-    <item>
-      <title>LongE2V: 비디오 확산 모델을 사용한 장수평 이벤트 기반 비디오 재구성, 예측 및 프레임 보간</title>
-      <link>https://huggingface.co/papers/2607.08770</link>
-      <description>LongE2V는 사전 훈련된 비디오 확산 사전 분석을 활용하고 시간적 안정성 및 프레임 보간 문제를 해결함으로써 희소 이벤트 스트림에서 고품질 비디오 복구를 가능하게 합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08770">Hugging Face Papers</source>
-      <guid isPermaLink="false">e08f50cffb3ee2d3e9fc4becb5503df0</guid>
     </item>
   </channel>
 </rss>

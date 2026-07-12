@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:56:48 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 12:26:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>하드웨어 인식 동적 추측 디코딩(DSD): 배치 크기에 맞춰 초안 토큰 수를 조절하는 추론 최적화 (feat. Cohere)</title>
+      <link>https://discuss.pytorch.kr/t/dsd-feat-cohere/11200</link>
+      <description>하드웨어 인식 동적 추측 디코딩(DSD) 소개 대규모 언어 모델(LLM)은 한 번에 토큰 하나씩 생성합니다. 이 순차적 특성 때문에 실제 서비스에서 체감하는 속도는 GPU의 연산 능력이 아니라 "다음 토큰 하나를 얼마나 빨리 뽑아내느냐"에 크게 좌우됩니다. 이 병목을 완화하는 대표적인 기법이 추측 디코딩(Speculative Decoding, SD) 입니다.</description>
+      <pubDate>Sun, 12 Jul 2026 10:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/dsd-feat-cohere/11200">PyTorch Korea</source>
+      <guid isPermaLink="false">088eae0166b61dfbc56e6398df023d10</guid>
+    </item>
     <item>
       <title>Clawdmeter: Claude Code 사용량을 책상 위에서 보여주는 ESP32 오픈소스 가젯</title>
       <link>https://discuss.pytorch.kr/t/clawdmeter-claude-code-esp32/11186</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/tabfm-feat-google-research/11058">PyTorch Korea</source>
       <guid isPermaLink="false">ff8456bc693a88e32ac8b43ceb2c9a9d</guid>
-    </item>
-    <item>
-      <title>Cowart: Codex에서 AI 이미지를 생성하고 주석으로 수정하는 로컬 무한 캔버스 플러그인</title>
-      <link>https://discuss.pytorch.kr/t/cowart-codex-ai/11051</link>
-      <description>Cowart 소개 이미지를 다루는 작업은 대화형 명령줄만으로는 답답할 때가 많습니다. 어떤 그림을 어디에 놓을지, 어떤 부분을 어떻게 고칠지는 텍스트로 설명하기보다 화면 위에 펼쳐 놓고 보는 편이 직관적입니다. Cowart는 이 간극을 메우는 도구로, AI 코딩 에이전트인 Codex 안에서 열리는 로컬 무한 캔버스(local infinite canvas) 플러그인입니다.</description>
-      <pubDate>Fri, 03 Jul 2026 11:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cowart-codex-ai/11051">PyTorch Korea</source>
-      <guid isPermaLink="false">614a0f950f74a6fa893feab656cb4df5</guid>
     </item>
   </channel>
 </rss>
