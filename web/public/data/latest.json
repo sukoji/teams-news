@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-12",
-  "generated_at": "2026-07-12T08:51:09.611356+09:00",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T08:49:37.266557+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,31 +10,26 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "ee6d451d99ac89d7d96d65ec6ae59fc8",
+          "id": "6d208505c4b6ec53d26493ecd0cff45f",
           "index": 1,
-          "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
-          "title_ko": "기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상",
-          "summary": "Canvas360 is a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with fine-tuning, featuring a large-scale dataset and novel modeling techniques for improved geometric cons…",
-          "summary_ko": "Canvas360은 기하학적 인식 사전 훈련과 미세 조정을 결합한 상황 내 파노라마 생성을 위한 2단계 프레임워크로, 개선된 기하학적 구조를 위한 대규모 데이터 세트와 새로운 모델링 기술을 특징으로 합니다.",
-          "url": "https://huggingface.co/papers/2607.08765",
-          "source": "Hugging Face Papers",
+          "title": "🥇Top AI Papers of the Week",
+          "title_ko": "🥇금주의 최고 AI 논문",
+          "summary": "The Top AI Papers of the Week (July 6 - July 12)",
+          "summary_ko": "금주의 상위 AI 논문(7월 6일 - 7월 12일)",
+          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-848",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-10T09:00:00+09:00",
-          "popularity": 44,
-          "upvotes": 17,
-          "score": 23.42,
-          "importance_score": 11.42,
+          "published_at": "2026-07-13T01:12:55+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 21.41,
+          "importance_score": 16.83,
           "matched_keywords": [
             "ai",
-            "fine-tuning",
-            "training",
-            "dataset"
+            "paper"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 17
-          }
+          "engagement": null
         },
         {
           "id": "5d9bcda5ffff897116fee733f1171e4d",
@@ -48,10 +43,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-12T01:33:08+09:00",
-          "popularity": 100,
+          "popularity": 99,
           "upvotes": 0,
-          "score": 23.48,
-          "importance_score": 16.96,
+          "score": 19.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
             "agent",
@@ -66,47 +61,48 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "b783081d12772d3070627d8b16c0e94a",
+          "id": "3ca76510b63effdffc66753d9f960e59",
           "index": 3,
-          "title": "\"여러 모델 섞어 써도 한계 명확\"…통념 깨진 '오케스트레이션' 효과",
+          "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택",
           "title_ko": null,
-          "summary": "여러 AI 모델을 함께 활용하면 서로의 약점을 보완해 더 높은 성능을 낼 수 있다는 \\'오케스트레이션\\' 통념에 제동을 거는 연구 결과가 나왔다.",
+          "summary": "마이크로소프트(MS)가 오픈AI나 앤트로픽 모델의 의존도를 줄이기 위해 자체 MAI 모델을 제품군에 투입했다는 소식이 전해진 가운데, 오픈AI가 최신 모델 \\'GPT-5.6\\'이 MS 365 코파일럿의 권장 모델(Preferred Model) 로 채택됐다고 발표했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212625",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212678",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-11T17:04:28+09:00",
+          "published_at": "2026-07-12T18:25:43+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.71,
-          "importance_score": 13.43,
+          "score": 23.0,
+          "importance_score": 14.0,
           "matched_keywords": [
             "ai",
-            "연구",
+            "gpt",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "5f071a263dbee424e810e9f71201336a",
+          "id": "24eb9aeac6fe0f4aa9ac4865c903ac47",
           "index": 4,
-          "title": "'같은 말 무한반복' AI 고질병 해결…리퀴드 AI, '안티둠' 오픈소스 공개",
+          "title": "오픈AI \"GPT-5.6 솔 울트라, 50년 수학 난제 1시간 만에 증명\"",
           "title_ko": null,
-          "summary": "[지디넷코리아]작은 AI 추론 모델이 같은 문장을 끝없이 반복하다 멈추지 못하는 '둠 루프(doom loop)' 문제를 겨냥한 해결책이 나왔다. 리퀴드 AI(Liquid AI)가 7월 7일 이를 고치는 학습 기법 '안티둠(Antidoom)'을 오픈소스로 공개했다.둠 루프는 모델이 한 구간을 내놓은 뒤 그 구간을 계속 되풀이하는 현상이다.",
+          "summary": "[지디넷코리아]오픈AI가 최신 인공지능(AI) 모델 GPT-5.6 솔 울트라(Sol Ultra)가 그래프 이론 분야의 50년 난제를 1시간 만에 증명했다고 주장하며 수학계의 관심이 쏠리고 있다.12일 에단 나이트 오픈AI 연구원은 소셜 플랫폼 엑스(X)를 통해 GPT-5.6 솔 울트라가 그래프 이론 분야의 대표적 미해결 문제인 '사이클 더블 커버 추측(Cycle Double Cover Co…",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260711220316",
+          "url": "https://zdnet.co.kr/view/?no=20260712163409",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-11T22:03:16+09:00",
-          "popularity": 99,
+          "published_at": "2026-07-12T16:58:55+09:00",
+          "popularity": 97,
           "upvotes": 0,
-          "score": 23.65,
-          "importance_score": 15.4,
+          "score": 25.4,
+          "importance_score": 13.1,
           "matched_keywords": [
             "ai",
-            "추론",
+            "gpt",
+            "연구",
             "모델"
           ],
           "engagement": null
@@ -118,54 +114,54 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "6f0c7bf766fe30c05bf2c3f070333f33",
+          "id": "e789981b6679675f84c7f1856e8bd861",
           "index": 5,
-          "title": "ronak-create/FableCut — Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-relo",
-          "title_ko": "ronak-create/FableCut — AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, live-relo",
-          "summary": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
-          "summary_ko": "AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, 라이브 다시 로드 UI",
-          "url": "https://github.com/ronak-create/FableCut",
+          "title": "Doriandarko/texts-to-transformer — Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
+          "title_ko": "Doriandarko/texts-to-transformer — iMessage 기록을 바탕으로 작은 Transformer를 Mac에서 처음부터 훈련하세요.",
+          "summary": "Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
+          "summary_ko": "iMessage 기록을 통해 처음부터 작은 Transformer를 Mac에서 훈련하세요.",
+          "url": "https://github.com/Doriandarko/texts-to-transformer",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-11T23:25:13+09:00",
-          "popularity": 338,
-          "upvotes": 338,
-          "score": 34.43,
-          "importance_score": 26.46,
+          "published_at": "2026-07-08T17:12:20+09:00",
+          "popularity": 366,
+          "upvotes": 366,
+          "score": 28.67,
+          "importance_score": 20.67,
           "matched_keywords": [
             "ai",
-            "agent",
-            "mcp"
+            "transformer"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 338
+            "value": 366
           }
         },
         {
-          "id": "982fa1101a151db35714111ffa472c37",
+          "id": "8f2ad4320698e1e09c90f65a558c7205",
           "index": 6,
-          "title": "olemeyer/rocketplaneIO — Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixe",
-          "title_ko": "olemeyer/rocketplaneIO — Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 문제를 해결하는 부조종사",
-          "summary": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
-          "summary_ko": "Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 보호된 자체 확인 작업을 통해 문제를 해결하는 부조종사입니다. BYO-LLM, 에어갭이 가능합니다.",
-          "url": "https://github.com/olemeyer/rocketplaneIO",
+          "title": "amitshekhariitbhu/transformers-explained — Transformer architecture explained step by step - the full architecture, every attention variant, po",
+          "title_ko": "amitshekhariitbhu/transformers-explaned — 단계별로 설명되는 Transformer 아키텍처 - 전체 아키텍처, 모든 관심 변형, po",
+          "summary": "Transformer architecture explained step by step - the full architecture, every attention variant, positional embeddings, and every layer inside a Transformer.",
+          "summary_ko": "Transformer 아키텍처는 전체 아키텍처, 모든 Attention 변형, 위치 임베딩 및 Transformer 내부의 모든 레이어를 단계별로 설명합니다.",
+          "url": "https://github.com/amitshekhariitbhu/transformers-explained",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-12T07:10:14+09:00",
-          "popularity": 129,
-          "upvotes": 129,
-          "score": 29.69,
-          "importance_score": 26.34,
+          "published_at": "2026-07-08T17:52:47+09:00",
+          "popularity": 126,
+          "upvotes": 126,
+          "score": 27.95,
+          "importance_score": 16.95,
           "matched_keywords": [
             "ai",
-            "llm"
+            "transformer",
+            "embedding"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 129
+            "value": 126
           }
         }
       ]
@@ -175,24 +171,26 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "133880f3ce9188ae8a422dad06b579a7",
+          "id": "17ee393601e6f6ffc6d345f69409ffd9",
           "index": 7,
-          "title": "Cairn: 상태 공간 탐색으로 침투 테스트와 CTF를 푸는 범용 AI 문제 해결 엔진",
+          "title": "[2026/07/06 ~ 12] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
           "title_ko": null,
-          "summary": "Cairn 소개 침투 테스트, 취약점 연구, 수학 증명, CTF 문제는 겉보기엔 서로 다른 분야지만 구조가 같습니다. 시작점(원본, target IP나 대상 시스템)이 명확하고, 도착점(셸 획득이나 플래그 획득 같은 목표)도 명확한데, 그 사이를 잇는 경로만 알 수 없다는 점입니다.",
+          "summary": "[2026/07/06 ~ 12] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 단순 생성을 넘어선 \"에이전틱(Agentic)\" 워크플로우의 전면화 : 이번 주 연구들에서는 대규모 언어 모델이 단순한 텍스트 생성 도구를 넘어, 스스로 계획하고 복잡한 현실 세계의 문제를 해결하는 자율적 에이전트로 진화하는 흐름이 뚜렷하게 나타났습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/cairn-ctf-ai/11176",
+          "url": "https://discuss.pytorch.kr/t/2026-07-06-12-ai-ml/11202",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-11T11:30:58+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-13T06:30:00+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 18.35,
-          "importance_score": 10.91,
+          "score": 28.42,
+          "importance_score": 18.93,
           "matched_keywords": [
             "ai",
-            "연구"
+            "agent",
+            "연구",
+            "모델"
           ],
           "engagement": null
         }
@@ -201,31 +199,26 @@
   ],
   "items": [
     {
-      "id": "ee6d451d99ac89d7d96d65ec6ae59fc8",
+      "id": "6d208505c4b6ec53d26493ecd0cff45f",
       "index": 1,
-      "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
-      "title_ko": "기하학적 인식 사전 훈련을 통해 상황 내 파노라마 생성 향상",
-      "summary": "Canvas360 is a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with fine-tuning, featuring a large-scale dataset and novel modeling techniques for improved geometric cons…",
-      "summary_ko": "Canvas360은 기하학적 인식 사전 훈련과 미세 조정을 결합한 상황 내 파노라마 생성을 위한 2단계 프레임워크로, 개선된 기하학적 구조를 위한 대규모 데이터 세트와 새로운 모델링 기술을 특징으로 합니다.",
-      "url": "https://huggingface.co/papers/2607.08765",
-      "source": "Hugging Face Papers",
+      "title": "🥇Top AI Papers of the Week",
+      "title_ko": "🥇금주의 최고 AI 논문",
+      "summary": "The Top AI Papers of the Week (July 6 - July 12)",
+      "summary_ko": "금주의 상위 AI 논문(7월 6일 - 7월 12일)",
+      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-848",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-10T09:00:00+09:00",
-      "popularity": 44,
-      "upvotes": 17,
-      "score": 23.42,
-      "importance_score": 11.42,
+      "published_at": "2026-07-13T01:12:55+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 21.41,
+      "importance_score": 16.83,
       "matched_keywords": [
         "ai",
-        "fine-tuning",
-        "training",
-        "dataset"
+        "paper"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 17
-      }
+      "engagement": null
     },
     {
       "id": "5d9bcda5ffff897116fee733f1171e4d",
@@ -239,10 +232,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-12T01:33:08+09:00",
-      "popularity": 100,
+      "popularity": 99,
       "upvotes": 0,
-      "score": 23.48,
-      "importance_score": 16.96,
+      "score": 19.9,
+      "importance_score": 9.9,
       "matched_keywords": [
         "ai",
         "agent",
@@ -251,121 +244,124 @@
       "engagement": null
     },
     {
-      "id": "b783081d12772d3070627d8b16c0e94a",
+      "id": "3ca76510b63effdffc66753d9f960e59",
       "index": 3,
-      "title": "\"여러 모델 섞어 써도 한계 명확\"…통념 깨진 '오케스트레이션' 효과",
+      "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택",
       "title_ko": null,
-      "summary": "여러 AI 모델을 함께 활용하면 서로의 약점을 보완해 더 높은 성능을 낼 수 있다는 \\'오케스트레이션\\' 통념에 제동을 거는 연구 결과가 나왔다.",
+      "summary": "마이크로소프트(MS)가 오픈AI나 앤트로픽 모델의 의존도를 줄이기 위해 자체 MAI 모델을 제품군에 투입했다는 소식이 전해진 가운데, 오픈AI가 최신 모델 \\'GPT-5.6\\'이 MS 365 코파일럿의 권장 모델(Preferred Model) 로 채택됐다고 발표했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212625",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212678",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-11T17:04:28+09:00",
+      "published_at": "2026-07-12T18:25:43+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.71,
-      "importance_score": 13.43,
+      "score": 23.0,
+      "importance_score": 14.0,
       "matched_keywords": [
         "ai",
+        "gpt",
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "24eb9aeac6fe0f4aa9ac4865c903ac47",
+      "index": 4,
+      "title": "오픈AI \"GPT-5.6 솔 울트라, 50년 수학 난제 1시간 만에 증명\"",
+      "title_ko": null,
+      "summary": "[지디넷코리아]오픈AI가 최신 인공지능(AI) 모델 GPT-5.6 솔 울트라(Sol Ultra)가 그래프 이론 분야의 50년 난제를 1시간 만에 증명했다고 주장하며 수학계의 관심이 쏠리고 있다.12일 에단 나이트 오픈AI 연구원은 소셜 플랫폼 엑스(X)를 통해 GPT-5.6 솔 울트라가 그래프 이론 분야의 대표적 미해결 문제인 '사이클 더블 커버 추측(Cycle Double Cover Co…",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20260712163409",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-07-12T16:58:55+09:00",
+      "popularity": 97,
+      "upvotes": 0,
+      "score": 25.4,
+      "importance_score": 13.1,
+      "matched_keywords": [
+        "ai",
+        "gpt",
         "연구",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "5f071a263dbee424e810e9f71201336a",
-      "index": 4,
-      "title": "'같은 말 무한반복' AI 고질병 해결…리퀴드 AI, '안티둠' 오픈소스 공개",
-      "title_ko": null,
-      "summary": "[지디넷코리아]작은 AI 추론 모델이 같은 문장을 끝없이 반복하다 멈추지 못하는 '둠 루프(doom loop)' 문제를 겨냥한 해결책이 나왔다. 리퀴드 AI(Liquid AI)가 7월 7일 이를 고치는 학습 기법 '안티둠(Antidoom)'을 오픈소스로 공개했다.둠 루프는 모델이 한 구간을 내놓은 뒤 그 구간을 계속 되풀이하는 현상이다.",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260711220316",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-07-11T22:03:16+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 23.65,
-      "importance_score": 15.4,
-      "matched_keywords": [
-        "ai",
-        "추론",
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "6f0c7bf766fe30c05bf2c3f070333f33",
+      "id": "e789981b6679675f84c7f1856e8bd861",
       "index": 5,
-      "title": "ronak-create/FableCut — Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-relo",
-      "title_ko": "ronak-create/FableCut — AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, live-relo",
-      "summary": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
-      "summary_ko": "AI 에이전트가 구동할 수 있는 종속성 없는 브라우저 비디오 편집기 — JSON 타임라인, MCP + REST, 라이브 다시 로드 UI",
-      "url": "https://github.com/ronak-create/FableCut",
+      "title": "Doriandarko/texts-to-transformer — Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
+      "title_ko": "Doriandarko/texts-to-transformer — iMessage 기록을 바탕으로 작은 Transformer를 Mac에서 처음부터 훈련하세요.",
+      "summary": "Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
+      "summary_ko": "iMessage 기록을 통해 처음부터 작은 Transformer를 Mac에서 훈련하세요.",
+      "url": "https://github.com/Doriandarko/texts-to-transformer",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-11T23:25:13+09:00",
-      "popularity": 338,
-      "upvotes": 338,
-      "score": 34.43,
-      "importance_score": 26.46,
+      "published_at": "2026-07-08T17:12:20+09:00",
+      "popularity": 366,
+      "upvotes": 366,
+      "score": 28.67,
+      "importance_score": 20.67,
       "matched_keywords": [
         "ai",
-        "agent",
-        "mcp"
+        "transformer"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 338
+        "value": 366
       }
     },
     {
-      "id": "982fa1101a151db35714111ffa472c37",
+      "id": "8f2ad4320698e1e09c90f65a558c7205",
       "index": 6,
-      "title": "olemeyer/rocketplaneIO — Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixe",
-      "title_ko": "olemeyer/rocketplaneIO — Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 문제를 해결하는 부조종사",
-      "summary": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
-      "summary_ko": "Kubernetes용 자체 호스팅 AI SRE — 계측이 필요 없는 eBPF 관찰 기능과 보호된 자체 확인 작업을 통해 문제를 해결하는 부조종사입니다. BYO-LLM, 에어갭이 가능합니다.",
-      "url": "https://github.com/olemeyer/rocketplaneIO",
+      "title": "amitshekhariitbhu/transformers-explained — Transformer architecture explained step by step - the full architecture, every attention variant, po",
+      "title_ko": "amitshekhariitbhu/transformers-explaned — 단계별로 설명되는 Transformer 아키텍처 - 전체 아키텍처, 모든 관심 변형, po",
+      "summary": "Transformer architecture explained step by step - the full architecture, every attention variant, positional embeddings, and every layer inside a Transformer.",
+      "summary_ko": "Transformer 아키텍처는 전체 아키텍처, 모든 Attention 변형, 위치 임베딩 및 Transformer 내부의 모든 레이어를 단계별로 설명합니다.",
+      "url": "https://github.com/amitshekhariitbhu/transformers-explained",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-12T07:10:14+09:00",
-      "popularity": 129,
-      "upvotes": 129,
-      "score": 29.69,
-      "importance_score": 26.34,
+      "published_at": "2026-07-08T17:52:47+09:00",
+      "popularity": 126,
+      "upvotes": 126,
+      "score": 27.95,
+      "importance_score": 16.95,
       "matched_keywords": [
         "ai",
-        "llm"
+        "transformer",
+        "embedding"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 129
+        "value": 126
       }
     },
     {
-      "id": "133880f3ce9188ae8a422dad06b579a7",
+      "id": "17ee393601e6f6ffc6d345f69409ffd9",
       "index": 7,
-      "title": "Cairn: 상태 공간 탐색으로 침투 테스트와 CTF를 푸는 범용 AI 문제 해결 엔진",
+      "title": "[2026/07/06 ~ 12] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
       "title_ko": null,
-      "summary": "Cairn 소개 침투 테스트, 취약점 연구, 수학 증명, CTF 문제는 겉보기엔 서로 다른 분야지만 구조가 같습니다. 시작점(원본, target IP나 대상 시스템)이 명확하고, 도착점(셸 획득이나 플래그 획득 같은 목표)도 명확한데, 그 사이를 잇는 경로만 알 수 없다는 점입니다.",
+      "summary": "[2026/07/06 ~ 12] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 단순 생성을 넘어선 \"에이전틱(Agentic)\" 워크플로우의 전면화 : 이번 주 연구들에서는 대규모 언어 모델이 단순한 텍스트 생성 도구를 넘어, 스스로 계획하고 복잡한 현실 세계의 문제를 해결하는 자율적 에이전트로 진화하는 흐름이 뚜렷하게 나타났습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/cairn-ctf-ai/11176",
+      "url": "https://discuss.pytorch.kr/t/2026-07-06-12-ai-ml/11202",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-11T11:30:58+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-13T06:30:00+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 18.35,
-      "importance_score": 10.91,
+      "score": 28.42,
+      "importance_score": 18.93,
       "matched_keywords": [
         "ai",
-        "연구"
+        "agent",
+        "연구",
+        "모델"
       ],
       "engagement": null
     }
