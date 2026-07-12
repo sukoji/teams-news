@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Jul 2026 18:03:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 20:11:40 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>JoyAI-Echo: 최대 5분 길이의 멀티샷 오디오-비디오를 생성하는 오픈소스 모델</title>
+      <link>https://discuss.pytorch.kr/t/joyai-echo-5/11207</link>
+      <description>JoyAI-Echo 소개 긴 영상을 생성하는 모델은 오랫동안 세 가지 문제에 시달렸습니다. 프레임이 쌓일수록 오차가 누적되고, 시간축을 따라 일관성이 무너지며, 지연 시간이 커서 대화형 시나리오에 쓰기 어렵다는 것입니다. 몇 초짜리 짧은 영상은 잘 만들어도, 인물의 얼굴과 목소리가 몇 분 동안 유지되는 긴 이야기를 만드는 일은 여전히 까다롭습니다.</description>
+      <pubDate>Sun, 12 Jul 2026 18:30:50 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/joyai-echo-5/11207">PyTorch Korea</source>
+      <guid isPermaLink="false">6eb90df7176ad601998ace83935aeac1</guid>
+    </item>
     <item>
       <title>Hermes HUD Web UI: 영속 메모리 AI 에이전트를 브라우저에서 들여다보는 대시보드</title>
       <link>https://discuss.pytorch.kr/t/hermes-hud-web-ui-ai/11209</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/loop-library-ai/11050">PyTorch Korea</source>
       <guid isPermaLink="false">65f234ae882df2da2d1964a47f10a4cb</guid>
-    </item>
-    <item>
-      <title>Anthropic이 공개한 Claude Fable 5 프롬프팅 가이드: 강력해진 모델에 맞춰 프롬프트 다시 쓰기</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-claude-fable-5/11062</link>
-      <description>Claude Fable 5 프롬프팅 가이드 소개 Anthropic이 Claude Fable 5와 Claude Mythos 5 를 공개하면서, 이 모델을 실제로 잘 쓰기 위한 별도의 프롬프팅 가이드( Prompting Claude Fable 5 )도 함께 내놓았습니다.</description>
-      <pubDate>Fri, 03 Jul 2026 13:30:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-claude-fable-5/11062">PyTorch Korea</source>
-      <guid isPermaLink="false">fd63ee94be1d032f8f8410ffff2ebc06</guid>
     </item>
   </channel>
 </rss>
