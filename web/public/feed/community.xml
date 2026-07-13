@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 13 Jul 2026 15:55:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 19:29:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Nexus: 시계열 예측을 멀티 에이전트 추론 문제로 푸는 프레임워크에 대한 연구 (feat. Google)</title>
+      <link>https://discuss.pytorch.kr/t/nexus-feat-google/11203</link>
+      <description>Nexus 소개: 시계열 예측을 에이전트 추론 문제로 다시 보기 주식 시장이나 부동산 시세를 예측할 때, 우리는 과거의 숫자 흐름만 보지 않습니다. 금리 인상 발표, 신제품 출시, 실적 서프라이즈 같은 사건들을 함께 읽으며 "이번에는 흐름이 꺾이겠구나"를 직감합니다. 그런데 지금까지의 시계열 예측 모델 대부분은 이 절반을 통째로 버린 채 숫자만 외삽해 왔습니다.</description>
+      <pubDate>Mon, 13 Jul 2026 18:30:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/nexus-feat-google/11203">PyTorch Korea</source>
+      <guid isPermaLink="false">f6d3ff16aec9be7da402987b78f6dd99</guid>
+    </item>
+    <item>
+      <title>Social Media Skills: Claude 에이전트로 소셜 미디어 콘텐츠를 만드는 스킬 모음</title>
+      <link>https://discuss.pytorch.kr/t/social-media-skills-claude/11224</link>
+      <description>Social Media Skills 소개 Social Media Skills는 Claude 같은 AI 에이전트에 소셜 미디어 콘텐츠 작업 능력을 더해 주는 스킬(skills) 모음입니다.</description>
+      <pubDate>Mon, 13 Jul 2026 16:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/social-media-skills-claude/11224">PyTorch Korea</source>
+      <guid isPermaLink="false">1008e57662e80aeeb02646a7b0bce25c</guid>
+    </item>
     <item>
       <title>talk-normal: 어떤 LLM이든 장황한 답변을 간결하게 만드는 시스템 프롬프트</title>
       <link>https://discuss.pytorch.kr/t/talk-normal-llm/11208</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/page-agent-gui-feat-alibaba/11071">PyTorch Korea</source>
       <guid isPermaLink="false">9cfa8e30d71d0c843845aa0fbb5cd444</guid>
-    </item>
-    <item>
-      <title>gemini-web2api: 웹 채팅 화면을 OpenAI 호환 API로 바꾸는 단일 파일 프록시</title>
-      <link>https://discuss.pytorch.kr/t/gemini-web2api-openai-api/11075</link>
-      <description>gemini-web2api 소개 Google Gemini의 공식 API를 쓰려면 Google AI Studio나 Vertex AI에 가입하고 API 키를 발급받아야 하며, 사용량에 따라 과금됩니다. gemini-web2api는 이 과정을 건너뛰고, 브라우저로 접속하는 Gemini 웹 채팅 화면 자체를 OpenAI 호환 REST API처럼 쓸 수 있게 바꿔주는 파이썬 스크립트입니다.</description>
-      <pubDate>Sun, 05 Jul 2026 09:30:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gemini-web2api-openai-api/11075">PyTorch Korea</source>
-      <guid isPermaLink="false">aea0ef2821746ebe89a13fae1cb1889b</guid>
-    </item>
-    <item>
-      <title>Awesome Claude Skills: 1,000개 넘는 Claude 스킬을 정리한 목록</title>
-      <link>https://discuss.pytorch.kr/t/awesome-claude-skills-1-000-claude/11063</link>
-      <description>Awesome Claude Skills 소개 Claude Skills는 Claude가 특정 유형의 작업을 처리하는 방법을 담은 재사용 가능한 지침 묶음입니다. 각 스킬은 SKILL.md 파일 하나에 YAML 프런트매터(이름, 설명)와 마크다운 지침을 담고, 여기에 스크립트·참고 문서·에셋을 함께 묶을 수 있습니다.</description>
-      <pubDate>Sat, 04 Jul 2026 18:30:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/awesome-claude-skills-1-000-claude/11063">PyTorch Korea</source>
-      <guid isPermaLink="false">3b5f364917592e276180af874b3e3570</guid>
     </item>
   </channel>
 </rss>
