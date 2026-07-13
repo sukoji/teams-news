@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 14 Jul 2026 05:16:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 06:58:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LOTUS: 데이터에 LLM과 에이전트 처리를 대규모로 적용하는 시맨틱 연산자 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/lotus-llm/11235</link>
+      <description>LOTUS 소개 LOTUS는 대규모 데이터셋에 LLM과 에이전트 기반 처리를 빠르고 안정적으로 적용하기 위한 프레임워크입니다. 문서 수천 건에서 특정 필드를 뽑거나, 코드베이스 전체를 훑어 버그를 찾거나, 에이전트 로그를 대량으로 분석하는 작업은 결국 "데이터셋의 모든 레코드에 대해 LLM을 반복 호출하는 일"로 귀결됩니다.</description>
+      <pubDate>Tue, 14 Jul 2026 06:30:06 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/lotus-llm/11235">PyTorch Korea</source>
+      <guid isPermaLink="false">3bbab089aafa31826b2c4a1a62a21e58</guid>
+    </item>
     <item>
       <title>Nexus: 시계열 예측을 멀티 에이전트 추론 문제로 푸는 프레임워크에 대한 연구 (feat. Google)</title>
       <link>https://discuss.pytorch.kr/t/nexus-feat-google/11203</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/all-rl-algorithms-from-scratch-18/11093">PyTorch Korea</source>
       <guid isPermaLink="false">e86aec78d9d183f0f407f429cf48e171</guid>
-    </item>
-    <item>
-      <title>page-agent: 자연어로 웹 화면을 조작하는 인페이지 GUI 에이전트 (feat. Alibaba)</title>
-      <link>https://discuss.pytorch.kr/t/page-agent-gui-feat-alibaba/11071</link>
-      <description>page-agent 소개 웹 서비스에 AI 코파일럿을 붙이려면 보통 백엔드를 새로 짜거나, 별도의 브라우저 확장·헤드리스 브라우저를 띄우는 무거운 작업이 필요합니다. page-agent는 이 과정을 자바스크립트 한 줄로 줄이는 것을 목표로 하는 인페이지(in-page) GUI 에이전트입니다.</description>
-      <pubDate>Sun, 05 Jul 2026 13:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/page-agent-gui-feat-alibaba/11071">PyTorch Korea</source>
-      <guid isPermaLink="false">9cfa8e30d71d0c843845aa0fbb5cd444</guid>
     </item>
   </channel>
 </rss>
