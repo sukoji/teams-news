@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 13 Jul 2026 12:28:35 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 15:55:21 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>talk-normal: 어떤 LLM이든 장황한 답변을 간결하게 만드는 시스템 프롬프트</title>
+      <link>https://discuss.pytorch.kr/t/talk-normal-llm/11208</link>
+      <description>talk-normal 소개 LLM 에게 간단한 질문을 던졌을 때 필요 이상으로 긴 답변이 돌아온 경험은 흔합니다. 불릿 목록과 소제목, 반복되는 요약이 붙어 실제로 필요한 정보는 몇 문장인데도 화면을 한참 채우는 식입니다. 이런 장황함(verbosity)은 읽는 시간을 늘리고 핵심을 흐립니다.</description>
+      <pubDate>Mon, 13 Jul 2026 15:30:17 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/talk-normal-llm/11208">PyTorch Korea</source>
+      <guid isPermaLink="false">25ddcc2ee34db775361b8be698fd644d</guid>
+    </item>
+    <item>
+      <title>BigSet: 문장 하나로 웹에서 검증된 데이터셋을 만들고 자동으로 갱신하는 에이전트 도구</title>
+      <link>https://discuss.pytorch.kr/t/bigset/11225</link>
+      <description>BigSet 소개 BigSet은 원하는 데이터를 평범한 문장으로 설명하면, 자율 에이전트가 살아 있는 웹을 조사해 검증된 구조화 데이터셋으로 만들어 주는 도구입니다. 예를 들어 "현재 엔지니어를 채용 중인 YC 회사와 그 회사의 펀딩 단계, 위치, 열려 있는 채용 공고 수" 같은 문장을 입력하면, 스키마를 자동으로 추론하고 개체를 조사·검증·중복 제거한 뒤 표 형태로 돌려줍니다.</description>
+      <pubDate>Mon, 13 Jul 2026 14:30:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/bigset/11225">PyTorch Korea</source>
+      <guid isPermaLink="false">af3056aabbc94a55d7f8fca149e0e181</guid>
+    </item>
     <item>
       <title>awesome-ai-agents: 200개가 넘는 에이전트 AI 프로젝트를 모은 큐레이션 목록</title>
       <link>https://discuss.pytorch.kr/t/awesome-ai-agents-200-ai/11210</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/awesome-claude-skills-1-000-claude/11063">PyTorch Korea</source>
       <guid isPermaLink="false">3b5f364917592e276180af874b3e3570</guid>
-    </item>
-    <item>
-      <title>[GN⁺] 결정과 돈: 회사가 "앤트로픽이 이걸 만든다면?" 질문에서 살아남는 법</title>
-      <link>https://discuss.pytorch.kr/t/gn/10987</link>
-      <description>결정과 돈 글 소개 AI 모델이 강력해질수록 소프트웨어 자체의 가치는 떨어지며, 살아남으려는 애플리케이션 회사는 데이터 회사이자 핀테크 회사 로 동시에 전환 필요 에이전트가 소프트웨어의 주된 사용자가 되면서 per-seat 가격 모델이 붕괴, 천 명이 십만 개 에이전트를 돌려도 십만 개의 좌석이 아니므로 에이전트가 남기는 결정(데이터)과 옮기는 돈(핀테크) 만이 과금 대상으로 남음 프론티어…</description>
-      <pubDate>Sat, 04 Jul 2026 12:30:45 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gn/10987">PyTorch Korea</source>
-      <guid isPermaLink="false">8cd5dd1fb58d46ad4841fa81afeadcda</guid>
-    </item>
-    <item>
-      <title>DeepSpec: 추측 디코딩 초안 모델을 학습하고 평가하는 DeepSeek의 풀스택 코드베이스</title>
-      <link>https://discuss.pytorch.kr/t/deepspec-deepseek/11049</link>
-      <description>DeepSpec 소개 대형 언어 모델의 생성은 한 번의 순전파(forward pass)에서 토큰을 하나씩 만들어 내기 때문에, 모델이 클수록 토큰당 지연 시간이 길어집니다. 추측 디코딩(Speculative Decoding)은 이 병목을 줄이기 위한 기법입니다.</description>
-      <pubDate>Fri, 03 Jul 2026 21:30:51 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/deepspec-deepseek/11049">PyTorch Korea</source>
-      <guid isPermaLink="false">87db694f9344da81fcbb233fc4952760</guid>
     </item>
   </channel>
 </rss>
