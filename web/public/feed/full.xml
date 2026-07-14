@@ -5,23 +5,9 @@
     <link>https://sukoji.github.io/teams-news/feed/full.xml</link>
     <description>Extended RSS with scores, sections, and engagement metrics for bot builders.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 14 Jul 2026 08:51:07 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:50:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <item>
-      <title>언어 지능을 위한 확장 가능한 시각적 사전 훈련</title>
-      <link>https://huggingface.co/papers/2607.09657</link>
-      <description>대규모 기초 모델의 급속한 발전은 주로 대규모 텍스트 말뭉치에 대한 사전 학습에 의해 주도되었습니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09657">Hugging Face Papers</source>
-      <guid isPermaLink="false">b532c8b0c74619ce16cc1d73d91c0e6e</guid>
-      <teams:source>Hugging Face Papers</teams:source>
-      <teams:section>papers</teams:section>
-      <teams:score>23.29</teams:score>
-      <teams:titleOriginal>Scalable Visual Pretraining for Language Intelligence</teams:titleOriginal>
-      <teams:engagement label="Upvotes">41</teams:engagement>
-    </item>
     <item>
       <title>기억된 지식이 대규모 언어 모델 미세 조정에서 일반화되지 못하는 이유를 기계적으로 이해하기 위해</title>
       <link>https://huggingface.co/papers/2607.08393</link>
@@ -32,78 +18,92 @@
       <guid isPermaLink="false">3daaf7ad29d106fc8a93311df69858e4</guid>
       <teams:source>Hugging Face Papers</teams:source>
       <teams:section>papers</teams:section>
-      <teams:score>23.02</teams:score>
+      <teams:score>26.18</teams:score>
       <teams:titleOriginal>Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning</teams:titleOriginal>
-      <teams:engagement label="Upvotes">7</teams:engagement>
+      <teams:engagement label="Upvotes">11</teams:engagement>
     </item>
     <item>
-      <title>퓨리오사AI, NPU 내년 '4만장' 2배 증산…엔비디아 독점에 도전</title>
-      <link>https://www.etnews.com/20260713000265</link>
-      <description>국산 인공지능(AI) 반도체 스타트업 퓨리오사AI가 거대언어모델(LLM) 추론 특화 칩 대량 생산 체계로 본격 진입했다. 엔비디아가 장악한 AI 반도체 칩 시장에서 '가성비'와 '전력 효율성'을 앞세운 국산 AI 반도체가 활로를 뚫을지 주목된다. 13일 업계에 따르면 퓨리오사AI는 내년까지 2세대 LLM 추론 특화 칩 '레니게이드(RNGD)'의 생산 물량을 4만~5만장까지 대폭 확대한다.</description>
-      <pubDate>Mon, 13 Jul 2026 16:00:00 +0900</pubDate>
+      <title>Direct On-Policy Distillation을 통한 약-강 일반화</title>
+      <link>https://huggingface.co/papers/2607.05394</link>
+      <description>Direct On-Policy Distillation은 RL에 의해 유도된 정책 변화를 암시적 보상 신호로 사용하여 강화 학습 개선 사항을 더 작은 모델에서 더 큰 모델로 이전하고 다음을 통해 훈련의 효율적인 확장을 가능하게 합니다.</description>
+      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05394">Hugging Face Papers</source>
+      <guid isPermaLink="false">d4ad34fab4dc4d930f62521d6d971298</guid>
+      <teams:source>Hugging Face Papers</teams:source>
+      <teams:section>papers</teams:section>
+      <teams:score>25.88</teams:score>
+      <teams:titleOriginal>Weak-to-Strong Generalization via Direct On-Policy Distillation</teams:titleOriginal>
+      <teams:engagement label="Upvotes">93</teams:engagement>
+    </item>
+    <item>
+      <title>[7월14일] 'AI 2027'은 경고였다…이번에는 "2040년까지 초지능 개발을 멈추자"</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=212739</link>
+      <description>지난해 4월 공개된 \'AI 2027\'이라는 보고서는 실리콘 밸리에서 화제가 됐습니다. 이 보고서는 불과 몇 년 안에 AGI가 달성되고, 나아가 AI가 더 뛰어난 AI를 개발하는 단계까지 진입할 수 있다는 가상의 시나리오를 제시했습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 07:00:00 +0900</pubDate>
       <category>news</category>
-      <source url="https://www.etnews.com/20260713000265">전자신문 IT</source>
-      <guid isPermaLink="false">900d59fb954dca1fde216a455ec3c444</guid>
-      <teams:source>전자신문 IT</teams:source>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=212739">AI Times</source>
+      <guid isPermaLink="false">bdd0a0a4f39deef34c3a110d6988dd71</guid>
+      <teams:source>AI Times</teams:source>
       <teams:section>news</teams:section>
-      <teams:score>23.89</teams:score>
-      <teams:titleOriginal>퓨리오사AI, NPU 내년 '4만장' 2배 증산…엔비디아 독점에 도전</teams:titleOriginal>
+      <teams:score>19.62</teams:score>
+      <teams:titleOriginal>[7월14일] 'AI 2027'은 경고였다…이번에는 "2040년까지 초지능 개발을 멈추자"</teams:titleOriginal>
       
     </item>
     <item>
-      <title>DGIST-GIST, 단일 초음파 소자로 다중 뇌자극 구현…신경병증성 통증 개선 확인</title>
-      <link>https://www.etnews.com/20260714000063</link>
-      <description>디지스트(DGIST·총장 이건우)는 황재윤 전기전자컴퓨터공학과 교수 연구팀이 정의헌·권혁상 GIST 의생명공학과 교수 연구팀과 공동으로 3D 프린팅 렌즈의 두께를 직접 최적화해 뇌의 여러 영역을 동시에 정밀 자극하는 '인공지능(AI) 기반 두께 전용 음향 홀로그램(TOAH)' 기술을 개발했다고 14일 밝혔다.</description>
-      <pubDate>Tue, 14 Jul 2026 07:36:59 +0900</pubDate>
+      <title>美 상무부 “엔비디아 H200 중국 출하 시작”</title>
+      <link>https://www.etnews.com/20260715000026</link>
+      <description>미국 상무부가 14일(현지시간) 의회에서 엔비디아 첨단 인공지능(AI) 반도체 칩 'H200'의 중국 출하가 시작됐다고 공식화했다. 제프리 케슬러 미국 상무부 산업안보 담당 차관은 이날 하원 외교위원회 청문회에서 “지금까지 H200의 대중 수출은 최소한에 그쳤다”며 출하가 이미 시작됐지만 수량은 “매우 적다”고 확인했다. 그는 “반도체와 AI 분야에서 향후 규제 조치가 있을 것”이라고 덧붙…</description>
+      <pubDate>Wed, 15 Jul 2026 08:08:45 +0900</pubDate>
       <category>news</category>
-      <source url="https://www.etnews.com/20260714000063">전자신문 IT</source>
-      <guid isPermaLink="false">5b4c7d3186c269afb8378e5bd14d1a4a</guid>
+      <source url="https://www.etnews.com/20260715000026">전자신문 IT</source>
+      <guid isPermaLink="false">502b77888dab98a730de85abd7b5ed35</guid>
       <teams:source>전자신문 IT</teams:source>
       <teams:section>news</teams:section>
-      <teams:score>22.74</teams:score>
-      <teams:titleOriginal>DGIST-GIST, 단일 초음파 소자로 다중 뇌자극 구현…신경병증성 통증 개선 확인</teams:titleOriginal>
+      <teams:score>19.66</teams:score>
+      <teams:titleOriginal>美 상무부 “엔비디아 H200 중국 출하 시작”</teams:titleOriginal>
       
     </item>
     <item>
-      <title>AlephAITech/WorkBuddyGuide — 실제 워크플로우를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈소스 WorkBuddy 실용 블루</title>
+      <title>AlephAITech/WorkBuddyGuide — 실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈소스 WorkBuddy 실용 블루</title>
       <link>https://github.com/AlephAITech/WorkBuddyGuide</link>
-      <description>실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈 소스 WorkBuddy 실용 블루북: 튜토리얼, 실제 워크플로, 기술, MCP, 자동화 및 다중 에이전트 실습.</description>
-      <pubDate>Tue, 14 Jul 2026 02:01:36 +0900</pubDate>
+      <description>실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈 소스 WorkBuddy 실용적인 블루북: 튜토리얼, 실제 워크플로, 기술, MCP, 자동화 및 다중 에이전트 실습.</description>
+      <pubDate>Tue, 14 Jul 2026 11:16:11 +0900</pubDate>
       <category>trending</category>
       <source url="https://github.com/AlephAITech/WorkBuddyGuide">GitHub Trending</source>
       <guid isPermaLink="false">92e00bd3dbc7f0e596dc14cec72f8249</guid>
       <teams:source>GitHub Trending</teams:source>
       <teams:section>trending</teams:section>
-      <teams:score>33.14</teams:score>
+      <teams:score>31.34</teams:score>
       <teams:titleOriginal>AlephAITech/WorkBuddyGuide — A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝</teams:titleOriginal>
-      <teams:engagement label="Stars">472</teams:engagement>
+      <teams:engagement label="Stars">681</teams:engagement>
     </item>
     <item>
-      <title>Alisa0808/vox-director — 하나의 주제를 완성된 Vox 스타일의 종이 콜라주 설명/광고 비디오로 전환 — 자동화된 엔드 투 엔드</title>
-      <link>https://github.com/Alisa0808/vox-director</link>
-      <description>하나의 주제를 완성된 Vox 스타일의 종이 콜라주 설명/광고 비디오로 변환합니다. Atlas Cloud + ffmpeg에서 자동화된 엔드 투 엔드입니다. 에이전트 스킬.</description>
-      <pubDate>Tue, 14 Jul 2026 03:24:52 +0900</pubDate>
+      <title>William-Lu-stack/Flawless — Kubernetes 및 클라우드 인프라를 위한 AI SRE AgenticOps.</title>
+      <link>https://github.com/William-Lu-stack/Flawless</link>
+      <description>Kubernetes 및 클라우드 인프라를 위한 AI SRE AgenticOps.</description>
+      <pubDate>Tue, 14 Jul 2026 10:58:28 +0900</pubDate>
       <category>trending</category>
-      <source url="https://github.com/Alisa0808/vox-director">GitHub Trending</source>
-      <guid isPermaLink="false">b475f47fedfa411d57a0f66cc65f4c5a</guid>
+      <source url="https://github.com/William-Lu-stack/Flawless">GitHub Trending</source>
+      <guid isPermaLink="false">d1f8907504258ca51a13d884ddb4c828</guid>
       <teams:source>GitHub Trending</teams:source>
       <teams:section>trending</teams:section>
-      <teams:score>31.12</teams:score>
-      <teams:titleOriginal>Alisa0808/vox-director — Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on </teams:titleOriginal>
-      <teams:engagement label="Stars">103</teams:engagement>
+      <teams:score>30.93</teams:score>
+      <teams:titleOriginal>William-Lu-stack/Flawless — AI SRE AgenticOps for Kubernetes and cloud infrastructure.</teams:titleOriginal>
+      <teams:engagement label="Stars">616</teams:engagement>
     </item>
     <item>
-      <title>Nexus: 시계열 예측을 멀티 에이전트 추론 문제로 푸는 프레임워크에 대한 연구 (feat. Google)</title>
-      <link>https://discuss.pytorch.kr/t/nexus-feat-google/11203</link>
-      <description>Nexus 소개: 시계열 예측을 에이전트 추론 문제로 다시 보기 주식 시장이나 부동산 시세를 예측할 때, 우리는 과거의 숫자 흐름만 보지 않습니다. 금리 인상 발표, 신제품 출시, 실적 서프라이즈 같은 사건들을 함께 읽으며 "이번에는 흐름이 꺾이겠구나"를 직감합니다. 그런데 지금까지의 시계열 예측 모델 대부분은 이 절반을 통째로 버린 채 숫자만 외삽해 왔습니다.</description>
-      <pubDate>Mon, 13 Jul 2026 18:30:26 +0900</pubDate>
+      <title>마크다운, 이제 '정식 식구'로 인정 — PyMuPDF 1.28 업데이트 소식</title>
+      <link>https://discuss.pytorch.kr/t/pymupdf-1-28/11248</link>
+      <description>마크다운, 이제 '정식 식구'로 인정합니다 — PyMuPDF 1.28 업데이트 태그: pymupdf, markdown, pdf, opensource, ai, llm 카테고리: 읽을거리&amp;정보공유 안녕하세요, 여러분! 최근 나온 PyMuPDF 1.28 업데이트가 RAG/LLM 파이프라인 다루시는 분들께 꽤 쓸모 있을 것 같아 짧게 공유드립니다.</description>
+      <pubDate>Tue, 14 Jul 2026 09:48:33 +0900</pubDate>
       <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nexus-feat-google/11203">PyTorch Korea</source>
-      <guid isPermaLink="false">f6d3ff16aec9be7da402987b78f6dd99</guid>
+      <source url="https://discuss.pytorch.kr/t/pymupdf-1-28/11248">PyTorch Korea</source>
+      <guid isPermaLink="false">cf6c4c15dcc4bded31dedb82771f03fd</guid>
       <teams:source>PyTorch Korea</teams:source>
       <teams:section>community</teams:section>
-      <teams:score>22.71</teams:score>
-      <teams:titleOriginal>Nexus: 시계열 예측을 멀티 에이전트 추론 문제로 푸는 프레임워크에 대한 연구 (feat. Google)</teams:titleOriginal>
+      <teams:score>23.7</teams:score>
+      <teams:titleOriginal>마크다운, 이제 '정식 식구'로 인정 — PyMuPDF 1.28 업데이트 소식</teams:titleOriginal>
       
     </item>
   </channel>
