@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 15 Jul 2026 08:50:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 11:34:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>수정 전 알아두기: 소프트웨어 문제 해결을 위한 QA 기반 저장소 지식 획득</title>
+      <link>https://huggingface.co/papers/2607.11111</link>
+      <description>LLM 기반 코딩 에이전트는 자동화된 소프트웨어 문제 해결을 크게 발전시켰지만 저장소에 대한 이해 부족으로 인해 발생하는 사실 오류가 발생할 가능성이 여전히 높습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.11111">Hugging Face Papers</source>
+      <guid isPermaLink="false">d68aad6011b602a99be397b8418899d6</guid>
+    </item>
+    <item>
+      <title>다중 에이전트 LLM이 서로 탐색하지 못함</title>
+      <link>https://huggingface.co/papers/2607.11250</link>
+      <description>다중 에이전트 시스템에서 안정적인 자율성을 위해서는 탐색이 필수적이지만 LLM(대형 언어 모델) 에이전트가 서로 상호 작용할 때 효과적으로 탐색할 수 있는지 여부는 여전히 불분명합니다.</description>
+      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.11250">Hugging Face Papers</source>
+      <guid isPermaLink="false">747b7fc6cb0d33679e965771f4d1a743</guid>
+    </item>
     <item>
       <title>증거가 뒷받침되는 비디오 질문 답변</title>
       <link>https://huggingface.co/papers/2607.11862</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.08758">Hugging Face Papers</source>
       <guid isPermaLink="false">56b8880a6dc50a5811460b11a6249c2a</guid>
-    </item>
-    <item>
-      <title>Flash-BoN: 확산 모델의 추론 시간 조정을 위한 즉시 초안</title>
-      <link>https://huggingface.co/papers/2607.04461</link>
-      <description>Flash-BoN은 시간 단계 잘림, 레이어 건너뛰기, 활성화 프록시를 통해 생성된 저렴한 초안 후보를 사용하고 그 다음으로 성능이 뛰어난 다단계 검증을 통해 텍스트-이미지 생성 효율성을 향상시킵니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04461">Hugging Face Papers</source>
-      <guid isPermaLink="false">5e9b06c3cec02ca29ac5fced034e02f5</guid>
-    </item>
-    <item>
-      <title>OPSD-V: 교육 후 몇 단계 자동 회귀 비디오 생성기를 위한 온 정책 자체 증류</title>
-      <link>https://huggingface.co/papers/2607.08766</link>
-      <description>OPSD-V는 훈련 중 시간적 맥락에 대한 실제 긴 비디오 데이터를 사용하여 몇 단계 자동 회귀 비디오 확산 모델을 향상시키고 시각적 품질과 모션 동적을 향상시키는 조밀한 궤적 수준 감독을 제공합니다.</description>
-      <pubDate>Thu, 09 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08766">Hugging Face Papers</source>
-      <guid isPermaLink="false">12e7d8e475cada1a93568a537f2ce982</guid>
     </item>
   </channel>
 </rss>
