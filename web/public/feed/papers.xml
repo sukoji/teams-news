@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 15 Jul 2026 19:52:12 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 21:17:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>맹점-벤치: 다중 모드 모델의 맹점 평가</title>
+      <link>https://huggingface.co/papers/2607.08317</link>
+      <description>최신 AI 모델은 확립된 많은 벤치마크에서 강력한 성능을 달성했지만, 끈을 조작하거나 다리가 다섯 개인 개를 그리는 등 인간이 거의 사소하다고 생각하는 작업에서는 여전히 실패합니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08317">Hugging Face Papers</source>
+      <guid isPermaLink="false">a0934531c9b6aabd6ce75973d41ae729</guid>
+    </item>
+    <item>
+      <title>심층 강화 학습 평가 및 설계 패러다임의 원리 분석</title>
+      <link>https://huggingface.co/papers/2607.07769</link>
+      <description>가장 어려운 게임 중 하나를 승리로 이끈 상태-행동 가치 함수를 근사화하기 위한 심층 신경망 활용부터 시작하여 문제를 해결하지 않고도 문제를 해결할 수 있는 알고리즘의 발전까지…</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07769">Hugging Face Papers</source>
+      <guid isPermaLink="false">f3c77659229fdc860cb10581d04162b5</guid>
+    </item>
     <item>
       <title>다시 읽어보세요: 사전 훈련된 MLLM은 텍스트-이미지 생성을 위한 제로샷 보상 모델입니다.</title>
       <link>https://huggingface.co/papers/2607.11886</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.03118">Hugging Face Papers</source>
       <guid isPermaLink="false">37ee92c2f49256c4459653aac7445499</guid>
-    </item>
-    <item>
-      <title>Video-Oasis: 비디오 이해 평가에 대한 재고</title>
-      <link>https://huggingface.co/papers/2603.29616</link>
-      <description>Video-Oasis 진단에 따르면 기존 비디오 벤치마크의 절반은 시각적 입력 없이도 해결할 수 있으며, 이는 현재 비디오 이해 모델의 상당한 기능 격차를 드러냅니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2603.29616">Hugging Face Papers</source>
-      <guid isPermaLink="false">9b7ac70d5f6487764bc8792c0495a816</guid>
-    </item>
-    <item>
-      <title>UniClawBench: 실제 작업에 대한 사전 대응 에이전트를 위한 범용 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.08768</link>
-      <description>UniClawBench는 실시간 Docker 컨테이너 평가 및 여러 에이전트 역할을 통한 폐쇄 루프 평가를 사용하여 실제 환경에서 사전 대응 에이전트를 평가하기 위한 기능 기반 벤치마크를 도입합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08768">Hugging Face Papers</source>
-      <guid isPermaLink="false">348e3cbacc53b93c738b9bb44910c403</guid>
     </item>
   </channel>
 </rss>
