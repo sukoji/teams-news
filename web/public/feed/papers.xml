@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 01:24:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 03:09:47 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLM 예측 담당자가 알지만 말하지 않는 것: 보정 및 충실성을 위한 내부 표현 조사</title>
+      <link>https://huggingface.co/papers/2607.08046</link>
+      <description>예측을 위해 미세 조정된 대규모 언어 모델은 정확하지만 보정이 제대로 이루어지지 않을 수 있으며, CoT(사고 사슬) 추론이 예측 뒤에 숨은 증거를 충실하게 반영하지 못할 수 있습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08046">Hugging Face Papers</source>
+      <guid isPermaLink="false">95ac0b9b412be7d77e104d8367b2b871</guid>
+    </item>
     <item>
       <title>SynthDocBench: 장기 컨텍스트 시각적 문서 이해를 위한 제어 벤치마크</title>
       <link>https://huggingface.co/papers/2607.10400</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.08404">Hugging Face Papers</source>
       <guid isPermaLink="false">13a2283eb1e8ca417aedea931e4ba1a9</guid>
-    </item>
-    <item>
-      <title>선형 주의 아키텍처: 메커니즘, 절충 및 교차 계층 라우팅</title>
-      <link>https://huggingface.co/papers/2607.07953</link>
-      <description>소프트맥스 어텐션과 순환 선형 어텐션 아키텍처의 비교 분석에서는 다양한 매개변수 규모와 시퀀스 길이에 걸쳐 표현성, 메모리 관리 및 훈련 효율성을 검사합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07953">Hugging Face Papers</source>
-      <guid isPermaLink="false">6290a97ea28207c07c87dbe35b393560</guid>
     </item>
   </channel>
 </rss>
