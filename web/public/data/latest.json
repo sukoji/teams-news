@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-15",
-  "generated_at": "2026-07-15T08:50:09.561991+09:00",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T08:55:47.474460+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,31 +10,31 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "3daaf7ad29d106fc8a93311df69858e4",
+          "id": "43ef3710d0a50d7f622b5bde001f3e75",
           "index": 1,
-          "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
-          "title_ko": "기억된 지식이 대규모 언어 모델 미세 조정에서 일반화되지 못하는 이유를 기계적으로 이해하기 위해",
-          "summary": "Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks.",
-          "summary_ko": "새로운 지식을 주입하기 위해 LLM을 미세 조정하는 것은 중요한 과제에 직면합니다. LLM은 새로운 사실을 빠르게 기억할 수 있지만 후속 추론 작업에는 이를 사용하지 못합니다.",
-          "url": "https://huggingface.co/papers/2607.08393",
+          "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+          "title_ko": "다시 읽어보세요: 사전 훈련된 MLLM은 텍스트-이미지 생성을 위한 제로샷 보상 모델입니다.",
+          "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning.",
+          "summary_ko": "본 논문에서는 사전 훈련된 MLLM을 이미지 생성 강화 학습을 위한 기성 보상 모델로 전환하는 훈련 없는 보상 기능인 SpectraReward를 제안합니다.",
+          "url": "https://huggingface.co/papers/2607.11886",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-13T09:00:00+09:00",
-          "popularity": 57,
-          "upvotes": 11,
-          "score": 26.18,
-          "importance_score": 12.18,
+          "published_at": "2026-07-15T09:00:00+09:00",
+          "popularity": 94,
+          "upvotes": 42,
+          "score": 27.68,
+          "importance_score": 13.69,
           "matched_keywords": [
             "ai",
             "llm",
-            "fine-tuning",
-            "finetuning",
-            "reasoning"
+            "reinforcement learning",
+            "paper",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 11
+            "value": 42
           }
         },
         {
@@ -49,10 +49,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-14T09:00:00+09:00",
-          "popularity": 196,
-          "upvotes": 93,
-          "score": 25.88,
-          "importance_score": 15.92,
+          "popularity": 239,
+          "upvotes": 112,
+          "score": 26.44,
+          "importance_score": 16.44,
           "matched_keywords": [
             "ai",
             "reinforcement learning",
@@ -60,7 +60,7 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 93
+            "value": 112
           }
         }
       ]
@@ -70,44 +70,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "bdd0a0a4f39deef34c3a110d6988dd71",
+          "id": "5fb701dbd108ac7cad0f84960ad96da3",
           "index": 3,
-          "title": "[7월14일] 'AI 2027'은 경고였다…이번에는 \"2040년까지 초지능 개발을 멈추자\"",
+          "title": "[7월15일] 구글의 차례가 왔다…시장이 '제미나이 3.5 프로'를 기다리는 이유",
           "title_ko": null,
-          "summary": "지난해 4월 공개된 \\'AI 2027\\'이라는 보고서는 실리콘 밸리에서 화제가 됐습니다. 이 보고서는 불과 몇 년 안에 AGI가 달성되고, 나아가 AI가 더 뛰어난 AI를 개발하는 단계까지 진입할 수 있다는 가상의 시나리오를 제시했습니다.",
+          "summary": "최근 첨단 AI 모델 경쟁은 숨 돌릴 틈이 없습니다. 앤트로픽은 \\'페이블 5\\'를 선보였고, 오픈AI는 \\'GPT-5.6\\'으로 곧바로 맞불을 놓았습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212739",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212785",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-15T07:00:00+09:00",
+          "published_at": "2026-07-16T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.62,
-          "importance_score": 19.24,
+          "score": 25.6,
+          "importance_score": 19.2,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "gpt",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "502b77888dab98a730de85abd7b5ed35",
+          "id": "7ea37a227355441ce6604b3999561d25",
           "index": 4,
-          "title": "美 상무부 “엔비디아 H200 중국 출하 시작”",
+          "title": "앤트로픽, 10월 IPO 속도…투자자 사전 면담 돌입",
           "title_ko": null,
-          "summary": "미국 상무부가 14일(현지시간) 의회에서 엔비디아 첨단 인공지능(AI) 반도체 칩 'H200'의 중국 출하가 시작됐다고 공식화했다. 제프리 케슬러 미국 상무부 산업안보 담당 차관은 이날 하원 외교위원회 청문회에서 “지금까지 H200의 대중 수출은 최소한에 그쳤다”며 출하가 이미 시작됐지만 수량은 “매우 적다”고 확인했다. 그는 “반도체와 AI 분야에서 향후 규제 조치가 있을 것”이라고 덧붙…",
+          "summary": "인공지능(AI) 모델 '클로드' 개발사 앤트로픽이 대형 기업공개(IPO)를 앞두고 투자자 수요 점검에 나섰다. 15일(현지시간) 블룸버그와 CNBC 등에 따르면 모건스탠리와 골드만삭스, JP모건체이스 등 상장 주관 투자은행은 앤트로픽 경영진과 투자자 간 사전 면담을 주선하고 있다. 상장 전 기관투자자의 관심과 투자 규모를 파악하기 위한 절차다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260715000026",
+          "url": "https://www.etnews.com/20260716000006",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-15T08:08:45+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-16T07:33:49+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.66,
-          "importance_score": 19.51,
+          "score": 22.62,
+          "importance_score": 19.33,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         }
@@ -121,25 +124,25 @@
           "id": "92e00bd3dbc7f0e596dc14cec72f8249",
           "index": 5,
           "title": "AlephAITech/WorkBuddyGuide — A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝",
-          "title_ko": "AlephAITech/WorkBuddyGuide — 실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈소스 WorkBuddy 실용 블루",
+          "title_ko": "AlephAITech/WorkBuddyGuide — 실제 워크플로우를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈소스 WorkBuddy 실용 블루",
           "summary": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
-          "summary_ko": "실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈 소스 WorkBuddy 실용적인 블루북: 튜토리얼, 실제 워크플로, 기술, MCP, 자동화 및 다중 에이전트 실습.",
+          "summary_ko": "실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈 소스 WorkBuddy 실용 블루북: 튜토리얼, 실제 워크플로, 기술, MCP, 자동화 및 다중 에이전트 실습.",
           "url": "https://github.com/AlephAITech/WorkBuddyGuide",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-14T11:16:11+09:00",
-          "popularity": 681,
-          "upvotes": 681,
-          "score": 31.34,
-          "importance_score": 23.85,
+          "published_at": "2026-07-16T00:29:25+09:00",
+          "popularity": 786,
+          "upvotes": 786,
+          "score": 34.58,
+          "importance_score": 29.82,
           "matched_keywords": [
             "ai",
             "mcp"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 681
+            "value": 786
           }
         },
         {
@@ -153,18 +156,18 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-14T10:58:28+09:00",
-          "popularity": 616,
-          "upvotes": 616,
-          "score": 30.93,
-          "importance_score": 23.38,
+          "published_at": "2026-07-16T00:51:25+09:00",
+          "popularity": 635,
+          "upvotes": 635,
+          "score": 33.91,
+          "importance_score": 29.23,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 616
+            "value": 635
           }
         }
       ]
@@ -174,26 +177,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "cf6c4c15dcc4bded31dedb82771f03fd",
+          "id": "b00606c9894c24fc40ba4dae1ee842b0",
           "index": 7,
-          "title": "마크다운, 이제 '정식 식구'로 인정 — PyMuPDF 1.28 업데이트 소식",
+          "title": "World of ClaudeCraft: 브라우저에서 돌아가는 오픈소스 MMO이자 에이전트 강화학습 환경",
           "title_ko": null,
-          "summary": "마크다운, 이제 '정식 식구'로 인정합니다 — PyMuPDF 1.28 업데이트 태그: pymupdf, markdown, pdf, opensource, ai, llm 카테고리: 읽을거리&정보공유 안녕하세요, 여러분! 최근 나온 PyMuPDF 1.28 업데이트가 RAG/LLM 파이프라인 다루시는 분들께 꽤 쓸모 있을 것 같아 짧게 공유드립니다.",
+          "summary": "World of ClaudeCraft 소개 World of ClaudeCraft는 브라우저에서 바로 플레이할 수 있는 클래식 시대풍의 완성형 MMO이면서, 동시에 AI 에이전트를 학습시킬 수 있는 강화학습 환경을 함께 제공하는 오픈소스 프로젝트입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/pymupdf-1-28/11248",
+          "url": "https://discuss.pytorch.kr/t/world-of-claudecraft-mmo/11241",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-14T09:48:33+09:00",
-          "popularity": 95,
+          "published_at": "2026-07-16T08:30:09+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 23.7,
-          "importance_score": 9.91,
+          "score": 22.91,
+          "importance_score": 19.82,
           "matched_keywords": [
             "ai",
-            "llm",
-            "rag",
-            "opensource"
+            "claude"
           ],
           "engagement": null
         }
@@ -202,31 +203,31 @@
   ],
   "items": [
     {
-      "id": "3daaf7ad29d106fc8a93311df69858e4",
+      "id": "43ef3710d0a50d7f622b5bde001f3e75",
       "index": 1,
-      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
-      "title_ko": "기억된 지식이 대규모 언어 모델 미세 조정에서 일반화되지 못하는 이유를 기계적으로 이해하기 위해",
-      "summary": "Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks.",
-      "summary_ko": "새로운 지식을 주입하기 위해 LLM을 미세 조정하는 것은 중요한 과제에 직면합니다. LLM은 새로운 사실을 빠르게 기억할 수 있지만 후속 추론 작업에는 이를 사용하지 못합니다.",
-      "url": "https://huggingface.co/papers/2607.08393",
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "title_ko": "다시 읽어보세요: 사전 훈련된 MLLM은 텍스트-이미지 생성을 위한 제로샷 보상 모델입니다.",
+      "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning.",
+      "summary_ko": "본 논문에서는 사전 훈련된 MLLM을 이미지 생성 강화 학습을 위한 기성 보상 모델로 전환하는 훈련 없는 보상 기능인 SpectraReward를 제안합니다.",
+      "url": "https://huggingface.co/papers/2607.11886",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-13T09:00:00+09:00",
-      "popularity": 57,
-      "upvotes": 11,
-      "score": 26.18,
-      "importance_score": 12.18,
+      "published_at": "2026-07-15T09:00:00+09:00",
+      "popularity": 94,
+      "upvotes": 42,
+      "score": 27.68,
+      "importance_score": 13.69,
       "matched_keywords": [
         "ai",
         "llm",
-        "fine-tuning",
-        "finetuning",
-        "reasoning"
+        "reinforcement learning",
+        "paper",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 11
+        "value": 42
       }
     },
     {
@@ -241,10 +242,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-14T09:00:00+09:00",
-      "popularity": 196,
-      "upvotes": 93,
-      "score": 25.88,
-      "importance_score": 15.92,
+      "popularity": 239,
+      "upvotes": 112,
+      "score": 26.44,
+      "importance_score": 16.44,
       "matched_keywords": [
         "ai",
         "reinforcement learning",
@@ -252,48 +253,51 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 93
+        "value": 112
       }
     },
     {
-      "id": "bdd0a0a4f39deef34c3a110d6988dd71",
+      "id": "5fb701dbd108ac7cad0f84960ad96da3",
       "index": 3,
-      "title": "[7월14일] 'AI 2027'은 경고였다…이번에는 \"2040년까지 초지능 개발을 멈추자\"",
+      "title": "[7월15일] 구글의 차례가 왔다…시장이 '제미나이 3.5 프로'를 기다리는 이유",
       "title_ko": null,
-      "summary": "지난해 4월 공개된 \\'AI 2027\\'이라는 보고서는 실리콘 밸리에서 화제가 됐습니다. 이 보고서는 불과 몇 년 안에 AGI가 달성되고, 나아가 AI가 더 뛰어난 AI를 개발하는 단계까지 진입할 수 있다는 가상의 시나리오를 제시했습니다.",
+      "summary": "최근 첨단 AI 모델 경쟁은 숨 돌릴 틈이 없습니다. 앤트로픽은 \\'페이블 5\\'를 선보였고, 오픈AI는 \\'GPT-5.6\\'으로 곧바로 맞불을 놓았습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212739",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212785",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-15T07:00:00+09:00",
+      "published_at": "2026-07-16T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.62,
-      "importance_score": 19.24,
+      "score": 25.6,
+      "importance_score": 19.2,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "gpt",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "502b77888dab98a730de85abd7b5ed35",
+      "id": "7ea37a227355441ce6604b3999561d25",
       "index": 4,
-      "title": "美 상무부 “엔비디아 H200 중국 출하 시작”",
+      "title": "앤트로픽, 10월 IPO 속도…투자자 사전 면담 돌입",
       "title_ko": null,
-      "summary": "미국 상무부가 14일(현지시간) 의회에서 엔비디아 첨단 인공지능(AI) 반도체 칩 'H200'의 중국 출하가 시작됐다고 공식화했다. 제프리 케슬러 미국 상무부 산업안보 담당 차관은 이날 하원 외교위원회 청문회에서 “지금까지 H200의 대중 수출은 최소한에 그쳤다”며 출하가 이미 시작됐지만 수량은 “매우 적다”고 확인했다. 그는 “반도체와 AI 분야에서 향후 규제 조치가 있을 것”이라고 덧붙…",
+      "summary": "인공지능(AI) 모델 '클로드' 개발사 앤트로픽이 대형 기업공개(IPO)를 앞두고 투자자 수요 점검에 나섰다. 15일(현지시간) 블룸버그와 CNBC 등에 따르면 모건스탠리와 골드만삭스, JP모건체이스 등 상장 주관 투자은행은 앤트로픽 경영진과 투자자 간 사전 면담을 주선하고 있다. 상장 전 기관투자자의 관심과 투자 규모를 파악하기 위한 절차다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260715000026",
+      "url": "https://www.etnews.com/20260716000006",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-15T08:08:45+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-16T07:33:49+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 19.66,
-      "importance_score": 19.51,
+      "score": 22.62,
+      "importance_score": 19.33,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
@@ -301,25 +305,25 @@
       "id": "92e00bd3dbc7f0e596dc14cec72f8249",
       "index": 5,
       "title": "AlephAITech/WorkBuddyGuide — A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝",
-      "title_ko": "AlephAITech/WorkBuddyGuide — 실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈소스 WorkBuddy 실용 블루",
+      "title_ko": "AlephAITech/WorkBuddyGuide — 실제 워크플로우를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈소스 WorkBuddy 실용 블루",
       "summary": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
-      "summary_ko": "실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈 소스 WorkBuddy 실용적인 블루북: 튜토리얼, 실제 워크플로, 기술, MCP, 자동화 및 다중 에이전트 실습.",
+      "summary_ko": "실제 워크플로를 통해 WorkBuddy를 마스터하기 위한 실용적인 오픈 소스 가이드입니다. 오픈 소스 WorkBuddy 실용 블루북: 튜토리얼, 실제 워크플로, 기술, MCP, 자동화 및 다중 에이전트 실습.",
       "url": "https://github.com/AlephAITech/WorkBuddyGuide",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-14T11:16:11+09:00",
-      "popularity": 681,
-      "upvotes": 681,
-      "score": 31.34,
-      "importance_score": 23.85,
+      "published_at": "2026-07-16T00:29:25+09:00",
+      "popularity": 786,
+      "upvotes": 786,
+      "score": 34.58,
+      "importance_score": 29.82,
       "matched_keywords": [
         "ai",
         "mcp"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 681
+        "value": 786
       }
     },
     {
@@ -333,41 +337,39 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-14T10:58:28+09:00",
-      "popularity": 616,
-      "upvotes": 616,
-      "score": 30.93,
-      "importance_score": 23.38,
+      "published_at": "2026-07-16T00:51:25+09:00",
+      "popularity": 635,
+      "upvotes": 635,
+      "score": 33.91,
+      "importance_score": 29.23,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 616
+        "value": 635
       }
     },
     {
-      "id": "cf6c4c15dcc4bded31dedb82771f03fd",
+      "id": "b00606c9894c24fc40ba4dae1ee842b0",
       "index": 7,
-      "title": "마크다운, 이제 '정식 식구'로 인정 — PyMuPDF 1.28 업데이트 소식",
+      "title": "World of ClaudeCraft: 브라우저에서 돌아가는 오픈소스 MMO이자 에이전트 강화학습 환경",
       "title_ko": null,
-      "summary": "마크다운, 이제 '정식 식구'로 인정합니다 — PyMuPDF 1.28 업데이트 태그: pymupdf, markdown, pdf, opensource, ai, llm 카테고리: 읽을거리&정보공유 안녕하세요, 여러분! 최근 나온 PyMuPDF 1.28 업데이트가 RAG/LLM 파이프라인 다루시는 분들께 꽤 쓸모 있을 것 같아 짧게 공유드립니다.",
+      "summary": "World of ClaudeCraft 소개 World of ClaudeCraft는 브라우저에서 바로 플레이할 수 있는 클래식 시대풍의 완성형 MMO이면서, 동시에 AI 에이전트를 학습시킬 수 있는 강화학습 환경을 함께 제공하는 오픈소스 프로젝트입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/pymupdf-1-28/11248",
+      "url": "https://discuss.pytorch.kr/t/world-of-claudecraft-mmo/11241",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-14T09:48:33+09:00",
-      "popularity": 95,
+      "published_at": "2026-07-16T08:30:09+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 23.7,
-      "importance_score": 9.91,
+      "score": 22.91,
+      "importance_score": 19.82,
       "matched_keywords": [
         "ai",
-        "llm",
-        "rag",
-        "opensource"
+        "claude"
       ],
       "engagement": null
     }
