@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 15 Jul 2026 21:17:36 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 23:52:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MuScriptor: 다중 악기 음악 편곡을 위한 개방형 모델</title>
+      <link>https://huggingface.co/papers/2607.08168</link>
+      <description>자동 음악 녹음을 위한 기존 방법은 단일 악기 녹음으로 제한되거나 복잡한 실제 음악 믹스에서는 실패하는 경우가 많습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.08168">Hugging Face Papers</source>
+      <guid isPermaLink="false">17a1b0cb68dfd639f23a0d93213b2ff8</guid>
+    </item>
+    <item>
+      <title>자율적이고 감사 가능한 의료 영상 모델 개발을 향하여</title>
+      <link>https://huggingface.co/papers/2607.10522</link>
+      <description>LLM(대형 언어 모델) 에이전트는 계획, 코드 실행, 디버깅 및 경험적 피드백을 결합하여 기계 학습 엔지니어링(MLE)을 자동화하기 시작했습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.10522">Hugging Face Papers</source>
+      <guid isPermaLink="false">a89bd6e474c887989d7d3619f0dd74ce</guid>
+    </item>
+    <item>
+      <title>MonkeyOCRv2: Document AI를 위한 시각적 텍스트 기반 모델</title>
+      <link>https://huggingface.co/papers/2607.11562</link>
+      <description>주류 시각적 인코더는 자연스러운 이미지에 대해 사전 학습되어 있으며 조밀한 텍스트와 세밀한 문자 스트로크에는 문자 수준이 필요하기 때문에 문서 중심의 적응 없이는 문서 이미지에 효과적으로 적용할 수 없습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.11562">Hugging Face Papers</source>
+      <guid isPermaLink="false">4a3d37b21e6946a7846f1b2d18be8e9d</guid>
+    </item>
+    <item>
+      <title>RGB를 비전의 언어로 삼으세요</title>
+      <link>https://huggingface.co/papers/2607.12450</link>
+      <description>이 작업은 마스크, 깊이 맵 및 기타 구조화된 시각적 신호와 같은 자연 이미지를 넘어 다양한 형태의 시각적 정보가 모두 RGB i로 표현되는 비전 모델에 대한 통합 공식을 소개합니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12450">Hugging Face Papers</source>
+      <guid isPermaLink="false">3e8612b62bdcadda8c828c17d0aeaf59</guid>
+    </item>
     <item>
       <title>맹점-벤치: 다중 모드 모델의 맹점 평가</title>
       <link>https://huggingface.co/papers/2607.08317</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.08765">Hugging Face Papers</source>
       <guid isPermaLink="false">ee6d451d99ac89d7d96d65ec6ae59fc8</guid>
-    </item>
-    <item>
-      <title>LongE2V: 비디오 확산 모델을 사용한 장수평 이벤트 기반 비디오 재구성, 예측 및 프레임 보간</title>
-      <link>https://huggingface.co/papers/2607.08770</link>
-      <description>LongE2V는 사전 훈련된 비디오 확산 사전 분석을 활용하고 시간적 안정성 및 프레임 보간 문제를 해결함으로써 희소 이벤트 스트림에서 고품질 비디오 복구를 가능하게 합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08770">Hugging Face Papers</source>
-      <guid isPermaLink="false">e08f50cffb3ee2d3e9fc4becb5503df0</guid>
-    </item>
-    <item>
-      <title>온디바이스 시맨틱 오디오 생성을 위한 양자화된 네이티브 런타임</title>
-      <link>https://huggingface.co/papers/2607.08526</link>
-      <description>종속성이 없는 런타임은 오디오 품질을 유지하면서 양자화 및 활성화 조정을 통해 임베디드 장치에서 효율적인 텍스트-음악 생성을 가능하게 합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08526">Hugging Face Papers</source>
-      <guid isPermaLink="false">e4bd9638a177bbf1b6193a29a18d7a07</guid>
-    </item>
-    <item>
-      <title>방언을 언어처럼 조종할 수 있나요? 아랍어 LLM의 희소 뉴런 및 분산 방향</title>
-      <link>https://huggingface.co/papers/2607.03936</link>
-      <description>아랍어 모델은 추가 교육 없이도 방언 출력을 제어하기 위해 추론 시 조작할 수 있는 방언 관련 신경 표현을 보여줍니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03936">Hugging Face Papers</source>
-      <guid isPermaLink="false">0e945c2e1ca42f46f1ca34f93ab2639e</guid>
-    </item>
-    <item>
-      <title>Vidu S1: 실시간 대화형 비디오 생성 모델</title>
-      <link>https://huggingface.co/papers/2607.03118</link>
-      <description>Vidu S1은 소비자 하드웨어에서 무한 길이 출력과 높은 프레임 속도로 음성 제어 디지털 캐릭터 애니메이션을 지원하는 실시간 대화형 비디오 생성 모델입니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03118">Hugging Face Papers</source>
-      <guid isPermaLink="false">37ee92c2f49256c4459653aac7445499</guid>
     </item>
   </channel>
 </rss>
