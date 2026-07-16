@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 12:29:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 15:20:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Boogu-Image-0.1: 오픈 소스 통합 다중 모드 이해 및 생성 강화</title>
+      <link>https://huggingface.co/papers/2607.13125</link>
+      <description>Base, Turbo, Edit 및 Edit-Turbo 변형으로 구성된 오픈 소스 통합 다중 모드 이해 및 생성 모델 제품군인 Boogu-Image-0.1을 소개합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13125">Hugging Face Papers</source>
+      <guid isPermaLink="false">3037d72fa013e1e6b7c4745d760e9d09</guid>
+    </item>
+    <item>
+      <title>시끄러운 추적에서 근본 원인까지: 에이전트 최적화를 위한 구조적 궤적 분석 및 원인 추출</title>
+      <link>https://huggingface.co/papers/2607.07702</link>
+      <description>장거리 에이전트의 최적화는 LLM(대형 언어 모델)이 에이전트 오류를 ​​진단하고 에이전트 정책을 개선하는 최적화 프로그램 역할을 하는 반사 기반 메커니즘에 점점 더 의존하고 있습니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07702">Hugging Face Papers</source>
+      <guid isPermaLink="false">03f874e18328eb223bc958ad51cad0f2</guid>
+    </item>
+    <item>
+      <title>성공의 흐름에서 에이전트적 실패 추적</title>
+      <link>https://huggingface.co/papers/2607.12747</link>
+      <description>LLM 기반 에이전트 시스템의 오류 속성, 즉 오류 궤적의 어느 단계에서 작업 오류가 발생했는지 식별하는 것은 이러한 시스템을 디버깅하고 개선하는 데 중요합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12747">Hugging Face Papers</source>
+      <guid isPermaLink="false">39ef6ee9922d384cdb07eb11dc806640</guid>
+    </item>
+    <item>
+      <title>Hallo4D: 일관된 시공간 생성을 위한 다중 모드 환각 완화</title>
+      <link>https://huggingface.co/papers/2607.12752</link>
+      <description>최근 3D 생성의 발전으로 인상적인 시각적 합성이 가능해졌지만 기존 방법은 기하학적 일관성을 위한 명시적인 메커니즘 없이 2D 확산 감독에 의존하는 경우가 많아 공간 환각 현상이 발생합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12752">Hugging Face Papers</source>
+      <guid isPermaLink="false">5e938708c169ff8c39f6797cd2b9d2b2</guid>
+    </item>
+    <item>
+      <title>Vinci2: 지속적인 자기 중심적 비디오에 대한 사전 지원 제공</title>
+      <link>https://huggingface.co/papers/2607.11523</link>
+      <description>지능형 비서는 언제 묻지 않고 말해야 할까요? 지속적인 자기중심적 비디오는 새로운 형태의 지원, 즉 단지 반응적인 지원이 아닌 능동적인 지원을 가능하게 하는 풍부하고 진화하는 맥락을 제공합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.11523">Hugging Face Papers</source>
+      <guid isPermaLink="false">6dbd5e2001a6c08b630eb37a468d838a</guid>
+    </item>
     <item>
       <title>링-제로(Ring-Zero): 창발적 추론을 위해 제로 RL을 수조 개의 매개변수로 확장</title>
       <link>https://huggingface.co/papers/2607.12395</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.08964">Hugging Face Papers</source>
       <guid isPermaLink="false">2d38f120d1dbf4dacd583d484a029d71</guid>
-    </item>
-    <item>
-      <title>KronQ: Kronecker-Factored Hessian을 통한 LLM 양자화</title>
-      <link>https://huggingface.co/papers/2607.07964</link>
-      <description>PTQ(사후 훈련 양자화)는 재훈련 없이 LLM(대형 언어 모델)을 압축하기 위해 널리 채택되는 기술입니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07964">Hugging Face Papers</source>
-      <guid isPermaLink="false">e02f774872c682accc3ec1db1c7940e4</guid>
-    </item>
-    <item>
-      <title>VaseMuseum: 고대 그리스 도자기를 위한 디지털 지능형 박물관</title>
-      <link>https://huggingface.co/papers/2607.06374</link>
-      <description>비전 언어 모델(VLM)은 3D 디지털화를 자연어 유물 탐색과 연결함으로써 대화형 디지털 박물관의 실현 가능성을 점점 더 높여왔습니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06374">Hugging Face Papers</source>
-      <guid isPermaLink="false">4cc360e2d5f7daf7beafcdb3311b24b0</guid>
-    </item>
-    <item>
-      <title>기억된 지식이 대규모 언어 모델 미세 조정에서 일반화되지 못하는 이유를 기계적으로 이해하기 위해</title>
-      <link>https://huggingface.co/papers/2607.08393</link>
-      <description>새로운 지식을 주입하기 위해 LLM을 미세 조정하는 것은 중요한 과제에 직면합니다. LLM은 새로운 사실을 빠르게 기억할 수 있지만 후속 추론 작업에는 이를 사용하지 못합니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08393">Hugging Face Papers</source>
-      <guid isPermaLink="false">3daaf7ad29d106fc8a93311df69858e4</guid>
-    </item>
-    <item>
-      <title>RGB 생성에서 고밀도 필드 판독까지: 텍스트-이미지 모델을 사용한 픽셀 공간 밀도 예측</title>
-      <link>https://huggingface.co/papers/2607.06553</link>
-      <description>사전 훈련된 확산 변환기는 RGB 이미지를 생성하는 대신 토큰을 작업 기본 출력에 매핑하여 밀도가 높은 예측 작업에 적용할 수 있으며, 최소한의 추가 매개변수로 최첨단 결과를 얻을 수 있습니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06553">Hugging Face Papers</source>
-      <guid isPermaLink="false">c9adb20395096b9a7c5abab9abbeed2c</guid>
-    </item>
-    <item>
-      <title>언어 지능을 위한 확장 가능한 시각적 사전 훈련</title>
-      <link>https://huggingface.co/papers/2607.09657</link>
-      <description>대규모 기초 모델의 급속한 발전은 주로 대규모 텍스트 말뭉치에 대한 사전 학습에 의해 주도되었습니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09657">Hugging Face Papers</source>
-      <guid isPermaLink="false">b532c8b0c74619ce16cc1d73d91c0e6e</guid>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 12:29:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 15:20:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Bonsai 27B: 노트북과 폰에서 실행되는 27B급 이진 및 삼진 저비트 LLM (feat. PrismML)</title>
+      <link>https://discuss.pytorch.kr/t/bonsai-27b-27b-llm-feat-prismml/11263</link>
+      <description>Bonsai 27B 소개 스마트폰에 27B(270억) 파라미터 규모의 언어 모델을 통째로 담아 실행할 수 있을까요? 상식적으로는 어렵습니다. 27B 모델은 16비트 정밀도(FP16)로 저장하면 가중치만 약 54 GB를 차지하는데, 최신 아이폰이 앱 하나에 허용하는 메모리는 6 GB 남짓에 불과하기 때문입니다.</description>
+      <pubDate>Thu, 16 Jul 2026 12:30:53 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/bonsai-27b-27b-llm-feat-prismml/11263">PyTorch Korea</source>
+      <guid isPermaLink="false">71b846be8699b8793fe7565f20a0eb1b</guid>
+    </item>
+    <item>
+      <title>OpenAI, 에이전틱 코딩용 매크로패드 Codex Micro 공개 (feat. Work Louder)</title>
+      <link>https://discuss.pytorch.kr/t/openai-codex-micro-feat-work-louder/11282</link>
+      <description>Codex Micro 소개 Codex Micro 는 OpenAI 가 하드웨어 액세서리 브랜드 Work Louder 와 함께, 코딩 에이전트 Codex 를 위해 특별히 설계한 매크로패드(macropad)입니다.</description>
+      <pubDate>Thu, 16 Jul 2026 13:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-codex-micro-feat-work-louder/11282">PyTorch Korea</source>
+      <guid isPermaLink="false">2674b62fe56d108c1123fec1d5a5cb69</guid>
+    </item>
     <item>
       <title>Paca: 사람과 AI 에이전트가 한 보드에서 협업하는 자체 호스팅 프로젝트 관리 도구</title>
       <link>https://discuss.pytorch.kr/t/paca-ai/11262</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/brain2qwerty-v2-meg-bci-feat-meta-ai/11070">PyTorch Korea</source>
       <guid isPermaLink="false">bc376917290e725be9e938b4b3e2f4ba</guid>
-    </item>
-    <item>
-      <title>J-space: LLM 내부에 창발한 글로벌 워크스페이스와 이를 읽는 Jacobian Lens (feat. Anthropic)</title>
-      <link>https://discuss.pytorch.kr/t/j-space-llm-jacobian-lens-feat-anthropic/11125</link>
-      <description>언어 모델도 "말하지 않은 생각"을 따로 품고 있을까? 지금 이 문장을 읽는 동안에도 우리 뇌에서는 엄청난 양의 처리가 일어나고 있습니다. 자세를 바로잡고, 호흡을 조절하고, 화면 위의 선과 곡선을 단어로 바꿉니다.</description>
-      <pubDate>Tue, 07 Jul 2026 21:30:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/j-space-llm-jacobian-lens-feat-anthropic/11125">PyTorch Korea</source>
-      <guid isPermaLink="false">26cf282c4ddb8061f3806042c41a8a6d</guid>
-    </item>
-    <item>
-      <title>“AI 에이전트” 열풍은 비싼 미라지(신기루)인가?</title>
-      <link>https://discuss.pytorch.kr/t/ai/11130</link>
-      <description>한 줄 요약 AI 에이전트 = 자연어로 쓰는 비싼 cron job — 생산성보다 비용(토큰+전력)이 훨씬 앞서는 현재 기술 수준을 냉철하게 비판한 글입니다. 2026년 현재 OpenClaw , Hermes 등 AI 에이전트 도구들이 큰 hype를 일으키고 있습니다.</description>
-      <pubDate>Tue, 07 Jul 2026 15:38:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai/11130">PyTorch Korea</source>
-      <guid isPermaLink="false">dc8a568d58266cceb212d7239f68868a</guid>
     </item>
   </channel>
 </rss>
