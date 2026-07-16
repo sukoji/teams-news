@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 15:20:52 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 18:16:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SIT(shushu internship tool): 채용 공고를 프로젝트로 바꿔 이력서와 면접을 준비하는 AI 도구</title>
+      <link>https://discuss.pytorch.kr/t/sit-shushu-internship-tool-ai/11223</link>
+      <description>shushu internship tool 소개 shushu internship tool(줄여서 SIT)은 채용 공고(JD, Job Description)를 받아 지원과 면접에 바로 쓸 수 있는 실전 프로젝트 꾸러미로 바꿔 주는 AI 기반 인턴십 준비 도구입니다.</description>
+      <pubDate>Thu, 16 Jul 2026 15:30:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/sit-shushu-internship-tool-ai/11223">PyTorch Korea</source>
+      <guid isPermaLink="false">8e648bcffde42965e58c2b5dd3bd0947</guid>
+    </item>
+    <item>
+      <title>AI Coding Dictionary: 쉬운 말로 정리한 AI 코딩 용어 사전</title>
+      <link>https://discuss.pytorch.kr/t/ai-coding-dictionary-ai/10751</link>
+      <description>AI Coding Dictionary 소개 AI Coding Dictionary는 AI 코딩에서 쓰이는 용어를 쉬운 말로 풀어 설명하는 용어 사전입니다. 컨텍스트가 왜 점점 흐려지는지, 비용이 왜 높게 나오는지, 같은 프롬프트가 왜 어제와 오늘 다르게 동작하는지처럼 자주 막히는 질문들을, 정확한 단어를 알고 나면 깔끔하게 설명할 수 있다는 문제의식에서 출발합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 15:30:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-coding-dictionary-ai/10751">PyTorch Korea</source>
+      <guid isPermaLink="false">b18f01641d598c58e081a9482599fe40</guid>
+    </item>
     <item>
       <title>Bonsai 27B: 노트북과 폰에서 실행되는 27B급 이진 및 삼진 저비트 LLM (feat. PrismML)</title>
       <link>https://discuss.pytorch.kr/t/bonsai-27b-27b-llm-feat-prismml/11263</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/vllm-hook-vllm/11123">PyTorch Korea</source>
       <guid isPermaLink="false">2d6063f1974578f3fb975e5758f0d2b9</guid>
-    </item>
-    <item>
-      <title>pxpipe: 컨텍스트를 이미지로 렌더링해 Claude Code 토큰 비용을 줄이는 로컬 프록시</title>
-      <link>https://discuss.pytorch.kr/t/pxpipe-claude-code/11114</link>
-      <description>pxpipe 소개 pxpipe는 Claude Code가 API로 보내는 요청에서 부피가 큰 텍스트 컨텍스트를 PNG 이미지로 렌더링해 입력 토큰을 줄이는 로컬 프록시입니다. 시스템 프롬프트, 도구 문서, 오래된 대화 이력처럼 매 요청마다 반복 전송되는 큰 덩어리를 요청이 사용자의 머신을 떠나기 전에 압축된 이미지 페이지로 치환합니다.</description>
-      <pubDate>Wed, 08 Jul 2026 08:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pxpipe-claude-code/11114">PyTorch Korea</source>
-      <guid isPermaLink="false">57ff7f22471e2dfb1f44d361a2b5fa69</guid>
-    </item>
-    <item>
-      <title>Brain2Qwerty v2: MEG 뇌 신호만으로 문장을 해독하는 비침습적 BCI (feat. Meta AI)</title>
-      <link>https://discuss.pytorch.kr/t/brain2qwerty-v2-meg-bci-feat-meta-ai/11070</link>
-      <description>Brain2Qwerty v2 소개 머릿속에 떠오른 문장을 손가락 하나 까딱하지 않고 화면에 옮길 수 있다면 어떨까요? 뇌졸중이나 사고, 근위축성 측삭경화증(ALS)으로 말하거나 움직이는 능력을 잃은 분들에게 이것은 단순한 상상이 아니라 절실한 필요입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 06:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/brain2qwerty-v2-meg-bci-feat-meta-ai/11070">PyTorch Korea</source>
-      <guid isPermaLink="false">bc376917290e725be9e938b4b3e2f4ba</guid>
     </item>
   </channel>
 </rss>
