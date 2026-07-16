@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 18:16:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 20:41:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[GN⁺] 2026년에 왜 코드를 작성하는가 (Why write code in 2026)</title>
+      <link>https://discuss.pytorch.kr/t/gn-2026-why-write-code-in-2026/11267</link>
+      <description>2026년에 왜 코드를 작성하는가 글 소개 소프트웨어 엔지니어의 역할은 코드 생산을 넘어 소프트웨어 팩토리 를 구축, 유지하는 일로 확장됐지만, 시스템을 이해하고 개선하려면 여전히 직접 코드를 다룰 필요가 있음 프롬프트, AGENTS.md , 지식 베이스로 에이전트를 안내하고 테스트, 린팅, 타입 시스템, 평가로 결과를 보호하면 성능이 낮은 모델 도 충분히 쓸 만한 변경을 만들 수 있음 직…</description>
+      <pubDate>Thu, 16 Jul 2026 18:30:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gn-2026-why-write-code-in-2026/11267">PyTorch Korea</source>
+      <guid isPermaLink="false">2551b38abbc5b2bf60934071f385851b</guid>
+    </item>
     <item>
       <title>SIT(shushu internship tool): 채용 공고를 프로젝트로 바꿔 이력서와 면접을 준비하는 AI 도구</title>
       <link>https://discuss.pytorch.kr/t/sit-shushu-internship-tool-ai/11223</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/xybrid-llm-ai/11121">PyTorch Korea</source>
       <guid isPermaLink="false">9a3294f5e0d92f93aaae357be684c692</guid>
-    </item>
-    <item>
-      <title>vLLM Hook: vLLM에 배포된 모델의 내부 상태를 관찰하고 제어하는 플러그인</title>
-      <link>https://discuss.pytorch.kr/t/vllm-hook-vllm/11123</link>
-      <description>vLLM Hook 소개 대규모 언어 모델(LLM)을 서비스로 배포할 때는 보통 vLLM 같은 추론 엔진 위에 모델을 올립니다. 추론 엔진은 지연 시간과 메모리, 하드웨어 사용을 최적화하기 위해 개발 단계에서 쓰던 여러 기능을 꺼 버리는데, 그 과정에서 모델 내부 상태에 접근하고 수정하는 길도 함께 막힙니다.</description>
-      <pubDate>Wed, 08 Jul 2026 12:30:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vllm-hook-vllm/11123">PyTorch Korea</source>
-      <guid isPermaLink="false">2d6063f1974578f3fb975e5758f0d2b9</guid>
     </item>
   </channel>
 </rss>
