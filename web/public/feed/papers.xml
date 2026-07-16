@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Jul 2026 08:59:55 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 12:29:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>링-제로(Ring-Zero): 창발적 추론을 위해 제로 RL을 수조 개의 매개변수로 확장</title>
+      <link>https://huggingface.co/papers/2607.12395</link>
+      <description>인간이 주석을 추가하지 않은 데이터 없이 검증 가능한 보상을 제공하는 강화 학습(종종 제로 RL이라고도 함)은 사고 사슬 추론을 이끌어내기 위한 강력한 패러다임으로 떠올랐습니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12395">Hugging Face Papers</source>
+      <guid isPermaLink="false">e7b847cc47dc2516aaac9e1494997041</guid>
+    </item>
+    <item>
+      <title>PolicyShiftGuard: 정책 적응형 이미지 가드레일 벤치마킹 및 개선</title>
+      <link>https://huggingface.co/papers/2607.05910</link>
+      <description>이미지 가드레일은 일반적으로 고정된 안전 정책에 따라 훈련 및 평가되며 암묵적으로 안전을 이미지의 본질적인 속성으로 취급합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.05910">Hugging Face Papers</source>
+      <guid isPermaLink="false">895e36e7c291b67cf608aadf813a8c0a</guid>
+    </item>
+    <item>
+      <title>KnowAct-GUIClaw: 깊이 알고 완벽하게 행동하며 자기 진화하는 기억력과 기술을 갖춘 개인 GUI 도우미</title>
+      <link>https://huggingface.co/papers/2607.12625</link>
+      <description>OpenClaw는 복잡한 작업 자동화를 위한 선도적인 에이전트 프레임워크로 부상했지만 플랫폼 간 GUI 상호 작용 지원이 부족하고 잘 구축된 자체 진화 메커니즘에 직면해 있습니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12625">Hugging Face Papers</source>
+      <guid isPermaLink="false">921a5325fe1556b8c5b77b836cb05e23</guid>
+    </item>
+    <item>
+      <title>신기루 탐색: 강력한 오해의 소지가 있는 차트 질문 답변을 위한 이중 경로 에이전트 프레임워크</title>
+      <link>https://huggingface.co/papers/2603.28583</link>
+      <description>VLM(Vision-Language Model)의 성공에도 불구하고 오해의 소지가 있는 차트는 기만적인 시각적 구조와 왜곡된 데이터 표현으로 인해 여전히 중요한 문제로 남아 있습니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2603.28583">Hugging Face Papers</source>
+      <guid isPermaLink="false">fabf3042bfcf7a683110eacacbe9c68c</guid>
+    </item>
+    <item>
+      <title>하네스 핸드북: 진화하는 에이전트 하네스를 읽기, 탐색 및 편집 가능하게 만들기</title>
+      <link>https://huggingface.co/papers/2607.13285</link>
+      <description>최신 AI 에이전트의 기능은 기반 모델뿐만 아니라 프롬프트를 구성하고, 상태를 관리하고, 도구를 호출하고, 실행을 조정하는 하네스에도 의존합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13285">Hugging Face Papers</source>
+      <guid isPermaLink="false">f4af27c12ffb16bed390fdb5369ada63</guid>
+    </item>
+    <item>
+      <title>ShortOPD: 단기에서 장기 정책 증류를 통해 정리된 LLM 복구</title>
+      <link>https://huggingface.co/papers/2607.13124</link>
+      <description>구조화된 가지치기는 LLM을 압축하는 하드웨어 친화적인 방법이지만 대부분 객관식 인식 작업에서 검증되는 반면 동일한 압축 체크포인트는 배포하는 자유 형식 생성에서 축소될 수 있습니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13124">Hugging Face Papers</source>
+      <guid isPermaLink="false">e236105c33afdc8a1f07d68a54bf9adb</guid>
+    </item>
+    <item>
+      <title>GigaWorld-Policy-0.5: AutoResearch를 통해 더욱 빠르고 강력한 WAM 지원</title>
+      <link>https://huggingface.co/papers/2607.13960</link>
+      <description>WAM(World Action Model)은 미래 장면 진화를 물리적 기반 액션 생성을 위한 조밀한 감독으로 사용하여 공동 모델링 액션과 미래 시각적 관찰을 통해 로봇 정책 학습을 개선합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13960">Hugging Face Papers</source>
+      <guid isPermaLink="false">cfbb3c71d88b699b55d895772c1ece1d</guid>
+    </item>
+    <item>
+      <title>LLM은 과학적 발견을 위한 준비가 되어 있나요? AI 과학자를 위한 역량 중심 벤치마크</title>
+      <link>https://huggingface.co/papers/2607.11079</link>
+      <description>과학적 데이터 분석을 위한 기존 벤치마크는 LLM을 주로 코드 실행 또는 작업 흐름 완료에 대해 평가하며, 과학적 분석이 서로 다른 유형의 과학적 주장을 뒷받침하는 역할을 한다는 점을 간과합니다. 가설 및…</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.11079">Hugging Face Papers</source>
+      <guid isPermaLink="false">e54f5934acc5caf33e125f3b55e847a0</guid>
+    </item>
+    <item>
+      <title>MetaView: 축척 인식 암시적 기하학 사전 변수를 사용한 단안 소설 보기 합성</title>
+      <link>https://huggingface.co/papers/2607.12000</link>
+      <description>현재의 시각적 생성 모델은 고품질 콘텐츠를 생산할 수 있지만 공간 구조에 대한 일관된 인식이 부족합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12000">Hugging Face Papers</source>
+      <guid isPermaLink="false">33b4b69551d778ba39a11a8e8d61f553</guid>
+    </item>
+    <item>
+      <title>OvisOCR2 기술 보고서</title>
+      <link>https://huggingface.co/papers/2607.13639</link>
+      <description>0.8B 문서 구문 분석 모델인 OvisOCR2를 소개합니다.</description>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13639">Hugging Face Papers</source>
+      <guid isPermaLink="false">c0760db6c6db9239e5cb5a3dfb9b5ab3</guid>
+    </item>
+    <item>
+      <title>MAGIC: 대규모 언어 모델을 사용하여 탐색 가능한 다중 장면 게임 세계의 전환 인식 생성</title>
+      <link>https://huggingface.co/papers/2607.11594</link>
+      <description>다중 장면 탐색(제한된 공간에서 목표를 클리어한 후 포털을 건너 다음 공간으로 이동)은 현대 3D 게임의 정의 기능이지만 이를 작성하는 것은 힘든 작업입니다. 모든 포털은 다음과 같이 구성되어야 합니다.</description>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.11594">Hugging Face Papers</source>
+      <guid isPermaLink="false">e1a6bc347b169513ef343f391a9d4b43</guid>
+    </item>
     <item>
       <title>코딩 에이전트 기초 모델을 위한 중간 교육으로서의 기능 인식 중간 채우기</title>
       <link>https://huggingface.co/papers/2607.12463</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.09657">Hugging Face Papers</source>
       <guid isPermaLink="false">b532c8b0c74619ce16cc1d73d91c0e6e</guid>
-    </item>
-    <item>
-      <title>PanoWorld: 실제 세계 파노라마 생성</title>
-      <link>https://huggingface.co/papers/2607.09661</link>
-      <description>이 작업에서 우리는 회전이 암시적으로 처리될 수 있는 전방향 표현의 회전 등변 속성을 활용하여 파노라마 세계 모델에서 장거리 메모리 문제를 해결하는 것을 목표로 합니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09661">Hugging Face Papers</source>
-      <guid isPermaLink="false">fb2e27e227093ef5c16541f93f5c3fc2</guid>
-    </item>
-    <item>
-      <title>비디오 생성 모델은 범용 비전 학습자입니다.</title>
-      <link>https://huggingface.co/papers/2607.09024</link>
-      <description>다음 토큰 예측에 힘입어 NLP는 작업별 모델에서 강력한 일반 기반 모델로 전환했습니다. 그렇다면 컴퓨터 비전에서 범용 모델을 달성하는 데 필요한 등가 촉매제는 무엇입니까?</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09024">Hugging Face Papers</source>
-      <guid isPermaLink="false">e98edc5048a47f46d03618e89fde031e</guid>
-    </item>
-    <item>
-      <title>신뢰 지역 정책 증류</title>
-      <link>https://huggingface.co/papers/2607.04751</link>
-      <description>큰 목표는 한꺼번에 달성하기 어렵습니다. 작은 단계로 나누는 것이 더 현명합니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04751">Hugging Face Papers</source>
-      <guid isPermaLink="false">f93cc51a4056af251e700857121b24d8</guid>
-    </item>
-    <item>
-      <title>음운 활성화 매핑을 통한 음소 분할 및 인식</title>
-      <link>https://huggingface.co/papers/2607.09020</link>
-      <description>전화 세분화와 인식은 본질적으로 관련된 작업이지만 최신 접근 방식은 일반적으로 이를 별도로 모델링합니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09020">Hugging Face Papers</source>
-      <guid isPermaLink="false">316f83a4697a82ea6cef4f4994e82a5d</guid>
-    </item>
-    <item>
-      <title>장기 상황 LLM을 위한 자가 학습 테스트 시간 교육</title>
-      <link>https://huggingface.co/papers/2607.09415</link>
-      <description>LLM(대형 언어 모델)에서는 긴 컨텍스트 처리가 점점 더 중요해지고 있지만 단순히 컨텍스트 창을 확장한다고 해서 긴 입력의 효과적인 활용이 보장되는 것은 아닙니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09415">Hugging Face Papers</source>
-      <guid isPermaLink="false">bcab3da4c7d28db4affd4bbd2cbecdab</guid>
-    </item>
-    <item>
-      <title>독일어와 영어를 위한 주권적인 오픈 소스 기반 모델</title>
-      <link>https://huggingface.co/papers/2607.09424</link>
-      <description>우리는 독일어와 영어를 위한 독립된 오픈 소스 MoE(Mixture-of-Experts) 하이브리드 Mamba Transformer 기반 모델인 Soofi S 30B-A3B를 제시합니다.</description>
-      <pubDate>Mon, 13 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09424">Hugging Face Papers</source>
-      <guid isPermaLink="false">e6c58b69fa78d26a03aa2ad51be411e8</guid>
-    </item>
-    <item>
-      <title>🥇금주의 최고 AI 논문</title>
-      <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-848</link>
-      <description>금주의 상위 AI 논문(7월 6일 - 7월 12일)</description>
-      <pubDate>Mon, 13 Jul 2026 01:12:55 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-848">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">6d208505c4b6ec53d26493ecd0cff45f</guid>
-    </item>
-    <item>
-      <title>🤖 AI 에이전트 주간: GPT-5.6 제품군, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, 하네스 효과 등</title>
-      <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-56-family-meta</link>
-      <description>GPT-5.6 제품군, Meta Muse Spark 1.1, Grok 4.5, SWE-1.7, Robostral Navigate, 하네스 효과 등</description>
-      <pubDate>Sun, 12 Jul 2026 01:33:08 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-56-family-meta">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">5d9bcda5ffff897116fee733f1171e4d</guid>
-    </item>
-    <item>
-      <title>과거: 자세 탐지를 위한 주제 불변 정규화를 사용한 프로토타입 고정 진술 조정</title>
-      <link>https://huggingface.co/papers/2607.04690</link>
-      <description>NakbaNLP@LREC-COLING 2026에서 StanceNakba 공유 작업의 두 하위 작업을 모두 다루는 자세 감지 시스템인 PAST-TIDE를 소개합니다. 주요 아이디어는 명령문 조정입니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.04690">Hugging Face Papers</source>
-      <guid isPermaLink="false">918483a73e20c3527933bff4d1fb3a46</guid>
-    </item>
-    <item>
-      <title>중요한 순간을 기억하세요: Long-Horizon 에이전트를 위한 사전 메모리 에이전트</title>
-      <link>https://huggingface.co/papers/2607.08716</link>
-      <description>장거리 작업에서 의사결정 관련 상태는 종종 확장 궤적에 분산되어 있는 반면, 작업 에이전트는 이를 표면화하고 행동해야 합니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08716">Hugging Face Papers</source>
-      <guid isPermaLink="false">92fae0ab39c5045d902936dc75ff8b07</guid>
-    </item>
-    <item>
-      <title>SAM-MT: 실시간 대화형 다중 대상 비디오 분할</title>
-      <link>https://huggingface.co/papers/2607.08688</link>
-      <description>최신 비디오 개체 분할(VOS)에는 사용자가 지정한 대상을 추적하고 분할하는 작업이 포함됩니다.</description>
-      <pubDate>Fri, 10 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08688">Hugging Face Papers</source>
-      <guid isPermaLink="false">7cd0d4b7d8ab2d6624747a91acedeaed</guid>
     </item>
   </channel>
 </rss>
