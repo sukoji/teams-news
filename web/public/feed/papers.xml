@@ -5,9 +5,117 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:05:28 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:08:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류</title>
+      <link>https://huggingface.co/papers/2607.14777</link>
+      <description>대규모 언어 모델은 다중 회전 상호 작용, 도구 사용 및 환경 피드백과 관련된 장거리 작업을 위한 대화형 에이전트로 점점 더 훈련되고 있습니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14777">Hugging Face Papers</source>
+      <guid isPermaLink="false">f4e92f0bd9cc1913c7f906f8938d0be6</guid>
+    </item>
+    <item>
+      <title>SearchOS-V1: 강력한 개방형 도메인 정보 검색 에이전트 협업을 향하여</title>
+      <link>https://huggingface.co/papers/2607.15257</link>
+      <description>도구 통합형 대규모 언어 모델의 최근 발전으로 인해 웹 검색이 정보 검색 에이전트의 핵심 기능이 되었습니다. 그러나 상호 작용 기록이 늘어남에 따라 상담원은 작업 진행 상황을 추적하는 데 점점 더 어려움을 겪고 있습니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15257">Hugging Face Papers</source>
+      <guid isPermaLink="false">4085f36e0eebb253ad509b740239b4ab</guid>
+    </item>
+    <item>
+      <title>정책 내 증류: 역할, 병리 및 규정 이해하기</title>
+      <link>https://huggingface.co/papers/2607.13399</link>
+      <description>OPD(On-policy distillation)는 LLM 사후 교육의 핵심 패러다임이 되었지만 교육 역학은 여전히 ​​잘 이해되지 않고 있습니다. 우리는 OPD의 역할, 병리 및 규정을 조사하는 체계적인 연구를 제시합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13399">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee7e2d4f76125163825f50e8aaeaa633</guid>
+    </item>
+    <item>
+      <title>MultiRef-Compass: 오디오 비디오에 대한 다중 참조 생성의 종합 평가를 향하여</title>
+      <link>https://huggingface.co/papers/2607.14189</link>
+      <description>MR2AV(Multi-reference-to-Audio-Video) 생성은 여러 참조 및 텍스트 지침에 따라 일관된 오디오-비디오 콘텐츠를 생성하는 것을 목표로 합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14189">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d1d2170730a7c98ccf62d94b76bc3f6</guid>
+    </item>
+    <item>
+      <title>동시 이미지 이해 및 생성: 자체 수정 결합 마르코프 점프 프로세스</title>
+      <link>https://huggingface.co/papers/2607.13188</link>
+      <description>인간의 인지는 이해와 생성을 분리하지 않는다. 화이트보드에 있는 교사가 함께 말하고 그림을 그리면 각 양식이 다른 양식을 재구성합니다. 본 논문에서는 이 결합 루프를 인공 시스템에 적용합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13188">Hugging Face Papers</source>
+      <guid isPermaLink="false">3beb6faa3794660ec3fd72262f5e2cf2</guid>
+    </item>
+    <item>
+      <title>BadWAM: 세계 행동 모델이 올바른 꿈을 꾸지만 잘못 행동할 때</title>
+      <link>https://huggingface.co/papers/2607.15207</link>
+      <description>WAM(World Action Model)은 구체화된 제어를 위한 유망한 기반으로 떠오르고 있습니다. WAM은 동작만 예측하는 대신 동작 생성과 미래 세계 예측을 결합하는 표현을 학습합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15207">Hugging Face Papers</source>
+      <guid isPermaLink="false">3176ca477ee214f7e53800b83f06baf4</guid>
+    </item>
+    <item>
+      <title>KeyFrame-Compass: 키프레임 조건이 적용된 비디오 생성의 종합 평가를 향하여</title>
+      <link>https://huggingface.co/papers/2607.14202</link>
+      <description>비디오 생성은 제작자가 생성을 안내하기 위해 일련의 참조 이미지를 지정하는 키프레임 기반 워크플로우에 점점 더 의존하고 있습니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14202">Hugging Face Papers</source>
+      <guid isPermaLink="false">021ec3a54adc9a0e87120deef0e19970</guid>
+    </item>
+    <item>
+      <title>비디오 = 월드 + 이벤트 스트림</title>
+      <link>https://huggingface.co/papers/2607.15038</link>
+      <description>우리는 단일 구성 뷰에서 기본 스트리밍 상호 작용 모델을 재구성하는 Wan-Streamer v0.3을 제시합니다. 즉, 비디오는 세계에 이벤트 스트림을 더한 것입니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15038">Hugging Face Papers</source>
+      <guid isPermaLink="false">24248ce9e1ae032683a751d4105c27a8</guid>
+    </item>
+    <item>
+      <title>RoboTTT: 로봇 정책을 위한 컨텍스트 확장</title>
+      <link>https://huggingface.co/papers/2607.15275</link>
+      <description>최근 로봇 기반 모델은 단일 단계 또는 짧은 역사의 시각 운동 컨텍스트로 작동합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15275">Hugging Face Papers</source>
+      <guid isPermaLink="false">2e34a0282276480b85dcb099a2a4e898</guid>
+    </item>
+    <item>
+      <title>MeanFlowNFT: 순방향 프로세스 RL을 평균 속도 생성기로 가져오기</title>
+      <link>https://huggingface.co/papers/2607.15273</link>
+      <description>MeanFlow 생성기는 시간 간격에 따른 평균 속도를 예측하여 빠른 몇 단계 샘플링을 달성하므로 효율적인 생성에 적합합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15273">Hugging Face Papers</source>
+      <guid isPermaLink="false">5657b23248e1492c38a760dec6ecea3d</guid>
+    </item>
+    <item>
+      <title>WanSong v1.0 기술 보고서</title>
+      <link>https://huggingface.co/papers/2607.14749</link>
+      <description>음악 세대 기반 모델은 최근 업계에서 큰 관심을 끌었습니다. 그러나 제어 가능성을 지원하면서 효율적인 생성과 충실도가 높은 긴 형식 오디오를 달성하는 것은 여전히 ​​어려운 일입니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14749">Hugging Face Papers</source>
+      <guid isPermaLink="false">73f9766e34dc687c65038bf950f1be9a</guid>
+    </item>
+    <item>
+      <title>한 번에 더 스마트하고 저렴하게: 정확한 바이트 KV-캐시 접목으로 고정된 소형 모델을 검증된 지식 플라이휠로 전환</title>
+      <link>https://huggingface.co/papers/2607.14431</link>
+      <description>우리는 가중치를 변경하지 않고 동결된 작은 언어 모델을 더 유능하고 동시에 훨씬 더 저렴하게 만드는 방법을 보고합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14431">Hugging Face Papers</source>
+      <guid isPermaLink="false">c84cb6f8c4813e3bece540823afe69be</guid>
+    </item>
     <item>
       <title>생성적 컴파일: AI가 코드를 생성할 때 즉각적인 컴파일러 피드백</title>
       <link>https://huggingface.co/papers/2607.13921</link>
@@ -349,114 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.11886">Hugging Face Papers</source>
       <guid isPermaLink="false">43ef3710d0a50d7f622b5bde001f3e75</guid>
-    </item>
-    <item>
-      <title>수정 전 알아두기: 소프트웨어 문제 해결을 위한 QA 기반 저장소 지식 획득</title>
-      <link>https://huggingface.co/papers/2607.11111</link>
-      <description>LLM 기반 코딩 에이전트는 자동화된 소프트웨어 문제 해결을 크게 발전시켰지만 저장소에 대한 이해 부족으로 인해 발생하는 사실 오류가 발생할 가능성이 여전히 높습니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11111">Hugging Face Papers</source>
-      <guid isPermaLink="false">d68aad6011b602a99be397b8418899d6</guid>
-    </item>
-    <item>
-      <title>다중 에이전트 LLM이 서로 탐색하지 못함</title>
-      <link>https://huggingface.co/papers/2607.11250</link>
-      <description>다중 에이전트 시스템에서 안정적인 자율성을 위해서는 탐색이 필수적이지만 LLM(대형 언어 모델) 에이전트가 서로 상호 작용할 때 효과적으로 탐색할 수 있는지 여부는 여전히 불분명합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11250">Hugging Face Papers</source>
-      <guid isPermaLink="false">747b7fc6cb0d33679e965771f4d1a743</guid>
-    </item>
-    <item>
-      <title>증거가 뒷받침되는 비디오 질문 답변</title>
-      <link>https://huggingface.co/papers/2607.11862</link>
-      <description>현재 비디오 대형 언어 모델(비디오 LLM)은 질문 답변(QA)에 탁월하지만 대부분 블랙박스로 작동하여 검증 가능한 시각적 기반 없이 텍스트 답변을 제공합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11862">Hugging Face Papers</source>
-      <guid isPermaLink="false">c200cdb17c8b1f092e4c4253e0dee601</guid>
-    </item>
-    <item>
-      <title>MET: 이론 기반 및 문화 인식 다국어 도덕적 추론</title>
-      <link>https://huggingface.co/papers/2607.11736</link>
-      <description>다양한 언어 및 문화적 맥락에서 도덕적 의사결정을 위해 언어 모델이 점점 더 많이 사용되고 있지만, 기존 연구에서는 세 가지 측면에서 다중 언어성을 간과하고 있습니다. 1) 다중 언어 평가 벤치마크에서는 다양한 언어를 사용합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11736">Hugging Face Papers</source>
-      <guid isPermaLink="false">abdc6ee9f88cd88ff421b8ac4ea76fb8</guid>
-    </item>
-    <item>
-      <title>자연 이미지를 이용한 대조 학습 이론</title>
-      <link>https://huggingface.co/papers/2607.07470</link>
-      <description>간단한 이미지와 증강을 사용한 대조 학습이 다운스트림 작업에 유용한 표현을 생성하는 이유는 무엇입니까?</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07470">Hugging Face Papers</source>
-      <guid isPermaLink="false">1ebf9f39789e60dc9ecf0822fe7422f5</guid>
-    </item>
-    <item>
-      <title>Xiaomi-Robotics-U0: World Foundation 모델을 사용한 통합 구현 합성</title>
-      <link>https://huggingface.co/papers/2607.11643</link>
-      <description>최근의 기초 이미지 및 비디오 생성 모델은 강력한 일반화 및 제어 가능성을 제공하지만 구현된 시나리오에 직접 적용하는 것은 다중 뷰 일관성, 기하학적 공동에 대한 요구 사항으로 인해 제한됩니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11643">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee786ab2d9a2fa9470199e92be28b84e</guid>
-    </item>
-    <item>
-      <title>EgoSteer: Egocentric 비디오의 조종 가능한 능숙한 조작을 위한 풀 스택 시스템</title>
-      <link>https://huggingface.co/papers/2607.09701</link>
-      <description>조종성은 일반 로봇 정책의 정의 기능이지만, 대규모의 언어 정렬 및 정확한 동작 데모 데이터가 부족하여 손재주가 뛰어난 시스템에는 거의 부재합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09701">Hugging Face Papers</source>
-      <guid isPermaLink="false">b365a3142756439d61fd0324f55f6664</guid>
-    </item>
-    <item>
-      <title>텍스트-이미지 개인화 모델의 잠재 신원 조정</title>
-      <link>https://huggingface.co/papers/2607.11885</link>
-      <description>사람의 얼굴을 생성하고 편집하려면 약간의 수정만으로도 대상의 인식된 정체성이 크게 바뀔 수 있으므로 높은 정밀도가 필요합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11885">Hugging Face Papers</source>
-      <guid isPermaLink="false">c8d0fb65817de350573148ffcaf8c98c</guid>
-    </item>
-    <item>
-      <title>프록시 탐색 및 재사용 가능한 지침: 프록시 기반 업데이트 신호를 통한 모듈식 LLM 사후 교육 패러다임</title>
-      <link>https://huggingface.co/papers/2607.11505</link>
-      <description>사후 훈련은 LLM(대형 언어 모델)의 도메인별 기능을 개선하는 데 필수적이지만 기존 보상 최적화 및 분포 매칭 방법은 정책 탐색과 배포를 긴밀하게 연결합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11505">Hugging Face Papers</source>
-      <guid isPermaLink="false">d042056f6c26ac9b3d45bbda40dffcf4</guid>
-    </item>
-    <item>
-      <title>ABot-AgentOS: 평생 다중 모드 메모리를 갖춘 일반 로봇 에이전트 OS</title>
-      <link>https://huggingface.co/papers/2607.10350</link>
-      <description>최근 VLM 및 VLA 시스템은 로봇 인식 및 동작 예측을 향상시켰지만 장거리 구현 에이전트에는 여전히 추론, 메모리, 도구 사용, 검증 및 교차 구현을 위한 일반 런타임 계층이 필요합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10350">Hugging Face Papers</source>
-      <guid isPermaLink="false">008fbb87ea93f63d54ad7c2db44ba21d</guid>
-    </item>
-    <item>
-      <title>ABot-N1: 일반 시각적 언어 탐색 기반 모델을 향하여</title>
-      <link>https://huggingface.co/papers/2607.10383</link>
-      <description>시각적 언어 탐색 기반 모델은 다양한 구현 작업에 대한 광범위한 다양성을 통해 근거 있는 공간 결정을 위한 심층 추론을 통합하는 것을 목표로 합니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10383">Hugging Face Papers</source>
-      <guid isPermaLink="false">ddd6be183bd169158d0f4280c28c755a</guid>
-    </item>
-    <item>
-      <title>AdvancedMathBench: 고급 수학적 증명 생성 및 검증을 위한 벤치마크 제품군</title>
-      <link>https://huggingface.co/papers/2607.11849</link>
-      <description>LLM(대형 언어 모델)은 고등학교 및 올림피아드 스타일 수학에서 놀라운 성능을 달성했지만 고급 수학에 대한 기능은 아직 잘 이해되지 않고 있습니다.</description>
-      <pubDate>Tue, 14 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11849">Hugging Face Papers</source>
-      <guid isPermaLink="false">27e17517b75943d190598f8efa836489</guid>
     </item>
   </channel>
 </rss>

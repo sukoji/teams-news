@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:05:28 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:08:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenAI, 프롬프트 인젝션 방어력을 스스로 끌어올리는 자동화 레드팀 모델 GPT-Red 공개</title>
+      <link>https://discuss.pytorch.kr/t/openai-gpt-red/11288</link>
+      <description>GPT-Red 소개 OpenAI 가 사람의 손을 거치지 않고 스스로 취약점을 찾아내는 자동화 안전 레드팀 모델 GPT-Red 를 공개했습니다. GPT-Red는 사내 전용(internal-only) 모델로, 사람 레드팀이 하던 것처럼 목표를 정해 공격 프롬프트를 보내고, 대상 모델의 반응을 관찰하고, 다시 공격을 다듬는 과정을 반복하며 모델의 약점을 찾아냅니다.</description>
+      <pubDate>Fri, 17 Jul 2026 10:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-gpt-red/11288">PyTorch Korea</source>
+      <guid isPermaLink="false">cbf2931aae4b79213089f00da8d8b691</guid>
+    </item>
     <item>
       <title>[GN⁺] 2026년에 왜 코드를 작성하는가 (Why write code in 2026)</title>
       <link>https://discuss.pytorch.kr/t/gn-2026-why-write-code-in-2026/11267</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sonic-feat-nvidia/11111">PyTorch Korea</source>
       <guid isPermaLink="false">983236df9c3e95b589723a2b4fa9784d</guid>
-    </item>
-    <item>
-      <title>Xybrid: 앱과 게임에서 LLM과 음성 AI를 온디바이스로 실행하는 크로스플랫폼 런타임</title>
-      <link>https://discuss.pytorch.kr/t/xybrid-llm-ai/11121</link>
-      <description>Xybrid 소개 Xybrid는 언어 모델(LLM), 음성 인식(ASR), 음성 합성(TTS)을 서버가 아닌 사용자 기기 위에서 직접 돌리기 위한 크로스플랫폼 런타임입니다. 모바일 앱이나 게임에 AI 기능을 넣으려면 보통 클라우드 API를 호출해야 하는데, 이렇게 하면 네트워크 지연이 생기고 사용자 데이터가 외부로 나가며 호출량에 따라 비용이 늘어납니다.</description>
-      <pubDate>Wed, 08 Jul 2026 14:30:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/xybrid-llm-ai/11121">PyTorch Korea</source>
-      <guid isPermaLink="false">9a3294f5e0d92f93aaae357be684c692</guid>
     </item>
   </channel>
 </rss>
