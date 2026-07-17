@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:08:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 16:18:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>탐색, 정제 및 모델 병합을 위한 스펙트럼 재배선</title>
+      <link>https://huggingface.co/papers/2607.03065</link>
+      <description>강화 학습은 대규모 언어 모델에 대한 표준 사후 훈련 방법이 되었지만 조밀한 전체 매개변수 업데이트로 인해 두 가지 배포 관련 병목 현상이 발생합니다. 즉, 추론 성능이 억제되고 반영되는 경우가 많습니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.03065">Hugging Face Papers</source>
+      <guid isPermaLink="false">35f4085dbc68452708ab6032d70a0567</guid>
+    </item>
+    <item>
+      <title>픽셀에서 상태까지: 대화형 세계 모델을 게임 엔진으로 다시 생각하기</title>
+      <link>https://huggingface.co/papers/2607.14076</link>
+      <description>플레이어의 행동에 일관되게 반응하는 대화형 세계를 구축하는 것은 오랫동안 컴퓨터 그래픽, 게임 및 인공 지능의 공통 목표였습니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14076">Hugging Face Papers</source>
+      <guid isPermaLink="false">83e0d44e5c713f487a6315afc1a34956</guid>
+    </item>
+    <item>
+      <title>VideoChat3: 효율적이고 일반적인 비디오 이해를 위한 완전 개방형 비디오 MLLM</title>
+      <link>https://huggingface.co/papers/2607.14935</link>
+      <description>최근 비디오 이해의 발전은 모션, 긴 비디오, 스트리밍 상호 작용을 포괄하여 이 분야를 실제 응용 분야로 발전시켰습니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14935">Hugging Face Papers</source>
+      <guid isPermaLink="false">d5c069a92ef59fcc69c88b154196649a</guid>
+    </item>
+    <item>
+      <title>UniVR: 통합된 시각적 추론을 위한 시각적 공간에서의 사고</title>
+      <link>https://huggingface.co/papers/2607.12800</link>
+      <description>원시 시각 데이터에서 직접 광범위한 세계 지식을 학습하는 것은 지능의 기본 기능입니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12800">Hugging Face Papers</source>
+      <guid isPermaLink="false">b92eff760c0b6b933373849ea9633c6b</guid>
+    </item>
+    <item>
+      <title>GRASP: Agentic RAG에 대한 세분성 인식 검색 정책</title>
+      <link>https://huggingface.co/papers/2607.10463</link>
+      <description>에이전트 검색 증강 생성(RAG)은 언어 모델이 반복적으로 추론하고, 검색 쿼리를 생성하고, 증거를 검색하고, 답변을 예측할 수 있도록 하여 정적 RAG를 확장합니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.10463">Hugging Face Papers</source>
+      <guid isPermaLink="false">357a99ae411542585d2833c17b638b4a</guid>
+    </item>
+    <item>
+      <title>분할, 프롬프트, 집계: 언어 모델의 통계적 자체 일관성</title>
+      <link>https://huggingface.co/papers/2607.15277</link>
+      <description>상황 내 학습은 일반적으로 프롬프트가 상황을 지정하고 모델의 출력이 해당 조건부 분포의 추정치로 처리되는 조건부 추론의 한 형태로 해석됩니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15277">Hugging Face Papers</source>
+      <guid isPermaLink="false">28ee465e1c3f78ba639dfcc938d71970</guid>
+    </item>
+    <item>
+      <title>DeepLoop: 루프형 변압기를 위한 깊이 스케일링</title>
+      <link>https://huggingface.co/papers/2607.13491</link>
+      <description>루프형 변환기는 여러 라운드에 대해 컴팩트한 물리적 블록 스택을 적용하여 순차적 계산을 확장하고 저장된 매개변수를 늘리지 않고도 펼쳐진 깊이를 늘립니다.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13491">Hugging Face Papers</source>
+      <guid isPermaLink="false">9c8b39ac2e3ea00e62f5d8bfa9c24bc5</guid>
+    </item>
     <item>
       <title>SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류</title>
       <link>https://huggingface.co/papers/2607.14777</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.05382">Hugging Face Papers</source>
       <guid isPermaLink="false">0bf20304574c13c3267a28cb53b9b1ac</guid>
-    </item>
-    <item>
-      <title>MuScriptor: 다중 악기 음악 편곡을 위한 개방형 모델</title>
-      <link>https://huggingface.co/papers/2607.08168</link>
-      <description>자동 음악 녹음을 위한 기존 방법은 단일 악기 녹음으로 제한되거나 복잡한 실제 음악 믹스에서는 실패하는 경우가 많습니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08168">Hugging Face Papers</source>
-      <guid isPermaLink="false">17a1b0cb68dfd639f23a0d93213b2ff8</guid>
-    </item>
-    <item>
-      <title>자율적이고 감사 가능한 의료 영상 모델 개발을 향하여</title>
-      <link>https://huggingface.co/papers/2607.10522</link>
-      <description>LLM(대형 언어 모델) 에이전트는 계획, 코드 실행, 디버깅 및 경험적 피드백을 결합하여 기계 학습 엔지니어링(MLE)을 자동화하기 시작했습니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10522">Hugging Face Papers</source>
-      <guid isPermaLink="false">a89bd6e474c887989d7d3619f0dd74ce</guid>
-    </item>
-    <item>
-      <title>MonkeyOCRv2: Document AI를 위한 시각적 텍스트 기반 모델</title>
-      <link>https://huggingface.co/papers/2607.11562</link>
-      <description>주류 시각적 인코더는 자연스러운 이미지에 대해 사전 학습되어 있으며 조밀한 텍스트와 세밀한 문자 스트로크에는 문자 수준이 필요하기 때문에 문서 중심의 적응 없이는 문서 이미지에 효과적으로 적용할 수 없습니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11562">Hugging Face Papers</source>
-      <guid isPermaLink="false">4a3d37b21e6946a7846f1b2d18be8e9d</guid>
-    </item>
-    <item>
-      <title>RGB를 비전의 언어로 삼으세요</title>
-      <link>https://huggingface.co/papers/2607.12450</link>
-      <description>이 작업은 마스크, 깊이 맵 및 기타 구조화된 시각적 신호와 같은 자연 이미지를 넘어 다양한 형태의 시각적 정보가 모두 RGB i로 표현되는 비전 모델에 대한 통합 공식을 소개합니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.12450">Hugging Face Papers</source>
-      <guid isPermaLink="false">3e8612b62bdcadda8c828c17d0aeaf59</guid>
-    </item>
-    <item>
-      <title>맹점-벤치: 다중 모드 모델의 맹점 평가</title>
-      <link>https://huggingface.co/papers/2607.08317</link>
-      <description>최신 AI 모델은 확립된 많은 벤치마크에서 강력한 성능을 달성했지만, 끈을 조작하거나 다리가 다섯 개인 개를 그리는 등 인간이 거의 사소하다고 생각하는 작업에서는 여전히 실패합니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.08317">Hugging Face Papers</source>
-      <guid isPermaLink="false">a0934531c9b6aabd6ce75973d41ae729</guid>
-    </item>
-    <item>
-      <title>심층 강화 학습 평가 및 설계 패러다임의 원리 분석</title>
-      <link>https://huggingface.co/papers/2607.07769</link>
-      <description>가장 어려운 게임 중 하나를 승리로 이끈 상태-행동 가치 함수를 근사화하기 위한 심층 신경망 활용부터 시작하여 문제를 해결하지 않고도 문제를 해결할 수 있는 알고리즘의 발전까지…</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07769">Hugging Face Papers</source>
-      <guid isPermaLink="false">f3c77659229fdc860cb10581d04162b5</guid>
-    </item>
-    <item>
-      <title>다시 읽어보세요: 사전 훈련된 MLLM은 텍스트-이미지 생성을 위한 제로샷 보상 모델입니다.</title>
-      <link>https://huggingface.co/papers/2607.11886</link>
-      <description>본 논문에서는 사전 훈련된 MLLM을 이미지 생성 강화 학습을 위한 기성 보상 모델로 전환하는 훈련 없는 보상 기능인 SpectraReward를 제안합니다.</description>
-      <pubDate>Wed, 15 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11886">Hugging Face Papers</source>
-      <guid isPermaLink="false">43ef3710d0a50d7f622b5bde001f3e75</guid>
     </item>
   </channel>
 </rss>

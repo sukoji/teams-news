@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 17 Jul 2026 13:08:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 16:18:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>local-llm: 최신 LLM을 로컬에서 직접 돌리는 GPU 하드웨어 구성 가이드</title>
+      <link>https://discuss.pytorch.kr/t/local-llm-llm-gpu/11274</link>
+      <description>local-llm 소개 클라우드 LLM API에 의존하지 않고 최신 모델을 자기 하드웨어에서 직접 돌리려면, 어떤 GPU를 몇 장 사고 메인보드와 전원, PCIe 배선을 어떻게 맞춰야 하는지부터 막히기 마련입니다. local-llm 은 개발자 jamesob 이 실제로 구입해 운영 중인 로컬 추론(inference) 장비의 구성과 설정을 정리한 가이드 저장소입니다.</description>
+      <pubDate>Fri, 17 Jul 2026 15:30:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/local-llm-llm-gpu/11274">PyTorch Korea</source>
+      <guid isPermaLink="false">e26f0fb521e3c4775e521449c83395cf</guid>
+    </item>
+    <item>
+      <title>ASO App Store Screenshots: 앱 코드를 분석해 앱스토어 스크린샷을 만드는 Claude 스킬</title>
+      <link>https://discuss.pytorch.kr/t/aso-app-store-screenshots-claude/11278</link>
+      <description>ASO App Store Screenshots 소개 앱을 만들고 나면 마지막 관문으로 앱스토어에 올릴 스크린샷이 남습니다. 어떤 기능을 앞세울지 고르고, 시뮬레이터 화면을 캡처하고, 헤드라인과 기기 프레임을 얹어 전환율 높은 이미지를 만드는 일은 손이 많이 가는 작업입니다.</description>
+      <pubDate>Fri, 17 Jul 2026 13:30:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/aso-app-store-screenshots-claude/11278">PyTorch Korea</source>
+      <guid isPermaLink="false">a693b318c5e366cc92c6708ffdda2d3b</guid>
+    </item>
     <item>
       <title>OpenAI, 프롬프트 인젝션 방어력을 스스로 끌어올리는 자동화 레드팀 모델 GPT-Red 공개</title>
       <link>https://discuss.pytorch.kr/t/openai-gpt-red/11288</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/codeisland-ai-macos/11116">PyTorch Korea</source>
       <guid isPermaLink="false">c41bea4aa3bb503285e1a2a9d71a3a82</guid>
-    </item>
-    <item>
-      <title>Tencent, 295B 규모(활성 21B)의 오픈소스 MoE 추론 및 에이전트 모델 Hy3 공개</title>
-      <link>https://discuss.pytorch.kr/t/tencent-295b-21b-moe-hy3/11147</link>
-      <description>Hy3 소개 Hy3 는 텐센트 훈위안(Tencent Hy, 舊 Hunyuan) 팀이 공개한 오픈소스 대규모 언어 모델(Large Language Model)로, 전체 2,950억(295B) 파라미터 중 매 토큰마다 210억(21B)만 활성화하는 전문가 혼합(Mixture-of-Experts, MoE) 구조의 추론 및 에이전트 특화 모델입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 17:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/tencent-295b-21b-moe-hy3/11147">PyTorch Korea</source>
-      <guid isPermaLink="false">fc1139bb53dc34fddabab92007edbe38</guid>
-    </item>
-    <item>
-      <title>SONIC: 모션 트래킹을 초대규모로 확장한 휴머노이드 전신 제어 모델 (feat. NVIDIA)</title>
-      <link>https://discuss.pytorch.kr/t/sonic-feat-nvidia/11111</link>
-      <description>SONIC 소개 지난 몇 년간 우리는 인공지능(AI)이 "규모를 키우면 강해진다"는 사실을 반복해서 목격했습니다. 더 큰 모델에 더 많은 데이터와 더 많은 연산을 투입하면 작은 모델로는 불가능했던 일반화와 견고함이 창발한다는 것입니다. 그런데 유독 이 공식이 잘 통하지 않던 분야가 있습니다.</description>
-      <pubDate>Wed, 08 Jul 2026 16:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sonic-feat-nvidia/11111">PyTorch Korea</source>
-      <guid isPermaLink="false">983236df9c3e95b589723a2b4fa9784d</guid>
     </item>
   </channel>
 </rss>
