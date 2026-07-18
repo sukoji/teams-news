@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-18",
-  "generated_at": "2026-07-18T08:48:48.451222+09:00",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T08:49:48.075519+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "0f733165eb19a61a99413373f3f69fd3",
+          "id": "408f90923081be06bf250f95a2db84ea",
           "index": 1,
-          "title": "SPEAR: A Simulator for Photorealistic Embodied AI Research",
-          "title_ko": "SPEAR: 사실적인 구현 AI 연구를 위한 시뮬레이터",
-          "summary": "Interactive simulators have become powerful tools for training embodied agents and generating synthetic visual data, but existing photorealistic simulators suffer from limited generality, programmability, and rendering…",
-          "summary_ko": "대화형 시뮬레이터는 구현된 에이전트를 훈련하고 합성 시각적 데이터를 생성하기 위한 강력한 도구가 되었지만 기존의 사실적 시뮬레이터는 일반성, 프로그래밍 가능성 및 렌더링이 제한되어 있습니다.",
-          "url": "https://huggingface.co/papers/2607.06701",
+          "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+          "title_ko": "LongStraw: 고정 GPU 예산 하에서 200만 개 이상의 토큰을 초과하는 Long-Context RL",
+          "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length ge…",
+          "summary_ko": "점점 더 커지는 격차로 인해 추론 컨텍스트 길이와 RL 사후 훈련이 구분됩니다. 추론 시스템은 백만 토큰 컨텍스트에 접근하고 있는 반면, 사후 훈련 워크로드는 종종 256K 토큰 이하로 유지되고 길이에 의존합니다.",
+          "url": "https://huggingface.co/papers/2607.14952",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-16T09:00:00+09:00",
-          "popularity": 552,
-          "upvotes": 5,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-07-17T09:00:00+09:00",
+          "popularity": 366,
+          "upvotes": 172,
+          "score": 27.72,
+          "importance_score": 17.72,
           "matched_keywords": [
             "ai",
-            "agent",
+            "inference",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 5
+            "value": 172
           }
         },
         {
-          "id": "f4af27c12ffb16bed390fdb5369ada63",
+          "id": "f4e92f0bd9cc1913c7f906f8938d0be6",
           "index": 2,
-          "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
-          "title_ko": "하네스 핸드북: 진화하는 에이전트 하네스를 읽기, 탐색 및 편집 가능하게 만들기",
-          "summary": "The capability of a modern AI agent depends not only on its foundation model but also on its harness, which constructs prompts, manages state, invokes tools, and coordinates execution.",
-          "summary_ko": "최신 AI 에이전트의 기능은 기반 모델뿐만 아니라 프롬프트를 구성하고, 상태를 관리하고, 도구를 호출하고, 실행을 조정하는 하네스에도 의존합니다.",
-          "url": "https://huggingface.co/papers/2607.13285",
+          "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+          "title_ko": "SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류",
+          "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback.",
+          "summary_ko": "대규모 언어 모델은 다중 회전 상호 작용, 도구 사용 및 환경 피드백과 관련된 장거리 작업을 위한 대화형 에이전트로 점점 더 훈련되고 있습니다.",
+          "url": "https://huggingface.co/papers/2607.14777",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-16T09:00:00+09:00",
-          "popularity": 394,
-          "upvotes": 187,
-          "score": 27.94,
-          "importance_score": 17.94,
+          "published_at": "2026-07-17T09:00:00+09:00",
+          "popularity": 274,
+          "upvotes": 82,
+          "score": 26.85,
+          "importance_score": 16.85,
           "matched_keywords": [
             "ai",
             "agent",
-            "foundation model"
+            "reinforcement learning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 187
+            "value": 82
           }
         }
       ]
@@ -68,42 +68,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "b793fc27f61ec6c2c369353cb61f28d7",
+          "id": "e1b41ce28fa408e14cdc916b763b93bd",
           "index": 3,
-          "title": "메타, 앤트로픽과 15조 AI 인프라 임대 논의…클라우드 진출 눈앞",
+          "title": "115년 상징의 추락...IBM 25% 폭락이 경고하는 'AI 블랙홀'",
           "title_ko": null,
-          "summary": "메타가 막대한 비용을 투자해 구축한 데이터센터의 컴퓨팅 파워를 경쟁사인 앤트로픽에 임대하는 계약을 추진 중이다.",
+          "summary": "미국 기술의 상징이었던 IBM이 AI 시대의 첫 대형 희생양이 될 수 있다는 우려가 커지고 있다. 지난주 주가 폭락은 단순한 실적 쇼크를 넘어, IBM의 사업 모델 자체가 AI 시대에도 통할 수 있는지에 대한 근본적인 의문으로 이어지고 있다는 평이다.IBM은 지난 14일(현지시간) 2분기 실적이 시장 기대에 크게 못 미칠 것이라고 이례적인 사전 경고를 발표했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212896",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212907",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-18T06:45:57+09:00",
+          "published_at": "2026-07-19T07:59:13+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.57,
-          "importance_score": 19.15,
+          "score": 22.82,
+          "importance_score": 19.65,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "a02d73dd4d5ca183406739991b6358ca",
+          "id": "aa45ee4be40d1e87a1f19d07cc87c75c",
           "index": 4,
-          "title": "HCL테크와 가디언, 기술 및 운영 전반의 AI 기반 현대화를 위한 파트너십 확대",
+          "title": "마이크로소프트, '코파일럿 코워크' 정식 출시…\"업무별 추가 비용\"",
           "title_ko": null,
-          "summary": "[지디넷코리아] 뉴욕 및 인도 노이다, 2026년 7월 17일 /PRNewswire/ -- 글로벌 선도 기술 기업 HCL테크(HCLTech)(NSE: HCLTECH)(BSE: HCLTECH)가 7월 16일 미국 최대 상호보험회사 중 하나이자 보험, 은퇴, 자산 관리 및 직원 복지 솔루션의 선도적 제공업체인 가디언 생명보험회사(The Guardian Life Insurance Company…",
+          "summary": "[지디넷코리아]마이크로소프트가 기업용 인공지능(AI) 에이전트 '코파일럿 코워크'를 정식 출시했다. 기존 '마이크로소프트365 코파일럿' 구독 고객은 별도 요금을 지불하면 코워크를 사용할 수 있다.마이크로소프트는 약 3개월간 코파일럿 코워크 프런티어 시험 운영을 마치고 마이크로소프트365 코파일럿 고객 대상으로 일반 제공을 시작했다고 17일 공식 홈페이지에서 밝혔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260717231002",
+          "url": "https://zdnet.co.kr/view/?no=20260719003211",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-17T23:10:02+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-19T07:23:06+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 17.79,
-          "importance_score": 15.78,
+          "score": 19.7,
+          "importance_score": 19.4,
           "matched_keywords": [
             "ai"
           ],
@@ -116,36 +117,8 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "70ca53e35c2fcdd38eb37851cbb0b321",
-          "index": 5,
-          "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
-          "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
-          "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
-          "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
-          "url": "https://github.com/KlaatAI/klaatcode",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-07-18T04:01:22+09:00",
-          "popularity": 104,
-          "upvotes": 104,
-          "score": 37.29,
-          "importance_score": 24.29,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "gpt",
-            "claude",
-            "gemini"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 104
-          }
-        },
-        {
           "id": "6b94e78cd4f751e9e8e292164233f132",
-          "index": 6,
+          "index": 5,
           "title": "CyberSunil/LLMVault — An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RA",
           "title_ko": "CyberSunil/LLMVault — AI 보안, 프롬프트 주입, RA를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼",
           "summary": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
@@ -154,11 +127,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-17T13:01:51+09:00",
-          "popularity": 149,
-          "upvotes": 149,
-          "score": 35.42,
-          "importance_score": 19.29,
+          "published_at": "2026-07-19T03:23:05+09:00",
+          "popularity": 184,
+          "upvotes": 184,
+          "score": 39.14,
+          "importance_score": 26.0,
           "matched_keywords": [
             "ai",
             "llm",
@@ -168,7 +141,35 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 149
+            "value": 184
+          }
+        },
+        {
+          "id": "70ca53e35c2fcdd38eb37851cbb0b321",
+          "index": 6,
+          "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
+          "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
+          "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
+          "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
+          "url": "https://github.com/KlaatAI/klaatcode",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-07-19T05:22:42+09:00",
+          "popularity": 139,
+          "upvotes": 139,
+          "score": 38.58,
+          "importance_score": 25.86,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "gpt",
+            "claude",
+            "gemini"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 139
           }
         }
       ]
@@ -178,24 +179,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "82e6e28c37028d2a376ebf9eef823aed",
+          "id": "435eaec282ec92c3c82cf627f52ebf08",
           "index": 7,
-          "title": "Inkling: Thinking Machines Lab가 처음으로 공개하는 975B 멀티모달 MoE 모델",
+          "title": "Kimi K3, Moonshot AI가 공개한 세계 첫 3T급 오픈 웨이트 모델 (전체 가중치 공개는 7월 27일 예정)",
           "title_ko": null,
-          "summary": "Inkling 소개 Thinking Machines Lab 은 전 OpenAI CTO 미라 무라티(Mira Murati)가 창업한 AI 연구소로, \"인간의 의지와 판단을 확장하는 AI\" 를 만들겠다는 목표를 내걸고 있습니다.",
+          "summary": "Kimi K3 소개 Kimi 를 만드는 문샷 AI(Moonshot AI) 가 자사 최고 성능 모델인 Kimi K3 를 공개했습니다. Kimi K3는 2.8조 개(2.8T)의 매개변수(Parameter)를 가진 모델로, 문샷이 \"세계 최초의 오픈 3T급(3T-class) 모델\" 이라고 소개한 대형 언어 모델입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/inkling-thinking-machines-lab-975b-moe/11283",
+          "url": "https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-18T08:30:34+09:00",
+          "published_at": "2026-07-19T08:30:04+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.94,
-          "importance_score": 19.87,
+          "score": 22.93,
+          "importance_score": 19.86,
           "matched_keywords": [
             "ai",
-            "연구",
             "모델"
           ],
           "engagement": null
@@ -205,130 +205,103 @@
   ],
   "items": [
     {
-      "id": "0f733165eb19a61a99413373f3f69fd3",
+      "id": "408f90923081be06bf250f95a2db84ea",
       "index": 1,
-      "title": "SPEAR: A Simulator for Photorealistic Embodied AI Research",
-      "title_ko": "SPEAR: 사실적인 구현 AI 연구를 위한 시뮬레이터",
-      "summary": "Interactive simulators have become powerful tools for training embodied agents and generating synthetic visual data, but existing photorealistic simulators suffer from limited generality, programmability, and rendering…",
-      "summary_ko": "대화형 시뮬레이터는 구현된 에이전트를 훈련하고 합성 시각적 데이터를 생성하기 위한 강력한 도구가 되었지만 기존의 사실적 시뮬레이터는 일반성, 프로그래밍 가능성 및 렌더링이 제한되어 있습니다.",
-      "url": "https://huggingface.co/papers/2607.06701",
+      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+      "title_ko": "LongStraw: 고정 GPU 예산 하에서 200만 개 이상의 토큰을 초과하는 Long-Context RL",
+      "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length ge…",
+      "summary_ko": "점점 더 커지는 격차로 인해 추론 컨텍스트 길이와 RL 사후 훈련이 구분됩니다. 추론 시스템은 백만 토큰 컨텍스트에 접근하고 있는 반면, 사후 훈련 워크로드는 종종 256K 토큰 이하로 유지되고 길이에 의존합니다.",
+      "url": "https://huggingface.co/papers/2607.14952",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-16T09:00:00+09:00",
-      "popularity": 552,
-      "upvotes": 5,
-      "score": 28.0,
-      "importance_score": 18.0,
+      "published_at": "2026-07-17T09:00:00+09:00",
+      "popularity": 366,
+      "upvotes": 172,
+      "score": 27.72,
+      "importance_score": 17.72,
       "matched_keywords": [
         "ai",
-        "agent",
+        "inference",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 5
+        "value": 172
       }
     },
     {
-      "id": "f4af27c12ffb16bed390fdb5369ada63",
+      "id": "f4e92f0bd9cc1913c7f906f8938d0be6",
       "index": 2,
-      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
-      "title_ko": "하네스 핸드북: 진화하는 에이전트 하네스를 읽기, 탐색 및 편집 가능하게 만들기",
-      "summary": "The capability of a modern AI agent depends not only on its foundation model but also on its harness, which constructs prompts, manages state, invokes tools, and coordinates execution.",
-      "summary_ko": "최신 AI 에이전트의 기능은 기반 모델뿐만 아니라 프롬프트를 구성하고, 상태를 관리하고, 도구를 호출하고, 실행을 조정하는 하네스에도 의존합니다.",
-      "url": "https://huggingface.co/papers/2607.13285",
+      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+      "title_ko": "SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류",
+      "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback.",
+      "summary_ko": "대규모 언어 모델은 다중 회전 상호 작용, 도구 사용 및 환경 피드백과 관련된 장거리 작업을 위한 대화형 에이전트로 점점 더 훈련되고 있습니다.",
+      "url": "https://huggingface.co/papers/2607.14777",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-16T09:00:00+09:00",
-      "popularity": 394,
-      "upvotes": 187,
-      "score": 27.94,
-      "importance_score": 17.94,
+      "published_at": "2026-07-17T09:00:00+09:00",
+      "popularity": 274,
+      "upvotes": 82,
+      "score": 26.85,
+      "importance_score": 16.85,
       "matched_keywords": [
         "ai",
         "agent",
-        "foundation model"
+        "reinforcement learning"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 187
+        "value": 82
       }
     },
     {
-      "id": "b793fc27f61ec6c2c369353cb61f28d7",
+      "id": "e1b41ce28fa408e14cdc916b763b93bd",
       "index": 3,
-      "title": "메타, 앤트로픽과 15조 AI 인프라 임대 논의…클라우드 진출 눈앞",
+      "title": "115년 상징의 추락...IBM 25% 폭락이 경고하는 'AI 블랙홀'",
       "title_ko": null,
-      "summary": "메타가 막대한 비용을 투자해 구축한 데이터센터의 컴퓨팅 파워를 경쟁사인 앤트로픽에 임대하는 계약을 추진 중이다.",
+      "summary": "미국 기술의 상징이었던 IBM이 AI 시대의 첫 대형 희생양이 될 수 있다는 우려가 커지고 있다. 지난주 주가 폭락은 단순한 실적 쇼크를 넘어, IBM의 사업 모델 자체가 AI 시대에도 통할 수 있는지에 대한 근본적인 의문으로 이어지고 있다는 평이다.IBM은 지난 14일(현지시간) 2분기 실적이 시장 기대에 크게 못 미칠 것이라고 이례적인 사전 경고를 발표했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212896",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212907",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-18T06:45:57+09:00",
+      "published_at": "2026-07-19T07:59:13+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.57,
-      "importance_score": 19.15,
+      "score": 22.82,
+      "importance_score": 19.65,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "a02d73dd4d5ca183406739991b6358ca",
+      "id": "aa45ee4be40d1e87a1f19d07cc87c75c",
       "index": 4,
-      "title": "HCL테크와 가디언, 기술 및 운영 전반의 AI 기반 현대화를 위한 파트너십 확대",
+      "title": "마이크로소프트, '코파일럿 코워크' 정식 출시…\"업무별 추가 비용\"",
       "title_ko": null,
-      "summary": "[지디넷코리아] 뉴욕 및 인도 노이다, 2026년 7월 17일 /PRNewswire/ -- 글로벌 선도 기술 기업 HCL테크(HCLTech)(NSE: HCLTECH)(BSE: HCLTECH)가 7월 16일 미국 최대 상호보험회사 중 하나이자 보험, 은퇴, 자산 관리 및 직원 복지 솔루션의 선도적 제공업체인 가디언 생명보험회사(The Guardian Life Insurance Company…",
+      "summary": "[지디넷코리아]마이크로소프트가 기업용 인공지능(AI) 에이전트 '코파일럿 코워크'를 정식 출시했다. 기존 '마이크로소프트365 코파일럿' 구독 고객은 별도 요금을 지불하면 코워크를 사용할 수 있다.마이크로소프트는 약 3개월간 코파일럿 코워크 프런티어 시험 운영을 마치고 마이크로소프트365 코파일럿 고객 대상으로 일반 제공을 시작했다고 17일 공식 홈페이지에서 밝혔다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260717231002",
+      "url": "https://zdnet.co.kr/view/?no=20260719003211",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-17T23:10:02+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-19T07:23:06+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 17.79,
-      "importance_score": 15.78,
+      "score": 19.7,
+      "importance_score": 19.4,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "70ca53e35c2fcdd38eb37851cbb0b321",
-      "index": 5,
-      "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
-      "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
-      "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
-      "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
-      "url": "https://github.com/KlaatAI/klaatcode",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-07-18T04:01:22+09:00",
-      "popularity": 104,
-      "upvotes": 104,
-      "score": 37.29,
-      "importance_score": 24.29,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "gpt",
-        "claude",
-        "gemini"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 104
-      }
-    },
-    {
       "id": "6b94e78cd4f751e9e8e292164233f132",
-      "index": 6,
+      "index": 5,
       "title": "CyberSunil/LLMVault — An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RA",
       "title_ko": "CyberSunil/LLMVault — AI 보안, 프롬프트 주입, RA를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼",
       "summary": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
@@ -337,11 +310,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-17T13:01:51+09:00",
-      "popularity": 149,
-      "upvotes": 149,
-      "score": 35.42,
-      "importance_score": 19.29,
+      "published_at": "2026-07-19T03:23:05+09:00",
+      "popularity": 184,
+      "upvotes": 184,
+      "score": 39.14,
+      "importance_score": 26.0,
       "matched_keywords": [
         "ai",
         "llm",
@@ -351,28 +324,55 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 149
+        "value": 184
       }
     },
     {
-      "id": "82e6e28c37028d2a376ebf9eef823aed",
+      "id": "70ca53e35c2fcdd38eb37851cbb0b321",
+      "index": 6,
+      "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
+      "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
+      "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
+      "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
+      "url": "https://github.com/KlaatAI/klaatcode",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-07-19T05:22:42+09:00",
+      "popularity": 139,
+      "upvotes": 139,
+      "score": 38.58,
+      "importance_score": 25.86,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "gpt",
+        "claude",
+        "gemini"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 139
+      }
+    },
+    {
+      "id": "435eaec282ec92c3c82cf627f52ebf08",
       "index": 7,
-      "title": "Inkling: Thinking Machines Lab가 처음으로 공개하는 975B 멀티모달 MoE 모델",
+      "title": "Kimi K3, Moonshot AI가 공개한 세계 첫 3T급 오픈 웨이트 모델 (전체 가중치 공개는 7월 27일 예정)",
       "title_ko": null,
-      "summary": "Inkling 소개 Thinking Machines Lab 은 전 OpenAI CTO 미라 무라티(Mira Murati)가 창업한 AI 연구소로, \"인간의 의지와 판단을 확장하는 AI\" 를 만들겠다는 목표를 내걸고 있습니다.",
+      "summary": "Kimi K3 소개 Kimi 를 만드는 문샷 AI(Moonshot AI) 가 자사 최고 성능 모델인 Kimi K3 를 공개했습니다. Kimi K3는 2.8조 개(2.8T)의 매개변수(Parameter)를 가진 모델로, 문샷이 \"세계 최초의 오픈 3T급(3T-class) 모델\" 이라고 소개한 대형 언어 모델입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/inkling-thinking-machines-lab-975b-moe/11283",
+      "url": "https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-18T08:30:34+09:00",
+      "published_at": "2026-07-19T08:30:04+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.94,
-      "importance_score": 19.87,
+      "score": 22.93,
+      "importance_score": 19.86,
       "matched_keywords": [
         "ai",
-        "연구",
         "모델"
       ],
       "engagement": null
