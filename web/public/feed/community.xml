@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 18 Jul 2026 08:59:02 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 12:20:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>open-computer-use: 어떤 AI 에이전트와도 사용 가능한 오픈소스 컴퓨터 사용 MCP 서비스</title>
+      <link>https://discuss.pytorch.kr/t/open-computer-use-ai-mcp/11298</link>
+      <description>open-computer-use 소개 AI 에이전트가 코드를 짜는 것을 넘어 사람 대신 컴퓨터를 직접 조작하는 "컴퓨터 사용(Computer Use)"이 주목받고 있지만, 이 기능은 특정 제품이나 플랫폼에 묶여 있는 경우가 많습니다.</description>
+      <pubDate>Sat, 18 Jul 2026 10:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/open-computer-use-ai-mcp/11298">PyTorch Korea</source>
+      <guid isPermaLink="false">dcbb72ed8bbf2e2a2c5435a488950467</guid>
+    </item>
     <item>
       <title>Inkling: Thinking Machines Lab가 처음으로 공개하는 975B 멀티모달 MoE 모델</title>
       <link>https://discuss.pytorch.kr/t/inkling-thinking-machines-lab-975b-moe/11283</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai-engineering-interview-questions-ai/11074">PyTorch Korea</source>
       <guid isPermaLink="false">7631f2df14271db1d8165245bfa7652c</guid>
-    </item>
-    <item>
-      <title>TorchSpec: 추측 디코딩 초안 모델을 대규모로 학습하는 파이토치 네이티브 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/torchspec/11124</link>
-      <description>TorchSpec 소개 TorchSpec은 추측 디코딩(speculative decoding)을 위한 초안 모델(draft model)을 학습하는 파이토치 네이티브 프레임워크입니다. 추측 디코딩은 작은 초안 모델이 여러 토큰을 미리 제안하고, 큰 대상(target) 모델이 이를 한 번의 순전파로 검증하는 방식으로 대규모 언어 모델의 생성 속도를 끌어올리는 기법입니다.</description>
-      <pubDate>Wed, 08 Jul 2026 21:30:27 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/torchspec/11124">PyTorch Korea</source>
-      <guid isPermaLink="false">eec60c3b95dc21444fbf5688e46b0366</guid>
     </item>
   </channel>
 </rss>
