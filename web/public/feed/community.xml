@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 19 Jul 2026 17:22:44 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 19:36:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>iFixAi: AI 에이전트의 오정렬과 맹점을 45개 점검으로 진단하는 도구</title>
+      <link>https://discuss.pytorch.kr/t/ifixai-ai-45/11296</link>
+      <description>iFixAi 소개 AI 에이전트를 운영하다 보면 가용성, 정확도, 응답 시간 같은 대시보드 지표는 모두 정상인데도 실제로는 문제가 쌓이는 경우가 있습니다. 에이전트가 허가받지 않은 권한을 슬쩍 사용하거나, 출처 없는 주장을 하거나, 조작하려는 프롬프트에 굴복하거나, 애초에 권한이 없던 일을 해버리는 식입니다.</description>
+      <pubDate>Sun, 19 Jul 2026 17:31:00 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ifixai-ai-45/11296">PyTorch Korea</source>
+      <guid isPermaLink="false">e1bf1bfb5eb887aa4cc197002c797840</guid>
+    </item>
     <item>
       <title>FRIDAY: 음성으로 대화하며 MCP 도구를 실시간으로 활용하는 AI 비서</title>
       <link>https://discuss.pytorch.kr/t/friday-mcp-ai/11297</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/soma-smpl-mhr-anny-feat-nvidia/11109">PyTorch Korea</source>
       <guid isPermaLink="false">3ed9c2ba9723a6d0f64e40fdfe67e793</guid>
-    </item>
-    <item>
-      <title>TencentDB Agent Memory: AI 에이전트를 위한 계층형 로컬 기억 시스템</title>
-      <link>https://discuss.pytorch.kr/t/tencentdb-agent-memory-ai/11150</link>
-      <description>TencentDB Agent Memory 소개 TencentDB Agent Memory는 AI 에이전트에게 장기 기억과 단기 기억을 완전 로컬로 제공하는 오픈소스 메모리 시스템입니다. 에이전트를 쓰다 보면 같은 SOP, 프로젝트 배경, 도구 사용 규칙, 출력 형식을 매번 다시 설명하게 되는데, 이런 정보는 반복 입력할 필요도 없고 그렇다고 컨텍스트에 무작정 쏟아부을 것도 아닙니다.</description>
-      <pubDate>Thu, 09 Jul 2026 18:30:02 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/tencentdb-agent-memory-ai/11150">PyTorch Korea</source>
-      <guid isPermaLink="false">63dd212124df928e3ef73272748ac89a</guid>
     </item>
   </channel>
 </rss>
