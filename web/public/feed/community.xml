@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 19 Jul 2026 19:36:38 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 20:59:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[GN⁺] 커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해</title>
+      <link>https://discuss.pytorch.kr/t/gn-llm-linus-torvalds/11294</link>
+      <description>커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해 글 소개 Linux 커널 은 반AI 프로젝트가 아니며, AI는 다른 도구들과 마찬가지로 유용한 도구 임 LLM에 대한 반감이 있는 사람들이 존재하지만, 이 사안에 대해서는 최상위 메인테이너로서 단호한 입장 을 취함 AI의 유용성 자체는 더 이상 논쟁 대상이 아니며 , 의심하는 사람은 실제로 써보지 않은 것이라고 지적 LLM…</description>
+      <pubDate>Sun, 19 Jul 2026 20:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gn-llm-linus-torvalds/11294">PyTorch Korea</source>
+      <guid isPermaLink="false">e070cd219c3834aca31902cf9e82a529</guid>
+    </item>
     <item>
       <title>iFixAi: AI 에이전트의 오정렬과 맹점을 45개 점검으로 진단하는 도구</title>
       <link>https://discuss.pytorch.kr/t/ifixai-ai-45/11296</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claude-usage-claude-code/11174">PyTorch Korea</source>
       <guid isPermaLink="false">93b15c2008b7fddc6c046e77ad193127</guid>
-    </item>
-    <item>
-      <title>SOMA: SMPL, MHR, Anny 등, 인체 모델을 표현하는 방식을 하나로 잇는 바디 레이어 (feat. NVIDIA)</title>
-      <link>https://discuss.pytorch.kr/t/soma-smpl-mhr-anny-feat-nvidia/11109</link>
-      <description>SOMA 소개 3D 인체를 다루는 연구자라면 한 번쯤 이런 상황을 겪어보셨을 것입니다. 어린이까지 표현할 수 있는 모델로 캐릭터의 체형을 잡아 두었는데, 정작 쓰려는 모션 캡쳐 데이터셋은 전혀 다른 모델을 기준으로 만들어져 있어서, 둘을 잇는 변환 코드를 처음부터 새로 짜야 했던 경험 말입니다.</description>
-      <pubDate>Fri, 10 Jul 2026 06:30:57 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/soma-smpl-mhr-anny-feat-nvidia/11109">PyTorch Korea</source>
-      <guid isPermaLink="false">3ed9c2ba9723a6d0f64e40fdfe67e793</guid>
     </item>
   </channel>
 </rss>
