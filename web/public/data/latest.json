@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-19",
-  "generated_at": "2026-07-19T08:49:48.075519+09:00",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T08:53:10.233459+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,49 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "408f90923081be06bf250f95a2db84ea",
+          "id": "566aad7c473f1a87e91be3a20e41d290",
           "index": 1,
-          "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
-          "title_ko": "LongStraw: 고정 GPU 예산 하에서 200만 개 이상의 토큰을 초과하는 Long-Context RL",
-          "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length ge…",
-          "summary_ko": "점점 더 커지는 격차로 인해 추론 컨텍스트 길이와 RL 사후 훈련이 구분됩니다. 추론 시스템은 백만 토큰 컨텍스트에 접근하고 있는 반면, 사후 훈련 워크로드는 종종 256K 토큰 이하로 유지되고 길이에 의존합니다.",
-          "url": "https://huggingface.co/papers/2607.14952",
-          "source": "Hugging Face Papers",
+          "title": "🥇Top AI Papers of the Week",
+          "title_ko": "🥇금주의 최고 AI 논문",
+          "summary": "The Top AI Papers of the Week (July 13 - July 19)",
+          "summary_ko": "금주의 상위 AI 논문(7월 13일 - 7월 19일)",
+          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-16b",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-17T09:00:00+09:00",
-          "popularity": 366,
-          "upvotes": 172,
-          "score": 27.72,
-          "importance_score": 17.72,
+          "published_at": "2026-07-20T01:32:34+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 21.47,
+          "importance_score": 16.94,
           "matched_keywords": [
             "ai",
-            "inference",
-            "training"
+            "paper"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 172
-          }
+          "engagement": null
         },
         {
-          "id": "f4e92f0bd9cc1913c7f906f8938d0be6",
+          "id": "bf7782e7e5c640ea352f7168331279a0",
           "index": 2,
-          "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
-          "title_ko": "SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류",
-          "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback.",
-          "summary_ko": "대규모 언어 모델은 다중 회전 상호 작용, 도구 사용 및 환경 피드백과 관련된 장거리 작업을 위한 대화형 에이전트로 점점 더 훈련되고 있습니다.",
-          "url": "https://huggingface.co/papers/2607.14777",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red, and More",
+          "title_ko": "🤖 AI Agents Weekly: Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red 등",
+          "summary": "Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red, and More",
+          "summary_ko": "Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red 등",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-kimi-k3-thinking",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-17T09:00:00+09:00",
-          "popularity": 274,
-          "upvotes": 82,
-          "score": 26.85,
-          "importance_score": 16.85,
+          "published_at": "2026-07-19T00:00:48+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 19.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
             "agent",
-            "reinforcement learning"
+            "gpt"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 82
-          }
+          "engagement": null
         }
       ]
     },
@@ -68,45 +61,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "e1b41ce28fa408e14cdc916b763b93bd",
+          "id": "afd8974806d2754dadc074b51d7229e4",
           "index": 3,
-          "title": "115년 상징의 추락...IBM 25% 폭락이 경고하는 'AI 블랙홀'",
+          "title": "알리바바, 2.4조 매개변수 '큐원3.8' 공개...\"페이블 5 이어 세계 2위\"",
           "title_ko": null,
-          "summary": "미국 기술의 상징이었던 IBM이 AI 시대의 첫 대형 희생양이 될 수 있다는 우려가 커지고 있다. 지난주 주가 폭락은 단순한 실적 쇼크를 넘어, IBM의 사업 모델 자체가 AI 시대에도 통할 수 있는지에 대한 근본적인 의문으로 이어지고 있다는 평이다.IBM은 지난 14일(현지시간) 2분기 실적이 시장 기대에 크게 못 미칠 것이라고 이례적인 사전 경고를 발표했다.",
+          "summary": "알리바바가 차세대 플래그십 모델 \\'큐원 3.8\\'을 공개하며 프론티어 모델 성능 경쟁에 또 한번 지각변동을 예고했다.알리바바는 19일 X를 통해 2조4000억개의 매개변수를 갖춘 초대형 멀티모달 모델 큐원 3.8을 곧 오픈소스로 전환하고 모델 가중치를 개방할 예정이라고 발표했다.알리바바는 \\\"큐원 3.8은 지속적으로 진화하고 있으며 현재 전 세계에서 사용 가능한 가장 강력한 인프라 중 하…",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=212907",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212918",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-19T07:59:13+09:00",
+          "published_at": "2026-07-20T08:00:42+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.82,
-          "importance_score": 19.65,
+          "score": 19.82,
+          "importance_score": 19.64,
           "matched_keywords": [
-            "ai",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "aa45ee4be40d1e87a1f19d07cc87c75c",
+          "id": "f755cf70b092f638cff7e3d69f13a191",
           "index": 4,
-          "title": "마이크로소프트, '코파일럿 코워크' 정식 출시…\"업무별 추가 비용\"",
+          "title": "포스텍, 넓은 부위 한 번에 찍는 3차원 광음향·초음파 통합 영상 시스템 개발",
           "title_ko": null,
-          "summary": "[지디넷코리아]마이크로소프트가 기업용 인공지능(AI) 에이전트 '코파일럿 코워크'를 정식 출시했다. 기존 '마이크로소프트365 코파일럿' 구독 고객은 별도 요금을 지불하면 코워크를 사용할 수 있다.마이크로소프트는 약 3개월간 코파일럿 코워크 프런티어 시험 운영을 마치고 마이크로소프트365 코파일럿 고객 대상으로 일반 제공을 시작했다고 17일 공식 홈페이지에서 밝혔다.",
+          "summary": "포스텍(POSTECH)은 김철홍 전자전기공학과·IT융합학과 교수, 글로벌 헬스케어 의공학 연구소 박신영 박사, 기계공학과 통합과정 성민식 씨, IT융합공학과 박사과정 김현희 씨 연구팀이 지멘스 헬시니어스 초음파 프로브 연구팀과 함께 손과 발처럼 넓은 부위를 한 번에 찍을 수 있는 3차원 광음향·초음파 통합 영상 시스템을 개발했다고 20일 밝혔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260719003211",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260720000007",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-19T07:23:06+09:00",
+          "published_at": "2026-07-20T08:21:54+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.7,
-          "importance_score": 19.4,
+          "score": 19.89,
+          "importance_score": 19.78,
           "matched_keywords": [
-            "ai"
+            "연구"
           ],
           "engagement": null
         }
@@ -117,49 +109,21 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "6b94e78cd4f751e9e8e292164233f132",
-          "index": 5,
-          "title": "CyberSunil/LLMVault — An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RA",
-          "title_ko": "CyberSunil/LLMVault — AI 보안, 프롬프트 주입, RA를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼",
-          "summary": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-          "summary_ko": "AI 보안, 프롬프트 삽입, RAG 보안, 에이전트 보안 및 GenAI 침투 테스트를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼입니다.",
-          "url": "https://github.com/CyberSunil/LLMVault",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-07-19T03:23:05+09:00",
-          "popularity": 184,
-          "upvotes": 184,
-          "score": 39.14,
-          "importance_score": 26.0,
-          "matched_keywords": [
-            "ai",
-            "llm",
-            "agent",
-            "rag",
-            "training"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 184
-          }
-        },
-        {
           "id": "70ca53e35c2fcdd38eb37851cbb0b321",
-          "index": 6,
+          "index": 5,
           "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
           "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
           "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
-          "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
+          "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 - 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
           "url": "https://github.com/KlaatAI/klaatcode",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-19T05:22:42+09:00",
-          "popularity": 139,
-          "upvotes": 139,
-          "score": 38.58,
-          "importance_score": 25.86,
+          "published_at": "2026-07-20T05:39:24+09:00",
+          "popularity": 147,
+          "upvotes": 147,
+          "score": 38.82,
+          "importance_score": 26.14,
           "matched_keywords": [
             "ai",
             "agent",
@@ -169,7 +133,35 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 139
+            "value": 147
+          }
+        },
+        {
+          "id": "6b94e78cd4f751e9e8e292164233f132",
+          "index": 6,
+          "title": "CyberSunil/LLMVault — An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RA",
+          "title_ko": "CyberSunil/LLMVault — AI 보안, 프롬프트 주입, RA를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼",
+          "summary": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
+          "summary_ko": "AI 보안, 프롬프트 삽입, RAG 보안, 에이전트 보안 및 GenAI 침투 테스트를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼입니다.",
+          "url": "https://github.com/CyberSunil/LLMVault",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-07-19T03:23:05+09:00",
+          "popularity": 200,
+          "upvotes": 200,
+          "score": 35.56,
+          "importance_score": 18.56,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
+            "rag",
+            "training"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 200
           }
         }
       ]
@@ -179,23 +171,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "435eaec282ec92c3c82cf627f52ebf08",
+          "id": "bfa5ec9439d6318d9bf54b664899caa9",
           "index": 7,
-          "title": "Kimi K3, Moonshot AI가 공개한 세계 첫 3T급 오픈 웨이트 모델 (전체 가중치 공개는 7월 27일 예정)",
+          "title": "NVIDIA, RTEB 1위 오픈 임베딩 모델 Nemotron 3 Embed 공개 (feat. RAG, 에이전트 검색)",
           "title_ko": null,
-          "summary": "Kimi K3 소개 Kimi 를 만드는 문샷 AI(Moonshot AI) 가 자사 최고 성능 모델인 Kimi K3 를 공개했습니다. Kimi K3는 2.8조 개(2.8T)의 매개변수(Parameter)를 가진 모델로, 문샷이 \"세계 최초의 오픈 3T급(3T-class) 모델\" 이라고 소개한 대형 언어 모델입니다.",
+          "summary": "Nemotron 3 Embed 소개 검색 증강 생성(Retrieval-Augmented Generation, RAG)이나 여러 단계를 거치는 에이전트 워크플로우에서 실제로 답변의 품질을 좌우하는 것은, 거대 언어 모델 자체보다 그 앞단에서 \"관련 있는 문서를 얼마나 정확히 찾아오는가\"입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301",
+          "url": "https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-19T08:30:04+09:00",
+          "published_at": "2026-07-20T08:30:38+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.93,
-          "importance_score": 19.86,
+          "score": 22.92,
+          "importance_score": 19.84,
           "matched_keywords": [
-            "ai",
+            "rag",
             "모델"
           ],
           "engagement": null
@@ -205,144 +197,108 @@
   ],
   "items": [
     {
-      "id": "408f90923081be06bf250f95a2db84ea",
+      "id": "566aad7c473f1a87e91be3a20e41d290",
       "index": 1,
-      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
-      "title_ko": "LongStraw: 고정 GPU 예산 하에서 200만 개 이상의 토큰을 초과하는 Long-Context RL",
-      "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length ge…",
-      "summary_ko": "점점 더 커지는 격차로 인해 추론 컨텍스트 길이와 RL 사후 훈련이 구분됩니다. 추론 시스템은 백만 토큰 컨텍스트에 접근하고 있는 반면, 사후 훈련 워크로드는 종종 256K 토큰 이하로 유지되고 길이에 의존합니다.",
-      "url": "https://huggingface.co/papers/2607.14952",
-      "source": "Hugging Face Papers",
+      "title": "🥇Top AI Papers of the Week",
+      "title_ko": "🥇금주의 최고 AI 논문",
+      "summary": "The Top AI Papers of the Week (July 13 - July 19)",
+      "summary_ko": "금주의 상위 AI 논문(7월 13일 - 7월 19일)",
+      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-16b",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-17T09:00:00+09:00",
-      "popularity": 366,
-      "upvotes": 172,
-      "score": 27.72,
-      "importance_score": 17.72,
+      "published_at": "2026-07-20T01:32:34+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 21.47,
+      "importance_score": 16.94,
       "matched_keywords": [
         "ai",
-        "inference",
-        "training"
+        "paper"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 172
-      }
+      "engagement": null
     },
     {
-      "id": "f4e92f0bd9cc1913c7f906f8938d0be6",
+      "id": "bf7782e7e5c640ea352f7168331279a0",
       "index": 2,
-      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
-      "title_ko": "SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류",
-      "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback.",
-      "summary_ko": "대규모 언어 모델은 다중 회전 상호 작용, 도구 사용 및 환경 피드백과 관련된 장거리 작업을 위한 대화형 에이전트로 점점 더 훈련되고 있습니다.",
-      "url": "https://huggingface.co/papers/2607.14777",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red, and More",
+      "title_ko": "🤖 AI Agents Weekly: Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red 등",
+      "summary": "Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red, and More",
+      "summary_ko": "Kimi K3, Thinking Machines Inkling, Agentic Misalignment, Perplexity SPACE, Sunday ACT-2, GPT-Red 등",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-kimi-k3-thinking",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-17T09:00:00+09:00",
-      "popularity": 274,
-      "upvotes": 82,
-      "score": 26.85,
-      "importance_score": 16.85,
+      "published_at": "2026-07-19T00:00:48+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 19.9,
+      "importance_score": 9.9,
       "matched_keywords": [
         "ai",
         "agent",
-        "reinforcement learning"
+        "gpt"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 82
-      }
+      "engagement": null
     },
     {
-      "id": "e1b41ce28fa408e14cdc916b763b93bd",
+      "id": "afd8974806d2754dadc074b51d7229e4",
       "index": 3,
-      "title": "115년 상징의 추락...IBM 25% 폭락이 경고하는 'AI 블랙홀'",
+      "title": "알리바바, 2.4조 매개변수 '큐원3.8' 공개...\"페이블 5 이어 세계 2위\"",
       "title_ko": null,
-      "summary": "미국 기술의 상징이었던 IBM이 AI 시대의 첫 대형 희생양이 될 수 있다는 우려가 커지고 있다. 지난주 주가 폭락은 단순한 실적 쇼크를 넘어, IBM의 사업 모델 자체가 AI 시대에도 통할 수 있는지에 대한 근본적인 의문으로 이어지고 있다는 평이다.IBM은 지난 14일(현지시간) 2분기 실적이 시장 기대에 크게 못 미칠 것이라고 이례적인 사전 경고를 발표했다.",
+      "summary": "알리바바가 차세대 플래그십 모델 \\'큐원 3.8\\'을 공개하며 프론티어 모델 성능 경쟁에 또 한번 지각변동을 예고했다.알리바바는 19일 X를 통해 2조4000억개의 매개변수를 갖춘 초대형 멀티모달 모델 큐원 3.8을 곧 오픈소스로 전환하고 모델 가중치를 개방할 예정이라고 발표했다.알리바바는 \\\"큐원 3.8은 지속적으로 진화하고 있으며 현재 전 세계에서 사용 가능한 가장 강력한 인프라 중 하…",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=212907",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212918",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-19T07:59:13+09:00",
+      "published_at": "2026-07-20T08:00:42+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.82,
-      "importance_score": 19.65,
+      "score": 19.82,
+      "importance_score": 19.64,
       "matched_keywords": [
-        "ai",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "aa45ee4be40d1e87a1f19d07cc87c75c",
+      "id": "f755cf70b092f638cff7e3d69f13a191",
       "index": 4,
-      "title": "마이크로소프트, '코파일럿 코워크' 정식 출시…\"업무별 추가 비용\"",
+      "title": "포스텍, 넓은 부위 한 번에 찍는 3차원 광음향·초음파 통합 영상 시스템 개발",
       "title_ko": null,
-      "summary": "[지디넷코리아]마이크로소프트가 기업용 인공지능(AI) 에이전트 '코파일럿 코워크'를 정식 출시했다. 기존 '마이크로소프트365 코파일럿' 구독 고객은 별도 요금을 지불하면 코워크를 사용할 수 있다.마이크로소프트는 약 3개월간 코파일럿 코워크 프런티어 시험 운영을 마치고 마이크로소프트365 코파일럿 고객 대상으로 일반 제공을 시작했다고 17일 공식 홈페이지에서 밝혔다.",
+      "summary": "포스텍(POSTECH)은 김철홍 전자전기공학과·IT융합학과 교수, 글로벌 헬스케어 의공학 연구소 박신영 박사, 기계공학과 통합과정 성민식 씨, IT융합공학과 박사과정 김현희 씨 연구팀이 지멘스 헬시니어스 초음파 프로브 연구팀과 함께 손과 발처럼 넓은 부위를 한 번에 찍을 수 있는 3차원 광음향·초음파 통합 영상 시스템을 개발했다고 20일 밝혔다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260719003211",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20260720000007",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-19T07:23:06+09:00",
+      "published_at": "2026-07-20T08:21:54+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.7,
-      "importance_score": 19.4,
+      "score": 19.89,
+      "importance_score": 19.78,
       "matched_keywords": [
-        "ai"
+        "연구"
       ],
       "engagement": null
     },
     {
-      "id": "6b94e78cd4f751e9e8e292164233f132",
-      "index": 5,
-      "title": "CyberSunil/LLMVault — An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RA",
-      "title_ko": "CyberSunil/LLMVault — AI 보안, 프롬프트 주입, RA를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼",
-      "summary": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
-      "summary_ko": "AI 보안, 프롬프트 삽입, RAG 보안, 에이전트 보안 및 GenAI 침투 테스트를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼입니다.",
-      "url": "https://github.com/CyberSunil/LLMVault",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-07-19T03:23:05+09:00",
-      "popularity": 184,
-      "upvotes": 184,
-      "score": 39.14,
-      "importance_score": 26.0,
-      "matched_keywords": [
-        "ai",
-        "llm",
-        "agent",
-        "rag",
-        "training"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 184
-      }
-    },
-    {
       "id": "70ca53e35c2fcdd38eb37851cbb0b321",
-      "index": 6,
+      "index": 5,
       "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
       "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
       "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
-      "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
+      "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 - 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
       "url": "https://github.com/KlaatAI/klaatcode",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-19T05:22:42+09:00",
-      "popularity": 139,
-      "upvotes": 139,
-      "score": 38.58,
-      "importance_score": 25.86,
+      "published_at": "2026-07-20T05:39:24+09:00",
+      "popularity": 147,
+      "upvotes": 147,
+      "score": 38.82,
+      "importance_score": 26.14,
       "matched_keywords": [
         "ai",
         "agent",
@@ -352,27 +308,55 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 139
+        "value": 147
       }
     },
     {
-      "id": "435eaec282ec92c3c82cf627f52ebf08",
+      "id": "6b94e78cd4f751e9e8e292164233f132",
+      "index": 6,
+      "title": "CyberSunil/LLMVault — An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RA",
+      "title_ko": "CyberSunil/LLMVault — AI 보안, 프롬프트 주입, RA를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼",
+      "summary": "An intentionally vulnerable OWASP LLM Top 10 training platform for AI Security, Prompt Injection, RAG Security, Agent Security, and GenAI penetration testing.",
+      "summary_ko": "AI 보안, 프롬프트 삽입, RAG 보안, 에이전트 보안 및 GenAI 침투 테스트를 위한 의도적으로 취약한 OWASP LLM 상위 10개 교육 플랫폼입니다.",
+      "url": "https://github.com/CyberSunil/LLMVault",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-07-19T03:23:05+09:00",
+      "popularity": 200,
+      "upvotes": 200,
+      "score": 35.56,
+      "importance_score": 18.56,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "rag",
+        "training"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 200
+      }
+    },
+    {
+      "id": "bfa5ec9439d6318d9bf54b664899caa9",
       "index": 7,
-      "title": "Kimi K3, Moonshot AI가 공개한 세계 첫 3T급 오픈 웨이트 모델 (전체 가중치 공개는 7월 27일 예정)",
+      "title": "NVIDIA, RTEB 1위 오픈 임베딩 모델 Nemotron 3 Embed 공개 (feat. RAG, 에이전트 검색)",
       "title_ko": null,
-      "summary": "Kimi K3 소개 Kimi 를 만드는 문샷 AI(Moonshot AI) 가 자사 최고 성능 모델인 Kimi K3 를 공개했습니다. Kimi K3는 2.8조 개(2.8T)의 매개변수(Parameter)를 가진 모델로, 문샷이 \"세계 최초의 오픈 3T급(3T-class) 모델\" 이라고 소개한 대형 언어 모델입니다.",
+      "summary": "Nemotron 3 Embed 소개 검색 증강 생성(Retrieval-Augmented Generation, RAG)이나 여러 단계를 거치는 에이전트 워크플로우에서 실제로 답변의 품질을 좌우하는 것은, 거대 언어 모델 자체보다 그 앞단에서 \"관련 있는 문서를 얼마나 정확히 찾아오는가\"입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301",
+      "url": "https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-19T08:30:04+09:00",
+      "published_at": "2026-07-20T08:30:38+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.93,
-      "importance_score": 19.86,
+      "score": 22.92,
+      "importance_score": 19.84,
       "matched_keywords": [
-        "ai",
+        "rag",
         "모델"
       ],
       "engagement": null
