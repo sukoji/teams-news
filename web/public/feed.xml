@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 08:54:27 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:59:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MoBA: 어텐션에 전문가 혼합을 적용해 긴 문맥을 효율적으로 처리하는 블록 어텐션 (feat. MoonshotAI)</title>
+      <link>https://discuss.pytorch.kr/t/moba-feat-moonshotai/11324</link>
+      <description>MoBA 소개 MoBA는 긴 문맥(long-context)을 다루는 대형 언어 모델(LLM)의 어텐션 비용 문제를, 어디에 주목할지를 모델이 스스로 학습하도록 두어 해결하려는 어텐션 기법입니다. 이름은 Mixture of Block Attention의 약자로, 전문가 혼합(Mixture of Experts, MoE)의 원리를 어텐션 메커니즘에 처음으로 적용한 것이 핵심입니다.</description>
+      <pubDate>Tue, 21 Jul 2026 08:30:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/moba-feat-moonshotai/11324">PyTorch Korea</source>
+      <guid isPermaLink="false">dab69ab1fcfefabf970947d96550dbe1</guid>
+    </item>
+    <item>
+      <title>PDF 표 추출 정확도를 높이는 법 — PyMuPDF4LLM 1.28</title>
+      <link>https://discuss.pytorch.kr/t/pdf-pymupdf4llm-1-28/11355</link>
+      <description>PDF 표 추출 정확도를 높이는 법 — PyMuPDF4LLM 1.28 태그: pymupdf4llm, pdf, table-extraction, rag, llm 카테고리: 읽을거리&amp;정보공유 표 추출, 이제 훨씬 정확하고 빨라집니다. 문서에서 데이터 뽑아보신 분들은 아실 텐데, 표(table)만큼 골치 아픈 게 없습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 08:54:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pdf-pymupdf4llm-1-28/11355">PyTorch Korea</source>
+      <guid isPermaLink="false">f85a527d7078de01e44c2c9c9111ca50</guid>
+    </item>
+    <item>
+      <title>[7월20일] 오픈AI는 왜 유명 작가를 불러 한 시간 동안 '쓴소리'를 들었을까</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=212931</link>
+      <description>\"AI가 소설을 쓴다고? 그 엉터리 모방작을 도대체 누가 읽겠는가.\"파이낸셜타임스(FT) 등에 따르면, 오픈AI는 최근 미국의 베스트셀러 작가 데이브 에거스를 초청, 본사에서 직원 200여명을 대상으로 강연을 열었습니다.분위기는 일반적인 예상과 달랐습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 07:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=212931">AI Times</source>
+      <guid isPermaLink="false">18ba7cf384cfe6384f41a8b8bc3db279</guid>
+    </item>
     <item>
       <title>하루 15,000개 질문에 답하는 Cerebras 사내 지식 베이스 설계 노하우 (feat. pgvector, RRF, MCP)</title>
       <link>https://discuss.pytorch.kr/t/15-000-cerebras-feat-pgvector-rrf-mcp/11329</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mozilla-ai-2026-3-3/11305">PyTorch Korea</source>
       <guid isPermaLink="false">326f11715daa46783242db0556112895</guid>
-    </item>
-    <item>
-      <title>Cura 1T: Agentic Healthcare를 위한 전문 모델</title>
-      <link>https://huggingface.co/papers/2607.15314</link>
-      <description>의료는 고부담 의사소통, 전문가 추론, 워크플로 실행을 포괄하지만 이러한 사용 사례를 함께 다루는 전문 LLM은 여전히 ​​제한적입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15314">Hugging Face Papers</source>
-      <guid isPermaLink="false">0ea0078a44298e9552cf59b8cb1132f8</guid>
-    </item>
-    <item>
-      <title>사전 훈련부터 사후 훈련까지의 추론 이해</title>
-      <link>https://huggingface.co/papers/2607.16097</link>
-      <description>강화 학습(RL)은 복잡한 추론 작업에 대한 대규모 언어 모델(LLM)을 개선하는 데 핵심이 되었지만, RL 사후 훈련은 선행하는 사전 훈련과 별도로 주로 연구됩니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16097">Hugging Face Papers</source>
-      <guid isPermaLink="false">96fe7ed75939b9f4b6c9f8b44dd41dd1</guid>
-    </item>
-    <item>
-      <title>Full-Stack AI Agent Template: AI 에이전트와 RAG를 갖춘 풀스택 앱 생성 템플릿 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/full-stack-ai-agent-template-ai-rag/11325</link>
-      <description>Full-Stack AI Agent Template 소개 Full-Stack AI Agent Template은 AI 에이전트와 RAG를 갖춘 프로덕션급 웹 애플리케이션의 뼈대를 명령 한 번으로 생성해 주는 오픈소스 프로젝트 생성기입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 12:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/full-stack-ai-agent-template-ai-rag/11325">PyTorch Korea</source>
-      <guid isPermaLink="false">d8528f17c5aec7df2b32e03cb5ec7f49</guid>
     </item>
   </channel>
 </rss>

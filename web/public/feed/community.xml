@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 08:54:27 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:59:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MoBA: 어텐션에 전문가 혼합을 적용해 긴 문맥을 효율적으로 처리하는 블록 어텐션 (feat. MoonshotAI)</title>
+      <link>https://discuss.pytorch.kr/t/moba-feat-moonshotai/11324</link>
+      <description>MoBA 소개 MoBA는 긴 문맥(long-context)을 다루는 대형 언어 모델(LLM)의 어텐션 비용 문제를, 어디에 주목할지를 모델이 스스로 학습하도록 두어 해결하려는 어텐션 기법입니다. 이름은 Mixture of Block Attention의 약자로, 전문가 혼합(Mixture of Experts, MoE)의 원리를 어텐션 메커니즘에 처음으로 적용한 것이 핵심입니다.</description>
+      <pubDate>Tue, 21 Jul 2026 08:30:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/moba-feat-moonshotai/11324">PyTorch Korea</source>
+      <guid isPermaLink="false">dab69ab1fcfefabf970947d96550dbe1</guid>
+    </item>
+    <item>
+      <title>PDF 표 추출 정확도를 높이는 법 — PyMuPDF4LLM 1.28</title>
+      <link>https://discuss.pytorch.kr/t/pdf-pymupdf4llm-1-28/11355</link>
+      <description>PDF 표 추출 정확도를 높이는 법 — PyMuPDF4LLM 1.28 태그: pymupdf4llm, pdf, table-extraction, rag, llm 카테고리: 읽을거리&amp;정보공유 표 추출, 이제 훨씬 정확하고 빨라집니다. 문서에서 데이터 뽑아보신 분들은 아실 텐데, 표(table)만큼 골치 아픈 게 없습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 08:54:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pdf-pymupdf4llm-1-28/11355">PyTorch Korea</source>
+      <guid isPermaLink="false">f85a527d7078de01e44c2c9c9111ca50</guid>
+    </item>
     <item>
       <title>하루 15,000개 질문에 답하는 Cerebras 사내 지식 베이스 설계 노하우 (feat. pgvector, RRF, MCP)</title>
       <link>https://discuss.pytorch.kr/t/15-000-cerebras-feat-pgvector-rrf-mcp/11329</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/2026-07-06-12-ai-ml/11202">PyTorch Korea</source>
       <guid isPermaLink="false">17ee393601e6f6ffc6d345f69409ffd9</guid>
-    </item>
-    <item>
-      <title>[GN⁺] AI 2040: 플랜 A - 초지능 경쟁을 늦추기 위한 국제 합의 시나리오</title>
-      <link>https://discuss.pytorch.kr/t/gn-ai-2040-a/11217</link>
-      <description>AI 2040: 플랜 A 글 소개 Plan A 는 초지능 경쟁을 피하기 위한 국제 합의로, AI 연구를 공개하고 여러 국가와 기업이 최전선에 합류한 뒤 인간 능력 범위에서 천천히 확장해 2040년에 초지능으로 전환하는 정책 시나리오임 핵심 수단은 AI R&amp;D의 완전한 투명성 , 국가 간 검증이 가능한 안전장치, 컴퓨트 기반 상호 억제이며, 비밀리에 경쟁하는 소수 기업 대신 여러 국가의 수십…</description>
-      <pubDate>Sun, 12 Jul 2026 20:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gn-ai-2040-a/11217">PyTorch Korea</source>
-      <guid isPermaLink="false">0c9a5285f083d6d5b08a2ce4fbade1ee</guid>
-    </item>
-    <item>
-      <title>JoyAI-Echo: 최대 5분 길이의 멀티샷 오디오-비디오를 생성하는 오픈소스 모델</title>
-      <link>https://discuss.pytorch.kr/t/joyai-echo-5/11207</link>
-      <description>JoyAI-Echo 소개 긴 영상을 생성하는 모델은 오랫동안 세 가지 문제에 시달렸습니다. 프레임이 쌓일수록 오차가 누적되고, 시간축을 따라 일관성이 무너지며, 지연 시간이 커서 대화형 시나리오에 쓰기 어렵다는 것입니다. 몇 초짜리 짧은 영상은 잘 만들어도, 인물의 얼굴과 목소리가 몇 분 동안 유지되는 긴 이야기를 만드는 일은 여전히 까다롭습니다.</description>
-      <pubDate>Sun, 12 Jul 2026 18:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/joyai-echo-5/11207">PyTorch Korea</source>
-      <guid isPermaLink="false">6eb90df7176ad601998ace83935aeac1</guid>
     </item>
   </channel>
 </rss>
