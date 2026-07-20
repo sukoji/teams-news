@@ -5,9 +5,117 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Jul 2026 08:59:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 12:55:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Cura 1T: Agentic Healthcare를 위한 전문 모델</title>
+      <link>https://huggingface.co/papers/2607.15314</link>
+      <description>의료는 고부담 의사소통, 전문가 추론, 워크플로 실행을 포괄하지만 이러한 사용 사례를 함께 다루는 전문 LLM은 여전히 ​​제한적입니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15314">Hugging Face Papers</source>
+      <guid isPermaLink="false">0ea0078a44298e9552cf59b8cb1132f8</guid>
+    </item>
+    <item>
+      <title>사전 훈련부터 사후 훈련까지의 추론 이해</title>
+      <link>https://huggingface.co/papers/2607.16097</link>
+      <description>강화 학습(RL)은 복잡한 추론 작업에 대한 대규모 언어 모델(LLM)을 개선하는 데 핵심이 되었지만, RL 사후 훈련은 선행하는 사전 훈련과 별도로 주로 연구됩니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16097">Hugging Face Papers</source>
+      <guid isPermaLink="false">96fe7ed75939b9f4b6c9f8b44dd41dd1</guid>
+    </item>
+    <item>
+      <title>RecGPT-V3 기술 보고서</title>
+      <link>https://huggingface.co/papers/2607.15591</link>
+      <description>LLM(대형 언어 모델)은 추천 시스템을 과거 행동의 동시 발생 패턴 일치에서 이를 추진하는 의도에 대한 추론으로 전환하고 있습니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15591">Hugging Face Papers</source>
+      <guid isPermaLink="false">c7677b2e6ce53240cfea83987d1c2d0d</guid>
+    </item>
+    <item>
+      <title>정책에 따른 델타 증류</title>
+      <link>https://huggingface.co/papers/2607.15161</link>
+      <description>정책에 따른 증류(On-policy distillation)는 교사 모델에서 토큰 수준 감독을 제공함으로써 보상 모델에 의해 부과된 제약을 완화하는 강화 학습의 대안적인 사후 훈련 방법입니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15161">Hugging Face Papers</source>
+      <guid isPermaLink="false">ef52df35ac5e71ea39ef308fc8962c6b</guid>
+    </item>
+    <item>
+      <title>xHC: 확장된 하이퍼 연결</title>
+      <link>https://huggingface.co/papers/2607.14530</link>
+      <description>HC(Hyper-Connections)는 Transformer의 잔여 스트림을 N 병렬 스트림으로 확장하여 모델 너비와 깊이를 넘어서는 메모리 확장 형태를 제공합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14530">Hugging Face Papers</source>
+      <guid isPermaLink="false">20f843a8139ebaabc288db418056e05a</guid>
+    </item>
+    <item>
+      <title>인간 중심에서 에이전트 코드 검토까지: 다양한 세대의 생성 AI 기술이 검토 품질에 미치는 영향</title>
+      <link>https://huggingface.co/papers/2607.13196</link>
+      <description>코드 검토는 코드 통합 전에 소프트웨어 품질을 유지하는 데 도움이 되지만 검토자에게 상당한 작업량을 부과하기도 합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13196">Hugging Face Papers</source>
+      <guid isPermaLink="false">45d2882caa867006831beb67635cb985</guid>
+    </item>
+    <item>
+      <title>루피를 반복하세요!</title>
+      <link>https://huggingface.co/papers/2607.16051</link>
+      <description>현재까지 가장 강력한 루프 트랜스포머인 Loopie를 소개합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16051">Hugging Face Papers</source>
+      <guid isPermaLink="false">d9f9873c5644c6af5233cc7c499f1342</guid>
+    </item>
+    <item>
+      <title>재귀 하네스 자체 개선</title>
+      <link>https://huggingface.co/papers/2607.15524</link>
+      <description>모델-하네스 공진화에서 하네스는 단순한 추론 시간 발판이 아니라 실행 추적을 통해 미래의 기반 모델을 형성할 수 있는 데이터 생성 구성 요소입니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15524">Hugging Face Papers</source>
+      <guid isPermaLink="false">bc1434ce6fed383cf2756d2fa7071e98</guid>
+    </item>
+    <item>
+      <title>시청각 플라밍고: 길고 복잡한 비디오를 위한 개방형 시청각 인텔리전스</title>
+      <link>https://huggingface.co/papers/2607.16107</link>
+      <description>우리는 오디오, 이미지, 긴 형식의 비디오에 대한 공동 이해와 추론을 위한 완전 개방형 최첨단 시청각 대형 언어 모델(AV-LLM)인 AV-Flamingo(Audio-Visual Flamingo)를 제시합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16107">Hugging Face Papers</source>
+      <guid isPermaLink="false">35d07def07649271e98f902b7bba6912</guid>
+    </item>
+    <item>
+      <title>DSWorld: 효율적인 자율 에이전트를 위한 데이터 과학 세계 모델</title>
+      <link>https://huggingface.co/papers/2607.15901</link>
+      <description>데이터 이해 및 의사 결정의 강력한 기능에도 불구하고 자율 데이터 과학 에이전트는 여전히 값비싼 계산을 포함하는 시행착오 워크플로에 크게 의존합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15901">Hugging Face Papers</source>
+      <guid isPermaLink="false">73146054fec64ff2091ff3774694a8c1</guid>
+    </item>
+    <item>
+      <title>VideoRAE: 표현 자동 인코더를 통해 생성 모델링을 위한 비디오 기반 모델 길들이기</title>
+      <link>https://huggingface.co/papers/2607.14088</link>
+      <description>비디오 생성 모델은 일반적으로 3D-VAE(3D Variational Autoencoder)가 학습한 잠재 공간에 의존합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14088">Hugging Face Papers</source>
+      <guid isPermaLink="false">b912b8bc6c84fda6b3542160aa32356e</guid>
+    </item>
+    <item>
+      <title>Xiaomi-Robotics-1: 100,000시간이 넘는 실제 궤도로 비전-언어-동작 모델 확장</title>
+      <link>https://huggingface.co/papers/2607.15330</link>
+      <description>우리는 (1) 다양한 언어 지시에 따라 외부의 보이지 않는 환경에서 광범위한 모바일 조작 작업을 수행할 수 있는 기본 비전-언어-행동(VLA) 모델인 Xiaomi-Robotics-1을 제시합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15330">Hugging Face Papers</source>
+      <guid isPermaLink="false">7fb86355a335dc4461eade2ab3f43195</guid>
+    </item>
     <item>
       <title>🥇금주의 최고 AI 논문</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-16b</link>
@@ -349,114 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2605.10834">Hugging Face Papers</source>
       <guid isPermaLink="false">5bb4626f529be36839eaba44767cdc3f</guid>
-    </item>
-    <item>
-      <title>최신 에이전트 시스템의 자체 개선: 설문 조사</title>
-      <link>https://huggingface.co/papers/2607.13104</link>
-      <description>자체 개선되는 자율 에이전트는 연구 프로토타입에서 배포된 시스템으로 이동하고 있습니다. 주요 목표는 인간의 입력이 최소화되거나 전혀 없는 경험을 통해 제어 가능한 진화 또는 적응입니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13104">Hugging Face Papers</source>
-      <guid isPermaLink="false">efa72666dc1cfe0d6ebeeed20e9f72b2</guid>
-    </item>
-    <item>
-      <title>PalmClaw: 휴대폰용 기본 온디바이스 에이전트 프레임워크</title>
-      <link>https://huggingface.co/papers/2607.13027</link>
-      <description>LLM(대형 언어 모델) 에이전트는 응답 생성을 넘어 도구 호출, 결과 관찰, 다음 작업 반복 결정을 통해 다단계 작업 실행으로 나아갔습니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13027">Hugging Face Papers</source>
-      <guid isPermaLink="false">c0388f40602b7eb91c557080e7cb574b</guid>
-    </item>
-    <item>
-      <title>AgentCompass: 에이전트 기능을 위한 통합 평가 인프라</title>
-      <link>https://huggingface.co/papers/2607.13705</link>
-      <description>LLM(대형 언어 모델)이 자율 에이전트로 발전함에 따라 통합 평가 인프라의 필요성이 중요해졌습니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13705">Hugging Face Papers</source>
-      <guid isPermaLink="false">ea9634566c073dca7ec4211041e757a1</guid>
-    </item>
-    <item>
-      <title>픽셀 공간 확산 변압기에 대한 물질 등록</title>
-      <link>https://huggingface.co/papers/2605.16147</link>
-      <description>ViT(Vision Transformers)는 기능 맵 품질을 저하시키는 높은 표준 패치 토큰 이상값을 나타내는 것으로 알려져 있으며, 이 문제는 레지스터 토큰으로 효과적으로 완화됩니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2605.16147">Hugging Face Papers</source>
-      <guid isPermaLink="false">a757052179b0c5ed782ea02ff7841fc3</guid>
-    </item>
-    <item>
-      <title>Boogu-Image-0.1: 오픈 소스 통합 다중 모드 이해 및 생성 강화</title>
-      <link>https://huggingface.co/papers/2607.13125</link>
-      <description>Base, Turbo, Edit 및 Edit-Turbo 변형으로 구성된 오픈 소스 통합 다중 모드 이해 및 생성 모델 제품군인 Boogu-Image-0.1을 소개합니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13125">Hugging Face Papers</source>
-      <guid isPermaLink="false">3037d72fa013e1e6b7c4745d760e9d09</guid>
-    </item>
-    <item>
-      <title>시끄러운 추적에서 근본 원인까지: 에이전트 최적화를 위한 구조적 궤적 분석 및 원인 추출</title>
-      <link>https://huggingface.co/papers/2607.07702</link>
-      <description>장거리 에이전트의 최적화는 LLM(대형 언어 모델)이 에이전트 오류를 ​​진단하고 에이전트 정책을 개선하는 최적화 프로그램 역할을 하는 반사 기반 메커니즘에 점점 더 의존하고 있습니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07702">Hugging Face Papers</source>
-      <guid isPermaLink="false">03f874e18328eb223bc958ad51cad0f2</guid>
-    </item>
-    <item>
-      <title>성공의 흐름에서 에이전트적 실패 추적</title>
-      <link>https://huggingface.co/papers/2607.12747</link>
-      <description>LLM 기반 에이전트 시스템의 오류 속성, 즉 오류 궤적의 어느 단계에서 작업 오류가 발생했는지 식별하는 것은 이러한 시스템을 디버깅하고 개선하는 데 중요합니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.12747">Hugging Face Papers</source>
-      <guid isPermaLink="false">39ef6ee9922d384cdb07eb11dc806640</guid>
-    </item>
-    <item>
-      <title>Hallo4D: 일관된 시공간 생성을 위한 다중 모드 환각 완화</title>
-      <link>https://huggingface.co/papers/2607.12752</link>
-      <description>최근 3D 생성의 발전으로 인상적인 시각적 합성이 가능해졌지만 기존 방법은 기하학적 일관성을 위한 명시적인 메커니즘 없이 2D 확산 감독에 의존하는 경우가 많아 공간 환각 현상이 발생합니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.12752">Hugging Face Papers</source>
-      <guid isPermaLink="false">5e938708c169ff8c39f6797cd2b9d2b2</guid>
-    </item>
-    <item>
-      <title>Vinci2: 지속적인 자기 중심적 비디오에 대한 사전 지원 제공</title>
-      <link>https://huggingface.co/papers/2607.11523</link>
-      <description>지능형 비서는 언제 묻지 않고 말해야 할까요? 지속적인 자기중심적 비디오는 새로운 형태의 지원, 즉 단지 반응적인 지원이 아닌 능동적인 지원을 가능하게 하는 풍부하고 진화하는 맥락을 제공합니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11523">Hugging Face Papers</source>
-      <guid isPermaLink="false">6dbd5e2001a6c08b630eb37a468d838a</guid>
-    </item>
-    <item>
-      <title>링-제로(Ring-Zero): 창발적 추론을 위해 제로 RL을 수조 개의 매개변수로 확장</title>
-      <link>https://huggingface.co/papers/2607.12395</link>
-      <description>인간이 주석을 추가하지 않은 데이터 없이 검증 가능한 보상을 제공하는 강화 학습(종종 제로 RL이라고도 함)은 사고 사슬 추론을 이끌어내기 위한 강력한 패러다임으로 떠올랐습니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.12395">Hugging Face Papers</source>
-      <guid isPermaLink="false">e7b847cc47dc2516aaac9e1494997041</guid>
-    </item>
-    <item>
-      <title>PolicyShiftGuard: 정책 적응형 이미지 가드레일 벤치마킹 및 개선</title>
-      <link>https://huggingface.co/papers/2607.05910</link>
-      <description>이미지 가드레일은 일반적으로 고정된 안전 정책에 따라 훈련 및 평가되며 암묵적으로 안전을 이미지의 본질적인 속성으로 취급합니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.05910">Hugging Face Papers</source>
-      <guid isPermaLink="false">895e36e7c291b67cf608aadf813a8c0a</guid>
-    </item>
-    <item>
-      <title>KnowAct-GUIClaw: 깊이 알고 완벽하게 행동하며 자기 진화하는 기억력과 기술을 갖춘 개인 GUI 도우미</title>
-      <link>https://huggingface.co/papers/2607.12625</link>
-      <description>OpenClaw는 복잡한 작업 자동화를 위한 선도적인 에이전트 프레임워크로 부상했지만 플랫폼 간 GUI 상호 작용 지원이 부족하고 잘 구축된 자체 진화 메커니즘에 직면해 있습니다.</description>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.12625">Hugging Face Papers</source>
-      <guid isPermaLink="false">921a5325fe1556b8c5b77b836cb05e23</guid>
     </item>
   </channel>
 </rss>
