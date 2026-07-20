@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Jul 2026 19:13:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 22:08:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>확산 언어 모델(Diffusion LLM)의 개념과 동작에 대한 연구 정리: LLaDA에서 DiffusionGemma까지</title>
+      <link>https://discuss.pytorch.kr/t/diffusion-llm-llada-diffusiongemma/11311</link>
+      <description>확산 언어 모델(Diffusion LLM)이란 무엇인가 우리가 글을 쓸 때는 대개 첫 단어부터 마지막 단어까지 한 방향으로 써 내려갑니다. 앞 문장을 다 쓰기 전에는 뒤 문장을 확정하기 어렵고, 한 번 뱉은 문장을 되돌아가 통째로 고치는 일도 드뭅니다. 오늘날의 주류 대형 언어 모델(Large Language Model, LLM)도 정확히 이 방식으로 동작합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 20:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/diffusion-llm-llada-diffusiongemma/11311">PyTorch Korea</source>
+      <guid isPermaLink="false">cc94370fafa08b94a98d8b8ee189620e</guid>
+    </item>
     <item>
       <title>AutoSci: 논문 수집부터 반박까지 연구 전 과정을 기억으로 자동화하는 AI 연구 에이전트</title>
       <link>https://discuss.pytorch.kr/t/autosci-ai/11270</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/hermes-hud-web-ui-ai/11209">PyTorch Korea</source>
       <guid isPermaLink="false">4043a63443d7f3f2358d308f70d25bb1</guid>
-    </item>
-    <item>
-      <title>하드웨어 인식 동적 추측 디코딩(DSD): 배치 크기에 맞춰 초안 토큰 수를 조절하는 추론 최적화 (feat. Cohere)</title>
-      <link>https://discuss.pytorch.kr/t/dsd-feat-cohere/11200</link>
-      <description>하드웨어 인식 동적 추측 디코딩(DSD) 소개 대규모 언어 모델(LLM)은 한 번에 토큰 하나씩 생성합니다. 이 순차적 특성 때문에 실제 서비스에서 체감하는 속도는 GPU의 연산 능력이 아니라 "다음 토큰 하나를 얼마나 빨리 뽑아내느냐"에 크게 좌우됩니다. 이 병목을 완화하는 대표적인 기법이 추측 디코딩(Speculative Decoding, SD) 입니다.</description>
-      <pubDate>Sun, 12 Jul 2026 10:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/dsd-feat-cohere/11200">PyTorch Korea</source>
-      <guid isPermaLink="false">088eae0166b61dfbc56e6398df023d10</guid>
     </item>
   </channel>
 </rss>

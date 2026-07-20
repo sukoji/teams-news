@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Jul 2026 19:13:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 22:08:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>확산 언어 모델(Diffusion LLM)의 개념과 동작에 대한 연구 정리: LLaDA에서 DiffusionGemma까지</title>
+      <link>https://discuss.pytorch.kr/t/diffusion-llm-llada-diffusiongemma/11311</link>
+      <description>확산 언어 모델(Diffusion LLM)이란 무엇인가 우리가 글을 쓸 때는 대개 첫 단어부터 마지막 단어까지 한 방향으로 써 내려갑니다. 앞 문장을 다 쓰기 전에는 뒤 문장을 확정하기 어렵고, 한 번 뱉은 문장을 되돌아가 통째로 고치는 일도 드뭅니다. 오늘날의 주류 대형 언어 모델(Large Language Model, LLM)도 정확히 이 방식으로 동작합니다.</description>
+      <pubDate>Mon, 20 Jul 2026 20:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/diffusion-llm-llada-diffusiongemma/11311">PyTorch Korea</source>
+      <guid isPermaLink="false">cc94370fafa08b94a98d8b8ee189620e</guid>
+    </item>
+    <item>
+      <title>팀스파르타 초경량 언어모델, 'K-AI 리더보드' 초고난도 추론 1위</title>
+      <link>https://zdnet.co.kr/view/?no=20260720183030</link>
+      <description>[지디넷코리아]팀스파르타(대표 이범규)가 자체 개발한 초경량 언어모델 ‘K-AX 스파르탄 1.8B’가 과학기술정보통신부와 한국지능정보사회진흥원(NIA)이 운영하는 ‘K-AI 리더보드’의 초고난도 추론 평가인 ‘HLE(Ko)’ 분야에서 1위를 차지했다.이번 성과에 대해 회사는 "대형 모델 중심의 AI 시장에서 독자적인 초경량 모델의 압도적인 효율성과 고난도 추론 성능을 입증했다는 점에서 의의…</description>
+      <pubDate>Mon, 20 Jul 2026 18:30:30 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260720183030">ZDNet Korea</source>
+      <guid isPermaLink="false">4947853aeeec569b6dbce3892c86964a</guid>
+    </item>
+    <item>
+      <title>Agon: 추론의 암시적 라이벌 등급을 사용하는 경쟁적 교차 모델 RL</title>
+      <link>https://huggingface.co/papers/2607.07690</link>
+      <description>검증 가능한 보상(예: GRPO)을 통한 강화 학습은 오늘날 추론 모델의 엔진이지만 최종 답변에만 등급을 매깁니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07690">Hugging Face Papers</source>
+      <guid isPermaLink="false">49ccc7d694f8f7cab746935c10a16ac0</guid>
+    </item>
+    <item>
+      <title>Codex CLI의 Subagent 세션 로그가 수백 GB까지 증가해 디스크를 소진하는 문제</title>
+      <link>https://news.hada.io/topic?id=31618</link>
+      <description>Codex CLI가 Resume된 장기 세션에서 Subagent를 반복 생성할 때, ~/.codex/sessions 아래의 JSONL 세션 파일이 비정상적으로 증가하는 문제가 보고됨 공개 사례에서는 하나의 Resume된 부모 세션에서 2,393개의 Subagent 세션 파일이 생성됐으며, 이 파일들이 약 731.5GiB를 차지함</description>
+      <pubDate>Mon, 20 Jul 2026 21:22:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=31618">GeekNews</source>
+      <guid isPermaLink="false">529eb1659f14c9a4bfed2fe291c216af</guid>
+    </item>
     <item>
       <title>Saivineeth147/lora-speedrun — Speedrunning LoRA 미세 조정: 작업 정지, 하드웨어 정지, 공개 벽시계 리더보드. modded-n</title>
       <link>https://github.com/Saivineeth147/lora-speedrun</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.15901">Hugging Face Papers</source>
       <guid isPermaLink="false">73146054fec64ff2091ff3774694a8c1</guid>
-    </item>
-    <item>
-      <title>VideoRAE: 표현 자동 인코더를 통해 생성 모델링을 위한 비디오 기반 모델 길들이기</title>
-      <link>https://huggingface.co/papers/2607.14088</link>
-      <description>비디오 생성 모델은 일반적으로 3D-VAE(3D Variational Autoencoder)가 학습한 잠재 공간에 의존합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14088">Hugging Face Papers</source>
-      <guid isPermaLink="false">b912b8bc6c84fda6b3542160aa32356e</guid>
-    </item>
-    <item>
-      <title>OpenAI, Codex 모델 컨텍스트 크기를 372k에서 272k로 축소</title>
-      <link>https://news.hada.io/topic?id=31611</link>
-      <description>OpenAI Codex의 번들 모델 메타데이터 를 갱신하면서 모델 컨텍스트 크기를 372k에서 272k로 줄인 변경을 release/0.144 브랜치에 백포트함 PR #33972는 agent/hotfix-0.144-model-metadata 브랜치에서 Codex 0.144 릴리스 로 변경 사항을...</description>
-      <pubDate>Mon, 20 Jul 2026 12:33:20 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=31611">GeekNews</source>
-      <guid isPermaLink="false">3cd41142aee7e069e45c436910e10d10</guid>
-    </item>
-    <item>
-      <title>Xiaomi-Robotics-1: 100,000시간이 넘는 실제 궤도로 비전-언어-동작 모델 확장</title>
-      <link>https://huggingface.co/papers/2607.15330</link>
-      <description>우리는 (1) 다양한 언어 지시에 따라 외부의 보이지 않는 환경에서 광범위한 모바일 조작 작업을 수행할 수 있는 기본 비전-언어-행동(VLA) 모델인 Xiaomi-Robotics-1을 제시합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15330">Hugging Face Papers</source>
-      <guid isPermaLink="false">7fb86355a335dc4461eade2ab3f43195</guid>
-    </item>
-    <item>
-      <title>NVIDIA, RTEB 1위 오픈 임베딩 모델 Nemotron 3 Embed 공개 (feat. RAG, 에이전트 검색)</title>
-      <link>https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308</link>
-      <description>Nemotron 3 Embed 소개 검색 증강 생성(Retrieval-Augmented Generation, RAG)이나 여러 단계를 거치는 에이전트 워크플로우에서 실제로 답변의 품질을 좌우하는 것은, 거대 언어 모델 자체보다 그 앞단에서 "관련 있는 문서를 얼마나 정확히 찾아오는가"입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 08:30:38 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308">PyTorch Korea</source>
-      <guid isPermaLink="false">bfa5ec9439d6318d9bf54b664899caa9</guid>
     </item>
   </channel>
 </rss>
