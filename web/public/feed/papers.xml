@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 18:28:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 20:48:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GigaChat 오디오: 시간 인식 대형 오디오 언어 모델</title>
+      <link>https://huggingface.co/papers/2607.10387</link>
+      <description>긴 녹음의 임시 접지는 오디오 조절 LLM의 경우 여전히 어려운 문제입니다. 최대 120분의 입력에 걸쳐 명시적인 타임스탬프를 사용하여 질문에 답변하는 시간 인식 오디오 LLM을 제시합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.10387">Hugging Face Papers</source>
+      <guid isPermaLink="false">2971443d54179106a5adc108d2549554</guid>
+    </item>
+    <item>
+      <title>의미 공간의 기하학: 트랜스포머 아키텍처를 위한 연속적인 기하학적 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.17146</link>
+      <description>우리는 의미론적 파이버 번들 calE = calM 곱하기 R^d에 대한 적분 미분 방정식(IDE)으로 Transformer 아키텍처의 이산 대수 연산을 모델링하는 연속 기하학적 프레임워크를 제시합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17146">Hugging Face Papers</source>
+      <guid isPermaLink="false">78627d153dfcb6b0841f8c99bcc3d569</guid>
+    </item>
+    <item>
+      <title>ShotPlan: 학습 가능한 계획 토큰을 사용한 영화 같은 비디오 생성</title>
+      <link>https://huggingface.co/papers/2607.17675</link>
+      <description>현재 비디오 생성 모델은 싱글 샷 생성에서 인상적인 결과를 달성하지만 일관된 내러티브와 효과적인 멀티 샷 구성을 위해 명시적인 쇼가 필요한 영화 비디오 생성에서는 여전히 제한적입니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17675">Hugging Face Papers</source>
+      <guid isPermaLink="false">fee719c5323d02c9c7c2f0c86d004ec4</guid>
+    </item>
+    <item>
+      <title>다중 모드 대형 언어 모델이 OCT를 이해할 수 있습니까?</title>
+      <link>https://huggingface.co/papers/2607.16609</link>
+      <description>OCT(광간섭단층촬영) 영상은 망막 질환의 진단과 치료에 필수적입니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16609">Hugging Face Papers</source>
+      <guid isPermaLink="false">5ba5cc8a2919accd6087a7cc62cbad12</guid>
+    </item>
     <item>
       <title>DeepSearch-World: 검증 가능한 환경에서 Deep Search 에이전트를 위한 자체 증류</title>
       <link>https://huggingface.co/papers/2607.07820</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.16107">Hugging Face Papers</source>
       <guid isPermaLink="false">35d07def07649271e98f902b7bba6912</guid>
-    </item>
-    <item>
-      <title>DSWorld: 효율적인 자율 에이전트를 위한 데이터 과학 세계 모델</title>
-      <link>https://huggingface.co/papers/2607.15901</link>
-      <description>데이터 이해 및 의사 결정의 강력한 기능에도 불구하고 자율 데이터 과학 에이전트는 여전히 값비싼 계산을 포함하는 시행착오 워크플로에 크게 의존합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15901">Hugging Face Papers</source>
-      <guid isPermaLink="false">73146054fec64ff2091ff3774694a8c1</guid>
-    </item>
-    <item>
-      <title>VideoRAE: 표현 자동 인코더를 통해 생성 모델링을 위한 비디오 기반 모델 길들이기</title>
-      <link>https://huggingface.co/papers/2607.14088</link>
-      <description>비디오 생성 모델은 일반적으로 3D-VAE(3D Variational Autoencoder)가 학습한 잠재 공간에 의존합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14088">Hugging Face Papers</source>
-      <guid isPermaLink="false">b912b8bc6c84fda6b3542160aa32356e</guid>
-    </item>
-    <item>
-      <title>Xiaomi-Robotics-1: 100,000시간이 넘는 실제 궤도로 비전-언어-동작 모델 확장</title>
-      <link>https://huggingface.co/papers/2607.15330</link>
-      <description>우리는 (1) 다양한 언어 지시에 따라 외부의 보이지 않는 환경에서 광범위한 모바일 조작 작업을 수행할 수 있는 기본 비전-언어-행동(VLA) 모델인 Xiaomi-Robotics-1을 제시합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15330">Hugging Face Papers</source>
-      <guid isPermaLink="false">7fb86355a335dc4461eade2ab3f43195</guid>
-    </item>
-    <item>
-      <title>🥇금주의 최고 AI 논문</title>
-      <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-16b</link>
-      <description>금주의 상위 AI 논문(7월 13일 - 7월 19일)</description>
-      <pubDate>Mon, 20 Jul 2026 01:32:34 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-16b">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">566aad7c473f1a87e91be3a20e41d290</guid>
     </item>
   </channel>
 </rss>
