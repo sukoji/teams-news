@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 15:30:12 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 18:28:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OLMo 기준급 '오픈소스 파운데이션 모델' 허깅페이스에 한국 스타트업이 공개</title>
+      <link>https://discuss.pytorch.kr/t/olmo/11367</link>
+      <description>Aether-7B-5Attn 소개 — 학습 데이터와 코드를 전부 공개한 한국 최초의 파운데이션 모델 주권형 AI 논의에서 가장 자주 흐려지는 구분이 있습니다. 가중치만 공개한 모델(open-weight) 과 모델을 처음부터 다시 만들 수 있게 공개한 모델(open-source) 은 같은 말이 아닙니다.</description>
+      <pubDate>Tue, 21 Jul 2026 17:06:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/olmo/11367">PyTorch Korea</source>
+      <guid isPermaLink="false">bde8ce9f969c3508d21c105ba6883e09</guid>
+    </item>
+    <item>
+      <title>AnythingLLM: 문서와 대화하고 AI 에이전트를 실행하는 로컬 우선 올인원 AI 앱</title>
+      <link>https://discuss.pytorch.kr/t/anythingllm-ai-ai/11321</link>
+      <description>AnythingLLM 소개 AnythingLLM은 문서를 올려 대화하고 AI 에이전트를 실행하는 과정을 하나의 애플리케이션 안에서 처리하는 로컬 우선(local-first) AI 앱입니다. 여러 도구를 조합해 직접 파이프라인을 꾸미는 대신, 문서 수집과 임베딩, 벡터 검색, 대화 UI, 다중 사용자 관리를 한 번의 설치로 갖추는 것을 목표로 합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 16:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anythingllm-ai-ai/11321">PyTorch Korea</source>
+      <guid isPermaLink="false">cef73509dd1f596a7b86817e4c9da6eb</guid>
+    </item>
     <item>
       <title>Vidu S1: Shengshu가 공개한 음성으로 실시간 제어하는 무한 길이 대화형 영상 생성 모델 (및 이에 대한 연구)</title>
       <link>https://discuss.pytorch.kr/t/vidu-s1-shengshu/11332</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/social-media-skills-claude/11224">PyTorch Korea</source>
       <guid isPermaLink="false">1008e57662e80aeeb02646a7b0bce25c</guid>
-    </item>
-    <item>
-      <title>talk-normal: 어떤 LLM이든 장황한 답변을 간결하게 만드는 시스템 프롬프트</title>
-      <link>https://discuss.pytorch.kr/t/talk-normal-llm/11208</link>
-      <description>talk-normal 소개 LLM 에게 간단한 질문을 던졌을 때 필요 이상으로 긴 답변이 돌아온 경험은 흔합니다. 불릿 목록과 소제목, 반복되는 요약이 붙어 실제로 필요한 정보는 몇 문장인데도 화면을 한참 채우는 식입니다. 이런 장황함(verbosity)은 읽는 시간을 늘리고 핵심을 흐립니다.</description>
-      <pubDate>Mon, 13 Jul 2026 15:30:17 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/talk-normal-llm/11208">PyTorch Korea</source>
-      <guid isPermaLink="false">25ddcc2ee34db775361b8be698fd644d</guid>
-    </item>
-    <item>
-      <title>BigSet: 문장 하나로 웹에서 검증된 데이터셋을 만들고 자동으로 갱신하는 에이전트 도구</title>
-      <link>https://discuss.pytorch.kr/t/bigset/11225</link>
-      <description>BigSet 소개 BigSet은 원하는 데이터를 평범한 문장으로 설명하면, 자율 에이전트가 살아 있는 웹을 조사해 검증된 구조화 데이터셋으로 만들어 주는 도구입니다. 예를 들어 "현재 엔지니어를 채용 중인 YC 회사와 그 회사의 펀딩 단계, 위치, 열려 있는 채용 공고 수" 같은 문장을 입력하면, 스키마를 자동으로 추론하고 개체를 조사·검증·중복 제거한 뒤 표 형태로 돌려줍니다.</description>
-      <pubDate>Mon, 13 Jul 2026 14:30:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bigset/11225">PyTorch Korea</source>
-      <guid isPermaLink="false">af3056aabbc94a55d7f8fca149e0e181</guid>
     </item>
   </channel>
 </rss>
