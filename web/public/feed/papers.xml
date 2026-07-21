@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 20:48:01 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 22:54:50 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Open-AoE: 구체화된 학습을 위한 개방형 자기중심적 조작 데이터세트 및 툴체인</title>
+      <link>https://huggingface.co/papers/2607.14183</link>
+      <description>인간 조작에 대한 자기 중심적 비디오는 구현된 지능에 대한 확장 가능한 감독을 제공하지만 기존 리소스는 저비용 연속 캡처, 조작 수준의 구조화된 주석 및 재사용 가능한 기능을 결합하는 경우가 거의 없습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14183">Hugging Face Papers</source>
+      <guid isPermaLink="false">1d01b5eed196f16f9fc19f8639437615</guid>
+    </item>
+    <item>
+      <title>언어 모델은 분자 결합을 꿈꾸는가? 공간 제약 조건 하에서 LLM 벤치마킹</title>
+      <link>https://huggingface.co/papers/2607.18144</link>
+      <description>구조 기반 약물 설계(SBDD)는 종종 다른 공간적 제약으로 보완되는 단백질 표적의 3D 구조를 활용하여 후보 결합 분자를 생성합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18144">Hugging Face Papers</source>
+      <guid isPermaLink="false">b358a5a94bbb3f1f7dbedb1bc6b63631</guid>
+    </item>
+    <item>
+      <title>다중 교사 정책 기반 증류에서 도구 호출 경계 드리프트 진단 및 보정</title>
+      <link>https://huggingface.co/papers/2607.07050</link>
+      <description>에이전트 언어 모델은 도구 호출 시기, 도구 응답 사용 시기, 직접 응답 시기를 학습해야 합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.07050">Hugging Face Papers</source>
+      <guid isPermaLink="false">5411d1ff5c58945220c53f15d66d4a46</guid>
+    </item>
+    <item>
+      <title>ReViV: 단안 자기중심적 비디오에서 뷰어와 뷰를 4D로 재구성</title>
+      <link>https://huggingface.co/papers/2607.17790</link>
+      <description>웨어러블 전면 카메라와 같은 자기 중심적 장치는 인간 관찰자와 주변 환경 사이의 지속적인 상호 작용을 포착할 수 있는 고유한 관점을 제공합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17790">Hugging Face Papers</source>
+      <guid isPermaLink="false">9385bc763a4e64d5f814e2da57f19aba</guid>
+    </item>
     <item>
       <title>GigaChat 오디오: 시간 인식 대형 오디오 언어 모델</title>
       <link>https://huggingface.co/papers/2607.10387</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.14530">Hugging Face Papers</source>
       <guid isPermaLink="false">20f843a8139ebaabc288db418056e05a</guid>
-    </item>
-    <item>
-      <title>인간 중심에서 에이전트 코드 검토까지: 다양한 세대의 생성 AI 기술이 검토 품질에 미치는 영향</title>
-      <link>https://huggingface.co/papers/2607.13196</link>
-      <description>코드 검토는 코드 통합 전에 소프트웨어 품질을 유지하는 데 도움이 되지만 검토자에게 상당한 작업량을 부과하기도 합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13196">Hugging Face Papers</source>
-      <guid isPermaLink="false">45d2882caa867006831beb67635cb985</guid>
-    </item>
-    <item>
-      <title>루피를 반복하세요!</title>
-      <link>https://huggingface.co/papers/2607.16051</link>
-      <description>현재까지 가장 강력한 루프 트랜스포머인 Loopie를 소개합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16051">Hugging Face Papers</source>
-      <guid isPermaLink="false">d9f9873c5644c6af5233cc7c499f1342</guid>
-    </item>
-    <item>
-      <title>재귀 하네스 자체 개선</title>
-      <link>https://huggingface.co/papers/2607.15524</link>
-      <description>모델-하네스 공진화에서 하네스는 단순한 추론 시간 발판이 아니라 실행 추적을 통해 미래의 기반 모델을 형성할 수 있는 데이터 생성 구성 요소입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15524">Hugging Face Papers</source>
-      <guid isPermaLink="false">bc1434ce6fed383cf2756d2fa7071e98</guid>
-    </item>
-    <item>
-      <title>시청각 플라밍고: 길고 복잡한 비디오를 위한 개방형 시청각 인텔리전스</title>
-      <link>https://huggingface.co/papers/2607.16107</link>
-      <description>우리는 오디오, 이미지, 긴 형식의 비디오에 대한 공동 이해와 추론을 위한 완전 개방형 최첨단 시청각 대형 언어 모델(AV-LLM)인 AV-Flamingo(Audio-Visual Flamingo)를 제시합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16107">Hugging Face Papers</source>
-      <guid isPermaLink="false">35d07def07649271e98f902b7bba6912</guid>
     </item>
   </channel>
 </rss>

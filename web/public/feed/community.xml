@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 20:48:01 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 22:54:50 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Error Diffusion: 역전파 없이 Dale의 원리를 지키는 이중 스트림 신경망 (feat. Sakana AI)</title>
+      <link>https://discuss.pytorch.kr/t/error-diffusion-dale-feat-sakana-ai/11365</link>
+      <description>Error Diffusion 소개 우리 뇌 속의 뉴런에게는 한 가지 엄격한 규칙이 있습니다. 어떤 뉴런은 다른 뉴런을 흥분 시키기만 하고, 어떤 뉴런은 억제 시키기만 합니다. 한 뉴런이 상황에 따라 어떤 연결은 흥분성으로, 어떤 연결은 억제성으로 자유롭게 바꾸는 일은 일어나지 않습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 22:00:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/error-diffusion-dale-feat-sakana-ai/11365">PyTorch Korea</source>
+      <guid isPermaLink="false">2ca4d300da806c72f4bcce9528f954ec</guid>
+    </item>
+    <item>
+      <title>riddle: reMarkable Paper Pro에서 펜으로 쓰면 손글씨로 답하는 비전 LLM 일기장</title>
+      <link>https://discuss.pytorch.kr/t/riddle-remarkable-paper-pro-llm/11269</link>
+      <description>riddle 소개 riddle은 reMarkable Paper Pro 전자잉크 태블릿을 위한 일기장 애플리케이션입니다. 펜으로 페이지에 글을 쓰고 잠시 펜을 놓으면, 일기장이 방금 쓴 잉크를 종이 속으로 빨아들이듯 사라지게 한 뒤, 잠깐 생각하고, 흐르는 손글씨로 답을 한 획씩 써 내려갑니다. 화면 불빛도, 키보드도, 채팅 UI도 없이 종이 위에 잉크가 나타났다 사라지는 경험만 남깁니다.</description>
+      <pubDate>Tue, 21 Jul 2026 21:30:39 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/riddle-remarkable-paper-pro-llm/11269">PyTorch Korea</source>
+      <guid isPermaLink="false">f5a14bb790b8e68300c69d05ac755afe</guid>
+    </item>
     <item>
       <title>Value Axes: 모델과 언어에 따라 달라지는 Claude의 가치관에 대한 연구 (feat. Anthropic)</title>
       <link>https://discuss.pytorch.kr/t/value-axes-claude-feat-anthropic/11260</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/plano-ai/11234">PyTorch Korea</source>
       <guid isPermaLink="false">139dbb87281a8ada17f884728d77c263</guid>
-    </item>
-    <item>
-      <title>LOTUS: 데이터에 LLM과 에이전트 처리를 대규모로 적용하는 시맨틱 연산자 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/lotus-llm/11235</link>
-      <description>LOTUS 소개 LOTUS는 대규모 데이터셋에 LLM과 에이전트 기반 처리를 빠르고 안정적으로 적용하기 위한 프레임워크입니다. 문서 수천 건에서 특정 필드를 뽑거나, 코드베이스 전체를 훑어 버그를 찾거나, 에이전트 로그를 대량으로 분석하는 작업은 결국 "데이터셋의 모든 레코드에 대해 LLM을 반복 호출하는 일"로 귀결됩니다.</description>
-      <pubDate>Tue, 14 Jul 2026 06:30:06 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/lotus-llm/11235">PyTorch Korea</source>
-      <guid isPermaLink="false">3bbab089aafa31826b2c4a1a62a21e58</guid>
-    </item>
-    <item>
-      <title>Nexus: 시계열 예측을 멀티 에이전트 추론 문제로 푸는 프레임워크에 대한 연구 (feat. Google)</title>
-      <link>https://discuss.pytorch.kr/t/nexus-feat-google/11203</link>
-      <description>Nexus 소개: 시계열 예측을 에이전트 추론 문제로 다시 보기 주식 시장이나 부동산 시세를 예측할 때, 우리는 과거의 숫자 흐름만 보지 않습니다. 금리 인상 발표, 신제품 출시, 실적 서프라이즈 같은 사건들을 함께 읽으며 "이번에는 흐름이 꺾이겠구나"를 직감합니다. 그런데 지금까지의 시계열 예측 모델 대부분은 이 절반을 통째로 버린 채 숫자만 외삽해 왔습니다.</description>
-      <pubDate>Mon, 13 Jul 2026 18:30:26 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nexus-feat-google/11203">PyTorch Korea</source>
-      <guid isPermaLink="false">f6d3ff16aec9be7da402987b78f6dd99</guid>
     </item>
   </channel>
 </rss>
