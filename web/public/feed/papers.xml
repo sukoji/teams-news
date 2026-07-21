@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 08:59:24 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:31:03 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>API 호출 에이전트를 위한 환경 없는 합성 데이터 생성</title>
+      <link>https://huggingface.co/papers/2607.16900</link>
+      <description>API 호출 LLM(대형 언어 모델) 에이전트 교육에는 엄청난 양의 고품질 궤적이 필요합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16900">Hugging Face Papers</source>
+      <guid isPermaLink="false">9a013d47574f3e917535f1fc4de58315</guid>
+    </item>
+    <item>
+      <title>OpenLongTail: 롱테일 주행 데이터의 생성적 확장</title>
+      <link>https://huggingface.co/papers/2607.09655</link>
+      <description>강력한 운전 정책을 확장하는 것은 선별된 데이터 세트의 극단적인 사례가 부족하여 근본적으로 병목 현상이 발생합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.09655">Hugging Face Papers</source>
+      <guid isPermaLink="false">5046239d793ac35dfd50e1e64a679fa0</guid>
+    </item>
+    <item>
+      <title>그룹 엔트로피 제어 정책 최적화</title>
+      <link>https://huggingface.co/papers/2607.16850</link>
+      <description>엔트로피 제어는 LLM(대형 언어 모델)의 RL(강화 학습)에 효과적인 도구가 되어 정렬 프로세스 중 탐색-이용 절충의 균형을 맞추는 데 도움이 됩니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16850">Hugging Face Papers</source>
+      <guid isPermaLink="false">2479c094a70af447c8c4fc7e2426c1ec</guid>
+    </item>
+    <item>
+      <title>RynnBrain 1.1: 더욱 유능하고 일반화 가능한 구현 기반 모델을 향하여</title>
+      <link>https://huggingface.co/papers/2607.17977</link>
+      <description>우리는 2B, 9B 및 122B-A10B 스케일에 걸쳐 구현된 기초 모델 제품군인 RynnBrain 1.1을 소개합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17977">Hugging Face Papers</source>
+      <guid isPermaLink="false">78e4c014efd37836381b45bbb4d26ff0</guid>
+    </item>
+    <item>
+      <title>코치로서의 LLM: 검증할 수 없는 작업을 위한 체험 학습</title>
+      <link>https://huggingface.co/papers/2607.18110</link>
+      <description>개방형 작업에 대한 강화 학습(RL)은 LLM의 루브릭 기반 평가를 스칼라 보상으로 압축하여 풍부한 텍스트 피드백을 버리고 응답을 뚜렷한 품질 프로필과 결합합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18110">Hugging Face Papers</source>
+      <guid isPermaLink="false">f2ba37f1908cb56fb2064142af227f15</guid>
+    </item>
+    <item>
+      <title>DiFA: 확산 모델을 위한 추론 시간 순방향 프로세스 정렬</title>
+      <link>https://huggingface.co/papers/2607.17972</link>
+      <description>확산 모델에 대한 일반적인 추론 프레임워크는 생성을 근본적으로 수치 적분의 문제로 공식화합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17972">Hugging Face Papers</source>
+      <guid isPermaLink="false">8b9643e75c8c60a9d0c3fff099a3171b</guid>
+    </item>
+    <item>
+      <title>JoyNexus: VLA 모델을 위한 서비스 지향 다중 테넌트 사후 교육</title>
+      <link>https://huggingface.co/papers/2607.16074</link>
+      <description>VLA(Vision-Language-Action) 모델의 사후 교육은 시뮬레이터, 로봇 구현 및 작업 목표의 다양성으로 인해 필수적입니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16074">Hugging Face Papers</source>
+      <guid isPermaLink="false">fda95d1a7354dce4e48f089d78426753</guid>
+    </item>
+    <item>
+      <title>FlashRT: 에이전트가 실시간 다중 모드 애플리케이션을 배포하도록 안내하는 에이전트 하네스</title>
+      <link>https://huggingface.co/papers/2607.18171</link>
+      <description>음성 에이전트 및 대화형 비디오 생성을 포함한 실시간 다중 모달 애플리케이션은 이기종 모델을 파이프라인으로 구성합니다. 파이프라인의 효율적인 배포에는 배치에 대한 애플리케이션별 결정이 필요합니다.…</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18171">Hugging Face Papers</source>
+      <guid isPermaLink="false">17552ee1496a0ecfaa0e28fb6e5bbb93</guid>
+    </item>
+    <item>
+      <title>SWE-Pruner Pro: Coder LLM은 무엇을 정리해야 할지 이미 알고 있습니다.</title>
+      <link>https://huggingface.co/papers/2607.18213</link>
+      <description>코딩 에이전트의 긴 컨텍스트를 정리하는 것은 효율적인 컨텍스트 관리를 위한 필수 기술이었습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18213">Hugging Face Papers</source>
+      <guid isPermaLink="false">fefd8d65cb5badd6bb3161de8b152b5e</guid>
+    </item>
+    <item>
+      <title>DiffGI: 충실도가 높은 얇은 쉘 3D 생성을 위한 미분 가능한 기하학 이미지</title>
+      <link>https://huggingface.co/papers/2607.13365</link>
+      <description>기존 3D 생성 모델은 주로 암시적 체적 표현에 의존합니다. 이는 방수 토폴로지를 적용하고 의류와 같은 얇은 쉘 및 비다양체 형상을 표현하는 데 어려움을 겪습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13365">Hugging Face Papers</source>
+      <guid isPermaLink="false">646e094b42aab6f5db93ebc9ee7f69cf</guid>
+    </item>
+    <item>
+      <title>LLM 하네스의 부분 상관 검증기 캐스케이드: 오목 로그 확률, 다항식 신뢰성 및 사각지대 천장</title>
+      <link>https://huggingface.co/papers/2607.13918</link>
+      <description>직렬 검증 게이트는 LLM 하니스의 핵심 신뢰성 기본 요소입니다. 후보 응답은 k 검증 호출이 모두 수락하는 경우에만 반환됩니다.</description>
+      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13918">Hugging Face Papers</source>
+      <guid isPermaLink="false">63a1852a117b7a8e960a3e0b78852440</guid>
+    </item>
     <item>
       <title>SVR-R1: 강화 학습에서 자체 검증을 통한 다중 모드 추론 부트스트래핑</title>
       <link>https://huggingface.co/papers/2607.10966</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.14076">Hugging Face Papers</source>
       <guid isPermaLink="false">83e0d44e5c713f487a6315afc1a34956</guid>
-    </item>
-    <item>
-      <title>VideoChat3: 효율적이고 일반적인 비디오 이해를 위한 완전 개방형 비디오 MLLM</title>
-      <link>https://huggingface.co/papers/2607.14935</link>
-      <description>최근 비디오 이해의 발전은 모션, 긴 비디오, 스트리밍 상호 작용을 포괄하여 이 분야를 실제 응용 분야로 발전시켰습니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14935">Hugging Face Papers</source>
-      <guid isPermaLink="false">d5c069a92ef59fcc69c88b154196649a</guid>
-    </item>
-    <item>
-      <title>UniVR: 통합된 시각적 추론을 위한 시각적 공간에서의 사고</title>
-      <link>https://huggingface.co/papers/2607.12800</link>
-      <description>원시 시각 데이터에서 직접 광범위한 세계 지식을 학습하는 것은 지능의 기본 기능입니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.12800">Hugging Face Papers</source>
-      <guid isPermaLink="false">b92eff760c0b6b933373849ea9633c6b</guid>
-    </item>
-    <item>
-      <title>GRASP: Agentic RAG에 대한 세분성 인식 검색 정책</title>
-      <link>https://huggingface.co/papers/2607.10463</link>
-      <description>에이전트 검색 증강 생성(RAG)은 언어 모델이 반복적으로 추론하고, 검색 쿼리를 생성하고, 증거를 검색하고, 답변을 예측할 수 있도록 하여 정적 RAG를 확장합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10463">Hugging Face Papers</source>
-      <guid isPermaLink="false">357a99ae411542585d2833c17b638b4a</guid>
-    </item>
-    <item>
-      <title>분할, 프롬프트, 집계: 언어 모델의 통계적 자체 일관성</title>
-      <link>https://huggingface.co/papers/2607.15277</link>
-      <description>상황 내 학습은 일반적으로 프롬프트가 상황을 지정하고 모델의 출력이 해당 조건부 분포의 추정치로 처리되는 조건부 추론의 한 형태로 해석됩니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15277">Hugging Face Papers</source>
-      <guid isPermaLink="false">28ee465e1c3f78ba639dfcc938d71970</guid>
-    </item>
-    <item>
-      <title>DeepLoop: 루프형 변압기를 위한 깊이 스케일링</title>
-      <link>https://huggingface.co/papers/2607.13491</link>
-      <description>루프형 변환기는 여러 라운드에 대해 컴팩트한 물리적 블록 스택을 적용하여 순차적 계산을 확장하고 저장된 매개변수를 늘리지 않고도 펼쳐진 깊이를 늘립니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13491">Hugging Face Papers</source>
-      <guid isPermaLink="false">9c8b39ac2e3ea00e62f5d8bfa9c24bc5</guid>
-    </item>
-    <item>
-      <title>SEED: 에이전트 강화 학습을 위한 자체 진화 온 정책 증류</title>
-      <link>https://huggingface.co/papers/2607.14777</link>
-      <description>대규모 언어 모델은 다중 회전 상호 작용, 도구 사용 및 환경 피드백과 관련된 장거리 작업을 위한 대화형 에이전트로 점점 더 훈련되고 있습니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14777">Hugging Face Papers</source>
-      <guid isPermaLink="false">f4e92f0bd9cc1913c7f906f8938d0be6</guid>
-    </item>
-    <item>
-      <title>SearchOS-V1: 강력한 개방형 도메인 정보 검색 에이전트 협업을 향하여</title>
-      <link>https://huggingface.co/papers/2607.15257</link>
-      <description>도구 통합형 대규모 언어 모델의 최근 발전으로 인해 웹 검색이 정보 검색 에이전트의 핵심 기능이 되었습니다. 그러나 상호 작용 기록이 늘어남에 따라 상담원은 작업 진행 상황을 추적하는 데 점점 더 어려움을 겪고 있습니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15257">Hugging Face Papers</source>
-      <guid isPermaLink="false">4085f36e0eebb253ad509b740239b4ab</guid>
-    </item>
-    <item>
-      <title>정책 내 증류: 역할, 병리 및 규정 이해하기</title>
-      <link>https://huggingface.co/papers/2607.13399</link>
-      <description>OPD(On-policy distillation)는 LLM 사후 교육의 핵심 패러다임이 되었지만 교육 역학은 여전히 ​​잘 이해되지 않고 있습니다. 우리는 OPD의 역할, 병리 및 규정을 조사하는 체계적인 연구를 제시합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13399">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee7e2d4f76125163825f50e8aaeaa633</guid>
-    </item>
-    <item>
-      <title>MultiRef-Compass: 오디오 비디오에 대한 다중 참조 생성의 종합 평가를 향하여</title>
-      <link>https://huggingface.co/papers/2607.14189</link>
-      <description>MR2AV(Multi-reference-to-Audio-Video) 생성은 여러 참조 및 텍스트 지침에 따라 일관된 오디오-비디오 콘텐츠를 생성하는 것을 목표로 합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14189">Hugging Face Papers</source>
-      <guid isPermaLink="false">8d1d2170730a7c98ccf62d94b76bc3f6</guid>
-    </item>
-    <item>
-      <title>동시 이미지 이해 및 생성: 자체 수정 결합 마르코프 점프 프로세스</title>
-      <link>https://huggingface.co/papers/2607.13188</link>
-      <description>인간의 인지는 이해와 생성을 분리하지 않는다. 화이트보드에 있는 교사가 함께 말하고 그림을 그리면 각 양식이 다른 양식을 재구성합니다. 본 논문에서는 이 결합 루프를 인공 시스템에 적용합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13188">Hugging Face Papers</source>
-      <guid isPermaLink="false">3beb6faa3794660ec3fd72262f5e2cf2</guid>
-    </item>
-    <item>
-      <title>BadWAM: 세계 행동 모델이 올바른 꿈을 꾸지만 잘못 행동할 때</title>
-      <link>https://huggingface.co/papers/2607.15207</link>
-      <description>WAM(World Action Model)은 구체화된 제어를 위한 유망한 기반으로 떠오르고 있습니다. WAM은 동작만 예측하는 대신 동작 생성과 미래 세계 예측을 결합하는 표현을 학습합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15207">Hugging Face Papers</source>
-      <guid isPermaLink="false">3176ca477ee214f7e53800b83f06baf4</guid>
     </item>
   </channel>
 </rss>
