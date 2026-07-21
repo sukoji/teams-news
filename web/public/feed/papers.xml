@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Jul 2026 12:31:03 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 15:30:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ReflectWorld-MM: 개방형 비디오 스트림을 위한 엔터티 지향 다중 모드 메모리 시스템</title>
+      <link>https://huggingface.co/papers/2607.09759</link>
+      <description>세상을 지속적으로 관찰하고, 본 것을 기억하고, 축적된 경험에 대해 추론할 수 있는 보조자를 구축하는 것이 오랜 목표이며, 최근에는 장기 기억을 갖춘 다중 모드 에이전트가…</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.09759">Hugging Face Papers</source>
+      <guid isPermaLink="false">bc73d935833d1d570600b2e692721224</guid>
+    </item>
+    <item>
+      <title>LLM 사후 교육을 위한 증류된 강화 학습</title>
+      <link>https://huggingface.co/papers/2607.17247</link>
+      <description>추론, 적응 및 정렬을 향상하려면 LLM(대형 언어 모델) 사후 교육이 필수적입니다. 기존 방법은 주로 RL(Reinforcement Learning)과 OPD(On-Policy Distillation)라는 두 가지 패러다임을 따릅니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17247">Hugging Face Papers</source>
+      <guid isPermaLink="false">fb2ce748798975e2d6a6d719121e34c5</guid>
+    </item>
+    <item>
+      <title>EvolvingWorld: 대화형 문학 세계에서 공동 진화하는 역할극 에이전트 및 세계 모델을 위한 개방형 스키마 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.17250</link>
+      <description>본 논문에서는 대화형 문학 세계에서 캐릭터와 세계의 공진화를 위한 프레임워크이자 벤치마크인 EvolvingWorld를 소개합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17250">Hugging Face Papers</source>
+      <guid isPermaLink="false">34f81b27e22dd44629a9c8320f15d703</guid>
+    </item>
+    <item>
+      <title>TimeLens2: 다중 모드 LLM을 사용한 일반 비디오 시간 접지</title>
+      <link>https://huggingface.co/papers/2607.17423</link>
+      <description>MLLM(비디오 다중 모드 대형 언어 모델)은 비디오에서 일어나는 일을 설명할 수 있지만 뒷받침하는 증거가 나타나는 시기를 거의 식별하지 못합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17423">Hugging Face Papers</source>
+      <guid isPermaLink="false">0a3c65253d26fe8259c1c628693958ba</guid>
+    </item>
+    <item>
+      <title>HOMIE: 다중 모드 지능형 강화를 통한 인간 객체 중심의 비디오 개인화</title>
+      <link>https://huggingface.co/papers/2607.18217</link>
+      <description>인간 객체 중심 비디오 개인화(HOCVP)는 주제 중심 비디오 생성의 핵심 작업입니다. 그러나 기존 방법에는 두 가지 주요 제한 사항이 있습니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18217">Hugging Face Papers</source>
+      <guid isPermaLink="false">161f7e999c4a653337a90a912ff01ee9</guid>
+    </item>
+    <item>
+      <title>배포 전환 시 충실한 세대를 위한 토큰 수준 비정책 학습</title>
+      <link>https://huggingface.co/papers/2607.17524</link>
+      <description>우리는 사후 교육을 토큰 수준 정확성 예측 작업으로 재구성하는 정책 외 교육 패러다임인 TOPL(토큰 수준 정책 외 라벨링)을 제안합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17524">Hugging Face Papers</source>
+      <guid isPermaLink="false">0420e1d6457f19b624073e645b185cab</guid>
+    </item>
     <item>
       <title>API 호출 에이전트를 위한 환경 없는 합성 데이터 생성</title>
       <link>https://huggingface.co/papers/2607.16900</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.14106">Hugging Face Papers</source>
       <guid isPermaLink="false">a8f71a9f24c956756a759287f2338878</guid>
-    </item>
-    <item>
-      <title>SUFLECA: CAD-이미지 정렬을 위한 기능 학습 확장</title>
-      <link>https://huggingface.co/papers/2607.15058</link>
-      <description>CAD-이미지 정렬은 단일 RGB 이미지에서 객체의 9D 포즈(회전, 이동 및 이방성 크기)를 추정하여 로봇 공학 및 증강 현실에 적용하는 것을 목표로 합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15058">Hugging Face Papers</source>
-      <guid isPermaLink="false">b0fe1db6fb3112cbcaa81adf08df45c4</guid>
-    </item>
-    <item>
-      <title>AsySplat: 긴 시퀀스 장면 모델링을 위한 효율적인 비대칭 3D 가우스 스플래팅</title>
-      <link>https://huggingface.co/papers/2607.10995</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10995">Hugging Face Papers</source>
-      <guid isPermaLink="false">230867c986d4e7a406e529a506031f55</guid>
-    </item>
-    <item>
-      <title>LongStraw: 고정 GPU 예산 하에서 200만 개 이상의 토큰을 초과하는 Long-Context RL</title>
-      <link>https://huggingface.co/papers/2607.14952</link>
-      <description>점점 더 커지는 격차로 인해 추론 컨텍스트 길이와 RL 사후 훈련이 구분됩니다. 추론 시스템은 백만 토큰 컨텍스트에 접근하고 있는 반면, 사후 훈련 워크로드는 종종 256K 토큰 이하로 유지되고 길이에 의존합니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14952">Hugging Face Papers</source>
-      <guid isPermaLink="false">408f90923081be06bf250f95a2db84ea</guid>
-    </item>
-    <item>
-      <title>VIABench: 시각 장애 지원을 위해 시각 장애인으로부터 수집한 종합 비디오 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.14660</link>
-      <description>시각 장애가 있는 개인(VII)은 시각적 정보에 대한 제한된 접근으로 인해 일상적으로 심각한 어려움을 겪고 있습니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14660">Hugging Face Papers</source>
-      <guid isPermaLink="false">7a2c6f6b5babe1a93fe31fe8ac25047b</guid>
-    </item>
-    <item>
-      <title>탐색, 정제 및 모델 병합을 위한 스펙트럼 재배선</title>
-      <link>https://huggingface.co/papers/2607.03065</link>
-      <description>강화 학습은 대규모 언어 모델에 대한 표준 사후 훈련 방법이 되었지만 조밀한 전체 매개변수 업데이트로 인해 두 가지 배포 관련 병목 현상이 발생합니다. 즉, 추론 성능이 억제되고 반영되는 경우가 많습니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.03065">Hugging Face Papers</source>
-      <guid isPermaLink="false">35f4085dbc68452708ab6032d70a0567</guid>
-    </item>
-    <item>
-      <title>픽셀에서 상태까지: 대화형 세계 모델을 게임 엔진으로 다시 생각하기</title>
-      <link>https://huggingface.co/papers/2607.14076</link>
-      <description>플레이어의 행동에 일관되게 반응하는 대화형 세계를 구축하는 것은 오랫동안 컴퓨터 그래픽, 게임 및 인공 지능의 공통 목표였습니다.</description>
-      <pubDate>Fri, 17 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14076">Hugging Face Papers</source>
-      <guid isPermaLink="false">83e0d44e5c713f487a6315afc1a34956</guid>
     </item>
   </channel>
 </rss>
