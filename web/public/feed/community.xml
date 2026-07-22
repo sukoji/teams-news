@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Jul 2026 13:18:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 16:35:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Agents-A1: 모델 크기 대신, 생각하는 능력을 확장해 1T급 성능에 도달한 35B 에이전트 모델</title>
+      <link>https://discuss.pytorch.kr/t/agents-a1-1t-35b/11368</link>
+      <description>Agents-A1 소개 새 팀원이 합류했을 때를 떠올려 봅시다. 우리는 그 사람의 머릿속에 세상 모든 지식을 미리 채워 넣는 대신, 자료를 검색하고 도구를 써보고 중간 결과를 확인하며 시행착오를 거쳐 문제를 풀어내는 " 일하는 방법 "을 익히도록 돕습니다. 최근 대형 언어 모델(Large Language Model, LLM) 연구도 비슷한 갈림길에 서 있습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 14:30:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agents-a1-1t-35b/11368">PyTorch Korea</source>
+      <guid isPermaLink="false">711b797c54cd29e28c454282fcb0c4e8</guid>
+    </item>
+    <item>
+      <title>Code Review Skill: 20여 개 언어와 프레임워크를 다루는 Claude Code 코드 리뷰 스킬</title>
+      <link>https://discuss.pytorch.kr/t/code-review-skill-20-claude-code/11350</link>
+      <description>Code Review Skill 소개 AI 에게 코드 리뷰를 맡기면 "이 부분을 개선하면 좋겠습니다" 같은 두루뭉술한 제안으로 끝나는 경우가 많습니다. 어떤 파일은 꼼꼼히 보고 어떤 파일은 대충 넘어가거나, 리뷰의 깊이와 형식이 매번 달라지기도 합니다. 사람 리뷰어라면 팀의 컨벤션과 언어별 함정을 알고 일관된 기준으로 보지만, 범용 LLM 은 그런 맥락을 매번 새로 잡아야 합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 16:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/code-review-skill-20-claude-code/11350">PyTorch Korea</source>
+      <guid isPermaLink="false">89727b18f04c3ae23726a5eb486de31e</guid>
+    </item>
     <item>
       <title>Anhtropic의 에이전트형 비정렬(Agentic Misalignment)에 대한 최신 연구: 에이전트의 네 가지 정렬 실패 사례</title>
       <link>https://discuss.pytorch.kr/t/anhtropic-agentic-misalignment/11327</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/adala/11240">PyTorch Korea</source>
       <guid isPermaLink="false">5d31a61a37a49fec3c8c4dcbe134add6</guid>
-    </item>
-    <item>
-      <title>WeClaw: 위챗을 Claude, Codex 등 AI 에이전트와 연결하는 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/weclaw-claude-codex-ai/11242</link>
-      <description>WeClaw 소개 WeClaw는 위챗(WeChat)을 Claude, Codex, Gemini, Kimi 같은 AI 에이전트와 연결해 주는 브릿지입니다. 메신저 앱에서 보낸 메시지를 로컬에 설치된 AI 코딩 에이전트로 전달하고, 그 응답을 다시 위챗으로 돌려보내는 역할을 합니다.</description>
-      <pubDate>Wed, 15 Jul 2026 10:30:45 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/weclaw-claude-codex-ai/11242">PyTorch Korea</source>
-      <guid isPermaLink="false">d1a02a3cb887fc9102e22914d4c955b2</guid>
-    </item>
-    <item>
-      <title>SensorFM: 1조(1-trillion) 분의 웨어러블 센서 데이터로 학습한 헬스 파운데이션 모델에 대한 연구 (feat. Google)</title>
-      <link>https://discuss.pytorch.kr/t/sensorfm-1-1-trillion-feat-google/11250</link>
-      <description>SensorFM 소개 스마트워치나 밴드 같은 웨어러블 기기를 며칠만 차고 있어도, 심박수와 걸음 수, 수면, 피부 온도 같은 신호가 분 단위로 쌓입니다. 그런데 이렇게 방대하게 모인 원시 신호를 막상 "이 사람의 건강 상태가 어떤가" 라는 질문의 답으로 바꾸는 일은 여전히 어렵습니다.</description>
-      <pubDate>Wed, 15 Jul 2026 06:30:41 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sensorfm-1-1-trillion-feat-google/11250">PyTorch Korea</source>
-      <guid isPermaLink="false">404798737397bf729c0e283ce062bbaa</guid>
     </item>
   </channel>
 </rss>

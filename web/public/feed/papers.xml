@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Jul 2026 13:18:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 16:35:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>텍스트 템플릿 토큰은 확산 변환기의 암시적 의미 레지스터입니다.</title>
+      <link>https://huggingface.co/papers/2607.19139</link>
+      <description>텍스트-이미지 확산 변환기(DiT)는 텍스트와 이미지 토큰을 공동으로 처리하지만 노이즈 제거 중 내부 계산은 제대로 이해되지 않습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19139">Hugging Face Papers</source>
+      <guid isPermaLink="false">167b52c6b409c485006102b6a1892fee</guid>
+    </item>
+    <item>
+      <title>AgentDebugX: LLM 에이전트의 오류 관찰, 속성 및 복구를 위한 오픈 소스 툴킷</title>
+      <link>https://huggingface.co/papers/2607.18754</link>
+      <description>오류가 표면화되는 단계가 오류를 유발한 단계가 아닌 경우가 많기 때문에 LLM 에이전트 오류를 ​​디버그하기가 어렵습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18754">Hugging Face Papers</source>
+      <guid isPermaLink="false">8fb1651a141f94de6bebbbed9e330e94</guid>
+    </item>
+    <item>
+      <title>재생 속도를 지원하는 생성적 월드 렌더러</title>
+      <link>https://huggingface.co/papers/2607.18703</link>
+      <description>생성적 세계 렌더러 AlayaRenderer는 물리 엔진에서 내보낸 구조화된 세계 상태를 수신하고 RGB 프레임을 합성합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18703">Hugging Face Papers</source>
+      <guid isPermaLink="false">c326f29efb72bff37e808eca3c41def7</guid>
+    </item>
+    <item>
+      <title>ISO: RLVR 기본 최적화 스택</title>
+      <link>https://huggingface.co/papers/2607.19331</link>
+      <description>검증 가능한 보상(RLVR)을 통한 강화 학습은 언어 모델의 추론 기능을 빠르게 발전시키고 있지만 보상 피드백을 가중치 공간 업데이트로 변환하는 최적화 계층은 여전히 ​​열악합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19331">Hugging Face Papers</source>
+      <guid isPermaLink="false">36d23640012f5a56b846a0a67e1d867b</guid>
+    </item>
+    <item>
+      <title>EduPanel: 비디오 교육을 위한 3인 LLM 심사위원 - 신뢰성, 보완성 및 인간 신뢰 보정</title>
+      <link>https://huggingface.co/papers/2607.18529</link>
+      <description>교육 비디오는 교육의 주요 매체로 자리잡고 있으며 교육적 품질에 대한 확장 가능한 평가에 대한 필요성이 커지고 있습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18529">Hugging Face Papers</source>
+      <guid isPermaLink="false">7f53694270cb2c9638626911e14184a7</guid>
+    </item>
+    <item>
+      <title>HPD-파싱: 계층적 병렬 문서 파싱</title>
+      <link>https://huggingface.co/papers/2607.18839</link>
+      <description>효율적인 팀워크는 일반적으로 통합 VLM(Vision-Language Model) 기반 문서 파서에 아직 완전히 반영되지 않은 원칙인 전역 조정과 병렬 실행을 결합합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18839">Hugging Face Papers</source>
+      <guid isPermaLink="false">331934da667d72ea7d79162bc9280249</guid>
+    </item>
+    <item>
+      <title>ABot-World-0: 단일 데스크톱 GPU에서 무한한 대화형 세계 출시</title>
+      <link>https://huggingface.co/papers/2607.19191</link>
+      <description>우리는 AAA 게임, 시뮬레이션 엔진 및 인터넷을 포괄하는 다중 소스 데이터 인프라를 통해 지원되는 실시간 장수평 폐쇄 루프 상호 작용을 위한 동작 조건 비디오 세계 모델인 ABot-World-0을 제시합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19191">Hugging Face Papers</source>
+      <guid isPermaLink="false">747926b5061eb769e3216a2e7233a28b</guid>
+    </item>
+    <item>
+      <title>순차적 관찰을 통한 궤적 인식 크로스뷰 지리 위치 파악</title>
+      <link>https://huggingface.co/papers/2607.15491</link>
+      <description>크로스뷰 지리 위치 파악은 지리 태그가 지정된 위성 이미지와 지상 관찰을 일치시킵니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15491">Hugging Face Papers</source>
+      <guid isPermaLink="false">374a8c0e0987fe820b0d6f6e77825dcb</guid>
+    </item>
     <item>
       <title>AlayaWorld: 대화형 장수평 세계 모델링 - 전체 기술 보고서</title>
       <link>https://huggingface.co/papers/2607.18367</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.18110">Hugging Face Papers</source>
       <guid isPermaLink="false">f2ba37f1908cb56fb2064142af227f15</guid>
-    </item>
-    <item>
-      <title>DiFA: 확산 모델을 위한 추론 시간 순방향 프로세스 정렬</title>
-      <link>https://huggingface.co/papers/2607.17972</link>
-      <description>확산 모델에 대한 일반적인 추론 프레임워크는 생성을 근본적으로 수치 적분의 문제로 공식화합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.17972">Hugging Face Papers</source>
-      <guid isPermaLink="false">8b9643e75c8c60a9d0c3fff099a3171b</guid>
-    </item>
-    <item>
-      <title>JoyNexus: VLA 모델을 위한 서비스 지향 다중 테넌트 사후 교육</title>
-      <link>https://huggingface.co/papers/2607.16074</link>
-      <description>VLA(Vision-Language-Action) 모델의 사후 교육은 시뮬레이터, 로봇 구현 및 작업 목표의 다양성으로 인해 필수적입니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16074">Hugging Face Papers</source>
-      <guid isPermaLink="false">fda95d1a7354dce4e48f089d78426753</guid>
-    </item>
-    <item>
-      <title>FlashRT: 에이전트가 실시간 다중 모드 애플리케이션을 배포하도록 안내하는 에이전트 하네스</title>
-      <link>https://huggingface.co/papers/2607.18171</link>
-      <description>음성 에이전트 및 대화형 비디오 생성을 포함한 실시간 다중 모달 애플리케이션은 이기종 모델을 파이프라인으로 구성합니다. 파이프라인의 효율적인 배포에는 배치에 대한 애플리케이션별 결정이 필요합니다.…</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18171">Hugging Face Papers</source>
-      <guid isPermaLink="false">17552ee1496a0ecfaa0e28fb6e5bbb93</guid>
-    </item>
-    <item>
-      <title>SWE-Pruner Pro: Coder LLM은 무엇을 정리해야 할지 이미 알고 있습니다.</title>
-      <link>https://huggingface.co/papers/2607.18213</link>
-      <description>코딩 에이전트의 긴 컨텍스트를 정리하는 것은 효율적인 컨텍스트 관리를 위한 필수 기술이었습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18213">Hugging Face Papers</source>
-      <guid isPermaLink="false">fefd8d65cb5badd6bb3161de8b152b5e</guid>
-    </item>
-    <item>
-      <title>DiffGI: 충실도가 높은 얇은 쉘 3D 생성을 위한 미분 가능한 기하학 이미지</title>
-      <link>https://huggingface.co/papers/2607.13365</link>
-      <description>기존 3D 생성 모델은 주로 암시적 체적 표현에 의존합니다. 이는 방수 토폴로지를 적용하고 의류와 같은 얇은 쉘 및 비다양체 형상을 표현하는 데 어려움을 겪습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13365">Hugging Face Papers</source>
-      <guid isPermaLink="false">646e094b42aab6f5db93ebc9ee7f69cf</guid>
-    </item>
-    <item>
-      <title>LLM 하네스의 부분 상관 검증기 캐스케이드: 오목 로그 확률, 다항식 신뢰성 및 사각지대 천장</title>
-      <link>https://huggingface.co/papers/2607.13918</link>
-      <description>직렬 검증 게이트는 LLM 하니스의 핵심 신뢰성 기본 요소입니다. 후보 응답은 k 검증 호출이 모두 수락하는 경우에만 반환됩니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.13918">Hugging Face Papers</source>
-      <guid isPermaLink="false">63a1852a117b7a8e960a3e0b78852440</guid>
-    </item>
-    <item>
-      <title>SVR-R1: 강화 학습에서 자체 검증을 통한 다중 모드 추론 부트스트래핑</title>
-      <link>https://huggingface.co/papers/2607.10966</link>
-      <description>모델 자체 검증을 다중 모드 추론을 위한 학습 신호로 전환하는 다중 회전 RL 프레임워크인 SVR-R1(Self-Verified Reasoner)을 소개합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10966">Hugging Face Papers</source>
-      <guid isPermaLink="false">6404352117ead81543cc952363bf8746</guid>
-    </item>
-    <item>
-      <title>성공률 그 이상: 공격 및 방어 보안 에이전트의 비용 인식 평가</title>
-      <link>https://huggingface.co/papers/2607.15263</link>
-      <description>보안 에이전트 평가는 일반적으로 넉넉한 추론 예산 하에서 최대 공격 능력을 측정하고 취약점 발견, 익스플로잇 개발, 침투 테스트 및 CTF 완료를 강조합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15263">Hugging Face Papers</source>
-      <guid isPermaLink="false">aceacb80c587984cd0f3251f18984978</guid>
     </item>
   </channel>
 </rss>
