@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Jul 2026 16:35:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 19:26:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>다중 모드 LLM을 사용한 컴퓨팅 유머: 방법, 데이터 세트, 평가 및 과제</title>
+      <link>https://huggingface.co/papers/2607.19011</link>
+      <description>밈, 만화 및 만화의 다중 모드 유머는 AI 시스템에서 여전히 어렵습니다. 왜냐하면 의도된 의미는 문자 그대로의 장면보다는 비문자적인 메커니즘, 공유된 문화적 지식 및 의사소통 의도에 달려 있기 때문입니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19011">Hugging Face Papers</source>
+      <guid isPermaLink="false">e10631565f3bd565abbc05398ff73805</guid>
+    </item>
+    <item>
+      <title>옵티마이저 상태는 어디에 있어야 합니까? 메모리 효율적인 전문가 혼합 교육을 위한 계층화된 상태 할당</title>
+      <link>https://huggingface.co/papers/2607.19058</link>
+      <description>최적화 상태는 전문가 혼합(MoE) 훈련의 메모리 예산에서 가장 큰 단일 항목입니다. 6.78B 매개변수 MoE 언어 모델에서 AdamW는 50.6GB의 첫 번째 및 두 번째 순간을 유지하여 12.6GB의 bf를 업데이트합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19058">Hugging Face Papers</source>
+      <guid isPermaLink="false">dee7b34b749d8157dc08aab8516279f5</guid>
+    </item>
+    <item>
+      <title>Delineate Anything v2: 필드 묘사를 위한 글로벌 기반 모델</title>
+      <link>https://huggingface.co/papers/2607.19069</link>
+      <description>대규모의 정확한 농업 분야 경계 묘사는 식량 안보, 공급망 투명성 및 탄소 회계를 위한 기본 작업입니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19069">Hugging Face Papers</source>
+      <guid isPermaLink="false">3694b813d3fa7c6d97b601acb5e11341</guid>
+    </item>
     <item>
       <title>텍스트 템플릿 토큰은 확산 변환기의 암시적 의미 레지스터입니다.</title>
       <link>https://huggingface.co/papers/2607.19139</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.09655">Hugging Face Papers</source>
       <guid isPermaLink="false">5046239d793ac35dfd50e1e64a679fa0</guid>
-    </item>
-    <item>
-      <title>그룹 엔트로피 제어 정책 최적화</title>
-      <link>https://huggingface.co/papers/2607.16850</link>
-      <description>엔트로피 제어는 LLM(대형 언어 모델)의 RL(강화 학습)에 효과적인 도구가 되어 정렬 프로세스 중 탐색-이용 절충의 균형을 맞추는 데 도움이 됩니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16850">Hugging Face Papers</source>
-      <guid isPermaLink="false">2479c094a70af447c8c4fc7e2426c1ec</guid>
-    </item>
-    <item>
-      <title>RynnBrain 1.1: 더욱 유능하고 일반화 가능한 구현 기반 모델을 향하여</title>
-      <link>https://huggingface.co/papers/2607.17977</link>
-      <description>우리는 2B, 9B 및 122B-A10B 스케일에 걸쳐 구현된 기초 모델 제품군인 RynnBrain 1.1을 소개합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.17977">Hugging Face Papers</source>
-      <guid isPermaLink="false">78e4c014efd37836381b45bbb4d26ff0</guid>
-    </item>
-    <item>
-      <title>코치로서의 LLM: 검증할 수 없는 작업을 위한 체험 학습</title>
-      <link>https://huggingface.co/papers/2607.18110</link>
-      <description>개방형 작업에 대한 강화 학습(RL)은 LLM의 루브릭 기반 평가를 스칼라 보상으로 압축하여 풍부한 텍스트 피드백을 버리고 응답을 뚜렷한 품질 프로필과 결합합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18110">Hugging Face Papers</source>
-      <guid isPermaLink="false">f2ba37f1908cb56fb2064142af227f15</guid>
     </item>
   </channel>
 </rss>
