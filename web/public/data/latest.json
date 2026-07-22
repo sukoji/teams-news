@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-22",
-  "generated_at": "2026-07-22T08:53:22.676129+09:00",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T08:58:48.021141+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -15,16 +15,16 @@
           "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
           "title_ko": "DeepSearch-World: 검증 가능한 환경에서 Deep Search 에이전트를 위한 자체 증류",
           "summary": "Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajectories, while sparse-reward reinforcement learning provides weak super…",
-          "summary_ko": "감독된 미세 조정은 교사가 추출한 고정 궤적에 의존하는 반면 희소 보상 강화 학습은 약한 슈퍼…",
+          "summary_ko": "감독된 미세 조정은 고정된 교사 증류 궤적에 의존하는 반면 희소 보상 강화 학습은 약한 슈퍼…",
           "url": "https://huggingface.co/papers/2607.07820",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-21T09:00:00+09:00",
-          "popularity": 160,
-          "upvotes": 71,
-          "score": 29.27,
-          "importance_score": 15.29,
+          "popularity": 196,
+          "upvotes": 86,
+          "score": 29.85,
+          "importance_score": 15.85,
           "matched_keywords": [
             "ai",
             "agent",
@@ -34,33 +34,32 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 71
+            "value": 86
           }
         },
         {
-          "id": "3b5e8204674ae7cdf5379baa2c74de7e",
+          "id": "4676302d1fea800c00f4f164d993e960",
           "index": 2,
-          "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
-          "title_ko": "RAGU: 소형 도메인 적응 LLM을 갖춘 다단계 GraphRAG 엔진",
-          "summary": "Graph retrieval-augmented generation (GraphRAG) enhances large language models with structured knowledge, yet existing systems construct knowledge graphs in a single extraction pass, producing noisy entities and brittle…",
-          "summary_ko": "그래프 검색 증강 생성(GraphRAG)은 구조화된 지식으로 대규모 언어 모델을 향상하지만 기존 시스템은 단일 추출 패스에서 지식 그래프를 구성하여 시끄러운 엔터티와 부서지기 쉬운…",
-          "url": "https://huggingface.co/papers/2607.11683",
+          "title": "GigaAM Multilingual: Foundation Model for Underrepresented Languages",
+          "title_ko": "GigaAM Multilingual: 잘 표현되지 않는 언어를 위한 기초 모델",
+          "summary": "Despite recent scaling successes, multilingual ASR performance remains highly uneven, with long-tail languages suffering from severe data scarcity.",
+          "summary_ko": "최근의 확장 성공에도 불구하고 다국어 ASR 성능은 심각한 데이터 부족으로 어려움을 겪고 있는 롱테일 언어로 인해 여전히 매우 고르지 않습니다.",
+          "url": "https://huggingface.co/papers/2607.10371",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-20T09:00:00+09:00",
-          "popularity": 377,
-          "upvotes": 128,
-          "score": 27.8,
-          "importance_score": 17.8,
+          "published_at": "2026-07-21T09:00:00+09:00",
+          "popularity": 770,
+          "upvotes": 30,
+          "score": 26.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "llm",
-            "rag"
+            "foundation model"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 128
+            "value": 30
           }
         }
       ]
@@ -70,46 +69,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "68c3e0e5e394e4a65973ae32286d16ba",
+          "id": "cb98cd1f17f695d71cd9e319a4d99aaf",
           "index": 3,
-          "title": "구글, '제미나이3.6 플래시' 등 경량 AI 모델 3종 출시",
+          "title": "[7월22일] AI가 대신할 수 없는 것...\"사람은 여행을 계획할 때 가장 행복하다\"",
           "title_ko": null,
-          "summary": "구글이 경량 인공지능(AI) 모델 '제미나이 플래시'의 새 버전을 선보였다. 다만 최상위 '프로' 모델의 출시는 미뤄지고 있다. 구글은 '제미나이3.6 플래시'와 '3.5플래시-라이트', '3.5플래시 사이버' 등 새 경량 AI 모델 3종을 21일(현지시간) 출시했다.",
+          "summary": "최근 AI 업계의 화두는 단연 \\'에이전트(Agent)\\'입니다. 사용자가 \\\"다음 달 일본 여행을 가고 싶다\\\"라고 말하면 AI가 항공권 검색부터 호텔 예약, 식당과 관광지 추천, 결제까지 처리해 주는 세상이 다가오고 있습니다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260722000011",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213026",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-22T08:21:36+09:00",
-          "popularity": 99,
+          "published_at": "2026-07-23T07:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.79,
-          "importance_score": 19.68,
+          "score": 22.59,
+          "importance_score": 19.18,
           "matched_keywords": [
             "ai",
-            "모델"
+            "agent"
           ],
           "engagement": null
         },
         {
-          "id": "45add82e0f333df6c9cdb8494039998d",
+          "id": "3960c6b9b960916650e018e8eeae3996",
           "index": 4,
-          "title": "오픈AI, IPO 앞두고 상장금융사 CEO 2명 이사로 영입",
+          "title": "테슬라, 2분기 매출 26% 껑충…가격인하·AI투자에 순이익은 기대 하회",
           "title_ko": null,
-          "summary": "챗GPT 개발사 오픈AI가 기업공개(IPO)를 앞두고 이사회에 상장 금융사 임원 2명을 영입했다. 오픈AI는 브라질 누뱅크의 다비드 벨레스 창업자 겸 최고경영자(CEO)와 로빈 빈스 뱅크오브뉴욕멜론(BNY) CEO를 재단과 법인의 독립 이사로 위촉했다고 21일(현지시간) 밝혔다. 새 독립이사들은 금융계에 널리 알려진 베테랑 상장사 임원이다.",
+          "summary": "테슬라가 2분기 차량 인도량 회복에 힘입어 280억 달러가 넘는 분기 최대 매출을 올렸다. 다만, 차량 가격 인하와 미래 기술 투자 여파로 순이익은 시장 기대치에 미치지 못했다. 22일(현지시간) 테슬라 발표에 따르면 2분기 일반회계기준(GAAP) 순이익은 11억 1400만 달러(약 1조 6500억원)로 전년 동기 대비 5% 감소했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260722000005",
+          "url": "https://www.etnews.com/20260723000015",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-22T07:22:00+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-23T08:10:02+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.48,
-          "importance_score": 19.17,
+          "score": 19.73,
+          "importance_score": 19.56,
           "matched_keywords": [
-            "ai",
-            "gpt"
+            "ai"
           ],
           "engagement": null
         }
@@ -120,21 +118,49 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "70ca53e35c2fcdd38eb37851cbb0b321",
+          "id": "b0dfd8a7f6a04261587d56ce3fb57eba",
           "index": 5,
+          "title": "risa-labs-inc/BossConsole — Open-source, multi-platform harness for AI agents — a native, multi-threaded operator's console (JVM",
+          "title_ko": "risa-labs-inc/BossConsole — AI 에이전트를 위한 오픈 소스, 다중 플랫폼 하네스 — 기본 다중 스레드 운영자 콘솔(JVM",
+          "summary": "Open-source, multi-platform harness for AI agents — a native, multi-threaded operator's console (JVM, not Electron) to run Claude Code, Codex, Gemini or OpenCode with a real browser, terminal, editor, secrets & 100+ MCP…",
+          "summary_ko": "AI 에이전트를 위한 오픈 소스, 다중 플랫폼 하네스 — 실제 브라우저, 터미널, 편집기, 비밀 및 100개 이상의 MCP를 사용하여 Claude Code, Codex, Gemini 또는 OpenCode를 실행하기 위한 기본 다중 스레드 운영자 콘솔(Electron이 아닌 JVM)",
+          "url": "https://github.com/risa-labs-inc/BossConsole",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-07-23T08:43:31+09:00",
+          "popularity": 152,
+          "upvotes": 152,
+          "score": 39.55,
+          "importance_score": 27.5,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "claude",
+            "gemini",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 152
+          }
+        },
+        {
+          "id": "70ca53e35c2fcdd38eb37851cbb0b321",
+          "index": 6,
           "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
           "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
           "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
-          "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
+          "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 - 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
           "url": "https://github.com/KlaatAI/klaatcode",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-22T02:04:03+09:00",
-          "popularity": 204,
-          "upvotes": 204,
-          "score": 39.21,
-          "importance_score": 25.79,
+          "published_at": "2026-07-22T21:49:00+09:00",
+          "popularity": 246,
+          "upvotes": 246,
+          "score": 38.96,
+          "importance_score": 24.63,
           "matched_keywords": [
             "ai",
             "agent",
@@ -144,34 +170,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 204
-          }
-        },
-        {
-          "id": "35c9d3961b22a3167bb9c6f0d09f7ca6",
-          "index": 6,
-          "title": "PromptPartner/agentsmith — Universal, model-agnostic operating harness for AI agents (Claude, Codex, Gemini, …) — a lean core +",
-          "title_ko": "PromptPartner/agentsmith — AI 에이전트(Claude, Codex, Gemini 등)를 위한 모델에 구애받지 않는 범용 운영 하네스 — 린 코어 +",
-          "summary": "Universal, model-agnostic operating harness for AI agents (Claude, Codex, Gemini, …) — a lean core + work-type profiles assembled by one setup script.",
-          "summary_ko": "AI 에이전트(Claude, Codex, Gemini 등)를 위한 모델에 구애받지 않는 범용 운영 하네스 — 하나의 설정 스크립트로 구성된 린 코어 + 작업 유형 프로필입니다.",
-          "url": "https://github.com/PromptPartner/agentsmith",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-07-21T17:46:22+09:00",
-          "popularity": 314,
-          "upvotes": 314,
-          "score": 35.98,
-          "importance_score": 23.84,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "claude",
-            "gemini"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 314
+            "value": 246
           }
         }
       ]
@@ -181,24 +180,27 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "4b1bd115119609e1a6e0b77660a83d2f",
+          "id": "c2461d1278c68b4225d6174eac6d0ecb",
           "index": 7,
-          "title": "Logo Generator: SVG 로고와 전문가급 쇼케이스를 만드는 Claude Code 스킬",
+          "title": "Thinking to Recall: 추론이 어떻게 LLM의 잠든 지식을 깨우는지에 대한 연구 (feat. Google, COLM 2026)",
           "title_ko": null,
-          "summary": "Logo Generator 소개 로고 제작은 보통 디자이너와의 반복적인 협의를 거쳐야 하고, 반대로 AI로 급하게 만든 로고는 실제 제품에 얹기에는 정제도와 표현 품질이 부족한 경우가 많습니다. Logo Generator는 이 간극을 메우려는 목적으로 만들어진 Claude Code 스킬입니다.",
+          "summary": "Thinking to Recall 연구 소개 이 논문은 \"왜 단순한 사실 질문에도 추론(reasoning)이 도움이 되는가?\"라는 반직관적인 질문을 정면으로 다룹니다. 결론부터 말하면, 추론을 켜는 것만으로 대형 언어 모델(LLM)이 자기 가중치 속에 이미 저장하고 있으면서도 좀처럼 꺼내지 못하던 사실을 훨씬 더 잘 끌어낸다는 것을 보이고, 그 이유를 두 가지 메커니즘으로 규명합니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/logo-generator-svg-claude-code/11295",
+          "url": "https://discuss.pytorch.kr/t/thinking-to-recall-llm-feat-google-colm-2026/11271",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-22T08:30:53+09:00",
-          "popularity": 100,
+          "published_at": "2026-07-23T06:30:35+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.92,
-          "importance_score": 19.84,
+          "score": 31.39,
+          "importance_score": 18.87,
           "matched_keywords": [
-            "ai",
-            "claude"
+            "llm",
+            "추론",
+            "연구",
+            "reasoning",
+            "모델"
           ],
           "engagement": null
         }
@@ -212,16 +214,16 @@
       "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
       "title_ko": "DeepSearch-World: 검증 가능한 환경에서 Deep Search 에이전트를 위한 자체 증류",
       "summary": "Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajectories, while sparse-reward reinforcement learning provides weak super…",
-      "summary_ko": "감독된 미세 조정은 교사가 추출한 고정 궤적에 의존하는 반면 희소 보상 강화 학습은 약한 슈퍼…",
+      "summary_ko": "감독된 미세 조정은 고정된 교사 증류 궤적에 의존하는 반면 희소 보상 강화 학습은 약한 슈퍼…",
       "url": "https://huggingface.co/papers/2607.07820",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-21T09:00:00+09:00",
-      "popularity": 160,
-      "upvotes": 71,
-      "score": 29.27,
-      "importance_score": 15.29,
+      "popularity": 196,
+      "upvotes": 86,
+      "score": 29.85,
+      "importance_score": 15.85,
       "matched_keywords": [
         "ai",
         "agent",
@@ -231,95 +233,121 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 71
+        "value": 86
       }
     },
     {
-      "id": "3b5e8204674ae7cdf5379baa2c74de7e",
+      "id": "4676302d1fea800c00f4f164d993e960",
       "index": 2,
-      "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
-      "title_ko": "RAGU: 소형 도메인 적응 LLM을 갖춘 다단계 GraphRAG 엔진",
-      "summary": "Graph retrieval-augmented generation (GraphRAG) enhances large language models with structured knowledge, yet existing systems construct knowledge graphs in a single extraction pass, producing noisy entities and brittle…",
-      "summary_ko": "그래프 검색 증강 생성(GraphRAG)은 구조화된 지식으로 대규모 언어 모델을 향상하지만 기존 시스템은 단일 추출 패스에서 지식 그래프를 구성하여 시끄러운 엔터티와 부서지기 쉬운…",
-      "url": "https://huggingface.co/papers/2607.11683",
+      "title": "GigaAM Multilingual: Foundation Model for Underrepresented Languages",
+      "title_ko": "GigaAM Multilingual: 잘 표현되지 않는 언어를 위한 기초 모델",
+      "summary": "Despite recent scaling successes, multilingual ASR performance remains highly uneven, with long-tail languages suffering from severe data scarcity.",
+      "summary_ko": "최근의 확장 성공에도 불구하고 다국어 ASR 성능은 심각한 데이터 부족으로 어려움을 겪고 있는 롱테일 언어로 인해 여전히 매우 고르지 않습니다.",
+      "url": "https://huggingface.co/papers/2607.10371",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-20T09:00:00+09:00",
-      "popularity": 377,
-      "upvotes": 128,
-      "score": 27.8,
-      "importance_score": 17.8,
+      "published_at": "2026-07-21T09:00:00+09:00",
+      "popularity": 770,
+      "upvotes": 30,
+      "score": 26.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
-        "llm",
-        "rag"
+        "foundation model"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 128
+        "value": 30
       }
     },
     {
-      "id": "68c3e0e5e394e4a65973ae32286d16ba",
+      "id": "cb98cd1f17f695d71cd9e319a4d99aaf",
       "index": 3,
-      "title": "구글, '제미나이3.6 플래시' 등 경량 AI 모델 3종 출시",
+      "title": "[7월22일] AI가 대신할 수 없는 것...\"사람은 여행을 계획할 때 가장 행복하다\"",
       "title_ko": null,
-      "summary": "구글이 경량 인공지능(AI) 모델 '제미나이 플래시'의 새 버전을 선보였다. 다만 최상위 '프로' 모델의 출시는 미뤄지고 있다. 구글은 '제미나이3.6 플래시'와 '3.5플래시-라이트', '3.5플래시 사이버' 등 새 경량 AI 모델 3종을 21일(현지시간) 출시했다.",
+      "summary": "최근 AI 업계의 화두는 단연 \\'에이전트(Agent)\\'입니다. 사용자가 \\\"다음 달 일본 여행을 가고 싶다\\\"라고 말하면 AI가 항공권 검색부터 호텔 예약, 식당과 관광지 추천, 결제까지 처리해 주는 세상이 다가오고 있습니다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260722000011",
-      "source": "전자신문 IT",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=213026",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-22T08:21:36+09:00",
-      "popularity": 99,
+      "published_at": "2026-07-23T07:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.79,
-      "importance_score": 19.68,
+      "score": 22.59,
+      "importance_score": 19.18,
       "matched_keywords": [
         "ai",
-        "모델"
+        "agent"
       ],
       "engagement": null
     },
     {
-      "id": "45add82e0f333df6c9cdb8494039998d",
+      "id": "3960c6b9b960916650e018e8eeae3996",
       "index": 4,
-      "title": "오픈AI, IPO 앞두고 상장금융사 CEO 2명 이사로 영입",
+      "title": "테슬라, 2분기 매출 26% 껑충…가격인하·AI투자에 순이익은 기대 하회",
       "title_ko": null,
-      "summary": "챗GPT 개발사 오픈AI가 기업공개(IPO)를 앞두고 이사회에 상장 금융사 임원 2명을 영입했다. 오픈AI는 브라질 누뱅크의 다비드 벨레스 창업자 겸 최고경영자(CEO)와 로빈 빈스 뱅크오브뉴욕멜론(BNY) CEO를 재단과 법인의 독립 이사로 위촉했다고 21일(현지시간) 밝혔다. 새 독립이사들은 금융계에 널리 알려진 베테랑 상장사 임원이다.",
+      "summary": "테슬라가 2분기 차량 인도량 회복에 힘입어 280억 달러가 넘는 분기 최대 매출을 올렸다. 다만, 차량 가격 인하와 미래 기술 투자 여파로 순이익은 시장 기대치에 미치지 못했다. 22일(현지시간) 테슬라 발표에 따르면 2분기 일반회계기준(GAAP) 순이익은 11억 1400만 달러(약 1조 6500억원)로 전년 동기 대비 5% 감소했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260722000005",
+      "url": "https://www.etnews.com/20260723000015",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-22T07:22:00+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-23T08:10:02+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.48,
-      "importance_score": 19.17,
+      "score": 19.73,
+      "importance_score": 19.56,
       "matched_keywords": [
-        "ai",
-        "gpt"
+        "ai"
       ],
       "engagement": null
+    },
+    {
+      "id": "b0dfd8a7f6a04261587d56ce3fb57eba",
+      "index": 5,
+      "title": "risa-labs-inc/BossConsole — Open-source, multi-platform harness for AI agents — a native, multi-threaded operator's console (JVM",
+      "title_ko": "risa-labs-inc/BossConsole — AI 에이전트를 위한 오픈 소스, 다중 플랫폼 하네스 — 기본 다중 스레드 운영자 콘솔(JVM",
+      "summary": "Open-source, multi-platform harness for AI agents — a native, multi-threaded operator's console (JVM, not Electron) to run Claude Code, Codex, Gemini or OpenCode with a real browser, terminal, editor, secrets & 100+ MCP…",
+      "summary_ko": "AI 에이전트를 위한 오픈 소스, 다중 플랫폼 하네스 — 실제 브라우저, 터미널, 편집기, 비밀 및 100개 이상의 MCP를 사용하여 Claude Code, Codex, Gemini 또는 OpenCode를 실행하기 위한 기본 다중 스레드 운영자 콘솔(Electron이 아닌 JVM)",
+      "url": "https://github.com/risa-labs-inc/BossConsole",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-07-23T08:43:31+09:00",
+      "popularity": 152,
+      "upvotes": 152,
+      "score": 39.55,
+      "importance_score": 27.5,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "claude",
+        "gemini",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 152
+      }
     },
     {
       "id": "70ca53e35c2fcdd38eb37851cbb0b321",
-      "index": 5,
+      "index": 6,
       "title": "KlaatAI/klaatcode — Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — ",
       "title_ko": "KlaatAI/klaatcode — 터미널용 오픈 소스 AI 코딩 에이전트입니다. 스마트 모델 라우팅을 통한 Claude Code급 정확성 —",
       "summary": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
-      "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 — 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
+      "summary_ko": "단말기용 오픈소스 AI 코딩 에이전트. 스마트 모델 라우팅을 통한 Claude 코드급 정확성 - 각 작업에 적합한 AI 모델을 사용하여 비용을 10배 절감합니다. Claude, GPT, Gemini, DeepSeek 등을 지원합니다.",
       "url": "https://github.com/KlaatAI/klaatcode",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-22T02:04:03+09:00",
-      "popularity": 204,
-      "upvotes": 204,
-      "score": 39.21,
-      "importance_score": 25.79,
+      "published_at": "2026-07-22T21:49:00+09:00",
+      "popularity": 246,
+      "upvotes": 246,
+      "score": 38.96,
+      "importance_score": 24.63,
       "matched_keywords": [
         "ai",
         "agent",
@@ -329,55 +357,31 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 204
+        "value": 246
       }
     },
     {
-      "id": "35c9d3961b22a3167bb9c6f0d09f7ca6",
-      "index": 6,
-      "title": "PromptPartner/agentsmith — Universal, model-agnostic operating harness for AI agents (Claude, Codex, Gemini, …) — a lean core +",
-      "title_ko": "PromptPartner/agentsmith — AI 에이전트(Claude, Codex, Gemini 등)를 위한 모델에 구애받지 않는 범용 운영 하네스 — 린 코어 +",
-      "summary": "Universal, model-agnostic operating harness for AI agents (Claude, Codex, Gemini, …) — a lean core + work-type profiles assembled by one setup script.",
-      "summary_ko": "AI 에이전트(Claude, Codex, Gemini 등)를 위한 모델에 구애받지 않는 범용 운영 하네스 — 하나의 설정 스크립트로 구성된 린 코어 + 작업 유형 프로필입니다.",
-      "url": "https://github.com/PromptPartner/agentsmith",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-07-21T17:46:22+09:00",
-      "popularity": 314,
-      "upvotes": 314,
-      "score": 35.98,
-      "importance_score": 23.84,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "claude",
-        "gemini"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 314
-      }
-    },
-    {
-      "id": "4b1bd115119609e1a6e0b77660a83d2f",
+      "id": "c2461d1278c68b4225d6174eac6d0ecb",
       "index": 7,
-      "title": "Logo Generator: SVG 로고와 전문가급 쇼케이스를 만드는 Claude Code 스킬",
+      "title": "Thinking to Recall: 추론이 어떻게 LLM의 잠든 지식을 깨우는지에 대한 연구 (feat. Google, COLM 2026)",
       "title_ko": null,
-      "summary": "Logo Generator 소개 로고 제작은 보통 디자이너와의 반복적인 협의를 거쳐야 하고, 반대로 AI로 급하게 만든 로고는 실제 제품에 얹기에는 정제도와 표현 품질이 부족한 경우가 많습니다. Logo Generator는 이 간극을 메우려는 목적으로 만들어진 Claude Code 스킬입니다.",
+      "summary": "Thinking to Recall 연구 소개 이 논문은 \"왜 단순한 사실 질문에도 추론(reasoning)이 도움이 되는가?\"라는 반직관적인 질문을 정면으로 다룹니다. 결론부터 말하면, 추론을 켜는 것만으로 대형 언어 모델(LLM)이 자기 가중치 속에 이미 저장하고 있으면서도 좀처럼 꺼내지 못하던 사실을 훨씬 더 잘 끌어낸다는 것을 보이고, 그 이유를 두 가지 메커니즘으로 규명합니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/logo-generator-svg-claude-code/11295",
+      "url": "https://discuss.pytorch.kr/t/thinking-to-recall-llm-feat-google-colm-2026/11271",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-22T08:30:53+09:00",
-      "popularity": 100,
+      "published_at": "2026-07-23T06:30:35+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.92,
-      "importance_score": 19.84,
+      "score": 31.39,
+      "importance_score": 18.87,
       "matched_keywords": [
-        "ai",
-        "claude"
+        "llm",
+        "추론",
+        "연구",
+        "reasoning",
+        "모델"
       ],
       "engagement": null
     }
