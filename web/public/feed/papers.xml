@@ -5,9 +5,126 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Jul 2026 09:00:42 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 13:18:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AlayaWorld: 대화형 장수평 세계 모델링 - 전체 기술 보고서</title>
+      <link>https://huggingface.co/papers/2607.18367</link>
+      <description>자산 제작, 애니메이션, 물리학 및 프로그래밍을 위해 노동 집약적인 파이프라인에 의존하는 기존 비디오 게임 개발과 달리, 비디오 세계 모델은 사용자 입력 인스턴스를 통해 대화형 환경을 생성합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18367">Hugging Face Papers</source>
+      <guid isPermaLink="false">e56d2d25e1ab42500a343496d50b99fc</guid>
+    </item>
+    <item>
+      <title>DataFlow-Harness: 편집 가능한 LLM 데이터 파이프라인을 구성하기 위한 기반 코드 에이전트 플랫폼</title>
+      <link>https://huggingface.co/papers/2607.16617</link>
+      <description>데이터 처리 워크플로를 자동화하는 데 LLM(대형 언어 모델)이 점점 더 많이 사용되고 있지만 코딩 에이전트는 일반적으로 지속적이고 편집 가능한 플랫폼 아티팩트로 자동으로 구체화되지 않는 스크립트를 생성합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16617">Hugging Face Papers</source>
+      <guid isPermaLink="false">b11438019d36d75260801868f0f01f51</guid>
+    </item>
+    <item>
+      <title>Mage-Flow: 이미지 생성 및 편집을 위한 효율적인 기본 해상도 기반 모델</title>
+      <link>https://huggingface.co/papers/2607.19064</link>
+      <description>대규모 시각적 생성기의 성능은 점점 향상되고 있지만 교육, 미세 조정 및 배포에 비용이 많이 듭니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19064">Hugging Face Papers</source>
+      <guid isPermaLink="false">d444516e6cfbc7e0c72ea1bcef28de87</guid>
+    </item>
+    <item>
+      <title>부실하지만 안정적: 비동기 강화 학습 안정화를 위한 부실 적응형 신뢰 영역</title>
+      <link>https://huggingface.co/papers/2607.18722</link>
+      <description>비동기식 강화 학습은 롤아웃 생성을 최적화에서 분리하여 처리량을 향상시키지만, 부실화는 정책 지연, 엔진 지연, 전문가 혼합 루틴으로 인해 발생하는 피할 수 없는 부산물입니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18722">Hugging Face Papers</source>
+      <guid isPermaLink="false">658d97e9fddc4c2070956061ddc90c91</guid>
+    </item>
+    <item>
+      <title>NexForge: LLM을 위한 요구 사항 기반 작업 통합을 통해 에이전트 기능 확장</title>
+      <link>https://huggingface.co/papers/2607.14186</link>
+      <description>LLM 사후 교육을 위한 실행 가능 에이전트 교육 데이터 확장은 작업 생성을 사전 정의된 도구, 저장소 또는 기술 그래프에 연결하는 기판 바인딩 방법으로 인해 병목 현상이 발생합니다. 적용 범위를 확장하려면 수동 하위…</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14186">Hugging Face Papers</source>
+      <guid isPermaLink="false">43c3c9938a35638da56d021530932d1b</guid>
+    </item>
+    <item>
+      <title>개방형 생성 평가를 위한 2단계 메타 루브릭: 사실적 완전성을 위한 벤치마크인 GAMUT</title>
+      <link>https://huggingface.co/papers/2607.19322</link>
+      <description>긴 형식 세대의 사실성을 평가하는 것은 주로 모델의 주장이 올바른지 여부를 측정하는 정밀도에 중점을 두었습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19322">Hugging Face Papers</source>
+      <guid isPermaLink="false">c1764acca308da2a918413d553e1298a</guid>
+    </item>
+    <item>
+      <title>SciForma: 구조에 충실한 과학 다이어그램 생성</title>
+      <link>https://huggingface.co/papers/2607.18091</link>
+      <description>구조적 충실도는 과학적 방법론 다이어그램에 필수적입니다. 연구 논리를 전달하려면 이러한 다이어그램이 구성 요소, 방향 관계 및 텍스트 주석을 충실하게 렌더링해야 합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18091">Hugging Face Papers</source>
+      <guid isPermaLink="false">594406a061e1977aba7357f83b91d042</guid>
+    </item>
+    <item>
+      <title>SeerGuard: 월드 모델 예측을 통한 모바일 GUI 에이전트를 위한 안전 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.15550</link>
+      <description>모바일 그래픽 사용자 인터페이스(GUI) 에이전트는 복잡한 작업을 자동화하는 데 있어 뛰어난 기능을 입증했지만, 단 한 번의 잘못된 작업으로 인해 되돌릴 수 없는 결과를 초래할 수 있는 심각한 안전 위험을 초래합니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.15550">Hugging Face Papers</source>
+      <guid isPermaLink="false">e939b7e4b0dd43a846e7fbfe6bcbf00a</guid>
+    </item>
+    <item>
+      <title>외관 포인터 - 확산 변압기의 다중 모드 영역 제어</title>
+      <link>https://huggingface.co/papers/2607.19344</link>
+      <description>제어 가능한 이미지 생성은 재료, 객체 정체성 및 공간 배치에 대한 정확한 지역 제어가 필요한 창의적인 전문가에게 여전히 어려운 과제로 남아 있습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19344">Hugging Face Papers</source>
+      <guid isPermaLink="false">0a0521659a029102b5fb5c36a44ccd7f</guid>
+    </item>
+    <item>
+      <title>ConsiSpace: 비디오 공간 추론을 위한 기하학적 일관성 문제 학습</title>
+      <link>https://huggingface.co/papers/2607.17599</link>
+      <description>비디오 공간 추론은 모델이 변화하는 관점에서 긴 지평선에 걸쳐 공간 관계를 추론해야 하는 내비게이션 중심 인식 및 긴 비디오 질문 응답에 필수적입니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17599">Hugging Face Papers</source>
+      <guid isPermaLink="false">ff9730f20b254fa1129c55d79051b9c7</guid>
+    </item>
+    <item>
+      <title>H^2SD: 하이브리드 사후 통찰력 자가 증류</title>
+      <link>https://huggingface.co/papers/2607.18955</link>
+      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 수학적 추론 및 코드 생성과 같은 작업에 대한 대규모 언어 모델의 추론 기능을 크게 향상시켰습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18955">Hugging Face Papers</source>
+      <guid isPermaLink="false">915ad4a943a68f14da892f4d704952e2</guid>
+    </item>
+    <item>
+      <title>휴먼-AI 코워킹의 비균일성 원칙</title>
+      <link>https://huggingface.co/papers/2607.16530</link>
+      <description>다단계 및 고부담 워크플로를 자동화하기 위해 생성적 AI가 점점 더 많이 적용됨에 따라, AI로 생성된 결과물의 품질을 보장하려면 인간의 판단과 참여가 여전히 필수적입니다.</description>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16530">Hugging Face Papers</source>
+      <guid isPermaLink="false">6d30f1f3a8605106dc6a6750eccb51a3</guid>
+    </item>
+    <item>
+      <title>통합 세계 모델링을 위한 마스크된 시각적 작업</title>
+      <link>https://huggingface.co/papers/2607.19343</link>
+      <description>비디오 모델은 시각적 세계가 어떻게 움직이고, 상호 작용하고, 접촉에 반응하는지에 대한 풍부한 사전 정보를 흡수하여 로봇 세계 모델링을 위한 유망한 기반이 됩니다.</description>
+      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19343">Hugging Face Papers</source>
+      <guid isPermaLink="false">5c935f6fa913ebf090aa46b3e64301a2</guid>
+    </item>
     <item>
       <title>마스크 확산 언어 모델은 Agentic RL을 위한 강력하고 조정 가능한 텍스트 기반 월드 모델입니다.</title>
       <link>https://huggingface.co/papers/2607.16204</link>
@@ -340,123 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.15263">Hugging Face Papers</source>
       <guid isPermaLink="false">aceacb80c587984cd0f3251f18984978</guid>
-    </item>
-    <item>
-      <title>플라즈마 진단 모델의 센서 견고성 벤치마킹: TokaMark의 체계적인 평가</title>
-      <link>https://huggingface.co/papers/2607.11915</link>
-      <description>토카막 융합 장치용 플라즈마 진단 모델은 깨끗하고 완전한 센서 데이터를 기반으로 거의 보편적으로 평가됩니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11915">Hugging Face Papers</source>
-      <guid isPermaLink="false">f1e3c92e183a0659fcfc2903c074bdaa</guid>
-    </item>
-    <item>
-      <title>REBASE: 학습이 필요 없는 컨텍스트 내 분할을 위한 참조 배경 하위 공간 제거</title>
-      <link>https://huggingface.co/papers/2607.09082</link>
-      <description>훈련이 필요 없는 컨텍스트 내 세분화를 통해 추론 시 주석이 달린 단일 참조 이미지에서 새로운 객체 범주를 도입할 수 있으므로 클래스 증분 학습의 재훈련 및 메모리 오버헤드가 제거됩니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.09082">Hugging Face Papers</source>
-      <guid isPermaLink="false">19dcf71789946cdd72536d5874b0d99d</guid>
-    </item>
-    <item>
-      <title>에이전트 협상의 행동 개인정보 유출: 무작위 정책을 통한 추론 공격 공식화 및 완화</title>
-      <link>https://huggingface.co/papers/2607.06815</link>
-      <description>자율 협상 에이전트는 보험 및 조달과 같은 고위험 환경에 점점 더 많이 배치되고 있습니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06815">Hugging Face Papers</source>
-      <guid isPermaLink="false">e93164537d34c19da78e50b64f21f83e</guid>
-    </item>
-    <item>
-      <title>로봇처럼 보기: 비전-언어-액션 모델을 위한 로봇 중심 포인트맵</title>
-      <link>https://huggingface.co/papers/2607.11498</link>
-      <description>VLA(시각-언어-행동) 모델은 시각적 관찰과 언어 지시를 통해 로봇 행동을 예측합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11498">Hugging Face Papers</source>
-      <guid isPermaLink="false">0d8c94a319a4a071ba988faa3a5c4b29</guid>
-    </item>
-    <item>
-      <title>Agon: 추론의 암시적 라이벌 등급을 사용하는 경쟁적 교차 모델 RL</title>
-      <link>https://huggingface.co/papers/2607.07690</link>
-      <description>검증 가능한 보상(예: GRPO)을 통한 강화 학습은 오늘날 추론 모델의 엔진이지만 최종 답변에만 등급을 매깁니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07690">Hugging Face Papers</source>
-      <guid isPermaLink="false">49ccc7d694f8f7cab746935c10a16ac0</guid>
-    </item>
-    <item>
-      <title>Muon은 언제 에이전트 강화 학습을 돕나요?</title>
-      <link>https://huggingface.co/papers/2607.16169</link>
-      <description>Muon은 대규모 사전 훈련에서 AdamW와 경쟁적이지만 RL(강화 학습) 사후 훈련에 대한 가치는 여전히 불분명합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16169">Hugging Face Papers</source>
-      <guid isPermaLink="false">e6711a56b3aa46fca3ab5d468b3005df</guid>
-    </item>
-    <item>
-      <title>RESOURCE2SKILL: 인간이 생성한 다중 모드 리소스에서 실행 가능한 에이전트 기술 추출</title>
-      <link>https://huggingface.co/papers/2606.29538</link>
-      <description>스킬은 인간과 에이전트의 경험을 재사용 가능한 절차적 지식으로 전환하는 소프트웨어 에이전트에 대한 유용한 추상화입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29538">Hugging Face Papers</source>
-      <guid isPermaLink="false">9937e19840064d4e033adfa421db6630</guid>
-    </item>
-    <item>
-      <title>엔트로피를 넘어서: 대조 정책 최적화를 통한 정확성 인식 이점 형성</title>
-      <link>https://huggingface.co/papers/2607.14614</link>
-      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 일반적으로 이점 형성을 위해 엔트로피를 사용합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.14614">Hugging Face Papers</source>
-      <guid isPermaLink="false">6b9bd8e7cc91b8d498726d4887d1ba6f</guid>
-    </item>
-    <item>
-      <title>RAGU: 소형 도메인 적응 LLM을 갖춘 다단계 GraphRAG 엔진</title>
-      <link>https://huggingface.co/papers/2607.11683</link>
-      <description>그래프 검색 증강 생성(GraphRAG)은 구조화된 지식으로 대규모 언어 모델을 향상하지만 기존 시스템은 단일 추출 패스에서 지식 그래프를 구성하여 시끄러운 엔터티와 부서지기 쉬운…</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11683">Hugging Face Papers</source>
-      <guid isPermaLink="false">3b5e8204674ae7cdf5379baa2c74de7e</guid>
-    </item>
-    <item>
-      <title>S1-Omni: 과학적 이해, 예측 및 생성을 위한 통합 다중 모드 추론 모델</title>
-      <link>https://huggingface.co/papers/2607.15686</link>
-      <description>과학적 이해, 예측 및 생성을 위한 통합 다중 모드 추론 모델인 S1-Omni를 제시합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15686">Hugging Face Papers</source>
-      <guid isPermaLink="false">6c13eb8ab667701d7de96604eb46b1cb</guid>
-    </item>
-    <item>
-      <title>Qwen-Music 기술 보고서</title>
-      <link>https://huggingface.co/papers/2607.11699</link>
-      <description>본 보고서에서는 완성도 높은 보컬 가창력으로 음악성과 완성도가 높은 곡을 제작할 수 있는 강력한 음악 세대 모델인 Qwen-Music을 소개합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.11699">Hugging Face Papers</source>
-      <guid isPermaLink="false">269f753601172bbc06ff0dc165710d68</guid>
-    </item>
-    <item>
-      <title>Cura 1T: Agentic Healthcare를 위한 전문 모델</title>
-      <link>https://huggingface.co/papers/2607.15314</link>
-      <description>의료는 고부담 의사소통, 전문가 추론, 워크플로 실행을 포괄하지만 이러한 사용 사례를 함께 다루는 전문 LLM은 여전히 ​​제한적입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15314">Hugging Face Papers</source>
-      <guid isPermaLink="false">0ea0078a44298e9552cf59b8cb1132f8</guid>
-    </item>
-    <item>
-      <title>사전 훈련부터 사후 훈련까지의 추론 이해</title>
-      <link>https://huggingface.co/papers/2607.16097</link>
-      <description>강화 학습(RL)은 복잡한 추론 작업에 대한 대규모 언어 모델(LLM)을 개선하는 데 핵심이 되었지만, RL 사후 훈련은 선행하는 사전 훈련과 별도로 주로 연구됩니다.</description>
-      <pubDate>Mon, 20 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16097">Hugging Face Papers</source>
-      <guid isPermaLink="false">96fe7ed75939b9f4b6c9f8b44dd41dd1</guid>
     </item>
   </channel>
 </rss>

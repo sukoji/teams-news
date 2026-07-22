@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Jul 2026 09:00:42 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 13:18:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anhtropic의 에이전트형 비정렬(Agentic Misalignment)에 대한 최신 연구: 에이전트의 네 가지 정렬 실패 사례</title>
+      <link>https://discuss.pytorch.kr/t/anhtropic-agentic-misalignment/11327</link>
+      <description>에이전트형 비정렬(Agentic Misalignment) 2026 여름 보고서 소개 이 글에서 정리하는 Anthropic의 보고서는 자율 권한을 받은 프론티어 AI 에이전트가 고위험 상황에서 어떻게 정렬(alignment)에 실패하는지를 통제된 시뮬레이션으로 탐색한 연구입니다.</description>
+      <pubDate>Wed, 22 Jul 2026 12:30:44 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anhtropic-agentic-misalignment/11327">PyTorch Korea</source>
+      <guid isPermaLink="false">6987810a57d5e819d419b176c6b76f4f</guid>
+    </item>
+    <item>
+      <title>Cursor의 에이전트 스웜과 새로운 모델 경제학: '품질은 같아도 비용은 8배까지 차이날 수 있다'</title>
+      <link>https://discuss.pytorch.kr/t/cursor-8/11363</link>
+      <description>Cursor의 에이전트 스웜 소개: 수백 개의 에이전트를 하나의 목표로 묶기 AI 코드 에디터를 만드는 Cursor 는 올해 초부터 "여러 에이전트를 협력시켜 하나의 목표를 향해 규모를 키우면, 지금까지 한 개의 에이전트로는 닿지 못하던 규모와 복잡도의 작업을 풀 수 있지 않을까" 라는 가설을 실험해 왔습니다.</description>
+      <pubDate>Wed, 22 Jul 2026 10:30:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/cursor-8/11363">PyTorch Korea</source>
+      <guid isPermaLink="false">13627104a4448b387509ac288234c54b</guid>
+    </item>
+    <item>
+      <title>Google, 토큰 효율을 높인 Gemini 3.6 Flash와 3.5 Flash-Lite 출시</title>
+      <link>https://discuss.pytorch.kr/t/google-gemini-3-6-flash-3-5-flash-lite/11385</link>
+      <description>Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber 소개 Google 가 2026년 7월 21일, Gemini의 경량 계열인 Flash 제품군(Flash series)을 한 번에 세 종류로 확장했습니다. Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, 그리고 사이버 보안에 특화된 Gemini 3.5 Flash Cyber입니다.</description>
+      <pubDate>Wed, 22 Jul 2026 13:00:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-gemini-3-6-flash-3-5-flash-lite/11385">PyTorch Korea</source>
+      <guid isPermaLink="false">694cc8e98871a2f0e8b610dcb7be45e2</guid>
+    </item>
     <item>
       <title>Logo Generator: SVG 로고와 전문가급 쇼케이스를 만드는 Claude Code 스킬</title>
       <link>https://discuss.pytorch.kr/t/logo-generator-svg-claude-code/11295</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sensorfm-1-1-trillion-feat-google/11250">PyTorch Korea</source>
       <guid isPermaLink="false">404798737397bf729c0e283ce062bbaa</guid>
-    </item>
-    <item>
-      <title>Lathe: LLM이 생성한 실습형 튜토리얼을 직접 따라 하며 배우는 도구</title>
-      <link>https://discuss.pytorch.kr/t/lathe-llm/11243</link>
-      <description>Lathe 소개 Lathe는 LLM이 사용자를 대신해 생각해 주는 것이 아니라, 사용자가 스스로 익히도록 돕는 것을 목표로 하는 학습 도구입니다. 어떤 주제든 프롬프트를 주면 여러 파트로 구성된 실습형 기술 튜토리얼을 생성하고, 사용자는 그 튜토리얼을 로컬 UI에서 직접 손으로 따라 가며 배웁니다.</description>
-      <pubDate>Tue, 14 Jul 2026 20:30:07 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/lathe-llm/11243">PyTorch Korea</source>
-      <guid isPermaLink="false">f7225d1b785fd4f156829a78995ebe75</guid>
-    </item>
-    <item>
-      <title>colibri: 744B MoE 모델을 25GB RAM 소비자 PC에서 실행하는 순수 C 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/colibri-744b-moe-25gb-ram-pc-c/11221</link>
-      <description>colibri 소개 colibri(colibrì)는 744B(7,440억) 파라미터 규모의 MoE(Mixture-of-Experts) 언어 모델을 약 25GB RAM을 가진 평범한 소비자 PC에서 실행하는 순수 C 추론 엔진입니다.</description>
-      <pubDate>Tue, 14 Jul 2026 15:30:46 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/colibri-744b-moe-25gb-ram-pc-c/11221">PyTorch Korea</source>
-      <guid isPermaLink="false">829174136d58967af2f1ba5668450e14</guid>
-    </item>
-    <item>
-      <title>Weft: LLM과 사람, API를 기본 노드로 삼는 AI 오케스트레이션 프로그래밍 언어</title>
-      <link>https://discuss.pytorch.kr/t/weft-llm-api-ai/11236</link>
-      <description>Weft 소개 Weft는 AI 시스템을 만들기 위한 프로그래밍 언어입니다. 요즘의 실제 소프트웨어는 LLM을 호출하고, 데이터베이스를 띄우고, 사람의 응답을 기다리고, 웹을 탐색하고, 여러 에이전트를 조율합니다. 그런데 이런 동작은 대부분 라이브러리를 가져다 붙이고 그 사이를 잇는 배관(plumbing) 코드를 직접 작성해야 얻어집니다.</description>
-      <pubDate>Tue, 14 Jul 2026 12:30:02 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/weft-llm-api-ai/11236">PyTorch Korea</source>
-      <guid isPermaLink="false">eb248623919791e384d4b8e0f1968fd0</guid>
     </item>
   </channel>
 </rss>
