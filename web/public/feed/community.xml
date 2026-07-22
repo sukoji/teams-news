@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 22 Jul 2026 19:26:49 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 21:27:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Jacobian Lens: 언어 모델 내부 표현을 어휘 토큰으로 읽어내는 해석 도구</title>
+      <link>https://discuss.pytorch.kr/t/jacobian-lens/11341</link>
+      <description>Jacobian Lens 소개 언어 모델은 하나의 답을 내놓기까지 내부에서 방대한 계산을 수행하지만, 그 중간 활성화(activation)는 고차원 벡터라서 사람이 곧바로 읽을 수 없습니다. 어떤 레이어의 어떤 표현이 무엇을 담고 있는지 확인하려면 별도의 해석 도구가 필요합니다.</description>
+      <pubDate>Wed, 22 Jul 2026 20:30:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jacobian-lens/11341">PyTorch Korea</source>
+      <guid isPermaLink="false">684690f9aeca06869898b26a1e27d423</guid>
+    </item>
     <item>
       <title>i-have-adhd: 두괄식으로, 답과 다음 행동부터 알려주는 Claude Code 및 Codex 스킬</title>
       <link>https://discuss.pytorch.kr/t/i-have-adhd-claude-code-codex/11344</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/pixel2motion-svg-ai/11239">PyTorch Korea</source>
       <guid isPermaLink="false">eb9e0312e3adf59381965e622d1869fe</guid>
-    </item>
-    <item>
-      <title>OpenKnowledge: Claude, Codex와 함께 편집하는 로컬 마크다운 에디터 겸 LLM Wiki</title>
-      <link>https://discuss.pytorch.kr/t/openknowledge-claude-codex-llm-wiki/11222</link>
-      <description>OpenKnowledge 소개 OpenKnowledge는 마크다운 파일을 Notion이나 구글 문서처럼 편집하면서, 그 파일들을 Claude·Codex 같은 AI 에이전트와 함께 다룰 수 있게 해 주는 로컬 마크다운 에디터입니다. 지식 베이스, LLM 위키, 스펙 문서, 노트를 대상으로 하며, 모든 데이터는 사용자의 컴퓨터에 남고 무료로 쓸 수 있습니다.</description>
-      <pubDate>Wed, 15 Jul 2026 15:30:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openknowledge-claude-codex-llm-wiki/11222">PyTorch Korea</source>
-      <guid isPermaLink="false">7a18f28662310f7385f126487ccf10eb</guid>
     </item>
   </channel>
 </rss>
