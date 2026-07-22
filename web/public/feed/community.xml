@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Jul 2026 06:11:14 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 08:05:50 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Thinking to Recall: 추론이 어떻게 LLM의 잠든 지식을 깨우는지에 대한 연구 (feat. Google, COLM 2026)</title>
+      <link>https://discuss.pytorch.kr/t/thinking-to-recall-llm-feat-google-colm-2026/11271</link>
+      <description>Thinking to Recall 연구 소개 이 논문은 "왜 단순한 사실 질문에도 추론(reasoning)이 도움이 되는가?"라는 반직관적인 질문을 정면으로 다룹니다. 결론부터 말하면, 추론을 켜는 것만으로 대형 언어 모델(LLM)이 자기 가중치 속에 이미 저장하고 있으면서도 좀처럼 꺼내지 못하던 사실을 훨씬 더 잘 끌어낸다는 것을 보이고, 그 이유를 두 가지 메커니즘으로 규명합니다.</description>
+      <pubDate>Thu, 23 Jul 2026 06:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinking-to-recall-llm-feat-google-colm-2026/11271">PyTorch Korea</source>
+      <guid isPermaLink="false">c2461d1278c68b4225d6174eac6d0ecb</guid>
+    </item>
     <item>
       <title>Jacobian Lens: 언어 모델 내부 표현을 어휘 토큰으로 읽어내는 해석 도구</title>
       <link>https://discuss.pytorch.kr/t/jacobian-lens/11341</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/aspire-feat-nvidia/11066">PyTorch Korea</source>
       <guid isPermaLink="false">715f6cf55e76decbc847171fdaba3e21</guid>
-    </item>
-    <item>
-      <title>Pixel2Motion: 래스터 로고를 매끄러운 SVG 애니메이션으로 바꾸는 AI 스킬</title>
-      <link>https://discuss.pytorch.kr/t/pixel2motion-svg-ai/11239</link>
-      <description>Pixel2Motion 소개 Pixel2Motion은 PNG, JPG, WebP나 화면 캡처처럼 래스터 형태로만 존재하는 로고를 매끄러운 SVG로 재구성하고, 그 위에 모션을 입혀 애니메이션 HTML과 GIF, 영상 프리뷰까지 만들어내는 오픈소스 스킬입니다.</description>
-      <pubDate>Wed, 15 Jul 2026 18:30:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pixel2motion-svg-ai/11239">PyTorch Korea</source>
-      <guid isPermaLink="false">eb9e0312e3adf59381965e622d1869fe</guid>
     </item>
   </channel>
 </rss>
