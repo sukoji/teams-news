@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Jul 2026 20:11:52 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 23:04:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>kordoc: HWP와 PDF 등 한국 문서를 마크다운으로 바꾸는 파서 겸 MCP 서버</title>
+      <link>https://discuss.pytorch.kr/t/kordoc-hwp-pdf-mcp/11342</link>
+      <description>kordoc 소개 관공서와 기업에서 오가는 한국 문서는 아래아한글(HWP·HWPX), PDF, 엑셀, 워드처럼 형식이 제각각이고, 특히 HWP 계열은 구조가 복잡해 프로그램으로 내용을 꺼내기가 까다롭습니다. 그래서 LLM에게 이런 문서를 읽히거나 검색·요약에 쓰려면, 먼저 사람이 열어서 복사·붙여넣기로 옮기는 수작업이 끼어들곤 합니다.</description>
+      <pubDate>Thu, 23 Jul 2026 20:30:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/kordoc-hwp-pdf-mcp/11342">PyTorch Korea</source>
+      <guid isPermaLink="false">d0d6d4430f2e823e7b1bee4e8a4a01c7</guid>
+    </item>
     <item>
       <title>ZUNA1.1: 위치 인식 확산 오토인코더 기반 EEG 복원 파운데이션 모델 (feat. Zyphra)</title>
       <link>https://discuss.pytorch.kr/t/zuna1-1-eeg-feat-zyphra/11346</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/gn-2026-why-write-code-in-2026/11267">PyTorch Korea</source>
       <guid isPermaLink="false">2551b38abbc5b2bf60934071f385851b</guid>
-    </item>
-    <item>
-      <title>SIT(shushu internship tool): 채용 공고를 프로젝트로 바꿔 이력서와 면접을 준비하는 AI 도구</title>
-      <link>https://discuss.pytorch.kr/t/sit-shushu-internship-tool-ai/11223</link>
-      <description>shushu internship tool 소개 shushu internship tool(줄여서 SIT)은 채용 공고(JD, Job Description)를 받아 지원과 면접에 바로 쓸 수 있는 실전 프로젝트 꾸러미로 바꿔 주는 AI 기반 인턴십 준비 도구입니다.</description>
-      <pubDate>Thu, 16 Jul 2026 15:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sit-shushu-internship-tool-ai/11223">PyTorch Korea</source>
-      <guid isPermaLink="false">8e648bcffde42965e58c2b5dd3bd0947</guid>
     </item>
   </channel>
 </rss>
