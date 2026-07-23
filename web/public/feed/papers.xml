@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:52:23 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 14:56:45 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>자체 경사 강제: 기본 긴 비디오 추정</title>
+      <link>https://huggingface.co/papers/2607.20368</link>
+      <description>최근 자동 회귀 비디오 확산 방법은 Self Forcing을 기반으로 점점 더 많이 구축되고 있으며, 여기서 학생은 실제 비디오 컨텍스트가 아닌 자체 롤아웃으로 생성된 기록에 대해 교육을 받습니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20368">Hugging Face Papers</source>
+      <guid isPermaLink="false">5d9b728840bec8431fbc6647f388f18e</guid>
+    </item>
+    <item>
+      <title>Trace: 다중 도메인 시각적 추론을 위한 분류 기반 환경</title>
+      <link>https://huggingface.co/papers/2607.19790</link>
+      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 언어 모델 추론을 크게 향상시켰지만 동시에 제공되는 훈련 데이터가 부족하여 비전 언어 모델로의 확장이 여전히 제한되어 있습니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19790">Hugging Face Papers</source>
+      <guid isPermaLink="false">e17bf5ff6eb4f7d622fd5e948d44dd6f</guid>
+    </item>
+    <item>
+      <title>표현 고정 및 언어-동작 정렬을 통한 일반화 가능한 VLA 미세 조정</title>
+      <link>https://huggingface.co/papers/2607.13429</link>
+      <description>BC(행동 복제)를 통해 로봇 시연에 대해 사전 훈련된 VLM(비전 언어 모델)을 미세 조정하는 것이 VLA(비전 언어 동작) 정책의 표준 레시피가 되었습니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.13429">Hugging Face Papers</source>
+      <guid isPermaLink="false">38c60c81549dbeeaf5d789b726281d78</guid>
+    </item>
+    <item>
+      <title>유클리드 클리핑을 넘어서: 리만식 아이소메트릭 정책 최적화를 통해 LLM RL의 탐색 붕괴 극복</title>
+      <link>https://huggingface.co/papers/2607.10169</link>
+      <description>강화 학습(RL)은 LLM의 추론 능력을 향상시키기 위한 지배적인 패러다임이 되었습니다. 그러나 PPO-Clip을 사용한 RL 알고리즘은 본질적으로 탐색 붕괴로 인해 제한됩니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.10169">Hugging Face Papers</source>
+      <guid isPermaLink="false">8a68a63cde6b12cf22261ec46a798db0</guid>
+    </item>
+    <item>
+      <title>FVAttn: 비디오 생성을 위한 런타임 로드 밸런싱을 통한 적응형 스파스 어텐션</title>
+      <link>https://huggingface.co/papers/2607.16190</link>
+      <description>비디오 확산 변환기는 긴 시공간 시퀀스를 처리하므로 셀프 어텐션이 고해상도 비디오 생성의 주요 병목 현상이 됩니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16190">Hugging Face Papers</source>
+      <guid isPermaLink="false">e0d6edcb68038aeb0bd500f7fc8a97a5</guid>
+    </item>
+    <item>
+      <title>활성 관찰자를 위한 시험</title>
+      <link>https://huggingface.co/papers/2607.16165</link>
+      <description>인간의 시각은 폐쇄 루프입니다. 시선은 단일 스냅샷이 아닌 중간 가설에 의해 지속적으로 방향이 변경됩니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16165">Hugging Face Papers</source>
+      <guid isPermaLink="false">14b7ac71654a5b3e655b83c7c051179d</guid>
+    </item>
+    <item>
+      <title>판독기가 아닌 모델 훈련: 검증 가능한 활성화 설명을 위한 디코딩 가능성 감독</title>
+      <link>https://huggingface.co/papers/2607.20379</link>
+      <description>자연어 자동 인코더는 숨겨진 활성화에 대한 설명을 재구성하여 점수를 매깁니다. 활성화가 재생성될 수 있으면 설명은 충실한 것으로 간주됩니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20379">Hugging Face Papers</source>
+      <guid isPermaLink="false">b54bb8ab44c1c272f727f04a3548a047</guid>
+    </item>
     <item>
       <title>SLAI T-Rex: Ascend SuperPOD에서 DeepSeek-V4 제품군의 전체 매개변수 사후 훈련</title>
       <link>https://huggingface.co/papers/2607.20145</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.17146">Hugging Face Papers</source>
       <guid isPermaLink="false">78627d153dfcb6b0841f8c99bcc3d569</guid>
-    </item>
-    <item>
-      <title>ShotPlan: 학습 가능한 계획 토큰을 사용한 영화 같은 비디오 생성</title>
-      <link>https://huggingface.co/papers/2607.17675</link>
-      <description>현재 비디오 생성 모델은 싱글 샷 생성에서 인상적인 결과를 달성하지만 일관된 내러티브와 효과적인 멀티 샷 구성을 위해 명시적인 쇼가 필요한 영화 비디오 생성에서는 여전히 제한적입니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.17675">Hugging Face Papers</source>
-      <guid isPermaLink="false">fee719c5323d02c9c7c2f0c86d004ec4</guid>
-    </item>
-    <item>
-      <title>다중 모드 대형 언어 모델이 OCT를 이해할 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2607.16609</link>
-      <description>OCT(광간섭단층촬영) 영상은 망막 질환의 진단과 치료에 필수적입니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16609">Hugging Face Papers</source>
-      <guid isPermaLink="false">5ba5cc8a2919accd6087a7cc62cbad12</guid>
-    </item>
-    <item>
-      <title>DeepSearch-World: 검증 가능한 환경에서 Deep Search 에이전트를 위한 자체 증류</title>
-      <link>https://huggingface.co/papers/2607.07820</link>
-      <description>감독된 미세 조정은 고정된 교사 증류 궤적에 의존하는 반면 희소 보상 강화 학습은 약한 슈퍼…</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.07820">Hugging Face Papers</source>
-      <guid isPermaLink="false">3648c451dd8f777720c4d64ced6a61d1</guid>
-    </item>
-    <item>
-      <title>GigaAM Multilingual: 잘 표현되지 않는 언어를 위한 기초 모델</title>
-      <link>https://huggingface.co/papers/2607.10371</link>
-      <description>최근의 확장 성공에도 불구하고 다국어 ASR 성능은 심각한 데이터 부족으로 어려움을 겪고 있는 롱테일 언어로 인해 여전히 매우 고르지 않습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.10371">Hugging Face Papers</source>
-      <guid isPermaLink="false">4676302d1fea800c00f4f164d993e960</guid>
-    </item>
-    <item>
-      <title>Apple-π: 법칙 기반 물리적 지능을 향한 비디오를 통한 벤치마킹 사고</title>
-      <link>https://huggingface.co/papers/2607.16401</link>
-      <description>현대 비디오 세대 모델은 물리 법칙을 내면화한 신흥 세계 모델로 점점 더 환영받고 있습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16401">Hugging Face Papers</source>
-      <guid isPermaLink="false">4e20b7dd04a436bb480619ef0043c2fc</guid>
-    </item>
-    <item>
-      <title>WorldCupArena: 축구 예측에 대한 언어 모델 및 심층 연구 에이전트의 세밀한 평가</title>
-      <link>https://huggingface.co/papers/2607.18084</link>
-      <description>킥오프 전에 축구 경기를 예측하려면 과거 결과를 아는 것 이상이 필요합니다. 모델은 변화하는 정보를 사용하고 답을 얻기 전에 명확한 예측을 해야 합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18084">Hugging Face Papers</source>
-      <guid isPermaLink="false">058c056c8759c9c00f5bd410c7e2e4dc</guid>
-    </item>
-    <item>
-      <title>FlowMimic: 온라인 비디오 편집 데이터 생성 및 양식 모방을 위한 픽셀 쌍 뒤틀린 흐름장을 사용한 마스크 없는 시각적 편집 및 생성</title>
-      <link>https://huggingface.co/papers/2607.18227</link>
-      <description>비전 연구의 일반적인 방향에 따라 우리는 단일 모델 내에서 비디오 및 이미지 양식에 대한 생성 및 편집 기능의 통합을 탐구합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18227">Hugging Face Papers</source>
-      <guid isPermaLink="false">691ec5f38860a8db91a3f749d74fb233</guid>
     </item>
   </channel>
 </rss>

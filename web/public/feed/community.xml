@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:52:23 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 14:56:45 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>아이폰에 350억 파라미터 모델을 담아본 이야기</title>
+      <link>https://discuss.pytorch.kr/t/topic/11393</link>
+      <description>35B 모델이 GPU 없는 PC와 폰에서 도는 이유 — 온디바이스 추론은 왜 메모리 대역폭 문제인가 POCKET을 Bonsai와 같은 기계, 같은 표준 도구 로 측정한 기록, 그리고 "더 큰 모델이 더 빠르다"는 역설을 뜯어봅니다. 온디바이스 LLM을 논할 때 우리는 흔히 파라미터 수를 크기의 지표로 씁니다.</description>
+      <pubDate>Thu, 23 Jul 2026 14:37:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/topic/11393">PyTorch Korea</source>
+      <guid isPermaLink="false">eea2df47ddb6c36418cc5a490ee413b9</guid>
+    </item>
+    <item>
+      <title>feyn, 답변 전 DB를 먼저 살펴보는 text-to-SQL 모델 SQRL 공개 (feat. Chonkie)</title>
+      <link>https://discuss.pytorch.kr/t/feyn-db-text-to-sql-sqrl-feat-chonkie/11360</link>
+      <description>SQRL 소개 RAG 파이프라인의 텍스트 청킹(chunking) 라이브러리로 잘 알려진 Chonkie 의 개발사 feyn 이 자연어 질문을 SQL 쿼리로 변환하는 모델 제품군 SQRL 을 공개했습니다. SQRL은 SQRL-4B , SQRL-9B , SQRL-35B-A3B 세 가지 크기로 제공되며, 모두 Hugging Face 에 Apache 2.0 라이선스로 공개되어 있습니다.</description>
+      <pubDate>Thu, 23 Jul 2026 14:30:00 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/feyn-db-text-to-sql-sqrl-feat-chonkie/11360">PyTorch Korea</source>
+      <guid isPermaLink="false">ce572dd2a48ff8153ccf4dfe9e776669</guid>
+    </item>
+    <item>
+      <title>pi-computer-use: AI 에이전트가 데스크톱 앱을 보고 조작하는 컴퓨터 사용 플러그인</title>
+      <link>https://discuss.pytorch.kr/t/pi-computer-use-ai/11343</link>
+      <description>pi-computer-use 소개 AI 에이전트가 실제 업무를 처리하려면 파일이나 API, 터미널 명령만으로는 부족할 때가 많습니다. 사내 전용 프로그램이나 오래된 데스크톱 앱처럼 프로그래밍 인터페이스가 없고 화면(GUI)만 제공하는 소프트웨어가 여전히 많기 때문입니다. 이런 앱을 자동화하려면 사람이 하듯 화면을 보고, 버튼과 글자를 이해한 뒤, 직접 클릭하고 입력해야 합니다.</description>
+      <pubDate>Thu, 23 Jul 2026 12:30:44 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pi-computer-use-ai/11343">PyTorch Korea</source>
+      <guid isPermaLink="false">e1f232e7b2ea996f9021fed72114f38d</guid>
+    </item>
     <item>
       <title>video-shotcraft: Claude Code와 Codex를 영상 스튜디오로 바꾸는 AI 스킬</title>
       <link>https://discuss.pytorch.kr/t/video-shotcraft-claude-code-codex-ai/11377</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/bonsai-27b-27b-llm-feat-prismml/11263">PyTorch Korea</source>
       <guid isPermaLink="false">71b846be8699b8793fe7565f20a0eb1b</guid>
-    </item>
-    <item>
-      <title>OpenAI, 에이전틱 코딩용 매크로패드 Codex Micro 공개 (feat. Work Louder)</title>
-      <link>https://discuss.pytorch.kr/t/openai-codex-micro-feat-work-louder/11282</link>
-      <description>Codex Micro 소개 Codex Micro 는 OpenAI 가 하드웨어 액세서리 브랜드 Work Louder 와 함께, 코딩 에이전트 Codex 를 위해 특별히 설계한 매크로패드(macropad)입니다.</description>
-      <pubDate>Thu, 16 Jul 2026 13:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-codex-micro-feat-work-louder/11282">PyTorch Korea</source>
-      <guid isPermaLink="false">2674b62fe56d108c1123fec1d5a5cb69</guid>
-    </item>
-    <item>
-      <title>Paca: 사람과 AI 에이전트가 한 보드에서 협업하는 자체 호스팅 프로젝트 관리 도구</title>
-      <link>https://discuss.pytorch.kr/t/paca-ai/11262</link>
-      <description>Paca 소개 대부분의 협업 도구에서 AI는 본체 옆에 붙은 챗봇이나 자동화 애드온으로 존재합니다. 사람이 보드에서 일하는 동안 AI는 별도 창에서 질문에 답하거나 규칙에 따라 상태를 바꾸는 정도에 머무릅니다. 팀의 실제 작업 흐름 안으로 들어오지는 못하는 셈입니다.</description>
-      <pubDate>Thu, 16 Jul 2026 11:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/paca-ai/11262">PyTorch Korea</source>
-      <guid isPermaLink="false">ad09f6969add011d432f2ab880c32505</guid>
-    </item>
-    <item>
-      <title>World of ClaudeCraft: 브라우저에서 돌아가는 오픈소스 MMO이자 에이전트 강화학습 환경</title>
-      <link>https://discuss.pytorch.kr/t/world-of-claudecraft-mmo/11241</link>
-      <description>World of ClaudeCraft 소개 World of ClaudeCraft는 브라우저에서 바로 플레이할 수 있는 클래식 시대풍의 완성형 MMO이면서, 동시에 AI 에이전트를 학습시킬 수 있는 강화학습 환경을 함께 제공하는 오픈소스 프로젝트입니다.</description>
-      <pubDate>Thu, 16 Jul 2026 08:30:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/world-of-claudecraft-mmo/11241">PyTorch Korea</source>
-      <guid isPermaLink="false">b00606c9894c24fc40ba4dae1ee842b0</guid>
     </item>
   </channel>
 </rss>
