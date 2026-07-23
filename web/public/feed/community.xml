@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Jul 2026 14:56:45 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 17:37:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Chops: Claude Code, Cursor, Codex 등의 에이전트 스킬을 한곳에서 관리하는 macOS 앱</title>
+      <link>https://discuss.pytorch.kr/t/chops-claude-code-cursor-codex-macos/11351</link>
+      <description>Chops 소개 여러 코딩 에이전트를 함께 쓰다 보면 스킬(skill)과 에이전트(agent) 정의 파일이 도구마다 다른 dotfile 디렉토리에 흩어집니다. Claude Code 는 ~/.claude/skills/ 에, Cursor 는 ~/.cursor/ 에, Codex 는 ~/.codex/ 에 각자 저장하는 식입니다.</description>
+      <pubDate>Thu, 23 Jul 2026 16:30:50 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/chops-claude-code-cursor-codex-macos/11351">PyTorch Korea</source>
+      <guid isPermaLink="false">d4452b0b1456fdc07cef10d6a700ce23</guid>
+    </item>
     <item>
       <title>아이폰에 350억 파라미터 모델을 담아본 이야기</title>
       <link>https://discuss.pytorch.kr/t/topic/11393</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai-coding-dictionary-ai/10751">PyTorch Korea</source>
       <guid isPermaLink="false">b18f01641d598c58e081a9482599fe40</guid>
-    </item>
-    <item>
-      <title>Bonsai 27B: 노트북과 폰에서 실행되는 27B급 이진 및 삼진 저비트 LLM (feat. PrismML)</title>
-      <link>https://discuss.pytorch.kr/t/bonsai-27b-27b-llm-feat-prismml/11263</link>
-      <description>Bonsai 27B 소개 스마트폰에 27B(270억) 파라미터 규모의 언어 모델을 통째로 담아 실행할 수 있을까요? 상식적으로는 어렵습니다. 27B 모델은 16비트 정밀도(FP16)로 저장하면 가중치만 약 54 GB를 차지하는데, 최신 아이폰이 앱 하나에 허용하는 메모리는 6 GB 남짓에 불과하기 때문입니다.</description>
-      <pubDate>Thu, 16 Jul 2026 12:30:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bonsai-27b-27b-llm-feat-prismml/11263">PyTorch Korea</source>
-      <guid isPermaLink="false">71b846be8699b8793fe7565f20a0eb1b</guid>
     </item>
   </channel>
 </rss>
