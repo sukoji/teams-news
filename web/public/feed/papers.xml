@@ -5,9 +5,90 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 24 Jul 2026 09:02:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 13:16:27 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AREX: 심층 연구를 위한 재귀적 자기 개선 에이전트를 향하여</title>
+      <link>https://huggingface.co/papers/2607.21461</link>
+      <description>심층 연구에서는 에이전트가 여러 제약 조건을 함께 충족하는 답변을 찾아야 합니다. 그러한 답변을 찾는 데는 비용이 많이 드는 반면, 후보를 확인하는 것은 다루기 쉬운 제약 조건 검사로 분해될 수 있는 경우가 많습니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21461">Hugging Face Papers</source>
+      <guid isPermaLink="false">a7669d0ab63bc72778ba176b3e55efef</guid>
+    </item>
+    <item>
+      <title>Tencent WorkBuddy 벤치: 오염 방지 작업 구성을 갖춘 다중 도메인 코딩 에이전트 벤치마크</title>
+      <link>https://huggingface.co/papers/2607.20911</link>
+      <description>코딩 에이전트를 위한 다중 도메인 평가 제품군인 Tencent WorkBuddy Bench를 소개합니다. 이 보고서에는 구성 방법론, 채점 프로토콜 및 모델 간 순위표가 기록되어 있습니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20911">Hugging Face Papers</source>
+      <guid isPermaLink="false">fb13ccb120fb1aaeff6e6b71ac88cc51</guid>
+    </item>
+    <item>
+      <title>ReferTrack: 구체화된 시각적 추적을 위한 참조 후 추적</title>
+      <link>https://huggingface.co/papers/2607.20061</link>
+      <description>EVT(Embodied Visual Tracking)는 모바일 에이전트가 온보드 비전만을 사용하여 자연어로 설명된 특정 대상을 지속적으로 따라가도록 요구합니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20061">Hugging Face Papers</source>
+      <guid isPermaLink="false">e1e0ef268189447e03fe5458fc183f42</guid>
+    </item>
+    <item>
+      <title>LLM RL을 위한 예측 발산 마스크</title>
+      <link>https://huggingface.co/papers/2607.10848</link>
+      <description>LLM(대형 언어 모델)에 대한 강화 학습은 일반적으로 정책 외 업데이트를 안정화하기 위해 신뢰 영역 마스크를 사용합니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.10848">Hugging Face Papers</source>
+      <guid isPermaLink="false">7bebe98307e17c4c7a2999d7bf3cb815</guid>
+    </item>
+    <item>
+      <title>세계 상태 레지스터를 사용한 스트리밍 다중 에이전트 자동 회귀 확산 모델</title>
+      <link>https://huggingface.co/papers/2607.21594</link>
+      <description>다중 에이전트 대화형 세계 모델은 일관된 관찰을 생성할 뿐만 아니라 에이전트 전반에 걸쳐 지속되고 뷰 전반에 걸쳐 진화하는 세계 상태를 유지해야 합니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21594">Hugging Face Papers</source>
+      <guid isPermaLink="false">1fbbb875236d4de56de1e56a6228453d</guid>
+    </item>
+    <item>
+      <title>NVIDIA-labs OO 에이전트: 기본 Python 객체 지향 에이전트</title>
+      <link>https://huggingface.co/papers/2607.20709</link>
+      <description>기존 에이전트 개발은 프롬프트 템플릿, 도구 스키마, 콜백 코드 및 워크플로 그래프로 분할됩니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20709">Hugging Face Papers</source>
+      <guid isPermaLink="false">8997d44379cb6731b092080042c8dd4e</guid>
+    </item>
+    <item>
+      <title>GraphVid: 대화형 그래프로 제어 가능한 비디오 생성</title>
+      <link>https://huggingface.co/papers/2607.21580</link>
+      <description>주로 픽셀 이동을 제한하는 텍스트 프롬프트나 모션 제어 입력을 사용하여 정밀한 다중 객체 상호 작용을 지정하는 것이 어렵기 때문에 제어 가능한 비디오 생성은 여전히 ​​어려운 과제입니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21580">Hugging Face Papers</source>
+      <guid isPermaLink="false">a16d363d77be803ab8c944a7abcf75cf</guid>
+    </item>
+    <item>
+      <title>ICAE-Bench: 코딩 에이전트를 대화형 프로젝트 빌더로 평가</title>
+      <link>https://huggingface.co/papers/2607.21217</link>
+      <description>최근 바이브 코딩 워크플로의 등장으로 인해 코딩 에이전트가 수행해야 하는 작업이 바뀌고 있습니다.</description>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21217">Hugging Face Papers</source>
+      <guid isPermaLink="false">81147cb00d8ebedc583ba79f3e35d182</guid>
+    </item>
+    <item>
+      <title>TableVerse: 일반화 가능한 조작을 위한 실제 기반 레이아웃을 갖춘 대규모 테이블탑 데이터 세트</title>
+      <link>https://huggingface.co/papers/2607.21017</link>
+      <description>일반화 가능한 로봇 조작 정책의 개발은 본질적으로 대규모의 고충실도 장면 데이터의 가용성에 의해 제한됩니다.</description>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21017">Hugging Face Papers</source>
+      <guid isPermaLink="false">838fe33fe25adfec885cf1141afbbd08</guid>
+    </item>
     <item>
       <title>ENTRAP-VL: 시각 언어 모델의 이중 상황 동반을 위한 분류학적 프로브</title>
       <link>https://huggingface.co/papers/2607.20092</link>
@@ -376,87 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.18091">Hugging Face Papers</source>
       <guid isPermaLink="false">594406a061e1977aba7357f83b91d042</guid>
-    </item>
-    <item>
-      <title>SeerGuard: 월드 모델 예측을 통한 모바일 GUI 에이전트를 위한 안전 프레임워크</title>
-      <link>https://huggingface.co/papers/2607.15550</link>
-      <description>모바일 그래픽 사용자 인터페이스(GUI) 에이전트는 복잡한 작업을 자동화하는 데 있어 뛰어난 기능을 입증했지만, 단 한 번의 잘못된 작업으로 인해 되돌릴 수 없는 결과를 초래할 수 있는 심각한 안전 위험을 초래합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15550">Hugging Face Papers</source>
-      <guid isPermaLink="false">e939b7e4b0dd43a846e7fbfe6bcbf00a</guid>
-    </item>
-    <item>
-      <title>외관 포인터 - 확산 변압기의 다중 모드 영역 제어</title>
-      <link>https://huggingface.co/papers/2607.19344</link>
-      <description>제어 가능한 이미지 생성은 재료, 객체 정체성 및 공간 배치에 대한 정확한 지역 제어가 필요한 창의적인 전문가에게 여전히 어려운 과제로 남아 있습니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.19344">Hugging Face Papers</source>
-      <guid isPermaLink="false">0a0521659a029102b5fb5c36a44ccd7f</guid>
-    </item>
-    <item>
-      <title>ConsiSpace: 비디오 공간 추론을 위한 기하학적 일관성 문제 학습</title>
-      <link>https://huggingface.co/papers/2607.17599</link>
-      <description>비디오 공간 추론은 모델이 변화하는 관점에서 긴 지평선에 걸쳐 공간 관계를 추론해야 하는 내비게이션 중심 인식 및 긴 비디오 질문 응답에 필수적입니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.17599">Hugging Face Papers</source>
-      <guid isPermaLink="false">ff9730f20b254fa1129c55d79051b9c7</guid>
-    </item>
-    <item>
-      <title>H^2SD: 하이브리드 사후 통찰력 자가 증류</title>
-      <link>https://huggingface.co/papers/2607.18955</link>
-      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 수학적 추론 및 코드 생성과 같은 작업에 대한 대규모 언어 모델의 추론 기능을 크게 향상시켰습니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18955">Hugging Face Papers</source>
-      <guid isPermaLink="false">915ad4a943a68f14da892f4d704952e2</guid>
-    </item>
-    <item>
-      <title>휴먼-AI 코워킹의 비균일성 원칙</title>
-      <link>https://huggingface.co/papers/2607.16530</link>
-      <description>다단계 및 고부담 워크플로를 자동화하기 위해 생성적 AI가 점점 더 많이 적용됨에 따라, AI로 생성된 결과물의 품질을 보장하려면 인간의 판단과 참여가 여전히 필수적입니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16530">Hugging Face Papers</source>
-      <guid isPermaLink="false">6d30f1f3a8605106dc6a6750eccb51a3</guid>
-    </item>
-    <item>
-      <title>통합 세계 모델링을 위한 마스크된 시각적 작업</title>
-      <link>https://huggingface.co/papers/2607.19343</link>
-      <description>비디오 모델은 시각적 세계가 어떻게 움직이고, 상호 작용하고, 접촉에 반응하는지에 대한 풍부한 사전 정보를 흡수하여 로봇 세계 모델링을 위한 유망한 기반이 됩니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.19343">Hugging Face Papers</source>
-      <guid isPermaLink="false">5c935f6fa913ebf090aa46b3e64301a2</guid>
-    </item>
-    <item>
-      <title>마스크 확산 언어 모델은 Agentic RL을 위한 강력하고 조정 가능한 텍스트 기반 월드 모델입니다.</title>
-      <link>https://huggingface.co/papers/2607.16204</link>
-      <description>최근 강화 학습(RL)의 성장으로 인해 다양하고 전문화된 교육 환경에 대한 필요성이 대두되었습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16204">Hugging Face Papers</source>
-      <guid isPermaLink="false">74c949cc9d507acfed6e6ee619db0b64</guid>
-    </item>
-    <item>
-      <title>AI 대 AI 관리의 강압과 기만: 즉각적인 확대에 대한 행위적 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.15434</link>
-      <description>다중 에이전트 시스템은 일상적으로 하나의 AI 에이전트를 다른 AI 에이전트에 대한 권한으로 배치합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15434">Hugging Face Papers</source>
-      <guid isPermaLink="false">4aa2ab39dad18b3025514b12f28da2d3</guid>
-    </item>
-    <item>
-      <title>UI2App: 실행 가능한 웹 애플리케이션 생성에서 시각적 상호 작용 추론 벤치마킹</title>
-      <link>https://huggingface.co/papers/2607.06306</link>
-      <description>LLM(대형 언어 모델)은 웹 페이지 생성 분야에서 점점 더 뛰어난 역량을 보여왔습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.06306">Hugging Face Papers</source>
-      <guid isPermaLink="false">97cf0fb4f80132998158f969db98fa13</guid>
     </item>
   </channel>
 </rss>
