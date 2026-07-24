@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 24 Jul 2026 19:20:15 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 21:21:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>wigolo: API 키 없이 로컬에서 동작하는 AI 에이전트용 웹 검색 MCP 서버</title>
+      <link>https://discuss.pytorch.kr/t/wigolo-api-ai-mcp/11374</link>
+      <description>wigolo 소개 AI 코딩 에이전트에게 웹은 필수 도구가 됐지만, 대부분의 검색·크롤링 도구는 클라우드 API 키를 요구하고 쿼리마다 요금이 붙습니다. 에이전트는 한 번에 답을 얻기보다 여러 질의를 몰아서 던지는 특성이 있어, 이 과금 구조는 사용량이 늘수록 부담이 커집니다. wigolo는 이 지점을 다르게 접근합니다.</description>
+      <pubDate>Fri, 24 Jul 2026 20:30:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/wigolo-api-ai-mcp/11374">PyTorch Korea</source>
+      <guid isPermaLink="false">f7e266f50af98f1220bbf509142444fa</guid>
+    </item>
     <item>
       <title>OpenAI Secure MCP Tunnel: 사설 MCP 서버를 공개하지 않고 ChatGPT와 Codex에 연결하는 프로젝트</title>
       <link>https://discuss.pytorch.kr/t/openai-secure-mcp-tunnel-mcp-chatgpt-codex/11369</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/keep-codex-fast-codex/11277">PyTorch Korea</source>
       <guid isPermaLink="false">45ec39bede009c693739b2962be47cbc</guid>
-    </item>
-    <item>
-      <title>open-computer-use: 어떤 AI 에이전트와도 사용 가능한 오픈소스 컴퓨터 사용 MCP 서비스</title>
-      <link>https://discuss.pytorch.kr/t/open-computer-use-ai-mcp/11298</link>
-      <description>open-computer-use 소개 AI 에이전트가 코드를 짜는 것을 넘어 사람 대신 컴퓨터를 직접 조작하는 "컴퓨터 사용(Computer Use)"이 주목받고 있지만, 이 기능은 특정 제품이나 플랫폼에 묶여 있는 경우가 많습니다.</description>
-      <pubDate>Sat, 18 Jul 2026 10:30:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/open-computer-use-ai-mcp/11298">PyTorch Korea</source>
-      <guid isPermaLink="false">dcbb72ed8bbf2e2a2c5435a488950467</guid>
     </item>
   </channel>
 </rss>
