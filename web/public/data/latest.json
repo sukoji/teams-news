@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-24",
-  "generated_at": "2026-07-24T08:57:05.549395+09:00",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T08:59:26.029898+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,54 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "d444516e6cfbc7e0c72ea1bcef28de87",
+          "id": "49f501b20ee7dfaca1905e75b19bddf2",
           "index": 1,
-          "title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
-          "title_ko": "Mage-Flow: 이미지 생성 및 편집을 위한 효율적인 기본 해상도 기반 모델",
-          "summary": "Large-scale visual generators are increasingly capable but costly to train, fine-tune, and deploy.",
-          "summary_ko": "대규모 시각적 생성기의 성능은 점점 향상되고 있지만 교육, 미세 조정 및 배포에 비용이 많이 듭니다.",
-          "url": "https://huggingface.co/papers/2607.19064",
+          "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+          "title_ko": "K12-KGraph: 교육 LLM 벤치마킹 및 교육을 위한 커리큘럼에 맞춰진 지식 그래프",
+          "summary": "Large language models are increasingly used in K-12 education, but existing benchmarks mainly test exam question answering rather than understanding how curriculum knowledge is structured and visually presented.",
+          "summary_ko": "K-12 교육에서 대규모 언어 모델의 사용이 점점 늘어나고 있지만 기존 벤치마크는 커리큘럼 지식이 어떻게 구조화되고 시각적으로 표현되는지 이해하기보다는 주로 시험 시험 질문 답변에 중점을 두고 있습니다.",
+          "url": "https://huggingface.co/papers/2605.09635",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-22T09:00:00+09:00",
-          "popularity": 533,
-          "upvotes": 60,
-          "score": 26.0,
-          "importance_score": 18.0,
+          "published_at": "2026-07-24T09:00:00+09:00",
+          "popularity": 134,
+          "upvotes": 40,
+          "score": 26.72,
+          "importance_score": 14.72,
           "matched_keywords": [
             "ai",
-            "foundation model"
+            "llm",
+            "benchmark",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 60
+            "value": 40
           }
         },
         {
-          "id": "167b52c6b409c485006102b6a1892fee",
+          "id": "a7669d0ab63bc72778ba176b3e55efef",
           "index": 2,
-          "title": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
-          "title_ko": "텍스트 템플릿 토큰은 확산 변환기의 암시적 의미 레지스터입니다.",
-          "summary": "Text-to-image diffusion transformers (DiTs) jointly process text and image tokens, yet their internal computation during denoising remains poorly understood.",
-          "summary_ko": "텍스트-이미지 확산 변환기(DiT)는 텍스트와 이미지 토큰을 공동으로 처리하지만 노이즈 제거 중 내부 계산은 제대로 이해되지 않습니다.",
-          "url": "https://huggingface.co/papers/2607.19139",
+          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+          "title_ko": "AREX: 심층 연구를 위한 재귀적 자기 개선 에이전트를 향하여",
+          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks.",
+          "summary_ko": "심층 연구에서는 에이전트가 여러 제약 조건을 함께 충족하는 답변을 찾아야 합니다. 그러한 답변을 찾는 데는 비용이 많이 드는 반면, 후보를 확인하는 것은 다루기 쉬운 제약 조건 검사로 분해될 수 있는 경우가 많습니다.",
+          "url": "https://huggingface.co/papers/2607.21461",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-22T09:00:00+09:00",
-          "popularity": 151,
-          "upvotes": 69,
-          "score": 25.07,
-          "importance_score": 15.07,
+          "published_at": "2026-07-24T09:00:00+09:00",
+          "popularity": 248,
+          "upvotes": 116,
+          "score": 24.55,
+          "importance_score": 16.56,
           "matched_keywords": [
             "ai",
-            "transformer",
-            "diffusion"
+            "agent"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 69
+            "value": 116
           }
         }
       ]
@@ -67,42 +68,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "7a42ef4a463035542131781310bb751e",
+          "id": "de21d2b8fd821481af058078b9e6dcb8",
           "index": 3,
-          "title": "SKT, AI 데이터센터 전문 ‘SK하이퍼’ 신설…7500억 출자",
+          "title": "[7월24일] 증류는 왜 '도둑질'이 됐나…키미 K3 논란의 진짜 쟁점",
           "title_ko": null,
-          "summary": "SK텔레콤이 ‘아시아 AI 인프라 허브’로 도약하겠다는 목표에 따라 AI 데이터센터 사업개발 전문회사를 신설했다. SK텔레콤(대표 정재헌)은 AI 데이터센터(DC) 사업개발 전문 신설 법인인 SK하이퍼(Hyper)를 설립하고 사업 기반 마련을 위해 2030년까지 7500억원을 출자하겠다고 24일 밝혔다.이는 23일 이사회를 통해 의결됐다.",
+          "summary": "문샷 AI의 \\'키미 K3\\'를 둘러싼 논란이 이어지고 있습니다. 미국에서는 문샷 AI가 앤트로픽의 \\'페이블 5\\'를 증류(distillation)해 모델 성능을 끌어올렸다는 의혹이 제기됐습니다. 미국 정부와 일부 AI 기업은 이를 핵심 기술 무단 활용 행위로 규정하며 제재 가능성까지 거론하고 있습니다.특히 미국 정부는 이를 중국 AI 견제의 근거로 삼고 있습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=213122",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213131",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-24T08:16:30+09:00",
+          "published_at": "2026-07-25T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.86,
-          "importance_score": 19.72,
+          "score": 22.59,
+          "importance_score": 19.17,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "b49b8d6d05383bf462fc4595e630fd15",
+          "id": "bd11e60bd38f2453816be0ae8ef7fe09",
           "index": 4,
-          "title": "문체부, 영상·방송업계와 간담회 개최…'AI 문화강국 전략' 수립 박차",
+          "title": "MBO의 종말과 '정보 역전':..왜 1월 세운 KPI가 오늘의 혁신 막을까",
           "title_ko": null,
-          "summary": "[지디넷코리아]문화체육관광부(이하 문체부)가 영상 및 방송업계와 만나 '인공지능(AI) 문화강국' 도약을 위한 현장 목소리를 들었다.문체부는 최근 최휘영 장관이 서울 마포구 CJ 4DPLEX와 한국문화정보원을 찾아 영상·방송업계 전문가들과 간담회를 열고 AI 시대 K-콘텐츠 경쟁력 강화 방안을 논의했다고 24일 밝혔다.이날 현장에서는 영상 분야 AI 기술 도입 현황을 점검하고 업계의 애로사…",
+          "summary": "[지디넷코리아]최근 글로벌 비즈니스 현장에서 관찰되는 서늘하고도 명확한 변화는 기업들이 설정하는 '목표 단위' 자체가 근본적으로 달라지고 있다는 점이다.과거의 비즈니스 환경에서 성장이란, 전년 대비 10~20% 매출 증대나 점진적인 비용 절감을 의미했다. 하지만 생성형 AI가 기업의 핵심 인프라로 자리 잡으면서 상황은 완전히 뒤바뀌었다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260724012606",
+          "url": "https://zdnet.co.kr/view/?no=20260724152720",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-24T06:20:01+09:00",
-          "popularity": 99,
+          "published_at": "2026-07-25T08:30:01+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.35,
-          "importance_score": 18.81,
+          "score": 19.9,
+          "importance_score": 19.8,
           "matched_keywords": [
             "ai"
           ],
@@ -125,11 +127,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-24T08:55:36+09:00",
-          "popularity": 166,
-          "upvotes": 166,
-          "score": 39.91,
-          "importance_score": 27.9,
+          "published_at": "2026-07-24T17:13:06+09:00",
+          "popularity": 175,
+          "upvotes": 175,
+          "score": 36.81,
+          "importance_score": 21.53,
           "matched_keywords": [
             "ai",
             "agent",
@@ -139,34 +141,32 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 166
+            "value": 175
           }
         },
         {
-          "id": "ea990b3fd4a6a372291082dd082569eb",
+          "id": "3219e50ae52285f84b204381f82fd4eb",
           "index": 6,
-          "title": "livetennisapi/livetennisapi-mcp — MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis score",
-          "title_ko": "livetennisapi/livetennisapi-mcp — Live Tennis API용 MCP 서버 — Claude, Cursor 및 기타 LLM 에이전트에게 실시간 테니스 점수 제공",
-          "summary": "MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis scores, odds and model win-probability",
-          "summary_ko": "Live Tennis API용 MCP 서버 — Claude, Cursor 및 기타 LLM 에이전트에게 실시간 테니스 점수, 확률 및 모델 승 확률 제공",
-          "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+          "title": "TryCaspian/caspian-sdk — One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X —",
+          "title_ko": "TryCaspian/caspian-sdk — Slack, Discord, Telegram, WhatsApp, Instagram, 이메일, SMS, X 전반에 걸쳐 AI 에이전트를 위한 단일 ID —",
+          "summary": "One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X — a single on_message handler. Open-source channel adapters + bot SDK (Python & TypeScript) + CLI.",
+          "summary_ko": "Slack, Discord, Telegram, WhatsApp, Instagram, 이메일, SMS, X 전반에 걸쳐 AI 에이전트를 위한 단일 ID — 단일 on_message 핸들러. 오픈 소스 채널 어댑터 + 봇 SDK(Python 및 TypeScript) + CLI.",
+          "url": "https://github.com/TryCaspian/caspian-sdk",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-23T01:07:58+09:00",
-          "popularity": 205,
-          "upvotes": 205,
-          "score": 32.65,
-          "importance_score": 18.65,
+          "published_at": "2026-07-25T01:13:20+09:00",
+          "popularity": 216,
+          "upvotes": 216,
+          "score": 30.21,
+          "importance_score": 25.59,
           "matched_keywords": [
-            "llm",
-            "agent",
-            "claude",
-            "mcp"
+            "ai",
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 205
+            "value": 216
           }
         }
       ]
@@ -176,26 +176,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "eea2df47ddb6c36418cc5a490ee413b9",
+          "id": "6c7888de7bd185734fa91198706b6db1",
           "index": 7,
-          "title": "아이폰에 350억 파라미터 모델을 담아본 이야기",
+          "title": "OpenAI Secure MCP Tunnel: 사설 MCP 서버를 공개하지 않고 ChatGPT와 Codex에 연결하는 프로젝트",
           "title_ko": null,
-          "summary": "35B 모델이 GPU 없는 PC와 폰에서 도는 이유 — 온디바이스 추론은 왜 메모리 대역폭 문제인가 POCKET을 Bonsai와 같은 기계, 같은 표준 도구 로 측정한 기록, 그리고 \"더 큰 모델이 더 빠르다\"는 역설을 뜯어봅니다. 온디바이스 LLM을 논할 때 우리는 흔히 파라미터 수를 크기의 지표로 씁니다.",
+          "summary": "Secure MCP Tunnel 소개 Model Context Protocol(MCP) 이 등장하면서 AI 시스템이 외부 도구나 데이터에 접근하는 일은 한결 쉬워졌습니다. 그런데 정작 기업이 가장 연결하고 싶어 하는 MCP 서버는, 역설적으로 가장 외부에 노출하고 싶지 않은 서버인 경우가 많습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/topic/11393",
+          "url": "https://discuss.pytorch.kr/t/openai-secure-mcp-tunnel-mcp-chatgpt-codex/11369",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-23T14:37:31+09:00",
-          "popularity": 95,
+          "published_at": "2026-07-24T18:30:07+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 24.68,
-          "importance_score": 11.86,
+          "score": 22.88,
+          "importance_score": 13.86,
           "matched_keywords": [
             "ai",
-            "llm",
-            "추론",
-            "모델"
+            "gpt",
+            "mcp"
           ],
           "engagement": null
         }
@@ -204,93 +203,95 @@
   ],
   "items": [
     {
-      "id": "d444516e6cfbc7e0c72ea1bcef28de87",
+      "id": "49f501b20ee7dfaca1905e75b19bddf2",
       "index": 1,
-      "title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
-      "title_ko": "Mage-Flow: 이미지 생성 및 편집을 위한 효율적인 기본 해상도 기반 모델",
-      "summary": "Large-scale visual generators are increasingly capable but costly to train, fine-tune, and deploy.",
-      "summary_ko": "대규모 시각적 생성기의 성능은 점점 향상되고 있지만 교육, 미세 조정 및 배포에 비용이 많이 듭니다.",
-      "url": "https://huggingface.co/papers/2607.19064",
+      "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+      "title_ko": "K12-KGraph: 교육 LLM 벤치마킹 및 교육을 위한 커리큘럼에 맞춰진 지식 그래프",
+      "summary": "Large language models are increasingly used in K-12 education, but existing benchmarks mainly test exam question answering rather than understanding how curriculum knowledge is structured and visually presented.",
+      "summary_ko": "K-12 교육에서 대규모 언어 모델의 사용이 점점 늘어나고 있지만 기존 벤치마크는 커리큘럼 지식이 어떻게 구조화되고 시각적으로 표현되는지 이해하기보다는 주로 시험 시험 질문 답변에 중점을 두고 있습니다.",
+      "url": "https://huggingface.co/papers/2605.09635",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-22T09:00:00+09:00",
-      "popularity": 533,
-      "upvotes": 60,
-      "score": 26.0,
-      "importance_score": 18.0,
+      "published_at": "2026-07-24T09:00:00+09:00",
+      "popularity": 134,
+      "upvotes": 40,
+      "score": 26.72,
+      "importance_score": 14.72,
       "matched_keywords": [
         "ai",
-        "foundation model"
+        "llm",
+        "benchmark",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 60
+        "value": 40
       }
     },
     {
-      "id": "167b52c6b409c485006102b6a1892fee",
+      "id": "a7669d0ab63bc72778ba176b3e55efef",
       "index": 2,
-      "title": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
-      "title_ko": "텍스트 템플릿 토큰은 확산 변환기의 암시적 의미 레지스터입니다.",
-      "summary": "Text-to-image diffusion transformers (DiTs) jointly process text and image tokens, yet their internal computation during denoising remains poorly understood.",
-      "summary_ko": "텍스트-이미지 확산 변환기(DiT)는 텍스트와 이미지 토큰을 공동으로 처리하지만 노이즈 제거 중 내부 계산은 제대로 이해되지 않습니다.",
-      "url": "https://huggingface.co/papers/2607.19139",
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "title_ko": "AREX: 심층 연구를 위한 재귀적 자기 개선 에이전트를 향하여",
+      "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks.",
+      "summary_ko": "심층 연구에서는 에이전트가 여러 제약 조건을 함께 충족하는 답변을 찾아야 합니다. 그러한 답변을 찾는 데는 비용이 많이 드는 반면, 후보를 확인하는 것은 다루기 쉬운 제약 조건 검사로 분해될 수 있는 경우가 많습니다.",
+      "url": "https://huggingface.co/papers/2607.21461",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-22T09:00:00+09:00",
-      "popularity": 151,
-      "upvotes": 69,
-      "score": 25.07,
-      "importance_score": 15.07,
+      "published_at": "2026-07-24T09:00:00+09:00",
+      "popularity": 248,
+      "upvotes": 116,
+      "score": 24.55,
+      "importance_score": 16.56,
       "matched_keywords": [
         "ai",
-        "transformer",
-        "diffusion"
+        "agent"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 69
+        "value": 116
       }
     },
     {
-      "id": "7a42ef4a463035542131781310bb751e",
+      "id": "de21d2b8fd821481af058078b9e6dcb8",
       "index": 3,
-      "title": "SKT, AI 데이터센터 전문 ‘SK하이퍼’ 신설…7500억 출자",
+      "title": "[7월24일] 증류는 왜 '도둑질'이 됐나…키미 K3 논란의 진짜 쟁점",
       "title_ko": null,
-      "summary": "SK텔레콤이 ‘아시아 AI 인프라 허브’로 도약하겠다는 목표에 따라 AI 데이터센터 사업개발 전문회사를 신설했다. SK텔레콤(대표 정재헌)은 AI 데이터센터(DC) 사업개발 전문 신설 법인인 SK하이퍼(Hyper)를 설립하고 사업 기반 마련을 위해 2030년까지 7500억원을 출자하겠다고 24일 밝혔다.이는 23일 이사회를 통해 의결됐다.",
+      "summary": "문샷 AI의 \\'키미 K3\\'를 둘러싼 논란이 이어지고 있습니다. 미국에서는 문샷 AI가 앤트로픽의 \\'페이블 5\\'를 증류(distillation)해 모델 성능을 끌어올렸다는 의혹이 제기됐습니다. 미국 정부와 일부 AI 기업은 이를 핵심 기술 무단 활용 행위로 규정하며 제재 가능성까지 거론하고 있습니다.특히 미국 정부는 이를 중국 AI 견제의 근거로 삼고 있습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=213122",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=213131",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-24T08:16:30+09:00",
+      "published_at": "2026-07-25T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.86,
-      "importance_score": 19.72,
+      "score": 22.59,
+      "importance_score": 19.17,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "b49b8d6d05383bf462fc4595e630fd15",
+      "id": "bd11e60bd38f2453816be0ae8ef7fe09",
       "index": 4,
-      "title": "문체부, 영상·방송업계와 간담회 개최…'AI 문화강국 전략' 수립 박차",
+      "title": "MBO의 종말과 '정보 역전':..왜 1월 세운 KPI가 오늘의 혁신 막을까",
       "title_ko": null,
-      "summary": "[지디넷코리아]문화체육관광부(이하 문체부)가 영상 및 방송업계와 만나 '인공지능(AI) 문화강국' 도약을 위한 현장 목소리를 들었다.문체부는 최근 최휘영 장관이 서울 마포구 CJ 4DPLEX와 한국문화정보원을 찾아 영상·방송업계 전문가들과 간담회를 열고 AI 시대 K-콘텐츠 경쟁력 강화 방안을 논의했다고 24일 밝혔다.이날 현장에서는 영상 분야 AI 기술 도입 현황을 점검하고 업계의 애로사…",
+      "summary": "[지디넷코리아]최근 글로벌 비즈니스 현장에서 관찰되는 서늘하고도 명확한 변화는 기업들이 설정하는 '목표 단위' 자체가 근본적으로 달라지고 있다는 점이다.과거의 비즈니스 환경에서 성장이란, 전년 대비 10~20% 매출 증대나 점진적인 비용 절감을 의미했다. 하지만 생성형 AI가 기업의 핵심 인프라로 자리 잡으면서 상황은 완전히 뒤바뀌었다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260724012606",
+      "url": "https://zdnet.co.kr/view/?no=20260724152720",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-24T06:20:01+09:00",
-      "popularity": 99,
+      "published_at": "2026-07-25T08:30:01+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.35,
-      "importance_score": 18.81,
+      "score": 19.9,
+      "importance_score": 19.8,
       "matched_keywords": [
         "ai"
       ],
@@ -307,11 +308,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-24T08:55:36+09:00",
-      "popularity": 166,
-      "upvotes": 166,
-      "score": 39.91,
-      "importance_score": 27.9,
+      "published_at": "2026-07-24T17:13:06+09:00",
+      "popularity": 175,
+      "upvotes": 175,
+      "score": 36.81,
+      "importance_score": 21.53,
       "matched_keywords": [
         "ai",
         "agent",
@@ -321,57 +322,54 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 166
+        "value": 175
       }
     },
     {
-      "id": "ea990b3fd4a6a372291082dd082569eb",
+      "id": "3219e50ae52285f84b204381f82fd4eb",
       "index": 6,
-      "title": "livetennisapi/livetennisapi-mcp — MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis score",
-      "title_ko": "livetennisapi/livetennisapi-mcp — Live Tennis API용 MCP 서버 — Claude, Cursor 및 기타 LLM 에이전트에게 실시간 테니스 점수 제공",
-      "summary": "MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis scores, odds and model win-probability",
-      "summary_ko": "Live Tennis API용 MCP 서버 — Claude, Cursor 및 기타 LLM 에이전트에게 실시간 테니스 점수, 확률 및 모델 승 확률 제공",
-      "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+      "title": "TryCaspian/caspian-sdk — One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X —",
+      "title_ko": "TryCaspian/caspian-sdk — Slack, Discord, Telegram, WhatsApp, Instagram, 이메일, SMS, X 전반에 걸쳐 AI 에이전트를 위한 단일 ID —",
+      "summary": "One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X — a single on_message handler. Open-source channel adapters + bot SDK (Python & TypeScript) + CLI.",
+      "summary_ko": "Slack, Discord, Telegram, WhatsApp, Instagram, 이메일, SMS, X 전반에 걸쳐 AI 에이전트를 위한 단일 ID — 단일 on_message 핸들러. 오픈 소스 채널 어댑터 + 봇 SDK(Python 및 TypeScript) + CLI.",
+      "url": "https://github.com/TryCaspian/caspian-sdk",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-23T01:07:58+09:00",
-      "popularity": 205,
-      "upvotes": 205,
-      "score": 32.65,
-      "importance_score": 18.65,
+      "published_at": "2026-07-25T01:13:20+09:00",
+      "popularity": 216,
+      "upvotes": 216,
+      "score": 30.21,
+      "importance_score": 25.59,
       "matched_keywords": [
-        "llm",
-        "agent",
-        "claude",
-        "mcp"
+        "ai",
+        "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 205
+        "value": 216
       }
     },
     {
-      "id": "eea2df47ddb6c36418cc5a490ee413b9",
+      "id": "6c7888de7bd185734fa91198706b6db1",
       "index": 7,
-      "title": "아이폰에 350억 파라미터 모델을 담아본 이야기",
+      "title": "OpenAI Secure MCP Tunnel: 사설 MCP 서버를 공개하지 않고 ChatGPT와 Codex에 연결하는 프로젝트",
       "title_ko": null,
-      "summary": "35B 모델이 GPU 없는 PC와 폰에서 도는 이유 — 온디바이스 추론은 왜 메모리 대역폭 문제인가 POCKET을 Bonsai와 같은 기계, 같은 표준 도구 로 측정한 기록, 그리고 \"더 큰 모델이 더 빠르다\"는 역설을 뜯어봅니다. 온디바이스 LLM을 논할 때 우리는 흔히 파라미터 수를 크기의 지표로 씁니다.",
+      "summary": "Secure MCP Tunnel 소개 Model Context Protocol(MCP) 이 등장하면서 AI 시스템이 외부 도구나 데이터에 접근하는 일은 한결 쉬워졌습니다. 그런데 정작 기업이 가장 연결하고 싶어 하는 MCP 서버는, 역설적으로 가장 외부에 노출하고 싶지 않은 서버인 경우가 많습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/topic/11393",
+      "url": "https://discuss.pytorch.kr/t/openai-secure-mcp-tunnel-mcp-chatgpt-codex/11369",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-23T14:37:31+09:00",
-      "popularity": 95,
+      "published_at": "2026-07-24T18:30:07+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 24.68,
-      "importance_score": 11.86,
+      "score": 22.88,
+      "importance_score": 13.86,
       "matched_keywords": [
         "ai",
-        "llm",
-        "추론",
-        "모델"
+        "gpt",
+        "mcp"
       ],
       "engagement": null
     }
