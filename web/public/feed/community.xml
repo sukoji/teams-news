@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 24 Jul 2026 13:16:27 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 16:34:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Phantom: 자기만의 컴퓨터를 가지고 스스로 진화하는 AI 동료 에이전트</title>
+      <link>https://discuss.pytorch.kr/t/phantom-ai/11349</link>
+      <description>Phantom 소개 오늘날 대부분의 AI 에이전트는 일회용에 가깝습니다. 채팅 창을 열어 답을 얻고 탭을 닫으면 맥락이 사라지고, 다음에는 다시 처음부터 시작합니다. 매 세션이 언제나 첫날인 셈입니다.</description>
+      <pubDate>Fri, 24 Jul 2026 16:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/phantom-ai/11349">PyTorch Korea</source>
+      <guid isPermaLink="false">ceb096b71509e4861c87b21fa09345e9</guid>
+    </item>
+    <item>
+      <title>OfficeCLI: AI 에이전트가 Word, Excel, PowerPoint 문서를 다루는 명령줄 도구</title>
+      <link>https://discuss.pytorch.kr/t/officecli-ai-word-excel-powerpoint/11347</link>
+      <description>OfficeCLI 소개 Word, Excel, PowerPoint 파일을 코드로 만들거나 고치는 일은 지금까지 python-docx , openpyxl , python-pptx 같은 라이브러리를 형식마다 따로 붙여 쓰는 방식이 일반적이었습니다. 형식이 세 가지라 API도 세 벌이고, 무엇보다 AI 에이전트가 문서를 생성할 때 결과물이 실제로 어떻게 보이는지 확인할 방법이 없었습니다.</description>
+      <pubDate>Fri, 24 Jul 2026 14:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/officecli-ai-word-excel-powerpoint/11347">PyTorch Korea</source>
+      <guid isPermaLink="false">8e9285cff7885616a6e51a3597554e7d</guid>
+    </item>
     <item>
       <title>Hallmark: AI 티가 나지 않는 웹 디자인을 만드는 코딩 에이전트 스킬</title>
       <link>https://discuss.pytorch.kr/t/hallmark-ai/11348</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/inkling-thinking-machines-lab-975b-moe/11283">PyTorch Korea</source>
       <guid isPermaLink="false">82e6e28c37028d2a376ebf9eef823aed</guid>
-    </item>
-    <item>
-      <title>local-llm: 최신 LLM을 로컬에서 직접 돌리는 GPU 하드웨어 구성 가이드</title>
-      <link>https://discuss.pytorch.kr/t/local-llm-llm-gpu/11274</link>
-      <description>local-llm 소개 클라우드 LLM API에 의존하지 않고 최신 모델을 자기 하드웨어에서 직접 돌리려면, 어떤 GPU를 몇 장 사고 메인보드와 전원, PCIe 배선을 어떻게 맞춰야 하는지부터 막히기 마련입니다. local-llm 은 개발자 jamesob 이 실제로 구입해 운영 중인 로컬 추론(inference) 장비의 구성과 설정을 정리한 가이드 저장소입니다.</description>
-      <pubDate>Fri, 17 Jul 2026 15:30:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/local-llm-llm-gpu/11274">PyTorch Korea</source>
-      <guid isPermaLink="false">e26f0fb521e3c4775e521449c83395cf</guid>
-    </item>
-    <item>
-      <title>ASO App Store Screenshots: 앱 코드를 분석해 앱스토어 스크린샷을 만드는 Claude 스킬</title>
-      <link>https://discuss.pytorch.kr/t/aso-app-store-screenshots-claude/11278</link>
-      <description>ASO App Store Screenshots 소개 앱을 만들고 나면 마지막 관문으로 앱스토어에 올릴 스크린샷이 남습니다. 어떤 기능을 앞세울지 고르고, 시뮬레이터 화면을 캡처하고, 헤드라인과 기기 프레임을 얹어 전환율 높은 이미지를 만드는 일은 손이 많이 가는 작업입니다.</description>
-      <pubDate>Fri, 17 Jul 2026 13:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/aso-app-store-screenshots-claude/11278">PyTorch Korea</source>
-      <guid isPermaLink="false">a693b318c5e366cc92c6708ffdda2d3b</guid>
     </item>
   </channel>
 </rss>
