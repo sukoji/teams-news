@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 25 Jul 2026 09:05:05 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 13:11:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Crawlee: AI와 LLM을 위한 데이터를 수집하는 Node.js 웹 스크래핑 라이브러리</title>
+      <link>https://discuss.pytorch.kr/t/crawlee-ai-llm-node-js/11407</link>
+      <description>Crawlee 소개 LLM이나 RAG 파이프라인에 넣을 데이터를 웹에서 모으려면 단순히 페이지를 내려받는 것 이상이 필요합니다. 요청 큐를 관리하고, 봇 차단을 피하고, 실패한 요청을 재시도하고, 수집한 결과를 저장하는 배관을 직접 만들다 보면 정작 데이터 추출 로직보다 크롤러 인프라에 시간을 더 쓰게 됩니다.</description>
+      <pubDate>Sat, 25 Jul 2026 12:30:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/crawlee-ai-llm-node-js/11407">PyTorch Korea</source>
+      <guid isPermaLink="false">7c7b68486c92445b6e26791ebc896cd2</guid>
+    </item>
+    <item>
+      <title>pgContext: PostgreSQL을 AI 검색 엔진으로 만드는 벡터 및 하이브리드 검색 확장</title>
+      <link>https://discuss.pytorch.kr/t/pgcontext-postgresql-ai/11397</link>
+      <description>pgContext 소개 애플리케이션이 이미 PostgreSQL에 데이터를 담고 있어도, 의미 기반 검색을 붙이려면 보통 별도의 벡터 검색 서비스를 하나 더 세우게 됩니다. 이렇게 되면 원본 데이터를 그 서비스로 복사해야 하고, 권한과 백업, 복구 경계가 둘로 나뉘어 서로 동기화 상태를 유지해야 하는 부담이 생깁니다.</description>
+      <pubDate>Sat, 25 Jul 2026 09:30:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pgcontext-postgresql-ai/11397">PyTorch Korea</source>
+      <guid isPermaLink="false">6b829435d632ac0c1424277a66dd8d4f</guid>
+    </item>
     <item>
       <title>wigolo: API 키 없이 로컬에서 동작하는 AI 에이전트용 웹 검색 MCP 서버</title>
       <link>https://discuss.pytorch.kr/t/wigolo-api-ai-mcp/11374</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/gn-pandas-ai-apache-arrow/11293">PyTorch Korea</source>
       <guid isPermaLink="false">c53e452f1a61c892d255b63071bd30a1</guid>
-    </item>
-    <item>
-      <title>Kimi K3 Use Case 심층 분석_ 101개 사례에서 추출한 4가지 실전 인사이트</title>
-      <link>https://discuss.pytorch.kr/t/kimi-k3-use-case-101-4/11306</link>
-      <description>Kimi K3 Use Case 심층 분석: 70개 사례에서 추출한 4가지 실전 인사이트 Kimi K3의 기본 개념 및 분석 배경 Kimi K3는 최근 AI 코딩 커뮤니티에서 가장 주목받는 모델 중 하나입니다。 X(Twitter)를 열면 게임， 웹사이트， 3D 씬， "한 줄 생성" 데모가 쏟아져 나오고 있습니다。 하지만 여기서 진짜로 알고 싶은 것은 데모가 얼마나 화려한지가 아닙니다。</description>
-      <pubDate>Sat, 18 Jul 2026 15:51:46 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kimi-k3-use-case-101-4/11306">PyTorch Korea</source>
-      <guid isPermaLink="false">165ac6e1357437715ab3b5c58b84d6b2</guid>
-    </item>
-    <item>
-      <title>keep-codex-fast: 로컬 Codex 상태를 백업 우선으로 정리해 빠르게 유지하는 스킬</title>
-      <link>https://discuss.pytorch.kr/t/keep-codex-fast-codex/11277</link>
-      <description>keep-codex-fast 소개 OpenAI의 코딩 에이전트 Codex CLI를 몇 주 동안 쓰다 보면, 쌓인 대화 기록과 터미널, 로그, 워크트리(worktree), 프로젝트 기록 때문에 도구가 점점 무거워집니다. keep-codex-fast 는 이렇게 느려진 로컬 Codex 상태를 안전하게 들여다보고 정리해, 속도를 되찾도록 돕는 Codex 스킬입니다.</description>
-      <pubDate>Sat, 18 Jul 2026 13:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/keep-codex-fast-codex/11277">PyTorch Korea</source>
-      <guid isPermaLink="false">45ec39bede009c693739b2962be47cbc</guid>
     </item>
   </channel>
 </rss>
