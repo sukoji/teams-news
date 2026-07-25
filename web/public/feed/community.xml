@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 25 Jul 2026 16:18:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 18:49:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>gigatoken: HuggingFace보다 약 1000배 빠른 GB/s급 LLM 토크나이저</title>
+      <link>https://discuss.pytorch.kr/t/gigatoken-huggingface-1000-gb-s-llm/11414</link>
+      <description>gigatoken 소개 대규모 언어 모델을 학습할 때는 수십 기가바이트에서 수 테라바이트에 이르는 텍스트를 토큰으로 변환해야 합니다. 이 토큰화 단계는 GPU 학습만큼 눈에 띄지는 않지만, 데이터가 커질수록 전체 파이프라인에서 무시할 수 없는 시간을 차지합니다.</description>
+      <pubDate>Sat, 25 Jul 2026 18:30:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gigatoken-huggingface-1000-gb-s-llm/11414">PyTorch Korea</source>
+      <guid isPermaLink="false">bed2807dc73463fde02a9dab851b9769</guid>
+    </item>
     <item>
       <title>open-kritt: 여러 AI 에이전트로 코드 취약점을 찾는 오픈소스 보안 연구 플랫폼</title>
       <link>https://discuss.pytorch.kr/t/open-kritt-ai/11418</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/friday-mcp-ai/11297">PyTorch Korea</source>
       <guid isPermaLink="false">53f80b7e1f5b9c87d5f63cebed564d19</guid>
-    </item>
-    <item>
-      <title>Kimi K3, Moonshot AI가 공개한 세계 첫 3T급 오픈 웨이트 모델 (전체 가중치 공개는 7월 27일 예정)</title>
-      <link>https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301</link>
-      <description>Kimi K3 소개 Kimi 를 만드는 문샷 AI(Moonshot AI) 가 자사 최고 성능 모델인 Kimi K3 를 공개했습니다. Kimi K3는 2.8조 개(2.8T)의 매개변수(Parameter)를 가진 모델로, 문샷이 "세계 최초의 오픈 3T급(3T-class) 모델" 이라고 소개한 대형 언어 모델입니다.</description>
-      <pubDate>Sun, 19 Jul 2026 08:30:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301">PyTorch Korea</source>
-      <guid isPermaLink="false">435eaec282ec92c3c82cf627f52ebf08</guid>
     </item>
   </channel>
 </rss>
