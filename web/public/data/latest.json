@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-25",
-  "generated_at": "2026-07-25T08:59:26.029898+09:00",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T08:56:20.417169+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -15,16 +15,16 @@
           "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
           "title_ko": "K12-KGraph: 교육 LLM 벤치마킹 및 교육을 위한 커리큘럼에 맞춰진 지식 그래프",
           "summary": "Large language models are increasingly used in K-12 education, but existing benchmarks mainly test exam question answering rather than understanding how curriculum knowledge is structured and visually presented.",
-          "summary_ko": "K-12 교육에서 대규모 언어 모델의 사용이 점점 늘어나고 있지만 기존 벤치마크는 커리큘럼 지식이 어떻게 구조화되고 시각적으로 표현되는지 이해하기보다는 주로 시험 시험 질문 답변에 중점을 두고 있습니다.",
+          "summary_ko": "K-12 교육에서 대규모 언어 모델의 사용이 점점 늘어나고 있지만 기존 벤치마크는 커리큘럼 지식이 어떻게 구조화되고 시각적으로 표현되는지 이해하기보다는 주로 시험 시험 질문 답변에 중점을 둡니다.",
           "url": "https://huggingface.co/papers/2605.09635",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-24T09:00:00+09:00",
-          "popularity": 134,
-          "upvotes": 40,
-          "score": 26.72,
-          "importance_score": 14.72,
+          "popularity": 174,
+          "upvotes": 55,
+          "score": 27.49,
+          "importance_score": 15.49,
           "matched_keywords": [
             "ai",
             "llm",
@@ -33,33 +33,32 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 40
+            "value": 55
           }
         },
         {
-          "id": "a7669d0ab63bc72778ba176b3e55efef",
+          "id": "1dbdc859553a4c523f685e56f5b9bede",
           "index": 2,
-          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-          "title_ko": "AREX: 심층 연구를 위한 재귀적 자기 개선 에이전트를 향하여",
-          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks.",
-          "summary_ko": "심층 연구에서는 에이전트가 여러 제약 조건을 함께 충족하는 답변을 찾아야 합니다. 그러한 답변을 찾는 데는 비용이 많이 드는 반면, 후보를 확인하는 것은 다루기 쉬운 제약 조건 검사로 분해될 수 있는 경우가 많습니다.",
-          "url": "https://huggingface.co/papers/2607.21461",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: Claude Opus 5, OpenAI x Hugging Face Security Incident, Gemini 3.6 Flash, Sakana Fugu-Ultra, Progressive Disclosure, Cursor Router, and More",
+          "title_ko": "🤖 AI Agents Weekly: Claude Opus 5, OpenAI x 허깅 페이스 보안 사고, Gemini 3.6 Flash, Sakana Fugu-Ultra, Progressive Disclosure, Cursor Router 등",
+          "summary": "Claude Opus 5, OpenAI x Hugging Face Security Incident, Gemini 3.6 Flash, Sakana Fugu-Ultra, Progressive Disclosure, Cursor Router, and More",
+          "summary_ko": "Claude Opus 5, OpenAI x 허깅 페이스 보안 사고, Gemini 3.6 플래시, Sakana Fugu-Ultra, 프로그레시브 공개, 커서 라우터 등",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-5-openai",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-24T09:00:00+09:00",
-          "popularity": 248,
-          "upvotes": 116,
-          "score": 24.55,
-          "importance_score": 16.56,
+          "published_at": "2026-07-26T02:20:58+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 25.63,
+          "importance_score": 17.25,
           "matched_keywords": [
             "ai",
-            "agent"
+            "agent",
+            "claude",
+            "gemini"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 116
-          }
+          "engagement": null
         }
       ]
     },
@@ -68,43 +67,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "de21d2b8fd821481af058078b9e6dcb8",
+          "id": "4aa8f63423363b09cb976f3d3cb74878",
           "index": 3,
-          "title": "[7월24일] 증류는 왜 '도둑질'이 됐나…키미 K3 논란의 진짜 쟁점",
+          "title": "“156세까지만, 더 살고 싶어도 못살아”…과학자들이 밝힌 인간 '최대 수명'의 비밀",
           "title_ko": null,
-          "summary": "문샷 AI의 \\'키미 K3\\'를 둘러싼 논란이 이어지고 있습니다. 미국에서는 문샷 AI가 앤트로픽의 \\'페이블 5\\'를 증류(distillation)해 모델 성능을 끌어올렸다는 의혹이 제기됐습니다. 미국 정부와 일부 AI 기업은 이를 핵심 기술 무단 활용 행위로 규정하며 제재 가능성까지 거론하고 있습니다.특히 미국 정부는 이를 중국 AI 견제의 근거로 삼고 있습니다.",
+          "summary": "인간의 이론상 최대 수명이 156세에 이를 수 있다는 연구 결과가 공개됐다. 22일(현지시간) 미국 온라인 매체 업워디는 러시아 스콜코보과학기술연구소 연구진이 국제학술지 'npj 에이징(npj Aging)'에 발표한 논문을 인용해 이 같은 내용을 전했다. 연구진은 나이가 들면서 체내에 축적되는 '체세포 돌연변이'가 수명에 미치는 영향을 수학적 모델을 활용해 분석했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=213131",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20260723000427",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-25T07:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-07-25T19:10:00+09:00",
+          "popularity": 94,
           "upvotes": 0,
-          "score": 22.59,
-          "importance_score": 19.17,
+          "score": 19.53,
+          "importance_score": 13.66,
           "matched_keywords": [
-            "ai",
+            "연구",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "bd11e60bd38f2453816be0ae8ef7fe09",
+          "id": "7d47e6d22db8546a9e8c463be6c8cd35",
           "index": 4,
-          "title": "MBO의 종말과 '정보 역전':..왜 1월 세운 KPI가 오늘의 혁신 막을까",
+          "title": "삼성전자 \"AI 글래스, 스마트폰 경험 확장에 초점\"",
           "title_ko": null,
-          "summary": "[지디넷코리아]최근 글로벌 비즈니스 현장에서 관찰되는 서늘하고도 명확한 변화는 기업들이 설정하는 '목표 단위' 자체가 근본적으로 달라지고 있다는 점이다.과거의 비즈니스 환경에서 성장이란, 전년 대비 10~20% 매출 증대나 점진적인 비용 절감을 의미했다. 하지만 생성형 AI가 기업의 핵심 인프라로 자리 잡으면서 상황은 완전히 뒤바뀌었다.",
+          "summary": "[지디넷코리아][런던(영국)=이기종 기자] 삼성전자가 연내 출시 예정인 인공지능(AI) 글래스(인텔리전트 아이웨어)는 스마트폰 경험 확장에 초점을 맞췄다고 밝혔다. AI 글래스가 스마트폰을 대체하는 것이 아니라, AI 경험을 확장하면서 스마트폰을 더 많이 사용할 수 있는 계기가 되길 바라는 목표로 제품을 만들었다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260724152720",
+          "url": "https://zdnet.co.kr/view/?no=20260726023107",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-25T08:30:01+09:00",
+          "published_at": "2026-07-26T08:00:03+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.9,
-          "importance_score": 19.8,
+          "score": 19.8,
+          "importance_score": 19.61,
           "matched_keywords": [
             "ai"
           ],
@@ -127,11 +126,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-24T17:13:06+09:00",
-          "popularity": 175,
-          "upvotes": 175,
-          "score": 36.81,
-          "importance_score": 21.53,
+          "published_at": "2026-07-26T08:35:35+09:00",
+          "popularity": 189,
+          "upvotes": 189,
+          "score": 40.29,
+          "importance_score": 28.22,
           "matched_keywords": [
             "ai",
             "agent",
@@ -141,7 +140,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 175
+            "value": 189
           }
         },
         {
@@ -155,18 +154,18 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-25T01:13:20+09:00",
-          "popularity": 216,
-          "upvotes": 216,
-          "score": 30.21,
-          "importance_score": 25.59,
+          "published_at": "2026-07-25T21:40:32+09:00",
+          "popularity": 236,
+          "upvotes": 236,
+          "score": 29.79,
+          "importance_score": 24.45,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 216
+            "value": 236
           }
         }
       ]
@@ -176,25 +175,26 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "6c7888de7bd185734fa91198706b6db1",
+          "id": "eb82da17e17275f217159227da3f6c38",
           "index": 7,
-          "title": "OpenAI Secure MCP Tunnel: 사설 MCP 서버를 공개하지 않고 ChatGPT와 Codex에 연결하는 프로젝트",
+          "title": "open-kritt: 여러 AI 에이전트로 코드 취약점을 찾는 오픈소스 보안 연구 플랫폼",
           "title_ko": null,
-          "summary": "Secure MCP Tunnel 소개 Model Context Protocol(MCP) 이 등장하면서 AI 시스템이 외부 도구나 데이터에 접근하는 일은 한결 쉬워졌습니다. 그런데 정작 기업이 가장 연결하고 싶어 하는 MCP 서버는, 역설적으로 가장 외부에 노출하고 싶지 않은 서버인 경우가 많습니다.",
+          "summary": "open-kritt 소개 LLM에게 저장소 전체를 던지며 \"여기서 취약점을 찾아줘\" 라고 요청하는 방식은 대개 잘 동작하지 않습니다. 맥락이 너무 넓어 모델이 얕게 훑고 지나가거나, 같은 문제를 여러 번 다르게 보고하거나, 검증되지 않은 추측을 findings로 쏟아내기 때문입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/openai-secure-mcp-tunnel-mcp-chatgpt-codex/11369",
+          "url": "https://discuss.pytorch.kr/t/open-kritt-ai/11418",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-24T18:30:07+09:00",
+          "published_at": "2026-07-25T15:30:23+09:00",
           "popularity": 99,
           "upvotes": 0,
-          "score": 22.88,
-          "importance_score": 13.86,
+          "score": 25.27,
+          "importance_score": 12.64,
           "matched_keywords": [
             "ai",
-            "gpt",
-            "mcp"
+            "llm",
+            "연구",
+            "모델"
           ],
           "engagement": null
         }
@@ -208,16 +208,16 @@
       "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
       "title_ko": "K12-KGraph: 교육 LLM 벤치마킹 및 교육을 위한 커리큘럼에 맞춰진 지식 그래프",
       "summary": "Large language models are increasingly used in K-12 education, but existing benchmarks mainly test exam question answering rather than understanding how curriculum knowledge is structured and visually presented.",
-      "summary_ko": "K-12 교육에서 대규모 언어 모델의 사용이 점점 늘어나고 있지만 기존 벤치마크는 커리큘럼 지식이 어떻게 구조화되고 시각적으로 표현되는지 이해하기보다는 주로 시험 시험 질문 답변에 중점을 두고 있습니다.",
+      "summary_ko": "K-12 교육에서 대규모 언어 모델의 사용이 점점 늘어나고 있지만 기존 벤치마크는 커리큘럼 지식이 어떻게 구조화되고 시각적으로 표현되는지 이해하기보다는 주로 시험 시험 질문 답변에 중점을 둡니다.",
       "url": "https://huggingface.co/papers/2605.09635",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-24T09:00:00+09:00",
-      "popularity": 134,
-      "upvotes": 40,
-      "score": 26.72,
-      "importance_score": 14.72,
+      "popularity": 174,
+      "upvotes": 55,
+      "score": 27.49,
+      "importance_score": 15.49,
       "matched_keywords": [
         "ai",
         "llm",
@@ -226,72 +226,71 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 40
+        "value": 55
       }
     },
     {
-      "id": "a7669d0ab63bc72778ba176b3e55efef",
+      "id": "1dbdc859553a4c523f685e56f5b9bede",
       "index": 2,
-      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-      "title_ko": "AREX: 심층 연구를 위한 재귀적 자기 개선 에이전트를 향하여",
-      "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks.",
-      "summary_ko": "심층 연구에서는 에이전트가 여러 제약 조건을 함께 충족하는 답변을 찾아야 합니다. 그러한 답변을 찾는 데는 비용이 많이 드는 반면, 후보를 확인하는 것은 다루기 쉬운 제약 조건 검사로 분해될 수 있는 경우가 많습니다.",
-      "url": "https://huggingface.co/papers/2607.21461",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: Claude Opus 5, OpenAI x Hugging Face Security Incident, Gemini 3.6 Flash, Sakana Fugu-Ultra, Progressive Disclosure, Cursor Router, and More",
+      "title_ko": "🤖 AI Agents Weekly: Claude Opus 5, OpenAI x 허깅 페이스 보안 사고, Gemini 3.6 Flash, Sakana Fugu-Ultra, Progressive Disclosure, Cursor Router 등",
+      "summary": "Claude Opus 5, OpenAI x Hugging Face Security Incident, Gemini 3.6 Flash, Sakana Fugu-Ultra, Progressive Disclosure, Cursor Router, and More",
+      "summary_ko": "Claude Opus 5, OpenAI x 허깅 페이스 보안 사고, Gemini 3.6 플래시, Sakana Fugu-Ultra, 프로그레시브 공개, 커서 라우터 등",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-5-openai",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-24T09:00:00+09:00",
-      "popularity": 248,
-      "upvotes": 116,
-      "score": 24.55,
-      "importance_score": 16.56,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 116
-      }
-    },
-    {
-      "id": "de21d2b8fd821481af058078b9e6dcb8",
-      "index": 3,
-      "title": "[7월24일] 증류는 왜 '도둑질'이 됐나…키미 K3 논란의 진짜 쟁점",
-      "title_ko": null,
-      "summary": "문샷 AI의 \\'키미 K3\\'를 둘러싼 논란이 이어지고 있습니다. 미국에서는 문샷 AI가 앤트로픽의 \\'페이블 5\\'를 증류(distillation)해 모델 성능을 끌어올렸다는 의혹이 제기됐습니다. 미국 정부와 일부 AI 기업은 이를 핵심 기술 무단 활용 행위로 규정하며 제재 가능성까지 거론하고 있습니다.특히 미국 정부는 이를 중국 AI 견제의 근거로 삼고 있습니다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=213131",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-07-25T07:00:00+09:00",
+      "published_at": "2026-07-26T02:20:58+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.59,
-      "importance_score": 19.17,
+      "score": 25.63,
+      "importance_score": 17.25,
       "matched_keywords": [
         "ai",
+        "agent",
+        "claude",
+        "gemini"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "4aa8f63423363b09cb976f3d3cb74878",
+      "index": 3,
+      "title": "“156세까지만, 더 살고 싶어도 못살아”…과학자들이 밝힌 인간 '최대 수명'의 비밀",
+      "title_ko": null,
+      "summary": "인간의 이론상 최대 수명이 156세에 이를 수 있다는 연구 결과가 공개됐다. 22일(현지시간) 미국 온라인 매체 업워디는 러시아 스콜코보과학기술연구소 연구진이 국제학술지 'npj 에이징(npj Aging)'에 발표한 논문을 인용해 이 같은 내용을 전했다. 연구진은 나이가 들면서 체내에 축적되는 '체세포 돌연변이'가 수명에 미치는 영향을 수학적 모델을 활용해 분석했다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260723000427",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-07-25T19:10:00+09:00",
+      "popularity": 94,
+      "upvotes": 0,
+      "score": 19.53,
+      "importance_score": 13.66,
+      "matched_keywords": [
+        "연구",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "bd11e60bd38f2453816be0ae8ef7fe09",
+      "id": "7d47e6d22db8546a9e8c463be6c8cd35",
       "index": 4,
-      "title": "MBO의 종말과 '정보 역전':..왜 1월 세운 KPI가 오늘의 혁신 막을까",
+      "title": "삼성전자 \"AI 글래스, 스마트폰 경험 확장에 초점\"",
       "title_ko": null,
-      "summary": "[지디넷코리아]최근 글로벌 비즈니스 현장에서 관찰되는 서늘하고도 명확한 변화는 기업들이 설정하는 '목표 단위' 자체가 근본적으로 달라지고 있다는 점이다.과거의 비즈니스 환경에서 성장이란, 전년 대비 10~20% 매출 증대나 점진적인 비용 절감을 의미했다. 하지만 생성형 AI가 기업의 핵심 인프라로 자리 잡으면서 상황은 완전히 뒤바뀌었다.",
+      "summary": "[지디넷코리아][런던(영국)=이기종 기자] 삼성전자가 연내 출시 예정인 인공지능(AI) 글래스(인텔리전트 아이웨어)는 스마트폰 경험 확장에 초점을 맞췄다고 밝혔다. AI 글래스가 스마트폰을 대체하는 것이 아니라, AI 경험을 확장하면서 스마트폰을 더 많이 사용할 수 있는 계기가 되길 바라는 목표로 제품을 만들었다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260724152720",
+      "url": "https://zdnet.co.kr/view/?no=20260726023107",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-25T08:30:01+09:00",
+      "published_at": "2026-07-26T08:00:03+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.9,
-      "importance_score": 19.8,
+      "score": 19.8,
+      "importance_score": 19.61,
       "matched_keywords": [
         "ai"
       ],
@@ -308,11 +307,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-24T17:13:06+09:00",
-      "popularity": 175,
-      "upvotes": 175,
-      "score": 36.81,
-      "importance_score": 21.53,
+      "published_at": "2026-07-26T08:35:35+09:00",
+      "popularity": 189,
+      "upvotes": 189,
+      "score": 40.29,
+      "importance_score": 28.22,
       "matched_keywords": [
         "ai",
         "agent",
@@ -322,7 +321,7 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 175
+        "value": 189
       }
     },
     {
@@ -336,40 +335,41 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-25T01:13:20+09:00",
-      "popularity": 216,
-      "upvotes": 216,
-      "score": 30.21,
-      "importance_score": 25.59,
+      "published_at": "2026-07-25T21:40:32+09:00",
+      "popularity": 236,
+      "upvotes": 236,
+      "score": 29.79,
+      "importance_score": 24.45,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 216
+        "value": 236
       }
     },
     {
-      "id": "6c7888de7bd185734fa91198706b6db1",
+      "id": "eb82da17e17275f217159227da3f6c38",
       "index": 7,
-      "title": "OpenAI Secure MCP Tunnel: 사설 MCP 서버를 공개하지 않고 ChatGPT와 Codex에 연결하는 프로젝트",
+      "title": "open-kritt: 여러 AI 에이전트로 코드 취약점을 찾는 오픈소스 보안 연구 플랫폼",
       "title_ko": null,
-      "summary": "Secure MCP Tunnel 소개 Model Context Protocol(MCP) 이 등장하면서 AI 시스템이 외부 도구나 데이터에 접근하는 일은 한결 쉬워졌습니다. 그런데 정작 기업이 가장 연결하고 싶어 하는 MCP 서버는, 역설적으로 가장 외부에 노출하고 싶지 않은 서버인 경우가 많습니다.",
+      "summary": "open-kritt 소개 LLM에게 저장소 전체를 던지며 \"여기서 취약점을 찾아줘\" 라고 요청하는 방식은 대개 잘 동작하지 않습니다. 맥락이 너무 넓어 모델이 얕게 훑고 지나가거나, 같은 문제를 여러 번 다르게 보고하거나, 검증되지 않은 추측을 findings로 쏟아내기 때문입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/openai-secure-mcp-tunnel-mcp-chatgpt-codex/11369",
+      "url": "https://discuss.pytorch.kr/t/open-kritt-ai/11418",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-24T18:30:07+09:00",
+      "published_at": "2026-07-25T15:30:23+09:00",
       "popularity": 99,
       "upvotes": 0,
-      "score": 22.88,
-      "importance_score": 13.86,
+      "score": 25.27,
+      "importance_score": 12.64,
       "matched_keywords": [
         "ai",
-        "gpt",
-        "mcp"
+        "llm",
+        "연구",
+        "모델"
       ],
       "engagement": null
     }
