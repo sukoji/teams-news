@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 25 Jul 2026 13:11:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 16:18:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>open-kritt: 여러 AI 에이전트로 코드 취약점을 찾는 오픈소스 보안 연구 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/open-kritt-ai/11418</link>
+      <description>open-kritt 소개 LLM에게 저장소 전체를 던지며 "여기서 취약점을 찾아줘" 라고 요청하는 방식은 대개 잘 동작하지 않습니다. 맥락이 너무 넓어 모델이 얕게 훑고 지나가거나, 같은 문제를 여러 번 다르게 보고하거나, 검증되지 않은 추측을 findings로 쏟아내기 때문입니다.</description>
+      <pubDate>Sat, 25 Jul 2026 15:30:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/open-kritt-ai/11418">PyTorch Korea</source>
+      <guid isPermaLink="false">eb82da17e17275f217159227da3f6c38</guid>
+    </item>
     <item>
       <title>Crawlee: AI와 LLM을 위한 데이터를 수집하는 Node.js 웹 스크래핑 라이브러리</title>
       <link>https://discuss.pytorch.kr/t/crawlee-ai-llm-node-js/11407</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/kimi-k3-moonshot-ai-3t-7-27/11301">PyTorch Korea</source>
       <guid isPermaLink="false">435eaec282ec92c3c82cf627f52ebf08</guid>
-    </item>
-    <item>
-      <title>[GN⁺] Pandas 창시자가 말하는 AI, Apache Arrow, 소프트웨어 엔지니어링의 미래</title>
-      <link>https://discuss.pytorch.kr/t/gn-pandas-ai-apache-arrow/11293</link>
-      <description>Pandas 창시자가 말하는 AI, Apache Arrow, 소프트웨어 엔지니어링의 미래 글 소개 Pandas와 Apache Arrow를 만든 경험을 바탕으로, AI 시대에도 고성능 데이터 시스템과 소프트웨어를 설계하는 전문성, 판단력, 취향 이 핵심이라고 봄 Apache Arrow는 표 형식 데이터를 위한 범용 인메모리 기반 계층 으로 시스템 간 전송과 처리를 표준화하며, 채택하는 시스템…</description>
-      <pubDate>Sat, 18 Jul 2026 20:30:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gn-pandas-ai-apache-arrow/11293">PyTorch Korea</source>
-      <guid isPermaLink="false">c53e452f1a61c892d255b63071bd30a1</guid>
     </item>
   </channel>
 </rss>
