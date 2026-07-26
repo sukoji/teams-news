@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 26 Jul 2026 15:07:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 18:13:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>이미지 생성 모델이 그린 이미지 속 한글은 왜 깨질까?</title>
+      <link>https://discuss.pytorch.kr/t/topic/11430</link>
+      <description>온디바이스에서 "글자가 안 깨지는" 이미지 생성 — POCKET-Image body{max-width:820px;margin:0 auto;padding:32px 20px;line-height:1.75; font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;color:#1b1c22} h1{font…</description>
+      <pubDate>Sun, 26 Jul 2026 17:47:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/topic/11430">PyTorch Korea</source>
+      <guid isPermaLink="false">bbb41180b8ba1f760c350bc170acff4b</guid>
+    </item>
+    <item>
+      <title>img2threejs: 이미지 한 장을 코드로 재구성하는 Three.js 3D 모델 생성 도구</title>
+      <link>https://discuss.pytorch.kr/t/img2threejs-three-js-3d/11410</link>
+      <description>img2threejs 소개 이미지 한 장을 3D 모델로 바꾸는 접근은 보통 사진측량(photogrammetry) 이나 메시 추출, 혹은 미리 만들어진 에셋 팩을 내려받는 방식으로 이루어집니다. 이 방식들은 대용량 메시 파일을 만들어 내고, 결과물을 코드로 검토하거나 버전 관리하기 어렵습니다.</description>
+      <pubDate>Sun, 26 Jul 2026 15:30:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/img2threejs-three-js-3d/11410">PyTorch Korea</source>
+      <guid isPermaLink="false">f2ef37c7a3a81da285ffff63f8532b12</guid>
+    </item>
     <item>
       <title>memsearch: 여러 AI 코딩 에이전트가 하나의 기억을 공유하는 의미 기반 메모리 계층</title>
       <link>https://discuss.pytorch.kr/t/memsearch-ai/11411</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308">PyTorch Korea</source>
       <guid isPermaLink="false">bfa5ec9439d6318d9bf54b664899caa9</guid>
-    </item>
-    <item>
-      <title>[2026/07/13 ~ 19] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-07-13-19-ai-ml/11328</link>
-      <description>[2026/07/13 ~ 19] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주 선정된 10편의 논문을 살펴보면, 인공지능 에이전트의 고도화, 실제 환경을 고려한 보안 및 신뢰성 확보, 그리고 텍스트 외 데이터 처리의 실질적 검증이라는 3가지 주요 트렌드를 확인할 수 있었습니다: 자율 에이전트 시스템의 고도화와 문맥 기반 제어 : 이번 주 연구들은 단순한 프롬프트…</description>
-      <pubDate>Mon, 20 Jul 2026 06:30:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-07-13-19-ai-ml/11328">PyTorch Korea</source>
-      <guid isPermaLink="false">3ea4eb6ac933ed02e25af2a801ff0c9a</guid>
-    </item>
-    <item>
-      <title>[GN⁺] 커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해</title>
-      <link>https://discuss.pytorch.kr/t/gn-llm-linus-torvalds/11294</link>
-      <description>커널 개발에서 LLM 사용에 관한 Linus Torvalds의 견해 글 소개 Linux 커널 은 반AI 프로젝트가 아니며, AI는 다른 도구들과 마찬가지로 유용한 도구 임 LLM에 대한 반감이 있는 사람들이 존재하지만, 이 사안에 대해서는 최상위 메인테이너로서 단호한 입장 을 취함 AI의 유용성 자체는 더 이상 논쟁 대상이 아니며 , 의심하는 사람은 실제로 써보지 않은 것이라고 지적 LLM…</description>
-      <pubDate>Sun, 19 Jul 2026 20:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gn-llm-linus-torvalds/11294">PyTorch Korea</source>
-      <guid isPermaLink="false">e070cd219c3834aca31902cf9e82a529</guid>
     </item>
   </channel>
 </rss>
