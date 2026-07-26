@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 26 Jul 2026 18:13:04 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 20:20:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Claude Opus 5와 Fable 5를 어떻게 나눠 써야 할까: 채택된 작업 비용으로 보는 선택 기준</title>
+      <link>https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431</link>
+      <description>안녕하세요, 파이토치 코리아 여러분! Claude Opus 5와 Claude Fable 5는 모두 100만 토큰 컨텍스트를 제공하지만, 외부 보도에서 다루는 역할과 가격, 데이터 보존 조건, 대체 라우팅(fallback)은 서로 다릅니다. 따라서 공개 벤치마크의 한 줄 순위나 토큰 가격만 보고 팀의 기본 모델을 정하기는 어렵습니다.</description>
+      <pubDate>Sun, 26 Jul 2026 18:15:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431">PyTorch Korea</source>
+      <guid isPermaLink="false">591471d5a1756ff2daf13559f62042c2</guid>
+    </item>
+    <item>
+      <title>GOT-OCR2.0: 문서와 수식, 표, 악보를 하나의 모델로 인식하는 End-to-End OCR 모델</title>
+      <link>https://discuss.pytorch.kr/t/got-ocr2-0-end-to-end-ocr/11415</link>
+      <description>GOT-OCR2.0 소개 문서를 디지털로 옮기는 광학 문자 인식(OCR)은 오랫동안 여러 개의 모듈을 이어 붙인 파이프라인으로 구현되어 왔습니다. 텍스트 영역을 찾는 검출기, 글자를 읽는 인식기, 레이아웃을 분석하는 후처리기가 각각 따로 학습되고 조합되는 방식입니다.</description>
+      <pubDate>Sun, 26 Jul 2026 18:30:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/got-ocr2-0-end-to-end-ocr/11415">PyTorch Korea</source>
+      <guid isPermaLink="false">074b0e83a190649b907efe865f7846fe</guid>
+    </item>
     <item>
       <title>이미지 생성 모델이 그린 이미지 속 한글은 왜 깨질까?</title>
       <link>https://discuss.pytorch.kr/t/topic/11430</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mozilla-ai-2026-3-3/11305">PyTorch Korea</source>
       <guid isPermaLink="false">326f11715daa46783242db0556112895</guid>
-    </item>
-    <item>
-      <title>Full-Stack AI Agent Template: AI 에이전트와 RAG를 갖춘 풀스택 앱 생성 템플릿 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/full-stack-ai-agent-template-ai-rag/11325</link>
-      <description>Full-Stack AI Agent Template 소개 Full-Stack AI Agent Template은 AI 에이전트와 RAG를 갖춘 프로덕션급 웹 애플리케이션의 뼈대를 명령 한 번으로 생성해 주는 오픈소스 프로젝트 생성기입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 12:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/full-stack-ai-agent-template-ai-rag/11325">PyTorch Korea</source>
-      <guid isPermaLink="false">d8528f17c5aec7df2b32e03cb5ec7f49</guid>
-    </item>
-    <item>
-      <title>NVIDIA, RTEB 1위 오픈 임베딩 모델 Nemotron 3 Embed 공개 (feat. RAG, 에이전트 검색)</title>
-      <link>https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308</link>
-      <description>Nemotron 3 Embed 소개 검색 증강 생성(Retrieval-Augmented Generation, RAG)이나 여러 단계를 거치는 에이전트 워크플로우에서 실제로 답변의 품질을 좌우하는 것은, 거대 언어 모델 자체보다 그 앞단에서 "관련 있는 문서를 얼마나 정확히 찾아오는가"입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 08:30:38 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nvidia-rteb-1-nemotron-3-embed-feat-rag/11308">PyTorch Korea</source>
-      <guid isPermaLink="false">bfa5ec9439d6318d9bf54b664899caa9</guid>
     </item>
   </channel>
 </rss>
