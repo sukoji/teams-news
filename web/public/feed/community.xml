@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 26 Jul 2026 08:56:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 11:54:27 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ko-embedding-leaderboard: 한국어 임베딩 모델을 평가하는 오픈소스 리더보드</title>
+      <link>https://discuss.pytorch.kr/t/ko-embedding-leaderboard/11416</link>
+      <description>ko-embedding-leaderboard 소개 RAG 시스템이나 검색 기능을 한국어로 만들 때 가장 먼저 부딪히는 선택은 "어떤 임베딩 모델을 쓸 것인가" 입니다. 후보는 많지만, 영어 벤치마크 점수가 높다고 해서 한국어 검색에서도 잘 동작한다는 보장은 없습니다. 모델마다 평가 방식과 데이터셋이 제각각이라 공정하게 비교하기도 어렵습니다.</description>
+      <pubDate>Sun, 26 Jul 2026 09:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ko-embedding-leaderboard/11416">PyTorch Korea</source>
+      <guid isPermaLink="false">38b54b91924b310de0de554f59c54b07</guid>
+    </item>
     <item>
       <title>gigatoken: HuggingFace보다 약 1000배 빠른 GB/s급 LLM 토크나이저</title>
       <link>https://discuss.pytorch.kr/t/gigatoken-huggingface-1000-gb-s-llm/11414</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ifixai-ai-45/11296">PyTorch Korea</source>
       <guid isPermaLink="false">e1bf1bfb5eb887aa4cc197002c797840</guid>
-    </item>
-    <item>
-      <title>FRIDAY: 음성으로 대화하며 MCP 도구를 실시간으로 활용하는 AI 비서</title>
-      <link>https://discuss.pytorch.kr/t/friday-mcp-ai/11297</link>
-      <description>FRIDAY 소개 FRIDAY는 영화 속 토니 스타크의 비서에서 영감을 받은 음성 AI 비서입니다. 이름은 "Fully Responsive Intelligent Digital Assistant for You"의 약자로, 마이크에 대고 말을 걸면 그 말을 알아듣고, 필요한 도구를 불러 처리한 뒤, 음성으로 답을 되돌려 줍니다.</description>
-      <pubDate>Sun, 19 Jul 2026 11:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/friday-mcp-ai/11297">PyTorch Korea</source>
-      <guid isPermaLink="false">53f80b7e1f5b9c87d5f63cebed564d19</guid>
     </item>
   </channel>
 </rss>
