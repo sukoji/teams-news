@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Jul 2026 09:01:13 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:37:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic, Fable 5급 성능을 절반 가격에 제공하는 Claude Opus 5 공개</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-fable-5-claude-opus-5/11435</link>
+      <description>Claude Opus 5 소개 Anthropic이 사려 깊고 주도적인(thoughtful and proactive) 새 프론티어급 코딩 및 에이전트 모델 Claude Opus 5 를 공개했습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 12:00:51 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-fable-5-claude-opus-5/11435">PyTorch Korea</source>
+      <guid isPermaLink="false">05d4d3b9f5dc64632750ab10bc4ccbe5</guid>
+    </item>
+    <item>
+      <title>ENPIRE: 코딩 에이전트가 실제 로봇 정책을 스스로 개선하는 물리적 자율연구 (feat. NVIDIA)</title>
+      <link>https://discuss.pytorch.kr/t/enpire-feat-nvidia/11068</link>
+      <description>ENPIRE: 코딩 에이전트가 실제 로봇을 스스로 학습시키는 물리적 자율연구 새로운 알고리즘을 연구할 때를 떠올려 봅시다. 우리는 아이디어를 떠올리는 시간보다 실험 환경을 세팅하고, 실패한 실험을 되돌려 다시 세팅하고, 결과를 눈으로 확인하고, 코드를 조금씩 고쳐 다시 돌리는 반복 작업에 훨씬 많은 시간을 씁니다.</description>
+      <pubDate>Mon, 27 Jul 2026 12:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/enpire-feat-nvidia/11068">PyTorch Korea</source>
+      <guid isPermaLink="false">9c06392390f4a48c6d3ca3fe7db3e522</guid>
+    </item>
+    <item>
+      <title>Open Generative UI: AI 에이전트가 대화로 인터랙티브 UI를 생성하는 오픈소스 프로젝트</title>
+      <link>https://discuss.pytorch.kr/t/open-generative-ui-ai-ui/11345</link>
+      <description>Open Generative UI 소개 AI 챗봇에게 무언가를 물어보면 대개 텍스트로 답이 돌아옵니다. 하지만 정렬 알고리즘의 동작, 분기별 매출 추이, 3D 구조처럼 글보다 그림과 상호작용으로 보는 편이 훨씬 이해가 빠른 주제가 많습니다. 이런 경우 답을 문단으로 설명하는 대신, 그 자리에서 차트나 다이어그램, 애니메이션을 만들어 보여줄 수 있다면 어떨까요?</description>
+      <pubDate>Mon, 27 Jul 2026 10:30:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/open-generative-ui-ai-ui/11345">PyTorch Korea</source>
+      <guid isPermaLink="false">cbdda056ba96e43ac56b66bd124a8548</guid>
+    </item>
     <item>
       <title>PIKE-RAG: 산업용 RAG를 위한 지식 원자화와 작업 분해 프레임워크에 대한 연구 (feat. Microsoft)</title>
       <link>https://discuss.pytorch.kr/t/pike-rag-rag-feat-microsoft/11359</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/15-000-cerebras-feat-pgvector-rrf-mcp/11329">PyTorch Korea</source>
       <guid isPermaLink="false">bd2b6fbd3554f2f87c6f91ed08ba5c74</guid>
-    </item>
-    <item>
-      <title>확산 언어 모델(Diffusion LLM)의 개념과 동작에 대한 연구 정리: LLaDA에서 DiffusionGemma까지</title>
-      <link>https://discuss.pytorch.kr/t/diffusion-llm-llada-diffusiongemma/11311</link>
-      <description>확산 언어 모델(Diffusion LLM)이란 무엇인가 우리가 글을 쓸 때는 대개 첫 단어부터 마지막 단어까지 한 방향으로 써 내려갑니다. 앞 문장을 다 쓰기 전에는 뒤 문장을 확정하기 어렵고, 한 번 뱉은 문장을 되돌아가 통째로 고치는 일도 드뭅니다. 오늘날의 주류 대형 언어 모델(Large Language Model, LLM)도 정확히 이 방식으로 동작합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 20:30:43 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/diffusion-llm-llada-diffusiongemma/11311">PyTorch Korea</source>
-      <guid isPermaLink="false">cc94370fafa08b94a98d8b8ee189620e</guid>
-    </item>
-    <item>
-      <title>AutoSci: 논문 수집부터 반박까지 연구 전 과정을 기억으로 자동화하는 AI 연구 에이전트</title>
-      <link>https://discuss.pytorch.kr/t/autosci-ai/11270</link>
-      <description>AutoSci 소개 과학 연구는 오랫동안 사람의 손이 많이 가는 일이었습니다. 연구자는 긴 프로젝트 주기 동안 문헌, 아이디어, 실험, 원고, 심사 대응을 직접 조율해야 합니다.</description>
-      <pubDate>Mon, 20 Jul 2026 18:30:37 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/autosci-ai/11270">PyTorch Korea</source>
-      <guid isPermaLink="false">7aa453ce453baaa4406b981329619c6e</guid>
-    </item>
-    <item>
-      <title>PIKE-RAG: 전문 지식과 추론으로 정확도를 높인 Microsoft의 산업용 RAG 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/pike-rag-microsoft-rag/11323</link>
-      <description>PIKE-RAG 소개 PIKE-RAG는 검색 증강 생성(RAG)이 전문 분야의 복잡한 질의에서 겪는 한계를 해결하기 위해 Microsoft가 제안한 RAG 프레임워크입니다.</description>
-      <pubDate>Mon, 20 Jul 2026 16:30:21 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pike-rag-microsoft-rag/11323">PyTorch Korea</source>
-      <guid isPermaLink="false">3e159c4e4f95267683b4e71c548efd88</guid>
     </item>
   </channel>
 </rss>

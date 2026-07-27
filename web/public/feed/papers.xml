@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Jul 2026 09:01:13 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 13:37:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Molt: 에이전트 강화 학습을 위한 확장 가능한 PyTorch 기반 교육 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.21653</link>
+      <description>에이전트 강화 학습 연구는 지속적인 알고리즘 수정, 새로운 추정기, 새로운 파이프라인 단계, 새로운 롤아웃 계획이며, 주류 프레임워크에서는 각 변경 스레드가 트레이너, 배포 계층을 통해 변경됩니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21653">Hugging Face Papers</source>
+      <guid isPermaLink="false">b1dfe92cf3c648ea9b893528b0f75fd0</guid>
+    </item>
+    <item>
+      <title>처음부터 기본 다중 모드 사전 학습 확장</title>
+      <link>https://huggingface.co/papers/2607.22043</link>
+      <description>LLM(대형 언어 모델)은 뛰어난 추론 능력을 보여주지만 텍스트 전용 사전 훈련에 의존하기 때문에 다중 모드 물리적 세계에 대한 인식이 제한됩니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22043">Hugging Face Papers</source>
+      <guid isPermaLink="false">e97f57dc793da456826a0fb045a34940</guid>
+    </item>
+    <item>
+      <title>VisCo: 시각적 토큰 압축을 위한 내장 인코더로 대규모 언어 모델 활용</title>
+      <link>https://huggingface.co/papers/2607.12756</link>
+      <description>VLM(비전 언어 모델)은 많은 수의 시각적 토큰을 처리하므로 상당한 추론 대기 시간과 메모리 오버헤드가 발생합니다. 이는 시각적 토큰 압축에 대한 광범위한 연구에 동기를 부여했습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12756">Hugging Face Papers</source>
+      <guid isPermaLink="false">76215251b93007033aae245a6501504f</guid>
+    </item>
+    <item>
+      <title>스킬 셀프 플레이: 공동 진화 스킬을 통해 LLM 역량의 한계를 뛰어넘다</title>
+      <link>https://huggingface.co/papers/2607.22529</link>
+      <description>LLM 교육은 수동 설계 및 주석에서 상호 작용 중심의 자체 진화로 전환되고 있습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22529">Hugging Face Papers</source>
+      <guid isPermaLink="false">abafa039f47b129d50f8296462987806</guid>
+    </item>
+    <item>
+      <title>IDEAgent: 연구 아이디어 생성을 위한 에이전트적 품질 다양성 검색</title>
+      <link>https://huggingface.co/papers/2607.22375</link>
+      <description>LLM(대형 언어 모델)은 지난 몇 년 동안 과학적 발견 프로세스를 크게 자동화했습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22375">Hugging Face Papers</source>
+      <guid isPermaLink="false">25d6c7e3d1444dbfe4627cc250f0b8cf</guid>
+    </item>
+    <item>
+      <title>SceneActBench: 에이전트가 자신이 보는 3D 장면에 대해 작업을 수행할 수 있습니까?</title>
+      <link>https://huggingface.co/papers/2607.22393</link>
+      <description>VLM(시각 언어 모델) 에이전트는 3D 장면을 설명하는 데 그치지 않고 작업을 수행하기 위해 도구를 점점 더 많이 사용하고 있습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22393">Hugging Face Papers</source>
+      <guid isPermaLink="false">5175553a028a875f9729f13c6188e269</guid>
+    </item>
+    <item>
+      <title>루프 닫기: 자동 회귀 생성 렌더링을 위한 훈련이 필요 없는 재방문 일관성</title>
+      <link>https://huggingface.co/papers/2607.21848</link>
+      <description>최근의 조건부 비디오 생성 모델은 깊이 맵 및 질감이 없는 기하학과 같은 3D 엔진 렌더링을 게임 및 몰입형 콘텐츠 제작을 위한 사실적인 비디오로 변환할 수 있는 유망한 잠재력을 보여주었습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21848">Hugging Face Papers</source>
+      <guid isPermaLink="false">22c4a18b3d6ee55463eee04124c1538e</guid>
+    </item>
+    <item>
+      <title>LAMAR: 개방형 언어 인식 다국어 정렬 재순위 지정 도구</title>
+      <link>https://huggingface.co/papers/2607.22042</link>
+      <description>다국어 검색 증강 생성에서 검색자는 여러 언어로 작성된 관련 문서를 검색할 수 있으며, 이후 답변 생성 전에 순위가 다시 지정됩니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22042">Hugging Face Papers</source>
+      <guid isPermaLink="false">efb8d773c57c9650cf01af0523493a1e</guid>
+    </item>
     <item>
       <title>🥇금주의 최고 AI 논문</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-878</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.20207">Hugging Face Papers</source>
       <guid isPermaLink="false">723e9460288444ed31d5256fa40a84e4</guid>
-    </item>
-    <item>
-      <title>개방형 언어 모델에서 재료 과학 메커니즘의 읽기 및 조정 표현</title>
-      <link>https://huggingface.co/papers/2607.20058</link>
-      <description>대규모 언어 모델은 과학적 질문에 답할 수 있지만 올바른 출력은 모델이 지배 물리학을 표현하는지 또는 사용하는지 여부를 나타내지 않습니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.20058">Hugging Face Papers</source>
-      <guid isPermaLink="false">fcf57e55a60f201abfc42b4e78137830</guid>
-    </item>
-    <item>
-      <title>G-MAD: 다중 뷰 RGB-T 공중 물체 감지를 위한 게임 기반 데이터 생성 프레임워크</title>
-      <link>https://huggingface.co/papers/2607.19942</link>
-      <description>이 작업에서는 Arma3를 사용하여 공중 물체 감지를 위한 동기화된 다중 뷰 RGB-T 데이터를 생성하는 오픈 소스 프레임워크인 G-MAD를 소개합니다.</description>
-      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.19942">Hugging Face Papers</source>
-      <guid isPermaLink="false">9fcf839db07993435cf0eac0c0a077ca</guid>
-    </item>
-    <item>
-      <title>ATSplat: 적응형 토큰 확장을 통한 컴팩트 피드포워드 3D 가우스 스플래팅</title>
-      <link>https://huggingface.co/papers/2607.20417</link>
-      <description>3D GS(3D Gaussian Splatting)는 자유롭게 배치된 프리미티브를 3D로 최적화하고 재구성되지 않은 영역에서 적응적으로 밀도를 높여 고품질의 새로운 뷰 합성을 달성합니다.</description>
-      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.20417">Hugging Face Papers</source>
-      <guid isPermaLink="false">00dc30db5e0b4cb2676afc99dd5fc784</guid>
-    </item>
-    <item>
-      <title>AutoIndex: 검색을 위한 학습 표현 프로그램</title>
-      <link>https://huggingface.co/papers/2607.18603</link>
-      <description>우리는 표현 프로그램 학습을 위한 프레임워크인 AutoIndex를 제시합니다. 즉, 원시 문서를 검색 시스템에 노출된 표현으로 매핑하는 실행 가능한 변환입니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18603">Hugging Face Papers</source>
-      <guid isPermaLink="false">479504f768a57c9cb9852f942d3f636f</guid>
-    </item>
-    <item>
-      <title>잠재의식 시계: 확산 언어 모델의 잠재 시간 모델링</title>
-      <link>https://huggingface.co/papers/2607.01774</link>
-      <description>확산 언어 모델(DLM)은 최근 자기회귀 모델의 유망한 대안으로 떠오르고 있습니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.01774">Hugging Face Papers</source>
-      <guid isPermaLink="false">182df08b7c66b6e5e9db37d51c946b9e</guid>
-    </item>
-    <item>
-      <title>잠재 변수로서의 전사 정책: 단어 수준 타이밍으로 제어 가능한 축어적 ASR 활성화</title>
-      <link>https://huggingface.co/papers/2607.18934</link>
-      <description>이질적으로 주석이 달린 데이터에 대해 훈련된 최신 ASR 모델은 전사 스타일(축어적 vs.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18934">Hugging Face Papers</source>
-      <guid isPermaLink="false">43b562f6b119103f5fd4b964f880a4b4</guid>
-    </item>
-    <item>
-      <title>다중 모드 LLM을 사용한 컴퓨팅 유머: 방법, 데이터 세트, 평가 및 과제</title>
-      <link>https://huggingface.co/papers/2607.19011</link>
-      <description>밈, 만화 및 만화의 다중 모드 유머는 AI 시스템에서 여전히 어렵습니다. 왜냐하면 의도된 의미는 문자 그대로의 장면보다는 비문자적인 메커니즘, 공유된 문화적 지식 및 의사소통 의도에 달려 있기 때문입니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.19011">Hugging Face Papers</source>
-      <guid isPermaLink="false">e10631565f3bd565abbc05398ff73805</guid>
-    </item>
-    <item>
-      <title>옵티마이저 상태는 어디에 있어야 합니까? 메모리 효율적인 전문가 혼합 교육을 위한 계층화된 상태 할당</title>
-      <link>https://huggingface.co/papers/2607.19058</link>
-      <description>최적화 상태는 전문가 혼합(MoE) 훈련의 메모리 예산에서 가장 큰 단일 항목입니다. 6.78B 매개변수 MoE 언어 모델에서 AdamW는 50.6GB의 첫 번째 및 두 번째 순간을 유지하여 12.6GB의 bf를 업데이트합니다.</description>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.19058">Hugging Face Papers</source>
-      <guid isPermaLink="false">dee7b34b749d8157dc08aab8516279f5</guid>
     </item>
   </channel>
 </rss>
