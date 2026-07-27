@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Jul 2026 17:31:47 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 21:25:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>확산 모델에서 노출 편향을 줄이기 위한 스펙트럼 사전</title>
+      <link>https://huggingface.co/papers/2607.22091</link>
+      <description>확산 모델은 일반적으로 반복 샘플링 중 오류 누적(일반적으로 노출 편향이라고 함)으로 인해 어려움을 겪습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22091">Hugging Face Papers</source>
+      <guid isPermaLink="false">61ec0ecc3cbd90a310c2a1e8fa9729f5</guid>
+    </item>
+    <item>
+      <title>화자 익명화에 대한 위협인 다중 모달 화자 확인</title>
+      <link>https://huggingface.co/papers/2607.19636</link>
+      <description>대부분의 ASV(자동 화자 확인) 시스템은 일반적으로 여러 발화로 구성된 실제 상호 작용에도 불구하고 개별 발화에 대해 작동합니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19636">Hugging Face Papers</source>
+      <guid isPermaLink="false">8f920f5905ba80e4700d6c9b5a201343</guid>
+    </item>
     <item>
       <title>DataPrep-Bench: LLM을 교육 데이터 준비자로 벤치마킹</title>
       <link>https://huggingface.co/papers/2607.20465</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.16190">Hugging Face Papers</source>
       <guid isPermaLink="false">e0d6edcb68038aeb0bd500f7fc8a97a5</guid>
-    </item>
-    <item>
-      <title>활성 관찰자를 위한 시험</title>
-      <link>https://huggingface.co/papers/2607.16165</link>
-      <description>인간의 시각은 폐쇄 루프입니다. 시선은 단일 스냅샷이 아닌 중간 가설에 의해 지속적으로 방향이 변경됩니다.</description>
-      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16165">Hugging Face Papers</source>
-      <guid isPermaLink="false">14b7ac71654a5b3e655b83c7c051179d</guid>
-    </item>
-    <item>
-      <title>판독기가 아닌 모델 훈련: 검증 가능한 활성화 설명을 위한 디코딩 가능성 감독</title>
-      <link>https://huggingface.co/papers/2607.20379</link>
-      <description>자연어 자동 인코더는 숨겨진 활성화에 대한 설명을 재구성하여 점수를 매깁니다. 활성화가 재생성될 수 있으면 설명은 충실한 것으로 간주됩니다.</description>
-      <pubDate>Thu, 23 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.20379">Hugging Face Papers</source>
-      <guid isPermaLink="false">b54bb8ab44c1c272f727f04a3548a047</guid>
     </item>
   </channel>
 </rss>
