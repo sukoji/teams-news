@@ -5,9 +5,153 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Jul 2026 13:37:23 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 17:31:47 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DataPrep-Bench: LLM을 교육 데이터 준비자로 벤치마킹</title>
+      <link>https://huggingface.co/papers/2607.20465</link>
+      <description>학습 데이터의 품질은 근본적으로 대규모 언어 모델(LLM)의 기능을 결정하지만 LLM, 에이전트 및 데이터 중심 워크플로가 실제로 학습을 얼마나 잘 준비하는지 측정할 수 있는 통합 벤치마크는 없습니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20465">Hugging Face Papers</source>
+      <guid isPermaLink="false">cfddb87606e6c46c06b5a272cd039b1d</guid>
+    </item>
+    <item>
+      <title>Quivr: 어떤 LLM과 파일에도 연결되는 제품 중심의 오픈소스 RAG 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/quivr-llm-rag/11403</link>
+      <description>Quivr 소개 문서를 근거로 답하는 챗봇이나 사내 지식 도우미를 만들려면 검색 증강 생성(RAG, Retrieval-Augmented Generation) 파이프라인을 직접 조립해야 합니다. 파일을 파싱해 청크로 나누고, 임베딩을 만들어 벡터 저장소에 넣고, 질문을 다시 쓰고, 관련 청크를 검색해 LLM 프롬프트에 붙이고, 대화 이력을 관리하는 단계가 모두 필요합니다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:30:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/quivr-llm-rag/11403">PyTorch Korea</source>
+      <guid isPermaLink="false">ffa5bc62881e09019b96e3ef00386ce5</guid>
+    </item>
+    <item>
+      <title>NC AI, 피지컬 AI '월드모델' 전담조직 신설…콘텐츠 AX와 병행</title>
+      <link>https://www.etnews.com/20260727000340</link>
+      <description>NC AI가 피지컬 인공지능(AI) 핵심 기반 기술인 '월드모델' 개발과 고도화를 전담할 조직을 신설한다. 게임 등 콘텐츠 특화 AI뿐 아니라 물리 세계를 접점으로 하는 피지컬 AI 사업 본격화를 위한 조직 재편에 나선다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:30:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000340">전자신문 IT</source>
+      <guid isPermaLink="false">4aef62eaac8043e1cdbe915216c82ffa</guid>
+    </item>
+    <item>
+      <title>에이전트 컨텍스트 관리: 에이전트 메모리 및 비용을 수명 주기 및 아키텍처 문제로 처리하여 해결</title>
+      <link>https://huggingface.co/papers/2607.21503</link>
+      <description>프로덕션 AI 에이전트의 실패는 추론을 제대로 할 수 없어서 실패하는 경우가 적고, 추론 컨텍스트에 있는 내용(대화 기록, 대규모 프롬프트, 대규모 도구 정의 등)을 관리할 수 없기 때문에 더 자주 실패합니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21503">Hugging Face Papers</source>
+      <guid isPermaLink="false">e82530e85bc4701738f902e81078293a</guid>
+    </item>
+    <item>
+      <title>업스테이지 '솔라 오픈 2', 허깅페이스 트렌드 3위·'주목할 모델' 등재</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=213222</link>
+      <description>업스테이지가 지난주 출시한 ‘솔라 오픈 2’가 글로벌 오픈소스 커뮤니티와 개발자들 사이에서 주목받고 있다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:41:01 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=213222">AI Times</source>
+      <guid isPermaLink="false">0c3884d80830af7dda4a7d5bbe934a19</guid>
+    </item>
+    <item>
+      <title>다중 헤드 잠재 제어: LLM 상담원 의사 결정을 위한 통합 인터페이스</title>
+      <link>https://huggingface.co/papers/2607.14277</link>
+      <description>대규모 언어 모델이 점점 더 에이전트로 배포되고 있지만 신뢰할 수 있는 에이전트 동작에는 다음 토큰 예측 이상의 것이 필요합니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.14277">Hugging Face Papers</source>
+      <guid isPermaLink="false">cebdaac3c875e818f515f3c50cfa51d0</guid>
+    </item>
+    <item>
+      <title>방송·유통가 파고든 AI 휴먼, 활용 확대 속 신뢰성 시험대</title>
+      <link>https://zdnet.co.kr/view/?no=20260727163745</link>
+      <description>[지디넷코리아]방송·유통 현장에서 생성형 인공지능(AI) 휴먼의 활용이 빠르게 늘고 있다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:39:43 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260727163745">ZDNet Korea</source>
+      <guid isPermaLink="false">51c78f1248d72b16611f9be75af5363e</guid>
+    </item>
+    <item>
+      <title>Palmier Pro: AI와 함께 타임라인에서 영상을 만드는 macOS 오픈소스 편집기</title>
+      <link>https://discuss.pytorch.kr/t/palmier-pro-ai-macos/11405</link>
+      <description>Palmier Pro 소개 영상 편집기에 AI를 붙이는 방식은 대개 두 갈래로 나뉩니다. 하나는 기존 편집기에 생성 기능을 플러그인으로 얹는 것이고, 다른 하나는 별도 웹 서비스에서 영상을 만든 뒤 편집기로 가져오는 것입니다. 두 방식 모두 생성과 편집이 서로 다른 공간에서 일어나기 때문에, 만든 클립을 다시 타임라인에 배치하고 맞추는 과정이 반복됩니다.</description>
+      <pubDate>Mon, 27 Jul 2026 14:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/palmier-pro-ai-macos/11405">PyTorch Korea</source>
+      <guid isPermaLink="false">5362813b09da4cbc91abd8082c4bfdd2</guid>
+    </item>
+    <item>
+      <title>한은, 전 직원 'AI 활용 업무망' 전환…외부 전송 파일 원본도 남긴다</title>
+      <link>https://www.etnews.com/20260727000325</link>
+      <description>한국은행이 전 직원이 AI와 외부 데이터를 활용할 수 있도록 업무망 문턱을 낮춘다. 대신 외부로 보내는 파일 원본을 자동 저장해 자료 반출 통제는 더 강화한다. 27일 금융권에 따르면 한은은 직원들이 한 대의 PC에서 내부망과 외부망을 함께 사용할 수 있는 업무환경을 전행으로 확산한다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000325">전자신문 IT</source>
+      <guid isPermaLink="false">666f59a1f1314878c079f5d1136f1101</guid>
+    </item>
+    <item>
+      <title>화웨이, 내년 반도체 유리기판 상용화 추진…AI 반도체 공세 거세진다</title>
+      <link>https://www.etnews.com/20260727000324</link>
+      <description>화웨이가 독자 공급망을 통해 내년 반도체 유리기판 양산을 추진한다. 이를 통해 차세대 인공지능(AI) 반도체용 기판으로 주목받는 유리기판을 선제 도입할 방침이다. AI 반도체 시장 공략 속도를 높이려는 포석으로, 화웨이가 양산에 성공하면 유리기판 주도권이 중국으로 넘어갈 우려도 제기된다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000324">전자신문 IT</source>
+      <guid isPermaLink="false">41e319d1cd66ed3bfa26f112344f229a</guid>
+    </item>
+    <item>
+      <title>[긴급 공공 보안진단] 〈중〉 공공 시스템 취약성 1월 확인…전면 점검은 6월에야</title>
+      <link>https://www.etnews.com/20260727000321</link>
+      <description>공공시스템의 개인정보 탈취 취약점이 올해 1월 감사원 모의해킹에서 확인됐지만, 정부의 공공부문 전반의 실태 점검은 6월 전담조직 출범 이후에야 본격화됐다. 인공지능(AI)을 악용한 사이버 공격이 급증하는 가운데 공공 보안 대응 속도를 높여야 한다는 목소리가 커지고 있다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000321">전자신문 IT</source>
+      <guid isPermaLink="false">6b07a527a907e2c4ffd44125ef4ddb8e</guid>
+    </item>
+    <item>
+      <title>생성 모델링을 위한 3체 산란</title>
+      <link>https://huggingface.co/papers/2607.18198</link>
+      <description>최신 생성 모델은 일반적으로 적대적 비판, 규정된 노이즈-데이터 경로 또는 자동회귀 인수분해에 의존합니다.</description>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18198">Hugging Face Papers</source>
+      <guid isPermaLink="false">93e5ae6c2100b9ffb4dd2120b4e524c8</guid>
+    </item>
+    <item>
+      <title>경남에 100㎿급 방산 AI 데이터센터 짓는다…1조6555억원 규모 투자협약 체결</title>
+      <link>https://www.etnews.com/20260727000154</link>
+      <description>경상남도(도지사 박완수)가 대한민국 방위산업 최대 집적지인 경남의 산업 경쟁력을 극대화하고 제조업 전반의 인공지능 전환(AX)을 선도할 국내 최초 100㎿급 방위산업 전용 AI 데이터센터(AIDC) 유치에 성공했다. 경남도는 27일 도정회의실에서 디노티시아, 디노코어, 신화철강, 창원시가 참석한 가운데 국내 최초 방산 전용 AIDC 건립을 위한 투자협약을 체결했다.</description>
+      <pubDate>Mon, 27 Jul 2026 15:05:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000154">전자신문 IT</source>
+      <guid isPermaLink="false">8588ff3b196c5ce33575ee685cc8143a</guid>
+    </item>
+    <item>
+      <title>기술 창업의 성장 사다리 '팁스'…FDA 임상부터 글로벌 투자까지</title>
+      <link>https://www.etnews.com/20260727000242</link>
+      <description>실험실에서 시작된 원천기술이 글로벌 신약 개발과 첨단소재 양산으로 이어지고 있다. 민간 투자와 정부 연구개발(R&amp;D)을 연계하는 팁스(TIPS)를 발판으로 기술창업기업들이 임상 진입과 코스닥 상장, 글로벌 투자 유치 등 가시적인 성과를 내고 있다.</description>
+      <pubDate>Mon, 27 Jul 2026 14:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000242">전자신문 IT</source>
+      <guid isPermaLink="false">639698b2e3286cfbddacd85d47db3df3</guid>
+    </item>
+    <item>
+      <title>'꿈의 현미경' 4세대 방사광가속기 첫삽…“대한민국 과학기술 미래 밝힌다”</title>
+      <link>https://www.etnews.com/20260727000308</link>
+      <description>국내 첨단 과학 분야 연구 역량을 한 단계 끌어올릴 4세대 방사광가속기가 첫 삽을 떴다. 2029년 말까지 나노 단위 물질 움직임을 포착하는 초대형 연구시설을 구축해 반도체, 이차전지, 바이오 등의 첨단 분야 연구·산업 경쟁력 강화에 기여한다는 목표다. 과학기술정보통신부와 한국기초과학지원연구원(KBSI)은 27일 충북 청주시 오창테크노폴리스에서 '한국새빛가속기' 착공식을 개최했다.</description>
+      <pubDate>Mon, 27 Jul 2026 13:58:34 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260727000308">전자신문 IT</source>
+      <guid isPermaLink="false">8b60f889c03952928137728dc8674656</guid>
+    </item>
+    <item>
+      <title>Claude Code로 프로젝트 30개를 혼자 굴리는 에이전트 운영 규칙</title>
+      <link>https://news.hada.io/topic?id=31870</link>
+      <description>4년간 실제로 굴리면서 만들어진 규칙 모음을 정리해서 공개했습니다. 에이전트를 만드는 방법이 아니라, 여러 개가 동시에 돌 때 사고가 안 나게 하는 쪽입니다. 에이전트가 제약에 부딪혔을 때 우회하지 않고 보고하게 만드는 프로토콜 FAIL을 PASS로 쓰지 않게 하는 기록 규칙</description>
+      <pubDate>Mon, 27 Jul 2026 17:26:50 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=31870">GeekNews</source>
+      <guid isPermaLink="false">721fac6388e06666374b6e1affcfd4e0</guid>
+    </item>
     <item>
       <title>Molt: 에이전트 강화 학습을 위한 확장 가능한 PyTorch 기반 교육 프레임워크</title>
       <link>https://huggingface.co/papers/2607.21653</link>
@@ -313,150 +457,6 @@
       <category>news</category>
       <source url="https://news.hada.io/topic?id=31835">GeekNews</source>
       <guid isPermaLink="false">7b95597d973e82d2c85bf8bf9441a4a9</guid>
-    </item>
-    <item>
-      <title>8달러짜리 마이크로컨트롤러에서 2,890만 매개변수 LLM 실행하기</title>
-      <link>https://news.hada.io/topic?id=31832</link>
-      <description>ESP32-S3 에서 서버 연결 없이 2,890만 매개변수 언어 모델을 구동해 작은 화면에 약 초당 9개 토큰 으로 텍스트를 출력함 전체 매개변수 중 2,500만 개를 느린 플래시에 두고 토큰마다 필요한 약 6개 행, 450바이트 만 읽는 Per-Layer Embeddings 구...</description>
-      <pubDate>Mon, 27 Jul 2026 00:32:54 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=31832">GeekNews</source>
-      <guid isPermaLink="false">dd6ea71b95934fdd612d13a37328ee14</guid>
-    </item>
-    <item>
-      <title>Morteza-Asadi-Shalmaiy/Re-Identification-fr — Python 노트북 ReId 프로젝트</title>
-      <link>https://github.com/Morteza-Asadi-Shalmaiy/Re-Identification-fr</link>
-      <description>Python 노트북 ReId 프로젝트</description>
-      <pubDate>Fri, 24 Jul 2026 16:49:51 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/Morteza-Asadi-Shalmaiy/Re-Identification-fr">GitHub Trending</source>
-      <guid isPermaLink="false">ffdc61c1f3bf67a663f5e80c81e2e98b</guid>
-    </item>
-    <item>
-      <title>Show GN: 엄랭으로 틱택토 AI를 만들어 봤습니다.</title>
-      <link>https://news.hada.io/topic?id=31827</link>
-      <description>엄랭(UmmLang)으로 틱택토 AI를 구현해봤습니다. 엄랭은 변수, 입출력, 조건문, 라인 점프 정도만 제공하는 난해한 프로그래밍 언어로 [ 어어엄어어어,,,,,,,, 식어어어ㅋ 동탄어?준. ] 이러한 생김새를 가지고 있습니다.</description>
-      <pubDate>Sun, 26 Jul 2026 20:39:14 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=31827">GeekNews</source>
-      <guid isPermaLink="false">98ff8c742f734e0be61fee67482de9bf</guid>
-    </item>
-    <item>
-      <title>deerwork-ai/deer-workflow — TypeScript에서 오케스트레이션을 유지하고 의미를 위임하는 오픈 소스 Dynamic Workflow 런타임입니다.</title>
-      <link>https://github.com/deerwork-ai/deer-workflow</link>
-      <description>TypeScript에서 오케스트레이션을 유지하고 의미 체계 작업을 교체 가능한 에이전트 런타임에 위임하는 오픈 소스 Dynamic Workflow 런타임입니다.</description>
-      <pubDate>Sun, 26 Jul 2026 18:42:58 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/deerwork-ai/deer-workflow">GitHub Trending</source>
-      <guid isPermaLink="false">86d6586ccb16eb954e690e0594e8c456</guid>
-    </item>
-    <item>
-      <title>KAIST-엔비디아, "인체동작 파운데이션 모델 개발"</title>
-      <link>https://zdnet.co.kr/view/?no=20260726190346</link>
-      <description>[지디넷코리아]KAIST가 엔비디아와 KAIST 내에 '인간물리지능 테크놀로지센터(휴먼 피지컬 AI NVAITC)’를 설립하기로 했다.26일 정진용 KAIST 기계공학과 초빙교수는 "사전논의를 어느정도 끝내고, 양자간 온라인으로 협약도 체결했다.</description>
-      <pubDate>Sun, 26 Jul 2026 19:03:46 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260726190346">ZDNet Korea</source>
-      <guid isPermaLink="false">1e84f03078cc260ceb02d7c140d94c24</guid>
-    </item>
-    <item>
-      <title>Claude Opus 5와 Fable 5를 어떻게 나눠 써야 할까: 채택된 작업 비용으로 보는 선택 기준</title>
-      <link>https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431</link>
-      <description>안녕하세요, 파이토치 코리아 여러분! Claude Opus 5와 Claude Fable 5는 모두 100만 토큰 컨텍스트를 제공하지만, 외부 보도에서 다루는 역할과 가격, 데이터 보존 조건, 대체 라우팅(fallback)은 서로 다릅니다. 따라서 공개 벤치마크의 한 줄 순위나 토큰 가격만 보고 팀의 기본 모델을 정하기는 어렵습니다.</description>
-      <pubDate>Sun, 26 Jul 2026 18:15:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431">PyTorch Korea</source>
-      <guid isPermaLink="false">591471d5a1756ff2daf13559f62042c2</guid>
-    </item>
-    <item>
-      <title>GOT-OCR2.0: 문서와 수식, 표, 악보를 하나의 모델로 인식하는 End-to-End OCR 모델</title>
-      <link>https://discuss.pytorch.kr/t/got-ocr2-0-end-to-end-ocr/11415</link>
-      <description>GOT-OCR2.0 소개 문서를 디지털로 옮기는 광학 문자 인식(OCR)은 오랫동안 여러 개의 모듈을 이어 붙인 파이프라인으로 구현되어 왔습니다. 텍스트 영역을 찾는 검출기, 글자를 읽는 인식기, 레이아웃을 분석하는 후처리기가 각각 따로 학습되고 조합되는 방식입니다.</description>
-      <pubDate>Sun, 26 Jul 2026 18:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/got-ocr2-0-end-to-end-ocr/11415">PyTorch Korea</source>
-      <guid isPermaLink="false">074b0e83a190649b907efe865f7846fe</guid>
-    </item>
-    <item>
-      <title>PINTO0309/LINEAE — LINEAE: 확장 가능한 변환기를 사용한 고속, 고정밀 라인 감지의 향상된 버전</title>
-      <link>https://github.com/PINTO0309/LINEAE</link>
-      <description>LINEAE: Scalable Transformers를 사용한 고속, 고정밀 라인 감지의 향상된 버전입니다. DINOV3로 구축되었습니다.</description>
-      <pubDate>Sun, 26 Jul 2026 17:54:24 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/PINTO0309/LINEAE">GitHub Trending</source>
-      <guid isPermaLink="false">82027ba0f5cbbd66a9fd583462556ec0</guid>
-    </item>
-    <item>
-      <title>Morteza-Asadi-Shalmaiy/Superres-fr — Python 노트북 초해상도</title>
-      <link>https://github.com/Morteza-Asadi-Shalmaiy/Superres-fr</link>
-      <description>파이썬 노트북 슈퍼 해상도</description>
-      <pubDate>Fri, 24 Jul 2026 16:26:03 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/Morteza-Asadi-Shalmaiy/Superres-fr">GitHub Trending</source>
-      <guid isPermaLink="false">d1f359dbb318f2e649caaa716e5dbeec</guid>
-    </item>
-    <item>
-      <title>앤트로픽, 클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다”</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=213178</link>
-      <description>AI의 성능을 높이는 핵심이 \'프롬프트를 얼마나 정교하게 작성하느냐\'에서 \'모델이 필요한 정보를 적절한 시점에 활용할 수 있도록 컨텍스트를 설계하느냐\'로 이동하고 있다.</description>
-      <pubDate>Sun, 26 Jul 2026 16:30:23 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=213178">AI Times</source>
-      <guid isPermaLink="false">dd72f9abec6fbf871c6271118e770dbe</guid>
-    </item>
-    <item>
-      <title>LG에너지솔루션, AI 에이전트·실험 자동화로 배터리 개발 혁신</title>
-      <link>https://www.etnews.com/20260724000112</link>
-      <description>LG에너지솔루션이 인공지능(AI) 에이전트와 실험 자동화를 결합해 배터리 연구개발(R&amp;D) 체계 전환에 속도를 낸다. 26일 LG에너지솔루션에 따르면 회사는 소재 개발 단계에서 AI 에이전트를 활용해 신규 후보 물질을 탐색하고 성능을 최적화하고 있다. 고객 요구사항 분석과 셀 설계, 시험 결과 해석, 시제품 개발 일정 수립에도 AI를 적용한다.</description>
-      <pubDate>Sun, 26 Jul 2026 17:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260724000112">전자신문 IT</source>
-      <guid isPermaLink="false">b3d038c08003f4b6761f03f16000849c</guid>
-    </item>
-    <item>
-      <title>'모두의 AI'로 한국형 '토큰 이코노미' 시동</title>
-      <link>https://www.etnews.com/20260724000249</link>
-      <description>정부가 국민 누구나 비용 부담 없이 인공지능(AI) 서비스를 활용할 수 있도록 지원하는 대규모 프로젝트를 가동, 이른바 한국형 '토큰 이코노미'를 구현한다. 챗GPT나 클로드 등 외산 생성형 AI 서비스 의존에서 벗어나 자체 인프라를 통한 AI 토큰 생산을 늘려 국민 경제적 혜택으로 환원하겠다는 구상이다.</description>
-      <pubDate>Sun, 26 Jul 2026 16:30:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260724000249">전자신문 IT</source>
-      <guid isPermaLink="false">5a45e2790931d9a7e1b461cec2b5bbd0</guid>
-    </item>
-    <item>
-      <title>“韓 개미는 충동적 도박꾼”…카지노에 빗댄 외신 “후회해도 빼내기 어렵다”</title>
-      <link>https://www.etnews.com/20260726000131</link>
-      <description>영국 경제주간지 이코노미스트가 한국 증시의 최근 흐름을 '카지노'에 비유하며 개인투자자들의 과도한 레버리지 투자에 대해 경고했다. 인공지능(AI) 열풍이 반도체주 강세를 이끌었지만, 단일종목 레버리지 ETF를 중심으로 한 투기적 거래가 시장 변동성을 더욱 확대하고 있다는 분석이다.</description>
-      <pubDate>Sun, 26 Jul 2026 17:57:24 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260726000131">전자신문 IT</source>
-      <guid isPermaLink="false">4c070fccb24a80f8eb5a6e40905024f9</guid>
-    </item>
-    <item>
-      <title>이미지 생성 모델이 그린 이미지 속 한글은 왜 깨질까?</title>
-      <link>https://discuss.pytorch.kr/t/topic/11430</link>
-      <description>온디바이스에서 "글자가 안 깨지는" 이미지 생성 — POCKET-Image body{max-width:820px;margin:0 auto;padding:32px 20px;line-height:1.75; font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;color:#1b1c22} h1{font…</description>
-      <pubDate>Sun, 26 Jul 2026 17:47:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/topic/11430">PyTorch Korea</source>
-      <guid isPermaLink="false">bbb41180b8ba1f760c350bc170acff4b</guid>
-    </item>
-    <item>
-      <title>로닉, 조리 넘어 재고 관리까지 연결한 피지컬 AI 로봇 선봬</title>
-      <link>https://www.etnews.com/20260724000251</link>
-      <description>로봇기업 로닉이 식재료 계량과 메뉴 생산, 재고·온도 관리까지 연결한 피지컬 인공지능(AI) 로봇 '큐브(CUBE)'를 선보였다. 특정 조리 작업만 반복하는 기존 외식 로봇과 달리 주문부터 생산, 식재료 관리까지 매장 운영 전반을 데이터로 연동한 것이 특징이다. 26일 로닉에 따르면 최근 서울 노량진에 문을 연 멕시칸 브랜드 '세울타코 파히타'에 큐브를 본격 적용했다.</description>
-      <pubDate>Sun, 26 Jul 2026 17:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260724000251">전자신문 IT</source>
-      <guid isPermaLink="false">8c5b84a3327520f7a0deda479dd9e99b</guid>
-    </item>
-    <item>
-      <title>img2threejs: 이미지 한 장을 코드로 재구성하는 Three.js 3D 모델 생성 도구</title>
-      <link>https://discuss.pytorch.kr/t/img2threejs-three-js-3d/11410</link>
-      <description>img2threejs 소개 이미지 한 장을 3D 모델로 바꾸는 접근은 보통 사진측량(photogrammetry) 이나 메시 추출, 혹은 미리 만들어진 에셋 팩을 내려받는 방식으로 이루어집니다. 이 방식들은 대용량 메시 파일을 만들어 내고, 결과물을 코드로 검토하거나 버전 관리하기 어렵습니다.</description>
-      <pubDate>Sun, 26 Jul 2026 15:30:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/img2threejs-three-js-3d/11410">PyTorch Korea</source>
-      <guid isPermaLink="false">f2ef37c7a3a81da285ffff63f8532b12</guid>
     </item>
   </channel>
 </rss>

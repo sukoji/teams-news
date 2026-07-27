@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Jul 2026 13:37:23 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 17:31:47 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Quivr: 어떤 LLM과 파일에도 연결되는 제품 중심의 오픈소스 RAG 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/quivr-llm-rag/11403</link>
+      <description>Quivr 소개 문서를 근거로 답하는 챗봇이나 사내 지식 도우미를 만들려면 검색 증강 생성(RAG, Retrieval-Augmented Generation) 파이프라인을 직접 조립해야 합니다. 파일을 파싱해 청크로 나누고, 임베딩을 만들어 벡터 저장소에 넣고, 질문을 다시 쓰고, 관련 청크를 검색해 LLM 프롬프트에 붙이고, 대화 이력을 관리하는 단계가 모두 필요합니다.</description>
+      <pubDate>Mon, 27 Jul 2026 16:30:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/quivr-llm-rag/11403">PyTorch Korea</source>
+      <guid isPermaLink="false">ffa5bc62881e09019b96e3ef00386ce5</guid>
+    </item>
+    <item>
+      <title>Palmier Pro: AI와 함께 타임라인에서 영상을 만드는 macOS 오픈소스 편집기</title>
+      <link>https://discuss.pytorch.kr/t/palmier-pro-ai-macos/11405</link>
+      <description>Palmier Pro 소개 영상 편집기에 AI를 붙이는 방식은 대개 두 갈래로 나뉩니다. 하나는 기존 편집기에 생성 기능을 플러그인으로 얹는 것이고, 다른 하나는 별도 웹 서비스에서 영상을 만든 뒤 편집기로 가져오는 것입니다. 두 방식 모두 생성과 편집이 서로 다른 공간에서 일어나기 때문에, 만든 클립을 다시 타임라인에 배치하고 맞추는 과정이 반복됩니다.</description>
+      <pubDate>Mon, 27 Jul 2026 14:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/palmier-pro-ai-macos/11405">PyTorch Korea</source>
+      <guid isPermaLink="false">5362813b09da4cbc91abd8082c4bfdd2</guid>
+    </item>
     <item>
       <title>Anthropic, Fable 5급 성능을 절반 가격에 제공하는 Claude Opus 5 공개</title>
       <link>https://discuss.pytorch.kr/t/anthropic-fable-5-claude-opus-5/11435</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/moba-feat-moonshotai/11324">PyTorch Korea</source>
       <guid isPermaLink="false">dab69ab1fcfefabf970947d96550dbe1</guid>
-    </item>
-    <item>
-      <title>PDF 표 추출 정확도를 높이는 법 — PyMuPDF4LLM 1.28</title>
-      <link>https://discuss.pytorch.kr/t/pdf-pymupdf4llm-1-28/11355</link>
-      <description>PDF 표 추출 정확도를 높이는 법 — PyMuPDF4LLM 1.28 태그: pymupdf4llm, pdf, table-extraction, rag, llm 카테고리: 읽을거리&amp;정보공유 표 추출, 이제 훨씬 정확하고 빨라집니다. 문서에서 데이터 뽑아보신 분들은 아실 텐데, 표(table)만큼 골치 아픈 게 없습니다.</description>
-      <pubDate>Tue, 21 Jul 2026 08:54:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pdf-pymupdf4llm-1-28/11355">PyTorch Korea</source>
-      <guid isPermaLink="false">f85a527d7078de01e44c2c9c9111ca50</guid>
-    </item>
-    <item>
-      <title>하루 15,000개 질문에 답하는 Cerebras 사내 지식 베이스 설계 노하우 (feat. pgvector, RRF, MCP)</title>
-      <link>https://discuss.pytorch.kr/t/15-000-cerebras-feat-pgvector-rrf-mcp/11329</link>
-      <description>Cerebras 사내 지식 베이스 소개 Cerebras 의 직원들은 사내 지식 베이스(Knowledge Base)에 매일 15,000개 이상의 질문 을 던집니다. 공개된 지 3개월 만에 회사에서 가장 널리 쓰이는 내부 도구 중 하나가 되었고, 사람뿐 아니라 자동화 스크립트와 에이전트도 이 시스템에 질문을 보냅니다.</description>
-      <pubDate>Tue, 21 Jul 2026 06:30:26 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/15-000-cerebras-feat-pgvector-rrf-mcp/11329">PyTorch Korea</source>
-      <guid isPermaLink="false">bd2b6fbd3554f2f87c6f91ed08ba5c74</guid>
     </item>
   </channel>
 </rss>
