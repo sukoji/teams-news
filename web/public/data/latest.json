@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-28",
-  "generated_at": "2026-07-28T08:58:55.966638+09:00",
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T08:55:12.546173+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -15,16 +15,16 @@
           "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
           "title_ko": "DataPrep-Bench: LLM을 교육 데이터 준비자로 벤치마킹",
           "summary": "The quality of training data fundamentally determines the capabilities of large language models (LLMs), yet no unified benchmark exists to measure how well LLMs, agents, and data-centric workflows actually prepare train…",
-          "summary_ko": "학습 데이터의 품질은 근본적으로 대규모 언어 모델(LLM)의 기능을 결정하지만 LLM, 에이전트 및 데이터 중심 워크플로가 실제로 학습을 얼마나 잘 준비하는지 측정할 수 있는 통합 벤치마크는 없습니다.",
+          "summary_ko": "학습 데이터의 품질은 근본적으로 대규모 언어 모델(LLM)의 기능을 결정하지만, LLM, 에이전트 및 데이터 중심 워크플로가 실제로 학습을 얼마나 잘 준비하는지 측정할 수 있는 통합 벤치마크는 없습니다.",
           "url": "https://huggingface.co/papers/2607.20465",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-27T09:00:00+09:00",
-          "popularity": 306,
-          "upvotes": 40,
-          "score": 31.18,
-          "importance_score": 17.19,
+          "popularity": 332,
+          "upvotes": 49,
+          "score": 31.42,
+          "importance_score": 17.42,
           "matched_keywords": [
             "ai",
             "llm",
@@ -34,7 +34,7 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 40
+            "value": 49
           }
         },
         {
@@ -49,10 +49,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-27T09:00:00+09:00",
-          "popularity": 693,
-          "upvotes": 23,
+          "popularity": 787,
+          "upvotes": 29,
           "score": 30.0,
-          "importance_score": 18.01,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
             "agent",
@@ -61,7 +61,7 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 23
+            "value": 29
           }
         }
       ]
@@ -71,47 +71,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "fc5d534be90b61987c362c05ce8ba958",
+          "id": "206353699240e9ffb8f2eaf643e07717",
           "index": 3,
-          "title": "마이크로소프트, AI로 AI 공격 대비 '퍼셉션' 공개…“오픈AI·앤트로픽 앞서”",
+          "title": "[7월28일] \"모델이 문제인가, 샌드박스가 문제인가\"...오픈AI 해킹 사건이 낳은 AI 안전 논쟁",
           "title_ko": null,
-          "summary": "마이크로소프트(MS)가 자체 기술 기반 보안 특화 인공지능(AI) 모델과 플랫폼을 지원한다. MS는 27일(현지시간) 미국 샌프란시스코에서 보안 행사를 열고 AI 에이전트 기반 보안 플랫폼 '프로젝트 퍼셉션'을 공개했다. 공격 경로를 미리 찾는 '레드팀'과 문맥을 추론해 위험을 확인하는 '블루팀', 보안을 담당하는 '그린팀' 등 전문 에이전트 3개 팀이 협력하는 방향으로 플랫폼을 구성했다.",
+          "summary": "오픈AI의 미공개 AI 모델이 내부 테스트 과정에서 허깅페이스 시스템을 침해한 사건은 AI가 인간의 통제를 벗어난 것 아니냐는 SF 같은 해석까지 나오며 세계적인 화제가 됐습니다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260728000003",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213256",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-28T07:40:34+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-29T07:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 25.53,
-          "importance_score": 19.26,
+          "score": 22.6,
+          "importance_score": 19.2,
           "matched_keywords": [
             "ai",
-            "추론",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "e0ca5200e53012a6b63e18a961396e3a",
+          "id": "2e32792f48572583b264f11321338ef8",
           "index": 4,
-          "title": "발로 차고 넘어뜨린다…중국의 로봇 AI 훈련",
+          "title": "DXC와 일레븐랩스, 엔터프라이즈 AI 및 음성 혁신 확장을 위한 전략적 파트너십 발표",
           "title_ko": null,
-          "summary": "중국 로봇 연구팀이 휴머노이드 로봇을 발로 차고 밀어 넘어뜨리는 훈련 영상을 공개했습니다. 연구팀은 로봇이 반복적으로 넘어지고 다시 일어나는 과정을 통해 외부 충격에도 균형을 유지하고 안정적으로 움직일 수 있도록 훈련했다고 설명했습니다. 이번에 공개한 오픈소스 휴머노이드 학습 기술 'UFO'는 비지도 강화학습을 기반으로 다양한 동작을 스스로 익히도록 설계됐습니다.",
+          "summary": "[지디넷코리아]애슈번, 버지니아, 2026년 7월 28일 /PRNewswire/ -- 선도적인 엔터프라이즈 기술 및 혁신 파트너인 DXC 테크놀로지(DXC Technology, NYSE: DXC)가 7월 28일, 오디오 모델과 음성 에이전트를 전문으로 하는 AI 기업 일레븐랩스(ElevenLabs)와의 전략적 파트너십을 발표했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260727000410",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20260728231002",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-28T06:00:00+09:00",
-          "popularity": 97,
+          "published_at": "2026-07-28T23:10:02+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 22.08,
-          "importance_score": 18.46,
+          "score": 20.77,
+          "importance_score": 15.74,
           "matched_keywords": [
             "ai",
-            "연구"
+            "모델"
           ],
           "engagement": null
         }
@@ -122,28 +121,31 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "a012a4c93429343e30d1f1af1bb33e1f",
+          "id": "e56b0a77f435367b87cba1d089f37adf",
           "index": 5,
-          "title": "makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-          "title_ko": "makecindy/cindy — 완료되었다고 생각하세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.",
-          "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-          "summary_ko": "끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.",
-          "url": "https://github.com/makecindy/cindy",
+          "title": "bestdeejay-design/awesome-ai-handbook — A practical guide to AI: from running your first local model to building your own agents. 52 files c",
+          "title_ko": "bestdeejay-design/awesome-ai-handbook — AI에 대한 실용적인 가이드: 첫 번째 로컬 모델 실행부터 자체 에이전트 구축까지. 파일 52개",
+          "summary": "A practical guide to AI: from running your first local model to building your own agents. 52 files covering LLMs, Ollama, RAG, prompt engineering, machine learning, AI agents, and local AI tools.",
+          "summary_ko": "AI에 대한 실용적인 가이드: 첫 번째 로컬 모델 실행부터 자체 에이전트 구축까지. LLM, Ollama, RAG, 프롬프트 엔지니어링, 기계 학습, AI 에이전트 및 로컬 AI 도구를 다루는 52개 파일입니다.",
+          "url": "https://github.com/bestdeejay-design/awesome-ai-handbook",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-07-28T08:47:59+09:00",
-          "popularity": 838,
-          "upvotes": 838,
-          "score": 36.52,
-          "importance_score": 33.49,
+          "published_at": "2026-07-28T19:18:49+09:00",
+          "popularity": 23,
+          "upvotes": 23,
+          "score": 30.29,
+          "importance_score": 15.45,
           "matched_keywords": [
             "ai",
-            "agent"
+            "llm",
+            "agent",
+            "rag",
+            "machine learning"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 838
+            "value": 23
           }
         },
         {
@@ -158,17 +160,17 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-07-28T00:34:26+09:00",
-          "popularity": 236,
-          "upvotes": 236,
-          "score": 30.39,
-          "importance_score": 25.63,
+          "popularity": 319,
+          "upvotes": 319,
+          "score": 28.19,
+          "importance_score": 20.19,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 236
+            "value": 319
           }
         }
       ]
@@ -178,26 +180,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "73931ccdd1e8a47afd903665f35ba0db",
+          "id": "2398156161b9f15a662f8153d6c1c806",
           "index": 7,
-          "title": "opencodex: 어떤 LLM이든 Codex와 Claude Code에서 쓰게 해주는 범용 프록시",
+          "title": "OmniRoute: 여러 AI 제공자를 하나의 엔드포인트로 잇는 로컬 게이트웨이",
           "title_ko": null,
-          "summary": "opencodex 소개 OpenAI의 Codex CLI나 Claude Code 같은 코딩 에이전트는 특정 백엔드 API에 맞춰 통신합니다. 그래서 Claude, Gemini, Grok, DeepSeek 같은 다른 모델을 쓰고 싶어도, 도구가 해당 제공자를 공식 지원할 때까지 기다려야 하는 경우가 많습니다.",
+          "summary": "OmniRoute 소개 여러 개의 대규모 언어 모델(LLM)을 동시에 쓰다 보면 관리해야 할 것이 빠르게 늘어납니다. 제공자마다 SDK와 엔드포인트가 다르고, 구독 요금제는 다 쓰지 못한 채 매달 만료되며, 한도(rate limit)에 걸리면 작업이 중간에 멈춥니다. 게다가 Claude Code, Cursor, Codex 같은 코딩 도구는 저마다 별도의 설정을 요구합니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/opencodex-llm-codex-claude-code/11408",
+          "url": "https://discuss.pytorch.kr/t/omniroute-ai/11413",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-27T20:30:39+09:00",
-          "popularity": 98,
+          "published_at": "2026-07-28T18:30:22+09:00",
+          "popularity": 97,
           "upvotes": 0,
-          "score": 29.2,
-          "importance_score": 14.6,
+          "score": 25.7,
+          "importance_score": 13.69,
           "matched_keywords": [
             "ai",
             "llm",
             "claude",
-            "gemini",
             "모델"
           ],
           "engagement": null
@@ -212,16 +213,16 @@
       "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
       "title_ko": "DataPrep-Bench: LLM을 교육 데이터 준비자로 벤치마킹",
       "summary": "The quality of training data fundamentally determines the capabilities of large language models (LLMs), yet no unified benchmark exists to measure how well LLMs, agents, and data-centric workflows actually prepare train…",
-      "summary_ko": "학습 데이터의 품질은 근본적으로 대규모 언어 모델(LLM)의 기능을 결정하지만 LLM, 에이전트 및 데이터 중심 워크플로가 실제로 학습을 얼마나 잘 준비하는지 측정할 수 있는 통합 벤치마크는 없습니다.",
+      "summary_ko": "학습 데이터의 품질은 근본적으로 대규모 언어 모델(LLM)의 기능을 결정하지만, LLM, 에이전트 및 데이터 중심 워크플로가 실제로 학습을 얼마나 잘 준비하는지 측정할 수 있는 통합 벤치마크는 없습니다.",
       "url": "https://huggingface.co/papers/2607.20465",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-27T09:00:00+09:00",
-      "popularity": 306,
-      "upvotes": 40,
-      "score": 31.18,
-      "importance_score": 17.19,
+      "popularity": 332,
+      "upvotes": 49,
+      "score": 31.42,
+      "importance_score": 17.42,
       "matched_keywords": [
         "ai",
         "llm",
@@ -231,7 +232,7 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 40
+        "value": 49
       }
     },
     {
@@ -246,10 +247,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-27T09:00:00+09:00",
-      "popularity": 693,
-      "upvotes": 23,
+      "popularity": 787,
+      "upvotes": 29,
       "score": 30.0,
-      "importance_score": 18.01,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
         "agent",
@@ -258,77 +259,79 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 23
+        "value": 29
       }
     },
     {
-      "id": "fc5d534be90b61987c362c05ce8ba958",
+      "id": "206353699240e9ffb8f2eaf643e07717",
       "index": 3,
-      "title": "마이크로소프트, AI로 AI 공격 대비 '퍼셉션' 공개…“오픈AI·앤트로픽 앞서”",
+      "title": "[7월28일] \"모델이 문제인가, 샌드박스가 문제인가\"...오픈AI 해킹 사건이 낳은 AI 안전 논쟁",
       "title_ko": null,
-      "summary": "마이크로소프트(MS)가 자체 기술 기반 보안 특화 인공지능(AI) 모델과 플랫폼을 지원한다. MS는 27일(현지시간) 미국 샌프란시스코에서 보안 행사를 열고 AI 에이전트 기반 보안 플랫폼 '프로젝트 퍼셉션'을 공개했다. 공격 경로를 미리 찾는 '레드팀'과 문맥을 추론해 위험을 확인하는 '블루팀', 보안을 담당하는 '그린팀' 등 전문 에이전트 3개 팀이 협력하는 방향으로 플랫폼을 구성했다.",
+      "summary": "오픈AI의 미공개 AI 모델이 내부 테스트 과정에서 허깅페이스 시스템을 침해한 사건은 AI가 인간의 통제를 벗어난 것 아니냐는 SF 같은 해석까지 나오며 세계적인 화제가 됐습니다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260728000003",
-      "source": "전자신문 IT",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=213256",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-28T07:40:34+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-29T07:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 25.53,
-      "importance_score": 19.26,
+      "score": 22.6,
+      "importance_score": 19.2,
       "matched_keywords": [
         "ai",
-        "추론",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "e0ca5200e53012a6b63e18a961396e3a",
+      "id": "2e32792f48572583b264f11321338ef8",
       "index": 4,
-      "title": "발로 차고 넘어뜨린다…중국의 로봇 AI 훈련",
+      "title": "DXC와 일레븐랩스, 엔터프라이즈 AI 및 음성 혁신 확장을 위한 전략적 파트너십 발표",
       "title_ko": null,
-      "summary": "중국 로봇 연구팀이 휴머노이드 로봇을 발로 차고 밀어 넘어뜨리는 훈련 영상을 공개했습니다. 연구팀은 로봇이 반복적으로 넘어지고 다시 일어나는 과정을 통해 외부 충격에도 균형을 유지하고 안정적으로 움직일 수 있도록 훈련했다고 설명했습니다. 이번에 공개한 오픈소스 휴머노이드 학습 기술 'UFO'는 비지도 강화학습을 기반으로 다양한 동작을 스스로 익히도록 설계됐습니다.",
+      "summary": "[지디넷코리아]애슈번, 버지니아, 2026년 7월 28일 /PRNewswire/ -- 선도적인 엔터프라이즈 기술 및 혁신 파트너인 DXC 테크놀로지(DXC Technology, NYSE: DXC)가 7월 28일, 오디오 모델과 음성 에이전트를 전문으로 하는 AI 기업 일레븐랩스(ElevenLabs)와의 전략적 파트너십을 발표했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260727000410",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20260728231002",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-28T06:00:00+09:00",
-      "popularity": 97,
+      "published_at": "2026-07-28T23:10:02+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 22.08,
-      "importance_score": 18.46,
+      "score": 20.77,
+      "importance_score": 15.74,
       "matched_keywords": [
         "ai",
-        "연구"
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "a012a4c93429343e30d1f1af1bb33e1f",
+      "id": "e56b0a77f435367b87cba1d089f37adf",
       "index": 5,
-      "title": "makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "title_ko": "makecindy/cindy — 완료되었다고 생각하세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.",
-      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "summary_ko": "끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.",
-      "url": "https://github.com/makecindy/cindy",
+      "title": "bestdeejay-design/awesome-ai-handbook — A practical guide to AI: from running your first local model to building your own agents. 52 files c",
+      "title_ko": "bestdeejay-design/awesome-ai-handbook — AI에 대한 실용적인 가이드: 첫 번째 로컬 모델 실행부터 자체 에이전트 구축까지. 파일 52개",
+      "summary": "A practical guide to AI: from running your first local model to building your own agents. 52 files covering LLMs, Ollama, RAG, prompt engineering, machine learning, AI agents, and local AI tools.",
+      "summary_ko": "AI에 대한 실용적인 가이드: 첫 번째 로컬 모델 실행부터 자체 에이전트 구축까지. LLM, Ollama, RAG, 프롬프트 엔지니어링, 기계 학습, AI 에이전트 및 로컬 AI 도구를 다루는 52개 파일입니다.",
+      "url": "https://github.com/bestdeejay-design/awesome-ai-handbook",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-07-28T08:47:59+09:00",
-      "popularity": 838,
-      "upvotes": 838,
-      "score": 36.52,
-      "importance_score": 33.49,
+      "published_at": "2026-07-28T19:18:49+09:00",
+      "popularity": 23,
+      "upvotes": 23,
+      "score": 30.29,
+      "importance_score": 15.45,
       "matched_keywords": [
         "ai",
-        "agent"
+        "llm",
+        "agent",
+        "rag",
+        "machine learning"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 838
+        "value": 23
       }
     },
     {
@@ -343,40 +346,39 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-07-28T00:34:26+09:00",
-      "popularity": 236,
-      "upvotes": 236,
-      "score": 30.39,
-      "importance_score": 25.63,
+      "popularity": 319,
+      "upvotes": 319,
+      "score": 28.19,
+      "importance_score": 20.19,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 236
+        "value": 319
       }
     },
     {
-      "id": "73931ccdd1e8a47afd903665f35ba0db",
+      "id": "2398156161b9f15a662f8153d6c1c806",
       "index": 7,
-      "title": "opencodex: 어떤 LLM이든 Codex와 Claude Code에서 쓰게 해주는 범용 프록시",
+      "title": "OmniRoute: 여러 AI 제공자를 하나의 엔드포인트로 잇는 로컬 게이트웨이",
       "title_ko": null,
-      "summary": "opencodex 소개 OpenAI의 Codex CLI나 Claude Code 같은 코딩 에이전트는 특정 백엔드 API에 맞춰 통신합니다. 그래서 Claude, Gemini, Grok, DeepSeek 같은 다른 모델을 쓰고 싶어도, 도구가 해당 제공자를 공식 지원할 때까지 기다려야 하는 경우가 많습니다.",
+      "summary": "OmniRoute 소개 여러 개의 대규모 언어 모델(LLM)을 동시에 쓰다 보면 관리해야 할 것이 빠르게 늘어납니다. 제공자마다 SDK와 엔드포인트가 다르고, 구독 요금제는 다 쓰지 못한 채 매달 만료되며, 한도(rate limit)에 걸리면 작업이 중간에 멈춥니다. 게다가 Claude Code, Cursor, Codex 같은 코딩 도구는 저마다 별도의 설정을 요구합니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/opencodex-llm-codex-claude-code/11408",
+      "url": "https://discuss.pytorch.kr/t/omniroute-ai/11413",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-27T20:30:39+09:00",
-      "popularity": 98,
+      "published_at": "2026-07-28T18:30:22+09:00",
+      "popularity": 97,
       "upvotes": 0,
-      "score": 29.2,
-      "importance_score": 14.6,
+      "score": 25.7,
+      "importance_score": 13.69,
       "matched_keywords": [
         "ai",
         "llm",
         "claude",
-        "gemini",
         "모델"
       ],
       "engagement": null
