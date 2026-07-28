@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 28 Jul 2026 11:38:23 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 14:50:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic이 공개한 Claude Opus 5 프롬프트 작성법 및 Opus 4.8 마이그레이션 가이드</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-claude-opus-5-opus-4-8/11439</link>
+      <description>Claude Opus 5 프롬프트 가이드 소개 Anthropic 이 공식 문서에 Claude Opus 5 전용 프롬프트 가이드 를 추가했습니다. 새 모델이 나올 때 개발자가 기대하는 것은 대개 "같은 프롬프트로 더 좋은 결과"인데, 이 문서가 다루는 내용은 정확히 그 기대가 어긋나는 지점입니다.</description>
+      <pubDate>Tue, 28 Jul 2026 12:30:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-claude-opus-5-opus-4-8/11439">PyTorch Korea</source>
+      <guid isPermaLink="false">66d361cd3631bb492e924d419c88d62a</guid>
+    </item>
+    <item>
+      <title>Unstract: 프롬프트로 비정형 문서에서 구조화된 JSON을 추출하는 LLM 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/unstract-json-llm/11417</link>
+      <description>Unstract 소개 기업이 다루는 데이터의 상당 부분은 계약서, 청구서, 보험 서류, 이력서처럼 정해진 틀이 없는 비정형 문서에 담겨 있습니다. 이런 문서에서 필요한 값만 뽑아 데이터베이스에 넣으려면 보통 문서 종류마다 정규식과 템플릿을 따로 만들어야 했고, 같은 청구서라도 공급업체가 바뀌면 양식이 달라져 파이프라인을 다시 손봐야 했습니다.</description>
+      <pubDate>Tue, 28 Jul 2026 14:30:53 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/unstract-json-llm/11417">PyTorch Korea</source>
+      <guid isPermaLink="false">1842479968c560daf17fb67acbab43fa</guid>
+    </item>
     <item>
       <title>Anthropic의 Project Pilot: AI 모델의 드론 조종 능력을 측정한 Drone-Bench</title>
       <link>https://discuss.pytorch.kr/t/anthropic-project-pilot-ai-drone-bench/11440</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/value-axes-claude-feat-anthropic/11260">PyTorch Korea</source>
       <guid isPermaLink="false">29adb5e2074c33e8e2dd64f08d943030</guid>
-    </item>
-    <item>
-      <title>OLMo 기준급 '오픈소스 파운데이션 모델' 허깅페이스에 한국 스타트업이 공개</title>
-      <link>https://discuss.pytorch.kr/t/olmo/11367</link>
-      <description>Aether-7B-5Attn 소개 — 학습 데이터와 코드를 전부 공개한 한국 최초의 파운데이션 모델 주권형 AI 논의에서 가장 자주 흐려지는 구분이 있습니다. 가중치만 공개한 모델(open-weight) 과 모델을 처음부터 다시 만들 수 있게 공개한 모델(open-source) 은 같은 말이 아닙니다.</description>
-      <pubDate>Tue, 21 Jul 2026 17:06:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/olmo/11367">PyTorch Korea</source>
-      <guid isPermaLink="false">bde8ce9f969c3508d21c105ba6883e09</guid>
-    </item>
-    <item>
-      <title>AnythingLLM: 문서와 대화하고 AI 에이전트를 실행하는 로컬 우선 올인원 AI 앱</title>
-      <link>https://discuss.pytorch.kr/t/anythingllm-ai-ai/11321</link>
-      <description>AnythingLLM 소개 AnythingLLM은 문서를 올려 대화하고 AI 에이전트를 실행하는 과정을 하나의 애플리케이션 안에서 처리하는 로컬 우선(local-first) AI 앱입니다. 여러 도구를 조합해 직접 파이프라인을 꾸미는 대신, 문서 수집과 임베딩, 벡터 검색, 대화 UI, 다중 사용자 관리를 한 번의 설치로 갖추는 것을 목표로 합니다.</description>
-      <pubDate>Tue, 21 Jul 2026 16:30:43 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anythingllm-ai-ai/11321">PyTorch Korea</source>
-      <guid isPermaLink="false">cef73509dd1f596a7b86817e4c9da6eb</guid>
     </item>
   </channel>
 </rss>
