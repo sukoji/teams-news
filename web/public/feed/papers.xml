@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 28 Jul 2026 14:50:25 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 17:37:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Sol-Attn: 즉각적인 주의 분산을 통해 비디오 생성 추론 가속화</title>
+      <link>https://huggingface.co/papers/2607.24027</link>
+      <description>확산 변환기는 고화질 비디오 생성에 필수적이지만, 긴 토큰 시퀀스는 주목을 주요 추론 병목 현상으로 만듭니다.</description>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.24027">Hugging Face Papers</source>
+      <guid isPermaLink="false">6005aa89a5f3753081350812a48d6685</guid>
+    </item>
+    <item>
+      <title>Chamaileon: 상황별 모델링 및 혼합 샘플링을 사용한 크로스 컨텍스트 바인더 설계</title>
+      <link>https://huggingface.co/papers/2607.23518</link>
+      <description>생성 모델의 급속한 발전은 결합 서열 구조 모델링 또는 환각을 통해 엔드투엔드 생성을 촉진함으로써 구조 생물학의 중추적인 작업인 단백질 바인더 설계에서 새로운 잠재력을 열었습니다.</description>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.23518">Hugging Face Papers</source>
+      <guid isPermaLink="false">fbb9eb26d376a036e37f274864bded6e</guid>
+    </item>
+    <item>
+      <title>Reasoning Denoiser: 대규모 추론 모델에서 환각 감지를 위한 추론 추적의 잡음 제거</title>
+      <link>https://huggingface.co/papers/2607.22098</link>
+      <description>LRM(대형 추론 모델)은 최종 답변을 생성하기 전에 긴 추론 추적을 생성합니다.</description>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22098">Hugging Face Papers</source>
+      <guid isPermaLink="false">4d669b0bf77580093367bab563f1d5ab</guid>
+    </item>
     <item>
       <title>JarvisHub: 캔버스 기반 다중 모달 크리에이티브 에이전트를 위한 개방형 하네스</title>
       <link>https://huggingface.co/papers/2607.23588</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2605.09635">Hugging Face Papers</source>
       <guid isPermaLink="false">49f501b20ee7dfaca1905e75b19bddf2</guid>
-    </item>
-    <item>
-      <title>보여주고 말하지 말고: LLM 텍스트가 아닌 생성 픽셀에서 공간 인지 평가</title>
-      <link>https://huggingface.co/papers/2607.21072</link>
-      <description>공간 지능은 에이전트가 정적 의미론적 이해에서 물리적 세계와 상호 작용하는 방향으로 이동하는 데 필수적입니다.</description>
-      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.21072">Hugging Face Papers</source>
-      <guid isPermaLink="false">c4e4a2f14a772e907a2969c22153b387</guid>
-    </item>
-    <item>
-      <title>LLM은 진화하는 사용자 의도에서 길을 잃습니다.</title>
-      <link>https://huggingface.co/papers/2607.20734</link>
-      <description>LLM의 역량이 향상됨에 따라 반복적 상호 작용을 통해 사용자 위임 작업을 수행하는 협업 에이전트로 점점 더 많이 배포되고 있습니다.</description>
-      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.20734">Hugging Face Papers</source>
-      <guid isPermaLink="false">3384e2ce6b2f72613c5eeb972b424dcc</guid>
-    </item>
-    <item>
-      <title>시각적 대조 자기 증류</title>
-      <link>https://huggingface.co/papers/2607.21556</link>
-      <description>OPSD(On-policy self-distillation)는 OPD(on-policy distillation)에 필요한 외부 교사를 제거하므로 유망하지만 자체 증류를 보장하려면 여전히 교사와 학생 간의 비대칭 정보가 필요합니다.</description>
-      <pubDate>Fri, 24 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.21556">Hugging Face Papers</source>
-      <guid isPermaLink="false">95e83b31241795b6022ee7db8e9f9f0e</guid>
     </item>
   </channel>
 </rss>
