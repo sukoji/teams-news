@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 28 Jul 2026 17:37:23 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 20:19:41 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OmniRoute: 여러 AI 제공자를 하나의 엔드포인트로 잇는 로컬 게이트웨이</title>
+      <link>https://discuss.pytorch.kr/t/omniroute-ai/11413</link>
+      <description>OmniRoute 소개 여러 개의 대규모 언어 모델(LLM)을 동시에 쓰다 보면 관리해야 할 것이 빠르게 늘어납니다. 제공자마다 SDK와 엔드포인트가 다르고, 구독 요금제는 다 쓰지 못한 채 매달 만료되며, 한도(rate limit)에 걸리면 작업이 중간에 멈춥니다. 게다가 Claude Code, Cursor, Codex 같은 코딩 도구는 저마다 별도의 설정을 요구합니다.</description>
+      <pubDate>Tue, 28 Jul 2026 18:30:22 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/omniroute-ai/11413">PyTorch Korea</source>
+      <guid isPermaLink="false">2398156161b9f15a662f8153d6c1c806</guid>
+    </item>
     <item>
       <title>OpenWorker: 채팅이 아닌 완성된 결과물을 만드는 오픈소스 AI 동료 (feat. Andrew Ng)</title>
       <link>https://discuss.pytorch.kr/t/openworker-ai-feat-andrew-ng/11406</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/error-diffusion-dale-feat-sakana-ai/11365">PyTorch Korea</source>
       <guid isPermaLink="false">2ca4d300da806c72f4bcce9528f954ec</guid>
-    </item>
-    <item>
-      <title>riddle: reMarkable Paper Pro에서 펜으로 쓰면 손글씨로 답하는 비전 LLM 일기장</title>
-      <link>https://discuss.pytorch.kr/t/riddle-remarkable-paper-pro-llm/11269</link>
-      <description>riddle 소개 riddle은 reMarkable Paper Pro 전자잉크 태블릿을 위한 일기장 애플리케이션입니다. 펜으로 페이지에 글을 쓰고 잠시 펜을 놓으면, 일기장이 방금 쓴 잉크를 종이 속으로 빨아들이듯 사라지게 한 뒤, 잠깐 생각하고, 흐르는 손글씨로 답을 한 획씩 써 내려갑니다. 화면 불빛도, 키보드도, 채팅 UI도 없이 종이 위에 잉크가 나타났다 사라지는 경험만 남깁니다.</description>
-      <pubDate>Tue, 21 Jul 2026 21:30:39 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/riddle-remarkable-paper-pro-llm/11269">PyTorch Korea</source>
-      <guid isPermaLink="false">f5a14bb790b8e68300c69d05ac755afe</guid>
     </item>
   </channel>
 </rss>
