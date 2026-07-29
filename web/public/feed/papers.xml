@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Jul 2026 18:38:51 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 21:02:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>CodeNib: 코딩 에이전트에 리포지토리 컨텍스트를 제공하기 위한 다중 보기 데이터 시스템</title>
+      <link>https://huggingface.co/papers/2607.25431</link>
+      <description>코딩 에이전트는 진화하는 리포지토리에서 컨텍스트를 반복적으로 검색, 탐색 및 유지하지만 연결이 끊어진 인덱스, 언어 서버 및 작업 로컬 기록으로 인해 반복적인 검색이 발생하고 수명 주기 비용이 모호해집니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25431">Hugging Face Papers</source>
+      <guid isPermaLink="false">befd41f9880dfbb05921d05f83502f55</guid>
+    </item>
+    <item>
+      <title>GLI-AL: 통합 해부학-병변 라벨을 갖춘 다중 모드 신경교종 MRI 라벨 리소스</title>
+      <link>https://huggingface.co/papers/2607.22135</link>
+      <description>기존 BraTS-GLI 데이터 세트는 성인 신경교종 MRI 세분화에 널리 사용되는 벤치마크를 제공하지만 작업 정의는 종양 하위 영역에 초점을 맞추고 공존하는 백질 하이퍼인트를 체계적으로 나타내지 않습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22135">Hugging Face Papers</source>
+      <guid isPermaLink="false">687b4106f24821b1ac1153cda8e78ece</guid>
+    </item>
+    <item>
+      <title>압축된 짧은 텍스트 생성에서 품질이 저하되는 부분: 단계적 병목 현상 지역화</title>
+      <link>https://huggingface.co/papers/2607.24176</link>
+      <description>압축된 짧은 텍스트 생성기는 두 가지 다른 위치에서 실패할 수 있습니다. 즉, 코덱이 생성이 시작되기 전에 정보를 삭제할 수 있거나 잠재 생성기가 약한 코드를 생성할 수 있습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.24176">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab7bf0d67e4204db4450fb3bed0362ca</guid>
+    </item>
+    <item>
+      <title>도메인 일반화를 위한 프로젝션 추구 CPCANet</title>
+      <link>https://huggingface.co/papers/2607.22117</link>
+      <description>도메인 일반화(DG)는 분포 변화에 강력한 표현을 학습하는 것을 목표로 합니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.22117">Hugging Face Papers</source>
+      <guid isPermaLink="false">b7b3aac1f157acdaceec21510ebd02e9</guid>
+    </item>
+    <item>
+      <title>가장자리 인식 열적외선 UAV 군집 추적</title>
+      <link>https://huggingface.co/papers/2607.12544</link>
+      <description>열적외선(TIR) ​​이미징은 시각적으로 열악한 환경에서 UAV 군집 작전을 수행하는 데 필수적입니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.12544">Hugging Face Papers</source>
+      <guid isPermaLink="false">a78635e3da7f0da8f65d583e9f1001df</guid>
+    </item>
     <item>
       <title>빠른 이미지 및 비디오 생성을 위한 병렬 디코딩 증류</title>
       <link>https://huggingface.co/papers/2607.26004</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.24651">Hugging Face Papers</source>
       <guid isPermaLink="false">38fa1ba40ef748a21adc016b71e5b1be</guid>
-    </item>
-    <item>
-      <title>구체화된 조작을 위한 데이터 피라미드</title>
-      <link>https://huggingface.co/papers/2607.24744</link>
-      <description>다중 모드 기반 모델은 인터넷 전체를 소비하여 보고 말하는 방법을 학습했습니다. 구체화된 에이전트는 관찰과 물리적 상태 및 행동을 결합하는 데이터가 필요하기 때문에 그러한 지름길을 허용하지 않습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24744">Hugging Face Papers</source>
-      <guid isPermaLink="false">36808ec47a6f3259759291944aeb4df7</guid>
-    </item>
-    <item>
-      <title>StateAct: 장거리 컴퓨터 사용 에이전트에 대한 픽셀 이전의 프로그램 상태</title>
-      <link>https://huggingface.co/papers/2607.22798</link>
-      <description>컴퓨터 사용 에이전트는 일반적으로 인식 강화를 통해 개선됩니다. 즉, 스크린샷을 읽고 클릭할 위치를 선택하는 더 나은 모델입니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22798">Hugging Face Papers</source>
-      <guid isPermaLink="false">449fea9367ac4f086a631aaf084a1729</guid>
-    </item>
-    <item>
-      <title>DriveDNA: 운전 스타일 식별을 위한 대규모 다중 모드 자연주의 운전 데이터 세트 및 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.23822</link>
-      <description>운전 스타일은 차량 운전 방식에서 안정적인 운전자별 패턴을 포착합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23822">Hugging Face Papers</source>
-      <guid isPermaLink="false">d45fcf692ec0559ab58fab24661feea9</guid>
-    </item>
-    <item>
-      <title>로봇 학습을 위한 진행 보상 모델링: 종합 설문조사</title>
-      <link>https://huggingface.co/papers/2607.21655</link>
-      <description>로봇 학습은 행동 공간이 넓은 역동적인 환경에서 이루어집니다. 최종 성공 신호는 작업이 완료되었는지 여부만 로봇에게 알려줍니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.21655">Hugging Face Papers</source>
-      <guid isPermaLink="false">ddcf5a4cae4d540d7a4efe5f89d02801</guid>
-    </item>
-    <item>
-      <title>ID-V2V: 정체성을 유지하는 비디오 스타일 변경</title>
-      <link>https://huggingface.co/papers/2607.22830</link>
-      <description>시각적 스토리텔링에서 인간의 연기는 창의적 의도와 내러티브 의미의 핵심입니다.</description>
-      <pubDate>Mon, 27 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22830">Hugging Face Papers</source>
-      <guid isPermaLink="false">3f38bd45ba6ebba9275fac1dbfb41199</guid>
     </item>
   </channel>
 </rss>
