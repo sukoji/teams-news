@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 02:17:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 04:19:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>코드 최적화를 위한 강화 학습</title>
+      <link>https://huggingface.co/papers/2607.25970</link>
+      <description>코드 정확성을 위한 RL이 이제 확립되었습니다. 모델이 프로그램을 생성하고, 숨겨진 테스트 사례에 대해 이를 실행하고, 통과한 솔루션에 보상을 제공합니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25970">Hugging Face Papers</source>
+      <guid isPermaLink="false">c2dca8161eced3cd64336002172f4436</guid>
+    </item>
+    <item>
+      <title>언어 모델의 잠재 추론 전략 발견</title>
+      <link>https://huggingface.co/papers/2607.17674</link>
+      <description>추론 작업에 대해 훈련된 언어 모델 p_θ(y mid x)는 여러 가지 개별 전략을 통해 문제를 해결하는 방법을 학습하지만 이러한 전략은 모델의 응답 분포 내에 암시적이고 얽혀 있습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17674">Hugging Face Papers</source>
+      <guid isPermaLink="false">719c5d25167500ea10bfa2cdd2fd0268</guid>
+    </item>
+    <item>
+      <title>TurboFieldfare - 모든 M 시리즈 Mac에서 Gemma 4 26B를 2GB RAM으로 실행하는 오픈소스 엔진</title>
+      <link>https://news.hada.io/topic?id=31958</link>
+      <description>TurboFieldfare 는 전체 14.3GB 모델을 메모리에 올리지 않고 Gemma 4 26B-A4B를 약 2GB의 메모리로 실행해, 8GB Apple Silicon Mac에서도 로컬 추론이 가능함 1.35GB 공유 코어와 FP16 KV 캐시만 상주시킨 뒤 토큰마다 필요한 MoE 전문가 가중치 를 SSD에서 스트리밍...</description>
+      <pubDate>Thu, 30 Jul 2026 03:32:03 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=31958">GeekNews</source>
+      <guid isPermaLink="false">b3418c7152841427e12f69f6247ec481</guid>
+    </item>
+    <item>
+      <title>OPERA: 범용 생체의학 이미지 분석을 위한 오프라인 정책 기반 전문가 라우팅 및 적용</title>
+      <link>https://huggingface.co/papers/2607.25108</link>
+      <description>생체 의학 이미지 분석은 다양한 양식과 작업을 포괄하지만 스캐너, 프로토콜 및 환자 모집단 전반에 걸친 심각한 분포 변화로 인해 실제 배포가 방해를 받습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25108">Hugging Face Papers</source>
+      <guid isPermaLink="false">14fb567f783fcb09b883f652bf44316b</guid>
+    </item>
     <item>
       <title>Teycir/Assumptions — 코드 차이를 숨겨진 가정, 실패 모드, 오류에 대한 증거 지원 원장으로 바꾸는 기술입니다.</title>
       <link>https://github.com/Teycir/Assumptions</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.24904">Hugging Face Papers</source>
       <guid isPermaLink="false">3b03a9fab80e78f949526de7ccec183a</guid>
-    </item>
-    <item>
-      <title>관련성에 대한 새로운 역할: 에이전트 검색에서 코퍼스 상호 작용 안내</title>
-      <link>https://huggingface.co/papers/2607.24223</link>
-      <description>관련성은 문서나 발췌문에 유용한 증거가 포함되어 있는지 여부를 쿼리에 따라 추정하는 것입니다.</description>
-      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24223">Hugging Face Papers</source>
-      <guid isPermaLink="false">06eda27a3edbb20027636ca1de1563e8</guid>
-    </item>
-    <item>
-      <title>명심하세요: 에이전트 메모리의 암시적 연관 맹점 벤치마킹</title>
-      <link>https://huggingface.co/papers/2607.24368</link>
-      <description>장기 기억 시스템은 사용자가 말한 내용을 외부 저장소에 저장하고 관련 쿼리가 도착하면 검색합니다.</description>
-      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24368">Hugging Face Papers</source>
-      <guid isPermaLink="false">5852cac323ebc3d1142760563fc60625</guid>
-    </item>
-    <item>
-      <title>소규모 언어 모델 에이전트를 위한 강력한 강화 학습을 향하여</title>
-      <link>https://huggingface.co/papers/2607.25091</link>
-      <description>강화 학습을 사용하여 70~500M 매개변수 범위의 소규모 언어 모델(SLM) 정렬은 종종 불안정한 것으로 간주되지만 기본 실패 메커니즘은 체계적으로 조사되지 않았습니다.</description>
-      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25091">Hugging Face Papers</source>
-      <guid isPermaLink="false">645a8f0d5ac60fc8bbe375a64f4f5613</guid>
-    </item>
-    <item>
-      <title>PerceptionBench: 다중 모드 대형 언어 모델에서 원자적 시각적 인식 평가</title>
-      <link>https://huggingface.co/papers/2607.24957</link>
-      <description>MLLM(Multimodal Large Language Model)의 원자적 시각적 인식 기능을 평가하기 위해 특별히 설계된 벤치마크인 PerceptionBench를 소개합니다.</description>
-      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24957">Hugging Face Papers</source>
-      <guid isPermaLink="false">0e14de9ec677e159250fd8fd4da2751b</guid>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 02:17:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 04:19:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>코드 최적화를 위한 강화 학습</title>
+      <link>https://huggingface.co/papers/2607.25970</link>
+      <description>코드 정확성을 위한 RL이 이제 확립되었습니다. 모델이 프로그램을 생성하고, 숨겨진 테스트 사례에 대해 이를 실행하고, 통과한 솔루션에 보상을 제공합니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25970">Hugging Face Papers</source>
+      <guid isPermaLink="false">c2dca8161eced3cd64336002172f4436</guid>
+    </item>
+    <item>
+      <title>언어 모델의 잠재 추론 전략 발견</title>
+      <link>https://huggingface.co/papers/2607.17674</link>
+      <description>추론 작업에 대해 훈련된 언어 모델 p_θ(y mid x)는 여러 가지 개별 전략을 통해 문제를 해결하는 방법을 학습하지만 이러한 전략은 모델의 응답 분포 내에 암시적이고 얽혀 있습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.17674">Hugging Face Papers</source>
+      <guid isPermaLink="false">719c5d25167500ea10bfa2cdd2fd0268</guid>
+    </item>
+    <item>
+      <title>OPERA: 범용 생체의학 이미지 분석을 위한 오프라인 정책 기반 전문가 라우팅 및 적용</title>
+      <link>https://huggingface.co/papers/2607.25108</link>
+      <description>생체 의학 이미지 분석은 다양한 양식과 작업을 포괄하지만 스캐너, 프로토콜 및 환자 모집단 전반에 걸친 심각한 분포 변화로 인해 실제 배포가 방해를 받습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25108">Hugging Face Papers</source>
+      <guid isPermaLink="false">14fb567f783fcb09b883f652bf44316b</guid>
+    </item>
     <item>
       <title>에이전트 검색 벤치: 코딩 에이전트에 대한 저장소 컨텍스트 검색 평가</title>
       <link>https://huggingface.co/papers/2607.24882</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.24241">Hugging Face Papers</source>
       <guid isPermaLink="false">b74b6a0e48a1d01453c7514622d00556</guid>
-    </item>
-    <item>
-      <title>Oxygen-TryOn: 모든 품목의 가상 체험을 위한 패션 네이티브 기반 모델</title>
-      <link>https://huggingface.co/papers/2607.21694</link>
-      <description>모든 품목의 가상 시착을 위한 통합 기반 모델인 Oxygen-TryOn을 제시합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.21694">Hugging Face Papers</source>
-      <guid isPermaLink="false">a94f1d590d74fbdc5ea972889dbba882</guid>
-    </item>
-    <item>
-      <title>심사위원 체계화: 프로그램 증류를 통한 확장 가능한 평가</title>
-      <link>https://huggingface.co/papers/2607.22561</link>
-      <description>LLM-as-a-judge는 자동화된 평가의 표준이 되었지만 비용이 많이 들고 대기 시간이 길고 불투명한 결정으로 인해 확장성과 신뢰성이 저하되는 제한 사항이 있습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22561">Hugging Face Papers</source>
-      <guid isPermaLink="false">1f565a811f364930f0db75c64cd2eadd</guid>
-    </item>
-    <item>
-      <title>검색 증강 대형 언어 모델을 통해 기록 문서 복원을 위한 외부 지식 활용</title>
-      <link>https://huggingface.co/papers/2607.21936</link>
-      <description>역사적 문서는 귀중한 지식의 기록 보관소 역할을 하지만 물리적인 열화와 손상으로 인해 읽기 어려운 경우가 많습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.21936">Hugging Face Papers</source>
-      <guid isPermaLink="false">2efb0a0e363cba4b9ea47fa2c1fb0b6b</guid>
     </item>
   </channel>
 </rss>
