@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 04:19:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 05:58:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>보상 모델은 얼마나 빨리 점수를 매길 수 있나요? RLHF를 위한 C++ 및 PyTorch 추론 런타임에 대한 시스템 연구</title>
+      <link>https://huggingface.co/papers/2607.19712</link>
+      <description>RLHF 파이프라인에서 보상 채점은 정책 업데이트를 차단합니다. 모든 롤아웃이 점수를 얻을 때까지 업데이트가 실행되지 않으므로 채점 속도가 느리면 전체 루프에 병목 현상이 발생합니다.</description>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.19712">Hugging Face Papers</source>
+      <guid isPermaLink="false">1dfda930f3e082e53e13d7ef15b09d06</guid>
+    </item>
     <item>
       <title>코드 최적화를 위한 강화 학습</title>
       <link>https://huggingface.co/papers/2607.25970</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.22148">Hugging Face Papers</source>
       <guid isPermaLink="false">6131288988470f4d291b20d1d94f4de5</guid>
-    </item>
-    <item>
-      <title>FilmBench: 영화 같은 비디오 생성을 위한 영화급 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.24241</link>
-      <description>비디오 생성의 발전으로 AI로 생성된 영상과 전문적으로 제작된 영상 사이의 시각적 격차가 계속 줄어들고 있지만 대부분의 벤치마크는 여전히 웹 소스 또는 LLM 템플릿에서 프롬프트를 도출하고 훈련되지 않은 영상으로 점수를 매깁니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24241">Hugging Face Papers</source>
-      <guid isPermaLink="false">b74b6a0e48a1d01453c7514622d00556</guid>
     </item>
   </channel>
 </rss>
