@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Jul 2026 15:33:08 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 18:38:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DocsGPT: 에이전트 빌더와 문서 분석을 갖춘 오픈소스 프라이빗 AI 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/docsgpt-ai/11449</link>
+      <description>DocsGPT 소개 DocsGPT는 사내 문서나 개인 자료를 근거로 답하는 에이전트와 어시스턴트를 만들기 위한 오픈소스 AI 플랫폼입니다. 에이전트 빌더(Agent Builder)와 심층 조사 도구, 문서 분석, 여러 모델 제공자를 골라 쓰거나 로컬 모델을 붙이는 다중 모델 지원, 그리고 에이전트가 외부 서비스를 실제로 호출할 수 있게 하는 API 연결을 한 곳에 모아 두고 있습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 16:30:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/docsgpt-ai/11449">PyTorch Korea</source>
+      <guid isPermaLink="false">2d47685649ca289a17c95ecd55747622</guid>
+    </item>
+    <item>
+      <title>ODS: 명령 한 줄로 내 PC를 프라이빗 AI 서버로 만드는 오픈소스 스택</title>
+      <link>https://discuss.pytorch.kr/t/ods-pc-ai/11447</link>
+      <description>ODS 소개 ODS(Osmantic Deployment System)는 로컬 AI 환경을 꾸리려면 Ollama와 Open WebUI, n8n, ComfyUI, 각종 프라이버시 도구를 하나씩 붙여야 했던 작업을 설치 스크립트 하나로 대신 처리하는 오픈소스 프로젝트입니다.</description>
+      <pubDate>Wed, 29 Jul 2026 18:30:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ods-pc-ai/11447">PyTorch Korea</source>
+      <guid isPermaLink="false">49896d84d885d62b52672aa5d69d470b</guid>
+    </item>
     <item>
       <title>Knowledge-Graph: 로컬 LLM을 사용하여 PDF와 같은 텍스트 뭉치를 지식 그래프(KG)로 변환하는 오픈소스 프로젝트</title>
       <link>https://discuss.pytorch.kr/t/knowledge-graph-llm-pdf-kg/11448</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/code-review-skill-20-claude-code/11350">PyTorch Korea</source>
       <guid isPermaLink="false">89727b18f04c3ae23726a5eb486de31e</guid>
-    </item>
-    <item>
-      <title>Anhtropic의 에이전트형 비정렬(Agentic Misalignment)에 대한 최신 연구: 에이전트의 네 가지 정렬 실패 사례</title>
-      <link>https://discuss.pytorch.kr/t/anhtropic-agentic-misalignment/11327</link>
-      <description>에이전트형 비정렬(Agentic Misalignment) 2026 여름 보고서 소개 이 글에서 정리하는 Anthropic의 보고서는 자율 권한을 받은 프론티어 AI 에이전트가 고위험 상황에서 어떻게 정렬(alignment)에 실패하는지를 통제된 시뮬레이션으로 탐색한 연구입니다.</description>
-      <pubDate>Wed, 22 Jul 2026 12:30:44 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anhtropic-agentic-misalignment/11327">PyTorch Korea</source>
-      <guid isPermaLink="false">6987810a57d5e819d419b176c6b76f4f</guid>
-    </item>
-    <item>
-      <title>Cursor의 에이전트 스웜과 새로운 모델 경제학: '품질은 같아도 비용은 8배까지 차이날 수 있다'</title>
-      <link>https://discuss.pytorch.kr/t/cursor-8/11363</link>
-      <description>Cursor의 에이전트 스웜 소개: 수백 개의 에이전트를 하나의 목표로 묶기 AI 코드 에디터를 만드는 Cursor 는 올해 초부터 "여러 에이전트를 협력시켜 하나의 목표를 향해 규모를 키우면, 지금까지 한 개의 에이전트로는 닿지 못하던 규모와 복잡도의 작업을 풀 수 있지 않을까" 라는 가설을 실험해 왔습니다.</description>
-      <pubDate>Wed, 22 Jul 2026 10:30:57 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cursor-8/11363">PyTorch Korea</source>
-      <guid isPermaLink="false">13627104a4448b387509ac288234c54b</guid>
     </item>
   </channel>
 </rss>
