@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Jul 2026 12:29:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 15:33:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Knowledge-Graph: 로컬 LLM을 사용하여 PDF와 같은 텍스트 뭉치를 지식 그래프(KG)로 변환하는 오픈소스 프로젝트</title>
+      <link>https://discuss.pytorch.kr/t/knowledge-graph-llm-pdf-kg/11448</link>
+      <description>knowledge_graph 소개 knowledge_graph는 PDF 같은 텍스트 뭉치를 읽어 그 안의 개념과 개념 사이의 관계를 뽑아내고, 이를 노드와 엣지로 이뤄진 지식 그래프(Knowledge Graph)로 만드는 오픈소스 프로젝트입니다. 위 헤더 이미지는 이 저장소의 코드로 생성한 실제 그래프이고, 브라우저에서 직접 탐색할 수 있는 형태 로도 공개되어 있습니다.</description>
+      <pubDate>Wed, 29 Jul 2026 14:30:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/knowledge-graph-llm-pdf-kg/11448">PyTorch Korea</source>
+      <guid isPermaLink="false">21a3d8e9152b1ffc14c55d727d06558d</guid>
+    </item>
+    <item>
+      <title>OpenWorker: 데스크톱에서 실제 결과물을 만들어내는 오픈소스 AI Co-worker 프로젝트 (feat. Andrew Ng)</title>
+      <link>https://discuss.pytorch.kr/t/openworker-ai-co-worker-feat-andrew-ng/11446</link>
+      <description>OpenWorker 소개 OpenWorker는 대화창에서 답변을 돌려주는 데서 멈추는 업무용 AI의 한계를 넘기 위해, 사용자의 데스크톱에서 파일과 터미널, 업무용 SaaS를 직접 조작하는 방식을 택한 오픈소스 AI 코워커(coworker)입니다.</description>
+      <pubDate>Wed, 29 Jul 2026 12:30:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openworker-ai-co-worker-feat-andrew-ng/11446">PyTorch Korea</source>
+      <guid isPermaLink="false">aa79d45263f945da08d0d974770e9f40</guid>
+    </item>
     <item>
       <title>Kimi K3 모델 가중치 및 기술 문서 공개: 2.8T 오픈 모델의 아키텍처와 학습 레시피 심층 분석</title>
       <link>https://discuss.pytorch.kr/t/kimi-k3-2-8t/11455</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cursor-8/11363">PyTorch Korea</source>
       <guid isPermaLink="false">13627104a4448b387509ac288234c54b</guid>
-    </item>
-    <item>
-      <title>Google, 토큰 효율을 높인 Gemini 3.6 Flash와 3.5 Flash-Lite 출시</title>
-      <link>https://discuss.pytorch.kr/t/google-gemini-3-6-flash-3-5-flash-lite/11385</link>
-      <description>Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber 소개 Google 가 2026년 7월 21일, Gemini의 경량 계열인 Flash 제품군(Flash series)을 한 번에 세 종류로 확장했습니다. Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, 그리고 사이버 보안에 특화된 Gemini 3.5 Flash Cyber입니다.</description>
-      <pubDate>Wed, 22 Jul 2026 13:00:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/google-gemini-3-6-flash-3-5-flash-lite/11385">PyTorch Korea</source>
-      <guid isPermaLink="false">694cc8e98871a2f0e8b610dcb7be45e2</guid>
-    </item>
-    <item>
-      <title>Logo Generator: SVG 로고와 전문가급 쇼케이스를 만드는 Claude Code 스킬</title>
-      <link>https://discuss.pytorch.kr/t/logo-generator-svg-claude-code/11295</link>
-      <description>Logo Generator 소개 로고 제작은 보통 디자이너와의 반복적인 협의를 거쳐야 하고, 반대로 AI로 급하게 만든 로고는 실제 제품에 얹기에는 정제도와 표현 품질이 부족한 경우가 많습니다. Logo Generator는 이 간극을 메우려는 목적으로 만들어진 Claude Code 스킬입니다.</description>
-      <pubDate>Wed, 22 Jul 2026 08:30:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/logo-generator-svg-claude-code/11295">PyTorch Korea</source>
-      <guid isPermaLink="false">4b1bd115119609e1a6e0b77660a83d2f</guid>
     </item>
   </channel>
 </rss>
