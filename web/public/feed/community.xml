@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 09:01:46 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:58:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GBrain: 검색 대신 인용이 달린 답을 돌려주는 AI 에이전트용 브레인 계층</title>
+      <link>https://discuss.pytorch.kr/t/gbrain-ai/11458</link>
+      <description>GBrain 소개 GBrain은 AI 에이전트가 코드 바깥의 맥락을 기억하도록 만드는 개인용 지식 계층입니다. 개인 지식 관리 도구 대부분은 질문을 던지면 관련 있어 보이는 페이지 목록을 돌려주고, 그 다음부터는 사람이 직접 열어 읽어야 합니다. GBrain은 이 지점을 문제로 보고, 검색 결과를 그대로 내놓는 대신 여러 페이지를 가로질러 인용이 붙은 산문 형태의 답을 만들어 냅니다.</description>
+      <pubDate>Thu, 30 Jul 2026 12:30:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gbrain-ai/11458">PyTorch Korea</source>
+      <guid isPermaLink="false">2f049417a914fcc26f025f83775318b8</guid>
+    </item>
+    <item>
+      <title>Fermion Research, 3진 계열 포맷으로 직접 학습한 Neutrino-1 모델군 3종 공개</title>
+      <link>https://discuss.pytorch.kr/t/fermion-research-3-neutrino-1-3/11456</link>
+      <description>Neutrino-1 모델군 소개 Fermion Research 가 2026년 7월 27일 Neutrino-1 모델군 3종을 공개했습니다. 8B급 플래그십인 Neutrino-1 8B, 초안 모델 겸 소형 모델인 Neutrino-1 0.6B, 그리고 대화용으로 마무리한 Neutrino-1 0.6B-Chat입니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:30:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/fermion-research-3-neutrino-1-3/11456">PyTorch Korea</source>
+      <guid isPermaLink="false">54f893ce55984921335390443185f754</guid>
+    </item>
     <item>
       <title>agentmemory: 코딩 에이전트에 4단계 기억 구조를 붙이는 오픈소스 메모리 서버</title>
       <link>https://discuss.pytorch.kr/t/agentmemory-4/11460</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/thinking-to-recall-llm-feat-google-colm-2026/11271">PyTorch Korea</source>
       <guid isPermaLink="false">c2461d1278c68b4225d6174eac6d0ecb</guid>
-    </item>
-    <item>
-      <title>Jacobian Lens: 언어 모델 내부 표현을 어휘 토큰으로 읽어내는 해석 도구</title>
-      <link>https://discuss.pytorch.kr/t/jacobian-lens/11341</link>
-      <description>Jacobian Lens 소개 언어 모델은 하나의 답을 내놓기까지 내부에서 방대한 계산을 수행하지만, 그 중간 활성화(activation)는 고차원 벡터라서 사람이 곧바로 읽을 수 없습니다. 어떤 레이어의 어떤 표현이 무엇을 담고 있는지 확인하려면 별도의 해석 도구가 필요합니다.</description>
-      <pubDate>Wed, 22 Jul 2026 20:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jacobian-lens/11341">PyTorch Korea</source>
-      <guid isPermaLink="false">684690f9aeca06869898b26a1e27d423</guid>
-    </item>
-    <item>
-      <title>i-have-adhd: 두괄식으로, 답과 다음 행동부터 알려주는 Claude Code 및 Codex 스킬</title>
-      <link>https://discuss.pytorch.kr/t/i-have-adhd-claude-code-codex/11344</link>
-      <description>i-have-adhd 소개 LLM에게 무언가를 물어보면, 정작 필요한 답은 긴 서론과 배경 설명 뒤에 묻히는 경우가 많습니다. "Great question!" 로 시작해 여러 갈래의 가능성을 늘어놓고, 마지막에는 "Hope this helps!" 로 마무리하는 식입니다. 바로 실행할 한 줄이 필요한 상황에서 이런 출력은 오히려 집중을 흩뜨립니다.</description>
-      <pubDate>Wed, 22 Jul 2026 18:30:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/i-have-adhd-claude-code-codex/11344">PyTorch Korea</source>
-      <guid isPermaLink="false">ccd452e40748efd8decb9a707bc6153c</guid>
     </item>
   </channel>
 </rss>

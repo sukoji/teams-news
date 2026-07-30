@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 09:01:46 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:58:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>출연: LLM 에이전트를 위한 턴레벨 교사로서의 게임 해결사</title>
+      <link>https://huggingface.co/papers/2607.25308</link>
+      <description>장거리 게임에서 작동하도록 대형 언어 모델(LLM)을 훈련하는 것은 일반 의사 결정을 향한 유망한 단계이지만, 검증 가능한 보상(RLVR)을 사용한 강화 학습은 희박한 최종 보상에 의존합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25308">Hugging Face Papers</source>
+      <guid isPermaLink="false">dcf0a860982397b324b51d40215bd8a7</guid>
+    </item>
+    <item>
+      <title>DecoEvo: 텍스트 공간에서 솔버 및 루브릭 생성기 기술의 점수 분리 공동 진화</title>
+      <link>https://huggingface.co/papers/2607.25675</link>
+      <description>텍스트 공간 최적화는 모델 가중치가 아닌 외부 자연어 아티팩트를 편집하여 LLM(대형 언어 모델)을 조정하므로 최적화된 아티팩트를 검사 가능한 상태로 유지하고 모델을 블랙으로 처리할 수 있습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25675">Hugging Face Papers</source>
+      <guid isPermaLink="false">aa7f9dabfcf838d911cb12ee4b451c0a</guid>
+    </item>
+    <item>
+      <title>TurboVLA: &lt;1GB VRAM을 갖춘 RTX 4090에서 32Hz의 실시간 비전-언어-액션 모델</title>
+      <link>https://huggingface.co/papers/2607.27205</link>
+      <description>VLA(비전-언어-작업) 모델은 일반적으로 LLM 중심의 V에서 L에서 A 경로로 채택합니다. 여기서 시각적 관찰은 로봇 작업으로 디코딩되기 전에 대규모 언어 모델의 표현 공간에 투영됩니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27205">Hugging Face Papers</source>
+      <guid isPermaLink="false">24b499f152174212307f5d96a11a9b52</guid>
+    </item>
+    <item>
+      <title>CoRT: 토큰 수준 루브릭 기반 정책 최적화를 위한 반사실적 재생</title>
+      <link>https://huggingface.co/papers/2607.25659</link>
+      <description>루브릭 기반 강화 학습은 명시적인 기준에 따라 모델 출력을 평가하여 언어 모델 훈련을 강화합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25659">Hugging Face Papers</source>
+      <guid isPermaLink="false">11239af1f269265a6bb9d3cd52ca887e</guid>
+    </item>
+    <item>
+      <title>OmegaUse-OfficeVal: 경제적 기반을 바탕으로 장거리 Office 제품군 작업에 대한 LLM 에이전트 벤치마킹</title>
+      <link>https://huggingface.co/papers/2607.27155</link>
+      <description>LLM(대형 언어 모델) 에이전트는 사용자가 작업을 완료하는 데 도움을 줄 것으로 점점 더 기대되고 있습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27155">Hugging Face Papers</source>
+      <guid isPermaLink="false">26041eecc94e72ded679cd9a003bbc9a</guid>
+    </item>
+    <item>
+      <title>SkillRise: 교차 작업 기술 진화를 위한 에이전트 강화 학습</title>
+      <link>https://huggingface.co/papers/2607.26784</link>
+      <description>대규모 언어 모델 에이전트는 재사용 가능한 솔루션 패턴을 공유하는 서로 관련되어 있지만 별개의 작업에 직면하는 경우가 많습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26784">Hugging Face Papers</source>
+      <guid isPermaLink="false">7eb6b22dfa630d2197661c31a8d55193</guid>
+    </item>
+    <item>
+      <title>GPT-Red: 대규모 셀프 플레이를 통한 자동화된 레드팀 구성</title>
+      <link>https://huggingface.co/papers/2607.26115</link>
+      <description>프론티어 LLM에 대한 새로운 프롬프트 주입 공격을 발견하도록 훈련된 자동화된 레드팀 구성 에이전트인 GPT-Red를 소개합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26115">Hugging Face Papers</source>
+      <guid isPermaLink="false">5c1e1c6a0f50ddfb6e147e7e3c53cc48</guid>
+    </item>
+    <item>
+      <title>HumanCLAW: 시각 언어 모델이 신체를 통해 작동할 수 있습니까?</title>
+      <link>https://huggingface.co/papers/2607.27180</link>
+      <description>VLM(시각 언어 모델)이 신체를 통해 작동할 수 있는지 여부를 평가하는 것은 어렵습니다. 행동의 결과는 VLM의 결정과 모터 제어를 결합합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27180">Hugging Face Papers</source>
+      <guid isPermaLink="false">0109a17db7164fb024d5e7ca7e6c3464</guid>
+    </item>
+    <item>
+      <title>StealthBench: 자율 공격 보안 에이전트의 스텔스 운영 측정</title>
+      <link>https://huggingface.co/papers/2607.26314</link>
+      <description>자신의 존재, 능력 또는 수집된 정보를 공개하지 않고 목표를 달성하는 규율인 스텔스는 정교한 운영자와 탐지 가능한 운영자를 구분하는 요소입니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26314">Hugging Face Papers</source>
+      <guid isPermaLink="false">4605c1137c70d4357a6fc627c77d531a</guid>
+    </item>
+    <item>
+      <title>AI 에이전트가 개방형 AI 연구를 수행할 수 있나요? 두 가지 사례 연구의 초기 증거</title>
+      <link>https://huggingface.co/papers/2607.27191</link>
+      <description>폭발적인 AI 발전 예측은 AI 연구를 자동화하는 AI 에이전트에 달려 있습니다. 그러나 에이전트가 개방형 AI 연구를 수행할 수 있는지 여부에 대한 증거는 희박합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27191">Hugging Face Papers</source>
+      <guid isPermaLink="false">3bc1940447d87257ca42079091a0a8d7</guid>
+    </item>
+    <item>
+      <title>비디오 객체 삽입 및 레이어 분해를 위한 명시적 레이어 모델링</title>
+      <link>https://huggingface.co/papers/2607.25802</link>
+      <description>대부분의 비디오 편집 시스템에는 여전히 명시적인 레이어 비디오 표현이 부족하여 사실적인 합성, 개체 재사용 및 일관된 조작을 수행하는 능력이 제한됩니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25802">Hugging Face Papers</source>
+      <guid isPermaLink="false">23bfa410d0f78eda07507f965efba332</guid>
+    </item>
     <item>
       <title>UAV 초분광 PFM-1 지뢰 탐지를 위한 Human-in-the-Loop 서명 부트스트래핑</title>
       <link>https://huggingface.co/papers/2607.25310</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.22098">Hugging Face Papers</source>
       <guid isPermaLink="false">4d669b0bf77580093367bab563f1d5ab</guid>
-    </item>
-    <item>
-      <title>JarvisHub: 캔버스 기반 다중 모달 크리에이티브 에이전트를 위한 개방형 하네스</title>
-      <link>https://huggingface.co/papers/2607.23588</link>
-      <description>Creative AI는 단일 단계 자산 생성에서 장기적인 다중 모드 생산으로 이동하고 있습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23588">Hugging Face Papers</source>
-      <guid isPermaLink="false">d1d76a030ba039ce3989e38d245efea8</guid>
-    </item>
-    <item>
-      <title>독점 소스에서 오픈 소스로: 에이전트 검색의 다중 에이전트 프로토콜 증류를 통해 배포 격차 해소</title>
-      <link>https://huggingface.co/papers/2607.24280</link>
-      <description>에이전트 검색을 사용하면 다단계 추론과 검색을 인터리브하여 대규모 언어 모델이 지식 집약적인 작업을 해결할 수 있지만 결과 기반 강화 학습(RL)으로 이를 최적화하면 스파링만 제공됩니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24280">Hugging Face Papers</source>
-      <guid isPermaLink="false">502a43b868b801489bd0d8a6aa1f92d6</guid>
-    </item>
-    <item>
-      <title>GNM 머리: 인간 머리의 생성적 인체측정 모델</title>
-      <link>https://huggingface.co/papers/2607.23687</link>
-      <description>인간 머리의 파라메트릭 모델은 전통적으로 애니메이션, 렌더링 및 재구성을 위한 컴퓨터 비전 및 그래픽에 사용되는 필수 도구입니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23687">Hugging Face Papers</source>
-      <guid isPermaLink="false">c10764a0d2900a0a7ec21c354b3c0df5</guid>
-    </item>
-    <item>
-      <title>다회전 장기 수평 계획의 물리학: 단일 및 다중 교사 온 정책 에이전트 증류를 통한 사전 훈련에서 사후 훈련까지</title>
-      <link>https://huggingface.co/papers/2607.24720</link>
-      <description>다단계 장기 계획은 기초 모델 에이전트에 매우 중요하지만 이를 근본적으로 개선하는 방법은 여전히 ​​불분명합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24720">Hugging Face Papers</source>
-      <guid isPermaLink="false">a451091ed4b04243f311e57da6d77686</guid>
-    </item>
-    <item>
-      <title>DecoupMix: 확장 가능한 VLM 데이터 레시피를 위한 분리된 비율 검색 및 볼록 할당</title>
-      <link>https://huggingface.co/papers/2607.24516</link>
-      <description>VLM(비전 언어 모델)에 대한 데이터 큐레이션이 점점 더 활성화되고 있지만 사전 훈련 혼합물을 구성하기 위한 공개 관행은 대체로 경험적 방식으로 남아 있습니다. 실무자는 품질 필터를 통과하고 설정하는 데이터 세트를 쌓습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24516">Hugging Face Papers</source>
-      <guid isPermaLink="false">26f7dc604081e8c8475adb8ad79bf885</guid>
-    </item>
-    <item>
-      <title>ClinFusion: 전체적인 의학 이해를 위한 비전 중심의 다중 모드 LLM 시스템</title>
-      <link>https://huggingface.co/papers/2607.24743</link>
-      <description>다중 모드 대형 언어 모델(MLLM)은 임상 실습에 혁명을 일으킬 수 있는 엄청난 잠재력을 갖고 있지만 이를 의료 영역에 배포하는 것은 근본적으로 비전 중심의 과제입니다. 모델은 다음에서 지식을 흡수해야 합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24743">Hugging Face Papers</source>
-      <guid isPermaLink="false">38dc1267e61e47835bdfc6416bd7e14d</guid>
-    </item>
-    <item>
-      <title>Kimi K3: 오픈 프론티어 인텔리전스</title>
-      <link>https://huggingface.co/papers/2607.24653</link>
-      <description>1,040억 개의 활성화된 매개변수, 기본 비전 기능 및 100만 개의 토큰 컨텍스트 창을 갖춘 2.8T 매개변수 전문가 혼합 모델인 Kimi K3를 소개합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24653">Hugging Face Papers</source>
-      <guid isPermaLink="false">45e88a67370d9ad6c176b8664bc96b0f</guid>
-    </item>
-    <item>
-      <title>정책에 따른 확산 증류에서 분류자 없는 지침 재고</title>
-      <link>https://huggingface.co/papers/2607.24731</link>
-      <description>OPD(On-policy distillation)는 현재 학생이 생성한 궤적을 따라 교사에게 쿼리하여 확산 모델을 조정하지만 모더의 기본 구성 요소인 CFG(분류자 없는 지침)에 따라 어떻게 작동해야 하는지…</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24731">Hugging Face Papers</source>
-      <guid isPermaLink="false">8faf929fef04344f51410dd1a07fd109</guid>
-    </item>
-    <item>
-      <title>OmniVAE: 공동 생성을 위한 교차 모달 정렬을 갖춘 오디오-비디오 VAE</title>
-      <link>https://huggingface.co/papers/2607.23855</link>
-      <description>최근 생성 모델은 무음 비디오나 독립형 오디오 합성을 넘어 동기화된 오디오와 비디오의 공동 생성을 향해 나아가고 있습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23855">Hugging Face Papers</source>
-      <guid isPermaLink="false">9b5eaa65166672e8504b72118e7afab6</guid>
-    </item>
-    <item>
-      <title>Frozen 12B가 검증된 작업에서 프론티어 모델을 능가함: 100% 정확도, 0 토큰, 비트 정확, 영원히</title>
-      <link>https://huggingface.co/papers/2607.23806</link>
-      <description>오늘날 언어 모델을 개선한다는 것은 이를 재교육하는 것을 의미합니다. 즉, 엄청난 컴퓨팅, 매 주기마다 새로운 불투명 모델, 비결정적 출력이 필요합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23806">Hugging Face Papers</source>
-      <guid isPermaLink="false">1ba9229808e216ff1618734b7b3836a0</guid>
-    </item>
-    <item>
-      <title>IndicTalk: 인도어를 위한 대규모 페르소나 기반 다국어 대화 코퍼스</title>
-      <link>https://huggingface.co/papers/2607.23242</link>
-      <description>LLM(대형 언어 모델)은 대화형 AI를 변화시켰지만 고품질 다국어 코드 혼합 대화 리소스는 여전히 부족합니다. 특히 화자가 영어와 영어를 자연스럽게 번갈아 사용하는 인도어의 경우 더욱 그렇습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23242">Hugging Face Papers</source>
-      <guid isPermaLink="false">3ad2b68e571c7b48b1ec0533e6f0b9cc</guid>
     </item>
   </channel>
 </rss>
