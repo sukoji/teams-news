@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:58:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 15:36:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>CLBench-V: 기초부터 지식 습득까지 다중 모드 컨텍스트 학습 평가</title>
+      <link>https://huggingface.co/papers/2607.25294</link>
+      <description>실제 작업에서는 모델이 사전 훈련된 지식에만 의존하기보다는 작업별 상황에서 학습해야 하는 경우가 많습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25294">Hugging Face Papers</source>
+      <guid isPermaLink="false">d0f9cb99b235408bc7a2673eb8563bfa</guid>
+    </item>
+    <item>
+      <title>내레이터 등급 지정: 다중 에이전트 지식 시스템의 클레임 수준 출처를 위한 Isnad-Rijal 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.24117</link>
+      <description>현대의 다중 에이전트 지식 시스템은 직접적인 검색보다는 자율적 변환 체인을 통해 점점 더 지식을 축적하고 있습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.24117">Hugging Face Papers</source>
+      <guid isPermaLink="false">39564c4db44c6efc6594221089f1be9f</guid>
+    </item>
+    <item>
+      <title>SecRespond: 실제 침해 후 사고 대응을 위한 AI 에이전트 벤치마킹</title>
+      <link>https://huggingface.co/papers/2607.26791</link>
+      <description>LLM(대형 언어 모델) 에이전트는 호스트 아티팩트 및 명령줄 인터페이스(CLI)에 액세스하여 실제 보안 작업에 점점 더 많이 채택되고 있으므로 보안 기능을 철저하게 평가하는 것이 중요합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26791">Hugging Face Papers</source>
+      <guid isPermaLink="false">bba6a056a4703be5642a606304c76772</guid>
+    </item>
     <item>
       <title>출연: LLM 에이전트를 위한 턴레벨 교사로서의 게임 해결사</title>
       <link>https://huggingface.co/papers/2607.25308</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.23402">Hugging Face Papers</source>
       <guid isPermaLink="false">042ee4483aa5ea75daf3564c8e8f00d2</guid>
-    </item>
-    <item>
-      <title>Sol-Attn: 즉각적인 주의 분산을 통해 비디오 생성 추론 가속화</title>
-      <link>https://huggingface.co/papers/2607.24027</link>
-      <description>확산 변환기는 고화질 비디오 생성에 필수적이지만, 긴 토큰 시퀀스는 주목을 주요 추론 병목 현상으로 만듭니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24027">Hugging Face Papers</source>
-      <guid isPermaLink="false">6005aa89a5f3753081350812a48d6685</guid>
-    </item>
-    <item>
-      <title>Chamaileon: 상황별 모델링 및 혼합 샘플링을 사용한 크로스 컨텍스트 바인더 설계</title>
-      <link>https://huggingface.co/papers/2607.23518</link>
-      <description>생성 모델의 급속한 발전은 결합 서열 구조 모델링 또는 환각을 통해 엔드투엔드 생성을 촉진함으로써 구조 생물학의 중추적인 작업인 단백질 바인더 설계에서 새로운 잠재력을 열었습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23518">Hugging Face Papers</source>
-      <guid isPermaLink="false">fbb9eb26d376a036e37f274864bded6e</guid>
-    </item>
-    <item>
-      <title>Reasoning Denoiser: 대규모 추론 모델에서 환각 감지를 위한 추론 추적의 잡음 제거</title>
-      <link>https://huggingface.co/papers/2607.22098</link>
-      <description>LRM(대형 추론 모델)은 최종 답변을 생성하기 전에 긴 추론 추적을 생성합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22098">Hugging Face Papers</source>
-      <guid isPermaLink="false">4d669b0bf77580093367bab563f1d5ab</guid>
     </item>
   </channel>
 </rss>
