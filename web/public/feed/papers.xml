@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 18:32:50 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 20:53:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>CADENCE: 적용 범위 적응형 정책 증류를 통해 추론 격차 해소</title>
+      <link>https://huggingface.co/papers/2607.16955</link>
+      <description>정책에 관한 지식 증류는 대규모 교사에서 소형 학생으로 추론을 이전하지만 기존 접근 방식은 세 가지 복합적인 실패 모드를 겪습니다. (i) 신선한 학생이 거의 z에 가까운 할당을 하는 콜드 스타트 ​​붕괴…</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16955">Hugging Face Papers</source>
+      <guid isPermaLink="false">fa955010e8c378c9d152710842951223</guid>
+    </item>
+    <item>
+      <title>대규모 언어 모델을 위한 메모리</title>
+      <link>https://huggingface.co/papers/2607.25380</link>
+      <description>메모리는 대규모 언어 모델(LLM)의 기본 아키텍처 차원으로 발전하여 암묵적인 계산 부산물에서 명시적이고 제어 가능한 메커니즘의 스펙트럼으로 전환되었습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25380">Hugging Face Papers</source>
+      <guid isPermaLink="false">96378a36c5ebdacea3795a50c002d57d</guid>
+    </item>
     <item>
       <title>StatePlay: 역학적으로 일관된 생성을 위한 상태 인식 게임 세계 모델</title>
       <link>https://huggingface.co/papers/2607.26754</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.23373">Hugging Face Papers</source>
       <guid isPermaLink="false">f9fc25b88b4198e63e90aaa9919e0e98</guid>
-    </item>
-    <item>
-      <title>다중 에이전트 자동화 연구 시스템을 위한 어휘</title>
-      <link>https://huggingface.co/papers/2607.22682</link>
-      <description>우리는 설계 선택을 더 쉽게 설명하고 비교할 수 있도록 하나 이상의 에이전트로 구축된 자동화된 연구 시스템에 대한 어휘를 소개합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22682">Hugging Face Papers</source>
-      <guid isPermaLink="false">1d2d096e8a4f253b6c277b7b8fcf3582</guid>
-    </item>
-    <item>
-      <title>TRACE: 기업 LLM의 지식 보존 파라메트릭 도구 검색을 위한 비즈니스 규칙 기반 추론 커리큘럼</title>
-      <link>https://huggingface.co/papers/2607.22639</link>
-      <description>파라메트릭 검색을 통해 LLM은 각 API에 고유한 가상 토큰을 할당하고 제한된 빔 검색을 통해 이를 생성하도록 모델을 교육함으로써 암시적으로 도구를 검색할 수 있습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22639">Hugging Face Papers</source>
-      <guid isPermaLink="false">25d3bf06307bd6fa4f134f8f903b24c5</guid>
     </item>
   </channel>
 </rss>
