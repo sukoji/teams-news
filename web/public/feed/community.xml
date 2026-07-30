@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 05:15:56 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 07:10:31 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLaDA2.2: 레벤슈타인(Levenshtein) 편집 기법을 도입하여 에이전트 작업을 지원하는 확산 언어 모델(Diffusion LM)</title>
+      <link>https://discuss.pytorch.kr/t/llada2-2-levenshtein-diffusion-lm/11463</link>
+      <description>LLaDA2.2 소개 지우개도 없고 끼워 넣기도 없는 편집기 글을 고쳐 쓸 때 우리는 단어를 다른 단어로 바꾸기도 하고, 군더더기를 통째로 지우기도 하고, 빠뜨린 괄호를 중간에 끼워 넣기도 합니다. 그런데 만약 편집기가 " 같은 칸에 다른 글자를 덮어쓰기 "만 허용하고 지우기와 끼워 넣기를 막아 둔다면, 고칠 수 있는 오류의 종류는 크게 줄어들 것입니다.</description>
+      <pubDate>Fri, 31 Jul 2026 06:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llada2-2-levenshtein-diffusion-lm/11463">PyTorch Korea</source>
+      <guid isPermaLink="false">50f5a3dbbf194d8f3798c8981487bc6f</guid>
+    </item>
     <item>
       <title>pi-autoresearch: 코딩 에이전트가 지표를 측정하며 스스로 최적화를 반복하는 pi 확장</title>
       <link>https://discuss.pytorch.kr/t/pi-autoresearch-pi/11471</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/topic/11393">PyTorch Korea</source>
       <guid isPermaLink="false">eea2df47ddb6c36418cc5a490ee413b9</guid>
-    </item>
-    <item>
-      <title>feyn, 답변 전 DB를 먼저 살펴보는 text-to-SQL 모델 SQRL 공개 (feat. Chonkie)</title>
-      <link>https://discuss.pytorch.kr/t/feyn-db-text-to-sql-sqrl-feat-chonkie/11360</link>
-      <description>SQRL 소개 RAG 파이프라인의 텍스트 청킹(chunking) 라이브러리로 잘 알려진 Chonkie 의 개발사 feyn 이 자연어 질문을 SQL 쿼리로 변환하는 모델 제품군 SQRL 을 공개했습니다. SQRL은 SQRL-4B , SQRL-9B , SQRL-35B-A3B 세 가지 크기로 제공되며, 모두 Hugging Face 에 Apache 2.0 라이선스로 공개되어 있습니다.</description>
-      <pubDate>Thu, 23 Jul 2026 14:30:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/feyn-db-text-to-sql-sqrl-feat-chonkie/11360">PyTorch Korea</source>
-      <guid isPermaLink="false">ce572dd2a48ff8153ccf4dfe9e776669</guid>
     </item>
   </channel>
 </rss>
