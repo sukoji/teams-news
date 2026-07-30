@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30T08:57:26.021948+09:00",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T08:58:40.746708+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -21,10 +21,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-07-29T09:00:00+09:00",
-          "popularity": 899,
-          "upvotes": 22,
-          "score": 30.01,
-          "importance_score": 18.02,
+          "popularity": 1083,
+          "upvotes": 26,
+          "score": 30.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "multimodal",
             "reasoning",
@@ -33,34 +33,35 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 22
+            "value": 26
           }
         },
         {
-          "id": "a451091ed4b04243f311e57da6d77686",
+          "id": "dcf0a860982397b324b51d40215bd8a7",
           "index": 2,
-          "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-          "title_ko": "다회전 장기 수평 계획의 물리학: 단일 및 다중 교사 온 정책 에이전트 증류를 통한 사전 훈련에서 사후 훈련까지",
-          "summary": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear.",
-          "summary_ko": "다단계 장기 계획은 기초 모델 에이전트에 매우 중요하지만 이를 근본적으로 개선하는 방법은 여전히 ​​불분명합니다.",
-          "url": "https://huggingface.co/papers/2607.24720",
+          "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
+          "title_ko": "출연: LLM 에이전트를 위한 턴레벨 교사로서의 게임 해결사",
+          "summary": "Training large language models (LLMs) to act in long-horizon games is a promising step toward generalist decision-making, yet reinforcement learning with verifiable rewards (RLVR) relies on sparse final rewards that rev…",
+          "summary_ko": "장거리 게임에서 작동하도록 대형 언어 모델(LLM)을 훈련하는 것은 일반 의사 결정을 향한 유망한 단계이지만, 검증 가능한 보상(RLVR)을 사용한 강화 학습은 희박한 최종 보상에 의존합니다.",
+          "url": "https://huggingface.co/papers/2607.25308",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-07-28T09:00:00+09:00",
-          "popularity": 65,
-          "upvotes": 22,
-          "score": 24.57,
-          "importance_score": 12.57,
+          "published_at": "2026-07-30T09:00:00+09:00",
+          "popularity": 69,
+          "upvotes": 28,
+          "score": 26.75,
+          "importance_score": 12.75,
           "matched_keywords": [
             "ai",
+            "llm",
             "agent",
-            "foundation model",
+            "reinforcement learning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 22
+            "value": 28
           }
         }
       ]
@@ -70,44 +71,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "b0b7ae4e0255734104ec2cbe5c79c4ba",
+          "id": "bb9e70e5b792f350dfce78432fda7455",
           "index": 3,
-          "title": "AI 해킹 사례에 트럼프 “규제 검토…기업 성과 막지 않을 것”",
+          "title": "[7월30일] \"이제는 기계가 인간에 맞춘다\"...오픈AI가 '음성'에 집중하는 이유",
           "title_ko": null,
-          "summary": "도널드 트럼프 미국 대통령이 인공지능(AI) 규제 방안을 검토하고 있다고 밝혔다. 다만 중국과의 기술 패권 경쟁을 고려해 미국 AI 기업의 성장과 혁신을 저해하지 않는 방향으로 신중하게 접근하겠다는 입장도 함께 내놨다.",
+          "summary": "지난해 12월 \\'코드 레드\\'를 선언한 이후 오픈AI는 코딩 AI와 기업용 AI 경쟁에 집중해 왔습니다. 그 결과, \\'클로드 코드\\'를 빠르게 추격했고, 기업 고객도 크게 늘렸습니다.하지만 소비자가 체감하는 \\'챗GPT\\'의 변화는 상대적으로 크지 않았습니다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260730000008",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213333",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-30T07:40:47+09:00",
-          "popularity": 99,
+          "published_at": "2026-07-31T07:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.63,
-          "importance_score": 19.37,
+          "score": 22.59,
+          "importance_score": 19.18,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "gpt"
           ],
           "engagement": null
         },
         {
-          "id": "c478f2d99b071d2975f757e7c4a9f225",
+          "id": "88f5bbb0fbccdf46bd421816ffdbd08d",
           "index": 4,
-          "title": "MS, AI가 이끈 '깜짝 실적'…애저 첫 연매출 1000억 달러",
+          "title": "오픈AI, 기업용 요금 최대 80% 인하…가격 경쟁 합류",
           "title_ko": null,
-          "summary": "[지디넷코리아]마이크로소프트(MS)가 클라우드와 인공지능(AI) 사업의 고른 성장에 힘입어 시장 전망치를 웃도는 실적을 냈다.",
+          "summary": "인공지능(AI) 모델 성능 경쟁을 이어왔던 주요 AI 기업들이 가격 인하 경쟁에 뛰어들었다. 오픈AI는 불과 3주 전에 공개한 최신 AI 모델 'GPT-5.6'의 중·저가 모델의 기업용 이용 요금을 최대 80% 인하한다고 30일(현지시간) 밝혔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260730082650",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260731000008",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-07-30T08:29:07+09:00",
-          "popularity": 100,
+          "published_at": "2026-07-31T07:18:08+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 19.9,
-          "importance_score": 19.8,
+          "score": 25.15,
+          "importance_score": 18.8,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "gpt",
+            "모델"
           ],
           "engagement": null
         }
@@ -118,33 +122,8 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "ca3541efe25f4f7b4346dcf1c57e615d",
-          "index": 5,
-          "title": "mikehasa/agentacct — See what your coding agents did and what it cost. Breaks each task down into work steps — tools used",
-          "title_ko": "mikehasa/agentacct — 코딩 에이전트가 수행한 작업과 비용을 확인하세요. 각 작업을 작업 단계로 분류 - 사용된 도구",
-          "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more.",
-          "summary_ko": "코딩 에이전트가 수행한 작업과 비용을 확인하세요. 각 작업을 사용된 도구, 변경된 파일, 테스트 실행, 소요된 시간 및 토큰 등 작업 단계로 분류합니다. Claude Code, Codex, OpenCode 등을 위한 로컬 우선 대시보드입니다.",
-          "url": "https://github.com/mikehasa/agentacct",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-07-30T06:57:57+09:00",
-          "popularity": 528,
-          "upvotes": 528,
-          "score": 34.53,
-          "importance_score": 31.12,
-          "matched_keywords": [
-            "agent",
-            "claude"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 528
-          }
-        },
-        {
           "id": "86d6586ccb16eb954e690e0594e8c456",
-          "index": 6,
+          "index": 5,
           "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semant",
           "title_ko": "deerwork-ai/deer-workflow — TypeScript에서 오케스트레이션을 유지하고 의미를 위임하는 오픈 소스 그래프 엔지니어링 런타임",
           "summary": "An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
@@ -154,17 +133,41 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-07-28T00:34:26+09:00",
-          "popularity": 346,
-          "upvotes": 346,
-          "score": 28.47,
-          "importance_score": 20.47,
+          "popularity": 357,
+          "upvotes": 357,
+          "score": 28.58,
+          "importance_score": 20.58,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 346
+            "value": 357
+          }
+        },
+        {
+          "id": "284619fe8c6dc82d7ab79a7bc7bb6079",
+          "index": 6,
+          "title": "0xwilliamortiz/openclaude-improved — runs anywhere. uses anything",
+          "title_ko": "0xwilliamortiz/openclaude-improved — 어디에서나 실행됩니다. 무엇이든 사용한다",
+          "summary": "runs anywhere. uses anything",
+          "summary_ko": "어디든 달려갑니다. 무엇이든 사용한다",
+          "url": "https://github.com/0xwilliamortiz/openclaude-improved",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-07-27T07:22:56+09:00",
+          "popularity": 562,
+          "upvotes": 562,
+          "score": 27.17,
+          "importance_score": 22.17,
+          "matched_keywords": [
+            "claude"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 562
           }
         }
       ]
@@ -174,25 +177,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "2d47685649ca289a17c95ecd55747622",
+          "id": "50f5a3dbbf194d8f3798c8981487bc6f",
           "index": 7,
-          "title": "DocsGPT: 에이전트 빌더와 문서 분석을 갖춘 오픈소스 프라이빗 AI 플랫폼",
+          "title": "LLaDA2.2: 레벤슈타인(Levenshtein) 편집 기법을 도입하여 에이전트 작업을 지원하는 확산 언어 모델(Diffusion LM)",
           "title_ko": null,
-          "summary": "DocsGPT 소개 DocsGPT는 사내 문서나 개인 자료를 근거로 답하는 에이전트와 어시스턴트를 만들기 위한 오픈소스 AI 플랫폼입니다. 에이전트 빌더(Agent Builder)와 심층 조사 도구, 문서 분석, 여러 모델 제공자를 골라 쓰거나 로컬 모델을 붙이는 다중 모델 지원, 그리고 에이전트가 외부 서비스를 실제로 호출할 수 있게 하는 API 연결을 한 곳에 모아 두고 있습니다.",
+          "summary": "LLaDA2.2 소개 지우개도 없고 끼워 넣기도 없는 편집기 글을 고쳐 쓸 때 우리는 단어를 다른 단어로 바꾸기도 하고, 군더더기를 통째로 지우기도 하고, 빠뜨린 괄호를 중간에 끼워 넣기도 합니다. 그런데 만약 편집기가 \" 같은 칸에 다른 글자를 덮어쓰기 \"만 허용하고 지우기와 끼워 넣기를 막아 둔다면, 고칠 수 있는 오류의 종류는 크게 줄어들 것입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/docsgpt-ai/11449",
+          "url": "https://discuss.pytorch.kr/t/llada2-2-levenshtein-diffusion-lm/11463",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-07-29T16:30:41+09:00",
-          "popularity": 97,
+          "published_at": "2026-07-31T06:30:55+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 25.27,
-          "importance_score": 12.85,
+          "score": 22.49,
+          "importance_score": 18.97,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "gpt",
+            "diffusion",
             "모델"
           ],
           "engagement": null
@@ -213,10 +214,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-07-29T09:00:00+09:00",
-      "popularity": 899,
-      "upvotes": 22,
-      "score": 30.01,
-      "importance_score": 18.02,
+      "popularity": 1083,
+      "upvotes": 26,
+      "score": 30.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "multimodal",
         "reasoning",
@@ -225,106 +226,85 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 22
+        "value": 26
       }
     },
     {
-      "id": "a451091ed4b04243f311e57da6d77686",
+      "id": "dcf0a860982397b324b51d40215bd8a7",
       "index": 2,
-      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-      "title_ko": "다회전 장기 수평 계획의 물리학: 단일 및 다중 교사 온 정책 에이전트 증류를 통한 사전 훈련에서 사후 훈련까지",
-      "summary": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear.",
-      "summary_ko": "다단계 장기 계획은 기초 모델 에이전트에 매우 중요하지만 이를 근본적으로 개선하는 방법은 여전히 ​​불분명합니다.",
-      "url": "https://huggingface.co/papers/2607.24720",
+      "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
+      "title_ko": "출연: LLM 에이전트를 위한 턴레벨 교사로서의 게임 해결사",
+      "summary": "Training large language models (LLMs) to act in long-horizon games is a promising step toward generalist decision-making, yet reinforcement learning with verifiable rewards (RLVR) relies on sparse final rewards that rev…",
+      "summary_ko": "장거리 게임에서 작동하도록 대형 언어 모델(LLM)을 훈련하는 것은 일반 의사 결정을 향한 유망한 단계이지만, 검증 가능한 보상(RLVR)을 사용한 강화 학습은 희박한 최종 보상에 의존합니다.",
+      "url": "https://huggingface.co/papers/2607.25308",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-07-28T09:00:00+09:00",
-      "popularity": 65,
-      "upvotes": 22,
-      "score": 24.57,
-      "importance_score": 12.57,
+      "published_at": "2026-07-30T09:00:00+09:00",
+      "popularity": 69,
+      "upvotes": 28,
+      "score": 26.75,
+      "importance_score": 12.75,
       "matched_keywords": [
         "ai",
+        "llm",
         "agent",
-        "foundation model",
+        "reinforcement learning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 22
+        "value": 28
       }
     },
     {
-      "id": "b0b7ae4e0255734104ec2cbe5c79c4ba",
+      "id": "bb9e70e5b792f350dfce78432fda7455",
       "index": 3,
-      "title": "AI 해킹 사례에 트럼프 “규제 검토…기업 성과 막지 않을 것”",
+      "title": "[7월30일] \"이제는 기계가 인간에 맞춘다\"...오픈AI가 '음성'에 집중하는 이유",
       "title_ko": null,
-      "summary": "도널드 트럼프 미국 대통령이 인공지능(AI) 규제 방안을 검토하고 있다고 밝혔다. 다만 중국과의 기술 패권 경쟁을 고려해 미국 AI 기업의 성장과 혁신을 저해하지 않는 방향으로 신중하게 접근하겠다는 입장도 함께 내놨다.",
+      "summary": "지난해 12월 \\'코드 레드\\'를 선언한 이후 오픈AI는 코딩 AI와 기업용 AI 경쟁에 집중해 왔습니다. 그 결과, \\'클로드 코드\\'를 빠르게 추격했고, 기업 고객도 크게 늘렸습니다.하지만 소비자가 체감하는 \\'챗GPT\\'의 변화는 상대적으로 크지 않았습니다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260730000008",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=213333",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-07-31T07:00:00+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 22.59,
+      "importance_score": 19.18,
+      "matched_keywords": [
+        "ai",
+        "gpt"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "88f5bbb0fbccdf46bd421816ffdbd08d",
+      "index": 4,
+      "title": "오픈AI, 기업용 요금 최대 80% 인하…가격 경쟁 합류",
+      "title_ko": null,
+      "summary": "인공지능(AI) 모델 성능 경쟁을 이어왔던 주요 AI 기업들이 가격 인하 경쟁에 뛰어들었다. 오픈AI는 불과 3주 전에 공개한 최신 AI 모델 'GPT-5.6'의 중·저가 모델의 기업용 이용 요금을 최대 80% 인하한다고 30일(현지시간) 밝혔다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260731000008",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-07-30T07:40:47+09:00",
-      "popularity": 99,
+      "published_at": "2026-07-31T07:18:08+09:00",
+      "popularity": 95,
       "upvotes": 0,
-      "score": 19.63,
-      "importance_score": 19.37,
+      "score": 25.15,
+      "importance_score": 18.8,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "gpt",
+        "모델"
       ],
       "engagement": null
-    },
-    {
-      "id": "c478f2d99b071d2975f757e7c4a9f225",
-      "index": 4,
-      "title": "MS, AI가 이끈 '깜짝 실적'…애저 첫 연매출 1000억 달러",
-      "title_ko": null,
-      "summary": "[지디넷코리아]마이크로소프트(MS)가 클라우드와 인공지능(AI) 사업의 고른 성장에 힘입어 시장 전망치를 웃도는 실적을 냈다.",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260730082650",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-07-30T08:29:07+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 19.9,
-      "importance_score": 19.8,
-      "matched_keywords": [
-        "ai"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "ca3541efe25f4f7b4346dcf1c57e615d",
-      "index": 5,
-      "title": "mikehasa/agentacct — See what your coding agents did and what it cost. Breaks each task down into work steps — tools used",
-      "title_ko": "mikehasa/agentacct — 코딩 에이전트가 수행한 작업과 비용을 확인하세요. 각 작업을 작업 단계로 분류 - 사용된 도구",
-      "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more.",
-      "summary_ko": "코딩 에이전트가 수행한 작업과 비용을 확인하세요. 각 작업을 사용된 도구, 변경된 파일, 테스트 실행, 소요된 시간 및 토큰 등 작업 단계로 분류합니다. Claude Code, Codex, OpenCode 등을 위한 로컬 우선 대시보드입니다.",
-      "url": "https://github.com/mikehasa/agentacct",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-07-30T06:57:57+09:00",
-      "popularity": 528,
-      "upvotes": 528,
-      "score": 34.53,
-      "importance_score": 31.12,
-      "matched_keywords": [
-        "agent",
-        "claude"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 528
-      }
     },
     {
       "id": "86d6586ccb16eb954e690e0594e8c456",
-      "index": 6,
+      "index": 5,
       "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semant",
       "title_ko": "deerwork-ai/deer-workflow — TypeScript에서 오케스트레이션을 유지하고 의미를 위임하는 오픈 소스 그래프 엔지니어링 런타임",
       "summary": "An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
@@ -334,39 +314,61 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-07-28T00:34:26+09:00",
-      "popularity": 346,
-      "upvotes": 346,
-      "score": 28.47,
-      "importance_score": 20.47,
+      "popularity": 357,
+      "upvotes": 357,
+      "score": 28.58,
+      "importance_score": 20.58,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 346
+        "value": 357
       }
     },
     {
-      "id": "2d47685649ca289a17c95ecd55747622",
+      "id": "284619fe8c6dc82d7ab79a7bc7bb6079",
+      "index": 6,
+      "title": "0xwilliamortiz/openclaude-improved — runs anywhere. uses anything",
+      "title_ko": "0xwilliamortiz/openclaude-improved — 어디에서나 실행됩니다. 무엇이든 사용한다",
+      "summary": "runs anywhere. uses anything",
+      "summary_ko": "어디든 달려갑니다. 무엇이든 사용한다",
+      "url": "https://github.com/0xwilliamortiz/openclaude-improved",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-07-27T07:22:56+09:00",
+      "popularity": 562,
+      "upvotes": 562,
+      "score": 27.17,
+      "importance_score": 22.17,
+      "matched_keywords": [
+        "claude"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 562
+      }
+    },
+    {
+      "id": "50f5a3dbbf194d8f3798c8981487bc6f",
       "index": 7,
-      "title": "DocsGPT: 에이전트 빌더와 문서 분석을 갖춘 오픈소스 프라이빗 AI 플랫폼",
+      "title": "LLaDA2.2: 레벤슈타인(Levenshtein) 편집 기법을 도입하여 에이전트 작업을 지원하는 확산 언어 모델(Diffusion LM)",
       "title_ko": null,
-      "summary": "DocsGPT 소개 DocsGPT는 사내 문서나 개인 자료를 근거로 답하는 에이전트와 어시스턴트를 만들기 위한 오픈소스 AI 플랫폼입니다. 에이전트 빌더(Agent Builder)와 심층 조사 도구, 문서 분석, 여러 모델 제공자를 골라 쓰거나 로컬 모델을 붙이는 다중 모델 지원, 그리고 에이전트가 외부 서비스를 실제로 호출할 수 있게 하는 API 연결을 한 곳에 모아 두고 있습니다.",
+      "summary": "LLaDA2.2 소개 지우개도 없고 끼워 넣기도 없는 편집기 글을 고쳐 쓸 때 우리는 단어를 다른 단어로 바꾸기도 하고, 군더더기를 통째로 지우기도 하고, 빠뜨린 괄호를 중간에 끼워 넣기도 합니다. 그런데 만약 편집기가 \" 같은 칸에 다른 글자를 덮어쓰기 \"만 허용하고 지우기와 끼워 넣기를 막아 둔다면, 고칠 수 있는 오류의 종류는 크게 줄어들 것입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/docsgpt-ai/11449",
+      "url": "https://discuss.pytorch.kr/t/llada2-2-levenshtein-diffusion-lm/11463",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-07-29T16:30:41+09:00",
-      "popularity": 97,
+      "published_at": "2026-07-31T06:30:55+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 25.27,
-      "importance_score": 12.85,
+      "score": 22.49,
+      "importance_score": 18.97,
       "matched_keywords": [
-        "ai",
-        "agent",
-        "gpt",
+        "diffusion",
         "모델"
       ],
       "engagement": null
