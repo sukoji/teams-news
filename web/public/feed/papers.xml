@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 01:28:44 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 03:17:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SpecFirst: 처음부터 에이전트 기반 프로그램 합성의 첫 번째 단계인 동작 사양 추출</title>
+      <link>https://huggingface.co/papers/2607.27167</link>
+      <description>LLM 기반 에이전트는 기존 코드베이스가 컨텍스트를 제공하는 소프트웨어 엔지니어링 작업에 탁월하지만 처음부터 프로그램을 구성하는 것은 근본적으로 더 어렵습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27167">Hugging Face Papers</source>
+      <guid isPermaLink="false">66671b3033c33f4eee353337e8022b31</guid>
+    </item>
+    <item>
+      <title>에이전트적 음성 인식을 위한 음성 기억</title>
+      <link>https://huggingface.co/papers/2607.26410</link>
+      <description>우리는 에이전트 음성 인식을 위한 추론 전용 체계인 음성 메모리를 제시합니다. 스트림 시간에 고정 교정기는 단일 도메인당 memory.md를 읽고 발화별로 가설에 따라 조치를 취할지 아니면 절대…</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26410">Hugging Face Papers</source>
+      <guid isPermaLink="false">43d53bef97ec71b84f8375598b568e2f</guid>
+    </item>
+    <item>
+      <title>MindForge: 소스 프리 프로그램 합성을 통해 소규모 언어 모델 전체 수명 주기 소프트웨어 엔지니어링 교육</title>
+      <link>https://huggingface.co/papers/2607.27146</link>
+      <description>코딩 에이전트는 버그 수정 및 기능 구현을 포함하여 기존 코드베이스를 수정하는 소프트웨어 엔지니어링 작업에서 상당한 진전을 이루었습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27146">Hugging Face Papers</source>
+      <guid isPermaLink="false">054009f169fefc51f34482392d10c0ba</guid>
+    </item>
+    <item>
+      <title>DistillAlign: 자동 회귀 비디오 증류에서 모드 커버링 및 모드 탐색 조정</title>
+      <link>https://huggingface.co/papers/2607.26811</link>
+      <description>기존 자동 회귀 비디오 증류 방법은 일반적으로 DMD(Distribution Matching Distillation) 기반 다단계 파이프라인을 채택합니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26811">Hugging Face Papers</source>
+      <guid isPermaLink="false">44e66fbf6f656ef1dd826b7acba12719</guid>
+    </item>
+    <item>
+      <title>πR^2: 반응형 실시간 흐름 정책</title>
+      <link>https://huggingface.co/papers/2607.26055</link>
+      <description>일반 조작 정책은 사전 훈련된 대형 백본을 기반으로 구축된 작업 청킹 흐름 정책의 형태를 점점 더 많이 취하고 있습니다.</description>
+      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26055">Hugging Face Papers</source>
+      <guid isPermaLink="false">b75aca5789d7a869b9251415d0dc7d14</guid>
+    </item>
     <item>
       <title>CADENCE: 적용 범위 적응형 정책 증류를 통해 추론 격차 해소</title>
       <link>https://huggingface.co/papers/2607.16955</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.25537">Hugging Face Papers</source>
       <guid isPermaLink="false">8a3d37f22b08dff4d9ce5680f226505e</guid>
-    </item>
-    <item>
-      <title>OmniDelta: OmniLLM의 토큰 압축을 위한 기술 중심 예산 할당</title>
-      <link>https://huggingface.co/papers/2607.25669</link>
-      <description>새로운 OmniLLM(옴니모달 대형 언어 모델)을 사용하면 텍스트, 오디오 및 비디오를 통합적으로 이해할 수 있지만 긴 오디오-비디오 토큰 시퀀스로 인해 상당한 메모리 및 추론 비용이 발생합니다.</description>
-      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25669">Hugging Face Papers</source>
-      <guid isPermaLink="false">a48f2eb808412974f385998d4bd48e7c</guid>
-    </item>
-    <item>
-      <title>사회 정서와 기술적 특징의 정권 인식 다중 모드 융합을 통한 비트코인 ​​가격 방향 예측</title>
-      <link>https://huggingface.co/papers/2607.23370</link>
-      <description>하루 이하의 시간 단위에 대한 비트코인 ​​가격 예측은 전산 금융 분야에서 어려운 문제입니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23370">Hugging Face Papers</source>
-      <guid isPermaLink="false">42c678dd197d468623a65f12d4d9d592</guid>
-    </item>
-    <item>
-      <title>TILT: 모델 내재적 보상을 통해 확산 모델의 구성 생성 개선</title>
-      <link>https://huggingface.co/papers/2607.21606</link>
-      <description>강력한 텍스트-이미지 생성 모델의 최근 발전으로 인해 샘플링 궤적을 수정하여 복잡한 구성 특성에 더욱 충실한 이미지를 생성하는 테스트 시간 방법을 개발하는 것이 점점 더 중요해졌습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.21606">Hugging Face Papers</source>
-      <guid isPermaLink="false">409e6c0cf6249a9973ff469753a216f6</guid>
-    </item>
-    <item>
-      <title>WorldDiT: 세계 및 액션 모델링을 위한 통합 확산 아키텍처</title>
-      <link>https://huggingface.co/papers/2607.23909</link>
-      <description>최근의 많은 로봇 정책은 사전 훈련된 대규모 VLM(비전 언어 모델)을 작업 백본으로 사용하여 더 강력한 제어를 추구합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23909">Hugging Face Papers</source>
-      <guid isPermaLink="false">0b9f7ec071b1cb524bcf1cbf4f380795</guid>
-    </item>
-    <item>
-      <title>UltraViT: 대규모 비전 언어 모델을 위한 지연 시간 최적화 온디바이스 비전 인코더</title>
-      <link>https://huggingface.co/papers/2607.23373</link>
-      <description>LVLM(Large Vision-Language Model)은 막대한 계산 공간으로 인해 병목 현상이 발생하여 리소스가 제한된 엣지 장치에 배포할 수 없습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23373">Hugging Face Papers</source>
-      <guid isPermaLink="false">f9fc25b88b4198e63e90aaa9919e0e98</guid>
     </item>
   </channel>
 </rss>
