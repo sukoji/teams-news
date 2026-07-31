@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 21:57:58 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 00:25:29 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>β-OPSD: 정책 최적화를 통한 도출, 자체 증류를 통한 교육</title>
+      <link>https://huggingface.co/papers/2607.28582</link>
+      <description>OPSD(On-policy self-distillation)는 추론 언어 모델을 개선하기 위한 유망한 접근 방식이지만 실제로는 취약합니다. 안정적으로 작동하려면 상당한 엔지니어링 노력이 필요한 경우가 많습니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28582">Hugging Face Papers</source>
+      <guid isPermaLink="false">1100156dc67360e3f7023e45b7d691fa</guid>
+    </item>
+    <item>
+      <title>기하학적 상보성을 넘어서: 희박한 전문가 혼합 라우팅의 일관된 중첩</title>
+      <link>https://huggingface.co/papers/2607.28308</link>
+      <description>MoE(희소 전문가 혼합) 언어 모델은 각 토큰을 여러 전문가에게 라우팅하여 이점에 대한 기하학적 설명을 제안합니다. 공동 선택된 전문가는 뚜렷한 표현 방향에 기여해야 합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28308">Hugging Face Papers</source>
+      <guid isPermaLink="false">bc26b33b75bc67630b5f1cbd483e2586</guid>
+    </item>
     <item>
       <title>See2Think: 다중 모드 모델이 실제로 중간 시각적 상태를 사용합니까?</title>
       <link>https://huggingface.co/papers/2607.26769</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.25308">Hugging Face Papers</source>
       <guid isPermaLink="false">dcf0a860982397b324b51d40215bd8a7</guid>
-    </item>
-    <item>
-      <title>DecoEvo: 텍스트 공간에서 솔버 및 루브릭 생성기 기술의 점수 분리 공동 진화</title>
-      <link>https://huggingface.co/papers/2607.25675</link>
-      <description>텍스트 공간 최적화는 모델 가중치가 아닌 외부 자연어 아티팩트를 편집하여 LLM(대형 언어 모델)을 조정하므로 최적화된 아티팩트를 검사 가능한 상태로 유지하고 모델을 블랙으로 처리할 수 있습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25675">Hugging Face Papers</source>
-      <guid isPermaLink="false">aa7f9dabfcf838d911cb12ee4b451c0a</guid>
-    </item>
-    <item>
-      <title>TurboVLA: &lt;1GB VRAM을 갖춘 RTX 4090에서 32Hz의 실시간 비전-언어-액션 모델</title>
-      <link>https://huggingface.co/papers/2607.27205</link>
-      <description>VLA(비전-언어-작업) 모델은 일반적으로 LLM 중심의 V에서 L에서 A 경로로 채택합니다. 여기서 시각적 관찰은 로봇 작업으로 디코딩되기 전에 대규모 언어 모델의 표현 공간에 투영됩니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27205">Hugging Face Papers</source>
-      <guid isPermaLink="false">24b499f152174212307f5d96a11a9b52</guid>
     </item>
   </channel>
 </rss>
