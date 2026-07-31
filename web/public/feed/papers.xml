@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 13:25:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 16:52:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Deep Research는 신뢰할 수 있나요? 오해의 소지가 있는 지식은 잘못된 결론을 유도합니다</title>
+      <link>https://huggingface.co/papers/2607.20891</link>
+      <description>Deep Research 에이전트는 LLM 기반 보조자를 계획, 검색, 증거 합성 및 보고서 생성과 관련된 장기적인 워크플로로 확장하지만 개방형 정보 환경에서의 신뢰성은 여전히 ​​​​낮습니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.20891">Hugging Face Papers</source>
+      <guid isPermaLink="false">8635d326c5814a99abbb5f6c850e0ece</guid>
+    </item>
+    <item>
+      <title>ShadowDancer: 비디오와 그림자로부터 통합된 역학 표현을 학습하여 비디오 세계 모델의 모든 동작 교육</title>
+      <link>https://huggingface.co/papers/2607.28362</link>
+      <description>대화형 비디오 세계 모델의 모든 동작, 프레임 수준 제어에 대한 새로운 접근 방식인 ShadowDancer를 소개합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28362">Hugging Face Papers</source>
+      <guid isPermaLink="false">d234f54856cc70a3c9df6ecd7cef7142</guid>
+    </item>
+    <item>
+      <title>다중 헤드 주의 잔차</title>
+      <link>https://huggingface.co/papers/2607.27230</link>
+      <description>변환기는 단일 추가 잔여 스트림을 통해 깊이에 걸쳐 정보를 전파합니다. 모든 하위 계층은 가장 최근 상태만 읽습니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27230">Hugging Face Papers</source>
+      <guid isPermaLink="false">3063a03f17ff0515273efc923bb38977</guid>
+    </item>
+    <item>
+      <title>AMRD: 경량 음성 감정 인식을 위한 적응형 다중 교사 관계형 증류</title>
+      <link>https://huggingface.co/papers/2607.25289</link>
+      <description>온디바이스 음성 감정 인식(SER)은 실시간 애플리케이션에 매우 중요하지만, SER에 탁월한 대규모 자체 감독 모델은 엣지 디바이스에 비해 비용이 너무 많이 듭니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.25289">Hugging Face Papers</source>
+      <guid isPermaLink="false">b66034366753dcbccb1149016e07a763</guid>
+    </item>
     <item>
       <title>메티스: 기억 기반 모델</title>
       <link>https://huggingface.co/papers/2607.26760</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.27180">Hugging Face Papers</source>
       <guid isPermaLink="false">0109a17db7164fb024d5e7ca7e6c3464</guid>
-    </item>
-    <item>
-      <title>StealthBench: 자율 공격 보안 에이전트의 스텔스 운영 측정</title>
-      <link>https://huggingface.co/papers/2607.26314</link>
-      <description>자신의 존재, 능력 또는 수집된 정보를 공개하지 않고 목표를 달성하는 규율인 스텔스는 정교한 운영자와 탐지 가능한 운영자를 구분하는 요소입니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26314">Hugging Face Papers</source>
-      <guid isPermaLink="false">4605c1137c70d4357a6fc627c77d531a</guid>
-    </item>
-    <item>
-      <title>AI 에이전트가 개방형 AI 연구를 수행할 수 있나요? 두 가지 사례 연구의 초기 증거</title>
-      <link>https://huggingface.co/papers/2607.27191</link>
-      <description>폭발적인 AI 발전 예측은 AI 연구를 자동화하는 AI 에이전트에 달려 있습니다. 그러나 에이전트가 개방형 AI 연구를 수행할 수 있는지 여부에 대한 증거는 희박합니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27191">Hugging Face Papers</source>
-      <guid isPermaLink="false">3bc1940447d87257ca42079091a0a8d7</guid>
-    </item>
-    <item>
-      <title>비디오 객체 삽입 및 레이어 분해를 위한 명시적 레이어 모델링</title>
-      <link>https://huggingface.co/papers/2607.25802</link>
-      <description>대부분의 비디오 편집 시스템에는 여전히 명시적인 레이어 비디오 표현이 부족하여 사실적인 합성, 개체 재사용 및 일관된 조작을 수행하는 능력이 제한됩니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25802">Hugging Face Papers</source>
-      <guid isPermaLink="false">23bfa410d0f78eda07507f965efba332</guid>
-    </item>
-    <item>
-      <title>UAV 초분광 PFM-1 지뢰 탐지를 위한 Human-in-the-Loop 서명 부트스트래핑</title>
-      <link>https://huggingface.co/papers/2607.25310</link>
-      <description>초분광 이미징(HSI)은 물질 식별에 유용하지만, 작전 지뢰 검사는 표적을 발견하기 전에 검사해야 하는 허위 경보 수에 따라 달라집니다.</description>
-      <pubDate>Wed, 29 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25310">Hugging Face Papers</source>
-      <guid isPermaLink="false">a59c1aefbc776563585907f9262a70a4</guid>
     </item>
   </channel>
 </rss>
