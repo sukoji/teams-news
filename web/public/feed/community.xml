@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:52:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 19:42:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>stop-slop: 산문에서 AI 글쓰기 패턴을 찾아 제거하는 Claude 스킬</title>
+      <link>https://discuss.pytorch.kr/t/stop-slop-ai-claude/10552</link>
+      <description>stop-slop 소개 stop-slop은 산문에서 AI 특유의 글쓰기 패턴을 찾아 제거하도록 LLM에게 지시하는 스킬(Skill) 파일입니다. 프로젝트는 "AI writing has patterns. Predictable phrases, structures, rhythms." 라는 문장으로 문제를 정의합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 18:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/stop-slop-ai-claude/10552">PyTorch Korea</source>
+      <guid isPermaLink="false">0471cbd3fb33ce77918627dadb983546</guid>
+    </item>
     <item>
       <title>Buzz: 사람과 AI 에이전트가 같은 채널에서 일할 수 있도록 하는 자체 호스팅 워크스페이스</title>
       <link>https://discuss.pytorch.kr/t/buzz-ai/11461</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/zuna1-1-eeg-feat-zyphra/11346">PyTorch Korea</source>
       <guid isPermaLink="false">f2274cffcc1cca20d855e0e5a42e1f62</guid>
-    </item>
-    <item>
-      <title>Chops: Claude Code, Cursor, Codex 등의 에이전트 스킬을 한곳에서 관리하는 macOS 앱</title>
-      <link>https://discuss.pytorch.kr/t/chops-claude-code-cursor-codex-macos/11351</link>
-      <description>Chops 소개 여러 코딩 에이전트를 함께 쓰다 보면 스킬(skill)과 에이전트(agent) 정의 파일이 도구마다 다른 dotfile 디렉토리에 흩어집니다. Claude Code 는 ~/.claude/skills/ 에, Cursor 는 ~/.cursor/ 에, Codex 는 ~/.codex/ 에 각자 저장하는 식입니다.</description>
-      <pubDate>Thu, 23 Jul 2026 16:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/chops-claude-code-cursor-codex-macos/11351">PyTorch Korea</source>
-      <guid isPermaLink="false">d4452b0b1456fdc07cef10d6a700ce23</guid>
     </item>
   </channel>
 </rss>

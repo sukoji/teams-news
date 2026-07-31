@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:52:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 19:42:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>See2Think: 다중 모드 모델이 실제로 중간 시각적 상태를 사용합니까?</title>
+      <link>https://huggingface.co/papers/2607.26769</link>
+      <description>다중 모드 대형 언어 모델은 추론 중에 스케치, 주석, 도구 및 중간 이미지를 점점 더 많이 사용하지만 실제로 이러한 시각적 상태에 의존하는지 여부는 불분명합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26769">Hugging Face Papers</source>
+      <guid isPermaLink="false">61e02eb939dc9ec2657f598f86f95753</guid>
+    </item>
+    <item>
+      <title>LLM 에이전트를 위한 파일 시스템 기반 메모리: 조직, 발전 및 지속 가능성</title>
+      <link>https://huggingface.co/papers/2607.26637</link>
+      <description>배포된 LLM 에이전트는 점점 더 장기 메모리를 파일 시스템, 즉 에이전트 자체가 일반 파일 도구를 통해 읽고 쓰고 재구성하는 마크다운 파일의 디렉터리 트리로 유지합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26637">Hugging Face Papers</source>
+      <guid isPermaLink="false">176bdca678fbdc03fc3f2f9d074257bf</guid>
+    </item>
+    <item>
+      <title>공정성 가지치기: 차등 활성화를 통해 GLU-MLP 계층에서 인구통계학적 편향 찾기</title>
+      <link>https://huggingface.co/papers/2607.28319</link>
+      <description>이 연구에서는 대규모 언어 모델(LLM)의 인구통계적 편향을 관리하고 향후 완화하기 위해 설계된 경량의 구조적 개입 방법인 공정성 가지치기(Fairness Pruning)를 제시합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28319">Hugging Face Papers</source>
+      <guid isPermaLink="false">176b15b9e42b5fa3e4d54ee7fae4bcec</guid>
+    </item>
+    <item>
+      <title>Σ-Mem: LLM 기반 다중 에이전트 시스템을 위한 온라인 신뢰성 메모리</title>
+      <link>https://huggingface.co/papers/2607.27958</link>
+      <description>메모리는 장거리 LLM 에이전트의 핵심이지만 기존 메모리 시스템은 신뢰할 수 있는 에이전트와 조건을 모델링하는 대신 주로 상호 작용 콘텐츠를 보존합니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27958">Hugging Face Papers</source>
+      <guid isPermaLink="false">aa44c9d43be8d638cb2b4604f6f854f1</guid>
+    </item>
+    <item>
+      <title>보행자 원형 확장 - 자율 주행 차량 안전 테스트를 위한 추가 보행자 모델</title>
+      <link>https://huggingface.co/papers/2607.16922</link>
+      <description>이전 작업인 보행자 원형(Pedestrian Archetypes)에서 우리는 보행자 원형을 특정 유형의 보행자를 고유하게 식별하는 행동 모음으로 정의했습니다.</description>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.16922">Hugging Face Papers</source>
+      <guid isPermaLink="false">f450f3a4adc9efac16bf1e2200fa40d0</guid>
+    </item>
     <item>
       <title>Deep Research는 신뢰할 수 있나요? 오해의 소지가 있는 지식은 잘못된 결론을 유도합니다</title>
       <link>https://huggingface.co/papers/2607.20891</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.27205">Hugging Face Papers</source>
       <guid isPermaLink="false">24b499f152174212307f5d96a11a9b52</guid>
-    </item>
-    <item>
-      <title>CoRT: 토큰 수준 루브릭 기반 정책 최적화를 위한 반사실적 재생</title>
-      <link>https://huggingface.co/papers/2607.25659</link>
-      <description>루브릭 기반 강화 학습은 명시적인 기준에 따라 모델 출력을 평가하여 언어 모델 훈련을 강화합니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25659">Hugging Face Papers</source>
-      <guid isPermaLink="false">11239af1f269265a6bb9d3cd52ca887e</guid>
-    </item>
-    <item>
-      <title>OmegaUse-OfficeVal: 경제적 기반을 바탕으로 장거리 Office 제품군 작업에 대한 LLM 에이전트 벤치마킹</title>
-      <link>https://huggingface.co/papers/2607.27155</link>
-      <description>LLM(대형 언어 모델) 에이전트는 사용자가 작업을 완료하는 데 도움을 줄 것으로 점점 더 기대되고 있습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27155">Hugging Face Papers</source>
-      <guid isPermaLink="false">26041eecc94e72ded679cd9a003bbc9a</guid>
-    </item>
-    <item>
-      <title>SkillRise: 교차 작업 기술 진화를 위한 에이전트 강화 학습</title>
-      <link>https://huggingface.co/papers/2607.26784</link>
-      <description>대규모 언어 모델 에이전트는 재사용 가능한 솔루션 패턴을 공유하는 서로 관련되어 있지만 별개의 작업에 직면하는 경우가 많습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26784">Hugging Face Papers</source>
-      <guid isPermaLink="false">7eb6b22dfa630d2197661c31a8d55193</guid>
-    </item>
-    <item>
-      <title>GPT-Red: 대규모 셀프 플레이를 통한 자동화된 레드팀 구성</title>
-      <link>https://huggingface.co/papers/2607.26115</link>
-      <description>프론티어 LLM에 대한 새로운 프롬프트 주입 공격을 발견하도록 훈련된 자동화된 레드팀 구성 에이전트인 GPT-Red를 소개합니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26115">Hugging Face Papers</source>
-      <guid isPermaLink="false">5c1e1c6a0f50ddfb6e147e7e3c53cc48</guid>
-    </item>
-    <item>
-      <title>HumanCLAW: 시각 언어 모델이 신체를 통해 작동할 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2607.27180</link>
-      <description>VLM(시각 언어 모델)이 신체를 통해 작동할 수 있는지 여부를 평가하는 것은 어렵습니다. 행동의 결과는 VLM의 결정과 모터 제어를 결합합니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27180">Hugging Face Papers</source>
-      <guid isPermaLink="false">0109a17db7164fb024d5e7ca7e6c3464</guid>
     </item>
   </channel>
 </rss>
