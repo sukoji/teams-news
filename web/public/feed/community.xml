@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 01 Aug 2026 17:28:08 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 19:42:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Google DeepMind, 전신 지능과 멀티 로봇 협업을 갖춘 Gemini Robotics 2 공개</title>
+      <link>https://discuss.pytorch.kr/t/google-deepmind-gemini-robotics-2/11488</link>
+      <description>Gemini Robotics 2 소개 Gemini Robotics 2 는 Google DeepMind가 2026년 7월 30일 공개한 차세대 로봇 AI 모델 제품군으로, 휴머노이드 로봇의 발끝부터 손끝까지 전신을 통합적으로 제어하는 전신 지능(Whole-body Intelligence) 을 구현한 것이 가장 큰 특징입니다.</description>
+      <pubDate>Sat, 01 Aug 2026 19:30:50 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-deepmind-gemini-robotics-2/11488">PyTorch Korea</source>
+      <guid isPermaLink="false">951e3674410958b987d74f7d72bc2517</guid>
+    </item>
     <item>
       <title>당근 디자인 시스템 SEED, llms.txt와 MCP로 AI 에이전트에게 문서를 여는 방법</title>
       <link>https://discuss.pytorch.kr/t/seed-llms-txt-mcp-ai/11462</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/hallmark-ai/11348">PyTorch Korea</source>
       <guid isPermaLink="false">f2973dbe2c56e13984d8b103f65cf0ba</guid>
-    </item>
-    <item>
-      <title>LoopGain: 수렴하면 멈추는 AI 에이전트 루프 비용 컨트롤러</title>
-      <link>https://discuss.pytorch.kr/t/loopgain-ai/11375</link>
-      <description>LoopGain 소개 AI 에이전트가 스스로 출력을 검증하고 고쳐 쓰는 반복 루프는 언제 멈춰야 할지를 모를 때 시간과 돈을 낭비합니다. 현업의 에이전트 루프는 거의 예외 없이 max_iterations=N 을 종료 정책으로 씁니다. 이 방식은 딜레마를 안고 있습니다.</description>
-      <pubDate>Fri, 24 Jul 2026 12:30:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/loopgain-ai/11375">PyTorch Korea</source>
-      <guid isPermaLink="false">b934e9e2f6580169b016c7290343091e</guid>
     </item>
   </channel>
 </rss>
