@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 02 Aug 2026 11:53:40 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 15:03:13 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>양자컴퓨터, GPU로 양자 AI 시뮬레이션을 만들어보다.</title>
+      <link>https://discuss.pytorch.kr/t/gpu-ai/11495</link>
+      <description>PyTorch로 만든 GPU 양자회로 시뮬레이터 — H100에서 33~34큐비트, 자연어 코파일럿까지 statevector 시뮬레이터 전체를 순수 torch 텐서 연산으로 구현해 GPU에서 돌리고, 앞단에 LLM을 붙여 문장 한 줄로 회로를 만들 수 있게 했습니다. 실제 IBM 장비로 보정했고, 무료로 브라우저에서 돌아갑니다.</description>
+      <pubDate>Sun, 02 Aug 2026 13:31:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gpu-ai/11495">PyTorch Korea</source>
+      <guid isPermaLink="false">116db716cadaa2d36b29288c6afddb7c</guid>
+    </item>
     <item>
       <title>autoskills: 프로젝트 기술 스택을 감지해 AI 에이전트 스킬을 자동 설치하는 CLI</title>
       <link>https://discuss.pytorch.kr/t/autoskills-ai-cli/11489</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/phantom-ai/11349">PyTorch Korea</source>
       <guid isPermaLink="false">ceb096b71509e4861c87b21fa09345e9</guid>
-    </item>
-    <item>
-      <title>OfficeCLI: AI 에이전트가 Word, Excel, PowerPoint 문서를 다루는 명령줄 도구</title>
-      <link>https://discuss.pytorch.kr/t/officecli-ai-word-excel-powerpoint/11347</link>
-      <description>OfficeCLI 소개 Word, Excel, PowerPoint 파일을 코드로 만들거나 고치는 일은 지금까지 python-docx , openpyxl , python-pptx 같은 라이브러리를 형식마다 따로 붙여 쓰는 방식이 일반적이었습니다. 형식이 세 가지라 API도 세 벌이고, 무엇보다 AI 에이전트가 문서를 생성할 때 결과물이 실제로 어떻게 보이는지 확인할 방법이 없었습니다.</description>
-      <pubDate>Fri, 24 Jul 2026 14:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/officecli-ai-word-excel-powerpoint/11347">PyTorch Korea</source>
-      <guid isPermaLink="false">8e9285cff7885616a6e51a3597554e7d</guid>
     </item>
   </channel>
 </rss>
