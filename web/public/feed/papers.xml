@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 11:55:08 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 15:26:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>자체 증류를 통해 루브릭 기반 RL 강화</title>
+      <link>https://huggingface.co/papers/2607.18082</link>
+      <description>루브릭 기반 RL은 최근 개방형 작업에서 LLM을 개선하는 데 가능성을 보여주었습니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.18082">Hugging Face Papers</source>
+      <guid isPermaLink="false">65e1e7d3c01cdfe8dcc62ddc760d8aa8</guid>
+    </item>
+    <item>
+      <title>복사 가능한 컨텍스트를 기반으로 한 보호 장치는 LLM에 신뢰할 수 있는 안전을 제공할 수 없습니다.</title>
+      <link>https://huggingface.co/papers/2607.27951</link>
+      <description>대규모 언어 모델 보호 장치는 답변이 어떻게 사용될지 보기 전에 답변할지 여부를 결정합니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27951">Hugging Face Papers</source>
+      <guid isPermaLink="false">aa80e4b46e107666239b7bdd21ffc484</guid>
+    </item>
     <item>
       <title>RLVR에서 RLSVR로: 작업 변환은 개방형 LLM 자기 개선에 대한 자체 검증 가능한 보상을 유도합니다.</title>
       <link>https://huggingface.co/papers/2607.23802</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.27278">Hugging Face Papers</source>
       <guid isPermaLink="false">ad8273a22a12c5e6a9719cefcc1dc542</guid>
-    </item>
-    <item>
-      <title>ReToken: 시각적 검색을 위한 비전-언어 모델을 개선하는 하나의 토큰</title>
-      <link>https://huggingface.co/papers/2607.28627</link>
-      <description>긴 시각적 컨텍스트는 비전 언어 모델에 문제를 제기합니다. 산만한 요소의 수가 증가함에 따라 성능이 저하되고 모든 토큰을 한 번에 처리하는 것은 GPU 메모리 제약 하에서 계산상 불가능합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28627">Hugging Face Papers</source>
-      <guid isPermaLink="false">999adbee43c0dbc65be8e9437ab79f39</guid>
-    </item>
-    <item>
-      <title>SpecFirst: 처음부터 에이전트 기반 프로그램 합성의 첫 번째 단계인 동작 사양 추출</title>
-      <link>https://huggingface.co/papers/2607.27167</link>
-      <description>LLM 기반 에이전트는 기존 코드베이스가 컨텍스트를 제공하는 소프트웨어 엔지니어링 작업에 탁월하지만 처음부터 프로그램을 구성하는 것은 근본적으로 더 어렵습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27167">Hugging Face Papers</source>
-      <guid isPermaLink="false">66671b3033c33f4eee353337e8022b31</guid>
     </item>
   </channel>
 </rss>
