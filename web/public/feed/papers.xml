@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 22:42:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 01:27:37 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SAF-OPD: 정책에 따른 증류를 위한 안정적인 이점 융합</title>
+      <link>https://huggingface.co/papers/2607.29209</link>
+      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 모든 토큰에 단일 응답 수준 보상을 브로드캐스팅하는 반면, 정책 준수 증류(OPD)는 더 강력한 교사에 대해 각 토큰의 점수를 매기므로 밀집된 이점을 얻을 수 있지만…</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29209">Hugging Face Papers</source>
+      <guid isPermaLink="false">2a61de760c3b3bcbdec8e0c053907d82</guid>
+    </item>
+    <item>
+      <title>EMBL AI 사서: AI 에이전트를 위한 생명과학 지식 계층</title>
+      <link>https://huggingface.co/papers/2607.28229</link>
+      <description>인간이 아닌 AI 에이전트가 웹에 액세스하는 경우가 점점 늘어나고 있습니다. 모든 에이전트에는 특히 에이전트 파이프라인이 빠르게 성장하고 있는 생명 과학 분야에 대한 지식이 필요합니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28229">Hugging Face Papers</source>
+      <guid isPermaLink="false">1b9acfd21a51f1fac73cfe9f946a55b7</guid>
+    </item>
+    <item>
+      <title>기분이 좋아지는 것을 넘어서: 종단적 연구 패러다임으로서의 능력을 유지하는 정서적 대화</title>
+      <link>https://huggingface.co/papers/2607.27851</link>
+      <description>감정적 대화 연구에는 두 가지 영향력 있는 전략 전통이 포함됩니다. 공감적 대화는 화자의 정서적 경험을 이해하는 것을 우선시합니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27851">Hugging Face Papers</source>
+      <guid isPermaLink="false">affedbd8c27c62754238c56fc539cd8c</guid>
+    </item>
     <item>
       <title>더 적은 설명, 더 나은 코드: 코딩 도우미의 크로스 세션 벤치마킹 개인화된 모호성 적응</title>
       <link>https://huggingface.co/papers/2607.26611</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.27616">Hugging Face Papers</source>
       <guid isPermaLink="false">6510b446b0398539d37e0d1fd6ecd009</guid>
-    </item>
-    <item>
-      <title>Echoverse: 대규모 컴퓨터 사용 에이전트 교육을 위한 심도 있고 진화하는 환경</title>
-      <link>https://huggingface.co/papers/2607.28074</link>
-      <description>컴퓨터 사용 에이전트는 자신의 행동이 어떻게 변화하는지 학습하므로 교육에는 작동하고 중단하고 재설정할 수 있는 응용 프로그램이 필요합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28074">Hugging Face Papers</source>
-      <guid isPermaLink="false">67c4c4ceeccf14f7b2b652ed91b10b19</guid>
-    </item>
-    <item>
-      <title>VideoCoCo: Agentic 이중 엔진 시스템을 통해 물리적으로 일관된 비디오 생성을 위한 Code-as-CoT</title>
-      <link>https://huggingface.co/papers/2607.27380</link>
-      <description>텍스트-비디오 모델은 놀라운 시각적 품질을 달성했지만 장면의 시간적 진화는 고도로 압축된 데이터로부터 암묵적으로 추론되어야 하기 때문에 물리적으로 일관된 역동성을 생성하는 데 여전히 어려움을 겪고 있습니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27380">Hugging Face Papers</source>
-      <guid isPermaLink="false">cea69c3df4e3d31493ea83a7b8ec0350</guid>
-    </item>
-    <item>
-      <title>대규모 메모리 디코더: 사전 훈련된 파라메트릭 장기 메모리</title>
-      <link>https://huggingface.co/papers/2607.27919</link>
-      <description>디코더 전용 언어 모델은 단일 매개변수 세트에 장기 기억과 추론을 얽혀 있어 메모리 용량을 독립적으로 확장하기가 어렵습니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27919">Hugging Face Papers</source>
-      <guid isPermaLink="false">904a91908ae74d12ab62444074582a61</guid>
     </item>
   </channel>
 </rss>
