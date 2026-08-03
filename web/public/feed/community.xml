@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 19:44:22 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 22:42:40 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TurboFieldfare: 8GB 맥북에서 Gemma 4 26B를 약 2GB 메모리로 돌리는 Swift 런타임</title>
+      <link>https://discuss.pytorch.kr/t/turbofieldfare-8gb-gemma-4-26b-2gb-swift/11502</link>
+      <description>TurboFieldfare 소개 로컬에서 큰 모델을 돌리려면 메모리가 먼저 걸립니다. Gemma 4 26B-A4B의 4비트 양자화 체크포인트는 설치 용량이 약 14.3GB인데, 통합 메모리 8GB짜리 맥북 에어에는 애초에 올라가지 않습니다.</description>
+      <pubDate>Mon, 03 Aug 2026 21:30:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/turbofieldfare-8gb-gemma-4-26b-2gb-swift/11502">PyTorch Korea</source>
+      <guid isPermaLink="false">29e28e5927f45beedb8932af0b5bdac2</guid>
+    </item>
     <item>
       <title>SimpleMem: LLM 에이전트의 장기 기억을 압축해 토큰을 최대 30배 줄이는 메모리 프레임워크</title>
       <link>https://discuss.pytorch.kr/t/simplemem-llm-30/11501</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/memsearch-ai/11411">PyTorch Korea</source>
       <guid isPermaLink="false">a4535298981544b6eb9a82ecf545b8ac</guid>
-    </item>
-    <item>
-      <title>ko-embedding-leaderboard: 한국어 임베딩 모델을 평가하는 오픈소스 리더보드</title>
-      <link>https://discuss.pytorch.kr/t/ko-embedding-leaderboard/11416</link>
-      <description>ko-embedding-leaderboard 소개 RAG 시스템이나 검색 기능을 한국어로 만들 때 가장 먼저 부딪히는 선택은 "어떤 임베딩 모델을 쓸 것인가" 입니다. 후보는 많지만, 영어 벤치마크 점수가 높다고 해서 한국어 검색에서도 잘 동작한다는 보장은 없습니다. 모델마다 평가 방식과 데이터셋이 제각각이라 공정하게 비교하기도 어렵습니다.</description>
-      <pubDate>Sun, 26 Jul 2026 09:30:49 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ko-embedding-leaderboard/11416">PyTorch Korea</source>
-      <guid isPermaLink="false">38b54b91924b310de0de554f59c54b07</guid>
     </item>
   </channel>
 </rss>
