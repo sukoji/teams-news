@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 15:26:34 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 19:44:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SimpleMem: LLM 에이전트의 장기 기억을 압축해 토큰을 최대 30배 줄이는 메모리 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/simplemem-llm-30/11501</link>
+      <description>SimpleMem 소개 에이전트에게 장기 기억을 붙이는 방법은 크게 두 갈래로 굳어졌습니다. 하나는 지나간 대화를 그대로 들고 다니며 컨텍스트를 늘리는 쪽인데, 같은 이야기가 여러 번 반복되어 들어가고 토큰이 그만큼 낭비됩니다. 다른 하나는 저장된 기록을 매번 다시 읽고 추론해 노이즈를 걸러내는 쪽인데, 이번에는 질문 한 번의 비용과 응답 시간이 올라갑니다.</description>
+      <pubDate>Mon, 03 Aug 2026 17:00:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/simplemem-llm-30/11501">PyTorch Korea</source>
+      <guid isPermaLink="false">67c316d39489fe6992db88e56d0a595b</guid>
+    </item>
+    <item>
+      <title>Qwen, Max 계열 최초로 가중치를 공개하는 2.4T 규모 플래그십 모델 Qwen3.8-Max 출시 및 공개 예정</title>
+      <link>https://discuss.pytorch.kr/t/qwen-max-2-4t-qwen3-8-max/11509</link>
+      <description>Qwen3.8-Max 소개 Qwen 팀이 2026년 8월 3일 새로운 플래그십 모델 Qwen3.8-Max 를 공개했습니다. 전체 2.4조(2.4T) 파라미터 가운데 토큰당 950억(95B) 개를 활성화하는 MoE 구조이며, 지난 Qwen3.5 의 아키텍처를 토대로 규모를 키웠습니다.</description>
+      <pubDate>Mon, 03 Aug 2026 18:30:07 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/qwen-max-2-4t-qwen3-8-max/11509">PyTorch Korea</source>
+      <guid isPermaLink="false">5915775f4caa47fc6ba52967abbe3115</guid>
+    </item>
     <item>
       <title>Codex Security: 취약점 탐지부터 검증, 패치까지 수행하는 OpenAI의 보안 스캔 CLI 및 SDK</title>
       <link>https://discuss.pytorch.kr/t/codex-security-openai-cli-sdk/11487</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ko-embedding-leaderboard/11416">PyTorch Korea</source>
       <guid isPermaLink="false">38b54b91924b310de0de554f59c54b07</guid>
-    </item>
-    <item>
-      <title>gigatoken: HuggingFace보다 약 1000배 빠른 GB/s급 LLM 토크나이저</title>
-      <link>https://discuss.pytorch.kr/t/gigatoken-huggingface-1000-gb-s-llm/11414</link>
-      <description>gigatoken 소개 대규모 언어 모델을 학습할 때는 수십 기가바이트에서 수 테라바이트에 이르는 텍스트를 토큰으로 변환해야 합니다. 이 토큰화 단계는 GPU 학습만큼 눈에 띄지는 않지만, 데이터가 커질수록 전체 파이프라인에서 무시할 수 없는 시간을 차지합니다.</description>
-      <pubDate>Sat, 25 Jul 2026 18:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gigatoken-huggingface-1000-gb-s-llm/11414">PyTorch Korea</source>
-      <guid isPermaLink="false">bed2807dc73463fde02a9dab851b9769</guid>
-    </item>
-    <item>
-      <title>open-kritt: 여러 AI 에이전트로 코드 취약점을 찾는 오픈소스 보안 연구 플랫폼</title>
-      <link>https://discuss.pytorch.kr/t/open-kritt-ai/11418</link>
-      <description>open-kritt 소개 LLM에게 저장소 전체를 던지며 "여기서 취약점을 찾아줘" 라고 요청하는 방식은 대개 잘 동작하지 않습니다. 맥락이 너무 넓어 모델이 얕게 훑고 지나가거나, 같은 문제를 여러 번 다르게 보고하거나, 검증되지 않은 추측을 findings로 쏟아내기 때문입니다.</description>
-      <pubDate>Sat, 25 Jul 2026 15:30:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/open-kritt-ai/11418">PyTorch Korea</source>
-      <guid isPermaLink="false">eb82da17e17275f217159227da3f6c38</guid>
     </item>
   </channel>
 </rss>
