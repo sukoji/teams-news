@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 08:54:52 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:55:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>RLVR에서 RLSVR로: 작업 변환은 개방형 LLM 자기 개선에 대한 자체 검증 가능한 보상을 유도합니다.</title>
+      <link>https://huggingface.co/papers/2607.23802</link>
+      <description>RLVR(검증 가능한 보상을 통한 강화 학습)은 대규모 최적화를 지원하여 추론 중심 LLM(대형 언어 모델)의 최근 발전을 주도했습니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.23802">Hugging Face Papers</source>
+      <guid isPermaLink="false">d70f5284dc34e24fed873bfde6037bb1</guid>
+    </item>
+    <item>
+      <title>N_0-VTLA: 잠재 촉각 토큰을 사용한 시각-촉각-언어-행동 모델 확장</title>
+      <link>https://huggingface.co/papers/2607.23782</link>
+      <description>(1) 촉각 인식 및 촉각 피드백 제어를 통해 세밀한 접촉이 풍부한 조작과 (2) 오프라인 정책 개선이 가능한 비전-촉각-언어-행동(VTLA) 기반 모델인 N_0-VTLA를 제시합니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.23782">Hugging Face Papers</source>
+      <guid isPermaLink="false">bde9871a05833f705984b24aa3dee531</guid>
+    </item>
+    <item>
+      <title>AISPA: 대규모 언어 모델 애플리케이션을 위한 사용자 중심 시스템 프롬프트 감사</title>
+      <link>https://huggingface.co/papers/2607.28617</link>
+      <description>시스템 프롬프트는 AI 애플리케이션에서 기본 모델의 동작을 제어하기 위해 개발자가 구성한 지침입니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28617">Hugging Face Papers</source>
+      <guid isPermaLink="false">3b97d62bf2f77335fcd765c8ff7ce23f</guid>
+    </item>
+    <item>
+      <title>QQWorld: 월드 모델 정규화를 위한 분위수-분위수 매칭</title>
+      <link>https://huggingface.co/papers/2607.28415</link>
+      <description>잠재 세계 모델은 컴팩트한 표현 공간에서 미래 상태를 예측하여 효율적인 계획을 가능하게 하지만 성능은 학습된 잠재 분포의 품질에 따라 결정적으로 달라집니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28415">Hugging Face Papers</source>
+      <guid isPermaLink="false">063cb84f9cb0c6b051024b6c0a892301</guid>
+    </item>
+    <item>
+      <title>시각적 생성에서 텍스트 조절의 크기 조정 속성</title>
+      <link>https://huggingface.co/papers/2607.29679</link>
+      <description>우리는 시각적 생성에서 텍스트 조건화에 대한 경험적 스케일링 속성을 연구합니다. 확산 손실은 자연어 프롬프트의 토큰 수에 따라 확장되지 않기 때문에 이러한 속성은 거의 측정되지 않았습니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29679">Hugging Face Papers</source>
+      <guid isPermaLink="false">a1777a4e0f987649cff2a4a8f66ee7ee</guid>
+    </item>
+    <item>
+      <title>ExtractBench: 스키마 기반 기업 문서 추출을 위한 벤치마크</title>
+      <link>https://huggingface.co/papers/2607.29677</link>
+      <description>기업 워크플로는 점점 더 스키마 기반 추출을 위해 에이전트에 의존하고 있습니다. 문서와 사용자 정의 스키마가 주어지면 에이전트는 스키마를 충실히 따라 소스 증거를 기반으로 올바른 출력을 생성합니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29677">Hugging Face Papers</source>
+      <guid isPermaLink="false">060557bb5956c90f12d2d8fe6282d595</guid>
+    </item>
+    <item>
+      <title>Meshy T2: 흐름 일치를 통한 빠른 기본 메시 생성</title>
+      <link>https://huggingface.co/papers/2607.28675</link>
+      <description>다각형 메시는 최신 3D 파이프라인의 표준 표면 표현이며, 아티스트 스타일 토폴로지를 사용하여 고품질 메시를 생성하는 것은 영화, 게임 및 대화형 3D 애플리케이션에 필수적입니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28675">Hugging Face Papers</source>
+      <guid isPermaLink="false">f35b1627413df168c30be55c7da399f2</guid>
+    </item>
+    <item>
+      <title>일관된 다중 참조 이미지 편집에 대한 평가-검증 보상</title>
+      <link>https://huggingface.co/papers/2607.29025</link>
+      <description>최근 이미지 편집 모델이 급속도로 발전했지만, 다중 참조 편집은 여전히 ​​어려운 과제로 남아 있습니다. 특히 참조 간 시각적 일관성을 유지하고 전체적인 시각적 조화를 보장하는 데에는 더욱 그렇습니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29025">Hugging Face Papers</source>
+      <guid isPermaLink="false">24847b320054426ed00e03344fb0a051</guid>
+    </item>
     <item>
       <title>🥇금주의 최고 AI 논문</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ef5</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.27167">Hugging Face Papers</source>
       <guid isPermaLink="false">66671b3033c33f4eee353337e8022b31</guid>
-    </item>
-    <item>
-      <title>에이전트적 음성 인식을 위한 음성 기억</title>
-      <link>https://huggingface.co/papers/2607.26410</link>
-      <description>우리는 에이전트 음성 인식을 위한 추론 전용 체계인 음성 메모리를 제시합니다. 스트림 시간에 고정 교정기는 단일 도메인당 memory.md를 읽고 발화별로 가설에 따라 조치를 취할지 아니면 절대…</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26410">Hugging Face Papers</source>
-      <guid isPermaLink="false">43d53bef97ec71b84f8375598b568e2f</guid>
-    </item>
-    <item>
-      <title>MindForge: 소스 프리 프로그램 합성을 통해 소규모 언어 모델 전체 수명 주기 소프트웨어 엔지니어링 교육</title>
-      <link>https://huggingface.co/papers/2607.27146</link>
-      <description>코딩 에이전트는 버그 수정 및 기능 구현을 포함하여 기존 코드베이스를 수정하는 소프트웨어 엔지니어링 작업에서 상당한 진전을 이루었습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27146">Hugging Face Papers</source>
-      <guid isPermaLink="false">054009f169fefc51f34482392d10c0ba</guid>
-    </item>
-    <item>
-      <title>DistillAlign: 자동 회귀 비디오 증류에서 모드 커버링 및 모드 탐색 조정</title>
-      <link>https://huggingface.co/papers/2607.26811</link>
-      <description>기존 자동 회귀 비디오 증류 방법은 일반적으로 DMD(Distribution Matching Distillation) 기반 다단계 파이프라인을 채택합니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26811">Hugging Face Papers</source>
-      <guid isPermaLink="false">44e66fbf6f656ef1dd826b7acba12719</guid>
-    </item>
-    <item>
-      <title>πR^2: 반응형 실시간 흐름 정책</title>
-      <link>https://huggingface.co/papers/2607.26055</link>
-      <description>일반 조작 정책은 사전 훈련된 대형 백본을 기반으로 구축된 작업 청킹 흐름 정책의 형태를 점점 더 많이 취하고 있습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26055">Hugging Face Papers</source>
-      <guid isPermaLink="false">b75aca5789d7a869b9251415d0dc7d14</guid>
-    </item>
-    <item>
-      <title>CADENCE: 적용 범위 적응형 정책 증류를 통해 추론 격차 해소</title>
-      <link>https://huggingface.co/papers/2607.16955</link>
-      <description>정책에 관한 지식 증류는 대규모 교사에서 소형 학생으로 추론을 이전하지만 기존 접근 방식은 세 가지 복합적인 실패 모드를 겪습니다. (i) 신선한 학생이 거의 z에 가까운 할당을 하는 콜드 스타트 ​​붕괴…</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16955">Hugging Face Papers</source>
-      <guid isPermaLink="false">fa955010e8c378c9d152710842951223</guid>
-    </item>
-    <item>
-      <title>대규모 언어 모델을 위한 메모리</title>
-      <link>https://huggingface.co/papers/2607.25380</link>
-      <description>메모리는 대규모 언어 모델(LLM)의 기본 아키텍처 차원으로 발전하여 암묵적인 계산 부산물에서 명시적이고 제어 가능한 메커니즘의 스펙트럼으로 전환되었습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25380">Hugging Face Papers</source>
-      <guid isPermaLink="false">96378a36c5ebdacea3795a50c002d57d</guid>
-    </item>
-    <item>
-      <title>StatePlay: 역학적으로 일관된 생성을 위한 상태 인식 게임 세계 모델</title>
-      <link>https://huggingface.co/papers/2607.26754</link>
-      <description>최근의 게임 세계 모델은 플레이어의 행동에 따라 시각적으로 현실적이고 상호 작용하는 환경을 생성할 수 있습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26754">Hugging Face Papers</source>
-      <guid isPermaLink="false">e7cc6f438baab6a343ffb23e99ffc307</guid>
-    </item>
-    <item>
-      <title>CLBench-V: 기초부터 지식 습득까지 다중 모드 컨텍스트 학습 평가</title>
-      <link>https://huggingface.co/papers/2607.25294</link>
-      <description>실제 작업에서는 모델이 사전 훈련된 지식에만 의존하기보다는 작업별 상황에서 학습해야 하는 경우가 많습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25294">Hugging Face Papers</source>
-      <guid isPermaLink="false">d0f9cb99b235408bc7a2673eb8563bfa</guid>
     </item>
   </channel>
 </rss>

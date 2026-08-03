@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 08:54:52 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:55:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>darwin-skill: 평가와 회귀 테스트로 에이전트 스킬을 진화시키는 최적화 루프</title>
+      <link>https://discuss.pytorch.kr/t/darwin-skill/11492</link>
+      <description>darwin-skill 소개 에이전트 스킬(SKILL.md) 생태계가 빠르게 커지면서 새로운 유지보수 문제가 생겼습니다. Claude Code, Codex, OpenClaw, Trae, CodeBuddy 등 여러 도구가 같은 SKILL.md 형식을 지원하고, 스킬이 10개일 때는 손으로 관리할 수 있지만 60개를 넘어가면 체계가 필요합니다.</description>
+      <pubDate>Mon, 03 Aug 2026 09:30:27 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/darwin-skill/11492">PyTorch Korea</source>
+      <guid isPermaLink="false">2d485f26795db8fa4ff96109d281ac47</guid>
+    </item>
     <item>
       <title>[2026/07/27 ~ 08/02] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-07-27-08-02-ai-ml/11499</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/crawlee-ai-llm-node-js/11407">PyTorch Korea</source>
       <guid isPermaLink="false">7c7b68486c92445b6e26791ebc896cd2</guid>
-    </item>
-    <item>
-      <title>pgContext: PostgreSQL을 AI 검색 엔진으로 만드는 벡터 및 하이브리드 검색 확장</title>
-      <link>https://discuss.pytorch.kr/t/pgcontext-postgresql-ai/11397</link>
-      <description>pgContext 소개 애플리케이션이 이미 PostgreSQL에 데이터를 담고 있어도, 의미 기반 검색을 붙이려면 보통 별도의 벡터 검색 서비스를 하나 더 세우게 됩니다. 이렇게 되면 원본 데이터를 그 서비스로 복사해야 하고, 권한과 백업, 복구 경계가 둘로 나뉘어 서로 동기화 상태를 유지해야 하는 부담이 생깁니다.</description>
-      <pubDate>Sat, 25 Jul 2026 09:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pgcontext-postgresql-ai/11397">PyTorch Korea</source>
-      <guid isPermaLink="false">6b829435d632ac0c1424277a66dd8d4f</guid>
     </item>
   </channel>
 </rss>
