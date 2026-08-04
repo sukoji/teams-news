@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 05 Aug 2026 05:27:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 07:14:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Instella-MoE: AMD Instinct GPU에서 처음부터 학습한 완전 오픈 16B MoE 모델</title>
+      <link>https://discuss.pytorch.kr/t/instella-moe-amd-instinct-gpu-16b-moe/11518</link>
+      <description>Instella-MoE 소개 Instella-MoE 는 AMD가 자사의 Instinct MI300X 및 MI325X GPU에서 처음부터(from scratch) 학습해 공개한 전체 파라미터 16B , 토큰당 활성 파라미터 2.8B 규모의 완전 오픈(fully open) 전문가 혼합(Mixture-of-Experts, MoE) 언어 모델입니다.</description>
+      <pubDate>Wed, 05 Aug 2026 06:30:34 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/instella-moe-amd-instinct-gpu-16b-moe/11518">PyTorch Korea</source>
+      <guid isPermaLink="false">2cc6c98514b99d51aba3d043cc1c5d4a</guid>
+    </item>
     <item>
       <title>MiniMax, 영상과 음향을 함께 만드는 33B 옴니모달 모델 H3 웨이트 공개 (단, 한국 사용 금지🫠)</title>
       <link>https://discuss.pytorch.kr/t/minimax-33b-h3/11523</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/2026-07-20-26-ai-ml/11419">PyTorch Korea</source>
       <guid isPermaLink="false">d529d1193ab8714294281d5487688ef7</guid>
-    </item>
-    <item>
-      <title>Claude Opus 5와 Fable 5를 어떻게 나눠 써야 할까: 채택된 작업 비용으로 보는 선택 기준</title>
-      <link>https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431</link>
-      <description>안녕하세요, 파이토치 코리아 여러분! Claude Opus 5와 Claude Fable 5는 모두 100만 토큰 컨텍스트를 제공하지만, 외부 보도에서 다루는 역할과 가격, 데이터 보존 조건, 대체 라우팅(fallback)은 서로 다릅니다. 따라서 공개 벤치마크의 한 줄 순위나 토큰 가격만 보고 팀의 기본 모델을 정하기는 어렵습니다.</description>
-      <pubDate>Sun, 26 Jul 2026 18:15:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431">PyTorch Korea</source>
-      <guid isPermaLink="false">591471d5a1756ff2daf13559f62042c2</guid>
     </item>
   </channel>
 </rss>
