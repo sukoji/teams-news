@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 04 Aug 2026 16:41:28 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:40:58 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>RecHarness: 자가 진화 추천 시스템을 위한 밴디트 라우팅 에이전트 하네스</title>
+      <link>https://huggingface.co/papers/2607.29241</link>
+      <description>최신 추천 모델 최적화는 여전히 엔지니어가 아키텍처, 목표 및 교육 전략 변경 사항을 수동으로 반복하는 데 크게 의존합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29241">Hugging Face Papers</source>
+      <guid isPermaLink="false">622627bd1df5a40dc1d06e5048c21a7d</guid>
+    </item>
+    <item>
+      <title>GPTQ-2D: 3차 시간 양면 적응형 반올림</title>
+      <link>https://huggingface.co/papers/2607.27042</link>
+      <description>GPTQ 또는 Babai의 가장 가까운 평면 알고리즘과 같은 적응형 반올림 방법은 실수 행렬을 2차 메트릭 아래의 정수로 반올림합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27042">Hugging Face Papers</source>
+      <guid isPermaLink="false">5522f9125e0373f43eb6adf1da94eb0f</guid>
+    </item>
+    <item>
+      <title>GradCuit: 크레딧이 할당된 그라데이션 흐름으로 강력하고 해석 가능한 테스트 시간 잠재 추론 가능</title>
+      <link>https://huggingface.co/papers/2608.02585</link>
+      <description>최적화 기반 잠재 추론은 모델 매개변수를 고정한 상태로 유지하면서 테스트 시 인스턴스별 연속 상태를 최적화하여 대규모 언어 모델 출력을 개선합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02585">Hugging Face Papers</source>
+      <guid isPermaLink="false">16ebc59802056f735c05d5b94fbad314</guid>
+    </item>
+    <item>
+      <title>DreamTraj: 렌더링되지 않은 비디오 확산 잠재성을 읽어 6-DoF 개체 궤적 생성</title>
+      <link>https://huggingface.co/papers/2608.00486</link>
+      <description>조작 중 물체 궤적을 정확하게 예측하는 것은 인식-행동 루프를 닫는 데 필수적입니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00486">Hugging Face Papers</source>
+      <guid isPermaLink="false">28106ec1a8b08fd51f02c7753e70b38a</guid>
+    </item>
     <item>
       <title>LongHorizon-Harness: 실제 작업을 위한 Long-Horizon 에이전트 발전</title>
       <link>https://huggingface.co/papers/2608.01964</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.29679">Hugging Face Papers</source>
       <guid isPermaLink="false">a1777a4e0f987649cff2a4a8f66ee7ee</guid>
-    </item>
-    <item>
-      <title>ExtractBench: 스키마 기반 기업 문서 추출을 위한 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.29677</link>
-      <description>기업 워크플로는 점점 더 스키마 기반 추출을 위해 에이전트에 의존하고 있습니다. 문서와 사용자 정의 스키마가 주어지면 에이전트는 스키마를 충실히 따라 소스 증거를 기반으로 올바른 출력을 생성합니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.29677">Hugging Face Papers</source>
-      <guid isPermaLink="false">060557bb5956c90f12d2d8fe6282d595</guid>
-    </item>
-    <item>
-      <title>Meshy T2: 흐름 일치를 통한 빠른 기본 메시 생성</title>
-      <link>https://huggingface.co/papers/2607.28675</link>
-      <description>다각형 메시는 최신 3D 파이프라인의 표준 표면 표현이며, 아티스트 스타일 토폴로지를 사용하여 고품질 메시를 생성하는 것은 영화, 게임 및 대화형 3D 애플리케이션에 필수적입니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28675">Hugging Face Papers</source>
-      <guid isPermaLink="false">f35b1627413df168c30be55c7da399f2</guid>
-    </item>
-    <item>
-      <title>일관된 다중 참조 이미지 편집에 대한 평가-검증 보상</title>
-      <link>https://huggingface.co/papers/2607.29025</link>
-      <description>최근 이미지 편집 모델이 급속도로 발전했지만, 다중 참조 편집은 여전히 ​​어려운 과제로 남아 있습니다. 특히 참조 간 시각적 일관성을 유지하고 전체적인 시각적 조화를 보장하는 데에는 더욱 그렇습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.29025">Hugging Face Papers</source>
-      <guid isPermaLink="false">24847b320054426ed00e03344fb0a051</guid>
-    </item>
-    <item>
-      <title>🥇금주의 최고 AI 논문</title>
-      <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ef5</link>
-      <description>금주의 상위 AI 논문(7월 27일 - 8월 2일)</description>
-      <pubDate>Mon, 03 Aug 2026 00:01:21 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ef5">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">67f0e9e0311fa44ef297d3cae034c22f</guid>
     </item>
   </channel>
 </rss>
