@@ -5,9 +5,99 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 04 Aug 2026 13:15:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 16:41:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LongHorizon-Harness: 실제 작업을 위한 Long-Horizon 에이전트 발전</title>
+      <link>https://huggingface.co/papers/2608.01964</link>
+      <description>LLM(대형 언어 모델) 에이전트는 여러 상호 의존적 단계에서 지속적인 추론, 도구 사용 및 수정이 필요한 장기적인 작업을 점점 더 많이 수행하고 있습니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01964">Hugging Face Papers</source>
+      <guid isPermaLink="false">ba529ebb4e5c7535836f3af110d8750b</guid>
+    </item>
+    <item>
+      <title>DeepVoyager-VL: 장거리 다중 모드 에이전트에 대한 Vision-in-the-Loop 검색에 대한 인센티브 제공</title>
+      <link>https://huggingface.co/papers/2608.01827</link>
+      <description>다중 모드 대형 언어 모델(MLLM)은 고급 시각적 이해 및 추론 기능을 갖추고 있지만 정적 매개변수 지식으로 인해 지식 집약적이고 동적으로 진화하는 개방형 환경을 처리하는 능력이 제한됩니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01827">Hugging Face Papers</source>
+      <guid isPermaLink="false">9ea02284b104eaabd53c7d4281a83638</guid>
+    </item>
+    <item>
+      <title>강화 학습을 통한 점진적인 에이전트 기술 생성</title>
+      <link>https://huggingface.co/papers/2608.01678</link>
+      <description>기존 기술 생성 방법은 다양한 증거 소스에 맞게 특별히 설계되어야 하는 경험적 방법이나 파이프라인 스타일 통합에 크게 의존합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01678">Hugging Face Papers</source>
+      <guid isPermaLink="false">c886261fe7e8e827bfdf1200a1144f0a</guid>
+    </item>
+    <item>
+      <title>3DZip: 3D 질문 답변을 위한 공간 인식 기능 다양성 기반 토큰 압축</title>
+      <link>https://huggingface.co/papers/2608.01185</link>
+      <description>최근 3D 비전 언어 모델(3D VLM)은 2D 시각적 기능을 세계 좌표에 투영하여 형상 인식 토큰을 구성하고 3D 질문 답변과 같은 작업에 대한 공간적 추론을 가능하게 합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01185">Hugging Face Papers</source>
+      <guid isPermaLink="false">f3a91d3d01685aaf60f8607889e34152</guid>
+    </item>
+    <item>
+      <title>형태학을 넘어서는 모션: 추상 모션 표현에서 카테고리 간 모션 전송 부트스트래핑</title>
+      <link>https://huggingface.co/papers/2608.01628</link>
+      <description>비디오 모션 전송은 참조 비디오의 역학을 사용하여 대상 개체에 애니메이션을 적용하는 것을 목표로 합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01628">Hugging Face Papers</source>
+      <guid isPermaLink="false">deec8c7f27999451293d045567ad81aa</guid>
+    </item>
+    <item>
+      <title>LeapTalk: Talking Head Generation에서 지연 시간과 품질의 절충안 깨기</title>
+      <link>https://huggingface.co/papers/2608.00079</link>
+      <description>긴 형식 및 실시간 토킹헤드 생성은 지연 시간과 품질의 균형으로 인해 여전히 어려운 과제입니다. 비효율적인 다단계 확산으로 인해 스트리밍 생성이 금지되는 반면 실시간 자동 회귀 접근 방식은 어려움을 겪습니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00079">Hugging Face Papers</source>
+      <guid isPermaLink="false">f04103e5150f6aee0b148df211f348d5</guid>
+    </item>
+    <item>
+      <title>CADENA: 단계별 CAD 리버스 엔지니어링</title>
+      <link>https://huggingface.co/papers/2608.00799</link>
+      <description>CAD(Computer-Aided Design)는 현대 엔지니어링을 뒷받침하지만 기존 형상을 편집 가능한 모델로 변환하려면 여전히 상당한 전문가의 노력이 필요합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00799">Hugging Face Papers</source>
+      <guid isPermaLink="false">ed3fb5d3394ed097582abdf3d50dd6d6</guid>
+    </item>
+    <item>
+      <title>DAPD: 이중 고정 정책 증류</title>
+      <link>https://huggingface.co/papers/2608.01735</link>
+      <description>OPSD(On-policy (self) distillation)는 언어 모델 사후 교육에 점점 더 많이 채택되고 있습니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01735">Hugging Face Papers</source>
+      <guid isPermaLink="false">e0ec4bbd3cb786d3a3d81053244a9993</guid>
+    </item>
+    <item>
+      <title>DiffusionGemma 기술 보고서</title>
+      <link>https://huggingface.co/papers/2608.00146</link>
+      <description>이산 확산을 사용하여 매우 빠른 속도로 텍스트를 생성하는 실험적인 개방형 언어 모델인 DiffusionGemma를 소개합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00146">Hugging Face Papers</source>
+      <guid isPermaLink="false">518d3c7873f7ddfe33d23c1ff2c2a372</guid>
+    </item>
+    <item>
+      <title>내부에서 휴식을 취하고 전체에서 균형을 유지하세요: 비전 언어 전문가 혼합을 위한 지오메트리 기반 로드 밸런싱</title>
+      <link>https://huggingface.co/papers/2608.00574</link>
+      <description>비전 언어 MoE 배치에는 다양한 수의 이미지 및 텍스트 토큰이 포함되어 있습니다. 이미지 해상도, 이미지 수, 타일링 및 프롬프트 길이가 모두 이 토큰 혼합을 변경합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00574">Hugging Face Papers</source>
+      <guid isPermaLink="false">20e9eec97ffa09678c6f2ec18d743fe1</guid>
+    </item>
     <item>
       <title>WCM: 시각-언어-행동 강화 학습을 위한 세계적 비평 모델</title>
       <link>https://huggingface.co/papers/2607.29613</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ef5">Elvis AI Newsletter</source>
       <guid isPermaLink="false">67f0e9e0311fa44ef297d3cae034c22f</guid>
-    </item>
-    <item>
-      <title>🤖 AI Agents Weekly: Kimi K3, DeepSeek-V4-Flash API, GPT-5.6 가격 인하, Inkling-Small, YC의 QM Harness, Gemini Robotics 2, Codex Security CLI 등</title>
-      <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-kimi-k3-deepseek</link>
-      <description>Kimi K3, DeepSeek-V4-Flash API, GPT-5.6 가격 인하, Inkling-Small, YC의 QM 하네스, Gemini Robotics 2, Codex Security CLI 등</description>
-      <pubDate>Sun, 02 Aug 2026 00:02:40 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/ai-agents-weekly-kimi-k3-deepseek">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">fa568c3c84f2ea3ac1927574162cbe4f</guid>
-    </item>
-    <item>
-      <title>OmniScope: 옴니모달 대형 언어 모델을 위한 모달리티 분리 토큰 압축</title>
-      <link>https://huggingface.co/papers/2607.23193</link>
-      <description>전방향 대형 언어 모델에 대한 기존 토큰 압축 방법은 일반적으로 한 가지 양식을 사용하여 다른 양식에 무엇을 유지할지 결정합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23193">Hugging Face Papers</source>
-      <guid isPermaLink="false">1e3f2e6d0064df385921521afc1dc9e9</guid>
-    </item>
-    <item>
-      <title>β-OPSD: 정책 최적화를 통한 도출, 자체 증류를 통한 교육</title>
-      <link>https://huggingface.co/papers/2607.28582</link>
-      <description>OPSD(On-policy self-distillation)는 추론 언어 모델을 개선하기 위한 유망한 접근 방식이지만 실제로는 취약합니다. 안정적으로 작동하려면 상당한 엔지니어링 노력이 필요한 경우가 많습니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28582">Hugging Face Papers</source>
-      <guid isPermaLink="false">1100156dc67360e3f7023e45b7d691fa</guid>
-    </item>
-    <item>
-      <title>기하학적 상보성을 넘어서: 희박한 전문가 혼합 라우팅의 일관된 중첩</title>
-      <link>https://huggingface.co/papers/2607.28308</link>
-      <description>MoE(희소 전문가 혼합) 언어 모델은 각 토큰을 여러 전문가에게 라우팅하여 이점에 대한 기하학적 설명을 제안합니다. 공동 선택된 전문가는 뚜렷한 표현 방향에 기여해야 합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28308">Hugging Face Papers</source>
-      <guid isPermaLink="false">bc26b33b75bc67630b5f1cbd483e2586</guid>
-    </item>
-    <item>
-      <title>See2Think: 다중 모드 모델이 실제로 중간 시각적 상태를 사용합니까?</title>
-      <link>https://huggingface.co/papers/2607.26769</link>
-      <description>다중 모드 대형 언어 모델은 추론 중에 스케치, 주석, 도구 및 중간 이미지를 점점 더 많이 사용하지만 실제로 이러한 시각적 상태에 의존하는지 여부는 불분명합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26769">Hugging Face Papers</source>
-      <guid isPermaLink="false">61e02eb939dc9ec2657f598f86f95753</guid>
-    </item>
-    <item>
-      <title>LLM 에이전트를 위한 파일 시스템 기반 메모리: 조직, 발전 및 지속 가능성</title>
-      <link>https://huggingface.co/papers/2607.26637</link>
-      <description>배포된 LLM 에이전트는 점점 더 장기 메모리를 파일 시스템, 즉 에이전트 자체가 일반 파일 도구를 통해 읽고 쓰고 재구성하는 마크다운 파일의 디렉터리 트리로 유지합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.26637">Hugging Face Papers</source>
-      <guid isPermaLink="false">176bdca678fbdc03fc3f2f9d074257bf</guid>
-    </item>
-    <item>
-      <title>공정성 가지치기: 차등 활성화를 통해 GLU-MLP 계층에서 인구통계학적 편향 찾기</title>
-      <link>https://huggingface.co/papers/2607.28319</link>
-      <description>이 연구에서는 대규모 언어 모델(LLM)의 인구통계적 편향을 관리하고 향후 완화하기 위해 설계된 경량의 구조적 개입 방법인 공정성 가지치기(Fairness Pruning)를 제시합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28319">Hugging Face Papers</source>
-      <guid isPermaLink="false">176b15b9e42b5fa3e4d54ee7fae4bcec</guid>
-    </item>
-    <item>
-      <title>Σ-Mem: LLM 기반 다중 에이전트 시스템을 위한 온라인 신뢰성 메모리</title>
-      <link>https://huggingface.co/papers/2607.27958</link>
-      <description>메모리는 장거리 LLM 에이전트의 핵심이지만 기존 메모리 시스템은 신뢰할 수 있는 에이전트와 조건을 모델링하는 대신 주로 상호 작용 콘텐츠를 보존합니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27958">Hugging Face Papers</source>
-      <guid isPermaLink="false">aa44c9d43be8d638cb2b4604f6f854f1</guid>
-    </item>
-    <item>
-      <title>보행자 원형 확장 - 자율 주행 차량 안전 테스트를 위한 추가 보행자 모델</title>
-      <link>https://huggingface.co/papers/2607.16922</link>
-      <description>이전 작업인 보행자 원형(Pedestrian Archetypes)에서 우리는 보행자 원형을 특정 유형의 보행자를 고유하게 식별하는 행동 모음으로 정의했습니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.16922">Hugging Face Papers</source>
-      <guid isPermaLink="false">f450f3a4adc9efac16bf1e2200fa40d0</guid>
-    </item>
-    <item>
-      <title>Deep Research는 신뢰할 수 있나요? 오해의 소지가 있는 지식은 잘못된 결론을 유도합니다</title>
-      <link>https://huggingface.co/papers/2607.20891</link>
-      <description>Deep Research 에이전트는 LLM 기반 보조자를 계획, 검색, 증거 합성 및 보고서 생성과 관련된 장기적인 워크플로로 확장하지만 개방형 정보 환경에서의 신뢰성은 여전히 ​​​​낮습니다.</description>
-      <pubDate>Fri, 31 Jul 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.20891">Hugging Face Papers</source>
-      <guid isPermaLink="false">8635d326c5814a99abbb5f6c850e0ece</guid>
     </item>
   </channel>
 </rss>

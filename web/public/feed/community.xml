@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 04 Aug 2026 13:15:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 16:41:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MiniMax, 영상과 음향을 함께 만드는 33B 옴니모달 모델 H3 웨이트 공개 (단, 한국 사용 금지🫠)</title>
+      <link>https://discuss.pytorch.kr/t/minimax-33b-h3/11523</link>
+      <description>MiniMax H3 소개 MiniMax 가 공개한 MiniMax H3 는 텍스트와 이미지, 영상, 음성을 하나의 컨텍스트로 함께 이해하고, 최대 2K 해상도에 최대 15초 길이의 영상을 네이티브 스테레오 음향(Native Stereo Sound) 과 함께 생성하는 범용 옴니모달 생성 모델입니다.</description>
+      <pubDate>Tue, 04 Aug 2026 14:00:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/minimax-33b-h3/11523">PyTorch Korea</source>
+      <guid isPermaLink="false">226d9dbfe0c9181622da194942922b69</guid>
+    </item>
     <item>
       <title>image-blaster: 이미지 한 장에서 3D 환경과 효과음을 만들어내는 Claude 스킬셋</title>
       <link>https://discuss.pytorch.kr/t/image-blaster-3d-claude/11500</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claude-opus-5-fable-5/11431">PyTorch Korea</source>
       <guid isPermaLink="false">591471d5a1756ff2daf13559f62042c2</guid>
-    </item>
-    <item>
-      <title>GOT-OCR2.0: 문서와 수식, 표, 악보를 하나의 모델로 인식하는 End-to-End OCR 모델</title>
-      <link>https://discuss.pytorch.kr/t/got-ocr2-0-end-to-end-ocr/11415</link>
-      <description>GOT-OCR2.0 소개 문서를 디지털로 옮기는 광학 문자 인식(OCR)은 오랫동안 여러 개의 모듈을 이어 붙인 파이프라인으로 구현되어 왔습니다. 텍스트 영역을 찾는 검출기, 글자를 읽는 인식기, 레이아웃을 분석하는 후처리기가 각각 따로 학습되고 조합되는 방식입니다.</description>
-      <pubDate>Sun, 26 Jul 2026 18:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/got-ocr2-0-end-to-end-ocr/11415">PyTorch Korea</source>
-      <guid isPermaLink="false">074b0e83a190649b907efe865f7846fe</guid>
     </item>
   </channel>
 </rss>
