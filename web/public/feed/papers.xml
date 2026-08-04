@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:40:58 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 22:04:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GEOID-홍수: 홍수 분할을 위한 대규모 다중 모드 벤치마크 데이터세트</title>
+      <link>https://huggingface.co/papers/2608.02315</link>
+      <description>지리공간 기반 모델은 지역과 센서 간에 전송되는 표현을 학습하는 것을 목표로 하지만 특정 작업에 대해 이를 평가하려면 이러한 표현이 얼마나 잘 수행되는지 측정하는 대규모의 고품질 다중 모드 벤치마크가 필요합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02315">Hugging Face Papers</source>
+      <guid isPermaLink="false">1e1d0ba49da28ccf66511f90a8544043</guid>
+    </item>
+    <item>
+      <title>ICDAR 2026 원자층 증착/에칭(ALD/E) 과학 수치에서 정보 추출 경쟁</title>
+      <link>https://huggingface.co/papers/2607.26848</link>
+      <description>멀티모달 AI를 사용한 과학적 수치 이해 및 추론은 종종 연구 출판물의 텍스트에 제시되지 않은 의미 있는 지식을 추출하기 위해 시각적 인식과 영역별 추론을 통합해야 합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26848">Hugging Face Papers</source>
+      <guid isPermaLink="false">0b7097ac45adbe4b54efb3b6c3bf63ef</guid>
+    </item>
+    <item>
+      <title>모델인가, 하네스인가? 에이전트 오류 현지화를 위한 상호작용 중심 분류</title>
+      <link>https://huggingface.co/papers/2607.28802</link>
+      <description>기존 평가에서는 종종 에이전트 오류를 ​​시스템 수준 결과로 줄여 오류가 발생한 위치와 에이전트 시스템을 개선할 개입이 무엇인지 모호하게 만듭니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28802">Hugging Face Papers</source>
+      <guid isPermaLink="false">ccf0b276d5fd37af6431db4cb37f8650</guid>
+    </item>
+    <item>
+      <title>고정된 픽셀 공간 확산 모델은 자체 샘플을 사용하여 스스로 안내할 수 있습니다.</title>
+      <link>https://huggingface.co/papers/2607.29122</link>
+      <description>픽셀 공간 확산 모델은 원시 픽셀 위에서 직접 엔드투엔드 생성기를 학습하는 것을 목표로 합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29122">Hugging Face Papers</source>
+      <guid isPermaLink="false">a446d8b5a0caf9655aad3c7d18f630aa</guid>
+    </item>
     <item>
       <title>RecHarness: 자가 진화 추천 시스템을 위한 밴디트 라우팅 에이전트 하네스</title>
       <link>https://huggingface.co/papers/2607.29241</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.23802">Hugging Face Papers</source>
       <guid isPermaLink="false">d70f5284dc34e24fed873bfde6037bb1</guid>
-    </item>
-    <item>
-      <title>N_0-VTLA: 잠재 촉각 토큰을 사용한 시각-촉각-언어-행동 모델 확장</title>
-      <link>https://huggingface.co/papers/2607.23782</link>
-      <description>(1) 촉각 인식 및 촉각 피드백 제어를 통해 세밀한 접촉이 풍부한 조작과 (2) 오프라인 정책 개선이 가능한 비전-촉각-언어-행동(VTLA) 기반 모델인 N_0-VTLA를 제시합니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23782">Hugging Face Papers</source>
-      <guid isPermaLink="false">bde9871a05833f705984b24aa3dee531</guid>
-    </item>
-    <item>
-      <title>AISPA: 대규모 언어 모델 애플리케이션을 위한 사용자 중심 시스템 프롬프트 감사</title>
-      <link>https://huggingface.co/papers/2607.28617</link>
-      <description>시스템 프롬프트는 AI 애플리케이션에서 기본 모델의 동작을 제어하기 위해 개발자가 구성한 지침입니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28617">Hugging Face Papers</source>
-      <guid isPermaLink="false">3b97d62bf2f77335fcd765c8ff7ce23f</guid>
-    </item>
-    <item>
-      <title>QQWorld: 월드 모델 정규화를 위한 분위수-분위수 매칭</title>
-      <link>https://huggingface.co/papers/2607.28415</link>
-      <description>잠재 세계 모델은 컴팩트한 표현 공간에서 미래 상태를 예측하여 효율적인 계획을 가능하게 하지만 성능은 학습된 잠재 분포의 품질에 따라 결정적으로 달라집니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28415">Hugging Face Papers</source>
-      <guid isPermaLink="false">063cb84f9cb0c6b051024b6c0a892301</guid>
-    </item>
-    <item>
-      <title>시각적 생성에서 텍스트 조절의 크기 조정 속성</title>
-      <link>https://huggingface.co/papers/2607.29679</link>
-      <description>우리는 시각적 생성에서 텍스트 조건화에 대한 경험적 스케일링 속성을 연구합니다. 확산 손실은 자연어 프롬프트의 토큰 수에 따라 확장되지 않기 때문에 이러한 속성은 거의 측정되지 않았습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.29679">Hugging Face Papers</source>
-      <guid isPermaLink="false">a1777a4e0f987649cff2a4a8f66ee7ee</guid>
     </item>
   </channel>
 </rss>
