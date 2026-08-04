@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 04 Aug 2026 22:04:10 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 01:15:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>시끄럽거나 조용합니까? 다중 모드 임상 AI의 양식별 실패 분석을 위한 재사용 가능한 프레임워크</title>
+      <link>https://huggingface.co/papers/2608.01462</link>
+      <description>다중 모드 임상 모델은 일반적으로 존재하는 모든 양식의 정확성으로 판단되지만 배포에서는 양식이 제거됩니다. ECG가 일상적인 곳에서는 심장초음파검사를 이용할 수 없는 경우가 많습니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01462">Hugging Face Papers</source>
+      <guid isPermaLink="false">666ac54b0b85f3cc469e2fd0f1f4eb18</guid>
+    </item>
+    <item>
+      <title>보는가 아니면 아는가? 다중 모드 대형 언어 모델의 시각적 상황 민감도</title>
+      <link>https://huggingface.co/papers/2607.26326</link>
+      <description>MLLM(다중 모드 대형 언어 모델)은 사전 학습된 언어 모델의 풍부한 사전 기능과 시각적 입력을 통합하여 강력한 성능을 달성합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.26326">Hugging Face Papers</source>
+      <guid isPermaLink="false">b24800f03ccd7216d549411cff3b7e6d</guid>
+    </item>
+    <item>
+      <title>Zero-Mem: LLM 에이전트를 위한 제로 토큰 메모리 작업</title>
+      <link>https://huggingface.co/papers/2607.29377</link>
+      <description>LLM 에이전트는 긴 상호 작용 동안 일관되게 작동하려면 메모리가 필요하지만 많은 시스템에서는 추가 LLM 호출을 사용하여 해당 메모리를 작동합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.29377">Hugging Face Papers</source>
+      <guid isPermaLink="false">a6f6012d595185ad35304fe04270c014</guid>
+    </item>
+    <item>
+      <title>전역적으로 계산하고 로컬로 구체화: 희소 이벤트-KV의 메모리 계약</title>
+      <link>https://huggingface.co/papers/2607.23693</link>
+      <description>Long-horizon 에이전트는 점점 더 KV 캐시를 메모리로 재사용합니다. 즉, 서비스 제공 시스템은 캐시된 항목의 하위 집합을 유지하고 나머지는 삭제합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.23693">Hugging Face Papers</source>
+      <guid isPermaLink="false">b22d8c5512b937329b73e86afeedb5cc</guid>
+    </item>
+    <item>
+      <title>SG-WAM: 기하학 인식 정책 공간에서 자체 유도 세계 모델링</title>
+      <link>https://huggingface.co/papers/2608.01397</link>
+      <description>WAM(World Action Model)은 액션 생성과 미래 상태 예측을 결합합니다.</description>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.01397">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ec131d30817cedc371e5750a566383a</guid>
+    </item>
     <item>
       <title>GEOID-홍수: 홍수 분할을 위한 대규모 다중 모드 벤치마크 데이터세트</title>
       <link>https://huggingface.co/papers/2608.02315</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.28443">Hugging Face Papers</source>
       <guid isPermaLink="false">44df160fc2250af0e10b1d1f0fb6f84a</guid>
-    </item>
-    <item>
-      <title>SGTP: 실시간 다중 차량 자율 경주를 위한 샘플링 기반 게임 이론 계획</title>
-      <link>https://huggingface.co/papers/2607.25388</link>
-      <description>자율적인 다중 차량 경주에는 강렬한 상호 작용에서 다양한 경쟁 행동을 실시간으로 계획하는 것이 필요합니다. 기존 계획자는 종종 전략적 다양성과 계산 효율성의 균형을 맞추는 데 어려움을 겪습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.25388">Hugging Face Papers</source>
-      <guid isPermaLink="false">90831e4edb4d5d9a9fb47417ac8df963</guid>
-    </item>
-    <item>
-      <title>운전석에서: 자율주행 시스템 테스트의 현실에 대한 다기업 연구</title>
-      <link>https://huggingface.co/papers/2607.15820</link>
-      <description>자율 주행 시스템(ADS)은 빠르게 발전하고 있으며 실제 애플리케이션에 점점 더 많이 배포되고 있습니다. 이로 인해 시스템 기능과 안전을 보장하기 위한 효과적인 테스트에 대한 수요가 증가하고 있습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.15820">Hugging Face Papers</source>
-      <guid isPermaLink="false">2ceb63952b1615ca8ead5da60de961d9</guid>
-    </item>
-    <item>
-      <title>자체 증류를 통해 루브릭 기반 RL 강화</title>
-      <link>https://huggingface.co/papers/2607.18082</link>
-      <description>루브릭 기반 RL은 최근 개방형 작업에서 LLM을 개선하는 데 가능성을 보여주었습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.18082">Hugging Face Papers</source>
-      <guid isPermaLink="false">65e1e7d3c01cdfe8dcc62ddc760d8aa8</guid>
-    </item>
-    <item>
-      <title>복사 가능한 컨텍스트를 기반으로 한 보호 장치는 LLM에 신뢰할 수 있는 안전을 제공할 수 없습니다.</title>
-      <link>https://huggingface.co/papers/2607.27951</link>
-      <description>대규모 언어 모델 보호 장치는 답변이 어떻게 사용될지 보기 전에 답변할지 여부를 결정합니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27951">Hugging Face Papers</source>
-      <guid isPermaLink="false">aa80e4b46e107666239b7bdd21ffc484</guid>
-    </item>
-    <item>
-      <title>RLVR에서 RLSVR로: 작업 변환은 개방형 LLM 자기 개선에 대한 자체 검증 가능한 보상을 유도합니다.</title>
-      <link>https://huggingface.co/papers/2607.23802</link>
-      <description>RLVR(검증 가능한 보상을 통한 강화 학습)은 대규모 최적화를 지원하여 추론 중심 LLM(대형 언어 모델)의 최근 발전을 주도했습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.23802">Hugging Face Papers</source>
-      <guid isPermaLink="false">d70f5284dc34e24fed873bfde6037bb1</guid>
     </item>
   </channel>
 </rss>
