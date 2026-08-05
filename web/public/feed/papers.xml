@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 00:15:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 02:40:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ARCHead: 대형 언어 모델 출력 헤드에 대한 활성화-메트릭 잔여 수정</title>
+      <link>https://huggingface.co/papers/2608.02703</link>
+      <description>가중치 전용 양자화는 LLM(대형 언어 모델) 변환기 블록의 저장 공간을 크게 줄이지만 실제 백엔드는 BF16 또는 FP16에 최종 언어 모델링 헤드(LM 헤드)를 유지하는 경우가 많습니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02703">Hugging Face Papers</source>
+      <guid isPermaLink="false">0eccb33417c6554e21e656064c1b8830</guid>
+    </item>
+    <item>
+      <title>많은 답변이 유효하면 투표가 실패합니다: LLM의 K-K 인과 추론을 위한 기호 검증</title>
+      <link>https://huggingface.co/papers/2608.03506</link>
+      <description>자체 일관성은 샘플링된 추론 추적 중 가장 빈번한 답변이 가장 신뢰할 수 있다고 가정하지만 이는 인과 추론에서 실패할 수 있습니다. 샘플은 종종 동일한 교란 오류를 반복하고 투표는 여러 개에 걸쳐 조각화됩니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03506">Hugging Face Papers</source>
+      <guid isPermaLink="false">ce0da63be422f55047d618684389655d</guid>
+    </item>
+    <item>
+      <title>ReflectRL: 반사-직접 추론을 통해 골든 네거티브 궤적에서 학습</title>
+      <link>https://huggingface.co/papers/2608.03972</link>
+      <description>정책에 따른 훈련은 대규모 언어 모델의 추론 능력을 향상시키기 위한 강력한 사후 훈련 패러다임으로 등장했으며, 더 강력한 전문가 모델의 황금 궤적에 의해 강화되는 경우가 많습니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03972">Hugging Face Papers</source>
+      <guid isPermaLink="false">be357e90f87ae54776eb21f882c7d484</guid>
+    </item>
+    <item>
+      <title>LegalPincite: 다단계 법률 정보 검색 데이터세트</title>
+      <link>https://huggingface.co/papers/2608.03756</link>
+      <description>법률 정보 검색(IR)의 일반적인 작업은 판례 컬렉션에서 관련 법률 소스를 찾는 것입니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03756">Hugging Face Papers</source>
+      <guid isPermaLink="false">d11c6094d6c72f73436c184c6d1f2133</guid>
+    </item>
     <item>
       <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://huggingface.co/papers/2608.02833</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.29122">Hugging Face Papers</source>
       <guid isPermaLink="false">a446d8b5a0caf9655aad3c7d18f630aa</guid>
-    </item>
-    <item>
-      <title>RecHarness: 자가 진화 추천 시스템을 위한 밴디트 라우팅 에이전트 하네스</title>
-      <link>https://huggingface.co/papers/2607.29241</link>
-      <description>최신 추천 모델 최적화는 여전히 엔지니어가 아키텍처, 목표 및 교육 전략 변경 사항을 수동으로 반복하는 데 크게 의존합니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.29241">Hugging Face Papers</source>
-      <guid isPermaLink="false">622627bd1df5a40dc1d06e5048c21a7d</guid>
-    </item>
-    <item>
-      <title>GPTQ-2D: 3차 시간 양면 적응형 반올림</title>
-      <link>https://huggingface.co/papers/2607.27042</link>
-      <description>GPTQ 또는 Babai의 가장 가까운 평면 알고리즘과 같은 적응형 반올림 방법은 실수 행렬을 2차 메트릭 아래의 정수로 반올림합니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27042">Hugging Face Papers</source>
-      <guid isPermaLink="false">5522f9125e0373f43eb6adf1da94eb0f</guid>
-    </item>
-    <item>
-      <title>GradCuit: 크레딧이 할당된 그라데이션 흐름으로 강력하고 해석 가능한 테스트 시간 잠재 추론 가능</title>
-      <link>https://huggingface.co/papers/2608.02585</link>
-      <description>최적화 기반 잠재 추론은 모델 매개변수를 고정한 상태로 유지하면서 테스트 시 인스턴스별 연속 상태를 최적화하여 대규모 언어 모델 출력을 개선합니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02585">Hugging Face Papers</source>
-      <guid isPermaLink="false">16ebc59802056f735c05d5b94fbad314</guid>
-    </item>
-    <item>
-      <title>DreamTraj: 렌더링되지 않은 비디오 확산 잠재성을 읽어 6-DoF 개체 궤적 생성</title>
-      <link>https://huggingface.co/papers/2608.00486</link>
-      <description>조작 중 물체 궤적을 정확하게 예측하는 것은 인식-행동 루프를 닫는 데 필수적입니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00486">Hugging Face Papers</source>
-      <guid isPermaLink="false">28106ec1a8b08fd51f02c7753e70b38a</guid>
     </item>
   </channel>
 </rss>

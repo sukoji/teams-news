@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 00:15:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 02:40:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ARCHead: 대형 언어 모델 출력 헤드에 대한 활성화-메트릭 잔여 수정</title>
+      <link>https://huggingface.co/papers/2608.02703</link>
+      <description>가중치 전용 양자화는 LLM(대형 언어 모델) 변환기 블록의 저장 공간을 크게 줄이지만 실제 백엔드는 BF16 또는 FP16에 최종 언어 모델링 헤드(LM 헤드)를 유지하는 경우가 많습니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02703">Hugging Face Papers</source>
+      <guid isPermaLink="false">0eccb33417c6554e21e656064c1b8830</guid>
+    </item>
+    <item>
+      <title>많은 답변이 유효하면 투표가 실패합니다: LLM의 K-K 인과 추론을 위한 기호 검증</title>
+      <link>https://huggingface.co/papers/2608.03506</link>
+      <description>자체 일관성은 샘플링된 추론 추적 중 가장 빈번한 답변이 가장 신뢰할 수 있다고 가정하지만 이는 인과 추론에서 실패할 수 있습니다. 샘플은 종종 동일한 교란 오류를 반복하고 투표는 여러 개에 걸쳐 조각화됩니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03506">Hugging Face Papers</source>
+      <guid isPermaLink="false">ce0da63be422f55047d618684389655d</guid>
+    </item>
+    <item>
+      <title>ReflectRL: 반사-직접 추론을 통해 골든 네거티브 궤적에서 학습</title>
+      <link>https://huggingface.co/papers/2608.03972</link>
+      <description>정책에 따른 훈련은 대규모 언어 모델의 추론 능력을 향상시키기 위한 강력한 사후 훈련 패러다임으로 등장했으며, 더 강력한 전문가 모델의 황금 궤적에 의해 강화되는 경우가 많습니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03972">Hugging Face Papers</source>
+      <guid isPermaLink="false">be357e90f87ae54776eb21f882c7d484</guid>
+    </item>
+    <item>
+      <title>LegalPincite: 다단계 법률 정보 검색 데이터세트</title>
+      <link>https://huggingface.co/papers/2608.03756</link>
+      <description>법률 정보 검색(IR)의 일반적인 작업은 판례 컬렉션에서 관련 법률 소스를 찾는 것입니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03756">Hugging Face Papers</source>
+      <guid isPermaLink="false">d11c6094d6c72f73436c184c6d1f2133</guid>
+    </item>
+    <item>
+      <title>뉴멕시코 민간 항공기 추락, 미군 GPS 교란과 연관</title>
+      <link>https://news.hada.io/topic?id=32183</link>
+      <description>5월 13일 Roswell에서 Ruidoso로 향하던 의료수송용 Beechcraft King Air가 미군 훈련으로 GPS를 잃은 뒤 산에 충돌 해 조종사 2명과 간호사 2명 전원이 사망했으며, 미국에서 GPS 교란이 민간 항공기 추락에 기여한 첫 사례가 됨 White Sands Missile Range의 NAVFEST 훈련...</description>
+      <pubDate>Thu, 06 Aug 2026 01:33:28 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32183">GeekNews</source>
+      <guid isPermaLink="false">12c55baaf5ec5b1e4ce6bf12b31276c3</guid>
+    </item>
     <item>
       <title>"중국 AI 막으면 미국 기업이 연 17조 원 더 낸다"…조지아공대 추산</title>
       <link>https://zdnet.co.kr/view/?no=20260805205738</link>
@@ -412,51 +457,6 @@
       <category>news</category>
       <source url="https://www.aitimes.com/news/articleView.html?idxno=213552">AI Times</source>
       <guid isPermaLink="false">06a5be4ceb97380572c915763937eeb8</guid>
-    </item>
-    <item>
-      <title>과거 벤치: 개인 에이전트의 재귀적 자기 개선의 기초 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.04003</link>
-      <description>반복적인 자기 개선을 위해서는 에이전트가 축적된 경험을 더 나은 미래 행동으로 전환해야 합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04003">Hugging Face Papers</source>
-      <guid isPermaLink="false">9d6c52ca27c11b1fd834ea0342baf8b6</guid>
-    </item>
-    <item>
-      <title>서울대-KAIST 학부 30명, 로봇 제작 100시간 합숙…"어떤게 나올까"</title>
-      <link>https://zdnet.co.kr/view/?no=20260805102709</link>
-      <description>[지디넷코리아]서울대와 KAIST의 학부생 10개 팀 30명이 로봇 제작으로 한판 승부를 겨루는 자리가 마련됐다. 창의력을 한 껏 발휘하도록 로봇 형태에 제한을 두지 않는다.주최는 KAIST와 서울대학교 학부생들이 만든 로봇 연구 비영리 연합단체 로보틱어스.</description>
-      <pubDate>Wed, 05 Aug 2026 10:27:09 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260805102709">ZDNet Korea</source>
-      <guid isPermaLink="false">2b074e29a0b394b92b92a2aa0fa3959c</guid>
-    </item>
-    <item>
-      <title>esp32-ai: 파라미터 대부분을 플래시에 두고 ESP32-S3에서 28.9M 언어 모델을 돌리기</title>
-      <link>https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519</link>
-      <description>esp32-ai 소개 마이크로컨트롤러에서 언어 모델을 돌릴 때 모델 크기를 결정하는 것은 연산량이 아니라 빠른 메모리의 양입니다. ESP32-S3에 들어 있는 내부 SRAM은 512KB뿐이고, 토큰마다 수없이 읽히는 값들이 그 안에 들어가야 합니다. 임베딩 표는 보통 파라미터의 대부분을 차지하기 때문에, 표를 어디에 둘 것인가가 곧 모델 크기의 상한이 됩니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:30:18 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519">PyTorch Korea</source>
-      <guid isPermaLink="false">2864aebfd0821ccab1f1bf6c01d7f31c</guid>
-    </item>
-    <item>
-      <title>Hunyuan3D-Buffalo 1.0: 확장 가능한 3D 생성, 이해 및 편집을 위한 통합 다중 모드 모델</title>
-      <link>https://huggingface.co/papers/2608.02711</link>
-      <description>이미지 생성의 최근 발전은 이해, 생성 및 편집을 통합하는 통합 다중 모드 모델의 잠재력을 보여주었습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02711">Hugging Face Papers</source>
-      <guid isPermaLink="false">d35e883d2a9ea4ae7bbc741585cc1b7f</guid>
-    </item>
-    <item>
-      <title>TurnSight: 도구 통합 추론을 위한 턴레벨 사후 통찰력 자가 증류</title>
-      <link>https://huggingface.co/papers/2608.04007</link>
-      <description>TIR(도구 통합 추론)을 통해 LLM은 반복적인 도구 상호 작용을 통해 복잡한 작업을 해결할 수 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04007">Hugging Face Papers</source>
-      <guid isPermaLink="false">ba6f74bdb89f8a5a6e3a10e58bf962f3</guid>
     </item>
   </channel>
 </rss>
