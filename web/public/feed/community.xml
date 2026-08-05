@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 05 Aug 2026 09:04:46 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 13:13:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Rapid-MLX: Apple Silicon 맥에서 로컬 LLM을 OpenAI 호환 서버로 띄우는 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516</link>
+      <description>Rapid-MLX 소개 맥에서 로컬 모델을 돌리려면 보통 두 가지를 감수하게 됩니다. 하나는 llama.cpp 계열 런타임이 Metal 위에 얹히면서 생기는 성능 손해이고, 다른 하나는 도구 호출(tool calling)이 모델마다 다른 형식으로 나와 코딩 에이전트를 붙이면 텍스트가 그대로 튀어나오는 문제입니다. 로컬 추론을 실제 업무 흐름에 넣으려면 이 두 가지가 함께 풀려야 합니다.</description>
+      <pubDate>Wed, 05 Aug 2026 12:30:46 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516">PyTorch Korea</source>
+      <guid isPermaLink="false">7d939864bfbe72682ac3fd283f72ac0b</guid>
+    </item>
+    <item>
+      <title>esp32-ai: 파라미터 대부분을 플래시에 두고 ESP32-S3에서 28.9M 언어 모델을 돌리기</title>
+      <link>https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519</link>
+      <description>esp32-ai 소개 마이크로컨트롤러에서 언어 모델을 돌릴 때 모델 크기를 결정하는 것은 연산량이 아니라 빠른 메모리의 양입니다. ESP32-S3에 들어 있는 내부 SRAM은 512KB뿐이고, 토큰마다 수없이 읽히는 값들이 그 안에 들어가야 합니다. 임베딩 표는 보통 파라미터의 대부분을 차지하기 때문에, 표를 어디에 둘 것인가가 곧 모델 크기의 상한이 됩니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:30:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519">PyTorch Korea</source>
+      <guid isPermaLink="false">2864aebfd0821ccab1f1bf6c01d7f31c</guid>
+    </item>
     <item>
       <title>Instella-MoE: AMD Instinct GPU에서 처음부터 학습한 완전 오픈 16B MoE 모델</title>
       <link>https://discuss.pytorch.kr/t/instella-moe-amd-instinct-gpu-16b-moe/11518</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/open-generative-ui-ai-ui/11345">PyTorch Korea</source>
       <guid isPermaLink="false">cbdda056ba96e43ac56b66bd124a8548</guid>
-    </item>
-    <item>
-      <title>PIKE-RAG: 산업용 RAG를 위한 지식 원자화와 작업 분해 프레임워크에 대한 연구 (feat. Microsoft)</title>
-      <link>https://discuss.pytorch.kr/t/pike-rag-rag-feat-microsoft/11359</link>
-      <description>이 게시물은 PIKE-RAG의 논문을 정리한 글로, PIKE-RAG의 사용법은 GitHub 프로젝트를 소개한 글 을 참고해주세요. PIKE-RAG 소개 새로운 회사에 입사해서 수십 년 치 사내 기술 문서 더미를 받아 든 상황을 떠올려 봅시다. 답을 찾으려면 스캔된 도면, 표로 가득한 데이터시트, 서로를 인용하는 규정집을 넘나들며 흩어진 조각들을 이어 붙여야 합니다.</description>
-      <pubDate>Mon, 27 Jul 2026 08:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pike-rag-rag-feat-microsoft/11359">PyTorch Korea</source>
-      <guid isPermaLink="false">27dfe675149b06014f6500da54ac8dc7</guid>
-    </item>
-    <item>
-      <title>[2026/07/20 ~ 26] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-07-20-26-ai-ml/11419</link>
-      <description>[2026/07/20 ~ 26] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주 선정된 논문들을 살펴본 결과, 더 큰 모델보다 하네스로 에이전트를 안전하게 묶는 방식을 통한 실질적 적용, 모델 학습 파이프라인을 고도화 및 정밀화 하는 흐름 등을 살펴볼 수 있었습니다.</description>
-      <pubDate>Mon, 27 Jul 2026 06:30:49 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-07-20-26-ai-ml/11419">PyTorch Korea</source>
-      <guid isPermaLink="false">d529d1193ab8714294281d5487688ef7</guid>
     </item>
   </channel>
 </rss>
