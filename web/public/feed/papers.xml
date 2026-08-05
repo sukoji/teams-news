@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 05 Aug 2026 19:36:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 21:54:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLM의 재정적 추론은 신뢰할 수 있습니까? 장기적 진술에 대한 실제 세계 테스트</title>
+      <link>https://huggingface.co/papers/2607.28661</link>
+      <description>LLM(대형 언어 모델)은 진정한 구조적 추론을 갖고 있습니까, 아니면 표면 수준 패턴 일치에만 의존합니까?</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28661">Hugging Face Papers</source>
+      <guid isPermaLink="false">ea102bd0dd6ac6463ae254a2342dd50c</guid>
+    </item>
+    <item>
+      <title>더 좋고, 더 강력하고, 더 빠르고, 더 광범위합니다: MLLM 기반 분할을 위한 구조화된 전체 마스크 예측</title>
+      <link>https://huggingface.co/papers/2608.02791</link>
+      <description>MLLM 기반 분할은 높은 분할 성능, 보존된 대화 기능, 빠른 추론이라는 핵심 분할 삼중레마에 직면해 있습니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02791">Hugging Face Papers</source>
+      <guid isPermaLink="false">24985ec197407daafbebcaa4e5224120</guid>
+    </item>
+    <item>
+      <title>다중 작업 다중 프레임 시각적 피아노 전사</title>
+      <link>https://huggingface.co/papers/2608.03419</link>
+      <description>오디오 기반 피아노 녹음은 시작, 피치 및 속도에서 잘 작동하지만 서스테인 페달을 사용하면 건반을 놓은 후에도 사운드가 오랫동안 지속되므로 오디오 시스템은 물리적 건반 관계보다는 페달 확장 오프셋을 예측합니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03419">Hugging Face Papers</source>
+      <guid isPermaLink="false">e840c176b4883de724176ed4c7262670</guid>
+    </item>
+    <item>
+      <title>주의가 흐려질 때: ALiBi 위치 인코딩의 수치 오류</title>
+      <link>https://huggingface.co/papers/2608.03994</link>
+      <description>우리는 이전에 간과되었던 ALiBi 위치 인코딩의 실패 모드를 식별합니다. 선형 바이어스 스케일링은 부동 소수점 정밀도 언더플로우로 인해 주목 가중치의 상당 부분을 0으로 만들고 영향을 받은 결과를 렌더링합니다.</description>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03994">Hugging Face Papers</source>
+      <guid isPermaLink="false">b5233829977a36445025c699bdec5e75</guid>
+    </item>
     <item>
       <title>MiniWorld: 비디오 월드 모델 교육을 처음부터 민주화</title>
       <link>https://huggingface.co/papers/2608.01127</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.01678">Hugging Face Papers</source>
       <guid isPermaLink="false">c886261fe7e8e827bfdf1200a1144f0a</guid>
-    </item>
-    <item>
-      <title>3DZip: 3D 질문 답변을 위한 공간 인식 기능 다양성 기반 토큰 압축</title>
-      <link>https://huggingface.co/papers/2608.01185</link>
-      <description>최근 3D 비전 언어 모델(3D VLM)은 2D 시각적 기능을 세계 좌표에 투영하여 형상 인식 토큰을 구성하고 3D 질문 답변과 같은 작업에 대한 공간적 추론을 가능하게 합니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01185">Hugging Face Papers</source>
-      <guid isPermaLink="false">f3a91d3d01685aaf60f8607889e34152</guid>
-    </item>
-    <item>
-      <title>형태학을 넘어서는 모션: 추상 모션 표현에서 카테고리 간 모션 전송 부트스트래핑</title>
-      <link>https://huggingface.co/papers/2608.01628</link>
-      <description>비디오 모션 전송은 참조 비디오의 역학을 사용하여 대상 개체에 애니메이션을 적용하는 것을 목표로 합니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01628">Hugging Face Papers</source>
-      <guid isPermaLink="false">deec8c7f27999451293d045567ad81aa</guid>
-    </item>
-    <item>
-      <title>LeapTalk: Talking Head Generation에서 지연 시간과 품질의 절충안 깨기</title>
-      <link>https://huggingface.co/papers/2608.00079</link>
-      <description>긴 형식 및 실시간 토킹헤드 생성은 지연 시간과 품질의 균형으로 인해 여전히 어려운 과제입니다. 비효율적인 다단계 확산으로 인해 스트리밍 생성이 금지되는 반면 실시간 자동 회귀 접근 방식은 어려움을 겪습니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00079">Hugging Face Papers</source>
-      <guid isPermaLink="false">f04103e5150f6aee0b148df211f348d5</guid>
-    </item>
-    <item>
-      <title>CADENA: 단계별 CAD 리버스 엔지니어링</title>
-      <link>https://huggingface.co/papers/2608.00799</link>
-      <description>CAD(Computer-Aided Design)는 현대 엔지니어링을 뒷받침하지만 기존 형상을 편집 가능한 모델로 변환하려면 여전히 상당한 전문가의 노력이 필요합니다.</description>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00799">Hugging Face Papers</source>
-      <guid isPermaLink="false">ed3fb5d3394ed097582abdf3d50dd6d6</guid>
     </item>
   </channel>
 </rss>
