@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 08:56:49 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 11:41:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DeepSeek-V4-Flash 정식 버전 출시, 성능은 좋아지면서 가격은 낮아진 모델 (Task당 약 $0.027)</title>
+      <link>https://discuss.pytorch.kr/t/deepseek-v4-flash-task-0-027/11533</link>
+      <description>DeepSeek-V4-Flash 정식 버전 소개 DeepSeek 이 2026년 7월 31일 DeepSeek-V4-Flash 의 정식 버전을 공개하고 API를 공개 베타로 열었습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:30:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/deepseek-v4-flash-task-0-027/11533">PyTorch Korea</source>
+      <guid isPermaLink="false">8ab2ff2543bae9ffdac2717f47230ea8</guid>
+    </item>
     <item>
       <title>AI 보안 위협 대응 매뉴얼: 과기정통부와 KISA가 정리한 LLM 시스템 위협 21종에 대한 대응 매뉴얼 [국문/PDF/231p]</title>
       <link>https://discuss.pytorch.kr/t/ai-kisa-llm-21-pdf-231p/11534</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/score-smoothing-google-research/11326">PyTorch Korea</source>
       <guid isPermaLink="false">b21b017ee6e51b599f4426a308e3b00d</guid>
-    </item>
-    <item>
-      <title>Quivr: 어떤 LLM과 파일에도 연결되는 제품 중심의 오픈소스 RAG 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/quivr-llm-rag/11403</link>
-      <description>Quivr 소개 문서를 근거로 답하는 챗봇이나 사내 지식 도우미를 만들려면 검색 증강 생성(RAG, Retrieval-Augmented Generation) 파이프라인을 직접 조립해야 합니다. 파일을 파싱해 청크로 나누고, 임베딩을 만들어 벡터 저장소에 넣고, 질문을 다시 쓰고, 관련 청크를 검색해 LLM 프롬프트에 붙이고, 대화 이력을 관리하는 단계가 모두 필요합니다.</description>
-      <pubDate>Mon, 27 Jul 2026 16:30:08 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/quivr-llm-rag/11403">PyTorch Korea</source>
-      <guid isPermaLink="false">ffa5bc62881e09019b96e3ef00386ce5</guid>
     </item>
   </channel>
 </rss>
