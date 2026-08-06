@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 11:41:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:51:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Mistral, 추론 시점에 정책을 바꾸는 3B 규모의 멀티모달 안전성 분류 모델 Shieldstral 공개</title>
+      <link>https://discuss.pytorch.kr/t/mistral-3b-shieldstral/11532</link>
+      <description>Shieldstral 소개 Mistral AI 가 공개한 Shieldstral 은 30억(3B) 개의 매개변수를 가진 정책 적응형(Policy-Adaptive) 멀티모달 안전성 분류 모델 입니다. 텍스트 안전성 벤치마크에서 최대 7배 큰 모델과 대등한 성적을 내고, 멀티모달 콘텐츠 조정(Moderation) 분야에서는 새로운 최고 성능을 기록했습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 12:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mistral-3b-shieldstral/11532">PyTorch Korea</source>
+      <guid isPermaLink="false">ea0f2f533af0891086ef4c641af350bf</guid>
+    </item>
     <item>
       <title>DeepSeek-V4-Flash 정식 버전 출시, 성능은 좋아지면서 가격은 낮아진 모델 (Task당 약 $0.027)</title>
       <link>https://discuss.pytorch.kr/t/deepseek-v4-flash-task-0-027/11533</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/opencodex-llm-codex-claude-code/11408">PyTorch Korea</source>
       <guid isPermaLink="false">73931ccdd1e8a47afd903665f35ba0db</guid>
-    </item>
-    <item>
-      <title>스코어 스무딩(Score Smoothing): 확산 모델의 창의성이 어디서 오는지에 대한 Google Research의 연구</title>
-      <link>https://discuss.pytorch.kr/t/score-smoothing-google-research/11326</link>
-      <description>확산 모델의 창의성은 어디서 오는가 확산 모델(Diffusion Model)은 학습 데이터에 없던 새로운 이미지나 분자 구조를 만들어냅니다. 이런 창의성은 인상적이지만, 동시에 근본적인 질문을 던집니다. 대체 이 창의성은 어디서 오는 것일까요?</description>
-      <pubDate>Mon, 27 Jul 2026 18:30:38 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/score-smoothing-google-research/11326">PyTorch Korea</source>
-      <guid isPermaLink="false">b21b017ee6e51b599f4426a308e3b00d</guid>
     </item>
   </channel>
 </rss>

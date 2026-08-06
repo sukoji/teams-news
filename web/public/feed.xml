@@ -5,9 +5,162 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 11:41:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:51:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Mistral, 추론 시점에 정책을 바꾸는 3B 규모의 멀티모달 안전성 분류 모델 Shieldstral 공개</title>
+      <link>https://discuss.pytorch.kr/t/mistral-3b-shieldstral/11532</link>
+      <description>Shieldstral 소개 Mistral AI 가 공개한 Shieldstral 은 30억(3B) 개의 매개변수를 가진 정책 적응형(Policy-Adaptive) 멀티모달 안전성 분류 모델 입니다. 텍스트 안전성 벤치마크에서 최대 7배 큰 모델과 대등한 성적을 내고, 멀티모달 콘텐츠 조정(Moderation) 분야에서는 새로운 최고 성능을 기록했습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 12:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mistral-3b-shieldstral/11532">PyTorch Korea</source>
+      <guid isPermaLink="false">ea0f2f533af0891086ef4c641af350bf</guid>
+    </item>
+    <item>
+      <title>보건소부터 공공병원까지 AI로 연결…'한국형 소버린 의료AI'도 개발</title>
+      <link>https://www.etnews.com/20260806000250</link>
+      <description>정부가 동네 보건소, 응급실, 지역 공공병원에 이르기까지 인공지능(AI)을 활용한 전국 단위 의료 혁신에 나선다. 보건소와 취약지 의원에 영상판독과 진료기록 작성을 돕는 AI 도구를 보급하고 국내 의료 데이터와 독자 AI 모델을 활용한 '한국형 소버린 의료 AI' 개발에도 나선다.</description>
+      <pubDate>Thu, 06 Aug 2026 14:04:32 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260806000250">전자신문 IT</source>
+      <guid isPermaLink="false">9b353b6b597bc61093abc847c0d644b0</guid>
+    </item>
+    <item>
+      <title>실패한 부분 정리: 적응형 교사 지도에서 부정적인 RL 그룹의 학습 신호 복구</title>
+      <link>https://huggingface.co/papers/2608.00782</link>
+      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 학습 후 LLM(대형 언어 모델)의 표준 패러다임이 되었습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00782">Hugging Face Papers</source>
+      <guid isPermaLink="false">c002fe22255b3cf8ecd464ff4aa78e6d</guid>
+    </item>
+    <item>
+      <title>에이전트 대 에이전트: 자동 프롬프트 주입 레드팀 구성을 위한 에이전트 시스템</title>
+      <link>https://huggingface.co/papers/2608.05108</link>
+      <description>즉각적인 주입은 LLM 에이전트에 심각한 보안 위험을 초래합니다. 따라서 효율적이고 효과적인 레드팀 구성은 이러한 위험을 평가하고 방어를 개선하기 위한 훈련 데이터를 수집하는 데 매우 중요합니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05108">Hugging Face Papers</source>
+      <guid isPermaLink="false">89d11e1a09bc960d55a4dc853f530204</guid>
+    </item>
+    <item>
+      <title>앤트로픽·오픈AI 이어 메타도…AI가 통제 벗어나 외부 해킹</title>
+      <link>https://www.etnews.com/20260806000192</link>
+      <description>앤트로픽·오픈AI에 이어 메타의 인공지능(AI) 모델도 인간 통제를 벗어나 외부 기관을 해킹한 것으로 나타났다. 내부 사이버 보안 테스트 도중에 발생한 사고다. 5일(현지시간) 블룸버그·CNN 등에 따르면 메타는 자사 AI 모델 '뮤즈 스파크'가 독립 검증업체 '이레귤러'가 진행하는 시험 도중 인터넷에 무단 접속했고, 이후 다른 기관 시스템을 해킹한 사실을 확인했다고 밝혔다.</description>
+      <pubDate>Thu, 06 Aug 2026 12:20:59 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260806000192">전자신문 IT</source>
+      <guid isPermaLink="false">495d9e74049005abf674daa1f9f90111</guid>
+    </item>
+    <item>
+      <title>BridgeVLA++: 3D 조작을 위한 데이터 효율적이고 일반화 가능하며 메모리 증강 비전-언어-작업 프레임워크</title>
+      <link>https://huggingface.co/papers/2608.05042</link>
+      <description>사전 훈련된 VLM(비전 언어 모델)을 활용하여 VLA(비전 언어 동작) 모델을 구성하는 것이 3D 로봇 조작을 위한 유망한 패러다임으로 떠올랐습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05042">Hugging Face Papers</source>
+      <guid isPermaLink="false">1472dbbac84c9f82414847fd6f7ddf1b</guid>
+    </item>
+    <item>
+      <title>구글, 코딩 강화 위해 스타트업 메카나이즈 2조 인수 논의</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=213606</link>
+      <description>구글이 AI 코딩 경쟁력 강화를 위해 스타트업 메카나이즈(Mechanize)와 15억달러(약 2조원) 규모의 거래를 추진 중인 것으로 알려졌다.</description>
+      <pubDate>Thu, 06 Aug 2026 13:50:50 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=213606">AI Times</source>
+      <guid isPermaLink="false">564b15a4787a52eb65b59d8d31123a04</guid>
+    </item>
+    <item>
+      <title>韓 앱스토어 시장 5년 만에 38조원…개발자 90%에 無수수료</title>
+      <link>https://www.etnews.com/20260806000254</link>
+      <description>한국 애플 앱스토어 생태계에서 발생한 청구액과 판매액이 5년 만에 두 배 이상 늘었다. 인앱결제 수수료를 둘러싼 규제 논의가 이어지는 가운데 애플은 전체 거래액의 90% 이상이 수수료 부과 대상이 아니라는 점도 강조했다. 애플은 임재현 서울대 경영대학 교수와 줄리엣 카미나드 애널리시스그룹 박사가 수행한 연구 결과를 6일 공개했다.</description>
+      <pubDate>Thu, 06 Aug 2026 14:07:51 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260806000254">전자신문 IT</source>
+      <guid isPermaLink="false">83cc569c660e5c61a0ef3147dbe8c559</guid>
+    </item>
+    <item>
+      <title>워드 문서에 숨긴 흰 글씨 한 줄이 코파일럿을 감염시킨다…자기 복제 공격</title>
+      <link>https://zdnet.co.kr/view/?no=20260806120948</link>
+      <description>[지디넷코리아]워드 문서에 눈에 보이지 않게 숨긴 문장 하나로 마이크로소프트 365 코파일럿을 조종하고, 그 명령이 새로 만들어진 문서로 스스로 복제되는 공격 방식이 공개됐다. 현지 시각 7월 28일 노르웨이 보안 연구자 호콘 몰뢰이가 자신의 블로그에 공개한 연구다.공격자는 워드 문서에 JSON 형식 명령문을 넣고 흰 배경에 흰 글씨, 아주 작은 글꼴로 처리해 보이지 않게 만든다.</description>
+      <pubDate>Thu, 06 Aug 2026 12:09:48 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260806120948">ZDNet Korea</source>
+      <guid isPermaLink="false">7448d84a3d5b38a17f454db634cfbb6a</guid>
+    </item>
+    <item>
+      <title>박윤영 KT 대표, 목동 데이터센터 방문해 AIDC 기술 점검</title>
+      <link>https://www.etnews.com/20260806000236</link>
+      <description>KT는 박윤영 대표가 서울 양천구 kt 클라우드 목동2 데이터센터를 방문해 KT그룹의 인공지능데이터센터(AIDC)·클라우드 인프라 운영과 기술 개발 현황을 점검했다고 6일 밝혔다. 이번 방문은 'AX 플랫폼 컴퍼니'의 핵심 인프라인 AIDC 사업의 추진 현황과 KT그룹의 데이터센터 운영·기술 역량을 점검하기 위해 마련됐다.</description>
+      <pubDate>Thu, 06 Aug 2026 13:46:37 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260806000236">전자신문 IT</source>
+      <guid isPermaLink="false">aae4d775b935a176a81cb9afb8467ea8</guid>
+    </item>
+    <item>
+      <title>삼성전자 차세대 메모리 'V낸드·PIM', FMS 2026 어워드서 2관왕</title>
+      <link>https://www.etnews.com/20260806000232</link>
+      <description>삼성전자가 세계 최대 메모리·스토리지 컨퍼런스인 'FMS 2026(Future of Memory and Storage)'에서 2개 부문을 수상했다.</description>
+      <pubDate>Thu, 06 Aug 2026 13:42:18 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260806000232">전자신문 IT</source>
+      <guid isPermaLink="false">51ee42088f448cb5bcfda2fe7f951d16</guid>
+    </item>
+    <item>
+      <title>K-EXAONE 2.0 기술 보고서</title>
+      <link>https://huggingface.co/papers/2608.04505</link>
+      <description>본 기술보고서에서는 글로벌 프론티어 규모 기반 모델을 향한 LG AI리서치의 노력의 일환으로 LG AI리서치가 개발한 개방형 다국어 기반 모델인 K-EXAONE 2.0을 소개합니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04505">Hugging Face Papers</source>
+      <guid isPermaLink="false">47db6a5f2db30bec2d6717fd09e67063</guid>
+    </item>
+    <item>
+      <title>AVE-Compass: 오디오-비디오 편집 능력에 대한 전체적인 평가를 향하여</title>
+      <link>https://huggingface.co/papers/2607.24821</link>
+      <description>지침 기반 비디오 편집이 빠르게 발전하는 동안 실제 비디오에는 오디오 및 시각적 신호가 밀접하게 결합되어 있으며 한 가지 형식을 편집하려면 다른 형식을 조정하여 변경해야 하는 경우가 많습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.24821">Hugging Face Papers</source>
+      <guid isPermaLink="false">fc219e119ee801a992424455464a49f1</guid>
+    </item>
+    <item>
+      <title>산업부, 한화오션·에코프로비엠 등 5개사 '슈퍼 을(乙)' 선정</title>
+      <link>https://www.etnews.com/20260806000186</link>
+      <description>정부가 글로벌 공급망을 주도할 '슈퍼 을(乙)' 기업으로 한화오션, 에코프로비엠, 선익시스템 등 5개사를 선정해 집중적으로 육성한다. 차세대 유리 패키지 기판 등 핵심 소재·부품·장비(소부장) 자립화를 위한 협력모델 5건도 승인하고 910억원을 지원하기로 했다.</description>
+      <pubDate>Thu, 06 Aug 2026 12:17:04 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260806000186">전자신문 IT</source>
+      <guid isPermaLink="false">98ead4ae9ba46163fd4e3c0615a39171</guid>
+    </item>
+    <item>
+      <title>Ego2Robot: 자기중심적 인간 데이터로부터 확장 가능한 로봇 데이터 합성</title>
+      <link>https://huggingface.co/papers/2608.02580</link>
+      <description>일반화 가능한 로봇 조작 정책을 학습하려면 대규모의 다양한 실증 데이터가 필요합니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02580">Hugging Face Papers</source>
+      <guid isPermaLink="false">4d4473b0b535dd46a954e39d050dfeba</guid>
+    </item>
+    <item>
+      <title>자기 지도 교차 표현 학습을 위한 일관성 기반 공동 진화</title>
+      <link>https://huggingface.co/papers/2608.04926</link>
+      <description>차트 이미지, 표 형식 데이터 및 시각화 코드가 다양한 영역에서 점점 더 중요한 역할을 함에 따라 이러한 양식에 대한 교차 표현 이해는 AI 시스템에 근본적인 과제를 제기합니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04926">Hugging Face Papers</source>
+      <guid isPermaLink="false">9b9d8eb0d585ecca97f9cb69c4ffd2ea</guid>
+    </item>
+    <item>
+      <title>DuckDuckGo의 &amp;quot;스마트&amp;quot; 글래스: Normal F***ing Sunglasses</title>
+      <link>https://news.hada.io/topic?id=32198</link>
+      <description>이 "스마트" 안경은 AI도 카메라도 없습니다. 태양빛을 막기 위해 설계되었으며, 클라우드로 보내는 데이터는 없습니다. 프라이버시 중심 검색엔진 DDG가 Knockaround 와의 콜라보레이션으로 출시한 이 안경은 스마트글래스와 유</description>
+      <pubDate>Thu, 06 Aug 2026 11:50:55 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32198">GeekNews</source>
+      <guid isPermaLink="false">cbe83799430fe9dc793bf9c8b9f5000d</guid>
+    </item>
     <item>
       <title>Skill-Native LLM을 향하여: 벤치마킹 및 장기 추론 훈련을 위한 스킬 엔트로피</title>
       <link>https://huggingface.co/papers/2608.05139</link>
@@ -304,159 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.03756">Hugging Face Papers</source>
       <guid isPermaLink="false">d11c6094d6c72f73436c184c6d1f2133</guid>
-    </item>
-    <item>
-      <title>뉴멕시코 민간 항공기 추락, 미군 GPS 교란과 연관</title>
-      <link>https://news.hada.io/topic?id=32183</link>
-      <description>5월 13일 Roswell에서 Ruidoso로 향하던 의료수송용 Beechcraft King Air가 미군 훈련으로 GPS를 잃은 뒤 산에 충돌 해 조종사 2명과 간호사 2명 전원이 사망했으며, 미국에서 GPS 교란이 민간 항공기 추락에 기여한 첫 사례가 됨 White Sands Missile Range의 NAVFEST 훈련...</description>
-      <pubDate>Thu, 06 Aug 2026 01:33:28 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32183">GeekNews</source>
-      <guid isPermaLink="false">12c55baaf5ec5b1e4ce6bf12b31276c3</guid>
-    </item>
-    <item>
-      <title>"중국 AI 막으면 미국 기업이 연 17조 원 더 낸다"…조지아공대 추산</title>
-      <link>https://zdnet.co.kr/view/?no=20260805205738</link>
-      <description>[지디넷코리아]미국이 중국산 오픈웨이트 AI 모델을 금지하면 미국 기업이 연간 최대 120억 달러(약 17조 1,600억 원)를 더 부담할 수 있다는 추산이 제시됐다. 현지 시각 8월 3일 사우스차이나모닝포스트의 보도로, 추산 주체는 조지아공대 셸러 경영대 조교수 대니얼 유다.</description>
-      <pubDate>Wed, 05 Aug 2026 20:57:38 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260805205738">ZDNet Korea</source>
-      <guid isPermaLink="false">fb1c268d10b5a936780e2bda04fe60b0</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.02833</link>
-      <description>차트 질문 답변(CQA)에는 시각적 이해력과 논리적 추론을 통합하기 위한 다중 모드 대형 언어 모델(MLLM)이 필요하지만 현재 모델은 정확한 시각적 기반 및 일관된 추론에 어려움을 겪고 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02833">Hugging Face Papers</source>
-      <guid isPermaLink="false">338ac63b17e841940ddd0375be0512ef</guid>
-    </item>
-    <item>
-      <title>ChronoLens: 시간, 언어 및 언어 수준에 따른 언어 변화 측정</title>
-      <link>https://huggingface.co/papers/2608.03507</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03507">Hugging Face Papers</source>
-      <guid isPermaLink="false">b9d64d3540e540607bb8a57487e3bebb</guid>
-    </item>
-    <item>
-      <title>RestoreKV: 공격적인 쿼리 독립적 KV 캐시 제거에서 전체 캐시 동작 복구</title>
-      <link>https://huggingface.co/papers/2608.01247</link>
-      <description>쿼리에 구애받지 않는 KV 캐시 제거는 컨텍스트를 한 번 압축하고 향후 임의 쿼리에 결과 캐시를 재사용하지만 예산이 부족하면 성능이 저하될 수 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01247">Hugging Face Papers</source>
-      <guid isPermaLink="false">28647254a27514f8b1b27b77d5c5c83d</guid>
-    </item>
-    <item>
-      <title>자기 개선을 위한 하네스 엔지니어링</title>
-      <link>https://news.hada.io/topic?id=32179</link>
-      <description>재귀적 자기 개선(RSI)의 단기 경로는 모델이 직접 가중치를 고치는 것보다, 사고·도구·맥락·기억·평가를 조율하는 하네스 자체를 개선 해 더 나은 연구·배포 시스템을 만드는 방식에 가까움 하네스는 단순 프롬프트를 넘어 워크플로 자동화 , 파일 기반 영속 메모리...</description>
-      <pubDate>Wed, 05 Aug 2026 23:36:25 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32179">GeekNews</source>
-      <guid isPermaLink="false">9de2ea06304dd0384f6ea64782561296</guid>
-    </item>
-    <item>
-      <title>바나듐 레독스 흐름전지 전해질 생산시간 67% 단축…"AI데이터센터 활용 가능"</title>
-      <link>https://zdnet.co.kr/view/?no=20260805185214</link>
-      <description>[지디넷코리아]AI 데이터센터 보조 전원과 재생에너지용 초대형 배터리로 주목받는 바나듐 레독스 흐름전지(VRFB)에서 전해질 생산시간을 67% 단축할 수 있는 공정이 개발됐다.기술 개발은 김희탁 KAIST 생명화학공학과 교수 연구팀이 진행했다.바나듐 레독스 흐름전지는 화재 위험이 거의 없다. 전해질을 담는 탱크만 크게 만들면 저장 용량도 쉽게 늘릴 수 있다.</description>
-      <pubDate>Wed, 05 Aug 2026 18:52:14 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260805185214">ZDNet Korea</source>
-      <guid isPermaLink="false">0c865d55b089eb704b35361ebbb1e436</guid>
-    </item>
-    <item>
-      <title>Bento: HTML 파일 하나에 편집기까지 담아 AI 에이전트가 직접 수정하는 프레젠테이션 도구</title>
-      <link>https://discuss.pytorch.kr/t/bento-html-ai/11515</link>
-      <description>Bento 소개 에이전트에게 발표 자료를 맡기려 할 때 가장 먼저 막히는 것은 파일 형식입니다. .pptx 는 압축된 XML 묶음이라 손으로 고치기 번거롭고, 클라우드 문서 도구는 API 키와 권한 설정을 거쳐야 접근이 열립니다. 그래서 슬라이드를 만들어 주는 도구들은 대개 자체 서비스를 하나 세운 뒤, 그 안에서 생성한 결과를 내보내는 방식을 택해 왔습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 21:30:48 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bento-html-ai/11515">PyTorch Korea</source>
-      <guid isPermaLink="false">e28e86843e58d41f8d0ab77da92dba5a</guid>
-    </item>
-    <item>
-      <title>LLM의 재정적 추론은 신뢰할 수 있습니까? 장기적 진술에 대한 실제 세계 테스트</title>
-      <link>https://huggingface.co/papers/2607.28661</link>
-      <description>LLM(대형 언어 모델)은 진정한 구조적 추론을 갖고 있습니까, 아니면 표면 수준 패턴 일치에만 의존합니까?</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28661">Hugging Face Papers</source>
-      <guid isPermaLink="false">ea102bd0dd6ac6463ae254a2342dd50c</guid>
-    </item>
-    <item>
-      <title>더 좋고, 더 강력하고, 더 빠르고, 더 광범위합니다: MLLM 기반 분할을 위한 구조화된 전체 마스크 예측</title>
-      <link>https://huggingface.co/papers/2608.02791</link>
-      <description>MLLM 기반 분할은 높은 분할 성능, 보존된 대화 기능, 빠른 추론이라는 핵심 분할 삼중레마에 직면해 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02791">Hugging Face Papers</source>
-      <guid isPermaLink="false">24985ec197407daafbebcaa4e5224120</guid>
-    </item>
-    <item>
-      <title>다중 작업 다중 프레임 시각적 피아노 전사</title>
-      <link>https://huggingface.co/papers/2608.03419</link>
-      <description>오디오 기반 피아노 녹음은 시작, 피치 및 속도에서 잘 작동하지만 서스테인 페달을 사용하면 건반을 놓은 후에도 사운드가 오랫동안 지속되므로 오디오 시스템은 물리적 건반 관계보다는 페달 확장 오프셋을 예측합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03419">Hugging Face Papers</source>
-      <guid isPermaLink="false">e840c176b4883de724176ed4c7262670</guid>
-    </item>
-    <item>
-      <title>주의가 흐려질 때: ALiBi 위치 인코딩의 수치 오류</title>
-      <link>https://huggingface.co/papers/2608.03994</link>
-      <description>우리는 이전에 간과되었던 ALiBi 위치 인코딩의 실패 모드를 식별합니다. 선형 바이어스 스케일링은 부동 소수점 정밀도 언더플로우로 인해 주목 가중치의 상당 부분을 0으로 만들고 영향을 받은 결과를 렌더링합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03994">Hugging Face Papers</source>
-      <guid isPermaLink="false">b5233829977a36445025c699bdec5e75</guid>
-    </item>
-    <item>
-      <title>Show GN: llmwiki-serve – Markdown 문서를 코딩 에이전트가 찾아 읽게 해주는 로컬 서버</title>
-      <link>https://news.hada.io/topic?id=32174</link>
-      <description>안녕하세요. 코딩 에이전트가 내 Markdown 문서를 직접 찾아 읽게 해주는 llmwiki-serve 를 preview로 공개했습니다. 쓰기 어렵지 않게 만드는 것을 먼저 목표로 잡았습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 21:29:55 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32174">GeekNews</source>
-      <guid isPermaLink="false">2aecaaa4d56af3ff9fd20afb9de1263f</guid>
-    </item>
-    <item>
-      <title>Anionex/agent-vision-toolkit — 일반 텍스트에 주목 LLM 에이전트: 시각적 도구 상자 세트 + 그림 질문 및 답변, OCR, 스크린샷 분석, 시각적 위치 지정 등과 같은 기술 세트이며 Codex, Claude Code, OpenCode, Pi | t 줘</title>
-      <link>https://github.com/Anionex/agent-vision-toolkit</link>
-      <description>텍스트 전용 LLM 상담원에게 비전 제공: 이미지 Q&amp;A, OCR, 스크린샷 분석, 시각적 위치 지정 등 시각적 도구 상자 + 기술 세트이며 Codex, Claude Code, OpenCode, Pi | 텍스트 전용 LLM 상담원에게 비전 제공: 이미지 Q&amp;A, OCR, 스크린샷 이해, 시각적 기반, 이미지-SVG -…</description>
-      <pubDate>Wed, 05 Aug 2026 19:10:35 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/Anionex/agent-vision-toolkit">GitHub Trending</source>
-      <guid isPermaLink="false">9f4d3b5528606b217e9fe157347c84df</guid>
-    </item>
-    <item>
-      <title>x402: AI 에이전트가 API와 MCP 도구 사용료를 스스로 지불하는 HTTP 결제 표준</title>
-      <link>https://discuss.pytorch.kr/t/x402-ai-api-mcp-http/11513</link>
-      <description>x402 소개 에이전트에게 유료 API를 쓰게 하려면 지금까지는 사람이 먼저 움직여야 했습니다. 서비스에 가입하고, 결제 수단을 등록하고, 발급받은 API 키를 에이전트 설정에 꽂아 넣는 절차입니다.</description>
-      <pubDate>Wed, 05 Aug 2026 18:30:03 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/x402-ai-api-mcp-http/11513">PyTorch Korea</source>
-      <guid isPermaLink="false">4f7d78570a2f026b2ad1fa63510945d3</guid>
-    </item>
-    <item>
-      <title>위버스, 제미나이 기반 '위버스 AI' 베타 출시</title>
-      <link>https://zdnet.co.kr/view/?no=20260805155040</link>
-      <description>[지디넷코리아]위버스컴퍼니는 글로벌 팬 플랫폼 위버스 모바일 앱에 대화형 검색 서비스 '위버스 AI' 베타 버전을 적용했다고 5일 밝혔다.위버스 AI는 구글의 생성형 AI 모델 '제미나이'를 기반으로 위버스에 축적된 데이터를 활용해 팬덤 활동에 필요한 정보를 대화 형식으로 제공하는 서비스다.</description>
-      <pubDate>Wed, 05 Aug 2026 18:24:26 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260805155040">ZDNet Korea</source>
-      <guid isPermaLink="false">b57d1982477c0977e1a007fae75e0f72</guid>
-    </item>
-    <item>
-      <title>“韓, 향후 5년 메모리 최강국 유지…엔비디아, HBM 독주 흔들”</title>
-      <link>https://www.etnews.com/20260805000362</link>
-      <description>한국이 최소 2031년까지 글로벌 메모리 반도체 시장의 선도적 지위를 유지할 것이라는 전망이 나왔다. 인공지능(AI) 시장이 학습 중심에서 추론 중심으로 전환되면서 메모리 수요가 더욱 커지는 가운데, 엔비디아 중심의 고대역폭메모리(HBM) 시장도 빅테크의 자체 AI 칩 확산으로 변화가 예상됐다.</description>
-      <pubDate>Wed, 05 Aug 2026 17:25:11 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260805000362">전자신문 IT</source>
-      <guid isPermaLink="false">530a6bfe02a7e5dc15c54ce2b700ce82</guid>
     </item>
   </channel>
 </rss>
