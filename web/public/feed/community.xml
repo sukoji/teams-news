@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 14:51:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 17:38:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DiffusionGemma 기술 문서 리뷰: 자기회귀 Gemma 4를 이산 확산 모델로 변환한 초고속 텍스트 생성에 대한 연구</title>
+      <link>https://discuss.pytorch.kr/t/diffusiongemma-gemma-4/11526</link>
+      <description>DiffusionGemma 소개 글을 쓸 때 우리는 첫 글자부터 마지막 글자까지 순서대로만 써 내려가지 않습니다. 전체 얼개를 흐릿하게 잡아 두고 앞뒤를 오가며 고쳐 쓰다 보면 어느 순간 문장이 제자리를 찾습니다. DiffusionGemma 기술 보고서 는 언어 모델의 생성 방식을 정확히 이렇게 바꾸려는 연구입니다.</description>
+      <pubDate>Thu, 06 Aug 2026 15:30:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/diffusiongemma-gemma-4/11526">PyTorch Korea</source>
+      <guid isPermaLink="false">3164073d67a73b677d15e6b8d7d6de97</guid>
+    </item>
     <item>
       <title>Mistral, 추론 시점에 정책을 바꾸는 3B 규모의 멀티모달 안전성 분류 모델 Shieldstral 공개</title>
       <link>https://discuss.pytorch.kr/t/mistral-3b-shieldstral/11532</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/egocontrol-3d-1-feat-nvidia/11107">PyTorch Korea</source>
       <guid isPermaLink="false">1ece029b47c3096bac4ae90afc6b8abd</guid>
-    </item>
-    <item>
-      <title>opencodex: 어떤 LLM이든 Codex와 Claude Code에서 쓰게 해주는 범용 프록시</title>
-      <link>https://discuss.pytorch.kr/t/opencodex-llm-codex-claude-code/11408</link>
-      <description>opencodex 소개 OpenAI의 Codex CLI나 Claude Code 같은 코딩 에이전트는 특정 백엔드 API에 맞춰 통신합니다. 그래서 Claude, Gemini, Grok, DeepSeek 같은 다른 모델을 쓰고 싶어도, 도구가 해당 제공자를 공식 지원할 때까지 기다려야 하는 경우가 많습니다.</description>
-      <pubDate>Mon, 27 Jul 2026 20:30:39 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/opencodex-llm-codex-claude-code/11408">PyTorch Korea</source>
-      <guid isPermaLink="false">73931ccdd1e8a47afd903665f35ba0db</guid>
     </item>
   </channel>
 </rss>
