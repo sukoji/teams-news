@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 07 Aug 2026 18:01:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 19:08:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>균형 잡힌 다국어 텍스트 임베딩 적응을 위한 작업 조건부 흐름 매칭</title>
+      <link>https://huggingface.co/papers/2608.05785</link>
+      <description>다국어 텍스트 임베딩 모델은 근본적으로 다른 최적화 전략이 필요한 다양한 작업에도 불구하고 다양한 작업에 걸쳐 단일 교육 목표를 사용하여 일반적으로 조정됩니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05785">Hugging Face Papers</source>
+      <guid isPermaLink="false">ad1e56b9475d615bd0e5bac7be34ff8a</guid>
+    </item>
+    <item>
+      <title>전환기의 지속적인 학습</title>
+      <link>https://huggingface.co/papers/2608.06216</link>
+      <description>기존 CL(지속적 학습)은 주로 훈련 전략, 아키텍처 설계, 가중치 적응과 같은 매개변수 중심 메커니즘을 통해 모델이 지식을 업데이트하고 유지할 수 있도록 하는 데 중점을 두었습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06216">Hugging Face Papers</source>
+      <guid isPermaLink="false">98ad4f9be7cb83060337319087c01883</guid>
+    </item>
     <item>
       <title>경제 주체에서 행위자 경제까지: 경제 세계 모델을 위한 시스템 청사진</title>
       <link>https://huggingface.co/papers/2608.06020</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.04964">Hugging Face Papers</source>
       <guid isPermaLink="false">fe405c9fbd630f1d7571668058e5dda3</guid>
-    </item>
-    <item>
-      <title>NOLLI: 영어-한국어 성과 격차를 진단하기 위한 난이도 보정 퍼즐 벤치마크</title>
-      <link>https://huggingface.co/papers/2608.04397</link>
-      <description>한국어 성능 격차가 발생하는 부분을 진단하기 위해 설계된 절차적으로 생성된 영어-한국어 퍼즐 벤치마크인 NOLLI를 소개합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04397">Hugging Face Papers</source>
-      <guid isPermaLink="false">e29672e8fa10bc11e70578be064150e0</guid>
-    </item>
-    <item>
-      <title>UniWorld-View: 비디오 확산 모델을 통한 대규모 기준 뷰 합성</title>
-      <link>https://huggingface.co/papers/2608.04701</link>
-      <description>소셜 미디어에 있는 무심코 촬영한 단안식 비디오와 이미지의 풍부함은 몰입형 콘텐츠 제작을 위한 귀중한 소스를 제공하며, 이러한 희박한 관찰에서 새로운 관점을 생성하면 우리의 능력을 크게 향상시킬 수 있습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04701">Hugging Face Papers</source>
-      <guid isPermaLink="false">3c11ef17a7ee94b5761a0ffeaf6e7ba9</guid>
     </item>
   </channel>
 </rss>
