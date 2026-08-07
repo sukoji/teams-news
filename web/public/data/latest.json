@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-07",
-  "generated_at": "2026-08-07T10:41:12.511752+09:00",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T08:29:52.193827+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,58 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "3ce29d47e6a630f9c7241255e429bf10",
+          "id": "886853517e3d4fb2dead1855b1ea637d",
           "index": 1,
-          "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
-          "title_ko": "Skill-Native LLM을 향하여: 벤치마킹 및 장기 추론 훈련을 위한 스킬 엔트로피",
-          "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule.",
-          "summary_ko": "최근 LLM의 장거리 추론에서는 모델이 추론 체인 내에서 고유한 기술(예: 먼저 수학 파생을 수행한 다음 결과를 사용하여 일정을 계획하는 등) 사이를 전환해야 합니다.",
-          "url": "https://huggingface.co/papers/2608.05139",
+          "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+          "title_ko": "활동 프레임: 에이전트 메모리 및 재생을 위한 결정적 화면 활동 컴파일",
+          "summary": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did.",
+          "summary_ko": "컴퓨터 사용 에이전트는 사용자가 이미 수행한 루틴을 다시 파생하기 위해 완전한 경계 추론을 수행합니다. 왜냐하면 오늘날 에이전트의 메모리는 사용자가 한 일이 아니라 사용자가 말한 내용을 기록하기 때문입니다.",
+          "url": "https://huggingface.co/papers/2608.05784",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-08-07T09:00:00+09:00",
+          "popularity": 580,
+          "upvotes": 9,
+          "score": 28.1,
+          "importance_score": 18.21,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "inference"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 9
+          }
+        },
+        {
+          "id": "e429867521e8d3686891020d6c2cb950",
+          "index": 2,
+          "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+          "title_ko": "장거리 터미널 작업을 위한 재귀적 합성",
+          "summary": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution,…",
+          "summary_ko": "단말 에이전트를 위한 고품질 장거리 훈련 데이터는 생성하는 데 비용이 많이 들고, 각 작업마다 지침, 환경, 참조 솔루션 등을 유지해야 하기 때문에 작업당 수백에서 수천 달러의 비용이 드는 경우가 많습니다.",
+          "url": "https://huggingface.co/papers/2608.05466",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-08-06T09:00:00+09:00",
-          "popularity": 51,
-          "upvotes": 21,
-          "score": 25.85,
-          "importance_score": 11.85,
+          "popularity": 427,
+          "upvotes": 211,
+          "score": 28.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "llm",
-            "reasoning",
-            "benchmark",
+            "agent",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 21
-          }
-        },
-        {
-          "id": "5a3ec7f89baeea1e1478e5cf8cb14f69",
-          "index": 2,
-          "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
-          "title_ko": "ToolArtist: 에이전트 이미지 생성을 위한 도구 사용 통합 다중 모드 모델",
-          "summary": "Text-to-image (T2I) models can produce visually compelling images, yet they remain limited on open-world tasks that require complex semantic understanding, multi-step reasoning, and the integration of external world kno…",
-          "summary_ko": "T2I(텍스트-이미지) 모델은 시각적으로 매력적인 이미지를 생성할 수 있지만 복잡한 의미론적 이해, 다단계 추론 및 외부 세계 지식의 통합이 필요한 개방형 작업에는 여전히 제한적입니다.",
-          "url": "https://huggingface.co/papers/2608.04436",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-08-06T09:00:00+09:00",
-          "popularity": 92,
-          "upvotes": 46,
-          "score": 25.6,
-          "importance_score": 13.6,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "multimodal",
-            "reasoning"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 46
+            "value": 211
           }
         }
       ]
@@ -71,45 +68,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "f7f5cf5b85de30415849471b37613048",
+          "id": "5815fed120d92fbf2d33b4cbfb123fdc",
           "index": 3,
-          "title": "“포항을 '제조 AX' 글로벌 거점으로”…포항TP, 한·중 '피지컬 AI' 글로벌 협력 속도",
+          "title": "오픈AI, '아스트라' 개발 일시 중단…\"치명적 사이버공격 가능성\"",
           "title_ko": null,
-          "summary": "포항테크노파크(포항TP)는 중국의 인공지능(AI) 관련 핵심연구소 및 기업과의 글로벌 협력 네트워크를 기반으로 체인지업그라운드 지역확산사업에 가속도를 낸다고 9일 밝혔다.",
+          "summary": "오픈AI가 차세대 모델 \\'아스트라(Astra)\\'의 개발 및 내부 테스트 작업을 일시 중단하고 고강도 보안 통제 체계로 전환했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260806000394",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213697",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-07T04:00:00+09:00",
-          "popularity": 84,
+          "published_at": "2026-08-08T07:42:32+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 20.01,
-          "importance_score": 15.61,
+          "score": 22.84,
+          "importance_score": 19.67,
           "matched_keywords": [
             "ai",
-            "연구"
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "42e707533f05803dab2b829e475d5243",
+          "id": "07e2615bb3efa32d4c0d30d3f6754ddc",
           "index": 4,
-          "title": "[인사] 국가유산청",
+          "title": "네카오 'AI 수익화' 시점 변했다...네이버는 시작, 카카오는 내년",
           "title_ko": null,
-          "summary": "[지디넷코리아]◇ 고위공무원 임용▲궁능유적본부장 일반직고위공무원(일반임기제) 조규형◇ 국장급 전보▲문화유산국 역사유적정책관 일반직고위공무원 김동대▲자연유산국장 일반직고위공무원 황권순▲무형유산국장 학예연구관 이종훈◇ 과장급 전보▲대변인 서기관 안호▲문화유산국 건축유산팀장 과학기술서기관 김재길▲국립고궁박물관 기획운영과장 서기관 반지연",
+          "summary": "[지디넷코리아]네이버와 카카오가 연초만 해도 올해 하반기를 인공지능(AI) 수익화 시점으로 전망했으나, 실제 성과 시점은 갈라졌다. 네이버는 이미 일부 수익화를 달성한 반면, 카카오는 목표 시점을 내년으로 미룬 것으로 확인됐다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260807085751",
+          "url": "https://zdnet.co.kr/view/?no=20260807181357",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-07T08:57:51+09:00",
-          "popularity": 97,
+          "published_at": "2026-08-08T08:00:02+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.34,
-          "importance_score": 18.98,
+          "score": 19.9,
+          "importance_score": 19.79,
           "matched_keywords": [
-            "연구"
+            "ai"
           ],
           "engagement": null
         }
@@ -120,52 +117,57 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "9f4d3b5528606b217e9fe157347c84df",
+          "id": "887166b2c832abee399793df06c131db",
           "index": 5,
-          "title": "Anionex/agent-vision-toolkit — 为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ ",
-          "title_ko": "Anionex/agent-vision-toolkit — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트 엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode |에 대한 선택적 원활한 액세스 등 일반 텍스트 모델용으로 설계된 시각적 도구 상자 및 기술입니다.",
-          "summary": "为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ A vision toolkit and skill designed for text-only models — image Q&A, long-screenshot OCR, frontend UI restoration, and…",
-          "summary_ko": "텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode에 대한 선택적인 원활한 액세스 | 텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 —…",
-          "url": "https://github.com/Anionex/agent-vision-toolkit",
+          "title": "TOPDEV99999/AI-Knowledge-Management-Platform — An agentic LLM-powered knowledge assistant that enhances RAG capabilities through automated entity e",
+          "title_ko": "TOPDEV99999/AI-Knowledge-Management-Platform — 자동화된 엔터티 e를 통해 RAG 기능을 향상시키는 에이전트 LLM 기반 지식 도우미입니다.",
+          "summary": "An agentic LLM-powered knowledge assistant that enhances RAG capabilities through automated entity extraction, structured data analysis, and SQL-based reasoning to deliver accurate answers for complex, multi-step, and a…",
+          "summary_ko": "자동화된 엔터티 추출, 구조화된 데이터 분석 및 SQL 기반 추론을 통해 RAG 기능을 향상시켜 복잡하고 다단계에 대한 정확한 답변을 제공하는 에이전트 기반 LLM 기반 지식 도우미입니다.",
+          "url": "https://github.com/TOPDEV99999/AI-Knowledge-Management-Platform",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-07T07:23:12+09:00",
-          "popularity": 332,
-          "upvotes": 332,
-          "score": 32.64,
-          "importance_score": 28.95,
+          "published_at": "2026-08-03T16:42:30+09:00",
+          "popularity": 92,
+          "upvotes": 92,
+          "score": 32.86,
+          "importance_score": 15.86,
           "matched_keywords": [
+            "ai",
+            "llm",
             "agent",
-            "claude"
+            "rag",
+            "reasoning"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 332
+            "value": 92
           }
         },
         {
-          "id": "414ea35d29a6a6753f30e823abb2e816",
+          "id": "720194f93484546fe8ebca9d68b31961",
           "index": 6,
-          "title": "FareedKhan-dev/kimi-k3-in-c — A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99:",
-          "title_ko": "FareedKhan-dev/kimi-k3-in-c — 8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 매개변수 Kimi K3입니다. 휴대용 C99:",
-          "summary": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-          "summary_ko": "8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 개의 매개변수 Kimi K3입니다. 휴대용 C99: BLAS 없음, 프레임워크 없음, GPU 없음.",
-          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+          "title": "patchy631/time-to-first-token — A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quanti",
+          "title_ko": "patchy631/time-to-first-token — LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 수량",
+          "summary": "A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quantization, speculative decoding, benchmarking.",
+          "summary_ko": "LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 양자화, 추측적 디코딩, 벤치마킹.",
+          "url": "https://github.com/patchy631/time-to-first-token",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-06T23:48:00+09:00",
-          "popularity": 2836,
-          "upvotes": 2836,
-          "score": 32.23,
-          "importance_score": 29.96,
+          "published_at": "2026-08-02T22:08:21+09:00",
+          "popularity": 342,
+          "upvotes": 342,
+          "score": 31.43,
+          "importance_score": 20.43,
           "matched_keywords": [
+            "llm",
+            "benchmark",
             "inference"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 2836
+            "value": 342
           }
         }
       ]
@@ -175,21 +177,21 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "766dde8dcd12c9f6a0b82f9e8abef372",
+          "id": "16c0c00686637d1ab9a2237df297928c",
           "index": 7,
-          "title": "Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개",
+          "title": "과기정통부와 KISA가 발간한 AI 보안 레드티밍 가이드, AI 레드팀 구성부터 결과 보고까지 [국문/PDF/69p]",
           "title_ko": null,
-          "summary": "LFM2.5-2.6B 소개 Liquid AI 가 온디바이스(on-device) 환경에서 에이전트를 직접 돌리는 것을 목표로 만든 2.6B 파라미터 모델 LFM2.5-2.6B 를 공개했습니다. 휴대폰에 올라갈 만큼 작고, CPU에서도 반응이 끊기지 않을 만큼 빠르며, 계획을 세우고 도구를 호출하며 여러 단계에 걸친 작업을 수행할 만큼의 능력을 갖췄다는 것이 이 모델의 요지입니다.",
+          "summary": "AI 보안 레드티밍 가이드 소개 AI 보안 레드티밍 가이드 는 과학기술정보통신부 와 한국인터넷진흥원(KISA) 이 2026년 7월에 발간한 69페이지 분량의 국문 지침서로, AI 모델과 서비스를 공격자 관점에서 점검하는 레드팀을 어떻게 구성하고 운영할지를 준비, 이행, 결과 보고의 3단계 절차로 정리한 문서입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549",
+          "url": "https://discuss.pytorch.kr/t/kisa-ai-ai-pdf-69p/11535",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-07T06:30:28+09:00",
-          "popularity": 99,
+          "published_at": "2026-08-07T21:30:37+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.03,
-          "importance_score": 18.16,
+          "score": 20.71,
+          "importance_score": 15.42,
           "matched_keywords": [
             "ai",
             "모델"
@@ -201,168 +203,170 @@
   ],
   "items": [
     {
-      "id": "3ce29d47e6a630f9c7241255e429bf10",
+      "id": "886853517e3d4fb2dead1855b1ea637d",
       "index": 1,
-      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
-      "title_ko": "Skill-Native LLM을 향하여: 벤치마킹 및 장기 추론 훈련을 위한 스킬 엔트로피",
-      "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule.",
-      "summary_ko": "최근 LLM의 장거리 추론에서는 모델이 추론 체인 내에서 고유한 기술(예: 먼저 수학 파생을 수행한 다음 결과를 사용하여 일정을 계획하는 등) 사이를 전환해야 합니다.",
-      "url": "https://huggingface.co/papers/2608.05139",
+      "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+      "title_ko": "활동 프레임: 에이전트 메모리 및 재생을 위한 결정적 화면 활동 컴파일",
+      "summary": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did.",
+      "summary_ko": "컴퓨터 사용 에이전트는 사용자가 이미 수행한 루틴을 다시 파생하기 위해 완전한 경계 추론을 수행합니다. 왜냐하면 오늘날 에이전트의 메모리는 사용자가 한 일이 아니라 사용자가 말한 내용을 기록하기 때문입니다.",
+      "url": "https://huggingface.co/papers/2608.05784",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-07T09:00:00+09:00",
+      "popularity": 580,
+      "upvotes": 9,
+      "score": 28.1,
+      "importance_score": 18.21,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "inference"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 9
+      }
+    },
+    {
+      "id": "e429867521e8d3686891020d6c2cb950",
+      "index": 2,
+      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+      "title_ko": "장거리 터미널 작업을 위한 재귀적 합성",
+      "summary": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution,…",
+      "summary_ko": "단말 에이전트를 위한 고품질 장거리 훈련 데이터는 생성하는 데 비용이 많이 들고, 각 작업마다 지침, 환경, 참조 솔루션 등을 유지해야 하기 때문에 작업당 수백에서 수천 달러의 비용이 드는 경우가 많습니다.",
+      "url": "https://huggingface.co/papers/2608.05466",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-08-06T09:00:00+09:00",
-      "popularity": 51,
-      "upvotes": 21,
-      "score": 25.85,
-      "importance_score": 11.85,
+      "popularity": 427,
+      "upvotes": 211,
+      "score": 28.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
-        "llm",
-        "reasoning",
-        "benchmark",
+        "agent",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 21
+        "value": 211
       }
     },
     {
-      "id": "5a3ec7f89baeea1e1478e5cf8cb14f69",
-      "index": 2,
-      "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
-      "title_ko": "ToolArtist: 에이전트 이미지 생성을 위한 도구 사용 통합 다중 모드 모델",
-      "summary": "Text-to-image (T2I) models can produce visually compelling images, yet they remain limited on open-world tasks that require complex semantic understanding, multi-step reasoning, and the integration of external world kno…",
-      "summary_ko": "T2I(텍스트-이미지) 모델은 시각적으로 매력적인 이미지를 생성할 수 있지만 복잡한 의미론적 이해, 다단계 추론 및 외부 세계 지식의 통합이 필요한 개방형 작업에는 여전히 제한적입니다.",
-      "url": "https://huggingface.co/papers/2608.04436",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-06T09:00:00+09:00",
-      "popularity": 92,
-      "upvotes": 46,
-      "score": 25.6,
-      "importance_score": 13.6,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "multimodal",
-        "reasoning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 46
-      }
-    },
-    {
-      "id": "f7f5cf5b85de30415849471b37613048",
+      "id": "5815fed120d92fbf2d33b4cbfb123fdc",
       "index": 3,
-      "title": "“포항을 '제조 AX' 글로벌 거점으로”…포항TP, 한·중 '피지컬 AI' 글로벌 협력 속도",
+      "title": "오픈AI, '아스트라' 개발 일시 중단…\"치명적 사이버공격 가능성\"",
       "title_ko": null,
-      "summary": "포항테크노파크(포항TP)는 중국의 인공지능(AI) 관련 핵심연구소 및 기업과의 글로벌 협력 네트워크를 기반으로 체인지업그라운드 지역확산사업에 가속도를 낸다고 9일 밝혔다.",
+      "summary": "오픈AI가 차세대 모델 \\'아스트라(Astra)\\'의 개발 및 내부 테스트 작업을 일시 중단하고 고강도 보안 통제 체계로 전환했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260806000394",
-      "source": "전자신문 IT",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=213697",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-07T04:00:00+09:00",
-      "popularity": 84,
+      "published_at": "2026-08-08T07:42:32+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 20.01,
-      "importance_score": 15.61,
+      "score": 22.84,
+      "importance_score": 19.67,
       "matched_keywords": [
         "ai",
-        "연구"
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "42e707533f05803dab2b829e475d5243",
+      "id": "07e2615bb3efa32d4c0d30d3f6754ddc",
       "index": 4,
-      "title": "[인사] 국가유산청",
+      "title": "네카오 'AI 수익화' 시점 변했다...네이버는 시작, 카카오는 내년",
       "title_ko": null,
-      "summary": "[지디넷코리아]◇ 고위공무원 임용▲궁능유적본부장 일반직고위공무원(일반임기제) 조규형◇ 국장급 전보▲문화유산국 역사유적정책관 일반직고위공무원 김동대▲자연유산국장 일반직고위공무원 황권순▲무형유산국장 학예연구관 이종훈◇ 과장급 전보▲대변인 서기관 안호▲문화유산국 건축유산팀장 과학기술서기관 김재길▲국립고궁박물관 기획운영과장 서기관 반지연",
+      "summary": "[지디넷코리아]네이버와 카카오가 연초만 해도 올해 하반기를 인공지능(AI) 수익화 시점으로 전망했으나, 실제 성과 시점은 갈라졌다. 네이버는 이미 일부 수익화를 달성한 반면, 카카오는 목표 시점을 내년으로 미룬 것으로 확인됐다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260807085751",
+      "url": "https://zdnet.co.kr/view/?no=20260807181357",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-07T08:57:51+09:00",
-      "popularity": 97,
+      "published_at": "2026-08-08T08:00:02+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.34,
-      "importance_score": 18.98,
+      "score": 19.9,
+      "importance_score": 19.79,
       "matched_keywords": [
-        "연구"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "9f4d3b5528606b217e9fe157347c84df",
+      "id": "887166b2c832abee399793df06c131db",
       "index": 5,
-      "title": "Anionex/agent-vision-toolkit — 为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ ",
-      "title_ko": "Anionex/agent-vision-toolkit — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트 엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode |에 대한 선택적 원활한 액세스 등 일반 텍스트 모델용으로 설계된 시각적 도구 상자 및 기술입니다.",
-      "summary": "为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ A vision toolkit and skill designed for text-only models — image Q&A, long-screenshot OCR, frontend UI restoration, and…",
-      "summary_ko": "텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode에 대한 선택적인 원활한 액세스 | 텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 —…",
-      "url": "https://github.com/Anionex/agent-vision-toolkit",
+      "title": "TOPDEV99999/AI-Knowledge-Management-Platform — An agentic LLM-powered knowledge assistant that enhances RAG capabilities through automated entity e",
+      "title_ko": "TOPDEV99999/AI-Knowledge-Management-Platform — 자동화된 엔터티 e를 통해 RAG 기능을 향상시키는 에이전트 LLM 기반 지식 도우미입니다.",
+      "summary": "An agentic LLM-powered knowledge assistant that enhances RAG capabilities through automated entity extraction, structured data analysis, and SQL-based reasoning to deliver accurate answers for complex, multi-step, and a…",
+      "summary_ko": "자동화된 엔터티 추출, 구조화된 데이터 분석 및 SQL 기반 추론을 통해 RAG 기능을 향상시켜 복잡하고 다단계에 대한 정확한 답변을 제공하는 에이전트 기반 LLM 기반 지식 도우미입니다.",
+      "url": "https://github.com/TOPDEV99999/AI-Knowledge-Management-Platform",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-07T07:23:12+09:00",
-      "popularity": 332,
-      "upvotes": 332,
-      "score": 32.64,
-      "importance_score": 28.95,
+      "published_at": "2026-08-03T16:42:30+09:00",
+      "popularity": 92,
+      "upvotes": 92,
+      "score": 32.86,
+      "importance_score": 15.86,
       "matched_keywords": [
+        "ai",
+        "llm",
         "agent",
-        "claude"
+        "rag",
+        "reasoning"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 332
+        "value": 92
       }
     },
     {
-      "id": "414ea35d29a6a6753f30e823abb2e816",
+      "id": "720194f93484546fe8ebca9d68b31961",
       "index": 6,
-      "title": "FareedKhan-dev/kimi-k3-in-c — A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99:",
-      "title_ko": "FareedKhan-dev/kimi-k3-in-c — 8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 매개변수 Kimi K3입니다. 휴대용 C99:",
-      "summary": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-      "summary_ko": "8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 개의 매개변수 Kimi K3입니다. 휴대용 C99: BLAS 없음, 프레임워크 없음, GPU 없음.",
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "title": "patchy631/time-to-first-token — A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quanti",
+      "title_ko": "patchy631/time-to-first-token — LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 수량",
+      "summary": "A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quantization, speculative decoding, benchmarking.",
+      "summary_ko": "LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 양자화, 추측적 디코딩, 벤치마킹.",
+      "url": "https://github.com/patchy631/time-to-first-token",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-06T23:48:00+09:00",
-      "popularity": 2836,
-      "upvotes": 2836,
-      "score": 32.23,
-      "importance_score": 29.96,
+      "published_at": "2026-08-02T22:08:21+09:00",
+      "popularity": 342,
+      "upvotes": 342,
+      "score": 31.43,
+      "importance_score": 20.43,
       "matched_keywords": [
+        "llm",
+        "benchmark",
         "inference"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 2836
+        "value": 342
       }
     },
     {
-      "id": "766dde8dcd12c9f6a0b82f9e8abef372",
+      "id": "16c0c00686637d1ab9a2237df297928c",
       "index": 7,
-      "title": "Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개",
+      "title": "과기정통부와 KISA가 발간한 AI 보안 레드티밍 가이드, AI 레드팀 구성부터 결과 보고까지 [국문/PDF/69p]",
       "title_ko": null,
-      "summary": "LFM2.5-2.6B 소개 Liquid AI 가 온디바이스(on-device) 환경에서 에이전트를 직접 돌리는 것을 목표로 만든 2.6B 파라미터 모델 LFM2.5-2.6B 를 공개했습니다. 휴대폰에 올라갈 만큼 작고, CPU에서도 반응이 끊기지 않을 만큼 빠르며, 계획을 세우고 도구를 호출하며 여러 단계에 걸친 작업을 수행할 만큼의 능력을 갖췄다는 것이 이 모델의 요지입니다.",
+      "summary": "AI 보안 레드티밍 가이드 소개 AI 보안 레드티밍 가이드 는 과학기술정보통신부 와 한국인터넷진흥원(KISA) 이 2026년 7월에 발간한 69페이지 분량의 국문 지침서로, AI 모델과 서비스를 공격자 관점에서 점검하는 레드팀을 어떻게 구성하고 운영할지를 준비, 이행, 결과 보고의 3단계 절차로 정리한 문서입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549",
+      "url": "https://discuss.pytorch.kr/t/kisa-ai-ai-pdf-69p/11535",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-07T06:30:28+09:00",
-      "popularity": 99,
+      "published_at": "2026-08-07T21:30:37+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.03,
-      "importance_score": 18.16,
+      "score": 20.71,
+      "importance_score": 15.42,
       "matched_keywords": [
         "ai",
         "모델"
