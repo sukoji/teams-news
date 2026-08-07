@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 07 Aug 2026 12:50:43 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 14:42:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OSReward: 크로스 플랫폼 컴퓨터 사용 보상 모델에 대한 표준화된 평가 도입</title>
+      <link>https://huggingface.co/papers/2607.28609</link>
+      <description>CUA(컴퓨터 사용 에이전트)는 디지털 세계 전반에 걸쳐 빠르게 발전하고 있습니다. CUA 궤적은 에이전트의 작업, 상태 및 추론을 기록합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.28609">Hugging Face Papers</source>
+      <guid isPermaLink="false">29f92226ded476411cbf85593d3c77bd</guid>
+    </item>
+    <item>
+      <title>보이지 않는 지름길: Vision 인코더가 카메라를 아는 이유</title>
+      <link>https://huggingface.co/papers/2608.05424</link>
+      <description>딥 비전 모델은 감독 신호와 상관 관계가 있는 단서에 의존하여 지름길을 활용합니다. 이전 작업은 객체-배경 또는 텍스처 상관관계와 같은 눈에 보이는 편향에 중점을 두었습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05424">Hugging Face Papers</source>
+      <guid isPermaLink="false">bd5e31f48b81f455e3b6cce97437df5b</guid>
+    </item>
+    <item>
+      <title>PaDoc: 문서 구문 분석을 위한 레이아웃 기반 병렬 디코딩</title>
+      <link>https://huggingface.co/papers/2608.06146</link>
+      <description>엔드투엔드 문서 파서는 통합된 인터페이스를 제공하지만 페이지 레이아웃과 지역 콘텐츠를 하나의 자동 회귀 시퀀스로 직렬화합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06146">Hugging Face Papers</source>
+      <guid isPermaLink="false">9c271516985d0a57c51f24ec89d261e4</guid>
+    </item>
     <item>
       <title>다국어 수학 추론을 위한 정책상 델타 증류</title>
       <link>https://huggingface.co/papers/2608.05802</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.05070">Hugging Face Papers</source>
       <guid isPermaLink="false">816b1d67d3f77323a55b540e26ec1e59</guid>
-    </item>
-    <item>
-      <title>중단 시점 파악: 지나친 생각을 줄이기 위한 세그먼트 수준 크레딧 할당</title>
-      <link>https://huggingface.co/papers/2607.00482</link>
-      <description>추론 언어 모델은 자주 지나치게 생각합니다. 답변을 개선하지 않고 토큰을 소비하는 헤징, 접근 포기 및 자기 모순과 같은 확장된 동작 체인을 생성합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.00482">Hugging Face Papers</source>
-      <guid isPermaLink="false">b24c679a3c18811ddcd9945032e5503e</guid>
-    </item>
-    <item>
-      <title>ARCHead: 대형 언어 모델 출력 헤드에 대한 활성화-메트릭 잔여 수정</title>
-      <link>https://huggingface.co/papers/2608.02703</link>
-      <description>가중치 전용 양자화는 LLM(대형 언어 모델) 변환기 블록의 저장 공간을 크게 줄이지만 실제 백엔드는 BF16 또는 FP16에 최종 언어 모델링 헤드(LM 헤드)를 유지하는 경우가 많습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02703">Hugging Face Papers</source>
-      <guid isPermaLink="false">0eccb33417c6554e21e656064c1b8830</guid>
-    </item>
-    <item>
-      <title>많은 답변이 유효하면 투표가 실패합니다: LLM의 K-K 인과 추론을 위한 기호 검증</title>
-      <link>https://huggingface.co/papers/2608.03506</link>
-      <description>자체 일관성은 샘플링된 추론 추적 중 가장 빈번한 답변이 가장 신뢰할 수 있다고 가정하지만 이는 인과 추론에서 실패할 수 있습니다. 샘플은 종종 동일한 교란 오류를 반복하고 투표는 여러 개에 걸쳐 조각화됩니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03506">Hugging Face Papers</source>
-      <guid isPermaLink="false">ce0da63be422f55047d618684389655d</guid>
     </item>
   </channel>
 </rss>
