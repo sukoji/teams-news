@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 23:13:01 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 09:42:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SIGNPOST-Bench: 다중 모드 대형 언어 모델의 텍스트-비전 충돌 해결 벤치마킹</title>
+      <link>https://huggingface.co/papers/2608.04244</link>
+      <description>다중 모드 대형 언어 모델(MLLM)은 시각적 신호와 텍스트 신호를 결합하여 실제 장면에서 근거 있는 예측을 수행하지만 기존 벤치마크에서는 다음과 같은 경우 이러한 증거 소스 사이를 중재하는 방법을 거의 밝히지 않습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04244">Hugging Face Papers</source>
+      <guid isPermaLink="false">49963dad5c4a23c33f70d0547d56d15f</guid>
+    </item>
+    <item>
+      <title>FinanceHarness: 자율 금융 심층 연구 프레임워크</title>
+      <link>https://huggingface.co/papers/2607.27853</link>
+      <description>LLM과 자율 에이전트의 발전에 힘입어 심층 연구는 가장 널리 채택되는 에이전트 제품 중 하나가 되었습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27853">Hugging Face Papers</source>
+      <guid isPermaLink="false">5404dbc9a96a793cdf5f35f059ed41e6</guid>
+    </item>
+    <item>
+      <title>음악 공동 창작 에이전트가 잘 '듣도록' 지원: 이해와 생성을 위한 계층적 자기 감독 세계 모델</title>
+      <link>https://huggingface.co/papers/2608.04378</link>
+      <description>협업 음악 에이전트는 이해와 생성을 모두 지원할 만큼 풍부하면서도 인간이 에이전시를 유지하는 워크플로에 맞게 충분히 유연한 내부 표현이 필요합니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04378">Hugging Face Papers</source>
+      <guid isPermaLink="false">697bf035dedbed7f3869438ee32775fa</guid>
+    </item>
+    <item>
+      <title>프로그램 합성으로서의 무손실 텐서 압축</title>
+      <link>https://huggingface.co/papers/2608.02162</link>
+      <description>모델 체크포인트의 수와 크기가 모두 증가함에 따라 보관, 전송 및 배포 비용이 점점 더 많이 듭니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02162">Hugging Face Papers</source>
+      <guid isPermaLink="false">6dba3d59d810bf5a804fdaf8624c05a9</guid>
+    </item>
+    <item>
+      <title>AI 레드팀 평가가 증명할 수 있는 것과 증명할 수 없는 것</title>
+      <link>https://huggingface.co/papers/2607.21735</link>
+      <description>AI 모델에 대한 레드팀 평가는 일부 주장을 뒷받침하고 다른 주장은 뒷받침하지 않으며, 둘 사이의 경계는 단순한 판단의 문제가 아니라 계산 가능합니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.21735">Hugging Face Papers</source>
+      <guid isPermaLink="false">9f8f66f342892d5b8373ec658b77d3bd</guid>
+    </item>
     <item>
       <title>DRIFT: 적대적 패치 공격으로 흐름 일치 VLA의 노이즈 제거 궤적 탈선</title>
       <link>https://huggingface.co/papers/2608.03207</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.03979">Hugging Face Papers</source>
       <guid isPermaLink="false">a2f868ac41c383592d21158690e30dec</guid>
-    </item>
-    <item>
-      <title>PosterMELD: 편집 가능한 인쇄용 출력을 통해 제어 가능한 디자인 다양성을 위한 다중 에이전트 종이-포스터 생성</title>
-      <link>https://huggingface.co/papers/2608.02218</link>
-      <description>과학적인 포스터 구성은 긴 다중 모드 종이를 읽고 편집 가능한 캔버스로 압축합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02218">Hugging Face Papers</source>
-      <guid isPermaLink="false">98fe649cefa9f706f73202557d5182b5</guid>
-    </item>
-    <item>
-      <title>에이전트가 자신의 모습을 배울 때: 개인 정보 유출, 명의 도용 위험 및 페르소나 스킬의 방어 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.03700</link>
-      <description>페르소나 기술은 개인 상호작용 기록을 다운스트림 에이전트를 위한 이식 가능하고 실행 가능한 아티팩트로 추출합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03700">Hugging Face Papers</source>
-      <guid isPermaLink="false">8f9a18ccec32df314ee5448a09d2f087</guid>
-    </item>
-    <item>
-      <title>ContinualSkillBench: LLM 에이전트가 진정으로 역량을 발전시킬 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2608.03874</link>
-      <description>최신 에이전트 프레임워크는 복잡한 작업을 해결하기 위해 대규모 언어 모델에 외부 기술 라이브러리를 제공합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03874">Hugging Face Papers</source>
-      <guid isPermaLink="false">21794987e659cc78fd9a9610dc584332</guid>
-    </item>
-    <item>
-      <title>푸시 와이퍼: 분할된 추진 궤적을 통해 다양한 얼룩과 표면에 대한 범용 로봇 청소를 향하여</title>
-      <link>https://huggingface.co/papers/2608.00730</link>
-      <description>높은 점도와 복잡한 유변학적 특성을 특징으로 하는 점성 얼룩은 로봇 표면 청소의 주요 과제로 남아 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00730">Hugging Face Papers</source>
-      <guid isPermaLink="false">966d741ab70f5b98dcaf3bba3b278c65</guid>
-    </item>
-    <item>
-      <title>ST-WAM: 시각적 분포 변화에 따른 강력한 조작을 위한 의미론적 시간적 세계 행동 모델</title>
-      <link>https://huggingface.co/papers/2607.28993</link>
-      <description>WAM(World Action Model)은 로봇 동작과 미래의 시각적 역학을 공동으로 모델링함으로써 유망한 패러다임으로 부상했습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28993">Hugging Face Papers</source>
-      <guid isPermaLink="false">d37a2ca3023d907147d5e6092187d145</guid>
     </item>
   </channel>
 </rss>

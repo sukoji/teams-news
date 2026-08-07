@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 23:13:01 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 09:42:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개</title>
+      <link>https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549</link>
+      <description>LFM2.5-2.6B 소개 Liquid AI 가 온디바이스(on-device) 환경에서 에이전트를 직접 돌리는 것을 목표로 만든 2.6B 파라미터 모델 LFM2.5-2.6B 를 공개했습니다. 휴대폰에 올라갈 만큼 작고, CPU에서도 반응이 끊기지 않을 만큼 빠르며, 계획을 세우고 도구를 호출하며 여러 단계에 걸친 작업을 수행할 만큼의 능력을 갖췄다는 것이 이 모델의 요지입니다.</description>
+      <pubDate>Fri, 07 Aug 2026 06:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549">PyTorch Korea</source>
+      <guid isPermaLink="false">766dde8dcd12c9f6a0b82f9e8abef372</guid>
+    </item>
+    <item>
+      <title>LogoCreator: 브랜드 이름만 넣으면 로고와 브랜드 키트가 나오는 오픈소스 웹 앱</title>
+      <link>https://discuss.pytorch.kr/t/logocreator/11537</link>
+      <description>LogoCreator 소개 이미지 생성 모델에 "우리 회사 로고를 만들어 줘"라고 부탁해 본 사람은 결과물이 어디서 무너지는지 알고 있습니다. 그림 자체는 그럴듯하게 나오지만 회사 이름의 글자가 뭉개지거나 없는 철자가 끼어들고, 마음에 드는 마크가 나와도 파비콘으로 쓸 정사각형 버전이나 명함에 얹을 배치는 다시 처음부터 만들어야 합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:30:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/logocreator/11537">PyTorch Korea</source>
+      <guid isPermaLink="false">98488f350e0b4725bab95705c7752e49</guid>
+    </item>
     <item>
       <title>Comp AI CRM: 에이전트가 스스로 조사하고 근거가 있는 사실만 기록하는 오픈소스 CRM</title>
       <link>https://discuss.pytorch.kr/t/comp-ai-crm-crm/11538</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/anthropic-claude-opus-5-opus-4-8/11439">PyTorch Korea</source>
       <guid isPermaLink="false">66d361cd3631bb492e924d419c88d62a</guid>
-    </item>
-    <item>
-      <title>Unstract: 프롬프트로 비정형 문서에서 구조화된 JSON을 추출하는 LLM 플랫폼</title>
-      <link>https://discuss.pytorch.kr/t/unstract-json-llm/11417</link>
-      <description>Unstract 소개 기업이 다루는 데이터의 상당 부분은 계약서, 청구서, 보험 서류, 이력서처럼 정해진 틀이 없는 비정형 문서에 담겨 있습니다. 이런 문서에서 필요한 값만 뽑아 데이터베이스에 넣으려면 보통 문서 종류마다 정규식과 템플릿을 따로 만들어야 했고, 같은 청구서라도 공급업체가 바뀌면 양식이 달라져 파이프라인을 다시 손봐야 했습니다.</description>
-      <pubDate>Tue, 28 Jul 2026 14:30:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/unstract-json-llm/11417">PyTorch Korea</source>
-      <guid isPermaLink="false">1842479968c560daf17fb67acbab43fa</guid>
-    </item>
-    <item>
-      <title>Anthropic의 Project Pilot: AI 모델의 드론 조종 능력을 측정한 Drone-Bench</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-project-pilot-ai-drone-bench/11440</link>
-      <description>Project Pilot 소개 Project Pilot 은 Anthropic 과 평가 전문 조직 Andon Labs 가 함께 진행해 2026년 7월 24일 공개한 실험으로, AI 모델이 실내에서 쿼드로터 드론을 직접 조종해 특정 인물을 찾아내고 따라갈 수 있는지를 측정합니다.</description>
-      <pubDate>Tue, 28 Jul 2026 08:30:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-project-pilot-ai-drone-bench/11440">PyTorch Korea</source>
-      <guid isPermaLink="false">476f3b0c51844e9fad3a8149108dc8c7</guid>
     </item>
   </channel>
 </rss>
