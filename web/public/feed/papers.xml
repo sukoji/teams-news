@@ -5,9 +5,126 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 07 Aug 2026 10:41:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 12:50:43 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>다국어 수학 추론을 위한 정책상 델타 증류</title>
+      <link>https://huggingface.co/papers/2608.05802</link>
+      <description>OPD(On-Policy Distillation)는 LLM 사후 교육을 위한 강화 학습의 유망한 대안으로 떠오르고 있지만 다국어 설정에서의 효율성은 여전히 ​​과소평가되어 있습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05802">Hugging Face Papers</source>
+      <guid isPermaLink="false">38cbc79a7ffb96942911aeb72f00ac80</guid>
+    </item>
+    <item>
+      <title>AgentOPSD: 에이전트 강화 학습을 위한 재귀적 자가 증류</title>
+      <link>https://huggingface.co/papers/2608.05987</link>
+      <description>검증 가능한 보상을 제공하는 강화 학습(RL)은 궤적 수준의 이점 추정치를 구성하지만, 장거리, 다중 회전 에이전트 작업에서 결과를 결정하는 몇 가지 중추적인 결정을 인정하지 못하는 경우가 많습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05987">Hugging Face Papers</source>
+      <guid isPermaLink="false">0feb1c98d734076ddbf21511fb6c67ee</guid>
+    </item>
+    <item>
+      <title>EnvACE: 에이전트 강화 학습을 위한 월드 리허설을 통해 환경 역학 내부화</title>
+      <link>https://huggingface.co/papers/2608.06197</link>
+      <description>장거리 도구 사용을 위한 대규모 언어 모델 에이전트 교육은 일반적으로 구성 및 검증 비용이 많이 드는 실제 또는 합성 실행 가능 환경과의 상호 작용에 의존하거나 외부 시뮬레이터를 사용합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06197">Hugging Face Papers</source>
+      <guid isPermaLink="false">bcecaa6908ba5522ba797381dfa3a5b1</guid>
+    </item>
+    <item>
+      <title>GST-Bench: VLM이 비디오를 통해 전역 공간 인식을 개발할 수 있습니까?</title>
+      <link>https://huggingface.co/papers/2608.05747</link>
+      <description>공간 지능은 구체화된 에이전트의 기본이지만 기존 벤치마크는 단일 또는 소수의 관점에서 로컬 공간 인식에 초점을 맞추고 연속적이고 긴 수평 시각적인 것에 대한 전체 공간 인식을 간과합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05747">Hugging Face Papers</source>
+      <guid isPermaLink="false">1ef56afb6587b270246c665e0030f180</guid>
+    </item>
+    <item>
+      <title>WorldClaw: 대규모 Agentic 3D 오픈 월드 생성</title>
+      <link>https://huggingface.co/papers/2608.05248</link>
+      <description>개방형 텍스트에서 자유롭게 탐색할 수 있는 대규모 3D 세계를 생성하는 것은 시스템이 글로벌 공간 일관성, 풍부한 로컬 콘텐츠 및 하위 환경에 적합한 명시적 자산을 공동으로 유지해야 하기 때문에 여전히 어려운 일입니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05248">Hugging Face Papers</source>
+      <guid isPermaLink="false">ed6023d0f91fea047a457bf1564ec2ab</guid>
+    </item>
+    <item>
+      <title>실패로부터 학습: 통합 다중 모드 검색을 위한 하드 네거티브를 통한 검색 중심 CoT</title>
+      <link>https://huggingface.co/papers/2608.06060</link>
+      <description>통합 다중 모드 검색은 이질적인 입력을 통해 표현된 복잡한 사용자 의도를 충족하는 후보를 식별하는 것을 목표로 합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06060">Hugging Face Papers</source>
+      <guid isPermaLink="false">8886b7da551a55a72fe704a69b12be3d</guid>
+    </item>
+    <item>
+      <title>ChronoVision: 잠재 상태 재구성을 통한 시간적 추론</title>
+      <link>https://huggingface.co/papers/2608.05631</link>
+      <description>다중 모드 대형 언어 모델은 수동적 인식에는 탁월하지만 다단계 시간적 추론이 필요한 복잡한 시각적 인지 작업에는 어려움을 겪습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05631">Hugging Face Papers</source>
+      <guid isPermaLink="false">d1a7e82a898d1cbcd1341e348b1c1ec0</guid>
+    </item>
+    <item>
+      <title>CalibForge: 학습 가능한 터미널 작업 스케일링을 위한 적대적 솔버 교정</title>
+      <link>https://huggingface.co/papers/2608.06352</link>
+      <description>터미널 에이전트 교육에는 단순히 해결할 수 있을 뿐만 아니라 학습에 적절하게 도전적인 실행 가능하고 검증 가능한 작업이 필요합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06352">Hugging Face Papers</source>
+      <guid isPermaLink="false">e1c8b3dccf3604bdc5b0ec4076dc2743</guid>
+    </item>
+    <item>
+      <title>HarnessOpt-Bench: 하네스 최적화에서 LLM 평가</title>
+      <link>https://huggingface.co/papers/2608.06301</link>
+      <description>LLM이 에이전트 시스템 내에서 점점 더 많이 배포됨에 따라 해당 기능은 모델 가중치뿐만 아니라 하네스(시스템을 둘러싼 프롬프트, 도구, 제어 흐름, 메모리 및 오케스트레이션 코드)에 따라 달라집니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06301">Hugging Face Papers</source>
+      <guid isPermaLink="false">2673f89b7f0c025e70a86587566c066a</guid>
+    </item>
+    <item>
+      <title>DyPES-VLA: 교차 구현 조작을 위한 공유 역학 사전 학습 및 구현별 제어 학습</title>
+      <link>https://huggingface.co/papers/2608.06374</link>
+      <description>VLA(Vision-Language-Action) 모델은 로봇 조작을 위한 강력한 패러다임이 되었지만 이기종 로봇 구현에 대한 단일 일반 정책을 교육하는 것은 아직 해결되지 않은 문제로 남아 있습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06374">Hugging Face Papers</source>
+      <guid isPermaLink="false">e8bee33e949e91db9f585dac1c9d190f</guid>
+    </item>
+    <item>
+      <title>장거리 터미널 작업을 위한 재귀적 합성</title>
+      <link>https://huggingface.co/papers/2608.05466</link>
+      <description>단말 에이전트를 위한 고품질 장거리 훈련 데이터는 생성하는 데 비용이 많이 들며, 각 작업마다 지침, 환경, 참조 솔루션 등을 유지해야 하기 때문에 작업당 수백에서 수천 달러의 비용이 드는 경우가 많습니다.</description>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05466">Hugging Face Papers</source>
+      <guid isPermaLink="false">e429867521e8d3686891020d6c2cb950</guid>
+    </item>
+    <item>
+      <title>World-to-Wrist: 세밀한 로봇 조작을 위한 작업 조건에 따른 미래 손목 모델링</title>
+      <link>https://huggingface.co/papers/2608.05369</link>
+      <description>VLA(시각-언어-동작) 모델은 종종 메인 뷰와 손목 뷰 관찰을 병렬 시각적 입력으로 처리하여 로봇 조작에서 서로 다른 역할을 간과합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05369">Hugging Face Papers</source>
+      <guid isPermaLink="false">586be0d68cc07a808bc65222386c2291</guid>
+    </item>
+    <item>
+      <title>SmartMage: 3D 장면 이해를 위한 동적 모달리티 오케스트레이션</title>
+      <link>https://huggingface.co/papers/2608.05137</link>
+      <description>3D 장면을 이해하는 것은 구체화된 지능의 기본이며 시각적 및 기하학적 단서를 포함한 여러 양식의 이질적인 정보에 대한 공동 추론이 필요합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05137">Hugging Face Papers</source>
+      <guid isPermaLink="false">0a1a4a9df695a1bed096a40e418546e0</guid>
+    </item>
     <item>
       <title>SIGNPOST-Bench: 다중 모드 대형 언어 모델의 텍스트-비전 충돌 해결 벤치마킹</title>
       <link>https://huggingface.co/papers/2608.04244</link>
@@ -340,123 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.03506">Hugging Face Papers</source>
       <guid isPermaLink="false">ce0da63be422f55047d618684389655d</guid>
-    </item>
-    <item>
-      <title>ReflectRL: 반사-직접 추론을 통해 골든 네거티브 궤적에서 학습</title>
-      <link>https://huggingface.co/papers/2608.03972</link>
-      <description>정책에 따른 훈련은 대규모 언어 모델의 추론 능력을 향상시키기 위한 강력한 사후 훈련 패러다임으로 등장했으며, 더 강력한 전문가 모델의 황금 궤적에 의해 강화되는 경우가 많습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03972">Hugging Face Papers</source>
-      <guid isPermaLink="false">be357e90f87ae54776eb21f882c7d484</guid>
-    </item>
-    <item>
-      <title>LegalPincite: 다단계 법률 정보 검색 데이터세트</title>
-      <link>https://huggingface.co/papers/2608.03756</link>
-      <description>법률 정보 검색(IR)의 일반적인 작업은 판례 컬렉션에서 관련 법률 소스를 찾는 것입니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03756">Hugging Face Papers</source>
-      <guid isPermaLink="false">d11c6094d6c72f73436c184c6d1f2133</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.02833</link>
-      <description>차트 질문 답변(CQA)에는 시각적 이해력과 논리적 추론을 통합하기 위한 다중 모드 대형 언어 모델(MLLM)이 필요하지만 현재 모델은 정확한 시각적 기반 및 일관된 추론에 어려움을 겪고 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02833">Hugging Face Papers</source>
-      <guid isPermaLink="false">338ac63b17e841940ddd0375be0512ef</guid>
-    </item>
-    <item>
-      <title>ChronoLens: 시간, 언어 및 언어 수준에 따른 언어 변화 측정</title>
-      <link>https://huggingface.co/papers/2608.03507</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03507">Hugging Face Papers</source>
-      <guid isPermaLink="false">b9d64d3540e540607bb8a57487e3bebb</guid>
-    </item>
-    <item>
-      <title>RestoreKV: 공격적인 쿼리 독립적 KV 캐시 제거에서 전체 캐시 동작 복구</title>
-      <link>https://huggingface.co/papers/2608.01247</link>
-      <description>쿼리에 구애받지 않는 KV 캐시 제거는 컨텍스트를 한 번 압축하고 향후 임의 쿼리에 결과 캐시를 재사용하지만 예산이 부족하면 성능이 저하될 수 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01247">Hugging Face Papers</source>
-      <guid isPermaLink="false">28647254a27514f8b1b27b77d5c5c83d</guid>
-    </item>
-    <item>
-      <title>LLM의 재정적 추론은 신뢰할 수 있습니까? 장기적 진술에 대한 실제 세계 테스트</title>
-      <link>https://huggingface.co/papers/2607.28661</link>
-      <description>LLM(대형 언어 모델)은 진정한 구조적 추론을 갖고 있습니까, 아니면 표면 수준 패턴 일치에만 의존합니까?</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.28661">Hugging Face Papers</source>
-      <guid isPermaLink="false">ea102bd0dd6ac6463ae254a2342dd50c</guid>
-    </item>
-    <item>
-      <title>더 좋고, 더 강력하고, 더 빠르고, 더 광범위합니다: MLLM 기반 분할을 위한 구조화된 전체 마스크 예측</title>
-      <link>https://huggingface.co/papers/2608.02791</link>
-      <description>MLLM 기반 분할은 높은 분할 성능, 보존된 대화 기능, 빠른 추론이라는 핵심 분할 삼중레마에 직면해 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02791">Hugging Face Papers</source>
-      <guid isPermaLink="false">24985ec197407daafbebcaa4e5224120</guid>
-    </item>
-    <item>
-      <title>다중 작업 다중 프레임 시각적 피아노 전사</title>
-      <link>https://huggingface.co/papers/2608.03419</link>
-      <description>오디오 기반 피아노 녹음은 시작, 피치 및 속도에서 잘 작동하지만 서스테인 페달을 사용하면 건반을 놓은 후에도 사운드가 오랫동안 지속되므로 오디오 시스템은 물리적 건반 관계보다는 페달 확장 오프셋을 예측합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03419">Hugging Face Papers</source>
-      <guid isPermaLink="false">e840c176b4883de724176ed4c7262670</guid>
-    </item>
-    <item>
-      <title>주의가 흐려질 때: ALiBi 위치 인코딩의 수치 오류</title>
-      <link>https://huggingface.co/papers/2608.03994</link>
-      <description>우리는 이전에 간과되었던 ALiBi 위치 인코딩의 실패 모드를 식별합니다. 선형 바이어스 스케일링은 부동 소수점 정밀도 언더플로우로 인해 주목 가중치의 상당 부분을 0으로 만들고 영향을 받은 결과를 렌더링합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03994">Hugging Face Papers</source>
-      <guid isPermaLink="false">b5233829977a36445025c699bdec5e75</guid>
-    </item>
-    <item>
-      <title>MiniWorld: 비디오 월드 모델 교육을 처음부터 민주화</title>
-      <link>https://huggingface.co/papers/2608.01127</link>
-      <description>비디오 세계 모델은 과거 관찰 및 제어 신호를 조건으로 미래 관찰을 예측하여 자동 회귀 상태 전환을 통해 장기적인 생성을 가능하게 합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01127">Hugging Face Papers</source>
-      <guid isPermaLink="false">4836c4a7572c5c79660a65f76327b8d2</guid>
-    </item>
-    <item>
-      <title>어린이 보행 행동 디코딩</title>
-      <link>https://huggingface.co/papers/2608.00371</link>
-      <description>우리는 인간 행동 인식을 위한 새로운 문제 영역, 즉 표준 RGB 비디오에서 어린이의 보행 행동을 세밀하게 분석하는 방법을 소개합니다. 우리는 특히 3~17세 어린이의 보행 패턴을 목표로 합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00371">Hugging Face Papers</source>
-      <guid isPermaLink="false">745d985ae9b57fd68e9e101548ea4f88</guid>
-    </item>
-    <item>
-      <title>LLaDA MoE v2: 전문가 혼합 확산 언어 모델 확장</title>
-      <link>https://huggingface.co/papers/2608.03457</link>
-      <description>dLLM(확산 언어 모델)은 AR(자동 회귀) 언어 모델링에 대한 대안을 제공하지만 MoE(Mixture-of-Experts) dLLM의 확장 동작은 아직 잘 이해되지 않고 있습니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03457">Hugging Face Papers</source>
-      <guid isPermaLink="false">c2e534f7f4e91561b6c3813f4a9923af</guid>
-    </item>
-    <item>
-      <title>Video-DeepResearch: 차세대 다중 모드 Deepresearch 에이전트를 향하여</title>
-      <link>https://huggingface.co/papers/2608.03979</link>
-      <description>우리는 다중 모달 에이전트를 정적 이미지에서 지속적인 비디오 스트림으로 확장하는 Video-DeepResearch(Video-DR)를 소개합니다. 이는 개방형 웹 탐색과 결합된 조밀한 시공간 기반을 요구하는 설정입니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03979">Hugging Face Papers</source>
-      <guid isPermaLink="false">a2f868ac41c383592d21158690e30dec</guid>
     </item>
   </channel>
 </rss>

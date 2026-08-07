@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 07 Aug 2026 10:41:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 12:50:43 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Mixture-of-Kittens: Cursor가 새로 공개한 NVL72용 MoE 학습 메가커널</title>
+      <link>https://discuss.pytorch.kr/t/mixture-of-kittens-cursor-nvl72-moe/11548</link>
+      <description>Mixture-of-Kittens(MoK) 소개 대규모 학습 작업의 프로파일을 열어 보면, 전문가 혼합(Mixture-of-Experts, MoE) 모델에서는 전문가 계산 못지않게 GPU 사이로 토큰을 옮기는 구간이 크게 잡히곤 합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 12:30:29 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mixture-of-kittens-cursor-nvl72-moe/11548">PyTorch Korea</source>
+      <guid isPermaLink="false">35ea76ddfe893fcde9050a5faabc8d2f</guid>
+    </item>
     <item>
       <title>Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개</title>
       <link>https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openworker-ai-feat-andrew-ng/11406">PyTorch Korea</source>
       <guid isPermaLink="false">a9c3de33a98c89501b9d2a7323159bd1</guid>
-    </item>
-    <item>
-      <title>Anthropic이 공개한 Claude Opus 5 프롬프트 작성법 및 Opus 4.8 마이그레이션 가이드</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-claude-opus-5-opus-4-8/11439</link>
-      <description>Claude Opus 5 프롬프트 가이드 소개 Anthropic 이 공식 문서에 Claude Opus 5 전용 프롬프트 가이드 를 추가했습니다. 새 모델이 나올 때 개발자가 기대하는 것은 대개 "같은 프롬프트로 더 좋은 결과"인데, 이 문서가 다루는 내용은 정확히 그 기대가 어긋나는 지점입니다.</description>
-      <pubDate>Tue, 28 Jul 2026 12:30:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-claude-opus-5-opus-4-8/11439">PyTorch Korea</source>
-      <guid isPermaLink="false">66d361cd3631bb492e924d419c88d62a</guid>
     </item>
   </channel>
 </rss>
