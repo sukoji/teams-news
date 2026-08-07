@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 07 Aug 2026 14:42:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 16:19:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>EffectLearner: 실제 비디오 객체 제거를 위한 세계 인식 객체 효과 추론</title>
+      <link>https://huggingface.co/papers/2608.05565</link>
+      <description>비디오 객체 제거는 높은 충실도와 시공간적으로 일관된 복원을 유지하면서 대상 객체뿐만 아니라 그로 인해 유발된 효과도 제거해야 합니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05565">Hugging Face Papers</source>
+      <guid isPermaLink="false">08ad2022ece1f59fe8a054496eedb22b</guid>
+    </item>
+    <item>
+      <title>ContextMaster: 고정 예산 희소 컨텍스트 라우팅을 통한 대화형 멀티샷 비디오 생성</title>
+      <link>https://huggingface.co/papers/2608.04956</link>
+      <description>최근 비디오 모델은 점점 더 단일 모델 내에서 생성, 참조 조절 및 편집을 지원하지만 일반적으로 고정 입력에 대한 별도의 작업으로 노출됩니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04956">Hugging Face Papers</source>
+      <guid isPermaLink="false">07807eaec5085790de2eb83ac3f528b7</guid>
+    </item>
+    <item>
+      <title>MASS: 권위 있는 공유 상태를 갖춘 멀티플레이어 월드 모델</title>
+      <link>https://huggingface.co/papers/2608.06257</link>
+      <description>현재 비디오 세계 모델은 세계 상태를 뷰 의존적 시각적 잠재성과 얽혀 중복 계산, 뷰 불일치 및 낮은 확장성을 초래하기 때문에 멀티플레이어 환경에서 어려움을 겪습니다.</description>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06257">Hugging Face Papers</source>
+      <guid isPermaLink="false">37c537a50f7d05620c3d06673baf7b85</guid>
+    </item>
     <item>
       <title>OSReward: 크로스 플랫폼 컴퓨터 사용 보상 모델에 대한 표준화된 평가 도입</title>
       <link>https://huggingface.co/papers/2607.28609</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.03632">Hugging Face Papers</source>
       <guid isPermaLink="false">f417404dacb30bf919bc9db9006d79b1</guid>
-    </item>
-    <item>
-      <title>검색, 검사, 가져오기: 심층 연구 에이전트를 위한 부울 검색 활용</title>
-      <link>https://huggingface.co/papers/2608.02751</link>
-      <description>기존 심층 연구 에이전트는 웹 소스가 제목, 제목, 섹션 및 메타데이터를 통해 노출하는 주소 지정 가능한 구조를 고려하지 않고 전체 페이지를 검색하고 읽는 검색-방문 워크플로를 사용합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02751">Hugging Face Papers</source>
-      <guid isPermaLink="false">06afcb920ea39f7fd5e10b7e48265c37</guid>
-    </item>
-    <item>
-      <title>TriGlue: 분자 접착제 유도 삼원 복합체 생성을 위한 생물학에서 영감을 받은 생성 모델</title>
-      <link>https://huggingface.co/papers/2607.22143</link>
-      <description>분자 접착제 분해제는 E3 유비퀴틴 리가제와 표적 단백질 사이의 삼원 복합체 형성을 유도함으로써 표적 단백질 분해를 위한 유망한 전략으로 등장했습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.22143">Hugging Face Papers</source>
-      <guid isPermaLink="false">a069419b611a9a22761ec15f1f588aa7</guid>
-    </item>
-    <item>
-      <title>HelloWorld: 비디오 월드 모델에서 소셜 상호작용 캐릭터 활성화</title>
-      <link>https://huggingface.co/papers/2608.05070</link>
-      <description>최근 비디오 세계 모델의 놀라운 발전에도 불구하고 이러한 세계 내에서 사용자와 캐릭터 간의 사회적 상호 작용은 여전히 ​​지원되지 않습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05070">Hugging Face Papers</source>
-      <guid isPermaLink="false">816b1d67d3f77323a55b540e26ec1e59</guid>
     </item>
   </channel>
 </rss>
