@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-06",
-  "generated_at": "2026-08-06T08:56:49.145723+09:00",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T10:41:12.511752+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,54 +10,58 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "0094234222569690affadd7a372f51ff",
+          "id": "3ce29d47e6a630f9c7241255e429bf10",
           "index": 1,
-          "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
-          "title_ko": "MerchantBench: 전자 상거래 운영의 장기적인 일관성을 위한 LLM 에이전트 벤치마킹",
-          "summary": "Large language model agents are increasingly evaluated as autonomous tool users, yet most benchmarks focus on bounded tasks with immediate success criteria.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://huggingface.co/papers/2607.28956",
+          "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+          "title_ko": "Skill-Native LLM을 향하여: 벤치마킹 및 장기 추론 훈련을 위한 스킬 엔트로피",
+          "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule.",
+          "summary_ko": "최근 LLM의 장거리 추론에서는 모델이 추론 체인 내에서 고유한 기술(예: 먼저 수학 파생을 수행한 다음 결과를 사용하여 일정을 계획하는 등) 사이를 전환해야 합니다.",
+          "url": "https://huggingface.co/papers/2608.05139",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-05T09:00:00+09:00",
-          "popularity": 210,
-          "upvotes": 83,
-          "score": 26.07,
-          "importance_score": 16.08,
+          "published_at": "2026-08-06T09:00:00+09:00",
+          "popularity": 51,
+          "upvotes": 21,
+          "score": 25.85,
+          "importance_score": 11.85,
           "matched_keywords": [
+            "ai",
             "llm",
-            "agent",
-            "benchmark"
+            "reasoning",
+            "benchmark",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 83
+            "value": 21
           }
         },
         {
-          "id": "d13221bf36f5f7cc615e8e7efebe2f48",
+          "id": "5a3ec7f89baeea1e1478e5cf8cb14f69",
           "index": 2,
-          "title": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
-          "title_ko": "JoyAI-Video-Edit: 자동 회귀 확산을 사용한 실시간 개방형 비디오 편집",
-          "summary": "Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://huggingface.co/papers/2608.03974",
+          "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+          "title_ko": "ToolArtist: 에이전트 이미지 생성을 위한 도구 사용 통합 다중 모드 모델",
+          "summary": "Text-to-image (T2I) models can produce visually compelling images, yet they remain limited on open-world tasks that require complex semantic understanding, multi-step reasoning, and the integration of external world kno…",
+          "summary_ko": "T2I(텍스트-이미지) 모델은 시각적으로 매력적인 이미지를 생성할 수 있지만 복잡한 의미론적 이해, 다단계 추론 및 외부 세계 지식의 통합이 필요한 개방형 작업에는 여전히 제한적입니다.",
+          "url": "https://huggingface.co/papers/2608.04436",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-05T09:00:00+09:00",
-          "popularity": 292,
-          "upvotes": 77,
-          "score": 25.05,
-          "importance_score": 17.06,
+          "published_at": "2026-08-06T09:00:00+09:00",
+          "popularity": 92,
+          "upvotes": 46,
+          "score": 25.6,
+          "importance_score": 13.6,
           "matched_keywords": [
             "ai",
-            "diffusion"
+            "agent",
+            "multimodal",
+            "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 77
+            "value": 46
           }
         }
       ]
@@ -67,44 +71,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "d202f47f5e829e5d46e5033a978ce41f",
+          "id": "f7f5cf5b85de30415849471b37613048",
           "index": 3,
-          "title": "[8월5일] \"오픈AI가 무너질 것\"이라는 2년 전 예측...그 이후 무슨 일이 일어났나",
+          "title": "“포항을 '제조 AX' 글로벌 거점으로”…포항TP, 한·중 '피지컬 AI' 글로벌 협력 속도",
           "title_ko": null,
-          "summary": "2024년 7월 미국의 IT 칼럼니스트 에드 지트론은 당시 AI 업계를 뒤흔든 글 하나를 공개했습니다. 제목은 \\'오픈AI는 어떻게 살아남을 것인가(How OpenAI Survives)\\'입니다.그의 주장은 현재의 오픈AI는 지속 가능한 구조가 아니며, 역사상 최대 규모의 자금 조달과 획기적인 기술 혁신이 없다면 12~24개월을 버티기 어렵다는 것이었습니다.",
+          "summary": "포항테크노파크(포항TP)는 중국의 인공지능(AI) 관련 핵심연구소 및 기업과의 글로벌 협력 네트워크를 기반으로 체인지업그라운드 지역확산사업에 가속도를 낸다고 9일 밝혔다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=213551",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20260806000394",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-06T07:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-08-07T04:00:00+09:00",
+          "popularity": 84,
           "upvotes": 0,
-          "score": 19.59,
-          "importance_score": 19.19,
+          "score": 20.01,
+          "importance_score": 15.61,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "연구"
           ],
           "engagement": null
         },
         {
-          "id": "94bf1ed5b55c11f084acad8d4afc4d4f",
+          "id": "42e707533f05803dab2b829e475d5243",
           "index": 4,
-          "title": "시전 보고서, 브랜드들이 비용 부담 큰 &apos;데이터 파편화 함정&apos;에 빠지고 있다고 경고",
+          "title": "[인사] 국가유산청",
           "title_ko": null,
-          "summary": "[지디넷코리아] 새로운 분석 결과, 단절된 검색, 소셜 및 AI 신호가 사각지대를 만들고 의사결정을 지연시키며 위험을 증폭시키는 것으로 나타나 시카고, 2026년 8월 5일 /PRNewswire/ -- 소비자 및 미디어 인텔리전스 분야의 글로벌 선도기업인 시전(Cision)이 8월 5일, 방대한 데이터를 의미 있는 비즈니스 인텔리전스로 전환하는 데 있어 브랜드들이 겪는 어려움을 조명하는 새…",
+          "summary": "[지디넷코리아]◇ 고위공무원 임용▲궁능유적본부장 일반직고위공무원(일반임기제) 조규형◇ 국장급 전보▲문화유산국 역사유적정책관 일반직고위공무원 김동대▲자연유산국장 일반직고위공무원 황권순▲무형유산국장 학예연구관 이종훈◇ 과장급 전보▲대변인 서기관 안호▲문화유산국 건축유산팀장 과학기술서기관 김재길▲국립고궁박물관 기획운영과장 서기관 반지연",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260806001003",
+          "url": "https://zdnet.co.kr/view/?no=20260807085751",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-06T00:10:03+09:00",
-          "popularity": 100,
+          "published_at": "2026-08-07T08:57:51+09:00",
+          "popularity": 97,
           "upvotes": 0,
-          "score": 18.17,
-          "importance_score": 16.34,
+          "score": 19.34,
+          "importance_score": 18.98,
           "matched_keywords": [
-            "ai"
+            "연구"
           ],
           "engagement": null
         }
@@ -117,53 +122,50 @@
         {
           "id": "9f4d3b5528606b217e9fe157347c84df",
           "index": 5,
-          "title": "Anionex/agent-vision-toolkit — 给纯文本 LLM agent 装上眼睛：图片问答、OCR、截图分析、视觉定位等一套视觉工具箱 + skill，并可无缝接入 Codex、Claude Code、OpenCode、Pi ｜ Give t",
-          "title_ko": "Anionex/agent-vision-toolkit — 일반 텍스트에 주목 LLM 에이전트: 시각적 도구 상자 세트 + 그림 질문 및 답변, OCR, 스크린샷 분석, 시각적 위치 지정 등과 같은 기술 세트이며 Codex, Claude Code, OpenCode, Pi | t를 줘",
-          "summary": "给纯文本 LLM agent 装上眼睛：图片问答、OCR、截图分析、视觉定位等一套视觉工具箱 + skill，并可无缝接入 Codex、Claude Code、OpenCode、Pi ｜ Give text-only LLM agents vision: image Q&A, OCR, screenshot understanding, visual grounding, image-to-SVG - a vision toolkit…",
-          "summary_ko": "텍스트 전용 LLM 상담원에게 비전 제공: 이미지 Q&A, OCR, 스크린샷 분석, 시각적 위치 지정 등 시각적 도구 상자 + 기술 세트이며 Codex, Claude Code, OpenCode, Pi | 텍스트 전용 LLM 상담원에게 비전 제공: 이미지 Q&A, OCR, 스크린샷 이해, 시각적 기반, 이미지-SVG -…",
+          "title": "Anionex/agent-vision-toolkit — 为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ ",
+          "title_ko": "Anionex/agent-vision-toolkit — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트 엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode |에 대한 선택적 원활한 액세스 등 일반 텍스트 모델용으로 설계된 시각적 도구 상자 및 기술입니다.",
+          "summary": "为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ A vision toolkit and skill designed for text-only models — image Q&A, long-screenshot OCR, frontend UI restoration, and…",
+          "summary_ko": "텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode에 대한 선택적인 원활한 액세스 | 텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 —…",
           "url": "https://github.com/Anionex/agent-vision-toolkit",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-06T04:41:35+09:00",
-          "popularity": 300,
-          "upvotes": 300,
-          "score": 35.09,
-          "importance_score": 28.2,
+          "published_at": "2026-08-07T07:23:12+09:00",
+          "popularity": 332,
+          "upvotes": 332,
+          "score": 32.64,
+          "importance_score": 28.95,
           "matched_keywords": [
-            "llm",
             "agent",
             "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 300
+            "value": 332
           }
         },
         {
-          "id": "720194f93484546fe8ebca9d68b31961",
+          "id": "414ea35d29a6a6753f30e823abb2e816",
           "index": 6,
-          "title": "patchy631/time-to-first-token — A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quanti",
-          "title_ko": "patchy631/time-to-first-token — LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 수량",
-          "summary": "A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quantization, speculative decoding, benchmarking.",
-          "summary_ko": "LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 양자화, 추측적 디코딩, 벤치마킹.",
-          "url": "https://github.com/patchy631/time-to-first-token",
+          "title": "FareedKhan-dev/kimi-k3-in-c — A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99:",
+          "title_ko": "FareedKhan-dev/kimi-k3-in-c — 8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 매개변수 Kimi K3입니다. 휴대용 C99:",
+          "summary": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+          "summary_ko": "8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 개의 매개변수 Kimi K3입니다. 휴대용 C99: BLAS 없음, 프레임워크 없음, GPU 없음.",
+          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-02T22:08:21+09:00",
-          "popularity": 330,
-          "upvotes": 330,
-          "score": 31.31,
-          "importance_score": 20.31,
+          "published_at": "2026-08-06T23:48:00+09:00",
+          "popularity": 2836,
+          "upvotes": 2836,
+          "score": 32.23,
+          "importance_score": 29.96,
           "matched_keywords": [
-            "llm",
-            "benchmark",
             "inference"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 330
+            "value": 2836
           }
         }
       ]
@@ -173,25 +175,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "7d939864bfbe72682ac3fd283f72ac0b",
+          "id": "766dde8dcd12c9f6a0b82f9e8abef372",
           "index": 7,
-          "title": "Rapid-MLX: Apple Silicon 맥에서 로컬 LLM을 OpenAI 호환 서버로 띄우는 추론 엔진",
+          "title": "Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개",
           "title_ko": null,
-          "summary": "Rapid-MLX 소개 맥에서 로컬 모델을 돌리려면 보통 두 가지를 감수하게 됩니다. 하나는 llama.cpp 계열 런타임이 Metal 위에 얹히면서 생기는 성능 손해이고, 다른 하나는 도구 호출(tool calling)이 모델마다 다른 형식으로 나와 코딩 에이전트를 붙이면 텍스트가 그대로 튀어나오는 문제입니다. 로컬 추론을 실제 업무 흐름에 넣으려면 이 두 가지가 함께 풀려야 합니다.",
+          "summary": "LFM2.5-2.6B 소개 Liquid AI 가 온디바이스(on-device) 환경에서 에이전트를 직접 돌리는 것을 목표로 만든 2.6B 파라미터 모델 LFM2.5-2.6B 를 공개했습니다. 휴대폰에 올라갈 만큼 작고, CPU에서도 반응이 끊기지 않을 만큼 빠르며, 계획을 세우고 도구를 호출하며 여러 단계에 걸친 작업을 수행할 만큼의 능력을 갖췄다는 것이 이 모델의 요지입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516",
+          "url": "https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-05T12:30:46+09:00",
-          "popularity": 96,
+          "published_at": "2026-08-07T06:30:28+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 24.34,
-          "importance_score": 11.09,
+          "score": 22.03,
+          "importance_score": 18.16,
           "matched_keywords": [
             "ai",
-            "llm",
-            "추론",
             "모델"
           ],
           "engagement": null
@@ -201,170 +201,170 @@
   ],
   "items": [
     {
-      "id": "0094234222569690affadd7a372f51ff",
+      "id": "3ce29d47e6a630f9c7241255e429bf10",
       "index": 1,
-      "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
-      "title_ko": "MerchantBench: 전자 상거래 운영의 장기적인 일관성을 위한 LLM 에이전트 벤치마킹",
-      "summary": "Large language model agents are increasingly evaluated as autonomous tool users, yet most benchmarks focus on bounded tasks with immediate success criteria.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://huggingface.co/papers/2607.28956",
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "title_ko": "Skill-Native LLM을 향하여: 벤치마킹 및 장기 추론 훈련을 위한 스킬 엔트로피",
+      "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule.",
+      "summary_ko": "최근 LLM의 장거리 추론에서는 모델이 추론 체인 내에서 고유한 기술(예: 먼저 수학 파생을 수행한 다음 결과를 사용하여 일정을 계획하는 등) 사이를 전환해야 합니다.",
+      "url": "https://huggingface.co/papers/2608.05139",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-05T09:00:00+09:00",
-      "popularity": 210,
-      "upvotes": 83,
-      "score": 26.07,
-      "importance_score": 16.08,
-      "matched_keywords": [
-        "llm",
-        "agent",
-        "benchmark"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 83
-      }
-    },
-    {
-      "id": "d13221bf36f5f7cc615e8e7efebe2f48",
-      "index": 2,
-      "title": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
-      "title_ko": "JoyAI-Video-Edit: 자동 회귀 확산을 사용한 실시간 개방형 비디오 편집",
-      "summary": "Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://huggingface.co/papers/2608.03974",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-05T09:00:00+09:00",
-      "popularity": 292,
-      "upvotes": 77,
-      "score": 25.05,
-      "importance_score": 17.06,
+      "published_at": "2026-08-06T09:00:00+09:00",
+      "popularity": 51,
+      "upvotes": 21,
+      "score": 25.85,
+      "importance_score": 11.85,
       "matched_keywords": [
         "ai",
-        "diffusion"
+        "llm",
+        "reasoning",
+        "benchmark",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 77
+        "value": 21
       }
     },
     {
-      "id": "d202f47f5e829e5d46e5033a978ce41f",
+      "id": "5a3ec7f89baeea1e1478e5cf8cb14f69",
+      "index": 2,
+      "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+      "title_ko": "ToolArtist: 에이전트 이미지 생성을 위한 도구 사용 통합 다중 모드 모델",
+      "summary": "Text-to-image (T2I) models can produce visually compelling images, yet they remain limited on open-world tasks that require complex semantic understanding, multi-step reasoning, and the integration of external world kno…",
+      "summary_ko": "T2I(텍스트-이미지) 모델은 시각적으로 매력적인 이미지를 생성할 수 있지만 복잡한 의미론적 이해, 다단계 추론 및 외부 세계 지식의 통합이 필요한 개방형 작업에는 여전히 제한적입니다.",
+      "url": "https://huggingface.co/papers/2608.04436",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-06T09:00:00+09:00",
+      "popularity": 92,
+      "upvotes": 46,
+      "score": 25.6,
+      "importance_score": 13.6,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "multimodal",
+        "reasoning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 46
+      }
+    },
+    {
+      "id": "f7f5cf5b85de30415849471b37613048",
       "index": 3,
-      "title": "[8월5일] \"오픈AI가 무너질 것\"이라는 2년 전 예측...그 이후 무슨 일이 일어났나",
+      "title": "“포항을 '제조 AX' 글로벌 거점으로”…포항TP, 한·중 '피지컬 AI' 글로벌 협력 속도",
       "title_ko": null,
-      "summary": "2024년 7월 미국의 IT 칼럼니스트 에드 지트론은 당시 AI 업계를 뒤흔든 글 하나를 공개했습니다. 제목은 \\'오픈AI는 어떻게 살아남을 것인가(How OpenAI Survives)\\'입니다.그의 주장은 현재의 오픈AI는 지속 가능한 구조가 아니며, 역사상 최대 규모의 자금 조달과 획기적인 기술 혁신이 없다면 12~24개월을 버티기 어렵다는 것이었습니다.",
+      "summary": "포항테크노파크(포항TP)는 중국의 인공지능(AI) 관련 핵심연구소 및 기업과의 글로벌 협력 네트워크를 기반으로 체인지업그라운드 지역확산사업에 가속도를 낸다고 9일 밝혔다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=213551",
-      "source": "AI Times",
+      "url": "https://www.etnews.com/20260806000394",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-06T07:00:00+09:00",
-      "popularity": 100,
+      "published_at": "2026-08-07T04:00:00+09:00",
+      "popularity": 84,
       "upvotes": 0,
-      "score": 19.59,
-      "importance_score": 19.19,
+      "score": 20.01,
+      "importance_score": 15.61,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "연구"
       ],
       "engagement": null
     },
     {
-      "id": "94bf1ed5b55c11f084acad8d4afc4d4f",
+      "id": "42e707533f05803dab2b829e475d5243",
       "index": 4,
-      "title": "시전 보고서, 브랜드들이 비용 부담 큰 &apos;데이터 파편화 함정&apos;에 빠지고 있다고 경고",
+      "title": "[인사] 국가유산청",
       "title_ko": null,
-      "summary": "[지디넷코리아] 새로운 분석 결과, 단절된 검색, 소셜 및 AI 신호가 사각지대를 만들고 의사결정을 지연시키며 위험을 증폭시키는 것으로 나타나 시카고, 2026년 8월 5일 /PRNewswire/ -- 소비자 및 미디어 인텔리전스 분야의 글로벌 선도기업인 시전(Cision)이 8월 5일, 방대한 데이터를 의미 있는 비즈니스 인텔리전스로 전환하는 데 있어 브랜드들이 겪는 어려움을 조명하는 새…",
+      "summary": "[지디넷코리아]◇ 고위공무원 임용▲궁능유적본부장 일반직고위공무원(일반임기제) 조규형◇ 국장급 전보▲문화유산국 역사유적정책관 일반직고위공무원 김동대▲자연유산국장 일반직고위공무원 황권순▲무형유산국장 학예연구관 이종훈◇ 과장급 전보▲대변인 서기관 안호▲문화유산국 건축유산팀장 과학기술서기관 김재길▲국립고궁박물관 기획운영과장 서기관 반지연",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260806001003",
+      "url": "https://zdnet.co.kr/view/?no=20260807085751",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-06T00:10:03+09:00",
-      "popularity": 100,
+      "published_at": "2026-08-07T08:57:51+09:00",
+      "popularity": 97,
       "upvotes": 0,
-      "score": 18.17,
-      "importance_score": 16.34,
+      "score": 19.34,
+      "importance_score": 18.98,
       "matched_keywords": [
-        "ai"
+        "연구"
       ],
       "engagement": null
     },
     {
       "id": "9f4d3b5528606b217e9fe157347c84df",
       "index": 5,
-      "title": "Anionex/agent-vision-toolkit — 给纯文本 LLM agent 装上眼睛：图片问答、OCR、截图分析、视觉定位等一套视觉工具箱 + skill，并可无缝接入 Codex、Claude Code、OpenCode、Pi ｜ Give t",
-      "title_ko": "Anionex/agent-vision-toolkit — 일반 텍스트에 주목 LLM 에이전트: 시각적 도구 상자 세트 + 그림 질문 및 답변, OCR, 스크린샷 분석, 시각적 위치 지정 등과 같은 기술 세트이며 Codex, Claude Code, OpenCode, Pi | t를 줘",
-      "summary": "给纯文本 LLM agent 装上眼睛：图片问答、OCR、截图分析、视觉定位等一套视觉工具箱 + skill，并可无缝接入 Codex、Claude Code、OpenCode、Pi ｜ Give text-only LLM agents vision: image Q&A, OCR, screenshot understanding, visual grounding, image-to-SVG - a vision toolkit…",
-      "summary_ko": "텍스트 전용 LLM 상담원에게 비전 제공: 이미지 Q&A, OCR, 스크린샷 분석, 시각적 위치 지정 등 시각적 도구 상자 + 기술 세트이며 Codex, Claude Code, OpenCode, Pi | 텍스트 전용 LLM 상담원에게 비전 제공: 이미지 Q&A, OCR, 스크린샷 이해, 시각적 기반, 이미지-SVG -…",
+      "title": "Anionex/agent-vision-toolkit — 为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ ",
+      "title_ko": "Anionex/agent-vision-toolkit — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트 엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode |에 대한 선택적 원활한 액세스 등 일반 텍스트 모델용으로 설계된 시각적 도구 상자 및 기술입니다.",
+      "summary": "为纯文本模型设计的视觉工具箱和技能——多图理解、图片问答、长图识别、前端 UI 还原、GUI 自动化，并可选无缝接入 Codex、Claude Code、Pi、Oh My Pi、OpenCode ｜ A vision toolkit and skill designed for text-only models — image Q&A, long-screenshot OCR, frontend UI restoration, and…",
+      "summary_ko": "텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 — 다중 이미지 이해, 이미지 질문 및 답변, 긴 이미지 인식, 프런트엔드 UI 복원, GUI 자동화 및 Codex, Claude Code, Pi, Oh My Pi, OpenCode에 대한 선택적인 원활한 액세스 | 텍스트 전용 모델용으로 설계된 비전 툴킷 및 스킬 —…",
       "url": "https://github.com/Anionex/agent-vision-toolkit",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-06T04:41:35+09:00",
-      "popularity": 300,
-      "upvotes": 300,
-      "score": 35.09,
-      "importance_score": 28.2,
+      "published_at": "2026-08-07T07:23:12+09:00",
+      "popularity": 332,
+      "upvotes": 332,
+      "score": 32.64,
+      "importance_score": 28.95,
       "matched_keywords": [
-        "llm",
         "agent",
         "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 300
+        "value": 332
       }
     },
     {
-      "id": "720194f93484546fe8ebca9d68b31961",
+      "id": "414ea35d29a6a6753f30e823abb2e816",
       "index": 6,
-      "title": "patchy631/time-to-first-token — A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quanti",
-      "title_ko": "patchy631/time-to-first-token — LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 수량",
-      "summary": "A 10-week, 30-minutes-a-day roadmap for LLM inference serving and optimization. vLLM, SGLang, quantization, speculative decoding, benchmarking.",
-      "summary_ko": "LLM 추론 제공 및 최적화를 위한 10주, 하루 30분 로드맵입니다. vLLM, SGLang, 양자화, 추측적 디코딩, 벤치마킹.",
-      "url": "https://github.com/patchy631/time-to-first-token",
+      "title": "FareedKhan-dev/kimi-k3-in-c — A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99:",
+      "title_ko": "FareedKhan-dev/kimi-k3-in-c — 8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 매개변수 Kimi K3입니다. 휴대용 C99:",
+      "summary": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "summary_ko": "8.24GB RAM의 단일 CPU에서 추론을 실행하는 2조 7800억 개의 매개변수 Kimi K3입니다. 휴대용 C99: BLAS 없음, 프레임워크 없음, GPU 없음.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-02T22:08:21+09:00",
-      "popularity": 330,
-      "upvotes": 330,
-      "score": 31.31,
-      "importance_score": 20.31,
+      "published_at": "2026-08-06T23:48:00+09:00",
+      "popularity": 2836,
+      "upvotes": 2836,
+      "score": 32.23,
+      "importance_score": 29.96,
       "matched_keywords": [
-        "llm",
-        "benchmark",
         "inference"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 330
+        "value": 2836
       }
     },
     {
-      "id": "7d939864bfbe72682ac3fd283f72ac0b",
+      "id": "766dde8dcd12c9f6a0b82f9e8abef372",
       "index": 7,
-      "title": "Rapid-MLX: Apple Silicon 맥에서 로컬 LLM을 OpenAI 호환 서버로 띄우는 추론 엔진",
+      "title": "Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개",
       "title_ko": null,
-      "summary": "Rapid-MLX 소개 맥에서 로컬 모델을 돌리려면 보통 두 가지를 감수하게 됩니다. 하나는 llama.cpp 계열 런타임이 Metal 위에 얹히면서 생기는 성능 손해이고, 다른 하나는 도구 호출(tool calling)이 모델마다 다른 형식으로 나와 코딩 에이전트를 붙이면 텍스트가 그대로 튀어나오는 문제입니다. 로컬 추론을 실제 업무 흐름에 넣으려면 이 두 가지가 함께 풀려야 합니다.",
+      "summary": "LFM2.5-2.6B 소개 Liquid AI 가 온디바이스(on-device) 환경에서 에이전트를 직접 돌리는 것을 목표로 만든 2.6B 파라미터 모델 LFM2.5-2.6B 를 공개했습니다. 휴대폰에 올라갈 만큼 작고, CPU에서도 반응이 끊기지 않을 만큼 빠르며, 계획을 세우고 도구를 호출하며 여러 단계에 걸친 작업을 수행할 만큼의 능력을 갖췄다는 것이 이 모델의 요지입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516",
+      "url": "https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-05T12:30:46+09:00",
-      "popularity": 96,
+      "published_at": "2026-08-07T06:30:28+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 24.34,
-      "importance_score": 11.09,
+      "score": 22.03,
+      "importance_score": 18.16,
       "matched_keywords": [
         "ai",
-        "llm",
-        "추론",
         "모델"
       ],
       "engagement": null
