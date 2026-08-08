@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 08 Aug 2026 22:47:03 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 23:33:14 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[GN⁺] LLM은 ‘점프’할 수 없다: Einstein의 등가원리와 귀추(abduction)</title>
+      <link>https://discuss.pytorch.kr/t/gn-llm-einstein-abduction/11551</link>
+      <description>LLM은 ‘점프’할 수 없다 글 소개 현재 생성형 AI는 데이터에서 규칙을 찾는 귀납(Induction) 과 주어진 공리에서 결과를 도출하는 연역(Deduction) 은 빠르게 기계화하고 있지만, 감각 경험에서 새로운 설명과 공리로 넘어가는 귀추(Abduction) 의 ‘점프’는 수행하지 못한다는 입장임 Einstein의 일반상대성이론은 당시 Newton 역학이 관측 데이터와 거의 완벽하게…</description>
+      <pubDate>Sat, 08 Aug 2026 23:00:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gn-llm-einstein-abduction/11551">PyTorch Korea</source>
+      <guid isPermaLink="false">c067d88e5cd107777790f42d1f4ea536</guid>
+    </item>
     <item>
       <title>SeedRealtime: ByteDance Seed의 보면서 듣고 말하는 전이중(Full-Duplex) 모델</title>
       <link>https://discuss.pytorch.kr/t/seedrealtime-bytedance-seed-full-duplex/11561</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ods-pc-ai/11447">PyTorch Korea</source>
       <guid isPermaLink="false">49896d84d885d62b52672aa5d69d470b</guid>
-    </item>
-    <item>
-      <title>Knowledge-Graph: 로컬 LLM을 사용하여 PDF와 같은 텍스트 뭉치를 지식 그래프(KG)로 변환하는 오픈소스 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/knowledge-graph-llm-pdf-kg/11448</link>
-      <description>knowledge_graph 소개 knowledge_graph는 PDF 같은 텍스트 뭉치를 읽어 그 안의 개념과 개념 사이의 관계를 뽑아내고, 이를 노드와 엣지로 이뤄진 지식 그래프(Knowledge Graph)로 만드는 오픈소스 프로젝트입니다. 위 헤더 이미지는 이 저장소의 코드로 생성한 실제 그래프이고, 브라우저에서 직접 탐색할 수 있는 형태 로도 공개되어 있습니다.</description>
-      <pubDate>Wed, 29 Jul 2026 14:30:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/knowledge-graph-llm-pdf-kg/11448">PyTorch Korea</source>
-      <guid isPermaLink="false">21a3d8e9152b1ffc14c55d727d06558d</guid>
     </item>
   </channel>
 </rss>
