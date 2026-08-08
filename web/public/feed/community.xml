@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 08 Aug 2026 08:35:06 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 10:44:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SeedRealtime: ByteDance Seed의 보면서 듣고 말하는 전이중(Full-Duplex) 모델</title>
+      <link>https://discuss.pytorch.kr/t/seedrealtime-bytedance-seed-full-duplex/11561</link>
+      <description>SeedRealtime 소개 ByteDance Seed 팀이 2026년 8월 5일, 오디오와 영상을 함께 다루는 전이중(Full-Duplex) LLM 인 SeedRealtime 을 공개했습니다. 음성 인식과 영상 이해, 음성 합성을 따로 붙여 쓰던 기존 방식과 달리, 하나의 모델이 끊기지 않고 들어오는 오디오와 영상 스트림을 계속 받아들이면서 지금 말할 차례인지까지 스스로 판단합니다.</description>
+      <pubDate>Sat, 08 Aug 2026 09:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/seedrealtime-bytedance-seed-full-duplex/11561">PyTorch Korea</source>
+      <guid isPermaLink="false">5b9a9e9776806e5df9cc05997fc3f5e7</guid>
+    </item>
     <item>
       <title>과기정통부와 KISA가 발간한 AI 보안 레드티밍 가이드, AI 레드팀 구성부터 결과 보고까지 [국문/PDF/69p]</title>
       <link>https://discuss.pytorch.kr/t/kisa-ai-ai-pdf-69p/11535</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/knowledge-graph-llm-pdf-kg/11448">PyTorch Korea</source>
       <guid isPermaLink="false">21a3d8e9152b1ffc14c55d727d06558d</guid>
-    </item>
-    <item>
-      <title>OpenWorker: 데스크톱에서 실제 결과물을 만들어내는 오픈소스 AI Co-worker 프로젝트 (feat. Andrew Ng)</title>
-      <link>https://discuss.pytorch.kr/t/openworker-ai-co-worker-feat-andrew-ng/11446</link>
-      <description>OpenWorker 소개 OpenWorker는 대화창에서 답변을 돌려주는 데서 멈추는 업무용 AI의 한계를 넘기 위해, 사용자의 데스크톱에서 파일과 터미널, 업무용 SaaS를 직접 조작하는 방식을 택한 오픈소스 AI 코워커(coworker)입니다.</description>
-      <pubDate>Wed, 29 Jul 2026 12:30:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openworker-ai-co-worker-feat-andrew-ng/11446">PyTorch Korea</source>
-      <guid isPermaLink="false">aa79d45263f945da08d0d974770e9f40</guid>
     </item>
   </channel>
 </rss>
