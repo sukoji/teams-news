@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 09 Aug 2026 12:44:15 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 14:06:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>anydoc: 오피스 문서를 LLM이 읽을 Markdown으로 5밀리초 안에 바꾸는 Rust 라이브러리</title>
+      <link>https://discuss.pytorch.kr/t/anydoc-llm-markdown-5-rust/11552</link>
+      <description>anydoc 소개 문서를 입력으로 받는 AI 파이프라인은 대체로 같은 자리에서 막힙니다. 사용자가 올리는 파일은 .docx , .pptx , .xlsx , .pdf , .epub 처럼 제각각인데, 언어 모델에 넣으려면 결국 하나의 텍스트 표현으로 정리해야 합니다. 그래서 형식마다 다른 파서를 붙이게 되고, 표 하나가 docx에서는 멀쩡히 나오는데 rtf에서는 깨지는 식의 불일치가 쌓입니다.</description>
+      <pubDate>Sun, 09 Aug 2026 13:30:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anydoc-llm-markdown-5-rust/11552">PyTorch Korea</source>
+      <guid isPermaLink="false">7282de0c48b77387b4702c0bb18975ab</guid>
+    </item>
+    <item>
+      <title>車사고 과실비율·보험 광고 AI가 심의한다…손보협회, 분석 시스템 구축</title>
+      <link>https://www.etnews.com/20260807000174</link>
+      <description>앞으로 자동차사고 과실비율 분석과 소비자에게 노출되는 보험업권 영상광고가 인공지능(AI) 분석을 거치게 된다. 손해보험협회가 AI 분석 시스템 구축에 착수했다. 금융권에 따르면 손해보험협회는 AI 분석 서비스 구축을 위해 외부 업체 입찰 절차를 진행하고 있다.</description>
+      <pubDate>Sun, 09 Aug 2026 14:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260807000174">전자신문 IT</source>
+      <guid isPermaLink="false">890b8160fe2ae836846a92c0df34ae7a</guid>
+    </item>
+    <item>
+      <title>김유임 국가아동권리보장원장 “AI·디지털화로 신종 위협서 어린이 지킨다”</title>
+      <link>https://www.etnews.com/20260807000201</link>
+      <description>국가아동권리보장원이 인공지능(AI)·디지털 기술을 아동복지 서비스에 접목하는 동시에 딥페이크·사이버폭력 등 다변화한 디지털 환경이 촉발한 새 위협으로부터 아동을 보호하는 대응체계 구축에 나선다. 지난 5월 취임한 김유임 원장이 제시한 핵심 어젠다다.</description>
+      <pubDate>Sun, 09 Aug 2026 13:39:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260807000201">전자신문 IT</source>
+      <guid isPermaLink="false">4a03ecabefe3c90db4e35bb6165a36e6</guid>
+    </item>
+    <item>
+      <title>삼성전자, 美 국립연구소와 영하 30도 극저온 난방 기술 개발</title>
+      <link>https://zdnet.co.kr/view/?no=20260809113855</link>
+      <description>[지디넷코리아]삼성전자가 미국 연구기관과 손잡고 극저온 환경에서 작동하는 차세대 난방 기술 개발에 나선다.삼성전자는 미국 에너지부(DOE) 산하 오크리지 국립연구소(ORNL)와 '한랭지용 증기압축식 난방과 멀티 솔루션 개발' 과제를 추진한다고 9일 밝혔다.</description>
+      <pubDate>Sun, 09 Aug 2026 12:02:41 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260809113855">ZDNet Korea</source>
+      <guid isPermaLink="false">5ad3db222f3cd7b653f67199bc8c0447</guid>
+    </item>
     <item>
       <title>스페이스XAI, ‘이매진 이미지 2.0’ 공개...생성 넘어 정밀 편집·일관성 집중</title>
       <link>https://www.aitimes.com/news/articleView.html?idxno=213713</link>
@@ -421,42 +457,6 @@
       <category>news</category>
       <source url="https://www.etnews.com/20260807000218">전자신문 IT</source>
       <guid isPermaLink="false">f0f9e53c852af90f97e61e546a03174e</guid>
-    </item>
-    <item>
-      <title>평가 주도 개발 (Eval-driven development)</title>
-      <link>https://news.hada.io/topic?id=32257</link>
-      <description>Airbnb는 비결정적 출력과 주관적 정답, 검색·추론·도구 호출의 연쇄 실패를 다루기 위해 평가를 사후 검증이 아닌 핵심 엔지니어링 규율 로 취급함 평가 주도 개발(EDD) 은 실제 오류를 발견해 평가 기준으로 만들고 지속적으로 검사하며, 출시 목표와 게이트를 먼...</description>
-      <pubDate>Sat, 08 Aug 2026 10:03:01 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32257">GeekNews</source>
-      <guid isPermaLink="false">5597f4b27c5fc4f2a922d6e68fa6def1</guid>
-    </item>
-    <item>
-      <title>오픈AI, '아스트라' 개발 일시 중단…"치명적 사이버공격 가능성"</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=213697</link>
-      <description>오픈AI가 차세대 모델 \'아스트라(Astra)\'의 개발 및 내부 테스트 작업을 일시 중단하고 고강도 보안 통제 체계로 전환했다.</description>
-      <pubDate>Sat, 08 Aug 2026 07:42:32 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=213697">AI Times</source>
-      <guid isPermaLink="false">5815fed120d92fbf2d33b4cbfb123fdc</guid>
-    </item>
-    <item>
-      <title>트럼프 “중국이 AI·가상자산 추월하는 꼴 못봐…내달 시진핑과 담판”</title>
-      <link>https://www.etnews.com/20260808000003</link>
-      <description>도널드 트럼프 미국 대통령이 인공지능(AI)과 가상자산을 중국과의 기술패권 경쟁에서 핵심 전장으로 규정하며 미국의 주도권을 지키겠다는 의지를 거듭 밝혔다. AI 산업에 대한 규제 완화와 데이터센터 투자 필요성도 강조했다.</description>
-      <pubDate>Sat, 08 Aug 2026 08:26:33 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260808000003">전자신문 IT</source>
-      <guid isPermaLink="false">64235a6468246c8ce60b953296d32bf2</guid>
-    </item>
-    <item>
-      <title>네카오 'AI 수익화' 시점 변했다...네이버는 시작, 카카오는 내년</title>
-      <link>https://zdnet.co.kr/view/?no=20260807181357</link>
-      <description>[지디넷코리아]네이버와 카카오가 연초만 해도 올해 하반기를 인공지능(AI) 수익화 시점으로 전망했으나, 실제 성과 시점은 갈라졌다. 네이버는 이미 일부 수익화를 달성한 반면, 카카오는 목표 시점을 내년으로 미룬 것으로 확인됐다.</description>
-      <pubDate>Sat, 08 Aug 2026 08:00:02 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260807181357">ZDNet Korea</source>
-      <guid isPermaLink="false">07e2615bb3efa32d4c0d30d3f6754ddc</guid>
     </item>
   </channel>
 </rss>
