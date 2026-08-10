@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 18:24:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 20:10:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Xberg: 101개 문서 포맷에서 텍스트와 표를 뽑아내는 Rust 기반 문서 추출 엔진</title>
+      <link>https://discuss.pytorch.kr/t/xberg-101-rust/11573</link>
+      <description>Xberg 소개 RAG 파이프라인이나 문서 처리 서비스를 만들 때 가장 먼저 부딪히는 벽은 모델이 아니라 입력입니다. PDF는 PyMuPDF로 열고, 워드 문서는 python-docx로 읽고, 스캔 이미지는 Tesseract에 넘기고, 압축 파일은 또 따로 풀어야 합니다. 여기에 표 구조 복원과 읽기 순서 정리까지 붙이면 라이브러리 대여섯 개를 엮은 파이프라인이 만들어집니다.</description>
+      <pubDate>Mon, 10 Aug 2026 18:30:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/xberg-101-rust/11573">PyTorch Korea</source>
+      <guid isPermaLink="false">43f562072b79e350c34e0254499d3f96</guid>
+    </item>
     <item>
       <title>AgentENV: Kimi K3의 강화학습을 구동하는 셀프호스팅 에이전트 샌드박스 런타임</title>
       <link>https://discuss.pytorch.kr/t/agentenv-kimi-k3/11555</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/codeburn-ai-36/11469">PyTorch Korea</source>
       <guid isPermaLink="false">7cb8f98237fd348dfedfc53b892fa47b</guid>
-    </item>
-    <item>
-      <title>SurfSense: 실시간 웹 데이터 커넥터를 갖춘 오픈소스 NotebookLM 대안</title>
-      <link>https://discuss.pytorch.kr/t/surfsense-notebooklm/11459</link>
-      <description>SurfSense 소개 SurfSense는 AI 에이전트가 살아 있는 웹 데이터를 끌어다 쓸 수 있게 해주는 오픈소스 리서치 플랫폼입니다. 성능이 좋은 에이전트에게 "출시 이후 레딧에서 이 제품을 어떻게 이야기하고 있나" 같은 질문을 던지면, 정작 참고할 곳이 마땅치 않습니다.</description>
-      <pubDate>Thu, 30 Jul 2026 18:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/surfsense-notebooklm/11459">PyTorch Korea</source>
-      <guid isPermaLink="false">331145403554ca7d6d8edccbf671d6ba</guid>
     </item>
   </channel>
 </rss>
