@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:53:55 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 12:58:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Douyin 다중 모드 임베딩 모델 기술 보고서</title>
+      <link>https://huggingface.co/papers/2608.02148</link>
+      <description>다중모달 표현 학습은 현대 AI의 초석입니다. 다중 모드 쿼리와 대상을 벡터로 인코딩함으로써 산업 검색 및 추천을 강화하고 최신 에이전트를 뒷받침합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02148">Hugging Face Papers</source>
+      <guid isPermaLink="false">b7f32eafa28f9f3bf75ddee4da0de1a5</guid>
+    </item>
+    <item>
+      <title>SimWAM: 엔드투엔드 자율 주행을 위한 간단한 세계 액션 모델</title>
+      <link>https://huggingface.co/papers/2608.07468</link>
+      <description>WAM(World-Action Model)은 동작 예측에 앞서 비디오 역학을 전송하여 엔드투엔드 자율 주행을 개선하지만, 기존 방법은 추론 시 비용이 많이 드는 미래 생성이 필요합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07468">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee85d4fdc3a34ed1ea91c23d303fbfbb</guid>
+    </item>
+    <item>
+      <title>권한 있는 지침이 잘못 정렬된 경우: 다중 회전 에이전트에 대한 상태 일치 라우팅 및 상황별 자체 증류</title>
+      <link>https://huggingface.co/papers/2608.05219</link>
+      <description>권한 있는 정책 기반 증류는 동기화된 교사가 성공과 같은 교육 전용 참조에 액세스하여 매 턴마다 학생의 응답을 다시 채점할 수 있도록 하여 다중 턴 에이전트에 대한 밀도 있는 감독을 제공합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05219">Hugging Face Papers</source>
+      <guid isPermaLink="false">03060c1f81afb4b37c2c162f24c9b074</guid>
+    </item>
+    <item>
+      <title>StreamArena: 지속적이고 상호작용적이며 긴 지평선 에이전트 스트리밍 비디오 이해를 향하여</title>
+      <link>https://huggingface.co/papers/2608.05703</link>
+      <description>연속적인 실제 환경에 자율적 다중 모드 에이전트를 배포하려면 무제한의 시청각 스트림을 수집하고 시간 단위 메모리를 유지해야 합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05703">Hugging Face Papers</source>
+      <guid isPermaLink="false">b6628f45a2bc97c6aae6e833f5a307f8</guid>
+    </item>
+    <item>
+      <title>YOLO-PEFT: YOLO 제품군의 매개변수 효율적인 미세 조정</title>
+      <link>https://huggingface.co/papers/2608.07051</link>
+      <description>언어 모델에서 전송된 일반 매개변수 효율적인 미세 조정(PEFT) 방법은 실시간 감지기에서 자동으로 실패할 수 있습니다. 실시간 감지기의 이질적인 연산자와 감지 관련 구성 요소는 배치 제한을 부과합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07051">Hugging Face Papers</source>
+      <guid isPermaLink="false">91843e6f8a78f131184937fcc24221ee</guid>
+    </item>
+    <item>
+      <title>항공 이미지 목표 탐색을 위한 불확실성 인식 세계 모델</title>
+      <link>https://huggingface.co/papers/2608.05597</link>
+      <description>항공영상-목표 항법은 목표영상에서 지정한 목표 위치에 도달하기 위해 무인항공기(UAV)가 필요합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05597">Hugging Face Papers</source>
+      <guid isPermaLink="false">5809b3184808ac227121927647070245</guid>
+    </item>
+    <item>
+      <title>스케일링: 친칠라의 대표자와 카플란의 결합을 만나다</title>
+      <link>https://huggingface.co/papers/2608.07222</link>
+      <description>신경 확장 법칙은 언어 모델 개발의 기초이지만 표준 공식은 데이터가 부족하고 과도한 훈련이 필요한 경우 체계적으로 손실을 과소평가하거나 과대평가합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07222">Hugging Face Papers</source>
+      <guid isPermaLink="false">3aee2f0d5cd9c736659ed38f86096b7b</guid>
+    </item>
+    <item>
+      <title>최적화 프로그램은 에이전트입니다: 프롬프트, 프로그램 및 ML 워크플로 전반에 걸친 추론 기반 검색</title>
+      <link>https://huggingface.co/papers/2608.06714</link>
+      <description>프롬프트, 프로그램 및 ML 워크플로를 최적화하기 위한 최신 시스템은 일반적으로 진화 검색, 도둑 또는 텍스트 그라데이션 방법과 같은 명시적인 외부 루프 컨트롤러에 의존합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06714">Hugging Face Papers</source>
+      <guid isPermaLink="false">d6a0fcb25b63ceacaa7850b7a61e8807</guid>
+    </item>
+    <item>
+      <title>모듈형 TTT: 테스트 시간 교육을 구성 가능한 모듈로 다시 생각하기</title>
+      <link>https://huggingface.co/papers/2608.07110</link>
+      <description>테스트 시간 훈련(TTT)은 시퀀스 모델링을 내부 학습 규칙에 따라 빠른 가중치가 업데이트되는 온라인 학습 문제로 간주합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07110">Hugging Face Papers</source>
+      <guid isPermaLink="false">91fcffd8690740159a51393a3290931a</guid>
+    </item>
+    <item>
+      <title>프로덕션에서 AI 생성 C++의 품질 프로필 특성화</title>
+      <link>https://huggingface.co/papers/2608.06640</link>
+      <description>AI 코딩 도우미의 광범위한 통합은 엔지니어링 속도를 부인할 수 없이 향상시킵니다. 그러나 최근 연구에서는 코드 품질과 유지 관리 가능성에 대한 지속적인 문제를 드러내면서 상충 관계가 점점 커지고 있음을 지적합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06640">Hugging Face Papers</source>
+      <guid isPermaLink="false">fb396f6c440bba5f71093f6be9b71bcc</guid>
+    </item>
+    <item>
+      <title>비디오 월드 모델을 위한 주소 지정 가능 메모리</title>
+      <link>https://huggingface.co/papers/2608.07408</link>
+      <description>우리는 대화형 비디오 세계 모델의 시각적 지속성을 연구합니다. 이러한 모델은 이전에 생성된 프레임을 전달하기 위해 증가하는 시각적 메모리로 KV(키-값) 캐시에 의존합니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07408">Hugging Face Papers</source>
+      <guid isPermaLink="false">e35410beade6738e0402ee8d61513a8e</guid>
+    </item>
     <item>
       <title>🥇금주의 최고 AI 논문</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-cc2</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.03207">Hugging Face Papers</source>
       <guid isPermaLink="false">da9f6c668407fd94c9e64b1378c918bd</guid>
-    </item>
-    <item>
-      <title>재개는 재개를 의미합니다: 워크플로 지속성 계층의 체크포인트, 인터럽트 및 재개 의미 체계에 대한 기계 검사 적합성 계약</title>
-      <link>https://huggingface.co/papers/2608.03836</link>
-      <description>실행이 중단되고, 충돌이 발생해도 살아남고, 계속될 수 있도록 실행 상태를 유지하는 프레임워크는 이미 실행된 효과에 대한 재개의 의미를 결정해야 합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03836">Hugging Face Papers</source>
-      <guid isPermaLink="false">7a36a52bb362564017cc3c57f075ca25</guid>
-    </item>
-    <item>
-      <title>ABSeeker: 답변 역추적 신용 할당을 통해 장거리 검색 에이전트 교육</title>
-      <link>https://huggingface.co/papers/2608.05102</link>
-      <description>장거리 검색 에이전트는 최종 답변에 도달하기 위해 증거를 검색, 검색, 확인 및 통합하기 위한 여러 순차적 작업(단계)을 수행해야 합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05102">Hugging Face Papers</source>
-      <guid isPermaLink="false">deb77e6fb77aab30e87a2c1753024ca3</guid>
-    </item>
-    <item>
-      <title>스스로 진화하는 코딩 에이전트</title>
-      <link>https://huggingface.co/papers/2608.03392</link>
-      <description>대규모 언어 모델은 리포지토리를 검사하고, 도구를 호출하고, 테스트를 실행하고, 오류를 디버깅하고, 패치를 생성할 수 있는 코딩 에이전트로 소프트웨어 엔지니어링 워크플로에 점점 더 많이 포함되고 있습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03392">Hugging Face Papers</source>
-      <guid isPermaLink="false">4aa5a4c2ef90b705fa54fb69bd87b8d7</guid>
-    </item>
-    <item>
-      <title>GDPevo: 실제 비즈니스 작업에 대한 에이전트 자체 진화 평가</title>
-      <link>https://huggingface.co/papers/2608.03764</link>
-      <description>에이전트 자체 진화는 이전 경험에서 에이전트의 지속 상태를 업데이트하고 이를 재사용하여 관련 작업을 보다 효과적으로 해결합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03764">Hugging Face Papers</source>
-      <guid isPermaLink="false">1a732bfe1af96c5a60ed979de652f58f</guid>
-    </item>
-    <item>
-      <title>FocusMem: 잠재 GUI 메모리의 콘텐츠, 판독 및 신뢰 요인 분석</title>
-      <link>https://huggingface.co/papers/2608.04530</link>
-      <description>GUI 에이전트는 이전 작업의 유용한 경험과 현재 상호 작용의 완료되지 않은 진행 상황을 모두 기억해야 합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04530">Hugging Face Papers</source>
-      <guid isPermaLink="false">c12d4dc27a988bcaee83a31f89d971b6</guid>
-    </item>
-    <item>
-      <title>실패한 부분 정리: 적응형 교사 지도에서 부정적인 RL 그룹의 학습 신호 복구</title>
-      <link>https://huggingface.co/papers/2608.00782</link>
-      <description>검증 가능한 보상을 통한 강화 학습(RLVR)은 학습 후 LLM(대형 언어 모델)의 표준 패러다임이 되었습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00782">Hugging Face Papers</source>
-      <guid isPermaLink="false">c002fe22255b3cf8ecd464ff4aa78e6d</guid>
-    </item>
-    <item>
-      <title>에이전트 대 에이전트: 자동 프롬프트 주입 레드팀 구성을 위한 에이전트 시스템</title>
-      <link>https://huggingface.co/papers/2608.05108</link>
-      <description>즉각적인 주입은 LLM 에이전트에 심각한 보안 위험을 초래합니다. 따라서 효율적이고 효과적인 레드팀 구성은 이러한 위험을 평가하고 방어를 개선하기 위한 훈련 데이터를 수집하는 데 매우 중요합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05108">Hugging Face Papers</source>
-      <guid isPermaLink="false">89d11e1a09bc960d55a4dc853f530204</guid>
-    </item>
-    <item>
-      <title>BridgeVLA++: 3D 조작을 위한 데이터 효율적이고 일반화 가능하며 메모리 증강 비전-언어-작업 프레임워크</title>
-      <link>https://huggingface.co/papers/2608.05042</link>
-      <description>사전 훈련된 VLM(비전 언어 모델)을 활용하여 VLA(비전 언어 동작) 모델을 구성하는 것이 3D 로봇 조작을 위한 유망한 패러다임으로 떠올랐습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05042">Hugging Face Papers</source>
-      <guid isPermaLink="false">1472dbbac84c9f82414847fd6f7ddf1b</guid>
-    </item>
-    <item>
-      <title>K-EXAONE 2.0 기술 보고서</title>
-      <link>https://huggingface.co/papers/2608.04505</link>
-      <description>본 기술보고서에서는 글로벌 프론티어 규모 기반 모델을 향한 LG AI리서치의 노력의 일환으로 LG AI리서치가 개발한 개방형 다국어 기반 모델인 K-EXAONE 2.0을 소개합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04505">Hugging Face Papers</source>
-      <guid isPermaLink="false">47db6a5f2db30bec2d6717fd09e67063</guid>
-    </item>
-    <item>
-      <title>AVE-Compass: 오디오-비디오 편집 능력에 대한 전체적인 평가를 향하여</title>
-      <link>https://huggingface.co/papers/2607.24821</link>
-      <description>지침 기반 비디오 편집이 빠르게 발전하는 동안 실제 비디오에는 오디오 및 시각적 신호가 밀접하게 결합되어 있으며 한 가지 형식을 편집하려면 다른 형식을 조정하여 변경해야 하는 경우가 많습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24821">Hugging Face Papers</source>
-      <guid isPermaLink="false">fc219e119ee801a992424455464a49f1</guid>
-    </item>
-    <item>
-      <title>Ego2Robot: 자기중심적 인간 데이터로부터 확장 가능한 로봇 데이터 합성</title>
-      <link>https://huggingface.co/papers/2608.02580</link>
-      <description>일반화 가능한 로봇 조작 정책을 학습하려면 대규모의 다양한 실증 데이터가 필요합니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02580">Hugging Face Papers</source>
-      <guid isPermaLink="false">4d4473b0b535dd46a954e39d050dfeba</guid>
     </item>
   </channel>
 </rss>
