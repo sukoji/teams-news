@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 14:39:59 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 16:44:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SFT 충돌, RL 공존: LLM을 위한 다중 작업 학습에 대한 이론적 및 경험적 분석</title>
+      <link>https://huggingface.co/papers/2608.03573</link>
+      <description>SFT(지도 미세 조정)와 RL(강화 학습)은 LLM(대형 언어 모델)에 대한 다중 작업 추론을 향상하는 데 근본적으로 다른 동작을 나타냅니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03573">Hugging Face Papers</source>
+      <guid isPermaLink="false">d77fbc62893fcff802aba520bff3165e</guid>
+    </item>
+    <item>
+      <title>단순한 환경 확장을 넘어: 다중 모달 에이전트 학습을 위한 효과적인 환경 배포 설계</title>
+      <link>https://huggingface.co/papers/2608.03571</link>
+      <description>최근 연구에서는 대규모 다중 모드 환경 풀을 구축하여 에이전트를 교육합니다. 그러나 단순히 다중 모드 환경의 수를 늘리는 것이 항상 이익이 되는 것은 아니라는 사실을 발견했습니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03571">Hugging Face Papers</source>
+      <guid isPermaLink="false">0d3fa236230bc6e07d3f438c4cd1b57a</guid>
+    </item>
+    <item>
+      <title>제로 격차는 복원이 아닙니다: 계층화된 질문별 확률 평가 및 벤치마크 오염의 단계적 완화</title>
+      <link>https://huggingface.co/papers/2608.07341</link>
+      <description>공개 벤치마크의 테스트 데이터는 필연적으로 사전 훈련 말뭉치로 유출되어 일단 기억되면 평가 점수가 부풀려집니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07341">Hugging Face Papers</source>
+      <guid isPermaLink="false">21b4a04b803bcdc082abdb578dd63c2a</guid>
+    </item>
     <item>
       <title>AI 페르소나는 성장하는가? 생활 사건 이후 LLM 에이전트의 성격 진화 분석 및 벤치마킹</title>
       <link>https://huggingface.co/papers/2608.06485</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.05466">Hugging Face Papers</source>
       <guid isPermaLink="false">e429867521e8d3686891020d6c2cb950</guid>
-    </item>
-    <item>
-      <title>World-to-Wrist: 세밀한 로봇 조작을 위한 작업 조건에 따른 미래 손목 모델링</title>
-      <link>https://huggingface.co/papers/2608.05369</link>
-      <description>VLA(시각-언어-동작) 모델은 종종 메인 뷰와 손목 뷰 관찰을 병렬 시각적 입력으로 처리하여 로봇 조작에서 서로 다른 역할을 간과합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05369">Hugging Face Papers</source>
-      <guid isPermaLink="false">586be0d68cc07a808bc65222386c2291</guid>
-    </item>
-    <item>
-      <title>SmartMage: 3D 장면 이해를 위한 동적 모달리티 오케스트레이션</title>
-      <link>https://huggingface.co/papers/2608.05137</link>
-      <description>3D 장면을 이해하는 것은 구체화된 지능의 기본이며 시각적 및 기하학적 단서를 포함한 여러 양식의 이질적인 정보에 대한 공동 추론이 필요합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05137">Hugging Face Papers</source>
-      <guid isPermaLink="false">0a1a4a9df695a1bed096a40e418546e0</guid>
-    </item>
-    <item>
-      <title>SIGNPOST-Bench: 다중 모드 대형 언어 모델의 텍스트-비전 충돌 해결 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.04244</link>
-      <description>다중 모드 대형 언어 모델(MLLM)은 시각적 신호와 텍스트 신호를 결합하여 실제 장면에서 근거 있는 예측을 수행하지만 기존 벤치마크에서는 다음과 같은 경우 이러한 증거 소스 사이를 중재하는 방법을 거의 밝히지 않습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04244">Hugging Face Papers</source>
-      <guid isPermaLink="false">49963dad5c4a23c33f70d0547d56d15f</guid>
     </item>
   </channel>
 </rss>

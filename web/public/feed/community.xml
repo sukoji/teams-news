@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 14:39:59 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 16:44:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AgentENV: Kimi K3의 강화학습을 구동하는 셀프호스팅 에이전트 샌드박스 런타임</title>
+      <link>https://discuss.pytorch.kr/t/agentenv-kimi-k3/11555</link>
+      <description>AgentENV 소개 코딩 에이전트나 코드 인터프리터를 운영해 본 팀은 실행 환경에서 같은 딜레마를 만납니다. 모델이 만든 코드를 그대로 돌리려면 격리가 필요한데, 컨테이너는 호스트 커널을 공유하니 격리 경계가 얕고, 가상 머신은 경계가 확실한 대신 부팅이 느려 태스크마다 새 환경을 띄우기엔 비쌉니다. 에이전트 강화학습처럼 환경 수가 수천 개 단위로 올라가면 문제가 한 단계 더 커집니다.</description>
+      <pubDate>Mon, 10 Aug 2026 15:30:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agentenv-kimi-k3/11555">PyTorch Korea</source>
+      <guid isPermaLink="false">e59bf58152ab35ebac23b86d87994454</guid>
+    </item>
     <item>
       <title>Xiaomi-Robotics-1: 로봇 없이 모은 10만 시간 데이터로 VLA 스케일링을 검증한 연구</title>
       <link>https://discuss.pytorch.kr/t/xiaomi-robotics-1-10-vla/11553</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/surfsense-notebooklm/11459">PyTorch Korea</source>
       <guid isPermaLink="false">331145403554ca7d6d8edccbf671d6ba</guid>
-    </item>
-    <item>
-      <title>Open Multi-Agent: 목표를 받아 작업 DAG를 실행 시점에 만드는 멀티 에이전트 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/open-multi-agent-dag/11472</link>
-      <description>Open Multi-Agent 소개 Open Multi-Agent(OMA)는 TypeScript 백엔드에 넣어 쓰는 AI 에이전트 오케스트레이션 프레임워크입니다. 가장 큰 특징은 워크플로 그래프를 사람이 미리 그려 두지 않는다는 점입니다.</description>
-      <pubDate>Thu, 30 Jul 2026 14:30:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/open-multi-agent-dag/11472">PyTorch Korea</source>
-      <guid isPermaLink="false">b5dccc44647c6141d10f11a098e3c07f</guid>
     </item>
   </channel>
 </rss>
