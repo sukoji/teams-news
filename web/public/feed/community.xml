@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 20:10:02 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 22:11:29 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>JoyAI-Video-Edit: 자연어 지시로 실시간 영상 스트림을 편집하는 자기회귀 디퓨전 모델</title>
+      <link>https://discuss.pytorch.kr/t/joyai-video-edit/11575</link>
+      <description>JoyAI-Video-Edit 소개 영상 편집 모델은 대부분 영상 전체를 미리 받아 두고 시작합니다. 길이가 정해져 있어야 하고, 뒤쪽 프레임을 참고해 앞쪽을 다듬는 방식이 흔하며, 그래서 결과를 보려면 처리가 다 끝날 때까지 기다려야 합니다. 라이브 카메라 화면처럼 프레임이 계속 도착하고 끝이 정해지지 않은 입력에는 이 전제가 통하지 않습니다.</description>
+      <pubDate>Mon, 10 Aug 2026 21:30:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/joyai-video-edit/11575">PyTorch Korea</source>
+      <guid isPermaLink="false">3064fd0419117f9f7c6cc3b7109e4652</guid>
+    </item>
     <item>
       <title>Xberg: 101개 문서 포맷에서 텍스트와 표를 뽑아내는 Rust 기반 문서 추출 엔진</title>
       <link>https://discuss.pytorch.kr/t/xberg-101-rust/11573</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/pi-autoresearch-pi/11471">PyTorch Korea</source>
       <guid isPermaLink="false">342caa52ab0d66e655995243450b165f</guid>
-    </item>
-    <item>
-      <title>CodeBurn: AI 코딩 도구 36종의 토큰 사용량과 비용을 로컬에서 추적하는 대시보드</title>
-      <link>https://discuss.pytorch.kr/t/codeburn-ai-36/11469</link>
-      <description>CodeBurn 소개 CodeBurn은 AI 코딩 도구가 이미 디스크에 기록해 둔 세션 파일을 읽어, 토큰 사용량과 비용을 작업 유형·모델·도구·프로젝트 단위로 나눠 보여 주는 로컬 도구입니다.</description>
-      <pubDate>Thu, 30 Jul 2026 16:30:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/codeburn-ai-36/11469">PyTorch Korea</source>
-      <guid isPermaLink="false">7cb8f98237fd348dfedfc53b892fa47b</guid>
     </item>
   </channel>
 </rss>

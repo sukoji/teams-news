@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 10 Aug 2026 20:10:02 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 22:11:29 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>인간 인지 및 행동의 소규모 기초 모델</title>
+      <link>https://huggingface.co/papers/2608.05224</link>
+      <description>인간 행동 데이터에 대해 미세 조정된 대규모 언어 모델이 범용 인지 프록시로 등장했지만 이에 필요한 규모와 이러한 모델이 작업 구조를 처리하는지 아니면 통계적 지름길을 활용하는지…</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05224">Hugging Face Papers</source>
+      <guid isPermaLink="false">96d21c64ac7d2b060595ff17a6812709</guid>
+    </item>
+    <item>
+      <title>활성화 오라클이 읽지 않는 법을 배울 때: 미세 조정된 오라클의 개념별 맹점</title>
+      <link>https://huggingface.co/papers/2607.23379</link>
+      <description>AO(활성화 오라클)는 다른 모델의 내부 활성화에 대한 자연어 질문에 대답하도록 훈련된 언어 모델입니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.23379">Hugging Face Papers</source>
+      <guid isPermaLink="false">3b0a744673b5d07a179226b8b130d85f</guid>
+    </item>
+    <item>
+      <title>관련성이 있지만 불완전함: 하드 프롬프트 압축에서 패러다임 수준 실패 모드로서의 참조 댕글링</title>
+      <link>https://huggingface.co/papers/2608.04569</link>
+      <description>하드 프롬프트 압축은 토큰, 문장 또는 청크에 독립적으로 점수를 매기고 예산 내에서 가장 높은 점수를 받은 단위를 유지함으로써 긴 컨텍스트 추론 비용을 줄입니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04569">Hugging Face Papers</source>
+      <guid isPermaLink="false">cf20ef7c5d35b31527c75ebc51c80146</guid>
+    </item>
+    <item>
+      <title>선을 위한 적대적 공격: 시각적 콘텐츠 수명주기 전반에 걸친 사전 예방적 보호에 대한 조사</title>
+      <link>https://huggingface.co/papers/2608.04314</link>
+      <description>시각적 콘텐츠가 AI 파이프라인에 들어가면 해당 소유자는 사용 방법에 대한 기술적 통제권을 거의 유지하지 못하는 경우가 많습니다.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04314">Hugging Face Papers</source>
+      <guid isPermaLink="false">bbea9e8301c6e3f56f5626b25989a543</guid>
+    </item>
     <item>
       <title>OneEmo: 감정 인식, 이해 및 상호 작용을 위한 통합된 다중 모달 추론 모델</title>
       <link>https://huggingface.co/papers/2608.06013</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.05987">Hugging Face Papers</source>
       <guid isPermaLink="false">0feb1c98d734076ddbf21511fb6c67ee</guid>
-    </item>
-    <item>
-      <title>EnvACE: 에이전트 강화 학습을 위한 월드 리허설을 통해 환경 역학 내부화</title>
-      <link>https://huggingface.co/papers/2608.06197</link>
-      <description>장거리 도구 사용을 위한 대규모 언어 모델 에이전트 교육은 일반적으로 구성 및 검증 비용이 많이 드는 실제 또는 합성 실행 가능 환경과의 상호 작용에 의존하거나 외부 시뮬레이터를 사용합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06197">Hugging Face Papers</source>
-      <guid isPermaLink="false">bcecaa6908ba5522ba797381dfa3a5b1</guid>
-    </item>
-    <item>
-      <title>GST-Bench: VLM이 비디오를 통해 전역 공간 인식을 개발할 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2608.05747</link>
-      <description>공간 지능은 구체화된 에이전트의 기본이지만 기존 벤치마크는 단일 또는 소수의 관점에서 로컬 공간 인식에 초점을 맞추고 연속적이고 긴 수평 시각적인 것에 대한 전체 공간 인식을 간과합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05747">Hugging Face Papers</source>
-      <guid isPermaLink="false">1ef56afb6587b270246c665e0030f180</guid>
-    </item>
-    <item>
-      <title>WorldClaw: 대규모 Agentic 3D 오픈 월드 생성</title>
-      <link>https://huggingface.co/papers/2608.05248</link>
-      <description>개방형 텍스트에서 자유롭게 탐색할 수 있는 대규모 3D 세계를 생성하는 것은 시스템이 글로벌 공간 일관성, 풍부한 로컬 콘텐츠 및 하위 환경에 적합한 명시적 자산을 공동으로 유지해야 하기 때문에 여전히 어려운 일입니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05248">Hugging Face Papers</source>
-      <guid isPermaLink="false">ed6023d0f91fea047a457bf1564ec2ab</guid>
-    </item>
-    <item>
-      <title>실패로부터 학습: 통합 다중 모드 검색을 위한 하드 네거티브를 통한 검색 중심 CoT</title>
-      <link>https://huggingface.co/papers/2608.06060</link>
-      <description>통합 다중 모드 검색은 이질적인 입력을 통해 표현된 복잡한 사용자 의도를 충족하는 후보를 식별하는 것을 목표로 합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06060">Hugging Face Papers</source>
-      <guid isPermaLink="false">8886b7da551a55a72fe704a69b12be3d</guid>
     </item>
   </channel>
 </rss>
