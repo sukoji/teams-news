@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 01:07:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 02:58:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Omega-S: LLM 미세 조정을 위한 기능적 탄력성 지수</title>
+      <link>https://huggingface.co/papers/2608.03887</link>
+      <description>Omega-S는 가중치 매트릭스 노드 수준의 차이에 페널티를 적용하여 원래 모델 기능의 유지를 향상시키는 낮은 순위 미세 조정을 위한 가볍고 데이터가 없는 정규화 페널티입니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.03887">Hugging Face Papers</source>
+      <guid isPermaLink="false">ce3a06cbcb5e35236ed45098a10213f9</guid>
+    </item>
+    <item>
+      <title>MirrorWorld: 거울 반사 생성을 위한 비디오 확산 모델 길들이기</title>
+      <link>https://huggingface.co/papers/2608.07463</link>
+      <description>MirrorWorld는 관계 추출 및 변환 정렬을 통해 의미론적 콘텐츠 연관성과 기하학적 공간 배열을 별도로 모델링하여 비디오 거울 반사 합성을 개선합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07463">Hugging Face Papers</source>
+      <guid isPermaLink="false">07dfbb074d7bfed7378e232fcb24cb57</guid>
+    </item>
+    <item>
+      <title>치킨 구성표 6.0</title>
+      <link>https://news.hada.io/topic?id=32411</link>
+      <description>핵심 시스템에 R7RS small 전체 모듈 을 포함하고 문자열 내부 표현을 UTF-8로 전환해 완전한 Unicode 문자열을 지원함 기존 (chicken blob) 을 R7RS 호환 (chicken bytevector) 로 교체했으며, blob 읽기 문법과 여러 u8vector 전용 입출...</description>
+      <pubDate>Wed, 12 Aug 2026 01:37:49 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32411">GeekNews</source>
+      <guid isPermaLink="false">11dfc9e254b5d7ff95f85e70f0523122</guid>
+    </item>
     <item>
       <title>Agents-universe/agents-universe — 에이전트가 인간처럼 학습하고 작업할 수 있도록 합니다.</title>
       <link>https://github.com/agents-universe/agents-universe</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.07169">Hugging Face Papers</source>
       <guid isPermaLink="false">c58f69b0324a1ad5cd976d492f4bc7cf</guid>
-    </item>
-    <item>
-      <title>RynnValue: 시간적 거리에 따른 로봇 가치 기반 모델 확장</title>
-      <link>https://huggingface.co/papers/2608.09853</link>
-      <description>범용 보상 모델은 로봇 학습 확장의 병목 현상이 점점 더 커지고 있지만, 대규모 이질적 말뭉치에서 가치 관련 기능을 학습하는 방법은 여전히 ​​과소 탐구되고 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09853">Hugging Face Papers</source>
-      <guid isPermaLink="false">5f6a12a9bf384af1632024eb0e867e58</guid>
-    </item>
-    <item>
-      <title>증거-분류 검색을 위한 인수분해 가설 검색</title>
-      <link>https://huggingface.co/papers/2608.06614</link>
-      <description>대규모 분류 검색에서는 입력이 이미 대상 개념을 표현하고 있다고 가정하는 경우가 많습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06614">Hugging Face Papers</source>
-      <guid isPermaLink="false">401753ef6c760d49294f09ffc13cc629</guid>
-    </item>
-    <item>
-      <title>Needle 2 - 스마트폰·웨어러블·스마트홈·로봇을 위한 14MB 에이전트 LLM</title>
-      <link>https://news.hada.io/topic?id=32389</link>
-      <description>Cactus가 도구 호출, 기기 제어, 구조화 추출에 특화된 오픈 45M 파라미터 모델 Needle 2를 공개함. 단일 14MB 바이너리로 전체 세션을 28MB RAM에서 실행하며 Apache 2.0으로 배포함 함수와 타입 지정 인자를 연결하는 문제로 범위를 좁혀 수십억 파라미터 없이 작동함. 선언된 스키...</description>
-      <pubDate>Tue, 11 Aug 2026 13:33:12 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32389">GeekNews</source>
-      <guid isPermaLink="false">c1a06501a3223062cd18b3b3ed1e0aff</guid>
     </item>
   </channel>
 </rss>
