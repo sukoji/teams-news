@@ -5,26 +5,26 @@
     <link>https://sukoji.github.io/teams-news/feed/daily.xml</link>
     <description>Today's curated top 7 digest for Teams card.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 11 Aug 2026 08:30:12 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:35:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
+      <title>SWE-Bench ProMax: 대규모 다국어 코드 리팩토링에 대한 벤치마킹 에이전트</title>
+      <link>https://huggingface.co/papers/2608.09802</link>
+      <description>SWE-Bench ProMax는 현재 AI 코딩 에이전트가 해결하지 못한 상당한 과제를 보여주는 대규모 코드 리팩토링 작업에 대해 엄격하게 선별된 다국어 벤치마크입니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09802">Hugging Face Papers</source>
+      <guid isPermaLink="false">f1798999799b9f85b8d62e3c9638b53a</guid>
+    </item>
+    <item>
       <title>MatrAIx: 83억 개의 페르소나 에이전트로 세계 시뮬레이션</title>
       <link>https://huggingface.co/papers/2608.04205</link>
-      <description>AI 시스템과 디지털 제품을 사람이 평가하는 데는 비용이 많이 들고 느리며 확장이 어렵습니다. 오프라인 평가는 확장성이 더 뛰어나지만 인간의 다양성과 상호 작용 행동을 추상화하는 경우가 많습니다.</description>
+      <description>MatrAIx는 다양한 페르소나 기록과 대화형 환경을 사용하여 여러 도메인에 걸쳐 AI 시스템을 테스트하는 대규모 시뮬레이션 사용자 평가 프레임워크입니다.</description>
       <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.04205">Hugging Face Papers</source>
       <guid isPermaLink="false">2ebe88e86bb06f998b786abe2b44ab31</guid>
-    </item>
-    <item>
-      <title>SFT 충돌, RL 공존: LLM을 위한 다중 작업 학습에 대한 이론적 및 경험적 분석</title>
-      <link>https://huggingface.co/papers/2608.03573</link>
-      <description>SFT(지도 미세 조정)와 RL(강화 학습)은 LLM(대형 언어 모델)에 대한 다중 작업 추론을 향상하는 데 근본적으로 다른 동작을 나타냅니다.</description>
-      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03573">Hugging Face Papers</source>
-      <guid isPermaLink="false">d77fbc62893fcff802aba520bff3165e</guid>
     </item>
     <item>
       <title>우리 팀만의 vLLM 플러그인 만들기 2편 - 모델 변환부터 배포까지 AI-native로 자동화하기</title>
@@ -36,40 +36,40 @@
       <guid isPermaLink="false">ba2630374af70b6472f450e71f037d75</guid>
     </item>
     <item>
-      <title>우리 팀만의 vLLM 플러그인 만들기 1편 - 검색 AI 모델 서빙 성능 극대화하기</title>
-      <link>https://d2.naver.com/helloworld/0525182</link>
-      <description>네이버 플레이스 AI MLOps는 지난 1년간 검색과 추천에 사용하는 스코어링 모델의 서빙 구조를 vLLM 기반으로 전환했습니다. 이 글에서는 사내 Engineering Day에서 발표한 내용을 바탕으로, 모델 서빙 경로를 최적화해 성능을 높인 과정을 소개합니다. 먼저 결과부터 살펴보겠습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 01:39:25 +0900</pubDate>
+      <title>북한 해커 김수키, 로컬 LLM 구축…Ollama·GPT4All 흔적 확인</title>
+      <link>https://zdnet.co.kr/view/?no=20260811213820</link>
+      <description>[지디넷코리아]북한 해킹 조직 김수키(Kimsuky)가 로컬 LLM 실행 환경을 직접 구축해 공격 작업에 AI를 통합하려는 정황이 확인됐다. 현지 시각 8월 10일 더레지스터(The Register)가 한국 보안 기업 지니언스(Genians)의 월요일 보고서를 인용해 보도한 내용이다.</description>
+      <pubDate>Tue, 11 Aug 2026 21:38:20 +0900</pubDate>
       <category>news</category>
-      <source url="https://d2.naver.com/helloworld/0525182">NAVER D2</source>
-      <guid isPermaLink="false">7c37af67a979f988e4d99c0ffde044a9</guid>
+      <source url="https://zdnet.co.kr/view/?no=20260811213820">ZDNet Korea</source>
+      <guid isPermaLink="false">3f161162b48a666dbdcb739c76858779</guid>
     </item>
     <item>
-      <title>oliverb-io1902e8/agent-skills-collection — LLM 기반 에이전트를 위한 선별된 모듈식 에이전트 기술 컬렉션</title>
+      <title>wanshuiyin/HERO-Anti-OverDefense — HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. A</title>
+      <link>https://github.com/wanshuiyin/HERO-Anti-OverDefense</link>
+      <description>HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. 이를 중지하는 붙여넣기 계약입니다. Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI와 함께 작동합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 02:30:06 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/wanshuiyin/HERO-Anti-OverDefense">GitHub Trending</source>
+      <guid isPermaLink="false">a2cf7cce5a0073fd0125446e082cdda0</guid>
+    </item>
+    <item>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://github.com/oliverb-io1902e8/agent-skills-collection</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 11 Aug 2026 07:25:50 +0900</pubDate>
+      <description>LLM 기반 에이전트를 위한 엄선된 모듈식 에이전트 기술 컬렉션</description>
+      <pubDate>Tue, 11 Aug 2026 23:29:30 +0900</pubDate>
       <category>trending</category>
       <source url="https://github.com/oliverb-io1902e8/agent-skills-collection">GitHub Trending</source>
       <guid isPermaLink="false">97367079df36f113a9f68112c1d33eb7</guid>
     </item>
     <item>
-      <title>UditAkhourii/neuroarxiv — 처음부터 코딩을 끝내는 기술 — Claude는 새로운 아크를 디자인하기 전에 실제 arXiv 선행 기술을 확인합니다.</title>
-      <link>https://github.com/UditAkhourii/neuroarxiv</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 11 Aug 2026 03:47:45 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/UditAkhourii/neuroarxiv">GitHub Trending</source>
-      <guid isPermaLink="false">ad78f1e014dfa2f32419cca862587289</guid>
-    </item>
-    <item>
-      <title>JoyAI-Video-Edit: 자연어 지시로 실시간 영상 스트림을 편집하는 자기회귀 디퓨전 모델</title>
-      <link>https://discuss.pytorch.kr/t/joyai-video-edit/11575</link>
-      <description>JoyAI-Video-Edit 소개 영상 편집 모델은 대부분 영상 전체를 미리 받아 두고 시작합니다. 길이가 정해져 있어야 하고, 뒤쪽 프레임을 참고해 앞쪽을 다듬는 방식이 흔하며, 그래서 결과를 보려면 처리가 다 끝날 때까지 기다려야 합니다. 라이브 카메라 화면처럼 프레임이 계속 도착하고 끝이 정해지지 않은 입력에는 이 전제가 통하지 않습니다.</description>
-      <pubDate>Mon, 10 Aug 2026 21:30:19 +0900</pubDate>
+      <title>Lucebox: 추측 디코딩과 전용 커널로 소비자용 GPU의 LLM 추론을 끌어올리는 서버</title>
+      <link>https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584</link>
+      <description>Lucebox 소개 책상 위 RTX 3090 한 장으로 27B 모델을 돌려 보면, 답이 한 글자씩 떨어지는 속도에서 곧 한계를 느끼게 됩니다. 카드가 낡아서라기보다 그 위에서 도는 소프트웨어가 특정 칩에 맞춰져 있지 않기 때문입니다. 범용 추론 런타임은 어떤 하드웨어에서도 무난히 돌아가도록 만들어져 있고, 그 무난함의 대가로 각 칩이 낼 수 있는 최고치를 남겨 둡니다.</description>
+      <pubDate>Tue, 11 Aug 2026 10:00:20 +0900</pubDate>
       <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/joyai-video-edit/11575">PyTorch Korea</source>
-      <guid isPermaLink="false">3064fd0419117f9f7c6cc3b7109e4652</guid>
+      <source url="https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584">PyTorch Korea</source>
+      <guid isPermaLink="false">f7b0587875a2912d3e02cdee357ba293</guid>
     </item>
   </channel>
 </rss>
