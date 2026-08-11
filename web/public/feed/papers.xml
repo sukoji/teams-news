@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 11 Aug 2026 22:08:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 23:59:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SymDiag: 신경 기호 검증을 통한 LLM 추론에 대한 설명 가능한 진단</title>
+      <link>https://huggingface.co/papers/2608.08786</link>
+      <description>SymDiag는 일련의 사고를 상징적 제약으로 변환하고, 단계 수준의 만족성 검사를 수행하고, r에서 번역 오류를 풀어냄으로써 추론 검증을 구조화된 실패 진단으로 재구성합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08786">Hugging Face Papers</source>
+      <guid isPermaLink="false">38d4f4a6e453b4a0b097170ae0ddfe04</guid>
+    </item>
+    <item>
+      <title>공격자 없는 게임: 선택 압력 하에서 LLM 기반 검색의 벤치마크 핑거프린팅</title>
+      <link>https://huggingface.co/papers/2608.08722</link>
+      <description>최적화된 GPU 커널 벤치마크는 혁신적인 LLM 제안이 평가 구성을 활용하여 보류 설정으로 일반화하는 데 광범위한 실패가 발생함을 보여줍니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08722">Hugging Face Papers</source>
+      <guid isPermaLink="false">1a30e43f82a06267d0007999d3f53f17</guid>
+    </item>
+    <item>
+      <title>뒤로 스크롤하지 마십시오: 스트리밍 대화 요약을 위한 누락된 증거 메모리</title>
+      <link>https://huggingface.co/papers/2608.09043</link>
+      <description>스트리밍 대화 요약을 위한 프레임워크는 고정된 메모리 예산 하에서 현재 창에서 누락된 컨텍스트를 해결하기 위해 오랜 기록에서 증거를 검색하고 개선합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09043">Hugging Face Papers</source>
+      <guid isPermaLink="false">63eb02171ed2b9ea4f69d1576e3ab94a</guid>
+    </item>
+    <item>
+      <title>LLM 기반 최적화에서 구조와 매개변수를 분리하기 위한 하이브리드 중첩 하네스</title>
+      <link>https://huggingface.co/papers/2608.08156</link>
+      <description>하이브리드 중첩 검색 프레임워크는 구조적 제안을 위한 언어 모델을 수치 최적화 프로그램과 결합하여 과학 작업 전반의 효율성을 향상시킵니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08156">Hugging Face Papers</source>
+      <guid isPermaLink="false">144bb9d953e256d2b457841627494317</guid>
+    </item>
     <item>
       <title>MMOOC: 다중 모드 대형 언어 모델의 상황 외 평가를 위한 포괄적인 벤치마크</title>
       <link>https://huggingface.co/papers/2607.27637</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.02831">Hugging Face Papers</source>
       <guid isPermaLink="false">f901ef5d47e93fa2b96dbb55f95bddc1</guid>
-    </item>
-    <item>
-      <title>왕복 일관성: 양방향 확산 모델은 자체 롤아웃 오류를 예측할 수 있습니다.</title>
-      <link>https://huggingface.co/papers/2608.00675</link>
-      <description>자동 회귀 모델은 장기간 출시에 걸쳐 오류를 누적하지만 배포 시에는 이를 측정할 수 있는 근거가 없습니다.</description>
-      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00675">Hugging Face Papers</source>
-      <guid isPermaLink="false">89b80ccc83c5c2da8b9bc6dcab74037d</guid>
-    </item>
-    <item>
-      <title>PrivacyPeek: LLM 기반 에이전트가 말하는 것뿐만 아니라 무엇을 얻는지 감사합니다.</title>
-      <link>https://huggingface.co/papers/2606.00152</link>
-      <description>LLM 기반 에이전트는 외부 도구를 자동으로 호출하여 사용자를 위한 다단계 작업을 완료하면서 빠르게 발전하고 있습니다. 그러나 상담원은 작업에 필요한 것보다 더 민감한 정보를 획득하는 경우가 많습니다.</description>
-      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.00152">Hugging Face Papers</source>
-      <guid isPermaLink="false">3147e76ffd8ed2fa021703708a7d6bbc</guid>
-    </item>
-    <item>
-      <title>MLLM이 창의적 도약을 해독할 수 있습니까? 교차 개념 이해를 위한 C4 소개</title>
-      <link>https://huggingface.co/papers/2608.06501</link>
-      <description>MLLM의 창의적 기능은 디자인, 커뮤니케이션, 교육 및 인간-AI ​​협업에서 중요하지만 정확성 기준에 비해 명시적인 목표와 보상 신호가 부족하기 때문에 평가하기가 여전히 어렵습니다.</description>
-      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06501">Hugging Face Papers</source>
-      <guid isPermaLink="false">da70b1ece0b443160fa02366c97da087</guid>
-    </item>
-    <item>
-      <title>Douyin 다중 모드 임베딩 모델 기술 보고서</title>
-      <link>https://huggingface.co/papers/2608.02148</link>
-      <description>다중모달 표현 학습은 현대 AI의 초석입니다. 다중 모드 쿼리와 대상을 벡터로 인코딩함으로써 산업 검색 및 추천을 강화하고 최신 에이전트를 뒷받침합니다.</description>
-      <pubDate>Mon, 10 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02148">Hugging Face Papers</source>
-      <guid isPermaLink="false">b7f32eafa28f9f3bf75ddee4da0de1a5</guid>
     </item>
   </channel>
 </rss>
