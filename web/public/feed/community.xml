@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 11 Aug 2026 10:50:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 12:46:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ai-knowledge-graph: 비정형 텍스트에서 지식 그래프를 뽑아 시각화하는 파이썬 도구</title>
+      <link>https://discuss.pytorch.kr/t/ai-knowledge-graph/11583</link>
+      <description>ai-knowledge-graph 소개 사내 위키나 회의록, 조사 보고서처럼 쌓여만 가는 문서 더미에서 "무엇이 무엇과 어떻게 연결되어 있는가"를 알아내려면 결국 사람이 읽어야 합니다. LLM에게 문서를 통째로 던져 요약을 받는 방법도 있지만, 요약은 다시 문장이라 관계를 눈으로 따라가기 어렵습니다. ai-knowledge-graph 는 그 중간 형태를 만듭니다.</description>
+      <pubDate>Tue, 11 Aug 2026 12:30:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-knowledge-graph/11583">PyTorch Korea</source>
+      <guid isPermaLink="false">dfaa56a14ca0f0c4dac318d427e9e05e</guid>
+    </item>
     <item>
       <title>Lucebox: 추측 디코딩과 전용 커널로 소비자용 GPU의 LLM 추론을 끌어올리는 서버</title>
       <link>https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/buzz-ai/11461">PyTorch Korea</source>
       <guid isPermaLink="false">6ccd85e23c9d65c71fad3130b4648460</guid>
-    </item>
-    <item>
-      <title>LLaDA2.2: 레벤슈타인(Levenshtein) 편집 기법을 도입하여 에이전트 작업을 지원하는 확산 언어 모델(Diffusion LM)</title>
-      <link>https://discuss.pytorch.kr/t/llada2-2-levenshtein-diffusion-lm/11463</link>
-      <description>LLaDA2.2 소개 지우개도 없고 끼워 넣기도 없는 편집기 글을 고쳐 쓸 때 우리는 단어를 다른 단어로 바꾸기도 하고, 군더더기를 통째로 지우기도 하고, 빠뜨린 괄호를 중간에 끼워 넣기도 합니다. 그런데 만약 편집기가 " 같은 칸에 다른 글자를 덮어쓰기 "만 허용하고 지우기와 끼워 넣기를 막아 둔다면, 고칠 수 있는 오류의 종류는 크게 줄어들 것입니다.</description>
-      <pubDate>Fri, 31 Jul 2026 06:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llada2-2-levenshtein-diffusion-lm/11463">PyTorch Korea</source>
-      <guid isPermaLink="false">50f5a3dbbf194d8f3798c8981487bc6f</guid>
     </item>
   </channel>
 </rss>

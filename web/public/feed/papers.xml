@@ -5,9 +5,90 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 11 Aug 2026 10:50:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 12:46:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SWE-Bench ProMax: 대규모 다국어 코드 리팩토링에 대한 벤치마킹 에이전트</title>
+      <link>https://huggingface.co/papers/2608.09802</link>
+      <description>AI 코딩 에이전트가 점점 더 복잡하고 장기적인 소프트웨어 엔지니어링 작업을 수행함에 따라 기존 벤치마크는 빠르게 포화 상태에 이르고 평가 품질은 심각한 조사를 받게 되었습니다. 최근 감사에서 다음과 같은 사실이 발견되었습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09802">Hugging Face Papers</source>
+      <guid isPermaLink="false">f1798999799b9f85b8d62e3c9638b53a</guid>
+    </item>
+    <item>
+      <title>Sci-VBench: 과학 영역에서 지식 및 추론 중심의 비디오 생성 평가</title>
+      <link>https://huggingface.co/papers/2608.09873</link>
+      <description>과학 영역 전반에 걸쳐 지식 및 추론 집약적인 비디오 생성을 평가하기 위한 포괄적인 벤치마크인 Sci-VBench를 소개합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09873">Hugging Face Papers</source>
+      <guid isPermaLink="false">876e6ac5857ffa66429d55e5057f9421</guid>
+    </item>
+    <item>
+      <title>RoMeRL: 감소된 순서 유틸리티 상태를 통해 피드백 적용 범위와 자체 진화 에이전트 메모리의 메모리 보상 트랩 균형 조정</title>
+      <link>https://huggingface.co/papers/2608.02508</link>
+      <description>자체 진화하는 LLM 에이전트를 위한 학습 기반 메모리 시스템은 밀접하게 연결된 두 가지 과제에 직면해 있습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02508">Hugging Face Papers</source>
+      <guid isPermaLink="false">f995ffc380b7b467b81d5f63d51287b3</guid>
+    </item>
+    <item>
+      <title>Evidence-RL: 증거 중심의 시각적 추론을 향하여</title>
+      <link>https://huggingface.co/papers/2608.08021</link>
+      <description>VLM(비전-언어 모델)은 언어 사전, 데이터 세트 바로가기 또는 관련 없는 시각적 컨텍스트가 아닌 구체적인 이미지 증거를 통해 답변해야 합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08021">Hugging Face Papers</source>
+      <guid isPermaLink="false">ece9583a59b1d8ff990d770e1f515e1c</guid>
+    </item>
+    <item>
+      <title>SPOT: 정책 기반 증류를 위한 희박한 조사 및 결과 보정</title>
+      <link>https://huggingface.co/papers/2608.04419</link>
+      <description>OPD(On-policy distillation)는 학생이 생성한 궤적에 대한 교사의 철저한 감독을 제공하지만 표준 역 KL 교육은 다른 그럴듯한 연속에 대한 확률이 충분하지 않을 수 있습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.04419">Hugging Face Papers</source>
+      <guid isPermaLink="false">fad4dd6667971cc12ed9a7fe18e5bf01</guid>
+    </item>
+    <item>
+      <title>Macaron-V1: 자기계발과 LoRA의 혼합을 통한 개방형 지속적 학습을 향하여</title>
+      <link>https://huggingface.co/papers/2608.09819</link>
+      <description>Macaron-V1은 실제 환경에서의 경험을 통해 학습하고 배포 후에도 계속 학습하는 경험적 지능을 위한 개방형 에이전트 모델 제품군입니다. 이는 두 가지 시스템 목표를 중심으로 구성됩니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09819">Hugging Face Papers</source>
+      <guid isPermaLink="false">74090bf79d05eec467f4512ea58d97d2</guid>
+    </item>
+    <item>
+      <title>Evo-Bench: 언어 모델이 에이전트 하네스를 향상시킬 수 있습니까?</title>
+      <link>https://huggingface.co/papers/2608.09096</link>
+      <description>LLM(대형 언어 모델)은 자율 에이전트의 급속한 발전을 주도했지만 표준 평가는 여전히 정적 작업 해결에만 국한되어 있습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09096">Hugging Face Papers</source>
+      <guid isPermaLink="false">d5d639aebeef248444e136aea4f810ce</guid>
+    </item>
+    <item>
+      <title>의도가 더 크게 말함: 응답 모방을 넘어 제어 가능한 사용자 시뮬레이션</title>
+      <link>https://huggingface.co/papers/2608.09420</link>
+      <description>사용자 시뮬레이터는 대화형 보조자를 교육하고 평가하기 위한 확장 가능한 환경으로 널리 사용됩니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09420">Hugging Face Papers</source>
+      <guid isPermaLink="false">82bafcbeace3c9e8cb73b099d7b49c5b</guid>
+    </item>
+    <item>
+      <title>주제 3: 기술 보고서</title>
+      <link>https://huggingface.co/papers/2608.09119</link>
+      <description>총 3,140억 개의 매개변수와 토큰당 132억 개의 활성화된 디코더 전용 전문가 혼합 언어 모델인 Motif 3을 소개합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09119">Hugging Face Papers</source>
+      <guid isPermaLink="false">e25df042bf77366a603239bcbebd1e7c</guid>
+    </item>
     <item>
       <title>Enfold: 매우 효율적인 구현 제어를 위한 예측 표현으로 세계 모델 상상을 접습니다.</title>
       <link>https://huggingface.co/papers/2607.26657</link>
@@ -376,87 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.05798">Hugging Face Papers</source>
       <guid isPermaLink="false">4803bbdbc2e9c2cfbf8a53caf7d7a1f7</guid>
-    </item>
-    <item>
-      <title>활동 프레임: 에이전트 메모리 및 재생을 위한 결정적 화면 활동 컴파일</title>
-      <link>https://huggingface.co/papers/2608.05784</link>
-      <description>컴퓨터 사용 에이전트는 사용자가 이미 수행한 루틴을 다시 파생하기 위해 완전한 경계 추론을 수행합니다. 왜냐하면 오늘날 에이전트의 메모리는 사용자가 한 일이 아니라 사용자가 말한 내용을 기록하기 때문입니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05784">Hugging Face Papers</source>
-      <guid isPermaLink="false">886853517e3d4fb2dead1855b1ea637d</guid>
-    </item>
-    <item>
-      <title>DataSpace: 이기종 작업 공간에 대한 검증 가능한 분석을 위한 데이터 에이전트 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.03451</link>
-      <description>데이터 에이전트는 관련 증거가 데이터베이스, 구조화된 파일, 긴 문서 및 멀티미디어에 분산되어 있을 수 있는 조직 작업 공간에 대한 자연어 분석을 가능하게 합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03451">Hugging Face Papers</source>
-      <guid isPermaLink="false">24eb7c82e9a69ef7f44ef220b0eee46f</guid>
-    </item>
-    <item>
-      <title>인식된 음성의 해석 가능한 MEG 디코딩: 검색을 유도하는 피질 소스 및 자극 기능</title>
-      <link>https://huggingface.co/papers/2608.01481</link>
-      <description>인식된 음성의 짧은 세그먼트는 wav2vec 2.0 오디오 임베딩에 대한 CLIP 스타일 목표로 훈련된 심층 네트워크를 통해 비침습적 뇌자도(MEG) 녹음에서 검색할 수 있습니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01481">Hugging Face Papers</source>
-      <guid isPermaLink="false">e9aa9aef443afca26eedf8b6b1724498</guid>
-    </item>
-    <item>
-      <title>MameLoshnLM: 이디시어 언어 모델 및 평가 벤치마크</title>
-      <link>https://huggingface.co/papers/2608.05850</link>
-      <description>우리는 Yiddish를 위해 특별히 제작된 최초의 오픈 소스 8B 매개변수 언어 모델인 MameLoshnLM을 소개합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05850">Hugging Face Papers</source>
-      <guid isPermaLink="false">10d8dd73083c97f6d7579aa172fe574d</guid>
-    </item>
-    <item>
-      <title>균형 잡힌 다국어 텍스트 임베딩 적응을 위한 작업 조건부 흐름 매칭</title>
-      <link>https://huggingface.co/papers/2608.05785</link>
-      <description>다국어 텍스트 임베딩 모델은 근본적으로 다른 최적화 전략이 필요한 다양한 작업에도 불구하고 다양한 작업에 걸쳐 단일 교육 목표를 사용하여 일반적으로 조정됩니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05785">Hugging Face Papers</source>
-      <guid isPermaLink="false">ad1e56b9475d615bd0e5bac7be34ff8a</guid>
-    </item>
-    <item>
-      <title>전환기의 지속적인 학습</title>
-      <link>https://huggingface.co/papers/2608.06216</link>
-      <description>기존 CL(지속적 학습)은 주로 훈련 전략, 아키텍처 설계, 가중치 적응과 같은 매개변수 중심 메커니즘을 통해 모델이 지식을 업데이트하고 유지할 수 있도록 하는 데 중점을 두었습니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06216">Hugging Face Papers</source>
-      <guid isPermaLink="false">98ad4f9be7cb83060337319087c01883</guid>
-    </item>
-    <item>
-      <title>경제 주체에서 행위자 경제까지: 경제 세계 모델을 위한 시스템 청사진</title>
-      <link>https://huggingface.co/papers/2608.06020</link>
-      <description>경제 세계 모델(EWM)은 이질적인 주체, 이들의 신념 및 행동, 시장 및 제도적 메커니즘을 모델링하여 경제가 내부에서 어떻게 진화하는지 시뮬레이션하는 생성적 경제 모델입니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06020">Hugging Face Papers</source>
-      <guid isPermaLink="false">7d9bf27fe5873756f1cf58cdf44c8b73</guid>
-    </item>
-    <item>
-      <title>Nemotron 그리스어 교육: 코퍼스 마이닝, 검색 적응 및 전문 영역 전반에 걸친 현대 그리스어 생성 기반 구축</title>
-      <link>https://huggingface.co/papers/2608.05138</link>
-      <description>현대 그리스어는 법률, 에너지, 금융, 의료 분야의 RAG(검색 증강 생성)에 중요함에도 불구하고 NVIDIA의 Nemotron 검색 모델과 주요 다국어 검색 벤치마크에는 없습니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05138">Hugging Face Papers</source>
-      <guid isPermaLink="false">687949bea52fca964b4dca39ae6993b5</guid>
-    </item>
-    <item>
-      <title>EffectLearner: 실제 비디오 객체 제거를 위한 세계 인식 객체 효과 추론</title>
-      <link>https://huggingface.co/papers/2608.05565</link>
-      <description>비디오 객체 제거는 높은 충실도와 시공간적으로 일관된 복원을 유지하면서 대상 객체뿐만 아니라 그로 인해 유발된 효과도 제거해야 합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05565">Hugging Face Papers</source>
-      <guid isPermaLink="false">08ad2022ece1f59fe8a054496eedb22b</guid>
     </item>
   </channel>
 </rss>
