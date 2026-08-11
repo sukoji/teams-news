@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 11 Aug 2026 12:46:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 14:11:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Ouroboros: 검토된 핵심 진화를 갖춘 자체 개발 프론티어 코딩 에이전트</title>
+      <link>https://huggingface.co/papers/2608.08311</link>
+      <description>이후 작업을 위한 런타임이 되는 검토된 커밋을 통해 도구, 프롬프트, 컨텍스트 어셈블리 및 핵심 구현이 향상되는 자체 개발 에이전트 하네스인 Ouroboros를 소개합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08311">Hugging Face Papers</source>
+      <guid isPermaLink="false">a65ab2a099439233124f25fe4ed58b61</guid>
+    </item>
+    <item>
+      <title>OasisKV: Lookahead Sparse Prefetching을 사용하여 HBM 이상으로 인디코드 KV 캐시 확장</title>
+      <link>https://huggingface.co/papers/2608.08097</link>
+      <description>LLM(대형 언어 모델) 추론 제공은 컴퓨팅보다는 메모리에 의해 점점 더 제한되고 있습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08097">Hugging Face Papers</source>
+      <guid isPermaLink="false">b636f04023424f65fa013b58e44cfef1</guid>
+    </item>
+    <item>
+      <title>에이전트 메모리 증류: 계층적 교사 메모리로 소규모 LLM 에이전트 역량 강화</title>
+      <link>https://huggingface.co/papers/2608.07169</link>
+      <description>메모리 시스템은 에이전트 성능을 향상시킬 수 있는 가능성을 보여 주었지만 자체적으로 충분한 성공적인 궤적을 생성하는 데 어려움을 겪는 소규모 언어 모델의 경우 잠재력이 아직 탐구되지 않았습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07169">Hugging Face Papers</source>
+      <guid isPermaLink="false">c58f69b0324a1ad5cd976d492f4bc7cf</guid>
+    </item>
+    <item>
+      <title>RynnValue: 시간적 거리에 따른 로봇 가치 기반 모델 확장</title>
+      <link>https://huggingface.co/papers/2608.09853</link>
+      <description>범용 보상 모델은 로봇 학습 확장의 병목 현상이 점점 더 커지고 있지만, 대규모 이질적 말뭉치에서 가치 관련 기능을 학습하는 방법은 여전히 ​​과소 탐구되고 있습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09853">Hugging Face Papers</source>
+      <guid isPermaLink="false">5f6a12a9bf384af1632024eb0e867e58</guid>
+    </item>
+    <item>
+      <title>증거-분류 검색을 위한 인수분해 가설 검색</title>
+      <link>https://huggingface.co/papers/2608.06614</link>
+      <description>대규모 분류 검색에서는 입력이 이미 대상 개념을 표현하고 있다고 가정하는 경우가 많습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06614">Hugging Face Papers</source>
+      <guid isPermaLink="false">401753ef6c760d49294f09ffc13cc629</guid>
+    </item>
     <item>
       <title>SWE-Bench ProMax: 대규모 다국어 코드 리팩토링에 대한 벤치마킹 에이전트</title>
       <link>https://huggingface.co/papers/2608.09802</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-cc2">Elvis AI Newsletter</source>
       <guid isPermaLink="false">13dfcf92942abbf59b1af101c6c09157</guid>
-    </item>
-    <item>
-      <title>🤖 AI 에이전트 주간: 에이전트 플러그인 표준, Qwen3.8-Max, Meta Muse 코드, 프라임 에이전트, LFM2.5-2.6B, Qwen-CUA, Harness Evolution 논문 등</title>
-      <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-agent-plugins-standard</link>
-      <description>에이전트 플러그인 표준, Qwen3.8-Max, Meta Muse 코드, Prime Agent, LFM2.5-2.6B, Qwen-CUA, Harness Evolution Papers 등</description>
-      <pubDate>Sat, 08 Aug 2026 23:56:44 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/ai-agents-weekly-agent-plugins-standard">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">b8143a48895ca9c3992490dc26d84a22</guid>
-    </item>
-    <item>
-      <title>GaussianSelector: 그래프 최적화를 사용한 3D 가우스 스플래팅에서 인간 중심의 경량 객체 선택</title>
-      <link>https://huggingface.co/papers/2608.01492</link>
-      <description>최소한의 사용자 노력으로 재구성된 장면에서 완전한 3D 개체를 선택하는 것은 실제 장면 편집 및 구현된 상호 작용에 필수적입니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01492">Hugging Face Papers</source>
-      <guid isPermaLink="false">a1dc8c206a003a50330f0f244fa49458</guid>
-    </item>
-    <item>
-      <title>무게 또는 기술? 로봇 학습 기술에 대한 조사: 동작 예측 무게부터 자체 기술을 작성하는 로봇까지</title>
-      <link>https://huggingface.co/papers/2608.01851</link>
-      <description>로봇 학습은 역량을 동결된 가중치(비전-언어-행동 또는 VLA, 모델)에 적용하는 정책과 실행 가능한 기술을 코드로 작성하고 개선하는 에이전트라는 두 가지 베팅으로 나뉩니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01851">Hugging Face Papers</source>
-      <guid isPermaLink="false">c2b7365bfa2fd78ac0b7b60fa0bb38c4</guid>
-    </item>
-    <item>
-      <title>FactorJEPA: 혼잡하고 혼란스러운 글로벌 남부 도시 세계를 위한 레이아웃-에이전트-상호 작용 채널로 모놀리식 미래를 인수분해</title>
-      <link>https://huggingface.co/papers/2608.01049</link>
-      <description>세계 모델은 물리적 세계의 구조와 역학을 포착하고 예측하는 능력으로 인해 상당한 주목을 받았습니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.01049">Hugging Face Papers</source>
-      <guid isPermaLink="false">9c93959ecac858cc93b2c47166eeafcc</guid>
-    </item>
-    <item>
-      <title>KVAE: 다중 모드 생성 모델을 위한 토크나이저 제품군</title>
-      <link>https://huggingface.co/papers/2608.05798</link>
-      <description>대표적인 패러다임인 잠재 확산 모델링(LDM)은 토크나이저를 활용하여 입력 신호를 압축 표현에 매핑합니다.</description>
-      <pubDate>Fri, 07 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05798">Hugging Face Papers</source>
-      <guid isPermaLink="false">4803bbdbc2e9c2cfbf8a53caf7d7a1f7</guid>
     </item>
   </channel>
 </rss>
