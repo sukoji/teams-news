@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 17:19:05 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 19:07:13 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>WARP: 2.78조 파라미터 Kimi K3를 64GB 맥북에서 실행하는 C 기반 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/warp-2-78-kimi-k3-64gb-c/11601</link>
+      <description>WARP 소개 프런티어급 오픈 모델이 공개될 때마다 반복되는 계산이 있습니다. 가중치 파일이 1TB를 넘으면 개인 장비에서는 열어볼 수조차 없고, 결국 증류하거나 가지치기한 축소판을 기다리거나 클라우드 API를 쓰는 선택지만 남습니다. 램에 모델을 통째로 올려야 한다는 전제가 이 계산을 지배해 왔습니다.</description>
+      <pubDate>Wed, 12 Aug 2026 18:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/warp-2-78-kimi-k3-64gb-c/11601">PyTorch Korea</source>
+      <guid isPermaLink="false">5e0c25e5258d7dc58c2515b4cf843899</guid>
+    </item>
     <item>
       <title>Qwen Audio Agent: 작업하는 동안에도 대화가 끊기지 않는 실시간 음성 에이전트 런타임</title>
       <link>https://discuss.pytorch.kr/t/qwen-audio-agent/11600</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-deepmind-gemini-robotics-2/11488">PyTorch Korea</source>
       <guid isPermaLink="false">951e3674410958b987d74f7d72bc2517</guid>
-    </item>
-    <item>
-      <title>당근 디자인 시스템 SEED, llms.txt와 MCP로 AI 에이전트에게 문서를 여는 방법</title>
-      <link>https://discuss.pytorch.kr/t/seed-llms-txt-mcp-ai/11462</link>
-      <description>당근 디자인 시스템 SEED 소개 SEED 는 당근 이 제품을 만들 때 쓰는 디자인 시스템으로, 색과 타이포그래피, 간격 같은 시각 요소부터 버튼과 리스트 같은 컴포넌트, 눌렀을 때의 반응 같은 모션까지를 하나의 체계로 정리한 결과물입니다. Apache License 2.0 으로 GitHub에 공개 되어 있고, 2026년 7월 현재 960개의 별을 받았습니다.</description>
-      <pubDate>Sat, 01 Aug 2026 15:30:41 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/seed-llms-txt-mcp-ai/11462">PyTorch Korea</source>
-      <guid isPermaLink="false">2cd62b7cfa0f1a0703ee16e2c70cac76</guid>
     </item>
   </channel>
 </rss>
