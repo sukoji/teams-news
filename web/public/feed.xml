@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 01:05:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 02:58:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Tailscale이 데이터베이스 손상 원인을 16년 된 SQLite WAL-Reset 버그로 추적한 과정</title>
+      <link>https://news.hada.io/topic?id=32442</link>
+      <description>6개월간 발생한 19건의 데이터베이스 손상 과 반복적인 제어 평면 장애를 조사한 끝에, SQLite 체크포인트와 쓰기 트랜잭션 사이의 희귀한 데이터 경쟁을 찾아냄 WAL 페이지가 주 데이터베이스에 복사되지 않았는데도 체크포인트가 완료된 것으로 처리돼 데이터가 영구 소실됐으며, S...</description>
+      <pubDate>Thu, 13 Aug 2026 02:38:46 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32442">GeekNews</source>
+      <guid isPermaLink="false">96579f09f7e9fb75030975d1088c7107</guid>
+    </item>
     <item>
       <title>trefeon/freebuff-proxy — FreeBuff 무료 계층을 위한 OpenAI 호환 프록시 브리지: 멀티 토큰 풀, 세션/에이전트 실행 lifec</title>
       <link>https://github.com/trefeon/freebuff-proxy</link>
@@ -448,15 +457,6 @@
       <category>news</category>
       <source url="https://zdnet.co.kr/view/?no=20260812112143">ZDNet Korea</source>
       <guid isPermaLink="false">a15dea15e13439cd93f4b588abf5d272</guid>
-    </item>
-    <item>
-      <title>[단독]SK하이퍼, C레벨 4인 체제 구축…CFO·CSO·CTO 인선 완료</title>
-      <link>https://www.etnews.com/20260812000216</link>
-      <description>SK텔레콤 인공지능 데이터센터(AIDC) 사업개발 전담 자회사 SK하이퍼가 최고경영자(CEO)를 포함한 4명의 C레벨 인선을 확정했다. 부지·전력 확보와 조단위 자금 조달을 병행해야 하는 사업 특성을 감안해 전략기획·재무·기술 중심으로 리더십 체제를 구축했다.</description>
-      <pubDate>Wed, 12 Aug 2026 11:57:56 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260812000216">전자신문 IT</source>
-      <guid isPermaLink="false">a51d19697d16d176a48f7ade58ad7e88</guid>
     </item>
   </channel>
 </rss>

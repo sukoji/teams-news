@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/news.xml</link>
     <description>📰 News — GeekNews, AI Times, ETNews, NAVER D2, ZDNet Korea</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 01:05:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 02:58:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Tailscale이 데이터베이스 손상 원인을 16년 된 SQLite WAL-Reset 버그로 추적한 과정</title>
+      <link>https://news.hada.io/topic?id=32442</link>
+      <description>6개월간 발생한 19건의 데이터베이스 손상 과 반복적인 제어 평면 장애를 조사한 끝에, SQLite 체크포인트와 쓰기 트랜잭션 사이의 희귀한 데이터 경쟁을 찾아냄 WAL 페이지가 주 데이터베이스에 복사되지 않았는데도 체크포인트가 완료된 것으로 처리돼 데이터가 영구 소실됐으며, S...</description>
+      <pubDate>Thu, 13 Aug 2026 02:38:46 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32442">GeekNews</source>
+      <guid isPermaLink="false">96579f09f7e9fb75030975d1088c7107</guid>
+    </item>
     <item>
       <title>llama.cpp: 내 컴퓨터에서 실행하는 오픈소스 AI</title>
       <link>https://news.hada.io/topic?id=32437</link>
@@ -448,15 +457,6 @@
       <category>news</category>
       <source url="https://zdnet.co.kr/view/?no=20260811180445">ZDNet Korea</source>
       <guid isPermaLink="false">2baa58d6825c2c49e193c565bf7a027e</guid>
-    </item>
-    <item>
-      <title>H3-metal - Apple Silicon용 네이티브 MiniMax-H3 추론</title>
-      <link>https://news.hada.io/topic?id=32401</link>
-      <description>h3-metal 은 Apple Silicon에서 MiniMax-H3의 프롬프트·이미지·영상·오디오 기반 생성 기능을 네이티브로 실행하며, 현재 M3 Max와 M5 Max의 Metal 성능 및 메모리 최적화에 집중함 대화형 세션은 BF16 프롬프트 조건, DiT, 영상 디코더를 메모리에 유지하며 첫/마지막 프레...</description>
-      <pubDate>Tue, 11 Aug 2026 19:32:18 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32401">GeekNews</source>
-      <guid isPermaLink="false">2494be151c09c00c6ac155be721c27ee</guid>
     </item>
   </channel>
 </rss>
