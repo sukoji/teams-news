@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 15:16:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 17:19:05 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>360CityArena: 구현된 에이전트를 위한 현실적인 가상 도시 내비게이션 벤치마크</title>
+      <link>https://huggingface.co/papers/2608.08814</link>
+      <description>새로운 사실적인 도시 벤치마크는 도시 규모 탐색 및 공간 추론에서 구현된 에이전트에 대한 큰 성능 격차를 보여줍니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08814">Hugging Face Papers</source>
+      <guid isPermaLink="false">e726fcdd5e6b698c5d3e095b586b2162</guid>
+    </item>
+    <item>
+      <title>디코딩 수준 금기: LLM 견고성을 위한 진단 스트레스 테스트</title>
+      <link>https://huggingface.co/papers/2608.09900</link>
+      <description>Decoding-level Taboo는 대규모 언어 모델이 비공칭 생성 경로를 처리하는 방법을 보여 주는 런타임 로짓 공간 스트레스 테스트로, 견고성이 규모 및 명령 정렬에 따라 달라짐을 보여줍니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09900">Hugging Face Papers</source>
+      <guid isPermaLink="false">75e64f37b9c30ad268c5617da9457b13</guid>
+    </item>
+    <item>
+      <title>UniMoMo: 대규모 추천 모델을 위한 전문가 병합 기반 MoE 가속화</title>
+      <link>https://huggingface.co/papers/2608.08627</link>
+      <description>UniMoMo는 기능적 유사성 그룹화 및 계층 적응형 보호를 통해 훈련된 전문가 혼합 모델을 더 작은 표준 MoE 체크포인트로 압축하여 추론을 가속화하는 동시에 정확도를 유지합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08627">Hugging Face Papers</source>
+      <guid isPermaLink="false">fbc22f5ebd4899f90396483297fc8630</guid>
+    </item>
     <item>
       <title>AdvFD: 적대적 Fr'echet 거리 손실을 통한 시각적 생성 강화</title>
       <link>https://huggingface.co/papers/2608.11205</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.09802">Hugging Face Papers</source>
       <guid isPermaLink="false">f1798999799b9f85b8d62e3c9638b53a</guid>
-    </item>
-    <item>
-      <title>Sci-VBench: 과학 영역에서 지식 및 추론 중심의 비디오 생성 평가</title>
-      <link>https://huggingface.co/papers/2608.09873</link>
-      <description>과학 영역 전반에 걸쳐 지식 및 추론 집약적인 비디오 생성을 평가하기 위한 포괄적인 벤치마크인 Sci-VBench를 소개합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09873">Hugging Face Papers</source>
-      <guid isPermaLink="false">876e6ac5857ffa66429d55e5057f9421</guid>
-    </item>
-    <item>
-      <title>RoMeRL: 감소된 순서 유틸리티 상태를 통해 피드백 적용 범위와 자체 진화 에이전트 메모리의 메모리 보상 트랩 균형 조정</title>
-      <link>https://huggingface.co/papers/2608.02508</link>
-      <description>자체 진화하는 LLM 에이전트를 위한 학습 기반 메모리 시스템은 밀접하게 연결된 두 가지 과제에 직면해 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.02508">Hugging Face Papers</source>
-      <guid isPermaLink="false">f995ffc380b7b467b81d5f63d51287b3</guid>
-    </item>
-    <item>
-      <title>Evidence-RL: 증거 중심의 시각적 추론을 향하여</title>
-      <link>https://huggingface.co/papers/2608.08021</link>
-      <description>VLM(비전-언어 모델)은 언어 사전, 데이터 세트 바로가기 또는 관련 없는 시각적 컨텍스트가 아닌 구체적인 이미지 증거를 통해 답변해야 합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08021">Hugging Face Papers</source>
-      <guid isPermaLink="false">ece9583a59b1d8ff990d770e1f515e1c</guid>
     </item>
   </channel>
 </rss>
