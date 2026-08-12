@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12T08:35:01.176248+09:00",
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T08:36:11.244255+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,54 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "f1798999799b9f85b8d62e3c9638b53a",
+          "id": "bf138195539b4f69c1bfa4dffd6a951f",
           "index": 1,
-          "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
-          "title_ko": "SWE-Bench ProMax: 대규모 다국어 코드 리팩토링에 대한 벤치마킹 에이전트",
-          "summary": "SWE-Bench ProMax is a rigorously curated multilingual benchmark of large-scale code refactoring tasks that reveals substantial unsolved challenges for current AI coding agents.",
-          "summary_ko": "SWE-Bench ProMax는 현재 AI 코딩 에이전트가 해결하지 못한 상당한 과제를 보여주는 대규모 코드 리팩토링 작업에 대해 엄격하게 선별된 다국어 벤치마크입니다.",
-          "url": "https://huggingface.co/papers/2608.09802",
+          "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
+          "title_ko": "비즈니스 분야: 현실적인 시장에서 LLM 에이전트 벤치마킹",
+          "summary": "Business Arena evaluates LLM agents running a realistic cross-border shop, revealing large performance gaps versus human strategies and enabling detailed attribution of business decisions.",
+          "summary_ko": "Business Arena는 현실적인 국경 간 상점을 운영하는 LLM 에이전트를 평가하여 인간 전략에 비해 큰 성과 격차를 드러내고 비즈니스 결정의 세부적인 기여를 가능하게 합니다.",
+          "url": "https://huggingface.co/papers/2608.08621",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-08-11T09:00:00+09:00",
-          "popularity": 237,
-          "upvotes": 116,
-          "score": 26.5,
-          "importance_score": 16.59,
+          "popularity": 142,
+          "upvotes": 16,
+          "score": 26.89,
+          "importance_score": 14.89,
           "matched_keywords": [
             "ai",
+            "llm",
             "agent",
             "benchmark"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 116
+            "value": 16
           }
         },
         {
-          "id": "2ebe88e86bb06f998b786abe2b44ab31",
+          "id": "bdbf242a3c7e25820eae132f02889190",
           "index": 2,
-          "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-          "title_ko": "MatrAIx: 83억 개의 페르소나 에이전트로 세계 시뮬레이션",
-          "summary": "MatrAIx is a large-scale simulated-user evaluation framework that uses diverse persona records and interactive environments to test AI systems across many domains.",
-          "summary_ko": "MatrAIx는 다양한 페르소나 기록과 대화형 환경을 사용하여 여러 도메인에 걸쳐 AI 시스템을 테스트하는 대규모 시뮬레이션 사용자 평가 프레임워크입니다.",
-          "url": "https://huggingface.co/papers/2608.04205",
+          "title": "Beyond Pixels: From Video Priors to 4D Worlds",
+          "title_ko": "픽셀 너머: 이전 비디오에서 4D 세계까지",
+          "summary": "Latent-to-4D enables reusable direct 4D generation from video diffusion latents via alignment with a pretrained decoder and spatiotemporal attention, transferring across generators without retraining.",
+          "summary_ko": "Latent-to-4D는 사전 훈련된 디코더 및 시공간적 주의와의 정렬을 통해 비디오 확산 잠재성에서 재사용 가능한 직접 4D 생성을 가능하게 하며 재교육 없이 생성기 간에 전송됩니다.",
+          "url": "https://huggingface.co/papers/2608.10744",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-10T09:00:00+09:00",
-          "popularity": 804,
-          "upvotes": 27,
-          "score": 26.0,
-          "importance_score": 18.0,
+          "published_at": "2026-08-12T09:00:00+09:00",
+          "popularity": 219,
+          "upvotes": 102,
+          "score": 26.26,
+          "importance_score": 16.35,
           "matched_keywords": [
             "ai",
-            "agent"
+            "diffusion",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 27
+            "value": 102
           }
         }
       ]
@@ -67,48 +69,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "ba2630374af70b6472f450e71f037d75",
+          "id": "123b97b4e68051b1842fb69ee8632e46",
           "index": 3,
-          "title": "우리 팀만의 vLLM 플러그인 만들기 2편 - 모델 변환부터 배포까지 AI-native로 자동화하기",
+          "title": "[8월12일] 저커버그, 폐쇄형 AI 비판했지만…“메타도 오픈소스는 아니다”",
           "title_ko": null,
-          "summary": "1편 에서는 검색·추천 모델을 vLLM 사용자 정의 플러그인으로 옮겨 서빙 성능을 높인 과정을 소개했습니다. 모델을 vLLM에서 실행할 수 있게 된 뒤에는 또 다른 문제가 남았습니다. 모델마다 반복해야 하는 변환 작업이 복잡하고, vLLM의 빠른 변화까지 계속 따라가야 한다는 점입니다.",
+          "summary": "마크 저커버그 메타 CEO는 10일(현지시간) 오픈웨이트 모델인 \\'뮤즈 글리머\\'를 출시하며 장문의 글을 올렸습니다. 6500단어에 이르는 분량으로, AI 경쟁에 대한 회사의 입장과 사회에 미치는 영향, 그리고 미국 정부가 이 기술을 어떻게 규제하고 장려해야 하는지에 대한 내용입니다.핵심은 AI의 가장 큰 위험으로 ‘중앙집중’을 지목하며 오픈웨이트 AI를 적극 옹호했습니다.",
           "summary_ko": null,
-          "url": "https://d2.naver.com/helloworld/7337586",
-          "source": "NAVER D2",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=213836",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-11T01:39:52+09:00",
+          "published_at": "2026-08-13T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 21.0,
-          "importance_score": 10.0,
+          "score": 22.67,
+          "importance_score": 19.33,
           "matched_keywords": [
             "ai",
-            "llm",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "3f161162b48a666dbdcb739c76858779",
+          "id": "ab61590c85d3658246b23fc73209918e",
           "index": 4,
-          "title": "북한 해커 김수키, 로컬 LLM 구축…Ollama·GPT4All 흔적 확인",
+          "title": "LG도 보안 특화 AI 출사표…엑사원 기반 컨소시엄 추진",
           "title_ko": null,
-          "summary": "[지디넷코리아]북한 해킹 조직 김수키(Kimsuky)가 로컬 LLM 실행 환경을 직접 구축해 공격 작업에 AI를 통합하려는 정황이 확인됐다. 현지 시각 8월 10일 더레지스터(The Register)가 한국 보안 기업 지니언스(Genians)의 월요일 보고서를 인용해 보도한 내용이다.",
+          "summary": "LG그룹이 정부의 보안 특화 인공지능(AI) 모델 개발 사업 참여를 추진한다. LG AI연구원의 초거대 AI 모델 '엑사원(EXAONE)'을 기반이다. 네이버클라우드와 SK텔레콤이 각각 컨소시엄 구성을 추진하고 있는 가운데 LG까지 가세하면서 경쟁이 본격화하는 모습이다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260811213820",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260812000388",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-11T21:38:20+09:00",
-          "popularity": 97,
+          "published_at": "2026-08-12T16:16:25+09:00",
+          "popularity": 90,
           "upvotes": 0,
-          "score": 23.42,
-          "importance_score": 15.14,
+          "score": 21.6,
+          "importance_score": 12.2,
           "matched_keywords": [
             "ai",
-            "llm",
-            "gpt"
+            "연구",
+            "모델"
           ],
           "engagement": null
         }
@@ -119,8 +120,32 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "a2cf7cce5a0073fd0125446e082cdda0",
+          "id": "837abfa7ad486886fa5eaf93840bc07d",
           "index": 5,
+          "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+          "title_ko": "SaladDay/pi-from-scratch — TypeScript로 600줄로 작성된 pi의 초소형 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+          "summary": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+          "summary_ko": "600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+          "url": "https://github.com/SaladDay/pi-from-scratch",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-08-12T16:10:35+09:00",
+          "popularity": 748,
+          "upvotes": 748,
+          "score": 29.74,
+          "importance_score": 26.32,
+          "matched_keywords": [
+            "agent"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 748
+          }
+        },
+        {
+          "id": "a2cf7cce5a0073fd0125446e082cdda0",
+          "index": 6,
           "title": "wanshuiyin/HERO-Anti-OverDefense — HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A ",
           "title_ko": "wanshuiyin/HERO-Anti-OverDefense — HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. A",
           "summary": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
@@ -129,11 +154,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-12T02:30:06+09:00",
-          "popularity": 89,
-          "upvotes": 89,
-          "score": 30.48,
-          "importance_score": 23.22,
+          "published_at": "2026-08-12T17:02:41+09:00",
+          "popularity": 118,
+          "upvotes": 118,
+          "score": 29.49,
+          "importance_score": 20.24,
           "matched_keywords": [
             "agent",
             "claude",
@@ -141,32 +166,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 89
-          }
-        },
-        {
-          "id": "97367079df36f113a9f68112c1d33eb7",
-          "index": 6,
-          "title": "oliverb-io1902e8/agent-skills-collection — Curated collection of modular agent skills for LLM-based agents",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "Curated collection of modular agent skills for LLM-based agents",
-          "summary_ko": "LLM 기반 에이전트를 위한 엄선된 모듈식 에이전트 기술 컬렉션",
-          "url": "https://github.com/oliverb-io1902e8/agent-skills-collection",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-08-11T23:29:30+09:00",
-          "popularity": 204,
-          "upvotes": 204,
-          "score": 29.74,
-          "importance_score": 24.84,
-          "matched_keywords": [
-            "llm",
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 204
+            "value": 118
           }
         }
       ]
@@ -176,24 +176,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "f7b0587875a2912d3e02cdee357ba293",
+          "id": "ba41ffa5ced7f0a964f95a1c250850b2",
           "index": 7,
-          "title": "Lucebox: 추측 디코딩과 전용 커널로 소비자용 GPU의 LLM 추론을 끌어올리는 서버",
+          "title": "How to Train Your GPT: LLaMA 3 구조를 밑바닥부터 구현하며 배우는 LLM의 원리와 동작",
           "title_ko": null,
-          "summary": "Lucebox 소개 책상 위 RTX 3090 한 장으로 27B 모델을 돌려 보면, 답이 한 글자씩 떨어지는 속도에서 곧 한계를 느끼게 됩니다. 카드가 낡아서라기보다 그 위에서 도는 소프트웨어가 특정 칩에 맞춰져 있지 않기 때문입니다. 범용 추론 런타임은 어떤 하드웨어에서도 무난히 돌아가도록 만들어져 있고, 그 무난함의 대가로 각 칩이 낼 수 있는 최고치를 남겨 둡니다.",
+          "summary": "How to Train Your GPT 소개 언어 모델을 배우려고 자료를 찾다 보면 두 부류로 갈립니다. 한쪽은 라이브러리 호출 몇 줄로 학습을 끝내서 내부에서 무슨 일이 일어나는지 알려주지 않고, 다른 한쪽은 논문 수준의 표기법으로 시작해 선형대수 기초가 없으면 첫 페이지에서 막힙니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584",
+          "url": "https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-11T10:00:20+09:00",
-          "popularity": 98,
+          "published_at": "2026-08-12T21:30:35+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 21.1,
-          "importance_score": 10.39,
+          "score": 26.69,
+          "importance_score": 15.38,
           "matched_keywords": [
+            "ai",
             "llm",
-            "추론",
+            "gpt",
             "모델"
           ],
           "engagement": null
@@ -203,105 +204,130 @@
   ],
   "items": [
     {
-      "id": "f1798999799b9f85b8d62e3c9638b53a",
+      "id": "bf138195539b4f69c1bfa4dffd6a951f",
       "index": 1,
-      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
-      "title_ko": "SWE-Bench ProMax: 대규모 다국어 코드 리팩토링에 대한 벤치마킹 에이전트",
-      "summary": "SWE-Bench ProMax is a rigorously curated multilingual benchmark of large-scale code refactoring tasks that reveals substantial unsolved challenges for current AI coding agents.",
-      "summary_ko": "SWE-Bench ProMax는 현재 AI 코딩 에이전트가 해결하지 못한 상당한 과제를 보여주는 대규모 코드 리팩토링 작업에 대해 엄격하게 선별된 다국어 벤치마크입니다.",
-      "url": "https://huggingface.co/papers/2608.09802",
+      "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
+      "title_ko": "비즈니스 분야: 현실적인 시장에서 LLM 에이전트 벤치마킹",
+      "summary": "Business Arena evaluates LLM agents running a realistic cross-border shop, revealing large performance gaps versus human strategies and enabling detailed attribution of business decisions.",
+      "summary_ko": "Business Arena는 현실적인 국경 간 상점을 운영하는 LLM 에이전트를 평가하여 인간 전략에 비해 큰 성과 격차를 드러내고 비즈니스 결정의 세부적인 기여를 가능하게 합니다.",
+      "url": "https://huggingface.co/papers/2608.08621",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-08-11T09:00:00+09:00",
-      "popularity": 237,
-      "upvotes": 116,
-      "score": 26.5,
-      "importance_score": 16.59,
+      "popularity": 142,
+      "upvotes": 16,
+      "score": 26.89,
+      "importance_score": 14.89,
       "matched_keywords": [
         "ai",
+        "llm",
         "agent",
         "benchmark"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 116
+        "value": 16
       }
     },
     {
-      "id": "2ebe88e86bb06f998b786abe2b44ab31",
+      "id": "bdbf242a3c7e25820eae132f02889190",
       "index": 2,
-      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-      "title_ko": "MatrAIx: 83억 개의 페르소나 에이전트로 세계 시뮬레이션",
-      "summary": "MatrAIx is a large-scale simulated-user evaluation framework that uses diverse persona records and interactive environments to test AI systems across many domains.",
-      "summary_ko": "MatrAIx는 다양한 페르소나 기록과 대화형 환경을 사용하여 여러 도메인에 걸쳐 AI 시스템을 테스트하는 대규모 시뮬레이션 사용자 평가 프레임워크입니다.",
-      "url": "https://huggingface.co/papers/2608.04205",
+      "title": "Beyond Pixels: From Video Priors to 4D Worlds",
+      "title_ko": "픽셀 너머: 이전 비디오에서 4D 세계까지",
+      "summary": "Latent-to-4D enables reusable direct 4D generation from video diffusion latents via alignment with a pretrained decoder and spatiotemporal attention, transferring across generators without retraining.",
+      "summary_ko": "Latent-to-4D는 사전 훈련된 디코더 및 시공간적 주의와의 정렬을 통해 비디오 확산 잠재성에서 재사용 가능한 직접 4D 생성을 가능하게 하며 재교육 없이 생성기 간에 전송됩니다.",
+      "url": "https://huggingface.co/papers/2608.10744",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-10T09:00:00+09:00",
-      "popularity": 804,
-      "upvotes": 27,
-      "score": 26.0,
-      "importance_score": 18.0,
+      "published_at": "2026-08-12T09:00:00+09:00",
+      "popularity": 219,
+      "upvotes": 102,
+      "score": 26.26,
+      "importance_score": 16.35,
       "matched_keywords": [
         "ai",
-        "agent"
+        "diffusion",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 27
+        "value": 102
       }
     },
     {
-      "id": "ba2630374af70b6472f450e71f037d75",
+      "id": "123b97b4e68051b1842fb69ee8632e46",
       "index": 3,
-      "title": "우리 팀만의 vLLM 플러그인 만들기 2편 - 모델 변환부터 배포까지 AI-native로 자동화하기",
+      "title": "[8월12일] 저커버그, 폐쇄형 AI 비판했지만…“메타도 오픈소스는 아니다”",
       "title_ko": null,
-      "summary": "1편 에서는 검색·추천 모델을 vLLM 사용자 정의 플러그인으로 옮겨 서빙 성능을 높인 과정을 소개했습니다. 모델을 vLLM에서 실행할 수 있게 된 뒤에는 또 다른 문제가 남았습니다. 모델마다 반복해야 하는 변환 작업이 복잡하고, vLLM의 빠른 변화까지 계속 따라가야 한다는 점입니다.",
+      "summary": "마크 저커버그 메타 CEO는 10일(현지시간) 오픈웨이트 모델인 \\'뮤즈 글리머\\'를 출시하며 장문의 글을 올렸습니다. 6500단어에 이르는 분량으로, AI 경쟁에 대한 회사의 입장과 사회에 미치는 영향, 그리고 미국 정부가 이 기술을 어떻게 규제하고 장려해야 하는지에 대한 내용입니다.핵심은 AI의 가장 큰 위험으로 ‘중앙집중’을 지목하며 오픈웨이트 AI를 적극 옹호했습니다.",
       "summary_ko": null,
-      "url": "https://d2.naver.com/helloworld/7337586",
-      "source": "NAVER D2",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=213836",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-11T01:39:52+09:00",
+      "published_at": "2026-08-13T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 21.0,
-      "importance_score": 10.0,
+      "score": 22.67,
+      "importance_score": 19.33,
       "matched_keywords": [
         "ai",
-        "llm",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "3f161162b48a666dbdcb739c76858779",
+      "id": "ab61590c85d3658246b23fc73209918e",
       "index": 4,
-      "title": "북한 해커 김수키, 로컬 LLM 구축…Ollama·GPT4All 흔적 확인",
+      "title": "LG도 보안 특화 AI 출사표…엑사원 기반 컨소시엄 추진",
       "title_ko": null,
-      "summary": "[지디넷코리아]북한 해킹 조직 김수키(Kimsuky)가 로컬 LLM 실행 환경을 직접 구축해 공격 작업에 AI를 통합하려는 정황이 확인됐다. 현지 시각 8월 10일 더레지스터(The Register)가 한국 보안 기업 지니언스(Genians)의 월요일 보고서를 인용해 보도한 내용이다.",
+      "summary": "LG그룹이 정부의 보안 특화 인공지능(AI) 모델 개발 사업 참여를 추진한다. LG AI연구원의 초거대 AI 모델 '엑사원(EXAONE)'을 기반이다. 네이버클라우드와 SK텔레콤이 각각 컨소시엄 구성을 추진하고 있는 가운데 LG까지 가세하면서 경쟁이 본격화하는 모습이다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260811213820",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20260812000388",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-11T21:38:20+09:00",
-      "popularity": 97,
+      "published_at": "2026-08-12T16:16:25+09:00",
+      "popularity": 90,
       "upvotes": 0,
-      "score": 23.42,
-      "importance_score": 15.14,
+      "score": 21.6,
+      "importance_score": 12.2,
       "matched_keywords": [
         "ai",
-        "llm",
-        "gpt"
+        "연구",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "a2cf7cce5a0073fd0125446e082cdda0",
+      "id": "837abfa7ad486886fa5eaf93840bc07d",
       "index": 5,
+      "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+      "title_ko": "SaladDay/pi-from-scratch — TypeScript로 600줄로 작성된 pi의 초소형 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+      "summary": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+      "summary_ko": "600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+      "url": "https://github.com/SaladDay/pi-from-scratch",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-08-12T16:10:35+09:00",
+      "popularity": 748,
+      "upvotes": 748,
+      "score": 29.74,
+      "importance_score": 26.32,
+      "matched_keywords": [
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 748
+      }
+    },
+    {
+      "id": "a2cf7cce5a0073fd0125446e082cdda0",
+      "index": 6,
       "title": "wanshuiyin/HERO-Anti-OverDefense — HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A ",
       "title_ko": "wanshuiyin/HERO-Anti-OverDefense — HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. A",
       "summary": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
@@ -310,11 +336,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-12T02:30:06+09:00",
-      "popularity": 89,
-      "upvotes": 89,
-      "score": 30.48,
-      "importance_score": 23.22,
+      "published_at": "2026-08-12T17:02:41+09:00",
+      "popularity": 118,
+      "upvotes": 118,
+      "score": 29.49,
+      "importance_score": 20.24,
       "matched_keywords": [
         "agent",
         "claude",
@@ -322,53 +348,29 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 89
+        "value": 118
       }
     },
     {
-      "id": "97367079df36f113a9f68112c1d33eb7",
-      "index": 6,
-      "title": "oliverb-io1902e8/agent-skills-collection — Curated collection of modular agent skills for LLM-based agents",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "Curated collection of modular agent skills for LLM-based agents",
-      "summary_ko": "LLM 기반 에이전트를 위한 엄선된 모듈식 에이전트 기술 컬렉션",
-      "url": "https://github.com/oliverb-io1902e8/agent-skills-collection",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-08-11T23:29:30+09:00",
-      "popularity": 204,
-      "upvotes": 204,
-      "score": 29.74,
-      "importance_score": 24.84,
-      "matched_keywords": [
-        "llm",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 204
-      }
-    },
-    {
-      "id": "f7b0587875a2912d3e02cdee357ba293",
+      "id": "ba41ffa5ced7f0a964f95a1c250850b2",
       "index": 7,
-      "title": "Lucebox: 추측 디코딩과 전용 커널로 소비자용 GPU의 LLM 추론을 끌어올리는 서버",
+      "title": "How to Train Your GPT: LLaMA 3 구조를 밑바닥부터 구현하며 배우는 LLM의 원리와 동작",
       "title_ko": null,
-      "summary": "Lucebox 소개 책상 위 RTX 3090 한 장으로 27B 모델을 돌려 보면, 답이 한 글자씩 떨어지는 속도에서 곧 한계를 느끼게 됩니다. 카드가 낡아서라기보다 그 위에서 도는 소프트웨어가 특정 칩에 맞춰져 있지 않기 때문입니다. 범용 추론 런타임은 어떤 하드웨어에서도 무난히 돌아가도록 만들어져 있고, 그 무난함의 대가로 각 칩이 낼 수 있는 최고치를 남겨 둡니다.",
+      "summary": "How to Train Your GPT 소개 언어 모델을 배우려고 자료를 찾다 보면 두 부류로 갈립니다. 한쪽은 라이브러리 호출 몇 줄로 학습을 끝내서 내부에서 무슨 일이 일어나는지 알려주지 않고, 다른 한쪽은 논문 수준의 표기법으로 시작해 선형대수 기초가 없으면 첫 페이지에서 막힙니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584",
+      "url": "https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-11T10:00:20+09:00",
-      "popularity": 98,
+      "published_at": "2026-08-12T21:30:35+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 21.1,
-      "importance_score": 10.39,
+      "score": 26.69,
+      "importance_score": 15.38,
       "matched_keywords": [
+        "ai",
         "llm",
-        "추론",
+        "gpt",
         "모델"
       ],
       "engagement": null
