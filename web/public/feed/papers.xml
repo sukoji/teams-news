@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 13:48:47 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 15:16:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AdvFD: 적대적 Fr'echet 거리 손실을 통한 시각적 생성 강화</title>
+      <link>https://huggingface.co/papers/2608.11205</link>
+      <description>Adversarial Fréchet Distance는 정적 Fréchet 손실에 학습 가능한 적대 특성 공간을 추가하고 최적화를 안정화하기 위한 화이트닝을 통해 생성기 사후 훈련을 개선합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11205">Hugging Face Papers</source>
+      <guid isPermaLink="false">31f2bae5ddb57d44e3f243e758231498</guid>
+    </item>
+    <item>
+      <title>휴식 상태 관찰을 통한 관절 객체 재구성</title>
+      <link>https://huggingface.co/papers/2607.27749</link>
+      <description>정지 상태 프레임워크는 비전 언어 출력을 일관된 부품 메시로 융합하고 기하학적 구성을 통해 합성된 모션 가설을 검증함으로써 단일 폐쇄 구성에서 연결된 개체를 재구성합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.27749">Hugging Face Papers</source>
+      <guid isPermaLink="false">3375b506d6a56522829fab75cf3ed208</guid>
+    </item>
+    <item>
+      <title>DistilVDR: 이중 학생 증류를 통한 컴팩트한 엔드투엔드 시각적 문서 검색기</title>
+      <link>https://huggingface.co/papers/2608.10636</link>
+      <description>DistilVDR은 관련성 레이블 없이 코사인 정렬을 사용하여 8B Teacher에서 추출한 소형 524M 비전 문서 검색기로서 훨씬 작은 인덱스와 빠른 인덱싱으로 거의 교사에 가까운 정확도를 달성합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.10636">Hugging Face Papers</source>
+      <guid isPermaLink="false">e8839390f0ea08ac862c826aa47613c2</guid>
+    </item>
     <item>
       <title>ComBodied Agents: 인간 중심 에이전트 AI의 새로운 패러다임</title>
       <link>https://huggingface.co/papers/2608.10915</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.08021">Hugging Face Papers</source>
       <guid isPermaLink="false">ece9583a59b1d8ff990d770e1f515e1c</guid>
-    </item>
-    <item>
-      <title>SPOT: 정책 기반 증류를 위한 희박한 조사 및 결과 보정</title>
-      <link>https://huggingface.co/papers/2608.04419</link>
-      <description>OPD(On-policy distillation)는 학생이 생성한 궤적에 대한 교사의 철저한 감독을 제공하지만 표준 역 KL 교육은 다른 그럴듯한 연속에 대한 확률이 충분하지 않을 수 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.04419">Hugging Face Papers</source>
-      <guid isPermaLink="false">fad4dd6667971cc12ed9a7fe18e5bf01</guid>
-    </item>
-    <item>
-      <title>Macaron-V1: 자기계발과 LoRA의 혼합을 통한 개방형 지속적 학습을 향하여</title>
-      <link>https://huggingface.co/papers/2608.09819</link>
-      <description>Macaron-V1은 실제 환경에서의 경험을 통해 학습하고 배포 후에도 계속 학습하는 경험적 지능을 위한 개방형 에이전트 모델 제품군입니다. 이는 두 가지 시스템 목표를 중심으로 구성됩니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09819">Hugging Face Papers</source>
-      <guid isPermaLink="false">74090bf79d05eec467f4512ea58d97d2</guid>
-    </item>
-    <item>
-      <title>Evo-Bench: 언어 모델이 에이전트 하네스를 향상시킬 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2608.09096</link>
-      <description>LLM(대형 언어 모델)은 자율 에이전트의 급속한 발전을 주도했지만 표준 평가는 여전히 정적 작업 해결에만 국한되어 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09096">Hugging Face Papers</source>
-      <guid isPermaLink="false">d5d639aebeef248444e136aea4f810ce</guid>
     </item>
   </channel>
 </rss>
