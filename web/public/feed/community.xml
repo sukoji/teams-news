@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 08:41:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 11:03:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>kimi-k3-in-c: 2.78조 파라미터 모델을 GPU 없이 8GB 램에서 돌리는 C99 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574</link>
+      <description>kimi-k3-in-c 소개 큰 모델을 내 컴퓨터에서 돌리려 할 때 막는 것은 대개 연산 속도가 아니라 용량입니다. Moonshot AI가 공개한 Kimi K3 는 파라미터가 2조 7,800억 개이고, 배포되는 체크포인트는 96개 샤드에 나뉜 1.56TB 입니다. 모든 가중치를 bfloat16으로 램에 올리면 5,560GB가 필요합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574">PyTorch Korea</source>
+      <guid isPermaLink="false">972655e755ece9687d79d15fa8e784ea</guid>
+    </item>
     <item>
       <title>ai-knowledge-graph: 비정형 텍스트에서 지식 그래프를 뽑아 시각화하는 파이썬 도구</title>
       <link>https://discuss.pytorch.kr/t/ai-knowledge-graph/11583</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/stop-slop-ai-claude/10552">PyTorch Korea</source>
       <guid isPermaLink="false">0471cbd3fb33ce77918627dadb983546</guid>
-    </item>
-    <item>
-      <title>Buzz: 사람과 AI 에이전트가 같은 채널에서 일할 수 있도록 하는 자체 호스팅 워크스페이스</title>
-      <link>https://discuss.pytorch.kr/t/buzz-ai/11461</link>
-      <description>Buzz 소개 Buzz는 사람과 AI 에이전트가 같은 방을 쓰는 자체 호스팅 워크스페이스입니다. 지금 대부분의 팀은 채팅 도구와 코드 호스팅, 봇, CI 대시보드, 릴리스 도구, 검색 색인을 따로 두고 그 사이를 접착 코드로 잇습니다. 탭 일곱 개가 서로의 존재를 아는 척하는 상태에서, 어떤 결정이 왜 내려졌는지는 어느 도구에도 온전히 남지 않습니다.</description>
-      <pubDate>Fri, 31 Jul 2026 12:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/buzz-ai/11461">PyTorch Korea</source>
-      <guid isPermaLink="false">6ccd85e23c9d65c71fad3130b4648460</guid>
     </item>
   </channel>
 </rss>

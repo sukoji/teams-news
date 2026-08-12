@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 08:41:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 11:03:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>kimi-k3-in-c: 2.78조 파라미터 모델을 GPU 없이 8GB 램에서 돌리는 C99 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574</link>
+      <description>kimi-k3-in-c 소개 큰 모델을 내 컴퓨터에서 돌리려 할 때 막는 것은 대개 연산 속도가 아니라 용량입니다. Moonshot AI가 공개한 Kimi K3 는 파라미터가 2조 7,800억 개이고, 배포되는 체크포인트는 96개 샤드에 나뉜 1.56TB 입니다. 모든 가중치를 bfloat16으로 램에 올리면 5,560GB가 필요합니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574">PyTorch Korea</source>
+      <guid isPermaLink="false">972655e755ece9687d79d15fa8e784ea</guid>
+    </item>
+    <item>
+      <title>네이버 뉴스 댓글 '트롤행동' 분석 기술 개발</title>
+      <link>https://zdnet.co.kr/view/?no=20260812101716</link>
+      <description>[지디넷코리아]온라인 뉴스 댓글에서 '트롤행동'을 탐지하고, 판단 근거를 제시하는 '설명 가능한 AI기술'이 개발됐다.트롤(troll)행동은 반시대적 또는 선동적인 행동이나 불쾌한 내용을 인터넷에 올리는 행위를 의미한다.기술 개발은 이원재 KAIST 문화기술대학원 교수와 차미영 전산학부 교수(독일 막스플랑크 연구소 단장 겸임), 오혜연 교수 공동연구팀이 토르스텐 홀츠 독일 막스플랑크 연구소…</description>
+      <pubDate>Wed, 12 Aug 2026 10:17:16 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260812101716">ZDNet Korea</source>
+      <guid isPermaLink="false">e8ad828f2129e1122445628c936f9774</guid>
+    </item>
+    <item>
+      <title>다음 스크린샷에서 알 수 있는 사항: 모바일 GUI 에이전트에 대한 사후 판단 증류</title>
+      <link>https://huggingface.co/papers/2608.06065</link>
+      <description>Gated Hindsight Distillation은 표준 모방이 실패할 경우 올바른 추론을 복구하기 위해 향후 스크린샷을 특권 증거로 사용하여 GUI 에이전트 교육을 개선합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06065">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ad7de83e6ebe69c61b0e30097a3573b</guid>
+    </item>
+    <item>
+      <title>시퀀스 순서를 넘어서: 변환기에 대한 구문 기반 위치 임베딩</title>
+      <link>https://huggingface.co/papers/2608.06111</link>
+      <description>SiPE는 종속성 구문 분석 이전의 경량 구문을 변환기 아키텍처 전반의 위치 임베딩에 통합하여 자체 인식을 변경하지 않고 구문 일반화 및 언어 이해를 향상시킵니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06111">Hugging Face Papers</source>
+      <guid isPermaLink="false">be8b8f6124ed4f862d639f57deae581d</guid>
+    </item>
+    <item>
+      <title>VectraYX-Vision-1B: 구조화된 시각적 추론 및 기본 도구 사용을 갖춘 Sub-2B 스페인어/LATAM 사이버 보안 비전 언어 모델</title>
+      <link>https://huggingface.co/papers/2608.08477</link>
+      <description>2B 미만 스페인어 사이버 보안 비전 언어 모델은 고정된 SigLIP 인코더를 MLP를 통해 스페인어 디코더에 결합하고 시각적 주의를 위한 NoPE 위치 인코딩 제거를 도입하며 거의 0에 가까운 시각적 성장을 보고합니다.</description>
+      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08477">Hugging Face Papers</source>
+      <guid isPermaLink="false">cb2c17bed13eaa0a8e37e44e167a7763</guid>
+    </item>
+    <item>
+      <title>코드가 아니라 아이디어를 통제하라</title>
+      <link>https://news.hada.io/topic?id=32422</link>
+      <description>AI 시대의 프로그래머는 생성된 코드를 한 줄씩 검토하기보다, 소프트웨어가 담아야 할 아이디어와 설계 를 정확히 통제하는 데 시간을 써야 한다고 봄 LLM은 개별 함수처럼 국소적으로 최적인 코드 를 작성하는 데 매우 뛰어나지만 큰 설계에서는 상대적으로 약하므...</description>
+      <pubDate>Wed, 12 Aug 2026 10:45:02 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32422">GeekNews</source>
+      <guid isPermaLink="false">c4e21d6e2f5abc9a154427aea7cb0100</guid>
+    </item>
     <item>
       <title>별이 빛나는 밤 너머: 아티스트 기반 텍스트에서 이미지 생성을 위한 바로가기 인식 제어 상태 계획</title>
       <link>https://huggingface.co/papers/2608.06751</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.08285">Hugging Face Papers</source>
       <guid isPermaLink="false">80f9fbb07bb7dbaa7190136f99901040</guid>
-    </item>
-    <item>
-      <title>양방향 개념 대응으로서의 비전-언어 접지</title>
-      <link>https://huggingface.co/papers/2608.07886</link>
-      <description>비전 언어 기반은 언어를 시각적 콘텐츠에 연결하지만 대부분의 기존 공식은 기반을 단방향 현지화 문제로 줄입니다. 미리 지정된 텍스트 문구 또는 카테고리 이름이 주어지면 해당 그룹을 식별합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07886">Hugging Face Papers</source>
-      <guid isPermaLink="false">08110f6ca85b47d726fd4543b50badf4</guid>
-    </item>
-    <item>
-      <title>Rails는 DHH 없이도 Rails일 수 있을까</title>
-      <link>https://news.hada.io/article/rails-without-dhh</link>
-      <description>"Rails is done" 글은 "Rails는 끝났다" 와 "Rails는 완성됐다" 로 모두 읽히지만, 이 글이 택한 건 후자임 즉, Rails가 창시자 없이도 살아남을 만큼 충분히 완...</description>
-      <pubDate>Tue, 11 Aug 2026 16:59:43 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/article/rails-without-dhh">GeekNews</source>
-      <guid isPermaLink="false">bf74c1548cbc171b002445c670fe2f76</guid>
-    </item>
-    <item>
-      <title>LLM은 PCB 배선을 어디까지 할 수 있을까? 숙련자와 Net 단위로 비교해봤습니다</title>
-      <link>https://news.hada.io/topic?id=32395</link>
-      <description>LLM은 아직 숙련된 HW 엔지니어처럼 PCB를 설계하지 못합니다. Fable 5까지 사용해봤지만, 결론은 크게 달라지지 않았습니다. 개인 프로젝트로 PCB부터 기구, 펌웨어, 모바일 앱, 백엔드(+LLM)까지 직접 만들어보고 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 16:48:40 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=32395">GeekNews</source>
-      <guid isPermaLink="false">004d26e2604d5e9b810a704a22666e1f</guid>
-    </item>
-    <item>
-      <title>본질적으로 해석 가능한 언어 모델 확장</title>
-      <link>https://huggingface.co/papers/2608.07594</link>
-      <description>해석성은 종종 능력에 대한 세금으로 간주됩니다. 언어 모델은 불투명한 시스템으로 훈련된 다음 신뢰성을 확립하기 어려운 방법으로 사후에 설명됩니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07594">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee80f73620c0d4189f3b8b30a5406c39</guid>
-    </item>
-    <item>
-      <title>엔드투엔드 에이전트 감사 엔진</title>
-      <link>https://huggingface.co/papers/2608.07346</link>
-      <description>LLM(대형 언어 모델)의 급속한 발전으로 인해 하네스는 광범위한 도메인에 에이전트를 배포하는 데 필수적인 인프라가 되었습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07346">Hugging Face Papers</source>
-      <guid isPermaLink="false">0b1b2bf9753b9c6ecfaae2712ba19257</guid>
-    </item>
-    <item>
-      <title>오픈서베이, ‘컨셉 스튜디오’ 베타 출시…“AI 합성 소비자로 신제품 아이디어 도출까지”</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=213802</link>
-      <description>AI 리서치 테크 전문 오픈서베이(대표 황희영)는 컨슈머 인텔리전스 플랫폼 ‘데이터스페이스’의 신규 기능 ‘컨셉 스튜디오(Concept Studio)’를 공개하고 베타 서비스를 운영한다고 11일 밝혔다.컨셉 스튜디오는 오픈서베이가 축적한 실제 소비자 데이터를 바탕으로 AI 합성 소비자를 구현해 실무자의 아이디어 도출 및 선별을 돕는다.</description>
-      <pubDate>Tue, 11 Aug 2026 15:17:02 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=213802">AI Times</source>
-      <guid isPermaLink="false">49dc6149d0cc38e2b8757632ae2a928b</guid>
     </item>
   </channel>
 </rss>
