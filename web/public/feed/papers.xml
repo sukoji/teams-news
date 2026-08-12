@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 08:36:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 08:42:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>CoinRAG: 장기 컨텍스트 RAG를 위한 상황별 정보 너겟 KV 캐시 재사용</title>
+      <link>https://huggingface.co/papers/2608.07458</link>
+      <description>CoinRAG는 전체 청크 대신 세분화된 의미론적 너겟 캐시를 재사용하여 검색 증강 생성 효율성과 정확성을 향상시킵니다.</description>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07458">Hugging Face Papers</source>
+      <guid isPermaLink="false">1f75c660ba8909b99426ac038119f491</guid>
+    </item>
     <item>
       <title>InSight-doc: 긴 문서 이해를 위한 에이전트적 시각적 인식</title>
       <link>https://huggingface.co/papers/2608.10628</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.07169">Hugging Face Papers</source>
       <guid isPermaLink="false">c58f69b0324a1ad5cd976d492f4bc7cf</guid>
-    </item>
-    <item>
-      <title>RynnValue: 시간적 거리에 따른 로봇 가치 기반 모델 확장</title>
-      <link>https://huggingface.co/papers/2608.09853</link>
-      <description>범용 보상 모델은 로봇 학습 확장의 병목 현상이 점점 더 커지고 있지만, 대규모 이질적 말뭉치에서 가치 관련 기능을 학습하는 방법은 여전히 ​​과소 탐구되고 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09853">Hugging Face Papers</source>
-      <guid isPermaLink="false">5f6a12a9bf384af1632024eb0e867e58</guid>
     </item>
   </channel>
 </rss>
