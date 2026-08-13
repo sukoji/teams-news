@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 15:17:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 17:23:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Skill-Harness Evolution을 통해 자체 진화하는 구체화된 에이전트</title>
+      <link>https://huggingface.co/papers/2608.11350</link>
+      <description>SHAPER는 환경 롤아웃을 통해 동결된 기반 모델을 중심으로 재사용 가능한 기술과 컨텍스트 코드 하네스를 발전시켜 구현된 에이전트를 개선하는 트레인 프리 프레임워크입니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11350">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d52fea70f4736aeff0948065b9bdb15</guid>
+    </item>
+    <item>
+      <title>손 가시성 감지기: 손에 대한 키포인트별 가시성 추정</title>
+      <link>https://huggingface.co/papers/2608.11574</link>
+      <description>이 작업은 관절별 손 가시성 추정을 위한 전용 모델을 소개하고 다중 뷰 3D 손 포즈 주석에 대한 이점을 보여줍니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11574">Hugging Face Papers</source>
+      <guid isPermaLink="false">be26b2ee43c936169e77dee6d709670a</guid>
+    </item>
+    <item>
+      <title>Poor Man's Agentic Modeling: 노트북에서 대규모 LLM 에이전트 사회 시뮬레이션</title>
+      <link>https://huggingface.co/papers/2608.11215</link>
+      <description>개별 LLM 에이전트를 저렴한 쿼리에 적합한 낮은 매개변수 대리자로 대체하면 상호 작용 순서 및 메모리 분류에 의해 타당성을 예측하여 확장 가능한 사회 시뮬레이션이 가능합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11215">Hugging Face Papers</source>
+      <guid isPermaLink="false">040745c52027da6c31f0d69f56eb147c</guid>
+    </item>
+    <item>
+      <title>이산 확산을 위한 단순 이완</title>
+      <link>https://huggingface.co/papers/2608.10615</link>
+      <description>Simplax는 Dirichlet 범주형 확대를 통해 균일한 이산 확산을 강화하여 텍스트 및 스도쿠 작업의 역샘플링 및 생성 품질을 향상시킵니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.10615">Hugging Face Papers</source>
+      <guid isPermaLink="false">218715bd87ccb2a72754290d80227a92</guid>
+    </item>
     <item>
       <title>테스트 시간의 AI4AI: 하네스를 통한 강약 기능 이전</title>
       <link>https://huggingface.co/papers/2608.12307</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.08621">Hugging Face Papers</source>
       <guid isPermaLink="false">bf138195539b4f69c1bfa4dffd6a951f</guid>
-    </item>
-    <item>
-      <title>Omega-S: LLM 미세 조정을 위한 기능적 탄력성 지수</title>
-      <link>https://huggingface.co/papers/2608.03887</link>
-      <description>Omega-S는 가중치 매트릭스 노드 수준의 차이에 페널티를 적용하여 원래 모델 기능의 유지를 향상시키는 낮은 순위 미세 조정을 위한 가볍고 데이터가 없는 정규화 페널티입니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03887">Hugging Face Papers</source>
-      <guid isPermaLink="false">ce3a06cbcb5e35236ed45098a10213f9</guid>
-    </item>
-    <item>
-      <title>MirrorWorld: 거울 반사 생성을 위한 비디오 확산 모델 길들이기</title>
-      <link>https://huggingface.co/papers/2608.07463</link>
-      <description>MirrorWorld는 관계 추출 및 변환 정렬을 통해 의미론적 콘텐츠 연관성과 기하학적 공간 배열을 별도로 모델링하여 비디오 거울 반사 합성을 개선합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07463">Hugging Face Papers</source>
-      <guid isPermaLink="false">07dfbb074d7bfed7378e232fcb24cb57</guid>
-    </item>
-    <item>
-      <title>SymDiag: 신경 기호 검증을 통한 LLM 추론에 대한 설명 가능한 진단</title>
-      <link>https://huggingface.co/papers/2608.08786</link>
-      <description>SymDiag는 일련의 사고를 상징적 제약으로 변환하고, 단계 수준의 만족성 검사를 수행하고, r에서 번역 오류를 풀어냄으로써 추론 검증을 구조화된 실패 진단으로 재구성합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08786">Hugging Face Papers</source>
-      <guid isPermaLink="false">38d4f4a6e453b4a0b097170ae0ddfe04</guid>
-    </item>
-    <item>
-      <title>공격자 없는 게임: 선택 압력 하에서 LLM 기반 검색의 벤치마크 핑거프린팅</title>
-      <link>https://huggingface.co/papers/2608.08722</link>
-      <description>최적화된 GPU 커널 벤치마크는 혁신적인 LLM 제안이 평가 구성을 활용하여 보류 설정으로 일반화하는 데 광범위한 실패가 발생함을 보여줍니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08722">Hugging Face Papers</source>
-      <guid isPermaLink="false">1a30e43f82a06267d0007999d3f53f17</guid>
     </item>
   </channel>
 </rss>
