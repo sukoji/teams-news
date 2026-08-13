@@ -5,18 +5,9 @@
     <link>https://sukoji.github.io/teams-news/feed/daily.xml</link>
     <description>Today's curated top 7 digest for Teams card.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 08:36:11 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 08:36:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <item>
-      <title>비즈니스 분야: 현실적인 시장에서 LLM 에이전트 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.08621</link>
-      <description>Business Arena는 현실적인 국경 간 상점을 운영하는 LLM 에이전트를 평가하여 인간 전략에 비해 큰 성과 격차를 드러내고 비즈니스 결정의 세부적인 기여를 가능하게 합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08621">Hugging Face Papers</source>
-      <guid isPermaLink="false">bf138195539b4f69c1bfa4dffd6a951f</guid>
-    </item>
     <item>
       <title>픽셀 너머: 이전 비디오에서 4D 세계까지</title>
       <link>https://huggingface.co/papers/2608.10744</link>
@@ -27,27 +18,36 @@
       <guid isPermaLink="false">bdbf242a3c7e25820eae132f02889190</guid>
     </item>
     <item>
-      <title>[8월12일] 저커버그, 폐쇄형 AI 비판했지만…“메타도 오픈소스는 아니다”</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=213836</link>
-      <description>마크 저커버그 메타 CEO는 10일(현지시간) 오픈웨이트 모델인 \'뮤즈 글리머\'를 출시하며 장문의 글을 올렸습니다. 6500단어에 이르는 분량으로, AI 경쟁에 대한 회사의 입장과 사회에 미치는 영향, 그리고 미국 정부가 이 기술을 어떻게 규제하고 장려해야 하는지에 대한 내용입니다.핵심은 AI의 가장 큰 위험으로 ‘중앙집중’을 지목하며 오픈웨이트 AI를 적극 옹호했습니다.</description>
-      <pubDate>Thu, 13 Aug 2026 07:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=213836">AI Times</source>
-      <guid isPermaLink="false">123b97b4e68051b1842fb69ee8632e46</guid>
+      <title>Spark-to-Paper: 구성 가능한 기술로서의 엔드투엔드 연구 논문 생성</title>
+      <link>https://huggingface.co/papers/2608.11924</link>
+      <description>Spark-to-Paper는 계획과 보고를 분리하고, 증거 기반 청구 수정을 시행하고, 무결성 검사를 사용하여 연구 논문을 생성하는 코딩 도우미 내부의 구성 가능한 경량 워크플로입니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11924">Hugging Face Papers</source>
+      <guid isPermaLink="false">e286f66f1e8d96e17ae880cd2a229e2e</guid>
     </item>
     <item>
-      <title>LG도 보안 특화 AI 출사표…엑사원 기반 컨소시엄 추진</title>
-      <link>https://www.etnews.com/20260812000388</link>
-      <description>LG그룹이 정부의 보안 특화 인공지능(AI) 모델 개발 사업 참여를 추진한다. LG AI연구원의 초거대 AI 모델 '엑사원(EXAONE)'을 기반이다. 네이버클라우드와 SK텔레콤이 각각 컨소시엄 구성을 추진하고 있는 가운데 LG까지 가세하면서 경쟁이 본격화하는 모습이다.</description>
-      <pubDate>Wed, 12 Aug 2026 16:16:25 +0900</pubDate>
+      <title>우리 팀만의 vLLM 플러그인 만들기 2편 - 모델 변환부터 배포까지 AI-native로 자동화하기</title>
+      <link>https://d2.naver.com/helloworld/7337586</link>
+      <description>1편 에서는 검색·추천 모델을 vLLM 사용자 정의 플러그인으로 옮겨 서빙 성능을 높인 과정을 소개했습니다. 모델을 vLLM에서 실행할 수 있게 된 뒤에는 또 다른 문제가 남았습니다. 모델마다 반복해야 하는 변환 작업이 복잡하고, vLLM의 빠른 변화까지 계속 따라가야 한다는 점입니다.</description>
+      <pubDate>Tue, 11 Aug 2026 01:39:52 +0900</pubDate>
       <category>news</category>
-      <source url="https://www.etnews.com/20260812000388">전자신문 IT</source>
-      <guid isPermaLink="false">ab61590c85d3658246b23fc73209918e</guid>
+      <source url="https://d2.naver.com/helloworld/7337586">NAVER D2</source>
+      <guid isPermaLink="false">ba2630374af70b6472f450e71f037d75</guid>
     </item>
     <item>
-      <title>SaladDay/pi-from-scratch — TypeScript로 600줄로 작성된 pi의 초소형 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.</title>
+      <title>우리 팀만의 vLLM 플러그인 만들기 1편 - 검색 AI 모델 서빙 성능 극대화하기</title>
+      <link>https://d2.naver.com/helloworld/0525182</link>
+      <description>네이버 플레이스 AI MLOps는 지난 1년간 검색과 추천에 사용하는 스코어링 모델의 서빙 구조를 vLLM 기반으로 전환했습니다. 이 글에서는 사내 Engineering Day에서 발표한 내용을 바탕으로, 모델 서빙 경로를 최적화해 성능을 높인 과정을 소개합니다. 먼저 결과부터 살펴보겠습니다.</description>
+      <pubDate>Tue, 11 Aug 2026 01:39:25 +0900</pubDate>
+      <category>news</category>
+      <source url="https://d2.naver.com/helloworld/0525182">NAVER D2</source>
+      <guid isPermaLink="false">7c37af67a979f988e4d99c0ffde044a9</guid>
+    </item>
+    <item>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://github.com/SaladDay/pi-from-scratch</link>
-      <description>600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.</description>
+      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
       <pubDate>Wed, 12 Aug 2026 16:10:35 +0900</pubDate>
       <category>trending</category>
       <source url="https://github.com/SaladDay/pi-from-scratch">GitHub Trending</source>
@@ -63,13 +63,13 @@
       <guid isPermaLink="false">a2cf7cce5a0073fd0125446e082cdda0</guid>
     </item>
     <item>
-      <title>How to Train Your GPT: LLaMA 3 구조를 밑바닥부터 구현하며 배우는 LLM의 원리와 동작</title>
-      <link>https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599</link>
-      <description>How to Train Your GPT 소개 언어 모델을 배우려고 자료를 찾다 보면 두 부류로 갈립니다. 한쪽은 라이브러리 호출 몇 줄로 학습을 끝내서 내부에서 무슨 일이 일어나는지 알려주지 않고, 다른 한쪽은 논문 수준의 표기법으로 시작해 선형대수 기초가 없으면 첫 페이지에서 막힙니다.</description>
-      <pubDate>Wed, 12 Aug 2026 21:30:35 +0900</pubDate>
+      <title>멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구</title>
+      <link>https://discuss.pytorch.kr/t/ai-anthropic/11610</link>
+      <description>멀티에이전트 시스템의 실패 패턴 연구 소개 같은 지시를 받은 사람 열 명을 한 방에 모아 두면, 각자 다른 방식으로 문제를 나눠 갖기를 기대하게 됩니다. AI 에이전트에게는 이 기대가 잘 맞지 않습니다.</description>
+      <pubDate>Fri, 14 Aug 2026 06:30:31 +0900</pubDate>
       <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599">PyTorch Korea</source>
-      <guid isPermaLink="false">ba41ffa5ced7f0a964f95a1c250850b2</guid>
+      <source url="https://discuss.pytorch.kr/t/ai-anthropic/11610">PyTorch Korea</source>
+      <guid isPermaLink="false">2328ac189bebad2edb7ca2cb385a4175</guid>
     </item>
   </channel>
 </rss>

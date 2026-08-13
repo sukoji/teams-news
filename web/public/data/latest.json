@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-13",
-  "generated_at": "2026-08-13T08:36:11.244255+09:00",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T08:36:11.842360+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,35 +10,8 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "bf138195539b4f69c1bfa4dffd6a951f",
-          "index": 1,
-          "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
-          "title_ko": "비즈니스 분야: 현실적인 시장에서 LLM 에이전트 벤치마킹",
-          "summary": "Business Arena evaluates LLM agents running a realistic cross-border shop, revealing large performance gaps versus human strategies and enabling detailed attribution of business decisions.",
-          "summary_ko": "Business Arena는 현실적인 국경 간 상점을 운영하는 LLM 에이전트를 평가하여 인간 전략에 비해 큰 성과 격차를 드러내고 비즈니스 결정의 세부적인 기여를 가능하게 합니다.",
-          "url": "https://huggingface.co/papers/2608.08621",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-08-11T09:00:00+09:00",
-          "popularity": 142,
-          "upvotes": 16,
-          "score": 26.89,
-          "importance_score": 14.89,
-          "matched_keywords": [
-            "ai",
-            "llm",
-            "agent",
-            "benchmark"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 16
-          }
-        },
-        {
           "id": "bdbf242a3c7e25820eae132f02889190",
-          "index": 2,
+          "index": 1,
           "title": "Beyond Pixels: From Video Priors to 4D Worlds",
           "title_ko": "픽셀 너머: 이전 비디오에서 4D 세계까지",
           "summary": "Latent-to-4D enables reusable direct 4D generation from video diffusion latents via alignment with a pretrained decoder and spatiotemporal attention, transferring across generators without retraining.",
@@ -48,10 +21,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-08-12T09:00:00+09:00",
-          "popularity": 219,
-          "upvotes": 102,
-          "score": 26.26,
-          "importance_score": 16.35,
+          "popularity": 446,
+          "upvotes": 171,
+          "score": 28.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
             "diffusion",
@@ -59,7 +32,32 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 102
+            "value": 171
+          }
+        },
+        {
+          "id": "e286f66f1e8d96e17ae880cd2a229e2e",
+          "index": 2,
+          "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+          "title_ko": "Spark-to-Paper: 구성 가능한 기술로서의 엔드투엔드 연구 논문 생성",
+          "summary": "Spark-to-Paper is a lightweight, composable workflow inside coding assistants that generates research papers by separating planning from reporting, enforcing evidence-based claim revision, and using integrity checks to…",
+          "summary_ko": "Spark-to-Paper는 계획과 보고를 분리하고, 증거 기반 청구 수정을 시행하고, 무결성 검사를 사용하여 연구 논문을 생성하는 코딩 도우미 내부의 구성 가능한 경량 워크플로입니다.",
+          "url": "https://huggingface.co/papers/2608.11924",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-08-13T09:00:00+09:00",
+          "popularity": 888,
+          "upvotes": 176,
+          "score": 26.08,
+          "importance_score": 18.17,
+          "matched_keywords": [
+            "ai",
+            "paper"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 176
           }
         }
       ]
@@ -69,46 +67,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "123b97b4e68051b1842fb69ee8632e46",
+          "id": "ba2630374af70b6472f450e71f037d75",
           "index": 3,
-          "title": "[8월12일] 저커버그, 폐쇄형 AI 비판했지만…“메타도 오픈소스는 아니다”",
+          "title": "우리 팀만의 vLLM 플러그인 만들기 2편 - 모델 변환부터 배포까지 AI-native로 자동화하기",
           "title_ko": null,
-          "summary": "마크 저커버그 메타 CEO는 10일(현지시간) 오픈웨이트 모델인 \\'뮤즈 글리머\\'를 출시하며 장문의 글을 올렸습니다. 6500단어에 이르는 분량으로, AI 경쟁에 대한 회사의 입장과 사회에 미치는 영향, 그리고 미국 정부가 이 기술을 어떻게 규제하고 장려해야 하는지에 대한 내용입니다.핵심은 AI의 가장 큰 위험으로 ‘중앙집중’을 지목하며 오픈웨이트 AI를 적극 옹호했습니다.",
+          "summary": "1편 에서는 검색·추천 모델을 vLLM 사용자 정의 플러그인으로 옮겨 서빙 성능을 높인 과정을 소개했습니다. 모델을 vLLM에서 실행할 수 있게 된 뒤에는 또 다른 문제가 남았습니다. 모델마다 반복해야 하는 변환 작업이 복잡하고, vLLM의 빠른 변화까지 계속 따라가야 한다는 점입니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=213836",
-          "source": "AI Times",
+          "url": "https://d2.naver.com/helloworld/7337586",
+          "source": "NAVER D2",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-13T07:00:00+09:00",
+          "published_at": "2026-08-11T01:39:52+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.67,
-          "importance_score": 19.33,
+          "score": 21.0,
+          "importance_score": 10.0,
           "matched_keywords": [
             "ai",
+            "llm",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "ab61590c85d3658246b23fc73209918e",
+          "id": "7c37af67a979f988e4d99c0ffde044a9",
           "index": 4,
-          "title": "LG도 보안 특화 AI 출사표…엑사원 기반 컨소시엄 추진",
+          "title": "우리 팀만의 vLLM 플러그인 만들기 1편 - 검색 AI 모델 서빙 성능 극대화하기",
           "title_ko": null,
-          "summary": "LG그룹이 정부의 보안 특화 인공지능(AI) 모델 개발 사업 참여를 추진한다. LG AI연구원의 초거대 AI 모델 '엑사원(EXAONE)'을 기반이다. 네이버클라우드와 SK텔레콤이 각각 컨소시엄 구성을 추진하고 있는 가운데 LG까지 가세하면서 경쟁이 본격화하는 모습이다.",
+          "summary": "네이버 플레이스 AI MLOps는 지난 1년간 검색과 추천에 사용하는 스코어링 모델의 서빙 구조를 vLLM 기반으로 전환했습니다. 이 글에서는 사내 Engineering Day에서 발표한 내용을 바탕으로, 모델 서빙 경로를 최적화해 성능을 높인 과정을 소개합니다. 먼저 결과부터 살펴보겠습니다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260812000388",
-          "source": "전자신문 IT",
+          "url": "https://d2.naver.com/helloworld/0525182",
+          "source": "NAVER D2",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-12T16:16:25+09:00",
-          "popularity": 90,
+          "published_at": "2026-08-11T01:39:25+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 21.6,
-          "importance_score": 12.2,
+          "score": 20.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
-            "연구",
+            "llm",
             "모델"
           ],
           "engagement": null
@@ -123,24 +122,24 @@
           "id": "837abfa7ad486886fa5eaf93840bc07d",
           "index": 5,
           "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-          "title_ko": "SaladDay/pi-from-scratch — TypeScript로 600줄로 작성된 pi의 초소형 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "summary": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-          "summary_ko": "600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "url": "https://github.com/SaladDay/pi-from-scratch",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-08-12T16:10:35+09:00",
-          "popularity": 748,
-          "upvotes": 748,
-          "score": 29.74,
-          "importance_score": 26.32,
+          "popularity": 883,
+          "upvotes": 883,
+          "score": 28.75,
+          "importance_score": 23.75,
           "matched_keywords": [
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 748
+            "value": 883
           }
         },
         {
@@ -155,10 +154,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-08-12T17:02:41+09:00",
-          "popularity": 118,
-          "upvotes": 118,
-          "score": 29.49,
-          "importance_score": 20.24,
+          "popularity": 129,
+          "upvotes": 129,
+          "score": 28.04,
+          "importance_score": 17.04,
           "matched_keywords": [
             "agent",
             "claude",
@@ -166,7 +165,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 118
+            "value": 129
           }
         }
       ]
@@ -176,26 +175,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "ba41ffa5ced7f0a964f95a1c250850b2",
+          "id": "2328ac189bebad2edb7ca2cb385a4175",
           "index": 7,
-          "title": "How to Train Your GPT: LLaMA 3 구조를 밑바닥부터 구현하며 배우는 LLM의 원리와 동작",
+          "title": "멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구",
           "title_ko": null,
-          "summary": "How to Train Your GPT 소개 언어 모델을 배우려고 자료를 찾다 보면 두 부류로 갈립니다. 한쪽은 라이브러리 호출 몇 줄로 학습을 끝내서 내부에서 무슨 일이 일어나는지 알려주지 않고, 다른 한쪽은 논문 수준의 표기법으로 시작해 선형대수 기초가 없으면 첫 페이지에서 막힙니다.",
+          "summary": "멀티에이전트 시스템의 실패 패턴 연구 소개 같은 지시를 받은 사람 열 명을 한 방에 모아 두면, 각자 다른 방식으로 문제를 나눠 갖기를 기대하게 됩니다. AI 에이전트에게는 이 기대가 잘 맞지 않습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599",
+          "url": "https://discuss.pytorch.kr/t/ai-anthropic/11610",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-12T21:30:35+09:00",
+          "published_at": "2026-08-14T06:30:31+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 26.69,
-          "importance_score": 15.38,
+          "score": 22.56,
+          "importance_score": 19.13,
           "matched_keywords": [
             "ai",
-            "llm",
-            "gpt",
-            "모델"
+            "연구"
           ],
           "engagement": null
         }
@@ -204,35 +201,8 @@
   ],
   "items": [
     {
-      "id": "bf138195539b4f69c1bfa4dffd6a951f",
-      "index": 1,
-      "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
-      "title_ko": "비즈니스 분야: 현실적인 시장에서 LLM 에이전트 벤치마킹",
-      "summary": "Business Arena evaluates LLM agents running a realistic cross-border shop, revealing large performance gaps versus human strategies and enabling detailed attribution of business decisions.",
-      "summary_ko": "Business Arena는 현실적인 국경 간 상점을 운영하는 LLM 에이전트를 평가하여 인간 전략에 비해 큰 성과 격차를 드러내고 비즈니스 결정의 세부적인 기여를 가능하게 합니다.",
-      "url": "https://huggingface.co/papers/2608.08621",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-11T09:00:00+09:00",
-      "popularity": 142,
-      "upvotes": 16,
-      "score": 26.89,
-      "importance_score": 14.89,
-      "matched_keywords": [
-        "ai",
-        "llm",
-        "agent",
-        "benchmark"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 16
-      }
-    },
-    {
       "id": "bdbf242a3c7e25820eae132f02889190",
-      "index": 2,
+      "index": 1,
       "title": "Beyond Pixels: From Video Priors to 4D Worlds",
       "title_ko": "픽셀 너머: 이전 비디오에서 4D 세계까지",
       "summary": "Latent-to-4D enables reusable direct 4D generation from video diffusion latents via alignment with a pretrained decoder and spatiotemporal attention, transferring across generators without retraining.",
@@ -242,10 +212,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-08-12T09:00:00+09:00",
-      "popularity": 219,
-      "upvotes": 102,
-      "score": 26.26,
-      "importance_score": 16.35,
+      "popularity": 446,
+      "upvotes": 171,
+      "score": 28.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
         "diffusion",
@@ -253,50 +223,76 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 102
+        "value": 171
       }
     },
     {
-      "id": "123b97b4e68051b1842fb69ee8632e46",
-      "index": 3,
-      "title": "[8월12일] 저커버그, 폐쇄형 AI 비판했지만…“메타도 오픈소스는 아니다”",
-      "title_ko": null,
-      "summary": "마크 저커버그 메타 CEO는 10일(현지시간) 오픈웨이트 모델인 \\'뮤즈 글리머\\'를 출시하며 장문의 글을 올렸습니다. 6500단어에 이르는 분량으로, AI 경쟁에 대한 회사의 입장과 사회에 미치는 영향, 그리고 미국 정부가 이 기술을 어떻게 규제하고 장려해야 하는지에 대한 내용입니다.핵심은 AI의 가장 큰 위험으로 ‘중앙집중’을 지목하며 오픈웨이트 AI를 적극 옹호했습니다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=213836",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-08-13T07:00:00+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 22.67,
-      "importance_score": 19.33,
+      "id": "e286f66f1e8d96e17ae880cd2a229e2e",
+      "index": 2,
+      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "title_ko": "Spark-to-Paper: 구성 가능한 기술로서의 엔드투엔드 연구 논문 생성",
+      "summary": "Spark-to-Paper is a lightweight, composable workflow inside coding assistants that generates research papers by separating planning from reporting, enforcing evidence-based claim revision, and using integrity checks to…",
+      "summary_ko": "Spark-to-Paper는 계획과 보고를 분리하고, 증거 기반 청구 수정을 시행하고, 무결성 검사를 사용하여 연구 논문을 생성하는 코딩 도우미 내부의 구성 가능한 경량 워크플로입니다.",
+      "url": "https://huggingface.co/papers/2608.11924",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-13T09:00:00+09:00",
+      "popularity": 888,
+      "upvotes": 176,
+      "score": 26.08,
+      "importance_score": 18.17,
       "matched_keywords": [
         "ai",
+        "paper"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 176
+      }
+    },
+    {
+      "id": "ba2630374af70b6472f450e71f037d75",
+      "index": 3,
+      "title": "우리 팀만의 vLLM 플러그인 만들기 2편 - 모델 변환부터 배포까지 AI-native로 자동화하기",
+      "title_ko": null,
+      "summary": "1편 에서는 검색·추천 모델을 vLLM 사용자 정의 플러그인으로 옮겨 서빙 성능을 높인 과정을 소개했습니다. 모델을 vLLM에서 실행할 수 있게 된 뒤에는 또 다른 문제가 남았습니다. 모델마다 반복해야 하는 변환 작업이 복잡하고, vLLM의 빠른 변화까지 계속 따라가야 한다는 점입니다.",
+      "summary_ko": null,
+      "url": "https://d2.naver.com/helloworld/7337586",
+      "source": "NAVER D2",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-08-11T01:39:52+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 21.0,
+      "importance_score": 10.0,
+      "matched_keywords": [
+        "ai",
+        "llm",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "ab61590c85d3658246b23fc73209918e",
+      "id": "7c37af67a979f988e4d99c0ffde044a9",
       "index": 4,
-      "title": "LG도 보안 특화 AI 출사표…엑사원 기반 컨소시엄 추진",
+      "title": "우리 팀만의 vLLM 플러그인 만들기 1편 - 검색 AI 모델 서빙 성능 극대화하기",
       "title_ko": null,
-      "summary": "LG그룹이 정부의 보안 특화 인공지능(AI) 모델 개발 사업 참여를 추진한다. LG AI연구원의 초거대 AI 모델 '엑사원(EXAONE)'을 기반이다. 네이버클라우드와 SK텔레콤이 각각 컨소시엄 구성을 추진하고 있는 가운데 LG까지 가세하면서 경쟁이 본격화하는 모습이다.",
+      "summary": "네이버 플레이스 AI MLOps는 지난 1년간 검색과 추천에 사용하는 스코어링 모델의 서빙 구조를 vLLM 기반으로 전환했습니다. 이 글에서는 사내 Engineering Day에서 발표한 내용을 바탕으로, 모델 서빙 경로를 최적화해 성능을 높인 과정을 소개합니다. 먼저 결과부터 살펴보겠습니다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260812000388",
-      "source": "전자신문 IT",
+      "url": "https://d2.naver.com/helloworld/0525182",
+      "source": "NAVER D2",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-12T16:16:25+09:00",
-      "popularity": 90,
+      "published_at": "2026-08-11T01:39:25+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 21.6,
-      "importance_score": 12.2,
+      "score": 20.9,
+      "importance_score": 9.9,
       "matched_keywords": [
         "ai",
-        "연구",
+        "llm",
         "모델"
       ],
       "engagement": null
@@ -305,24 +301,24 @@
       "id": "837abfa7ad486886fa5eaf93840bc07d",
       "index": 5,
       "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-      "title_ko": "SaladDay/pi-from-scratch — TypeScript로 600줄로 작성된 pi의 초소형 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "summary": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-      "summary_ko": "600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "url": "https://github.com/SaladDay/pi-from-scratch",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-08-12T16:10:35+09:00",
-      "popularity": 748,
-      "upvotes": 748,
-      "score": 29.74,
-      "importance_score": 26.32,
+      "popularity": 883,
+      "upvotes": 883,
+      "score": 28.75,
+      "importance_score": 23.75,
       "matched_keywords": [
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 748
+        "value": 883
       }
     },
     {
@@ -337,10 +333,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-08-12T17:02:41+09:00",
-      "popularity": 118,
-      "upvotes": 118,
-      "score": 29.49,
-      "importance_score": 20.24,
+      "popularity": 129,
+      "upvotes": 129,
+      "score": 28.04,
+      "importance_score": 17.04,
       "matched_keywords": [
         "agent",
         "claude",
@@ -348,30 +344,28 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 118
+        "value": 129
       }
     },
     {
-      "id": "ba41ffa5ced7f0a964f95a1c250850b2",
+      "id": "2328ac189bebad2edb7ca2cb385a4175",
       "index": 7,
-      "title": "How to Train Your GPT: LLaMA 3 구조를 밑바닥부터 구현하며 배우는 LLM의 원리와 동작",
+      "title": "멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구",
       "title_ko": null,
-      "summary": "How to Train Your GPT 소개 언어 모델을 배우려고 자료를 찾다 보면 두 부류로 갈립니다. 한쪽은 라이브러리 호출 몇 줄로 학습을 끝내서 내부에서 무슨 일이 일어나는지 알려주지 않고, 다른 한쪽은 논문 수준의 표기법으로 시작해 선형대수 기초가 없으면 첫 페이지에서 막힙니다.",
+      "summary": "멀티에이전트 시스템의 실패 패턴 연구 소개 같은 지시를 받은 사람 열 명을 한 방에 모아 두면, 각자 다른 방식으로 문제를 나눠 갖기를 기대하게 됩니다. AI 에이전트에게는 이 기대가 잘 맞지 않습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599",
+      "url": "https://discuss.pytorch.kr/t/ai-anthropic/11610",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-12T21:30:35+09:00",
+      "published_at": "2026-08-14T06:30:31+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 26.69,
-      "importance_score": 15.38,
+      "score": 22.56,
+      "importance_score": 19.13,
       "matched_keywords": [
         "ai",
-        "llm",
-        "gpt",
-        "모델"
+        "연구"
       ],
       "engagement": null
     }
