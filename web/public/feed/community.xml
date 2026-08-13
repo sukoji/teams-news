@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 17:23:34 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 19:08:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>h3.c: MiniMax H3 영상 생성 모델을 애플 실리콘에서 돌리는 C 언어 구현체 (feat. antirez)</title>
+      <link>https://discuss.pytorch.kr/t/h3-c-minimax-h3-c-feat-antirez/11608</link>
+      <description>h3.c 소개 영상 생성 모델을 로컬에서 돌려 보려면 대개 대용량 GPU가 있는 장비부터 찾게 됩니다. 가중치가 BF16으로 수십 기가바이트에 이르고, 디노이징 패스를 수십 번 반복해야 짧은 클립 하나가 나오기 때문입니다. 맥에서 시도하더라도 통합 메모리에 모델이 통째로 올라가야 한다는 조건이 먼저 걸립니다.</description>
+      <pubDate>Thu, 13 Aug 2026 18:30:02 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/h3-c-minimax-h3-c-feat-antirez/11608">PyTorch Korea</source>
+      <guid isPermaLink="false">57f3fec0d06aee3076eb9f4c2231feea</guid>
+    </item>
     <item>
       <title>Gathered Scenes Zine: 사진을 종이 질감의 편집 디자인 작품으로 바꾸는 Codex 스킬</title>
       <link>https://discuss.pytorch.kr/t/gathered-scenes-zine-codex/11607</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/x-the-fast-gemma-challenge-1/11497">PyTorch Korea</source>
       <guid isPermaLink="false">16e550b1969b989200af6a3cb8de92c3</guid>
-    </item>
-    <item>
-      <title>agents-cli: 코딩 어시스턴트를 Google Cloud 에이전트 개발 전문가로 만드는 CLI와 스킬</title>
-      <link>https://discuss.pytorch.kr/t/agents-cli-google-cloud-cli/11491</link>
-      <description>agents-cli 소개 Claude Code나 Codex, Antigravity CLI 같은 코딩 에이전트는 범용 코드는 능숙하게 다루지만, 빠르게 바뀌는 특정 클라우드의 에이전트 스택 앞에서는 오래된 API와 잘못된 관례를 답습하기 쉽습니다.</description>
-      <pubDate>Sun, 02 Aug 2026 15:30:49 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agents-cli-google-cloud-cli/11491">PyTorch Korea</source>
-      <guid isPermaLink="false">7d7683454e383232d5e02218a71e5436</guid>
     </item>
   </channel>
 </rss>
