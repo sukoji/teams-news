@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 20:48:35 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 22:13:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>9arm-skills: Claude Code에 디버깅 규율과 코드 리뷰 절차를 심는 에이전트 스킬 모음</title>
+      <link>https://discuss.pytorch.kr/t/9arm-skills-claude-code/11605</link>
+      <description>9arm-skills 소개 코딩 에이전트에게 버그를 던지면 대개 몇 초 안에 수정안이 돌아옵니다. 곤란한 지점은 그 수정안이 어떤 경로로 나왔는지 확인할 방법이 마땅치 않다는 데 있습니다. 재현을 해본 뒤에 나온 답인지, 실제 실행 경로를 따라가 본 답인지, 스택 트레이스 마지막 줄만 보고 그럴듯하게 지어낸 답인지가 결과물만으로는 구분되지 않습니다.</description>
+      <pubDate>Thu, 13 Aug 2026 21:30:52 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/9arm-skills-claude-code/11605">PyTorch Korea</source>
+      <guid isPermaLink="false">1b30022e2efa021f9d26b9ed718ec56b</guid>
+    </item>
+    <item>
+      <title>SkillZip: 확장 가능한 에이전트 스킬 라이브러리를 위한 계약 보존 그래프 압축</title>
+      <link>https://huggingface.co/papers/2608.05604</link>
+      <description>SkillZip은 재사용 가능한 절차적 기술을 계약을 유지하는 실행 가능한 그래프 단위로 압축하여 제한된 상황 예산 하에서 효율적인 검색 및 확장을 가능하게 합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05604">Hugging Face Papers</source>
+      <guid isPermaLink="false">48be9bb1331811c70fa56216dbfb3ea8</guid>
+    </item>
+    <item>
+      <title>Show GN: JPyRust – Java에서 Python AI 모델을 subprocess 대신 공유메모리로 호출해봤습니다. (390배 향상된 속...</title>
+      <link>https://news.hada.io/topic?id=32468</link>
+      <description>Java 백엔드에서 Python으로 만든 AI 모델을 호출해야 하는 일이 있어서 관련 방법을 찾아보다가 궁금한 부분이 생겨서 직접 한번 만들어 보게 되었습니다! Java에서 Python을 사용할 수 있게 해주는 라이브러리는 이미 여러 가지가 있어서 처음에는 그냥 있는 라이브러리를 사용하면 되지 않을까 생각했습니다</description>
+      <pubDate>Thu, 13 Aug 2026 21:44:01 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32468">GeekNews</source>
+      <guid isPermaLink="false">9c859be0f25ff83007042d7cfb934303</guid>
+    </item>
     <item>
       <title>OpenSparX/MasterAgent — 장치에서 100% 실행되는 AI 에이전트를 구축합니다. Qualcomm NPU의 지연 시간은 100ms 미만입니다. 클라우드 종속성이 없습니다.</title>
       <link>https://github.com/OpenSparX/MasterAgent</link>
@@ -430,33 +457,6 @@
       <category>news</category>
       <source url="https://www.etnews.com/20260813000003">전자신문 IT</source>
       <guid isPermaLink="false">53515c2fc2a7c3bbdc4ddb9044d83430</guid>
-    </item>
-    <item>
-      <title>ToolHazard: LLM 기반 에이전트의 보안 평가 및 정렬을 위한 적대적 환경 확장</title>
-      <link>https://huggingface.co/papers/2608.11878</link>
-      <description>ToolHazard는 간접 프롬프트 주입에 대해 LLM 에이전트를 테스트하고 취약점을 드러내며 방어 정렬을 개선하기 위해 적대적인 환경을 합성하는 확장 가능한 프레임워크입니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11878">Hugging Face Papers</source>
-      <guid isPermaLink="false">691396e0b81e8ba93372e2a4d9bd1ff9</guid>
-    </item>
-    <item>
-      <title>에이전트 안전은 런타임 계약이어야 합니다</title>
-      <link>https://huggingface.co/papers/2608.11274</link>
-      <description>훈련 시간 조정 방법에만 의존하기보다는 예방적 제어와 검증 가능한 증거를 통해 런타임에 에이전트 안전을 강화해야 합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11274">Hugging Face Papers</source>
-      <guid isPermaLink="false">61e0b55fa03cebcdc443dd03ede6edbc</guid>
-    </item>
-    <item>
-      <title>삼성전자, 印 플랙트 HVAC 공장 준공…AIDC 시장 본격 공략</title>
-      <link>https://www.etnews.com/20260813000071</link>
-      <description>삼성전자가 인도에 연간 최대 6500대 규모의 플랙트그룹 냉난방공조(HVAC) 생산라인을 구축했다. 인도 공장을 아시아·태평양 시장 핵심 생산기지로 삼아 인공지능 데이터센터(AIDC) 글로벌 시장을 공략한다. 삼성전자는 12일(현지시간) 인도 마하라슈트라주 푸네에서 플랙트그룹 신규 생산라인 준공식을 개최했다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:57:19 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260813000071">전자신문 IT</source>
-      <guid isPermaLink="false">dc08f290a02ea1ac943783ee4b67bcdf</guid>
     </item>
   </channel>
 </rss>
