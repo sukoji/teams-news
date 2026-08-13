@@ -5,9 +5,117 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 11:04:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 13:52:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>테스트 시간의 AI4AI: 하네스를 통한 강약 기능 이전</title>
+      <link>https://huggingface.co/papers/2608.12307</link>
+      <description>더 강력한 모델은 추론을 구조화된 코드 및 라우팅으로 오프로드하여 매개변수 업데이트 없이 약한 모델의 작업 성능을 크게 향상시키는 추론 시간 하네스를 구축할 수 있습니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12307">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee60e72c740fbb4dce4b3407f9e72ac9</guid>
+    </item>
+    <item>
+      <title>LLM 에이전트는 스크립트를 고수할 수 있나요? 대화형 내러티브의 긴 지평선 일관성에 대한 벤치마크</title>
+      <link>https://huggingface.co/papers/2608.08160</link>
+      <description>이 연구는 대규모 언어 모델을 사용하는 대화형 스토리텔링의 장기적인 논리적 일관성을 평가하기 위해 벤치마크를 소개하고 내러티브 약속 보존을 공식화합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08160">Hugging Face Papers</source>
+      <guid isPermaLink="false">1a7fa22123275a35930f4f9d1d942477</guid>
+    </item>
+    <item>
+      <title>OpenART: 개방형 환경 진화를 통한 확장 에이전트 레드 팀 구성</title>
+      <link>https://huggingface.co/papers/2608.00677</link>
+      <description>OpenART는 EMHA 공격 정책을 사용하여 작업 복잡성이 증가함에 따라 증가하는 실패율을 노출하고 장기적인 AI 에이전트 안전성을 평가하기 위해 진화하는 상태 저장 환경을 갖춘 확장 가능한 레드팀 경기장을 도입합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00677">Hugging Face Papers</source>
+      <guid isPermaLink="false">681f8398401920e88359187a416417ad</guid>
+    </item>
+    <item>
+      <title>MBA: 실제 비즈니스 아이디어를 위한 다중 모드 벤치마크 및 에이전트</title>
+      <link>https://huggingface.co/papers/2608.11616</link>
+      <description>연구원들은 비즈니스 아이디어 에이전트를 위한 다중 모드 벤치마크인 MBA-Bench를 소개하고 LoRA 미세 조정 및 그룹 상대 정책 선택을 통해 창의성 및 타당성 보상으로 훈련된 MBA-b 및 MBA-k 모델을 제안합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11616">Hugging Face Papers</source>
+      <guid isPermaLink="false">10d0cf301ac77a1b08bce9cf13324826</guid>
+    </item>
+    <item>
+      <title>합성에서 제거까지: 물리 기반 반사 시뮬레이션 및 확산 기반 비디오 역반사</title>
+      <link>https://huggingface.co/papers/2608.11562</link>
+      <description>물리 기반 비디오 합성, 확산 기반 비디오 반사 방지 및 새로운 벤치마크를 결합한 폐쇄 루프 프레임워크는 빠른 추론을 통해 최첨단 비디오 반사 제거를 달성합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11562">Hugging Face Papers</source>
+      <guid isPermaLink="false">809e34577bc7cf79c00463dadcee9166</guid>
+    </item>
+    <item>
+      <title>셀프 지오메트리: 기하학적으로 일관된 3D Vision 기초 모델을 위한 GT 프리 및 플러그 앤 플레이 테스트 시간 적응</title>
+      <link>https://huggingface.co/papers/2608.10708</link>
+      <description>Self-Geometry는 LoRA를 통한 테스트 시간 적응, 얽힘 해제 손실 및 각도 이웃 샘플링을 통해 명시적인 다중 뷰 기하학적 제약 조건을 적용하여 비전 기반 모델 예측을 향상시킵니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.10708">Hugging Face Papers</source>
+      <guid isPermaLink="false">6c4c921c5150088046a1717fa780a4e8</guid>
+    </item>
+    <item>
+      <title>시각적 도구 사용의 환상: 이미지를 이용한 사고의 인과적 감사</title>
+      <link>https://huggingface.co/papers/2608.06270</link>
+      <description>다중 모드 LLM의 시각적 도구 사용은 인과적 효과가 부족한 경우가 많으며, 반환된 관찰은 답변에 영향을 미치지 못하거나 집계 정확도 향상에도 불구하고 일관되지 않게 사용되는 경우가 많습니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06270">Hugging Face Papers</source>
+      <guid isPermaLink="false">7edbf6ca84a91e98cb16481a58c814d0</guid>
+    </item>
+    <item>
+      <title>NeuPAT: 언어 보존 MLLM을 위한 뉴런 인식 가소성 할당 조정</title>
+      <link>https://huggingface.co/papers/2608.08107</link>
+      <description>NeuPAT은 다중 모달 튜닝 중에 언어 감지 뉴런에 대한 업데이트를 선택적으로 제한하여 지각 적응을 활성화하는 동시에 LLM 언어 기능을 보존합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08107">Hugging Face Papers</source>
+      <guid isPermaLink="false">cd455e04bfd1ce955f0248809be7e24b</guid>
+    </item>
+    <item>
+      <title>AtlasVLA: 시각-언어-행동 모델을 위한 지속적인 세계-자아 상태 모델링</title>
+      <link>https://huggingface.co/papers/2608.06729</link>
+      <description>AtlasVLA는 지속적인 세계 자아 메모리를 통해 반응 제어를 사전 추론으로 대체하여 구현된 AI를 개선하고 단일 손목 카메라에서 강력한 장거리 조작을 가능하게 합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06729">Hugging Face Papers</source>
+      <guid isPermaLink="false">0fc2a8d603b1e1e4cdf256d243a27e18</guid>
+    </item>
+    <item>
+      <title>AutoWorldModel-Bench: 자동화된 세계 모델 연구를 위한 상태 중심 벤치마크</title>
+      <link>https://huggingface.co/papers/2608.11216</link>
+      <description>벤치마크는 공유된 구조적 상태 형식을 사용하여 게임 환경 전체에서 시작 모델을 반복적으로 개선함으로써 개방형 세계 모델 연구에서 자율 코딩 에이전트를 평가합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11216">Hugging Face Papers</source>
+      <guid isPermaLink="false">709c70f1d6d75ba320fd1eb36aceb4c0</guid>
+    </item>
+    <item>
+      <title>지속적 재귀 세계를 통해 자율 소프트웨어 발전 가능</title>
+      <link>https://huggingface.co/papers/2608.10450</link>
+      <description>Genesis는 영구 에이전트가 아닌 영구 프로젝트를 중심으로 장기적인 소프트웨어 개발을 구성하여 저렴한 비용과 높은 성능으로 며칠에 걸친 컴파일러 구성 및 수치 모듈 재구현을 가능하게 합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.10450">Hugging Face Papers</source>
+      <guid isPermaLink="false">39f270cf6e919dfb7180e09e75e802fa</guid>
+    </item>
+    <item>
+      <title>AVA-인코더: 에이전트 기반 비디오 표현 학습을 향하여</title>
+      <link>https://huggingface.co/papers/2608.12313</link>
+      <description>AVA-Encoder는 지식 그래프를 사용하는 에이전트 자동 인코딩을 통해 구조화된 비디오 표현을 학습하여 토큰 사용량을 줄이면서 영화 같은 비디오 생성 및 추론을 가능하게 합니다.</description>
+      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12313">Hugging Face Papers</source>
+      <guid isPermaLink="false">63715b7aed3b5bbc79dfa78bb1e89a92</guid>
+    </item>
     <item>
       <title>ToolHazard: LLM 기반 에이전트의 보안 평가 및 정렬을 위한 적대적 환경 확장</title>
       <link>https://huggingface.co/papers/2608.11878</link>
@@ -349,114 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.08722">Hugging Face Papers</source>
       <guid isPermaLink="false">1a30e43f82a06267d0007999d3f53f17</guid>
-    </item>
-    <item>
-      <title>뒤로 스크롤하지 마십시오: 스트리밍 대화 요약을 위한 누락된 증거 메모리</title>
-      <link>https://huggingface.co/papers/2608.09043</link>
-      <description>스트리밍 대화 요약을 위한 프레임워크는 고정된 메모리 예산 하에서 현재 창에서 누락된 컨텍스트를 해결하기 위해 오랜 기록에서 증거를 검색하고 개선합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09043">Hugging Face Papers</source>
-      <guid isPermaLink="false">63eb02171ed2b9ea4f69d1576e3ab94a</guid>
-    </item>
-    <item>
-      <title>LLM 기반 최적화에서 구조와 매개변수를 분리하기 위한 하이브리드 중첩 하네스</title>
-      <link>https://huggingface.co/papers/2608.08156</link>
-      <description>하이브리드 중첩 검색 프레임워크는 구조적 제안을 위한 언어 모델을 수치 최적화 프로그램과 결합하여 과학 작업 전반의 효율성을 향상시킵니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08156">Hugging Face Papers</source>
-      <guid isPermaLink="false">144bb9d953e256d2b457841627494317</guid>
-    </item>
-    <item>
-      <title>MMOOC: 다중 모드 대형 언어 모델의 상황 외 평가를 위한 포괄적인 벤치마크</title>
-      <link>https://huggingface.co/papers/2607.27637</link>
-      <description>MMOOC는 다중 모달 언어 모델이 상황에 맞는 질문에 대답하면서 상황에 맞지 않는 질문을 올바르게 거부할 수 있는지 평가하는 대규모 벤치마크로, 현재 모델이 균형을 맞추는 데 어려움을 겪고 있음을 보여줍니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27637">Hugging Face Papers</source>
-      <guid isPermaLink="false">d4ec65183a8e4834e81194d0e3e63920</guid>
-    </item>
-    <item>
-      <title>BDH-CQ: 반복 잠재 추론을 통한 상황 내 학습</title>
-      <link>https://huggingface.co/papers/2608.09888</link>
-      <description>반복 잠재 추론 및 상황 내 학습을 사용하는 150M 매개변수 추론 모델은 ARC-AGI-1에서 새로운 비용 정확도 한계를 달성합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09888">Hugging Face Papers</source>
-      <guid isPermaLink="false">4123cbd2a0d9e36ed3e71997bcdbd8d3</guid>
-    </item>
-    <item>
-      <title>손실은 기초를 보지 못하지만 아담은 기초를 봅니다.</title>
-      <link>https://huggingface.co/papers/2608.05136</link>
-      <description>인수분해된 행렬 모델의 최적화 동작은 게이지 등분산에 따라 달라지며, 좌표 방식 방법은 낮은 순위 바이어스를 깨고 변환기 및 감지 작업에서 다양한 솔루션을 유발합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05136">Hugging Face Papers</source>
-      <guid isPermaLink="false">3d916f22201245cbfd32ce84ed06c64a</guid>
-    </item>
-    <item>
-      <title>WeClawArena: 인간 중심 에이전트 네트워크의 교차 사용자 에이전트 협업 및 보안을 위한 감사 가능한 샌드박스 및 벤치마크</title>
-      <link>https://huggingface.co/papers/2608.03499</link>
-      <description>WeClawArena는 개인 작업 공간 전반에 걸쳐 다자간 에이전트 협업을 평가하고 작업 유틸리티와 보안 공격 성공을 측정하기 위한 감사 가능한 벤치마크이자 샌드박스입니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03499">Hugging Face Papers</source>
-      <guid isPermaLink="false">f4f8371651218a085d525ff245b464d2</guid>
-    </item>
-    <item>
-      <title>독점 LLM API에서 추론 추적 훔치기</title>
-      <link>https://huggingface.co/papers/2608.09867</link>
-      <description>선도적인 대규모 언어 모델 제공업체는 이제 지적 재산을 보호하고 정보 유출을 제한하기 위해 모델의 단계별 추론 또는 사고의 사슬을 숨깁니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09867">Hugging Face Papers</source>
-      <guid isPermaLink="false">2708eb8b120a1570e27af5648bf55437</guid>
-    </item>
-    <item>
-      <title>CEAA: 대화형 컴퓨팅 시스템을 위한 인지 구현 에이전트 아키텍처</title>
-      <link>https://huggingface.co/papers/2608.09848</link>
-      <description>실시간 대화형 가상 환경에서 인지 기능을 갖춘 내장형 IVA(지능형 가상 에이전트)의 개발은 오늘날의 기술 발전에도 불구하고 여전히 어려운 과제로 남아 있습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09848">Hugging Face Papers</source>
-      <guid isPermaLink="false">e564c5f293272f915dec0f71fc3d7d72</guid>
-    </item>
-    <item>
-      <title>Ego-OSCAR: Egocentric 오픈 소스 스테레오 CAptuRe 시스템</title>
-      <link>https://huggingface.co/papers/2608.08285</link>
-      <description>우리는 야생에서 자기중심적 데이터 수집을 위한 개방형 하드웨어, 저비용, 헤드 장착형 스테레오 관성 캡처 장치인 Ego-OSCAR를 제시합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08285">Hugging Face Papers</source>
-      <guid isPermaLink="false">80f9fbb07bb7dbaa7190136f99901040</guid>
-    </item>
-    <item>
-      <title>양방향 개념 대응으로서의 비전-언어 접지</title>
-      <link>https://huggingface.co/papers/2608.07886</link>
-      <description>비전 언어 기반은 언어를 시각적 콘텐츠에 연결하지만 대부분의 기존 공식은 기반을 단방향 현지화 문제로 줄입니다. 미리 지정된 텍스트 문구 또는 카테고리 이름이 주어지면 해당 그룹을 식별합니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07886">Hugging Face Papers</source>
-      <guid isPermaLink="false">08110f6ca85b47d726fd4543b50badf4</guid>
-    </item>
-    <item>
-      <title>본질적으로 해석 가능한 언어 모델 확장</title>
-      <link>https://huggingface.co/papers/2608.07594</link>
-      <description>해석성은 종종 능력에 대한 세금으로 간주됩니다. 언어 모델은 불투명한 시스템으로 훈련된 다음 신뢰성을 확립하기 어려운 방법으로 사후에 설명됩니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07594">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee80f73620c0d4189f3b8b30a5406c39</guid>
-    </item>
-    <item>
-      <title>엔드투엔드 에이전트 감사 엔진</title>
-      <link>https://huggingface.co/papers/2608.07346</link>
-      <description>LLM(대형 언어 모델)의 급속한 발전으로 인해 하네스는 광범위한 도메인에 에이전트를 배포하는 데 필수적인 인프라가 되었습니다.</description>
-      <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07346">Hugging Face Papers</source>
-      <guid isPermaLink="false">0b1b2bf9753b9c6ecfaae2712ba19257</guid>
     </item>
   </channel>
 </rss>

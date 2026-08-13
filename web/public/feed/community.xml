@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 13 Aug 2026 11:04:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 13:52:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Gathered Scenes Zine: 사진을 종이 질감의 편집 디자인 작품으로 바꾸는 Codex 스킬</title>
+      <link>https://discuss.pytorch.kr/t/gathered-scenes-zine-codex/11607</link>
+      <description>Gathered Scenes Zine 소개 이미지 생성 모델에 사진을 넣고 스타일을 입혀 달라고 하면 대개 필터를 씌운 결과가 돌아옵니다. 원본의 모든 디테일이 그대로 남은 채 질감만 바뀌기 때문에, 나뭇잎 하나하나와 창문 하나하나가 여전히 화면을 채우고 있어 어디를 봐야 할지가 정해지지 않습니다.</description>
+      <pubDate>Thu, 13 Aug 2026 12:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gathered-scenes-zine-codex/11607">PyTorch Korea</source>
+      <guid isPermaLink="false">96a6d01ee3d78aeac80d8d6d71c17bd3</guid>
+    </item>
     <item>
       <title>GenOffice: 원본 파일을 바이트 단위로 보존하며 AI로 편집하는 오픈소스 오피스 스위트</title>
       <link>https://discuss.pytorch.kr/t/genoffice-ai/11598</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/agents-cli-google-cloud-cli/11491">PyTorch Korea</source>
       <guid isPermaLink="false">7d7683454e383232d5e02218a71e5436</guid>
-    </item>
-    <item>
-      <title>양자컴퓨터, GPU로 양자 AI 시뮬레이션을 만들어보다.</title>
-      <link>https://discuss.pytorch.kr/t/gpu-ai/11495</link>
-      <description>PyTorch로 만든 GPU 양자회로 시뮬레이터 — H100에서 33~34큐비트, 자연어 코파일럿까지 statevector 시뮬레이터 전체를 순수 torch 텐서 연산으로 구현해 GPU에서 돌리고, 앞단에 LLM을 붙여 문장 한 줄로 회로를 만들 수 있게 했습니다. 실제 IBM 장비로 보정했고, 무료로 브라우저에서 돌아갑니다.</description>
-      <pubDate>Sun, 02 Aug 2026 13:31:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gpu-ai/11495">PyTorch Korea</source>
-      <guid isPermaLink="false">116db716cadaa2d36b29288c6afddb7c</guid>
     </item>
   </channel>
 </rss>
