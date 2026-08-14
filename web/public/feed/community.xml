@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 15:15:32 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 17:18:31 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>UEmbed: 디코더 전용 모델에서 희소 검색과 밀집 검색을 통합한 멀티모달 임베딩 연구</title>
+      <link>https://discuss.pytorch.kr/t/uembed/11614</link>
+      <description>UEmbed 소개 검색창에 단어를 입력했을 때 검색 엔진이 하는 일은 크게 두 갈래로 나뉩니다. 하나는 입력한 단어가 문서에 실제로 들어 있는지 세는 일이고, 다른 하나는 단어가 하나도 겹치지 않아도 뜻이 통하는 문서를 끌어오는 일입니다.</description>
+      <pubDate>Fri, 14 Aug 2026 17:00:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/uembed/11614">PyTorch Korea</source>
+      <guid isPermaLink="false">9c8792f4103e87bab91b54d9f8e864ef</guid>
+    </item>
     <item>
       <title>엔비디아 모델에서도 드러난 AI 안전성의 빈틈</title>
       <link>https://discuss.pytorch.kr/t/ai/11619</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/turbofieldfare-8gb-gemma-4-26b-2gb-swift/11502">PyTorch Korea</source>
       <guid isPermaLink="false">29e28e5927f45beedb8932af0b5bdac2</guid>
-    </item>
-    <item>
-      <title>SimpleMem: LLM 에이전트의 장기 기억을 압축해 토큰을 최대 30배 줄이는 메모리 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/simplemem-llm-30/11501</link>
-      <description>SimpleMem 소개 에이전트에게 장기 기억을 붙이는 방법은 크게 두 갈래로 굳어졌습니다. 하나는 지나간 대화를 그대로 들고 다니며 컨텍스트를 늘리는 쪽인데, 같은 이야기가 여러 번 반복되어 들어가고 토큰이 그만큼 낭비됩니다. 다른 하나는 저장된 기록을 매번 다시 읽고 추론해 노이즈를 걸러내는 쪽인데, 이번에는 질문 한 번의 비용과 응답 시간이 올라갑니다.</description>
-      <pubDate>Mon, 03 Aug 2026 17:00:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/simplemem-llm-30/11501">PyTorch Korea</source>
-      <guid isPermaLink="false">67c316d39489fe6992db88e56d0a595b</guid>
     </item>
   </channel>
 </rss>
