@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 11:03:04 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 13:49:07 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>엔비디아 모델에서도 드러난 AI 안전성의 빈틈</title>
+      <link>https://discuss.pytorch.kr/t/ai/11619</link>
+      <description>AX-Ray: 성능 벤치마크 이후의 AI 안전진단 계층 요약 AI 모델 평가는 지금까지 주로 "얼마나 잘 맞히는가"에 집중해 왔다. 그러나 실제 배포 환경에서는 정답률만으로 충분하지 않다. 모델의 내부 계산 경로가 인과적으로 올바른지, serving 경로가 일관적인지, 장문·캐시·양자화·agentic 실행 환경에서 안전하게 동작하는지까지 확인해야 한다.</description>
+      <pubDate>Fri, 14 Aug 2026 11:43:13 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai/11619">PyTorch Korea</source>
+      <guid isPermaLink="false">ea3092a0dd593912c78320c11e46c787</guid>
+    </item>
+    <item>
+      <title>Claude of Duty: 단일 프롬프트로 AI 에이전트가 만든 브라우저 FPS 게임 및 품질 검증 하네스</title>
+      <link>https://discuss.pytorch.kr/t/claude-of-duty-ai-fps/11611</link>
+      <description>Claude of Duty 소개 AI 에이전트에게 규모 있는 코드베이스를 맡길 때 먼저 문제가 생기는 쪽은 코드 작성이 아니라 품질 판정입니다. 빌드가 통과하고 화면이 뜨는 지점까지는 에이전트가 스스로 도달합니다. 그런데 "이 정도면 됐다"를 언제, 어떠한 기준으로 선언해야 하는지는 어려운 문제입니다.</description>
+      <pubDate>Fri, 14 Aug 2026 12:30:03 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-of-duty-ai-fps/11611">PyTorch Korea</source>
+      <guid isPermaLink="false">48897693061b43d26c45bf45e400aabb</guid>
+    </item>
     <item>
       <title>thinking-orbs: AI 에이전트가 무엇을 하는 중인지 보여주는 로딩 인디케이터</title>
       <link>https://discuss.pytorch.kr/t/thinking-orbs-ai/11616</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/simplemem-llm-30/11501">PyTorch Korea</source>
       <guid isPermaLink="false">67c316d39489fe6992db88e56d0a595b</guid>
-    </item>
-    <item>
-      <title>Qwen, Max 계열 최초로 가중치를 공개하는 2.4T 규모 플래그십 모델 Qwen3.8-Max 출시 및 공개 예정</title>
-      <link>https://discuss.pytorch.kr/t/qwen-max-2-4t-qwen3-8-max/11509</link>
-      <description>Qwen3.8-Max 소개 Qwen 팀이 2026년 8월 3일 새로운 플래그십 모델 Qwen3.8-Max 를 공개했습니다. 전체 2.4조(2.4T) 파라미터 가운데 토큰당 950억(95B) 개를 활성화하는 MoE 구조이며, 지난 Qwen3.5 의 아키텍처를 토대로 규모를 키웠습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 18:30:07 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/qwen-max-2-4t-qwen3-8-max/11509">PyTorch Korea</source>
-      <guid isPermaLink="false">5915775f4caa47fc6ba52967abbe3115</guid>
-    </item>
-    <item>
-      <title>Codex Security: 취약점 탐지부터 검증, 패치까지 수행하는 OpenAI의 보안 스캔 CLI 및 SDK</title>
-      <link>https://discuss.pytorch.kr/t/codex-security-openai-cli-sdk/11487</link>
-      <description>Codex Security 소개 코드베이스가 커질수록 보안 취약점을 찾는 일은 소수의 보안 담당자에게 몰리기 마련입니다. 정적 분석 도구를 도입해도 오탐(false positive)이 쌓이면 결과 목록을 훑는 것 자체가 일이 되고, 정작 위험한 취약점은 검토 대기열에 묻히기 쉽습니다. 발견 이후도 문제입니다.</description>
-      <pubDate>Mon, 03 Aug 2026 12:30:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/codex-security-openai-cli-sdk/11487">PyTorch Korea</source>
-      <guid isPermaLink="false">a677bc3475a4b35518a6ea5abd0e5808</guid>
     </item>
   </channel>
 </rss>

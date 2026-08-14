@@ -5,9 +5,126 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 11:03:04 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 13:49:07 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LycheeMemory V2: 의미론적 세그먼트 수준 통합을 통한 LLM 에이전트를 위한 효율적인 장기 메모리</title>
+      <link>https://huggingface.co/papers/2608.12990</link>
+      <description>LycheeMemory V2는 효율적인 통합 및 구조화된 검색을 위해 상호작용을 의미론적 세그먼트로 일괄 처리하여 장기 에이전트 메모리를 향상시키며, 높은 정확도를 유지하면서 구성 비용을 절감합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12990">Hugging Face Papers</source>
+      <guid isPermaLink="false">c1def19a79a6afb426558828ec1bf894</guid>
+    </item>
+    <item>
+      <title>LLMRouter: LLM 라우터 개발, 평가 및 배포를 위한 통합 인프라</title>
+      <link>https://huggingface.co/papers/2608.06867</link>
+      <description>LLM 라우팅은 비용 효율적인 모델 선택을 비교하고 개선하기 위해 통합 벤치마크 및 모듈식 인프라를 갖춘 순차적 의사결정 프로세스로 공식화되었습니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.06867">Hugging Face Papers</source>
+      <guid isPermaLink="false">d30f887f2630ba800c8dc1ae8efb996c</guid>
+    </item>
+    <item>
+      <title>DreamX-Phi 1.0: 로봇 조작을 위한 동작 조건 비디오 세계 모델</title>
+      <link>https://huggingface.co/papers/2608.13489</link>
+      <description>DreamX-Phi 1.0은 기하학적 주의 인코딩, 깊이 추정, 동결된 교사를 사용한 개체 마스크 및 증류를 사용하여 충실한 미래를 생성하는 로봇 조작을 위한 동작 조건 비디오 세계 모델입니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13489">Hugging Face Papers</source>
+      <guid isPermaLink="false">3c74823ecc8a099627fbab81e90b4a52</guid>
+    </item>
+    <item>
+      <title>AutoDesign: Long-Horizon Agentic 설계를 위한 메타 하네스 최적화</title>
+      <link>https://huggingface.co/papers/2608.13560</link>
+      <description>AutoDesign은 메타 하네스 최적화 프로그램을 사용하여 구조화된 미디어 생성을 위한 코드 에이전트를 반복적으로 개선하여 종이에서 포스터로의 합성에서 최첨단 결과를 얻습니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13560">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ff394edd38813c73614dedea8017f86</guid>
+    </item>
+    <item>
+      <title>공간 메모리 에이전트: 공간 지능을 위한 경험 기반 프로시저 메모리</title>
+      <link>https://huggingface.co/papers/2608.12743</link>
+      <description>고정된 비전 언어 모델은 매개변수 업데이트나 외부 도구 없이 검증된 경험, 반영 및 재사용 가능한 메모리 검색을 통해 자체 진화하여 공간 추론을 향상시킵니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12743">Hugging Face Papers</source>
+      <guid isPermaLink="false">70e8d5a6785496605ad014fe5ac53c1f</guid>
+    </item>
+    <item>
+      <title>PlayWorld: 장거리 목표에 대해 에이전트 플레이어를 사용하여 세계 모델 벤치마킹</title>
+      <link>https://huggingface.co/papers/2608.13552</link>
+      <description>PlayWorld는 다중 모드 에이전트를 사용하여 장기적인 목표를 추구하고 기하학 일관성, 상호 작용 충실도 및 상태 진화를 평가함으로써 대화형 비디오 세계 모델을 벤치마킹합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13552">Hugging Face Papers</source>
+      <guid isPermaLink="false">2227a0205b00800eae82d8b6121621eb</guid>
+    </item>
+    <item>
+      <title>DarwinX: 자연 선택을 통해 진화하는 에이전트 활용</title>
+      <link>https://huggingface.co/papers/2608.07545</link>
+      <description>DarwinX는 고정 모델을 사용한 모집단 선택을 통해 에이전트 하네스를 발전시켜 벤치마크별 패치 없이 벤치마크 전체에서 검증된 성능을 향상시킵니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.07545">Hugging Face Papers</source>
+      <guid isPermaLink="false">09afd7a072178df6dab1a60ad5e3e08e</guid>
+    </item>
+    <item>
+      <title>전대역폭 변압기</title>
+      <link>https://huggingface.co/papers/2608.08888</link>
+      <description>전체 대역폭 변환기는 최상위 계층 숨겨진 상태의 잠재 피드백을 사용하여 핵심 아키텍처를 변경하지 않고도 추론과 효율성을 향상시킵니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08888">Hugging Face Papers</source>
+      <guid isPermaLink="false">1233a6b42f1a581ad87d300dbc23d467</guid>
+    </item>
+    <item>
+      <title>하이브리드 선형 주의 대형 언어 모델의 대규모 활성화: 사전 주의 스파이크 및 스파이크 간 고원</title>
+      <link>https://huggingface.co/papers/2608.12149</link>
+      <description>하이브리드 선형 어텐션 LLM의 대규모 활성화는 취소 타이밍에 의해 제어되는 사전 주의 스파이크 및 스파이크 간 고원을 나타내며 형태는 전체 주의 한계에서 복구됩니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12149">Hugging Face Papers</source>
+      <guid isPermaLink="false">f9380600cd78c4bc96e2c9bb7c6a320d</guid>
+    </item>
+    <item>
+      <title>어떻게 수사적 보상으로 AI 리뷰어를 해킹할 수 있나요? AI 기반 동료 검토의 수사학적 민감도 분석</title>
+      <link>https://huggingface.co/papers/2608.08975</link>
+      <description>수사학적 프레이밍은 구조화된 방식으로 AI 과학적 리뷰 점수를 크게 편향시키며, 복잡성을 다시 작성하는 대신 리뷰어 신원, 점수 범위 및 평가 엄격성에 따라 효과가 형성됩니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08975">Hugging Face Papers</source>
+      <guid isPermaLink="false">3813ab0c787dcbe8829b87bf52927950</guid>
+    </item>
+    <item>
+      <title>H2R-Bench: 월드 모델에서 인간-로봇 조작 비디오 생성 벤치마킹</title>
+      <link>https://huggingface.co/papers/2608.13049</link>
+      <description>H2R-Bench는 인간 조작 비디오를 구현 제약 조건과 상호 작용 충실도 전반에 걸쳐 로봇 중심 데모로 변환하는 비디오 생성 모델을 평가합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13049">Hugging Face Papers</source>
+      <guid isPermaLink="false">4e826fb441e3e2c9d0f3bfb645db63ae</guid>
+    </item>
+    <item>
+      <title>Alaya-EVOKE: 선형 확장 감독에서 끝없는 세계까지</title>
+      <link>https://huggingface.co/papers/2608.13546</link>
+      <description>Evoke는 외부 영구 메모리와 재설계된 장거리 교사를 사용하여 제한된 컨텍스트와 짧은 대기 시간으로 응답성이 뛰어난 개방형 비디오 생성을 가능하게 하는 대화형 세계 모델입니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13546">Hugging Face Papers</source>
+      <guid isPermaLink="false">78559cf0d7c615037612bfa49eef4434</guid>
+    </item>
+    <item>
+      <title>CW-BASS v2: 기초 모델 교사의 반지도 분할을 위한 포화 인식 의사 레이블 선택</title>
+      <link>https://huggingface.co/papers/2608.12773</link>
+      <description>CW-BASS v2는 보유 데이터에 대한 교사 신뢰도를 측정하고 엄격한 필터링 또는 적응형 바닥을 적용하여 신뢰도가 포화된 상태에서 확증 편향을 방지함으로써 유사 라벨을 선택합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12773">Hugging Face Papers</source>
+      <guid isPermaLink="false">b9e3d958a295a691dacae1b1e59d7187</guid>
+    </item>
     <item>
       <title>Intern-S2-미리보기: 과학적 에이전트 기반 모델</title>
       <link>https://huggingface.co/papers/2608.13505</link>
@@ -340,123 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.11205">Hugging Face Papers</source>
       <guid isPermaLink="false">31f2bae5ddb57d44e3f243e758231498</guid>
-    </item>
-    <item>
-      <title>휴식 상태 관찰을 통한 관절 객체 재구성</title>
-      <link>https://huggingface.co/papers/2607.27749</link>
-      <description>정지 상태 프레임워크는 비전 언어 출력을 일관된 부품 메시로 융합하고 기하학적 구성을 통해 합성된 모션 가설을 검증함으로써 단일 폐쇄 구성에서 연결된 개체를 재구성합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27749">Hugging Face Papers</source>
-      <guid isPermaLink="false">3375b506d6a56522829fab75cf3ed208</guid>
-    </item>
-    <item>
-      <title>DistilVDR: 이중 학생 증류를 통한 컴팩트한 엔드투엔드 시각적 문서 검색기</title>
-      <link>https://huggingface.co/papers/2608.10636</link>
-      <description>DistilVDR은 관련성 레이블 없이 코사인 정렬을 사용하여 8B Teacher에서 추출한 소형 524M 비전 문서 검색기로서 훨씬 작은 인덱스와 빠른 인덱싱으로 거의 교사에 가까운 정확도를 달성합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10636">Hugging Face Papers</source>
-      <guid isPermaLink="false">e8839390f0ea08ac862c826aa47613c2</guid>
-    </item>
-    <item>
-      <title>ComBodied Agents: 인간 중심 에이전트 AI의 새로운 패러다임</title>
-      <link>https://huggingface.co/papers/2608.10915</link>
-      <description>결합 에이전트는 디지털 및 구현 도구를 시간 경과에 따른 개별 인간 상태 궤적을 모델링하는 폐쇄 루프 프레임워크에 통합하여 비례적이고 동의 인식 지원을 제공합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10915">Hugging Face Papers</source>
-      <guid isPermaLink="false">7512404bef1e6c5fc775e4228ac4fe5f</guid>
-    </item>
-    <item>
-      <title>에이전트 시스템의 공진화: 인간 설계를 넘어서는 자기 주도적 진화를 향하여</title>
-      <link>https://huggingface.co/papers/2608.10299</link>
-      <description>에이전트 시스템은 에이전트, 환경 및 진화 메커니즘 전반에 걸쳐 고정된 인간 제약을 점진적으로 제거하는 다중 구성 요소 공진화를 통해 개방형 개선을 달성할 수 있습니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10299">Hugging Face Papers</source>
-      <guid isPermaLink="false">cb7496cd56d690be7f625f2d5e15137d</guid>
-    </item>
-    <item>
-      <title>iFAN: 일반 마스크 변환기를 위한 추론 인식 학습</title>
-      <link>https://huggingface.co/papers/2608.03216</link>
-      <description>iFAN이라는 훈련 프레임워크는 쿼리 순위를 마스크 품질에 맞추고 더 강력한 중간 예측을 최종 레이어로 추출하여 마스크 변환기를 개선합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.03216">Hugging Face Papers</source>
-      <guid isPermaLink="false">d79e341607cc7219fbfb6261a935e7d9</guid>
-    </item>
-    <item>
-      <title>JigShape: 직소 퍼즐을 통해 VLM의 시각적 기하학적 추론 평가</title>
-      <link>https://huggingface.co/papers/2607.27670</link>
-      <description>조각이 맞물려 있는 새로운 퍼즐 벤치마크에서는 비전 언어 모델이 기하학적 추론에 실패하고 퍼즐 크기가 커짐에 따라 성능이 급격히 저하되는 것으로 나타났습니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.27670">Hugging Face Papers</source>
-      <guid isPermaLink="false">de68032afa027fd6efc41b78668b7ca9</guid>
-    </item>
-    <item>
-      <title>VibeLifeBench: 귀하의 생명 대리인이 살아있는 세계에서 적극적이고 지속적으로 활동할 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2608.10875</link>
-      <description>VibeLifeBench라는 새로운 벤치마크는 시뮬레이션된 몇 주간의 일상 작업에서 장거리 사전 대응 에이전트를 평가하여 현재 프론티어 모델의 성능이 좋지 않음을 보여줍니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10875">Hugging Face Papers</source>
-      <guid isPermaLink="false">4abc35fe150d46b71cc80e378015a312</guid>
-    </item>
-    <item>
-      <title>Mendel Gödel 기계: 비교 진화를 통한 재귀적 자기 개선 코딩 에이전트</title>
-      <link>https://huggingface.co/papers/2608.07645</link>
-      <description>Mendel Gödel Machine은 다중 궤적 돌연변이 및 계통 간 하이브리드화를 사용하여 수렴을 가속화하고 성능을 향상함으로써 자체 개선 코딩 에이전트를 개선합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07645">Hugging Face Papers</source>
-      <guid isPermaLink="false">6f214ba97a3ee90fc8a1c2ebf62adf22</guid>
-    </item>
-    <item>
-      <title>SPIEval: 분산된 개인 정보에 대한 모바일 도우미로서 대규모 언어 모델 평가</title>
-      <link>https://huggingface.co/papers/2608.10692</link>
-      <description>SPIEval은 분산된 개인 데이터 작업에 대한 모바일 보조 LLM을 벤치마킹하여 정보 검색 및 검증의 주요 격차를 드러냅니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10692">Hugging Face Papers</source>
-      <guid isPermaLink="false">43b995806ccbc0b506665df6c636627e</guid>
-    </item>
-    <item>
-      <title>SkillZip: 재사용 가능한 구조를 발견하여 자가 진화 에이전트를 위한 평가 없는 스킬 압축</title>
-      <link>https://huggingface.co/papers/2608.11079</link>
-      <description>SkillZip은 평가 롤아웃 없이 드문 예외를 유지하면서 반복되는 규칙과 절차를 공유하는 최소한의 충실한 구조적 설명을 찾아서 자체 진화하는 에이전트 기술을 압축합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11079">Hugging Face Papers</source>
-      <guid isPermaLink="false">2f1bbf25a8518ef6499cec57294bdce8</guid>
-    </item>
-    <item>
-      <title>다른 토큰의 가치가 없음: 효율적인 심층 연구 에이전트에 대한 한계 가치 추정</title>
-      <link>https://huggingface.co/papers/2608.08389</link>
-      <description>다양한 파이프라인 단계에 적용되는 가지치기 전략은 장거리 연구 에이전트의 토큰 사용량과 대기 시간을 줄이고, 조기 가지치기를 통해 효율성을 극대화합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08389">Hugging Face Papers</source>
-      <guid isPermaLink="false">d5a42cd11f2cf23dcf4403b4832370ec</guid>
-    </item>
-    <item>
-      <title>다국어 기계 번역을 위한 개방형 대형 언어 모델의 무참조 사후 교육</title>
-      <link>https://huggingface.co/papers/2608.10812</link>
-      <description>개방형 다국어 번역 모델은 참조 없는 품질 보상 및 체크포인트 보간을 통해 그룹 관련 정책 최적화를 통해 개선되어 강력한 개방형 및 독점 기준을 능가합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10812">Hugging Face Papers</source>
-      <guid isPermaLink="false">e90815ecc9123c32e3d22cbce8f9fc2f</guid>
-    </item>
-    <item>
-      <title>Ex-Omni-2D: 기본 시각적 표현을 갖춘 표현력이 뛰어난 옴니모달 대화 모델</title>
-      <link>https://huggingface.co/papers/2608.10720</link>
-      <description>Ex-Omni-2D는 시각적 사고 계획과 정제된 스트리밍 비디오 생성기를 통해 조화로운 텍스트, 음성 및 비디오 응답을 생성하는 옴니모달 대화 프레임워크입니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10720">Hugging Face Papers</source>
-      <guid isPermaLink="false">0373c2148bcf194ff580a3b810aeb9fd</guid>
     </item>
   </channel>
 </rss>
