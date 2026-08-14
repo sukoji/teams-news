@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 17:18:31 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 19:04:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>확실합니까? 자신감과 어휘 다양성에 대한 교수 조정의 영향</title>
+      <link>https://huggingface.co/papers/2608.13430</link>
+      <description>명령어 조정은 모델 신뢰도를 변경하고 보정을 개선하지 않고도 이론적 근거의 다양성을 줄여 추론과 확실성에 대한 뚜렷한 영향을 나타냅니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13430">Hugging Face Papers</source>
+      <guid isPermaLink="false">784b0ba359020b76ea368e66fe26a727</guid>
+    </item>
+    <item>
+      <title>TailBooster: 운영 타당성 강화를 통한 극한 가치 증대를 위한 이중 계층 생성 프레임워크</title>
+      <link>https://huggingface.co/papers/2608.11951</link>
+      <description>TailBooster는 통계적 꼬리 추출 및 심층 자동 인코더 청소 기능을 갖춘 이중 계층 생성 프레임워크를 사용하여 운영상 유효한 극한 항공 운송 이벤트를 합성하여 극한 이벤트 사전…</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11951">Hugging Face Papers</source>
+      <guid isPermaLink="false">00169e9c4d8fbb2c66aad8e7329060b4</guid>
+    </item>
+    <item>
+      <title>PixSDS: 잠재 SDS가 노이즈 픽셀을 만드는 이유</title>
+      <link>https://huggingface.co/papers/2608.12997</link>
+      <description>PixSDS는 디코딩된 이미지 방향으로 최적화를 안내하여 텍스트-3D 생성에서 아티팩트를 줄임으로써 잠재 점수 증류 샘플링에서 VAE로 인한 픽셀 드리프트를 수정합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12997">Hugging Face Papers</source>
+      <guid isPermaLink="false">3cda7be2407c1d942a0ecf49eec4beee</guid>
+    </item>
     <item>
       <title>그만둬야 할 때를 알기: 쓸데없는 추론을 중단하기 위한 LLM 진단 및 교육</title>
       <link>https://huggingface.co/papers/2607.29211</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.11924">Hugging Face Papers</source>
       <guid isPermaLink="false">e286f66f1e8d96e17ae880cd2a229e2e</guid>
-    </item>
-    <item>
-      <title>StateFlow: 사전 시각화를 위한 3D 세계 상태 구축, 발전 및 액세스</title>
-      <link>https://huggingface.co/papers/2608.12314</link>
-      <description>StateFlow는 구조화된 장면과 카메라 표현을 구성, 발전 및 액세스하여 영화 및 게임 디자인을 위한 반복적이고 제어 가능한 사전 시각화를 가능하게 하는 지속적인 3D 세계 상태를 도입합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.12314">Hugging Face Papers</source>
-      <guid isPermaLink="false">3be5f039664a02211a03eff377550b32</guid>
-    </item>
-    <item>
-      <title>CoinRAG: 장기 컨텍스트 RAG를 위한 상황별 정보 너겟 KV 캐시 재사용</title>
-      <link>https://huggingface.co/papers/2608.07458</link>
-      <description>CoinRAG는 전체 청크 대신 세분화된 의미론적 너겟 캐시를 재사용하여 검색 증강 생성 효율성과 정확성을 향상시킵니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.07458">Hugging Face Papers</source>
-      <guid isPermaLink="false">1f75c660ba8909b99426ac038119f491</guid>
-    </item>
-    <item>
-      <title>InSight-doc: 긴 문서 이해를 위한 에이전트적 시각적 인식</title>
-      <link>https://huggingface.co/papers/2608.10628</link>
-      <description>InSight-doc는 추론 중에 시각적 해상도를 적응적으로 할당하여 긴 문서의 이해도를 높이는 동시에 대기 시간과 환각을 줄입니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.10628">Hugging Face Papers</source>
-      <guid isPermaLink="false">6f44dea54443a45b97aeb89fd3fd88a8</guid>
     </item>
   </channel>
 </rss>
