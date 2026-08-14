@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 08:42:58 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 11:03:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>thinking-orbs: AI 에이전트가 무엇을 하는 중인지 보여주는 로딩 인디케이터</title>
+      <link>https://discuss.pytorch.kr/t/thinking-orbs-ai/11616</link>
+      <description>thinking-orbs 소개 에이전트를 붙인 화면에서 대기 시간은 예전 웹앱과 성격이 다릅니다. 버튼을 눌러 응답이 오기까지 300밀리초를 기다리는 것과, 에이전트가 저장소를 훑고 도구를 호출하며 수십 초를 쓰는 것은 사용자가 느끼는 종류가 다릅니다. 그런데 화면이 알려 주는 정보는 대개 회전하는 원 하나로 같습니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:30:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinking-orbs-ai/11616">PyTorch Korea</source>
+      <guid isPermaLink="false">e842d4702a3b81786eb186e5fcba4280</guid>
+    </item>
     <item>
       <title>멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구</title>
       <link>https://discuss.pytorch.kr/t/ai-anthropic/11610</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/codex-security-openai-cli-sdk/11487">PyTorch Korea</source>
       <guid isPermaLink="false">a677bc3475a4b35518a6ea5abd0e5808</guid>
-    </item>
-    <item>
-      <title>darwin-skill: 평가와 회귀 테스트로 에이전트 스킬을 진화시키는 최적화 루프</title>
-      <link>https://discuss.pytorch.kr/t/darwin-skill/11492</link>
-      <description>darwin-skill 소개 에이전트 스킬(SKILL.md) 생태계가 빠르게 커지면서 새로운 유지보수 문제가 생겼습니다. Claude Code, Codex, OpenClaw, Trae, CodeBuddy 등 여러 도구가 같은 SKILL.md 형식을 지원하고, 스킬이 10개일 때는 손으로 관리할 수 있지만 60개를 넘어가면 체계가 필요합니다.</description>
-      <pubDate>Mon, 03 Aug 2026 09:30:27 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/darwin-skill/11492">PyTorch Korea</source>
-      <guid isPermaLink="false">2d485f26795db8fa4ff96109d281ac47</guid>
     </item>
   </channel>
 </rss>
