@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-14",
-  "generated_at": "2026-08-14T08:36:11.842360+09:00",
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T08:17:12.653028+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,54 +10,59 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "bdbf242a3c7e25820eae132f02889190",
+          "id": "c58b5121d2e17e55fe7641d637b10de1",
           "index": 1,
-          "title": "Beyond Pixels: From Video Priors to 4D Worlds",
-          "title_ko": "픽셀 너머: 이전 비디오에서 4D 세계까지",
-          "summary": "Latent-to-4D enables reusable direct 4D generation from video diffusion latents via alignment with a pretrained decoder and spatiotemporal attention, transferring across generators without retraining.",
-          "summary_ko": "Latent-to-4D는 사전 훈련된 디코더 및 시공간적 주의와의 정렬을 통해 비디오 확산 잠재성에서 재사용 가능한 직접 4D 생성을 가능하게 하며 재교육 없이 생성기 간에 전송됩니다.",
-          "url": "https://huggingface.co/papers/2608.10744",
+          "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+          "title_ko": "Intern-S2-미리보기: 과학적 에이전트 기반 모델",
+          "summary": "Intern-S2-Preview is a scientific agentic foundation model series that integrates multimodal pre-training, multi-task reinforcement learning, and memory-augmented extensions to support long-horizon scientific reasoning…",
+          "summary_ko": "Intern-S2-Preview는 다중 모달 사전 훈련, 다중 작업 강화 학습 및 메모리 증강 확장을 통합하여 장기적인 과학적 추론을 지원하는 과학 에이전트 기반 모델 시리즈입니다.",
+          "url": "https://huggingface.co/papers/2608.13505",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-12T09:00:00+09:00",
-          "popularity": 446,
-          "upvotes": 171,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-08-14T09:00:00+09:00",
+          "popularity": 84,
+          "upvotes": 42,
+          "score": 31.48,
+          "importance_score": 13.63,
           "matched_keywords": [
             "ai",
-            "diffusion",
+            "agent",
+            "multimodal",
+            "reinforcement learning",
+            "reasoning",
+            "foundation model",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 171
+            "value": 42
           }
         },
         {
-          "id": "e286f66f1e8d96e17ae880cd2a229e2e",
+          "id": "c1def19a79a6afb426558828ec1bf894",
           "index": 2,
-          "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
-          "title_ko": "Spark-to-Paper: 구성 가능한 기술로서의 엔드투엔드 연구 논문 생성",
-          "summary": "Spark-to-Paper is a lightweight, composable workflow inside coding assistants that generates research papers by separating planning from reporting, enforcing evidence-based claim revision, and using integrity checks to…",
-          "summary_ko": "Spark-to-Paper는 계획과 보고를 분리하고, 증거 기반 청구 수정을 시행하고, 무결성 검사를 사용하여 연구 논문을 생성하는 코딩 도우미 내부의 구성 가능한 경량 워크플로입니다.",
-          "url": "https://huggingface.co/papers/2608.11924",
+          "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+          "title_ko": "LycheeMemory V2: 의미론적 세그먼트 수준 통합을 통한 LLM 에이전트를 위한 효율적인 장기 메모리",
+          "summary": "LycheeMemory V2 improves long-term agent memory by batching interactions into semantic segments for efficient consolidation and structured retrieval, reducing construction costs while maintaining high accuracy.",
+          "summary_ko": "LycheeMemory V2는 효율적인 통합 및 구조화된 검색을 위해 상호작용을 의미론적 세그먼트로 일괄 처리하여 장기 에이전트 메모리를 향상시키며, 높은 정확도를 유지하면서 구성 비용을 절감합니다.",
+          "url": "https://huggingface.co/papers/2608.12990",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-13T09:00:00+09:00",
-          "popularity": 888,
-          "upvotes": 176,
-          "score": 26.08,
-          "importance_score": 18.17,
+          "published_at": "2026-08-14T09:00:00+09:00",
+          "popularity": 1172,
+          "upvotes": 3,
+          "score": 28.15,
+          "importance_score": 18.3,
           "matched_keywords": [
             "ai",
-            "paper"
+            "llm",
+            "agent"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 176
+            "value": 3
           }
         }
       ]
@@ -119,53 +124,53 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "837abfa7ad486886fa5eaf93840bc07d",
+          "id": "fedd3f7152d6151d341d4bbcb73e557d",
           "index": 5,
+          "title": "OpenSparX/MasterAgent — Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
+          "title_ko": "OpenSparX/MasterAgent — 장치에서 100% 실행되는 AI 에이전트를 구축합니다. Qualcomm NPU의 지연 시간은 100ms 미만입니다. 클라우드 종속성이 없습니다.",
+          "summary": "Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
+          "summary_ko": "100% 온디바이스에서 실행되는 AI 에이전트를 구축하세요. Qualcomm NPU의 지연 시간은 100ms 미만입니다. 클라우드 종속성이 없습니다.",
+          "url": "https://github.com/OpenSparX/MasterAgent",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-08-14T22:05:18+09:00",
+          "popularity": 191,
+          "upvotes": 191,
+          "score": 32.28,
+          "importance_score": 24.15,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "rag"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 191
+          }
+        },
+        {
+          "id": "837abfa7ad486886fa5eaf93840bc07d",
+          "index": 6,
           "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title_ko": "SaladDay/pi-from-scratch — 600줄로 TypeScript로 작성된 pi의 슈퍼 미니 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
           "summary": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary_ko": "600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
           "url": "https://github.com/SaladDay/pi-from-scratch",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-08-12T16:10:35+09:00",
-          "popularity": 883,
-          "upvotes": 883,
-          "score": 28.75,
-          "importance_score": 23.75,
+          "popularity": 977,
+          "upvotes": 977,
+          "score": 29.1,
+          "importance_score": 24.1,
           "matched_keywords": [
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 883
-          }
-        },
-        {
-          "id": "a2cf7cce5a0073fd0125446e082cdda0",
-          "index": 6,
-          "title": "wanshuiyin/HERO-Anti-OverDefense — HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A ",
-          "title_ko": "wanshuiyin/HERO-Anti-OverDefense — HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. A",
-          "summary": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
-          "summary_ko": "HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. 이를 중지하는 붙여넣기 계약입니다. Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI와 함께 작동합니다.",
-          "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-08-12T17:02:41+09:00",
-          "popularity": 129,
-          "upvotes": 129,
-          "score": 28.04,
-          "importance_score": 17.04,
-          "matched_keywords": [
-            "agent",
-            "claude",
-            "gemini"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 129
+            "value": 977
           }
         }
       ]
@@ -175,24 +180,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "2328ac189bebad2edb7ca2cb385a4175",
+          "id": "ea3092a0dd593912c78320c11e46c787",
           "index": 7,
-          "title": "멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구",
+          "title": "엔비디아 모델에서도 드러난 AI 안전성의 빈틈",
           "title_ko": null,
-          "summary": "멀티에이전트 시스템의 실패 패턴 연구 소개 같은 지시를 받은 사람 열 명을 한 방에 모아 두면, 각자 다른 방식으로 문제를 나눠 갖기를 기대하게 됩니다. AI 에이전트에게는 이 기대가 잘 맞지 않습니다.",
+          "summary": "AX-Ray: 성능 벤치마크 이후의 AI 안전진단 계층 요약 AI 모델 평가는 지금까지 주로 \"얼마나 잘 맞히는가\"에 집중해 왔다. 그러나 실제 배포 환경에서는 정답률만으로 충분하지 않다. 모델의 내부 계산 경로가 인과적으로 올바른지, serving 경로가 일관적인지, 장문·캐시·양자화·agentic 실행 환경에서 안전하게 동작하는지까지 확인해야 한다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/ai-anthropic/11610",
+          "url": "https://discuss.pytorch.kr/t/ai/11619",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-14T06:30:31+09:00",
-          "popularity": 100,
+          "published_at": "2026-08-14T11:43:13+09:00",
+          "popularity": 96,
           "upvotes": 0,
-          "score": 22.56,
-          "importance_score": 19.13,
+          "score": 21.32,
+          "importance_score": 11.03,
           "matched_keywords": [
             "ai",
-            "연구"
+            "agent",
+            "모델"
           ],
           "engagement": null
         }
@@ -201,54 +207,59 @@
   ],
   "items": [
     {
-      "id": "bdbf242a3c7e25820eae132f02889190",
+      "id": "c58b5121d2e17e55fe7641d637b10de1",
       "index": 1,
-      "title": "Beyond Pixels: From Video Priors to 4D Worlds",
-      "title_ko": "픽셀 너머: 이전 비디오에서 4D 세계까지",
-      "summary": "Latent-to-4D enables reusable direct 4D generation from video diffusion latents via alignment with a pretrained decoder and spatiotemporal attention, transferring across generators without retraining.",
-      "summary_ko": "Latent-to-4D는 사전 훈련된 디코더 및 시공간적 주의와의 정렬을 통해 비디오 확산 잠재성에서 재사용 가능한 직접 4D 생성을 가능하게 하며 재교육 없이 생성기 간에 전송됩니다.",
-      "url": "https://huggingface.co/papers/2608.10744",
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "title_ko": "Intern-S2-미리보기: 과학적 에이전트 기반 모델",
+      "summary": "Intern-S2-Preview is a scientific agentic foundation model series that integrates multimodal pre-training, multi-task reinforcement learning, and memory-augmented extensions to support long-horizon scientific reasoning…",
+      "summary_ko": "Intern-S2-Preview는 다중 모달 사전 훈련, 다중 작업 강화 학습 및 메모리 증강 확장을 통합하여 장기적인 과학적 추론을 지원하는 과학 에이전트 기반 모델 시리즈입니다.",
+      "url": "https://huggingface.co/papers/2608.13505",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-12T09:00:00+09:00",
-      "popularity": 446,
-      "upvotes": 171,
-      "score": 28.0,
-      "importance_score": 18.0,
+      "published_at": "2026-08-14T09:00:00+09:00",
+      "popularity": 84,
+      "upvotes": 42,
+      "score": 31.48,
+      "importance_score": 13.63,
       "matched_keywords": [
         "ai",
-        "diffusion",
+        "agent",
+        "multimodal",
+        "reinforcement learning",
+        "reasoning",
+        "foundation model",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 171
+        "value": 42
       }
     },
     {
-      "id": "e286f66f1e8d96e17ae880cd2a229e2e",
+      "id": "c1def19a79a6afb426558828ec1bf894",
       "index": 2,
-      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
-      "title_ko": "Spark-to-Paper: 구성 가능한 기술로서의 엔드투엔드 연구 논문 생성",
-      "summary": "Spark-to-Paper is a lightweight, composable workflow inside coding assistants that generates research papers by separating planning from reporting, enforcing evidence-based claim revision, and using integrity checks to…",
-      "summary_ko": "Spark-to-Paper는 계획과 보고를 분리하고, 증거 기반 청구 수정을 시행하고, 무결성 검사를 사용하여 연구 논문을 생성하는 코딩 도우미 내부의 구성 가능한 경량 워크플로입니다.",
-      "url": "https://huggingface.co/papers/2608.11924",
+      "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+      "title_ko": "LycheeMemory V2: 의미론적 세그먼트 수준 통합을 통한 LLM 에이전트를 위한 효율적인 장기 메모리",
+      "summary": "LycheeMemory V2 improves long-term agent memory by batching interactions into semantic segments for efficient consolidation and structured retrieval, reducing construction costs while maintaining high accuracy.",
+      "summary_ko": "LycheeMemory V2는 효율적인 통합 및 구조화된 검색을 위해 상호작용을 의미론적 세그먼트로 일괄 처리하여 장기 에이전트 메모리를 향상시키며, 높은 정확도를 유지하면서 구성 비용을 절감합니다.",
+      "url": "https://huggingface.co/papers/2608.12990",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-13T09:00:00+09:00",
-      "popularity": 888,
-      "upvotes": 176,
-      "score": 26.08,
-      "importance_score": 18.17,
+      "published_at": "2026-08-14T09:00:00+09:00",
+      "popularity": 1172,
+      "upvotes": 3,
+      "score": 28.15,
+      "importance_score": 18.3,
       "matched_keywords": [
         "ai",
-        "paper"
+        "llm",
+        "agent"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 176
+        "value": 3
       }
     },
     {
@@ -298,74 +309,75 @@
       "engagement": null
     },
     {
-      "id": "837abfa7ad486886fa5eaf93840bc07d",
+      "id": "fedd3f7152d6151d341d4bbcb73e557d",
       "index": 5,
+      "title": "OpenSparX/MasterAgent — Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
+      "title_ko": "OpenSparX/MasterAgent — 장치에서 100% 실행되는 AI 에이전트를 구축합니다. Qualcomm NPU의 지연 시간은 100ms 미만입니다. 클라우드 종속성이 없습니다.",
+      "summary": "Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
+      "summary_ko": "100% 온디바이스에서 실행되는 AI 에이전트를 구축하세요. Qualcomm NPU의 지연 시간은 100ms 미만입니다. 클라우드 종속성이 없습니다.",
+      "url": "https://github.com/OpenSparX/MasterAgent",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-08-14T22:05:18+09:00",
+      "popularity": 191,
+      "upvotes": 191,
+      "score": 32.28,
+      "importance_score": 24.15,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "rag"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 191
+      }
+    },
+    {
+      "id": "837abfa7ad486886fa5eaf93840bc07d",
+      "index": 6,
       "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_ko": "SaladDay/pi-from-scratch — 600줄로 TypeScript로 작성된 pi의 슈퍼 미니 버전으로, 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
       "summary": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary_ko": "600줄의 TypeScript로 작성된 pi의 슈퍼 미니 버전으로 처음부터 자신만의 pi-agent를 쉽게 작성할 수 있습니다.",
       "url": "https://github.com/SaladDay/pi-from-scratch",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-08-12T16:10:35+09:00",
-      "popularity": 883,
-      "upvotes": 883,
-      "score": 28.75,
-      "importance_score": 23.75,
+      "popularity": 977,
+      "upvotes": 977,
+      "score": 29.1,
+      "importance_score": 24.1,
       "matched_keywords": [
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 883
+        "value": 977
       }
     },
     {
-      "id": "a2cf7cce5a0073fd0125446e082cdda0",
-      "index": 6,
-      "title": "wanshuiyin/HERO-Anti-OverDefense — HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A ",
-      "title_ko": "wanshuiyin/HERO-Anti-OverDefense — HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. A",
-      "summary": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
-      "summary_ko": "HERO = 해싱 · 엣지 케이스 · 루브릭 · 오버빌드 — 4가지 도형 코딩 에이전트가 과도하게 방어합니다. 이를 중지하는 붙여넣기 계약입니다. Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI와 함께 작동합니다.",
-      "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-08-12T17:02:41+09:00",
-      "popularity": 129,
-      "upvotes": 129,
-      "score": 28.04,
-      "importance_score": 17.04,
-      "matched_keywords": [
-        "agent",
-        "claude",
-        "gemini"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 129
-      }
-    },
-    {
-      "id": "2328ac189bebad2edb7ca2cb385a4175",
+      "id": "ea3092a0dd593912c78320c11e46c787",
       "index": 7,
-      "title": "멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구",
+      "title": "엔비디아 모델에서도 드러난 AI 안전성의 빈틈",
       "title_ko": null,
-      "summary": "멀티에이전트 시스템의 실패 패턴 연구 소개 같은 지시를 받은 사람 열 명을 한 방에 모아 두면, 각자 다른 방식으로 문제를 나눠 갖기를 기대하게 됩니다. AI 에이전트에게는 이 기대가 잘 맞지 않습니다.",
+      "summary": "AX-Ray: 성능 벤치마크 이후의 AI 안전진단 계층 요약 AI 모델 평가는 지금까지 주로 \"얼마나 잘 맞히는가\"에 집중해 왔다. 그러나 실제 배포 환경에서는 정답률만으로 충분하지 않다. 모델의 내부 계산 경로가 인과적으로 올바른지, serving 경로가 일관적인지, 장문·캐시·양자화·agentic 실행 환경에서 안전하게 동작하는지까지 확인해야 한다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/ai-anthropic/11610",
+      "url": "https://discuss.pytorch.kr/t/ai/11619",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-14T06:30:31+09:00",
-      "popularity": 100,
+      "published_at": "2026-08-14T11:43:13+09:00",
+      "popularity": 96,
       "upvotes": 0,
-      "score": 22.56,
-      "importance_score": 19.13,
+      "score": 21.32,
+      "importance_score": 11.03,
       "matched_keywords": [
         "ai",
-        "연구"
+        "agent",
+        "모델"
       ],
       "engagement": null
     }
