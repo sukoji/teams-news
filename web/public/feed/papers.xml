@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 23:53:16 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 00:53:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>영어에서 루마니아어 기계 번역으로의 성별 편견 완화</title>
+      <link>https://huggingface.co/papers/2608.08606</link>
+      <description>LLM 성별 분류와 태그 인식 신경 번역을 결합한 하이브리드 파이프라인은 영어-루마니아어 기계 번역의 성별 정확도를 향상시킵니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08606">Hugging Face Papers</source>
+      <guid isPermaLink="false">51b7bfe4ff86ed19642547392137988a</guid>
+    </item>
+    <item>
+      <title>구성 가능한 비정형 지식 편집을 위한 하이브리드 정책 자체 편집</title>
+      <link>https://huggingface.co/papers/2608.11660</link>
+      <description>HPSE는 모델의 추론 경로에 누락된 사실을 삽입하는 하이브리드 롤아웃을 추출하여 구성 가능한 멀티홉 추론을 지원함으로써 구조화되지 않은 지식 편집을 개선합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11660">Hugging Face Papers</source>
+      <guid isPermaLink="false">ddaa979100273cc90061ab2142388f10</guid>
+    </item>
+    <item>
+      <title>들리지 않는 입력부터 모델 오류까지: LALM의 저주파 안전 위험</title>
+      <link>https://huggingface.co/papers/2608.09158</link>
+      <description>연구원들은 배포 변화를 감지하고 두 번째 응답을 요청하는 방어와 함께 들리지 않는 저주파 파형을 사용하여 오디오 언어 모델의 취약점을 노출하는 블랙박스 레드팀 구성 방법을 제안합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09158">Hugging Face Papers</source>
+      <guid isPermaLink="false">685d960aab52aa9a29dd24efb6ba7d93</guid>
+    </item>
     <item>
       <title>AI 코딩 에이전트를 사용한 사양 우선 융합: 테스트 오라클이나 사람의 코드 검토 없이 717k 라인 코드베이스의 189개 파일에 걸쳐 핵심 아키텍처 불변성을 해체하는 사례 연구</title>
       <link>https://huggingface.co/papers/2608.12440</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.10450">Hugging Face Papers</source>
       <guid isPermaLink="false">39f270cf6e919dfb7180e09e75e802fa</guid>
-    </item>
-    <item>
-      <title>AVA-인코더: 에이전트 기반 비디오 표현 학습을 향하여</title>
-      <link>https://huggingface.co/papers/2608.12313</link>
-      <description>AVA-Encoder는 지식 그래프를 사용하는 에이전트 자동 인코딩을 통해 구조화된 비디오 표현을 학습하여 토큰 사용량을 줄이면서 영화 같은 비디오 생성 및 추론을 가능하게 합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.12313">Hugging Face Papers</source>
-      <guid isPermaLink="false">63715b7aed3b5bbc79dfa78bb1e89a92</guid>
-    </item>
-    <item>
-      <title>ToolHazard: LLM 기반 에이전트의 보안 평가 및 정렬을 위한 적대적 환경 확장</title>
-      <link>https://huggingface.co/papers/2608.11878</link>
-      <description>ToolHazard는 간접 프롬프트 주입에 대해 LLM 에이전트를 테스트하고 취약점을 드러내며 방어 정렬을 개선하기 위해 적대적인 환경을 합성하는 확장 가능한 프레임워크입니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11878">Hugging Face Papers</source>
-      <guid isPermaLink="false">691396e0b81e8ba93372e2a4d9bd1ff9</guid>
-    </item>
-    <item>
-      <title>에이전트 안전은 런타임 계약이어야 합니다</title>
-      <link>https://huggingface.co/papers/2608.11274</link>
-      <description>훈련 시간 조정 방법에만 의존하기보다는 예방적 제어와 검증 가능한 증거를 통해 런타임에 에이전트 안전을 강화해야 합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11274">Hugging Face Papers</source>
-      <guid isPermaLink="false">61e0b55fa03cebcdc443dd03ede6edbc</guid>
     </item>
   </channel>
 </rss>
