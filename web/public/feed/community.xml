@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 19:04:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 20:44:41 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[로봇깍는 노인] 피지컬AI 직접 만들어보기</title>
+      <link>https://discuss.pytorch.kr/t/ai/11624</link>
+      <description>기존 로봇에 온디바이스 지능을 붙이는 Physical AI 비드래프트의 Physical AI는 새로운 로봇 하드웨어를 처음부터 만드는 프로젝트가 아닙니다. 이미 현장에 배치된 로봇에 센서, 엣지 컴퓨팅 모듈과 AI 모델을 추가해 자연어를 이해하고 주변 환경을 인식하며 행동할 수 있도록 만드는 것이 핵심입니다. 현재 두 가지 플랫폼에서 이를 실증했습니다.</description>
+      <pubDate>Fri, 14 Aug 2026 19:56:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai/11624">PyTorch Korea</source>
+      <guid isPermaLink="false">2bff7588ea7173ac01e0e885d75f83b7</guid>
+    </item>
+    <item>
+      <title>Harness Engineering: 코딩 에이전트의 환경을 설계하는 12개 논제와 플레이북 모음</title>
+      <link>https://discuss.pytorch.kr/t/harness-engineering-12/11613</link>
+      <description>Harness Engineering 소개 같은 모델과 같은 코딩 에이전트를 쓰는데도 조직마다 결과물의 수준이 갈립니다. 모델을 바꾸거나 프롬프트를 다듬는 것 말고 어떤 레버가 남아 있는지는 대개 각 팀의 경험담으로만 돌아다닙니다.</description>
+      <pubDate>Fri, 14 Aug 2026 20:00:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/harness-engineering-12/11613">PyTorch Korea</source>
+      <guid isPermaLink="false">9f2403ac63f1b4e8374da8132e829539</guid>
+    </item>
     <item>
       <title>UEmbed: 디코더 전용 모델에서 희소 검색과 밀집 검색을 통합한 멀티모달 임베딩 연구</title>
       <link>https://discuss.pytorch.kr/t/uembed/11614</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/qm-ai/11511">PyTorch Korea</source>
       <guid isPermaLink="false">a9b0e04c70701f892a7dfac83f6b2d7c</guid>
-    </item>
-    <item>
-      <title>ScientistOne: Chain-of-Evidence로 모든 주장을 증거에 잇는 자율 연구 시스템에 대한 Google의 연구</title>
-      <link>https://discuss.pytorch.kr/t/scientistone-chain-of-evidence-google/11514</link>
-      <description>ScientistOne 소개 잘 읽히는 논문과 믿을 수 있는 논문 학술 논문을 처음 심사해 보는 사람은 대개 같은 함정에 빠집니다. 문장이 매끄럽고 표가 깔끔하고 참고문헌이 빽빽하면 좋은 논문처럼 보인다는 것입니다.</description>
-      <pubDate>Tue, 04 Aug 2026 06:30:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/scientistone-chain-of-evidence-google/11514">PyTorch Korea</source>
-      <guid isPermaLink="false">436ba82a5a80c58d88519ccfb9b8d329</guid>
-    </item>
-    <item>
-      <title>TurboFieldfare: 8GB 맥북에서 Gemma 4 26B를 약 2GB 메모리로 돌리는 Swift 런타임</title>
-      <link>https://discuss.pytorch.kr/t/turbofieldfare-8gb-gemma-4-26b-2gb-swift/11502</link>
-      <description>TurboFieldfare 소개 로컬에서 큰 모델을 돌리려면 메모리가 먼저 걸립니다. Gemma 4 26B-A4B의 4비트 양자화 체크포인트는 설치 용량이 약 14.3GB인데, 통합 메모리 8GB짜리 맥북 에어에는 애초에 올라가지 않습니다.</description>
-      <pubDate>Mon, 03 Aug 2026 21:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/turbofieldfare-8gb-gemma-4-26b-2gb-swift/11502">PyTorch Korea</source>
-      <guid isPermaLink="false">29e28e5927f45beedb8932af0b5bdac2</guid>
     </item>
   </channel>
 </rss>
