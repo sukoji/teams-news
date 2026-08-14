@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 13:49:07 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 15:15:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>UniSwap: 말하는 비디오를 위한 스트리밍 시청각 신원 교환</title>
+      <link>https://huggingface.co/papers/2608.11752</link>
+      <description>UniSwap은 전문 교육 및 추론 적응 기능을 갖춘 통합 스트리밍 시청각 확산 변환기를 통해 말하는 비디오에서 동기화된 모양과 음성 대체를 가능하게 합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11752">Hugging Face Papers</source>
+      <guid isPermaLink="false">475ebf648c3630203d5d857b1788a808</guid>
+    </item>
+    <item>
+      <title>LiveAnimate: 안정적인 실시간 스트리밍 휴먼 애니메이션</title>
+      <link>https://huggingface.co/papers/2608.11745</link>
+      <description>LiveAnimate는 전문 교육, 제한된 주의 캐싱 및 시퀀스 병렬 처리 기능을 갖춘 14B 매개변수 비디오 확산 변환기를 통해 실시간 긴 형태의 포즈 기반 인간 애니메이션을 지원합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11745">Hugging Face Papers</source>
+      <guid isPermaLink="false">89d71e140e0d0121066c83c8eff196b0</guid>
+    </item>
+    <item>
+      <title>SKILLER: 소규모 언어 모델에서 재사용 가능한 기술 추출을 위한 언어 수준 강화 학습</title>
+      <link>https://huggingface.co/papers/2608.10538</link>
+      <description>SKILLER는 작은 오픈 소스 모델에 대한 맞춤형 기술을 자동으로 생성하여 높은 작업 성능을 유지하면서 추론 비용을 줄이는 강화 학습 프레임워크입니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.10538">Hugging Face Papers</source>
+      <guid isPermaLink="false">37e1e43285f56f9a7b2d7737e441b8d4</guid>
+    </item>
     <item>
       <title>LycheeMemory V2: 의미론적 세그먼트 수준 통합을 통한 LLM 에이전트를 위한 효율적인 장기 메모리</title>
       <link>https://huggingface.co/papers/2608.12990</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.08814">Hugging Face Papers</source>
       <guid isPermaLink="false">e726fcdd5e6b698c5d3e095b586b2162</guid>
-    </item>
-    <item>
-      <title>디코딩 수준 금기: LLM 견고성을 위한 진단 스트레스 테스트</title>
-      <link>https://huggingface.co/papers/2608.09900</link>
-      <description>Decoding-level Taboo는 대규모 언어 모델이 비공칭 생성 경로를 처리하는 방법을 보여 주는 런타임 로짓 공간 스트레스 테스트로, 견고성이 규모 및 명령 정렬에 따라 달라짐을 보여줍니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09900">Hugging Face Papers</source>
-      <guid isPermaLink="false">75e64f37b9c30ad268c5617da9457b13</guid>
-    </item>
-    <item>
-      <title>UniMoMo: 대규모 추천 모델을 위한 전문가 병합 기반 MoE 가속화</title>
-      <link>https://huggingface.co/papers/2608.08627</link>
-      <description>UniMoMo는 기능적 유사성 그룹화 및 계층 적응형 보호를 통해 훈련된 전문가 혼합 모델을 더 작은 표준 MoE 체크포인트로 압축하여 추론을 가속화하는 동시에 정확도를 유지합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08627">Hugging Face Papers</source>
-      <guid isPermaLink="false">fbc22f5ebd4899f90396483297fc8630</guid>
-    </item>
-    <item>
-      <title>AdvFD: 적대적 Fr'echet 거리 손실을 통한 시각적 생성 강화</title>
-      <link>https://huggingface.co/papers/2608.11205</link>
-      <description>Adversarial Fréchet Distance는 정적 Fréchet 손실에 학습 가능한 적대 특성 공간을 추가하고 최적화를 안정화하기 위한 화이트닝을 통해 생성기 사후 훈련을 개선합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11205">Hugging Face Papers</source>
-      <guid isPermaLink="false">31f2bae5ddb57d44e3f243e758231498</guid>
     </item>
   </channel>
 </rss>
