@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 15 Aug 2026 08:23:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 10:18:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>자기 부상: 슬라이딩 순환 메모리</title>
+      <link>https://huggingface.co/papers/2608.02870</link>
+      <description>고정 크기 메모리와 결합된 프리필러-디코더 교육을 갖춘 Recurrent Transformer는 긴 컨텍스트 모델링을 개선하는 동시에 효율적인 병렬 교육을 지원하고 추론 비용을 절감합니다.</description>
+      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.02870">Hugging Face Papers</source>
+      <guid isPermaLink="false">d4a990545fd84f6c6d4e2e95372c920b</guid>
+    </item>
     <item>
       <title>추론을 위한 사고 수준 빔 검색</title>
       <link>https://huggingface.co/papers/2608.08020</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.06270">Hugging Face Papers</source>
       <guid isPermaLink="false">7edbf6ca84a91e98cb16481a58c814d0</guid>
-    </item>
-    <item>
-      <title>NeuPAT: 언어 보존 MLLM을 위한 뉴런 인식 가소성 할당 조정</title>
-      <link>https://huggingface.co/papers/2608.08107</link>
-      <description>NeuPAT은 다중 모달 튜닝 중에 언어 감지 뉴런에 대한 업데이트를 선택적으로 제한하여 지각 적응을 활성화하는 동시에 LLM 언어 기능을 보존합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.08107">Hugging Face Papers</source>
-      <guid isPermaLink="false">cd455e04bfd1ce955f0248809be7e24b</guid>
     </item>
   </channel>
 </rss>
