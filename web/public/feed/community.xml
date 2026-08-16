@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 16 Aug 2026 14:30:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 15:41:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DeepSeek Harness: 에이전트 루프까지 설정으로 교체하는 플러그인 구조의 코딩 에이전트</title>
+      <link>https://discuss.pytorch.kr/t/deepseek-harness/11628</link>
+      <description>DeepSeek Harness 소개 코딩 에이전트를 자기 환경에 맞게 고쳐 쓰려는 사람은 대체로 같은 자리에서 멈춥니다. 모델 공급자를 바꾸는 것 정도는 설정으로 되지만, 도구를 실행하기 전에 정책을 한 겹 끼우거나 파일시스템 접근을 원격 샌드박스로 돌리거나 에이전트가 도는 루프 자체를 다른 것으로 갈아 끼우려 하면, 결국 본체 코드를 포크해야 합니다.</description>
+      <pubDate>Sun, 16 Aug 2026 15:30:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/deepseek-harness/11628">PyTorch Korea</source>
+      <guid isPermaLink="false">932177fabd473a36e9783c60f1072fbc</guid>
+    </item>
     <item>
       <title>Agent-Safe Pipeline: 에이전트는 제안만 하고 승인은 정책이 결정하는 참조 아키텍처</title>
       <link>https://discuss.pytorch.kr/t/agent-safe-pipeline/11630</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519">PyTorch Korea</source>
       <guid isPermaLink="false">2864aebfd0821ccab1f1bf6c01d7f31c</guid>
-    </item>
-    <item>
-      <title>Instella-MoE: AMD Instinct GPU에서 처음부터 학습한 완전 오픈 16B MoE 모델</title>
-      <link>https://discuss.pytorch.kr/t/instella-moe-amd-instinct-gpu-16b-moe/11518</link>
-      <description>Instella-MoE 소개 Instella-MoE 는 AMD가 자사의 Instinct MI300X 및 MI325X GPU에서 처음부터(from scratch) 학습해 공개한 전체 파라미터 16B , 토큰당 활성 파라미터 2.8B 규모의 완전 오픈(fully open) 전문가 혼합(Mixture-of-Experts, MoE) 언어 모델입니다.</description>
-      <pubDate>Wed, 05 Aug 2026 06:30:34 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/instella-moe-amd-instinct-gpu-16b-moe/11518">PyTorch Korea</source>
-      <guid isPermaLink="false">2cc6c98514b99d51aba3d043cc1c5d4a</guid>
     </item>
   </channel>
 </rss>
