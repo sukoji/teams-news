@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 16 Aug 2026 15:41:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 16:32:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>'모두의 AI신약' : AI와 사람이 함께 여는 공개 신약 발견 챌린지</title>
+      <link>https://discuss.pytorch.kr/t/ai-ai/11633</link>
+      <description>모두의 AI신약 AI와 사람이 함께 여는 공개 신약 발견 챌린지 신약 연구의 첫걸음을 소수의 연구실만이 아니라 누구나 시작할 수 있다면 어떨까. Open Discovery Challenge는 AI로 설계한 후보물질을 공개된 동일 기준으로 계산 검증하고, 그 결과를 함께 배우는 ‘모두의 AI신약’ 실험이다.</description>
+      <pubDate>Sun, 16 Aug 2026 15:56:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-ai/11633">PyTorch Korea</source>
+      <guid isPermaLink="false">7bcdf6f5bac810a59528f297a9faa39f</guid>
+    </item>
     <item>
       <title>DeepSeek Harness: 에이전트 루프까지 설정으로 교체하는 플러그인 구조의 코딩 에이전트</title>
       <link>https://discuss.pytorch.kr/t/deepseek-harness/11628</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516">PyTorch Korea</source>
       <guid isPermaLink="false">7d939864bfbe72682ac3fd283f72ac0b</guid>
-    </item>
-    <item>
-      <title>esp32-ai: 파라미터 대부분을 플래시에 두고 ESP32-S3에서 28.9M 언어 모델을 돌리기</title>
-      <link>https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519</link>
-      <description>esp32-ai 소개 마이크로컨트롤러에서 언어 모델을 돌릴 때 모델 크기를 결정하는 것은 연산량이 아니라 빠른 메모리의 양입니다. ESP32-S3에 들어 있는 내부 SRAM은 512KB뿐이고, 토큰마다 수없이 읽히는 값들이 그 안에 들어가야 합니다. 임베딩 표는 보통 파라미터의 대부분을 차지하기 때문에, 표를 어디에 둘 것인가가 곧 모델 크기의 상한이 됩니다.</description>
-      <pubDate>Wed, 05 Aug 2026 09:30:18 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/esp32-ai-esp32-s3-28-9m/11519">PyTorch Korea</source>
-      <guid isPermaLink="false">2864aebfd0821ccab1f1bf6c01d7f31c</guid>
     </item>
   </channel>
 </rss>
