@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 16 Aug 2026 20:21:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 21:41:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MiniMax Music 3: 가사와 음악 설명만으로 5분 길이의 완성곡을 만드는 음악 생성 모델</title>
+      <link>https://discuss.pytorch.kr/t/minimax-music-3-5/11629</link>
+      <description>MiniMax Music 3 소개 음악 생성에서 어려운 쪽은 짧은 구간을 그럴듯하게 만드는 일이 아니라 긴 곡 하나를 끝까지 같은 곡으로 유지하는 일입니다. 몇 십 초 단위로는 괜찮게 들리던 결과물도 길이가 늘어나면 주제가 흩어지고, 보컬 음색이 중간에 바뀌고, 편곡이 앞뒤로 이어지지 않습니다.</description>
+      <pubDate>Sun, 16 Aug 2026 20:30:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/minimax-music-3-5/11629">PyTorch Korea</source>
+      <guid isPermaLink="false">fdbba5ab4b1d308a39576dd737980abe</guid>
+    </item>
     <item>
       <title>'모두의 AI신약' : AI와 사람이 함께 여는 공개 신약 발견 챌린지</title>
       <link>https://discuss.pytorch.kr/t/ai-ai/11633</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/thinking-machines-lab-4-1-inkling-inkling-small/11517">PyTorch Korea</source>
       <guid isPermaLink="false">dd52fd0eae2e2f1965cfd83b1e3ca6ee</guid>
-    </item>
-    <item>
-      <title>Rapid-MLX: Apple Silicon 맥에서 로컬 LLM을 OpenAI 호환 서버로 띄우는 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516</link>
-      <description>Rapid-MLX 소개 맥에서 로컬 모델을 돌리려면 보통 두 가지를 감수하게 됩니다. 하나는 llama.cpp 계열 런타임이 Metal 위에 얹히면서 생기는 성능 손해이고, 다른 하나는 도구 호출(tool calling)이 모델마다 다른 형식으로 나와 코딩 에이전트를 붙이면 텍스트가 그대로 튀어나오는 문제입니다. 로컬 추론을 실제 업무 흐름에 넣으려면 이 두 가지가 함께 풀려야 합니다.</description>
-      <pubDate>Wed, 05 Aug 2026 12:30:46 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/rapid-mlx-apple-silicon-llm-openai/11516">PyTorch Korea</source>
-      <guid isPermaLink="false">7d939864bfbe72682ac3fd283f72ac0b</guid>
     </item>
   </channel>
 </rss>
