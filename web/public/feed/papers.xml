@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 18 Aug 2026 01:29:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 02:28:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Apple Silicon의 Nanbeige4.2-3B: 배포 버그 수정 및 루프형 변압기 메모리 오버헤드 감소</title>
+      <link>https://huggingface.co/papers/2608.13987</link>
+      <description>Looped Transformer를 사용하는 3B 매개변수 에이전트 모델은 Apple Silicon에서 안정적으로 실행하고 에이전트 작업을 완료하기 위해 버그 수정과 청크 미리 채우기 전략이 필요합니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13987">Hugging Face Papers</source>
+      <guid isPermaLink="false">969d83ddde37005b1a9b43a3b3e13f58</guid>
+    </item>
     <item>
       <title>모듈식 인지 아키텍처가 대규모 언어 모델에 등장</title>
       <link>https://huggingface.co/papers/2608.13567</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.12990">Hugging Face Papers</source>
       <guid isPermaLink="false">c1def19a79a6afb426558828ec1bf894</guid>
-    </item>
-    <item>
-      <title>LLMRouter: LLM 라우터 개발, 평가 및 배포를 위한 통합 인프라</title>
-      <link>https://huggingface.co/papers/2608.06867</link>
-      <description>LLM 라우팅은 비용 효율적인 모델 선택을 비교하고 개선하기 위해 통합 벤치마크 및 모듈식 인프라를 갖춘 순차적 의사결정 프로세스로 공식화되었습니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.06867">Hugging Face Papers</source>
-      <guid isPermaLink="false">d30f887f2630ba800c8dc1ae8efb996c</guid>
     </item>
   </channel>
 </rss>
