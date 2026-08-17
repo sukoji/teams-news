@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 17 Aug 2026 23:29:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 00:26:45 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>모듈식 인지 아키텍처가 대규모 언어 모델에 등장</title>
+      <link>https://huggingface.co/papers/2608.13567</link>
+      <description>대규모 언어 모델은 언어, 추론 및 물리적 인지 전반에 걸쳐 인간의 두뇌 전문화를 반영하는 모듈식 신경 아키텍처를 개발하여 모듈성이 지능형 시스템의 기본 속성임을 시사합니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13567">Hugging Face Papers</source>
+      <guid isPermaLink="false">aaf3c15492a54cc6c62b101b1a8a757d</guid>
+    </item>
+    <item>
+      <title>Apodex Discovery: 발견 가능한 인공 지능을 평가하고 구축하기 위한 현실 벤치마크 및 환경</title>
+      <link>https://huggingface.co/papers/2608.11341</link>
+      <description>Apodex Discovery는 실제 과학 작업 전반에 걸쳐 강력한 솔버와 구조화된 평가를 사용하여 검증 가능하고 확장된 AI 조사를 위한 프레임워크를 도입합니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.11341">Hugging Face Papers</source>
+      <guid isPermaLink="false">afa8170a1d42017e76d1e8cd502cf712</guid>
+    </item>
+    <item>
+      <title>증폭은 예측을 의미하지 않습니다: 사고 모델의 추론 행동</title>
+      <link>https://huggingface.co/papers/2608.13760</link>
+      <description>추론 훈련은 신뢰 교정과 같은 높은 정확성 행동보다 자기 수정과 같은 심의적 행동을 증폭시켜 증폭된 추론 패턴과 정확성 연결 추론 패턴 사이의 격차를 드러냅니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13760">Hugging Face Papers</source>
+      <guid isPermaLink="false">8ee229e99787cf48cde9188a15ef6131</guid>
+    </item>
     <item>
       <title>누가 말하는가: 이탈리아 의회 절차에 대한 권위 인식 다중 뷰 RAG</title>
       <link>https://huggingface.co/papers/2608.13410</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.06867">Hugging Face Papers</source>
       <guid isPermaLink="false">d30f887f2630ba800c8dc1ae8efb996c</guid>
-    </item>
-    <item>
-      <title>DreamX-Phi 1.0: 로봇 조작을 위한 동작 조건 비디오 세계 모델</title>
-      <link>https://huggingface.co/papers/2608.13489</link>
-      <description>DreamX-Phi 1.0은 기하학적 주의 인코딩, 깊이 추정, 동결된 교사를 사용한 개체 마스크 및 증류를 사용하여 충실한 미래를 생성하는 로봇 조작을 위한 동작 조건 비디오 세계 모델입니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13489">Hugging Face Papers</source>
-      <guid isPermaLink="false">3c74823ecc8a099627fbab81e90b4a52</guid>
-    </item>
-    <item>
-      <title>AutoDesign: Long-Horizon Agentic 설계를 위한 메타 하네스 최적화</title>
-      <link>https://huggingface.co/papers/2608.13560</link>
-      <description>AutoDesign은 메타 하네스 최적화 프로그램을 사용하여 구조화된 미디어 생성을 위한 코드 에이전트를 반복적으로 개선하여 종이에서 포스터로의 합성에서 최첨단 결과를 얻습니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13560">Hugging Face Papers</source>
-      <guid isPermaLink="false">4ff394edd38813c73614dedea8017f86</guid>
-    </item>
-    <item>
-      <title>공간 메모리 에이전트: 공간 지능을 위한 경험 기반 프로시저 메모리</title>
-      <link>https://huggingface.co/papers/2608.12743</link>
-      <description>고정된 비전 언어 모델은 매개변수 업데이트나 외부 도구 없이 검증된 경험, 반영 및 재사용 가능한 메모리 검색을 통해 자체 진화하여 공간 추론을 향상시킵니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.12743">Hugging Face Papers</source>
-      <guid isPermaLink="false">70e8d5a6785496605ad014fe5ac53c1f</guid>
     </item>
   </channel>
 </rss>
