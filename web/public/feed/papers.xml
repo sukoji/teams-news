@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 17 Aug 2026 14:36:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 15:57:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>시계열 기초 모델의 예측 붕괴</title>
+      <link>https://huggingface.co/papers/2608.14106</link>
+      <description>시간당 주식 수익률 예측의 예측 붕괴는 낮은 예측 가능성과 시리즈별 목표에서 비롯되며, 제안된 CalibRank 목표는 교정과 순위의 균형을 유지하여 단면 구조를 복원합니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14106">Hugging Face Papers</source>
+      <guid isPermaLink="false">33481024065564ca1dfcd8d99f95f1d1</guid>
+    </item>
+    <item>
+      <title>UniProbe: 다중 구조 내부 표현을 사용하는 대형 VLM용 학습 가능한 토큰 수준 환각 탐지기</title>
+      <link>https://huggingface.co/papers/2608.10835</link>
+      <description>UniProbe는 방향성 그래프와 교대 GNN, ViT 및 GRU 모듈을 사용하여 고정된 대형 비전 언어 모델에서 환각 토큰을 식별하는 학습 가능한 경량 검출기입니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.10835">Hugging Face Papers</source>
+      <guid isPermaLink="false">fe520a47954790dd657b7cfdf8dae2de</guid>
+    </item>
     <item>
       <title>두 번째 생각: LLM 에이전트의 행동 및 관찰에 따른 병렬 추론</title>
       <link>https://huggingface.co/papers/2608.13667</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.12773">Hugging Face Papers</source>
       <guid isPermaLink="false">b9e3d958a295a691dacae1b1e59d7187</guid>
-    </item>
-    <item>
-      <title>Intern-S2-미리보기: 과학적 에이전트 기반 모델</title>
-      <link>https://huggingface.co/papers/2608.13505</link>
-      <description>Intern-S2-Preview는 다중 모달 사전 훈련, 다중 작업 강화 학습 및 메모리 증강 확장을 통합하여 장기적인 과학적 추론을 지원하는 과학 에이전트 기반 모델 시리즈입니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13505">Hugging Face Papers</source>
-      <guid isPermaLink="false">c58b5121d2e17e55fe7641d637b10de1</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.13558</link>
-      <description>OmniScientist는 자율 에이전트와 수명주기 전반의 인식을 사용하여 이질적인 원시 증거에서 직접 다학문적 연구를 수행하여 증거 기반 기반을 개선하는 엔드 투 엔드 옴니모달 AI 과학자입니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13558">Hugging Face Papers</source>
-      <guid isPermaLink="false">dd475a40b23538739e525bf7d9a9d9dd</guid>
     </item>
   </channel>
 </rss>
