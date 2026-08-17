@@ -5,9 +5,90 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 17 Aug 2026 12:01:42 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 13:43:03 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MobileMem: 1년간의 모바일 경험을 통해 배우기</title>
+      <link>https://huggingface.co/papers/2608.13606</link>
+      <description>MobileMem은 시간적 추론, 지식 업데이트 및 선호도 추론이 필요한 연간 규모의 다중 모드 모바일 경험 궤적을 통해 온디바이스 장기 메모리를 평가하기 위한 벤치마크 및 프레임워크입니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13606">Hugging Face Papers</source>
+      <guid isPermaLink="false">0d0c8191a03ef8115a774be5099c9783</guid>
+    </item>
+    <item>
+      <title>CPI-벤치: 실제 이미지 편집을 위한 포괄적이고 실용적이며 지능적인 벤치마크</title>
+      <link>https://huggingface.co/papers/2608.14546</link>
+      <description>CPI-Bench는 다중 이미지 작업, 실제 적용 및 추론 기반 편집을 평가하여 모델 성능을 더욱 효과적으로 차별화하는 실제 이미지 편집을 위한 포괄적인 벤치마크입니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14546">Hugging Face Papers</source>
+      <guid isPermaLink="false">bcf7bbb3b81624322fb6188b7a14d8ac</guid>
+    </item>
+    <item>
+      <title>HumanTracker: 포괄적이고 인간에 맞춰진 모션 추적 벤치마크를 향하여</title>
+      <link>https://huggingface.co/papers/2608.13555</link>
+      <description>HumanTracker는 지각 품질과 물리적 접촉 안정성을 기반으로 휴머노이드 모션 추적을 평가하기 위해 대규모 벤치마크와 선호도 정렬 측정항목을 도입합니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13555">Hugging Face Papers</source>
+      <guid isPermaLink="false">7c707fe453dff56d5bdf4330f65f6e10</guid>
+    </item>
+    <item>
+      <title>정책 최적화에서 검증자 유도 지원 재구성</title>
+      <link>https://huggingface.co/papers/2608.00220</link>
+      <description>검증 가능한 보상이 포함된 정책 강화 학습은 즉각적인 작업 성능을 향상시키는 동시에 향후 교육에 필요한 성공적인 응답의 다양성을 줄일 수 있습니다. 이는 검증자 유도 지원이라는 현상입니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.00220">Hugging Face Papers</source>
+      <guid isPermaLink="false">a9ac521ffd82729d6df492fd44240331</guid>
+    </item>
+    <item>
+      <title>LLM 사전 훈련에서 도메인 데이터 반복 확장</title>
+      <link>https://huggingface.co/papers/2608.14071</link>
+      <description>모델 크기와 훈련 토큰의 비례적인 확장 하에서 고품질 도메인 데이터의 최적 반복은 규모에 따라 약간 증가하고 고유한 데이터 볼륨보다는 도메인 검증 손실과 상관관계가 있습니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14071">Hugging Face Papers</source>
+      <guid isPermaLink="false">25a822d30af5922f8fd37b730431a309</guid>
+    </item>
+    <item>
+      <title>판사로서의 PRM 1.5: 로봇 프로세스 평가를 위한 툴킷</title>
+      <link>https://huggingface.co/papers/2608.14284</link>
+      <description>PRM-as-a-Judge 1.5는 바이너리 성공률 이상으로 구현된 로봇 모델을 평가할 수 있는 세분화된 프로세스 측정항목과 신뢰성 도구를 제공합니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14284">Hugging Face Papers</source>
+      <guid isPermaLink="false">c5eb4e6683213616a210234ae8a97555</guid>
+    </item>
+    <item>
+      <title>특징 발견 및 제어를 위한 다중 모드 모델 비교</title>
+      <link>https://huggingface.co/papers/2608.09928</link>
+      <description>MMDiff는 다중 모드 스파스 자동 인코더를 사용하여 다중 모드 언어 모델의 특정 기능을 격리, 감지 및 제어함으로써 해석 가능성과 시각적 및 안전 동작의 목표 조정을 향상시킵니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.09928">Hugging Face Papers</source>
+      <guid isPermaLink="false">c14f3501b2db52b5ffd63f7a5770c0a3</guid>
+    </item>
+    <item>
+      <title>잠재 정책 자체 증류</title>
+      <link>https://huggingface.co/papers/2608.13040</link>
+      <description>Latent On-Policy Self-Distillation은 경험을 통해 엔드투엔드 권한 교육 컨텍스트를 학습하여 조밀한 토큰 수준 감독을 제공하고 에이전트 성능과 효율성을 향상시킵니다.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13040">Hugging Face Papers</source>
+      <guid isPermaLink="false">b215407e49e7624ab048bfbb4275d575</guid>
+    </item>
+    <item>
+      <title>보조 감독으로서의 생성: 분리된 임베딩 예측을 통해 제로 추론 오버헤드에서 시각적 이해 향상</title>
+      <link>https://huggingface.co/papers/2608.12209</link>
+      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12209">Hugging Face Papers</source>
+      <guid isPermaLink="false">f0e78fd4e1620a01fa75ea89543e2220</guid>
+    </item>
     <item>
       <title>Intern-S2-Mobius: 분리된 지식과 추론을 갖춘 기초 모델</title>
       <link>https://huggingface.co/papers/2608.14290</link>
@@ -376,87 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.12836">Hugging Face Papers</source>
       <guid isPermaLink="false">ff048661d3be43451d257e5fb5894716</guid>
-    </item>
-    <item>
-      <title>ReRound: 교정 없는 LLM 양자화에서 중간점 모호성을 해결하기 위한 재구성 반올림</title>
-      <link>https://huggingface.co/papers/2608.11045</link>
-      <description>ReRound는 조건부 확산 모델을 사용하여 낮은 비트 사후 훈련 양자화 중에 중간점 근처 가중치의 반올림을 안내하고 선행 특이값을 일치시켜 후보를 선택하여 작은 LLM 정확도를 향상시킵니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11045">Hugging Face Papers</source>
-      <guid isPermaLink="false">daa5cc54fc2320aa556040b58b7c4942</guid>
-    </item>
-    <item>
-      <title>개념을 통해 어디서나 시선 목표 추정</title>
-      <link>https://huggingface.co/papers/2608.11367</link>
-      <description>새로운 프롬프트 가능 패러다임은 텍스트나 시각적 프롬프트를 사용하여 다단계 파이프라인 없이 피사체를 식별하고 시선 대상을 예측하는 엔드투엔드 변환기 모델에 피사체 위치 파악 및 시선 추정을 통합합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11367">Hugging Face Papers</source>
-      <guid isPermaLink="false">2f1ef173b9b9ad2d27da54b214c82f70</guid>
-    </item>
-    <item>
-      <title>세계가 어떻게 진화하는지 학습: 잠재 역학 추론을 통한 추정 비디오 세계 모델</title>
-      <link>https://huggingface.co/papers/2608.09926</link>
-      <description>잠재 역학 추론은 구조화된 잠재 공간에 운동 역학을 통합하여 훨씬 적은 매개변수와 더 빠른 추론을 사용하여 훈련 분포를 훨씬 뛰어넘는 물리적 법칙을 추정하는 비디오 세계 모델을 가능하게 합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09926">Hugging Face Papers</source>
-      <guid isPermaLink="false">de797b2bad9d5be7db9881efde5f367d</guid>
-    </item>
-    <item>
-      <title>SkillZip: 확장 가능한 에이전트 스킬 라이브러리를 위한 계약 보존 그래프 압축</title>
-      <link>https://huggingface.co/papers/2608.05604</link>
-      <description>SkillZip은 재사용 가능한 절차적 기술을 계약을 유지하는 실행 가능한 그래프 단위로 압축하여 제한된 상황 예산 하에서 효율적인 검색 및 확장을 가능하게 합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05604">Hugging Face Papers</source>
-      <guid isPermaLink="false">48be9bb1331811c70fa56216dbfb3ea8</guid>
-    </item>
-    <item>
-      <title>변형 학습을 통한 RLVR의 매개변수 탐색</title>
-      <link>https://huggingface.co/papers/2608.09805</link>
-      <description>교란된 정책 샘플링을 통한 매개변수 공간 탐색은 동작 공간 방법에 비해 롤아웃을 다양화하고 훈련 실패를 줄여 LLM 강화 학습을 향상시킵니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.09805">Hugging Face Papers</source>
-      <guid isPermaLink="false">034edfc03f93f55da27fc2e50dcd6cb2</guid>
-    </item>
-    <item>
-      <title>Mechanist: 지능의 메커니즘을 발견하기 위한 과학적 도구로서의 AI</title>
-      <link>https://huggingface.co/papers/2608.12036</link>
-      <description>Mechanist는 AI를 사용하여 모델 지능의 기본 메커니즘을 발견 및 제어하고, 가설을 생성하고, 인과관계에 따른 개입을 수행하고, 안전과 성능을 향상시키는 자율 에이전트 시스템입니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.12036">Hugging Face Papers</source>
-      <guid isPermaLink="false">284c8a05d7d46a4d2275d09dd8292062</guid>
-    </item>
-    <item>
-      <title>준비된 코호트: LLM 에이전트 제어에서 GPU 기회 제한 및 호스트 왕복 방지</title>
-      <link>https://huggingface.co/papers/2608.12123</link>
-      <description>두 가지 연구에서는 동시 코호트 예약 및 장치 내 라우팅과 호스트 재배치를 분석하여 LLM 에이전트 서비스에 대한 측정 가능한 GPU 제어 게이트를 정의합니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.12123">Hugging Face Papers</source>
-      <guid isPermaLink="false">ce255845e5529cebfc2d6cdeadba913e</guid>
-    </item>
-    <item>
-      <title>Skill-Harness Evolution을 통해 자체 진화하는 구체화된 에이전트</title>
-      <link>https://huggingface.co/papers/2608.11350</link>
-      <description>SHAPER는 환경 롤아웃을 통해 동결된 기반 모델을 중심으로 재사용 가능한 기술과 컨텍스트 코드 하네스를 발전시켜 구현된 에이전트를 개선하는 트레인 프리 프레임워크입니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11350">Hugging Face Papers</source>
-      <guid isPermaLink="false">8d52fea70f4736aeff0948065b9bdb15</guid>
-    </item>
-    <item>
-      <title>손 가시성 감지기: 손에 대한 키포인트별 가시성 추정</title>
-      <link>https://huggingface.co/papers/2608.11574</link>
-      <description>이 작업은 관절별 손 가시성 추정을 위한 전용 모델을 소개하고 다중 뷰 3D 손 포즈 주석에 대한 이점을 보여줍니다.</description>
-      <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.11574">Hugging Face Papers</source>
-      <guid isPermaLink="false">be26b2ee43c936169e77dee6d709670a</guid>
     </item>
   </channel>
 </rss>
