@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 18 Aug 2026 08:23:54 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 10:17:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Moli: Chrome Headless보다 가벼우면서 웹 페이지 데이터 활용에 적합한 AI 에이전트용 헤드리스 브라우저</title>
+      <link>https://discuss.pytorch.kr/t/moli-chrome-headless-ai/11643</link>
+      <description>Moli 소개 에이전트에게 웹을 보여주려고 헤드리스(Headless) 브라우저를 띄우면, 정작 필요한 것은 페이지의 텍스트나 DOM 노드 하나인데 브라우저는 레이아웃과 페인트까지 계속 유지합니다. 이러다보면 페이지 하나를 가져오는데 수백 MiB의 메모리와 여러 개의 프로세스가 필요하고, 여러 에이전트들이 동시에 여러 웹 페이지들에 접근하는 순간, 이러한 자원은 그대로 곱해집니다.</description>
+      <pubDate>Tue, 18 Aug 2026 09:30:46 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/moli-chrome-headless-ai/11643">PyTorch Korea</source>
+      <guid isPermaLink="false">bcc3400453c7ddad9115c97e37616f02</guid>
+    </item>
     <item>
       <title>Andrew Ng의 AI Engineering Skills Map: 개발자가 갖춰야 할 4가지 핵심 역량들</title>
       <link>https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-4/11638</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mistral-3b-shieldstral/11532">PyTorch Korea</source>
       <guid isPermaLink="false">ea0f2f533af0891086ef4c641af350bf</guid>
-    </item>
-    <item>
-      <title>DeepSeek-V4-Flash 정식 버전 출시, 성능은 좋아지면서 가격은 낮아진 모델 (Task당 약 $0.027)</title>
-      <link>https://discuss.pytorch.kr/t/deepseek-v4-flash-task-0-027/11533</link>
-      <description>DeepSeek-V4-Flash 정식 버전 소개 DeepSeek 이 2026년 7월 31일 DeepSeek-V4-Flash 의 정식 버전을 공개하고 API를 공개 베타로 열었습니다.</description>
-      <pubDate>Thu, 06 Aug 2026 09:30:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/deepseek-v4-flash-task-0-027/11533">PyTorch Korea</source>
-      <guid isPermaLink="false">8ab2ff2543bae9ffdac2717f47230ea8</guid>
     </item>
   </channel>
 </rss>
