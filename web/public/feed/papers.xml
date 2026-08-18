@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 18 Aug 2026 23:36:03 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 00:33:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>문서 추출을 위한 유효한 필드별 선택적 위험 제어: 세 가지 실패 모드, 유효성 사다리 및 조건 지불 시</title>
+      <link>https://huggingface.co/papers/2608.14639</link>
+      <description>문서 추출을 위한 필드별 선택적 위험 제어에는 적합/유효 분할 및 Mondrian PAC 인증서가 있는 유효성 사다리가 필요하며, 지원 빈 출처는 특정 조건에서만 학습된 융합보다 성능이 우수하다는 것을 나타냅니다.</description>
+      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14639">Hugging Face Papers</source>
+      <guid isPermaLink="false">9b360f85521d980306503a0c0a93df21</guid>
+    </item>
     <item>
       <title>그럴듯하지만 타당하지 않음: 종합 설문 조사 응답자로서 LLM의 심리 측정 감사</title>
       <link>https://huggingface.co/papers/2608.14606</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.09209">Hugging Face Papers</source>
       <guid isPermaLink="false">fb77c2c1ffe555a86c0588c7e931bca8</guid>
-    </item>
-    <item>
-      <title>시계열 기초 모델의 예측 붕괴</title>
-      <link>https://huggingface.co/papers/2608.14106</link>
-      <description>시간당 주식 수익률 예측의 예측 붕괴는 낮은 예측 가능성과 시리즈별 목표에서 비롯되며, 제안된 CalibRank 목표는 교정과 순위의 균형을 유지하여 단면 구조를 복원합니다.</description>
-      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.14106">Hugging Face Papers</source>
-      <guid isPermaLink="false">33481024065564ca1dfcd8d99f95f1d1</guid>
     </item>
   </channel>
 </rss>
