@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 18 Aug 2026 17:38:41 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 18:35:03 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MOSS-VL 기술 보고서</title>
+      <link>https://huggingface.co/papers/2608.15045</link>
+      <description>MOSS-VL은 합성된 상호 작용 코퍼스와 단계별 커리큘럼을 사용하여 생성 중에 게이트 교차 관심을 통해 비전에 주의를 기울여 실시간 상호 작용을 가능하게 하는 개방형 비전 언어 모델 제품군입니다.</description>
+      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.15045">Hugging Face Papers</source>
+      <guid isPermaLink="false">32782bdbe574ac4d4acae6e08747be44</guid>
+    </item>
+    <item>
+      <title>AutoResearch에서 에이전트가 실패하는 방법: 100가지 실제 개척 연구 작업에 대한 엔드투엔드 진단 평가</title>
+      <link>https://huggingface.co/papers/2608.14905</link>
+      <description>전체 과학 수명주기에 걸쳐 평가된 자율 연구 에이전트는 메타인지적 자기 수정이 전반적으로 부족함을 드러내며 새로운 벤치마크 및 실패 분류에 동기를 부여합니다.</description>
+      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14905">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ac6af5ba933ac9779f176fad958b6d0</guid>
+    </item>
+    <item>
+      <title>실제 동작 언어 모델을 위한 플러그 앤 플레이 2D 동작 인터페이스</title>
+      <link>https://huggingface.co/papers/2608.15984</link>
+      <description>플러그 앤 플레이 2D 모션 인터페이스를 사용하면 사전 훈련된 모션 언어 모델이 재교육 없이 2D 입력을 처리할 수 있어 실제 적용 가능성이 향상됩니다.</description>
+      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.15984">Hugging Face Papers</source>
+      <guid isPermaLink="false">3eae23bc9cd43ffcb4732c789fdfaf82</guid>
+    </item>
+    <item>
+      <title>GRNEdit: 생성적 정제 네트워크의 새로운 이진 증거 관점에서 효율적인 일반 비디오 편집</title>
+      <link>https://huggingface.co/papers/2608.16328</link>
+      <description>GRNEdit는 이진 의미론적 결정과 소스 증거를 통해 비디오 편집 의도를 모델링하여 최소한의 매개변수로 강력한 결과를 달성하는 경량의 2단계 프레임워크입니다.</description>
+      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.16328">Hugging Face Papers</source>
+      <guid isPermaLink="false">1aa906d7c2e8143a8998503e75acbaa8</guid>
+    </item>
     <item>
       <title>대규모 발견 모델: 경험 기반 모델 기반 개방형 검색</title>
       <link>https://huggingface.co/papers/2608.15669</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.13667">Hugging Face Papers</source>
       <guid isPermaLink="false">1aa8177eff493655fa76f31c0b174c53</guid>
-    </item>
-    <item>
-      <title>MobileMem: 1년간의 모바일 경험을 통해 배우기</title>
-      <link>https://huggingface.co/papers/2608.13606</link>
-      <description>MobileMem은 시간적 추론, 지식 업데이트 및 선호도 추론이 필요한 연간 규모의 다중 모드 모바일 경험 궤적을 통해 온디바이스 장기 메모리를 평가하기 위한 벤치마크 및 프레임워크입니다.</description>
-      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13606">Hugging Face Papers</source>
-      <guid isPermaLink="false">0d0c8191a03ef8115a774be5099c9783</guid>
-    </item>
-    <item>
-      <title>CPI-벤치: 실제 이미지 편집을 위한 포괄적이고 실용적이며 지능적인 벤치마크</title>
-      <link>https://huggingface.co/papers/2608.14546</link>
-      <description>CPI-Bench는 다중 이미지 작업, 실제 적용 및 추론 기반 편집을 평가하여 모델 성능을 더욱 효과적으로 차별화하는 실제 이미지 편집을 위한 포괄적인 벤치마크입니다.</description>
-      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.14546">Hugging Face Papers</source>
-      <guid isPermaLink="false">bcf7bbb3b81624322fb6188b7a14d8ac</guid>
-    </item>
-    <item>
-      <title>HumanTracker: 포괄적이고 인간에 맞춰진 모션 추적 벤치마크를 향하여</title>
-      <link>https://huggingface.co/papers/2608.13555</link>
-      <description>HumanTracker는 지각 품질과 물리적 접촉 안정성을 기반으로 휴머노이드 모션 추적을 평가하기 위해 대규모 벤치마크와 선호도 정렬 측정항목을 도입합니다.</description>
-      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13555">Hugging Face Papers</source>
-      <guid isPermaLink="false">7c707fe453dff56d5bdf4330f65f6e10</guid>
-    </item>
-    <item>
-      <title>정책 최적화에서 검증자 유도 지원 재구성</title>
-      <link>https://huggingface.co/papers/2608.00220</link>
-      <description>검증 가능한 보상이 포함된 정책 강화 학습은 즉각적인 작업 성능을 향상시키는 동시에 향후 교육에 필요한 성공적인 응답의 다양성을 줄일 수 있습니다. 이는 검증자 유도 지원이라는 현상입니다.</description>
-      <pubDate>Mon, 17 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.00220">Hugging Face Papers</source>
-      <guid isPermaLink="false">a9ac521ffd82729d6df492fd44240331</guid>
     </item>
   </channel>
 </rss>
