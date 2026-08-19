@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Aug 2026 08:24:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:18:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>리만 제타 함수 임계선 영점 비율: Claude가 무조건적 하한을 41.6%에서 67.25%로 올린 Anthropic의 연구 (≠ 리만 가설 증명)</title>
+      <link>https://discuss.pytorch.kr/t/claude-41-6-67-25-anthropic/11640</link>
+      <description>리만 제타 함수 임계선 영점 연구 소개 Anthropic이 공개한 논문 More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line 은 리만 제타 함수 \zeta(s) 의 자명하지 않은 영점(nontrivial zero) 가운데 임계선 위에 놓인 것의 비율을 무조건적(unco…</description>
+      <pubDate>Wed, 19 Aug 2026 09:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-41-6-67-25-anthropic/11640">PyTorch Korea</source>
+      <guid isPermaLink="false">d6a32bd4681d25da810cd0c0188af1f8</guid>
+    </item>
     <item>
       <title>hyperresearch: 읽은 자료를 보관해 다음 리서치에 재사용하는 Claude Code용 16단계 조사 파이프라인</title>
       <link>https://discuss.pytorch.kr/t/hyperresearch-claude-code-16/11646</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/comp-ai-crm-crm/11538">PyTorch Korea</source>
       <guid isPermaLink="false">292a5253ef8ba6ce405026874ce366d8</guid>
-    </item>
-    <item>
-      <title>DiffusionGemma 기술 문서 리뷰: 자기회귀 Gemma 4를 이산 확산 모델로 변환한 초고속 텍스트 생성에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/diffusiongemma-gemma-4/11526</link>
-      <description>DiffusionGemma 소개 글을 쓸 때 우리는 첫 글자부터 마지막 글자까지 순서대로만 써 내려가지 않습니다. 전체 얼개를 흐릿하게 잡아 두고 앞뒤를 오가며 고쳐 쓰다 보면 어느 순간 문장이 제자리를 찾습니다. DiffusionGemma 기술 보고서 는 언어 모델의 생성 방식을 정확히 이렇게 바꾸려는 연구입니다.</description>
-      <pubDate>Thu, 06 Aug 2026 15:30:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/diffusiongemma-gemma-4/11526">PyTorch Korea</source>
-      <guid isPermaLink="false">3164073d67a73b677d15e6b8d7d6de97</guid>
     </item>
   </channel>
 </rss>
