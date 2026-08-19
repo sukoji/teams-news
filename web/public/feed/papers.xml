@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Aug 2026 11:59:20 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 12:53:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>FreeToken: 대역폭 적응형 실행을 통한 효율적인 Edge-Native MoE 서비스</title>
+      <link>https://huggingface.co/papers/2608.16157</link>
+      <description>FreeToken은 계산 및 모델 상태를 이기종 로컬 하드웨어에 동적으로 매핑하여 개인용 컴퓨터에서 대규모 개방형 모델을 실행하는 엣지 기반 전문가 혼합 서비스 시스템입니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.16157">Hugging Face Papers</source>
+      <guid isPermaLink="false">4b0347068bfee99d5fd272c84879ea01</guid>
+    </item>
+    <item>
+      <title>에너지 기반 흐름 매칭</title>
+      <link>https://huggingface.co/papers/2608.05811</link>
+      <description>에너지 유도 흐름 매칭(Energy-Guided Flow Matching)은 이동 엔드포인트와 적응형 스케줄링을 통해 고주파 세부 정보를 점진적으로 공개하고 훈련 비용을 절감하며 최첨단 FID 점수를 달성함으로써 생성 품질을 향상시킵니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.05811">Hugging Face Papers</source>
+      <guid isPermaLink="false">ba029b6770ca96c09ae1eb8d4a1d13af</guid>
+    </item>
+    <item>
+      <title>메모리 활용: 메모리 에이전트의 메모리 기판에 대한 전체적인 평가</title>
+      <link>https://huggingface.co/papers/2608.15008</link>
+      <description>장거리 LLM 에이전트에 대한 다양한 메모리 기판에 대한 실증적 평가는 체제 의존적 트레이드오프를 보여주며 안정적인 에이전트 메모리를 위한 적응형 기판 라우팅에 동기를 부여합니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.15008">Hugging Face Papers</source>
+      <guid isPermaLink="false">73d48355163979424524040fd8cfde4d</guid>
+    </item>
+    <item>
+      <title>구체화된 내비게이터: 효율적인 탐색을 위한 지정, 생각, 기억 및 정렬</title>
+      <link>https://huggingface.co/papers/2608.17512</link>
+      <description>TAMP-Nav는 비전 언어 모델을 2D 시각적 프롬프트, 압축된 메모리를 통한 선택적 추론 및 밀도 있는 정책 최적화와 정렬하여 구체화된 탐색을 개선합니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.17512">Hugging Face Papers</source>
+      <guid isPermaLink="false">f3ad333754ed0e54875509445945d4a2</guid>
+    </item>
     <item>
       <title>Agentic ESOpt: 최소한의 GPU 요구 사항으로 Long-Horizon LLM 에이전트 미세 조정</title>
       <link>https://huggingface.co/papers/2608.17310</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.15265">Hugging Face Papers</source>
       <guid isPermaLink="false">eeb53f0a31d6c3ffd6c83b1cdff2f894</guid>
-    </item>
-    <item>
-      <title>R^3-벤치: LLM은 공유 예산 하에서 자원 합리적 추론으로 어려움을 겪습니다.</title>
-      <link>https://huggingface.co/papers/2608.16033</link>
-      <description>R³-Bench는 공유된 계산 예산으로 인해 추론 에이전트가 수학, 코딩 및 추상 추론 작업 전반에 걸쳐 단일 문제 기능에 비해 성능이 저하된다는 사실을 밝혔습니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16033">Hugging Face Papers</source>
-      <guid isPermaLink="false">27402dcfb1845250433103e13cdc3626</guid>
-    </item>
-    <item>
-      <title>에이전트 트랜잭션: ACID 호환 에이전트 시스템을 향하여</title>
-      <link>https://huggingface.co/papers/2608.13900</link>
-      <description>에이전트 트랜잭션을 위한 ACID 호환 프레임워크는 장거리 LLM 에이전트 워크플로의 안정적이고 격리되며 내구성 있는 실행을 보장하는 의미론적 보장을 도입합니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13900">Hugging Face Papers</source>
-      <guid isPermaLink="false">594d847606afa19fda1570f0ede57d71</guid>
-    </item>
-    <item>
-      <title>NaviDC-OCR: 디지털 및 카메라로 캡처한 문서에서 문서 구문 분석 탐색</title>
-      <link>https://huggingface.co/papers/2608.12898</link>
-      <description>NaviDC-OCR은 변형 인식 학습, 적응형 레이아웃 샘플링, 분리된 콘텐츠 구조 교육을 통합하여 문서 구문 분석 정확도와 구조적 이유를 향상시키는 통합 비전 언어 프레임워크입니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.12898">Hugging Face Papers</source>
-      <guid isPermaLink="false">c7d7898a7e86a3d20721572c8882f50a</guid>
-    </item>
-    <item>
-      <title>ClawGym II: Agent Harness의 Black-Box RL 탐색</title>
-      <link>https://huggingface.co/papers/2608.16798</link>
-      <description>통합 블랙박스 강화 학습 프레임워크는 샌드박스 실행, 궤적 재구성 및 혼합 하네스 훈련을 통해 복잡한 하네스를 통해 일반 에이전트의 안정적이고 확장 가능한 최적화를 가능하게 합니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16798">Hugging Face Papers</source>
-      <guid isPermaLink="false">d659a2e17f6bacbb104bc3cc7067b89d</guid>
     </item>
   </channel>
 </rss>
