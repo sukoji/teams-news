@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Aug 2026 17:39:04 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:36:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Cindy: Claude Code와 Codex를 작업 도중에 바꿔 가며 쓰는 오픈소스 AI 에이전트 클라이언트</title>
+      <link>https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657</link>
+      <description>Cindy 소개 코딩 에이전트를 두 개 이상 쓰다 보면 도구를 바꾸는 순간마다 작업이 처음으로 돌아갑니다. 한쪽에서 프로젝트 구조를 설명하고 규칙을 알려 준 뒤 절반쯤 진행했는데, 다른 모델이 더 나을 것 같아 도구를 바꾸면 그 맥락이 따라오지 않습니다. 열어 둔 파일, 지금까지 합의한 설계, 알려 준 작업 방식이 각 도구 안에 갇혀 있기 때문입니다.</description>
+      <pubDate>Wed, 19 Aug 2026 18:30:44 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657">PyTorch Korea</source>
+      <guid isPermaLink="false">b182102f0e5bf1bfaa2c99a5077aef6d</guid>
+    </item>
     <item>
       <title>PenEcho: 손으로 쓴 수식과 도형을 읽고 답을 옆에 그려주는 오픈소스 AI 캔버스</title>
       <link>https://discuss.pytorch.kr/t/penecho-ai/11658</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mixture-of-kittens-cursor-nvl72-moe/11548">PyTorch Korea</source>
       <guid isPermaLink="false">35ea76ddfe893fcde9050a5faabc8d2f</guid>
-    </item>
-    <item>
-      <title>Liquid AI, 휴대폰에서 실행 가능한 온-디바이스 에이전트 모델 LFM2.5-2.6B 공개</title>
-      <link>https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549</link>
-      <description>LFM2.5-2.6B 소개 Liquid AI 가 온디바이스(on-device) 환경에서 에이전트를 직접 돌리는 것을 목표로 만든 2.6B 파라미터 모델 LFM2.5-2.6B 를 공개했습니다. 휴대폰에 올라갈 만큼 작고, CPU에서도 반응이 끊기지 않을 만큼 빠르며, 계획을 세우고 도구를 호출하며 여러 단계에 걸친 작업을 수행할 만큼의 능력을 갖췄다는 것이 이 모델의 요지입니다.</description>
-      <pubDate>Fri, 07 Aug 2026 06:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/liquid-ai-lfm2-5-2-6b/11549">PyTorch Korea</source>
-      <guid isPermaLink="false">766dde8dcd12c9f6a0b82f9e8abef372</guid>
     </item>
   </channel>
 </rss>
