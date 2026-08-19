@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-19",
-  "generated_at": "2026-08-19T08:17:42.543135+09:00",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T08:18:29.057923+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,57 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "eeb53f0a31d6c3ffd6c83b1cdff2f894",
+          "id": "435bfd44fbd008da50079ca376d18f9e",
           "index": 1,
-          "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
-          "title_ko": "VibeWorlding: 멀티모달 에이전트가 엔드투엔드 3D 오픈 월드를 구축할 수 있습니까?",
-          "summary": "A unified framework benchmarks and trains multimodal agents that infer intent, plan 3D scenes, invoke tools, and reflect on feedback, revealing that reinforcement learning improves open-source models beyond closed-sourc…",
-          "summary_ko": "통합 프레임워크는 의도를 추론하고, 3D 장면을 계획하고, 도구를 호출하고, 피드백을 반영하는 다중 모달 에이전트를 벤치마킹하고 교육하여 강화 학습이 폐쇄 소스를 넘어 오픈 소스 모델을 향상시킨다는 사실을 보여줍니다.",
-          "url": "https://huggingface.co/papers/2608.15265",
+          "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+          "title_ko": "Agentic ESOpt: 최소한의 GPU 요구 사항으로 Long-Horizon LLM 에이전트 미세 조정",
+          "summary": "Agentic ESOpt uses evolution strategies for scalable full-parameter fine-tuning of long-horizon LLM agents via trajectory-level reward-weighted updates and parameter-context co-evolution.",
+          "summary_ko": "Agentic ESOpt는 궤도 수준 보상 가중치 업데이트 및 매개변수 컨텍스트 공동 진화를 통해 확장 가능한 전체 매개변수 미세 조정을 위한 진화 전략을 사용합니다.",
+          "url": "https://huggingface.co/papers/2608.17310",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-18T09:00:00+09:00",
-          "popularity": 155,
-          "upvotes": 51,
-          "score": 29.3,
-          "importance_score": 15.44,
+          "published_at": "2026-08-19T09:00:00+09:00",
+          "popularity": 212,
+          "upvotes": 91,
+          "score": 26.23,
+          "importance_score": 16.37,
           "matched_keywords": [
-            "ai",
+            "llm",
             "agent",
-            "multimodal",
-            "reinforcement learning",
-            "benchmark"
+            "fine-tuning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 51
+            "value": 91
           }
         },
         {
-          "id": "45e2262c816d155cba7f22d273b35f23",
+          "id": "76e640128a63f6c915ee0af9ebaf8ac9",
           "index": 2,
-          "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
-          "title_ko": "MegaParts: 토큰 효율적인 자동 회귀 모델링을 통해 부품 인식 3D 객체 생성을 300개 부품으로 확장",
-          "summary": "MegaParts scales part-aware 3D generation via token-efficient vector-quantized part tokens and structured autoregressive sequence modeling with long-context training.",
-          "summary_ko": "MegaParts는 토큰 효율적인 벡터 양자화 부품 토큰과 긴 컨텍스트 교육을 통한 구조화된 자동 회귀 시퀀스 모델링을 통해 부품 인식 3D 생성을 확장합니다.",
-          "url": "https://huggingface.co/papers/2608.14783",
+          "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "HarmProfile is a benchmark dataset that characterizes frontier LLM safety failures through content analysis, revealing that harmfulness and diversity increase with model capability.",
+          "summary_ko": "HarmProfile은 콘텐츠 분석을 통해 최전선 LLM 안전 실패를 특성화하는 벤치마크 데이터세트로, 모델 기능에 따라 유해성과 다양성이 증가한다는 사실을 보여줍니다.",
+          "url": "https://huggingface.co/papers/2608.14577",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-08-18T09:00:00+09:00",
-          "popularity": 548,
-          "upvotes": 15,
-          "score": 28.15,
-          "importance_score": 18.29,
+          "popularity": 89,
+          "upvotes": 19,
+          "score": 25.5,
+          "importance_score": 13.5,
           "matched_keywords": [
             "ai",
-            "vector",
-            "training"
+            "llm",
+            "benchmark",
+            "dataset"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 15
+            "value": 19
           }
         }
       ]
@@ -70,17 +69,17 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "c6a10070d9238fb63ccb0de4e19e03b1",
+          "id": "913b4bf79f77fadd8a5fa15747009d17",
           "index": 3,
-          "title": "[8월18일] AI 의료의 새로운 돌파구…의사도 경험하기 어려운 '희귀질환'",
+          "title": "[8월19일] 도메인 특화 AI의 다음 경쟁력은 ‘메모리’…하비, 업무 맥락까지 기억",
           "title_ko": null,
-          "summary": "“AI에 대한 대중의 신뢰를 높이는 가장 확실한 방법은 암을 치료하는 것이다.”다리오 아모데이 앤트로픽 CEO가 최근 AI의 의료 활용을 두고 한 말입니다. AI가 인류에 큰 도움을 줄 것이라는 약속만으로는 부족하며, 실제로 사람들의 삶을 바꾸는 성과를 보여줘야 한다는 의미입니다.",
+          "summary": "미국의 대표적인 법률 AI 스타트업 하비가 18일(현지시간) 새로운 플랫폼 ‘하비 II(Harvey II)’를 공개했습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214043",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214100",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-19T07:00:00+09:00",
+          "published_at": "2026-08-20T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
           "score": 19.73,
@@ -91,25 +90,25 @@
           "engagement": null
         },
         {
-          "id": "76886b2b49ca7167731a42e48a12cca4",
+          "id": "97a908772eebc8976cd265df09d33a46",
           "index": 4,
-          "title": "AI로 연구비 '대박' 후보 골랐더니, 뜻밖 1위 누구…챗GPT는 아니었다",
+          "title": "로앤컴퍼니, 업스테이지 컨소시엄으로 '국가대표 AI' 3차 진출",
           "title_ko": null,
-          "summary": "[지디넷코리아]영국 정부가 세금으로 나가는 연구비를 더 똑똑하게 쓰려고 인공지능(AI)에게 숙제를 하나 맡겼다. 산더미처럼 쌓인 연구 제안서를 읽고, 그 안에서 다음 대박이 될 만한 유망 분야를 미리 찾아내라는 것이었다. 그런데 성적표를 열어보니 가장 유명한 챗GPT(ChatGPT)도 단독 1위를 차지하지 못했고, 정부가 직접 만든 전용 도구는 오히려 뒤처졌다.",
+          "summary": "로앤컴퍼니가 포함된 업스테이지 컨소시엄이 정부의 서바이벌 형식 국가대표 인공지능(AI) 사업 3차전에 진출했다. 로앤컴퍼니는 업스테이지 컨소시엄으로 과학기술정보통신부가 주관하는 '독자 AI 파운데이션 모델' 프로젝트 2차에 통과했다고 19일 밝혔다. 3차에 진출한 컨소시엄은 업스테이지를 포함해 SK텔레콤, LG AI연구원 3곳이다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260818220838",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260819000321",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-18T22:08:38+09:00",
-          "popularity": 99,
+          "published_at": "2026-08-19T15:26:42+09:00",
+          "popularity": 79,
           "upvotes": 0,
-          "score": 23.79,
-          "importance_score": 15.67,
+          "score": 20.39,
+          "importance_score": 10.87,
           "matched_keywords": [
             "ai",
-            "gpt",
-            "연구"
+            "연구",
+            "모델"
           ],
           "engagement": null
         }
@@ -120,8 +119,38 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "ccee9779b7bea867e417c3902547c54a",
+          "id": "a6d944c537ffd1fe426ceeab96e9c39e",
           "index": 5,
+          "title": "zorost/AI-Engineering-Lab — A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, ",
+          "title_ko": "zorost/AI-Engineering-Lab — 무료 자기 주도형 24주 AI 엔지니어링 과정: Python, 기계 학습, LLM, RAG, 미세 조정,",
+          "summary": "A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous case study.",
+          "summary_ko": "무료로 자습 가능한 24주 AI 엔지니어링 과정: Python, 기계 학습, LLM, RAG, 미세 조정, 에이전트 및 MCP, Azure, Vertex, Bedrock, Databricks. 43개의 실행 가능한 노트북, 하나의 연속 사례 연구.",
+          "url": "https://github.com/zorost/AI-Engineering-Lab",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-08-18T04:36:07+09:00",
+          "popularity": 45,
+          "upvotes": 45,
+          "score": 36.4,
+          "importance_score": 13.4,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
+            "rag",
+            "machine learning",
+            "fine-tuning",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 45
+          }
+        },
+        {
+          "id": "ccee9779b7bea867e417c3902547c54a",
+          "index": 6,
           "title": "V1ki/dsh-plugin-subscriptions — Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — ",
           "title_ko": "V1ki/dsh-plugin-subscriptions — ChatGPT(Codex), Claude 및 Grok(X Premium) 구독을 DeepSeek Harness LLM 공급자로 사용 —",
           "summary": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
@@ -130,11 +159,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-18T16:07:40+09:00",
-          "popularity": 115,
-          "upvotes": 115,
-          "score": 29.27,
-          "importance_score": 19.9,
+          "published_at": "2026-08-19T22:50:49+09:00",
+          "popularity": 163,
+          "upvotes": 163,
+          "score": 31.88,
+          "importance_score": 23.91,
           "matched_keywords": [
             "llm",
             "gpt",
@@ -142,32 +171,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 115
-          }
-        },
-        {
-          "id": "6dcbe3a32d3b6f782a7023719e5cb5ae",
-          "index": 6,
-          "title": "seyedehsanhadi/sloptrim — A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard ",
-          "title_ko": "seyedehsanhadi/sloptrim — AI 작성 패턴에 대한 로컬 감지기입니다. 에이전트가 저장한 모든 산문 파일에 점수를 매깁니다. 파이썬 표준",
-          "summary": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
-          "summary_ko": "AI 작성 패턴을 위한 로컬 감지기입니다. 에이전트가 저장한 모든 산문 파일에 점수를 매깁니다. Python 표준 라이브러리만 있고 네트워크도 없고 모델도 없습니다.",
-          "url": "https://github.com/seyedehsanhadi/sloptrim",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-08-18T22:56:31+09:00",
-          "popularity": 159,
-          "upvotes": 159,
-          "score": 28.81,
-          "importance_score": 23.87,
-          "matched_keywords": [
-            "ai",
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 159
+            "value": 163
           }
         }
       ]
@@ -177,23 +181,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "e92fc20dfb8fa9aa930c6a070f9e58bd",
+          "id": "b182102f0e5bf1bfaa2c99a5077aef6d",
           "index": 7,
-          "title": "hyperresearch: 읽은 자료를 보관해 다음 리서치에 재사용하는 Claude Code용 16단계 조사 파이프라인",
+          "title": "Cindy: Claude Code와 Codex를 작업 도중에 바꿔 가며 쓰는 오픈소스 AI 에이전트 클라이언트",
           "title_ko": null,
-          "summary": "hyperresearch 소개 심층 조사(deep research) 기능을 한 번 써 보면 두 가지가 남습니다. 그럴듯하게 정리된 보고서 하나와, 그 보고서가 정말 근거를 읽고 쓴 것인지 확인할 방법이 없다는 찜찜함입니다. 인용 표기는 있지만 그 문장을 실제로 뒷받침하는지는 알 수 없고, 유료 논문은 초록 1,500자만 읽은 채로 마치 본문을 읽은 것처럼 인용되기도 합니다.",
+          "summary": "Cindy 소개 코딩 에이전트를 두 개 이상 쓰다 보면 도구를 바꾸는 순간마다 작업이 처음으로 돌아갑니다. 한쪽에서 프로젝트 구조를 설명하고 규칙을 알려 준 뒤 절반쯤 진행했는데, 다른 모델이 더 나을 것 같아 도구를 바꾸면 그 맥락이 따라오지 않습니다. 열어 둔 파일, 지금까지 합의한 설계, 알려 준 작업 방식이 각 도구 안에 갇혀 있기 때문입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/hyperresearch-claude-code-16/11646",
+          "url": "https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-18T15:30:03+09:00",
+          "published_at": "2026-08-19T18:30:44+09:00",
           "popularity": 99,
           "upvotes": 0,
-          "score": 16.4,
-          "importance_score": 12.9,
+          "score": 23.03,
+          "importance_score": 14.15,
           "matched_keywords": [
-            "claude"
+            "ai",
+            "claude",
+            "모델"
           ],
           "engagement": null
         }
@@ -202,71 +208,70 @@
   ],
   "items": [
     {
-      "id": "eeb53f0a31d6c3ffd6c83b1cdff2f894",
+      "id": "435bfd44fbd008da50079ca376d18f9e",
       "index": 1,
-      "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
-      "title_ko": "VibeWorlding: 멀티모달 에이전트가 엔드투엔드 3D 오픈 월드를 구축할 수 있습니까?",
-      "summary": "A unified framework benchmarks and trains multimodal agents that infer intent, plan 3D scenes, invoke tools, and reflect on feedback, revealing that reinforcement learning improves open-source models beyond closed-sourc…",
-      "summary_ko": "통합 프레임워크는 의도를 추론하고, 3D 장면을 계획하고, 도구를 호출하고, 피드백을 반영하는 다중 모달 에이전트를 벤치마킹하고 교육하여 강화 학습이 폐쇄 소스를 넘어 오픈 소스 모델을 향상시킨다는 사실을 보여줍니다.",
-      "url": "https://huggingface.co/papers/2608.15265",
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "title_ko": "Agentic ESOpt: 최소한의 GPU 요구 사항으로 Long-Horizon LLM 에이전트 미세 조정",
+      "summary": "Agentic ESOpt uses evolution strategies for scalable full-parameter fine-tuning of long-horizon LLM agents via trajectory-level reward-weighted updates and parameter-context co-evolution.",
+      "summary_ko": "Agentic ESOpt는 궤도 수준 보상 가중치 업데이트 및 매개변수 컨텍스트 공동 진화를 통해 확장 가능한 전체 매개변수 미세 조정을 위한 진화 전략을 사용합니다.",
+      "url": "https://huggingface.co/papers/2608.17310",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-18T09:00:00+09:00",
-      "popularity": 155,
-      "upvotes": 51,
-      "score": 29.3,
-      "importance_score": 15.44,
+      "published_at": "2026-08-19T09:00:00+09:00",
+      "popularity": 212,
+      "upvotes": 91,
+      "score": 26.23,
+      "importance_score": 16.37,
       "matched_keywords": [
-        "ai",
+        "llm",
         "agent",
-        "multimodal",
-        "reinforcement learning",
-        "benchmark"
+        "fine-tuning"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 51
+        "value": 91
       }
     },
     {
-      "id": "45e2262c816d155cba7f22d273b35f23",
+      "id": "76e640128a63f6c915ee0af9ebaf8ac9",
       "index": 2,
-      "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
-      "title_ko": "MegaParts: 토큰 효율적인 자동 회귀 모델링을 통해 부품 인식 3D 객체 생성을 300개 부품으로 확장",
-      "summary": "MegaParts scales part-aware 3D generation via token-efficient vector-quantized part tokens and structured autoregressive sequence modeling with long-context training.",
-      "summary_ko": "MegaParts는 토큰 효율적인 벡터 양자화 부품 토큰과 긴 컨텍스트 교육을 통한 구조화된 자동 회귀 시퀀스 모델링을 통해 부품 인식 3D 생성을 확장합니다.",
-      "url": "https://huggingface.co/papers/2608.14783",
+      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "HarmProfile is a benchmark dataset that characterizes frontier LLM safety failures through content analysis, revealing that harmfulness and diversity increase with model capability.",
+      "summary_ko": "HarmProfile은 콘텐츠 분석을 통해 최전선 LLM 안전 실패를 특성화하는 벤치마크 데이터세트로, 모델 기능에 따라 유해성과 다양성이 증가한다는 사실을 보여줍니다.",
+      "url": "https://huggingface.co/papers/2608.14577",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-08-18T09:00:00+09:00",
-      "popularity": 548,
-      "upvotes": 15,
-      "score": 28.15,
-      "importance_score": 18.29,
+      "popularity": 89,
+      "upvotes": 19,
+      "score": 25.5,
+      "importance_score": 13.5,
       "matched_keywords": [
         "ai",
-        "vector",
-        "training"
+        "llm",
+        "benchmark",
+        "dataset"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 15
+        "value": 19
       }
     },
     {
-      "id": "c6a10070d9238fb63ccb0de4e19e03b1",
+      "id": "913b4bf79f77fadd8a5fa15747009d17",
       "index": 3,
-      "title": "[8월18일] AI 의료의 새로운 돌파구…의사도 경험하기 어려운 '희귀질환'",
+      "title": "[8월19일] 도메인 특화 AI의 다음 경쟁력은 ‘메모리’…하비, 업무 맥락까지 기억",
       "title_ko": null,
-      "summary": "“AI에 대한 대중의 신뢰를 높이는 가장 확실한 방법은 암을 치료하는 것이다.”다리오 아모데이 앤트로픽 CEO가 최근 AI의 의료 활용을 두고 한 말입니다. AI가 인류에 큰 도움을 줄 것이라는 약속만으로는 부족하며, 실제로 사람들의 삶을 바꾸는 성과를 보여줘야 한다는 의미입니다.",
+      "summary": "미국의 대표적인 법률 AI 스타트업 하비가 18일(현지시간) 새로운 플랫폼 ‘하비 II(Harvey II)’를 공개했습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214043",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214100",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-19T07:00:00+09:00",
+      "published_at": "2026-08-20T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
       "score": 19.73,
@@ -277,31 +282,61 @@
       "engagement": null
     },
     {
-      "id": "76886b2b49ca7167731a42e48a12cca4",
+      "id": "97a908772eebc8976cd265df09d33a46",
       "index": 4,
-      "title": "AI로 연구비 '대박' 후보 골랐더니, 뜻밖 1위 누구…챗GPT는 아니었다",
+      "title": "로앤컴퍼니, 업스테이지 컨소시엄으로 '국가대표 AI' 3차 진출",
       "title_ko": null,
-      "summary": "[지디넷코리아]영국 정부가 세금으로 나가는 연구비를 더 똑똑하게 쓰려고 인공지능(AI)에게 숙제를 하나 맡겼다. 산더미처럼 쌓인 연구 제안서를 읽고, 그 안에서 다음 대박이 될 만한 유망 분야를 미리 찾아내라는 것이었다. 그런데 성적표를 열어보니 가장 유명한 챗GPT(ChatGPT)도 단독 1위를 차지하지 못했고, 정부가 직접 만든 전용 도구는 오히려 뒤처졌다.",
+      "summary": "로앤컴퍼니가 포함된 업스테이지 컨소시엄이 정부의 서바이벌 형식 국가대표 인공지능(AI) 사업 3차전에 진출했다. 로앤컴퍼니는 업스테이지 컨소시엄으로 과학기술정보통신부가 주관하는 '독자 AI 파운데이션 모델' 프로젝트 2차에 통과했다고 19일 밝혔다. 3차에 진출한 컨소시엄은 업스테이지를 포함해 SK텔레콤, LG AI연구원 3곳이다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260818220838",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20260819000321",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-18T22:08:38+09:00",
-      "popularity": 99,
+      "published_at": "2026-08-19T15:26:42+09:00",
+      "popularity": 79,
       "upvotes": 0,
-      "score": 23.79,
-      "importance_score": 15.67,
+      "score": 20.39,
+      "importance_score": 10.87,
       "matched_keywords": [
         "ai",
-        "gpt",
-        "연구"
+        "연구",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "ccee9779b7bea867e417c3902547c54a",
+      "id": "a6d944c537ffd1fe426ceeab96e9c39e",
       "index": 5,
+      "title": "zorost/AI-Engineering-Lab — A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, ",
+      "title_ko": "zorost/AI-Engineering-Lab — 무료 자기 주도형 24주 AI 엔지니어링 과정: Python, 기계 학습, LLM, RAG, 미세 조정,",
+      "summary": "A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous case study.",
+      "summary_ko": "무료로 자습 가능한 24주 AI 엔지니어링 과정: Python, 기계 학습, LLM, RAG, 미세 조정, 에이전트 및 MCP, Azure, Vertex, Bedrock, Databricks. 43개의 실행 가능한 노트북, 하나의 연속 사례 연구.",
+      "url": "https://github.com/zorost/AI-Engineering-Lab",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-08-18T04:36:07+09:00",
+      "popularity": 45,
+      "upvotes": 45,
+      "score": 36.4,
+      "importance_score": 13.4,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "rag",
+        "machine learning",
+        "fine-tuning",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 45
+      }
+    },
+    {
+      "id": "ccee9779b7bea867e417c3902547c54a",
+      "index": 6,
       "title": "V1ki/dsh-plugin-subscriptions — Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — ",
       "title_ko": "V1ki/dsh-plugin-subscriptions — ChatGPT(Codex), Claude 및 Grok(X Premium) 구독을 DeepSeek Harness LLM 공급자로 사용 —",
       "summary": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
@@ -310,11 +345,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-18T16:07:40+09:00",
-      "popularity": 115,
-      "upvotes": 115,
-      "score": 29.27,
-      "importance_score": 19.9,
+      "published_at": "2026-08-19T22:50:49+09:00",
+      "popularity": 163,
+      "upvotes": 163,
+      "score": 31.88,
+      "importance_score": 23.91,
       "matched_keywords": [
         "llm",
         "gpt",
@@ -322,52 +357,29 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 115
+        "value": 163
       }
     },
     {
-      "id": "6dcbe3a32d3b6f782a7023719e5cb5ae",
-      "index": 6,
-      "title": "seyedehsanhadi/sloptrim — A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard ",
-      "title_ko": "seyedehsanhadi/sloptrim — AI 작성 패턴에 대한 로컬 감지기입니다. 에이전트가 저장한 모든 산문 파일에 점수를 매깁니다. 파이썬 표준",
-      "summary": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
-      "summary_ko": "AI 작성 패턴을 위한 로컬 감지기입니다. 에이전트가 저장한 모든 산문 파일에 점수를 매깁니다. Python 표준 라이브러리만 있고 네트워크도 없고 모델도 없습니다.",
-      "url": "https://github.com/seyedehsanhadi/sloptrim",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-08-18T22:56:31+09:00",
-      "popularity": 159,
-      "upvotes": 159,
-      "score": 28.81,
-      "importance_score": 23.87,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 159
-      }
-    },
-    {
-      "id": "e92fc20dfb8fa9aa930c6a070f9e58bd",
+      "id": "b182102f0e5bf1bfaa2c99a5077aef6d",
       "index": 7,
-      "title": "hyperresearch: 읽은 자료를 보관해 다음 리서치에 재사용하는 Claude Code용 16단계 조사 파이프라인",
+      "title": "Cindy: Claude Code와 Codex를 작업 도중에 바꿔 가며 쓰는 오픈소스 AI 에이전트 클라이언트",
       "title_ko": null,
-      "summary": "hyperresearch 소개 심층 조사(deep research) 기능을 한 번 써 보면 두 가지가 남습니다. 그럴듯하게 정리된 보고서 하나와, 그 보고서가 정말 근거를 읽고 쓴 것인지 확인할 방법이 없다는 찜찜함입니다. 인용 표기는 있지만 그 문장을 실제로 뒷받침하는지는 알 수 없고, 유료 논문은 초록 1,500자만 읽은 채로 마치 본문을 읽은 것처럼 인용되기도 합니다.",
+      "summary": "Cindy 소개 코딩 에이전트를 두 개 이상 쓰다 보면 도구를 바꾸는 순간마다 작업이 처음으로 돌아갑니다. 한쪽에서 프로젝트 구조를 설명하고 규칙을 알려 준 뒤 절반쯤 진행했는데, 다른 모델이 더 나을 것 같아 도구를 바꾸면 그 맥락이 따라오지 않습니다. 열어 둔 파일, 지금까지 합의한 설계, 알려 준 작업 방식이 각 도구 안에 갇혀 있기 때문입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/hyperresearch-claude-code-16/11646",
+      "url": "https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-18T15:30:03+09:00",
+      "published_at": "2026-08-19T18:30:44+09:00",
       "popularity": 99,
       "upvotes": 0,
-      "score": 16.4,
-      "importance_score": 12.9,
+      "score": 23.03,
+      "importance_score": 14.15,
       "matched_keywords": [
-        "claude"
+        "ai",
+        "claude",
+        "모델"
       ],
       "engagement": null
     }
