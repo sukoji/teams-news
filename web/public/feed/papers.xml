@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Aug 2026 16:39:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 17:39:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PixRestore: Pixel Diffusion Transformer를 통한 통합 이미지 복원</title>
+      <link>https://huggingface.co/papers/2608.16793</link>
+      <description>PixRestore는 패치된 픽셀의 흐름 일치, DINO 기반 신뢰성 기반 기능 융합 및 반대를 사용하여 통합 이미지 복원을 위해 처음부터 훈련된 소형 VAE 없는 픽셀 공간 확산 변환기입니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.16793">Hugging Face Papers</source>
+      <guid isPermaLink="false">4dd6c1508895bb8cdd9025adbc7c9c20</guid>
+    </item>
+    <item>
+      <title>신비한 에이전트 기술: 작동하는 이유 - 작동하지 않을 때까지</title>
+      <link>https://huggingface.co/papers/2608.14036</link>
+      <description>기술은 주로 누락된 지식을 주입하는 대신 절차적 고정을 통해 실행을 안정화함으로써 LLM 에이전트를 향상시킵니다. 하지만 검색 병목 현상과 취약한 가정으로 인해 효율성이 제한됩니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14036">Hugging Face Papers</source>
+      <guid isPermaLink="false">d1200519beb92e885adda6b42f792cf6</guid>
+    </item>
+    <item>
+      <title>MoE-ViE: 효율적인 이미지 및 비디오 이해를 위한 전문가 비전 인코더 혼합</title>
+      <link>https://huggingface.co/papers/2608.17402</link>
+      <description>세분화된 토폴로지, 보조 손실 없는 밸런싱 및 특수 커널을 갖춘 전문가의 혼합 비전 인코더는 효율적으로 확장하는 동시에 이미지 및 비디오 작업에서 더 크고 밀도가 높은 모델보다 성능이 뛰어납니다.</description>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.17402">Hugging Face Papers</source>
+      <guid isPermaLink="false">282279b12ba8a13cbdd27182c90ee251</guid>
+    </item>
     <item>
       <title>EDITBRIDGE: 충실하고 효율적인 초고해상도 이미지 편집을 향하여</title>
       <link>https://huggingface.co/papers/2608.18063</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.15930">Hugging Face Papers</source>
       <guid isPermaLink="false">d6bc49efc0671b8b5082849e749ac0d5</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.14718</link>
-      <description>VideoGAIA는 복잡한 실제 작업을 통해 고급 다중 모드 모델에 대한 에이전트적 비디오 이해를 평가하는 다중 회전, 도구 강화 벤치마크를 도입합니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.14718">Hugging Face Papers</source>
-      <guid isPermaLink="false">e0843347834fba94d429fa244d180f05</guid>
-    </item>
-    <item>
-      <title>픽셀 공간 텍스트-이미지 확산 모델 훈련에 대한 실증적 연구</title>
-      <link>https://huggingface.co/papers/2608.16887</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16887">Hugging Face Papers</source>
-      <guid isPermaLink="false">abf3147c83ec5155ba0b153168450ecd</guid>
-    </item>
-    <item>
-      <title>Ventor-QTest: 공급업체가 호스팅하는 LLM API의 위협 모델 기반 검증</title>
-      <link>https://huggingface.co/papers/2608.16391</link>
-      <description>Ventor-QTest 감사는 반복적이고 긴 시퀀스의 블랙박스 프로브를 통해 개방형 모델 API를 호스팅하여 평균 및 극단적인 충실도 손실을 측정하여 장거리 에이전트 성능의 저하를 감지합니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16391">Hugging Face Papers</source>
-      <guid isPermaLink="false">70d12b47e2e1004fa19dd4966118ce90</guid>
     </item>
   </channel>
 </rss>
