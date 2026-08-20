@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:53:12 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 13:38:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Zetta ζ: 자체 진화하는 물리적 지능을 위한 효율적인 폐쇄 루프 구현 하네스</title>
+      <link>https://huggingface.co/papers/2608.16590</link>
+      <description>Zetta는 런타임 비평가 및 복구 기술을 온라인으로 발전시켜 작업 빈도에 따른 물리적 실행을 제어하고 더 빠른 추론 및 확장으로 로봇 벤치마크에서 높은 성공을 달성하는 폐쇄 루프 내장 하네스입니다.</description>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.16590">Hugging Face Papers</source>
+      <guid isPermaLink="false">407e335845cd2628337509a9f9de2e8b</guid>
+    </item>
+    <item>
+      <title>속성 기반 장르 확장을 통해 스토리 중심 데이터를 넘어 창의적 글쓰기 확장</title>
+      <link>https://huggingface.co/papers/2608.13947</link>
+      <description>장르 형식 컨트롤에서 주제별 씨앗을 분리하는 프레임워크는 13개 장르에 걸쳐 다양하고 고품질의 창의적 글쓰기 데이터를 생성하고 LLM 창의적 글쓰기 성능을 향상시킵니다.</description>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13947">Hugging Face Papers</source>
+      <guid isPermaLink="false">7820ddc24a490418edcfecb3719a9e6f</guid>
+    </item>
+    <item>
+      <title>잠재 세계 모델의 결정-메트릭 정렬: MPC 계획을 위한 진단 및 행동 조건 목표</title>
+      <link>https://huggingface.co/papers/2608.18746</link>
+      <description>행동 조건이 적용된 목표는 세계 모델의 의사결정 지표 정렬을 강화하여 유클리드 비용 모델 예측 제어를 위한 잠재 기하학을 개선합니다.</description>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.18746">Hugging Face Papers</source>
+      <guid isPermaLink="false">59c888fd9ef8a102dc4b059e320c8540</guid>
+    </item>
     <item>
       <title>SemComp-Bench: 비디오 생성에서 의미 체계 작업 완료 벤치마킹</title>
       <link>https://huggingface.co/papers/2608.17426</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.14639">Hugging Face Papers</source>
       <guid isPermaLink="false">9b360f85521d980306503a0c0a93df21</guid>
-    </item>
-    <item>
-      <title>그럴듯하지만 타당하지 않음: 종합 설문 조사 응답자로서 LLM의 심리 측정 감사</title>
-      <link>https://huggingface.co/papers/2608.14606</link>
-      <description>대규모 언어 모델은 종합 설문 조사 응답의 광범위한 심리학적 경향을 복제하지만 인간의 관절 분포, 신뢰성 및 중재 구조와 일치하지 못하므로 실제 연구를 대체하기에 부적합합니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.14606">Hugging Face Papers</source>
-      <guid isPermaLink="false">45ea4136433a5031345b0c1b3e40ca31</guid>
-    </item>
-    <item>
-      <title>개방적이고 재현 가능한 관계형 학습 발전: RelArena-α, TabPFN-Rel 및 RPI</title>
-      <link>https://huggingface.co/papers/2608.16319</link>
-      <description>Prior Labs는 재현 가능한 관계형 학습을 발전시키기 위해 통합 관계형 벤치마크 프레임워크, TabPFN 기반 관계형 모델, 모델에 구애받지 않는 예측 인터페이스를 포함한 오픈 소스 도구를 출시했습니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16319">Hugging Face Papers</source>
-      <guid isPermaLink="false">37426bdb226d257c1cf7b96ea5041fac</guid>
-    </item>
-    <item>
-      <title>MOSS-VL 기술 보고서</title>
-      <link>https://huggingface.co/papers/2608.15045</link>
-      <description>MOSS-VL은 합성된 상호 작용 코퍼스와 단계별 커리큘럼을 사용하여 생성 중에 게이트 교차 관심을 통해 비전에 주의를 기울여 실시간 상호 작용을 가능하게 하는 개방형 비전 언어 모델 제품군입니다.</description>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.15045">Hugging Face Papers</source>
-      <guid isPermaLink="false">32782bdbe574ac4d4acae6e08747be44</guid>
     </item>
   </channel>
 </rss>
