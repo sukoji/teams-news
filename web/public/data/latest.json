@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-20",
-  "generated_at": "2026-08-20T08:18:29.057923+09:00",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T08:20:57.281708+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "435bfd44fbd008da50079ca376d18f9e",
+          "id": "1cac4a473b4ef0127094841550e450a2",
           "index": 1,
-          "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-          "title_ko": "Agentic ESOpt: 최소한의 GPU 요구 사항으로 Long-Horizon LLM 에이전트 미세 조정",
-          "summary": "Agentic ESOpt uses evolution strategies for scalable full-parameter fine-tuning of long-horizon LLM agents via trajectory-level reward-weighted updates and parameter-context co-evolution.",
-          "summary_ko": "Agentic ESOpt는 궤도 수준 보상 가중치 업데이트 및 매개변수 컨텍스트 공동 진화를 통해 확장 가능한 전체 매개변수 미세 조정을 위한 진화 전략을 사용합니다.",
-          "url": "https://huggingface.co/papers/2608.17310",
+          "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+          "title_ko": "LEGO-RL: 코딩 에이전트를 위한 하네스 기반 강화 학습",
+          "summary": "LEGO-RL connects native coding-agent harnesses to scalable policy-gradient training via in-process LLM proxying, sandbox orchestration, and integrated monitoring, improving sparse MoE model performance across multiple h…",
+          "summary_ko": "LEGO-RL은 프로세스 내 LLM 프록시, 샌드박스 조정 및 통합 모니터링을 통해 기본 코딩 에이전트 하네스를 확장 가능한 정책 그라데이션 교육에 연결하여 여러 시간에 걸쳐 희소 MoE 모델 성능을 향상시킵니다.",
+          "url": "https://huggingface.co/papers/2608.17393",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-08-19T09:00:00+09:00",
-          "popularity": 212,
-          "upvotes": 91,
-          "score": 26.23,
-          "importance_score": 16.37,
-          "matched_keywords": [
-            "llm",
-            "agent",
-            "fine-tuning"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 91
-          }
-        },
-        {
-          "id": "76e640128a63f6c915ee0af9ebaf8ac9",
-          "index": 2,
-          "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "HarmProfile is a benchmark dataset that characterizes frontier LLM safety failures through content analysis, revealing that harmfulness and diversity increase with model capability.",
-          "summary_ko": "HarmProfile은 콘텐츠 분석을 통해 최전선 LLM 안전 실패를 특성화하는 벤치마크 데이터세트로, 모델 기능에 따라 유해성과 다양성이 증가한다는 사실을 보여줍니다.",
-          "url": "https://huggingface.co/papers/2608.14577",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-08-18T09:00:00+09:00",
-          "popularity": 89,
+          "popularity": 77,
           "upvotes": 19,
-          "score": 25.5,
-          "importance_score": 13.5,
+          "score": 27.07,
+          "importance_score": 13.07,
           "matched_keywords": [
             "ai",
             "llm",
-            "benchmark",
-            "dataset"
+            "agent",
+            "reinforcement learning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
             "value": 19
+          }
+        },
+        {
+          "id": "407e335845cd2628337509a9f9de2e8b",
+          "index": 2,
+          "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+          "title_ko": "Zetta ζ: 자체 진화하는 물리적 지능을 위한 효율적인 폐쇄 루프 구현 하네스",
+          "summary": "Zetta is a closed-loop embodied harness that evolves runtime critics and recovery skills online to govern physical execution at action frequency, achieving high success on robot benchmarks with faster inference and scal…",
+          "summary_ko": "Zetta는 런타임 비평가 및 복구 기술을 온라인으로 발전시켜 작업 빈도에 따른 물리적 실행을 제어하고 더 빠른 추론 및 확장으로 로봇 벤치마크에서 높은 성공을 달성하는 폐쇄 루프 내장 하네스입니다.",
+          "url": "https://huggingface.co/papers/2608.16590",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-08-20T09:00:00+09:00",
+          "popularity": 449,
+          "upvotes": 129,
+          "score": 26.14,
+          "importance_score": 18.27,
+          "matched_keywords": [
+            "benchmark",
+            "inference"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 129
           }
         }
       ]
@@ -69,45 +69,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "913b4bf79f77fadd8a5fa15747009d17",
+          "id": "b655c565cca9bef8f9832535fe46afa8",
           "index": 3,
-          "title": "[8월19일] 도메인 특화 AI의 다음 경쟁력은 ‘메모리’…하비, 업무 맥락까지 기억",
+          "title": "기계가 놓친 쓰레기를 '쏙쏙' 골라내는 AI 로봇",
           "title_ko": null,
-          "summary": "미국의 대표적인 법률 AI 스타트업 하비가 18일(현지시간) 새로운 플랫폼 ‘하비 II(Harvey II)’를 공개했습니다.",
+          "summary": "기계로 처리하기 복잡한 쓰레기를 직접 집어내는 AI 로봇이 등장했습니다. 스위스 로봇 스타트업 그립(Grip)은 구겨지거나 서로 엉킨 쓰레기를 로봇팔로 골라내는 시스템을 개발했습니다. 그립은 AI 모델을 활용해 처음 보는 물체에도 적절한 집기 동작을 생성하고 자체 개발한 그리퍼로 형태에 맞춰 집어냅니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214100",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20260820000342",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-20T07:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-08-20T22:30:00+09:00",
+          "popularity": 97,
           "upvotes": 0,
-          "score": 19.73,
-          "importance_score": 19.46,
+          "score": 20.65,
+          "importance_score": 15.6,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "97a908772eebc8976cd265df09d33a46",
+          "id": "4f2d63bedb0895864fd22725f8e450e7",
           "index": 4,
-          "title": "로앤컴퍼니, 업스테이지 컨소시엄으로 '국가대표 AI' 3차 진출",
+          "title": "대학가 AI 토큰 비용 골치…비용 효율 높이는 활용체계 절실",
           "title_ko": null,
-          "summary": "로앤컴퍼니가 포함된 업스테이지 컨소시엄이 정부의 서바이벌 형식 국가대표 인공지능(AI) 사업 3차전에 진출했다. 로앤컴퍼니는 업스테이지 컨소시엄으로 과학기술정보통신부가 주관하는 '독자 AI 파운데이션 모델' 프로젝트 2차에 통과했다고 19일 밝혔다. 3차에 진출한 컨소시엄은 업스테이지를 포함해 SK텔레콤, LG AI연구원 3곳이다.",
+          "summary": "기업에 이어 대학에서도 생성형 인공지능(AI) 활용이 빠르게 확산하면서 학내 '토큰 비용' 관리가 새로운 과제로 떠올랐다. 해외 거대언어모델(LLM) 기반 AI 사용 확대로 토큰 비용이 해외 사업자에게 지급되는 지식서비스 무역수지 불균형 문제도 우려되는 상황이다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260819000321",
+          "url": "https://www.etnews.com/20260820000336",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-19T15:26:42+09:00",
-          "popularity": 79,
+          "published_at": "2026-08-20T15:28:26+09:00",
+          "popularity": 76,
           "upvotes": 0,
-          "score": 20.39,
-          "importance_score": 10.87,
+          "score": 20.08,
+          "importance_score": 10.57,
           "matched_keywords": [
             "ai",
-            "연구",
+            "llm",
             "모델"
           ],
           "engagement": null
@@ -130,10 +131,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-08-18T04:36:07+09:00",
-          "popularity": 45,
-          "upvotes": 45,
-          "score": 36.4,
-          "importance_score": 13.4,
+          "popularity": 97,
+          "upvotes": 97,
+          "score": 39.05,
+          "importance_score": 16.05,
           "matched_keywords": [
             "ai",
             "llm",
@@ -145,33 +146,34 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 45
+            "value": 97
           }
         },
         {
-          "id": "ccee9779b7bea867e417c3902547c54a",
+          "id": "fef16a01671d4aceb2e4da8b3b919311",
           "index": 6,
-          "title": "V1ki/dsh-plugin-subscriptions — Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — ",
-          "title_ko": "V1ki/dsh-plugin-subscriptions — ChatGPT(Codex), Claude 및 Grok(X Premium) 구독을 DeepSeek Harness LLM 공급자로 사용 —",
-          "summary": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
-          "summary_ko": "ChatGPT(Codex), Claude 및 Grok(X Premium) 구독을 DeepSeek Harness LLM 공급자로 사용 — 웹 UI에서 OAuth 로그인, API 키 없음",
-          "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
+          "title": "squall01337/mixamo-llm-mocap — Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blen",
+          "title_ko": "squall01337/mixamo-llm-mocap — 모든 비디오를 Mixamo-rig 애니메이션으로 변환 - GVHMR 추정기, 사양 기반 재타겟, Blen에 FK 적용",
+          "summary": "Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent.",
+          "summary_ko": "모든 비디오를 Mixamo-rig 애니메이션으로 전환하세요. GVHMR 추정기, 사양 기반 리타겟팅, FK가 MCP를 통해 Blender에 적용됩니다. 모든 Mixamo 캐릭터와 함께 작동합니다.",
+          "url": "https://github.com/squall01337/mixamo-llm-mocap",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-19T22:50:49+09:00",
-          "popularity": 163,
-          "upvotes": 163,
-          "score": 31.88,
-          "importance_score": 23.91,
+          "published_at": "2026-08-18T22:23:01+09:00",
+          "popularity": 124,
+          "upvotes": 124,
+          "score": 30.9,
+          "importance_score": 16.9,
           "matched_keywords": [
+            "ai",
             "llm",
-            "gpt",
-            "claude"
+            "agent",
+            "mcp"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 163
+            "value": 124
           }
         }
       ]
@@ -181,24 +183,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "b182102f0e5bf1bfaa2c99a5077aef6d",
+          "id": "09f20b76a756164f754eca0cb836d000",
           "index": 7,
-          "title": "Cindy: Claude Code와 Codex를 작업 도중에 바꿔 가며 쓰는 오픈소스 AI 에이전트 클라이언트",
+          "title": "OpenAI, 신규 모델 Astra의 예상치 못한 사이버 보안 위험성에 개발 속도를 늦추고 안전장치를 재정비 중",
           "title_ko": null,
-          "summary": "Cindy 소개 코딩 에이전트를 두 개 이상 쓰다 보면 도구를 바꾸는 순간마다 작업이 처음으로 돌아갑니다. 한쪽에서 프로젝트 구조를 설명하고 규칙을 알려 준 뒤 절반쯤 진행했는데, 다른 모델이 더 나을 것 같아 도구를 바꾸면 그 맥락이 따라오지 않습니다. 열어 둔 파일, 지금까지 합의한 설계, 알려 준 작업 방식이 각 도구 안에 갇혀 있기 때문입니다.",
+          "summary": "OpenAI가 프런티어 모델 학습을 멈춘 이유 OpenAI 가 2026년 8월 18일, 자사의 프런티어 모델 개발 속도를 스스로 늦추고 있다는 사실을 공개했습니다. 배포를 목표로 학습 중이던 최신 모델들의 강화학습(Reinforcement Learning, RL) 을 2주간 중단했고, 계획하고 있던 가장 큰 규모의 프런티어 RL 실행은 현재까지도 여전히 보류 상태입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657",
+          "url": "https://discuss.pytorch.kr/t/openai-astra/11659",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-19T18:30:44+09:00",
-          "popularity": 99,
+          "published_at": "2026-08-20T08:30:31+09:00",
+          "popularity": 96,
           "upvotes": 0,
-          "score": 23.03,
-          "importance_score": 14.15,
+          "score": 20.63,
+          "importance_score": 9.67,
           "matched_keywords": [
             "ai",
-            "claude",
+            "reinforcement learning",
             "모델"
           ],
           "engagement": null
@@ -208,52 +210,27 @@
   ],
   "items": [
     {
-      "id": "435bfd44fbd008da50079ca376d18f9e",
+      "id": "1cac4a473b4ef0127094841550e450a2",
       "index": 1,
-      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-      "title_ko": "Agentic ESOpt: 최소한의 GPU 요구 사항으로 Long-Horizon LLM 에이전트 미세 조정",
-      "summary": "Agentic ESOpt uses evolution strategies for scalable full-parameter fine-tuning of long-horizon LLM agents via trajectory-level reward-weighted updates and parameter-context co-evolution.",
-      "summary_ko": "Agentic ESOpt는 궤도 수준 보상 가중치 업데이트 및 매개변수 컨텍스트 공동 진화를 통해 확장 가능한 전체 매개변수 미세 조정을 위한 진화 전략을 사용합니다.",
-      "url": "https://huggingface.co/papers/2608.17310",
+      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+      "title_ko": "LEGO-RL: 코딩 에이전트를 위한 하네스 기반 강화 학습",
+      "summary": "LEGO-RL connects native coding-agent harnesses to scalable policy-gradient training via in-process LLM proxying, sandbox orchestration, and integrated monitoring, improving sparse MoE model performance across multiple h…",
+      "summary_ko": "LEGO-RL은 프로세스 내 LLM 프록시, 샌드박스 조정 및 통합 모니터링을 통해 기본 코딩 에이전트 하네스를 확장 가능한 정책 그라데이션 교육에 연결하여 여러 시간에 걸쳐 희소 MoE 모델 성능을 향상시킵니다.",
+      "url": "https://huggingface.co/papers/2608.17393",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-08-19T09:00:00+09:00",
-      "popularity": 212,
-      "upvotes": 91,
-      "score": 26.23,
-      "importance_score": 16.37,
-      "matched_keywords": [
-        "llm",
-        "agent",
-        "fine-tuning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 91
-      }
-    },
-    {
-      "id": "76e640128a63f6c915ee0af9ebaf8ac9",
-      "index": 2,
-      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "HarmProfile is a benchmark dataset that characterizes frontier LLM safety failures through content analysis, revealing that harmfulness and diversity increase with model capability.",
-      "summary_ko": "HarmProfile은 콘텐츠 분석을 통해 최전선 LLM 안전 실패를 특성화하는 벤치마크 데이터세트로, 모델 기능에 따라 유해성과 다양성이 증가한다는 사실을 보여줍니다.",
-      "url": "https://huggingface.co/papers/2608.14577",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-18T09:00:00+09:00",
-      "popularity": 89,
+      "popularity": 77,
       "upvotes": 19,
-      "score": 25.5,
-      "importance_score": 13.5,
+      "score": 27.07,
+      "importance_score": 13.07,
       "matched_keywords": [
         "ai",
         "llm",
-        "benchmark",
-        "dataset"
+        "agent",
+        "reinforcement learning",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
@@ -261,45 +238,71 @@
       }
     },
     {
-      "id": "913b4bf79f77fadd8a5fa15747009d17",
+      "id": "407e335845cd2628337509a9f9de2e8b",
+      "index": 2,
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "title_ko": "Zetta ζ: 자체 진화하는 물리적 지능을 위한 효율적인 폐쇄 루프 구현 하네스",
+      "summary": "Zetta is a closed-loop embodied harness that evolves runtime critics and recovery skills online to govern physical execution at action frequency, achieving high success on robot benchmarks with faster inference and scal…",
+      "summary_ko": "Zetta는 런타임 비평가 및 복구 기술을 온라인으로 발전시켜 작업 빈도에 따른 물리적 실행을 제어하고 더 빠른 추론 및 확장으로 로봇 벤치마크에서 높은 성공을 달성하는 폐쇄 루프 내장 하네스입니다.",
+      "url": "https://huggingface.co/papers/2608.16590",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-20T09:00:00+09:00",
+      "popularity": 449,
+      "upvotes": 129,
+      "score": 26.14,
+      "importance_score": 18.27,
+      "matched_keywords": [
+        "benchmark",
+        "inference"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 129
+      }
+    },
+    {
+      "id": "b655c565cca9bef8f9832535fe46afa8",
       "index": 3,
-      "title": "[8월19일] 도메인 특화 AI의 다음 경쟁력은 ‘메모리’…하비, 업무 맥락까지 기억",
+      "title": "기계가 놓친 쓰레기를 '쏙쏙' 골라내는 AI 로봇",
       "title_ko": null,
-      "summary": "미국의 대표적인 법률 AI 스타트업 하비가 18일(현지시간) 새로운 플랫폼 ‘하비 II(Harvey II)’를 공개했습니다.",
+      "summary": "기계로 처리하기 복잡한 쓰레기를 직접 집어내는 AI 로봇이 등장했습니다. 스위스 로봇 스타트업 그립(Grip)은 구겨지거나 서로 엉킨 쓰레기를 로봇팔로 골라내는 시스템을 개발했습니다. 그립은 AI 모델을 활용해 처음 보는 물체에도 적절한 집기 동작을 생성하고 자체 개발한 그리퍼로 형태에 맞춰 집어냅니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214100",
-      "source": "AI Times",
+      "url": "https://www.etnews.com/20260820000342",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-20T07:00:00+09:00",
-      "popularity": 100,
+      "published_at": "2026-08-20T22:30:00+09:00",
+      "popularity": 97,
       "upvotes": 0,
-      "score": 19.73,
-      "importance_score": 19.46,
+      "score": 20.65,
+      "importance_score": 15.6,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "97a908772eebc8976cd265df09d33a46",
+      "id": "4f2d63bedb0895864fd22725f8e450e7",
       "index": 4,
-      "title": "로앤컴퍼니, 업스테이지 컨소시엄으로 '국가대표 AI' 3차 진출",
+      "title": "대학가 AI 토큰 비용 골치…비용 효율 높이는 활용체계 절실",
       "title_ko": null,
-      "summary": "로앤컴퍼니가 포함된 업스테이지 컨소시엄이 정부의 서바이벌 형식 국가대표 인공지능(AI) 사업 3차전에 진출했다. 로앤컴퍼니는 업스테이지 컨소시엄으로 과학기술정보통신부가 주관하는 '독자 AI 파운데이션 모델' 프로젝트 2차에 통과했다고 19일 밝혔다. 3차에 진출한 컨소시엄은 업스테이지를 포함해 SK텔레콤, LG AI연구원 3곳이다.",
+      "summary": "기업에 이어 대학에서도 생성형 인공지능(AI) 활용이 빠르게 확산하면서 학내 '토큰 비용' 관리가 새로운 과제로 떠올랐다. 해외 거대언어모델(LLM) 기반 AI 사용 확대로 토큰 비용이 해외 사업자에게 지급되는 지식서비스 무역수지 불균형 문제도 우려되는 상황이다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260819000321",
+      "url": "https://www.etnews.com/20260820000336",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-19T15:26:42+09:00",
-      "popularity": 79,
+      "published_at": "2026-08-20T15:28:26+09:00",
+      "popularity": 76,
       "upvotes": 0,
-      "score": 20.39,
-      "importance_score": 10.87,
+      "score": 20.08,
+      "importance_score": 10.57,
       "matched_keywords": [
         "ai",
-        "연구",
+        "llm",
         "모델"
       ],
       "engagement": null
@@ -316,10 +319,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-08-18T04:36:07+09:00",
-      "popularity": 45,
-      "upvotes": 45,
-      "score": 36.4,
-      "importance_score": 13.4,
+      "popularity": 97,
+      "upvotes": 97,
+      "score": 39.05,
+      "importance_score": 16.05,
       "matched_keywords": [
         "ai",
         "llm",
@@ -331,54 +334,55 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 45
+        "value": 97
       }
     },
     {
-      "id": "ccee9779b7bea867e417c3902547c54a",
+      "id": "fef16a01671d4aceb2e4da8b3b919311",
       "index": 6,
-      "title": "V1ki/dsh-plugin-subscriptions — Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — ",
-      "title_ko": "V1ki/dsh-plugin-subscriptions — ChatGPT(Codex), Claude 및 Grok(X Premium) 구독을 DeepSeek Harness LLM 공급자로 사용 —",
-      "summary": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
-      "summary_ko": "ChatGPT(Codex), Claude 및 Grok(X Premium) 구독을 DeepSeek Harness LLM 공급자로 사용 — 웹 UI에서 OAuth 로그인, API 키 없음",
-      "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
+      "title": "squall01337/mixamo-llm-mocap — Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blen",
+      "title_ko": "squall01337/mixamo-llm-mocap — 모든 비디오를 Mixamo-rig 애니메이션으로 변환 - GVHMR 추정기, 사양 기반 재타겟, Blen에 FK 적용",
+      "summary": "Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent.",
+      "summary_ko": "모든 비디오를 Mixamo-rig 애니메이션으로 전환하세요. GVHMR 추정기, 사양 기반 리타겟팅, FK가 MCP를 통해 Blender에 적용됩니다. 모든 Mixamo 캐릭터와 함께 작동합니다.",
+      "url": "https://github.com/squall01337/mixamo-llm-mocap",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-19T22:50:49+09:00",
-      "popularity": 163,
-      "upvotes": 163,
-      "score": 31.88,
-      "importance_score": 23.91,
+      "published_at": "2026-08-18T22:23:01+09:00",
+      "popularity": 124,
+      "upvotes": 124,
+      "score": 30.9,
+      "importance_score": 16.9,
       "matched_keywords": [
+        "ai",
         "llm",
-        "gpt",
-        "claude"
+        "agent",
+        "mcp"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 163
+        "value": 124
       }
     },
     {
-      "id": "b182102f0e5bf1bfaa2c99a5077aef6d",
+      "id": "09f20b76a756164f754eca0cb836d000",
       "index": 7,
-      "title": "Cindy: Claude Code와 Codex를 작업 도중에 바꿔 가며 쓰는 오픈소스 AI 에이전트 클라이언트",
+      "title": "OpenAI, 신규 모델 Astra의 예상치 못한 사이버 보안 위험성에 개발 속도를 늦추고 안전장치를 재정비 중",
       "title_ko": null,
-      "summary": "Cindy 소개 코딩 에이전트를 두 개 이상 쓰다 보면 도구를 바꾸는 순간마다 작업이 처음으로 돌아갑니다. 한쪽에서 프로젝트 구조를 설명하고 규칙을 알려 준 뒤 절반쯤 진행했는데, 다른 모델이 더 나을 것 같아 도구를 바꾸면 그 맥락이 따라오지 않습니다. 열어 둔 파일, 지금까지 합의한 설계, 알려 준 작업 방식이 각 도구 안에 갇혀 있기 때문입니다.",
+      "summary": "OpenAI가 프런티어 모델 학습을 멈춘 이유 OpenAI 가 2026년 8월 18일, 자사의 프런티어 모델 개발 속도를 스스로 늦추고 있다는 사실을 공개했습니다. 배포를 목표로 학습 중이던 최신 모델들의 강화학습(Reinforcement Learning, RL) 을 2주간 중단했고, 계획하고 있던 가장 큰 규모의 프런티어 RL 실행은 현재까지도 여전히 보류 상태입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657",
+      "url": "https://discuss.pytorch.kr/t/openai-astra/11659",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-19T18:30:44+09:00",
-      "popularity": 99,
+      "published_at": "2026-08-20T08:30:31+09:00",
+      "popularity": 96,
       "upvotes": 0,
-      "score": 23.03,
-      "importance_score": 14.15,
+      "score": 20.63,
+      "importance_score": 9.67,
       "matched_keywords": [
         "ai",
-        "claude",
+        "reinforcement learning",
         "모델"
       ],
       "engagement": null
