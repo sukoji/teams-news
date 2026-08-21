@@ -5,9 +5,90 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 10:21:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:04:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MemTrapBench: LLM 메모리 사용의 인지 트랩 벤치마킹</title>
+      <link>https://huggingface.co/papers/2608.20202</link>
+      <description>검색된 기억은 대규모 언어 모델에서 추론 오류와 신념 왜곡을 유발할 수 있으며, 추론 시간 전략은 벤치마크 성능을 유지하면서 이러한 인지 함정을 피하는 데 도움이 됩니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.20202">Hugging Face Papers</source>
+      <guid isPermaLink="false">cd28c9c52c22854778338cd44f486aa4</guid>
+    </item>
+    <item>
+      <title>ForgeWM: 몇 단계의 동작 조건 비디오 세계 모델을 위한 점진적인 인과 훈련</title>
+      <link>https://huggingface.co/papers/2608.14022</link>
+      <description>ForgeWM은 양방향 비디오 생성기를 정렬된 개별 및 연속 제어를 통해 효율적인 몇 단계의 대화형 세계 모델로 점진적으로 추출하여 지연 시간이 짧은 상호 작용 및 재생 시간 개선을 지원합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.14022">Hugging Face Papers</source>
+      <guid isPermaLink="false">77cec8b9caa55b597c519ba0d954700e</guid>
+    </item>
+    <item>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
+      <link>https://huggingface.co/papers/2608.19880</link>
+      <description>EnvHarness 및 EnvRigger는 프로그래밍 가능한 플러그인을 통해 정적 환경을 동적으로 재구성하여 에이전트 약점을 목표로 삼고 강화 학습 공동 진화를 개선합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19880">Hugging Face Papers</source>
+      <guid isPermaLink="false">e7a0ed5e125a96bdc3a3f88ec705b177</guid>
+    </item>
+    <item>
+      <title>4DAnyone: 캐주얼 단안 비디오에서 4D로 누구나 생성</title>
+      <link>https://huggingface.co/papers/2608.20335</link>
+      <description>4DAnyone은 일관된 다중 뷰 비디오를 생성하고 이를 4D Gaussian Splatting으로 끌어 올려 단안 비디오에서 4D 인간을 재구성하고, 참조 및 대상 컨텍스트 디자인을 사용하여 스케일링 병목 현상을 극복합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.20335">Hugging Face Papers</source>
+      <guid isPermaLink="false">e031588d6b621984f4e46cec1348e837</guid>
+    </item>
+    <item>
+      <title>PolicyGuide: 하나의 작업을 보호하는 것부터 정책 준수 LLM 에이전트를 위한 전체 워크플로를 안내하는 것까지</title>
+      <link>https://huggingface.co/papers/2608.19861</link>
+      <description>고객 서비스 LLM 상담원은 사용자를 대신하여 행동할 때 조직 정책을 따라야 합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19861">Hugging Face Papers</source>
+      <guid isPermaLink="false">833db2c9ec7ee42b0a9d147b41b03aad</guid>
+    </item>
+    <item>
+      <title>WithEveryone: 그룹 이미지 생성을 위한 통합 계획 및 정체성 기반</title>
+      <link>https://huggingface.co/papers/2608.20336</link>
+      <description>WithEveryone을 사용하면 레이아웃 계획에 ID를 기반으로 하고 지역 기반 ID 손실을 사용하여 최대 10명의 안정적인 ID 보존 그룹 이미지 생성이 가능합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.20336">Hugging Face Papers</source>
+      <guid isPermaLink="false">49f44e19ac2a5e70ec2f2ee473dafa5d</guid>
+    </item>
+    <item>
+      <title>주입, 정렬, 복구: 검색이 필요 없는 문서 지식 내재화를 위한 단계적 사후 교육</title>
+      <link>https://huggingface.co/papers/2608.20281</link>
+      <description>IAR은 구조화된 문서 지식을 언어 모델에 주입하고, 검색이 필요 없는 질문 답변을 위해 정렬하고, 일반 기능을 복구하여 두 영역 모두를 개선하는 3단계 사후 교육 프레임워크입니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.20281">Hugging Face Papers</source>
+      <guid isPermaLink="false">36a7ca52eb50b93c510be7aa7142b118</guid>
+    </item>
+    <item>
+      <title>Repo0: 설계 기반 Zero-to-All 코드 생성</title>
+      <link>https://huggingface.co/papers/2608.19854</link>
+      <description>Repo0은 이중 그래프 아키텍처 상태와 모듈성 기반 구조 진화를 사용하여 높은 기능 범위를 갖춘 자연어 요구 사항에서 완전한 소프트웨어 저장소를 생성합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19854">Hugging Face Papers</source>
+      <guid isPermaLink="false">c021417a74df503f721cc81a985ab021</guid>
+    </item>
+    <item>
+      <title>EXIMO: VLA 정책에 대한 VLM 안내 탐색</title>
+      <link>https://huggingface.co/papers/2608.19891</link>
+      <description>EXIMO는 VLM 기반 탐색, 조정된 데이터에 대한 모방 및 잔류 정책 외 강화 학습을 결합하여 대규모 비전-언어-행동 로봇 정책을 효율적으로 미세 조정합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19891">Hugging Face Papers</source>
+      <guid isPermaLink="false">90b2e14a3ccf3cf33cbaf2fe995833a3</guid>
+    </item>
     <item>
       <title>VA-Judger: 공동 비디오-오디오 생성을 위한 인간 선호 피드백으로부터의 보상 모델링</title>
       <link>https://huggingface.co/papers/2608.18607</link>
@@ -376,87 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.16157">Hugging Face Papers</source>
       <guid isPermaLink="false">4b0347068bfee99d5fd272c84879ea01</guid>
-    </item>
-    <item>
-      <title>에너지 기반 흐름 매칭</title>
-      <link>https://huggingface.co/papers/2608.05811</link>
-      <description>에너지 유도 흐름 매칭(Energy-Guided Flow Matching)은 이동 엔드포인트와 적응형 스케줄링을 통해 고주파 세부 정보를 점진적으로 공개하고 훈련 비용을 절감하며 최첨단 FID 점수를 달성함으로써 생성 품질을 향상시킵니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.05811">Hugging Face Papers</source>
-      <guid isPermaLink="false">ba029b6770ca96c09ae1eb8d4a1d13af</guid>
-    </item>
-    <item>
-      <title>메모리 활용: 메모리 에이전트의 메모리 기판에 대한 전체적인 평가</title>
-      <link>https://huggingface.co/papers/2608.15008</link>
-      <description>장거리 LLM 에이전트에 대한 다양한 메모리 기판에 대한 실증적 평가는 체제 의존적 트레이드오프를 보여주며 안정적인 에이전트 메모리를 위한 적응형 기판 라우팅에 동기를 부여합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.15008">Hugging Face Papers</source>
-      <guid isPermaLink="false">73d48355163979424524040fd8cfde4d</guid>
-    </item>
-    <item>
-      <title>구체화된 내비게이터: 효율적인 탐색을 위한 지정, 생각, 기억 및 정렬</title>
-      <link>https://huggingface.co/papers/2608.17512</link>
-      <description>TAMP-Nav는 비전 언어 모델을 2D 시각적 프롬프트, 압축된 메모리를 통한 선택적 추론 및 밀도 있는 정책 최적화와 정렬하여 구체화된 탐색을 개선합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17512">Hugging Face Papers</source>
-      <guid isPermaLink="false">f3ad333754ed0e54875509445945d4a2</guid>
-    </item>
-    <item>
-      <title>Agentic ESOpt: 최소한의 GPU 요구 사항으로 Long-Horizon LLM 에이전트 미세 조정</title>
-      <link>https://huggingface.co/papers/2608.17310</link>
-      <description>Agentic ESOpt는 궤도 수준 보상 가중치 업데이트 및 매개변수 컨텍스트 공동 진화를 통해 확장 가능한 전체 매개변수 미세 조정을 위한 진화 전략을 사용합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17310">Hugging Face Papers</source>
-      <guid isPermaLink="false">435bfd44fbd008da50079ca376d18f9e</guid>
-    </item>
-    <item>
-      <title>순서에서 구조까지: LLM 에이전트의 관계형 불확실성 전파</title>
-      <link>https://huggingface.co/papers/2608.16002</link>
-      <description>RUPA는 에이전트 실행을 종속성 그래프로 모델링하여 긴 궤적에 걸쳐 불확실성을 전파함으로써 LLM 에이전트에 대한 실패 감지 및 신뢰도 추정을 향상시킵니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16002">Hugging Face Papers</source>
-      <guid isPermaLink="false">30ac16221aa97933f7a8bc81c58de3d8</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.17286</link>
-      <description>텍스트-이미지 확산 모델에 대한 스케일링 법칙은 강력한 과잉 훈련 동작 및 범용 곡선 모양을 통해 언어 모델보다 매개변수당 훨씬 더 많은 데이터가 필요한 예측 가능한 컴퓨팅 최적화 훈련을 보여줍니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17286">Hugging Face Papers</source>
-      <guid isPermaLink="false">89c0331b7b94f4b1a27ea56c4ae62116</guid>
-    </item>
-    <item>
-      <title>말뭉치에서 공동 진화 기능까지: 일반 이미지 생성을 위한 기능 중심 데이터 설계</title>
-      <link>https://huggingface.co/papers/2608.18076</link>
-      <description>커리큘럼 일정 관리 및 전문 데이터 엔진을 갖춘 기능 중심 데이터 인프라는 다양한 생성 작업에 대해 선별된 이기종 감독에 대한 대규모 다중 모드 확산 모델을 교육합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.18076">Hugging Face Papers</source>
-      <guid isPermaLink="false">58b88af007ff5662faf81b027b85025e</guid>
-    </item>
-    <item>
-      <title>StartupBench: 시장에서 검증된 엔드투엔드 워크플로에서 범용 에이전트 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.17800</link>
-      <description>StartupBench는 실제 스타트업 워크플로에서 엔드투엔드 AI 에이전트를 평가하고 최고의 모델이라도 작업의 약 30%만 완료한다는 사실을 밝혀 지침 따르기 및 도메인 전문 지식의 격차를 강조합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17800">Hugging Face Papers</source>
-      <guid isPermaLink="false">9c56cb8a64c3f6556f6ff213a9cf4bd1</guid>
-    </item>
-    <item>
-      <title>ASI-벤치: 인공 초지능의 여명기</title>
-      <link>https://huggingface.co/papers/2608.17271</link>
-      <description>인공 초지능(ASI)에서는 AI가 기존 지식을 마스터하는 것 이상으로 미지의 세계를 탐색하고, 새로운 지식을 창출하고, 새로운 아이디어를 검증 가능한 결과로 전환할 수 있도록 요구합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17271">Hugging Face Papers</source>
-      <guid isPermaLink="false">885bf07b179258b5403856e4b2c229f7</guid>
     </item>
   </channel>
 </rss>
