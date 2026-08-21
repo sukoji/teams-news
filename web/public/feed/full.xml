@@ -5,67 +5,67 @@
     <link>https://sukoji.github.io/teams-news/feed/full.xml</link>
     <description>Extended RSS with scores, sections, and engagement metrics for bot builders.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 08:20:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 08:18:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
-      <title>LEGO-RL: 코딩 에이전트를 위한 하네스 기반 강화 학습</title>
-      <link>https://huggingface.co/papers/2608.17393</link>
-      <description>LEGO-RL은 프로세스 내 LLM 프록시, 샌드박스 조정 및 통합 모니터링을 통해 기본 코딩 에이전트 하네스를 확장 가능한 정책 그라데이션 교육에 연결하여 여러 시간에 걸쳐 희소 MoE 모델 성능을 향상시킵니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17393">Hugging Face Papers</source>
-      <guid isPermaLink="false">1cac4a473b4ef0127094841550e450a2</guid>
-      <teams:source>Hugging Face Papers</teams:source>
-      <teams:section>papers</teams:section>
-      <teams:score>27.07</teams:score>
-      <teams:titleOriginal>LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents</teams:titleOriginal>
-      <teams:engagement label="Upvotes">19</teams:engagement>
-    </item>
-    <item>
-      <title>Zetta ζ: 자체 진화하는 물리적 지능을 위한 효율적인 폐쇄 루프 구현 하네스</title>
-      <link>https://huggingface.co/papers/2608.16590</link>
-      <description>Zetta는 런타임 비평가 및 복구 기술을 온라인으로 발전시켜 작업 빈도에 따른 물리적 실행을 제어하고 더 빠른 추론 및 확장으로 로봇 벤치마크에서 높은 성공을 달성하는 폐쇄 루프 내장 하네스입니다.</description>
+      <title>SPADE: 적응형 합성 실행 가능 환경의 자체 재생</title>
+      <link>https://huggingface.co/papers/2608.19197</link>
+      <description>SPADE는 언어 모델이 적응형 실행 가능 훈련 환경을 설계하고 이를 해결하는 방법을 학습하여 후회 기반을 통해 추론 및 도구 사용 성능을 향상시키는 자가 플레이 강화 학습 프레임워크입니다.</description>
       <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
       <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16590">Hugging Face Papers</source>
-      <guid isPermaLink="false">407e335845cd2628337509a9f9de2e8b</guid>
+      <source url="https://huggingface.co/papers/2608.19197">Hugging Face Papers</source>
+      <guid isPermaLink="false">e65c0bde65afc79bf3f5bd53c7df002c</guid>
       <teams:source>Hugging Face Papers</teams:source>
       <teams:section>papers</teams:section>
-      <teams:score>26.14</teams:score>
-      <teams:titleOriginal>Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence</teams:titleOriginal>
-      <teams:engagement label="Upvotes">129</teams:engagement>
+      <teams:score>26.78</teams:score>
+      <teams:titleOriginal>SPADE: Self-Play in Adaptive Synthetic Executable Environments</teams:titleOriginal>
+      <teams:engagement label="Upvotes">44</teams:engagement>
     </item>
     <item>
-      <title>기계가 놓친 쓰레기를 '쏙쏙' 골라내는 AI 로봇</title>
-      <link>https://www.etnews.com/20260820000342</link>
-      <description>기계로 처리하기 복잡한 쓰레기를 직접 집어내는 AI 로봇이 등장했습니다. 스위스 로봇 스타트업 그립(Grip)은 구겨지거나 서로 엉킨 쓰레기를 로봇팔로 골라내는 시스템을 개발했습니다. 그립은 AI 모델을 활용해 처음 보는 물체에도 적절한 집기 동작을 생성하고 자체 개발한 그리퍼로 형태에 맞춰 집어냅니다.</description>
-      <pubDate>Thu, 20 Aug 2026 22:30:00 +0900</pubDate>
+      <title>FACET: 터미널 작업 합성에서 소스 의도 및 실행 가능 상태 보존</title>
+      <link>https://huggingface.co/papers/2608.18580</link>
+      <description>FACET은 공유된 복구 환경에서 소스 의도와 접지 지침, 솔루션 및 검증자를 보존하여 실행 가능한 터미널 작업을 구성하여 확장 가능한 에이전트 교육을 지원합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.18580">Hugging Face Papers</source>
+      <guid isPermaLink="false">5f6447ddab3a917a59b395e758230231</guid>
+      <teams:source>Hugging Face Papers</teams:source>
+      <teams:section>papers</teams:section>
+      <teams:score>26.68</teams:score>
+      <teams:titleOriginal>FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis</teams:titleOriginal>
+      <teams:engagement label="Upvotes">107</teams:engagement>
+    </item>
+    <item>
+      <title>[8월21일] 오픈AI가 ‘컴퓨터 유즈’에 보인 자신감…9년간 이어온 ‘행동하는 AI’의 현재</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=214199</link>
+      <description>오픈AI가 AI가 사람 대신 컴퓨터를 직접 조작하는 GUI 에이전트 ‘컴퓨터 유즈(Computer Use)’를 본격 확대하고 있습니다. 비즈니스 인사이더(BI)는 20일 오픈AI가 컴퓨터 유즈 기술을 크롬 확장 프로그램과 클라우드·앱 내 브라우저, 코딩 도구 ‘코덱스’ 등에 적용하고 있다고 소개했습니다.사실 컴퓨터 유즈 자체가 새로운 기술은 아닙니다.</description>
+      <pubDate>Sat, 22 Aug 2026 07:00:00 +0900</pubDate>
       <category>news</category>
-      <source url="https://www.etnews.com/20260820000342">전자신문 IT</source>
-      <guid isPermaLink="false">b655c565cca9bef8f9832535fe46afa8</guid>
-      <teams:source>전자신문 IT</teams:source>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=214199">AI Times</source>
+      <guid isPermaLink="false">8d3015acc242991ef9f2e9067b7adc67</guid>
+      <teams:source>AI Times</teams:source>
       <teams:section>news</teams:section>
-      <teams:score>20.65</teams:score>
-      <teams:titleOriginal>기계가 놓친 쓰레기를 '쏙쏙' 골라내는 AI 로봇</teams:titleOriginal>
+      <teams:score>19.73</teams:score>
+      <teams:titleOriginal>[8월21일] 오픈AI가 ‘컴퓨터 유즈’에 보인 자신감…9년간 이어온 ‘행동하는 AI’의 현재</teams:titleOriginal>
       
     </item>
     <item>
-      <title>대학가 AI 토큰 비용 골치…비용 효율 높이는 활용체계 절실</title>
-      <link>https://www.etnews.com/20260820000336</link>
-      <description>기업에 이어 대학에서도 생성형 인공지능(AI) 활용이 빠르게 확산하면서 학내 '토큰 비용' 관리가 새로운 과제로 떠올랐다. 해외 거대언어모델(LLM) 기반 AI 사용 확대로 토큰 비용이 해외 사업자에게 지급되는 지식서비스 무역수지 불균형 문제도 우려되는 상황이다.</description>
-      <pubDate>Thu, 20 Aug 2026 15:28:26 +0900</pubDate>
+      <title>삼성전자 SAIT, AI 반도체 '초미세 배선 저항' 난제 풀 기술 구현</title>
+      <link>https://www.etnews.com/20260821000219</link>
+      <description>삼성전자 SAIT(삼성종합기술원)와 GIST 중앙기기연구소, 미국 매사추세츠공과대학교(MIT) 연구진이 함께 수행한 탄소 활용 초미세 배선 저항 감소 기술 연구 결과가 세계 최고 권위의 학술지 중 하나인 '사이언스' 본지에 지난 13일 게재됐다. AI 반도체의 성능 경쟁이 치열해지면서 반도체 회로를 더욱 작고 촘촘하게 만드는 '미세화' 기술의 중요성은 더욱 중요해졌다.</description>
+      <pubDate>Fri, 21 Aug 2026 15:02:18 +0900</pubDate>
       <category>news</category>
-      <source url="https://www.etnews.com/20260820000336">전자신문 IT</source>
-      <guid isPermaLink="false">4f2d63bedb0895864fd22725f8e450e7</guid>
+      <source url="https://www.etnews.com/20260821000219">전자신문 IT</source>
+      <guid isPermaLink="false">8a7774e4d566a74213fe240f15305581</guid>
       <teams:source>전자신문 IT</teams:source>
       <teams:section>news</teams:section>
-      <teams:score>20.08</teams:score>
-      <teams:titleOriginal>대학가 AI 토큰 비용 골치…비용 효율 높이는 활용체계 절실</teams:titleOriginal>
+      <teams:score>18.0</teams:score>
+      <teams:titleOriginal>삼성전자 SAIT, AI 반도체 '초미세 배선 저항' 난제 풀 기술 구현</teams:titleOriginal>
       
     </item>
     <item>
-      <title>zorost/AI-Engineering-Lab — 무료 자기 주도형 24주 AI 엔지니어링 과정: Python, 기계 학습, LLM, RAG, 미세 조정,</title>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://github.com/zorost/AI-Engineering-Lab</link>
       <description>무료로 자습 가능한 24주 AI 엔지니어링 과정: Python, 기계 학습, LLM, RAG, 미세 조정, 에이전트 및 MCP, Azure, Vertex, Bedrock, Databricks. 43개의 실행 가능한 노트북, 하나의 연속 사례 연구.</description>
       <pubDate>Tue, 18 Aug 2026 04:36:07 +0900</pubDate>
@@ -74,12 +74,12 @@
       <guid isPermaLink="false">a6d944c537ffd1fe426ceeab96e9c39e</guid>
       <teams:source>GitHub Trending</teams:source>
       <teams:section>trending</teams:section>
-      <teams:score>39.05</teams:score>
+      <teams:score>39.08</teams:score>
       <teams:titleOriginal>zorost/AI-Engineering-Lab — A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, </teams:titleOriginal>
-      <teams:engagement label="Stars">97</teams:engagement>
+      <teams:engagement label="Stars">98</teams:engagement>
     </item>
     <item>
-      <title>squall01337/mixamo-llm-mocap — 모든 비디오를 Mixamo-rig 애니메이션으로 변환 - GVHMR 추정기, 사양 기반 재타겟, Blen에 FK 적용</title>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://github.com/squall01337/mixamo-llm-mocap</link>
       <description>모든 비디오를 Mixamo-rig 애니메이션으로 전환하세요. GVHMR 추정기, 사양 기반 리타겟팅, FK가 MCP를 통해 Blender에 적용됩니다. 모든 Mixamo 캐릭터와 함께 작동합니다.</description>
       <pubDate>Tue, 18 Aug 2026 22:23:01 +0900</pubDate>
@@ -88,22 +88,22 @@
       <guid isPermaLink="false">fef16a01671d4aceb2e4da8b3b919311</guid>
       <teams:source>GitHub Trending</teams:source>
       <teams:section>trending</teams:section>
-      <teams:score>30.9</teams:score>
+      <teams:score>31.14</teams:score>
       <teams:titleOriginal>squall01337/mixamo-llm-mocap — Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blen</teams:titleOriginal>
-      <teams:engagement label="Stars">124</teams:engagement>
+      <teams:engagement label="Stars">133</teams:engagement>
     </item>
     <item>
-      <title>OpenAI, 신규 모델 Astra의 예상치 못한 사이버 보안 위험성에 개발 속도를 늦추고 안전장치를 재정비 중</title>
-      <link>https://discuss.pytorch.kr/t/openai-astra/11659</link>
-      <description>OpenAI가 프런티어 모델 학습을 멈춘 이유 OpenAI 가 2026년 8월 18일, 자사의 프런티어 모델 개발 속도를 스스로 늦추고 있다는 사실을 공개했습니다. 배포를 목표로 학습 중이던 최신 모델들의 강화학습(Reinforcement Learning, RL) 을 2주간 중단했고, 계획하고 있던 가장 큰 규모의 프런티어 RL 실행은 현재까지도 여전히 보류 상태입니다.</description>
-      <pubDate>Thu, 20 Aug 2026 08:30:31 +0900</pubDate>
+      <title>Sentence Transformers v6.0, ColBERT 스타일 멀티 벡터 검색을 표준 API로</title>
+      <link>https://discuss.pytorch.kr/t/sentence-transformers-v6-0-colbert-api/11673</link>
+      <description>Sentence Transformers v6.0의 MultiVectorEncoder 소개 Sentence Transformers 는 임베딩 모델과 재정렬(Reranking) 모델을 쓰고 학습시키는 Python 라이브러리로, 검색 증강 생성(RAG)이나 의미 기반 검색(Semantic Search) 같은 곳에 쓰입니다.</description>
+      <pubDate>Fri, 21 Aug 2026 12:30:45 +0900</pubDate>
       <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-astra/11659">PyTorch Korea</source>
-      <guid isPermaLink="false">09f20b76a756164f754eca0cb836d000</guid>
+      <source url="https://discuss.pytorch.kr/t/sentence-transformers-v6-0-colbert-api/11673">PyTorch Korea</source>
+      <guid isPermaLink="false">33cfa029c645dc54b665fe84c68e8a91</guid>
       <teams:source>PyTorch Korea</teams:source>
       <teams:section>community</teams:section>
-      <teams:score>20.63</teams:score>
-      <teams:titleOriginal>OpenAI, 신규 모델 Astra의 예상치 못한 사이버 보안 위험성에 개발 속도를 늦추고 안전장치를 재정비 중</teams:titleOriginal>
+      <teams:score>24.67</teams:score>
+      <teams:titleOriginal>Sentence Transformers v6.0, ColBERT 스타일 멀티 벡터 검색을 표준 API로</teams:titleOriginal>
       
     </item>
   </channel>
