@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 21:50:17 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 22:46:37 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>계층적 자체 개선: 작업별 진화 가능한 에이전트 하네스를 위한 프레임워크</title>
+      <link>https://huggingface.co/papers/2608.08466</link>
+      <description>Hierarchical Self-Improvement는 계층적 자체 수정을 통해 동결된 LLM 에이전트를 위한 작업별 실행 하네스를 발전시켜 피드백 품질과 제약을 받으며 중간 작업에서 상당한 이득을 얻습니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.08466">Hugging Face Papers</source>
+      <guid isPermaLink="false">ad666183cb15eadcf0080860f5077cfa</guid>
+    </item>
+    <item>
+      <title>GOAG: 능숙한 로봇 조작을 위한 생성적 및 객체 불가지론적 파악 플래너</title>
+      <link>https://huggingface.co/papers/2608.19759</link>
+      <description>GOAG는 객체별 훈련 없이 보이지 않는 객체에 대한 유효한 파악을 샘플링하기 위해 그리퍼별 접촉 표면 분포를 학습하는 객체 불가지론 심층 생성 파악 플래너입니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19759">Hugging Face Papers</source>
+      <guid isPermaLink="false">7c8e9e116b817c368500e6202a4f8d7b</guid>
+    </item>
+    <item>
+      <title>CoToGrasp: 정식 작업 공간 학습을 통한 접촉 토폴로지 조건의 민첩한 파악 합성</title>
+      <link>https://huggingface.co/papers/2608.19776</link>
+      <description>CoToGrasp는 제로샷 일반화를 위해 객체에 구애받지 않는 그리퍼 중심 작업 공간을 사용하여 특정 접촉 토폴로지에 따라 다양하고 안정적인 파악을 합성하는 생성 프레임워크입니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19776">Hugging Face Papers</source>
+      <guid isPermaLink="false">ae553ac46d7e3bbac05b7446d401a168</guid>
+    </item>
     <item>
       <title>저자원 언어로 생각하기: SFT가 구축하는 것, RL이 수정하는 것, 정확성이 볼 수 없는 것</title>
       <link>https://huggingface.co/papers/2608.17744</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.16793">Hugging Face Papers</source>
       <guid isPermaLink="false">4dd6c1508895bb8cdd9025adbc7c9c20</guid>
-    </item>
-    <item>
-      <title>신비한 에이전트 기술: 작동하는 이유 - 작동하지 않을 때까지</title>
-      <link>https://huggingface.co/papers/2608.14036</link>
-      <description>기술은 주로 누락된 지식을 주입하는 대신 절차적 고정을 통해 실행을 안정화함으로써 LLM 에이전트를 향상시킵니다. 하지만 검색 병목 현상과 취약한 가정으로 인해 효율성이 제한됩니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.14036">Hugging Face Papers</source>
-      <guid isPermaLink="false">d1200519beb92e885adda6b42f792cf6</guid>
-    </item>
-    <item>
-      <title>MoE-ViE: 효율적인 이미지 및 비디오 이해를 위한 전문가 비전 인코더 혼합</title>
-      <link>https://huggingface.co/papers/2608.17402</link>
-      <description>세분화된 토폴로지, 보조 손실 없는 밸런싱 및 특수 커널을 갖춘 전문가의 혼합 비전 인코더는 효율적으로 확장하는 동시에 이미지 및 비디오 작업에서 더 크고 밀도가 높은 모델보다 성능이 뛰어납니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17402">Hugging Face Papers</source>
-      <guid isPermaLink="false">282279b12ba8a13cbdd27182c90ee251</guid>
-    </item>
-    <item>
-      <title>EDITBRIDGE: 충실하고 효율적인 초고해상도 이미지 편집을 향하여</title>
-      <link>https://huggingface.co/papers/2608.18063</link>
-      <description>EditBridge는 저해상도 편집을 고해상도 출력으로 변환하는 동시에 주의를 기울여 소스 세부 정보를 보존하는 확산 브리지를 통해 효율적인 초고해상도 이미지 편집을 가능하게 합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.18063">Hugging Face Papers</source>
-      <guid isPermaLink="false">332a3b0abd8c28042190766802cd1861</guid>
     </item>
   </channel>
 </rss>
