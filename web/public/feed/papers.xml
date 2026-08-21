@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 20:27:21 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 21:50:17 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>저자원 언어로 생각하기: SFT가 구축하는 것, RL이 수정하는 것, 정확성이 볼 수 없는 것</title>
+      <link>https://huggingface.co/papers/2608.17744</link>
+      <description>리소스가 적은 언어에서 대규모 전문가 혼합 모델을 미세 조정하면 정확성을 손상시키지 않고 추론을 해당 언어로 전환하는 동시에 검증 가능한 보상을 제공하는 강화 학습은 형식화 및 누출 방어를 수정합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.17744">Hugging Face Papers</source>
+      <guid isPermaLink="false">7e0f5ebd46d5cee85fd3cd41036e2ce6</guid>
+    </item>
     <item>
       <title>NARU: 일본 초장편 비디오의 내러티브 진화와 문화적 뉘앙스 이해를 위한 벤치마크</title>
       <link>https://huggingface.co/papers/2608.13210</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.18063">Hugging Face Papers</source>
       <guid isPermaLink="false">332a3b0abd8c28042190766802cd1861</guid>
-    </item>
-    <item>
-      <title>타겟 측 리더 적응을 통한 모델 간 메모리 전송</title>
-      <link>https://huggingface.co/papers/2608.17050</link>
-      <description>고정된 외부 메모리 테이블의 모델 간 재사용은 주로 메모리 콘텐츠만 사용하는 것이 아닌 경량 타겟 측 리더를 정렬하는 데 달려 있어 선택적 적응을 통해 재사용 가능한 지식 아티팩트를 활성화합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17050">Hugging Face Papers</source>
-      <guid isPermaLink="false">ab70204cacdfd6028c2c6c287cd84467</guid>
     </item>
   </channel>
 </rss>
