@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:04:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 13:39:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Sentence Transformers v6.0, ColBERT 스타일 멀티 벡터 검색을 표준 API로</title>
+      <link>https://discuss.pytorch.kr/t/sentence-transformers-v6-0-colbert-api/11673</link>
+      <description>Sentence Transformers v6.0의 MultiVectorEncoder 소개 Sentence Transformers 는 임베딩 모델과 재정렬(Reranking) 모델을 쓰고 학습시키는 Python 라이브러리로, 검색 증강 생성(RAG)이나 의미 기반 검색(Semantic Search) 같은 곳에 쓰입니다.</description>
+      <pubDate>Fri, 21 Aug 2026 12:30:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/sentence-transformers-v6-0-colbert-api/11673">PyTorch Korea</source>
+      <guid isPermaLink="false">33cfa029c645dc54b665fe84c68e8a91</guid>
+    </item>
     <item>
       <title>Oil Motion: AI 생성 영상을 스크롤과 마우스가 제어하는 웹 애니메이션으로 바꾸는 에이전트 스킬</title>
       <link>https://discuss.pytorch.kr/t/oil-motion-ai/11668</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/meta-muse-code-muse-spark-1-2/11554">PyTorch Korea</source>
       <guid isPermaLink="false">c9eaa96d26af6a8a3ab3c58f015f85e9</guid>
-    </item>
-    <item>
-      <title>[GN⁺] LLM은 ‘점프’할 수 없다: Einstein의 등가원리와 귀추(abduction)</title>
-      <link>https://discuss.pytorch.kr/t/gn-llm-einstein-abduction/11551</link>
-      <description>LLM은 ‘점프’할 수 없다 글 소개 현재 생성형 AI는 데이터에서 규칙을 찾는 귀납(Induction) 과 주어진 공리에서 결과를 도출하는 연역(Deduction) 은 빠르게 기계화하고 있지만, 감각 경험에서 새로운 설명과 공리로 넘어가는 귀추(Abduction) 의 ‘점프’는 수행하지 못한다는 입장임 Einstein의 일반상대성이론은 당시 Newton 역학이 관측 데이터와 거의 완벽하게…</description>
-      <pubDate>Sat, 08 Aug 2026 23:00:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gn-llm-einstein-abduction/11551">PyTorch Korea</source>
-      <guid isPermaLink="false">c067d88e5cd107777790f42d1f4ea536</guid>
     </item>
   </channel>
 </rss>

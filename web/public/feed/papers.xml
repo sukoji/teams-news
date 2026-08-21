@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:04:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 13:39:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SkillEvo: 다중 회전 상호 작용 피드백을 통한 자체 갱신 진화 그라데이션</title>
+      <link>https://huggingface.co/papers/2608.13120</link>
+      <description>SkillEvo는 다중 턴 피드백과 적극적인 거버넌스를 통해 에이전트 기술을 향상시켜 진화 경사를 유지합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.13120">Hugging Face Papers</source>
+      <guid isPermaLink="false">80213d36d8a3b81ba3434f59bfebcc89</guid>
+    </item>
+    <item>
+      <title>FlashPrefill V2: 장기 컨텍스트 LLM 제공을 위한 블록 희소 사전 채우기 주의</title>
+      <link>https://huggingface.co/papers/2608.19758</link>
+      <description>FlashPrefill V2는 평균 보정된 Sparse Attention, 최적화된 GPU 연산자 및 프레임워크 통합을 통해 긴 컨텍스트 서비스를 개선하여 조밀한 기준에 비해 큰 속도 향상을 달성합니다.</description>
+      <pubDate>Fri, 21 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19758">Hugging Face Papers</source>
+      <guid isPermaLink="false">d3e3233312d153049ed6ca829d20164f</guid>
+    </item>
     <item>
       <title>MemTrapBench: LLM 메모리 사용의 인지 트랩 벤치마킹</title>
       <link>https://huggingface.co/papers/2608.20202</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.14881">Hugging Face Papers</source>
       <guid isPermaLink="false">54a092b3d0aa2639e12a7154f85a2f7d</guid>
-    </item>
-    <item>
-      <title>공통 계층 방정식을 통해 그래프 신경망 통합</title>
-      <link>https://huggingface.co/papers/2608.16097</link>
-      <description>통합 레이어 방정식은 그래프 신경망을 7개의 구성 요소로 분해하여 아키텍처를 비교하고 이론적 경계를 도출하며 과도한 평활화 및 표현성과 관련된 설계 선택을 노출합니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16097">Hugging Face Papers</source>
-      <guid isPermaLink="false">fb2eb73b543422fe03c3703488c541a8</guid>
-    </item>
-    <item>
-      <title>FreeToken: 대역폭 적응형 실행을 통한 효율적인 Edge-Native MoE 서비스</title>
-      <link>https://huggingface.co/papers/2608.16157</link>
-      <description>FreeToken은 계산 및 모델 상태를 이기종 로컬 하드웨어에 동적으로 매핑하여 개인용 컴퓨터에서 대규모 개방형 모델을 실행하는 엣지 기반 전문가 혼합 서비스 시스템입니다.</description>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.16157">Hugging Face Papers</source>
-      <guid isPermaLink="false">4b0347068bfee99d5fd272c84879ea01</guid>
     </item>
   </channel>
 </rss>
