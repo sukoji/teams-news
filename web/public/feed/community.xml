@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 22 Aug 2026 18:28:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 19:24:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AI 신약 후보 물질 발견을 위한 '예측 도구(능력)' 평가 리더보드 허깅페이스에 공개</title>
+      <link>https://discuss.pytorch.kr/t/ai/11688</link>
+      <description>분할 방식만 바꿨더니 AUROC가 0.21 움직였습니다 — 신약 물성 예측 벤치마크 LEADBOARD 공개 신약 물성 예측 도구를 재는 벤치마크를 만들어 공개했습니다. LEADBOARD — 21개 보드, 홀드아웃 18,382 화합물, 라벨은 배포하지 않습니다. 기능 소개보다는, 만들면서 부딪힌 두 개의 숫자 를 공유하려고 합니다.</description>
+      <pubDate>Sat, 22 Aug 2026 19:21:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai/11688">PyTorch Korea</source>
+      <guid isPermaLink="false">bd41138f8b28aadf636280bb6a5f57f1</guid>
+    </item>
     <item>
       <title>강화학습으로 양자 오류 정정(QEC)을 제어하는 연구: Willow에서 계산을 멈추지 않는 실시간 보정</title>
       <link>https://discuss.pytorch.kr/t/qec-willow/11639</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/model-dna-llm-cka-pytorch/11569">PyTorch Korea</source>
       <guid isPermaLink="false">3ba8f1b75a1114f45e51a5a4b038cd6f</guid>
-    </item>
-    <item>
-      <title>anydoc: 오피스 문서를 LLM이 읽을 Markdown으로 5밀리초 안에 바꾸는 Rust 라이브러리</title>
-      <link>https://discuss.pytorch.kr/t/anydoc-llm-markdown-5-rust/11552</link>
-      <description>anydoc 소개 문서를 입력으로 받는 AI 파이프라인은 대체로 같은 자리에서 막힙니다. 사용자가 올리는 파일은 .docx , .pptx , .xlsx , .pdf , .epub 처럼 제각각인데, 언어 모델에 넣으려면 결국 하나의 텍스트 표현으로 정리해야 합니다. 그래서 형식마다 다른 파서를 붙이게 되고, 표 하나가 docx에서는 멀쩡히 나오는데 rtf에서는 깨지는 식의 불일치가 쌓입니다.</description>
-      <pubDate>Sun, 09 Aug 2026 13:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anydoc-llm-markdown-5-rust/11552">PyTorch Korea</source>
-      <guid isPermaLink="false">7282de0c48b77387b4702c0bb18975ab</guid>
     </item>
   </channel>
 </rss>
