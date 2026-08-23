@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/news.xml</link>
     <description>📰 News — GeekNews, AI Times, ETNews, NAVER D2, ZDNet Korea</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 00:23:44 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 01:27:03 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Linus Torvalds가 AI로 Intel GPU 드라이버 버그를 추적한 과정</title>
+      <link>https://news.hada.io/topic?id=32807</link>
+      <description>Intel Xe GPU 드라이버가 압축 하드웨어용 flat CCS 저장공간 일부를 VRAM으로 잘못 할당해 Battlemage G21 시스템에서 검은 화면과 gdm 재시작 루프를 일으킴 get_flat_ccs_offset() 이 CCS 시작 주소를 128KiB 단위로 올림하면서 실제 경계와 계산값 사이의 메모리까지...</description>
+      <pubDate>Mon, 24 Aug 2026 01:01:31 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32807">GeekNews</source>
+      <guid isPermaLink="false">dcbbf97492ea095e0b19bbf9a8fa918a</guid>
+    </item>
     <item>
       <title>Claude보다 Codex를 더 많이 써본 일주일</title>
       <link>https://news.hada.io/topic?id=32801</link>
@@ -448,15 +457,6 @@
       <category>news</category>
       <source url="https://www.aitimes.com/news/articleView.html?idxno=214242">AI Times</source>
       <guid isPermaLink="false">446274d9f0d8c47ea7d980c256e7d365</guid>
-    </item>
-    <item>
-      <title>경북대-전남대, 'Physical AI 자율주행 캠프 및 경진대회' 성료…영호남 초광역 SW·AI 교육 협력 모델 제시</title>
-      <link>https://www.etnews.com/20260820000403</link>
-      <description>대구-광주 공동 교육플랫폼 구현 및 인공지능(AI) 달빛 상생을 위해 마련된 피지컬(Physical) AI 경진대회가 성황리에 열렸다. 영호남 초광역 융합 프로젝트로 자율주행 실무 인재를 양성하고, 영호남 교류 네트워크 기반을 다지는 계기가 됐다는 평가다.</description>
-      <pubDate>Sat, 22 Aug 2026 10:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260820000403">전자신문 IT</source>
-      <guid isPermaLink="false">b866600bf3232b35fb03ecf8415bf3f8</guid>
     </item>
   </channel>
 </rss>
