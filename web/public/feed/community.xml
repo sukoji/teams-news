@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 20:30:06 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 21:52:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>dsh-routing-suite: DeepSeek Harness에서 모델의 사고 방식을 프리셋으로 고르는 라우팅 키트</title>
+      <link>https://discuss.pytorch.kr/t/dsh-routing-suite-deepseek-harness/11655</link>
+      <description>dsh-routing-suite 소개 코딩 에이전트를 오래 쓰다 보면 같은 모델이 날마다 다르게 움직이는 것처럼 느껴질 때가 있습니다. 어떤 세션에서는 첫 턴에 설계를 길게 늘어놓고 파일은 한참 뒤에야 건드리고, 어떤 세션에서는 곧바로 파일을 열어 고치기 시작합니다.</description>
+      <pubDate>Mon, 24 Aug 2026 21:30:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/dsh-routing-suite-deepseek-harness/11655">PyTorch Korea</source>
+      <guid isPermaLink="false">17df62487ef1866b3a5fd0e727accd7f</guid>
+    </item>
     <item>
       <title>OpenBot: 에이전트마다 전용 컴퓨터를 주고 모든 도구 호출을 정책으로 심사하는 자체 호스팅 플랫폼</title>
       <link>https://discuss.pytorch.kr/t/openbot/11692</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574">PyTorch Korea</source>
       <guid isPermaLink="false">972655e755ece9687d79d15fa8e784ea</guid>
-    </item>
-    <item>
-      <title>ai-knowledge-graph: 비정형 텍스트에서 지식 그래프를 뽑아 시각화하는 파이썬 도구</title>
-      <link>https://discuss.pytorch.kr/t/ai-knowledge-graph/11583</link>
-      <description>ai-knowledge-graph 소개 사내 위키나 회의록, 조사 보고서처럼 쌓여만 가는 문서 더미에서 "무엇이 무엇과 어떻게 연결되어 있는가"를 알아내려면 결국 사람이 읽어야 합니다. LLM에게 문서를 통째로 던져 요약을 받는 방법도 있지만, 요약은 다시 문장이라 관계를 눈으로 따라가기 어렵습니다. ai-knowledge-graph 는 그 중간 형태를 만듭니다.</description>
-      <pubDate>Tue, 11 Aug 2026 12:30:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-knowledge-graph/11583">PyTorch Korea</source>
-      <guid isPermaLink="false">dfaa56a14ca0f0c4dac318d427e9e05e</guid>
     </item>
   </channel>
 </rss>
