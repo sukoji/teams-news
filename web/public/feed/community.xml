@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 25 Aug 2026 08:18:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 08:23:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Slack은 어떻게 대화를 조직의 지식으로 바꾸는가: Anthropic이 공개한 사람과 AI 에이전트가 함께 일하는 6가지 원칙 (feat. Claude Tag)</title>
+      <link>https://discuss.pytorch.kr/t/slack-anthropic-ai-6-feat-claude-tag/11702</link>
+      <description>인간 에이전트 팀(Human-Agent Teams) 소개: Slack의 최고제품책임자에게 듣는 실전 운영법 Anthropic 이 2026년 8월 19일 공개한 이 글은 사람과 AI 에이전트가 한 팀으로 일하는 조직을 실제로 어떻게 운영하는지 를 다룬 시리즈의 두 번째 편으로, Slack 의 최고제품책임자(Chief Product Officer, CPO) Jaime DeLanghe와 나눈 대…</description>
+      <pubDate>Tue, 25 Aug 2026 07:30:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/slack-anthropic-ai-6-feat-claude-tag/11702">PyTorch Korea</source>
+      <guid isPermaLink="false">712a58c3d35cb48a384e6d5d5191a6e6</guid>
+    </item>
     <item>
       <title>dsh-routing-suite: DeepSeek Harness에서 모델의 사고 방식을 프리셋으로 고르는 라우팅 키트</title>
       <link>https://discuss.pytorch.kr/t/dsh-routing-suite-deepseek-harness/11655</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sie-ocr/11597">PyTorch Korea</source>
       <guid isPermaLink="false">b05daf2117e745a33910c083593e2e42</guid>
-    </item>
-    <item>
-      <title>kimi-k3-in-c: 2.78조 파라미터 모델을 GPU 없이 8GB 램에서 돌리는 C99 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574</link>
-      <description>kimi-k3-in-c 소개 큰 모델을 내 컴퓨터에서 돌리려 할 때 막는 것은 대개 연산 속도가 아니라 용량입니다. Moonshot AI가 공개한 Kimi K3 는 파라미터가 2조 7,800억 개이고, 배포되는 체크포인트는 96개 샤드에 나뉜 1.56TB 입니다. 모든 가중치를 bfloat16으로 램에 올리면 5,560GB가 필요합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 09:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kimi-k3-in-c-2-78-gpu-8gb-c99/11574">PyTorch Korea</source>
-      <guid isPermaLink="false">972655e755ece9687d79d15fa8e784ea</guid>
     </item>
   </channel>
 </rss>
