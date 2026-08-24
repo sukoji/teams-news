@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 14:39:46 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:00:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenBot: 에이전트마다 전용 컴퓨터를 주고 모든 도구 호출을 정책으로 심사하는 자체 호스팅 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/openbot/11692</link>
+      <description>OpenBot 소개 AI 에이전트에게 실제 업무를 맡기려면 결국 권한을 줘야 합니다. 사내 위키를 읽게 하려면 계정이 필요하고, 웹 콘솔에서 무언가를 처리하게 하려면 로그인된 브라우저가 필요합니다. 문제는 그 다음입니다.</description>
+      <pubDate>Mon, 24 Aug 2026 15:30:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openbot/11692">PyTorch Korea</source>
+      <guid isPermaLink="false">bc40f1a8e026bdc0dcfe854ee701ecd2</guid>
+    </item>
     <item>
       <title>AI(Agent)와 인간의 주가 예측 대결 챌린지가 허깅페이스에 열렸다.</title>
       <link>https://discuss.pytorch.kr/t/ai-agent/11704</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai-knowledge-graph/11583">PyTorch Korea</source>
       <guid isPermaLink="false">dfaa56a14ca0f0c4dac318d427e9e05e</guid>
-    </item>
-    <item>
-      <title>Lucebox: 추측 디코딩과 전용 커널로 소비자용 GPU의 LLM 추론을 끌어올리는 서버</title>
-      <link>https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584</link>
-      <description>Lucebox 소개 책상 위 RTX 3090 한 장으로 27B 모델을 돌려 보면, 답이 한 글자씩 떨어지는 속도에서 곧 한계를 느끼게 됩니다. 카드가 낡아서라기보다 그 위에서 도는 소프트웨어가 특정 칩에 맞춰져 있지 않기 때문입니다. 범용 추론 런타임은 어떤 하드웨어에서도 무난히 돌아가도록 만들어져 있고, 그 무난함의 대가로 각 칩이 낼 수 있는 최고치를 남겨 둡니다.</description>
-      <pubDate>Tue, 11 Aug 2026 10:00:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584">PyTorch Korea</source>
-      <guid isPermaLink="false">f7b0587875a2912d3e02cdee357ba293</guid>
     </item>
   </channel>
 </rss>
