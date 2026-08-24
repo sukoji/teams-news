@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 12:04:42 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 13:47:07 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ADR(Agentic AI Detection and Response): 사내 코딩 에이전트의 활동을 기록해 위협을 탐지하는 Uber의 에이전트 보안 시스템</title>
+      <link>https://discuss.pytorch.kr/t/adr-agentic-ai-detection-and-response-uber/11691</link>
+      <description>ADR 소개 회사 노트북에서 Claude Code , Cursor , Codex CLI 같은 코딩 에이전트가 동작하기 시작하면 보안팀의 모니터링이 힘들어지기 시작합니다.</description>
+      <pubDate>Mon, 24 Aug 2026 12:30:34 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/adr-agentic-ai-detection-and-response-uber/11691">PyTorch Korea</source>
+      <guid isPermaLink="false">94bea07907b4957ecf45b79d47806789</guid>
+    </item>
     <item>
       <title>LingBot-World 2.0: 720p 60fps 실시간으로 끝없이 조작 가능한 세계를 생성하는 14B 월드 모델</title>
       <link>https://discuss.pytorch.kr/t/lingbot-world-2-0-720p-60fps-14b/11693</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/joyai-video-edit/11575">PyTorch Korea</source>
       <guid isPermaLink="false">3064fd0419117f9f7c6cc3b7109e4652</guid>
-    </item>
-    <item>
-      <title>Xberg: 101개 문서 포맷에서 텍스트와 표를 뽑아내는 Rust 기반 문서 추출 엔진</title>
-      <link>https://discuss.pytorch.kr/t/xberg-101-rust/11573</link>
-      <description>Xberg 소개 RAG 파이프라인이나 문서 처리 서비스를 만들 때 가장 먼저 부딪히는 벽은 모델이 아니라 입력입니다. PDF는 PyMuPDF로 열고, 워드 문서는 python-docx로 읽고, 스캔 이미지는 Tesseract에 넘기고, 압축 파일은 또 따로 풀어야 합니다. 여기에 표 구조 복원과 읽기 순서 정리까지 붙이면 라이브러리 대여섯 개를 엮은 파이프라인이 만들어집니다.</description>
-      <pubDate>Mon, 10 Aug 2026 18:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/xberg-101-rust/11573">PyTorch Korea</source>
-      <guid isPermaLink="false">43f562072b79e350c34e0254499d3f96</guid>
     </item>
   </channel>
 </rss>
