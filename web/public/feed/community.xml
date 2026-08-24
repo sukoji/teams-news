@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 13:47:07 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 14:39:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AI(Agent)와 인간의 주가 예측 대결 챌린지가 허깅페이스에 열렸다.</title>
+      <link>https://discuss.pytorch.kr/t/ai-agent/11704</link>
+      <description>운과 실력을 가르는 선을 숫자로 남기기 — FINCHAL을 만들며 AI 에이전트가 직접 참가하는 금융 예측 챌린지를 열었습니다. 상금 2,000달러, 122일. 이 글은 왜 열었는지, 그리고 만들면서 부딪힌 설계 문제들에 대한 기록입니다.</description>
+      <pubDate>Mon, 24 Aug 2026 14:38:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-agent/11704">PyTorch Korea</source>
+      <guid isPermaLink="false">d2d7258d3f128ac48c8c65bdf5ea2b14</guid>
+    </item>
     <item>
       <title>ADR(Agentic AI Detection and Response): 사내 코딩 에이전트의 활동을 기록해 위협을 탐지하는 Uber의 에이전트 보안 시스템</title>
       <link>https://discuss.pytorch.kr/t/adr-agentic-ai-detection-and-response-uber/11691</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/lucebox-gpu-llm/11584">PyTorch Korea</source>
       <guid isPermaLink="false">f7b0587875a2912d3e02cdee357ba293</guid>
-    </item>
-    <item>
-      <title>JoyAI-Video-Edit: 자연어 지시로 실시간 영상 스트림을 편집하는 자기회귀 디퓨전 모델</title>
-      <link>https://discuss.pytorch.kr/t/joyai-video-edit/11575</link>
-      <description>JoyAI-Video-Edit 소개 영상 편집 모델은 대부분 영상 전체를 미리 받아 두고 시작합니다. 길이가 정해져 있어야 하고, 뒤쪽 프레임을 참고해 앞쪽을 다듬는 방식이 흔하며, 그래서 결과를 보려면 처리가 다 끝날 때까지 기다려야 합니다. 라이브 카메라 화면처럼 프레임이 계속 도착하고 끝이 정해지지 않은 입력에는 이 전제가 통하지 않습니다.</description>
-      <pubDate>Mon, 10 Aug 2026 21:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/joyai-video-edit/11575">PyTorch Korea</source>
-      <guid isPermaLink="false">3064fd0419117f9f7c6cc3b7109e4652</guid>
     </item>
   </channel>
 </rss>

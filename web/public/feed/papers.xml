@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 24 Aug 2026 13:47:07 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 14:39:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>단계별 확장: 대규모 전문가 혼합을 위한 효율적인 계산 하이퍼파라미터 전송</title>
+      <link>https://huggingface.co/papers/2608.20061</link>
+      <description>2단계 하이퍼파라미터 전송 프레임워크는 폭과 토큰 예산을 확장하여 대규모 전문가 혼합 모델에 대한 최적의 학습 속도를 예측하고 비용이 많이 드는 스윕 없이 효율적인 사전 학습을 가능하게 합니다.</description>
+      <pubDate>Mon, 24 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.20061">Hugging Face Papers</source>
+      <guid isPermaLink="false">343067b603991dc39cfa9b5e5681e58f</guid>
+    </item>
+    <item>
+      <title>EviRank: 다중 모드 이미지 재순위화를 위한 구조화된 관련성 증거</title>
+      <link>https://huggingface.co/papers/2608.20886</link>
+      <description>EviRank는 구조화된 증거 패키지에 대한 쿼리를 구문 분석하고 훈련 없이 루브릭 채점 및 목록별 비교를 통해 후보를 확인함으로써 의미론적 제약 조건 만족으로 다중 모드 이미지 재순위를 재구성합니다.</description>
+      <pubDate>Mon, 24 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.20886">Hugging Face Papers</source>
+      <guid isPermaLink="false">8436fd1aec91608b2274ce9e8fbacd4f</guid>
+    </item>
+    <item>
+      <title>모든 동전에는 두 가지 측면이 있습니다: 대규모 언어 모델의 정책적 증류에서 일반화의 이중 특성</title>
+      <link>https://huggingface.co/papers/2608.16647</link>
+      <description>정책에 따른 증류는 특정 답변이 아닌 추론 동작을 전달하며, 일반화는 교사-학생 원본 정렬 및 다중 교사 조합과 강력하게 연결되어 기능 절충을 유발합니다.</description>
+      <pubDate>Mon, 24 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.16647">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab1b4f478de718a5a343635fedcb8ae2</guid>
+    </item>
     <item>
       <title>AgentMercury: 에이전트는 대규모 비즈니스 시나리오에 대해 검증 가능한 환경을 합성할 수 있습니다.</title>
       <link>https://huggingface.co/papers/2608.20634</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.16590">Hugging Face Papers</source>
       <guid isPermaLink="false">407e335845cd2628337509a9f9de2e8b</guid>
-    </item>
-    <item>
-      <title>속성 기반 장르 확장을 통해 스토리 중심 데이터를 넘어 창의적 글쓰기 확장</title>
-      <link>https://huggingface.co/papers/2608.13947</link>
-      <description>장르 형식 컨트롤에서 주제별 씨앗을 분리하는 프레임워크는 13개 장르에 걸쳐 다양하고 고품질의 창의적 글쓰기 데이터를 생성하고 LLM 창의적 글쓰기 성능을 향상시킵니다.</description>
-      <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.13947">Hugging Face Papers</source>
-      <guid isPermaLink="false">7820ddc24a490418edcfecb3719a9e6f</guid>
-    </item>
-    <item>
-      <title>잠재 세계 모델의 결정-메트릭 정렬: MPC 계획을 위한 진단 및 행동 조건 목표</title>
-      <link>https://huggingface.co/papers/2608.18746</link>
-      <description>행동 조건이 적용된 목표는 세계 모델의 의사결정 지표 정렬을 강화하여 유클리드 비용 모델 예측 제어를 위한 잠재 기하학을 개선합니다.</description>
-      <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.18746">Hugging Face Papers</source>
-      <guid isPermaLink="false">59c888fd9ef8a102dc4b059e320c8540</guid>
-    </item>
-    <item>
-      <title>SemComp-Bench: 비디오 생성에서 의미 체계 작업 완료 벤치마킹</title>
-      <link>https://huggingface.co/papers/2608.17426</link>
-      <description>의미론적 작업 완료 비디오 생성은 생성된 비디오가 엄선된 데이터 세트 및 비전 언어 모델 기반 벤치마크의 지원을 받아 의미론적 기반을 통해 의도한 결과를 달성하는지 여부를 평가합니다.</description>
-      <pubDate>Thu, 20 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.17426">Hugging Face Papers</source>
-      <guid isPermaLink="false">8f8b1698aec34c4b60892624c73b4fe3</guid>
     </item>
   </channel>
 </rss>
