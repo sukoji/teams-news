@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 25 Aug 2026 11:59:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:54:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>FreeToken: 프론티어급 MoE 모델을 게이밍 데스크톱 수준에서 서빙하기 위한 Edge-Serving에 대한 연구</title>
+      <link>https://discuss.pytorch.kr/t/freetoken-moe-edge-serving/11696</link>
+      <description>FreeToken 소개 가중치는 공개되었지만, 돌릴 수 있는 사람은 따로 있습니다 새로 나온 오픈 모델의 가중치를 받아 두기만 하고, 그 파일을 읽어 들일 GPU가 없어서 결국 API를 다시 열어 본 경험이 있으실 겁니다. 이번에 소개할 FreeToken 논문은 바로 이 지점을 다룹니다.</description>
+      <pubDate>Tue, 25 Aug 2026 12:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/freetoken-moe-edge-serving/11696">PyTorch Korea</source>
+      <guid isPermaLink="false">0c47445697f2c2c0c3af9f495acc3ecb</guid>
+    </item>
     <item>
       <title>OpenConnector: 에이전트에 자격 증명을 넘기지 않고 1,000여 개 SaaS에 연결하는 오픈소스 게이트웨이</title>
       <link>https://discuss.pytorch.kr/t/openconnector-1-000-saas/11706</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/warp-2-78-kimi-k3-64gb-c/11601">PyTorch Korea</source>
       <guid isPermaLink="false">5e0c25e5258d7dc58c2515b4cf843899</guid>
-    </item>
-    <item>
-      <title>Qwen Audio Agent: 작업하는 동안에도 대화가 끊기지 않는 실시간 음성 에이전트 런타임</title>
-      <link>https://discuss.pytorch.kr/t/qwen-audio-agent/11600</link>
-      <description>Qwen Audio Agent 소개 음성으로 AI에게 일을 시켜 본 사람이라면 익숙한 정적이 있습니다. 질문을 던지면 비서가 검색이나 도구 호출을 시작하고, 그때부터 화면에는 아무 반응이 없습니다. 몇 초가 지나 결과가 한 번에 돌아오기 전까지는 추가로 말을 걸 수도, 진행 상황을 물을 수도 없습니다.</description>
-      <pubDate>Wed, 12 Aug 2026 16:00:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/qwen-audio-agent/11600">PyTorch Korea</source>
-      <guid isPermaLink="false">ffba0c63b6ce1eb34a728bb33f924aa3</guid>
     </item>
   </channel>
 </rss>
