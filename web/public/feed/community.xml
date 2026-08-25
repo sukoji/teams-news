@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 25 Aug 2026 10:19:25 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 11:59:40 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenConnector: 에이전트에 자격 증명을 넘기지 않고 1,000여 개 SaaS에 연결하는 오픈소스 게이트웨이</title>
+      <link>https://discuss.pytorch.kr/t/openconnector-1-000-saas/11706</link>
+      <description>OpenConnector 소개 AI 에이전트에게 메일을 읽히거나 협업 도구에 글을 남기게 하려면 그 계정에 접근할 권한이 필요합니다. 가장 빠른 방법은 API 키와 OAuth 토큰을 에이전트 프로세스의 환경 변수에 넣어 두는 것인데, 이렇게 하면 에이전트가 잘못 판단하거나 프롬프트 주입(Prompt Injection)에 당했을 때 피해 범위가 그 계정 전체로 번집니다.</description>
+      <pubDate>Tue, 25 Aug 2026 10:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openconnector-1-000-saas/11706">PyTorch Korea</source>
+      <guid isPermaLink="false">cf1484999b8a4a831000b1996367d28c</guid>
+    </item>
     <item>
       <title>Slack은 어떻게 대화를 조직의 지식으로 바꾸는가: Anthropic이 공개한 사람과 AI 에이전트가 함께 일하는 6가지 원칙 (feat. Claude Tag)</title>
       <link>https://discuss.pytorch.kr/t/slack-anthropic-ai-6-feat-claude-tag/11702</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/qwen-audio-agent/11600">PyTorch Korea</source>
       <guid isPermaLink="false">ffba0c63b6ce1eb34a728bb33f924aa3</guid>
-    </item>
-    <item>
-      <title>SIE: 에이전트가 쓰는 임베딩부터 OCR까지 한 클러스터에서 서빙하는 오픈소스 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/sie-ocr/11597</link>
-      <description>SIE 소개 에이전트 하나를 제대로 굴리려면 생각보다 많은 모델이 붙습니다. 질문을 벡터로 바꾸는 임베딩(Embedding) 모델, 검색 결과를 다시 줄 세우는 리랭킹(Reranking) 모델, 첨부된 PDF를 텍스트로 바꾸는 OCR 모델, 답을 스키마에 맞춰 뽑아내는 추출 모델, 여기에 계획을 세우고 도구를 호출하는 LLM까지 필요합니다.</description>
-      <pubDate>Wed, 12 Aug 2026 12:30:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sie-ocr/11597">PyTorch Korea</source>
-      <guid isPermaLink="false">b05daf2117e745a33910c083593e2e42</guid>
     </item>
   </channel>
 </rss>
