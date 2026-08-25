@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 25 Aug 2026 14:32:50 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 15:50:54 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>kimodo.cpp: NVIDIA Kimodo 모션 생성 모델을 PyTorch 없이 실행하는 C++/GGML 이식 구현</title>
+      <link>https://discuss.pytorch.kr/t/kimodo-cpp-nvidia-kimodo-pytorch-c-ggml/11708</link>
+      <description>kimodo.cpp 소개 텍스트로 3D 사람 모션을 만들어 내는 모델을 로컬에서 써 보려고 하면, 모델 자체보다 주변 환경이 먼저 문제가 됩니다. 파이썬과 PyTorch, CUDA 버전이 맞아야 하고, 텍스트를 벡터로 바꾸는 인코더와 모션을 만들어 내는 확산 모델이 동시에 GPU 메모리에 올라가며, 그 둘이 각각 다른 의존성 트리를 끌고 옵니다.</description>
+      <pubDate>Tue, 25 Aug 2026 15:30:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/kimodo-cpp-nvidia-kimodo-pytorch-c-ggml/11708">PyTorch Korea</source>
+      <guid isPermaLink="false">f0a602117d5e7bfb5218cf3078d5c277</guid>
+    </item>
     <item>
       <title>FreeToken: 프론티어급 MoE 모델을 게이밍 데스크톱 수준에서 서빙하기 위한 Edge-Serving에 대한 연구</title>
       <link>https://discuss.pytorch.kr/t/freetoken-moe-edge-serving/11696</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/how-to-train-your-gpt-llama-3-llm/11599">PyTorch Korea</source>
       <guid isPermaLink="false">ba41ffa5ced7f0a964f95a1c250850b2</guid>
-    </item>
-    <item>
-      <title>WARP: 2.78조 파라미터 Kimi K3를 64GB 맥북에서 실행하는 C 기반 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/warp-2-78-kimi-k3-64gb-c/11601</link>
-      <description>WARP 소개 프런티어급 오픈 모델이 공개될 때마다 반복되는 계산이 있습니다. 가중치 파일이 1TB를 넘으면 개인 장비에서는 열어볼 수조차 없고, 결국 증류하거나 가지치기한 축소판을 기다리거나 클라우드 API를 쓰는 선택지만 남습니다. 램에 모델을 통째로 올려야 한다는 전제가 이 계산을 지배해 왔습니다.</description>
-      <pubDate>Wed, 12 Aug 2026 18:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/warp-2-78-kimi-k3-64gb-c/11601">PyTorch Korea</source>
-      <guid isPermaLink="false">5e0c25e5258d7dc58c2515b4cf843899</guid>
     </item>
   </channel>
 </rss>
