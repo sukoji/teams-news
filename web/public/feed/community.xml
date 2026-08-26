@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 27 Aug 2026 04:04:29 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 07:50:14 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)</title>
+      <link>https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689</link>
+      <description>Cordis 논문, 'Programming Paradigm for Spatiotemporal Composability' 소개 플러그인 아키텍처와 스스로를 수정하는 에이전트 하네스(Agent Harness)는 모두 실행 중에 기능을 안전하게 넣고 빼야 하는 소프트웨어입니다.</description>
+      <pubDate>Thu, 27 Aug 2026 07:30:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689">PyTorch Korea</source>
+      <guid isPermaLink="false">dc49e3052d30c5468622aa53f735ac5f</guid>
+    </item>
     <item>
       <title>APEX: KV 캐시 압축을 어텐션 연산 경로에 넣고 FPGA로 검증한 오픈소스 LLM 추론 타일</title>
       <link>https://discuss.pytorch.kr/t/apex-kv-fpga-llm/11707</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claude-of-duty-ai-fps/11611">PyTorch Korea</source>
       <guid isPermaLink="false">48897693061b43d26c45bf45e400aabb</guid>
-    </item>
-    <item>
-      <title>thinking-orbs: AI 에이전트가 무엇을 하는 중인지 보여주는 로딩 인디케이터</title>
-      <link>https://discuss.pytorch.kr/t/thinking-orbs-ai/11616</link>
-      <description>thinking-orbs 소개 에이전트를 붙인 화면에서 대기 시간은 예전 웹앱과 성격이 다릅니다. 버튼을 눌러 응답이 오기까지 300밀리초를 기다리는 것과, 에이전트가 저장소를 훑고 도구를 호출하며 수십 초를 쓰는 것은 사용자가 느끼는 종류가 다릅니다. 그런데 화면이 알려 주는 정보는 대개 회전하는 원 하나로 같습니다.</description>
-      <pubDate>Fri, 14 Aug 2026 09:30:08 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/thinking-orbs-ai/11616">PyTorch Korea</source>
-      <guid isPermaLink="false">e842d4702a3b81786eb186e5fcba4280</guid>
     </item>
   </channel>
 </rss>
