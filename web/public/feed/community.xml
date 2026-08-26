@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 26 Aug 2026 17:45:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 18:43:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Zetta: VLA 재학습 없이 실행 중 실패를 감지하고 복구하는 로봇 에이전트 하네스</title>
+      <link>https://discuss.pytorch.kr/t/zetta-vla/11712</link>
+      <description>Zetta 소개 로봇에게 일상 작업을 시키는 연구는 크게 두 갈래로 나뉘어 발전해 왔습니다. 하나는 시각-언어-행동(Vision-Language-Action, VLA) 모델처럼 정책(Policy) 모델 자체를 키우는 쪽이고, 다른 하나는 대형 언어 모델을 에이전트로 세워 정책 모델과 코드, 도구를 지휘하게 하는 쪽입니다. 두 번째 갈래에서 반복해서 걸리는 문제는 실행이 시작된 다음의 공백입…</description>
+      <pubDate>Wed, 26 Aug 2026 18:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/zetta-vla/11712">PyTorch Korea</source>
+      <guid isPermaLink="false">b5ee025470afeb3955fea326cd521f1b</guid>
+    </item>
     <item>
       <title>HarnessRouter: Codex와 Claude Code를 내 컨테이너 하나에서 실행하는 자체 호스팅 게이트웨이</title>
       <link>https://discuss.pytorch.kr/t/harnessrouter-codex-claude-code/11716</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai-anthropic/11610">PyTorch Korea</source>
       <guid isPermaLink="false">2328ac189bebad2edb7ca2cb385a4175</guid>
-    </item>
-    <item>
-      <title>9arm-skills: Claude Code에 디버깅 규율과 코드 리뷰 절차를 심는 에이전트 스킬 모음</title>
-      <link>https://discuss.pytorch.kr/t/9arm-skills-claude-code/11605</link>
-      <description>9arm-skills 소개 코딩 에이전트에게 버그를 던지면 대개 몇 초 안에 수정안이 돌아옵니다. 곤란한 지점은 그 수정안이 어떤 경로로 나왔는지 확인할 방법이 마땅치 않다는 데 있습니다. 재현을 해본 뒤에 나온 답인지, 실제 실행 경로를 따라가 본 답인지, 스택 트레이스 마지막 줄만 보고 그럴듯하게 지어낸 답인지가 결과물만으로는 구분되지 않습니다.</description>
-      <pubDate>Thu, 13 Aug 2026 21:30:52 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/9arm-skills-claude-code/11605">PyTorch Korea</source>
-      <guid isPermaLink="false">1b30022e2efa021f9d26b9ed718ec56b</guid>
     </item>
   </channel>
 </rss>
