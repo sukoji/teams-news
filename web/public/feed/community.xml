@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 26 Aug 2026 14:35:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 15:51:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>HarnessRouter: Codex와 Claude Code를 내 컨테이너 하나에서 실행하는 자체 호스팅 게이트웨이</title>
+      <link>https://discuss.pytorch.kr/t/harnessrouter-codex-claude-code/11716</link>
+      <description>HarnessRouter 소개 코딩 에이전트를 여러 개 쓰는 팀은 실행 환경이 도구마다 갈리는 문제를 만납니다. Codex 와 Claude Code, Hermes 는 각자 자기 방식으로 설치되고 자기 방식으로 세션을 관리하며, 대화 기록도 각자의 자리에 남습니다. 여기에 자격 증명 관리가 겹칩니다.</description>
+      <pubDate>Wed, 26 Aug 2026 15:30:20 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/harnessrouter-codex-claude-code/11716">PyTorch Korea</source>
+      <guid isPermaLink="false">e0819df381eb58a90d9cd8ac4cb39a96</guid>
+    </item>
     <item>
       <title>에이전트 개발 6개월에서 2주로, Lyft와 Vodafone과 LATAM의 프로덕션 고객경험 에이전트 운영기 (feat. LangChain)</title>
       <link>https://discuss.pytorch.kr/t/6-2-lyft-vodafone-latam-feat-langchain/11711</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/9arm-skills-claude-code/11605">PyTorch Korea</source>
       <guid isPermaLink="false">1b30022e2efa021f9d26b9ed718ec56b</guid>
-    </item>
-    <item>
-      <title>h3.c: MiniMax H3 영상 생성 모델을 애플 실리콘에서 돌리는 C 언어 구현체 (feat. antirez)</title>
-      <link>https://discuss.pytorch.kr/t/h3-c-minimax-h3-c-feat-antirez/11608</link>
-      <description>h3.c 소개 영상 생성 모델을 로컬에서 돌려 보려면 대개 대용량 GPU가 있는 장비부터 찾게 됩니다. 가중치가 BF16으로 수십 기가바이트에 이르고, 디노이징 패스를 수십 번 반복해야 짧은 클립 하나가 나오기 때문입니다. 맥에서 시도하더라도 통합 메모리에 모델이 통째로 올라가야 한다는 조건이 먼저 걸립니다.</description>
-      <pubDate>Thu, 13 Aug 2026 18:30:02 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/h3-c-minimax-h3-c-feat-antirez/11608">PyTorch Korea</source>
-      <guid isPermaLink="false">57f3fec0d06aee3076eb9f4c2231feea</guid>
     </item>
   </channel>
 </rss>
