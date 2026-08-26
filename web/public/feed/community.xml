@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:31:10 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 21:54:29 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>APEX: KV 캐시 압축을 어텐션 연산 경로에 넣고 FPGA로 검증한 오픈소스 LLM 추론 타일</title>
+      <link>https://discuss.pytorch.kr/t/apex-kv-fpga-llm/11707</link>
+      <description>APEX 소개 대화가 길어질수록 LLM 추론(Inference)에서 비싸지는 것은 연산이 아니라 기억입니다. 지금까지 읽은 모든 토큰의 키와 값을 KV 캐시(KV Cache)에 저장해 두고 새 토큰마다 전부 다시 읽어야 하므로, 컨텍스트가 늘어나면 추론 엔진은 점점 계산기가 아니라 메모리 전송 장치에 가까워집니다. 대부분의 가속기는 이 문제를 소프트웨어 쪽으로 넘깁니다.</description>
+      <pubDate>Wed, 26 Aug 2026 21:30:24 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/apex-kv-fpga-llm/11707">PyTorch Korea</source>
+      <guid isPermaLink="false">a83a385d54b2e869d64d31867e285890</guid>
+    </item>
     <item>
       <title>Zetta: VLA 재학습 없이 실행 중 실패를 감지하고 복구하는 로봇 에이전트 하네스</title>
       <link>https://discuss.pytorch.kr/t/zetta-vla/11712</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/thinking-orbs-ai/11616">PyTorch Korea</source>
       <guid isPermaLink="false">e842d4702a3b81786eb186e5fcba4280</guid>
-    </item>
-    <item>
-      <title>멀티에이전트 시스템의 실패 패턴: AI 에이전트 군집의 쏠림, 담합, 목표 충돌에 대한 Anthropic의 연구</title>
-      <link>https://discuss.pytorch.kr/t/ai-anthropic/11610</link>
-      <description>멀티에이전트 시스템의 실패 패턴 연구 소개 같은 지시를 받은 사람 열 명을 한 방에 모아 두면, 각자 다른 방식으로 문제를 나눠 갖기를 기대하게 됩니다. AI 에이전트에게는 이 기대가 잘 맞지 않습니다.</description>
-      <pubDate>Fri, 14 Aug 2026 06:30:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-anthropic/11610">PyTorch Korea</source>
-      <guid isPermaLink="false">2328ac189bebad2edb7ca2cb385a4175</guid>
     </item>
   </channel>
 </rss>
