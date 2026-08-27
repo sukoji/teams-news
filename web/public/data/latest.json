@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-26",
-  "generated_at": "2026-08-26T08:21:28.002297+09:00",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T13:12:29.677489+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "200b24df0dfbb31720e434e5c7242dce",
+          "id": "440860ae61716189b3f34e4d8a5af870",
           "index": 1,
-          "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "ClawProBench evaluates agent configurations via execution traces across live and frozen tracks, revealing that final-answer rankings obscure native-runtime failures and process-quality differences.",
-          "summary_ko": "ClawProBench는 라이브 트랙과 정지 트랙의 실행 추적을 통해 에이전트 구성을 평가하여 최종 답변 순위가 기본 런타임 오류와 프로세스 품질 차이를 모호하게 한다는 것을 보여줍니다.",
-          "url": "https://huggingface.co/papers/2608.22510",
+          "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+          "title_ko": "롤아웃으로서의 주석: 비디오 MLLM을 위한 효율적이고 확장 가능한 강화 학습",
+          "summary": "OraRL improves reinforcement learning post-training for video multimodal language models by integrating oracle rollouts with decoupled advantage estimation and sign-balanced pruning, achieving higher sample efficiency a…",
+          "summary_ko": "OraRL은 Oracle 롤아웃과 분리 이점 추정 및 부호 균형 가지치기를 통합하여 비디오 다중 모달 언어 모델에 대한 강화 학습 후 훈련을 개선하고 더 높은 샘플 효율성을 달성합니다.",
+          "url": "https://huggingface.co/papers/2608.20492",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-25T09:00:00+09:00",
-          "popularity": 838,
-          "upvotes": 3,
-          "score": 28.13,
-          "importance_score": 18.27,
+          "published_at": "2026-08-26T09:00:00+09:00",
+          "popularity": 253,
+          "upvotes": 91,
+          "score": 30.61,
+          "importance_score": 16.61,
           "matched_keywords": [
             "ai",
-            "agent",
-            "rag"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 3
-          }
-        },
-        {
-          "id": "48dd8e1d9fc21c8c5cf42a3a2ebcff77",
-          "index": 2,
-          "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
-          "title_ko": "Apodex 1.1: 복잡한 작업을 위한 에이전트 지능 확장",
-          "summary": "Apodex 1.1 improves sustained, verifiable progress on complex real-world tasks by scaling executable environments and training agents to coordinate long-horizon work with state maintenance and recovery.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://huggingface.co/papers/2608.23283",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-08-25T09:00:00+09:00",
-          "popularity": 802,
-          "upvotes": 172,
-          "score": 28.13,
-          "importance_score": 18.27,
-          "matched_keywords": [
-            "ai",
-            "agent",
+            "llm",
+            "multimodal",
+            "reinforcement learning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 172
+            "value": 91
+          }
+        },
+        {
+          "id": "96f79d2ba096a4dca956b853e609f019",
+          "index": 2,
+          "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+          "title_ko": "GigaBrain-0.7: 3-시스템 아키텍처를 통해 구현된 기초 모델을 새로운 기능으로 확장",
+          "summary": "GigaBrain-0.7 is a vision-language-action model that improves embodied generalization via a three-system architecture, large-scale heterogeneous pretraining, and joint alignment training.",
+          "summary_ko": "GigaBrain-0.7은 3개 시스템 아키텍처, 대규모 이종 사전 훈련 및 관절 정렬 훈련을 통해 구체화된 일반화를 향상시키는 비전-언어-행동 모델입니다.",
+          "url": "https://huggingface.co/papers/2608.15875",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-08-26T09:00:00+09:00",
+          "popularity": 2810,
+          "upvotes": 92,
+          "score": 28.0,
+          "importance_score": 18.0,
+          "matched_keywords": [
+            "ai",
+            "foundation model",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 92
           }
         }
       ]
@@ -68,42 +70,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "029a687d418dc5659ea4bda908eccea5",
+          "id": "419257a0a6d56709b9b39ea2b79db2f6",
           "index": 3,
-          "title": "[8월25일] AI가 바꾸는 돈과 일…자본은 하드웨어로·기업 격차는 더 크게",
+          "title": "‘옥스 알파’ 정체는 GLM-5.3-플래시...“오퍼스급 성능에 비용은 10%”",
           "title_ko": null,
-          "summary": "앤드리슨 호로비츠(a16z)가 21일(현지시간) 공개한 \\'테마 변화의 바람(Winds of Thematic Change)\\' 보고서는 AI 확산이 시장과 기업에 어떤 변화를 만들고 있는지를 보여줍니다.",
+          "summary": "지푸 AI(Z.ai)가 최근 화제를 모은 익명의 오픈웨이트 모델 ‘옥스 알파(Ox Alpha)’의 정체를 공개했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214327",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214438",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-26T07:00:00+09:00",
+          "published_at": "2026-08-27T12:59:25+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.72,
-          "importance_score": 19.43,
+          "score": 22.96,
+          "importance_score": 19.91,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "5f5db631e2b027a7672d10d78bb688e2",
+          "id": "d1891cd76c9e616e15b6470dd2d3032b",
           "index": 4,
-          "title": "\"AI발 보안리스크 관리 이렇게\"...에임인텔리전스, 내달 7일 컨퍼런스",
+          "title": "현대차·기아, 협력사 AI 전환 돕는다…경주에 전용 훈련센터 개소",
           "title_ko": null,
-          "summary": "[지디넷코리아]AI보안 전문기업 에임인텔리전스(AIM Intelligence, 대표 유상윤)가 내달 7일 삼성금융캠퍼스에서 ‘AI 리스크 컨퍼런스 서울 2026’을 개최한다.삼성화재가 후원하는 이번 컨퍼런스는 100명 이상의 국내외 기업 관계자들이 참여할 예정이다.",
+          "summary": "[지디넷코리아]현대자동차·기아가 중소 부품 협력사의 인공지능 전환(AX)을 지원하기 위한 전용 교육 거점을 마련했다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260825225001",
+          "url": "https://zdnet.co.kr/view/?no=20260827112657",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-25T22:50:01+09:00",
-          "popularity": 97,
+          "published_at": "2026-08-27T11:26:57+09:00",
+          "popularity": 93,
           "upvotes": 0,
-          "score": 17.72,
-          "importance_score": 15.73,
+          "score": 18.93,
+          "importance_score": 18.57,
           "matched_keywords": [
             "ai"
           ],
@@ -116,55 +119,53 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "7d44b6c412e36f031eb8ba5274532d81",
-          "index": 5,
-          "title": "Cripacx/mediagen — AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI and Kie",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI and Kie AI behind one CLI and MCP server, with EU AI Act content marking.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://github.com/Cripacx/mediagen",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-08-23T11:40:33+09:00",
-          "popularity": 56,
-          "upvotes": 56,
-          "score": 31.15,
-          "importance_score": 14.15,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "claude",
-            "gemini",
-            "mcp"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 56
-          }
-        },
-        {
           "id": "99cc8cc2964bda666975469c01b89ae8",
-          "index": 6,
+          "index": 5,
           "title": "rome-os/rome — Rome is the agentic OS.",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title_ko": "rome-os/rome — Rome은 에이전트 OS입니다.",
           "summary": "Rome is the agentic OS.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary_ko": "Rome은 에이전트 OS입니다.",
           "url": "https://github.com/rome-os/rome",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-25T15:46:16+09:00",
-          "popularity": 333,
-          "upvotes": 333,
-          "score": 26.88,
-          "importance_score": 23.43,
+          "published_at": "2026-08-27T11:54:42+09:00",
+          "popularity": 363,
+          "upvotes": 363,
+          "score": 30.37,
+          "importance_score": 30.1,
           "matched_keywords": [
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 333
+            "value": 363
+          }
+        },
+        {
+          "id": "6bac158cb4ddcf083ee943fbf76b31a8",
+          "index": 6,
+          "title": "UditAkhourii/cdaf — CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing",
+          "title_ko": "UditAkhourii/cdaf — CDAF(캐시된 설명 자산 파일) - AI 에이전트가 재분석을 중지하도록 비디오용 공개 사이드카 형식",
+          "summary": "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
+          "summary_ko": "CDAF(캐시된 설명 자산 파일) - AI 에이전트가 동일한 장면을 다시 분석하는 것을 중지하도록 비디오용 개방형 사이드카 형식입니다. 사양, CLI, 에이전트 기술, 재현 가능한 벤치마크.",
+          "url": "https://github.com/UditAkhourii/cdaf",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-08-27T04:30:09+09:00",
+          "popularity": 74,
+          "upvotes": 74,
+          "score": 29.3,
+          "importance_score": 21.48,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "benchmark"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 74
           }
         }
       ]
@@ -174,23 +175,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "0f7486bca934f175773c0bea3742abfc",
+          "id": "dc49e3052d30c5468622aa53f735ac5f",
           "index": 7,
-          "title": "MegaMemory: 코딩 에이전트가 세션이 끝나도 프로젝트 구조를 기억하게 만드는 MCP 서버",
+          "title": "Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)",
           "title_ko": null,
-          "summary": "MegaMemory 소개 코딩 에이전트를 며칠 이상 쓰다 보면 같은 작업을 반복하게 됩니다. 어제 세 시간 동안 인증 흐름을 읽고 어디를 고쳐야 하는지 파악해 두었는데, 오늘 새 세션을 열면 에이전트는 그 파일들을 처음 보는 것처럼 다시 읽습니다.",
+          "summary": "Cordis 논문, 'Programming Paradigm for Spatiotemporal Composability' 소개 플러그인 아키텍처와 스스로를 수정하는 에이전트 하네스(Agent Harness)는 모두 실행 중에 기능을 안전하게 넣고 빼야 하는 소프트웨어입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/megamemory-mcp/11713",
+          "url": "https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-26T07:30:09+09:00",
-          "popularity": 100,
+          "published_at": "2026-08-27T07:30:31+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 19.82,
-          "importance_score": 19.64,
+          "score": 24.61,
+          "importance_score": 17.43,
           "matched_keywords": [
-            "mcp"
+            "ai",
+            "agent",
+            "연구"
           ],
           "engagement": null
         }
@@ -199,169 +202,172 @@
   ],
   "items": [
     {
-      "id": "200b24df0dfbb31720e434e5c7242dce",
+      "id": "440860ae61716189b3f34e4d8a5af870",
       "index": 1,
-      "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "ClawProBench evaluates agent configurations via execution traces across live and frozen tracks, revealing that final-answer rankings obscure native-runtime failures and process-quality differences.",
-      "summary_ko": "ClawProBench는 라이브 트랙과 정지 트랙의 실행 추적을 통해 에이전트 구성을 평가하여 최종 답변 순위가 기본 런타임 오류와 프로세스 품질 차이를 모호하게 한다는 것을 보여줍니다.",
-      "url": "https://huggingface.co/papers/2608.22510",
+      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+      "title_ko": "롤아웃으로서의 주석: 비디오 MLLM을 위한 효율적이고 확장 가능한 강화 학습",
+      "summary": "OraRL improves reinforcement learning post-training for video multimodal language models by integrating oracle rollouts with decoupled advantage estimation and sign-balanced pruning, achieving higher sample efficiency a…",
+      "summary_ko": "OraRL은 Oracle 롤아웃과 분리 이점 추정 및 부호 균형 가지치기를 통합하여 비디오 다중 모달 언어 모델에 대한 강화 학습 후 훈련을 개선하고 더 높은 샘플 효율성을 달성합니다.",
+      "url": "https://huggingface.co/papers/2608.20492",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-25T09:00:00+09:00",
-      "popularity": 838,
-      "upvotes": 3,
-      "score": 28.13,
-      "importance_score": 18.27,
+      "published_at": "2026-08-26T09:00:00+09:00",
+      "popularity": 253,
+      "upvotes": 91,
+      "score": 30.61,
+      "importance_score": 16.61,
       "matched_keywords": [
         "ai",
-        "agent",
-        "rag"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 3
-      }
-    },
-    {
-      "id": "48dd8e1d9fc21c8c5cf42a3a2ebcff77",
-      "index": 2,
-      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
-      "title_ko": "Apodex 1.1: 복잡한 작업을 위한 에이전트 지능 확장",
-      "summary": "Apodex 1.1 improves sustained, verifiable progress on complex real-world tasks by scaling executable environments and training agents to coordinate long-horizon work with state maintenance and recovery.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://huggingface.co/papers/2608.23283",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-25T09:00:00+09:00",
-      "popularity": 802,
-      "upvotes": 172,
-      "score": 28.13,
-      "importance_score": 18.27,
-      "matched_keywords": [
-        "ai",
-        "agent",
+        "llm",
+        "multimodal",
+        "reinforcement learning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 172
+        "value": 91
       }
     },
     {
-      "id": "029a687d418dc5659ea4bda908eccea5",
+      "id": "96f79d2ba096a4dca956b853e609f019",
+      "index": 2,
+      "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+      "title_ko": "GigaBrain-0.7: 3-시스템 아키텍처를 통해 구현된 기초 모델을 새로운 기능으로 확장",
+      "summary": "GigaBrain-0.7 is a vision-language-action model that improves embodied generalization via a three-system architecture, large-scale heterogeneous pretraining, and joint alignment training.",
+      "summary_ko": "GigaBrain-0.7은 3개 시스템 아키텍처, 대규모 이종 사전 훈련 및 관절 정렬 훈련을 통해 구체화된 일반화를 향상시키는 비전-언어-행동 모델입니다.",
+      "url": "https://huggingface.co/papers/2608.15875",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-26T09:00:00+09:00",
+      "popularity": 2810,
+      "upvotes": 92,
+      "score": 28.0,
+      "importance_score": 18.0,
+      "matched_keywords": [
+        "ai",
+        "foundation model",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 92
+      }
+    },
+    {
+      "id": "419257a0a6d56709b9b39ea2b79db2f6",
       "index": 3,
-      "title": "[8월25일] AI가 바꾸는 돈과 일…자본은 하드웨어로·기업 격차는 더 크게",
+      "title": "‘옥스 알파’ 정체는 GLM-5.3-플래시...“오퍼스급 성능에 비용은 10%”",
       "title_ko": null,
-      "summary": "앤드리슨 호로비츠(a16z)가 21일(현지시간) 공개한 \\'테마 변화의 바람(Winds of Thematic Change)\\' 보고서는 AI 확산이 시장과 기업에 어떤 변화를 만들고 있는지를 보여줍니다.",
+      "summary": "지푸 AI(Z.ai)가 최근 화제를 모은 익명의 오픈웨이트 모델 ‘옥스 알파(Ox Alpha)’의 정체를 공개했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214327",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214438",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-26T07:00:00+09:00",
+      "published_at": "2026-08-27T12:59:25+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.72,
-      "importance_score": 19.43,
+      "score": 22.96,
+      "importance_score": 19.91,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "5f5db631e2b027a7672d10d78bb688e2",
+      "id": "d1891cd76c9e616e15b6470dd2d3032b",
       "index": 4,
-      "title": "\"AI발 보안리스크 관리 이렇게\"...에임인텔리전스, 내달 7일 컨퍼런스",
+      "title": "현대차·기아, 협력사 AI 전환 돕는다…경주에 전용 훈련센터 개소",
       "title_ko": null,
-      "summary": "[지디넷코리아]AI보안 전문기업 에임인텔리전스(AIM Intelligence, 대표 유상윤)가 내달 7일 삼성금융캠퍼스에서 ‘AI 리스크 컨퍼런스 서울 2026’을 개최한다.삼성화재가 후원하는 이번 컨퍼런스는 100명 이상의 국내외 기업 관계자들이 참여할 예정이다.",
+      "summary": "[지디넷코리아]현대자동차·기아가 중소 부품 협력사의 인공지능 전환(AX)을 지원하기 위한 전용 교육 거점을 마련했다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260825225001",
+      "url": "https://zdnet.co.kr/view/?no=20260827112657",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-25T22:50:01+09:00",
-      "popularity": 97,
+      "published_at": "2026-08-27T11:26:57+09:00",
+      "popularity": 93,
       "upvotes": 0,
-      "score": 17.72,
-      "importance_score": 15.73,
+      "score": 18.93,
+      "importance_score": 18.57,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "7d44b6c412e36f031eb8ba5274532d81",
-      "index": 5,
-      "title": "Cripacx/mediagen — AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI and Kie",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI and Kie AI behind one CLI and MCP server, with EU AI Act content marking.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://github.com/Cripacx/mediagen",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-08-23T11:40:33+09:00",
-      "popularity": 56,
-      "upvotes": 56,
-      "score": 31.15,
-      "importance_score": 14.15,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "claude",
-        "gemini",
-        "mcp"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 56
-      }
-    },
-    {
       "id": "99cc8cc2964bda666975469c01b89ae8",
-      "index": 6,
+      "index": 5,
       "title": "rome-os/rome — Rome is the agentic OS.",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_ko": "rome-os/rome — Rome은 에이전트 OS입니다.",
       "summary": "Rome is the agentic OS.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary_ko": "Rome은 에이전트 OS입니다.",
       "url": "https://github.com/rome-os/rome",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-25T15:46:16+09:00",
-      "popularity": 333,
-      "upvotes": 333,
-      "score": 26.88,
-      "importance_score": 23.43,
+      "published_at": "2026-08-27T11:54:42+09:00",
+      "popularity": 363,
+      "upvotes": 363,
+      "score": 30.37,
+      "importance_score": 30.1,
       "matched_keywords": [
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 333
+        "value": 363
       }
     },
     {
-      "id": "0f7486bca934f175773c0bea3742abfc",
+      "id": "6bac158cb4ddcf083ee943fbf76b31a8",
+      "index": 6,
+      "title": "UditAkhourii/cdaf — CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing",
+      "title_ko": "UditAkhourii/cdaf — CDAF(캐시된 설명 자산 파일) - AI 에이전트가 재분석을 중지하도록 비디오용 공개 사이드카 형식",
+      "summary": "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
+      "summary_ko": "CDAF(캐시된 설명 자산 파일) - AI 에이전트가 동일한 장면을 다시 분석하는 것을 중지하도록 비디오용 개방형 사이드카 형식입니다. 사양, CLI, 에이전트 기술, 재현 가능한 벤치마크.",
+      "url": "https://github.com/UditAkhourii/cdaf",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-08-27T04:30:09+09:00",
+      "popularity": 74,
+      "upvotes": 74,
+      "score": 29.3,
+      "importance_score": 21.48,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 74
+      }
+    },
+    {
+      "id": "dc49e3052d30c5468622aa53f735ac5f",
       "index": 7,
-      "title": "MegaMemory: 코딩 에이전트가 세션이 끝나도 프로젝트 구조를 기억하게 만드는 MCP 서버",
+      "title": "Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)",
       "title_ko": null,
-      "summary": "MegaMemory 소개 코딩 에이전트를 며칠 이상 쓰다 보면 같은 작업을 반복하게 됩니다. 어제 세 시간 동안 인증 흐름을 읽고 어디를 고쳐야 하는지 파악해 두었는데, 오늘 새 세션을 열면 에이전트는 그 파일들을 처음 보는 것처럼 다시 읽습니다.",
+      "summary": "Cordis 논문, 'Programming Paradigm for Spatiotemporal Composability' 소개 플러그인 아키텍처와 스스로를 수정하는 에이전트 하네스(Agent Harness)는 모두 실행 중에 기능을 안전하게 넣고 빼야 하는 소프트웨어입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/megamemory-mcp/11713",
+      "url": "https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-26T07:30:09+09:00",
-      "popularity": 100,
+      "published_at": "2026-08-27T07:30:31+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 19.82,
-      "importance_score": 19.64,
+      "score": 24.61,
+      "importance_score": 17.43,
       "matched_keywords": [
-        "mcp"
+        "ai",
+        "agent",
+        "연구"
       ],
       "engagement": null
     }
