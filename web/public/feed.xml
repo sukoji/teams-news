@@ -5,9 +5,216 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 27 Aug 2026 13:12:29 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 13:23:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>WarpSAC: 탐색 및 활용에 대한 재고를 통해 확장 가능한 비정책 RL의 정점을 향하여</title>
+      <link>https://huggingface.co/papers/2608.24479</link>
+      <description>비정책 강화 학습 안정기는 데이터 가용성에 따라 달라지며 정규화 및 Q 함수 클리핑을 조정하여 CPU 및 GPU 병렬 훈련 전반의 효율성을 향상시키는 체제 인식 알고리즘에 동기를 부여합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24479">Hugging Face Papers</source>
+      <guid isPermaLink="false">5afda67249976cb1986ee020c90e27fa</guid>
+    </item>
+    <item>
+      <title>Android GUI 에이전트는 런타임 이상 현상에 대해 강력합니까? AnTrap: 동적 적대 환경에서 에이전트 평가</title>
+      <link>https://huggingface.co/papers/2608.24099</link>
+      <description>AnTrap은 실행 궤적에 동적 이상 현상을 주입하고 보편적인 취약점을 드러내며 학습 가능한 트랩을 본질적인 추론 한계와 구별함으로써 GUI 에이전트 견고성을 벤치마킹합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24099">Hugging Face Papers</source>
+      <guid isPermaLink="false">2a05326f21a4ae2b281bdd70699ddcb8</guid>
+    </item>
+    <item>
+      <title>JIT-Agent: 적시 하네스 진화를 통해 하네스 인텔리전스 확장</title>
+      <link>https://huggingface.co/papers/2608.25593</link>
+      <description>JIT-Agent는 기성 LLM을 위한 적응형 에이전트 하네스를 합성하여 다양한 모델과 작업 전반에 걸쳐 성능을 향상시키는 훈련 가능한 모델입니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.25593">Hugging Face Papers</source>
+      <guid isPermaLink="false">dbf17e74b17234ed56600ad19bcb7342</guid>
+    </item>
+    <item>
+      <title>Agent-G^2: 에이전트 강화 학습을 위한 가우스 지침</title>
+      <link>https://huggingface.co/papers/2608.23318</link>
+      <description>Agent-G² 모델은 기존 롤아웃에서 온라인으로 추정된 가우스 분포로 깊이를 암시하여 추가 조사 없이 장거리 작업에 대한 강화 학습을 향상시킵니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.23318">Hugging Face Papers</source>
+      <guid isPermaLink="false">e0a2b23833ee8cc1bef723df67937a42</guid>
+    </item>
+    <item>
+      <title>V-루브릭: 루브릭 기반 강화 학습을 통한 시각적 충실도</title>
+      <link>https://huggingface.co/papers/2608.25580</link>
+      <description>시각적 루브릭 기반 강화 학습은 시각적 충실도, 추론 일관성 및 구조화된 부분 학점을 사용한 지침에 대한 답변을 채점하여 비전 언어 모델 기반을 개선합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.25580">Hugging Face Papers</source>
+      <guid isPermaLink="false">01798f919e63e1dee84fa7e11659ba3e</guid>
+    </item>
+    <item>
+      <title>FrontierChallenge: 과학적 작업 흐름 완료 평가</title>
+      <link>https://huggingface.co/papers/2608.24979</link>
+      <description>FrontierChallenge는 도메인 전반에 걸쳐 엔드투엔드 과학적 워크플로우를 평가하여 높은 부분 점수와 빈번한 완료 요구에도 불구하고 프론티어 모델이 작업의 약 20%만 완료한다는 것을 보여줍니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24979">Hugging Face Papers</source>
+      <guid isPermaLink="false">c2e12461b824dd16318e19b96d17eed9</guid>
+    </item>
+    <item>
+      <title>StreamPI: 비전-언어-동작 모델을 위한 스트리밍 다중 모드 시간 모델링</title>
+      <link>https://huggingface.co/papers/2608.26067</link>
+      <description>StreamPI는 지시 기반 주의 및 무작위 간격 훈련을 통해 스트리밍 시간 추론을 통해 단일 프레임 비전-언어-행동 모델을 향상시켜 추가 매개변수 없이 로봇 조작을 향상시킵니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.26067">Hugging Face Papers</source>
+      <guid isPermaLink="false">287abef513addacde57f7df0f1e464b3</guid>
+    </item>
+    <item>
+      <title>CodexPro: 허용한 저장소만 ChatGPT에 열어 주는 로컬 MCP 서버 (≠ 사용량 우회 도구)</title>
+      <link>https://discuss.pytorch.kr/t/codexpro-chatgpt-mcp/11723</link>
+      <description>CodexPro 소개 ChatGPT 웹 화면에서 코드를 다루려면 보통 파일을 붙여 넣고, 답을 받아 다시 편집기에 옮기고, 결과를 확인해 또 붙여 넣는 왕복이 생깁니다. 저장소가 조금만 커져도 어떤 파일을 얼마나 붙여 넣어야 하는지부터 판단이 어려워지고, 대화가 길어지면 앞서 붙인 내용과 지금 디스크에 있는 내용이 어긋나기 시작합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 12:31:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/codexpro-chatgpt-mcp/11723">PyTorch Korea</source>
+      <guid isPermaLink="false">ae78e17736808b8a9355d2de162e3d5d</guid>
+    </item>
+    <item>
+      <title>Open-MOPD: 다중 교사 온 정책 증류의 기능 불균형 진단 및 수정</title>
+      <link>https://huggingface.co/papers/2608.19098</link>
+      <description>다중 교사 정책 증류는 도메인 전반에 걸쳐 토큰 수준 예산의 잘못된 할당으로 인해 어려움을 겪습니다. 이는 Oracle 앙상블의 기능 대부분을 복구하기 위해 균형 조정, 동적 할당 및 보상 새로 고침을 통해 해결됩니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19098">Hugging Face Papers</source>
+      <guid isPermaLink="false">8ec9873d182f4ef999d54afd835a84cf</guid>
+    </item>
+    <item>
+      <title>Vibe-Research: AI가 의사 결정을 하기 위해 필요한 데이터만 모아 주는 개인용 투자 리서치 대시보드</title>
+      <link>https://discuss.pytorch.kr/t/vibe-research-ai/11726</link>
+      <description>Vibe-Research 소개 LLM으로 시장 데이터를 다루는 오픈소스 프로젝트는 대부분 파이프라인 끝에 트레이더나 포트폴리오 매니저 역할을 하나 두고, 그 역할이 매수 또는 매도와 비중을 출력하도록 만들어져 있습니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vibe-research-ai/11726">PyTorch Korea</source>
+      <guid isPermaLink="false">a22fc8071c62bef89420a7befa964ba3</guid>
+    </item>
+    <item>
+      <title>D^3-MOPD: 효율적인 다중 교사 증류를 위한 적응형 동적 도메인 스케줄링</title>
+      <link>https://huggingface.co/papers/2608.24987</link>
+      <description>D³-MOPD는 도메인별 역KL 궤적을 모니터링하여 다중 교사 증류 중에 도메인 샘플링 비율을 동적으로 조정하고 융합 효율성을 개선하며 대부분의 학생 대 교사 성과를 마무리합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24987">Hugging Face Papers</source>
+      <guid isPermaLink="false">ce4dcec479da6e1057524a640144814a</guid>
+    </item>
+    <item>
+      <title>VGI-BENCH: 비디오 생성 모델의 시각적 지능 조사</title>
+      <link>https://huggingface.co/papers/2608.19583</link>
+      <description>VGI-bench는 27개 작업을 통해 비디오 생성 모델의 시각적 추론을 평가하여 생성 중 제한된 신뢰성과 최소한의 자체 수정을 나타냅니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.19583">Hugging Face Papers</source>
+      <guid isPermaLink="false">d8abc14fc4bd851661c07e31b2eb5a73</guid>
+    </item>
+    <item>
+      <title>VBVR-Pro: 기본 시각적 추론을 위한 확장 가능하고 검증 가능한 제품군</title>
+      <link>https://huggingface.co/papers/2608.26105</link>
+      <description>VBBR-Pro는 다양한 시각적 기판 전반에 걸쳐 생성을 통해 확장 가능하고 검증 가능하며 제어 가능한 기본 시각적 추론을 가능하게 하는 폐쇄 루프 테스트베드를 도입합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.26105">Hugging Face Papers</source>
+      <guid isPermaLink="false">1b67960c4264806bc813eb5a3b3f5842</guid>
+    </item>
+    <item>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
+      <link>https://huggingface.co/papers/2608.25927</link>
+      <description>코드 세계 모델은 언어 모델을 사용하여 실행 가능 상태 업데이트를 생성하고 비디오 모델을 사용하여 프록시 표현에서 관찰을 렌더링함으로써 지속적인 세계 역학을 시각적 렌더링에서 분리합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.25927">Hugging Face Papers</source>
+      <guid isPermaLink="false">24ccd6a1d774f67e7bf83e5e85e8bbc3</guid>
+    </item>
+    <item>
+      <title>게이트형 순환 변압기: 변압기의 순환 변조를 통한 표현의 깊이</title>
+      <link>https://huggingface.co/papers/2608.15062</link>
+      <description>게이트형 순환 변환기는 적응형 업데이트 게이트를 통해 깊이 전반에 걸쳐 공유 코어를 재사용하여 훨씬 적은 매개변수와 더 적은 메모리로 더 깊은 모델과 비슷하거나 더 나은 품질을 달성합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.15062">Hugging Face Papers</source>
+      <guid isPermaLink="false">18aa67af3c86624380399d927c4e466c</guid>
+    </item>
+    <item>
+      <title>삼성전자, 신형 SSD 2종 공개..."데이터 전송속도·용량 2배 확대"</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=214453</link>
+      <description>삼성전자가 차세대 인터페이스 USB4를 탑재한 초고속 포터블 솔리드스테이트드라이브(SSD) 신제품 \'P9\'과 \'P7\'을 공개했다.삼성전자는 26일(현지 시각) 독일 쾰른에서 열린 세계 최대 게임쇼 \'게임스컴 2026\'에서 전문가용 플래그십 모델 \'P9\'과 다양한 기기에서 폭넓게 활용 가능한 \'P7\'을 선보였다.P9은 연속 읽기 속도 초당 최대 4000메가바이트(MB), 연…</description>
+      <pubDate>Thu, 27 Aug 2026 12:35:02 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=214453">AI Times</source>
+      <guid isPermaLink="false">e1c360109524b44f0a30214e692c61aa</guid>
+    </item>
+    <item>
+      <title>MA-VLA: 협업 및 구성 일반화를 위한 다중 팔 비전-언어-작업 모델</title>
+      <link>https://huggingface.co/papers/2608.25864</link>
+      <description>MA-VLA는 개별 팔에 원자적 동작을 할당하고 훈련 시간 순열을 사용하여 보이지 않는 조정 패턴을 일반화함으로써 다중 팔 협업을 가능하게 합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.25864">Hugging Face Papers</source>
+      <guid isPermaLink="false">9919a200b3ff9d4b4fb70d6af1d36a6f</guid>
+    </item>
+    <item>
+      <title>현대차·기아, 협력사 AI 전환 돕는다…경주에 전용 훈련센터 개소</title>
+      <link>https://zdnet.co.kr/view/?no=20260827112657</link>
+      <description>[지디넷코리아]현대자동차·기아가 중소 부품 협력사의 인공지능 전환(AX)을 지원하기 위한 전용 교육 거점을 마련했다.</description>
+      <pubDate>Thu, 27 Aug 2026 11:26:57 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20260827112657">ZDNet Korea</source>
+      <guid isPermaLink="false">d1891cd76c9e616e15b6470dd2d3032b</guid>
+    </item>
+    <item>
+      <title>슈퍼스타: 디지털 휴먼을 위한 실시간 대화형 에이전트 스트리밍을 향하여</title>
+      <link>https://huggingface.co/papers/2608.24909</link>
+      <description>온라인 공동 음성 제스처 생성을 위한 실시간 프레임워크는 합성 대화 데이터 및 지속적인 사용자 피드백 적응을 통해 지원되는 스트리밍 음성 및 동작 기록을 갖춘 인과 다중 모달 자동 회귀 모델을 사용합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24909">Hugging Face Papers</source>
+      <guid isPermaLink="false">ed4909907841298bf9c205bc6e0dbc4b</guid>
+    </item>
+    <item>
+      <title>MARS: 경쟁 프로그래밍을 위한 다중 전문가 LLM 릴레이 시스템</title>
+      <link>https://huggingface.co/papers/2608.23918</link>
+      <description>MARS는 알고리즘 주제에 대해 검색 강화 전문 에이전트를 사용하여 C++ 솔루션을 반복적으로 생성, 테스트 및 개선하여 저렴한 비용으로 경쟁력 있는 프로그래밍 합격률을 향상시킵니다.</description>
+      <pubDate>Wed, 26 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.23918">Hugging Face Papers</source>
+      <guid isPermaLink="false">7798a4a931b4827a6c6eb0bc73f59d01</guid>
+    </item>
+    <item>
+      <title>MemUse: 메모리 평가를 직접 QA에서 장기적인 인간-AI ​​대화의 자연스러운 통합으로 이동</title>
+      <link>https://huggingface.co/papers/2608.24189</link>
+      <description>대화 기억에 대한 직접 QA 벤치마크는 사용자 만족도를 예측하지 못하는 반면, 이전 맥락의 자연스러운 통합은 유도된 회상과 대화 사용 사이의 큰 격차를 드러냅니다.</description>
+      <pubDate>Wed, 26 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24189">Hugging Face Papers</source>
+      <guid isPermaLink="false">d31c6a39f65d9cc90acc02958ba20d9c</guid>
+    </item>
+    <item>
+      <title>시공간적 결합성을 위한 프로그래밍 패러다임</title>
+      <link>https://huggingface.co/papers/2608.25512</link>
+      <description>미적분학 및 프레임워크는 가역 효과와 반응적 상호 효과를 컨텍스트 패러다임으로 통합하여 동적 소프트웨어 구성 요소에 대한 시공간 결합성을 가능하게 합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.25512">Hugging Face Papers</source>
+      <guid isPermaLink="false">cd70546505cb680385ff4092a6e6c7c7</guid>
+    </item>
+    <item>
+      <title>AI 하네스 기업의 ARR 배수</title>
+      <link>https://news.hada.io/topic?id=32930</link>
+      <description>Harvey와 Legora는 법률 업무용 AI 플랫폼 , Sierra는 기업의 고객 경험을 처리하는 AI 에이전트 플랫폼 으로, 모두 기반 AI 모델 위에 특정 업무를 수행하는 제품/워크플로우 계층을 구축하는 이른바 AI 하네스 기업 Harvey, Legora, Sierra는 각각...</description>
+      <pubDate>Thu, 27 Aug 2026 10:36:02 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=32930">GeekNews</source>
+      <guid isPermaLink="false">0c1e17d9594e53c07a292776d098e834</guid>
+    </item>
     <item>
       <title>Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)</title>
       <link>https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689</link>
@@ -250,213 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/zetta-vla/11712">PyTorch Korea</source>
       <guid isPermaLink="false">b5ee025470afeb3955fea326cd521f1b</guid>
-    </item>
-    <item>
-      <title>퍼플렉시티, 엔비디아 협력으로 로컬 에이전트 '포터블 컴퓨터' 공개</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=214382</link>
-      <description>퍼플렉시티가 엔비디아와 손잡고 클라우드 연결 없이 사용자 기기에서 AI 에이전트를 구동할 수 있는 ‘포터블 컴퓨터(Portable Computer)’를 공개했다.</description>
-      <pubDate>Wed, 26 Aug 2026 17:50:06 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=214382">AI Times</source>
-      <guid isPermaLink="false">530e04f7f5e5ff1cf3e990e1e91ac5dc</guid>
-    </item>
-    <item>
-      <title>NIPA, AI 전환 속도 내는 베트남에 한국 AI 11개사 진출 지원</title>
-      <link>https://zdnet.co.kr/view/?no=20260826153219</link>
-      <description>[지디넷코리아]베트남이 국가 차원의 AI 전환에 속도를 내는 가운데 국내 AI 기업들이 현지 진출 성과를 냈다.정보통신산업진흥원(NIPA) 호찌민IT지원센터는 지난 19일부터 이틀간 호찌민시에서 열린 동남아 스타트업 행사 '이노엑스 2026'에서 국내 AI 기업 11개사의 현지 진출을 지원했다고 26일 밝혔다.호찌민센터는 이번 행사로 수출상담 126건, 업무협약(MOU) 10건, 비밀유지협…</description>
-      <pubDate>Wed, 26 Aug 2026 16:59:18 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260826153219">ZDNet Korea</source>
-      <guid isPermaLink="false">5a684e935d577dc8ad1c071e4c4c1410</guid>
-    </item>
-    <item>
-      <title>현대차, 완성차 넘어 ‘피지컬 AI’ 전환… 2029년 새만금 데이터센터 가동</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=214417</link>
-      <description>현대차는 26일 서울 여의도동 콘래드서울호텔에서 투자자와 애널리스트, 신용평가사 담당자 등을 대상으로 ‘2026 CEO 인베스터 데이’를 개최하고, 중장기 전략과 재무 계획을 발표했다. 핵심은 기존 경쟁력인 ‘완성차’ 기술력과 자율주행 등 ‘미래차’ 기술력을 토대로 하는 차별화 전략이다.</description>
-      <pubDate>Wed, 26 Aug 2026 16:53:25 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=214417">AI Times</source>
-      <guid isPermaLink="false">144a3fdd4b7457e019cfa6e76bd7e6ed</guid>
-    </item>
-    <item>
-      <title>WSJ “앤트로픽, AI 잠재 시장규모 30조달러 제시할 것”</title>
-      <link>https://www.etnews.com/20260826000333</link>
-      <description>앤트로픽이 기업공개(IPO) 투자설명서에 총시장규모(TAM)를 30조달러(약 4경1490조원) 이상으로 제시할 것이라는 전망이 나왔다. 월스트리트저널(WSJ)은 25일(현지시간) 복수의 소식통을 인용해 앤트로픽이 IPO 과정에서 30조달러 넘는 TAM을 제시할 것으로 예상된다고 보도했다.</description>
-      <pubDate>Wed, 26 Aug 2026 16:31:25 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000333">전자신문 IT</source>
-      <guid isPermaLink="false">946708bea769a14379ceb4c29beea447</guid>
-    </item>
-    <item>
-      <title>[ASPS 2026]“AI 시대 '칩에서 시스템으로'… 패키징이 반도체 경쟁력 가른다</title>
-      <link>https://www.etnews.com/20260826000244</link>
-      <description>인공지능(AI) 시대를 맞아 '반도체 패키징' 기술의 패러다임이 칩 단위를 넘어 시스템 수준의 성능 최적화를 구현하려는 쪽으로 빠르게 변화하고 있다.</description>
-      <pubDate>Wed, 26 Aug 2026 16:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000244">전자신문 IT</source>
-      <guid isPermaLink="false">e5f4380c2a13d025962ec4e723545ab7</guid>
-    </item>
-    <item>
-      <title>LG전자, 차량용 OS 안가리는 개방형 AI 플랫폼 만든다</title>
-      <link>https://www.etnews.com/20260826000312</link>
-      <description>LG전자는 AI·SDV(인공지능 소프트웨어 중심 차량) 공용 플랫폼을 개발하기 위해 한국자동차연구원과 협력해 주행 시뮬레이터와 실제 차량에서 검증하고 외부 기업이 사용할 개발도구와 시험환경을 구축하며 완성차와 차종에 따라 각기 다른 중앙처리장치(CPU), 그래픽처리장치(GPU), 신경망처리장치(NPU)의 종류와 구성을 하나의 플랫폼으로 묶을 수 있는 개발환경을 구축한다.</description>
-      <pubDate>Wed, 26 Aug 2026 16:30:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000312">전자신문 IT</source>
-      <guid isPermaLink="false">f0008064fa4a970003eb58cf0e23f3cf</guid>
-    </item>
-    <item>
-      <title>마윈, 1000억 자사주 매입…‘AI 올인’ 알리바바 지원사격</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=214396</link>
-      <description>마윈 알리바바 창립자가 회사의 대규모 AI 투자에 대한 신뢰를 나타내며 7650만달러(약 1000억원) 규모의 주식을 직접 매입했다.</description>
-      <pubDate>Wed, 26 Aug 2026 16:18:13 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=214396">AI Times</source>
-      <guid isPermaLink="false">2e61a0e19966212e43c91ddbe565f7e6</guid>
-    </item>
-    <item>
-      <title>정부 개발자 조직 '국민AI서비스혁신추진단' 신설…서비스 신속 개발 기대</title>
-      <link>https://www.etnews.com/20260826000247</link>
-      <description>인공지능(AI) 기반 서비스를 설계하고 개발하는 정부조직 '국민인공지능서비스혁신추진단'이 출범한다. 과학기술정보통신부는 신설되는 추진단에서 서비스 개발을 담당할 민간 전문가를 공개 모집한다고 26일 밝혔다. 추진단은 지난 7월 30일 발령·시행된 국무총리훈령 제948호 '국민인공지능서비스혁신추진단의 설치 및 운영에 관한 규정'에 근거해 과기정통부 산하에 설치된다.</description>
-      <pubDate>Wed, 26 Aug 2026 16:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000247">전자신문 IT</source>
-      <guid isPermaLink="false">064d7033f7052e4615ea2f1d69356852</guid>
-    </item>
-    <item>
-      <title>“직원 시계가 2억5000만원?”…오픈AI, 단 7점만 만든 '초호화 시계'</title>
-      <link>https://www.etnews.com/20260826000255</link>
-      <description>챗GPT를 만든 오픈AI가 스위스 명품 업체와 손잡고 일부 임직원들을 위한 초고가 한정판 시계를 별도로 제작한 사실이 알려졌다. 25일(현지시간) 월스트리트저널(WSJ)은 샘 올트먼 오픈AI 최고경영자(CEO)가 스위스 시계업체 뱅가트(Vanguart)에 개인 맞춤형 시계 7개를 의뢰했다고 보도했다. 뱅가트는 지금까지 시장에 내놓은 제품이 200개에도 미치지 않는 소규모 브랜드다.</description>
-      <pubDate>Wed, 26 Aug 2026 14:40:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000255">전자신문 IT</source>
-      <guid isPermaLink="false">de91162a1229bbc793336ba87e83182e</guid>
-    </item>
-    <item>
-      <title>알트먼, '7개 한정' 스위스 명품 시계 주문...실리콘밸리의 새로운 '유행'</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=214403</link>
-      <description>실리콘밸리의 새로운 부와 지위의 상징으로 스위스 명품 시계가 떠오르고 있다. 샘 알트먼 오픈AI CEO가 희귀한 맞춤형 명품 시계를 선보이며 이 대열에 합류했다.월스트리트저널은 25일(현지시간) 알트먼 CEO가 스위스의 신생 시계 제조사인 뱅가트(Vanguart)와 협업해 오픈AI 브랜딩이 적용된 7개뿐인 맞춤형 시계를 주문했다고 보도했다.</description>
-      <pubDate>Wed, 26 Aug 2026 15:33:53 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=214403">AI Times</source>
-      <guid isPermaLink="false">ba054ff5e0055ad8a5dc7e40a726e052</guid>
-    </item>
-    <item>
-      <title>HarnessRouter: Codex와 Claude Code를 내 컨테이너 하나에서 실행하는 자체 호스팅 게이트웨이</title>
-      <link>https://discuss.pytorch.kr/t/harnessrouter-codex-claude-code/11716</link>
-      <description>HarnessRouter 소개 코딩 에이전트를 여러 개 쓰는 팀은 실행 환경이 도구마다 갈리는 문제를 만납니다. Codex 와 Claude Code, Hermes 는 각자 자기 방식으로 설치되고 자기 방식으로 세션을 관리하며, 대화 기록도 각자의 자리에 남습니다. 여기에 자격 증명 관리가 겹칩니다.</description>
-      <pubDate>Wed, 26 Aug 2026 15:30:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/harnessrouter-codex-claude-code/11716">PyTorch Korea</source>
-      <guid isPermaLink="false">e0819df381eb58a90d9cd8ac4cb39a96</guid>
-    </item>
-    <item>
-      <title>서버 구축 없이 문서 AI 쓴다…로민, SaaS 베타 출시</title>
-      <link>https://zdnet.co.kr/view/?no=20260826144855</link>
-      <description>[지디넷코리아]로민이 문서용 인공지능(AI) 에이전트 사업을 확대한다. 로민은 다큐먼트 AI 에이전트 '로민'을 서비스형 소프트웨어(SaaS) 베타 서비스 형태로 출시했다고 26일 밝혔다. 베타 운영을 거쳐 올해 하반기 정식 서비스로 출시한다.</description>
-      <pubDate>Wed, 26 Aug 2026 14:48:55 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260826144855">ZDNet Korea</source>
-      <guid isPermaLink="false">463939673ba2e2802aea68a8b33ab46c</guid>
-    </item>
-    <item>
-      <title>[뉴스줌인] 캐즘 뚫고 AI 기업으로…현대차, 555만대 유지·수익성 상향 승부수</title>
-      <link>https://www.etnews.com/20260826000273</link>
-      <description>현대자동차가 26일 발표한 '2026 CEO 인베스터 데이' 전략은 '불확실성 정면 돌파'와 '질적 도약'으로 요약된다. 글로벌 완성차 업계가 미국발 관세 위협, 중국차의 저가 공세, 전기차 수요 둔화(캐즘)라는 3중고를 겪고 있는 상황에서 현대차는 2030년 555만 대 판매 목표를 고수하고 영업이익률 목표를 9% 이상으로 오히려 올려 잡았다.</description>
-      <pubDate>Wed, 26 Aug 2026 14:45:07 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000273">전자신문 IT</source>
-      <guid isPermaLink="false">65974515a83711c42d0948bc5cf02914</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.24680</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 26 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.24680">Hugging Face Papers</source>
-      <guid isPermaLink="false">391ecd06e4dfa7415f9b91f735bd0063</guid>
-    </item>
-    <item>
-      <title>김진태 GC메디아이 대표 “'의사랑 AI'로 EMR 혁신…메디컬OS 기업 도약”</title>
-      <link>https://www.etnews.com/20260826000268</link>
-      <description>GC메디아이가 인공지능(AI)과 클라우드 기반으로 전자의무기록(EMR)의 역할을 의료진 진료와 병원 운영을 지원하는 '진료 파트너'로 확장한다. 중장기로는 제약·헬스케어·금융 등 다양한 외부 서비스를 연결하는 '메디컬 운용체계(OS)' 플랫폼으로 성장시킨다는 구상이다.</description>
-      <pubDate>Wed, 26 Aug 2026 14:35:19 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000268">전자신문 IT</source>
-      <guid isPermaLink="false">cbbefc16d5462bdd2891691fc5da345e</guid>
-    </item>
-    <item>
-      <title>[K-농식품 싱가포르 열풍] 라면부터 딸기까지…한국 식품, 현지 일상 속으로</title>
-      <link>https://www.etnews.com/20260826000151</link>
-      <description>싱가포르 최대 유통업체 페어프라이스(FairPrice) 신선식품 매대 한쪽에 위치한 '케이프레시 존(K-Fresh Zone)'에는 매일 인파가 몰린다. 한국산 채소와 과일을 모아 놓은 특설매대에는 콩나물과 깻잎, 애호박, 팽이버섯부터 고구마까지 한국 마트에서 익숙하게 볼 수 있는 농산물이 신선함을 뽑내고 있다. 오이무침과 애호박전 등 한국산 식재료를 활용한 조리법도 매주 바꿔가며 소개된다.</description>
-      <pubDate>Wed, 26 Aug 2026 11:01:05 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000151">전자신문 IT</source>
-      <guid isPermaLink="false">dae06e0aa208087c6ecc12fb84ce0861</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.20492</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 26 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.20492">Hugging Face Papers</source>
-      <guid isPermaLink="false">440860ae61716189b3f34e4d8a5af870</guid>
-    </item>
-    <item>
-      <title>오픈AI, 첫 자체 추론 칩 '할라피뇨' 성능 공개..."블랙웰보다  3.6배 빨라"</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=214379</link>
-      <description>오픈AI가 브로드컴과 공동 개발한 자체 설계 AI 추론 전용 칩 ‘할라피뇨(Jalapeño)’의 첫 공개 벤치마크에서 엔비디아의 최신 블랙웰 기반 시스템을 앞서는 성능을 입증했다.</description>
-      <pubDate>Wed, 26 Aug 2026 13:29:42 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=214379">AI Times</source>
-      <guid isPermaLink="false">2cdb4bfc6d4c05a9d52f4131fc66b315</guid>
-    </item>
-    <item>
-      <title>자율주행 '맨해튼 모멘트' 도래…독자 E2E·데이터로 글로벌 공세 넘어야</title>
-      <link>https://www.etnews.com/20260826000205</link>
-      <description>글로벌 자율주행 시장이 기술 성숙에 따른 시장 재편의 전환점인 '맨해튼 모멘트'에 접어든 가운데, 테슬라와 중국 완성차 진영의 거센 공세에 맞서기 위해 한국만의 독자 엔드투엔드(E2E) 모델 및 피지컬 AI 원천 기술 확보와 24시간 데이터 선순환 체계 구축이 시급하다는 제언이 나왔다.</description>
-      <pubDate>Wed, 26 Aug 2026 13:37:49 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000205">전자신문 IT</source>
-      <guid isPermaLink="false">5ffa1cc2c4dbbf43a53eec06ac4fa5cb</guid>
-    </item>
-    <item>
-      <title>네이버·LG vs SKT·업스테이지…보안 특화 AI 경쟁 본격화</title>
-      <link>https://www.etnews.com/20260826000209</link>
-      <description>보안 특화 인공지능(AI) 사업이 기업 간 합종연횡을 거쳐 2강 구도로 압축됐다. 네이버클라우드와 SK텔레콤을 중심으로 한 컨소시엄이 사업권을 놓고 맞붙을 전망이다. 26일 업계에 따르면 이날 오후 보안 특화 AI 사업 신청 마감 결과, 네이버클라우드 컨소시엄과 LG 컨소시엄이 통합되고, 업스테이지가 SK텔레콤 컨소시엄에 새로 합류한 것으로 파악됐다.</description>
-      <pubDate>Wed, 26 Aug 2026 14:05:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260826000209">전자신문 IT</source>
-      <guid isPermaLink="false">2f1c6b4e0a854dc8e85c221f6e131a0c</guid>
-    </item>
-    <item>
-      <title>"지능 생산해 외부에 파는데"…AIDC 세액공제 ‘자가사용’ 딜레마</title>
-      <link>https://zdnet.co.kr/view/?no=20260826120358</link>
-      <description>[지디넷코리아]정부가 인공지능 데이터센터(AIDC)를 국가전략기술 사업화시설로 지정해 세액공제를 하고 있지만, 정작 AIDC의 핵심 사업 방식인 코로케이션(임대)은 혜택을 받기 어려워 제도를 손봐야 한다는 지적이 나왔다.AIDC는 자체적으로 사용하기 위한 시설이 아니라 대규모 연산을 통해 생산한 ‘지능’을 외부에 공급하는 인프라인 만큼 자가사용을 전제로 한 기존 세액공제 원칙을 그대로 적용…</description>
-      <pubDate>Wed, 26 Aug 2026 13:53:36 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260826120358">ZDNet Korea</source>
-      <guid isPermaLink="false">0dd4476ef7ab4f7bd68f799d788a78b6</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.24053</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 26 Aug 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.24053">Hugging Face Papers</source>
-      <guid isPermaLink="false">4788c09a329548be4762999b13ca3512</guid>
-    </item>
-    <item>
-      <title>오픈AI 데이터센터 총괄 사임...IPO 앞두고 경영진 연쇄 이탈</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=214378</link>
-      <description>AI 모델 개발을 넘어 컴퓨팅 인프라 확보가 AI 경쟁의 핵심 변수로 떠오른 상황에서 오픈AI의 데이터센터 책임자가 사임했다.</description>
-      <pubDate>Wed, 26 Aug 2026 12:49:26 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=214378">AI Times</source>
-      <guid isPermaLink="false">bd1aadde13a99a229ed952117904bf52</guid>
     </item>
   </channel>
 </rss>

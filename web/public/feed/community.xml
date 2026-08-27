@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 27 Aug 2026 13:12:29 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 13:23:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>CodexPro: 허용한 저장소만 ChatGPT에 열어 주는 로컬 MCP 서버 (≠ 사용량 우회 도구)</title>
+      <link>https://discuss.pytorch.kr/t/codexpro-chatgpt-mcp/11723</link>
+      <description>CodexPro 소개 ChatGPT 웹 화면에서 코드를 다루려면 보통 파일을 붙여 넣고, 답을 받아 다시 편집기에 옮기고, 결과를 확인해 또 붙여 넣는 왕복이 생깁니다. 저장소가 조금만 커져도 어떤 파일을 얼마나 붙여 넣어야 하는지부터 판단이 어려워지고, 대화가 길어지면 앞서 붙인 내용과 지금 디스크에 있는 내용이 어긋나기 시작합니다.</description>
+      <pubDate>Thu, 27 Aug 2026 12:31:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/codexpro-chatgpt-mcp/11723">PyTorch Korea</source>
+      <guid isPermaLink="false">ae78e17736808b8a9355d2de162e3d5d</guid>
+    </item>
+    <item>
+      <title>Vibe-Research: AI가 의사 결정을 하기 위해 필요한 데이터만 모아 주는 개인용 투자 리서치 대시보드</title>
+      <link>https://discuss.pytorch.kr/t/vibe-research-ai/11726</link>
+      <description>Vibe-Research 소개 LLM으로 시장 데이터를 다루는 오픈소스 프로젝트는 대부분 파이프라인 끝에 트레이더나 포트폴리오 매니저 역할을 하나 두고, 그 역할이 매수 또는 매도와 비중을 출력하도록 만들어져 있습니다.</description>
+      <pubDate>Thu, 27 Aug 2026 09:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vibe-research-ai/11726">PyTorch Korea</source>
+      <guid isPermaLink="false">a22fc8071c62bef89420a7befa964ba3</guid>
+    </item>
     <item>
       <title>Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)</title>
       <link>https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/uembed/11614">PyTorch Korea</source>
       <guid isPermaLink="false">9c8792f4103e87bab91b54d9f8e864ef</guid>
-    </item>
-    <item>
-      <title>엔비디아 모델에서도 드러난 AI 안전성의 빈틈</title>
-      <link>https://discuss.pytorch.kr/t/ai/11619</link>
-      <description>AX-Ray: 성능 벤치마크 이후의 AI 안전진단 계층 요약 AI 모델 평가는 지금까지 주로 "얼마나 잘 맞히는가"에 집중해 왔다. 그러나 실제 배포 환경에서는 정답률만으로 충분하지 않다. 모델의 내부 계산 경로가 인과적으로 올바른지, serving 경로가 일관적인지, 장문·캐시·양자화·agentic 실행 환경에서 안전하게 동작하는지까지 확인해야 한다.</description>
-      <pubDate>Fri, 14 Aug 2026 11:43:13 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai/11619">PyTorch Korea</source>
-      <guid isPermaLink="false">ea3092a0dd593912c78320c11e46c787</guid>
-    </item>
-    <item>
-      <title>Claude of Duty: 단일 프롬프트로 AI 에이전트가 만든 브라우저 FPS 게임 및 품질 검증 하네스</title>
-      <link>https://discuss.pytorch.kr/t/claude-of-duty-ai-fps/11611</link>
-      <description>Claude of Duty 소개 AI 에이전트에게 규모 있는 코드베이스를 맡길 때 먼저 문제가 생기는 쪽은 코드 작성이 아니라 품질 판정입니다. 빌드가 통과하고 화면이 뜨는 지점까지는 에이전트가 스스로 도달합니다. 그런데 "이 정도면 됐다"를 언제, 어떠한 기준으로 선언해야 하는지는 어려운 문제입니다.</description>
-      <pubDate>Fri, 14 Aug 2026 12:30:03 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-of-duty-ai-fps/11611">PyTorch Korea</source>
-      <guid isPermaLink="false">48897693061b43d26c45bf45e400aabb</guid>
     </item>
   </channel>
 </rss>
