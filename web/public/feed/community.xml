@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 27 Aug 2026 13:23:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 01:12:37 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Z.ai, GLM-5.2를 앞서면서 가격은 1/10인 멀티모달 모델 GLM-5.3-Flash 공개</title>
+      <link>https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733</link>
+      <description>GLM-5.3-Flash 소개 GLM-5.3-Flash는 Z.ai (Zhipu AI)가 2026년 8월 26일에 공개한 오픈 웨이트 언어 모델로, GLM-5 계열에서 처음으로 이미지와 영상, 파일을 텍스트와 같은 층위에서 받는 네이티브 멀티모달(Natively Multimodal) 모델입니다. 전체 파라미터는 320B이고 토큰 하나를 처리할 때 실제로 켜지는 파라미터는 18B입니다.</description>
+      <pubDate>Thu, 27 Aug 2026 21:40:50 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733">PyTorch Korea</source>
+      <guid isPermaLink="false">6b2d79fa37fb3770d787ffed20a8c058</guid>
+    </item>
+    <item>
+      <title>Qwen3.8-Flash-Next, 1/9의 학습 비용으로 Qwen3.7-Plus(397B-A17B) 수준에 도달한 125B-A6B 모델</title>
+      <link>https://discuss.pytorch.kr/t/qwen3-8-flash-next-1-9-qwen3-7-plus-397b-a17b-125b-a6b/11730</link>
+      <description>Qwen3.8-Flash-Next 소개 Qwen 팀 이 2026년 8월 26일에 공개한 Qwen3.8-Flash-Next 는 전체 1250억(125B) 파라미터 중 토큰당 60억(6B)만 활성화하는 멀티모달 전문가 혼합(Mixture of Experts, MoE) 모델이며, 동시에 아직 발표되지 않은 Qwen4 계열이 올라탈 아키텍처를 먼저 떼어내 공개한 실험적 프리뷰입니다.</description>
+      <pubDate>Thu, 27 Aug 2026 15:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/qwen3-8-flash-next-1-9-qwen3-7-plus-397b-a17b-125b-a6b/11730">PyTorch Korea</source>
+      <guid isPermaLink="false">76ab61ecec403884ac87346cc004ac9a</guid>
+    </item>
     <item>
       <title>CodexPro: 허용한 저장소만 ChatGPT에 열어 주는 로컬 MCP 서버 (≠ 사용량 우회 도구)</title>
       <link>https://discuss.pytorch.kr/t/codexpro-chatgpt-mcp/11723</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai/11624">PyTorch Korea</source>
       <guid isPermaLink="false">2bff7588ea7173ac01e0e885d75f83b7</guid>
-    </item>
-    <item>
-      <title>Harness Engineering: 코딩 에이전트의 환경을 설계하는 12개 논제와 플레이북 모음</title>
-      <link>https://discuss.pytorch.kr/t/harness-engineering-12/11613</link>
-      <description>Harness Engineering 소개 같은 모델과 같은 코딩 에이전트를 쓰는데도 조직마다 결과물의 수준이 갈립니다. 모델을 바꾸거나 프롬프트를 다듬는 것 말고 어떤 레버가 남아 있는지는 대개 각 팀의 경험담으로만 돌아다닙니다.</description>
-      <pubDate>Fri, 14 Aug 2026 20:00:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/harness-engineering-12/11613">PyTorch Korea</source>
-      <guid isPermaLink="false">9f2403ac63f1b4e8374da8132e829539</guid>
-    </item>
-    <item>
-      <title>UEmbed: 디코더 전용 모델에서 희소 검색과 밀집 검색을 통합한 멀티모달 임베딩 연구</title>
-      <link>https://discuss.pytorch.kr/t/uembed/11614</link>
-      <description>UEmbed 소개 검색창에 단어를 입력했을 때 검색 엔진이 하는 일은 크게 두 갈래로 나뉩니다. 하나는 입력한 단어가 문서에 실제로 들어 있는지 세는 일이고, 다른 하나는 단어가 하나도 겹치지 않아도 뜻이 통하는 문서를 끌어오는 일입니다.</description>
-      <pubDate>Fri, 14 Aug 2026 17:00:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/uembed/11614">PyTorch Korea</source>
-      <guid isPermaLink="false">9c8792f4103e87bab91b54d9f8e864ef</guid>
     </item>
   </channel>
 </rss>
