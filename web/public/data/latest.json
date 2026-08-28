@@ -1,66 +1,67 @@
 {
   "schema_version": 1,
-  "date": "2026-08-27",
-  "generated_at": "2026-08-27T13:12:29.677489+09:00",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T15:28:28.041786+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 7,
+  "item_count": 6,
   "sections": [
     {
       "id": "papers",
       "title": "📄 Papers",
       "items": [
         {
-          "id": "440860ae61716189b3f34e4d8a5af870",
+          "id": "61ed39ce89968cfa145ecc1ce67d4d5b",
           "index": 1,
-          "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
-          "title_ko": "롤아웃으로서의 주석: 비디오 MLLM을 위한 효율적이고 확장 가능한 강화 학습",
-          "summary": "OraRL improves reinforcement learning post-training for video multimodal language models by integrating oracle rollouts with decoupled advantage estimation and sign-balanced pruning, achieving higher sample efficiency a…",
-          "summary_ko": "OraRL은 Oracle 롤아웃과 분리 이점 추정 및 부호 균형 가지치기를 통합하여 비디오 다중 모달 언어 모델에 대한 강화 학습 후 훈련을 개선하고 더 높은 샘플 효율성을 달성합니다.",
-          "url": "https://huggingface.co/papers/2608.20492",
+          "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+          "title_ko": "UrbanGround: 실제 규모 도시의 지역 인식에서 공간 기관까지",
+          "summary": "UrbanGround evaluates whether multimodal language model agents can sustain reliable navigation and spatial reasoning in a realistic 3D city replica, revealing that local perceptual skills fail to compose into extended g…",
+          "summary_ko": "UrbanGround는 다중 모드 언어 모델 에이전트가 현실적인 3D 도시 복제에서 안정적인 탐색 및 공간 추론을 유지할 수 있는지 평가하여 로컬 지각 기술이 확장된 G로 구성되지 않음을 밝힙니다.",
+          "url": "https://huggingface.co/papers/2608.27456",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-26T09:00:00+09:00",
-          "popularity": 253,
-          "upvotes": 91,
-          "score": 30.61,
-          "importance_score": 16.61,
+          "published_at": "2026-08-28T09:00:00+09:00",
+          "popularity": 77,
+          "upvotes": 25,
+          "score": 28.72,
+          "importance_score": 20.37,
           "matched_keywords": [
             "ai",
-            "llm",
+            "agent",
             "multimodal",
-            "reinforcement learning",
-            "training"
+            "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 91
+            "value": 25
           }
         },
         {
-          "id": "96f79d2ba096a4dca956b853e609f019",
+          "id": "e69eec700890aa31e31c3a26a8502ed6",
           "index": 2,
-          "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
-          "title_ko": "GigaBrain-0.7: 3-시스템 아키텍처를 통해 구현된 기초 모델을 새로운 기능으로 확장",
-          "summary": "GigaBrain-0.7 is a vision-language-action model that improves embodied generalization via a three-system architecture, large-scale heterogeneous pretraining, and joint alignment training.",
-          "summary_ko": "GigaBrain-0.7은 3개 시스템 아키텍처, 대규모 이종 사전 훈련 및 관절 정렬 훈련을 통해 구체화된 일반화를 향상시키는 비전-언어-행동 모델입니다.",
-          "url": "https://huggingface.co/papers/2608.15875",
+          "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+          "title_ko": "LLM 추론을 위한 진화 전략 이해: GRPO보다 더 넓은 추론 범위",
+          "summary": "Evolution strategies improve reasoning diversity and Pass@K over GRPO through sparse functional updates and population diversity, supporting a hybrid training approach.",
+          "summary_ko": "진화 전략은 희소 기능 업데이트 및 인구 다양성을 통해 GRPO에 대한 추론 다양성과 Pass@K를 향상시켜 하이브리드 교육 접근 방식을 지원합니다.",
+          "url": "https://huggingface.co/papers/2608.27351",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-26T09:00:00+09:00",
-          "popularity": 2810,
-          "upvotes": 92,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-08-28T09:00:00+09:00",
+          "popularity": 23,
+          "upvotes": 9,
+          "score": 27.19,
+          "importance_score": 16.84,
           "matched_keywords": [
             "ai",
-            "foundation model",
+            "llm",
+            "rag",
+            "reasoning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 92
+            "value": 9
           }
         }
       ]
@@ -70,43 +71,42 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "419257a0a6d56709b9b39ea2b79db2f6",
+          "id": "1330115db7e51f860a6ad7f25e3a8a5d",
           "index": 3,
-          "title": "‘옥스 알파’ 정체는 GLM-5.3-플래시...“오퍼스급 성능에 비용은 10%”",
+          "title": "머스크·알트먼·젠슨 황 집결...미국, G20서 AI '자율 규제' 카드 꺼낸다",
           "title_ko": null,
-          "summary": "지푸 AI(Z.ai)가 최근 화제를 모은 익명의 오픈웨이트 모델 ‘옥스 알파(Ox Alpha)’의 정체를 공개했다.",
+          "summary": "일론 머스크 CEO와 샘 알트먼 오픈AI CEO, 젠슨 황 엔비디아 CEO 등 글로벌 기술업계의 핵심 인사들이 다음 주 미국에서 열리는 주요 20개국(G20) 기술 장관 회의에 집결한다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214438",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214545",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-27T12:59:25+09:00",
+          "published_at": "2026-08-28T14:16:36+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.96,
-          "importance_score": 19.91,
+          "score": 19.75,
+          "importance_score": 19.5,
           "matched_keywords": [
-            "ai",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "d1891cd76c9e616e15b6470dd2d3032b",
+          "id": "62002f8055f5b03de42e8688de9be754",
           "index": 4,
-          "title": "현대차·기아, 협력사 AI 전환 돕는다…경주에 전용 훈련센터 개소",
+          "title": "\"AI로 일 빨라졌다\" 80%…\"AI가 이익에 기여\" 37%뿐",
           "title_ko": null,
-          "summary": "[지디넷코리아]현대자동차·기아가 중소 부품 협력사의 인공지능 전환(AX)을 지원하기 위한 전용 교육 거점을 마련했다.",
+          "summary": "[지디넷코리아]AI를 쓰는 응답자 10명 중 8명이 생산성이 높아졌다고 답했으나, 회사 이익에 AI가 기여했다고 답한 비율은 1년 전과 같았다. 맥킨지(McKinsey)가 2026년 8월 발표한 'AI 현황 2026: ROI를 향한 길(The state of AI in 2026: On the road to ROI)' 보고서가 확인한 AI 도입 성과 격차다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260827112657",
+          "url": "https://zdnet.co.kr/view/?no=20260828142114",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-27T11:26:57+09:00",
-          "popularity": 93,
+          "published_at": "2026-08-28T14:21:14+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 18.93,
-          "importance_score": 18.57,
+          "score": 19.67,
+          "importance_score": 19.43,
           "matched_keywords": [
             "ai"
           ],
@@ -115,85 +115,51 @@
       ]
     },
     {
-      "id": "trending",
-      "title": "🔥 Trending",
-      "items": [
-        {
-          "id": "99cc8cc2964bda666975469c01b89ae8",
-          "index": 5,
-          "title": "rome-os/rome — Rome is the agentic OS.",
-          "title_ko": "rome-os/rome — Rome은 에이전트 OS입니다.",
-          "summary": "Rome is the agentic OS.",
-          "summary_ko": "Rome은 에이전트 OS입니다.",
-          "url": "https://github.com/rome-os/rome",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-08-27T11:54:42+09:00",
-          "popularity": 363,
-          "upvotes": 363,
-          "score": 30.37,
-          "importance_score": 30.1,
-          "matched_keywords": [
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 363
-          }
-        },
-        {
-          "id": "6bac158cb4ddcf083ee943fbf76b31a8",
-          "index": 6,
-          "title": "UditAkhourii/cdaf — CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing",
-          "title_ko": "UditAkhourii/cdaf — CDAF(캐시된 설명 자산 파일) - AI 에이전트가 재분석을 중지하도록 비디오용 공개 사이드카 형식",
-          "summary": "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
-          "summary_ko": "CDAF(캐시된 설명 자산 파일) - AI 에이전트가 동일한 장면을 다시 분석하는 것을 중지하도록 비디오용 개방형 사이드카 형식입니다. 사양, CLI, 에이전트 기술, 재현 가능한 벤치마크.",
-          "url": "https://github.com/UditAkhourii/cdaf",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-08-27T04:30:09+09:00",
-          "popularity": 74,
-          "upvotes": 74,
-          "score": 29.3,
-          "importance_score": 21.48,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "benchmark"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 74
-          }
-        }
-      ]
-    },
-    {
       "id": "community",
       "title": "💬 Community",
       "items": [
         {
-          "id": "dc49e3052d30c5468622aa53f735ac5f",
-          "index": 7,
-          "title": "Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)",
+          "id": "77d42f78e2b75c93bbd6bb174d505086",
+          "index": 5,
+          "title": "Agent Switch: 기존 메신저에서 사람과 AI 에이전트를 함께 운영하는 인프라",
           "title_ko": null,
-          "summary": "Cordis 논문, 'Programming Paradigm for Spatiotemporal Composability' 소개 플러그인 아키텍처와 스스로를 수정하는 에이전트 하네스(Agent Harness)는 모두 실행 중에 기능을 안전하게 넣고 빼야 하는 소프트웨어입니다.",
+          "summary": "Agent Switch 소개 Agent Switch는 팀이 이미 쓰는 Slack , Microsoft Teams , Discord , Telegram , Mattermost 안에서 사람과 AI 에이전트가 함께 일할 수 있도록 만드는 자체 호스팅(self-hosted) 협업 인프라 프로젝트입니다. 새 메신저로 옮기는 대신, 기존 채널에 에이전트와 작업 맥락을 연결하는 방식을 택합니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689",
+          "url": "https://discuss.pytorch.kr/t/agent-switch-ai/11738",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-27T07:30:31+09:00",
-          "popularity": 98,
+          "published_at": "2026-08-28T12:30:50+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 24.61,
-          "importance_score": 17.43,
+          "score": 22.38,
+          "importance_score": 18.77,
           "matched_keywords": [
             "ai",
-            "agent",
-            "연구"
+            "agent"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "6b2d79fa37fb3770d787ffed20a8c058",
+          "index": 6,
+          "title": "Z.ai, GLM-5.2를 앞서면서 가격은 1/10인 멀티모달 모델 GLM-5.3-Flash 공개",
+          "title_ko": null,
+          "summary": "GLM-5.3-Flash 소개 GLM-5.3-Flash는 Z.ai (Zhipu AI)가 2026년 8월 26일에 공개한 오픈 웨이트 언어 모델로, GLM-5 계열에서 처음으로 이미지와 영상, 파일을 텍스트와 같은 층위에서 받는 네이티브 멀티모달(Natively Multimodal) 모델입니다. 전체 파라미터는 320B이고 토큰 하나를 처리할 때 실제로 켜지는 파라미터는 18B입니다.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-08-27T21:40:50+09:00",
+          "popularity": 97,
+          "upvotes": 0,
+          "score": 21.99,
+          "importance_score": 12.29,
+          "matched_keywords": [
+            "ai",
+            "multimodal",
+            "모델"
           ],
           "engagement": null
         }
@@ -202,172 +168,144 @@
   ],
   "items": [
     {
-      "id": "440860ae61716189b3f34e4d8a5af870",
+      "id": "61ed39ce89968cfa145ecc1ce67d4d5b",
       "index": 1,
-      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
-      "title_ko": "롤아웃으로서의 주석: 비디오 MLLM을 위한 효율적이고 확장 가능한 강화 학습",
-      "summary": "OraRL improves reinforcement learning post-training for video multimodal language models by integrating oracle rollouts with decoupled advantage estimation and sign-balanced pruning, achieving higher sample efficiency a…",
-      "summary_ko": "OraRL은 Oracle 롤아웃과 분리 이점 추정 및 부호 균형 가지치기를 통합하여 비디오 다중 모달 언어 모델에 대한 강화 학습 후 훈련을 개선하고 더 높은 샘플 효율성을 달성합니다.",
-      "url": "https://huggingface.co/papers/2608.20492",
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "title_ko": "UrbanGround: 실제 규모 도시의 지역 인식에서 공간 기관까지",
+      "summary": "UrbanGround evaluates whether multimodal language model agents can sustain reliable navigation and spatial reasoning in a realistic 3D city replica, revealing that local perceptual skills fail to compose into extended g…",
+      "summary_ko": "UrbanGround는 다중 모드 언어 모델 에이전트가 현실적인 3D 도시 복제에서 안정적인 탐색 및 공간 추론을 유지할 수 있는지 평가하여 로컬 지각 기술이 확장된 G로 구성되지 않음을 밝힙니다.",
+      "url": "https://huggingface.co/papers/2608.27456",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-26T09:00:00+09:00",
-      "popularity": 253,
-      "upvotes": 91,
-      "score": 30.61,
-      "importance_score": 16.61,
+      "published_at": "2026-08-28T09:00:00+09:00",
+      "popularity": 77,
+      "upvotes": 25,
+      "score": 28.72,
+      "importance_score": 20.37,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "multimodal",
+        "reasoning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 25
+      }
+    },
+    {
+      "id": "e69eec700890aa31e31c3a26a8502ed6",
+      "index": 2,
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "title_ko": "LLM 추론을 위한 진화 전략 이해: GRPO보다 더 넓은 추론 범위",
+      "summary": "Evolution strategies improve reasoning diversity and Pass@K over GRPO through sparse functional updates and population diversity, supporting a hybrid training approach.",
+      "summary_ko": "진화 전략은 희소 기능 업데이트 및 인구 다양성을 통해 GRPO에 대한 추론 다양성과 Pass@K를 향상시켜 하이브리드 교육 접근 방식을 지원합니다.",
+      "url": "https://huggingface.co/papers/2608.27351",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-28T09:00:00+09:00",
+      "popularity": 23,
+      "upvotes": 9,
+      "score": 27.19,
+      "importance_score": 16.84,
       "matched_keywords": [
         "ai",
         "llm",
-        "multimodal",
-        "reinforcement learning",
+        "rag",
+        "reasoning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 91
+        "value": 9
       }
     },
     {
-      "id": "96f79d2ba096a4dca956b853e609f019",
-      "index": 2,
-      "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
-      "title_ko": "GigaBrain-0.7: 3-시스템 아키텍처를 통해 구현된 기초 모델을 새로운 기능으로 확장",
-      "summary": "GigaBrain-0.7 is a vision-language-action model that improves embodied generalization via a three-system architecture, large-scale heterogeneous pretraining, and joint alignment training.",
-      "summary_ko": "GigaBrain-0.7은 3개 시스템 아키텍처, 대규모 이종 사전 훈련 및 관절 정렬 훈련을 통해 구체화된 일반화를 향상시키는 비전-언어-행동 모델입니다.",
-      "url": "https://huggingface.co/papers/2608.15875",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-26T09:00:00+09:00",
-      "popularity": 2810,
-      "upvotes": 92,
-      "score": 28.0,
-      "importance_score": 18.0,
-      "matched_keywords": [
-        "ai",
-        "foundation model",
-        "training"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 92
-      }
-    },
-    {
-      "id": "419257a0a6d56709b9b39ea2b79db2f6",
+      "id": "1330115db7e51f860a6ad7f25e3a8a5d",
       "index": 3,
-      "title": "‘옥스 알파’ 정체는 GLM-5.3-플래시...“오퍼스급 성능에 비용은 10%”",
+      "title": "머스크·알트먼·젠슨 황 집결...미국, G20서 AI '자율 규제' 카드 꺼낸다",
       "title_ko": null,
-      "summary": "지푸 AI(Z.ai)가 최근 화제를 모은 익명의 오픈웨이트 모델 ‘옥스 알파(Ox Alpha)’의 정체를 공개했다.",
+      "summary": "일론 머스크 CEO와 샘 알트먼 오픈AI CEO, 젠슨 황 엔비디아 CEO 등 글로벌 기술업계의 핵심 인사들이 다음 주 미국에서 열리는 주요 20개국(G20) 기술 장관 회의에 집결한다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214438",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214545",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-27T12:59:25+09:00",
+      "published_at": "2026-08-28T14:16:36+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.96,
-      "importance_score": 19.91,
-      "matched_keywords": [
-        "ai",
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "d1891cd76c9e616e15b6470dd2d3032b",
-      "index": 4,
-      "title": "현대차·기아, 협력사 AI 전환 돕는다…경주에 전용 훈련센터 개소",
-      "title_ko": null,
-      "summary": "[지디넷코리아]현대자동차·기아가 중소 부품 협력사의 인공지능 전환(AX)을 지원하기 위한 전용 교육 거점을 마련했다.",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260827112657",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-08-27T11:26:57+09:00",
-      "popularity": 93,
-      "upvotes": 0,
-      "score": 18.93,
-      "importance_score": 18.57,
+      "score": 19.75,
+      "importance_score": 19.5,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "99cc8cc2964bda666975469c01b89ae8",
-      "index": 5,
-      "title": "rome-os/rome — Rome is the agentic OS.",
-      "title_ko": "rome-os/rome — Rome은 에이전트 OS입니다.",
-      "summary": "Rome is the agentic OS.",
-      "summary_ko": "Rome은 에이전트 OS입니다.",
-      "url": "https://github.com/rome-os/rome",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-08-27T11:54:42+09:00",
-      "popularity": 363,
-      "upvotes": 363,
-      "score": 30.37,
-      "importance_score": 30.1,
-      "matched_keywords": [
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 363
-      }
-    },
-    {
-      "id": "6bac158cb4ddcf083ee943fbf76b31a8",
-      "index": 6,
-      "title": "UditAkhourii/cdaf — CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing",
-      "title_ko": "UditAkhourii/cdaf — CDAF(캐시된 설명 자산 파일) - AI 에이전트가 재분석을 중지하도록 비디오용 공개 사이드카 형식",
-      "summary": "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
-      "summary_ko": "CDAF(캐시된 설명 자산 파일) - AI 에이전트가 동일한 장면을 다시 분석하는 것을 중지하도록 비디오용 개방형 사이드카 형식입니다. 사양, CLI, 에이전트 기술, 재현 가능한 벤치마크.",
-      "url": "https://github.com/UditAkhourii/cdaf",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-08-27T04:30:09+09:00",
-      "popularity": 74,
-      "upvotes": 74,
-      "score": 29.3,
-      "importance_score": 21.48,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "benchmark"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 74
-      }
-    },
-    {
-      "id": "dc49e3052d30c5468622aa53f735ac5f",
-      "index": 7,
-      "title": "Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)",
+      "id": "62002f8055f5b03de42e8688de9be754",
+      "index": 4,
+      "title": "\"AI로 일 빨라졌다\" 80%…\"AI가 이익에 기여\" 37%뿐",
       "title_ko": null,
-      "summary": "Cordis 논문, 'Programming Paradigm for Spatiotemporal Composability' 소개 플러그인 아키텍처와 스스로를 수정하는 에이전트 하네스(Agent Harness)는 모두 실행 중에 기능을 안전하게 넣고 빼야 하는 소프트웨어입니다.",
+      "summary": "[지디넷코리아]AI를 쓰는 응답자 10명 중 8명이 생산성이 높아졌다고 답했으나, 회사 이익에 AI가 기여했다고 답한 비율은 1년 전과 같았다. 맥킨지(McKinsey)가 2026년 8월 발표한 'AI 현황 2026: ROI를 향한 길(The state of AI in 2026: On the road to ROI)' 보고서가 확인한 AI 도입 성과 격차다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689",
+      "url": "https://zdnet.co.kr/view/?no=20260828142114",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-08-28T14:21:14+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 19.67,
+      "importance_score": 19.43,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "77d42f78e2b75c93bbd6bb174d505086",
+      "index": 5,
+      "title": "Agent Switch: 기존 메신저에서 사람과 AI 에이전트를 함께 운영하는 인프라",
+      "title_ko": null,
+      "summary": "Agent Switch 소개 Agent Switch는 팀이 이미 쓰는 Slack , Microsoft Teams , Discord , Telegram , Mattermost 안에서 사람과 AI 에이전트가 함께 일할 수 있도록 만드는 자체 호스팅(self-hosted) 협업 인프라 프로젝트입니다. 새 메신저로 옮기는 대신, 기존 채널에 에이전트와 작업 맥락을 연결하는 방식을 택합니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/agent-switch-ai/11738",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-27T07:30:31+09:00",
-      "popularity": 98,
+      "published_at": "2026-08-28T12:30:50+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 24.61,
-      "importance_score": 17.43,
+      "score": 22.38,
+      "importance_score": 18.77,
       "matched_keywords": [
         "ai",
-        "agent",
-        "연구"
+        "agent"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "6b2d79fa37fb3770d787ffed20a8c058",
+      "index": 6,
+      "title": "Z.ai, GLM-5.2를 앞서면서 가격은 1/10인 멀티모달 모델 GLM-5.3-Flash 공개",
+      "title_ko": null,
+      "summary": "GLM-5.3-Flash 소개 GLM-5.3-Flash는 Z.ai (Zhipu AI)가 2026년 8월 26일에 공개한 오픈 웨이트 언어 모델로, GLM-5 계열에서 처음으로 이미지와 영상, 파일을 텍스트와 같은 층위에서 받는 네이티브 멀티모달(Natively Multimodal) 모델입니다. 전체 파라미터는 320B이고 토큰 하나를 처리할 때 실제로 켜지는 파라미터는 18B입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-08-27T21:40:50+09:00",
+      "popularity": 97,
+      "upvotes": 0,
+      "score": 21.99,
+      "importance_score": 12.29,
+      "matched_keywords": [
+        "ai",
+        "multimodal",
+        "모델"
       ],
       "engagement": null
     }
