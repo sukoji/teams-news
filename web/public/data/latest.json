@@ -1,17 +1,44 @@
 {
   "schema_version": 1,
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28T15:28:28.041786+09:00",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T12:59:58.528031+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 6,
+  "item_count": 7,
   "sections": [
     {
       "id": "papers",
       "title": "📄 Papers",
       "items": [
         {
-          "id": "61ed39ce89968cfa145ecc1ce67d4d5b",
+          "id": "17f58c6c4ac68aac22abc663f62d96b8",
           "index": 1,
+          "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+          "title_ko": "세계 모델 확장을 위한 검증 가능한 궤적 데이터 엔진으로서의 에이전트적 게임 개발",
+          "summary": "Game engines provide executable verification and long-horizon trajectories for reinforcement learning post-training of spatial world models, motivating a human-engine verification paradigm.",
+          "summary_ko": "게임 엔진은 공간 세계 모델의 훈련 후 강화 학습을 위한 실행 가능한 검증 및 장거리 궤적을 제공하여 인간 엔진 검증 패러다임에 동기를 부여합니다.",
+          "url": "https://huggingface.co/papers/2608.25518",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-08-28T09:00:00+09:00",
+          "popularity": 250,
+          "upvotes": 120,
+          "score": 28.58,
+          "importance_score": 16.58,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "reinforcement learning",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 120
+          }
+        },
+        {
+          "id": "61ed39ce89968cfa145ecc1ce67d4d5b",
+          "index": 2,
           "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
           "title_ko": "UrbanGround: 실제 규모 도시의 지역 인식에서 공간 기관까지",
           "summary": "UrbanGround evaluates whether multimodal language model agents can sustain reliable navigation and spatial reasoning in a realistic 3D city replica, revealing that local perceptual skills fail to compose into extended g…",
@@ -21,10 +48,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-08-28T09:00:00+09:00",
-          "popularity": 77,
-          "upvotes": 25,
-          "score": 28.72,
-          "importance_score": 20.37,
+          "popularity": 197,
+          "upvotes": 70,
+          "score": 27.86,
+          "importance_score": 15.86,
           "matched_keywords": [
             "ai",
             "agent",
@@ -33,35 +60,7 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 25
-          }
-        },
-        {
-          "id": "e69eec700890aa31e31c3a26a8502ed6",
-          "index": 2,
-          "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
-          "title_ko": "LLM 추론을 위한 진화 전략 이해: GRPO보다 더 넓은 추론 범위",
-          "summary": "Evolution strategies improve reasoning diversity and Pass@K over GRPO through sparse functional updates and population diversity, supporting a hybrid training approach.",
-          "summary_ko": "진화 전략은 희소 기능 업데이트 및 인구 다양성을 통해 GRPO에 대한 추론 다양성과 Pass@K를 향상시켜 하이브리드 교육 접근 방식을 지원합니다.",
-          "url": "https://huggingface.co/papers/2608.27351",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-08-28T09:00:00+09:00",
-          "popularity": 23,
-          "upvotes": 9,
-          "score": 27.19,
-          "importance_score": 16.84,
-          "matched_keywords": [
-            "ai",
-            "llm",
-            "rag",
-            "reasoning",
-            "training"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 9
+            "value": 70
           }
         }
       ]
@@ -71,42 +70,42 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "1330115db7e51f860a6ad7f25e3a8a5d",
+          "id": "e053a2a26a29526336c30d88ae615207",
           "index": 3,
-          "title": "머스크·알트먼·젠슨 황 집결...미국, G20서 AI '자율 규제' 카드 꺼낸다",
+          "title": "메타, 80억 소형 AI로 ‘클로드 오퍼스 4.5’급 성능 구현…‘에보하네스-RL’ 공개",
           "title_ko": null,
-          "summary": "일론 머스크 CEO와 샘 알트먼 오픈AI CEO, 젠슨 황 엔비디아 CEO 등 글로벌 기술업계의 핵심 인사들이 다음 주 미국에서 열리는 주요 20개국(G20) 기술 장관 회의에 집결한다.",
+          "summary": "장시간에 걸쳐 복잡한 업무를 수행하는 AI 에이전트의 핵심 과제로 꼽혀온 외부 실행 환경, 즉 ‘하네스(harness)’ 관리 능력 자체를 AI가 학습하도록 하는 새로운 기술이 등장했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214545",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214593",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-28T14:16:36+09:00",
+          "published_at": "2026-08-29T12:15:15+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.75,
-          "importance_score": 19.5,
+          "score": 19.84,
+          "importance_score": 19.69,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
         },
         {
-          "id": "62002f8055f5b03de42e8688de9be754",
+          "id": "3850639970d8d3c891b5ba1dc55d1019",
           "index": 4,
-          "title": "\"AI로 일 빨라졌다\" 80%…\"AI가 이익에 기여\" 37%뿐",
+          "title": "“AI 에이전트 시대, '토큰 거버넌스' 필요”…SK, '토큰 이코노미' 사내서 낸다",
           "title_ko": null,
-          "summary": "[지디넷코리아]AI를 쓰는 응답자 10명 중 8명이 생산성이 높아졌다고 답했으나, 회사 이익에 AI가 기여했다고 답한 비율은 1년 전과 같았다. 맥킨지(McKinsey)가 2026년 8월 발표한 'AI 현황 2026: ROI를 향한 길(The state of AI in 2026: On the road to ROI)' 보고서가 확인한 AI 도입 성과 격차다.",
+          "summary": "인공지능(AI) 에이전트가 업무에 본격 투입되면서 '토큰'이 새로운 경제 지표로 부상하고 있다. 경영 성과를 측정하는 기준도 기존 투자수익률(ROI)에서 나아가 투입된 토큰 대비 실제 업무 성과가 얼마나 발생했는지를 측정하는 ROT(Return on Tokens) 같은 새로운 지표가 필요해졌다는 분석이다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260828142114",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260828000213",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-28T14:21:14+09:00",
-          "popularity": 99,
+          "published_at": "2026-08-29T12:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.67,
-          "importance_score": 19.43,
+          "score": 19.79,
+          "importance_score": 19.58,
           "matched_keywords": [
             "ai"
           ],
@@ -115,51 +114,82 @@
       ]
     },
     {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "4d5497599a9e72184abb6d2d440de3cc",
+          "index": 5,
+          "title": "Nanako0129/sepia — De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture rep",
+          "title_ko": "Nanako0129/sepia — Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작성 기술 — 내러티브 아키텍처 담당자",
+          "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+          "summary_ko": "Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작문 기술 — 소설을 위한 내러티브 아키텍처 수리, 전문 산문을 위한 장소 일치 규칙. StoryScope(arXiv:2604.03136)를 기반으로 합니다.",
+          "url": "https://github.com/Nanako0129/sepia",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-08-29T06:33:38+09:00",
+          "popularity": 442,
+          "upvotes": 442,
+          "score": 32.99,
+          "importance_score": 28.64,
+          "matched_keywords": [
+            "ai",
+            "claude"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 442
+          }
+        },
+        {
+          "id": "99cc8cc2964bda666975469c01b89ae8",
+          "index": 6,
+          "title": "rome-os/rome — Rome is the agentic OS.",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "Rome is the agentic OS.",
+          "summary_ko": "Rome은 에이전트 OS입니다.",
+          "url": "https://github.com/rome-os/rome",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-08-29T12:56:48+09:00",
+          "popularity": 383,
+          "upvotes": 383,
+          "score": 30.82,
+          "importance_score": 30.81,
+          "matched_keywords": [
+            "agent"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 383
+          }
+        }
+      ]
+    },
+    {
       "id": "community",
       "title": "💬 Community",
       "items": [
         {
-          "id": "77d42f78e2b75c93bbd6bb174d505086",
-          "index": 5,
-          "title": "Agent Switch: 기존 메신저에서 사람과 AI 에이전트를 함께 운영하는 인프라",
+          "id": "9e780e8dc90537f988e6d32e0f06396a",
+          "index": 7,
+          "title": "OpenOPC: 목표 하나로 조직도를 짜고 AI 직원을 채용해 일을 완료하는 멀티 에이전트 런타임 (feat. HKUDS)",
           "title_ko": null,
-          "summary": "Agent Switch 소개 Agent Switch는 팀이 이미 쓰는 Slack , Microsoft Teams , Discord , Telegram , Mattermost 안에서 사람과 AI 에이전트가 함께 일할 수 있도록 만드는 자체 호스팅(self-hosted) 협업 인프라 프로젝트입니다. 새 메신저로 옮기는 대신, 기존 채널에 에이전트와 작업 맥락을 연결하는 방식을 택합니다.",
+          "summary": "OpenOPC 소개 AI 코딩 에이전트에게 \"이 기능을 만들어 줘\"라고 요청하는 것과 \"이 제품을 출시해 줘\"라고 요청하는 것 사이에는 큰 차이가 있습니다. 앞의 요청은 한 세션 안에서 끝나지만, 뒤의 요청은 설계와 구현, 검토, 문서화, 배포 준비가 서로를 기다리는 여러 갈래의 작업으로 쪼개집니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/agent-switch-ai/11738",
+          "url": "https://discuss.pytorch.kr/t/openopc-ai-feat-hkuds/11751",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-28T12:30:50+09:00",
+          "published_at": "2026-08-29T11:30:14+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.38,
-          "importance_score": 18.77,
+          "score": 19.69,
+          "importance_score": 19.38,
           "matched_keywords": [
-            "ai",
-            "agent"
-          ],
-          "engagement": null
-        },
-        {
-          "id": "6b2d79fa37fb3770d787ffed20a8c058",
-          "index": 6,
-          "title": "Z.ai, GLM-5.2를 앞서면서 가격은 1/10인 멀티모달 모델 GLM-5.3-Flash 공개",
-          "title_ko": null,
-          "summary": "GLM-5.3-Flash 소개 GLM-5.3-Flash는 Z.ai (Zhipu AI)가 2026년 8월 26일에 공개한 오픈 웨이트 언어 모델로, GLM-5 계열에서 처음으로 이미지와 영상, 파일을 텍스트와 같은 층위에서 받는 네이티브 멀티모달(Natively Multimodal) 모델입니다. 전체 파라미터는 320B이고 토큰 하나를 처리할 때 실제로 켜지는 파라미터는 18B입니다.",
-          "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733",
-          "source": "PyTorch Korea",
-          "section": "💬 Community",
-          "section_id": "community",
-          "published_at": "2026-08-27T21:40:50+09:00",
-          "popularity": 97,
-          "upvotes": 0,
-          "score": 21.99,
-          "importance_score": 12.29,
-          "matched_keywords": [
-            "ai",
-            "multimodal",
-            "모델"
+            "ai"
           ],
           "engagement": null
         }
@@ -168,8 +198,35 @@
   ],
   "items": [
     {
-      "id": "61ed39ce89968cfa145ecc1ce67d4d5b",
+      "id": "17f58c6c4ac68aac22abc663f62d96b8",
       "index": 1,
+      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "title_ko": "세계 모델 확장을 위한 검증 가능한 궤적 데이터 엔진으로서의 에이전트적 게임 개발",
+      "summary": "Game engines provide executable verification and long-horizon trajectories for reinforcement learning post-training of spatial world models, motivating a human-engine verification paradigm.",
+      "summary_ko": "게임 엔진은 공간 세계 모델의 훈련 후 강화 학습을 위한 실행 가능한 검증 및 장거리 궤적을 제공하여 인간 엔진 검증 패러다임에 동기를 부여합니다.",
+      "url": "https://huggingface.co/papers/2608.25518",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-08-28T09:00:00+09:00",
+      "popularity": 250,
+      "upvotes": 120,
+      "score": 28.58,
+      "importance_score": 16.58,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "reinforcement learning",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 120
+      }
+    },
+    {
+      "id": "61ed39ce89968cfa145ecc1ce67d4d5b",
+      "index": 2,
       "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
       "title_ko": "UrbanGround: 실제 규모 도시의 지역 인식에서 공간 기관까지",
       "summary": "UrbanGround evaluates whether multimodal language model agents can sustain reliable navigation and spatial reasoning in a realistic 3D city replica, revealing that local perceptual skills fail to compose into extended g…",
@@ -179,10 +236,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-08-28T09:00:00+09:00",
-      "popularity": 77,
-      "upvotes": 25,
-      "score": 28.72,
-      "importance_score": 20.37,
+      "popularity": 197,
+      "upvotes": 70,
+      "score": 27.86,
+      "importance_score": 15.86,
       "matched_keywords": [
         "ai",
         "agent",
@@ -191,121 +248,118 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 25
+        "value": 70
       }
     },
     {
-      "id": "e69eec700890aa31e31c3a26a8502ed6",
-      "index": 2,
-      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
-      "title_ko": "LLM 추론을 위한 진화 전략 이해: GRPO보다 더 넓은 추론 범위",
-      "summary": "Evolution strategies improve reasoning diversity and Pass@K over GRPO through sparse functional updates and population diversity, supporting a hybrid training approach.",
-      "summary_ko": "진화 전략은 희소 기능 업데이트 및 인구 다양성을 통해 GRPO에 대한 추론 다양성과 Pass@K를 향상시켜 하이브리드 교육 접근 방식을 지원합니다.",
-      "url": "https://huggingface.co/papers/2608.27351",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-08-28T09:00:00+09:00",
-      "popularity": 23,
-      "upvotes": 9,
-      "score": 27.19,
-      "importance_score": 16.84,
-      "matched_keywords": [
-        "ai",
-        "llm",
-        "rag",
-        "reasoning",
-        "training"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 9
-      }
-    },
-    {
-      "id": "1330115db7e51f860a6ad7f25e3a8a5d",
+      "id": "e053a2a26a29526336c30d88ae615207",
       "index": 3,
-      "title": "머스크·알트먼·젠슨 황 집결...미국, G20서 AI '자율 규제' 카드 꺼낸다",
+      "title": "메타, 80억 소형 AI로 ‘클로드 오퍼스 4.5’급 성능 구현…‘에보하네스-RL’ 공개",
       "title_ko": null,
-      "summary": "일론 머스크 CEO와 샘 알트먼 오픈AI CEO, 젠슨 황 엔비디아 CEO 등 글로벌 기술업계의 핵심 인사들이 다음 주 미국에서 열리는 주요 20개국(G20) 기술 장관 회의에 집결한다.",
+      "summary": "장시간에 걸쳐 복잡한 업무를 수행하는 AI 에이전트의 핵심 과제로 꼽혀온 외부 실행 환경, 즉 ‘하네스(harness)’ 관리 능력 자체를 AI가 학습하도록 하는 새로운 기술이 등장했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214545",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214593",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-28T14:16:36+09:00",
+      "published_at": "2026-08-29T12:15:15+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.75,
-      "importance_score": 19.5,
+      "score": 19.84,
+      "importance_score": 19.69,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "62002f8055f5b03de42e8688de9be754",
+      "id": "3850639970d8d3c891b5ba1dc55d1019",
       "index": 4,
-      "title": "\"AI로 일 빨라졌다\" 80%…\"AI가 이익에 기여\" 37%뿐",
+      "title": "“AI 에이전트 시대, '토큰 거버넌스' 필요”…SK, '토큰 이코노미' 사내서 낸다",
       "title_ko": null,
-      "summary": "[지디넷코리아]AI를 쓰는 응답자 10명 중 8명이 생산성이 높아졌다고 답했으나, 회사 이익에 AI가 기여했다고 답한 비율은 1년 전과 같았다. 맥킨지(McKinsey)가 2026년 8월 발표한 'AI 현황 2026: ROI를 향한 길(The state of AI in 2026: On the road to ROI)' 보고서가 확인한 AI 도입 성과 격차다.",
+      "summary": "인공지능(AI) 에이전트가 업무에 본격 투입되면서 '토큰'이 새로운 경제 지표로 부상하고 있다. 경영 성과를 측정하는 기준도 기존 투자수익률(ROI)에서 나아가 투입된 토큰 대비 실제 업무 성과가 얼마나 발생했는지를 측정하는 ROT(Return on Tokens) 같은 새로운 지표가 필요해졌다는 분석이다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260828142114",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20260828000213",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-28T14:21:14+09:00",
-      "popularity": 99,
+      "published_at": "2026-08-29T12:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.67,
-      "importance_score": 19.43,
+      "score": 19.79,
+      "importance_score": 19.58,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "77d42f78e2b75c93bbd6bb174d505086",
+      "id": "4d5497599a9e72184abb6d2d440de3cc",
       "index": 5,
-      "title": "Agent Switch: 기존 메신저에서 사람과 AI 에이전트를 함께 운영하는 인프라",
-      "title_ko": null,
-      "summary": "Agent Switch 소개 Agent Switch는 팀이 이미 쓰는 Slack , Microsoft Teams , Discord , Telegram , Mattermost 안에서 사람과 AI 에이전트가 함께 일할 수 있도록 만드는 자체 호스팅(self-hosted) 협업 인프라 프로젝트입니다. 새 메신저로 옮기는 대신, 기존 채널에 에이전트와 작업 맥락을 연결하는 방식을 택합니다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/agent-switch-ai/11738",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-08-28T12:30:50+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 22.38,
-      "importance_score": 18.77,
+      "title": "Nanako0129/sepia — De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture rep",
+      "title_ko": "Nanako0129/sepia — Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작성 기술 — 내러티브 아키텍처 담당자",
+      "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "summary_ko": "Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작문 기술 — 소설을 위한 내러티브 아키텍처 수리, 전문 산문을 위한 장소 일치 규칙. StoryScope(arXiv:2604.03136)를 기반으로 합니다.",
+      "url": "https://github.com/Nanako0129/sepia",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-08-29T06:33:38+09:00",
+      "popularity": 442,
+      "upvotes": 442,
+      "score": 32.99,
+      "importance_score": 28.64,
       "matched_keywords": [
         "ai",
-        "agent"
+        "claude"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Stars",
+        "value": 442
+      }
     },
     {
-      "id": "6b2d79fa37fb3770d787ffed20a8c058",
+      "id": "99cc8cc2964bda666975469c01b89ae8",
       "index": 6,
-      "title": "Z.ai, GLM-5.2를 앞서면서 가격은 1/10인 멀티모달 모델 GLM-5.3-Flash 공개",
+      "title": "rome-os/rome — Rome is the agentic OS.",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "Rome is the agentic OS.",
+      "summary_ko": "Rome은 에이전트 OS입니다.",
+      "url": "https://github.com/rome-os/rome",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-08-29T12:56:48+09:00",
+      "popularity": 383,
+      "upvotes": 383,
+      "score": 30.82,
+      "importance_score": 30.81,
+      "matched_keywords": [
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 383
+      }
+    },
+    {
+      "id": "9e780e8dc90537f988e6d32e0f06396a",
+      "index": 7,
+      "title": "OpenOPC: 목표 하나로 조직도를 짜고 AI 직원을 채용해 일을 완료하는 멀티 에이전트 런타임 (feat. HKUDS)",
       "title_ko": null,
-      "summary": "GLM-5.3-Flash 소개 GLM-5.3-Flash는 Z.ai (Zhipu AI)가 2026년 8월 26일에 공개한 오픈 웨이트 언어 모델로, GLM-5 계열에서 처음으로 이미지와 영상, 파일을 텍스트와 같은 층위에서 받는 네이티브 멀티모달(Natively Multimodal) 모델입니다. 전체 파라미터는 320B이고 토큰 하나를 처리할 때 실제로 켜지는 파라미터는 18B입니다.",
+      "summary": "OpenOPC 소개 AI 코딩 에이전트에게 \"이 기능을 만들어 줘\"라고 요청하는 것과 \"이 제품을 출시해 줘\"라고 요청하는 것 사이에는 큰 차이가 있습니다. 앞의 요청은 한 세션 안에서 끝나지만, 뒤의 요청은 설계와 구현, 검토, 문서화, 배포 준비가 서로를 기다리는 여러 갈래의 작업으로 쪼개집니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733",
+      "url": "https://discuss.pytorch.kr/t/openopc-ai-feat-hkuds/11751",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-27T21:40:50+09:00",
-      "popularity": 97,
+      "published_at": "2026-08-29T11:30:14+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 21.99,
-      "importance_score": 12.29,
+      "score": 19.69,
+      "importance_score": 19.38,
       "matched_keywords": [
-        "ai",
-        "multimodal",
-        "모델"
+        "ai"
       ],
       "engagement": null
     }
