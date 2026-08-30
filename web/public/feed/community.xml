@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 30 Aug 2026 13:11:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 19:19:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OptMem: 데이터베이스도 임베딩도 없이 로그와 이진 트리로 만든 AI 에이전트용 영속 메모리</title>
+      <link>https://discuss.pytorch.kr/t/optmem-ai/11753</link>
+      <description>OptMem 소개 코딩 에이전트에게 기억을 붙이는 방법은 대체로 한 방향으로 수렴해 왔습니다. 대화를 잘라 임베딩으로 바꾸고 벡터 데이터베이스에 넣은 뒤, 새 질문이 오면 비슷한 조각을 검색해 프롬프트에 끼워 넣는 방식입니다. 이 구조는 잘 동작하지만 붙이는 비용이 작지 않습니다.</description>
+      <pubDate>Sun, 30 Aug 2026 18:30:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/optmem-ai/11753">PyTorch Korea</source>
+      <guid isPermaLink="false">76938b43f875ecc7cb0649528b00d97c</guid>
+    </item>
     <item>
       <title>Rocketnotes: 내 문서에 질문하고 제텔카스텐 수집함을 AI가 정리하는 오픈소스 마크다운 노트 앱</title>
       <link>https://discuss.pytorch.kr/t/rocketnotes-ai/11754</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-4/11638">PyTorch Korea</source>
       <guid isPermaLink="false">b3c7fc6b641afb66bb857f73e0355657</guid>
-    </item>
-    <item>
-      <title>AI 에이전트의 지식 노동 재편: Perplexity 실사용 데이터로 본 자율성, 효율성, 범위</title>
-      <link>https://discuss.pytorch.kr/t/ai-perplexity/11618</link>
-      <description>AI 에이전트의 지식 노동 재편 연구 소개 새 업무를 맡았을 때 우리에게는 두 가지 길이 있습니다. 직접 붙잡고 한 단계씩 해내거나, 할 줄 아는 사람에게 통째로 맡긴 뒤 결과만 검토하거나.</description>
-      <pubDate>Mon, 17 Aug 2026 20:30:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-perplexity/11618">PyTorch Korea</source>
-      <guid isPermaLink="false">3110eea4a99f1cd0b97bee7dc9766d80</guid>
     </item>
   </channel>
 </rss>
