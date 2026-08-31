@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 31 Aug 2026 17:15:44 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:48:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Agent Flow: Claude Code와 Codex의 에이전트 실행 과정을 실시간 노드 그래프로 보여주는 도구</title>
+      <link>https://discuss.pytorch.kr/t/agent-flow-claude-code-codex/11767</link>
+      <description>Agent Flow 소개 코딩 에이전트에게 작업을 맡기고 나면 한동안 볼 수 있는 것은 스크롤로 흘러가는 로그뿐이고, 결국 손에 남는 것은 마지막 결과물입니다. 결과가 맞으면 문제가 없지만 어긋났을 때는 곤란해집니다.</description>
+      <pubDate>Mon, 31 Aug 2026 18:30:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agent-flow-claude-code-codex/11767">PyTorch Korea</source>
+      <guid isPermaLink="false">bcd560ab6345bcc24c1cffebb2c9ed85</guid>
+    </item>
+    <item>
+      <title>img2obj: 참조 이미지를 애니메이션 가능한 Three.js 절차적 코드로 재구성하는 Codex 플러그인</title>
+      <link>https://discuss.pytorch.kr/t/img2obj-three-js-codex/11724</link>
+      <description>img2obj 소개 웹에 3D 오브젝트를 하나 올리려면 보통 모델 파일을 구해 옵니다. 에셋 스토어에서 내려받거나, 사진 여러 장으로 포토그래메트리(Photogrammetry)를 돌려 메시를 뽑거나, 3D 도구에서 직접 모델링합니다.</description>
+      <pubDate>Mon, 31 Aug 2026 21:00:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/img2obj-three-js-codex/11724">PyTorch Korea</source>
+      <guid isPermaLink="false">41a6afe36775709217a83ed3829b404b</guid>
+    </item>
     <item>
       <title>AI 에이전트들로 만든 외계 행성 문명 생성 시뮬레이션 공개</title>
       <link>https://discuss.pytorch.kr/t/ai/11777</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657">PyTorch Korea</source>
       <guid isPermaLink="false">b182102f0e5bf1bfaa2c99a5077aef6d</guid>
-    </item>
-    <item>
-      <title>PenEcho: 손으로 쓴 수식과 도형을 읽고 답을 옆에 그려주는 오픈소스 AI 캔버스</title>
-      <link>https://discuss.pytorch.kr/t/penecho-ai/11658</link>
-      <description>PenEcho 소개 수식이나 회로도, 반쯤 그리다 만 구조도를 앞에 두고 모델에게 물어보려면 그것을 먼저 글로 옮겨야 합니다. 종이에 쓴 적분식을 LaTeX으로 다시 작성하고, 손으로 그린 블록 다이어그램을 문장으로 설명하고, 어느 화살표가 어디로 가는지를 말로 풀어 씁니다.</description>
-      <pubDate>Wed, 19 Aug 2026 15:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/penecho-ai/11658">PyTorch Korea</source>
-      <guid isPermaLink="false">4b812900f6e1fb62f0dcd2a264ed566b</guid>
-    </item>
-    <item>
-      <title>phone-harness: Xcode나 WebDriverAgent 없이 AI 에이전트가 실제 아이폰을 조작하는 도구</title>
-      <link>https://discuss.pytorch.kr/t/phone-harness-xcode-webdriveragent-ai/11644</link>
-      <description>phone-harness 소개 아이폰에서만 되는 일이 아직 많습니다. iOS 전용 앱, 사용자의 전화번호에 묶인 2단계 인증, 실제 기기에서만 확인되는 화면 배치 같은 것들입니다. 그런데 AI 에이전트에게 이 일을 맡기려면 준비물이 갑자기 무거워집니다.</description>
-      <pubDate>Wed, 19 Aug 2026 12:30:29 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/phone-harness-xcode-webdriveragent-ai/11644">PyTorch Korea</source>
-      <guid isPermaLink="false">5689a6a7900fc88666deb56f49139668</guid>
     </item>
   </channel>
 </rss>
