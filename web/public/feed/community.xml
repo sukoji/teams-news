@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 01 Sep 2026 06:47:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 10:02:29 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Praxist: 기존 프로젝트를 넘겨받아 방법과 구조까지 바꾸며 개선하는 자율 연구 시스템</title>
+      <link>https://discuss.pytorch.kr/t/praxist/11765</link>
+      <description>Praxist 소개 측정 가능한 지표를 가진 연구 프로젝트를 붙들고 몇 주씩 반복해 본 사람이라면 익숙한 상황이 있습니다. 베이스라인은 이미 돌아가고 평가 스크립트도 있는데, 다음에 무엇을 시도해야 점수가 오르는지는 아무도 모르는 상태입니다. 그래서 하이퍼파라미터를 바꿔 보고, 손실 함수를 갈아 보고, 구조를 조금 손봅니다.</description>
+      <pubDate>Tue, 01 Sep 2026 09:00:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/praxist/11765">PyTorch Korea</source>
+      <guid isPermaLink="false">d36ccbd390d29ec9b2f2b22ef1d61f1e</guid>
+    </item>
+    <item>
+      <title>WikiSkill: 에이전트의 실행 경험을 위키에 쌓아 스킬을 진화시키는 3계층 구조에 대한 연구</title>
+      <link>https://discuss.pytorch.kr/t/wikiskill-3/11772</link>
+      <description>WikiSkill 소개 에이전트가 배운 것은 어디에 남는가 어제 알려준 요령을 오늘 다시 알려주는 일이 반복된다면, 문제는 상대의 이해력이 아니라 알게 된 내용이 어디에도 적혀 있지 않다는 데 있습니다.</description>
+      <pubDate>Tue, 01 Sep 2026 07:00:00 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/wikiskill-3/11772">PyTorch Korea</source>
+      <guid isPermaLink="false">6c1a5e3b58a3cc8f034db7c0082cb200</guid>
+    </item>
     <item>
       <title>Agent Flow: Claude Code와 Codex의 에이전트 실행 과정을 실시간 노드 그래프로 보여주는 도구</title>
       <link>https://discuss.pytorch.kr/t/agent-flow-claude-code-codex/11767</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cumora-ai/11666">PyTorch Korea</source>
       <guid isPermaLink="false">ce2ce7c883a536b083ed5619df573671</guid>
-    </item>
-    <item>
-      <title>OpenAI, 신규 모델 Astra의 예상치 못한 사이버 보안 위험성에 개발 속도를 늦추고 안전장치를 재정비 중</title>
-      <link>https://discuss.pytorch.kr/t/openai-astra/11659</link>
-      <description>OpenAI가 프런티어 모델 학습을 멈춘 이유 OpenAI 가 2026년 8월 18일, 자사의 프런티어 모델 개발 속도를 스스로 늦추고 있다는 사실을 공개했습니다. 배포를 목표로 학습 중이던 최신 모델들의 강화학습(Reinforcement Learning, RL) 을 2주간 중단했고, 계획하고 있던 가장 큰 규모의 프런티어 RL 실행은 현재까지도 여전히 보류 상태입니다.</description>
-      <pubDate>Thu, 20 Aug 2026 08:30:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-astra/11659">PyTorch Korea</source>
-      <guid isPermaLink="false">09f20b76a756164f754eca0cb836d000</guid>
-    </item>
-    <item>
-      <title>Cindy: Claude Code와 Codex를 작업 도중에 바꿔 가며 쓰는 오픈소스 AI 에이전트 클라이언트</title>
-      <link>https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657</link>
-      <description>Cindy 소개 코딩 에이전트를 두 개 이상 쓰다 보면 도구를 바꾸는 순간마다 작업이 처음으로 돌아갑니다. 한쪽에서 프로젝트 구조를 설명하고 규칙을 알려 준 뒤 절반쯤 진행했는데, 다른 모델이 더 나을 것 같아 도구를 바꾸면 그 맥락이 따라오지 않습니다. 열어 둔 파일, 지금까지 합의한 설계, 알려 준 작업 방식이 각 도구 안에 갇혀 있기 때문입니다.</description>
-      <pubDate>Wed, 19 Aug 2026 18:30:44 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cindy-claude-code-codex-ai/11657">PyTorch Korea</source>
-      <guid isPermaLink="false">b182102f0e5bf1bfaa2c99a5077aef6d</guid>
     </item>
   </channel>
 </rss>
