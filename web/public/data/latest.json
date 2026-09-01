@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31T10:03:39.379773+09:00",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T10:34:58.363734+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,49 +10,58 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "12654fca5d9a18fb30ede85b454d1bf1",
+          "id": "97f838f27d86ab94fcb499a677d48392",
           "index": 1,
-          "title": "🥇Top AI Papers of the Week",
-          "title_ko": "🥇금주의 최고 AI 논문",
-          "summary": "The Top AI Papers of the Week (August 24 - 30)",
-          "summary_ko": "금주의 상위 AI 논문(8월 24일~30일)",
-          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-6e2",
-          "source": "Elvis AI Newsletter",
+          "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "PonderPounce leverages native causal context in multimodal language models as robot episode memory, jointly training a reasoning System2 module and a fast System1 action model to improve long-horizon policy performance…",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "url": "https://huggingface.co/papers/2608.24115",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-31T00:19:03+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 20.97,
-          "importance_score": 15.94,
+          "published_at": "2026-08-31T09:00:00+09:00",
+          "popularity": 30,
+          "upvotes": 11,
+          "score": 26.3,
+          "importance_score": 10.3,
           "matched_keywords": [
             "ai",
-            "paper"
+            "llm",
+            "rag",
+            "multimodal",
+            "reasoning",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 11
+          }
         },
         {
-          "id": "437e57eb87ce595cb4746f2e623ca16a",
+          "id": "efcf8230a5dc4c595deb3466a426e348",
           "index": 2,
-          "title": "🤖 AI Agents Weekly: GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude's Built-In Browser, Terminal-Bench-Science, Jalapeño, Skild S1, and More",
-          "title_ko": "🤖 AI Agents Weekly: GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude의 내장 브라우저, Terminal-Bench-Science, Jalapeño, Skild S1 등",
-          "summary": "GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude's Built-In Browser, Terminal-Bench-Science, Jalapeño, Skild S1, and More",
-          "summary_ko": "GLM-5.3-Flash, Hy4 미리보기, Qwen3.8-Flash, Claude의 내장 브라우저, Terminal-Bench-Science, Jalapeño, Skild S1 등",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-glm-53-flash-hy4",
-          "source": "Elvis AI Newsletter",
+          "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "VLAct improves vision-language-action model performance by pre-training on diverse robot data with preserved vision-language priors and shared action semantics, achieving strong results across simulations and unseen emb…",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "url": "https://huggingface.co/papers/2608.27550",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-30T00:33:13+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 19.9,
-          "importance_score": 9.9,
+          "published_at": "2026-08-31T09:00:00+09:00",
+          "popularity": 3704,
+          "upvotes": 70,
+          "score": 26.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "agent",
-            "claude"
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 70
+          }
         }
       ]
     },
@@ -61,44 +70,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "c11fad3e481c074d0384da1903a21fc8",
+          "id": "18617dbef8ab6f1c3b0851d176758701",
           "index": 3,
-          "title": "\"AI가 AI 칩을 만든다\"...'핫칩스 2026'서 확인된 반도체 설계의 대변혁",
+          "title": "[8월31일] 엔비디아 피지컬 AI, ‘미래 전략’에서 사업으로…중국이 핵심 시장",
           "title_ko": null,
-          "summary": "AI가 스스로를 구동할 반도체를 직접 설계하는 \\'AI를 만드는 AI\\' 시대가 마침내 현실로 다가왔다. 지난 8월 23일(현지시간)부터 25일까지 미국 캘리포니아주 팔로알토의 스탠포드대학교 메모리얼 오디토리엄에서는 세계 최대 반도체 학술행사 \\'핫칩스 2026(Hot Chips 38)\\' 컨퍼런스가 개최됐다.",
+          "summary": "엔비디아가 피지컬 AI를 강조하기 시작한 것은 최근 일이 아닙니다. 2023년부터 로봇 시뮬레이션 플랫폼 ‘아이작(Isaac)’과 ‘옴니버스(Omniverse)’를 앞세워 로봇을 가상공간에서 설계하고 훈련하는 기술을 선보였습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214627",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214642",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-30T18:16:42+09:00",
+          "published_at": "2026-09-01T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 16.71,
-          "importance_score": 13.42,
+          "score": 19.25,
+          "importance_score": 18.51,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
         },
         {
-          "id": "f06c37318b91147e4db1d435ce259cdc",
+          "id": "0a0145784e9e2dd1ea2ae6f2d76ad5a1",
           "index": 4,
-          "title": "EV부터 고성능차까지…'대한민국 올해의 차' 후보 16대 확정",
+          "title": "SKT, 에어 요금제 가입자에 유튜브프리미엄 1년 쏜다",
           "title_ko": null,
-          "summary": "[지디넷코리아]한국자동차기자협회가 주관하는 '2027 대한민국 올해의 차' 전반기 심사에서 13개 브랜드 16대가 예선을 통과했다.한국자동차기자협회(KAJA)는 올해 1월부터 6월까지 국내에 출시된 신차와 부분변경 모델 25대를 대상으로 지난 20일부터 26일까지 전반기 심사를 진행했다고 31일 밝혔다.심사 대상은 14개 브랜드 25대다.",
+          "summary": "[지디넷코리아]SK텔레콤이 자급제 전용 통신 서비스 ‘에어(air)’ 회선 20만명 돌파를 맞아 신규 가입자에게 ‘유튜브 프리미엄 라이트’를 1년간 무료로 제공한다.SK텔레콤은 1내년 2월28일까지 에어 공식 앱과 홈페이지에서 ‘에어 X’ 요금제에 새로 가입하면 유튜브 프리미엄 라이트 무료 구독 프로모션을 진행한다고 밝혔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260831092333",
+          "url": "https://zdnet.co.kr/view/?no=20260901085927",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-08-31T09:23:33+09:00",
-          "popularity": 94,
+          "published_at": "2026-09-01T08:59:27+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.26,
-          "importance_score": 19.12,
+          "score": 19.67,
+          "importance_score": 19.34,
           "matched_keywords": [
-            "모델"
+            "ai"
           ],
           "engagement": null
         }
@@ -111,44 +120,45 @@
         {
           "id": "4d5497599a9e72184abb6d2d440de3cc",
           "index": 5,
-          "title": "Nanako0129/sepia — De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture rep",
-          "title_ko": "Nanako0129/sepia — Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작성 기술 — 내러티브 아키텍처 담당자",
-          "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-          "summary_ko": "Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작문 기술 — 소설을 위한 내러티브 아키텍처 수리, 전문 산문을 위한 장소 일치 규칙. StoryScope(arXiv:2604.03136)를 기반으로 합니다.",
+          "title": "Nanako0129/sepia — De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plug",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity.",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "url": "https://github.com/Nanako0129/sepia",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-30T22:49:55+09:00",
-          "popularity": 912,
-          "upvotes": 912,
-          "score": 34.52,
-          "importance_score": 29.18,
+          "published_at": "2026-08-31T21:36:41+09:00",
+          "popularity": 1237,
+          "upvotes": 1237,
+          "score": 37.8,
+          "importance_score": 29.1,
           "matched_keywords": [
             "ai",
+            "agent",
             "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 912
+            "value": 1237
           }
         },
         {
           "id": "9aabe377afdba0a1bdd866ee36db3e87",
           "index": 6,
           "title": "JordyZomer/lemmalog — A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental deriv",
-          "title_ko": "JordyZomer/lemmalog — LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "summary": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-          "summary_ko": "LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생 및 하네스를 공유 두뇌로 사용할 수 있는 MCP 서버입니다.",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "url": "https://github.com/JordyZomer/lemmalog",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-28T22:53:35+09:00",
-          "popularity": 203,
-          "upvotes": 203,
-          "score": 32.61,
-          "importance_score": 18.61,
+          "published_at": "2026-09-01T07:47:49+09:00",
+          "popularity": 236,
+          "upvotes": 236,
+          "score": 37.56,
+          "importance_score": 27.98,
           "matched_keywords": [
             "ai",
             "llm",
@@ -157,7 +167,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 203
+            "value": 236
           }
         }
       ]
@@ -167,23 +177,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "609d25bbdd835fedf5fb56763ca4b8ef",
+          "id": "b30ed6beb6bc85a55cc99593745c370a",
           "index": 7,
-          "title": "[2026/08/24 ~ 30] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+          "title": "AI 에이전트들로 만든 외계 행성 문명 생성 시뮬레이션 공개",
           "title_ko": null,
-          "summary": "[2026/08/24 ~ 30] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주 선정된 10편의 논문들을 살펴본 결과, 다음과 같은 3가지 공통된 내용을 찾아볼 수 있었습니다: 단발성 실행을 넘어선 \"지속적 지식 축적 및 구조화된 메모리\" : 이번 주 논문들에서는 AI 에이전트가 1회성 작업을 넘어 장기적이고 복잡한 환경에서 활동하기 위해 기억과 지식을 체계적으로…",
+          "summary": "문명은 창발했는가, 암송했는가 — 대조군으로 다시 본 멀티에이전트 \"창발\" VIDRAFT · CIVOS | 라이브 데모: VIDraft/ai-world (Hugging Face Space) | 원문(EN): huggingface.co/blog/FINAL-Bench/ai-world TL;DR 멀티에이전트 시뮬레이션에서 관측되는 \"사회·분업·문명의 창발\"은 **탐색(H1)**일 수도, LLM이…",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/2026-08-24-30-ai-ml/11764",
+          "url": "https://discuss.pytorch.kr/t/ai/11777",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-31T07:00:33+09:00",
-          "popularity": 99,
+          "published_at": "2026-08-31T16:35:58+09:00",
+          "popularity": 96,
           "upvotes": 0,
-          "score": 19.26,
-          "importance_score": 18.63,
+          "score": 21.85,
+          "importance_score": 12.11,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "llm",
+            "huggingface"
           ],
           "engagement": null
         }
@@ -192,133 +204,143 @@
   ],
   "items": [
     {
-      "id": "12654fca5d9a18fb30ede85b454d1bf1",
+      "id": "97f838f27d86ab94fcb499a677d48392",
       "index": 1,
-      "title": "🥇Top AI Papers of the Week",
-      "title_ko": "🥇금주의 최고 AI 논문",
-      "summary": "The Top AI Papers of the Week (August 24 - 30)",
-      "summary_ko": "금주의 상위 AI 논문(8월 24일~30일)",
-      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-6e2",
-      "source": "Elvis AI Newsletter",
+      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "PonderPounce leverages native causal context in multimodal language models as robot episode memory, jointly training a reasoning System2 module and a fast System1 action model to improve long-horizon policy performance…",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "url": "https://huggingface.co/papers/2608.24115",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-31T00:19:03+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 20.97,
-      "importance_score": 15.94,
+      "published_at": "2026-08-31T09:00:00+09:00",
+      "popularity": 30,
+      "upvotes": 11,
+      "score": 26.3,
+      "importance_score": 10.3,
       "matched_keywords": [
         "ai",
-        "paper"
+        "llm",
+        "rag",
+        "multimodal",
+        "reasoning",
+        "training"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 11
+      }
     },
     {
-      "id": "437e57eb87ce595cb4746f2e623ca16a",
+      "id": "efcf8230a5dc4c595deb3466a426e348",
       "index": 2,
-      "title": "🤖 AI Agents Weekly: GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude's Built-In Browser, Terminal-Bench-Science, Jalapeño, Skild S1, and More",
-      "title_ko": "🤖 AI Agents Weekly: GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude의 내장 브라우저, Terminal-Bench-Science, Jalapeño, Skild S1 등",
-      "summary": "GLM-5.3-Flash, Hy4 Preview, Qwen3.8-Flash, Claude's Built-In Browser, Terminal-Bench-Science, Jalapeño, Skild S1, and More",
-      "summary_ko": "GLM-5.3-Flash, Hy4 미리보기, Qwen3.8-Flash, Claude의 내장 브라우저, Terminal-Bench-Science, Jalapeño, Skild S1 등",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-glm-53-flash-hy4",
-      "source": "Elvis AI Newsletter",
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "VLAct improves vision-language-action model performance by pre-training on diverse robot data with preserved vision-language priors and shared action semantics, achieving strong results across simulations and unseen emb…",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "url": "https://huggingface.co/papers/2608.27550",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-30T00:33:13+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 19.9,
-      "importance_score": 9.9,
+      "published_at": "2026-08-31T09:00:00+09:00",
+      "popularity": 3704,
+      "upvotes": 70,
+      "score": 26.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
-        "agent",
-        "claude"
+        "training"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 70
+      }
     },
     {
-      "id": "c11fad3e481c074d0384da1903a21fc8",
+      "id": "18617dbef8ab6f1c3b0851d176758701",
       "index": 3,
-      "title": "\"AI가 AI 칩을 만든다\"...'핫칩스 2026'서 확인된 반도체 설계의 대변혁",
+      "title": "[8월31일] 엔비디아 피지컬 AI, ‘미래 전략’에서 사업으로…중국이 핵심 시장",
       "title_ko": null,
-      "summary": "AI가 스스로를 구동할 반도체를 직접 설계하는 \\'AI를 만드는 AI\\' 시대가 마침내 현실로 다가왔다. 지난 8월 23일(현지시간)부터 25일까지 미국 캘리포니아주 팔로알토의 스탠포드대학교 메모리얼 오디토리엄에서는 세계 최대 반도체 학술행사 \\'핫칩스 2026(Hot Chips 38)\\' 컨퍼런스가 개최됐다.",
+      "summary": "엔비디아가 피지컬 AI를 강조하기 시작한 것은 최근 일이 아닙니다. 2023년부터 로봇 시뮬레이션 플랫폼 ‘아이작(Isaac)’과 ‘옴니버스(Omniverse)’를 앞세워 로봇을 가상공간에서 설계하고 훈련하는 기술을 선보였습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214627",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214642",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-30T18:16:42+09:00",
+      "published_at": "2026-09-01T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 16.71,
-      "importance_score": 13.42,
+      "score": 19.25,
+      "importance_score": 18.51,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "f06c37318b91147e4db1d435ce259cdc",
+      "id": "0a0145784e9e2dd1ea2ae6f2d76ad5a1",
       "index": 4,
-      "title": "EV부터 고성능차까지…'대한민국 올해의 차' 후보 16대 확정",
+      "title": "SKT, 에어 요금제 가입자에 유튜브프리미엄 1년 쏜다",
       "title_ko": null,
-      "summary": "[지디넷코리아]한국자동차기자협회가 주관하는 '2027 대한민국 올해의 차' 전반기 심사에서 13개 브랜드 16대가 예선을 통과했다.한국자동차기자협회(KAJA)는 올해 1월부터 6월까지 국내에 출시된 신차와 부분변경 모델 25대를 대상으로 지난 20일부터 26일까지 전반기 심사를 진행했다고 31일 밝혔다.심사 대상은 14개 브랜드 25대다.",
+      "summary": "[지디넷코리아]SK텔레콤이 자급제 전용 통신 서비스 ‘에어(air)’ 회선 20만명 돌파를 맞아 신규 가입자에게 ‘유튜브 프리미엄 라이트’를 1년간 무료로 제공한다.SK텔레콤은 1내년 2월28일까지 에어 공식 앱과 홈페이지에서 ‘에어 X’ 요금제에 새로 가입하면 유튜브 프리미엄 라이트 무료 구독 프로모션을 진행한다고 밝혔다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260831092333",
+      "url": "https://zdnet.co.kr/view/?no=20260901085927",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-08-31T09:23:33+09:00",
-      "popularity": 94,
+      "published_at": "2026-09-01T08:59:27+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.26,
-      "importance_score": 19.12,
+      "score": 19.67,
+      "importance_score": 19.34,
       "matched_keywords": [
-        "모델"
+        "ai"
       ],
       "engagement": null
     },
     {
       "id": "4d5497599a9e72184abb6d2d440de3cc",
       "index": 5,
-      "title": "Nanako0129/sepia — De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture rep",
-      "title_ko": "Nanako0129/sepia — Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작성 기술 — 내러티브 아키텍처 담당자",
-      "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-      "summary_ko": "Claude Code, Codex, Grok Build 및 Antigravity를 위한 De-AI 작문 기술 — 소설을 위한 내러티브 아키텍처 수리, 전문 산문을 위한 장소 일치 규칙. StoryScope(arXiv:2604.03136)를 기반으로 합니다.",
+      "title": "Nanako0129/sepia — De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plug",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity.",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "url": "https://github.com/Nanako0129/sepia",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-30T22:49:55+09:00",
-      "popularity": 912,
-      "upvotes": 912,
-      "score": 34.52,
-      "importance_score": 29.18,
+      "published_at": "2026-08-31T21:36:41+09:00",
+      "popularity": 1237,
+      "upvotes": 1237,
+      "score": 37.8,
+      "importance_score": 29.1,
       "matched_keywords": [
         "ai",
+        "agent",
         "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 912
+        "value": 1237
       }
     },
     {
       "id": "9aabe377afdba0a1bdd866ee36db3e87",
       "index": 6,
       "title": "JordyZomer/lemmalog — A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental deriv",
-      "title_ko": "JordyZomer/lemmalog — LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "summary": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-      "summary_ko": "LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생 및 하네스를 공유 두뇌로 사용할 수 있는 MCP 서버입니다.",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "url": "https://github.com/JordyZomer/lemmalog",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-28T22:53:35+09:00",
-      "popularity": 203,
-      "upvotes": 203,
-      "score": 32.61,
-      "importance_score": 18.61,
+      "published_at": "2026-09-01T07:47:49+09:00",
+      "popularity": 236,
+      "upvotes": 236,
+      "score": 37.56,
+      "importance_score": 27.98,
       "matched_keywords": [
         "ai",
         "llm",
@@ -327,27 +349,29 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 203
+        "value": 236
       }
     },
     {
-      "id": "609d25bbdd835fedf5fb56763ca4b8ef",
+      "id": "b30ed6beb6bc85a55cc99593745c370a",
       "index": 7,
-      "title": "[2026/08/24 ~ 30] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+      "title": "AI 에이전트들로 만든 외계 행성 문명 생성 시뮬레이션 공개",
       "title_ko": null,
-      "summary": "[2026/08/24 ~ 30] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주 선정된 10편의 논문들을 살펴본 결과, 다음과 같은 3가지 공통된 내용을 찾아볼 수 있었습니다: 단발성 실행을 넘어선 \"지속적 지식 축적 및 구조화된 메모리\" : 이번 주 논문들에서는 AI 에이전트가 1회성 작업을 넘어 장기적이고 복잡한 환경에서 활동하기 위해 기억과 지식을 체계적으로…",
+      "summary": "문명은 창발했는가, 암송했는가 — 대조군으로 다시 본 멀티에이전트 \"창발\" VIDRAFT · CIVOS | 라이브 데모: VIDraft/ai-world (Hugging Face Space) | 원문(EN): huggingface.co/blog/FINAL-Bench/ai-world TL;DR 멀티에이전트 시뮬레이션에서 관측되는 \"사회·분업·문명의 창발\"은 **탐색(H1)**일 수도, LLM이…",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/2026-08-24-30-ai-ml/11764",
+      "url": "https://discuss.pytorch.kr/t/ai/11777",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-31T07:00:33+09:00",
-      "popularity": 99,
+      "published_at": "2026-08-31T16:35:58+09:00",
+      "popularity": 96,
       "upvotes": 0,
-      "score": 19.26,
-      "importance_score": 18.63,
+      "score": 21.85,
+      "importance_score": 12.11,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "llm",
+        "huggingface"
       ],
       "engagement": null
     }
