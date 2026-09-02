@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 05:40:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:05:07 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>훈련 중 지식 증류는 사실적 회상보다 추론을 선호합니다.</title>
+      <link>https://huggingface.co/papers/2609.01532</link>
+      <description>Switch Distillation은 추론을 개선하고 더 작은 언어 모델에서 사실적 회상을 보존하기 위해 교사의 자신감을 기반으로 중간 교육 중에 로짓 기반 지식 증류를 선택적으로 적용합니다.</description>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01532">Hugging Face Papers</source>
+      <guid isPermaLink="false">8cdb5ce9f0b916f96dfab01d18f598e4</guid>
+    </item>
     <item>
       <title>AgentJudgeBench: 에이전트 도구 호출에 대한 LLM 심사위원을 평가하기 위한 다중 난이도 벤치마크</title>
       <link>https://huggingface.co/papers/2608.26623</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.29335">Hugging Face Papers</source>
       <guid isPermaLink="false">daa50d98a12976eb7b10c3be7fdc2482</guid>
-    </item>
-    <item>
-      <title>MNIST-PRO: MNIST가 AI 에이전트를 위한 부분적으로 관찰 가능한 세계로 돌아왔습니다.</title>
-      <link>https://huggingface.co/papers/2608.31022</link>
-      <description>MNIST-PRO 벤치마크는 부분적으로 관찰 가능한 설정에서 지각 상태 구성을 분리하여 다중 모달 에이전트가 단편화된 일견을 통합하고 계속 탐색하며 잘못된 믿음을 수정하는 데 어려움을 겪고 있음을 보여줍니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.31022">Hugging Face Papers</source>
-      <guid isPermaLink="false">ac0afa6fe2a126045d4a82a322285488</guid>
     </item>
   </channel>
 </rss>
