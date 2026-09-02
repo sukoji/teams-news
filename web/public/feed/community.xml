@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:25:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 17:31:14 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Sentence Transformers로 도메인 특화 멀티 벡터 검색 모델 미세조정하기, GPU 한 장에 14.5시간</title>
+      <link>https://discuss.pytorch.kr/t/sentence-transformers-gpu-14-5/11791</link>
+      <description>Sentence Transformers 멀티 벡터 모델 학습 가이드 소개 Sentence Transformers 는 검색 증강 생성(RAG), 의미 기반 검색(Semantic Search), 의미적 텍스트 유사도(Semantic Textual Similarity) 같은 곳에 쓰이는 임베딩 모델과 재정렬(Reranking) 모델을 쓰고 학습시키는 Python 라이브러리이고, v6.0에서 추가…</description>
+      <pubDate>Wed, 02 Sep 2026 12:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/sentence-transformers-gpu-14-5/11791">PyTorch Korea</source>
+      <guid isPermaLink="false">4a8c54d76658bd56af429bc50b02b244</guid>
+    </item>
     <item>
       <title>NVIDIA Model Optimizer: 모델을 경량화하여 vLLM / TensorRT / SGLang 등의 추론 서버용 배포용 체크포인트를 만드는 프로젝트</title>
       <link>https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai/11688">PyTorch Korea</source>
       <guid isPermaLink="false">bd41138f8b28aadf636280bb6a5f57f1</guid>
-    </item>
-    <item>
-      <title>강화학습으로 양자 오류 정정(QEC)을 제어하는 연구: Willow에서 계산을 멈추지 않는 실시간 보정</title>
-      <link>https://discuss.pytorch.kr/t/qec-willow/11639</link>
-      <description>강화학습 기반 양자 오류 정정 제어 연구 소개 오케스트라가 연주 도중 몇 마디마다 멈춰 악기를 다시 조율해야 한다면 어떤 공연이 될까요. 오늘날 양자 컴퓨터를 운용하는 방식이 이와 비슷합니다.</description>
-      <pubDate>Sat, 22 Aug 2026 14:00:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/qec-willow/11639">PyTorch Korea</source>
-      <guid isPermaLink="false">9501fdaea3796f8b1359280663c750ef</guid>
     </item>
   </channel>
 </rss>
