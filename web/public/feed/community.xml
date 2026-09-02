@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 17:31:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 22:21:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>x64dbg-MCP Server: 런타임 설치 없이 x64dbg를 AI 어시스턴트에 연결하는 Zig 기반 플러그인</title>
+      <link>https://discuss.pytorch.kr/t/x64dbg-mcp-server-x64dbg-ai-zig/11766</link>
+      <description>x64dbg-MCP Server 소개 바이너리를 분석하는 작업은 대부분 손이 많이 가는 반복으로 채워집니다. 진입점에 중단점을 걸고, 몇 개의 명령을 넘기고, 레지스터를 확인하고, 특정 주소의 메모리를 덤프하고, 다시 실행합니다.</description>
+      <pubDate>Wed, 02 Sep 2026 21:00:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/x64dbg-mcp-server-x64dbg-ai-zig/11766">PyTorch Korea</source>
+      <guid isPermaLink="false">ab88457911e377fce7496d652c674154</guid>
+    </item>
+    <item>
+      <title>Amagine3D: 설명과 치수를 주면 수정 가능한 CAD 소스로 하드웨어 케이스를 설계하는 에이전트 프로젝트</title>
+      <link>https://discuss.pytorch.kr/t/amagine3d-cad/11784</link>
+      <description>Amagine3D 소개 이미지 한 장으로 3D 모델을 만드는 도구는 이제 여러 갈래로 나와 있습니다. 다만 그렇게 나온 결과물은 대부분 메시(Mesh), 즉 삼각형 표면의 덩어리입니다. 감상하거나 게임에 넣기에는 충분한데, 실제로 만들 물건의 케이스로 쓰려면 곤란해집니다.</description>
+      <pubDate>Wed, 02 Sep 2026 18:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/amagine3d-cad/11784">PyTorch Korea</source>
+      <guid isPermaLink="false">4b5faed02e9044dbdb7c388dc91f4ae9</guid>
+    </item>
     <item>
       <title>Sentence Transformers로 도메인 특화 멀티 벡터 검색 모델 미세조정하기, GPU 한 장에 14.5시간</title>
       <link>https://discuss.pytorch.kr/t/sentence-transformers-gpu-14-5/11791</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ip-as-logo-ip/11687">PyTorch Korea</source>
       <guid isPermaLink="false">159788fb31e199f786243d70ba91db67</guid>
-    </item>
-    <item>
-      <title>TrueForge: 모델 호출부터 샌드박스, 채팅 UI까지 에이전트 실행 루프를 통째로 제공하는 오픈소스 하네스</title>
-      <link>https://discuss.pytorch.kr/t/trueforge-ui/11685</link>
-      <description>TrueForge 소개 LLM으로 에이전트 프로토타입을 만드는 일은 이제 어렵지 않지만, 그것을 실제 서비스로 운영하는 일은 여전히 다른 차원의 문제입니다.</description>
-      <pubDate>Sat, 22 Aug 2026 19:30:18 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/trueforge-ui/11685">PyTorch Korea</source>
-      <guid isPermaLink="false">f026819462d666b200b2a47707195e97</guid>
-    </item>
-    <item>
-      <title>AI 신약 후보 물질 발견을 위한 '예측 도구(능력)' 평가 리더보드 허깅페이스에 공개</title>
-      <link>https://discuss.pytorch.kr/t/ai/11688</link>
-      <description>분할 방식만 바꿨더니 AUROC가 0.21 움직였습니다 — 신약 물성 예측 벤치마크 LEADBOARD 공개 신약 물성 예측 도구를 재는 벤치마크를 만들어 공개했습니다. LEADBOARD — 21개 보드, 홀드아웃 18,382 화합물, 라벨은 배포하지 않습니다. 기능 소개보다는, 만들면서 부딪힌 두 개의 숫자 를 공유하려고 합니다.</description>
-      <pubDate>Sat, 22 Aug 2026 19:21:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai/11688">PyTorch Korea</source>
-      <guid isPermaLink="false">bd41138f8b28aadf636280bb6a5f57f1</guid>
     </item>
   </channel>
 </rss>
