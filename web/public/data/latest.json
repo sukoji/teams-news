@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01T10:34:58.363734+09:00",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T09:47:01.321220+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,57 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "97f838f27d86ab94fcb499a677d48392",
+          "id": "27ff25979711032ee3ce13a89680cf3e",
           "index": 1,
-          "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "PonderPounce leverages native causal context in multimodal language models as robot episode memory, jointly training a reasoning System2 module and a fast System1 action model to improve long-horizon policy performance…",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://huggingface.co/papers/2608.24115",
+          "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+          "title_ko": "LightNav-0: 일반 구현 탐색을 위한 VLM 공간 인텔리전스 유도",
+          "summary": "LightNav-0 is a compact generalist navigation model that leverages a pretrained vision-language model’s spatial reasoning via unified pointing tokens and action tokenization to achieve state-of-the-art embodied navigati…",
+          "summary_ko": "LightNav-0은 통합 포인팅 토큰 및 작업 토큰화를 통해 사전 훈련된 비전 언어 모델의 공간 추론을 활용하여 최첨단 구현 탐색 기능을 달성하는 컴팩트한 일반 탐색 모델입니다.",
+          "url": "https://huggingface.co/papers/2608.30935",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-31T09:00:00+09:00",
-          "popularity": 30,
-          "upvotes": 11,
-          "score": 26.3,
-          "importance_score": 10.3,
+          "published_at": "2026-09-01T09:00:00+09:00",
+          "popularity": 306,
+          "upvotes": 24,
+          "score": 29.18,
+          "importance_score": 17.18,
           "matched_keywords": [
             "ai",
-            "llm",
             "rag",
-            "multimodal",
             "reasoning",
-            "training"
+            "vlm"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 11
+            "value": 24
           }
         },
         {
-          "id": "efcf8230a5dc4c595deb3466a426e348",
+          "id": "88ea76b8f415c9ecdeb29e1812755aff",
           "index": 2,
-          "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "VLAct improves vision-language-action model performance by pre-training on diverse robot data with preserved vision-language priors and shared action semantics, achieving strong results across simulations and unseen emb…",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://huggingface.co/papers/2608.27550",
+          "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+          "title_ko": "DreamX-Creator: 2K 해상도에서 네이티브 오디오-비디오 생성 민주화",
+          "summary": "A compact 7B native joint audio-video generator uses cross-modal attention, progressive joint training, reinforcement learning with multimodal feedback, and an autoregressive 2K refinement pipeline to produce synchroniz…",
+          "summary_ko": "소형 7B 기본 공동 오디오-비디오 생성기는 교차 모드 주의, 점진적 공동 훈련, 다중 모드 피드백을 통한 강화 학습 및 자동 회귀 2K 개선 파이프라인을 사용하여 동기화를 생성합니다.",
+          "url": "https://huggingface.co/papers/2608.31106",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-08-31T09:00:00+09:00",
-          "popularity": 3704,
-          "upvotes": 70,
-          "score": 26.0,
-          "importance_score": 18.0,
+          "published_at": "2026-09-01T09:00:00+09:00",
+          "popularity": 298,
+          "upvotes": 91,
+          "score": 29.1,
+          "importance_score": 17.1,
           "matched_keywords": [
             "ai",
+            "multimodal",
+            "reinforcement learning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 70
+            "value": 91
           }
         }
       ]
@@ -70,44 +70,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "18617dbef8ab6f1c3b0851d176758701",
+          "id": "eeca263c00ce184098a7ed02b5368173",
           "index": 3,
-          "title": "[8월31일] 엔비디아 피지컬 AI, ‘미래 전략’에서 사업으로…중국이 핵심 시장",
+          "title": "앤트로픽, 새 AI '페이블 5.1' 공개…미토스 접근권은 제한",
           "title_ko": null,
-          "summary": "엔비디아가 피지컬 AI를 강조하기 시작한 것은 최근 일이 아닙니다. 2023년부터 로봇 시뮬레이션 플랫폼 ‘아이작(Isaac)’과 ‘옴니버스(Omniverse)’를 앞세워 로봇을 가상공간에서 설계하고 훈련하는 기술을 선보였습니다.",
+          "summary": "앤트로픽이 신규 인공지능(AI) 모델 '클로드 페이블 5.1'과 '클로드 미토스 5.1'을 출시했다. 1일(현지시간) 공개된 페이블 5.1은 코딩과 지식 기반 업무를 아우르는 복잡한 다단계 에이전트 작업에서 최첨단 수준 지능을 제공한다. 기업 고객을 위한 비용 효율성을 개선하고 안전 분류기 정밀도를 높여 보다 정확한 안전장치를 제공하는 등 기존 '페이블5' 대비 성능을 뚜렷하게 향상시켰다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214642",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20260902000038",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-01T07:00:00+09:00",
+          "published_at": "2026-09-02T09:19:39+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.25,
-          "importance_score": 18.51,
+          "score": 22.91,
+          "importance_score": 19.81,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "0a0145784e9e2dd1ea2ae6f2d76ad5a1",
+          "id": "ad0c5b1f04ab9260a7b74b79195c9d25",
           "index": 4,
-          "title": "SKT, 에어 요금제 가입자에 유튜브프리미엄 1년 쏜다",
+          "title": "오픈AI, 차세대 모델 '아스트라' 곧 출시…사이버 보안 기능 일부 제한 예정",
           "title_ko": null,
-          "summary": "[지디넷코리아]SK텔레콤이 자급제 전용 통신 서비스 ‘에어(air)’ 회선 20만명 돌파를 맞아 신규 가입자에게 ‘유튜브 프리미엄 라이트’를 1년간 무료로 제공한다.SK텔레콤은 1내년 2월28일까지 에어 공식 앱과 홈페이지에서 ‘에어 X’ 요금제에 새로 가입하면 유튜브 프리미엄 라이트 무료 구독 프로모션을 진행한다고 밝혔다.",
+          "summary": "오픈AI가 자동화된 사이버 공격을 실행할 수 있다고 판단되는 차세대 인공지능(AI) 모델 '아스트라'의 최첨단 사이버 보안 기능을 일부 제한한 채 일반에 공개하기로 했다. 자사 AI 에이전트들이 통제를 벗어나 기업을 해킹하는 사건이 발생한 이후 보안을 강화하는 조치의 일환이다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260901085927",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260902000004",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-01T08:59:27+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-02T07:59:49+09:00",
+          "popularity": 97,
           "upvotes": 0,
-          "score": 19.67,
-          "importance_score": 19.34,
+          "score": 22.33,
+          "importance_score": 18.96,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         }
@@ -121,18 +123,18 @@
           "id": "4d5497599a9e72184abb6d2d440de3cc",
           "index": 5,
           "title": "Nanako0129/sepia — De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plug",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title_ko": "Nanako0129/sepia — 모든 Agent Skills 호환 에이전트(Skills CLI를 통해 77세 이상)를 위한 De-AI 쓰기 스킬, 기본 플러그 포함",
           "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary_ko": "Claude Code, Codex, Grok Build 및 Antigravity용 기본 플러그인이 포함된 모든 Agent Skills 호환 에이전트(Skills CLI를 통해 77개 이상)를 위한 De-AI 작성 스킬입니다.",
           "url": "https://github.com/Nanako0129/sepia",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-08-31T21:36:41+09:00",
-          "popularity": 1237,
-          "upvotes": 1237,
-          "score": 37.8,
-          "importance_score": 29.1,
+          "published_at": "2026-09-02T03:07:24+09:00",
+          "popularity": 1353,
+          "upvotes": 1353,
+          "score": 39.11,
+          "importance_score": 31.72,
           "matched_keywords": [
             "ai",
             "agent",
@@ -140,25 +142,25 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1237
+            "value": 1353
           }
         },
         {
           "id": "9aabe377afdba0a1bdd866ee36db3e87",
           "index": 6,
           "title": "JordyZomer/lemmalog — A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental deriv",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title_ko": "JordyZomer/lemmalog — LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생",
           "summary": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary_ko": "LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생 및 하네스를 공유 두뇌로 사용할 수 있는 MCP 서버입니다.",
           "url": "https://github.com/JordyZomer/lemmalog",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-01T07:47:49+09:00",
-          "popularity": 236,
-          "upvotes": 236,
-          "score": 37.56,
-          "importance_score": 27.98,
+          "published_at": "2026-09-02T04:48:24+09:00",
+          "popularity": 248,
+          "upvotes": 248,
+          "score": 37.27,
+          "importance_score": 27.24,
           "matched_keywords": [
             "ai",
             "llm",
@@ -167,7 +169,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 236
+            "value": 248
           }
         }
       ]
@@ -177,25 +179,26 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "b30ed6beb6bc85a55cc99593745c370a",
+          "id": "c4cfbaeb3d9dbe32b86e7bf2bd328b4f",
           "index": 7,
-          "title": "AI 에이전트들로 만든 외계 행성 문명 생성 시뮬레이션 공개",
+          "title": "NVIDIA Model Optimizer: 모델을 경량화하여 vLLM / TensorRT / SGLang 등의 추론 서버용 배포용 체크포인트를 만드는 프로젝트",
           "title_ko": null,
-          "summary": "문명은 창발했는가, 암송했는가 — 대조군으로 다시 본 멀티에이전트 \"창발\" VIDRAFT · CIVOS | 라이브 데모: VIDraft/ai-world (Hugging Face Space) | 원문(EN): huggingface.co/blog/FINAL-Bench/ai-world TL;DR 멀티에이전트 시뮬레이션에서 관측되는 \"사회·분업·문명의 창발\"은 **탐색(H1)**일 수도, LLM이…",
+          "summary": "NVIDIA Model Optimizer 소개 큰 언어 모델을 서비스에 올려 추론(Inference)을 수행하려는 팀이 가장 먼저 부딪히는 벽은 정확도가 아니라 메모리와 지연 시간입니다. BF16 그대로 올리면 GPU가 부족하고, 정확도를 조금 내주고 압축하기로 결정하면 이번에는 도구 선택 문제가 남습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/ai/11777",
+          "url": "https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-08-31T16:35:58+09:00",
-          "popularity": 96,
+          "published_at": "2026-09-02T09:30:15+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 21.85,
-          "importance_score": 12.11,
+          "score": 28.94,
+          "importance_score": 19.88,
           "matched_keywords": [
-            "ai",
             "llm",
-            "huggingface"
+            "추론",
+            "모델",
+            "inference"
           ],
           "engagement": null
         }
@@ -204,98 +207,100 @@
   ],
   "items": [
     {
-      "id": "97f838f27d86ab94fcb499a677d48392",
+      "id": "27ff25979711032ee3ce13a89680cf3e",
       "index": 1,
-      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "PonderPounce leverages native causal context in multimodal language models as robot episode memory, jointly training a reasoning System2 module and a fast System1 action model to improve long-horizon policy performance…",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://huggingface.co/papers/2608.24115",
+      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "title_ko": "LightNav-0: 일반 구현 탐색을 위한 VLM 공간 인텔리전스 유도",
+      "summary": "LightNav-0 is a compact generalist navigation model that leverages a pretrained vision-language model’s spatial reasoning via unified pointing tokens and action tokenization to achieve state-of-the-art embodied navigati…",
+      "summary_ko": "LightNav-0은 통합 포인팅 토큰 및 작업 토큰화를 통해 사전 훈련된 비전 언어 모델의 공간 추론을 활용하여 최첨단 구현 탐색 기능을 달성하는 컴팩트한 일반 탐색 모델입니다.",
+      "url": "https://huggingface.co/papers/2608.30935",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-31T09:00:00+09:00",
-      "popularity": 30,
-      "upvotes": 11,
-      "score": 26.3,
-      "importance_score": 10.3,
+      "published_at": "2026-09-01T09:00:00+09:00",
+      "popularity": 306,
+      "upvotes": 24,
+      "score": 29.18,
+      "importance_score": 17.18,
       "matched_keywords": [
         "ai",
-        "llm",
         "rag",
-        "multimodal",
         "reasoning",
-        "training"
+        "vlm"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 11
+        "value": 24
       }
     },
     {
-      "id": "efcf8230a5dc4c595deb3466a426e348",
+      "id": "88ea76b8f415c9ecdeb29e1812755aff",
       "index": 2,
-      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "VLAct improves vision-language-action model performance by pre-training on diverse robot data with preserved vision-language priors and shared action semantics, achieving strong results across simulations and unseen emb…",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://huggingface.co/papers/2608.27550",
+      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+      "title_ko": "DreamX-Creator: 2K 해상도에서 네이티브 오디오-비디오 생성 민주화",
+      "summary": "A compact 7B native joint audio-video generator uses cross-modal attention, progressive joint training, reinforcement learning with multimodal feedback, and an autoregressive 2K refinement pipeline to produce synchroniz…",
+      "summary_ko": "소형 7B 기본 공동 오디오-비디오 생성기는 교차 모드 주의, 점진적 공동 훈련, 다중 모드 피드백을 통한 강화 학습 및 자동 회귀 2K 개선 파이프라인을 사용하여 동기화를 생성합니다.",
+      "url": "https://huggingface.co/papers/2608.31106",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-08-31T09:00:00+09:00",
-      "popularity": 3704,
-      "upvotes": 70,
-      "score": 26.0,
-      "importance_score": 18.0,
+      "published_at": "2026-09-01T09:00:00+09:00",
+      "popularity": 298,
+      "upvotes": 91,
+      "score": 29.1,
+      "importance_score": 17.1,
       "matched_keywords": [
         "ai",
+        "multimodal",
+        "reinforcement learning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 70
+        "value": 91
       }
     },
     {
-      "id": "18617dbef8ab6f1c3b0851d176758701",
+      "id": "eeca263c00ce184098a7ed02b5368173",
       "index": 3,
-      "title": "[8월31일] 엔비디아 피지컬 AI, ‘미래 전략’에서 사업으로…중국이 핵심 시장",
+      "title": "앤트로픽, 새 AI '페이블 5.1' 공개…미토스 접근권은 제한",
       "title_ko": null,
-      "summary": "엔비디아가 피지컬 AI를 강조하기 시작한 것은 최근 일이 아닙니다. 2023년부터 로봇 시뮬레이션 플랫폼 ‘아이작(Isaac)’과 ‘옴니버스(Omniverse)’를 앞세워 로봇을 가상공간에서 설계하고 훈련하는 기술을 선보였습니다.",
+      "summary": "앤트로픽이 신규 인공지능(AI) 모델 '클로드 페이블 5.1'과 '클로드 미토스 5.1'을 출시했다. 1일(현지시간) 공개된 페이블 5.1은 코딩과 지식 기반 업무를 아우르는 복잡한 다단계 에이전트 작업에서 최첨단 수준 지능을 제공한다. 기업 고객을 위한 비용 효율성을 개선하고 안전 분류기 정밀도를 높여 보다 정확한 안전장치를 제공하는 등 기존 '페이블5' 대비 성능을 뚜렷하게 향상시켰다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214642",
-      "source": "AI Times",
+      "url": "https://www.etnews.com/20260902000038",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-01T07:00:00+09:00",
+      "published_at": "2026-09-02T09:19:39+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.25,
-      "importance_score": 18.51,
+      "score": 22.91,
+      "importance_score": 19.81,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "0a0145784e9e2dd1ea2ae6f2d76ad5a1",
+      "id": "ad0c5b1f04ab9260a7b74b79195c9d25",
       "index": 4,
-      "title": "SKT, 에어 요금제 가입자에 유튜브프리미엄 1년 쏜다",
+      "title": "오픈AI, 차세대 모델 '아스트라' 곧 출시…사이버 보안 기능 일부 제한 예정",
       "title_ko": null,
-      "summary": "[지디넷코리아]SK텔레콤이 자급제 전용 통신 서비스 ‘에어(air)’ 회선 20만명 돌파를 맞아 신규 가입자에게 ‘유튜브 프리미엄 라이트’를 1년간 무료로 제공한다.SK텔레콤은 1내년 2월28일까지 에어 공식 앱과 홈페이지에서 ‘에어 X’ 요금제에 새로 가입하면 유튜브 프리미엄 라이트 무료 구독 프로모션을 진행한다고 밝혔다.",
+      "summary": "오픈AI가 자동화된 사이버 공격을 실행할 수 있다고 판단되는 차세대 인공지능(AI) 모델 '아스트라'의 최첨단 사이버 보안 기능을 일부 제한한 채 일반에 공개하기로 했다. 자사 AI 에이전트들이 통제를 벗어나 기업을 해킹하는 사건이 발생한 이후 보안을 강화하는 조치의 일환이다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260901085927",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20260902000004",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-01T08:59:27+09:00",
-      "popularity": 100,
+      "published_at": "2026-09-02T07:59:49+09:00",
+      "popularity": 97,
       "upvotes": 0,
-      "score": 19.67,
-      "importance_score": 19.34,
+      "score": 22.33,
+      "importance_score": 18.96,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
@@ -303,18 +308,18 @@
       "id": "4d5497599a9e72184abb6d2d440de3cc",
       "index": 5,
       "title": "Nanako0129/sepia — De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plug",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_ko": "Nanako0129/sepia — 모든 Agent Skills 호환 에이전트(Skills CLI를 통해 77세 이상)를 위한 De-AI 쓰기 스킬, 기본 플러그 포함",
       "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary_ko": "Claude Code, Codex, Grok Build 및 Antigravity용 기본 플러그인이 포함된 모든 Agent Skills 호환 에이전트(Skills CLI를 통해 77개 이상)를 위한 De-AI 작성 스킬입니다.",
       "url": "https://github.com/Nanako0129/sepia",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-08-31T21:36:41+09:00",
-      "popularity": 1237,
-      "upvotes": 1237,
-      "score": 37.8,
-      "importance_score": 29.1,
+      "published_at": "2026-09-02T03:07:24+09:00",
+      "popularity": 1353,
+      "upvotes": 1353,
+      "score": 39.11,
+      "importance_score": 31.72,
       "matched_keywords": [
         "ai",
         "agent",
@@ -322,25 +327,25 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 1237
+        "value": 1353
       }
     },
     {
       "id": "9aabe377afdba0a1bdd866ee36db3e87",
       "index": 6,
       "title": "JordyZomer/lemmalog — A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental deriv",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_ko": "JordyZomer/lemmalog — LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생",
       "summary": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary_ko": "LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생 및 하네스를 공유 두뇌로 사용할 수 있는 MCP 서버입니다.",
       "url": "https://github.com/JordyZomer/lemmalog",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-01T07:47:49+09:00",
-      "popularity": 236,
-      "upvotes": 236,
-      "score": 37.56,
-      "importance_score": 27.98,
+      "published_at": "2026-09-02T04:48:24+09:00",
+      "popularity": 248,
+      "upvotes": 248,
+      "score": 37.27,
+      "importance_score": 27.24,
       "matched_keywords": [
         "ai",
         "llm",
@@ -349,29 +354,30 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 236
+        "value": 248
       }
     },
     {
-      "id": "b30ed6beb6bc85a55cc99593745c370a",
+      "id": "c4cfbaeb3d9dbe32b86e7bf2bd328b4f",
       "index": 7,
-      "title": "AI 에이전트들로 만든 외계 행성 문명 생성 시뮬레이션 공개",
+      "title": "NVIDIA Model Optimizer: 모델을 경량화하여 vLLM / TensorRT / SGLang 등의 추론 서버용 배포용 체크포인트를 만드는 프로젝트",
       "title_ko": null,
-      "summary": "문명은 창발했는가, 암송했는가 — 대조군으로 다시 본 멀티에이전트 \"창발\" VIDRAFT · CIVOS | 라이브 데모: VIDraft/ai-world (Hugging Face Space) | 원문(EN): huggingface.co/blog/FINAL-Bench/ai-world TL;DR 멀티에이전트 시뮬레이션에서 관측되는 \"사회·분업·문명의 창발\"은 **탐색(H1)**일 수도, LLM이…",
+      "summary": "NVIDIA Model Optimizer 소개 큰 언어 모델을 서비스에 올려 추론(Inference)을 수행하려는 팀이 가장 먼저 부딪히는 벽은 정확도가 아니라 메모리와 지연 시간입니다. BF16 그대로 올리면 GPU가 부족하고, 정확도를 조금 내주고 압축하기로 결정하면 이번에는 도구 선택 문제가 남습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/ai/11777",
+      "url": "https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-08-31T16:35:58+09:00",
-      "popularity": 96,
+      "published_at": "2026-09-02T09:30:15+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 21.85,
-      "importance_score": 12.11,
+      "score": 28.94,
+      "importance_score": 19.88,
       "matched_keywords": [
-        "ai",
         "llm",
-        "huggingface"
+        "추론",
+        "모델",
+        "inference"
       ],
       "engagement": null
     }
