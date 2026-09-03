@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 04 Sep 2026 05:39:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 08:02:31 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Auto-BenchMax: 벤치마크와 같은 분포로 데이터를 합성해 MCP-Atlas 점수를 2배로 올린 파이프라인</title>
+      <link>https://discuss.pytorch.kr/t/auto-benchmax-mcp-atlas-2/11805</link>
+      <description>Auto-BenchMax 소개 도구를 호출하는 에이전트를 학습시킬 때 가장 먼저 막히는 것은 데이터입니다. 벤치마크가 제공하는 과제는 보통 수십 개 수준이고, 이 정도로는 지도 미세조정(SFT, Supervised Fine-Tuning)을 돌릴 분량이 나오지 않습니다. 그래서 비슷한 과제를 합성해 수를 불리는데, 도구 호출 과제는 일반적인 질의응답 데이터와 사정이 다릅니다.</description>
+      <pubDate>Fri, 04 Sep 2026 07:00:53 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/auto-benchmax-mcp-atlas-2/11805">PyTorch Korea</source>
+      <guid isPermaLink="false">de47088f76dec59202153e4a8ff9a9a2</guid>
+    </item>
     <item>
       <title>Agent Behavior: 스킬과 달리 런타임 프롬프트가 아니라 트레이스 검토용으로 쓰는 에이전트 행동 표준</title>
       <link>https://discuss.pytorch.kr/t/agent-behavior/11800</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/dsh-routing-suite-deepseek-harness/11655">PyTorch Korea</source>
       <guid isPermaLink="false">17df62487ef1866b3a5fd0e727accd7f</guid>
-    </item>
-    <item>
-      <title>OpenBot: 에이전트마다 전용 컴퓨터를 주고 모든 도구 호출을 정책으로 심사하는 자체 호스팅 플랫폼</title>
-      <link>https://discuss.pytorch.kr/t/openbot/11692</link>
-      <description>OpenBot 소개 AI 에이전트에게 실제 업무를 맡기려면 결국 권한을 줘야 합니다. 사내 위키를 읽게 하려면 계정이 필요하고, 웹 콘솔에서 무언가를 처리하게 하려면 로그인된 브라우저가 필요합니다. 문제는 그 다음입니다.</description>
-      <pubDate>Mon, 24 Aug 2026 15:30:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openbot/11692">PyTorch Korea</source>
-      <guid isPermaLink="false">bc40f1a8e026bdc0dcfe854ee701ecd2</guid>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 04 Sep 2026 05:39:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 08:02:31 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>희소 판독 프리즘: 토큰 대신 기능의 Logit-Lens 점수 설명</title>
+      <link>https://huggingface.co/papers/2609.01936</link>
+      <description>희소 판독 프리즘은 언어 모델 판독을 희소 기능으로 분해하여 코퍼스 종속 렌즈 아티팩트로부터 판독 구조를 분리합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01936">Hugging Face Papers</source>
+      <guid isPermaLink="false">b974335160bcf7bf21968ded5216d61c</guid>
+    </item>
+    <item>
+      <title>대화형 추천 시스템을 위한 제로 데이터 부트스트래핑에 관한 실증적 연구</title>
+      <link>https://huggingface.co/papers/2504.15476</link>
+      <description>비대화 도메인 신호는 대화형 추천 시스템 부트스트래핑을 위한 제로샷 및 부족한 실제 데이터 기준을 능가하는 합성 대화 데이터를 생성할 수 있습니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2504.15476">Hugging Face Papers</source>
+      <guid isPermaLink="false">66c752c46413be8a0c05ab69abdcfa31</guid>
+    </item>
     <item>
       <title>루브릭 기반 강화 학습을 위한 심사위원으로서의 소규모 언어 모델</title>
       <link>https://huggingface.co/papers/2608.30005</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.01404">Hugging Face Papers</source>
       <guid isPermaLink="false">fc52b26b7d48f62e02c2280ff2308bca</guid>
-    </item>
-    <item>
-      <title>SMELT: 계산 일치 MoE 루프 변압기에 대한 확장 법칙</title>
-      <link>https://huggingface.co/papers/2609.01343</link>
-      <description>희소 전문가 혼합 변환기에서 중간 계층을 반복하면 토큰별 FLOP, 매개변수 및 캐시 예산을 일치시키는 동시에 훈련 효율성과 다운스트림 성능이 향상됩니다.</description>
-      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.01343">Hugging Face Papers</source>
-      <guid isPermaLink="false">85ebf516150e22be060a611f5e4446e6</guid>
-    </item>
-    <item>
-      <title>UI-Venus-2 기술 보고서</title>
-      <link>https://huggingface.co/papers/2609.00028</link>
-      <description>UI-Venus-2는 통합된 추론-행동 루프, 확장된 환경 적용 범위 및 강력한 검증을 사용하여 안정적인 실제 디지털 자동화를 가능하게 하는 범용 다중 모드 GUI 에이전트입니다.</description>
-      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.00028">Hugging Face Papers</source>
-      <guid isPermaLink="false">0b8925211e6116acfa8c0f66126a647e</guid>
     </item>
   </channel>
 </rss>
