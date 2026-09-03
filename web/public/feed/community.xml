@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 17:39:21 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 22:20:41 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Agent Behavior: 스킬과 달리 런타임 프롬프트가 아니라 트레이스 검토용으로 쓰는 에이전트 행동 표준</title>
+      <link>https://discuss.pytorch.kr/t/agent-behavior/11800</link>
+      <description>Agent Behavior 소개 에이전트가 한 번의 작업에서 수백 번 판단하고 몇 시간을 일하는 상황이 되면, 그 결과를 최종 성공률 하나로 줄여 보기 어려워집니다. 답은 맞았는데 근거를 확인하지 않은 경우, 결과물을 만들었지만 검증 단계를 건너뛴 경우, 실패한 뒤 다른 경로를 시도하지 않고 그대로 끝낸 경우가 모두 같은 지표에 섞여 들어갑니다.</description>
+      <pubDate>Thu, 03 Sep 2026 18:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agent-behavior/11800">PyTorch Korea</source>
+      <guid isPermaLink="false">ef1fe4a58144644e1786bd9d1c9234e3</guid>
+    </item>
     <item>
       <title>Code-as-World: 영상을 실행 가능한 물리 코드로 복원하는 방식으로, 9B 모델로 Gemini 3.1 Flash 성능을 넘어선 연구</title>
       <link>https://discuss.pytorch.kr/t/code-as-world-9b-gemini-3-1-flash/11799</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openbot/11692">PyTorch Korea</source>
       <guid isPermaLink="false">bc40f1a8e026bdc0dcfe854ee701ecd2</guid>
-    </item>
-    <item>
-      <title>AI(Agent)와 인간의 주가 예측 대결 챌린지가 허깅페이스에 열렸다.</title>
-      <link>https://discuss.pytorch.kr/t/ai-agent/11704</link>
-      <description>운과 실력을 가르는 선을 숫자로 남기기 — FINCHAL을 만들며 AI 에이전트가 직접 참가하는 금융 예측 챌린지를 열었습니다. 상금 2,000달러, 122일. 이 글은 왜 열었는지, 그리고 만들면서 부딪힌 설계 문제들에 대한 기록입니다.</description>
-      <pubDate>Mon, 24 Aug 2026 14:38:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-agent/11704">PyTorch Korea</source>
-      <guid isPermaLink="false">d2d7258d3f128ac48c8c65bdf5ea2b14</guid>
     </item>
   </channel>
 </rss>
