@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 12:26:24 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 17:39:21 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Code-as-World: 영상을 실행 가능한 물리 코드로 복원하는 방식으로, 9B 모델로 Gemini 3.1 Flash 성능을 넘어선 연구</title>
+      <link>https://discuss.pytorch.kr/t/code-as-world-9b-gemini-3-1-flash/11799</link>
+      <description>Code-as-World 소개 비전 언어 모델(Vision-Language Model, VLM)에게 공이 경사면을 굴러 내려가는 영상을 보여주고 무슨 일이 일어났는지 물으면 대체로 잘 설명합니다. 그런데 "공이 경사면을 벗어나는 순간의 속도가 몇 m/s인가"를 물으면 답이 크게 흔들립니다. 사건을 알아보는 능력과 그 사건을 만든 물리량을 복원하는 능력이 다르기 때문입니다.</description>
+      <pubDate>Thu, 03 Sep 2026 15:30:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/code-as-world-9b-gemini-3-1-flash/11799">PyTorch Korea</source>
+      <guid isPermaLink="false">052e27789f96cab8bb1b17ceca2bb700</guid>
+    </item>
+    <item>
+      <title>Path to Astra, OpenAI의 Critical 사이버보안 임계선을 넘은 첫 모델 Astra에 대한 발표</title>
+      <link>https://discuss.pytorch.kr/t/path-to-astra-openai-critical-astra/11796</link>
+      <description>Astra의 Critical 사이버보안 역량 판정 개요 잘 관리되는 브라우저에서 알려지지 않은 취약점 하나를 찾아내는 일은 숙련된 보안 연구자에게도 몇 주가 걸리는 작업입니다. 찾아낸 결함을 실제로 호스트에서 명령이 실행되는 지점까지 이어 붙이는 일, 그러니까 익스플로잇 체인을 완성하는 일은 다시 그만큼의 시간을 잡아먹습니다.</description>
+      <pubDate>Thu, 03 Sep 2026 12:30:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/path-to-astra-openai-critical-astra/11796">PyTorch Korea</source>
+      <guid isPermaLink="false">c14d815122ff2d443bee017784009f2d</guid>
+    </item>
     <item>
       <title>AgentHands: LLM 응답에 손동작 이벤트를 더하는 확장 현실(XR) 대화 에이전트에 대한 연구</title>
       <link>https://discuss.pytorch.kr/t/agenthands-llm-xr/11792</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai-agent/11704">PyTorch Korea</source>
       <guid isPermaLink="false">d2d7258d3f128ac48c8c65bdf5ea2b14</guid>
-    </item>
-    <item>
-      <title>ADR(Agentic AI Detection and Response): 사내 코딩 에이전트의 활동을 기록해 위협을 탐지하는 Uber의 에이전트 보안 시스템</title>
-      <link>https://discuss.pytorch.kr/t/adr-agentic-ai-detection-and-response-uber/11691</link>
-      <description>ADR 소개 회사 노트북에서 Claude Code , Cursor , Codex CLI 같은 코딩 에이전트가 동작하기 시작하면 보안팀의 모니터링이 힘들어지기 시작합니다.</description>
-      <pubDate>Mon, 24 Aug 2026 12:30:34 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/adr-agentic-ai-detection-and-response-uber/11691">PyTorch Korea</source>
-      <guid isPermaLink="false">94bea07907b4957ecf45b79d47806789</guid>
-    </item>
-    <item>
-      <title>LingBot-World 2.0: 720p 60fps 실시간으로 끝없이 조작 가능한 세계를 생성하는 14B 월드 모델</title>
-      <link>https://discuss.pytorch.kr/t/lingbot-world-2-0-720p-60fps-14b/11693</link>
-      <description>LingBot-World 2.0 소개 인터랙티브 월드 모델(Interactive World Model)은 사용자의 조작에 반응해 다음 화면을 한 프레임씩 만들어내는 생성 모델입니다. 게임 엔진처럼 미리 만들어 둔 3D 자산을 렌더링하는 것이 아니라 화면 자체를 생성하기 때문에 어떤 장면이든 만들 수 있지만, 대신 두 가지 벽에 부딪힙니다. 하나는 길이입니다.</description>
-      <pubDate>Mon, 24 Aug 2026 09:30:29 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/lingbot-world-2-0-720p-60fps-14b/11693">PyTorch Korea</source>
-      <guid isPermaLink="false">3658021518b4fe042006124de89676ab</guid>
     </item>
   </channel>
 </rss>
