@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-02",
-  "generated_at": "2026-09-02T09:47:01.321220+09:00",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T09:55:01.317985+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,57 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "27ff25979711032ee3ce13a89680cf3e",
+          "id": "bd6821bbc4c7884955adb69f21749ff0",
           "index": 1,
-          "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
-          "title_ko": "LightNav-0: 일반 구현 탐색을 위한 VLM 공간 인텔리전스 유도",
-          "summary": "LightNav-0 is a compact generalist navigation model that leverages a pretrained vision-language model’s spatial reasoning via unified pointing tokens and action tokenization to achieve state-of-the-art embodied navigati…",
-          "summary_ko": "LightNav-0은 통합 포인팅 토큰 및 작업 토큰화를 통해 사전 훈련된 비전 언어 모델의 공간 추론을 활용하여 최첨단 구현 탐색 기능을 달성하는 컴팩트한 일반 탐색 모델입니다.",
-          "url": "https://huggingface.co/papers/2608.30935",
+          "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+          "title_ko": "Qwen-Drive-1.0: 자율 주행을 위한 비전 언어 기반 모델을 향한 첫 단계",
+          "summary": "Qwen-Drive-1.0 is a vision-language foundation model for autonomous driving that unifies 3D perception, visual question answering, and motion planning via shared representations and staged training.",
+          "summary_ko": "Qwen-Drive-1.0은 공유 표현과 단계적 훈련을 통해 3D 인식, 시각적 질문 응답, 동작 계획을 통합하는 자율 주행을 위한 비전 언어 기반 모델입니다.",
+          "url": "https://huggingface.co/papers/2609.00111",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-01T09:00:00+09:00",
-          "popularity": 306,
-          "upvotes": 24,
-          "score": 29.18,
-          "importance_score": 17.18,
+          "published_at": "2026-09-02T09:00:00+09:00",
+          "popularity": 693,
+          "upvotes": 339,
+          "score": 28.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "rag",
-            "reasoning",
-            "vlm"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 24
-          }
-        },
-        {
-          "id": "88ea76b8f415c9ecdeb29e1812755aff",
-          "index": 2,
-          "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
-          "title_ko": "DreamX-Creator: 2K 해상도에서 네이티브 오디오-비디오 생성 민주화",
-          "summary": "A compact 7B native joint audio-video generator uses cross-modal attention, progressive joint training, reinforcement learning with multimodal feedback, and an autoregressive 2K refinement pipeline to produce synchroniz…",
-          "summary_ko": "소형 7B 기본 공동 오디오-비디오 생성기는 교차 모드 주의, 점진적 공동 훈련, 다중 모드 피드백을 통한 강화 학습 및 자동 회귀 2K 개선 파이프라인을 사용하여 동기화를 생성합니다.",
-          "url": "https://huggingface.co/papers/2608.31106",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-09-01T09:00:00+09:00",
-          "popularity": 298,
-          "upvotes": 91,
-          "score": 29.1,
-          "importance_score": 17.1,
-          "matched_keywords": [
-            "ai",
-            "multimodal",
-            "reinforcement learning",
+            "foundation model",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 91
+            "value": 339
+          }
+        },
+        {
+          "id": "62b55a0dc46789f770e68a35150abeab",
+          "index": 2,
+          "title": "StudentSim: Training LLM-based Student Simulators",
+          "title_ko": "StudentSim: LLM 기반 학생 시뮬레이터 교육",
+          "summary": "StudentSim trains personalized student simulators from sparse data to mirror learner responses and adapt to tutor guidance, outperforming existing models across chess, writing, and math.",
+          "summary_ko": "StudentSim은 희소 데이터를 바탕으로 개인화된 학생 시뮬레이터를 교육하여 학습자의 반응을 반영하고 교사 지도에 적응함으로써 체스, 작문, 수학 전반에서 기존 모델보다 뛰어난 성능을 발휘합니다.",
+          "url": "https://huggingface.co/papers/2609.01591",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-09-02T09:00:00+09:00",
+          "popularity": 948,
+          "upvotes": 464,
+          "score": 28.0,
+          "importance_score": 18.0,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 464
           }
         }
       ]
@@ -70,46 +68,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "eeca263c00ce184098a7ed02b5368173",
+          "id": "79bf82829157ba554f57b02cd72733d7",
           "index": 3,
-          "title": "앤트로픽, 새 AI '페이블 5.1' 공개…미토스 접근권은 제한",
+          "title": "오픈AI, 캐나다 학교 총기난사 관련 추가 피소",
           "title_ko": null,
-          "summary": "앤트로픽이 신규 인공지능(AI) 모델 '클로드 페이블 5.1'과 '클로드 미토스 5.1'을 출시했다. 1일(현지시간) 공개된 페이블 5.1은 코딩과 지식 기반 업무를 아우르는 복잡한 다단계 에이전트 작업에서 최첨단 수준 지능을 제공한다. 기업 고객을 위한 비용 효율성을 개선하고 안전 분류기 정밀도를 높여 보다 정확한 안전장치를 제공하는 등 기존 '페이블5' 대비 성능을 뚜렷하게 향상시켰다.",
+          "summary": "챗GPT 개발사 오픈AI가 지난 2월 캐나다 텀블러리지 학교에서 발생한 총기 난사 사건과 관련해 추가 소송을 당했다. 블룸버그통신은 2일(현지시간) 사건 현장에 있던 학생과 교장, 교사 등이 오픈AI와 샘 올트먼 최고경영자(CEO)를 상대로 미국 캘리포니아주 북부연방지방법원에 소송을 제기했다고 보도했다. 지난 2월 발생한 이 사건으로 8명이 숨지고 27명이 다쳤다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260902000038",
+          "url": "https://www.etnews.com/20260903000011",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-02T09:19:39+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-03T08:45:41+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.91,
-          "importance_score": 19.81,
+          "score": 22.66,
+          "importance_score": 19.42,
           "matched_keywords": [
             "ai",
-            "모델"
+            "gpt"
           ],
           "engagement": null
         },
         {
-          "id": "ad0c5b1f04ab9260a7b74b79195c9d25",
+          "id": "127741820917e8ca77f90f54a3258a85",
           "index": 4,
-          "title": "오픈AI, 차세대 모델 '아스트라' 곧 출시…사이버 보안 기능 일부 제한 예정",
+          "title": "삼성중공업, 미래선박 R&D '투트랙'…AI부터 차세대 연료까지",
           "title_ko": null,
-          "summary": "오픈AI가 자동화된 사이버 공격을 실행할 수 있다고 판단되는 차세대 인공지능(AI) 모델 '아스트라'의 최첨단 사이버 보안 기능을 일부 제한한 채 일반에 공개하기로 했다. 자사 AI 에이전트들이 통제를 벗어나 기업을 해킹하는 사건이 발생한 이후 보안을 강화하는 조치의 일환이다.",
+          "summary": "[지디넷코리아]삼성중공업이 서울대와 조선해양 원천기술 및 차세대 에너지 기술을 연구하는 협력센터 설립을 추진한다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260902000004",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20260903085030",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-02T07:59:49+09:00",
-          "popularity": 97,
+          "published_at": "2026-09-03T08:50:30+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.33,
-          "importance_score": 18.96,
+          "score": 22.68,
+          "importance_score": 19.45,
           "matched_keywords": [
             "ai",
-            "모델"
+            "연구"
           ],
           "engagement": null
         }
@@ -130,11 +128,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-02T03:07:24+09:00",
-          "popularity": 1353,
-          "upvotes": 1353,
-          "score": 39.11,
-          "importance_score": 31.72,
+          "published_at": "2026-09-03T04:38:16+09:00",
+          "popularity": 1573,
+          "upvotes": 1573,
+          "score": 39.4,
+          "importance_score": 32.3,
           "matched_keywords": [
             "ai",
             "agent",
@@ -142,34 +140,32 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1353
+            "value": 1573
           }
         },
         {
-          "id": "9aabe377afdba0a1bdd866ee36db3e87",
+          "id": "85fab472a605296c53c5a8157fffc024",
           "index": 6,
-          "title": "JordyZomer/lemmalog — A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental deriv",
-          "title_ko": "JordyZomer/lemmalog — LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생",
-          "summary": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-          "summary_ko": "LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생 및 하네스를 공유 두뇌로 사용할 수 있는 MCP 서버입니다.",
-          "url": "https://github.com/JordyZomer/lemmalog",
+          "title": "useagenthq/useagent — The open-source AI coworker for your team: agents with their own cloud computer, your tools and cont",
+          "title_ko": "useagenthq/useagent — 팀을 위한 오픈 소스 AI 동료: 자체 클라우드 컴퓨터, 도구 및 콘텐츠를 갖춘 에이전트",
+          "summary": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs.",
+          "summary_ko": "팀을 위한 오픈 소스 AI 동료: 자체 클라우드 컴퓨터, 도구 및 컨텍스트를 갖춘 에이전트, 완료된 작업 웹 사이트, 데크, 스프레드시트, 보고서, PR을 돌려줍니다.",
+          "url": "https://github.com/useagenthq/useagent",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-02T04:48:24+09:00",
-          "popularity": 248,
-          "upvotes": 248,
-          "score": 37.27,
-          "importance_score": 27.24,
+          "published_at": "2026-09-01T03:37:06+09:00",
+          "popularity": 274,
+          "upvotes": 274,
+          "score": 27.66,
+          "importance_score": 19.66,
           "matched_keywords": [
             "ai",
-            "llm",
-            "agent",
-            "mcp"
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 248
+            "value": 274
           }
         }
       ]
@@ -179,26 +175,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "c4cfbaeb3d9dbe32b86e7bf2bd328b4f",
+          "id": "76ff5716f894d83c36b29eae37f67ed0",
           "index": 7,
-          "title": "NVIDIA Model Optimizer: 모델을 경량화하여 vLLM / TensorRT / SGLang 등의 추론 서버용 배포용 체크포인트를 만드는 프로젝트",
+          "title": "AgentHands: LLM 응답에 손동작 이벤트를 더하는 확장 현실(XR) 대화 에이전트에 대한 연구",
           "title_ko": null,
-          "summary": "NVIDIA Model Optimizer 소개 큰 언어 모델을 서비스에 올려 추론(Inference)을 수행하려는 팀이 가장 먼저 부딪히는 벽은 정확도가 아니라 메모리와 지연 시간입니다. BF16 그대로 올리면 GPU가 부족하고, 정확도를 조금 내주고 압축하기로 결정하면 이번에는 도구 선택 문제가 남습니다.",
+          "summary": "AgentHands 소개 말로 하는 공간 안내가 막히는 자리 주방에서 요리를 하다 누군가 \"왼쪽에 있는 기름 써\"라고 말했다고 해봅시다. 그런데 가스레인지 왼쪽에는 올리브유와 카놀라유가 나란히 놓여 있습니다. 손가락 하나만 들어 가리켰으면 끝났을 일입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782",
+          "url": "https://discuss.pytorch.kr/t/agenthands-llm-xr/11792",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-02T09:30:15+09:00",
+          "published_at": "2026-09-03T09:00:38+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 28.94,
-          "importance_score": 19.88,
+          "score": 25.81,
+          "importance_score": 19.62,
           "matched_keywords": [
             "llm",
-            "추론",
-            "모델",
-            "inference"
+            "agent",
+            "연구"
           ],
           "engagement": null
         }
@@ -207,100 +202,98 @@
   ],
   "items": [
     {
-      "id": "27ff25979711032ee3ce13a89680cf3e",
+      "id": "bd6821bbc4c7884955adb69f21749ff0",
       "index": 1,
-      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
-      "title_ko": "LightNav-0: 일반 구현 탐색을 위한 VLM 공간 인텔리전스 유도",
-      "summary": "LightNav-0 is a compact generalist navigation model that leverages a pretrained vision-language model’s spatial reasoning via unified pointing tokens and action tokenization to achieve state-of-the-art embodied navigati…",
-      "summary_ko": "LightNav-0은 통합 포인팅 토큰 및 작업 토큰화를 통해 사전 훈련된 비전 언어 모델의 공간 추론을 활용하여 최첨단 구현 탐색 기능을 달성하는 컴팩트한 일반 탐색 모델입니다.",
-      "url": "https://huggingface.co/papers/2608.30935",
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "title_ko": "Qwen-Drive-1.0: 자율 주행을 위한 비전 언어 기반 모델을 향한 첫 단계",
+      "summary": "Qwen-Drive-1.0 is a vision-language foundation model for autonomous driving that unifies 3D perception, visual question answering, and motion planning via shared representations and staged training.",
+      "summary_ko": "Qwen-Drive-1.0은 공유 표현과 단계적 훈련을 통해 3D 인식, 시각적 질문 응답, 동작 계획을 통합하는 자율 주행을 위한 비전 언어 기반 모델입니다.",
+      "url": "https://huggingface.co/papers/2609.00111",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-01T09:00:00+09:00",
-      "popularity": 306,
-      "upvotes": 24,
-      "score": 29.18,
-      "importance_score": 17.18,
+      "published_at": "2026-09-02T09:00:00+09:00",
+      "popularity": 693,
+      "upvotes": 339,
+      "score": 28.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
-        "rag",
-        "reasoning",
-        "vlm"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 24
-      }
-    },
-    {
-      "id": "88ea76b8f415c9ecdeb29e1812755aff",
-      "index": 2,
-      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
-      "title_ko": "DreamX-Creator: 2K 해상도에서 네이티브 오디오-비디오 생성 민주화",
-      "summary": "A compact 7B native joint audio-video generator uses cross-modal attention, progressive joint training, reinforcement learning with multimodal feedback, and an autoregressive 2K refinement pipeline to produce synchroniz…",
-      "summary_ko": "소형 7B 기본 공동 오디오-비디오 생성기는 교차 모드 주의, 점진적 공동 훈련, 다중 모드 피드백을 통한 강화 학습 및 자동 회귀 2K 개선 파이프라인을 사용하여 동기화를 생성합니다.",
-      "url": "https://huggingface.co/papers/2608.31106",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-01T09:00:00+09:00",
-      "popularity": 298,
-      "upvotes": 91,
-      "score": 29.1,
-      "importance_score": 17.1,
-      "matched_keywords": [
-        "ai",
-        "multimodal",
-        "reinforcement learning",
+        "foundation model",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 91
+        "value": 339
       }
     },
     {
-      "id": "eeca263c00ce184098a7ed02b5368173",
+      "id": "62b55a0dc46789f770e68a35150abeab",
+      "index": 2,
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "title_ko": "StudentSim: LLM 기반 학생 시뮬레이터 교육",
+      "summary": "StudentSim trains personalized student simulators from sparse data to mirror learner responses and adapt to tutor guidance, outperforming existing models across chess, writing, and math.",
+      "summary_ko": "StudentSim은 희소 데이터를 바탕으로 개인화된 학생 시뮬레이터를 교육하여 학습자의 반응을 반영하고 교사 지도에 적응함으로써 체스, 작문, 수학 전반에서 기존 모델보다 뛰어난 성능을 발휘합니다.",
+      "url": "https://huggingface.co/papers/2609.01591",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-02T09:00:00+09:00",
+      "popularity": 948,
+      "upvotes": 464,
+      "score": 28.0,
+      "importance_score": 18.0,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 464
+      }
+    },
+    {
+      "id": "79bf82829157ba554f57b02cd72733d7",
       "index": 3,
-      "title": "앤트로픽, 새 AI '페이블 5.1' 공개…미토스 접근권은 제한",
+      "title": "오픈AI, 캐나다 학교 총기난사 관련 추가 피소",
       "title_ko": null,
-      "summary": "앤트로픽이 신규 인공지능(AI) 모델 '클로드 페이블 5.1'과 '클로드 미토스 5.1'을 출시했다. 1일(현지시간) 공개된 페이블 5.1은 코딩과 지식 기반 업무를 아우르는 복잡한 다단계 에이전트 작업에서 최첨단 수준 지능을 제공한다. 기업 고객을 위한 비용 효율성을 개선하고 안전 분류기 정밀도를 높여 보다 정확한 안전장치를 제공하는 등 기존 '페이블5' 대비 성능을 뚜렷하게 향상시켰다.",
+      "summary": "챗GPT 개발사 오픈AI가 지난 2월 캐나다 텀블러리지 학교에서 발생한 총기 난사 사건과 관련해 추가 소송을 당했다. 블룸버그통신은 2일(현지시간) 사건 현장에 있던 학생과 교장, 교사 등이 오픈AI와 샘 올트먼 최고경영자(CEO)를 상대로 미국 캘리포니아주 북부연방지방법원에 소송을 제기했다고 보도했다. 지난 2월 발생한 이 사건으로 8명이 숨지고 27명이 다쳤다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260902000038",
+      "url": "https://www.etnews.com/20260903000011",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-02T09:19:39+09:00",
-      "popularity": 100,
+      "published_at": "2026-09-03T08:45:41+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.91,
-      "importance_score": 19.81,
+      "score": 22.66,
+      "importance_score": 19.42,
       "matched_keywords": [
         "ai",
-        "모델"
+        "gpt"
       ],
       "engagement": null
     },
     {
-      "id": "ad0c5b1f04ab9260a7b74b79195c9d25",
+      "id": "127741820917e8ca77f90f54a3258a85",
       "index": 4,
-      "title": "오픈AI, 차세대 모델 '아스트라' 곧 출시…사이버 보안 기능 일부 제한 예정",
+      "title": "삼성중공업, 미래선박 R&D '투트랙'…AI부터 차세대 연료까지",
       "title_ko": null,
-      "summary": "오픈AI가 자동화된 사이버 공격을 실행할 수 있다고 판단되는 차세대 인공지능(AI) 모델 '아스트라'의 최첨단 사이버 보안 기능을 일부 제한한 채 일반에 공개하기로 했다. 자사 AI 에이전트들이 통제를 벗어나 기업을 해킹하는 사건이 발생한 이후 보안을 강화하는 조치의 일환이다.",
+      "summary": "[지디넷코리아]삼성중공업이 서울대와 조선해양 원천기술 및 차세대 에너지 기술을 연구하는 협력센터 설립을 추진한다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260902000004",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20260903085030",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-02T07:59:49+09:00",
-      "popularity": 97,
+      "published_at": "2026-09-03T08:50:30+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.33,
-      "importance_score": 18.96,
+      "score": 22.68,
+      "importance_score": 19.45,
       "matched_keywords": [
         "ai",
-        "모델"
+        "연구"
       ],
       "engagement": null
     },
@@ -315,11 +308,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-02T03:07:24+09:00",
-      "popularity": 1353,
-      "upvotes": 1353,
-      "score": 39.11,
-      "importance_score": 31.72,
+      "published_at": "2026-09-03T04:38:16+09:00",
+      "popularity": 1573,
+      "upvotes": 1573,
+      "score": 39.4,
+      "importance_score": 32.3,
       "matched_keywords": [
         "ai",
         "agent",
@@ -327,57 +320,54 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 1353
+        "value": 1573
       }
     },
     {
-      "id": "9aabe377afdba0a1bdd866ee36db3e87",
+      "id": "85fab472a605296c53c5a8157fffc024",
       "index": 6,
-      "title": "JordyZomer/lemmalog — A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental deriv",
-      "title_ko": "JordyZomer/lemmalog — LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생",
-      "summary": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-      "summary_ko": "LLM 에이전트 메모리용 데이터로그 엔진: 계층화된 규칙, 출처 추적 사실, 증분 파생 및 하네스를 공유 두뇌로 사용할 수 있는 MCP 서버입니다.",
-      "url": "https://github.com/JordyZomer/lemmalog",
+      "title": "useagenthq/useagent — The open-source AI coworker for your team: agents with their own cloud computer, your tools and cont",
+      "title_ko": "useagenthq/useagent — 팀을 위한 오픈 소스 AI 동료: 자체 클라우드 컴퓨터, 도구 및 콘텐츠를 갖춘 에이전트",
+      "summary": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs.",
+      "summary_ko": "팀을 위한 오픈 소스 AI 동료: 자체 클라우드 컴퓨터, 도구 및 컨텍스트를 갖춘 에이전트, 완료된 작업 웹 사이트, 데크, 스프레드시트, 보고서, PR을 돌려줍니다.",
+      "url": "https://github.com/useagenthq/useagent",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-02T04:48:24+09:00",
-      "popularity": 248,
-      "upvotes": 248,
-      "score": 37.27,
-      "importance_score": 27.24,
+      "published_at": "2026-09-01T03:37:06+09:00",
+      "popularity": 274,
+      "upvotes": 274,
+      "score": 27.66,
+      "importance_score": 19.66,
       "matched_keywords": [
         "ai",
-        "llm",
-        "agent",
-        "mcp"
+        "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 248
+        "value": 274
       }
     },
     {
-      "id": "c4cfbaeb3d9dbe32b86e7bf2bd328b4f",
+      "id": "76ff5716f894d83c36b29eae37f67ed0",
       "index": 7,
-      "title": "NVIDIA Model Optimizer: 모델을 경량화하여 vLLM / TensorRT / SGLang 등의 추론 서버용 배포용 체크포인트를 만드는 프로젝트",
+      "title": "AgentHands: LLM 응답에 손동작 이벤트를 더하는 확장 현실(XR) 대화 에이전트에 대한 연구",
       "title_ko": null,
-      "summary": "NVIDIA Model Optimizer 소개 큰 언어 모델을 서비스에 올려 추론(Inference)을 수행하려는 팀이 가장 먼저 부딪히는 벽은 정확도가 아니라 메모리와 지연 시간입니다. BF16 그대로 올리면 GPU가 부족하고, 정확도를 조금 내주고 압축하기로 결정하면 이번에는 도구 선택 문제가 남습니다.",
+      "summary": "AgentHands 소개 말로 하는 공간 안내가 막히는 자리 주방에서 요리를 하다 누군가 \"왼쪽에 있는 기름 써\"라고 말했다고 해봅시다. 그런데 가스레인지 왼쪽에는 올리브유와 카놀라유가 나란히 놓여 있습니다. 손가락 하나만 들어 가리켰으면 끝났을 일입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782",
+      "url": "https://discuss.pytorch.kr/t/agenthands-llm-xr/11792",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-02T09:30:15+09:00",
+      "published_at": "2026-09-03T09:00:38+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 28.94,
-      "importance_score": 19.88,
+      "score": 25.81,
+      "importance_score": 19.62,
       "matched_keywords": [
         "llm",
-        "추론",
-        "모델",
-        "inference"
+        "agent",
+        "연구"
       ],
       "engagement": null
     }
