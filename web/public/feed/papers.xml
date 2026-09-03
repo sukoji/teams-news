@@ -5,9 +5,144 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 09:55:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 12:26:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>코딩 대회에서 금메달을 획득하기 위한 훈련 후 언어 모델</title>
+      <link>https://huggingface.co/papers/2609.02849</link>
+      <description>엄선된 문제, 종합 추론, 감독된 미세 조정 및 강화 학습을 결합한 전문화 파이프라인은 이를 사용하여 IOI 벤치마크에서 최고 인간 점수를 초과하는 경쟁력 있는 프로그래밍 모델을 훈련합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02849">Hugging Face Papers</source>
+      <guid isPermaLink="false">7bc8edaa4346d3dab5457996fcc4b874</guid>
+    </item>
+    <item>
+      <title>일치하려면 두 가지가 필요합니다: 강화 학습을 통해 공동 진화하는 생성적 리트리버</title>
+      <link>https://huggingface.co/papers/2609.00638</link>
+      <description>CoGR은 쿼리와 항목 모두에 대한 압축 키워드를 생성하도록 LLM을 교육하여 공동 진화 강화 학습을 통해 최적화된 직접 역색인 검색을 가능하게 합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.00638">Hugging Face Papers</source>
+      <guid isPermaLink="false">65c9f1d9bfe477eca27eea00bc2c0ba4</guid>
+    </item>
+    <item>
+      <title>SolarWM: 장거리 비디오 세계 모델을 위한 개방형 데이터 및 확장 가능한 교육</title>
+      <link>https://huggingface.co/papers/2609.02886</link>
+      <description>SolarWM은 다양한 데이터 소스와 생성기 백본에 걸쳐 대화형 비디오 세계 모델을 구축하기 위한 개방형 프레임워크와 통합 교육 레시피를 제공하여 장거리 실시간 출시를 가능하게 합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02886">Hugging Face Papers</source>
+      <guid isPermaLink="false">7cb4312bfee68a680eeae8e60c10505a</guid>
+    </item>
+    <item>
+      <title>Cliff: 첫 번째 실수로부터 학습 프로세스 보상</title>
+      <link>https://huggingface.co/papers/2609.02817</link>
+      <description>Cliff는 기성 언어 모델을 사용하여 첫 번째 추론 오류를 감지하고 이에 따라 토큰 수준 이점을 형성함으로써 검증 가능한 보상으로 강화 학습을 개선합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02817">Hugging Face Papers</source>
+      <guid isPermaLink="false">de9ab89cc2515aeb0cc04d649837b760</guid>
+    </item>
+    <item>
+      <title>픽셀 텍스트 표현 학습의 디자인 기초</title>
+      <link>https://huggingface.co/papers/2609.01147</link>
+      <description>Pixel Linguist II는 가변 해상도 훈련, 자연스러운 이미지-텍스트 접지, 레이아웃 인식 렌더링 및 다국어 커리큘럼을 통해 시각적 텍스트 인코딩을 개선하여 최첨단 결과와 강력한 비교를 달성합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01147">Hugging Face Papers</source>
+      <guid isPermaLink="false">584c200bdbdd679d25cabd115bff8f8c</guid>
+    </item>
+    <item>
+      <title>언어 모델은 자신의 주의를 통제할 수 있습니다</title>
+      <link>https://huggingface.co/papers/2609.02737</link>
+      <description>Declarative Attention을 사용하면 언어 모델이 추론 중에 관련 컨텍스트 영역을 선언하여 대부분의 KV 캐시 읽기를 건너뛰고 약간의 정확도 절충으로 유인 토큰을 줄일 수 있습니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02737">Hugging Face Papers</source>
+      <guid isPermaLink="false">b9c6445440f3a4a8bc808832dcc728aa</guid>
+    </item>
+    <item>
+      <title>EarlyEval: 조기 결과 예측을 통한 보다 저렴한 에이전트 평가</title>
+      <link>https://huggingface.co/papers/2609.02783</link>
+      <description>EarlyEval은 정확도 손실을 최소화하면서 실행을 조기에 중단함으로써 평가 비용을 줄이기 위해 중간 동작에서 에이전트 결과를 예측합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02783">Hugging Face Papers</source>
+      <guid isPermaLink="false">d12f53c0486dfbee51727eb56715f652</guid>
+    </item>
+    <item>
+      <title>PaperCompiler: 리포지토리 수준 사양 편집을 통한 충실한 종이-코드 생성</title>
+      <link>https://huggingface.co/papers/2609.02272</link>
+      <description>PaperCompiler는 연구 논문을 분석법 논리와 파일 간 일관성을 유지하는 구조화된 저장소 사양으로 변환하여 코드 충실도를 향상시키고 심각한 오류를 줄입니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02272">Hugging Face Papers</source>
+      <guid isPermaLink="false">119516cc08160ea174884cf1d7effd78</guid>
+    </item>
+    <item>
+      <title>MULTI3IR: 다중 관점 다중 도메인 다중 모드 정보 검색을 위한 벤치마크</title>
+      <link>https://huggingface.co/papers/2608.30949</link>
+      <description>새로운 벤치마크 및 조정 방법은 개방형 쿼리에 대한 도메인 및 양식 전반에 걸쳐 다양한 관점의 검색 범위를 향상시킵니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.30949">Hugging Face Papers</source>
+      <guid isPermaLink="false">2f4303b33d601ed2bf503f87dd2a9f2a</guid>
+    </item>
+    <item>
+      <title>RealSWE: 현실적인 사용자 요청에 따른 코딩 에이전트의 구성 평가</title>
+      <link>https://huggingface.co/papers/2608.27831</link>
+      <description>실제 코딩 요청은 벤치마크 작업보다 짧고 캐주얼하며 원하는 동작과 동기를 명시적으로 명시하면 LLM 소프트웨어 엔지니어링 성능이 향상됩니다.</description>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.27831">Hugging Face Papers</source>
+      <guid isPermaLink="false">c84b80b78fd59c18b16a217965cab60a</guid>
+    </item>
+    <item>
+      <title>영향력 지향 증류: 샘플링된 토큰 정책 기반 증류의 다양성 병목 현상 해결</title>
+      <link>https://huggingface.co/papers/2608.29846</link>
+      <description>영향 지향 적응형 온 정책 증류(Influence-Directed Adaptive On-Policy Distillation)는 엔트로피 확장 업데이트를 선택적으로 보존하고 엔트로피 수축 업데이트를 적응형 발전으로 대체함으로써 추론 모델 증류에서 다양성 전달을 향상시킵니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.29846">Hugging Face Papers</source>
+      <guid isPermaLink="false">71a722877cc0eee4647d268bdf068d1f</guid>
+    </item>
+    <item>
+      <title>ExecRetrieval: 코드 임베딩 검색의 기능 정확성 격차 측정</title>
+      <link>https://huggingface.co/papers/2609.01865</link>
+      <description>ExecRetrieval은 코드 임베딩이 거의 동일한 버그 변형과 올바른 구현을 구별할 수 있는지 여부를 평가하여 주요 검색 프로그램이 표준 솔루션보다 잘못된 복제에 가까운 순위를 매기는 경우가 많다는 사실을 보여줍니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01865">Hugging Face Papers</source>
+      <guid isPermaLink="false">04f20c079962fd1e3cfa93d2a138efdf</guid>
+    </item>
+    <item>
+      <title>에이전트 메모리는 내부 인증 세탁을 위한 표면입니다.</title>
+      <link>https://huggingface.co/papers/2609.01836</link>
+      <description>장기 실행 LLM 에이전트의 지속적인 메모리 오류는 허위로 권한을 부여하여 승인되지 않은 작업으로 이어질 수 있으며, 보호 장치는 합법적인 사용을 위한 비용으로 이를 줄입니다.</description>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01836">Hugging Face Papers</source>
+      <guid isPermaLink="false">37cc219ed69990ff5fdfc59f48936aa7</guid>
+    </item>
+    <item>
+      <title>모방 학습은 능숙한 조작에서 시간적 견고성을 유지합니까? 작업 실행 속도에 따른 전문가-학습자 비교</title>
+      <link>https://huggingface.co/papers/2609.01453</link>
+      <description>모방 학습된 능숙한 조작 정책은 실행 속도가 증가할 때 전문가 정책보다 더 급격하게 저하되며, 삽입 오정렬이 주요 실패 모드입니다.</description>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01453">Hugging Face Papers</source>
+      <guid isPermaLink="false">0596dcfc8be04e57ce406894c28f6960</guid>
+    </item>
+    <item>
+      <title>Kirin: In-the-Wild 비디오를 통한 동물 모션 생성</title>
+      <link>https://huggingface.co/papers/2609.01823</link>
+      <description>Kirin은 비디오에서 3D 동물 모션을 재구성하여 대규모 데이터 세트를 구축하고 3D 메시 애니메이션을 위한 텍스트 및 이미지 조건 모션을 생성합니다.</description>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01823">Hugging Face Papers</source>
+      <guid isPermaLink="false">b2fc6ef5af2867b069a284d46b935d3d</guid>
+    </item>
     <item>
       <title>훈련 중 지식 증류는 사실적 회상보다 추론을 선호합니다.</title>
       <link>https://huggingface.co/papers/2609.01532</link>
@@ -322,141 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.29310">Hugging Face Papers</source>
       <guid isPermaLink="false">09410c0754e334b3e7e1b158986aa5f0</guid>
-    </item>
-    <item>
-      <title>SafeAtlas-VL: 대규모 데이터 및 가드 모델을 통한 이진 다중 모드 안전을 넘어</title>
-      <link>https://huggingface.co/papers/2608.29098</link>
-      <description>SafeAtlas-VL은 등급별 위험 라벨이 포함된 대규모 다중 모드 안전 데이터 세트를 도입하고 지속적인 안전 점수를 예측하는 가드 모델을 교육하여 최첨단 일반화를 달성합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29098">Hugging Face Papers</source>
-      <guid isPermaLink="false">03ce399fcc3e87c6ab42a40cccf8478e</guid>
-    </item>
-    <item>
-      <title>유지 또는 삭제? 컴팩트한 비디오 표현을 위한 적응형 토크나이저</title>
-      <link>https://huggingface.co/papers/2608.24293</link>
-      <description>KATok은 확산 기반 생성을 위해 공간적 일관성을 유지하면서 데이터 종속 압축을 달성하기 위해 정보가 없는 토큰을 선택적으로 삭제하는 적응형 변환기 기반 비디오 토크나이저입니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.24293">Hugging Face Papers</source>
-      <guid isPermaLink="false">ca4b49bd14e14648b5fbdc9d39741fb4</guid>
-    </item>
-    <item>
-      <title>추론 모델의 사고 사슬 충실도는 선호 단서가 전달되는 위치와 방법에 따라 다릅니다.</title>
-      <link>https://huggingface.co/papers/2608.29464</link>
-      <description>FACE-Eval은 도구 출력이나 암시적 아티팩트를 통해 선호도 단서가 도착할 때 사고 사슬 모니터링의 신뢰성이 떨어지며, 다양한 개방형 인터페이스 전반에 걸쳐 말로 표현된 헌신이 낮고 숨겨진 채택이 더 높다는 것을 보여줍니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29464">Hugging Face Papers</source>
-      <guid isPermaLink="false">7b181decc4aa86a47fa203ad96f81ccc</guid>
-    </item>
-    <item>
-      <title>대규모 언어 모델에서 개인화의 숨겨진 비용 평가</title>
-      <link>https://huggingface.co/papers/2608.28833</link>
-      <description>이 연구는 LLM의 개인화된 맥락이 어떻게 관련 없는 개인화, 선호도 축소 및 아첨적 편견을 증가시키는지를 보여주는 프레임워크인 PRISK를 제안합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.28833">Hugging Face Papers</source>
-      <guid isPermaLink="false">cd8560da06755c690f5bde4eb5bff84e</guid>
-    </item>
-    <item>
-      <title>WebWorld: 자체 개선 웹 코드를 위한 세계 모델로서의 브라우저</title>
-      <link>https://huggingface.co/papers/2608.30530</link>
-      <description>WebWorld는 브라우저를 실행 가능한 세계 모델로 사용하여 상호 작용 계약을 통해 웹 코드 복구를 인증함으로써 검증된 감독을 통해 자율적인 VLM 자체 개선을 가능하게 합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.30530">Hugging Face Papers</source>
-      <guid isPermaLink="false">b7fa80c011ecb49c540ba342e7aea2be</guid>
-    </item>
-    <item>
-      <title>DICS: 시각적 명령어 선택을 위한 데이터 내재적 일관성 탐색</title>
-      <link>https://huggingface.co/papers/2608.30209</link>
-      <description>DICS는 내부 샘플 일관성을 측정하여 고품질의 시각적 지침 데이터를 선택하고 훨씬 적은 교육 데이터로 모델 성능을 향상시킵니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.30209">Hugging Face Papers</source>
-      <guid isPermaLink="false">c475d9c462f21a978befef3a121d01ed</guid>
-    </item>
-    <item>
-      <title>EvoGenUI-Bench: LLM을 다중 회전 생성 UI 도우미로 평가</title>
-      <link>https://huggingface.co/papers/2608.29387</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29387">Hugging Face Papers</source>
-      <guid isPermaLink="false">ece2adca3f13d6b58ef1defba76d75d2</guid>
-    </item>
-    <item>
-      <title>불확실성 인식 엔드투엔드 AI 일기예보: 관측 및 모델 기여 분리</title>
-      <link>https://huggingface.co/papers/2608.30795</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.30795">Hugging Face Papers</source>
-      <guid isPermaLink="false">86d6bc17d869d846365d03f0905f1c62</guid>
-    </item>
-    <item>
-      <title>ContextBias: 텍스트-이미지 모델의 컨텍스트 이동에 따른 바이어스 지속성의 제어된 평가</title>
-      <link>https://huggingface.co/papers/2608.29847</link>
-      <description>텍스트-이미지 모델은 다양한 상황에서 지속적인 역할 연결 시각적 고정관념을 나타내며, 관련 없는 프롬프트에서 역할 간 속성 집중도가 감소하는 대신 증가합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29847">Hugging Face Papers</source>
-      <guid isPermaLink="false">16d53b04deadaf133aeaa849f59ff998</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.29137</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29137">Hugging Face Papers</source>
-      <guid isPermaLink="false">d5776e6ea6b0e7dd8166f7a5c476d125</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.31106</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.31106">Hugging Face Papers</source>
-      <guid isPermaLink="false">88ea76b8f415c9ecdeb29e1812755aff</guid>
-    </item>
-    <item>
-      <title>PaperGym: 연구 계획 생성을 위한 루브릭 중심의 진화</title>
-      <link>https://huggingface.co/papers/2608.31119</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.31119">Hugging Face Papers</source>
-      <guid isPermaLink="false">b68f7ff3157bf431779e179f1a4f50f6</guid>
-    </item>
-    <item>
-      <title>수학 추론에서의 사고 사슬의 형태</title>
-      <link>https://huggingface.co/papers/2608.28600</link>
-      <description>SHAPE는 의미 공간 및 휴리스틱을 통해 사고 사슬 추론을 분석하여 LLM 수학적 추론을 진단하고 교육 후 개선합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.28600">Hugging Face Papers</source>
-      <guid isPermaLink="false">2b322293eff873e0bfd6445e03844ad9</guid>
-    </item>
-    <item>
-      <title>정규화된 낮은 순위 적응</title>
-      <link>https://huggingface.co/papers/2608.31036</link>
-      <description>Normalized Low-Rank Adaptation은 하향 투영 행렬을 정규화하고 수렴을 가속화하며 추가 매개변수나 추론 비용 없이 성능을 향상시켜 LoRA 교육을 안정화합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.31036">Hugging Face Papers</source>
-      <guid isPermaLink="false">ca2ffb686e3d7148946a60378da0a401</guid>
-    </item>
-    <item>
-      <title>GenFirst: 안정적인 엔드투엔드 잠재 생성 모델링을 위한 재구성 전 세대</title>
-      <link>https://huggingface.co/papers/2608.29335</link>
-      <description>잠재 생성 모델의 직접적인 엔드투엔드 훈련은 최첨단 이미지 합성 및 통합 멀티모드를 달성하기 위한 세대 우선 전략을 사용하여 엔트로피 보존 및 비대칭 역학을 통한 붕괴를 방지합니다.</description>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29335">Hugging Face Papers</source>
-      <guid isPermaLink="false">daa50d98a12976eb7b10c3be7fdc2482</guid>
     </item>
   </channel>
 </rss>
