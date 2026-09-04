@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 04 Sep 2026 17:34:27 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 22:14:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Codex with ChatGPT: 웹 ChatGPT에 설계와 검토를 맡기는 읽기 전용 MCP 연결</title>
+      <link>https://discuss.pytorch.kr/t/codex-with-chatgpt-chatgpt-mcp/11804</link>
+      <description>Codex with ChatGPT 소개 Codex with ChatGPT가 지목하는 문제는 코딩 에이전트의 사용량이 엉뚱한 곳에서 소진된다는 것입니다. 파일을 고치고 테스트를 실행하는 데 드는 몫과 별개로, 무엇을 어떻게 고칠지 계획을 세우고 끝난 변경을 다시 검토하는 데도 같은 사용량이 들어갑니다. 계획과 검토는 도구를 거의 쓰지 않고 읽고 판단하기만 하는 작업인데도 그렇습니다.</description>
+      <pubDate>Fri, 04 Sep 2026 21:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/codex-with-chatgpt-chatgpt-mcp/11804">PyTorch Korea</source>
+      <guid isPermaLink="false">fca1b71332f80bded9573fc4be4d4981</guid>
+    </item>
     <item>
       <title>sepia: AI가 작성한 티를 없애기 위해, 어휘 교정 뿐만 아니라 서사 구조까지 종합적으로 살펴보고 개선하는 에이전트 스킬</title>
       <link>https://discuss.pytorch.kr/t/sepia-ai/11813</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/megamemory-mcp/11713">PyTorch Korea</source>
       <guid isPermaLink="false">0f7486bca934f175773c0bea3742abfc</guid>
-    </item>
-    <item>
-      <title>kimodo.cpp: NVIDIA Kimodo 모션 생성 모델을 PyTorch 없이 실행하는 C++/GGML 이식 구현</title>
-      <link>https://discuss.pytorch.kr/t/kimodo-cpp-nvidia-kimodo-pytorch-c-ggml/11708</link>
-      <description>kimodo.cpp 소개 텍스트로 3D 사람 모션을 만들어 내는 모델을 로컬에서 써 보려고 하면, 모델 자체보다 주변 환경이 먼저 문제가 됩니다. 파이썬과 PyTorch, CUDA 버전이 맞아야 하고, 텍스트를 벡터로 바꾸는 인코더와 모션을 만들어 내는 확산 모델이 동시에 GPU 메모리에 올라가며, 그 둘이 각각 다른 의존성 트리를 끌고 옵니다.</description>
-      <pubDate>Tue, 25 Aug 2026 15:30:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kimodo-cpp-nvidia-kimodo-pytorch-c-ggml/11708">PyTorch Korea</source>
-      <guid isPermaLink="false">f0a602117d5e7bfb5218cf3078d5c277</guid>
     </item>
   </channel>
 </rss>

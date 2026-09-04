@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 04 Sep 2026 17:34:27 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 22:14:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>선택, 압축, 재투자: 장편 비디오 MLLM의 시각적 토큰 할당에 대한 통제된 연구</title>
+      <link>https://huggingface.co/papers/2609.03820</link>
+      <description>프레임 선택은 긴 비디오 언어 모델의 정확성을 좌우하는 반면, 절감액을 더 많은 프레임에 재투자하면 공간 압축이 거의 무료이며 선택기를 공정하게 비교하려면 통합 하네스가 필요합니다.</description>
+      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03820">Hugging Face Papers</source>
+      <guid isPermaLink="false">b6b5a37f861306e0ae7c901ca7b64c9b</guid>
+    </item>
+    <item>
+      <title>QCell: 중복되는 인스턴스 분할을 위한 셀 쿼리 재결합 및 정렬</title>
+      <link>https://huggingface.co/papers/2608.29253</link>
+      <description>QCell은 잠재 공간 재조합 및 대조 쿼리 정렬을 통해 겹치는 현미경 셀의 인스턴스 분할을 개선하는 쿼리 기반 모델입니다.</description>
+      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.29253">Hugging Face Papers</source>
+      <guid isPermaLink="false">f9a29ac93f117b4b9acfc3da2a74f0a4</guid>
+    </item>
+    <item>
+      <title>대규모 상담원 행동 분석을 위한 근거 이론 사용</title>
+      <link>https://huggingface.co/papers/2608.30391</link>
+      <description>AutoTraceGT는 에이전트 궤적에 대한 근거 이론 코딩을 자동화하여 다운스트림 예측을 위한 인간 실패 모드 주석을 복구하고 확장하는 작업별 행동 분류법을 구축합니다.</description>
+      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.30391">Hugging Face Papers</source>
+      <guid isPermaLink="false">e2b0491bc720c205fd93b99ccbcfef98</guid>
+    </item>
     <item>
       <title>학습을 통한 컴파일: 자연 언어 사양을 로컬 신경 기능으로 전환</title>
       <link>https://huggingface.co/papers/2609.04199</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.00638">Hugging Face Papers</source>
       <guid isPermaLink="false">65c9f1d9bfe477eca27eea00bc2c0ba4</guid>
-    </item>
-    <item>
-      <title>SolarWM: 장거리 비디오 세계 모델을 위한 개방형 데이터 및 확장 가능한 교육</title>
-      <link>https://huggingface.co/papers/2609.02886</link>
-      <description>SolarWM은 다양한 데이터 소스와 생성기 백본에 걸쳐 대화형 비디오 세계 모델을 구축하기 위한 개방형 프레임워크와 통합 교육 레시피를 제공하여 장거리 실시간 출시를 가능하게 합니다.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.02886">Hugging Face Papers</source>
-      <guid isPermaLink="false">7cb4312bfee68a680eeae8e60c10505a</guid>
-    </item>
-    <item>
-      <title>Cliff: 첫 번째 실수로부터 학습 프로세스 보상</title>
-      <link>https://huggingface.co/papers/2609.02817</link>
-      <description>Cliff는 기성 언어 모델을 사용하여 첫 번째 추론 오류를 감지하고 이에 따라 토큰 수준 이점을 형성함으로써 검증 가능한 보상으로 강화 학습을 개선합니다.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.02817">Hugging Face Papers</source>
-      <guid isPermaLink="false">de9ab89cc2515aeb0cc04d649837b760</guid>
-    </item>
-    <item>
-      <title>픽셀 텍스트 표현 학습의 디자인 기초</title>
-      <link>https://huggingface.co/papers/2609.01147</link>
-      <description>Pixel Linguist II는 가변 해상도 훈련, 자연스러운 이미지-텍스트 접지, 레이아웃 인식 렌더링 및 다국어 커리큘럼을 통해 시각적 텍스트 인코딩을 개선하여 최첨단 결과와 강력한 비교를 달성합니다.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.01147">Hugging Face Papers</source>
-      <guid isPermaLink="false">584c200bdbdd679d25cabd115bff8f8c</guid>
     </item>
   </channel>
 </rss>
