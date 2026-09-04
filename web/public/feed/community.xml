@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 04 Sep 2026 12:24:40 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 17:34:27 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>sepia: AI가 작성한 티를 없애기 위해, 어휘 교정 뿐만 아니라 서사 구조까지 종합적으로 살펴보고 개선하는 에이전트 스킬</title>
+      <link>https://discuss.pytorch.kr/t/sepia-ai/11813</link>
+      <description>sepia 소개 AI가 쓴 글을 사람 글처럼 만들어 준다는 도구는 이미 많습니다. 대부분은 단어와 문장 구조를 손봅니다. 상투적인 형용사를 빼고, 대시를 쉼표로 바꾸고, 문장 길이를 뒤섞습니다.</description>
+      <pubDate>Fri, 04 Sep 2026 15:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/sepia-ai/11813">PyTorch Korea</source>
+      <guid isPermaLink="false">73e171a807fcc542f62e27391aa3bd87</guid>
+    </item>
+    <item>
+      <title>TimesFM-3: 다변량과 공변량을 한 번의 순전파로 예측하는 제로샷 시계열 파운데이션 모델</title>
+      <link>https://discuss.pytorch.kr/t/timesfm-3/11793</link>
+      <description>TimesFM-3 소개 편의점 발주 담당자가 다음 주 아이스크림 물량을 정할 때 지난주 판매량만 보고 결정하지는 않습니다. 다음 주에 비가 오는지, 본사 할인 행사가 잡혀 있는지, 콘과 시럽 같은 연관 상품이 얼마나 나갔는지를 함께 봅니다.</description>
+      <pubDate>Fri, 04 Sep 2026 12:30:20 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/timesfm-3/11793">PyTorch Korea</source>
+      <guid isPermaLink="false">e71fe568db4f0e765854085a8baa9ed4</guid>
+    </item>
     <item>
       <title>OpenAI GPT-6 Astra 출시: 사이버보안 Critical 등급 첫 도달과 낮아진 CoT 모니터링 가능성</title>
       <link>https://discuss.pytorch.kr/t/openai-gpt-6-astra-critical-cot/11819</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/kimodo-cpp-nvidia-kimodo-pytorch-c-ggml/11708">PyTorch Korea</source>
       <guid isPermaLink="false">f0a602117d5e7bfb5218cf3078d5c277</guid>
-    </item>
-    <item>
-      <title>FreeToken: 프론티어급 MoE 모델을 게이밍 데스크톱 수준에서 서빙하기 위한 Edge-Serving에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/freetoken-moe-edge-serving/11696</link>
-      <description>FreeToken 소개 가중치는 공개되었지만, 돌릴 수 있는 사람은 따로 있습니다 새로 나온 오픈 모델의 가중치를 받아 두기만 하고, 그 파일을 읽어 들일 GPU가 없어서 결국 API를 다시 열어 본 경험이 있으실 겁니다. 이번에 소개할 FreeToken 논문은 바로 이 지점을 다룹니다.</description>
-      <pubDate>Tue, 25 Aug 2026 12:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/freetoken-moe-edge-serving/11696">PyTorch Korea</source>
-      <guid isPermaLink="false">0c47445697f2c2c0c3af9f495acc3ecb</guid>
-    </item>
-    <item>
-      <title>OpenConnector: 에이전트에 자격 증명을 넘기지 않고 1,000여 개 SaaS에 연결하는 오픈소스 게이트웨이</title>
-      <link>https://discuss.pytorch.kr/t/openconnector-1-000-saas/11706</link>
-      <description>OpenConnector 소개 AI 에이전트에게 메일을 읽히거나 협업 도구에 글을 남기게 하려면 그 계정에 접근할 권한이 필요합니다. 가장 빠른 방법은 API 키와 OAuth 토큰을 에이전트 프로세스의 환경 변수에 넣어 두는 것인데, 이렇게 하면 에이전트가 잘못 판단하거나 프롬프트 주입(Prompt Injection)에 당했을 때 피해 범위가 그 계정 전체로 번집니다.</description>
-      <pubDate>Tue, 25 Aug 2026 10:30:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openconnector-1-000-saas/11706">PyTorch Korea</source>
-      <guid isPermaLink="false">cf1484999b8a4a831000b1996367d28c</guid>
     </item>
   </channel>
 </rss>
