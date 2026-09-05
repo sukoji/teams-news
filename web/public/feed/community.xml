@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 05 Sep 2026 09:41:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 14:20:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Code World Model: 코딩 에이전트가 세계의 상태를 코드로 유지하는 영상 월드 모델 (≠ Meta의 동명 코드 모델)</title>
+      <link>https://discuss.pytorch.kr/t/code-world-model-meta/11829</link>
+      <description>Code World Model 소개 영상으로 세계를 시뮬레이션하는 모델은 지난 몇 년 사이 눈에 띄게 좋아졌지만, 길게 생성할수록 앞서 일어난 일의 결과가 유지되지 않는 문제가 남습니다. 저자들은 그 원인을 학습 대상 자체에서 찾습니다.</description>
+      <pubDate>Sat, 05 Sep 2026 11:30:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/code-world-model-meta/11829">PyTorch Korea</source>
+      <guid isPermaLink="false">2dcc367eded213577cc05d7f52b2e877</guid>
+    </item>
     <item>
       <title>Codex with ChatGPT: 웹 ChatGPT에 설계와 검토를 맡기는 읽기 전용 MCP 연결</title>
       <link>https://discuss.pytorch.kr/t/codex-with-chatgpt-chatgpt-mcp/11804</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/browsercode-api-chrome/11714">PyTorch Korea</source>
       <guid isPermaLink="false">96c6aa621c516ae4c297d8a3df926c9c</guid>
-    </item>
-    <item>
-      <title>MegaMemory: 코딩 에이전트가 세션이 끝나도 프로젝트 구조를 기억하게 만드는 MCP 서버</title>
-      <link>https://discuss.pytorch.kr/t/megamemory-mcp/11713</link>
-      <description>MegaMemory 소개 코딩 에이전트를 며칠 이상 쓰다 보면 같은 작업을 반복하게 됩니다. 어제 세 시간 동안 인증 흐름을 읽고 어디를 고쳐야 하는지 파악해 두었는데, 오늘 새 세션을 열면 에이전트는 그 파일들을 처음 보는 것처럼 다시 읽습니다.</description>
-      <pubDate>Wed, 26 Aug 2026 07:30:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/megamemory-mcp/11713">PyTorch Korea</source>
-      <guid isPermaLink="false">0f7486bca934f175773c0bea3742abfc</guid>
     </item>
   </channel>
 </rss>
