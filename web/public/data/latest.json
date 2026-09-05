@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-04",
-  "generated_at": "2026-09-04T09:40:52.533136+09:00",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T09:35:10.297802+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "595a7afb3b5487d038817c20b919e6c5",
+          "id": "813565b31be852c241e262bd073c05fc",
           "index": 1,
-          "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
-          "title_ko": "Aspire: 모호한 목표에서 모델이 스스로 발전할 수 있습니까?",
-          "summary": "ASPIRE introduces a benchmark for self-evolving LLM agents from vague natural-language goals, revealing challenges in goal interpretation, data selection, and stable weight-level improvement.",
-          "summary_ko": "ASPIRE는 모호한 자연어 목표에서 자체 진화하는 LLM 에이전트에 대한 벤치마크를 도입하여 목표 해석, 데이터 선택 및 안정적인 가중치 수준 개선의 과제를 드러냅니다.",
-          "url": "https://huggingface.co/papers/2608.31111",
+          "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "Terminal-Universe reconstructs executable workspaces from agent trajectories to synthesize diverse training tasks and improves post-training performance through supervised fine-tuning.",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "url": "https://huggingface.co/papers/2609.04148",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-03T09:00:00+09:00",
-          "popularity": 413,
-          "upvotes": 204,
-          "score": 28.0,
-          "importance_score": 18.0,
-          "matched_keywords": [
-            "llm",
-            "agent",
-            "benchmark"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 204
-          }
-        },
-        {
-          "id": "4b0e701a80ec298fae3d5fedcf9ef4d2",
-          "index": 2,
-          "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
-          "title_ko": "Repo-To-Skill: GitHub 리포지토리를 AI4AI 기술로 추출",
-          "summary": "DisCo is a research agent that distills operational knowledge into reusable skills, significantly improving autonomous ML research performance across benchmarks.",
-          "summary_ko": "DisCo는 운영 지식을 재사용 가능한 기술로 추출하여 벤치마크 전반에 걸쳐 자율적 ML 연구 성과를 크게 향상시키는 연구 에이전트입니다.",
-          "url": "https://huggingface.co/papers/2609.02749",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-09-03T09:00:00+09:00",
-          "popularity": 1111,
-          "upvotes": 496,
-          "score": 28.0,
+          "published_at": "2026-09-04T09:00:00+09:00",
+          "popularity": 426,
+          "upvotes": 213,
+          "score": 30.0,
           "importance_score": 18.0,
           "matched_keywords": [
             "ai",
             "agent",
-            "benchmark"
+            "fine-tuning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 496
+            "value": 213
+          }
+        },
+        {
+          "id": "ad337bab181aafb76f5e23b5e6c8e3f4",
+          "index": 2,
+          "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "LLaDA-Image unifies a 6B diffusion transformer with a frozen vision-language module, using image-only pre-training and a Muon optimizer to generate photorealistic images with precise editing, and is distilled into a fas…",
+          "summary_ko": "LLaDA-Image는 6B 확산 변환기를 고정 비전 언어 모듈과 통합하고, 이미지 전용 사전 훈련과 Muon 최적화 프로그램을 사용하여 정확한 편집으로 사실적인 이미지를 생성하고, 빠른 형식으로 증류합니다.",
+          "url": "https://huggingface.co/papers/2609.03796",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-09-04T09:00:00+09:00",
+          "popularity": 402,
+          "upvotes": 196,
+          "score": 30.0,
+          "importance_score": 18.0,
+          "matched_keywords": [
+            "ai",
+            "transformer",
+            "diffusion",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 196
           }
         }
       ]
@@ -68,47 +70,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "072333864980afe22c024a4ac2eaa74e",
+          "id": "413be51859a0ef2a4fb3a47e62d3e2c1",
           "index": 3,
-          "title": "[9월3일] 앤트로픽 “결과만 평가하면 AI가 통제 우회”…보상 해킹의 위험성 실험",
+          "title": "[9월4일] 오픈AI가 '아스트라' 성능보다 안전 설명에 집중한 이유",
           "title_ko": null,
-          "summary": "최근 AI 에이전트의 사이버 보안 평가에서 모델이 주어진 범위를 넘어서는 사례가 잇따르고 있습니다. 지난 7월에는 오픈AI 모델이 내부 연구 환경과 허깅페이스 시스템에 접근했고, 앤트로픽도 사이버 보안 평가 과정에서 클로드가 실제 컴퓨터 시스템에 접근하는 사례를 확인했습니다.",
+          "summary": "오픈AI가 차세대 모델 ‘GPT-6 아스트라(Astra)’를 공개했습니다. 이번 발표에서 가장 눈에 띄는 것은 모델 성능보다 안전성에 대한 설명입니다.그동안 AI 모델 출시에서는 벤치마크 성적과 경쟁 모델 대비 성능 향상이 주로 관심을 받았습니다. 하지만 오픈AI는 아스트라 출시를 앞두고 별도의 안전성 테스트를 공개하고 관련 인터뷰에서도 안전 문제를 반복해서 설명했습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214783",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214841",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-04T07:00:00+09:00",
+          "published_at": "2026-09-05T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.44,
-          "importance_score": 18.88,
+          "score": 25.46,
+          "importance_score": 18.92,
           "matched_keywords": [
             "ai",
-            "연구",
+            "gpt",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "3eefaee633a2ab5a831745335815d7d0",
+          "id": "9ceada369c45448dcb5875c9b6ce70e9",
           "index": 4,
-          "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입”",
+          "title": "메타, AI 모델 '대화 데이터 수집' 동의하면 비용 90% 깎아준다",
           "title_ko": null,
-          "summary": "오픈AI가 차세대 인공지능(AI) 모델 'GPT-6 아스트라'를 출시했다. 3일(현지시간) 블룸버그통신에 따르면 오픈AI는 사이버 보안 프로그램 '데이브레이크'에 참여하는 일부 기업 고객에게 GPT-6 아스트라를 우선 제공한다고 밝혔다. 향후 유료 챗GPT 이용자에게도 사이버 보안 안전장치를 강화한 버전을 순차적으로 제공할 계획이다.",
+          "summary": "메타가 최신 인공지능(AI) 모델 개선을 위한 대화 데이터 제공에 동의한 이용자에게 요금을 90% 이상 할인한다. 이용자들의 데이터 활용 거부로 AI 학습·개발용 데이터 확보가 어려워지자 가격 혜택을 앞세워 데이터 수집에 나선 것으로 풀이된다. 5일 업계에 따르면 메타가 지난 2일(현지시간) 공개한 '뮤즈 스파크 1.3'의 이용 비용은 데이터 수집 동의 여부에 따라 다르다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260904000011",
+          "url": "https://www.etnews.com/20260904000243",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-04T08:04:59+09:00",
-          "popularity": 99,
+          "published_at": "2026-09-05T06:00:00+09:00",
+          "popularity": 92,
           "upvotes": 0,
-          "score": 25.57,
-          "importance_score": 19.23,
+          "score": 21.45,
+          "importance_score": 17.71,
           "matched_keywords": [
             "ai",
-            "gpt",
             "모델"
           ],
           "engagement": null
@@ -125,47 +126,47 @@
           "title": "2akouwu/reverify — Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide:",
           "title_ko": "2akouwu/reverify — 바이너리를 읽는 AI 에이전트를 위한 환각 방지. 모델은 제안하고 결정론적 도구는 다음을 결정합니다.",
           "summary": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets.",
-          "summary_ko": "바이너리를 읽는 AI 에이전트를 위한 환각 방지. 모델이 제안하고 결정론적 도구가 결정합니다. 모든 주장은 증거와 함께 실제 바이트에 대해 검증 또는 반박되며, 근거 있는 사실은 컨텍스트 재설정 후에도 유지됩니다.",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "url": "https://github.com/2akouwu/reverify",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-04T08:44:01+09:00",
-          "popularity": 766,
-          "upvotes": 766,
-          "score": 36.05,
-          "importance_score": 32.85,
+          "published_at": "2026-09-05T03:28:17+09:00",
+          "popularity": 880,
+          "upvotes": 880,
+          "score": 35.46,
+          "importance_score": 31.19,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 766
+            "value": 880
           }
         },
         {
           "id": "498770a81c9841a1225bc53f9b045a3d",
           "index": 6,
           "title": "Human-Agent-Society/reef — Continual learning infra for self-improving agents",
-          "title_ko": "Human-Agent-Society/reef — 자기 개선 에이전트를 위한 지속적인 학습 인프라",
+          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "summary": "Continual learning infra for self-improving agents",
-          "summary_ko": "자기계발요원을 위한 지속적인 학습 인프라",
+          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "url": "https://github.com/Human-Agent-Society/reef",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-04T08:05:03+09:00",
-          "popularity": 283,
-          "upvotes": 283,
-          "score": 29.44,
-          "importance_score": 29.11,
+          "published_at": "2026-09-05T08:47:59+09:00",
+          "popularity": 421,
+          "upvotes": 421,
+          "score": 30.99,
+          "importance_score": 30.83,
           "matched_keywords": [
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 283
+            "value": 421
           }
         }
       ]
@@ -175,25 +176,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "052e27789f96cab8bb1b17ceca2bb700",
+          "id": "c11b1f308df3eb150ddada424333e3c8",
           "index": 7,
-          "title": "Code-as-World: 영상을 실행 가능한 물리 코드로 복원하는 방식으로, 9B 모델로 Gemini 3.1 Flash 성능을 넘어선 연구",
+          "title": "OpenAI GPT-6 Astra 출시: 사이버보안 Critical 등급 첫 도달과 낮아진 CoT 모니터링 가능성",
           "title_ko": null,
-          "summary": "Code-as-World 소개 비전 언어 모델(Vision-Language Model, VLM)에게 공이 경사면을 굴러 내려가는 영상을 보여주고 무슨 일이 일어났는지 물으면 대체로 잘 설명합니다. 그런데 \"공이 경사면을 벗어나는 순간의 속도가 몇 m/s인가\"를 물으면 답이 크게 흔들립니다. 사건을 알아보는 능력과 그 사건을 만든 물리량을 복원하는 능력이 다르기 때문입니다.",
+          "summary": "GPT-6 Astra 소개 OpenAI 가 새로운 프런티어 모델 GPT-6 Astra 를 공개했습니다. 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 전반에서 최고 성능을 기록했고, FrontierMath Tier 4를 97.6%, ARC-AGI-3를 99.9%, ExploitBench를 100%로 사실상 포화시켰습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/code-as-world-9b-gemini-3-1-flash/11799",
+          "url": "https://discuss.pytorch.kr/t/openai-gpt-6-astra-critical-cot/11819",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-03T15:30:12+09:00",
+          "published_at": "2026-09-04T09:49:52+09:00",
           "popularity": 96,
           "upvotes": 0,
-          "score": 24.81,
-          "importance_score": 12.03,
+          "score": 20.65,
+          "importance_score": 9.7,
           "matched_keywords": [
-            "gemini",
-            "연구",
-            "vlm",
+            "ai",
+            "gpt",
             "모델"
           ],
           "engagement": null
@@ -203,99 +203,100 @@
   ],
   "items": [
     {
-      "id": "595a7afb3b5487d038817c20b919e6c5",
+      "id": "813565b31be852c241e262bd073c05fc",
       "index": 1,
-      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
-      "title_ko": "Aspire: 모호한 목표에서 모델이 스스로 발전할 수 있습니까?",
-      "summary": "ASPIRE introduces a benchmark for self-evolving LLM agents from vague natural-language goals, revealing challenges in goal interpretation, data selection, and stable weight-level improvement.",
-      "summary_ko": "ASPIRE는 모호한 자연어 목표에서 자체 진화하는 LLM 에이전트에 대한 벤치마크를 도입하여 목표 해석, 데이터 선택 및 안정적인 가중치 수준 개선의 과제를 드러냅니다.",
-      "url": "https://huggingface.co/papers/2608.31111",
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "Terminal-Universe reconstructs executable workspaces from agent trajectories to synthesize diverse training tasks and improves post-training performance through supervised fine-tuning.",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "url": "https://huggingface.co/papers/2609.04148",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-03T09:00:00+09:00",
-      "popularity": 413,
-      "upvotes": 204,
-      "score": 28.0,
-      "importance_score": 18.0,
-      "matched_keywords": [
-        "llm",
-        "agent",
-        "benchmark"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 204
-      }
-    },
-    {
-      "id": "4b0e701a80ec298fae3d5fedcf9ef4d2",
-      "index": 2,
-      "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
-      "title_ko": "Repo-To-Skill: GitHub 리포지토리를 AI4AI 기술로 추출",
-      "summary": "DisCo is a research agent that distills operational knowledge into reusable skills, significantly improving autonomous ML research performance across benchmarks.",
-      "summary_ko": "DisCo는 운영 지식을 재사용 가능한 기술로 추출하여 벤치마크 전반에 걸쳐 자율적 ML 연구 성과를 크게 향상시키는 연구 에이전트입니다.",
-      "url": "https://huggingface.co/papers/2609.02749",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-03T09:00:00+09:00",
-      "popularity": 1111,
-      "upvotes": 496,
-      "score": 28.0,
+      "published_at": "2026-09-04T09:00:00+09:00",
+      "popularity": 426,
+      "upvotes": 213,
+      "score": 30.0,
       "importance_score": 18.0,
       "matched_keywords": [
         "ai",
         "agent",
-        "benchmark"
+        "fine-tuning",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 496
+        "value": 213
       }
     },
     {
-      "id": "072333864980afe22c024a4ac2eaa74e",
+      "id": "ad337bab181aafb76f5e23b5e6c8e3f4",
+      "index": 2,
+      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "LLaDA-Image unifies a 6B diffusion transformer with a frozen vision-language module, using image-only pre-training and a Muon optimizer to generate photorealistic images with precise editing, and is distilled into a fas…",
+      "summary_ko": "LLaDA-Image는 6B 확산 변환기를 고정 비전 언어 모듈과 통합하고, 이미지 전용 사전 훈련과 Muon 최적화 프로그램을 사용하여 정확한 편집으로 사실적인 이미지를 생성하고, 빠른 형식으로 증류합니다.",
+      "url": "https://huggingface.co/papers/2609.03796",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-04T09:00:00+09:00",
+      "popularity": 402,
+      "upvotes": 196,
+      "score": 30.0,
+      "importance_score": 18.0,
+      "matched_keywords": [
+        "ai",
+        "transformer",
+        "diffusion",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 196
+      }
+    },
+    {
+      "id": "413be51859a0ef2a4fb3a47e62d3e2c1",
       "index": 3,
-      "title": "[9월3일] 앤트로픽 “결과만 평가하면 AI가 통제 우회”…보상 해킹의 위험성 실험",
+      "title": "[9월4일] 오픈AI가 '아스트라' 성능보다 안전 설명에 집중한 이유",
       "title_ko": null,
-      "summary": "최근 AI 에이전트의 사이버 보안 평가에서 모델이 주어진 범위를 넘어서는 사례가 잇따르고 있습니다. 지난 7월에는 오픈AI 모델이 내부 연구 환경과 허깅페이스 시스템에 접근했고, 앤트로픽도 사이버 보안 평가 과정에서 클로드가 실제 컴퓨터 시스템에 접근하는 사례를 확인했습니다.",
+      "summary": "오픈AI가 차세대 모델 ‘GPT-6 아스트라(Astra)’를 공개했습니다. 이번 발표에서 가장 눈에 띄는 것은 모델 성능보다 안전성에 대한 설명입니다.그동안 AI 모델 출시에서는 벤치마크 성적과 경쟁 모델 대비 성능 향상이 주로 관심을 받았습니다. 하지만 오픈AI는 아스트라 출시를 앞두고 별도의 안전성 테스트를 공개하고 관련 인터뷰에서도 안전 문제를 반복해서 설명했습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214783",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214841",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-04T07:00:00+09:00",
+      "published_at": "2026-09-05T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.44,
-      "importance_score": 18.88,
+      "score": 25.46,
+      "importance_score": 18.92,
       "matched_keywords": [
         "ai",
-        "연구",
+        "gpt",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "3eefaee633a2ab5a831745335815d7d0",
+      "id": "9ceada369c45448dcb5875c9b6ce70e9",
       "index": 4,
-      "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입”",
+      "title": "메타, AI 모델 '대화 데이터 수집' 동의하면 비용 90% 깎아준다",
       "title_ko": null,
-      "summary": "오픈AI가 차세대 인공지능(AI) 모델 'GPT-6 아스트라'를 출시했다. 3일(현지시간) 블룸버그통신에 따르면 오픈AI는 사이버 보안 프로그램 '데이브레이크'에 참여하는 일부 기업 고객에게 GPT-6 아스트라를 우선 제공한다고 밝혔다. 향후 유료 챗GPT 이용자에게도 사이버 보안 안전장치를 강화한 버전을 순차적으로 제공할 계획이다.",
+      "summary": "메타가 최신 인공지능(AI) 모델 개선을 위한 대화 데이터 제공에 동의한 이용자에게 요금을 90% 이상 할인한다. 이용자들의 데이터 활용 거부로 AI 학습·개발용 데이터 확보가 어려워지자 가격 혜택을 앞세워 데이터 수집에 나선 것으로 풀이된다. 5일 업계에 따르면 메타가 지난 2일(현지시간) 공개한 '뮤즈 스파크 1.3'의 이용 비용은 데이터 수집 동의 여부에 따라 다르다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260904000011",
+      "url": "https://www.etnews.com/20260904000243",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-04T08:04:59+09:00",
-      "popularity": 99,
+      "published_at": "2026-09-05T06:00:00+09:00",
+      "popularity": 92,
       "upvotes": 0,
-      "score": 25.57,
-      "importance_score": 19.23,
+      "score": 21.45,
+      "importance_score": 17.71,
       "matched_keywords": [
         "ai",
-        "gpt",
         "모델"
       ],
       "engagement": null
@@ -306,69 +307,68 @@
       "title": "2akouwu/reverify — Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide:",
       "title_ko": "2akouwu/reverify — 바이너리를 읽는 AI 에이전트를 위한 환각 방지. 모델은 제안하고 결정론적 도구는 다음을 결정합니다.",
       "summary": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets.",
-      "summary_ko": "바이너리를 읽는 AI 에이전트를 위한 환각 방지. 모델이 제안하고 결정론적 도구가 결정합니다. 모든 주장은 증거와 함께 실제 바이트에 대해 검증 또는 반박되며, 근거 있는 사실은 컨텍스트 재설정 후에도 유지됩니다.",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "url": "https://github.com/2akouwu/reverify",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-04T08:44:01+09:00",
-      "popularity": 766,
-      "upvotes": 766,
-      "score": 36.05,
-      "importance_score": 32.85,
+      "published_at": "2026-09-05T03:28:17+09:00",
+      "popularity": 880,
+      "upvotes": 880,
+      "score": 35.46,
+      "importance_score": 31.19,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 766
+        "value": 880
       }
     },
     {
       "id": "498770a81c9841a1225bc53f9b045a3d",
       "index": 6,
       "title": "Human-Agent-Society/reef — Continual learning infra for self-improving agents",
-      "title_ko": "Human-Agent-Society/reef — 자기 개선 에이전트를 위한 지속적인 학습 인프라",
+      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "summary": "Continual learning infra for self-improving agents",
-      "summary_ko": "자기계발요원을 위한 지속적인 학습 인프라",
+      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "url": "https://github.com/Human-Agent-Society/reef",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-04T08:05:03+09:00",
-      "popularity": 283,
-      "upvotes": 283,
-      "score": 29.44,
-      "importance_score": 29.11,
+      "published_at": "2026-09-05T08:47:59+09:00",
+      "popularity": 421,
+      "upvotes": 421,
+      "score": 30.99,
+      "importance_score": 30.83,
       "matched_keywords": [
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 283
+        "value": 421
       }
     },
     {
-      "id": "052e27789f96cab8bb1b17ceca2bb700",
+      "id": "c11b1f308df3eb150ddada424333e3c8",
       "index": 7,
-      "title": "Code-as-World: 영상을 실행 가능한 물리 코드로 복원하는 방식으로, 9B 모델로 Gemini 3.1 Flash 성능을 넘어선 연구",
+      "title": "OpenAI GPT-6 Astra 출시: 사이버보안 Critical 등급 첫 도달과 낮아진 CoT 모니터링 가능성",
       "title_ko": null,
-      "summary": "Code-as-World 소개 비전 언어 모델(Vision-Language Model, VLM)에게 공이 경사면을 굴러 내려가는 영상을 보여주고 무슨 일이 일어났는지 물으면 대체로 잘 설명합니다. 그런데 \"공이 경사면을 벗어나는 순간의 속도가 몇 m/s인가\"를 물으면 답이 크게 흔들립니다. 사건을 알아보는 능력과 그 사건을 만든 물리량을 복원하는 능력이 다르기 때문입니다.",
+      "summary": "GPT-6 Astra 소개 OpenAI 가 새로운 프런티어 모델 GPT-6 Astra 를 공개했습니다. 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 전반에서 최고 성능을 기록했고, FrontierMath Tier 4를 97.6%, ARC-AGI-3를 99.9%, ExploitBench를 100%로 사실상 포화시켰습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/code-as-world-9b-gemini-3-1-flash/11799",
+      "url": "https://discuss.pytorch.kr/t/openai-gpt-6-astra-critical-cot/11819",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-03T15:30:12+09:00",
+      "published_at": "2026-09-04T09:49:52+09:00",
       "popularity": 96,
       "upvotes": 0,
-      "score": 24.81,
-      "importance_score": 12.03,
+      "score": 20.65,
+      "importance_score": 9.7,
       "matched_keywords": [
-        "gemini",
-        "연구",
-        "vlm",
+        "ai",
+        "gpt",
         "모델"
       ],
       "engagement": null
