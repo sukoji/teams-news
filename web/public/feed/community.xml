@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 05 Sep 2026 14:20:23 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 19:07:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Claude Commerce Agents: 쇼핑과 백오피스 에이전트를 한 번만 정의해 세 가지 방식으로 실행하는 참조 구현</title>
+      <link>https://discuss.pytorch.kr/t/claude-commerce-agents/11828</link>
+      <description>Claude Commerce Agents 소개 쇼핑몰에 대화형 에이전트를 붙이는 일은 데모 단계까지는 어렵지 않습니다. 상품을 검색해 보여주고 비교해 주는 챗봇은 모델 하나와 검색 API 하나로도 만들어집니다. 문제는 그다음입니다.</description>
+      <pubDate>Sat, 05 Sep 2026 18:00:24 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-commerce-agents/11828">PyTorch Korea</source>
+      <guid isPermaLink="false">f58fedfac1248be84f46a89502067522</guid>
+    </item>
     <item>
       <title>Code World Model: 코딩 에이전트가 세계의 상태를 코드로 유지하는 영상 월드 모델 (≠ Meta의 동명 코드 모델)</title>
       <link>https://discuss.pytorch.kr/t/code-world-model-meta/11829</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/6-2-lyft-vodafone-latam-feat-langchain/11711">PyTorch Korea</source>
       <guid isPermaLink="false">c75b38752481698dfed72cd40f3ab703</guid>
-    </item>
-    <item>
-      <title>BrowserCode: 정해진 동작 API 대신 자바스크립트를 작성해 실제 Chrome을 조작하는 브라우저 에이전트</title>
-      <link>https://discuss.pytorch.kr/t/browsercode-api-chrome/11714</link>
-      <description>BrowserCode 소개 웹을 다루는 AI 에이전트는 대개 정해진 동작 목록을 도구로 받습니다. 클릭, 입력, 스크롤, 요소 읽기 정도가 노출되고, 에이전트는 그 목록 안에서만 페이지를 다룹니다. 이 구조는 예상한 모양의 페이지에서는 잘 동작하지만, 무한 스크롤 목록에서 항목을 모두 모으거나 그림자 DOM(Shadow DOM) 안의 요소를 다루는 것처럼 목록 밖의 상황이 오면 막힙니다.</description>
-      <pubDate>Wed, 26 Aug 2026 09:30:30 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/browsercode-api-chrome/11714">PyTorch Korea</source>
-      <guid isPermaLink="false">96c6aa621c516ae4c297d8a3df926c9c</guid>
     </item>
   </channel>
 </rss>
