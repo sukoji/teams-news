@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-05",
-  "generated_at": "2026-09-05T09:35:10.297802+09:00",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T09:32:06.831911+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,58 +10,51 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "813565b31be852c241e262bd073c05fc",
+          "id": "cdf7a2308c094194e5231b0a1c3134ed",
           "index": 1,
-          "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "Terminal-Universe reconstructs executable workspaces from agent trajectories to synthesize diverse training tasks and improves post-training performance through supervised fine-tuning.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://huggingface.co/papers/2609.04148",
-          "source": "Hugging Face Papers",
+          "title": "🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
+          "title_ko": "🔥AI 에이전트 주간: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA 구매 Hugging Face, Grok Bot Design, FrontierHarness Eval 등",
+          "summary": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
+          "summary_ko": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA, Hugging Face, Grok Bot Design, FrontierHarness Eval 등 구매",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-6-astra-claude",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-04T09:00:00+09:00",
-          "popularity": 426,
-          "upvotes": 213,
-          "score": 30.0,
-          "importance_score": 18.0,
+          "published_at": "2026-09-06T00:36:27+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 27.14,
+          "importance_score": 16.28,
           "matched_keywords": [
             "ai",
             "agent",
-            "fine-tuning",
-            "training"
+            "gpt",
+            "claude",
+            "gemini"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 213
-          }
+          "engagement": null
         },
         {
-          "id": "ad337bab181aafb76f5e23b5e6c8e3f4",
+          "id": "12654fca5d9a18fb30ede85b454d1bf1",
           "index": 2,
-          "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "LLaDA-Image unifies a 6B diffusion transformer with a frozen vision-language module, using image-only pre-training and a Muon optimizer to generate photorealistic images with precise editing, and is distilled into a fas…",
-          "summary_ko": "LLaDA-Image는 6B 확산 변환기를 고정 비전 언어 모듈과 통합하고, 이미지 전용 사전 훈련과 Muon 최적화 프로그램을 사용하여 정확한 편집으로 사실적인 이미지를 생성하고, 빠른 형식으로 증류합니다.",
-          "url": "https://huggingface.co/papers/2609.03796",
-          "source": "Hugging Face Papers",
+          "title": "🥇Top AI Papers of the Week",
+          "title_ko": "🥇금주의 최고 AI 논문",
+          "summary": "The Top AI Papers of the Week (August 24 - 30)",
+          "summary_ko": "금주의 상위 AI 논문(8월 24일~30일)",
+          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-6e2",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-04T09:00:00+09:00",
-          "popularity": 402,
-          "upvotes": 196,
-          "score": 30.0,
-          "importance_score": 18.0,
+          "published_at": "2026-08-31T00:19:03+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 17.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
-            "transformer",
-            "diffusion",
-            "training"
+            "paper"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 196
-          }
+          "engagement": null
         }
       ]
     },
@@ -70,47 +63,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "413be51859a0ef2a4fb3a47e62d3e2c1",
+          "id": "d6168d37d1e7a9aa85b7beaba4cdc30a",
           "index": 3,
-          "title": "[9월4일] 오픈AI가 '아스트라' 성능보다 안전 설명에 집중한 이유",
+          "title": "앤트로픽, '클로드 맥스' 주간 사용량 초기화…'아스트라' 돌풍에 맞불",
           "title_ko": null,
-          "summary": "오픈AI가 차세대 모델 ‘GPT-6 아스트라(Astra)’를 공개했습니다. 이번 발표에서 가장 눈에 띄는 것은 모델 성능보다 안전성에 대한 설명입니다.그동안 AI 모델 출시에서는 벤치마크 성적과 경쟁 모델 대비 성능 향상이 주로 관심을 받았습니다. 하지만 오픈AI는 아스트라 출시를 앞두고 별도의 안전성 테스트를 공개하고 관련 인터뷰에서도 안전 문제를 반복해서 설명했습니다.",
+          "summary": "앤트로픽이 신규 모델 공개와 미국 노동절 연휴를 맞아 최고 등급 유료 플랜인 \\'클로드 맥스(Claude Max)\\' 이용자 전원의 주간 사용량 제한을 기습적으로 일괄 초기화했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214841",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214898",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-05T07:00:00+09:00",
+          "published_at": "2026-09-06T09:04:44+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.46,
-          "importance_score": 18.92,
+          "score": 22.91,
+          "importance_score": 19.81,
           "matched_keywords": [
-            "ai",
-            "gpt",
+            "claude",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "9ceada369c45448dcb5875c9b6ce70e9",
+          "id": "ce78fa01ec320c61b4d20a7e31d3a6a5",
           "index": 4,
-          "title": "메타, AI 모델 '대화 데이터 수집' 동의하면 비용 90% 깎아준다",
+          "title": "얼굴로 입장하고 AI로 응원한다…KT위즈파크 'AI 야구장'",
           "title_ko": null,
-          "summary": "메타가 최신 인공지능(AI) 모델 개선을 위한 대화 데이터 제공에 동의한 이용자에게 요금을 90% 이상 할인한다. 이용자들의 데이터 활용 거부로 AI 학습·개발용 데이터 확보가 어려워지자 가격 혜택을 앞세워 데이터 수집에 나선 것으로 풀이된다. 5일 업계에 따르면 메타가 지난 2일(현지시간) 공개한 '뮤즈 스파크 1.3'의 이용 비용은 데이터 수집 동의 여부에 따라 다르다.",
+          "summary": "경기 수원KT위즈파크. 경기 시작을 앞두고 외야 전광판에 'AI 실시간 번역 중'이라는 문구가 떴다. 장내 아나운서가 선발 라인업을 소개하자 영어 자막이 곧바로 표시됐다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260904000243",
+          "url": "https://www.etnews.com/20260904000249",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-05T06:00:00+09:00",
-          "popularity": 92,
+          "published_at": "2026-09-06T09:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 21.45,
-          "importance_score": 17.71,
+          "score": 19.89,
+          "importance_score": 19.78,
           "matched_keywords": [
-            "ai",
-            "모델"
+            "ai"
           ],
           "engagement": null
         }
@@ -121,52 +112,51 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "d7771256e54a6ae03b82cfb88bff6ef3",
-          "index": 5,
-          "title": "2akouwu/reverify — Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide:",
-          "title_ko": "2akouwu/reverify — 바이너리를 읽는 AI 에이전트를 위한 환각 방지. 모델은 제안하고 결정론적 도구는 다음을 결정합니다.",
-          "summary": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://github.com/2akouwu/reverify",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-05T03:28:17+09:00",
-          "popularity": 880,
-          "upvotes": 880,
-          "score": 35.46,
-          "importance_score": 31.19,
-          "matched_keywords": [
-            "ai",
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 880
-          }
-        },
-        {
           "id": "498770a81c9841a1225bc53f9b045a3d",
-          "index": 6,
+          "index": 5,
           "title": "Human-Agent-Society/reef — Continual learning infra for self-improving agents",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title_ko": "Human-Agent-Society/reef — 자기 개선 에이전트를 위한 지속적인 학습 인프라",
           "summary": "Continual learning infra for self-improving agents",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary_ko": "자기계발요원을 위한 지속적인 학습 인프라",
           "url": "https://github.com/Human-Agent-Society/reef",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-05T08:47:59+09:00",
-          "popularity": 421,
-          "upvotes": 421,
-          "score": 30.99,
-          "importance_score": 30.83,
+          "published_at": "2026-09-06T09:24:56+09:00",
+          "popularity": 481,
+          "upvotes": 481,
+          "score": 31.6,
+          "importance_score": 31.57,
           "matched_keywords": [
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 421
+            "value": 481
+          }
+        },
+        {
+          "id": "d7771256e54a6ae03b82cfb88bff6ef3",
+          "index": 6,
+          "title": "2akouwu/reverify — Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked ag",
+          "title_ko": "2akouwu/reverify - AI가 만들어내는 것을 중지합니다. AI가 제안하고, 결정론적 도구가 결정하고, 모든 주장을 확인합니다.",
+          "summary": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground.",
+          "summary_ko": "AI가 꾸며내는 일을 중단하세요. AI가 제안하고, 결정론적 도구가 결정하며, 모든 주장은 근거를 바탕으로 근거와 비교하여 확인됩니다. 근거 있는 사실과 맥락은 재설정 후에도 유지됩니다.",
+          "url": "https://github.com/2akouwu/reverify",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-09-05T19:55:25+09:00",
+          "popularity": 923,
+          "upvotes": 923,
+          "score": 31.07,
+          "importance_score": 28.23,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 923
           }
         }
       ]
@@ -176,24 +166,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "c11b1f308df3eb150ddada424333e3c8",
+          "id": "f58fedfac1248be84f46a89502067522",
           "index": 7,
-          "title": "OpenAI GPT-6 Astra 출시: 사이버보안 Critical 등급 첫 도달과 낮아진 CoT 모니터링 가능성",
+          "title": "Claude Commerce Agents: 쇼핑과 백오피스 에이전트를 한 번만 정의해 세 가지 방식으로 실행하는 참조 구현",
           "title_ko": null,
-          "summary": "GPT-6 Astra 소개 OpenAI 가 새로운 프런티어 모델 GPT-6 Astra 를 공개했습니다. 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 전반에서 최고 성능을 기록했고, FrontierMath Tier 4를 97.6%, ARC-AGI-3를 99.9%, ExploitBench를 100%로 사실상 포화시켰습니다.",
+          "summary": "Claude Commerce Agents 소개 쇼핑몰에 대화형 에이전트를 붙이는 일은 데모 단계까지는 어렵지 않습니다. 상품을 검색해 보여주고 비교해 주는 챗봇은 모델 하나와 검색 API 하나로도 만들어집니다. 문제는 그다음입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/openai-gpt-6-astra-critical-cot/11819",
+          "url": "https://discuss.pytorch.kr/t/claude-commerce-agents/11828",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-04T09:49:52+09:00",
-          "popularity": 96,
+          "published_at": "2026-09-05T18:00:24+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 20.65,
-          "importance_score": 9.7,
+          "score": 22.77,
+          "importance_score": 13.53,
           "matched_keywords": [
-            "ai",
-            "gpt",
+            "agent",
+            "claude",
             "모델"
           ],
           "engagement": null
@@ -203,172 +193,162 @@
   ],
   "items": [
     {
-      "id": "813565b31be852c241e262bd073c05fc",
+      "id": "cdf7a2308c094194e5231b0a1c3134ed",
       "index": 1,
-      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "Terminal-Universe reconstructs executable workspaces from agent trajectories to synthesize diverse training tasks and improves post-training performance through supervised fine-tuning.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://huggingface.co/papers/2609.04148",
-      "source": "Hugging Face Papers",
+      "title": "🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
+      "title_ko": "🔥AI 에이전트 주간: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA 구매 Hugging Face, Grok Bot Design, FrontierHarness Eval 등",
+      "summary": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
+      "summary_ko": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA, Hugging Face, Grok Bot Design, FrontierHarness Eval 등 구매",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-6-astra-claude",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-04T09:00:00+09:00",
-      "popularity": 426,
-      "upvotes": 213,
-      "score": 30.0,
-      "importance_score": 18.0,
+      "published_at": "2026-09-06T00:36:27+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 27.14,
+      "importance_score": 16.28,
       "matched_keywords": [
         "ai",
         "agent",
-        "fine-tuning",
-        "training"
+        "gpt",
+        "claude",
+        "gemini"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 213
-      }
+      "engagement": null
     },
     {
-      "id": "ad337bab181aafb76f5e23b5e6c8e3f4",
+      "id": "12654fca5d9a18fb30ede85b454d1bf1",
       "index": 2,
-      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "LLaDA-Image unifies a 6B diffusion transformer with a frozen vision-language module, using image-only pre-training and a Muon optimizer to generate photorealistic images with precise editing, and is distilled into a fas…",
-      "summary_ko": "LLaDA-Image는 6B 확산 변환기를 고정 비전 언어 모듈과 통합하고, 이미지 전용 사전 훈련과 Muon 최적화 프로그램을 사용하여 정확한 편집으로 사실적인 이미지를 생성하고, 빠른 형식으로 증류합니다.",
-      "url": "https://huggingface.co/papers/2609.03796",
-      "source": "Hugging Face Papers",
+      "title": "🥇Top AI Papers of the Week",
+      "title_ko": "🥇금주의 최고 AI 논문",
+      "summary": "The Top AI Papers of the Week (August 24 - 30)",
+      "summary_ko": "금주의 상위 AI 논문(8월 24일~30일)",
+      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-6e2",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-04T09:00:00+09:00",
-      "popularity": 402,
-      "upvotes": 196,
-      "score": 30.0,
-      "importance_score": 18.0,
+      "published_at": "2026-08-31T00:19:03+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 17.9,
+      "importance_score": 9.9,
       "matched_keywords": [
         "ai",
-        "transformer",
-        "diffusion",
-        "training"
+        "paper"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 196
-      }
+      "engagement": null
     },
     {
-      "id": "413be51859a0ef2a4fb3a47e62d3e2c1",
+      "id": "d6168d37d1e7a9aa85b7beaba4cdc30a",
       "index": 3,
-      "title": "[9월4일] 오픈AI가 '아스트라' 성능보다 안전 설명에 집중한 이유",
+      "title": "앤트로픽, '클로드 맥스' 주간 사용량 초기화…'아스트라' 돌풍에 맞불",
       "title_ko": null,
-      "summary": "오픈AI가 차세대 모델 ‘GPT-6 아스트라(Astra)’를 공개했습니다. 이번 발표에서 가장 눈에 띄는 것은 모델 성능보다 안전성에 대한 설명입니다.그동안 AI 모델 출시에서는 벤치마크 성적과 경쟁 모델 대비 성능 향상이 주로 관심을 받았습니다. 하지만 오픈AI는 아스트라 출시를 앞두고 별도의 안전성 테스트를 공개하고 관련 인터뷰에서도 안전 문제를 반복해서 설명했습니다.",
+      "summary": "앤트로픽이 신규 모델 공개와 미국 노동절 연휴를 맞아 최고 등급 유료 플랜인 \\'클로드 맥스(Claude Max)\\' 이용자 전원의 주간 사용량 제한을 기습적으로 일괄 초기화했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214841",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214898",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-05T07:00:00+09:00",
+      "published_at": "2026-09-06T09:04:44+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.46,
-      "importance_score": 18.92,
+      "score": 22.91,
+      "importance_score": 19.81,
       "matched_keywords": [
-        "ai",
-        "gpt",
+        "claude",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "9ceada369c45448dcb5875c9b6ce70e9",
+      "id": "ce78fa01ec320c61b4d20a7e31d3a6a5",
       "index": 4,
-      "title": "메타, AI 모델 '대화 데이터 수집' 동의하면 비용 90% 깎아준다",
+      "title": "얼굴로 입장하고 AI로 응원한다…KT위즈파크 'AI 야구장'",
       "title_ko": null,
-      "summary": "메타가 최신 인공지능(AI) 모델 개선을 위한 대화 데이터 제공에 동의한 이용자에게 요금을 90% 이상 할인한다. 이용자들의 데이터 활용 거부로 AI 학습·개발용 데이터 확보가 어려워지자 가격 혜택을 앞세워 데이터 수집에 나선 것으로 풀이된다. 5일 업계에 따르면 메타가 지난 2일(현지시간) 공개한 '뮤즈 스파크 1.3'의 이용 비용은 데이터 수집 동의 여부에 따라 다르다.",
+      "summary": "경기 수원KT위즈파크. 경기 시작을 앞두고 외야 전광판에 'AI 실시간 번역 중'이라는 문구가 떴다. 장내 아나운서가 선발 라인업을 소개하자 영어 자막이 곧바로 표시됐다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260904000243",
+      "url": "https://www.etnews.com/20260904000249",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-05T06:00:00+09:00",
-      "popularity": 92,
+      "published_at": "2026-09-06T09:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 21.45,
-      "importance_score": 17.71,
+      "score": 19.89,
+      "importance_score": 19.78,
       "matched_keywords": [
-        "ai",
-        "모델"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "d7771256e54a6ae03b82cfb88bff6ef3",
-      "index": 5,
-      "title": "2akouwu/reverify — Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide:",
-      "title_ko": "2akouwu/reverify — 바이너리를 읽는 AI 에이전트를 위한 환각 방지. 모델은 제안하고 결정론적 도구는 다음을 결정합니다.",
-      "summary": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://github.com/2akouwu/reverify",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-05T03:28:17+09:00",
-      "popularity": 880,
-      "upvotes": 880,
-      "score": 35.46,
-      "importance_score": 31.19,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 880
-      }
-    },
-    {
       "id": "498770a81c9841a1225bc53f9b045a3d",
-      "index": 6,
+      "index": 5,
       "title": "Human-Agent-Society/reef — Continual learning infra for self-improving agents",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_ko": "Human-Agent-Society/reef — 자기 개선 에이전트를 위한 지속적인 학습 인프라",
       "summary": "Continual learning infra for self-improving agents",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary_ko": "자기계발요원을 위한 지속적인 학습 인프라",
       "url": "https://github.com/Human-Agent-Society/reef",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-05T08:47:59+09:00",
-      "popularity": 421,
-      "upvotes": 421,
-      "score": 30.99,
-      "importance_score": 30.83,
+      "published_at": "2026-09-06T09:24:56+09:00",
+      "popularity": 481,
+      "upvotes": 481,
+      "score": 31.6,
+      "importance_score": 31.57,
       "matched_keywords": [
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 421
+        "value": 481
       }
     },
     {
-      "id": "c11b1f308df3eb150ddada424333e3c8",
+      "id": "d7771256e54a6ae03b82cfb88bff6ef3",
+      "index": 6,
+      "title": "2akouwu/reverify — Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked ag",
+      "title_ko": "2akouwu/reverify - AI가 만들어내는 것을 중지합니다. AI가 제안하고, 결정론적 도구가 결정하고, 모든 주장을 확인합니다.",
+      "summary": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground.",
+      "summary_ko": "AI가 꾸며내는 일을 중단하세요. AI가 제안하고, 결정론적 도구가 결정하며, 모든 주장은 근거를 바탕으로 근거와 비교하여 확인됩니다. 근거 있는 사실과 맥락은 재설정 후에도 유지됩니다.",
+      "url": "https://github.com/2akouwu/reverify",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-05T19:55:25+09:00",
+      "popularity": 923,
+      "upvotes": 923,
+      "score": 31.07,
+      "importance_score": 28.23,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 923
+      }
+    },
+    {
+      "id": "f58fedfac1248be84f46a89502067522",
       "index": 7,
-      "title": "OpenAI GPT-6 Astra 출시: 사이버보안 Critical 등급 첫 도달과 낮아진 CoT 모니터링 가능성",
+      "title": "Claude Commerce Agents: 쇼핑과 백오피스 에이전트를 한 번만 정의해 세 가지 방식으로 실행하는 참조 구현",
       "title_ko": null,
-      "summary": "GPT-6 Astra 소개 OpenAI 가 새로운 프런티어 모델 GPT-6 Astra 를 공개했습니다. 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 전반에서 최고 성능을 기록했고, FrontierMath Tier 4를 97.6%, ARC-AGI-3를 99.9%, ExploitBench를 100%로 사실상 포화시켰습니다.",
+      "summary": "Claude Commerce Agents 소개 쇼핑몰에 대화형 에이전트를 붙이는 일은 데모 단계까지는 어렵지 않습니다. 상품을 검색해 보여주고 비교해 주는 챗봇은 모델 하나와 검색 API 하나로도 만들어집니다. 문제는 그다음입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/openai-gpt-6-astra-critical-cot/11819",
+      "url": "https://discuss.pytorch.kr/t/claude-commerce-agents/11828",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-04T09:49:52+09:00",
-      "popularity": 96,
+      "published_at": "2026-09-05T18:00:24+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 20.65,
-      "importance_score": 9.7,
+      "score": 22.77,
+      "importance_score": 13.53,
       "matched_keywords": [
-        "ai",
-        "gpt",
+        "agent",
+        "claude",
         "모델"
       ],
       "engagement": null
