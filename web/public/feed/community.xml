@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 04:39:38 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 07:35:28 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic, Claude Code 시스템 프롬프트 80% 삭제: Claude 5 세대 컨텍스트 엔지니어링 규칙 6가지</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-claude-code-80-claude-5-6/11845</link>
+      <description>Claude 5 세대를 위한 컨텍스트 엔지니어링 규칙 소개 Anthropic 은 Claude Code 의 시스템 프롬프트에서 80% 이상을 덜어내고도 자사 코딩 평가에서 측정 가능한 성능 손실이 없었다고 밝혔습니다.</description>
+      <pubDate>Tue, 08 Sep 2026 07:00:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-claude-code-80-claude-5-6/11845">PyTorch Korea</source>
+      <guid isPermaLink="false">cbb0bb02e64434d0bdf21b806b1871ce</guid>
+    </item>
     <item>
       <title>Reef: 에이전트가 서비스되는 동안 모델 가중치와 하네스를 계속 갱신하는 지속 학습 인프라</title>
       <link>https://discuss.pytorch.kr/t/reef/11830</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/z-ai-glm-5-2-1-10-glm-5-3-flash/11733">PyTorch Korea</source>
       <guid isPermaLink="false">6b2d79fa37fb3770d787ffed20a8c058</guid>
-    </item>
-    <item>
-      <title>Qwen3.8-Flash-Next, 1/9의 학습 비용으로 Qwen3.7-Plus(397B-A17B) 수준에 도달한 125B-A6B 모델</title>
-      <link>https://discuss.pytorch.kr/t/qwen3-8-flash-next-1-9-qwen3-7-plus-397b-a17b-125b-a6b/11730</link>
-      <description>Qwen3.8-Flash-Next 소개 Qwen 팀 이 2026년 8월 26일에 공개한 Qwen3.8-Flash-Next 는 전체 1250억(125B) 파라미터 중 토큰당 60억(6B)만 활성화하는 멀티모달 전문가 혼합(Mixture of Experts, MoE) 모델이며, 동시에 아직 발표되지 않은 Qwen4 계열이 올라탈 아키텍처를 먼저 떼어내 공개한 실험적 프리뷰입니다.</description>
-      <pubDate>Thu, 27 Aug 2026 15:30:43 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/qwen3-8-flash-next-1-9-qwen3-7-plus-397b-a17b-125b-a6b/11730">PyTorch Korea</source>
-      <guid isPermaLink="false">76ab61ecec403884ac87346cc004ac9a</guid>
     </item>
   </channel>
 </rss>
