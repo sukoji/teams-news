@@ -5,9 +5,99 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 07 Sep 2026 09:38:52 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 12:26:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>아이리스: 수색의 최전선을 오르다</title>
+      <link>https://huggingface.co/papers/2609.04304</link>
+      <description>두 개의 대규모 검색 에이전트는 실시간 검색에 대한 감독 미세 조정 및 강화 학습을 결합한 다단계 파이프라인을 통해 훈련되어 복잡한 웹 벤치마에서 최첨단 오픈 소스 결과를 달성합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04304">Hugging Face Papers</source>
+      <guid isPermaLink="false">5f63540bfefb7ea90662b59976e2dd17</guid>
+    </item>
+    <item>
+      <title>MaxKernel: TPU용 에이전트 커널 생성</title>
+      <link>https://huggingface.co/papers/2609.04523</link>
+      <description>MaxKernel은 협업, 자율 및 그래프 기반 검색 패러다임을 통해 TPU 커널 개발을 자동화하여 다양한 벤치마크에서 전문가 수준의 성능을 달성하는 다중 에이전트 시스템입니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04523">Hugging Face Papers</source>
+      <guid isPermaLink="false">b7104a345e1117910a0c290318710607</guid>
+    </item>
+    <item>
+      <title>최적화하기 전에 묻기: 대화형 최적화를 위한 동적 사전 공식 설명</title>
+      <link>https://huggingface.co/papers/2609.05258</link>
+      <description>OR-최적화 모델링 전에 벤치마크를 명확하게 설명하고 InterOPT는 에이전트가 누락된 공식에 중요한 세부 사항을 기반으로 질문하거나 중지하도록 안내합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05258">Hugging Face Papers</source>
+      <guid isPermaLink="false">fb53487f48e396bea863b5decd321da4</guid>
+    </item>
+    <item>
+      <title>모델이 너무 많이 편집할 때: 최소한의 코드 편집의 충실도에 대하여</title>
+      <link>https://huggingface.co/papers/2609.04061</link>
+      <description>대규모 언어 모델은 수리 중에 코드를 과도하게 편집하는 경우가 많지만 보존 지침 및 강화 학습은 정확성을 희생하지 않고 편집 충실도를 향상시킬 수 있습니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04061">Hugging Face Papers</source>
+      <guid isPermaLink="false">a2b4f031af9c29f36740f1d4b284b5eb</guid>
+    </item>
+    <item>
+      <title>양자화가 메모리를 손상시키는 경우: 낮은 정밀도 시간 추론의 반복 상태 후기입</title>
+      <link>https://huggingface.co/papers/2609.04490</link>
+      <description>양자화된 반복 추론은 작은 업데이트를 억제하는 상태 쓰기 되돌림 규칙으로 인해 어려움을 겪지만 GRU 및 LSTM 아키텍처 전반에 걸쳐 재교육 없이 오류 피드백 및 잔여 메모리 복원 정확도가 저하됩니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04490">Hugging Face Papers</source>
+      <guid isPermaLink="false">5f25431598ec697f76d9f3965157bebe</guid>
+    </item>
+    <item>
+      <title>드롭아웃을 중단하지 마세요: 효율적인 LLM 교육 및 추론을 위한 레이어 희소성 최적화</title>
+      <link>https://huggingface.co/papers/2609.05275</link>
+      <description>레이어 드롭아웃은 대규모 언어 모델 훈련 효율성을 향상시키고 정확성을 희생하지 않고도 조기 종료 및 추론적 디코딩을 통해 더 빠른 추론을 가능하게 합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05275">Hugging Face Papers</source>
+      <guid isPermaLink="false">42e329554daa8ab403870dd61f96691a</guid>
+    </item>
+    <item>
+      <title>그룹 적응형 클리핑 정책 최적화</title>
+      <link>https://huggingface.co/papers/2609.00444</link>
+      <description>GAPO는 롤아웃 이점을 기반으로 중요도 샘플링 클리핑 임계값을 적응적으로 조정하여 검증 가능한 보상으로 강화 학습에서 성공률이 낮은 그룹의 더 강한 기울기 신호를 보존합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.00444">Hugging Face Papers</source>
+      <guid isPermaLink="false">1b58d051f36dc4512864d89c8dbd6dba</guid>
+    </item>
+    <item>
+      <title>RISE: 자체 외삽 정책 증류를 통한 재귀적 개선</title>
+      <link>https://huggingface.co/papers/2609.05295</link>
+      <description>RISE는 외부 교사를 피하면서 자체 외삽을 통해 모델 자체의 강화 학습 궤적에서 조밀한 토큰 수준 감독을 반복적으로 생성하여 언어 모델 사후 학습을 개선합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05295">Hugging Face Papers</source>
+      <guid isPermaLink="false">b062cc7ef0b3abb70d53639c461ac6b2</guid>
+    </item>
+    <item>
+      <title>Motion-Omni: 음성 대화를 위한 종단 간 합동 연설 및 전신 동작</title>
+      <link>https://huggingface.co/papers/2609.04250</link>
+      <description>Motion-Omni는 확장 가능한 의사 라벨링과 통합 평가 프로토콜을 사용하여 공유된 숨겨진 상태에서 음성 대화와 전신 공동 음성 모션을 공동으로 생성하는 엔드 투 엔드 프레임워크입니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04250">Hugging Face Papers</source>
+      <guid isPermaLink="false">fe9553dacb1ddd4280771210d35d80a7</guid>
+    </item>
+    <item>
+      <title>WorldSculpt: 접지된 비디오에서 합성 세계 생성</title>
+      <link>https://huggingface.co/papers/2609.05416</link>
+      <description>다중 뷰 관찰에 앞서 단일 객체 3D 생성을 적용하면 폐색이 심하고 조밀하게 어수선한 장면의 확장 가능한 구성 메시 재구성이 가능합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05416">Hugging Face Papers</source>
+      <guid isPermaLink="false">527c95c8862387b3d810710e82a0f1c3</guid>
+    </item>
     <item>
       <title>🥇금주의 최고 AI 논문</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ca0</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.02496">Hugging Face Papers</source>
       <guid isPermaLink="false">4a1686770325065d004bd2beb65d1cab</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.00474</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.00474">Hugging Face Papers</source>
-      <guid isPermaLink="false">d1342a42df9553835acc90eef4536fce</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.30322</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.30322">Hugging Face Papers</source>
-      <guid isPermaLink="false">f33af59390ba141bb1db74bc91711de0</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.00377</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.00377">Hugging Face Papers</source>
-      <guid isPermaLink="false">46ba1ac7f37d0e2c4645fe5ad7191ce4</guid>
-    </item>
-    <item>
-      <title>자동회귀 모자이크: 텍스트 전용 언어 모델에서 2D 공간 추론 조사</title>
-      <link>https://huggingface.co/papers/2608.30751</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.30751">Hugging Face Papers</source>
-      <guid isPermaLink="false">23d58e4992259f4a288a9b169f256580</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.29692</link>
-      <description>분포 가치를 고려한 기업 특성과 임베딩 기반 표현을 사용하는 프레임워크는 포트폴리오 변동에 대한 계산 가능한 상한을 제공하고 자산 간 공분산 없이 낮은 변동 할당을 생성합니다.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29692">Hugging Face Papers</source>
-      <guid isPermaLink="false">b3d379d3a796556c8c60fbf99a755127</guid>
-    </item>
-    <item>
-      <title>공간 요인 모델에 대한 Wasserstein-Barycentric 상호 작용 필드: 언어 모델 표현의 증거</title>
-      <link>https://huggingface.co/papers/2608.29669</link>
-      <description>Wasserstein barycenters를 통해 재구성된 언어 모델 임베딩 필드는 기존 가중치 체계보다 동료 불일치 페널티를 더 정확하게 예측합니다.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29669">Hugging Face Papers</source>
-      <guid isPermaLink="false">41317823ef55d99ade37f5b8fd849704</guid>
-    </item>
-    <item>
-      <title>Repo-To-Skill: GitHub 리포지토리를 AI4AI 기술로 추출</title>
-      <link>https://huggingface.co/papers/2609.02749</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.02749">Hugging Face Papers</source>
-      <guid isPermaLink="false">4b0e701a80ec298fae3d5fedcf9ef4d2</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.31111</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.31111">Hugging Face Papers</source>
-      <guid isPermaLink="false">595a7afb3b5487d038817c20b919e6c5</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.01437</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.01437">Hugging Face Papers</source>
-      <guid isPermaLink="false">1e64ddac3194cfe6d27890db9b462191</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2608.29607</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.29607">Hugging Face Papers</source>
-      <guid isPermaLink="false">a34c5cff8dc3eb9b2044cba9484ce8f6</guid>
     </item>
   </channel>
 </rss>
