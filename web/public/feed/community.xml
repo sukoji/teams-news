@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 07 Sep 2026 12:26:34 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 18:02:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenAI가 공개한 GPT-6 Astra 공식 활용 가이드: 자주 되묻는 모델을 끝까지 일하게 하는 프롬프팅과 마이그레이션</title>
+      <link>https://discuss.pytorch.kr/t/openai-gpt-6-astra/11846</link>
+      <description>GPT-6 Astra 모델 가이드 소개 OpenAI 가 GPT-6 Astra 출시와 함께 개발자 문서 사이트에 Astra 전용 공식 활용 가이드(Model Guidance)를 공개했습니다.</description>
+      <pubDate>Mon, 07 Sep 2026 13:00:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-gpt-6-astra/11846">PyTorch Korea</source>
+      <guid isPermaLink="false">6de6c1cd639680890181b5efd6f42407</guid>
+    </item>
+    <item>
+      <title>LightNav-0: 깊이 센서 없이 전방 RGB 카메라 하나로 여러 로봇을 움직이는 4B 내비게이션 모델</title>
+      <link>https://discuss.pytorch.kr/t/lightnav-0-rgb-4b/11837</link>
+      <description>LightNav-0 소개 로봇에게 "앞쪽 왼편 벤치로 가서 멈춰"라고 말하는 일은 사람에게는 한 문장이지만, 로봇 쪽에서는 서로 다른 부품 여러 개를 거쳐야 하는 작업입니다. 지금까지의 내비게이션 시스템은 지시를 따라가는 작업, 이름만 주어진 물체를 찾는 작업, 움직이는 대상을 쫓는 작업마다 별도의 예측 헤드나 전용 모듈을 두었고, 로봇의 몸체가 바뀌면 그 부품을 다시 맞춰야 했습니다.</description>
+      <pubDate>Mon, 07 Sep 2026 16:00:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/lightnav-0-rgb-4b/11837">PyTorch Korea</source>
+      <guid isPermaLink="false">13e11e91f5d500cf89ab18a63ee6ce8d</guid>
+    </item>
+    <item>
+      <title>hayamimi: GPU와 클라우드 없이 CPU만으로 실시간 다국어 자막을 만드는 음성 인식 도구</title>
+      <link>https://discuss.pytorch.kr/t/hayamimi-gpu-cpu/11798</link>
+      <description>hayamimi 소개 회의나 방송을 실시간으로 받아 적어야 하는 상황에서 지금 선택할 수 있는 길은 대체로 두 가지입니다. 하나는 클라우드 음성 인식(Speech Recognition, ASR) API를 붙여 분당 요금을 내는 것이고, 다른 하나는 Whisper 계열 모델을 로컬에 올려 GPU에서 실행하는 것입니다. 두 번째 길에서 GPU를 뺄 수 없다는 점이 문제가 됩니다.</description>
+      <pubDate>Mon, 07 Sep 2026 12:30:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/hayamimi-gpu-cpu/11798">PyTorch Korea</source>
+      <guid isPermaLink="false">49770f6384b27789d7fa75c5275fbc6d</guid>
+    </item>
     <item>
       <title>[2026/08/31 ~ 09/06] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-08-31-09-06-ai-ml/11840</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/vibe-research-ai/11726">PyTorch Korea</source>
       <guid isPermaLink="false">a22fc8071c62bef89420a7befa964ba3</guid>
-    </item>
-    <item>
-      <title>Cordis: 플러그인을 재시작 없이 넣고 빼기 위한 시공간 조합성 프로그래밍 패러다임에 대한 연구 (feat. DeepSeekAI)</title>
-      <link>https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689</link>
-      <description>Cordis 논문, 'Programming Paradigm for Spatiotemporal Composability' 소개 플러그인 아키텍처와 스스로를 수정하는 에이전트 하네스(Agent Harness)는 모두 실행 중에 기능을 안전하게 넣고 빼야 하는 소프트웨어입니다.</description>
-      <pubDate>Thu, 27 Aug 2026 07:30:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cordis-feat-deepseekai/11689">PyTorch Korea</source>
-      <guid isPermaLink="false">dc49e3052d30c5468622aa53f735ac5f</guid>
-    </item>
-    <item>
-      <title>APEX: KV 캐시 압축을 어텐션 연산 경로에 넣고 FPGA로 검증한 오픈소스 LLM 추론 타일</title>
-      <link>https://discuss.pytorch.kr/t/apex-kv-fpga-llm/11707</link>
-      <description>APEX 소개 대화가 길어질수록 LLM 추론(Inference)에서 비싸지는 것은 연산이 아니라 기억입니다. 지금까지 읽은 모든 토큰의 키와 값을 KV 캐시(KV Cache)에 저장해 두고 새 토큰마다 전부 다시 읽어야 하므로, 컨텍스트가 늘어나면 추론 엔진은 점점 계산기가 아니라 메모리 전송 장치에 가까워집니다. 대부분의 가속기는 이 문제를 소프트웨어 쪽으로 넘깁니다.</description>
-      <pubDate>Wed, 26 Aug 2026 21:30:24 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/apex-kv-fpga-llm/11707">PyTorch Korea</source>
-      <guid isPermaLink="false">a83a385d54b2e869d64d31867e285890</guid>
-    </item>
-    <item>
-      <title>Zetta: VLA 재학습 없이 실행 중 실패를 감지하고 복구하는 로봇 에이전트 하네스</title>
-      <link>https://discuss.pytorch.kr/t/zetta-vla/11712</link>
-      <description>Zetta 소개 로봇에게 일상 작업을 시키는 연구는 크게 두 갈래로 나뉘어 발전해 왔습니다. 하나는 시각-언어-행동(Vision-Language-Action, VLA) 모델처럼 정책(Policy) 모델 자체를 키우는 쪽이고, 다른 하나는 대형 언어 모델을 에이전트로 세워 정책 모델과 코드, 도구를 지휘하게 하는 쪽입니다. 두 번째 갈래에서 반복해서 걸리는 문제는 실행이 시작된 다음의 공백입…</description>
-      <pubDate>Wed, 26 Aug 2026 18:30:43 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/zetta-vla/11712">PyTorch Korea</source>
-      <guid isPermaLink="false">b5ee025470afeb3955fea326cd521f1b</guid>
     </item>
   </channel>
 </rss>
