@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 09 Sep 2026 06:39:26 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 08:55:07 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>페르마의 마지막 정리, Claude가 11일 만에 Lean으로 작성한 첫 컴퓨터 검증 증명 (≠ 새로운 증명 발견)</title>
+      <link>https://discuss.pytorch.kr/t/claude-11-lean/11861</link>
+      <description>페르마의 마지막 정리 형식화 소개 Anthropic 이 페르마의 마지막 정리(Fermat's Last Theorem, FLT) 의 첫 완전 기계 검증(Machine-checked) 증명을 공개했습니다. Claude가 11일 동안 대부분 자율적으로 작업해 Lean 언어로 증명을 작성했고, 그 과정에서 Lean 코드 1,300만 줄과 중간 정리 29,500개를 만들었습니다.</description>
+      <pubDate>Wed, 09 Sep 2026 07:00:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-11-lean/11861">PyTorch Korea</source>
+      <guid isPermaLink="false">aef90f0ed777de1055f489e37dbf1c5b</guid>
+    </item>
     <item>
       <title>my-free-code: Claude Code와 Codex 등 코딩 에이전트 9종이 모델 설정을 공유하는 로컬 게이트웨이</title>
       <link>https://discuss.pytorch.kr/t/my-free-code-claude-code-codex-9/11843</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/eu-ai-act-gemini-3-gemma-4-0/11745">PyTorch Korea</source>
       <guid isPermaLink="false">48ed1f8c45d3c61efccd7be2a42f68ea</guid>
-    </item>
-    <item>
-      <title>Agent Switch: 기존 메신저에서 사람과 AI 에이전트를 함께 운영하는 인프라</title>
-      <link>https://discuss.pytorch.kr/t/agent-switch-ai/11738</link>
-      <description>Agent Switch 소개 Agent Switch는 팀이 이미 쓰는 Slack , Microsoft Teams , Discord , Telegram , Mattermost 안에서 사람과 AI 에이전트가 함께 일할 수 있도록 만드는 자체 호스팅(self-hosted) 협업 인프라 프로젝트입니다. 새 메신저로 옮기는 대신, 기존 채널에 에이전트와 작업 맥락을 연결하는 방식을 택합니다.</description>
-      <pubDate>Fri, 28 Aug 2026 12:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agent-switch-ai/11738">PyTorch Korea</source>
-      <guid isPermaLink="false">77d42f78e2b75c93bbd6bb174d505086</guid>
     </item>
   </channel>
 </rss>
