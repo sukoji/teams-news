@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-07",
-  "generated_at": "2026-09-07T09:38:52.505728+09:00",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T09:53:17.653420+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,51 +10,59 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "cdf7a2308c094194e5231b0a1c3134ed",
+          "id": "e70b69de774232aae2bbe796ccd56a19",
           "index": 1,
-          "title": "🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-6-astra-claude",
-          "source": "Elvis AI Newsletter",
+          "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+          "title_ko": "Claw 박사: Vibe 연구를 위한 AI 과학자 작업 공간",
+          "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments…",
+          "summary_ko": "명령줄 코딩 에이전트(예: Claude Code, Gemini CLI)는 이미 파일을 읽고 쓸 수 있으며 긴 세션을 유지할 수 있지만 엔드투엔드 연구는 여전히 채팅 도구, IDE, 터미널 및 작성 환경 전반에 걸쳐 단편화되어 있습니다.",
+          "url": "https://huggingface.co/papers/2609.00365",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-06T00:36:27+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 23.9,
-          "importance_score": 9.9,
+          "published_at": "2026-09-07T09:00:00+09:00",
+          "popularity": 1079,
+          "upvotes": 8,
+          "score": 32.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
             "agent",
-            "gpt",
+            "rag",
             "claude",
             "gemini"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 8
+          }
         },
         {
-          "id": "6e9e29f7d813478bc8269980f1322ed1",
+          "id": "5f63540bfefb7ea90662b59976e2dd17",
           "index": 2,
-          "title": "🥇Top AI Papers of the Week",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "The Top AI Papers of the Week (August 31 - September 6)",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ca0",
-          "source": "Elvis AI Newsletter",
+          "title": "Iris: Climbing to the Search Frontier",
+          "title_ko": "아이리스: 수색의 최전선을 오르다",
+          "summary": "Two large-scale search agents are trained via a multi-stage pipeline combining supervised fine-tuning and reinforcement learning against live search, achieving state-of-the-art open-source results on complex web benchma…",
+          "summary_ko": "두 개의 대규모 검색 에이전트는 실시간 검색에 대한 감독 미세 조정 및 강화 학습을 결합한 다단계 파이프라인을 통해 교육되어 복잡한 웹 벤치마에서 최첨단 오픈 소스 결과를 달성합니다.",
+          "url": "https://huggingface.co/papers/2609.04304",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-07T00:04:17+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 21.0,
-          "importance_score": 16.01,
+          "published_at": "2026-09-07T09:00:00+09:00",
+          "popularity": 152,
+          "upvotes": 50,
+          "score": 27.09,
+          "importance_score": 15.09,
           "matched_keywords": [
             "ai",
-            "paper"
+            "agent",
+            "fine-tuning",
+            "reinforcement learning"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 50
+          }
         }
       ]
     },
@@ -63,43 +71,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "052e5c7e18e727217af24f36126ed4e4",
+          "id": "9839dfd4465030d64df47fd2dca99261",
           "index": 3,
-          "title": "MS, AI 개발자 전용 윈도우 11 ‘프로젝트 제니스’ 공개… \"30B 모델 로컬 실행\"",
+          "title": "[9월7일] “일주일에 4개나 출시”...커지는 ‘모델 피로감’",
           "title_ko": null,
-          "summary": "마이크로소프트(MS)가 AI 개발자를 겨냥해 불필요한 설정과 기능을 줄이고 개발 도구와 AI 실행 환경을 사전 구성한 윈도우11 기반 ‘프로젝트 제니스(Project Zenith)’를 공개했다.",
+          "summary": "지난주에는 불과 일주일 사이 앤트로픽의 페이블 5.1, 메타의 뮤즈 스파크 1.3, 구글의 제미나이 3.8 플래시, 오픈AI의 GPT-6 아스트라까지 주요 AI 기업들이 잇달아 핵심 모델을 내놨습니다. 그런데 새로운 모델이 나올 때마다 시장이 환호하기보다 “또 나왔네”라는 반응을 보이는 현상도 나타나고 있습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=214904",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=214925",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-06T16:26:59+09:00",
+          "published_at": "2026-09-08T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.42,
-          "importance_score": 12.83,
+          "score": 25.4,
+          "importance_score": 18.8,
           "matched_keywords": [
             "ai",
+            "gpt",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "e9211ea3e1588e9003600b96a82da2a8",
+          "id": "27fdd11dea70a6fed4e1268bcb26dc91",
           "index": 4,
-          "title": "[IFA2026] 다이슨 “한국서 검증한 AS 정책, 글로벌 시장으로”",
+          "title": "[최경진의 未來法道] 기술 대혁신 시대, 법은 무엇을 '패치'해야 하나",
           "title_ko": null,
-          "summary": "다이슨이 한국에서 시험·고도화한 고객서비스 모델을 글로벌 시장으로 확대한다. 수리 기간 제품 무상 대여부터 빠른 수리, 판매·서비스 결합까지 한국에서 검증한 방식을 글로벌 고객지원 체계에 적용한다.",
+          "summary": "[지디넷코리아]우리는 현재를 살고 있지만, 미래를 향해 나아가고 있다. 문제는 방향이 아니라 속도다. 파운데이션 모델은 몇 달 단위로 세대를 갈아치우고, 데이터는 국경을 모른 채 흐르며, 로봇은 공장 담장을 넘어 일상으로 들어오고 있다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260906000092",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20260907214619",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-07T09:03:16+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-08T05:00:01+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 19.88,
-          "importance_score": 19.75,
+          "score": 18.48,
+          "importance_score": 17.46,
           "matched_keywords": [
             "모델"
           ],
@@ -112,52 +121,54 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "b8b46e29a1e5db2e28c42f1abfd976b5",
-          "index": 5,
-          "title": "kydlikebtc/awesome-grokbot — 598 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual E",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "598 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://github.com/kydlikebtc/awesome-grokbot",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-06T23:05:49+09:00",
-          "popularity": 328,
-          "upvotes": 328,
-          "score": 28.09,
-          "importance_score": 25.89,
-          "matched_keywords": [
-            "ai"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 328
-          }
-        },
-        {
           "id": "7ec1e0ef366eb5984d8275a98f8abcf8",
-          "index": 6,
+          "index": 5,
           "title": "Agenta-AI/awesome-ai-agent-platforms — A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and fra",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title_ko": "Agenta-AI/awesome-ai-agent-platforms — 선별된 오픈 소스 AI 에이전트 플랫폼 목록: AI 동료 및 팀원, 에이전트 빌더 및 프레임",
           "summary": "A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and frameworks, workflow automation platforms, browser agents, and coding agents, with licenses.",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary_ko": "큐레이트된 오픈 소스 AI 에이전트 플랫폼 목록: AI 동료 및 팀원, 에이전트 빌더 및 프레임워크, 워크플로 자동화 플랫폼, 브라우저 에이전트, 코딩 에이전트(라이센스 포함).",
           "url": "https://github.com/Agenta-AI/awesome-ai-agent-platforms",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-09-04T01:17:23+09:00",
-          "popularity": 229,
-          "upvotes": 229,
-          "score": 27.03,
-          "importance_score": 19.03,
+          "popularity": 263,
+          "upvotes": 263,
+          "score": 27.52,
+          "importance_score": 19.52,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 229
+            "value": 263
+          }
+        },
+        {
+          "id": "d36ff5a437bd0c2732e0d500b1aa9a3d",
+          "index": 6,
+          "title": "michailfragkiskos/EdgeMosaic — Rapid on-device AI evaluation lab: manifest validation, benchmark plans, latency/memory/thermal aggr",
+          "title_ko": "michailfragkiskos/EdgeMosaic — 신속한 온디바이스 AI 평가 랩: 매니페스트 검증, 벤치마크 계획, 대기 시간/메모리/열 Aggr",
+          "summary": "Rapid on-device AI evaluation lab: manifest validation, benchmark plans, latency/memory/thermal aggregation, JSON+Markdown reports.",
+          "summary_ko": "신속한 온디바이스 AI 평가 랩: 매니페스트 검증, 벤치마크 계획, 대기 시간/메모리/열 집계, JSON+Markdown 보고서.",
+          "url": "https://github.com/michailfragkiskos/EdgeMosaic",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-09-05T01:58:19+09:00",
+          "popularity": 28,
+          "upvotes": 28,
+          "score": 22.79,
+          "importance_score": 11.79,
+          "matched_keywords": [
+            "ai",
+            "rag",
+            "benchmark"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 28
           }
         }
       ]
@@ -167,23 +178,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "e67f7fb17458177b6d4cbe43376b2265",
+          "id": "6de6c1cd639680890181b5efd6f42407",
           "index": 7,
-          "title": "[2026/08/31 ~ 09/06] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+          "title": "OpenAI가 공개한 GPT-6 Astra 공식 활용 가이드: 자주 되묻는 모델을 끝까지 일하게 하는 프롬프팅과 마이그레이션",
           "title_ko": null,
-          "summary": "PyTorchKR​ 이번 주 선정된 논문들을 살펴본 결과, 다음과 같은 주요 트렌드를 확인할 수 있었습니다: 단순 생성을 넘어서는 장기 지평 및 복잡한 과제 해결 : 이번 주 선정된 논문들을 살펴보면, 대규모 언어 모델이 단발성 답변을 넘어서 장기간에 걸쳐 복잡한 작업을 수행하는 에이전트로 진화하고 있습니다.",
+          "summary": "GPT-6 Astra 모델 가이드 소개 OpenAI 가 GPT-6 Astra 출시와 함께 개발자 문서 사이트에 Astra 전용 공식 활용 가이드(Model Guidance)를 공개했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/2026-08-31-09-06-ai-ml/11840",
+          "url": "https://discuss.pytorch.kr/t/openai-gpt-6-astra/11846",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-07T06:30:05+09:00",
-          "popularity": 99,
+          "published_at": "2026-09-07T13:00:26+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 22.24,
-          "importance_score": 18.59,
+          "score": 21.15,
+          "importance_score": 10.8,
           "matched_keywords": [
             "ai",
+            "gpt",
             "모델"
           ],
           "engagement": null
@@ -193,162 +205,174 @@
   ],
   "items": [
     {
-      "id": "cdf7a2308c094194e5231b0a1c3134ed",
+      "id": "e70b69de774232aae2bbe796ccd56a19",
       "index": 1,
-      "title": "🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-6-astra-claude",
-      "source": "Elvis AI Newsletter",
+      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+      "title_ko": "Claw 박사: Vibe 연구를 위한 AI 과학자 작업 공간",
+      "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments…",
+      "summary_ko": "명령줄 코딩 에이전트(예: Claude Code, Gemini CLI)는 이미 파일을 읽고 쓸 수 있으며 긴 세션을 유지할 수 있지만 엔드투엔드 연구는 여전히 채팅 도구, IDE, 터미널 및 작성 환경 전반에 걸쳐 단편화되어 있습니다.",
+      "url": "https://huggingface.co/papers/2609.00365",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-06T00:36:27+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 23.9,
-      "importance_score": 9.9,
+      "published_at": "2026-09-07T09:00:00+09:00",
+      "popularity": 1079,
+      "upvotes": 8,
+      "score": 32.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
         "agent",
-        "gpt",
+        "rag",
         "claude",
         "gemini"
       ],
-      "engagement": null
-    },
-    {
-      "id": "6e9e29f7d813478bc8269980f1322ed1",
-      "index": 2,
-      "title": "🥇Top AI Papers of the Week",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "The Top AI Papers of the Week (August 31 - September 6)",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-ca0",
-      "source": "Elvis AI Newsletter",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-07T00:04:17+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 21.0,
-      "importance_score": 16.01,
-      "matched_keywords": [
-        "ai",
-        "paper"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "052e5c7e18e727217af24f36126ed4e4",
-      "index": 3,
-      "title": "MS, AI 개발자 전용 윈도우 11 ‘프로젝트 제니스’ 공개… \"30B 모델 로컬 실행\"",
-      "title_ko": null,
-      "summary": "마이크로소프트(MS)가 AI 개발자를 겨냥해 불필요한 설정과 기능을 줄이고 개발 도구와 AI 실행 환경을 사전 구성한 윈도우11 기반 ‘프로젝트 제니스(Project Zenith)’를 공개했다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=214904",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-06T16:26:59+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 19.42,
-      "importance_score": 12.83,
-      "matched_keywords": [
-        "ai",
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "e9211ea3e1588e9003600b96a82da2a8",
-      "index": 4,
-      "title": "[IFA2026] 다이슨 “한국서 검증한 AS 정책, 글로벌 시장으로”",
-      "title_ko": null,
-      "summary": "다이슨이 한국에서 시험·고도화한 고객서비스 모델을 글로벌 시장으로 확대한다. 수리 기간 제품 무상 대여부터 빠른 수리, 판매·서비스 결합까지 한국에서 검증한 방식을 글로벌 고객지원 체계에 적용한다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20260906000092",
-      "source": "전자신문 IT",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-07T09:03:16+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 19.88,
-      "importance_score": 19.75,
-      "matched_keywords": [
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "b8b46e29a1e5db2e28c42f1abfd976b5",
-      "index": 5,
-      "title": "kydlikebtc/awesome-grokbot — 598 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual E",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "598 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://github.com/kydlikebtc/awesome-grokbot",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-06T23:05:49+09:00",
-      "popularity": 328,
-      "upvotes": 328,
-      "score": 28.09,
-      "importance_score": 25.89,
-      "matched_keywords": [
-        "ai"
-      ],
       "engagement": {
-        "label": "Stars",
-        "value": 328
+        "label": "Upvotes",
+        "value": 8
       }
     },
     {
+      "id": "5f63540bfefb7ea90662b59976e2dd17",
+      "index": 2,
+      "title": "Iris: Climbing to the Search Frontier",
+      "title_ko": "아이리스: 수색의 최전선을 오르다",
+      "summary": "Two large-scale search agents are trained via a multi-stage pipeline combining supervised fine-tuning and reinforcement learning against live search, achieving state-of-the-art open-source results on complex web benchma…",
+      "summary_ko": "두 개의 대규모 검색 에이전트는 실시간 검색에 대한 감독 미세 조정 및 강화 학습을 결합한 다단계 파이프라인을 통해 교육되어 복잡한 웹 벤치마에서 최첨단 오픈 소스 결과를 달성합니다.",
+      "url": "https://huggingface.co/papers/2609.04304",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-07T09:00:00+09:00",
+      "popularity": 152,
+      "upvotes": 50,
+      "score": 27.09,
+      "importance_score": 15.09,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "fine-tuning",
+        "reinforcement learning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 50
+      }
+    },
+    {
+      "id": "9839dfd4465030d64df47fd2dca99261",
+      "index": 3,
+      "title": "[9월7일] “일주일에 4개나 출시”...커지는 ‘모델 피로감’",
+      "title_ko": null,
+      "summary": "지난주에는 불과 일주일 사이 앤트로픽의 페이블 5.1, 메타의 뮤즈 스파크 1.3, 구글의 제미나이 3.8 플래시, 오픈AI의 GPT-6 아스트라까지 주요 AI 기업들이 잇달아 핵심 모델을 내놨습니다. 그런데 새로운 모델이 나올 때마다 시장이 환호하기보다 “또 나왔네”라는 반응을 보이는 현상도 나타나고 있습니다.",
+      "summary_ko": null,
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=214925",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-08T07:00:00+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 25.4,
+      "importance_score": 18.8,
+      "matched_keywords": [
+        "ai",
+        "gpt",
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "27fdd11dea70a6fed4e1268bcb26dc91",
+      "index": 4,
+      "title": "[최경진의 未來法道] 기술 대혁신 시대, 법은 무엇을 '패치'해야 하나",
+      "title_ko": null,
+      "summary": "[지디넷코리아]우리는 현재를 살고 있지만, 미래를 향해 나아가고 있다. 문제는 방향이 아니라 속도다. 파운데이션 모델은 몇 달 단위로 세대를 갈아치우고, 데이터는 국경을 모른 채 흐르며, 로봇은 공장 담장을 넘어 일상으로 들어오고 있다.",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20260907214619",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-08T05:00:01+09:00",
+      "popularity": 95,
+      "upvotes": 0,
+      "score": 18.48,
+      "importance_score": 17.46,
+      "matched_keywords": [
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
       "id": "7ec1e0ef366eb5984d8275a98f8abcf8",
-      "index": 6,
+      "index": 5,
       "title": "Agenta-AI/awesome-ai-agent-platforms — A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and fra",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_ko": "Agenta-AI/awesome-ai-agent-platforms — 선별된 오픈 소스 AI 에이전트 플랫폼 목록: AI 동료 및 팀원, 에이전트 빌더 및 프레임",
       "summary": "A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and frameworks, workflow automation platforms, browser agents, and coding agents, with licenses.",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary_ko": "큐레이트된 오픈 소스 AI 에이전트 플랫폼 목록: AI 동료 및 팀원, 에이전트 빌더 및 프레임워크, 워크플로 자동화 플랫폼, 브라우저 에이전트, 코딩 에이전트(라이센스 포함).",
       "url": "https://github.com/Agenta-AI/awesome-ai-agent-platforms",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-09-04T01:17:23+09:00",
-      "popularity": 229,
-      "upvotes": 229,
-      "score": 27.03,
-      "importance_score": 19.03,
+      "popularity": 263,
+      "upvotes": 263,
+      "score": 27.52,
+      "importance_score": 19.52,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 229
+        "value": 263
       }
     },
     {
-      "id": "e67f7fb17458177b6d4cbe43376b2265",
+      "id": "d36ff5a437bd0c2732e0d500b1aa9a3d",
+      "index": 6,
+      "title": "michailfragkiskos/EdgeMosaic — Rapid on-device AI evaluation lab: manifest validation, benchmark plans, latency/memory/thermal aggr",
+      "title_ko": "michailfragkiskos/EdgeMosaic — 신속한 온디바이스 AI 평가 랩: 매니페스트 검증, 벤치마크 계획, 대기 시간/메모리/열 Aggr",
+      "summary": "Rapid on-device AI evaluation lab: manifest validation, benchmark plans, latency/memory/thermal aggregation, JSON+Markdown reports.",
+      "summary_ko": "신속한 온디바이스 AI 평가 랩: 매니페스트 검증, 벤치마크 계획, 대기 시간/메모리/열 집계, JSON+Markdown 보고서.",
+      "url": "https://github.com/michailfragkiskos/EdgeMosaic",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-05T01:58:19+09:00",
+      "popularity": 28,
+      "upvotes": 28,
+      "score": 22.79,
+      "importance_score": 11.79,
+      "matched_keywords": [
+        "ai",
+        "rag",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 28
+      }
+    },
+    {
+      "id": "6de6c1cd639680890181b5efd6f42407",
       "index": 7,
-      "title": "[2026/08/31 ~ 09/06] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+      "title": "OpenAI가 공개한 GPT-6 Astra 공식 활용 가이드: 자주 되묻는 모델을 끝까지 일하게 하는 프롬프팅과 마이그레이션",
       "title_ko": null,
-      "summary": "PyTorchKR​ 이번 주 선정된 논문들을 살펴본 결과, 다음과 같은 주요 트렌드를 확인할 수 있었습니다: 단순 생성을 넘어서는 장기 지평 및 복잡한 과제 해결 : 이번 주 선정된 논문들을 살펴보면, 대규모 언어 모델이 단발성 답변을 넘어서 장기간에 걸쳐 복잡한 작업을 수행하는 에이전트로 진화하고 있습니다.",
+      "summary": "GPT-6 Astra 모델 가이드 소개 OpenAI 가 GPT-6 Astra 출시와 함께 개발자 문서 사이트에 Astra 전용 공식 활용 가이드(Model Guidance)를 공개했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/2026-08-31-09-06-ai-ml/11840",
+      "url": "https://discuss.pytorch.kr/t/openai-gpt-6-astra/11846",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-07T06:30:05+09:00",
-      "popularity": 99,
+      "published_at": "2026-09-07T13:00:26+09:00",
+      "popularity": 95,
       "upvotes": 0,
-      "score": 22.24,
-      "importance_score": 18.59,
+      "score": 21.15,
+      "importance_score": 10.8,
       "matched_keywords": [
         "ai",
+        "gpt",
         "모델"
       ],
       "engagement": null
