@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 23:57:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 03:27:37 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>인과 기초 모델</title>
+      <link>https://huggingface.co/papers/2609.03003</link>
+      <description>인과 기반 모델은 사전 훈련된 신경망을 적용하여 미세 조정 없이 상황 내 학습을 통해 새로운 데이터 세트에 대한 인과 효과를 추정합니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03003">Hugging Face Papers</source>
+      <guid isPermaLink="false">6635e47101fef2572510bd85711b0ca4</guid>
+    </item>
+    <item>
+      <title>상황 내 앙상블로 등각 언어 작업 통합</title>
+      <link>https://huggingface.co/papers/2609.03005</link>
+      <description>등각 관련성 프레임워크는 상황 내 학습 및 앙상블을 통해 등각 예측을 위한 점수 함수 설계를 자동화하여 NLP 검색 작업 전반에 걸쳐 적용 범위를 유지하면서 간결성을 향상시킵니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03005">Hugging Face Papers</source>
+      <guid isPermaLink="false">69780d1f1f80c446461d94c5f7f88697</guid>
+    </item>
     <item>
       <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://huggingface.co/papers/2609.03756</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.04199">Hugging Face Papers</source>
       <guid isPermaLink="false">c57c9c8e73619e3426596f64440598db</guid>
-    </item>
-    <item>
-      <title>재사용하지 말아야 할 때 알기: 자율 LLM 교육 후 조건부 경험 이전</title>
-      <link>https://huggingface.co/papers/2608.26730</link>
-      <description>Boundary-Calibrated Intervention Transfer는 상황별 적용 가능성을 확인하고 제한된 시험을 실행하여 자동으로 유해한 업데이트를 줄이고 최종 모델 품질을 향상함으로써 과거 훈련 증거를 선택적으로 재사용합니다.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.26730">Hugging Face Papers</source>
-      <guid isPermaLink="false">a36e4c3b2ac3d792b5e70f5e1dda8180</guid>
-    </item>
-    <item>
-      <title>Puffin-World: 기본 3D 세계 상태로 통합 다중 모드 모델 확장</title>
-      <link>https://huggingface.co/papers/2609.04196</link>
-      <description>Puffin-World는 물리적으로 일관된 3D 세계 생성, 재구성 및 폐쇄 루프 탐색을 위해 물리, 기하학 및 외관을 공동으로 모델링하는 통합 다중 모드 프레임워크입니다.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.04196">Hugging Face Papers</source>
-      <guid isPermaLink="false">d8159e963b26224767a8f1ea1ae1fbeb</guid>
     </item>
   </channel>
 </rss>
