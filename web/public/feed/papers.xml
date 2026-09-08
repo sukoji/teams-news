@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 09 Sep 2026 03:27:37 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 06:39:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Split-LLM 교육의 개인 정보 보호 실패, 반환된 경사도가 디코이를 무효화함</title>
+      <link>https://huggingface.co/papers/2609.04382</link>
+      <description>분할 LLM 교육 시스템은 개인 정보 보호 검사를 통과했지만 제로 그라데이션 패턴을 통해 실제 데이터 행을 유출하여 그라데이션 클리핑 및 노이즈에도 불구하고 토큰 복구 공격을 허용했습니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04382">Hugging Face Papers</source>
+      <guid isPermaLink="false">9ad8e694850dd2951d287fe5f40c75e9</guid>
+    </item>
     <item>
       <title>인과 기초 모델</title>
       <link>https://huggingface.co/papers/2609.03003</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.30391">Hugging Face Papers</source>
       <guid isPermaLink="false">e2b0491bc720c205fd93b99ccbcfef98</guid>
-    </item>
-    <item>
-      <title>학습을 통한 컴파일: 자연 언어 사양을 로컬 신경 기능으로 전환</title>
-      <link>https://huggingface.co/papers/2609.04199</link>
-      <description>학습을 통한 컴파일은 교사가 생성한 예제를 작은 어댑터로 추출하여 자연어 사양을 재사용 가능한 신경 기능으로 변환하므로 원격 모델 종속성 없이 효율적인 배포가 가능합니다.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.04199">Hugging Face Papers</source>
-      <guid isPermaLink="false">c57c9c8e73619e3426596f64440598db</guid>
     </item>
   </channel>
 </rss>
