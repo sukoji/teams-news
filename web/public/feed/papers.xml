@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 09:58:41 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 14:51:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>증류하기 전에 확인하십시오: 정책에 따른 증류를 위한 즉각적인 수준의 교사 게이팅</title>
+      <link>https://huggingface.co/papers/2609.02998</link>
+      <description>Teacher-Gated On-Policy Distillation은 검증자 점수가 매겨진 프로브, 조밀한 증류 또는 검증자 기반 강화 학습으로의 라우팅을 통해 프롬프트별로 교사의 신뢰성을 검증하여 교육 효율성을 높이고 정확성을 높입니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.02998">Hugging Face Papers</source>
+      <guid isPermaLink="false">e2f79143794571d1ecc42ee0ef1c8a71</guid>
+    </item>
+    <item>
+      <title>원격 탐사를 위한 실제 지식 기반 변경 데이터 합성</title>
+      <link>https://huggingface.co/papers/2608.24263</link>
+      <description>KnowChange는 비전 언어 모델을 사용하여 변경 감지 교육을 개선하기 위한 유연하고 다양한 변경 데이터 합성을 안내합니다.</description>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.24263">Hugging Face Papers</source>
+      <guid isPermaLink="false">bd39bda4982a2adffd52fe5b8996b274</guid>
+    </item>
+    <item>
+      <title>또 무엇을 고쳐야 합니까? 대화를 통해 생성된 아티팩트의 개정 전파를 위한 비용 효율적인 테스트 시간 계산 탐색</title>
+      <link>https://huggingface.co/papers/2609.03254</link>
+      <description>LLM(대형 언어 모델)은 대화에서 생성 및 수정의 반복적인 주기를 통해 사용자가 아티팩트를 생성하는 데 도움이 되는 경우가 많습니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03254">Hugging Face Papers</source>
+      <guid isPermaLink="false">c47c11572bc6d6a197f196a773378682</guid>
+    </item>
     <item>
       <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://huggingface.co/papers/2609.03729</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.02373">Hugging Face Papers</source>
       <guid isPermaLink="false">0f45dd998c8be1fe833f4701d71988b3</guid>
-    </item>
-    <item>
-      <title>LLaDA-이미지: 완전 개방형 훈련 레시피로 강력한 이미지 생성기 구축</title>
-      <link>https://huggingface.co/papers/2609.03796</link>
-      <description>LLaDA-Image는 6B 확산 변환기를 고정 비전 언어 모듈과 통합하고, 이미지 전용 사전 훈련과 Muon 최적화 프로그램을 사용하여 정확한 편집으로 사실적인 이미지를 생성하고, 빠른 형식으로 증류합니다.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.03796">Hugging Face Papers</source>
-      <guid isPermaLink="false">ad337bab181aafb76f5e23b5e6c8e3f4</guid>
-    </item>
-    <item>
-      <title>Gated DeltaNet이 4비트 양자화에서 살아남는 이유: 하이브리드 27B LLM의 순환 절반을 위한 NVFP4 W4A4</title>
-      <link>https://huggingface.co/papers/2609.04098</link>
-      <description>순환 Gated DeltaNet 레이어를 포함한 하이브리드 LLM을 4비트 NVFP4로 완전히 양자화하면 이상값을 지역화하고 강력한 델타 규칙 역학을 활용하여 장기 컨텍스트 및 추론 벤치마크 전반에 걸쳐 정확성을 유지합니다.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.04098">Hugging Face Papers</source>
-      <guid isPermaLink="false">4faa6151853bd0bcfd662d24afee04ad</guid>
-    </item>
-    <item>
-      <title>LatentPress: 텍스트와 비전을 뛰어넘는 컨텍스트 압축</title>
-      <link>https://huggingface.co/papers/2609.01507</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.01507">Hugging Face Papers</source>
-      <guid isPermaLink="false">871e901b62926354ad2067b5376d1f65</guid>
     </item>
   </channel>
 </rss>
