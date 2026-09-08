@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 14:51:11 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 19:49:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Microsoft, 1시간분량 오디오를 10초만에 전사하는 60개 언어 음성 인식 모델 MAI-Transcribe-2 출시 (가중치 공개 X)</title>
+      <link>https://discuss.pytorch.kr/t/microsoft-1-10-60-mai-transcribe-2-x/11839</link>
+      <description>MAI-Transcribe-2 소개 Microsoft AI(MAI) 가 2026년 9월 3일 새 음성 인식(ASR) 모델 MAI-Transcribe-2 를 공개했습니다.</description>
+      <pubDate>Tue, 08 Sep 2026 18:30:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/microsoft-1-10-60-mai-transcribe-2-x/11839">PyTorch Korea</source>
+      <guid isPermaLink="false">d6dec6352f150a5df6e454530604dc5f</guid>
+    </item>
+    <item>
+      <title>Reverify: 바이너리를 읽는 AI의 주장을 결정론적 도구가 실제 내용(byte)으로 판정하는 리버스 엔지니어링 도구</title>
+      <link>https://discuss.pytorch.kr/t/reverify-ai-byte/11831</link>
+      <description>Reverify 소개 언어 모델은 소스 코드를 읽는 일은 잘하지만 바이너리를 읽는 일에서는 신뢰하기 어렵습니다. 구조체나 알고리즘을 복원해 달라고 하면 오프셋과 크기, 동작을 자신 있게 지어내고, 그것을 사실처럼 서술합니다.</description>
+      <pubDate>Tue, 08 Sep 2026 15:30:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/reverify-ai-byte/11831">PyTorch Korea</source>
+      <guid isPermaLink="false">92e25ab6c6466e150f0f105b89666469</guid>
+    </item>
     <item>
       <title>OpenAI, 자동화 연구 인턴 목표 달성 발표와 함께 공개한 사내 측정치: 에이전트 노동이 사람의 3.1배</title>
       <link>https://discuss.pytorch.kr/t/openai-3-1/11849</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mycontext/11744">PyTorch Korea</source>
       <guid isPermaLink="false">489b1d4e889beee64a201316a09252ce</guid>
-    </item>
-    <item>
-      <title>Sprix SAGE Router: 실행 중인 A2A 에이전트의 실행 경로를 결정하고 호출하는 라우터 (SELF / COLLABORATE / HANDOFF)</title>
-      <link>https://discuss.pytorch.kr/t/sprix-sage-router-a2a-self-collaborate-handoff/11722</link>
-      <description>Sprix SAGE Router 소개 Agent2Agent(A2A) 프로토콜 ( Google, AI 에이전트들간의 협업을 위한 A2A(Agent-to-Agent) 프로토콜 공개 )처럼 에이전트끼리 서로를 찾아 대화하게 만드는 규격이 자리를 잡으면서, 이제는 "어떤 에이전트가 존재하는가"는 어렵지 않게 알 수 있게 되었습니다.</description>
-      <pubDate>Fri, 28 Aug 2026 09:30:44 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sprix-sage-router-a2a-self-collaborate-handoff/11722">PyTorch Korea</source>
-      <guid isPermaLink="false">c34046465dfef611173806699240fd37</guid>
-    </item>
-    <item>
-      <title>OpenAI의 내부 모델 평가 중 Hugging Face를 해킹한 사건에 대한 조사 보고서 3편 정리: OpenAI, Hugging Face, METR 등</title>
-      <link>https://discuss.pytorch.kr/t/openai-hugging-face-3-openai-hugging-face-metr/11734</link>
-      <description>METR과 Redwood Research의 독립 조사 소개 2026년 8월 26일, METR 과 Redwood Research 가 지난 7월 OpenAI 의 내부 평가용 모델들이 Hugging Face 의 프로덕션 인프라를 침해한 사고에 대한 독립 조사 보고서 를 공개했습니다.</description>
-      <pubDate>Fri, 28 Aug 2026 07:30:54 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-hugging-face-3-openai-hugging-face-metr/11734">PyTorch Korea</source>
-      <guid isPermaLink="false">5c24ef1e2e6b00d70997c72728dd67d1</guid>
     </item>
   </channel>
 </rss>

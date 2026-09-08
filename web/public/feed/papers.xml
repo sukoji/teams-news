@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Sep 2026 14:51:11 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 19:49:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>이산 확산을 통해 LLM의 무손실 속도 향상 잠금 해제</title>
+      <link>https://huggingface.co/papers/2609.04010</link>
+      <description>확산 증강 자동 회귀 언어 모델은 증류 확산 가중치를 통한 병렬 토큰 샘플링과 특수 샘플러를 사용하여 품질 손실이나 초안 모델 없이 추론을 가속화합니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.04010">Hugging Face Papers</source>
+      <guid isPermaLink="false">46dbbd4e3b3d4c3586d55fdfd5bdda4a</guid>
+    </item>
+    <item>
+      <title>EmbodiedSkills: VLA 에이전트 조정, 교육 및 배포를 위한 통합 프레임워크</title>
+      <link>https://huggingface.co/papers/2609.01281</link>
+      <description>EmbodiedSkills는 고정 인터페이스를 통해 로봇 기술 실행을 검증하고 검증하는 통합 프레임워크를 제안하여 적응 가능한 저수준 비전-언어-행동 정책을 갖춘 폐쇄 루프 구현 에이전트를 활성화합니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01281">Hugging Face Papers</source>
+      <guid isPermaLink="false">a111a79fa350e4bbfa7fb5d6d3b62e72</guid>
+    </item>
+    <item>
+      <title>FlowBalance: 정책 추론 경험을 통한 검증자 기반 자체 개선</title>
+      <link>https://huggingface.co/papers/2609.03241</link>
+      <description>FlowBalance는 궤도 수준 점수 재가중화 및 프로필 기반 궤도 균형을 사용하여 검증자가 보정한 자체 안내를 통해 추론 모델을 개선합니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03241">Hugging Face Papers</source>
+      <guid isPermaLink="false">3286101c4e53dd604664dbff64405208</guid>
+    </item>
+    <item>
+      <title>하나의 증상, 세 가지 지렛대: 정책적 자가 증류에 대한 비판적 검토</title>
+      <link>https://huggingface.co/papers/2608.25936</link>
+      <description>수학적 추론을 위한 정책 자체 증류는 특권 정보를 사용하여 더 큰 교사 없이 모델을 안내하지만 토큰 가중치, 특권 컨텍스트 및 가이드에 의해 관리되는 추론 붕괴로 어려움을 겪습니다.</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.25936">Hugging Face Papers</source>
+      <guid isPermaLink="false">f2efe22cdc48df4505194c8691a14132</guid>
+    </item>
     <item>
       <title>증류하기 전에 확인하십시오: 정책에 따른 증류를 위한 즉각적인 수준의 교사 게이팅</title>
       <link>https://huggingface.co/papers/2609.02998</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.04131">Hugging Face Papers</source>
       <guid isPermaLink="false">b1a879ca74ccb36dcbd9deec92f9161e</guid>
-    </item>
-    <item>
-      <title>PACE: 사용자 요청에 숨겨진 충돌을 표면화하기 위해</title>
-      <link>https://huggingface.co/papers/2609.03293</link>
-      <description>PaceMaker는 조정된 에이전트를 사용하여 암시적인 상황별 증거를 검색하고 개인화된 요청이 숨겨진 사용자 제약 조건과 충돌하는지 여부를 평가합니다.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.03293">Hugging Face Papers</source>
-      <guid isPermaLink="false">420a35d687cb1d64ac58c08c59bbb920</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.02367</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.02367">Hugging Face Papers</source>
-      <guid isPermaLink="false">9ea1982c2832826d664fbc5f105fec9b</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.01072</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.01072">Hugging Face Papers</source>
-      <guid isPermaLink="false">5b0f6ec21054c8fbc5eaae2e3af46f3e</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.02373</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Fri, 04 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.02373">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f45dd998c8be1fe833f4701d71988b3</guid>
     </item>
   </channel>
 </rss>
