@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 09 Sep 2026 17:46:23 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 22:31:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>VDN-H3: MiniMax H3 영상을 재생 시간보다 빠르게 생성하는 하이브리드 어텐션 모델 (단, H3 모델은 한국 사용 불가 주의)</title>
+      <link>https://discuss.pytorch.kr/t/vdn-h3-minimax-h3-h3/11862</link>
+      <description>VDN-H3 소개 영상 생성 모델에서 가장 비싼 연산은 어텐션(Attention)입니다. 영상 한 편은 수만 개의 잠재 프레임 토큰으로 펼쳐지고, 소프트맥스 어텐션의 비용은 시퀀스 길이의 제곱으로 늘어납니다.</description>
+      <pubDate>Wed, 09 Sep 2026 18:30:11 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vdn-h3-minimax-h3-h3/11862">PyTorch Korea</source>
+      <guid isPermaLink="false">f24de7c80385861bb324bf650a04397d</guid>
+    </item>
     <item>
       <title>FrontierAgent: 단일 에이전트와 병렬 팀 두 방식을 한 터미널에서 고르는 오픈소스 에이전트 런타임 프로젝트</title>
       <link>https://discuss.pytorch.kr/t/frontieragent/11842</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/rocketnotes-ai/11754">PyTorch Korea</source>
       <guid isPermaLink="false">5f072cd16ddabe786f7be6637106b0d8</guid>
-    </item>
-    <item>
-      <title>WeMM-Embedding: 2B 모델로 8B 베이스라인을 넘어선 범용 멀티모달 임베딩에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/wemm-embedding-2b-8b/11750</link>
-      <description>WeMM-Embedding 소개 검색창 하나로 텍스트와 영상을 함께 찾는다는 것 사진첩에서 "작년 여름 바닷가"를 찾을 때 우리는 파일명을 기억해 내지 않습니다. 장면을 떠올리고, 그 장면과 가장 비슷해 보이는 것을 눈으로 고릅니다. 검색 시스템이 이 일을 대신하려면 사진과 문장을 같은 기준으로 잴 수 있어야 하는데, 이러한 역할을 하는 것이 바로 임베딩(embedding)입니다.</description>
-      <pubDate>Sat, 29 Aug 2026 18:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/wemm-embedding-2b-8b/11750">PyTorch Korea</source>
-      <guid isPermaLink="false">179f37b0914e2d55236c4a267b781f1f</guid>
     </item>
   </channel>
 </rss>
