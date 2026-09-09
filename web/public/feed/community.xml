@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 09 Sep 2026 12:36:18 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 17:46:23 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>FrontierAgent: 단일 에이전트와 병렬 팀 두 방식을 한 터미널에서 고르는 오픈소스 에이전트 런타임 프로젝트</title>
+      <link>https://discuss.pytorch.kr/t/frontieragent/11842</link>
+      <description>FrontierAgent 소개 여러 시간에 걸친 조사 작업을 에이전트에게 맡기려면 대화형 챗봇과는 다른 것들이 필요합니다. 파일을 읽고 쓰는 권한을 어디까지 줄지, 중간에 사람이 끼어들면 진행 중인 작업을 버려야 하는지, 실행이 끊겼을 때 어디서부터 다시 시작할지, 결과물이 어느 디렉토리에 남는지를 정해 두지 않으면 오래 걸리는 작업일수록 손댈 수 없게 됩니다.</description>
+      <pubDate>Wed, 09 Sep 2026 15:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/frontieragent/11842">PyTorch Korea</source>
+      <guid isPermaLink="false">135d894ef4a46f63d26d6f826068d429</guid>
+    </item>
     <item>
       <title>NVIDIA NemoClaw로 만든 기억하는 에이전트, 지식과 판단을 분리해 정확도 82.8% → 90.9%로 개선</title>
       <link>https://discuss.pytorch.kr/t/nvidia-nemoclaw-82-8-90-9/11851</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/wemm-embedding-2b-8b/11750">PyTorch Korea</source>
       <guid isPermaLink="false">179f37b0914e2d55236c4a267b781f1f</guid>
-    </item>
-    <item>
-      <title>OpenOPC: 목표 하나로 조직도를 짜고 AI 직원을 채용해 일을 완료하는 멀티 에이전트 런타임 (feat. HKUDS)</title>
-      <link>https://discuss.pytorch.kr/t/openopc-ai-feat-hkuds/11751</link>
-      <description>OpenOPC 소개 AI 코딩 에이전트에게 "이 기능을 만들어 줘"라고 요청하는 것과 "이 제품을 출시해 줘"라고 요청하는 것 사이에는 큰 차이가 있습니다. 앞의 요청은 한 세션 안에서 끝나지만, 뒤의 요청은 설계와 구현, 검토, 문서화, 배포 준비가 서로를 기다리는 여러 갈래의 작업으로 쪼개집니다.</description>
-      <pubDate>Sat, 29 Aug 2026 11:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openopc-ai-feat-hkuds/11751">PyTorch Korea</source>
-      <guid isPermaLink="false">9e780e8dc90537f988e6d32e0f06396a</guid>
     </item>
   </channel>
 </rss>
