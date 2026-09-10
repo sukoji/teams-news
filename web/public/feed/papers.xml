@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 10 Sep 2026 22:24:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 02:33:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
+      <link>https://huggingface.co/papers/2609.05463</link>
+      <description>OreoLook은 세션 창, 의미론적 유사성 일치, 중복 제거된 임베딩을 갖춘 3계층 캐싱 시스템을 사용하여 중복된 LLM 호출을 줄이고 적당한 하드웨어에서 장기간 실행되는 대화를 유지합니다.</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05463">Hugging Face Papers</source>
+      <guid isPermaLink="false">51f24401444479fe6e4aedac26df1488</guid>
+    </item>
+    <item>
+      <title>PARSER: 병렬 읽기, 장기 컨텍스트 LLM 에이전트에 대한 심층적인 이유</title>
+      <link>https://huggingface.co/papers/2609.06702</link>
+      <description>PARSER는 분산-수집 하위 에이전트를 통한 반복 추론에서 병렬 청크 읽기를 분리하여 긴 컨텍스트 다중 홉 정확도를 향상시키고 대기 시간을 줄입니다.</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.06702">Hugging Face Papers</source>
+      <guid isPermaLink="false">82ec73133aead50d864c47610b9821e7</guid>
+    </item>
+    <item>
+      <title>SchemeArena: LLM 에이전트의 계획에 대한 인수분해 스트레스 테스트</title>
+      <link>https://huggingface.co/papers/2609.08126</link>
+      <description>연구원들은 도구적 목표, 감독 및 전략적 힌트가 LLM 상담원의 은밀한 잘못된 행동을 어떻게 유도하는지 연구하기 위해 400개 시나리오 벤치마크 및 증거 기반 모니터를 도입합니다.</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.08126">Hugging Face Papers</source>
+      <guid isPermaLink="false">0ec141a3abf9e34fb8fd4b7054268aac</guid>
+    </item>
+    <item>
+      <title>희소성의 대가: 희소 측정과 희소 측정을 사용한 희소 복구를 위한 충분한 조건</title>
+      <link>https://huggingface.co/papers/2509.01809</link>
+      <description>희소 이진 신호의 경우 최대 가능성 지원 복구를 위한 충분한 샘플 크기가 높은 SNR 체제에서 식별되어 정보 이론적 임계값과 측정 희소성과…</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2509.01809">Hugging Face Papers</source>
+      <guid isPermaLink="false">e1de026f226611510f4ff0c17adbde8d</guid>
+    </item>
     <item>
       <title>SWE-Bench Pro 검증: 소프트웨어 엔지니어링 에이전트를 위한 신뢰할 수 있는 벤치마크</title>
       <link>https://huggingface.co/papers/2609.08149</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.04971">Hugging Face Papers</source>
       <guid isPermaLink="false">90f9ce8017b6e7f46a210eada7349513</guid>
-    </item>
-    <item>
-      <title>GE-Act 2.0: 로봇 조작을 위한 월드 액션 모델 사전 훈련 및 확장</title>
-      <link>https://huggingface.co/papers/2609.05588</link>
-      <description>GE-Act 2.0은 제어 지향 오토인코더, 단일 단계 비주얼 플래너, 역동역학 모델로 처음부터 훈련된 월드 액션 모델로, 지식 정렬 선택적 최적화를 사용하여 확장 가능한 제로…</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.05588">Hugging Face Papers</source>
-      <guid isPermaLink="false">66ad7b52acbaed63fde87bbdc1b7c922</guid>
-    </item>
-    <item>
-      <title>RoboSPA: VLA 모델이 단순한 장면과 단기 작업을 넘어설 수 있습니까?</title>
-      <link>https://huggingface.co/papers/2609.05324</link>
-      <description>RoboSPA는 점점 더 어려워지는 작업 변형에 걸쳐 세밀한 공간 추론과 장기적인 절차 계획에 대한 비전-언어-행동 모델을 평가하는 대규모 로봇 조작 벤치마크입니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.05324">Hugging Face Papers</source>
-      <guid isPermaLink="false">e3ab01f8dfebbf7558541687a4ad39af</guid>
-    </item>
-    <item>
-      <title>스티어링 지오메트리: LLM 스티어링 공간에서 인간 가치 지오메트리 검증</title>
-      <link>https://huggingface.co/papers/2609.06289</link>
-      <description>대규모 언어 모델의 활성화 조정 벡터는 분포 중심 방법을 통해 파생될 때 이론에 맞춰진 인간 가치 기하학을 인코딩하며, 기하학적 충실도는 모델 크기에 따라 확장되지만 지시 후에는 감소합니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.06289">Hugging Face Papers</source>
-      <guid isPermaLink="false">318f1340ca07dbb7da3d7e028daaf209</guid>
-    </item>
-    <item>
-      <title>대규모, 장기 컨텍스트 RL 사후 훈련에서 추측적 디코딩을 위한 온라인 초안 공동 훈련</title>
-      <link>https://huggingface.co/papers/2609.07108</link>
-      <description>대규모 온라인 초안 공동 훈련을 위한 시스템은 상황별 병렬 주의를 확장하고 단계 간 특성 전송을 추가하여 RL 사후 훈련의 추측적 디코딩을 가속화합니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.07108">Hugging Face Papers</source>
-      <guid isPermaLink="false">55921d4cdeee11c6dc8af258042ec60c</guid>
     </item>
   </channel>
 </rss>
