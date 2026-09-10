@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 11 Sep 2026 05:31:29 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 07:59:14 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>E-P-D 분리 서빙: 비전 인코더를 떼어내 TTFT를 최대 93% 줄이는 조건과 오히려 느려지는 조건 (feat. NVIDIA Dynamo)</title>
+      <link>https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883</link>
+      <description>Encode-Prefill-Decode(EPD) 분리 서빙 소개 Encode-Prefill-Decode 분리(EPD Disaggregation) 는 멀티모달 모델을 서빙할 때 비전 인코더 단계를 프리필(prefill)과 디코드(decode) 단계에서 떼어내 독립적인 워커로 실행하는 추론(inference) 최적화 기법입니다.</description>
+      <pubDate>Fri, 11 Sep 2026 07:00:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883">PyTorch Korea</source>
+      <guid isPermaLink="false">9d2d14ec5bb8585d117fd88a8eea94b0</guid>
+    </item>
     <item>
       <title>Paw Work: 보고 있는 웹 페이지에서 고른 요소를 편집 가능한 오피스 파일로 바꾸는 크롬 확장</title>
       <link>https://discuss.pytorch.kr/t/paw-work/11879</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai/11777">PyTorch Korea</source>
       <guid isPermaLink="false">b30ed6beb6bc85a55cc99593745c370a</guid>
-    </item>
-    <item>
-      <title>Open Science Desktop: 결과 그림에서 생성 코드까지 되짚을 수 있는, 내 컴퓨터용 AI 연구 작업도구 (≠ OpenScience)</title>
-      <link>https://discuss.pytorch.kr/t/open-science-desktop-ai-openscience/11752</link>
-      <description>Open Science Desktop 소개 연구에 AI 에이전트를 쓰다 보면 결과물은 나오는데 그 결과물의 내력이 남지 않는 문제를 만나게 됩니다. 대화 중간에 만들어진 그림 한 장이 어떤 코드로, 어떤 입력 파일로, 어떤 환경에서 그려졌는지가 대화 로그 어딘가에 흩어져 있고, 몇 주 뒤에 그 수치를 다시 확인하려면 세션을 처음부터 훑어야 합니다.</description>
-      <pubDate>Mon, 31 Aug 2026 15:30:51 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/open-science-desktop-ai-openscience/11752">PyTorch Korea</source>
-      <guid isPermaLink="false">b05e9eb3baa0e6868db68cbd7b8339e7</guid>
     </item>
   </channel>
 </rss>
