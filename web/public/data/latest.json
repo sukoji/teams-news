@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-09",
-  "generated_at": "2026-09-09T09:59:52.722773+09:00",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T09:47:03.029661+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,57 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "46dbbd4e3b3d4c3586d55fdfd5bdda4a",
+          "id": "fd78ae56f525b62e026f8ab9b0bfe2c7",
           "index": 1,
-          "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-          "title_ko": "이산 확산을 통해 LLM의 무손실 속도 향상 잠금 해제",
-          "summary": "Diffusion-augmented autoregressive language models use parallel token sampling via distilled diffusion weights and a specialized sampler to accelerate inference without quality loss or draft models.",
-          "summary_ko": "확산 증강 자동 회귀 언어 모델은 증류 확산 가중치를 통한 병렬 토큰 샘플링과 특수 샘플러를 사용하여 품질 손실이나 초안 모델 없이 추론을 가속화합니다.",
-          "url": "https://huggingface.co/papers/2609.04010",
+          "title": "Miles v0.1: Production-Level Post-Training",
+          "title_ko": "Miles v0.1: 생산 수준 사후 교육",
+          "summary": "Miles is an open-source, production-ready system for large-scale reinforcement learning and post-training that supports diverse backends, weight synchronization, LoRA, distillation, and diffusion models.",
+          "summary_ko": "Miles는 다양한 백엔드, 가중치 동기화, LoRA, 증류 및 확산 모델을 지원하는 대규모 강화 학습 및 사후 훈련을 위한 프로덕션용 오픈 소스 시스템입니다.",
+          "url": "https://huggingface.co/papers/2609.08368",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-08T09:00:00+09:00",
-          "popularity": 304,
-          "upvotes": 112,
-          "score": 27.16,
-          "importance_score": 17.16,
+          "published_at": "2026-09-09T09:00:00+09:00",
+          "popularity": 2789,
+          "upvotes": 44,
+          "score": 30.0,
+          "importance_score": 18.0,
           "matched_keywords": [
-            "llm",
+            "ai",
             "diffusion",
-            "inference"
+            "reinforcement learning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 112
+            "value": 44
           }
         },
         {
-          "id": "6635e47101fef2572510bd85711b0ca4",
+          "id": "4779bec0ca547ea7bc570aecc1be1b3c",
           "index": 2,
-          "title": "Causal Foundation Models",
-          "title_ko": "인과 기초 모델",
-          "summary": "Causal foundation models apply pretrained neural networks to estimate causal effects on new datasets via in-context learning without fine-tuning.",
-          "summary_ko": "인과 기반 모델은 사전 훈련된 신경망을 적용하여 미세 조정 없이 상황 내 학습을 통해 새로운 데이터 세트에 대한 인과 효과를 추정합니다.",
-          "url": "https://huggingface.co/papers/2609.03003",
+          "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+          "title_ko": "NeoHorse-1: 라우팅 하네스를 사용한 에이전트적 사후 교육을 통한 재귀적 자기 개선을 향하여",
+          "summary": "NeoHorse-1 uses agentic post-training with intelligent routing, structured feedback loops, and curriculum-based distillation to improve model capabilities across agent benchmarks.",
+          "summary_ko": "NeoHorse-1은 지능형 라우팅, 구조화된 피드백 루프 및 커리큘럼 기반 증류를 통해 에이전트 사후 교육을 사용하여 에이전트 벤치마크 전반에서 모델 기능을 향상시킵니다.",
+          "url": "https://huggingface.co/papers/2609.08183",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-08T09:00:00+09:00",
-          "popularity": 37,
-          "upvotes": 11,
-          "score": 24.91,
-          "importance_score": 10.91,
+          "published_at": "2026-09-09T09:00:00+09:00",
+          "popularity": 849,
+          "upvotes": 377,
+          "score": 30.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "fine-tuning",
-            "neural",
-            "foundation model",
-            "dataset"
+            "agent",
+            "benchmark",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 11
+            "value": 377
           }
         }
       ]
@@ -70,47 +70,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "fae4ab3b2ac2f6ed2931f90a0db4f344",
+          "id": "3c6bc8147d7e2bd89e5a743561d7f566",
           "index": 3,
-          "title": "오픈AI '아스트라', 48단계 '인간 증명' 테스트 모두 통과",
+          "title": "유토파이 스튜디오, 장편 콘텐츠 AI 제작 고도화… 2027년 영화·시리즈 5편 선봬",
           "title_ko": null,
-          "summary": "오픈AI의 새 인공지능(AI) 모델 'GPT-6 아스트라'가 인터넷에서 인간임을 증명할 때 사용되는 '캡차'(Captcha) 게임을 모두 통과한 것으로 나타났다.",
+          "summary": "유토파이 스튜디오(Utopai Studios)가 글로벌 제작사 및 크리에이터와 협업하며 영화·TV 콘텐츠 사업을 확대하고 있다. 유토파이 스튜디오는 미국 캘리포니아주 마운틴뷰에 본사를 둔 세계 최대 독립 AI 네이티브 영화·TV 스튜디오다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260909000001",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215071",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-09T07:25:29+09:00",
-          "popularity": 95,
+          "published_at": "2026-09-10T09:04:33+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 24.96,
-          "importance_score": 18.43,
+          "score": 19.85,
+          "importance_score": 19.71,
           "matched_keywords": [
-            "ai",
-            "gpt",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "c91b3dbcb8f81a8bd0a3cff4355956f9",
+          "id": "105d6c57b945d4036e69227631f7bd5d",
           "index": 4,
-          "title": "오픈AI, AI 편집 정확도·품질 높인 '챗GPT 이미지 2.5' 공개",
+          "title": "앤트로픽 연구원 퇴사하며 경고…“AI, 10년 내 인류 멸망시킬 수도”",
           "title_ko": null,
-          "summary": "오픈AI가 원본 특징을 보다 충실하게 유지하고 이미지 품질·편집 정확도를 높인 '챗GPT 이미지 2.5'를 9일 공개했다. 이미지 2.5는 참고 사진 속 인물과 사물의 고유한 특징을 더 정확하게 반영하고 조명과 질감을 더 자연스럽게 표현한다. 챗GPT 내 직접 스케치를 그려 원하는 이미지를 만드는 '스케치' 기능도 추가됐다.",
+          "summary": "미국 인공지능(AI) 기업 앤트로픽의 연구원이 AI가 인류를 파멸시킬 수 있다고 경고하며 회사를 떠났다. 앤트로픽을 퇴사한 연구원 제이컵 콕슨(27)은 8일(현지시간) 엑스(X)를 통해 AI 기업들이 인간의 개입 없이 스스로 성능을 개선하는 시스템 개발 경쟁을 벌이는 과정에서 안전 문제가 뒷전으로 밀릴 수 있다고 우려했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260909000024",
+          "url": "https://www.etnews.com/20260910000009",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-09T09:06:51+09:00",
-          "popularity": 97,
+          "published_at": "2026-09-10T07:33:53+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 22.52,
-          "importance_score": 19.33,
+          "score": 22.04,
+          "importance_score": 18.58,
           "matched_keywords": [
             "ai",
-            "gpt"
+            "연구"
           ],
           "engagement": null
         }
@@ -121,55 +119,52 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "d2f26e61ef2329373eda02ce75a033c3",
+          "id": "3e7b3b862b7203657c3d7b6404e6f8d0",
           "index": 5,
-          "title": "Albertchamberlain/Awesome-OKF — OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs for age",
-          "title_ko": "Albertchamberlain/Awesome-OKF — OKF(Open Knowledge Format) — 연령별 도구, 플러그인, 기술, 제안 및 문서로 구성된 카탈로그",
-          "summary": "OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs for agent-friendly knowledge. YAML-driven, agent-searchable, MCP-ready.",
-          "summary_ko": "OKF(Open Knowledge Format) — 상담원 친화적인 지식을 위한 도구, 플러그인, 기술, 제안 및 문서로 구성된 카탈로그입니다. YAML 기반, 에이전트 검색 가능, MCP 지원.",
-          "url": "https://github.com/Albertchamberlain/Awesome-OKF",
+          "title": "arnsri33/embedflow — Zero downtime embedding upgrades",
+          "title_ko": "arnsri33/embedflow — 제로 다운타임 임베딩 업그레이드",
+          "summary": "Zero downtime embedding upgrades",
+          "summary_ko": "제로 다운타임 내장 업그레이드",
+          "url": "https://github.com/arnsri33/embedflow",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-08T17:28:22+09:00",
-          "popularity": 102,
-          "upvotes": 102,
-          "score": 28.78,
-          "importance_score": 19.34,
+          "published_at": "2026-09-10T05:17:52+09:00",
+          "popularity": 38,
+          "upvotes": 38,
+          "score": 21.89,
+          "importance_score": 20.95,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "mcp"
+            "embedding"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 102
+            "value": 38
           }
         },
         {
-          "id": "9dd94d58346df9c76b962bcbe0386002",
+          "id": "c9c06d9425d0ac4df96a3d7522f36bf9",
           "index": 6,
-          "title": "TokenRhythm/NeoHorse — NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
-          "title_ko": "TokenRhythm/NeoHorse — NeoHorse-1: 라우팅 하네스를 사용한 에이전트적 사후 교육을 통한 재귀적 자기 개선을 향하여.",
-          "summary": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
-          "summary_ko": "NeoHorse-1: 라우팅 하네스를 사용한 에이전트적 사후 교육을 통한 재귀적 자기 개선을 향하여.",
-          "url": "https://github.com/TokenRhythm/NeoHorse",
+          "title": "tomiholtz/s3-files-ai-sdk — Give Vercel AI SDK agents a real persistent filesystem with Amazon S3 Files.",
+          "title_ko": "tomiholtz/s3-files-ai-sdk — Vercel AI SDK 에이전트에 Amazon S3 파일을 사용하여 실제 영구 파일 시스템을 제공합니다.",
+          "summary": "Give Vercel AI SDK agents a real persistent filesystem with Amazon S3 Files.",
+          "summary_ko": "Vercel AI SDK 에이전트에 Amazon S3 파일을 사용하여 실제 영구 파일 시스템을 제공합니다.",
+          "url": "https://github.com/tomiholtz/s3-files-ai-sdk",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-08T23:45:03+09:00",
-          "popularity": 28,
-          "upvotes": 28,
-          "score": 25.65,
-          "importance_score": 17.52,
+          "published_at": "2026-09-05T01:58:19+09:00",
+          "popularity": 26,
+          "upvotes": 26,
+          "score": 19.54,
+          "importance_score": 11.54,
           "matched_keywords": [
             "ai",
-            "agent",
-            "training"
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 28
+            "value": 26
           }
         }
       ]
@@ -179,25 +174,26 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "1f024af69eacb9db870a6ace5b5c934d",
+          "id": "7a4a24445eb72106288f83c3c13e9b88",
           "index": 7,
-          "title": "my-free-code: Claude Code와 Codex 등 코딩 에이전트 9종이 모델 설정을 공유하는 로컬 게이트웨이",
+          "title": "Hugging Face가 Papers with Code 논문 11만 편의 하이브리드 검색을 만든 방법 (feat. pgvector, RRF)",
           "title_ko": null,
-          "summary": "my-free-code 소개 터미널 코딩 에이전트를 여러 개 쓰다 보면 같은 설정을 도구마다 다시 하게 됩니다. Claude Code 는 Anthropic Messages 형식으로 요청을 보내고 Codex 계열은 OpenAI 형식을 쓰기 때문에, 같은 모델을 붙이려 해도 환경 변수와 엔드포인트를 도구별로 따로 맞춰야 합니다.",
+          "summary": "Papers with Code 하이브리드 검색 소개 Papers with Code 는 논문과 코드, 벤치마크 결과를 한곳에서 찾을 수 있게 해 주는 AI 연구 색인 서비스로, Hugging Face 가 2026년 5월부터 되살린 뒤 PostgreSQL 전문 검색과 벡터 검색을 결합한 하이브리드 검색(Hybrid Search) 을 새로 구축했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/my-free-code-claude-code-codex-9/11843",
+          "url": "https://discuss.pytorch.kr/t/hugging-face-papers-with-code-11-feat-pgvector-rrf/11859",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-08T21:00:39+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-10T07:00:48+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 23.09,
-          "importance_score": 14.39,
+          "score": 28.42,
+          "importance_score": 18.85,
           "matched_keywords": [
             "ai",
-            "claude",
-            "모델"
+            "연구",
+            "vector",
+            "paper"
           ],
           "engagement": null
         }
@@ -206,176 +202,172 @@
   ],
   "items": [
     {
-      "id": "46dbbd4e3b3d4c3586d55fdfd5bdda4a",
+      "id": "fd78ae56f525b62e026f8ab9b0bfe2c7",
       "index": 1,
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "title_ko": "이산 확산을 통해 LLM의 무손실 속도 향상 잠금 해제",
-      "summary": "Diffusion-augmented autoregressive language models use parallel token sampling via distilled diffusion weights and a specialized sampler to accelerate inference without quality loss or draft models.",
-      "summary_ko": "확산 증강 자동 회귀 언어 모델은 증류 확산 가중치를 통한 병렬 토큰 샘플링과 특수 샘플러를 사용하여 품질 손실이나 초안 모델 없이 추론을 가속화합니다.",
-      "url": "https://huggingface.co/papers/2609.04010",
+      "title": "Miles v0.1: Production-Level Post-Training",
+      "title_ko": "Miles v0.1: 생산 수준 사후 교육",
+      "summary": "Miles is an open-source, production-ready system for large-scale reinforcement learning and post-training that supports diverse backends, weight synchronization, LoRA, distillation, and diffusion models.",
+      "summary_ko": "Miles는 다양한 백엔드, 가중치 동기화, LoRA, 증류 및 확산 모델을 지원하는 대규모 강화 학습 및 사후 훈련을 위한 프로덕션용 오픈 소스 시스템입니다.",
+      "url": "https://huggingface.co/papers/2609.08368",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-08T09:00:00+09:00",
-      "popularity": 304,
-      "upvotes": 112,
-      "score": 27.16,
-      "importance_score": 17.16,
+      "published_at": "2026-09-09T09:00:00+09:00",
+      "popularity": 2789,
+      "upvotes": 44,
+      "score": 30.0,
+      "importance_score": 18.0,
       "matched_keywords": [
-        "llm",
+        "ai",
         "diffusion",
-        "inference"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 112
-      }
-    },
-    {
-      "id": "6635e47101fef2572510bd85711b0ca4",
-      "index": 2,
-      "title": "Causal Foundation Models",
-      "title_ko": "인과 기초 모델",
-      "summary": "Causal foundation models apply pretrained neural networks to estimate causal effects on new datasets via in-context learning without fine-tuning.",
-      "summary_ko": "인과 기반 모델은 사전 훈련된 신경망을 적용하여 미세 조정 없이 상황 내 학습을 통해 새로운 데이터 세트에 대한 인과 효과를 추정합니다.",
-      "url": "https://huggingface.co/papers/2609.03003",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-08T09:00:00+09:00",
-      "popularity": 37,
-      "upvotes": 11,
-      "score": 24.91,
-      "importance_score": 10.91,
-      "matched_keywords": [
-        "ai",
-        "fine-tuning",
-        "neural",
-        "foundation model",
-        "dataset"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 11
-      }
-    },
-    {
-      "id": "fae4ab3b2ac2f6ed2931f90a0db4f344",
-      "index": 3,
-      "title": "오픈AI '아스트라', 48단계 '인간 증명' 테스트 모두 통과",
-      "title_ko": null,
-      "summary": "오픈AI의 새 인공지능(AI) 모델 'GPT-6 아스트라'가 인터넷에서 인간임을 증명할 때 사용되는 '캡차'(Captcha) 게임을 모두 통과한 것으로 나타났다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20260909000001",
-      "source": "전자신문 IT",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-09T07:25:29+09:00",
-      "popularity": 95,
-      "upvotes": 0,
-      "score": 24.96,
-      "importance_score": 18.43,
-      "matched_keywords": [
-        "ai",
-        "gpt",
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "c91b3dbcb8f81a8bd0a3cff4355956f9",
-      "index": 4,
-      "title": "오픈AI, AI 편집 정확도·품질 높인 '챗GPT 이미지 2.5' 공개",
-      "title_ko": null,
-      "summary": "오픈AI가 원본 특징을 보다 충실하게 유지하고 이미지 품질·편집 정확도를 높인 '챗GPT 이미지 2.5'를 9일 공개했다. 이미지 2.5는 참고 사진 속 인물과 사물의 고유한 특징을 더 정확하게 반영하고 조명과 질감을 더 자연스럽게 표현한다. 챗GPT 내 직접 스케치를 그려 원하는 이미지를 만드는 '스케치' 기능도 추가됐다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20260909000024",
-      "source": "전자신문 IT",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-09T09:06:51+09:00",
-      "popularity": 97,
-      "upvotes": 0,
-      "score": 22.52,
-      "importance_score": 19.33,
-      "matched_keywords": [
-        "ai",
-        "gpt"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "d2f26e61ef2329373eda02ce75a033c3",
-      "index": 5,
-      "title": "Albertchamberlain/Awesome-OKF — OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs for age",
-      "title_ko": "Albertchamberlain/Awesome-OKF — OKF(Open Knowledge Format) — 연령별 도구, 플러그인, 기술, 제안 및 문서로 구성된 카탈로그",
-      "summary": "OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs for agent-friendly knowledge. YAML-driven, agent-searchable, MCP-ready.",
-      "summary_ko": "OKF(Open Knowledge Format) — 상담원 친화적인 지식을 위한 도구, 플러그인, 기술, 제안 및 문서로 구성된 카탈로그입니다. YAML 기반, 에이전트 검색 가능, MCP 지원.",
-      "url": "https://github.com/Albertchamberlain/Awesome-OKF",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-08T17:28:22+09:00",
-      "popularity": 102,
-      "upvotes": 102,
-      "score": 28.78,
-      "importance_score": 19.34,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "mcp"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 102
-      }
-    },
-    {
-      "id": "9dd94d58346df9c76b962bcbe0386002",
-      "index": 6,
-      "title": "TokenRhythm/NeoHorse — NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
-      "title_ko": "TokenRhythm/NeoHorse — NeoHorse-1: 라우팅 하네스를 사용한 에이전트적 사후 교육을 통한 재귀적 자기 개선을 향하여.",
-      "summary": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
-      "summary_ko": "NeoHorse-1: 라우팅 하네스를 사용한 에이전트적 사후 교육을 통한 재귀적 자기 개선을 향하여.",
-      "url": "https://github.com/TokenRhythm/NeoHorse",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-08T23:45:03+09:00",
-      "popularity": 28,
-      "upvotes": 28,
-      "score": 25.65,
-      "importance_score": 17.52,
-      "matched_keywords": [
-        "ai",
-        "agent",
+        "reinforcement learning",
         "training"
       ],
       "engagement": {
-        "label": "Stars",
-        "value": 28
+        "label": "Upvotes",
+        "value": 44
       }
     },
     {
-      "id": "1f024af69eacb9db870a6ace5b5c934d",
-      "index": 7,
-      "title": "my-free-code: Claude Code와 Codex 등 코딩 에이전트 9종이 모델 설정을 공유하는 로컬 게이트웨이",
+      "id": "4779bec0ca547ea7bc570aecc1be1b3c",
+      "index": 2,
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "title_ko": "NeoHorse-1: 라우팅 하네스를 사용한 에이전트적 사후 교육을 통한 재귀적 자기 개선을 향하여",
+      "summary": "NeoHorse-1 uses agentic post-training with intelligent routing, structured feedback loops, and curriculum-based distillation to improve model capabilities across agent benchmarks.",
+      "summary_ko": "NeoHorse-1은 지능형 라우팅, 구조화된 피드백 루프 및 커리큘럼 기반 증류를 통해 에이전트 사후 교육을 사용하여 에이전트 벤치마크 전반에서 모델 기능을 향상시킵니다.",
+      "url": "https://huggingface.co/papers/2609.08183",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-09T09:00:00+09:00",
+      "popularity": 849,
+      "upvotes": 377,
+      "score": 30.0,
+      "importance_score": 18.0,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "benchmark",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 377
+      }
+    },
+    {
+      "id": "3c6bc8147d7e2bd89e5a743561d7f566",
+      "index": 3,
+      "title": "유토파이 스튜디오, 장편 콘텐츠 AI 제작 고도화… 2027년 영화·시리즈 5편 선봬",
       "title_ko": null,
-      "summary": "my-free-code 소개 터미널 코딩 에이전트를 여러 개 쓰다 보면 같은 설정을 도구마다 다시 하게 됩니다. Claude Code 는 Anthropic Messages 형식으로 요청을 보내고 Codex 계열은 OpenAI 형식을 쓰기 때문에, 같은 모델을 붙이려 해도 환경 변수와 엔드포인트를 도구별로 따로 맞춰야 합니다.",
+      "summary": "유토파이 스튜디오(Utopai Studios)가 글로벌 제작사 및 크리에이터와 협업하며 영화·TV 콘텐츠 사업을 확대하고 있다. 유토파이 스튜디오는 미국 캘리포니아주 마운틴뷰에 본사를 둔 세계 최대 독립 AI 네이티브 영화·TV 스튜디오다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/my-free-code-claude-code-codex-9/11843",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215071",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-10T09:04:33+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.85,
+      "importance_score": 19.71,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "105d6c57b945d4036e69227631f7bd5d",
+      "index": 4,
+      "title": "앤트로픽 연구원 퇴사하며 경고…“AI, 10년 내 인류 멸망시킬 수도”",
+      "title_ko": null,
+      "summary": "미국 인공지능(AI) 기업 앤트로픽의 연구원이 AI가 인류를 파멸시킬 수 있다고 경고하며 회사를 떠났다. 앤트로픽을 퇴사한 연구원 제이컵 콕슨(27)은 8일(현지시간) 엑스(X)를 통해 AI 기업들이 인간의 개입 없이 스스로 성능을 개선하는 시스템 개발 경쟁을 벌이는 과정에서 안전 문제가 뒷전으로 밀릴 수 있다고 우려했다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260910000009",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-10T07:33:53+09:00",
+      "popularity": 95,
+      "upvotes": 0,
+      "score": 22.04,
+      "importance_score": 18.58,
+      "matched_keywords": [
+        "ai",
+        "연구"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "3e7b3b862b7203657c3d7b6404e6f8d0",
+      "index": 5,
+      "title": "arnsri33/embedflow — Zero downtime embedding upgrades",
+      "title_ko": "arnsri33/embedflow — 제로 다운타임 임베딩 업그레이드",
+      "summary": "Zero downtime embedding upgrades",
+      "summary_ko": "제로 다운타임 내장 업그레이드",
+      "url": "https://github.com/arnsri33/embedflow",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-10T05:17:52+09:00",
+      "popularity": 38,
+      "upvotes": 38,
+      "score": 21.89,
+      "importance_score": 20.95,
+      "matched_keywords": [
+        "embedding"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 38
+      }
+    },
+    {
+      "id": "c9c06d9425d0ac4df96a3d7522f36bf9",
+      "index": 6,
+      "title": "tomiholtz/s3-files-ai-sdk — Give Vercel AI SDK agents a real persistent filesystem with Amazon S3 Files.",
+      "title_ko": "tomiholtz/s3-files-ai-sdk — Vercel AI SDK 에이전트에 Amazon S3 파일을 사용하여 실제 영구 파일 시스템을 제공합니다.",
+      "summary": "Give Vercel AI SDK agents a real persistent filesystem with Amazon S3 Files.",
+      "summary_ko": "Vercel AI SDK 에이전트에 Amazon S3 파일을 사용하여 실제 영구 파일 시스템을 제공합니다.",
+      "url": "https://github.com/tomiholtz/s3-files-ai-sdk",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-05T01:58:19+09:00",
+      "popularity": 26,
+      "upvotes": 26,
+      "score": 19.54,
+      "importance_score": 11.54,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 26
+      }
+    },
+    {
+      "id": "7a4a24445eb72106288f83c3c13e9b88",
+      "index": 7,
+      "title": "Hugging Face가 Papers with Code 논문 11만 편의 하이브리드 검색을 만든 방법 (feat. pgvector, RRF)",
+      "title_ko": null,
+      "summary": "Papers with Code 하이브리드 검색 소개 Papers with Code 는 논문과 코드, 벤치마크 결과를 한곳에서 찾을 수 있게 해 주는 AI 연구 색인 서비스로, Hugging Face 가 2026년 5월부터 되살린 뒤 PostgreSQL 전문 검색과 벡터 검색을 결합한 하이브리드 검색(Hybrid Search) 을 새로 구축했습니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/hugging-face-papers-with-code-11-feat-pgvector-rrf/11859",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-08T21:00:39+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-10T07:00:48+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 23.09,
-      "importance_score": 14.39,
+      "score": 28.42,
+      "importance_score": 18.85,
       "matched_keywords": [
         "ai",
-        "claude",
-        "모델"
+        "연구",
+        "vector",
+        "paper"
       ],
       "engagement": null
     }
