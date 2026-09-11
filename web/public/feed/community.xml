@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 11 Sep 2026 09:56:19 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 14:41:47 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MAPL-EMIT: 합성 플룸 360만 개로 학습해 전문가보다 1.5배 많은 메탄 누출을 찾아낸 위성 탐지 모델 (feat. Google, NASA JPL)</title>
+      <link>https://discuss.pytorch.kr/t/mapl-emit-360-1-5-feat-google-nasa-jpl/11882</link>
+      <description>MAPL-EMIT 소개 MAPL-EMIT(Methane Analysis and Plume Localization with EMIT) 는 Google Research 와 NASA 제트추진연구소(JPL) 가 함께 만든 딥러닝 모델로, 국제우주정거장에 실린 초분광 관측 장비가 찍은 원본 복사휘도(radiance)에서 메탄 누출 지점을 자동으로 찾아냅니다.</description>
+      <pubDate>Fri, 11 Sep 2026 11:00:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mapl-emit-360-1-5-feat-google-nasa-jpl/11882">PyTorch Korea</source>
+      <guid isPermaLink="false">49d2b03a84b65b6546b24094f6a441e1</guid>
+    </item>
+    <item>
+      <title>DeepSeek-V4.1-Flash, KV 캐시를 토큰당 890바이트로 줄이고 플래그십 V4-Pro를 대체하는 552B 규모의 MoE 모델</title>
+      <link>https://discuss.pytorch.kr/t/deepseek-v4-1-flash-kv-890-v4-pro-552b-moe/11886</link>
+      <description>DeepSeek-V4.1-Flash 소개 DeepSeek 이 2026년 9월 10일 DeepSeek-V4.1-Flash 를 공개했습니다. 백본 552B 규모의 멀티모달 전문가 혼합(Mixture-of-Experts, MoE) 모델로, 이미지와 텍스트를 함께 입력받아 텍스트를 생성하며 최대 100만 토큰 컨텍스트를 지원합니다. 이 모델의 핵심 주장은 성능이 아니라 비용 구조 에 있습니다.</description>
+      <pubDate>Fri, 11 Sep 2026 14:00:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/deepseek-v4-1-flash-kv-890-v4-pro-552b-moe/11886">PyTorch Korea</source>
+      <guid isPermaLink="false">9651695cf94bc3187dea3a1dc06cca21</guid>
+    </item>
     <item>
       <title>E-P-D 분리 서빙: 비전 인코더를 떼어내 TTFT를 최대 93% 줄이는 조건과 오히려 느려지는 조건 (feat. NVIDIA Dynamo)</title>
       <link>https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/agent-flow-claude-code-codex/11767">PyTorch Korea</source>
       <guid isPermaLink="false">bcd560ab6345bcc24c1cffebb2c9ed85</guid>
-    </item>
-    <item>
-      <title>img2obj: 참조 이미지를 애니메이션 가능한 Three.js 절차적 코드로 재구성하는 Codex 플러그인</title>
-      <link>https://discuss.pytorch.kr/t/img2obj-three-js-codex/11724</link>
-      <description>img2obj 소개 웹에 3D 오브젝트를 하나 올리려면 보통 모델 파일을 구해 옵니다. 에셋 스토어에서 내려받거나, 사진 여러 장으로 포토그래메트리(Photogrammetry)를 돌려 메시를 뽑거나, 3D 도구에서 직접 모델링합니다.</description>
-      <pubDate>Mon, 31 Aug 2026 21:00:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/img2obj-three-js-codex/11724">PyTorch Korea</source>
-      <guid isPermaLink="false">41a6afe36775709217a83ed3829b404b</guid>
-    </item>
-    <item>
-      <title>AI 에이전트들로 만든 외계 행성 문명 생성 시뮬레이션 공개</title>
-      <link>https://discuss.pytorch.kr/t/ai/11777</link>
-      <description>문명은 창발했는가, 암송했는가 — 대조군으로 다시 본 멀티에이전트 "창발" VIDRAFT · CIVOS | 라이브 데모: VIDraft/ai-world (Hugging Face Space) | 원문(EN): huggingface.co/blog/FINAL-Bench/ai-world TL;DR 멀티에이전트 시뮬레이션에서 관측되는 "사회·분업·문명의 창발"은 **탐색(H1)**일 수도, LLM이…</description>
-      <pubDate>Mon, 31 Aug 2026 16:35:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai/11777">PyTorch Korea</source>
-      <guid isPermaLink="false">b30ed6beb6bc85a55cc99593745c370a</guid>
     </item>
   </channel>
 </rss>

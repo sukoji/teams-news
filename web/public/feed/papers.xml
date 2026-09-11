@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 11 Sep 2026 09:56:19 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 14:41:47 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>월드 모델을 통한 자동 연구 에이전트 확장</title>
+      <link>https://huggingface.co/papers/2608.12564</link>
+      <description>World Model RL은 비용이 많이 드는 환경 실행을 학습된 세계 모델로 대체하고 편향성 제거 및 노이즈 제거를 적용하여 자율 연구 에이전트의 사후 교육을 가속화합니다.</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.12564">Hugging Face Papers</source>
+      <guid isPermaLink="false">d977ab4e68b133ae5fdf6331786e9bc5</guid>
+    </item>
+    <item>
+      <title>NCP-ArchPreview 기술 보고서: 다음 개념 예측을 통해 잠재 공간 언어 모델로 이동</title>
+      <link>https://huggingface.co/papers/2609.10715</link>
+      <description>NCP-ArchPreview는 사전 훈련 효율성과 다운스트림 성능을 향상시키기 위해 다음 토큰과 다음 개념 예측을 공동 훈련하는 대규모 잠재 공간 언어 모델입니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.10715">Hugging Face Papers</source>
+      <guid isPermaLink="false">4e4550e8d0d61214e41ba49911d76752</guid>
+    </item>
+    <item>
+      <title>SenseNova-U1.5: 네이티브 통합 시각 지능을 향하여</title>
+      <link>https://huggingface.co/papers/2609.11929</link>
+      <description>SenseNova-U1.5는 인코더나 VAE 없이 시각적 이해, 추론 및 생성을 수행하는 8B 네이티브 통합 다중 모드 모델로, 패치 재구성을 통해 높은 충실도와 지시를 달성합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.11929">Hugging Face Papers</source>
+      <guid isPermaLink="false">5b0e097ac143e98f9caf015e65468b03</guid>
+    </item>
+    <item>
+      <title>SpatialBlock: 합성 블록 스택 문제를 통해 LVLM의 공간 지능 향상</title>
+      <link>https://huggingface.co/papers/2609.07064</link>
+      <description>합성 블록 조작 작업에 대해 훈련된 대규모 비전 언어 모델은 3D 공간 추론을 개선하고 실제 시각적 작업으로 일반화됩니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.07064">Hugging Face Papers</source>
+      <guid isPermaLink="false">f55890bab2e7bb92bc8eaebd07926924</guid>
+    </item>
+    <item>
+      <title>EvoSafeHarness: 에이전트 보안을 위한 진화하는 모델 및 도메인별 하네스</title>
+      <link>https://huggingface.co/papers/2609.05903</link>
+      <description>EvoSafeHarness는 고정 모델 및 대상 도메인에 맞게 조정된 자연어 정책과 실행 가능한 로직을 공동으로 검색하여 배포 가능한 안전 장치를 최적화하고 에이전트 간의 안전 유틸리티 균형을 개선합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05903">Hugging Face Papers</source>
+      <guid isPermaLink="false">0be03b4967a6a950d5acc7754bb65324</guid>
+    </item>
+    <item>
+      <title>T1: 장거리 작업을 위한 터미널 에이전트 강화 학습</title>
+      <link>https://huggingface.co/papers/2609.11042</link>
+      <description>T1은 클라우드 샌드박스에서 장거리 터미널 작업을 실행하기 위해 강화 학습으로 훈련된 122B 전문가 혼합 모델로, 안정적인 배우 평론가 최적화 및 뛰어난 성능을 통해 최첨단 결과를 달성합니다.</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.11042">Hugging Face Papers</source>
+      <guid isPermaLink="false">c55be4f809b44a068484a19f242914f3</guid>
+    </item>
+    <item>
+      <title>CARDEA: 엔드투엔드 관상동맥 조영술 해석을 위한 공간적 증거에 기초한 감사 가능한 추론</title>
+      <link>https://huggingface.co/papers/2609.06931</link>
+      <description>관상 동맥 조영술을 위한 통합 비전 언어 모델은 검증 가능한 보상이 포함된 상자 체인 추론 및 강화 학습을 사용하여 감사 가능한 진단을 제공하고 제로 샷 보고서 생성을 개선합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.06931">Hugging Face Papers</source>
+      <guid isPermaLink="false">b3499529258ba8e01e654e8bbb3472f1</guid>
+    </item>
+    <item>
+      <title>HyQuant: LLM Attention을 위한 하이브리드 정밀 양자화</title>
+      <link>https://huggingface.co/papers/2608.27875</link>
+      <description>HyQuant는 중요한 수직선 토큰과 로컬 창을 높은 정밀도로 보존하는 동시에 나머지를 양자화하고 낮은 오버헤드로 정확성을 유지함으로써 낮은 비트 LLM 어텐션 양자화를 개선합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.27875">Hugging Face Papers</source>
+      <guid isPermaLink="false">7e1adb6ca0f091d84f9b86ae3a371388</guid>
+    </item>
+    <item>
+      <title>세계 속의 세계: 세계 모델과 함께 세계를 탐험해보세요</title>
+      <link>https://huggingface.co/papers/2609.11548</link>
+      <description>교육이 필요 없는 인터페이스를 사용하면 대응 기반 쿼리와 네이티브 셀프 어텐션을 통해 이질적인 시각적 증거를 라우팅하여 고정된 자동 회귀 비디오 세계 모델에서 유연한 카메라 및 시간 제어가 가능합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.11548">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d214d9aaca4eb3492d2ae98689673b3</guid>
+    </item>
+    <item>
+      <title>IMO Gold를 위한 공개 레시피: 올림피아드 수학을 위한 Nemotron 교육</title>
+      <link>https://huggingface.co/papers/2609.10712</link>
+      <description>사후 훈련된 Nemotron 3 Ultra 체크포인트를 사용하는 자연어 증명 생성 파이프라인은 외부 도구 없이 반복적인 검증 및 개선을 통해 IMO 2026에서 금메달 성능을 달성합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.10712">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab8ce10dd825d77387e4d48c389588ec</guid>
+    </item>
+    <item>
+      <title>재귀 코드 세계 모델: 재귀 장면 프로그램을 통해 복잡한 세계 구축</title>
+      <link>https://huggingface.co/papers/2609.11499</link>
+      <description>RCWM은 공유 카메라 정렬을 통해 전역 및 로컬 재구성을 번갈아 수행하여 단일 이미지에서 실행 가능한 코드로 복잡한 3D 세계를 반복적으로 구축합니다.</description>
+      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.11499">Hugging Face Papers</source>
+      <guid isPermaLink="false">42bb0bc27a0d8d79523e7b60c9586080</guid>
+    </item>
     <item>
       <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
       <link>https://huggingface.co/papers/2609.05463</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.06140">Hugging Face Papers</source>
       <guid isPermaLink="false">12fbcb565ce81c03192fc7c100131466</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.07398</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.07398">Hugging Face Papers</source>
-      <guid isPermaLink="false">99947d10fc8a56e524009599800e3da4</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.07821</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.07821">Hugging Face Papers</source>
-      <guid isPermaLink="false">e45aafff3419978a480e2f945d99cfd1</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.08108</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08108">Hugging Face Papers</source>
-      <guid isPermaLink="false">bff5cd0bcbd2284162c86576ff8d78bf</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.05592</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.05592">Hugging Face Papers</source>
-      <guid isPermaLink="false">64f7da0ea909152321ae90a126165678</guid>
-    </item>
-    <item>
-      <title>Miles v0.1: 생산 수준 사후 교육</title>
-      <link>https://huggingface.co/papers/2609.08368</link>
-      <description>Miles는 다양한 백엔드, 가중치 동기화, LoRA, 증류 및 확산 모델을 지원하는 대규모 강화 학습 및 사후 훈련을 위한 프로덕션용 오픈 소스 시스템입니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08368">Hugging Face Papers</source>
-      <guid isPermaLink="false">fd78ae56f525b62e026f8ab9b0bfe2c7</guid>
-    </item>
-    <item>
-      <title>옴니 인터랙션 에이전트 기술 보고서</title>
-      <link>https://huggingface.co/papers/2609.08977</link>
-      <description>Gander는 Cerebellum-Brain 아키텍처 및 청크 수준 토큰 스트림 설계를 통해 지속적인 다중 모드 스트리밍, 실시간 전이중 상호 작용 및 에이전트 추론을 통합하는 엔드 투 엔드 프레임워크입니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08977">Hugging Face Papers</source>
-      <guid isPermaLink="false">c9d23190326405cd608e4a243b7367fe</guid>
-    </item>
-    <item>
-      <title>CoVeR: VLM의 멀티뷰 3D 추론을 위한 커버리지 기반 토큰 정리</title>
-      <link>https://huggingface.co/papers/2609.08345</link>
-      <description>CoVeR은 다중 뷰 시각적 토큰 전반에 걸쳐 정확한 예산과 전체 장면 범위를 적용하여 3D 추론 성능을 유지하는 훈련이 필요 없는 공간 토큰 선택기입니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08345">Hugging Face Papers</source>
-      <guid isPermaLink="false">0a5181165a59880f0f2ceda52b0718d2</guid>
-    </item>
-    <item>
-      <title>마스크 강제: 이중 노이즈 마스킹 롤아웃을 통한 자동 회귀 비디오 확산 증류 개선</title>
-      <link>https://huggingface.co/papers/2609.09123</link>
-      <description>Mask Forcing은 자체 롤아웃 중에 마스크된 클리너 신호를 주입하여 증류된 자동 회귀 비디오 확산의 모드 붕괴를 완화하고 추가 교육 데이터 없이 시각적 품질을 향상시킵니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.09123">Hugging Face Papers</source>
-      <guid isPermaLink="false">5f97bdae438188f7f37bf4ca28021a28</guid>
-    </item>
-    <item>
-      <title>AuK 기술 보고서: 음성 생성 및 편집을 위한 오픈 소스 기본 모델</title>
-      <link>https://huggingface.co/papers/2609.08936</link>
-      <description>AuK는 다중 모드 언어 모델, 공동 VAE, 하이브리드 정류 흐름 변환기 등을 사용하여 자연어 지침 및 오디오 컨텍스트를 통해 음성 생성 및 편집을 통합하는 오픈 소스 기반 모델입니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08936">Hugging Face Papers</source>
-      <guid isPermaLink="false">43a6a64ba950fbea30b9b24e9edd7c72</guid>
-    </item>
-    <item>
-      <title>Marigold V2: 단안 깊이 추정을 위한 확산 변환기 재검토</title>
-      <link>https://huggingface.co/papers/2609.08084</link>
-      <description>Marigold V2는 단일 단계 흐름 일치 추론, 의미 정렬 및 Sinkhorn 기반 2단계 미세 조정 프로토콜을 통해 단안 깊이 추정을 위해 확산 변환기의 용도를 변경하여 보다 선명한 거리 외 결과를 생성합니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08084">Hugging Face Papers</source>
-      <guid isPermaLink="false">7a776749647cc2689b7356787772fe83</guid>
-    </item>
-    <item>
-      <title>BeaconKV: 효율적인 대규모 추론 모델 추론을 위해 비콘 쿼리를 기반으로 하는 키-값 캐시 압축</title>
-      <link>https://huggingface.co/papers/2609.04971</link>
-      <description>BeaconKV는 컴팩트 비콘 쿼리를 사용하여 어떤 과거 키-값 쌍이 다시 방문될지 예측하고 정확성을 희생하지 않고 캐시 크기를 줄임으로써 긴 추론 추적에 대한 메모리 효율성을 향상시킵니다.</description>
-      <pubDate>Wed, 09 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.04971">Hugging Face Papers</source>
-      <guid isPermaLink="false">90f9ce8017b6e7f46a210eada7349513</guid>
     </item>
   </channel>
 </rss>
