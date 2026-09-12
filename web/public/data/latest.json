@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-11",
-  "generated_at": "2026-09-11T09:48:12.123543+09:00",
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T09:51:20.972848+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,54 +10,54 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "16df4e7c505d56ec6d6746b392aaca1d",
+          "id": "4e4550e8d0d61214e41ba49911d76752",
           "index": 1,
-          "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-          "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "summary": "Show-Harness links vision-language models to robot control via discrete semantic actions interpreted by embodiment-specific modules, enabling zero-shot and efficient fine-tuned deployment across robots and GUIs.",
-          "summary_ko": "Show-Harness는 구현별 모듈에 의해 해석되는 개별 의미론적 동작을 통해 비전 언어 모델을 로봇 제어에 연결하여 로봇과 GUI 전반에 걸쳐 제로샷 및 효율적인 미세 조정 배포를 가능하게 합니다.",
-          "url": "https://huggingface.co/papers/2609.10522",
+          "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+          "title_ko": "NCP-ArchPreview 기술 보고서: 다음 개념 예측을 통해 잠재 공간 언어 모델로 이동",
+          "summary": "NCP-ArchPreview is a large latent-space language model that jointly trains next-token and next-concept prediction to improve pretraining efficiency and downstream performance.",
+          "summary_ko": "NCP-ArchPreview는 사전 훈련 효율성과 다운스트림 성능을 향상시키기 위해 다음 토큰과 다음 개념 예측을 공동 훈련하는 대규모 잠재 공간 언어 모델입니다.",
+          "url": "https://huggingface.co/papers/2609.10715",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-10T09:00:00+09:00",
-          "popularity": 385,
-          "upvotes": 125,
-          "score": 25.87,
-          "importance_score": 17.87,
+          "published_at": "2026-09-11T09:00:00+09:00",
+          "popularity": 359,
+          "upvotes": 177,
+          "score": 25.66,
+          "importance_score": 17.66,
           "matched_keywords": [
-            "agent",
-            "vlm"
+            "ai",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 125
+            "value": 177
           }
         },
         {
-          "id": "cdf7a2308c094194e5231b0a1c3134ed",
+          "id": "5b0e097ac143e98f9caf015e65468b03",
           "index": 2,
-          "title": "🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-          "title_ko": "🔥AI 에이전트 주간: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA 구매 Hugging Face, Grok Bot Design, FrontierHarness Eval 등",
-          "summary": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-          "summary_ko": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA, Hugging Face, Grok Bot Design, FrontierHarness Eval 등 구매",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-6-astra-claude",
-          "source": "Elvis AI Newsletter",
+          "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "title_ko": "SenseNova-U1.5: 네이티브 통합 시각 지능을 향하여",
+          "summary": "SenseNova-U1.5 is an 8B native unified multimodal model that performs visual understanding, reasoning, and generation without encoders or VAEs, achieving high fidelity and instruction following through patch reconstruct…",
+          "summary_ko": "SenseNova-U1.5는 인코더나 VAE 없이 시각적 이해, 추론 및 생성을 수행하는 8B 네이티브 통합 다중 모드 모델로, 패치 재구성을 통해 높은 충실도와 지시를 달성합니다.",
+          "url": "https://huggingface.co/papers/2609.11929",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-06T00:36:27+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 23.9,
-          "importance_score": 9.9,
+          "published_at": "2026-09-11T09:00:00+09:00",
+          "popularity": 283,
+          "upvotes": 139,
+          "score": 24.95,
+          "importance_score": 16.95,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "gpt",
-            "claude",
-            "gemini"
+            "multimodal",
+            "reasoning"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 139
+          }
         }
       ]
     },
@@ -66,46 +66,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "72f787e50c23737feaf3f807039b3ea5",
+          "id": "bf6ddd2beae8daf889512a00bc4a0181",
           "index": 3,
-          "title": "오픈AI, '프로 요금제' 신규 가입 일시 중단...\"기존 사용자 경험 우선\"",
+          "title": "[9월11일] 실리콘밸리에서 갑자기 ‘AI 종말론’이 다시 떠오른 이유",
           "title_ko": null,
-          "summary": "오픈AI가 \\'GPT-6 아스트라\\'에 대한 폭발적인 수요로 인해 서버 과부하가 발생하자 최상위 유료 요금제 신규 가입을 전격 중단했다.티보 소티오 오픈AI 제품 담당 책임자는 10일(현지시간) X를 통해 \\\"기존 사용자들이 최상의 경험을 누리고 아스트라 서비스를 계속 안정적으로 이용할 수 있도록 프로 플랜 구독을 일시 중단한다\\\"고 밝혔다.이에 따라 월 200달러(국내가 15만9000원)…",
+          "summary": "AI가 인간을 넘어서는 순간 인류가 통제력을 잃을 수 있다는 경고는 새로운 이야기가 아닙니다. 수년 전부터 AI 석학과 연구자들이 비슷한 우려를 내놨고, AI가 인간을 속이거나 감독을 피할 수 있는지 확인하는 실험도 이어졌습니다. 하지만 대중에게는 여전히 먼 미래의 이야기, 혹은 SF에 가까운 이야기로 받아들여졌습니다.그런데 최근 들어 분위기가 달라지고 있습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215118",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215136",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-11T07:43:08+09:00",
+          "published_at": "2026-09-12T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.57,
-          "importance_score": 19.13,
+          "score": 22.41,
+          "importance_score": 18.81,
           "matched_keywords": [
             "ai",
-            "gpt"
+            "연구"
           ],
           "engagement": null
         },
         {
-          "id": "0b525f878f2e0d0e456abfe3e83c7dfd",
+          "id": "c9662e4c6f8eb78005be6378ceb82ac9",
           "index": 4,
-          "title": "아스트라 수요 폭증에…오픈AI, 月 200달러 요금제 신규 가입 중단",
+          "title": "“AI로 인류 멸망” 경고에…앤트로픽 “치명적 '모기 바이러스' 무기화 시도…AI 악용 차단”",
           "title_ko": null,
-          "summary": "챗GPT 개발사 오픈AI가 새 인공지능(AI) 모델 '아스트라'의 수요가 크게 늘면서 최상위 '프로' 요금제의 신규 가입을 일시 중단했다.",
+          "summary": "인공지능(AI) 기업 앤트로픽이 자사 AI 모델을 사이버 공격, 여론 조작 감시, 생물학 무기 연구 등 악의적인 목적으로 활용하려 한 시도들을 차단했다고 밝혔다. 10일(현지시간) AP 통신은 앤트로픽이 이날 발표한 세 번째 AI 오용 관련 보고서를 인용해 “스파이웨어 업체, 정치적 목적을 가진 개인, 국가 지원 선전 단체 등 다양한 주체로부터 수집된 신종 위협 활동을 차단했다”고 보도했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260911000023",
+          "url": "https://www.etnews.com/20260911000108",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-11T08:50:56+09:00",
-          "popularity": 99,
+          "published_at": "2026-09-11T17:50:00+09:00",
+          "popularity": 93,
           "upvotes": 0,
-          "score": 25.7,
-          "importance_score": 19.5,
+          "score": 21.96,
+          "importance_score": 12.62,
           "matched_keywords": [
             "ai",
-            "gpt",
+            "연구",
             "모델"
           ],
           "engagement": null
@@ -128,10 +128,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-09-08T17:28:22+09:00",
-          "popularity": 101,
-          "upvotes": 101,
-          "score": 27.19,
-          "importance_score": 16.19,
+          "popularity": 102,
+          "upvotes": 102,
+          "score": 27.22,
+          "importance_score": 16.22,
           "matched_keywords": [
             "ai",
             "agent",
@@ -139,32 +139,31 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 101
+            "value": 102
           }
         },
         {
-          "id": "c46b650cfeeaa245e8188086f302272f",
+          "id": "32f7b18d37147e169e3963b6f39003b6",
           "index": 6,
-          "title": "aimeoa/hanshuang-codex — 针对GPT 6.0,V4flash的破甲实验项目",
-          "title_ko": "aimeoa/hanshuang-codex — GPT 6.0, V4flash를 위한 갑옷 파괴 실험 프로젝트",
-          "summary": "针对GPT 6.0,V4flash的破甲实验项目",
-          "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "url": "https://github.com/aimeoa/hanshuang-codex",
+          "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base UR",
+          "title_ko": "xiaYuTian11/maskit — Data Maskit — 대형 모델을 위해 특별히 제작된 로컬 개인정보 민감화 게이트웨이(자동 코딩 요청, 응답 스트리밍 복원, 커서/Claude Code/Codex/Pi 등 지원, 모든 Base UR로 구성 가능)",
+          "summary": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+          "summary_ko": "Data Mask Data Maskit - 대형 모델을 위해 특별히 제작된 로컬 개인 정보 민감화 완화 게이트웨이(자동 코딩 요청, 응답 스트리밍 복원, 커서/Claude 코드/Codex/Pi 및 기타 구성 가능한 기본 URL 도구 지원)",
+          "url": "https://github.com/xiaYuTian11/maskit",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-10T23:03:04+09:00",
-          "popularity": 83,
-          "upvotes": 83,
-          "score": 26.27,
-          "importance_score": 21.03,
+          "published_at": "2026-09-12T00:51:19+09:00",
+          "popularity": 147,
+          "upvotes": 147,
+          "score": 25.62,
+          "importance_score": 23.74,
           "matched_keywords": [
-            "ai",
-            "gpt"
+            "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 83
+            "value": 147
           }
         }
       ]
@@ -174,25 +173,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "9d2d14ec5bb8585d117fd88a8eea94b0",
+          "id": "4a08d2df29ec9e3a92939a4564d32ee5",
           "index": 7,
-          "title": "E-P-D 분리 서빙: 비전 인코더를 떼어내 TTFT를 최대 93% 줄이는 조건과 오히려 느려지는 조건 (feat. NVIDIA Dynamo)",
+          "title": "[A2A 알아보기 1편] A2A 프로토콜: 프레임워크가 서로 달라도 에이전트들끼리 서로 작업을 위임하게 하는 표준 규격",
           "title_ko": null,
-          "summary": "Encode-Prefill-Decode(EPD) 분리 서빙 소개 Encode-Prefill-Decode 분리(EPD Disaggregation) 는 멀티모달 모델을 서빙할 때 비전 인코더 단계를 프리필(prefill)과 디코드(decode) 단계에서 떼어내 독립적인 워커로 실행하는 추론(inference) 최적화 기법입니다.",
+          "summary": "A2A 프로토콜 소개 A2A(Agent2Agent) 프로토콜 은 서로 다른 프레임워크와 회사가 만든 AI 에이전트가 상대의 내부 상태와 도구를 들여다보지 않고도 작업을 맡기고 결과를 주고받게 하는 개방형 통신 규격입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883",
+          "url": "https://discuss.pytorch.kr/t/a2a-1-a2a/11892",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-11T07:00:28+09:00",
+          "published_at": "2026-09-11T20:00:10+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.42,
-          "importance_score": 18.84,
+          "score": 20.11,
+          "importance_score": 14.23,
           "matched_keywords": [
-            "추론",
-            "모델",
-            "inference"
+            "ai",
+            "agent"
           ],
           "engagement": null
         }
@@ -201,96 +199,96 @@
   ],
   "items": [
     {
-      "id": "16df4e7c505d56ec6d6746b392aaca1d",
+      "id": "4e4550e8d0d61214e41ba49911d76752",
       "index": 1,
-      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-      "title_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "summary": "Show-Harness links vision-language models to robot control via discrete semantic actions interpreted by embodiment-specific modules, enabling zero-shot and efficient fine-tuned deployment across robots and GUIs.",
-      "summary_ko": "Show-Harness는 구현별 모듈에 의해 해석되는 개별 의미론적 동작을 통해 비전 언어 모델을 로봇 제어에 연결하여 로봇과 GUI 전반에 걸쳐 제로샷 및 효율적인 미세 조정 배포를 가능하게 합니다.",
-      "url": "https://huggingface.co/papers/2609.10522",
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "title_ko": "NCP-ArchPreview 기술 보고서: 다음 개념 예측을 통해 잠재 공간 언어 모델로 이동",
+      "summary": "NCP-ArchPreview is a large latent-space language model that jointly trains next-token and next-concept prediction to improve pretraining efficiency and downstream performance.",
+      "summary_ko": "NCP-ArchPreview는 사전 훈련 효율성과 다운스트림 성능을 향상시키기 위해 다음 토큰과 다음 개념 예측을 공동 훈련하는 대규모 잠재 공간 언어 모델입니다.",
+      "url": "https://huggingface.co/papers/2609.10715",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-10T09:00:00+09:00",
-      "popularity": 385,
-      "upvotes": 125,
-      "score": 25.87,
-      "importance_score": 17.87,
+      "published_at": "2026-09-11T09:00:00+09:00",
+      "popularity": 359,
+      "upvotes": 177,
+      "score": 25.66,
+      "importance_score": 17.66,
       "matched_keywords": [
-        "agent",
-        "vlm"
+        "ai",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 125
+        "value": 177
       }
     },
     {
-      "id": "cdf7a2308c094194e5231b0a1c3134ed",
+      "id": "5b0e097ac143e98f9caf015e65468b03",
       "index": 2,
-      "title": "🔥AI Agents Weekly: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-      "title_ko": "🔥AI 에이전트 주간: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA 구매 Hugging Face, Grok Bot Design, FrontierHarness Eval 등",
-      "summary": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA Buys Hugging Face, Grok Bot Design, FrontierHarness Eval, and More",
-      "summary_ko": "GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA, Hugging Face, Grok Bot Design, FrontierHarness Eval 등 구매",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-6-astra-claude",
-      "source": "Elvis AI Newsletter",
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "title_ko": "SenseNova-U1.5: 네이티브 통합 시각 지능을 향하여",
+      "summary": "SenseNova-U1.5 is an 8B native unified multimodal model that performs visual understanding, reasoning, and generation without encoders or VAEs, achieving high fidelity and instruction following through patch reconstruct…",
+      "summary_ko": "SenseNova-U1.5는 인코더나 VAE 없이 시각적 이해, 추론 및 생성을 수행하는 8B 네이티브 통합 다중 모드 모델로, 패치 재구성을 통해 높은 충실도와 지시를 달성합니다.",
+      "url": "https://huggingface.co/papers/2609.11929",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-06T00:36:27+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 23.9,
-      "importance_score": 9.9,
+      "published_at": "2026-09-11T09:00:00+09:00",
+      "popularity": 283,
+      "upvotes": 139,
+      "score": 24.95,
+      "importance_score": 16.95,
       "matched_keywords": [
-        "ai",
-        "agent",
-        "gpt",
-        "claude",
-        "gemini"
+        "multimodal",
+        "reasoning"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 139
+      }
     },
     {
-      "id": "72f787e50c23737feaf3f807039b3ea5",
+      "id": "bf6ddd2beae8daf889512a00bc4a0181",
       "index": 3,
-      "title": "오픈AI, '프로 요금제' 신규 가입 일시 중단...\"기존 사용자 경험 우선\"",
+      "title": "[9월11일] 실리콘밸리에서 갑자기 ‘AI 종말론’이 다시 떠오른 이유",
       "title_ko": null,
-      "summary": "오픈AI가 \\'GPT-6 아스트라\\'에 대한 폭발적인 수요로 인해 서버 과부하가 발생하자 최상위 유료 요금제 신규 가입을 전격 중단했다.티보 소티오 오픈AI 제품 담당 책임자는 10일(현지시간) X를 통해 \\\"기존 사용자들이 최상의 경험을 누리고 아스트라 서비스를 계속 안정적으로 이용할 수 있도록 프로 플랜 구독을 일시 중단한다\\\"고 밝혔다.이에 따라 월 200달러(국내가 15만9000원)…",
+      "summary": "AI가 인간을 넘어서는 순간 인류가 통제력을 잃을 수 있다는 경고는 새로운 이야기가 아닙니다. 수년 전부터 AI 석학과 연구자들이 비슷한 우려를 내놨고, AI가 인간을 속이거나 감독을 피할 수 있는지 확인하는 실험도 이어졌습니다. 하지만 대중에게는 여전히 먼 미래의 이야기, 혹은 SF에 가까운 이야기로 받아들여졌습니다.그런데 최근 들어 분위기가 달라지고 있습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215118",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215136",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-11T07:43:08+09:00",
+      "published_at": "2026-09-12T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.57,
-      "importance_score": 19.13,
+      "score": 22.41,
+      "importance_score": 18.81,
       "matched_keywords": [
         "ai",
-        "gpt"
+        "연구"
       ],
       "engagement": null
     },
     {
-      "id": "0b525f878f2e0d0e456abfe3e83c7dfd",
+      "id": "c9662e4c6f8eb78005be6378ceb82ac9",
       "index": 4,
-      "title": "아스트라 수요 폭증에…오픈AI, 月 200달러 요금제 신규 가입 중단",
+      "title": "“AI로 인류 멸망” 경고에…앤트로픽 “치명적 '모기 바이러스' 무기화 시도…AI 악용 차단”",
       "title_ko": null,
-      "summary": "챗GPT 개발사 오픈AI가 새 인공지능(AI) 모델 '아스트라'의 수요가 크게 늘면서 최상위 '프로' 요금제의 신규 가입을 일시 중단했다.",
+      "summary": "인공지능(AI) 기업 앤트로픽이 자사 AI 모델을 사이버 공격, 여론 조작 감시, 생물학 무기 연구 등 악의적인 목적으로 활용하려 한 시도들을 차단했다고 밝혔다. 10일(현지시간) AP 통신은 앤트로픽이 이날 발표한 세 번째 AI 오용 관련 보고서를 인용해 “스파이웨어 업체, 정치적 목적을 가진 개인, 국가 지원 선전 단체 등 다양한 주체로부터 수집된 신종 위협 활동을 차단했다”고 보도했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260911000023",
+      "url": "https://www.etnews.com/20260911000108",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-11T08:50:56+09:00",
-      "popularity": 99,
+      "published_at": "2026-09-11T17:50:00+09:00",
+      "popularity": 93,
       "upvotes": 0,
-      "score": 25.7,
-      "importance_score": 19.5,
+      "score": 21.96,
+      "importance_score": 12.62,
       "matched_keywords": [
         "ai",
-        "gpt",
+        "연구",
         "모델"
       ],
       "engagement": null
@@ -307,10 +305,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-09-08T17:28:22+09:00",
-      "popularity": 101,
-      "upvotes": 101,
-      "score": 27.19,
-      "importance_score": 16.19,
+      "popularity": 102,
+      "upvotes": 102,
+      "score": 27.22,
+      "importance_score": 16.22,
       "matched_keywords": [
         "ai",
         "agent",
@@ -318,54 +316,52 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 101
+        "value": 102
       }
     },
     {
-      "id": "c46b650cfeeaa245e8188086f302272f",
+      "id": "32f7b18d37147e169e3963b6f39003b6",
       "index": 6,
-      "title": "aimeoa/hanshuang-codex — 针对GPT 6.0,V4flash的破甲实验项目",
-      "title_ko": "aimeoa/hanshuang-codex — GPT 6.0, V4flash를 위한 갑옷 파괴 실험 프로젝트",
-      "summary": "针对GPT 6.0,V4flash的破甲实验项目",
-      "summary_ko": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "url": "https://github.com/aimeoa/hanshuang-codex",
+      "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base UR",
+      "title_ko": "xiaYuTian11/maskit — Data Maskit — 대형 모델을 위해 특별히 제작된 로컬 개인정보 민감화 게이트웨이(자동 코딩 요청, 응답 스트리밍 복원, 커서/Claude Code/Codex/Pi 등 지원, 모든 Base UR로 구성 가능)",
+      "summary": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+      "summary_ko": "Data Mask Data Maskit - 대형 모델을 위해 특별히 제작된 로컬 개인 정보 민감화 완화 게이트웨이(자동 코딩 요청, 응답 스트리밍 복원, 커서/Claude 코드/Codex/Pi 및 기타 구성 가능한 기본 URL 도구 지원)",
+      "url": "https://github.com/xiaYuTian11/maskit",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-10T23:03:04+09:00",
-      "popularity": 83,
-      "upvotes": 83,
-      "score": 26.27,
-      "importance_score": 21.03,
+      "published_at": "2026-09-12T00:51:19+09:00",
+      "popularity": 147,
+      "upvotes": 147,
+      "score": 25.62,
+      "importance_score": 23.74,
       "matched_keywords": [
-        "ai",
-        "gpt"
+        "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 83
+        "value": 147
       }
     },
     {
-      "id": "9d2d14ec5bb8585d117fd88a8eea94b0",
+      "id": "4a08d2df29ec9e3a92939a4564d32ee5",
       "index": 7,
-      "title": "E-P-D 분리 서빙: 비전 인코더를 떼어내 TTFT를 최대 93% 줄이는 조건과 오히려 느려지는 조건 (feat. NVIDIA Dynamo)",
+      "title": "[A2A 알아보기 1편] A2A 프로토콜: 프레임워크가 서로 달라도 에이전트들끼리 서로 작업을 위임하게 하는 표준 규격",
       "title_ko": null,
-      "summary": "Encode-Prefill-Decode(EPD) 분리 서빙 소개 Encode-Prefill-Decode 분리(EPD Disaggregation) 는 멀티모달 모델을 서빙할 때 비전 인코더 단계를 프리필(prefill)과 디코드(decode) 단계에서 떼어내 독립적인 워커로 실행하는 추론(inference) 최적화 기법입니다.",
+      "summary": "A2A 프로토콜 소개 A2A(Agent2Agent) 프로토콜 은 서로 다른 프레임워크와 회사가 만든 AI 에이전트가 상대의 내부 상태와 도구를 들여다보지 않고도 작업을 맡기고 결과를 주고받게 하는 개방형 통신 규격입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883",
+      "url": "https://discuss.pytorch.kr/t/a2a-1-a2a/11892",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-11T07:00:28+09:00",
+      "published_at": "2026-09-11T20:00:10+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.42,
-      "importance_score": 18.84,
+      "score": 20.11,
+      "importance_score": 14.23,
       "matched_keywords": [
-        "추론",
-        "모델",
-        "inference"
+        "ai",
+        "agent"
       ],
       "engagement": null
     }
