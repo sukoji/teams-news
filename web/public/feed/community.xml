@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 14 Sep 2026 09:54:04 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 14:55:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[A2A 알아보기 2편] A2A Python SDK: 나의 에이전트를 다른 사람의 에이전트가 호출할 수 있도록 하기 위해 A2A 서버로 공개하기</title>
+      <link>https://discuss.pytorch.kr/t/a2a-2-a2a-python-sdk-a2a/11893</link>
+      <description>A2A Python SDK 소개 A2A Python SDK 는 파이썬으로 만든 에이전트를 A2A(Agent2Agent) 프로토콜 ( [A2A 알아보기 1편] A2A 프로토콜: 프레임워크가 서로 달라도 에이전트들끼리 서로 작업을 위임하게 하는 표준 규격 )을 따르는 서버로 공개하게 해 주는 공식 라이브러리입니다.</description>
+      <pubDate>Mon, 14 Sep 2026 12:00:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/a2a-2-a2a-python-sdk-a2a/11893">PyTorch Korea</source>
+      <guid isPermaLink="false">e3120a2e1b0040263c1595a48e685010</guid>
+    </item>
+    <item>
+      <title>벤치마크를 믿기 어려운 이유 - 홈 어드밴티지</title>
+      <link>https://discuss.pytorch.kr/t/topic/11912</link>
+      <description>문서 데이터 추출(OCR/파싱) 리더보드 13개를 모아보니 눈에 띄는 패턴이 있었습니다. 바로 '홈 어드밴티지'입니다. 요약 제작사·후원사와 연관된 모델이 출전한 벤치마크 10개 중 10개 전부 상위 3위 안에 들었으며, 그 중 7개는 1위 에 랭크했습니다.</description>
+      <pubDate>Mon, 14 Sep 2026 10:34:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/topic/11912">PyTorch Korea</source>
+      <guid isPermaLink="false">e50a5f4b86d056d80fb5f8d77d817d8a</guid>
+    </item>
     <item>
       <title>OpenWAM: 로봇 World-Action Model의 설계 선택을 하나씩 바꿔 비교하는 모듈형 사전학습 스택</title>
       <link>https://discuss.pytorch.kr/t/openwam-world-action-model/11881</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sentence-transformers-gpu-14-5/11791">PyTorch Korea</source>
       <guid isPermaLink="false">4a8c54d76658bd56af429bc50b02b244</guid>
-    </item>
-    <item>
-      <title>NVIDIA Model Optimizer: 모델을 경량화하여 vLLM / TensorRT / SGLang 등의 추론 서버용 배포용 체크포인트를 만드는 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782</link>
-      <description>NVIDIA Model Optimizer 소개 큰 언어 모델을 서비스에 올려 추론(Inference)을 수행하려는 팀이 가장 먼저 부딪히는 벽은 정확도가 아니라 메모리와 지연 시간입니다. BF16 그대로 올리면 GPU가 부족하고, 정확도를 조금 내주고 압축하기로 결정하면 이번에는 도구 선택 문제가 남습니다.</description>
-      <pubDate>Wed, 02 Sep 2026 09:30:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nvidia-model-optimizer-vllm-tensorrt-sglang/11782">PyTorch Korea</source>
-      <guid isPermaLink="false">c4cfbaeb3d9dbe32b86e7bf2bd328b4f</guid>
-    </item>
-    <item>
-      <title>Anthropic, Claude Fable 5.1과 Mythos 5.1 출시: 과학 벤치마크 2배와 캐시 읽기 75% 인하</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-claude-fable-5-1-mythos-5-1-2-75/11794</link>
-      <description>Claude Fable 5.1과 Mythos 5.1 소개 Anthropic 이 2026년 9월 1일 Claude Fable 5.1과 Claude Mythos 5.1 을 공개했습니다. 두 이름이 붙었지만 가중치가 같은 하나의 모델 이고, 갈리는 것은 안전장치(Safeguards)의 수준뿐입니다.</description>
-      <pubDate>Wed, 02 Sep 2026 12:00:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-claude-fable-5-1-mythos-5-1-2-75/11794">PyTorch Korea</source>
-      <guid isPermaLink="false">4a745fee2b0061a0534f292727fb17a0</guid>
     </item>
   </channel>
 </rss>
