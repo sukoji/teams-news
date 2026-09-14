@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 14 Sep 2026 09:38:45 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 09:54:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenWAM: 로봇 World-Action Model의 설계 선택을 하나씩 바꿔 비교하는 모듈형 사전학습 스택</title>
+      <link>https://discuss.pytorch.kr/t/openwam-world-action-model/11881</link>
+      <description>OpenWAM 소개 로봇 조작 정책을 학습시키는 방법으로 최근 늘어난 것이 World-Action Model(WAM) 입니다. 대규모 영상으로 학습한 생성 모델이 이미 가지고 있는 물리 세계에 대한 지식을 물려받고, 로봇이 실제로 수행한 경험을 통해 그 지식을 실행 가능한 제어 신호로 바꾸는 구조입니다. 문제는 지금까지 공개된 WAM 구현들이 대부분 한 덩어리로 묶여 있다는 점입니다.</description>
+      <pubDate>Mon, 14 Sep 2026 09:30:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openwam-world-action-model/11881">PyTorch Korea</source>
+      <guid isPermaLink="false">37e0f3affa22380a253c563bb0bee02a</guid>
+    </item>
     <item>
       <title>[2026/09/07 ~ 13] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-09-07-13-ai-ml/11911</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/anthropic-claude-fable-5-1-mythos-5-1-2-75/11794">PyTorch Korea</source>
       <guid isPermaLink="false">4a745fee2b0061a0534f292727fb17a0</guid>
-    </item>
-    <item>
-      <title>Reversa: 레거시 코드에서 AI 코딩 에이전트용 명세를 역으로 추출하는 다중 에이전트 프레임워크에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/reversa-ai/11785</link>
-      <description>Reversa 소개 코딩 에이전트에게 새 기능을 맡기는 것과 10년 된 시스템의 기능을 고치라고 맡기는 것은 난이도가 다릅니다. 새로 만드는 쪽은 사람이 명세를 쓰고 에이전트가 그것을 실행하면 되지만, 오래된 시스템에는 애초에 명세가 없습니다.</description>
-      <pubDate>Wed, 02 Sep 2026 07:00:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/reversa-ai/11785">PyTorch Korea</source>
-      <guid isPermaLink="false">629629f494273bfece3fa74330b1afe2</guid>
     </item>
   </channel>
 </rss>
