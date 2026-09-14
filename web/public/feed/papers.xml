@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 14 Sep 2026 14:55:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 21:05:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models</title>
+      <link>https://huggingface.co/papers/2609.08418</link>
+      <description>A data-centric framework with specialized systems for reasoning analysis, cost reduction, and execution verification enables small teams to train open-weight cyber agents that ach…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.08418">Hugging Face Papers</source>
+      <guid isPermaLink="false">6f58e4feb926babe2929b996f8d14cb4</guid>
+    </item>
+    <item>
+      <title>StepAudio 3 Gen Technical Report</title>
+      <link>https://huggingface.co/papers/2609.12945</link>
+      <description>StepAudio 3 Gen is a discrete autoregressive audio generation model that uses residual vector quantization tokens and a shared code space to unify text-to-speech, voice design, so…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.12945">Hugging Face Papers</source>
+      <guid isPermaLink="false">0f64201b51e943d5b2ca0bc9055e9a7f</guid>
+    </item>
+    <item>
+      <title>Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents</title>
+      <link>https://huggingface.co/papers/2609.05824</link>
+      <description>Diverse Skill Routing improves LLM agent skill selection by balancing relevance with non-redundancy via a determinantal point process, boosting multi-skill coverage.</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05824">Hugging Face Papers</source>
+      <guid isPermaLink="false">09dea11c5ec99d0dc001d7aa56577d9b</guid>
+    </item>
+    <item>
+      <title>Online Learning with LLM Experts from Limited Feedback</title>
+      <link>https://huggingface.co/papers/2609.05820</link>
+      <description>Adaptive routing of prompts to LLM experts is formulated as a contextual bandit problem with limited feedback, yielding algorithms with sublinear regret bounds and effective routi…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05820">Hugging Face Papers</source>
+      <guid isPermaLink="false">6b321d3ec08fc9c55f781e3a7bb4ace0</guid>
+    </item>
+    <item>
+      <title>Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech</title>
+      <link>https://huggingface.co/papers/2609.03502</link>
+      <description>A compact Thai text-to-speech model is distilled from a large voice-cloning teacher using synthetic data from brief voice references, achieving strong on-device accuracy and proso…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03502">Hugging Face Papers</source>
+      <guid isPermaLink="false">f51aca7b116d069c08ca10b4aa867166</guid>
+    </item>
+    <item>
+      <title>How Far Can Synthetic Data Take Thai OCR?</title>
+      <link>https://huggingface.co/papers/2609.03595</link>
+      <description>A Thai OCR model trained solely on synthetic documents achieves strong real-world performance by isolating key transfer factors like typography, layout, and handwriting glyphs.</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.03595">Hugging Face Papers</source>
+      <guid isPermaLink="false">871c28b9cac280a29550bc5b404b7818</guid>
+    </item>
     <item>
       <title>Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</title>
       <link>https://huggingface.co/papers/2609.11115</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.02771">Hugging Face Papers</source>
       <guid isPermaLink="false">9ffc53eb1a3a0993ea50c3d67ff78146</guid>
-    </item>
-    <item>
-      <title>의미론적 병목 현상: 비침습적 음성 디코딩을 위한 의미론적 표현 활용</title>
-      <link>https://huggingface.co/papers/2609.10296</link>
-      <description>비침습적 브레인 디코딩 접근 방식은 MEG 응답을 의미론적 임베딩에 매핑하여 단어 수준 정렬 없이 문장 수준 텍스트를 재구성합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.10296">Hugging Face Papers</source>
-      <guid isPermaLink="false">69f6867c1d040ca94afdc086550bfdf3</guid>
-    </item>
-    <item>
-      <title>비디오 가격이 여전히 비싼 이유는 ​​무엇입니까? 비디오 및 시청각 LLM의 추론 효율성 메커니즘에 대한 조사</title>
-      <link>https://huggingface.co/papers/2609.10355</link>
-      <description>이 설문 조사에서는 비디오 대형 언어 모델에 대한 추론 효율성 기술을 조사하고 프레임 샘플링, 인코딩, 토큰 압축 및 언어 모델 단계 전반에 걸쳐 비용 절감을 분석하는 동시에 평가를 식별합니다…</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.10355">Hugging Face Papers</source>
-      <guid isPermaLink="false">56ccd9ff8436a2c0e40809ac41ca89ef</guid>
-    </item>
-    <item>
-      <title>OracleZoom: 정책에 따른 자체 증류에서 영감을 얻은 참조 제한 재귀 이미지 초해상도</title>
-      <link>https://huggingface.co/papers/2609.06490</link>
-      <description>OracleZoom은 궤적 기반 훈련을 교차 규모 감독 및 최대 확대에서 환각을 줄이기 전 잠재성을 결합하여 재귀적 초해상도를 향상시킵니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.06490">Hugging Face Papers</source>
-      <guid isPermaLink="false">09a0275728cb3a149ab54b30aaaab185</guid>
-    </item>
-    <item>
-      <title>StochBench: 린의 확률적 프로세스에 대한 도메인별 벤치마크</title>
-      <link>https://huggingface.co/papers/2609.09264</link>
-      <description>StochBench는 Lean 4에서 450개의 대학원 수준 확률론적 프로세스 문제를 도입하여 도메인별 응용 수학에 대한 공식 정리 증명을 벤치마킹합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.09264">Hugging Face Papers</source>
-      <guid isPermaLink="false">a46f702171cb486b59d7a2dd935322d6</guid>
-    </item>
-    <item>
-      <title>PlannerForge: 자율 주행에서 모션 플래너의 시나리오 기반 테스트를 위한 LLM 에이전트</title>
-      <link>https://huggingface.co/papers/2609.08965</link>
-      <description>PlannerForge는 시나리오 기반 자율 주행 테스트의 모든 단계를 통합하고 상용 및 오픈 소스 모바일 전반에서 생성, 선택, 수정 및 계획 성능을 향상시키는 LLM 에이전트 프레임워크입니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08965">Hugging Face Papers</source>
-      <guid isPermaLink="false">4f63c3b0dcd5e12f737fa1ab5ef0b573</guid>
-    </item>
-    <item>
-      <title>숨겨진 상태의 상대적 표현을 통한 LLM의 참조 기반 편향 탐지</title>
-      <link>https://huggingface.co/papers/2609.10060</link>
-      <description>이 연구에서는 최소한의 계산으로 내부 편향 변화를 감지하기 위해 모델 변형 전반에 걸쳐 표현 편향 변화를 측정하는 참조 기반 숨겨진 상태 감사 방법을 제안합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.10060">Hugging Face Papers</source>
-      <guid isPermaLink="false">90fbffb9b0e5b4f34ccd81898e7affb4</guid>
     </item>
   </channel>
 </rss>
