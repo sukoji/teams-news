@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 14 Sep 2026 21:05:24 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 03:23:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DataFlex-RL: An Evaluation Platform for RLVR Data Policies</title>
+      <link>https://huggingface.co/papers/2609.06107</link>
+      <description>DataFlex-RL evaluates reinforcement learning data policies and finds that uniform sampling matches or exceeds adaptive rollout selection, reweighting, and domain mixing across mat…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.06107">Hugging Face Papers</source>
+      <guid isPermaLink="false">f04567ca130e2397c7ee8602250ea16b</guid>
+    </item>
+    <item>
+      <title>TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents</title>
+      <link>https://huggingface.co/papers/2609.10297</link>
+      <description>TRACE is a training-free framework that ranks visual evidence by future utility and diversity, reserves native tokens for spatial coverage, and contracts retired frames to reduce…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.10297">Hugging Face Papers</source>
+      <guid isPermaLink="false">208c1836cebead651868a1e3bf078f35</guid>
+    </item>
+    <item>
+      <title>Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model</title>
+      <link>https://huggingface.co/papers/2609.07154</link>
+      <description>A 2B vision-language model distilled from a tool-using agent achieves first-place performance on long egocentric video question answering by pruning its multilingual embedding tab…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.07154">Hugging Face Papers</source>
+      <guid isPermaLink="false">7d4db2ccac7e2624c90ee61581d82d30</guid>
+    </item>
+    <item>
+      <title>Studying Without a Syllabus: Task-Agnostic Environment Preprocessing</title>
+      <link>https://huggingface.co/papers/2609.10824</link>
+      <description>An agent can explore unfamiliar environments without task-specific guidance to build reusable artifacts that reduce later inference costs, though larger study budgets do not alway…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.10824">Hugging Face Papers</source>
+      <guid isPermaLink="false">af5e15a3ffb4f931fbe8046e7ec7d54b</guid>
+    </item>
+    <item>
+      <title>Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision</title>
+      <link>https://huggingface.co/papers/2609.07099</link>
+      <description>The approach reformulates intervention timing as single-token classification and uses a video agent for visual supervision to improve wearable assistant decision-making.</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.07099">Hugging Face Papers</source>
+      <guid isPermaLink="false">c4e5796458d35e543a4368d0fc4021f8</guid>
+    </item>
+    <item>
+      <title>ActionSplice: In-Flight Action Editing for Interactive World Models</title>
+      <link>https://huggingface.co/papers/2609.08230</link>
+      <description>ActionSplice introduces counterfactual state transport to splice revised actions into chunk-autoregressive video world models without replaying completed evaluations, improving fi…</description>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.08230">Hugging Face Papers</source>
+      <guid isPermaLink="false">7fdeec7baa21c7a2be592f7b60368725</guid>
+    </item>
     <item>
       <title>Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models</title>
       <link>https://huggingface.co/papers/2609.08418</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.06702">Hugging Face Papers</source>
       <guid isPermaLink="false">82ec73133aead50d864c47610b9821e7</guid>
-    </item>
-    <item>
-      <title>SchemeArena: LLM 에이전트의 계획에 대한 인수분해 스트레스 테스트</title>
-      <link>https://huggingface.co/papers/2609.08126</link>
-      <description>연구원들은 도구적 목표, 감독 및 전략적 힌트가 LLM 상담원의 은밀한 잘못된 행동을 어떻게 유도하는지 연구하기 위해 400개 시나리오 벤치마크 및 증거 기반 모니터를 도입합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08126">Hugging Face Papers</source>
-      <guid isPermaLink="false">0ec141a3abf9e34fb8fd4b7054268aac</guid>
-    </item>
-    <item>
-      <title>희소성의 대가: 희소 측정과 희소 측정을 사용한 희소 복구를 위한 충분한 조건</title>
-      <link>https://huggingface.co/papers/2509.01809</link>
-      <description>희소 이진 신호의 경우 최대 가능성 지원 복구를 위한 충분한 샘플 크기가 높은 SNR 체제에서 식별되어 정보 이론적 임계값과 측정 희소성과…</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2509.01809">Hugging Face Papers</source>
-      <guid isPermaLink="false">e1de026f226611510f4ff0c17adbde8d</guid>
-    </item>
-    <item>
-      <title>SWE-Bench Pro 검증: 소프트웨어 엔지니어링 에이전트를 위한 신뢰할 수 있는 벤치마크</title>
-      <link>https://huggingface.co/papers/2609.08149</link>
-      <description>SWE-Bench Pro는 까다로운 저장소 수준 작업에서 소프트웨어 엔지니어링 에이전트를 평가하기 위한 표준 벤치마크로 등장했습니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08149">Hugging Face Papers</source>
-      <guid isPermaLink="false">992c5ddad0382da890b6a2eada3bf97b</guid>
-    </item>
-    <item>
-      <title>더 똑똑하고 어렵지 않게 훈련: 활성 학습에서 신호 유도 훈련 전환</title>
-      <link>https://huggingface.co/papers/2609.06806</link>
-      <description>HybridAL은 온라인 안정화 신호를 기반으로 활성 학습 중에 재훈련에서 미세 조정으로 적응적으로 전환하여 정확도를 유지하고 교정을 개선하는 동시에 훈련 시간을 단축합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.06806">Hugging Face Papers</source>
-      <guid isPermaLink="false">aebf132c13af729909794a07cedc930e</guid>
-    </item>
-    <item>
-      <title>AgentGrad: 다중 에이전트 시스템을 위한 개입 기반 프롬프트 최적화</title>
-      <link>https://huggingface.co/papers/2609.08572</link>
-      <description>AgentGrad는 관련 없는 오류가 혼합되는 것을 방지하기 위해 순차적 개입 및 의미론적 클러스터링 그라데이션을 통해 대상 에이전트를 식별함으로써 다중 에이전트 프롬프트 최적화를 개선합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.08572">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f5c47fa2901930af92dfee6f626a5ab</guid>
-    </item>
-    <item>
-      <title>가중치 재지정에서 재작성까지: 교육 데이터 귀속에서 영향력 있는 샘플의 개입 효과 잠금 해제</title>
-      <link>https://huggingface.co/papers/2609.02771</link>
-      <description>선택된 훈련 사례의 영향 기반 응답 재작성은 기존 재가중화보다 언어 모델에서 더 강력하고 지속적인 행동 변화를 생성하여 더 광범위한 개입 활용을 강조합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.02771">Hugging Face Papers</source>
-      <guid isPermaLink="false">9ffc53eb1a3a0993ea50c3d67ff78146</guid>
     </item>
   </channel>
 </rss>
