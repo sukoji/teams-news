@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 15 Sep 2026 16:21:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 22:15:03 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows</title>
+      <link>https://huggingface.co/papers/2609.15863</link>
+      <description>LynnReal-Omni is a unified multimodal video diffusion framework that integrates agentic visual controls with high-fidelity generation and real-time acceleration.</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15863">Hugging Face Papers</source>
+      <guid isPermaLink="false">340fde0279aff17ca28972dbbba4bdd7</guid>
+    </item>
+    <item>
+      <title>Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction</title>
+      <link>https://huggingface.co/papers/2609.13285</link>
+      <description>Grouped Value Attention reduces transformer KV cache size by storing grouped values and reconstructing keys via a learned linear map, achieving near-GQA accuracy with a smaller pe…</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13285">Hugging Face Papers</source>
+      <guid isPermaLink="false">d505c25525125633eb8c393e0c4fd6d7</guid>
+    </item>
+    <item>
+      <title>How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus</title>
+      <link>https://huggingface.co/papers/2609.15504</link>
+      <description>Orthrus achieves lossless speculative decoding only under high numerical precision, with trajectory divergence under BF16 that does not impair downstream benchmarks.</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15504">Hugging Face Papers</source>
+      <guid isPermaLink="false">cdb07261276d8ce8b91d7f0ed1e6a5fc</guid>
+    </item>
+    <item>
+      <title>MInTRL: Off-policy Intervention can boost On-policy RL</title>
+      <link>https://huggingface.co/papers/2609.12419</link>
+      <description>Minimal Intervention Reinforcement Learning improves on-policy exploration by applying sparse local corrections during rollouts and training with a sequence-level advantage-regres…</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.12419">Hugging Face Papers</source>
+      <guid isPermaLink="false">d1cec9cc9d8dc431dd5f659cf28635e0</guid>
+    </item>
+    <item>
+      <title>Expert-Space Exploration in MoE Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2609.13058</link>
+      <description>ESRL improves reinforcement learning for mixture-of-experts language models by exploring expert routing with anchored high-confidence experts, entropy-adaptive perturbation, and p…</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13058">Hugging Face Papers</source>
+      <guid isPermaLink="false">deb4e88a6a085bd5c9d0f5038cf815f9</guid>
+    </item>
+    <item>
+      <title>ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs</title>
+      <link>https://huggingface.co/papers/2609.15635</link>
+      <description>A paired image-swap audit reveals that report availability substantially reduces vision-language model sensitivity to image changes in radiology question answering.</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15635">Hugging Face Papers</source>
+      <guid isPermaLink="false">410e3571473718b502e01f8f77605f63</guid>
+    </item>
+    <item>
+      <title>Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model</title>
+      <link>https://huggingface.co/papers/2609.13053</link>
+      <description>A shared trajectory model unifies goal and dynamics prediction with action generation for language-conditioned robot control, improving adaptation and success through joint denois…</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13053">Hugging Face Papers</source>
+      <guid isPermaLink="false">ba9efa048e98432b761498fe40700701</guid>
+    </item>
     <item>
       <title>ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search</title>
       <link>https://huggingface.co/papers/2609.13356</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.12641">Hugging Face Papers</source>
       <guid isPermaLink="false">2b7ab776a7f7bb57d0aa417cd0da18c4</guid>
-    </item>
-    <item>
-      <title>COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization</title>
-      <link>https://huggingface.co/papers/2609.11682</link>
-      <description>COBRA-Skills improves LLM agent skill optimization by using contextual-bandit prioritization and evidence-based evolution to cut evaluation costs while maintaining high performanc…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.11682">Hugging Face Papers</source>
-      <guid isPermaLink="false">9bd3220616f0ef4b00848d592ae01ec7</guid>
-    </item>
-    <item>
-      <title>SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking</title>
-      <link>https://huggingface.co/papers/2609.13141</link>
-      <description>SAS improves sparse attention by training a selector end-to-end with language modeling loss via continuous gating inside attention softmax, yielding better context ranking under t…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13141">Hugging Face Papers</source>
-      <guid isPermaLink="false">b7ac24a081943b585f504f57106a700e</guid>
-    </item>
-    <item>
-      <title>PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization</title>
-      <link>https://huggingface.co/papers/2608.30597</link>
-      <description>Posterior Label Correction DPO improves preference optimization by routing noisy pairwise labels into clean, flipped, or tied cases using calibrated policy-reference margins.</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2608.30597">Hugging Face Papers</source>
-      <guid isPermaLink="false">caaa633586ace50558050a7497d2eb0c</guid>
-    </item>
-    <item>
-      <title>SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image</title>
-      <link>https://huggingface.co/papers/2609.13146</link>
-      <description>A physics-guided framework improves part-aware 3D generation by resolving inter-part penetration, recovering contact graphs, and refining parameterized connectors via simulation f…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13146">Hugging Face Papers</source>
-      <guid isPermaLink="false">e76f7c267fb71e24993de857f4e9e017</guid>
-    </item>
-    <item>
-      <title>🥇Top AI Papers of the Week</title>
-      <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-4f3</link>
-      <description>The Top AI Papers of the Week (September 7 - 13)</description>
-      <pubDate>Mon, 14 Sep 2026 00:54:16 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-4f3">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">453376d252db6a1dc58c59be8833dfce</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-openai-agents-api</link>
-      <description>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
-      <pubDate>Sun, 13 Sep 2026 00:44:32 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/ai-agents-weekly-openai-agents-api">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">9318780b96b80f726b6147fb3a55bf53</guid>
-    </item>
-    <item>
-      <title>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</title>
-      <link>https://huggingface.co/papers/2609.09143</link>
-      <description>제어된 자동회귀 테스트베드를 사용하여 이 연구는 다중 모달 사전 훈련 중 작업별 검증 손실을 분석하여 이미지 토크나이저 설계가 공동 텍스트-이미지 모델링 및 다운스트림 성능에 어떻게 영향을 미치는지 평가합니다.</description>
-      <pubDate>Fri, 11 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.09143">Hugging Face Papers</source>
-      <guid isPermaLink="false">907ef51010c4648054aa12687a6e94b9</guid>
     </item>
   </channel>
 </rss>
