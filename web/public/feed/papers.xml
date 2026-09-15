@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 15 Sep 2026 22:15:03 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 03:00:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning</title>
+      <link>https://huggingface.co/papers/2609.14302</link>
+      <description>A benchmark for financial chart reasoning reveals that vision-language models often fail to maintain traceable evidence-to-action reliability, highlighting the need to evaluate th…</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.14302">Hugging Face Papers</source>
+      <guid isPermaLink="false">279890bf6309783481097361cd14fa94</guid>
+    </item>
+    <item>
+      <title>Thought without systematicity? Evaluating reasoning models on rule induction tasks</title>
+      <link>https://huggingface.co/papers/2609.13948</link>
+      <description>Reasoning models frequently fail on structurally equivalent task variants, indicating a lack of systematicity in their cognitive abilities.</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13948">Hugging Face Papers</source>
+      <guid isPermaLink="false">f521dce63e520ff29ffdce67ca3fb116</guid>
+    </item>
+    <item>
+      <title>Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures</title>
+      <link>https://huggingface.co/papers/2609.13463</link>
+      <description>Continual Search improves automated root-cause attribution in long agent execution traces by iteratively prompting diagnosis until unresolved evidence is found.</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13463">Hugging Face Papers</source>
+      <guid isPermaLink="false">1d418fd2c44fbdcd8d482112badcb4ec</guid>
+    </item>
+    <item>
+      <title>Learning Sparse Decision Trees via Transformer Variational Auto-Encoders</title>
+      <link>https://huggingface.co/papers/2609.01430</link>
+      <description>TREVIS learns decision trees by optimizing continuous latent representations via a tree transformer variational autoencoder to jointly improve predictive accuracy and structural s…</description>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.01430">Hugging Face Papers</source>
+      <guid isPermaLink="false">0dbc8a9b136e7b0bb59cf5550ab1ce80</guid>
+    </item>
     <item>
       <title>LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows</title>
       <link>https://huggingface.co/papers/2609.15863</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.05820">Hugging Face Papers</source>
       <guid isPermaLink="false">6b321d3ec08fc9c55f781e3a7bb4ace0</guid>
-    </item>
-    <item>
-      <title>Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech</title>
-      <link>https://huggingface.co/papers/2609.03502</link>
-      <description>A compact Thai text-to-speech model is distilled from a large voice-cloning teacher using synthetic data from brief voice references, achieving strong on-device accuracy and proso…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.03502">Hugging Face Papers</source>
-      <guid isPermaLink="false">f51aca7b116d069c08ca10b4aa867166</guid>
-    </item>
-    <item>
-      <title>How Far Can Synthetic Data Take Thai OCR?</title>
-      <link>https://huggingface.co/papers/2609.03595</link>
-      <description>A Thai OCR model trained solely on synthetic documents achieves strong real-world performance by isolating key transfer factors like typography, layout, and handwriting glyphs.</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.03595">Hugging Face Papers</source>
-      <guid isPermaLink="false">871c28b9cac280a29550bc5b404b7818</guid>
-    </item>
-    <item>
-      <title>Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</title>
-      <link>https://huggingface.co/papers/2609.11115</link>
-      <description>Benchmark Radar is a searchable living database and discovery engine for AI evaluation benchmarks that aggregates sources, score histories, and evidence to support benchmark selec…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.11115">Hugging Face Papers</source>
-      <guid isPermaLink="false">4bb19b20714a55ef551e1e9b49a3b8c4</guid>
-    </item>
-    <item>
-      <title>Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models</title>
-      <link>https://huggingface.co/papers/2609.12641</link>
-      <description>LIT improves robot action generalization by first training pose-conditioned action priors without images, then constraining visual inputs through a pose-supervised latent interfac…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.12641">Hugging Face Papers</source>
-      <guid isPermaLink="false">2b7ab776a7f7bb57d0aa417cd0da18c4</guid>
     </item>
   </channel>
 </rss>
