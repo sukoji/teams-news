@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-14",
-  "generated_at": "2026-09-14T09:38:44.714539+09:00",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T10:08:20.701181+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,48 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "453376d252db6a1dc58c59be8833dfce",
+          "id": "6f58e4feb926babe2929b996f8d14cb4",
           "index": 1,
-          "title": "🥇Top AI Papers of the Week",
-          "title_ko": "🥇Top AI Papers of the Week",
-          "summary": "The Top AI Papers of the Week (September 7 - 13)",
-          "summary_ko": "The Top AI Papers of the Week (September 7 - 13)",
-          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-4f3",
-          "source": "Elvis AI Newsletter",
+          "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+          "title_ko": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+          "summary": "A data-centric framework with specialized systems for reasoning analysis, cost reduction, and execution verification enables small teams to train open-weight cyber agents that achieve top-tier performance on benchmark s…",
+          "summary_ko": "A data-centric framework with specialized systems for reasoning analysis, cost reduction, and execution verification enables small teams to train open-weight cyber agents that ach…",
+          "url": "https://huggingface.co/papers/2609.08418",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-14T00:54:16+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 21.18,
-          "importance_score": 16.36,
+          "published_at": "2026-09-14T09:00:00+09:00",
+          "popularity": 155,
+          "upvotes": 75,
+          "score": 29.15,
+          "importance_score": 15.15,
           "matched_keywords": [
             "ai",
-            "paper"
+            "agent",
+            "reasoning",
+            "benchmark",
+            "open-weight"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 75
+          }
         },
         {
-          "id": "9318780b96b80f726b6147fb3a55bf53",
+          "id": "4bb19b20714a55ef551e1e9b49a3b8c4",
           "index": 2,
-          "title": "🤖 AI Agents Weekly: OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-          "title_ko": "🤖 AI Agents Weekly: OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-          "summary": "OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-          "summary_ko": "OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-openai-agents-api",
-          "source": "Elvis AI Newsletter",
+          "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+          "title_ko": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+          "summary": "Benchmark Radar is a searchable living database and discovery engine for AI evaluation benchmarks that aggregates sources, score histories, and evidence to support benchmark selection and comparison.",
+          "summary_ko": "Benchmark Radar is a searchable living database and discovery engine for AI evaluation benchmarks that aggregates sources, score histories, and evidence to support benchmark selec…",
+          "url": "https://huggingface.co/papers/2609.11115",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-13T00:44:32+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 17.9,
-          "importance_score": 9.9,
+          "published_at": "2026-09-14T09:00:00+09:00",
+          "popularity": 406,
+          "upvotes": 81,
+          "score": 26.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
-            "agent"
+            "benchmark"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 81
+          }
         }
       ]
     },
@@ -60,42 +69,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "50769da0c8c4489282e1a2879c025fcc",
+          "id": "dc209ee73e579bcaf586257b309021fc",
           "index": 3,
-          "title": "“무거운 누름 장치 뺐다”… 포스텍, 전기차 주행거리 늘릴 '초저압' 전고체 배터리 개발",
+          "title": "삼성SDS,앤트로픽 'CPN' 셀렉트 티어 파트너 획득…국내 최초",
           "title_ko": null,
-          "summary": "전고체 배터리를 안정적으로 사용하려면 배터리 내부를 강하게 눌러 줄 장치가 필요한데 최근 포스텍 연구팀이 배터리를 강하게 누르지 않아도 안정적으로 작동하는 박막 계면층 개발에 성공했다.",
+          "summary": "삼성SDS는 국내 최초 전략적 파트너십에 이어 '클로드 파트너 네트워크'에 등재되는 등 앤트로픽과 협력을 더욱 확대할 방침이다. 삼성SDS는 국내 기업 최초로 AI 안전 및 연구 기업 앤트로픽(Anthropic)의 '클로드 파트너 네트워크(CPN)' 셀렉트 티어(Select Tier) 파트너 자격을 획득했다고 15일 밝혔다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260914000008",
+          "url": "https://www.etnews.com/20260915000005",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-14T08:16:49+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-15T08:18:53+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 19.52,
-          "importance_score": 19.23,
+          "score": 22.12,
+          "importance_score": 18.74,
           "matched_keywords": [
+            "ai",
             "연구"
           ],
           "engagement": null
         },
         {
-          "id": "ec148c185a4778fda791cae3865e60bd",
+          "id": "2982e1a58f06e9775c91a6da063e5fef",
           "index": 4,
-          "title": "AI 속도조절론에 트럼프 “유지”·오바마 “통제”...핵심 선거 의제 부상",
+          "title": "코스피, AI 속도조절 우려 지속에도 6680선 보합권 출발",
           "title_ko": null,
-          "summary": "인공지능(AI) 기술 격랑 속에서 미국의 정계가 '개발 가속'과 '속도 조절'이라는 이념 대립각을 세우고 있다. 도널드 트럼프 대통령이 중국과의 패권 경쟁을 명목으로 전면적인 개발 가속 기조를 고수해야 한다고 강조한 반면, 버락 오바마 전 대통령과 야권인 민주당이 철저한 관리와 규제 장치 마련을 촉구하며 다가오는 선거판의 핵심 쟁점으로 부각할 것으로 예상된다.",
+          "summary": "코스피가 미국발 인공지능(AI) 속도조절 우려가 이어지는 가운데 보합권에서 거래를 시작했다. 한국거래소에 따르면 15일 오전 9시 39분 기준 코스피는 전 거래일보다 0.04% 오른 6686.72에 거래되고 있다. 코스닥은 1.19% 오른 816.40을 나타냈다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260914000004",
+          "url": "https://www.etnews.com/20260915000068",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-14T07:07:13+09:00",
-          "popularity": 97,
+          "published_at": "2026-09-15T09:44:12+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.17,
-          "importance_score": 18.65,
+          "score": 19.92,
+          "importance_score": 19.83,
           "matched_keywords": [
             "ai"
           ],
@@ -108,53 +118,57 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "0f5a14006ecb228b599ac60bbb0d8028",
+          "id": "b5d281f1d6c3f030955d29264bc11014",
           "index": 5,
-          "title": "saihhold-zhao/polox_ai — An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every",
-          "title_ko": "saihhold-zhao/polox_ai — An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every",
-          "summary": "An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every interaction lives in agent conversations and an infinite canvas, unifying creation, generation, and editing.",
-          "summary_ko": "An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness.",
-          "url": "https://github.com/saihhold-zhao/polox_ai",
+          "title": "youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+          "title_ko": "youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+          "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+          "summary_ko": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+          "url": "https://github.com/youngyangyang04/llm-master",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-14T05:02:10+09:00",
-          "popularity": 46,
-          "upvotes": 46,
-          "score": 28.52,
-          "importance_score": 21.56,
+          "published_at": "2026-09-13T17:32:08+09:00",
+          "popularity": 72,
+          "upvotes": 72,
+          "score": 35.02,
+          "importance_score": 15.02,
           "matched_keywords": [
             "ai",
+            "llm",
             "agent",
-            "multimodal"
+            "rag",
+            "transformer",
+            "mcp"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 46
+            "value": 72
           }
         },
         {
-          "id": "32f7b18d37147e169e3963b6f39003b6",
+          "id": "d94fa66224e7cfe1ddf85aa825f4dd04",
           "index": 6,
-          "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base UR",
-          "title_ko": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base UR",
-          "summary": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-          "summary_ko": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-          "url": "https://github.com/xiaYuTian11/maskit",
+          "title": "atria-asi/Atria-Dawn-Preview",
+          "title_ko": "atria-asi/Atria-Dawn-Preview",
+          "summary": "llm, llm-agent",
+          "summary_ko": "llm, llm-agent",
+          "url": "https://github.com/atria-asi/Atria-Dawn-Preview",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-13T21:10:40+09:00",
-          "popularity": 200,
-          "upvotes": 200,
-          "score": 25.96,
-          "importance_score": 23.37,
+          "published_at": "2026-09-15T03:20:29+09:00",
+          "popularity": 93,
+          "upvotes": 93,
+          "score": 27.49,
+          "importance_score": 23.07,
           "matched_keywords": [
-            "claude"
+            "llm",
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 200
+            "value": 93
           }
         }
       ]
@@ -164,25 +178,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "3e7267cb2ebab4b6af9f9fef47eaea33",
+          "id": "1aa1d46bba74935a28318e7b4865a784",
           "index": 7,
-          "title": "OKF Agent Memory: 벡터 DB 없이 Git 저장소의 마크다운으로 AI 코딩 에이전트 기억을 관리하는 도구",
+          "title": "edge0: 35B MoE 모델을 활성 메모리 3GiB로 실행하는 SSD 전문가 스트리밍 추론 프레임워크",
           "title_ko": null,
-          "summary": "OKF Agent Memory 소개 코딩 에이전트와 나눈 대화는 컨텍스트 창이 닫히는 순간 사라집니다. 이 문제를 우회하려고 팀들이 흔히 쓰는 방법이 CLAUDE.md 나 AGENTS.md 같은 파일에 결정과 규칙을 계속 적어 두는 것인데, 그 파일은 턴이 쌓일수록 커지기만 하고 매 요청마다 통째로 시스템 프롬프트에 들어갑니다.",
+          "summary": "edge0 소개 희소 전문가 혼합(Sparse Mixture-of-Experts, MoE) 구조는 토큰 하나를 만들 때 전체 전문가 중 일부만 계산에 참여시키므로 연산량이 작습니다. 그런데 이 구조를 개인 기기에서 실행하려고 하면 연산량보다 메모리가 먼저 막힙니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/okf-agent-memory-db-git-ai/11884",
+          "url": "https://discuss.pytorch.kr/t/edge0-35b-moe-3gib-ssd/11914",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-13T17:30:01+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-15T08:30:19+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.44,
-          "importance_score": 13.07,
+          "score": 22.66,
+          "importance_score": 19.32,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "claude"
+            "추론",
+            "모델"
           ],
           "engagement": null
         }
@@ -191,161 +204,174 @@
   ],
   "items": [
     {
-      "id": "453376d252db6a1dc58c59be8833dfce",
+      "id": "6f58e4feb926babe2929b996f8d14cb4",
       "index": 1,
-      "title": "🥇Top AI Papers of the Week",
-      "title_ko": "🥇Top AI Papers of the Week",
-      "summary": "The Top AI Papers of the Week (September 7 - 13)",
-      "summary_ko": "The Top AI Papers of the Week (September 7 - 13)",
-      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-4f3",
-      "source": "Elvis AI Newsletter",
+      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "title_ko": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "summary": "A data-centric framework with specialized systems for reasoning analysis, cost reduction, and execution verification enables small teams to train open-weight cyber agents that achieve top-tier performance on benchmark s…",
+      "summary_ko": "A data-centric framework with specialized systems for reasoning analysis, cost reduction, and execution verification enables small teams to train open-weight cyber agents that ach…",
+      "url": "https://huggingface.co/papers/2609.08418",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-14T00:54:16+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 21.18,
-      "importance_score": 16.36,
+      "published_at": "2026-09-14T09:00:00+09:00",
+      "popularity": 155,
+      "upvotes": 75,
+      "score": 29.15,
+      "importance_score": 15.15,
       "matched_keywords": [
         "ai",
-        "paper"
+        "agent",
+        "reasoning",
+        "benchmark",
+        "open-weight"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 75
+      }
     },
     {
-      "id": "9318780b96b80f726b6147fb3a55bf53",
+      "id": "4bb19b20714a55ef551e1e9b49a3b8c4",
       "index": 2,
-      "title": "🤖 AI Agents Weekly: OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-      "title_ko": "🤖 AI Agents Weekly: OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-      "summary": "OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-      "summary_ko": "OpenAI Agents API, Cognition SWE-2, DeepSeek-V4.1-Flash, Cursor Projects, Sakana Fugu Max, Meta Muse, and More",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-openai-agents-api",
-      "source": "Elvis AI Newsletter",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "title_ko": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "summary": "Benchmark Radar is a searchable living database and discovery engine for AI evaluation benchmarks that aggregates sources, score histories, and evidence to support benchmark selection and comparison.",
+      "summary_ko": "Benchmark Radar is a searchable living database and discovery engine for AI evaluation benchmarks that aggregates sources, score histories, and evidence to support benchmark selec…",
+      "url": "https://huggingface.co/papers/2609.11115",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-13T00:44:32+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 17.9,
-      "importance_score": 9.9,
+      "published_at": "2026-09-14T09:00:00+09:00",
+      "popularity": 406,
+      "upvotes": 81,
+      "score": 26.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
-        "agent"
+        "benchmark"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 81
+      }
     },
     {
-      "id": "50769da0c8c4489282e1a2879c025fcc",
+      "id": "dc209ee73e579bcaf586257b309021fc",
       "index": 3,
-      "title": "“무거운 누름 장치 뺐다”… 포스텍, 전기차 주행거리 늘릴 '초저압' 전고체 배터리 개발",
+      "title": "삼성SDS,앤트로픽 'CPN' 셀렉트 티어 파트너 획득…국내 최초",
       "title_ko": null,
-      "summary": "전고체 배터리를 안정적으로 사용하려면 배터리 내부를 강하게 눌러 줄 장치가 필요한데 최근 포스텍 연구팀이 배터리를 강하게 누르지 않아도 안정적으로 작동하는 박막 계면층 개발에 성공했다.",
+      "summary": "삼성SDS는 국내 최초 전략적 파트너십에 이어 '클로드 파트너 네트워크'에 등재되는 등 앤트로픽과 협력을 더욱 확대할 방침이다. 삼성SDS는 국내 기업 최초로 AI 안전 및 연구 기업 앤트로픽(Anthropic)의 '클로드 파트너 네트워크(CPN)' 셀렉트 티어(Select Tier) 파트너 자격을 획득했다고 15일 밝혔다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260914000008",
+      "url": "https://www.etnews.com/20260915000005",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-14T08:16:49+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-15T08:18:53+09:00",
+      "popularity": 95,
       "upvotes": 0,
-      "score": 19.52,
-      "importance_score": 19.23,
+      "score": 22.12,
+      "importance_score": 18.74,
       "matched_keywords": [
+        "ai",
         "연구"
       ],
       "engagement": null
     },
     {
-      "id": "ec148c185a4778fda791cae3865e60bd",
+      "id": "2982e1a58f06e9775c91a6da063e5fef",
       "index": 4,
-      "title": "AI 속도조절론에 트럼프 “유지”·오바마 “통제”...핵심 선거 의제 부상",
+      "title": "코스피, AI 속도조절 우려 지속에도 6680선 보합권 출발",
       "title_ko": null,
-      "summary": "인공지능(AI) 기술 격랑 속에서 미국의 정계가 '개발 가속'과 '속도 조절'이라는 이념 대립각을 세우고 있다. 도널드 트럼프 대통령이 중국과의 패권 경쟁을 명목으로 전면적인 개발 가속 기조를 고수해야 한다고 강조한 반면, 버락 오바마 전 대통령과 야권인 민주당이 철저한 관리와 규제 장치 마련을 촉구하며 다가오는 선거판의 핵심 쟁점으로 부각할 것으로 예상된다.",
+      "summary": "코스피가 미국발 인공지능(AI) 속도조절 우려가 이어지는 가운데 보합권에서 거래를 시작했다. 한국거래소에 따르면 15일 오전 9시 39분 기준 코스피는 전 거래일보다 0.04% 오른 6686.72에 거래되고 있다. 코스닥은 1.19% 오른 816.40을 나타냈다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260914000004",
+      "url": "https://www.etnews.com/20260915000068",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-14T07:07:13+09:00",
-      "popularity": 97,
+      "published_at": "2026-09-15T09:44:12+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.17,
-      "importance_score": 18.65,
+      "score": 19.92,
+      "importance_score": 19.83,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "0f5a14006ecb228b599ac60bbb0d8028",
+      "id": "b5d281f1d6c3f030955d29264bc11014",
       "index": 5,
-      "title": "saihhold-zhao/polox_ai — An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every",
-      "title_ko": "saihhold-zhao/polox_ai — An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every",
-      "summary": "An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every interaction lives in agent conversations and an infinite canvas, unifying creation, generation, and editing.",
-      "summary_ko": "An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness.",
-      "url": "https://github.com/saihhold-zhao/polox_ai",
+      "title": "youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+      "title_ko": "youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+      "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+      "summary_ko": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+      "url": "https://github.com/youngyangyang04/llm-master",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-14T05:02:10+09:00",
-      "popularity": 46,
-      "upvotes": 46,
-      "score": 28.52,
-      "importance_score": 21.56,
+      "published_at": "2026-09-13T17:32:08+09:00",
+      "popularity": 72,
+      "upvotes": 72,
+      "score": 35.02,
+      "importance_score": 15.02,
       "matched_keywords": [
         "ai",
+        "llm",
         "agent",
-        "multimodal"
+        "rag",
+        "transformer",
+        "mcp"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 46
+        "value": 72
       }
     },
     {
-      "id": "32f7b18d37147e169e3963b6f39003b6",
+      "id": "d94fa66224e7cfe1ddf85aa825f4dd04",
       "index": 6,
-      "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base UR",
-      "title_ko": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base UR",
-      "summary": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-      "summary_ko": "数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-      "url": "https://github.com/xiaYuTian11/maskit",
+      "title": "atria-asi/Atria-Dawn-Preview",
+      "title_ko": "atria-asi/Atria-Dawn-Preview",
+      "summary": "llm, llm-agent",
+      "summary_ko": "llm, llm-agent",
+      "url": "https://github.com/atria-asi/Atria-Dawn-Preview",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-13T21:10:40+09:00",
-      "popularity": 200,
-      "upvotes": 200,
-      "score": 25.96,
-      "importance_score": 23.37,
+      "published_at": "2026-09-15T03:20:29+09:00",
+      "popularity": 93,
+      "upvotes": 93,
+      "score": 27.49,
+      "importance_score": 23.07,
       "matched_keywords": [
-        "claude"
+        "llm",
+        "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 200
+        "value": 93
       }
     },
     {
-      "id": "3e7267cb2ebab4b6af9f9fef47eaea33",
+      "id": "1aa1d46bba74935a28318e7b4865a784",
       "index": 7,
-      "title": "OKF Agent Memory: 벡터 DB 없이 Git 저장소의 마크다운으로 AI 코딩 에이전트 기억을 관리하는 도구",
+      "title": "edge0: 35B MoE 모델을 활성 메모리 3GiB로 실행하는 SSD 전문가 스트리밍 추론 프레임워크",
       "title_ko": null,
-      "summary": "OKF Agent Memory 소개 코딩 에이전트와 나눈 대화는 컨텍스트 창이 닫히는 순간 사라집니다. 이 문제를 우회하려고 팀들이 흔히 쓰는 방법이 CLAUDE.md 나 AGENTS.md 같은 파일에 결정과 규칙을 계속 적어 두는 것인데, 그 파일은 턴이 쌓일수록 커지기만 하고 매 요청마다 통째로 시스템 프롬프트에 들어갑니다.",
+      "summary": "edge0 소개 희소 전문가 혼합(Sparse Mixture-of-Experts, MoE) 구조는 토큰 하나를 만들 때 전체 전문가 중 일부만 계산에 참여시키므로 연산량이 작습니다. 그런데 이 구조를 개인 기기에서 실행하려고 하면 연산량보다 메모리가 먼저 막힙니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/okf-agent-memory-db-git-ai/11884",
+      "url": "https://discuss.pytorch.kr/t/edge0-35b-moe-3gib-ssd/11914",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-13T17:30:01+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-15T08:30:19+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.44,
-      "importance_score": 13.07,
+      "score": 22.66,
+      "importance_score": 19.32,
       "matched_keywords": [
-        "ai",
-        "agent",
-        "claude"
+        "추론",
+        "모델"
       ],
       "engagement": null
     }
