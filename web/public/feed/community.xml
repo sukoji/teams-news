@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 15 Sep 2026 10:08:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 10:14:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>edge0: 35B MoE 모델을 활성 메모리 3GiB로 실행하는 SSD 전문가 스트리밍 추론 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/edge0-35b-moe-3gib-ssd/11914</link>
+      <description>edge0 소개 희소 전문가 혼합(Sparse Mixture-of-Experts, MoE) 구조는 토큰 하나를 만들 때 전체 전문가 중 일부만 계산에 참여시키므로 연산량이 작습니다. 그런데 이 구조를 개인 기기에서 실행하려고 하면 연산량보다 메모리가 먼저 막힙니다.</description>
+      <pubDate>Tue, 15 Sep 2026 08:30:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/edge0-35b-moe-3gib-ssd/11914">PyTorch Korea</source>
+      <guid isPermaLink="false">1aa1d46bba74935a28318e7b4865a784</guid>
+    </item>
     <item>
       <title>[A2A 알아보기 3편] A2A CLI: 클라이언트 코드 없이, 터미널에서 A2A 에이전트를 호출하고 띄우는 공식 명령줄 도구</title>
       <link>https://discuss.pytorch.kr/t/a2a-3-a2a-cli-a2a/11894</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/x64dbg-mcp-server-x64dbg-ai-zig/11766">PyTorch Korea</source>
       <guid isPermaLink="false">ab88457911e377fce7496d652c674154</guid>
-    </item>
-    <item>
-      <title>Amagine3D: 설명과 치수를 주면 수정 가능한 CAD 소스로 하드웨어 케이스를 설계하는 에이전트 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/amagine3d-cad/11784</link>
-      <description>Amagine3D 소개 이미지 한 장으로 3D 모델을 만드는 도구는 이제 여러 갈래로 나와 있습니다. 다만 그렇게 나온 결과물은 대부분 메시(Mesh), 즉 삼각형 표면의 덩어리입니다. 감상하거나 게임에 넣기에는 충분한데, 실제로 만들 물건의 케이스로 쓰려면 곤란해집니다.</description>
-      <pubDate>Wed, 02 Sep 2026 18:30:35 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/amagine3d-cad/11784">PyTorch Korea</source>
-      <guid isPermaLink="false">4b5faed02e9044dbdb7c388dc91f4ae9</guid>
     </item>
   </channel>
 </rss>
