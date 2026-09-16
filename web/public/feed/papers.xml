@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 16 Sep 2026 14:43:17 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 20:01:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness</title>
+      <link>https://huggingface.co/papers/2609.15195</link>
+      <description>Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions to follow instructions or locate objects.</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15195">Hugging Face Papers</source>
+      <guid isPermaLink="false">2c2dad8ab5a2a394d4dbf0aa1b5827dc</guid>
+    </item>
+    <item>
+      <title>StepAudio 3 Realtime Technical Report</title>
+      <link>https://huggingface.co/papers/2609.14005</link>
+      <description>Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking.</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.14005">Hugging Face Papers</source>
+      <guid isPermaLink="false">eda99ae85e66d63636b302905598607e</guid>
+    </item>
+    <item>
+      <title>StepAudio 3 Music Technical Report</title>
+      <link>https://huggingface.co/papers/2609.16034</link>
+      <description>We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation.</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.16034">Hugging Face Papers</source>
+      <guid isPermaLink="false">2f1fb50f1e7e20af7b179862dc1b3c00</guid>
+    </item>
+    <item>
+      <title>ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement</title>
+      <link>https://huggingface.co/papers/2609.14857</link>
+      <description>Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from experience.</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.14857">Hugging Face Papers</source>
+      <guid isPermaLink="false">d6493f824566fed30ba9cf269d5636f3</guid>
+    </item>
+    <item>
+      <title>Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?</title>
+      <link>https://huggingface.co/papers/2609.14803</link>
+      <description>This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind.</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.14803">Hugging Face Papers</source>
+      <guid isPermaLink="false">ab9db1f6ee8e1fe06d43f262872d43a1</guid>
+    </item>
+    <item>
+      <title>Convergent Emergence of In-Context Learning Across Modalities</title>
+      <link>https://huggingface.co/papers/2609.14011</link>
+      <description>Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been ext…</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.14011">Hugging Face Papers</source>
+      <guid isPermaLink="false">2e80c9ad040c749d450d2f6783d07efb</guid>
+    </item>
     <item>
       <title>The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement</title>
       <link>https://huggingface.co/papers/2609.11873</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.15029">Hugging Face Papers</source>
       <guid isPermaLink="false">aba7bd2f7ba7ef50daeedf9b5ea38761</guid>
-    </item>
-    <item>
-      <title>Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning</title>
-      <link>https://huggingface.co/papers/2609.13318</link>
-      <description>Attention-DP3 improves 3D diffusion policies by injecting object-level geometric cues via attention to stabilize performance under heavy clutter.</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13318">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ec9c8fb4d4ba4bd5849e3053a523086</guid>
-    </item>
-    <item>
-      <title>Realtime-Venus: A full-duplex interaction system with asynchronous delegation</title>
-      <link>https://huggingface.co/papers/2609.13814</link>
-      <description>Realtime-Venus is a proactive full-duplex system with separate audio-visual and audio models that integrate continuous perception, conversational control, and native speech genera…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13814">Hugging Face Papers</source>
-      <guid isPermaLink="false">3fc8db5ef1a29044f48135d580f05983</guid>
-    </item>
-    <item>
-      <title>Enabling Creative Exploration for Vibe Design Agents</title>
-      <link>https://huggingface.co/papers/2609.15078</link>
-      <description>Separating design exploration from code generation via structured intermediate specifications enables diverse UI alternatives without altering downstream generation settings.</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15078">Hugging Face Papers</source>
-      <guid isPermaLink="false">b48cb0d11b2cf6ef50f9ad155fc54a3e</guid>
-    </item>
-    <item>
-      <title>ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs</title>
-      <link>https://huggingface.co/papers/2609.10895</link>
-      <description>ReactHuman is a physics-grounded benchmark that evaluates multimodal large language models as decision cores for simulated humanoid robots facing sudden household hazards, reveali…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.10895">Hugging Face Papers</source>
-      <guid isPermaLink="false">6acfd10b29714251ffea79e7695ba547</guid>
-    </item>
-    <item>
-      <title>Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work</title>
-      <link>https://huggingface.co/papers/2609.11977</link>
-      <description>Occamy-1.0 is a cost-efficient co-work agent model that achieves strong performance on complex multi-step tasks while maintaining broad agentic capabilities at lower cost.</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.11977">Hugging Face Papers</source>
-      <guid isPermaLink="false">e42a4191f7723fea8782fccd8eeb21ab</guid>
-    </item>
-    <item>
-      <title>MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control</title>
-      <link>https://huggingface.co/papers/2609.06251</link>
-      <description>MobileVLA-R1 2.0 couples structured reasoning with robot control via chain-of-thought alignment and reinforcement learning to improve long-horizon mobile robot instruction followi…</description>
-      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.06251">Hugging Face Papers</source>
-      <guid isPermaLink="false">87f4e6c5b994d3e7c5daa0f0d66ead00</guid>
     </item>
   </channel>
 </rss>
