@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 16 Sep 2026 10:00:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 14:43:17 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>llmfit: 로컬 LLM 모델을 내려받기 전, 내 하드웨어에서의 생성 속도(tok/s)가 얼마 정도일지 추정하는 도구</title>
+      <link>https://discuss.pytorch.kr/t/llmfit-llm-tok-s/11922</link>
+      <description>llmfit 소개 로컬에서 대규모 언어 모델(Large Language Model, LLM)을 직접 실행해 보려는 사람이 가장 먼저 부딪히는 질문은 내 컴퓨터에서 어떤 모델이 실제로 실행 가능한지 에 대한 것입니다.</description>
+      <pubDate>Wed, 16 Sep 2026 12:00:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llmfit-llm-tok-s/11922">PyTorch Korea</source>
+      <guid isPermaLink="false">00dc10d052b1481968ef30c79c461451</guid>
+    </item>
     <item>
       <title>UnifoLM-WLA-1.0: 영상의 변화 영역을 토큰으로 예측하는 Unitree의 6B 규모 휴머노이드용 모델</title>
       <link>https://discuss.pytorch.kr/t/unifolm-wla-1-0-unitree-6b/11929</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/code-as-world-9b-gemini-3-1-flash/11799">PyTorch Korea</source>
       <guid isPermaLink="false">052e27789f96cab8bb1b17ceca2bb700</guid>
-    </item>
-    <item>
-      <title>Path to Astra, OpenAI의 Critical 사이버보안 임계선을 넘은 첫 모델 Astra에 대한 발표</title>
-      <link>https://discuss.pytorch.kr/t/path-to-astra-openai-critical-astra/11796</link>
-      <description>Astra의 Critical 사이버보안 역량 판정 개요 잘 관리되는 브라우저에서 알려지지 않은 취약점 하나를 찾아내는 일은 숙련된 보안 연구자에게도 몇 주가 걸리는 작업입니다. 찾아낸 결함을 실제로 호스트에서 명령이 실행되는 지점까지 이어 붙이는 일, 그러니까 익스플로잇 체인을 완성하는 일은 다시 그만큼의 시간을 잡아먹습니다.</description>
-      <pubDate>Thu, 03 Sep 2026 12:30:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/path-to-astra-openai-critical-astra/11796">PyTorch Korea</source>
-      <guid isPermaLink="false">c14d815122ff2d443bee017784009f2d</guid>
     </item>
   </channel>
 </rss>
