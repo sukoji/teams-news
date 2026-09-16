@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:24:58 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 04:25:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs</title>
+      <link>https://huggingface.co/papers/2609.12552</link>
+      <description>RelateAnything is a lightweight open-vocabulary relation prediction model that accepts arbitrary predicate vocabularies and region sources at inference, trained on a large geometr…</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.12552">Hugging Face Papers</source>
+      <guid isPermaLink="false">db6d29b25b483511e8a526da57c6bb85</guid>
+    </item>
+    <item>
+      <title>OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning</title>
+      <link>https://huggingface.co/papers/2609.16057</link>
+      <description>Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, three limitations remain.</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.16057">Hugging Face Papers</source>
+      <guid isPermaLink="false">196f0da320b527fd91ae7fbb48bc8a00</guid>
+    </item>
+    <item>
+      <title>FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation</title>
+      <link>https://huggingface.co/papers/2609.16591</link>
+      <description>Traditional multimodal representation learning and generation are two stages: a contrastive or self-supervised visual encoder is trained first, followed by a separate downstream g…</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.16591">Hugging Face Papers</source>
+      <guid isPermaLink="false">1e194fe4e23dab4df2f61280ec1d0980</guid>
+    </item>
+    <item>
+      <title>Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement</title>
+      <link>https://huggingface.co/papers/2609.13406</link>
+      <description>The paper proposes Generalized Agent Iteration as a unified formal framework for iterative policy improvement and recursive self-improvement, defining key axes that distinguish ex…</description>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13406">Hugging Face Papers</source>
+      <guid isPermaLink="false">98bdebf04a4124cb089c655569bcacdf</guid>
+    </item>
     <item>
       <title>ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals</title>
       <link>https://huggingface.co/papers/2609.16816</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.15973">Hugging Face Papers</source>
       <guid isPermaLink="false">e8698ba314ec59681c700fb38069e74d</guid>
-    </item>
-    <item>
-      <title>Kaininja: Extending Native 3D Generators to the Part Level</title>
-      <link>https://huggingface.co/papers/2609.15659</link>
-      <description>KaiNinja extends a native 3D generator to part-level outputs using a dual-volume representation that resolves interface conflicts, improving both part and whole-object fidelity wi…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15659">Hugging Face Papers</source>
-      <guid isPermaLink="false">5dd61f2e04175bddc20afe6ee400358c</guid>
-    </item>
-    <item>
-      <title>When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis</title>
-      <link>https://huggingface.co/papers/2609.15309</link>
-      <description>Elo-per-token analysis reveals that LLM agents initially scale faster than independent sampling but eventually slow, while parallel short sessions improve performance over single…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15309">Hugging Face Papers</source>
-      <guid isPermaLink="false">f94a920425d7f2b37989e12a3c28c14b</guid>
-    </item>
-    <item>
-      <title>Building a Production Greek-English Speech Recognizer</title>
-      <link>https://huggingface.co/papers/2609.13498</link>
-      <description>A production bilingual Greek-English speech recognition system was engineered through iterative training, data filtering, ablation studies, and model ensembling to meet strict qua…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13498">Hugging Face Papers</source>
-      <guid isPermaLink="false">6b44c5636606857e712ed148af47bf7b</guid>
-    </item>
-    <item>
-      <title>Agent as Policy for Robotic Manipulation</title>
-      <link>https://huggingface.co/papers/2609.12541</link>
-      <description>A general-purpose agent directly controls a physical robot by interpreting visuals, writing executable programs, and revising actions based on physical feedback across diverse man…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.12541">Hugging Face Papers</source>
-      <guid isPermaLink="false">e1222a0bf9c3437f607661d75d2d8c04</guid>
     </item>
   </channel>
 </rss>
