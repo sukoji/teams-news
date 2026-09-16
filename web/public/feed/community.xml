@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 17 Sep 2026 04:25:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 07:42:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Jev, 토큰 대신 확률적 결정을 내놓는 새로운 형태의 System One 모델 (feat. TypeSafe AI)</title>
+      <link>https://discuss.pytorch.kr/t/jev-system-one-feat-typesafe-ai/11935</link>
+      <description>TypeSafe AI, System One 모델과 Jev 소개 지난 몇 년간 언어 모델은 채팅에서는 이미 인간을 능가하는 수준에 도달했습니다. 그런데도 정작 소프트웨어 안에서 자동으로 돌아가는 판단, 그러니까 이 거래를 승인할지, 이 알림을 어떤 등급으로 분류할지, 이 요청을 어느 파이프라인으로 보낼지 같은 결정은 여전히 사람이 붙어서 감독해야 하는 경우가 많습니다.</description>
+      <pubDate>Thu, 17 Sep 2026 07:30:52 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-system-one-feat-typesafe-ai/11935">PyTorch Korea</source>
+      <guid isPermaLink="false">59d9a426b32d247e959ed22d1421d269</guid>
+    </item>
     <item>
       <title>NVIDIA의 Transformer Engine으로 JAX의 Dropless MoE 학습 처리량 약 10배 달성하기 (105 → 1,025 TFLOPs)</title>
       <link>https://discuss.pytorch.kr/t/nvidia-transformer-engine-jax-dropless-moe-10-105-1-025-tflops/11927</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/auto-benchmax-mcp-atlas-2/11805">PyTorch Korea</source>
       <guid isPermaLink="false">de47088f76dec59202153e4a8ff9a9a2</guid>
-    </item>
-    <item>
-      <title>Agent Behavior: 스킬과 달리 런타임 프롬프트가 아니라 트레이스 검토용으로 쓰는 에이전트 행동 표준</title>
-      <link>https://discuss.pytorch.kr/t/agent-behavior/11800</link>
-      <description>Agent Behavior 소개 에이전트가 한 번의 작업에서 수백 번 판단하고 몇 시간을 일하는 상황이 되면, 그 결과를 최종 성공률 하나로 줄여 보기 어려워집니다. 답은 맞았는데 근거를 확인하지 않은 경우, 결과물을 만들었지만 검증 단계를 건너뛴 경우, 실패한 뒤 다른 경로를 시도하지 않고 그대로 끝낸 경우가 모두 같은 지표에 섞여 들어갑니다.</description>
-      <pubDate>Thu, 03 Sep 2026 18:30:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agent-behavior/11800">PyTorch Korea</source>
-      <guid isPermaLink="false">ef1fe4a58144644e1786bd9d1c9234e3</guid>
     </item>
   </channel>
 </rss>
