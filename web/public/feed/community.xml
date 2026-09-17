@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 18 Sep 2026 06:16:16 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 08:58:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Kaggle TPU Lab: 무료 Kaggle TPU에서 320B 크기의 GLM-5.3-Flash을 서빙하는 코딩 에이전트용 API 레시피 저장소</title>
+      <link>https://discuss.pytorch.kr/t/kaggle-tpu-lab-kaggle-tpu-320b-glm-5-3-flash-api/11944</link>
+      <description>kaggle-tpu-lab 소개 가중치가 공개된 모델을 직접 서빙하려면 가속기부터 구해야 합니다. 27B 규모 모델을 bf16 그대로 적재하는 데만 55GB가 넘는 가중치를 담을 메모리가 필요하고, 320B 규모의 전문가 혼합(MoE, Mixture of Experts) 모델은 그보다 훨씬 더 듭니다.</description>
+      <pubDate>Fri, 18 Sep 2026 07:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/kaggle-tpu-lab-kaggle-tpu-320b-glm-5-3-flash-api/11944">PyTorch Korea</source>
+      <guid isPermaLink="false">ad81db354e1435265336fd9b906edd37</guid>
+    </item>
     <item>
       <title>BrowserSkill: 사람이 사용하던 브라우저 상태 그대로 에이전트에게 사용할 수 있도록 하는 CLI 도구</title>
       <link>https://discuss.pytorch.kr/t/browserskill-cli/11936</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sepia-ai/11813">PyTorch Korea</source>
       <guid isPermaLink="false">73e171a807fcc542f62e27391aa3bd87</guid>
-    </item>
-    <item>
-      <title>TimesFM-3: 다변량과 공변량을 한 번의 순전파로 예측하는 제로샷 시계열 파운데이션 모델</title>
-      <link>https://discuss.pytorch.kr/t/timesfm-3/11793</link>
-      <description>TimesFM-3 소개 편의점 발주 담당자가 다음 주 아이스크림 물량을 정할 때 지난주 판매량만 보고 결정하지는 않습니다. 다음 주에 비가 오는지, 본사 할인 행사가 잡혀 있는지, 콘과 시럽 같은 연관 상품이 얼마나 나갔는지를 함께 봅니다.</description>
-      <pubDate>Fri, 04 Sep 2026 12:30:20 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/timesfm-3/11793">PyTorch Korea</source>
-      <guid isPermaLink="false">e71fe568db4f0e765854085a8baa9ed4</guid>
     </item>
   </channel>
 </rss>
