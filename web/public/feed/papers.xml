@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:18:45 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 22:08:17 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>In-Context Robot Learning with VLM Agents</title>
+      <link>https://huggingface.co/papers/2609.19138</link>
+      <description>Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI.</description>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.19138">Hugging Face Papers</source>
+      <guid isPermaLink="false">3bd7c05331d9b281da5c276a2fa1a46b</guid>
+    </item>
+    <item>
+      <title>The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction</title>
+      <link>https://huggingface.co/papers/2609.18063</link>
+      <description>Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the byte…</description>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.18063">Hugging Face Papers</source>
+      <guid isPermaLink="false">c3ca37e526c10f6dd01230c69e4f8b97</guid>
+    </item>
+    <item>
+      <title>CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents</title>
+      <link>https://huggingface.co/papers/2609.18779</link>
+      <description>Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabiliti…</description>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.18779">Hugging Face Papers</source>
+      <guid isPermaLink="false">75c52d1144a7f4ad0da72d69b7f84158</guid>
+    </item>
+    <item>
+      <title>Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches</title>
+      <link>https://huggingface.co/papers/2609.17652</link>
+      <description>When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys…</description>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.17652">Hugging Face Papers</source>
+      <guid isPermaLink="false">53fc7e7749f521ffa41d9203130abe71</guid>
+    </item>
+    <item>
+      <title>Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026</title>
+      <link>https://huggingface.co/papers/2609.15524</link>
+      <description>BraTS-GoAT evaluates tumor segmentation across heterogeneous populations.</description>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15524">Hugging Face Papers</source>
+      <guid isPermaLink="false">a2dc68ce83c019100198f37d3a9f92eb</guid>
+    </item>
     <item>
       <title>Agora: Git as Shared Memory for Collective AutoResearch</title>
       <link>https://huggingface.co/papers/2609.18094</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.14302">Hugging Face Papers</source>
       <guid isPermaLink="false">279890bf6309783481097361cd14fa94</guid>
-    </item>
-    <item>
-      <title>Thought without systematicity? Evaluating reasoning models on rule induction tasks</title>
-      <link>https://huggingface.co/papers/2609.13948</link>
-      <description>Reasoning models frequently fail on structurally equivalent task variants, indicating a lack of systematicity in their cognitive abilities.</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13948">Hugging Face Papers</source>
-      <guid isPermaLink="false">f521dce63e520ff29ffdce67ca3fb116</guid>
-    </item>
-    <item>
-      <title>Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures</title>
-      <link>https://huggingface.co/papers/2609.13463</link>
-      <description>Continual Search improves automated root-cause attribution in long agent execution traces by iteratively prompting diagnosis until unresolved evidence is found.</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13463">Hugging Face Papers</source>
-      <guid isPermaLink="false">1d418fd2c44fbdcd8d482112badcb4ec</guid>
-    </item>
-    <item>
-      <title>Learning Sparse Decision Trees via Transformer Variational Auto-Encoders</title>
-      <link>https://huggingface.co/papers/2609.01430</link>
-      <description>TREVIS learns decision trees by optimizing continuous latent representations via a tree transformer variational autoencoder to jointly improve predictive accuracy and structural s…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.01430">Hugging Face Papers</source>
-      <guid isPermaLink="false">0dbc8a9b136e7b0bb59cf5550ab1ce80</guid>
-    </item>
-    <item>
-      <title>LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows</title>
-      <link>https://huggingface.co/papers/2609.15863</link>
-      <description>LynnReal-Omni is a unified multimodal video diffusion framework that integrates agentic visual controls with high-fidelity generation and real-time acceleration.</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15863">Hugging Face Papers</source>
-      <guid isPermaLink="false">340fde0279aff17ca28972dbbba4bdd7</guid>
-    </item>
-    <item>
-      <title>Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction</title>
-      <link>https://huggingface.co/papers/2609.13285</link>
-      <description>Grouped Value Attention reduces transformer KV cache size by storing grouped values and reconstructing keys via a learned linear map, achieving near-GQA accuracy with a smaller pe…</description>
-      <pubDate>Tue, 15 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.13285">Hugging Face Papers</source>
-      <guid isPermaLink="false">d505c25525125633eb8c393e0c4fd6d7</guid>
     </item>
   </channel>
 </rss>
