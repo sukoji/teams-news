@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 17 Sep 2026 10:03:44 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 10:07:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>탐지·분할·깊이 추정을 하나의 모델로 출력하는 SenseNova-Vision 모델</title>
+      <link>https://discuss.pytorch.kr/t/sensenova-vision/11939</link>
+      <description>탐지·분할·깊이 추정을 하나의 모델로? SenseNova-Vision 소개 좌표는 텍스트로, 마스크와 깊이는 이미지로. 컴퓨터 비전의 다양한 출력을 하나의 생성 인터페이스로 다루는 접근입니다.</description>
+      <pubDate>Thu, 17 Sep 2026 09:51:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/sensenova-vision/11939">PyTorch Korea</source>
+      <guid isPermaLink="false">2857f5358dbf5442a222b03e0a236126</guid>
+    </item>
     <item>
       <title>Jev, 토큰 대신 확률적 결정을 내놓는 새로운 형태의 System One 모델 (feat. TypeSafe AI)</title>
       <link>https://discuss.pytorch.kr/t/jev-system-one-feat-typesafe-ai/11935</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openenv-feat-meta-hugging-face/11812">PyTorch Korea</source>
       <guid isPermaLink="false">bff46b1f8cb220088089239a3cc1a341</guid>
-    </item>
-    <item>
-      <title>Auto-BenchMax: 벤치마크와 같은 분포로 데이터를 합성해 MCP-Atlas 점수를 2배로 올린 파이프라인</title>
-      <link>https://discuss.pytorch.kr/t/auto-benchmax-mcp-atlas-2/11805</link>
-      <description>Auto-BenchMax 소개 도구를 호출하는 에이전트를 학습시킬 때 가장 먼저 막히는 것은 데이터입니다. 벤치마크가 제공하는 과제는 보통 수십 개 수준이고, 이 정도로는 지도 미세조정(SFT, Supervised Fine-Tuning)을 돌릴 분량이 나오지 않습니다. 그래서 비슷한 과제를 합성해 수를 불리는데, 도구 호출 과제는 일반적인 질의응답 데이터와 사정이 다릅니다.</description>
-      <pubDate>Fri, 04 Sep 2026 07:00:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/auto-benchmax-mcp-atlas-2/11805">PyTorch Korea</source>
-      <guid isPermaLink="false">de47088f76dec59202153e4a8ff9a9a2</guid>
     </item>
   </channel>
 </rss>
