@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 18 Sep 2026 09:58:53 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 13:20:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>RLT(Recurrent Looped Transformer): 생성하는 토큰이 길어질수록 더 많은 연산을 하는 순환 디코더에 대한 연구</title>
+      <link>https://discuss.pytorch.kr/t/rlt-recurrent-looped-transformer/11937</link>
+      <description>Recurrent Looped Transformer(RLT) 소개 트랜스포머는 토큰을 아무리 많이 써도 한 토큰의 계산 깊이가 늘어나지 않습니다 머릿속으로 긴 곱셈을 할 때를 떠올려 봅시다. 우리는 자릿수를 하나씩 처리하면서 올림 수를 계속 손에 쥐고 갑니다. 자릿수가 늘어나면 붙잡고 있어야 할 중간 결과도 늘어나고, 그만큼 머릿속에서 굴리는 단계도 길어집니다.</description>
+      <pubDate>Fri, 18 Sep 2026 12:00:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rlt-recurrent-looped-transformer/11937">PyTorch Korea</source>
+      <guid isPermaLink="false">752dcb96e4761aecc14a0c94ab9c2c81</guid>
+    </item>
+    <item>
+      <title>'라틴방진'으로 '트랜스포머' 스택을 해부한 실증 연구 분석</title>
+      <link>https://discuss.pytorch.kr/t/topic/11950</link>
+      <description>모든 층에 같은 어텐션을 쌓는 건, 결론이 아니라 습관이었다 — 라틴방진으로 트랜스포머 스택을 해부한 실증 연구 읽기 논문 : Placement Is Free, Composition Is Not: The Latin Square as a Provably-Balanced Construction for Heterogeneous Sequence-Mixer Stacks arXiv:2609.20269…</description>
+      <pubDate>Fri, 18 Sep 2026 12:51:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/topic/11950">PyTorch Korea</source>
+      <guid isPermaLink="false">307b05991120d50c7a8e5a204b6aae91</guid>
+    </item>
     <item>
       <title>Kaggle TPU Lab: 무료 Kaggle TPU에서 320B 크기의 GLM-5.3-Flash을 서빙하는 코딩 에이전트용 API 레시피 저장소</title>
       <link>https://discuss.pytorch.kr/t/kaggle-tpu-lab-kaggle-tpu-320b-glm-5-3-flash-api/11944</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/code-world-model-meta/11829">PyTorch Korea</source>
       <guid isPermaLink="false">2dcc367eded213577cc05d7f52b2e877</guid>
-    </item>
-    <item>
-      <title>Codex with ChatGPT: 웹 ChatGPT에 설계와 검토를 맡기는 읽기 전용 MCP 연결</title>
-      <link>https://discuss.pytorch.kr/t/codex-with-chatgpt-chatgpt-mcp/11804</link>
-      <description>Codex with ChatGPT 소개 Codex with ChatGPT가 지목하는 문제는 코딩 에이전트의 사용량이 엉뚱한 곳에서 소진된다는 것입니다. 파일을 고치고 테스트를 실행하는 데 드는 몫과 별개로, 무엇을 어떻게 고칠지 계획을 세우고 끝난 변경을 다시 검토하는 데도 같은 사용량이 들어갑니다. 계획과 검토는 도구를 거의 쓰지 않고 읽고 판단하기만 하는 작업인데도 그렇습니다.</description>
-      <pubDate>Fri, 04 Sep 2026 21:30:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/codex-with-chatgpt-chatgpt-mcp/11804">PyTorch Korea</source>
-      <guid isPermaLink="false">fca1b71332f80bded9573fc4be4d4981</guid>
-    </item>
-    <item>
-      <title>sepia: AI가 작성한 티를 없애기 위해, 어휘 교정 뿐만 아니라 서사 구조까지 종합적으로 살펴보고 개선하는 에이전트 스킬</title>
-      <link>https://discuss.pytorch.kr/t/sepia-ai/11813</link>
-      <description>sepia 소개 AI가 쓴 글을 사람 글처럼 만들어 준다는 도구는 이미 많습니다. 대부분은 단어와 문장 구조를 손봅니다. 상투적인 형용사를 빼고, 대시를 쉼표로 바꾸고, 문장 길이를 뒤섞습니다.</description>
-      <pubDate>Fri, 04 Sep 2026 15:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sepia-ai/11813">PyTorch Korea</source>
-      <guid isPermaLink="false">73e171a807fcc542f62e27391aa3bd87</guid>
     </item>
   </channel>
 </rss>
