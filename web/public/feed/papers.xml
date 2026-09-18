@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 18 Sep 2026 13:20:56 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 18:29:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?</title>
+      <link>https://huggingface.co/papers/2609.18605</link>
+      <description>As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.18605">Hugging Face Papers</source>
+      <guid isPermaLink="false">8e4e8e5460c80b85e46a46414b5413d0</guid>
+    </item>
+    <item>
+      <title>When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.20511</link>
+      <description>We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20511">Hugging Face Papers</source>
+      <guid isPermaLink="false">7fe25baee913dccaeebaef4d1a6d483f</guid>
+    </item>
+    <item>
+      <title>Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model</title>
+      <link>https://huggingface.co/papers/2609.18323</link>
+      <description>Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.18323">Hugging Face Papers</source>
+      <guid isPermaLink="false">eb78c0955a5b5673f5c79d35bbe7da71</guid>
+    </item>
+    <item>
+      <title>FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations</title>
+      <link>https://huggingface.co/papers/2609.20817</link>
+      <description>Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20817">Hugging Face Papers</source>
+      <guid isPermaLink="false">58d98ce7155f75b5eba1a022e5ff6233</guid>
+    </item>
+    <item>
+      <title>Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts</title>
+      <link>https://huggingface.co/papers/2609.05661</link>
+      <description>We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odi…</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.05661">Hugging Face Papers</source>
+      <guid isPermaLink="false">b9491eeecc886d41fd83612b53a16745</guid>
+    </item>
     <item>
       <title>SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</title>
       <link>https://huggingface.co/papers/2609.20519</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.14005">Hugging Face Papers</source>
       <guid isPermaLink="false">eda99ae85e66d63636b302905598607e</guid>
-    </item>
-    <item>
-      <title>StepAudio 3 Music Technical Report</title>
-      <link>https://huggingface.co/papers/2609.16034</link>
-      <description>We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation.</description>
-      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.16034">Hugging Face Papers</source>
-      <guid isPermaLink="false">2f1fb50f1e7e20af7b179862dc1b3c00</guid>
-    </item>
-    <item>
-      <title>ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement</title>
-      <link>https://huggingface.co/papers/2609.14857</link>
-      <description>Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from experience.</description>
-      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.14857">Hugging Face Papers</source>
-      <guid isPermaLink="false">d6493f824566fed30ba9cf269d5636f3</guid>
-    </item>
-    <item>
-      <title>Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?</title>
-      <link>https://huggingface.co/papers/2609.14803</link>
-      <description>This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind.</description>
-      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.14803">Hugging Face Papers</source>
-      <guid isPermaLink="false">ab9db1f6ee8e1fe06d43f262872d43a1</guid>
-    </item>
-    <item>
-      <title>Convergent Emergence of In-Context Learning Across Modalities</title>
-      <link>https://huggingface.co/papers/2609.14011</link>
-      <description>Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been ext…</description>
-      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.14011">Hugging Face Papers</source>
-      <guid isPermaLink="false">2e80c9ad040c749d450d2f6783d07efb</guid>
-    </item>
-    <item>
-      <title>The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement</title>
-      <link>https://huggingface.co/papers/2609.11873</link>
-      <description>The abstract outlines a roadmap for recursive self-improvement in AI, from autonomy stages to meta-improvement, across domains like scientific discovery and software engineering,…</description>
-      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.11873">Hugging Face Papers</source>
-      <guid isPermaLink="false">ce29a7b23825e5fd4769543ad9999b38</guid>
     </item>
   </channel>
 </rss>
