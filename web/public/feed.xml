@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 18 Sep 2026 23:11:25 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 03:07:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>dashscope-sdk/agentscope-java — Build distributed, production-grade, long-running agents.</title>
+      <link>https://github.com/dashscope-sdk/agentscope-java</link>
+      <description>Build distributed, production-grade, long-running agents.</description>
+      <pubDate>Tue, 15 Sep 2026 21:40:36 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/dashscope-sdk/agentscope-java">GitHub Trending</source>
+      <guid isPermaLink="false">e84951f49f46541565978bfbbf33776d</guid>
+    </item>
+    <item>
+      <title>“보유세는 늘리고 ISA는 확대하고”…생산적 금융 위한 세제개편 논의 진행</title>
+      <link>https://www.etnews.com/20260918000277</link>
+      <description>가계 자산이 부동산에 쏠린 구조를 바꾸기 위해 부동산 보유세를 단계적으로 인상하고 개인종합자산관리계좌(ISA) 세제 혜택을 확대해야 한다는 분석이 나왔다. 국내 주식 배당소득 분리과세 요건도 완화해 국내외 금융투자상품 간 세제 격차를 줄여야 한다는 설명이다. 자본시장연구원은 18일 서울 콘래드호텔에서 개원 29주년 기념 컨퍼런스를 열고 생산적 금융 전환을 위한 자본시장의 역할을 논의했다.</description>
+      <pubDate>Fri, 18 Sep 2026 16:38:57 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20260918000277">전자신문 IT</source>
+      <guid isPermaLink="false">a38004103eccff7deae6526d5553aa99</guid>
+    </item>
+    <item>
+      <title>Self-Evolving Search Index</title>
+      <link>https://huggingface.co/papers/2609.19656</link>
+      <description>Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.19656">Hugging Face Papers</source>
+      <guid isPermaLink="false">7be238fa8fd18bb4deb32b196950bd8f</guid>
+    </item>
+    <item>
+      <title>Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling</title>
+      <link>https://huggingface.co/papers/2609.19499</link>
+      <description>Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.19499">Hugging Face Papers</source>
+      <guid isPermaLink="false">23025d63c624b1f7b47d8b95d80af82b</guid>
+    </item>
+    <item>
+      <title>코딩 에이전트 하네스 설계에 관한 실증 연구</title>
+      <link>https://news.hada.io/topic?id=33905</link>
+      <description>동일한 실행 루프에서 계획 수립, 행동 인터페이스, 컨텍스트 관리 를 바꿔 4개 모델과 2개 벤치마크의 176개 설정을 비교했으며, 각 구성요소의 효과는 모델 역량과 작업 유형, 컨텍스트 예산에 따라 달라짐 컨텍스트 관리 의 주된 효과는 컨텍스트 초과로 인한 조기...</description>
+      <pubDate>Sat, 19 Sep 2026 02:42:19 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=33905">GeekNews</source>
+      <guid isPermaLink="false">9af2ac7737dd55abb3a5203b5eac5f3e</guid>
+    </item>
     <item>
       <title>Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&amp;D의 26%를 주도</title>
       <link>https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953</link>
@@ -412,51 +457,6 @@
       <category>news</category>
       <source url="https://news.hada.io/topic?id=33850">GeekNews</source>
       <guid isPermaLink="false">65d873566e31ee7227950b1d82e22700</guid>
-    </item>
-    <item>
-      <title>In-Context Robot Learning with VLM Agents</title>
-      <link>https://huggingface.co/papers/2609.19138</link>
-      <description>Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19138">Hugging Face Papers</source>
-      <guid isPermaLink="false">3bd7c05331d9b281da5c276a2fa1a46b</guid>
-    </item>
-    <item>
-      <title>The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction</title>
-      <link>https://huggingface.co/papers/2609.18063</link>
-      <description>Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the byte…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18063">Hugging Face Papers</source>
-      <guid isPermaLink="false">c3ca37e526c10f6dd01230c69e4f8b97</guid>
-    </item>
-    <item>
-      <title>게임 중 '멘붕' 온 아스트라...마인크래프트서 아이템 잃고 감자만 깼다</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=215401</link>
-      <description>오픈AI의 최신 AI 모델 \'GPT-6 아스트라\'가 장시간 이어진 마인크래프트 테스트에서 뛰어난 게임 수행 능력을 보여줬지만, 모든 아이템을 잃은 뒤 몇 시간 동안 감자 농사만 반복하는 모습이 포착돼 화제가 되고 있다.발스 AI(Vals AI)는 15일(현지시간) 141시간 동안 진행한 마인크래프트 벤치마크 테스트에서 아스트라가 AI 시스템 가운데 \"가장 멀리 게임을 진행(progre…</description>
-      <pubDate>Thu, 17 Sep 2026 18:24:57 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=215401">AI Times</source>
-      <guid isPermaLink="false">7a62f4274113de9ac609858add32afa1</guid>
-    </item>
-    <item>
-      <title>[플로우x챗GPT·클로드] '사스포칼립스' 맞선 글로벌 SaaS…데이터·워크플로우로 승부</title>
-      <link>https://www.etnews.com/20260917000456</link>
-      <description>인공지능(AI) 에이전트 확산이 서비스형 소프트웨어(SaaS)의 화면뿐 아니라 수익모델까지 흔들고 있다. 이용자 수에 따라 비용을 받는 시트 기반 과금이 AI 시대에도 유지될 수 있느냐는 의문이 본격화한 것이다.</description>
-      <pubDate>Thu, 17 Sep 2026 16:51:17 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260917000456">전자신문 IT</source>
-      <guid isPermaLink="false">3ac6da425ba58e3e1dd6ec0a999cc1f9</guid>
-    </item>
-    <item>
-      <title>ruc-datalab/EvoOntology — EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&amp;进化</title>
-      <link>https://github.com/ruc-datalab/EvoOntology</link>
-      <description>EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&amp;进化本体层</description>
-      <pubDate>Tue, 15 Sep 2026 16:29:50 +0900</pubDate>
-      <category>trending</category>
-      <source url="https://github.com/ruc-datalab/EvoOntology">GitHub Trending</source>
-      <guid isPermaLink="false">62ca47caa61425b088293afb2bcc394e</guid>
     </item>
   </channel>
 </rss>
