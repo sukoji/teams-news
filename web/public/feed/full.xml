@@ -5,105 +5,105 @@
     <link>https://sukoji.github.io/teams-news/feed/full.xml</link>
     <description>Extended RSS with scores, sections, and engagement metrics for bot builders.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 18 Sep 2026 09:58:53 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 09:55:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
-      <title>In-Context Robot Learning with VLM Agents</title>
-      <link>https://huggingface.co/papers/2609.19138</link>
-      <description>Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
+      <title>SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</title>
+      <link>https://huggingface.co/papers/2609.20519</link>
+      <description>As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning…</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
       <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19138">Hugging Face Papers</source>
-      <guid isPermaLink="false">3bd7c05331d9b281da5c276a2fa1a46b</guid>
-      <teams:source>Hugging Face Papers</teams:source>
-      <teams:section>papers</teams:section>
-      <teams:score>26.23</teams:score>
-      <teams:titleOriginal>In-Context Robot Learning with VLM Agents</teams:titleOriginal>
-      <teams:engagement label="Upvotes">15</teams:engagement>
-    </item>
-    <item>
-      <title>The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction</title>
-      <link>https://huggingface.co/papers/2609.18063</link>
-      <description>Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the byte…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18063">Hugging Face Papers</source>
-      <guid isPermaLink="false">c3ca37e526c10f6dd01230c69e4f8b97</guid>
+      <source url="https://huggingface.co/papers/2609.20519">Hugging Face Papers</source>
+      <guid isPermaLink="false">37b1022d6bea2c96c07b4c4b67b185f3</guid>
       <teams:source>Hugging Face Papers</teams:source>
       <teams:section>papers</teams:section>
       <teams:score>26.0</teams:score>
-      <teams:titleOriginal>The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction</teams:titleOriginal>
-      <teams:engagement label="Upvotes">8</teams:engagement>
+      <teams:titleOriginal>SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</teams:titleOriginal>
+      <teams:engagement label="Upvotes">47</teams:engagement>
     </item>
     <item>
-      <title>[9월17일] 초지능 경고에서 에이전트 통제까지...'p(doom)'이 다시 주목받는 이유</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=215372</link>
-      <description>‘AI 종말론’이 다시 부각되면서 ‘p(doom)’이라는 표현도 주목받고 있습니다. AI의 대부로 불리는 제프리 힌튼 교수는 최근 인터뷰에서 “앞으로 10년 안에 AI가 인류를 멸종시킬 확률이 10%라는 추정은 비합리적이지 않다”​고 말했습니다.</description>
-      <pubDate>Fri, 18 Sep 2026 07:00:00 +0900</pubDate>
+      <title>RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2609.20784</link>
+      <description>Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-l…</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20784">Hugging Face Papers</source>
+      <guid isPermaLink="false">96c1634b2f478e2027721950a37c721b</guid>
+      <teams:source>Hugging Face Papers</teams:source>
+      <teams:section>papers</teams:section>
+      <teams:score>21.14</teams:score>
+      <teams:titleOriginal>RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning</teams:titleOriginal>
+      <teams:engagement label="Upvotes">15</teams:engagement>
+    </item>
+    <item>
+      <title>[9월18일] AI가 다음 AI에게 지시를 남겼다…오픈AI서 드러난 ‘셀프 프롬프트 인젝션’</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=215440</link>
+      <description>오픈AI가 16일(현지시간) AI 모델이 예상하지 못한 방식으로 행동한 사례 6건을 공개했습니다. 동시에 앞으로 이런 ‘오정렬(misalignment)’ 사례를 더 체계적으로 추적하고 공개하기 위한 별도 보고 체계도 마련했습니다.6건 가운데 특히 눈에 띄는 것은 AI가 자신의 작업을 다음 AI에게 넘기는 과정에서 나타난 사례입니다.</description>
+      <pubDate>Sat, 19 Sep 2026 06:45:00 +0900</pubDate>
       <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=215372">AI Times</source>
-      <guid isPermaLink="false">8ed9c8c640ae35d7b61976c2030877c3</guid>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=215440">AI Times</source>
+      <guid isPermaLink="false">afbe6f2aeb8e650b2e7207f8f87371e7</guid>
       <teams:source>AI Times</teams:source>
       <teams:section>news</teams:section>
-      <teams:score>19.38</teams:score>
-      <teams:titleOriginal>[9월17일] 초지능 경고에서 에이전트 통제까지...'p(doom)'이 다시 주목받는 이유</teams:titleOriginal>
+      <teams:score>22.34</teams:score>
+      <teams:titleOriginal>[9월18일] AI가 다음 AI에게 지시를 남겼다…오픈AI서 드러난 ‘셀프 프롬프트 인젝션’</teams:titleOriginal>
       
     </item>
     <item>
-      <title>에임인텔리전스, 피지컬AI 안전 연구 글로벌 컨소시엄 ‘PASC’ 출범</title>
-      <link>https://zdnet.co.kr/view/?no=20260918081204</link>
-      <description>[지디넷코리아]보안 전문기업 에임인텔리전스(AIM Intelligence, 대표 유상윤)는 로봇과 자율 시스템 등 피지컬 AI 전반의 안전 문제를 연구하기 위한 글로벌 컨소시엄 ‘PASC(Physical AI Safety Consortium, 파스크로 발음)’를 출범했다고 밝혔다.피지컬 AI는 언어 모델의 답변을 넘어 로봇, 자율 시스템, 산업 장비 등 실제 환경에서 판단하고 행동한다.</description>
-      <pubDate>Fri, 18 Sep 2026 08:12:04 +0900</pubDate>
+      <title>중고 서적 구매했는데… 1700년 전 '오디세이아' 조각 발견됐다</title>
+      <link>https://www.etnews.com/20260918000202</link>
+      <description>네덜란드 도서관에서 1700년 전 작성된 호메로스의 서사시 '오디세이아' 조각이 발견됐다. 17일(현지시간) 미국 CBS 뉴스·네덜란드 RTV 등에 따르면, 네덜란드 라드바우드 대학교의 마크 데 크레이 박사는 위트레흐트 대학교가 소장한 고대 필사본을 연구하던 중 도서관 책 페이지 사이에 끼어 있던 희귀 필사본 조각을 찾았다.</description>
+      <pubDate>Sat, 19 Sep 2026 08:40:00 +0900</pubDate>
       <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260918081204">ZDNet Korea</source>
-      <guid isPermaLink="false">f1a0c4c007e564fd55a1608a9e2de1e9</guid>
-      <teams:source>ZDNet Korea</teams:source>
+      <source url="https://www.etnews.com/20260918000202">전자신문 IT</source>
+      <guid isPermaLink="false">0b415383701c270e146684e0fa312b39</guid>
+      <teams:source>전자신문 IT</teams:source>
       <teams:section>news</teams:section>
-      <teams:score>25.63</teams:score>
-      <teams:titleOriginal>에임인텔리전스, 피지컬AI 안전 연구 글로벌 컨소시엄 ‘PASC’ 출범</teams:titleOriginal>
+      <teams:score>19.74</teams:score>
+      <teams:titleOriginal>중고 서적 구매했는데… 1700년 전 '오디세이아' 조각 발견됐다</teams:titleOriginal>
       
     </item>
     <item>
-      <title>youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。</title>
-      <link>https://github.com/youngyangyang04/llm-master</link>
-      <description>大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。</description>
-      <pubDate>Sun, 13 Sep 2026 17:32:08 +0900</pubDate>
+      <title>everclear077/awesome-ai-x-accounts — A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profi</title>
+      <link>https://github.com/everclear077/awesome-ai-x-accounts</link>
+      <description>A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.</description>
+      <pubDate>Fri, 18 Sep 2026 23:04:49 +0900</pubDate>
       <category>trending</category>
-      <source url="https://github.com/youngyangyang04/llm-master">GitHub Trending</source>
-      <guid isPermaLink="false">b5d281f1d6c3f030955d29264bc11014</guid>
+      <source url="https://github.com/everclear077/awesome-ai-x-accounts">GitHub Trending</source>
+      <guid isPermaLink="false">c459b81eb990cddfb38b3cc4767e151d</guid>
       <teams:source>GitHub Trending</teams:source>
       <teams:section>trending</teams:section>
-      <teams:score>42.86</teams:score>
-      <teams:titleOriginal>youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。</teams:titleOriginal>
-      <teams:engagement label="Stars">686</teams:engagement>
+      <teams:score>27.95</teams:score>
+      <teams:titleOriginal>everclear077/awesome-ai-x-accounts — A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profi</teams:titleOriginal>
+      <teams:engagement label="Stars">57</teams:engagement>
     </item>
     <item>
-      <title>atria-asi/Atria-Dawn-Preview</title>
-      <link>https://github.com/atria-asi/Atria-Dawn-Preview</link>
-      <description>llm, llm-agent</description>
-      <pubDate>Fri, 18 Sep 2026 02:28:26 +0900</pubDate>
+      <title>inikolax/remiqora — Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generat</title>
+      <link>https://github.com/inikolax/remiqora</link>
+      <description>Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in…</description>
+      <pubDate>Sat, 19 Sep 2026 05:02:25 +0900</pubDate>
       <category>trending</category>
-      <source url="https://github.com/atria-asi/Atria-Dawn-Preview">GitHub Trending</source>
-      <guid isPermaLink="false">d94fa66224e7cfe1ddf85aa825f4dd04</guid>
+      <source url="https://github.com/inikolax/remiqora">GitHub Trending</source>
+      <guid isPermaLink="false">ff256fdc060b13c721b30e9936d9964d</guid>
       <teams:source>GitHub Trending</teams:source>
       <teams:section>trending</teams:section>
-      <teams:score>32.96</teams:score>
-      <teams:titleOriginal>atria-asi/Atria-Dawn-Preview</teams:titleOriginal>
-      <teams:engagement label="Stars">468</teams:engagement>
+      <teams:score>27.77</teams:score>
+      <teams:titleOriginal>inikolax/remiqora — Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generat</teams:titleOriginal>
+      <teams:engagement label="Stars">90</teams:engagement>
     </item>
     <item>
-      <title>Bernini: Wan 렌더러에 MLLM 플래너를 더해 영상 생성과 편집 6개 작업을 하나로 묶은 영상 생성 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/bernini-wan-mllm-6/11931</link>
-      <description>Bernini 소개 영상을 만들거나 고치는 확산 모델(Diffusion Model)은 대개 텍스트 조건 하나로 픽셀 생성을 통제합니다. 이 구조에서는 지시가 복합적일수록 무엇을 바꾸고 무엇을 그대로 둘지가 렌더러까지 충분히 전달되지 않습니다.</description>
-      <pubDate>Thu, 17 Sep 2026 11:30:03 +0900</pubDate>
+      <title>Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&amp;D의 26%를 주도</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953</link>
+      <description>Anthropic의 AI 개발 속도 측정 지표 소개 Anthropic 이 2026년 9월 Anthropic Institute ( Anthropic, 프런티어 AI 시대의 사회적 과제 해결을 위한 Anthropic Institute 설립 발표 )를 통해 공개한 Measurements for understanding the pace of AI development inside frontier…</description>
+      <pubDate>Fri, 18 Sep 2026 20:30:50 +0900</pubDate>
       <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bernini-wan-mllm-6/11931">PyTorch Korea</source>
-      <guid isPermaLink="false">f3ff28b75b9329e154018dcd742a88a8</guid>
+      <source url="https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953">PyTorch Korea</source>
+      <guid isPermaLink="false">d49d49b25969aeeed10295b088c89d7a</guid>
       <teams:source>PyTorch Korea</teams:source>
       <teams:section>community</teams:section>
-      <teams:score>21.12</teams:score>
-      <teams:titleOriginal>Bernini: Wan 렌더러에 MLLM 플래너를 더해 영상 생성과 편집 6개 작업을 하나로 묶은 영상 생성 프레임워크</teams:titleOriginal>
+      <teams:score>20.21</teams:score>
+      <teams:titleOriginal>Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&amp;D의 26%를 주도</teams:titleOriginal>
       
     </item>
   </channel>
