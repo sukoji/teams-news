@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 19 Sep 2026 09:55:19 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 12:54:00 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Ternary Bonsai 2 27B, 5.93GB로 줄이고도 FP16 성능의 98.2%를 지킨 삼진 모델 (feat. PrismML)</title>
+      <link>https://discuss.pytorch.kr/t/ternary-bonsai-2-27b-5-93gb-fp16-98-2-feat-prismml/11949</link>
+      <description>Ternary Bonsai 2 27B 소개 PrismML 이 Ternary Bonsai 2 27B 를 공개했습니다. 270억 파라미터급 멀티모달 언어 모델의 행렬 가중치를 \{-1, 0, +1\} 세 값으로만 저장해서, FP16으로 53.80GB를 차지하던 언어 모델을 5.93GB 로 줄인 모델입니다.</description>
+      <pubDate>Sat, 19 Sep 2026 11:00:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ternary-bonsai-2-27b-5-93gb-fp16-98-2-feat-prismml/11949">PyTorch Korea</source>
+      <guid isPermaLink="false">b287f5ce848d9e6b26f965b2b1369d0b</guid>
+    </item>
     <item>
       <title>Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&amp;D의 26%를 주도</title>
       <link>https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/gwm-worlds-2-runway/11841">PyTorch Korea</source>
       <guid isPermaLink="false">ec0c1e2a5e9c80d2cfa78154efb3e874</guid>
-    </item>
-    <item>
-      <title>Claude Commerce Agents: 쇼핑과 백오피스 에이전트를 한 번만 정의해 세 가지 방식으로 실행하는 참조 구현</title>
-      <link>https://discuss.pytorch.kr/t/claude-commerce-agents/11828</link>
-      <description>Claude Commerce Agents 소개 쇼핑몰에 대화형 에이전트를 붙이는 일은 데모 단계까지는 어렵지 않습니다. 상품을 검색해 보여주고 비교해 주는 챗봇은 모델 하나와 검색 API 하나로도 만들어집니다. 문제는 그다음입니다.</description>
-      <pubDate>Sat, 05 Sep 2026 18:00:24 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-commerce-agents/11828">PyTorch Korea</source>
-      <guid isPermaLink="false">f58fedfac1248be84f46a89502067522</guid>
     </item>
   </channel>
 </rss>
