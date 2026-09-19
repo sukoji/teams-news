@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 19 Sep 2026 17:39:33 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 21:57:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>HarnessTax: 7가지 모델 x 3가지 하네스로 실험한, 모델과 하네스에 따른 성능과 비용에 대한 연구 (feat. UC Berkeley)</title>
+      <link>https://discuss.pytorch.kr/t/harnesstax-7-x-3-feat-uc-berkeley/11957</link>
+      <description>HarnessTax 소개: 코딩 에이전트에서 모델이 아니라 하네스를 바꾸면 무엇이 달라지는가 HarnessTax 는 UC Berkeley Sky Computing Lab 과 Arena 의 연구진이 공개한 코딩 에이전트 프로파일링 연구로, 같은 모델을 서로 다른 하네스(harness) 위에서 돌렸을 때 과제 성공률과 비용이 각각 얼마나 달라지는지를 21개 조합에 걸쳐 측정한 결과입니다.</description>
+      <pubDate>Sat, 19 Sep 2026 18:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/harnesstax-7-x-3-feat-uc-berkeley/11957">PyTorch Korea</source>
+      <guid isPermaLink="false">f73a63a33ee588bdee25269926911b71</guid>
+    </item>
     <item>
       <title>Ternary Bonsai 2 27B, 5.93GB로 줄이고도 FP16 성능의 98.2%를 지킨 삼진 모델 (feat. PrismML)</title>
       <link>https://discuss.pytorch.kr/t/ternary-bonsai-2-27b-5-93gb-fp16-98-2-feat-prismml/11949</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/2026-08-31-09-06-ai-ml/11840">PyTorch Korea</source>
       <guid isPermaLink="false">e67f7fb17458177b6d4cbe43376b2265</guid>
-    </item>
-    <item>
-      <title>GWM Worlds 2: Runway가 공개한, 소리까지 실시간 생성하며 인물과 장면을 따로 조종하는 월드 모델</title>
-      <link>https://discuss.pytorch.kr/t/gwm-worlds-2-runway/11841</link>
-      <description>GWM Worlds 2 소개 Runway 가 2026년 9월 3일 공개한 GWM Worlds 2 는 사용자의 입력에 반응해 720p 영상과 48,000Hz 음향을 실시간으로 계속 만들어내는 인터랙티브 월드 모델(Interactive World Model)입니다. 월드 모델은 환경의 내부 표현을 만들어 두고 그 환경에서 벌어질 다음 사건을 시뮬레이션하는 모델을 뜻합니다.</description>
-      <pubDate>Mon, 07 Sep 2026 08:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gwm-worlds-2-runway/11841">PyTorch Korea</source>
-      <guid isPermaLink="false">ec0c1e2a5e9c80d2cfa78154efb3e874</guid>
     </item>
   </channel>
 </rss>
