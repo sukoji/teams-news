@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-19",
-  "generated_at": "2026-09-19T09:55:19.115266+09:00",
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T09:35:56.502918+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,50 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "37b1022d6bea2c96c07b4c4b67b185f3",
+          "id": "55ac5369cbc6f846aae1926c4ea77d82",
           "index": 1,
-          "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-          "title_ko": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-          "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback.",
-          "summary_ko": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning…",
-          "url": "https://huggingface.co/papers/2609.20519",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
+          "title_ko": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
+          "summary": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
+          "summary_ko": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-jev-salesforce-koa",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-18T09:00:00+09:00",
-          "popularity": 2339,
-          "upvotes": 47,
-          "score": 26.0,
-          "importance_score": 18.0,
-          "matched_keywords": [
-            "agent",
-            "reasoning"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 47
-          }
-        },
-        {
-          "id": "96c1634b2f478e2027721950a37c721b",
-          "index": 2,
-          "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-          "title_ko": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-          "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher wit…",
-          "summary_ko": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-l…",
-          "url": "https://huggingface.co/papers/2609.20784",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-09-18T09:00:00+09:00",
-          "popularity": 40,
-          "upvotes": 15,
-          "score": 21.14,
-          "importance_score": 11.14,
+          "published_at": "2026-09-20T02:27:24+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 25.51,
+          "importance_score": 17.02,
           "matched_keywords": [
             "ai",
             "agent",
-            "reinforcement learning"
+            "claude",
+            "gemini"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 15
-          }
+          "engagement": null
+        },
+        {
+          "id": "453376d252db6a1dc58c59be8833dfce",
+          "index": 2,
+          "title": "🥇Top AI Papers of the Week",
+          "title_ko": "🥇Top AI Papers of the Week",
+          "summary": "The Top AI Papers of the Week (September 7 - 13)",
+          "summary_ko": "The Top AI Papers of the Week (September 7 - 13)",
+          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-4f3",
+          "source": "Elvis AI Newsletter",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-09-14T00:54:16+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 17.9,
+          "importance_score": 9.9,
+          "matched_keywords": [
+            "ai",
+            "paper"
+          ],
+          "engagement": null
         }
       ]
     },
@@ -67,45 +62,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "afbe6f2aeb8e650b2e7207f8f87371e7",
+          "id": "926be193716423508bd18a1b5609f41f",
           "index": 3,
-          "title": "[9월18일] AI가 다음 AI에게 지시를 남겼다…오픈AI서 드러난 ‘셀프 프롬프트 인젝션’",
+          "title": "“교육 AI 품질, 데이터가 결정”…AI 플랫폼이 바꾸는 교실",
           "title_ko": null,
-          "summary": "오픈AI가 16일(현지시간) AI 모델이 예상하지 못한 방식으로 행동한 사례 6건을 공개했습니다. 동시에 앞으로 이런 ‘오정렬(misalignment)’ 사례를 더 체계적으로 추적하고 공개하기 위한 별도 보고 체계도 마련했습니다.6건 가운데 특히 눈에 띄는 것은 AI가 자신의 작업을 다음 AI에게 넘기는 과정에서 나타난 사례입니다.",
+          "summary": "“교육 인공지능(AI)의 품질은 학습 데이터가 결정합니다. 수백만 학생의 디지털 학습 이력과 교사의 수업 경험, 교육과정 데이터를 어떻게 관리할지가 중요합니다.” 정윤호 울산광역시교육청 장학사는 최근 전자신문과 인터뷰에서 교육 AI의 방향성을 이같이 압축했다. 성능 좋은 거대언어모델(LLM) 도입을 넘어 공교육이 교육 데이터와 AI 활용에 대한 판단·통제권을 확보해야 한다는 설명이다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215440",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20260918000199",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-19T06:45:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-19T12:00:00+09:00",
+          "popularity": 84,
           "upvotes": 0,
-          "score": 22.34,
-          "importance_score": 18.68,
+          "score": 19.9,
+          "importance_score": 9.4,
           "matched_keywords": [
             "ai",
+            "llm",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "0b415383701c270e146684e0fa312b39",
+          "id": "776ce918ea869d5a828709234b7e83be",
           "index": 4,
-          "title": "중고 서적 구매했는데… 1700년 전 '오디세이아' 조각 발견됐다",
+          "title": "현대차, 6년 만에 완전변경 '디 올 뉴 투싼' 최초 공개…글로벌 1000만대 신화 잇는다",
           "title_ko": null,
-          "summary": "네덜란드 도서관에서 1700년 전 작성된 호메로스의 서사시 '오디세이아' 조각이 발견됐다. 17일(현지시간) 미국 CBS 뉴스·네덜란드 RTV 등에 따르면, 네덜란드 라드바우드 대학교의 마크 데 크레이 박사는 위트레흐트 대학교가 소장한 고대 필사본을 연구하던 중 도서관 책 페이지 사이에 끼어 있던 희귀 필사본 조각을 찾았다.",
+          "summary": "현대자동차가 글로벌 누적 판매 1000만 대를 돌파한 대표 베스트셀링 준중형 스포츠유틸리티차(SUV) 투싼의 5세대 완전변경 모델 '디 올 뉴 투싼'을 처음으로 공개했다. 2020년 4세대 출시 이후 6년 만의 풀체인지다. 현대차는 지난 18일 경기도 파주시 CJ ENM 스튜디오 센터에서 '디 올 뉴 투싼 미디어 데이'를 열고 디자인과 전동화, 디지털 역량을 전면 혁신한 신차를 선보였다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260918000202",
+          "url": "https://www.etnews.com/20260918000222",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-19T08:40:00+09:00",
+          "published_at": "2026-09-20T09:05:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.74,
-          "importance_score": 19.48,
+          "score": 19.89,
+          "importance_score": 19.79,
           "matched_keywords": [
-            "연구"
+            "모델"
           ],
           "engagement": null
         }
@@ -116,54 +112,52 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "c459b81eb990cddfb38b3cc4767e151d",
+          "id": "dcfdc0856c42fc9843a8b5170c9052a4",
           "index": 5,
-          "title": "everclear077/awesome-ai-x-accounts — A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profi",
-          "title_ko": "everclear077/awesome-ai-x-accounts — A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profi",
-          "summary": "A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.",
-          "summary_ko": "A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.",
-          "url": "https://github.com/everclear077/awesome-ai-x-accounts",
+          "title": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
+          "title_ko": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
+          "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+          "summary_ko": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+          "url": "https://github.com/yibie/awesome-jev",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-18T23:04:49+09:00",
-          "popularity": 57,
-          "upvotes": 57,
-          "score": 27.95,
-          "importance_score": 19.69,
+          "published_at": "2026-09-20T01:18:20+09:00",
+          "popularity": 367,
+          "upvotes": 367,
+          "score": 28.95,
+          "importance_score": 27.22,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 367
+          }
+        },
+        {
+          "id": "056a4b04880259ab70e71e4636a949b8",
+          "index": 6,
+          "title": "agentscope-ai-java/agentscope-java — Build distributed, production-grade, long-running agents.",
+          "title_ko": "agentscope-ai-java/agentscope-java — Build distributed, production-grade, long-running agents.",
+          "summary": "Build distributed, production-grade, long-running agents.",
+          "summary_ko": "Build distributed, production-grade, long-running agents.",
+          "url": "https://github.com/agentscope-ai-java/agentscope-java",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-09-20T06:26:40+09:00",
+          "popularity": 109,
+          "upvotes": 109,
+          "score": 28.79,
+          "importance_score": 25.14,
           "matched_keywords": [
             "ai",
-            "llm",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 57
-          }
-        },
-        {
-          "id": "ff256fdc060b13c721b30e9936d9964d",
-          "index": 6,
-          "title": "inikolax/remiqora — Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generat",
-          "title_ko": "inikolax/remiqora — Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generat",
-          "summary": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in multitrack DAW.",
-          "summary_ko": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in…",
-          "url": "https://github.com/inikolax/remiqora",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-19T05:02:25+09:00",
-          "popularity": 90,
-          "upvotes": 90,
-          "score": 27.77,
-          "importance_score": 23.75,
-          "matched_keywords": [
-            "ai",
-            "fine-tuning"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 90
+            "value": 109
           }
         }
       ]
@@ -173,24 +167,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "d49d49b25969aeeed10295b088c89d7a",
+          "id": "f73a63a33ee588bdee25269926911b71",
           "index": 7,
-          "title": "Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&D의 26%를 주도",
+          "title": "HarnessTax: 7가지 모델 x 3가지 하네스로 실험한, 모델과 하네스에 따른 성능과 비용에 대한 연구 (feat. UC Berkeley)",
           "title_ko": null,
-          "summary": "Anthropic의 AI 개발 속도 측정 지표 소개 Anthropic 이 2026년 9월 Anthropic Institute ( Anthropic, 프런티어 AI 시대의 사회적 과제 해결을 위한 Anthropic Institute 설립 발표 )를 통해 공개한 Measurements for understanding the pace of AI development inside frontier…",
+          "summary": "HarnessTax 소개: 코딩 에이전트에서 모델이 아니라 하네스를 바꾸면 무엇이 달라지는가 HarnessTax 는 UC Berkeley Sky Computing Lab 과 Arena 의 연구진이 공개한 코딩 에이전트 프로파일링 연구로, 같은 모델을 서로 다른 하네스(harness) 위에서 돌렸을 때 과제 성공률과 비용이 각각 얼마나 달라지는지를 21개 조합에 걸쳐 측정한 결과입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953",
+          "url": "https://discuss.pytorch.kr/t/harnesstax-7-x-3-feat-uc-berkeley/11957",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-18T20:30:50+09:00",
+          "published_at": "2026-09-19T18:30:15+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 20.21,
-          "importance_score": 14.41,
+          "score": 19.86,
+          "importance_score": 13.71,
           "matched_keywords": [
-            "ai",
-            "claude"
+            "연구",
+            "모델"
           ],
           "engagement": null
         }
@@ -199,169 +193,163 @@
   ],
   "items": [
     {
-      "id": "37b1022d6bea2c96c07b4c4b67b185f3",
+      "id": "55ac5369cbc6f846aae1926c4ea77d82",
       "index": 1,
-      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-      "title_ko": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-      "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback.",
-      "summary_ko": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning…",
-      "url": "https://huggingface.co/papers/2609.20519",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
+      "title_ko": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
+      "summary": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
+      "summary_ko": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-jev-salesforce-koa",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-18T09:00:00+09:00",
-      "popularity": 2339,
-      "upvotes": 47,
-      "score": 26.0,
-      "importance_score": 18.0,
-      "matched_keywords": [
-        "agent",
-        "reasoning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 47
-      }
-    },
-    {
-      "id": "96c1634b2f478e2027721950a37c721b",
-      "index": 2,
-      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "title_ko": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher wit…",
-      "summary_ko": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-l…",
-      "url": "https://huggingface.co/papers/2609.20784",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-18T09:00:00+09:00",
-      "popularity": 40,
-      "upvotes": 15,
-      "score": 21.14,
-      "importance_score": 11.14,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "reinforcement learning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 15
-      }
-    },
-    {
-      "id": "afbe6f2aeb8e650b2e7207f8f87371e7",
-      "index": 3,
-      "title": "[9월18일] AI가 다음 AI에게 지시를 남겼다…오픈AI서 드러난 ‘셀프 프롬프트 인젝션’",
-      "title_ko": null,
-      "summary": "오픈AI가 16일(현지시간) AI 모델이 예상하지 못한 방식으로 행동한 사례 6건을 공개했습니다. 동시에 앞으로 이런 ‘오정렬(misalignment)’ 사례를 더 체계적으로 추적하고 공개하기 위한 별도 보고 체계도 마련했습니다.6건 가운데 특히 눈에 띄는 것은 AI가 자신의 작업을 다음 AI에게 넘기는 과정에서 나타난 사례입니다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215440",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-19T06:45:00+09:00",
+      "published_at": "2026-09-20T02:27:24+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.34,
-      "importance_score": 18.68,
+      "score": 25.51,
+      "importance_score": 17.02,
       "matched_keywords": [
         "ai",
+        "agent",
+        "claude",
+        "gemini"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "453376d252db6a1dc58c59be8833dfce",
+      "index": 2,
+      "title": "🥇Top AI Papers of the Week",
+      "title_ko": "🥇Top AI Papers of the Week",
+      "summary": "The Top AI Papers of the Week (September 7 - 13)",
+      "summary_ko": "The Top AI Papers of the Week (September 7 - 13)",
+      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-4f3",
+      "source": "Elvis AI Newsletter",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-14T00:54:16+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 17.9,
+      "importance_score": 9.9,
+      "matched_keywords": [
+        "ai",
+        "paper"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "926be193716423508bd18a1b5609f41f",
+      "index": 3,
+      "title": "“교육 AI 품질, 데이터가 결정”…AI 플랫폼이 바꾸는 교실",
+      "title_ko": null,
+      "summary": "“교육 인공지능(AI)의 품질은 학습 데이터가 결정합니다. 수백만 학생의 디지털 학습 이력과 교사의 수업 경험, 교육과정 데이터를 어떻게 관리할지가 중요합니다.” 정윤호 울산광역시교육청 장학사는 최근 전자신문과 인터뷰에서 교육 AI의 방향성을 이같이 압축했다. 성능 좋은 거대언어모델(LLM) 도입을 넘어 공교육이 교육 데이터와 AI 활용에 대한 판단·통제권을 확보해야 한다는 설명이다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260918000199",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-19T12:00:00+09:00",
+      "popularity": 84,
+      "upvotes": 0,
+      "score": 19.9,
+      "importance_score": 9.4,
+      "matched_keywords": [
+        "ai",
+        "llm",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "0b415383701c270e146684e0fa312b39",
+      "id": "776ce918ea869d5a828709234b7e83be",
       "index": 4,
-      "title": "중고 서적 구매했는데… 1700년 전 '오디세이아' 조각 발견됐다",
+      "title": "현대차, 6년 만에 완전변경 '디 올 뉴 투싼' 최초 공개…글로벌 1000만대 신화 잇는다",
       "title_ko": null,
-      "summary": "네덜란드 도서관에서 1700년 전 작성된 호메로스의 서사시 '오디세이아' 조각이 발견됐다. 17일(현지시간) 미국 CBS 뉴스·네덜란드 RTV 등에 따르면, 네덜란드 라드바우드 대학교의 마크 데 크레이 박사는 위트레흐트 대학교가 소장한 고대 필사본을 연구하던 중 도서관 책 페이지 사이에 끼어 있던 희귀 필사본 조각을 찾았다.",
+      "summary": "현대자동차가 글로벌 누적 판매 1000만 대를 돌파한 대표 베스트셀링 준중형 스포츠유틸리티차(SUV) 투싼의 5세대 완전변경 모델 '디 올 뉴 투싼'을 처음으로 공개했다. 2020년 4세대 출시 이후 6년 만의 풀체인지다. 현대차는 지난 18일 경기도 파주시 CJ ENM 스튜디오 센터에서 '디 올 뉴 투싼 미디어 데이'를 열고 디자인과 전동화, 디지털 역량을 전면 혁신한 신차를 선보였다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260918000202",
+      "url": "https://www.etnews.com/20260918000222",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-19T08:40:00+09:00",
+      "published_at": "2026-09-20T09:05:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.74,
-      "importance_score": 19.48,
+      "score": 19.89,
+      "importance_score": 19.79,
       "matched_keywords": [
-        "연구"
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "c459b81eb990cddfb38b3cc4767e151d",
+      "id": "dcfdc0856c42fc9843a8b5170c9052a4",
       "index": 5,
-      "title": "everclear077/awesome-ai-x-accounts — A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profi",
-      "title_ko": "everclear077/awesome-ai-x-accounts — A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profi",
-      "summary": "A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.",
-      "summary_ko": "A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.",
-      "url": "https://github.com/everclear077/awesome-ai-x-accounts",
+      "title": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
+      "title_ko": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
+      "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+      "summary_ko": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+      "url": "https://github.com/yibie/awesome-jev",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-18T23:04:49+09:00",
-      "popularity": 57,
-      "upvotes": 57,
-      "score": 27.95,
-      "importance_score": 19.69,
+      "published_at": "2026-09-20T01:18:20+09:00",
+      "popularity": 367,
+      "upvotes": 367,
+      "score": 28.95,
+      "importance_score": 27.22,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 367
+      }
+    },
+    {
+      "id": "056a4b04880259ab70e71e4636a949b8",
+      "index": 6,
+      "title": "agentscope-ai-java/agentscope-java — Build distributed, production-grade, long-running agents.",
+      "title_ko": "agentscope-ai-java/agentscope-java — Build distributed, production-grade, long-running agents.",
+      "summary": "Build distributed, production-grade, long-running agents.",
+      "summary_ko": "Build distributed, production-grade, long-running agents.",
+      "url": "https://github.com/agentscope-ai-java/agentscope-java",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-20T06:26:40+09:00",
+      "popularity": 109,
+      "upvotes": 109,
+      "score": 28.79,
+      "importance_score": 25.14,
       "matched_keywords": [
         "ai",
-        "llm",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 57
+        "value": 109
       }
     },
     {
-      "id": "ff256fdc060b13c721b30e9936d9964d",
-      "index": 6,
-      "title": "inikolax/remiqora — Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generat",
-      "title_ko": "inikolax/remiqora — Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generat",
-      "summary": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in multitrack DAW.",
-      "summary_ko": "Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in…",
-      "url": "https://github.com/inikolax/remiqora",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-19T05:02:25+09:00",
-      "popularity": 90,
-      "upvotes": 90,
-      "score": 27.77,
-      "importance_score": 23.75,
-      "matched_keywords": [
-        "ai",
-        "fine-tuning"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 90
-      }
-    },
-    {
-      "id": "d49d49b25969aeeed10295b088c89d7a",
+      "id": "f73a63a33ee588bdee25269926911b71",
       "index": 7,
-      "title": "Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&D의 26%를 주도",
+      "title": "HarnessTax: 7가지 모델 x 3가지 하네스로 실험한, 모델과 하네스에 따른 성능과 비용에 대한 연구 (feat. UC Berkeley)",
       "title_ko": null,
-      "summary": "Anthropic의 AI 개발 속도 측정 지표 소개 Anthropic 이 2026년 9월 Anthropic Institute ( Anthropic, 프런티어 AI 시대의 사회적 과제 해결을 위한 Anthropic Institute 설립 발표 )를 통해 공개한 Measurements for understanding the pace of AI development inside frontier…",
+      "summary": "HarnessTax 소개: 코딩 에이전트에서 모델이 아니라 하네스를 바꾸면 무엇이 달라지는가 HarnessTax 는 UC Berkeley Sky Computing Lab 과 Arena 의 연구진이 공개한 코딩 에이전트 프로파일링 연구로, 같은 모델을 서로 다른 하네스(harness) 위에서 돌렸을 때 과제 성공률과 비용이 각각 얼마나 달라지는지를 21개 조합에 걸쳐 측정한 결과입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953",
+      "url": "https://discuss.pytorch.kr/t/harnesstax-7-x-3-feat-uc-berkeley/11957",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-18T20:30:50+09:00",
+      "published_at": "2026-09-19T18:30:15+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 20.21,
-      "importance_score": 14.41,
+      "score": 19.86,
+      "importance_score": 13.71,
       "matched_keywords": [
-        "ai",
-        "claude"
+        "연구",
+        "모델"
       ],
       "engagement": null
     }
