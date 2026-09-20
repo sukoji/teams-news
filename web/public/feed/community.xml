@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 20 Sep 2026 09:45:47 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 14:49:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Splash: 범용 엔진 대신 모델마다 커널과 초안 모델을 새로 만드는 Apple Silicon 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/splash-apple-silicon/11959</link>
+      <description>Splash 소개 Splash 는 Inco AI 가 2026년 9월 17일 Apache-2.0 라이선스로 공개한 Apple Silicon 전용 로컬 추론 엔진입니다. 아무 모델이나 받아 주는 범용 런타임(Runtime)을 포기하는 대신, 지원하는 모델 하나하나에 맞춰 커널과 초안 모델(Draft Model)과 메모리 계획(Memory Plan)을 새로 만들어 넣었습니다.</description>
+      <pubDate>Sun, 20 Sep 2026 11:00:51 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/splash-apple-silicon/11959">PyTorch Korea</source>
+      <guid isPermaLink="false">7305df52b35f45b0857905925895dce3</guid>
+    </item>
     <item>
       <title>HarnessTax: 7가지 모델 x 3가지 하네스로 실험한, 모델과 하네스에 따른 성능과 비용에 대한 연구 (feat. UC Berkeley)</title>
       <link>https://discuss.pytorch.kr/t/harnesstax-7-x-3-feat-uc-berkeley/11957</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/hayamimi-gpu-cpu/11798">PyTorch Korea</source>
       <guid isPermaLink="false">49770f6384b27789d7fa75c5275fbc6d</guid>
-    </item>
-    <item>
-      <title>[2026/08/31 ~ 09/06] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-08-31-09-06-ai-ml/11840</link>
-      <description>PyTorchKR​ 이번 주 선정된 논문들을 살펴본 결과, 다음과 같은 주요 트렌드를 확인할 수 있었습니다: 단순 생성을 넘어서는 장기 지평 및 복잡한 과제 해결 : 이번 주 선정된 논문들을 살펴보면, 대규모 언어 모델이 단발성 답변을 넘어서 장기간에 걸쳐 복잡한 작업을 수행하는 에이전트로 진화하고 있습니다.</description>
-      <pubDate>Mon, 07 Sep 2026 06:30:05 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-08-31-09-06-ai-ml/11840">PyTorch Korea</source>
-      <guid isPermaLink="false">e67f7fb17458177b6d4cbe43376b2265</guid>
     </item>
   </channel>
 </rss>
