@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 20 Sep 2026 14:49:25 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 19:50:00 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>JEV 에코시스템 해부 — 답변 검증기 13종을 한 시험지에 세우면 무엇이 보이는가?</title>
+      <link>https://discuss.pytorch.kr/t/jev-13/11968</link>
+      <description>TypeSafe AI가 Jev 를 내놓으면서 «System One 모델»이라는 이름이 붙었다. 텍스트를 생성하지 않고 참·거짓·선택·점수 같은 유형화된 판정 만 돌려주는 모델이다. 생성 토큰이 0개이므로 같은 일을 프런티어 LLM에게 시키는 것보다 수십에서 수천 배 싸다.</description>
+      <pubDate>Sun, 20 Sep 2026 17:45:20 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-13/11968">PyTorch Korea</source>
+      <guid isPermaLink="false">762243a0c30f7d4b5ac5e192d246b4c9</guid>
+    </item>
+    <item>
+      <title>kev: 비공개 모델 Jev를 Qwen과 LoRA로 재현해 맥북에서 학습하고 실행하는 결정 모델</title>
+      <link>https://discuss.pytorch.kr/t/kev-jev-qwen-lora/11963</link>
+      <description>kev 소개 소프트웨어가 사람 손을 거치지 않고 내리는 판단, 예를 들어 들어온 문의를 어느 팀으로 보낼지나 이 요청을 사람에게 넘길지 같은 결정을 대형 언어 모델(Large Language Model, LLM)에 맡기면 한 가지 문제가 남습니다. 모델은 "confidence": 0.9 라는 글자를 만들어 낼 뿐이고, 그 글자가 나올 확률과 답이 실제로 맞을 확률은 서로 다른 값입니다.</description>
+      <pubDate>Sun, 20 Sep 2026 18:00:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/kev-jev-qwen-lora/11963">PyTorch Korea</source>
+      <guid isPermaLink="false">6206b4c32a4a71d9164129bf57fc2012</guid>
+    </item>
     <item>
       <title>Splash: 범용 엔진 대신 모델마다 커널과 초안 모델을 새로 만드는 Apple Silicon 추론 엔진</title>
       <link>https://discuss.pytorch.kr/t/splash-apple-silicon/11959</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openai-gpt-6-astra/11846">PyTorch Korea</source>
       <guid isPermaLink="false">6de6c1cd639680890181b5efd6f42407</guid>
-    </item>
-    <item>
-      <title>LightNav-0: 깊이 센서 없이 전방 RGB 카메라 하나로 여러 로봇을 움직이는 4B 내비게이션 모델</title>
-      <link>https://discuss.pytorch.kr/t/lightnav-0-rgb-4b/11837</link>
-      <description>LightNav-0 소개 로봇에게 "앞쪽 왼편 벤치로 가서 멈춰"라고 말하는 일은 사람에게는 한 문장이지만, 로봇 쪽에서는 서로 다른 부품 여러 개를 거쳐야 하는 작업입니다. 지금까지의 내비게이션 시스템은 지시를 따라가는 작업, 이름만 주어진 물체를 찾는 작업, 움직이는 대상을 쫓는 작업마다 별도의 예측 헤드나 전용 모듈을 두었고, 로봇의 몸체가 바뀌면 그 부품을 다시 맞춰야 했습니다.</description>
-      <pubDate>Mon, 07 Sep 2026 16:00:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/lightnav-0-rgb-4b/11837">PyTorch Korea</source>
-      <guid isPermaLink="false">13e11e91f5d500cf89ab18a63ee6ce8d</guid>
-    </item>
-    <item>
-      <title>hayamimi: GPU와 클라우드 없이 CPU만으로 실시간 다국어 자막을 만드는 음성 인식 도구</title>
-      <link>https://discuss.pytorch.kr/t/hayamimi-gpu-cpu/11798</link>
-      <description>hayamimi 소개 회의나 방송을 실시간으로 받아 적어야 하는 상황에서 지금 선택할 수 있는 길은 대체로 두 가지입니다. 하나는 클라우드 음성 인식(Speech Recognition, ASR) API를 붙여 분당 요금을 내는 것이고, 다른 하나는 Whisper 계열 모델을 로컬에 올려 GPU에서 실행하는 것입니다. 두 번째 길에서 GPU를 뺄 수 없다는 점이 문제가 됩니다.</description>
-      <pubDate>Mon, 07 Sep 2026 12:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/hayamimi-gpu-cpu/11798">PyTorch Korea</source>
-      <guid isPermaLink="false">49770f6384b27789d7fa75c5275fbc6d</guid>
     </item>
   </channel>
 </rss>
