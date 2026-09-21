@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 21 Sep 2026 09:48:22 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:51:21 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Stonkfly: LLM 없이 초파리 커넥톰 16만 뉴런이 매매를 제안하는 실험 (수익성은 미검증)</title>
+      <link>https://discuss.pytorch.kr/t/stonkfly-llm-16/11967</link>
+      <description>Stonkfly 소개 자동 매매 도구는 판단을 만드는 자리가 대체로 정해져 있습니다. 가격과 거래량을 숫자로 받아 사람이 설계한 지표와 규칙으로 방향을 정하거나, 최근에는 그 숫자와 뉴스를 대규모 언어 모델(LLM)에 넘겨 매수와 매도를 고르게 합니다.</description>
+      <pubDate>Mon, 21 Sep 2026 12:30:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/stonkfly-llm-16/11967">PyTorch Korea</source>
+      <guid isPermaLink="false">2531bcb215901058e37986077a3dc6eb</guid>
+    </item>
+    <item>
+      <title>OpenArm: 원격 조작부터 학습 정책 평가까지 공개한 오픈소스 양팔 로봇</title>
+      <link>https://discuss.pytorch.kr/t/openarm/11947</link>
+      <description>OpenArm 소개 로봇 팔로 조작 데이터를 모으는 연구는 팔을 손에 넣었다고 시작되지 않습니다. 사람이 어떤 장치로 팔을 조종해 시연을 만들지, 그 기록을 관절 각도와 영상까지 어떤 형식으로 남길지, 학습시킨 정책이 실제로 동작하는지를 어디에서 확인할지가 연구실마다 다르기 때문입니다.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openarm/11947">PyTorch Korea</source>
+      <guid isPermaLink="false">07ecfd7d11aecdf23e40bbe798566876</guid>
+    </item>
     <item>
       <title>[2026/09/14 ~ 20] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-09-14-20-ai-ml/11966</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/anthropic-claude-code-80-claude-5-6/11845">PyTorch Korea</source>
       <guid isPermaLink="false">cbb0bb02e64434d0bdf21b806b1871ce</guid>
-    </item>
-    <item>
-      <title>Reef: 에이전트가 서비스되는 동안 모델 가중치와 하네스를 계속 갱신하는 지속 학습 인프라</title>
-      <link>https://discuss.pytorch.kr/t/reef/11830</link>
-      <description>Reef 소개 에이전트를 배포하고 나면 그 뒤로는 대체로 아무것도 학습하지 않습니다. 사용자가 답변을 고쳐 쓰거나 그대로 넘어가는 반응이 매일 쌓이지만, 그 신호를 모아 모델을 다시 학습시키고 새 가중치를 배포하는 일은 서비스를 세우고 파이프라인을 따로 돌려야 하는 별개의 작업입니다.</description>
-      <pubDate>Mon, 07 Sep 2026 21:00:02 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/reef/11830">PyTorch Korea</source>
-      <guid isPermaLink="false">e2355a7f9972096cd079d1988d3f8be9</guid>
-    </item>
-    <item>
-      <title>free PhD labor: 고정된 워크플로우 대신 에이전트가 다음 단계를 정하는 연구 자동화 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/free-phd-labor/11838</link>
-      <description>freephdlabor 소개 지난 1년 사이 연구 과정을 자동화하는 에이전트 시스템이 여럿 나왔지만, 대부분은 아이디어 생성에서 실험, 논문 작성으로 이어지는 순서를 미리 고정해 둔 조립 라인에 가깝습니다. 고정된 순서는 오류 가능성을 줄여 주는 대신, 머신러닝 실험용으로 설계된 파이프라인을 재료과학이나 생물학으로 옮기려면 시스템을 상당 부분 다시 만들어야 한다는 비용을 남깁니다.</description>
-      <pubDate>Mon, 07 Sep 2026 18:30:13 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/free-phd-labor/11838">PyTorch Korea</source>
-      <guid isPermaLink="false">a2aed6f46a7694717e29d08636bc9f0c</guid>
     </item>
   </channel>
 </rss>
