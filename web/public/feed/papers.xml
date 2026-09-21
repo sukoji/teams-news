@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 01:18:12 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 05:51:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence</title>
+      <link>https://huggingface.co/papers/2609.20886</link>
+      <description>Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20886">Hugging Face Papers</source>
+      <guid isPermaLink="false">d762152db901a1003d727aacb524fb5d</guid>
+    </item>
+    <item>
+      <title>From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention</title>
+      <link>https://huggingface.co/papers/2609.21788</link>
+      <description>A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21788">Hugging Face Papers</source>
+      <guid isPermaLink="false">b99921ef4abefefc0e124219eb43434d</guid>
+    </item>
+    <item>
+      <title>SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops</title>
+      <link>https://huggingface.co/papers/2609.19169</link>
+      <description>Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-only rankings overlook.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.19169">Hugging Face Papers</source>
+      <guid isPermaLink="false">64b2514b661391c7666ae784dfc814ee</guid>
+    </item>
     <item>
       <title>APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport</title>
       <link>https://huggingface.co/papers/2609.22076</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.19969">Hugging Face Papers</source>
       <guid isPermaLink="false">213789a9d5acce931323cd66cbe049fc</guid>
-    </item>
-    <item>
-      <title>Region-Level Policy Optimization for Fine-grained MLLM Perception</title>
-      <link>https://huggingface.co/papers/2609.19745</link>
-      <description>Fine-grained visual perception in MLLMs is commonly improved by raising the resolution, but the added visual tokens inflate vision-encoding and language-model prefilling costs.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19745">Hugging Face Papers</source>
-      <guid isPermaLink="false">b77106219156aba7c77857b3e8c6f7f4</guid>
-    </item>
-    <item>
-      <title>UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation</title>
-      <link>https://huggingface.co/papers/2609.12397</link>
-      <description>Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.12397">Hugging Face Papers</source>
-      <guid isPermaLink="false">366f0942c7a8ca70329daf2e31961ba3</guid>
-    </item>
-    <item>
-      <title>When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models</title>
-      <link>https://huggingface.co/papers/2609.19671</link>
-      <description>Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they often overthink easy problems and underthink hard ones.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19671">Hugging Face Papers</source>
-      <guid isPermaLink="false">22ea2fbbddf8c20bb29ddfebd7503443</guid>
     </item>
   </channel>
 </rss>
