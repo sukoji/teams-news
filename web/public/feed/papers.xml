@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 21 Sep 2026 18:43:48 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 01:18:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport</title>
+      <link>https://huggingface.co/papers/2609.22076</link>
+      <description>APort Vault is a benchmark for payment authorization in tool-using AI agents.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22076">Hugging Face Papers</source>
+      <guid isPermaLink="false">d571b109237e8680ce4630c8bc093dd2</guid>
+    </item>
+    <item>
+      <title>IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts</title>
+      <link>https://huggingface.co/papers/2609.21346</link>
+      <description>Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21346">Hugging Face Papers</source>
+      <guid isPermaLink="false">c863011cf8095cb5400e7323ae8cd8ab</guid>
+    </item>
+    <item>
+      <title>CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design</title>
+      <link>https://huggingface.co/papers/2609.16251</link>
+      <description>Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outp…</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.16251">Hugging Face Papers</source>
+      <guid isPermaLink="false">4987084c6427e08b98075c1f5ca475c9</guid>
+    </item>
+    <item>
+      <title>Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy</title>
+      <link>https://huggingface.co/papers/2609.21038</link>
+      <description>Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on laboratory CPUs and edge hardware requires compression scheme…</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21038">Hugging Face Papers</source>
+      <guid isPermaLink="false">c528f10280f09b3fd5656e41eb0188b4</guid>
+    </item>
+    <item>
+      <title>Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network</title>
+      <link>https://huggingface.co/papers/2609.20633</link>
+      <description>Text-guided image editing must introduce the requested changes while preserving unrelated source content.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20633">Hugging Face Papers</source>
+      <guid isPermaLink="false">b0e586b86aa03c799a27a0670883148c</guid>
+    </item>
+    <item>
+      <title>GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning</title>
+      <link>https://huggingface.co/papers/2609.19315</link>
+      <description>Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fail to respect embodiment constraints, recover from planning…</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.19315">Hugging Face Papers</source>
+      <guid isPermaLink="false">e12fa3e3843c8c9af6bde31547f71a09</guid>
+    </item>
+    <item>
+      <title>Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design</title>
+      <link>https://huggingface.co/papers/2609.22086</link>
+      <description>Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programm…</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22086">Hugging Face Papers</source>
+      <guid isPermaLink="false">3ded64c1109e9a66d83e67c2e11576ee</guid>
+    </item>
+    <item>
+      <title>Gricea: An Open Science Platform for Conversational AI Research</title>
+      <link>https://huggingface.co/papers/2609.22039</link>
+      <description>We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22039">Hugging Face Papers</source>
+      <guid isPermaLink="false">b4265092ff8da019d67e19c26afc767b</guid>
+    </item>
     <item>
       <title>OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue</title>
       <link>https://huggingface.co/papers/2609.21465</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.19671">Hugging Face Papers</source>
       <guid isPermaLink="false">22ea2fbbddf8c20bb29ddfebd7503443</guid>
-    </item>
-    <item>
-      <title>VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control</title>
-      <link>https://huggingface.co/papers/2609.19554</link>
-      <description>Spatial intelligence requires more than describing object locations.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19554">Hugging Face Papers</source>
-      <guid isPermaLink="false">4f7440982276c636c2dc8726cdd3c9f8</guid>
-    </item>
-    <item>
-      <title>Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation</title>
-      <link>https://huggingface.co/papers/2609.20744</link>
-      <description>Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a major computational bottleneck.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.20744">Hugging Face Papers</source>
-      <guid isPermaLink="false">c572aaf42178bad536f9652cc71e647b</guid>
-    </item>
-    <item>
-      <title>What Does Privileged Information Add to On-Policy Self-Distillation?</title>
-      <link>https://huggingface.co/papers/2609.20612</link>
-      <description>On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a worked solution.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.20612">Hugging Face Papers</source>
-      <guid isPermaLink="false">93e777ed7de0d8a236e7d9b6660d788a</guid>
-    </item>
-    <item>
-      <title>Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand</title>
-      <link>https://huggingface.co/papers/2609.17172</link>
-      <description>A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.17172">Hugging Face Papers</source>
-      <guid isPermaLink="false">7dab3597ddb764553042b513acb60ff1</guid>
-    </item>
-    <item>
-      <title>In-Context Robot Learning with VLM Agents</title>
-      <link>https://huggingface.co/papers/2609.19138</link>
-      <description>Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19138">Hugging Face Papers</source>
-      <guid isPermaLink="false">3bd7c05331d9b281da5c276a2fa1a46b</guid>
-    </item>
-    <item>
-      <title>The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction</title>
-      <link>https://huggingface.co/papers/2609.18063</link>
-      <description>Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the byte…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18063">Hugging Face Papers</source>
-      <guid isPermaLink="false">c3ca37e526c10f6dd01230c69e4f8b97</guid>
-    </item>
-    <item>
-      <title>CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents</title>
-      <link>https://huggingface.co/papers/2609.18779</link>
-      <description>Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabiliti…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18779">Hugging Face Papers</source>
-      <guid isPermaLink="false">75c52d1144a7f4ad0da72d69b7f84158</guid>
-    </item>
-    <item>
-      <title>Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches</title>
-      <link>https://huggingface.co/papers/2609.17652</link>
-      <description>When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.17652">Hugging Face Papers</source>
-      <guid isPermaLink="false">53fc7e7749f521ffa41d9203130abe71</guid>
     </item>
   </channel>
 </rss>
