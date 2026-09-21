@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:51:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 18:43:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue</title>
+      <link>https://huggingface.co/papers/2609.21465</link>
+      <description>We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21465">Hugging Face Papers</source>
+      <guid isPermaLink="false">1d36671570ba665151342f22b956221a</guid>
+    </item>
+    <item>
+      <title>MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads</title>
+      <link>https://huggingface.co/papers/2609.09206</link>
+      <description>Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical applications.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.09206">Hugging Face Papers</source>
+      <guid isPermaLink="false">a7bc5548cd0caf6ff028a7e6ac7c02d7</guid>
+    </item>
+    <item>
+      <title>Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models</title>
+      <link>https://huggingface.co/papers/2609.21094</link>
+      <description>Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even strong models exhibit hidden biases and brittle instruction-…</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21094">Hugging Face Papers</source>
+      <guid isPermaLink="false">d89f61632fe0afda8b4b25c82307bba6</guid>
+    </item>
+    <item>
+      <title>MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup</title>
+      <link>https://huggingface.co/papers/2609.15126</link>
+      <description>Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more recently, conditional memory: token-indexed embedding table…</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15126">Hugging Face Papers</source>
+      <guid isPermaLink="false">662fc4ceeb161713bf7f0274d3ed2800</guid>
+    </item>
+    <item>
+      <title>Training-Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Representation</title>
+      <link>https://huggingface.co/papers/2609.19122</link>
+      <description>Visual signals require compact yet sufficient representations for robust downstream prediction.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.19122">Hugging Face Papers</source>
+      <guid isPermaLink="false">db2b25c55bca3179b48efe2145632aa2</guid>
+    </item>
+    <item>
+      <title>FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection</title>
+      <link>https://huggingface.co/papers/2609.18766</link>
+      <description>Large audio-language models have shown promise for anti-fraud detection by directly processing speech and reasoning over fraud-related evidence.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.18766">Hugging Face Papers</source>
+      <guid isPermaLink="false">73771eeafa4f42a76027288cbce51c32</guid>
+    </item>
+    <item>
+      <title>TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection</title>
+      <link>https://huggingface.co/papers/2609.18748</link>
+      <description>Telecom fraud scripts evolve rapidly and are often designed to resemble routine service conversations, creating two key requirements for audio-based telecom-fraud evaluation.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.18748">Hugging Face Papers</source>
+      <guid isPermaLink="false">c03867333dc4c0a0bc9589a54420511c</guid>
+    </item>
+    <item>
+      <title>Calibrating Teacher--Student Discrepancy for On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.21619</link>
+      <description>On-policy distillation (OPD) improves reasoning models by learning the token-level discrepancy between a stronger teacher and an on-policy student.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21619">Hugging Face Papers</source>
+      <guid isPermaLink="false">4538d79ef9146eb229ae7823849f7fc4</guid>
+    </item>
     <item>
       <title>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</title>
       <link>https://huggingface.co/papers/2609.15779</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.17652">Hugging Face Papers</source>
       <guid isPermaLink="false">53fc7e7749f521ffa41d9203130abe71</guid>
-    </item>
-    <item>
-      <title>Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026</title>
-      <link>https://huggingface.co/papers/2609.15524</link>
-      <description>BraTS-GoAT evaluates tumor segmentation across heterogeneous populations.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15524">Hugging Face Papers</source>
-      <guid isPermaLink="false">a2dc68ce83c019100198f37d3a9f92eb</guid>
-    </item>
-    <item>
-      <title>Agora: Git as Shared Memory for Collective AutoResearch</title>
-      <link>https://huggingface.co/papers/2609.18094</link>
-      <description>Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18094">Hugging Face Papers</source>
-      <guid isPermaLink="false">01df7088649bf73a8a797ea23088750e</guid>
-    </item>
-    <item>
-      <title>ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2609.18487</link>
-      <description>Action tokenizers play a central role in autoregressive vision-language-action (VLA) models, determining both the targets for policy training and the executable commands recovered…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18487">Hugging Face Papers</source>
-      <guid isPermaLink="false">a3741f6a10a6029136b33d9aa76a0121</guid>
-    </item>
-    <item>
-      <title>Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents</title>
-      <link>https://huggingface.co/papers/2609.17708</link>
-      <description>Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated estimate of the probability that an output is correct decides…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.17708">Hugging Face Papers</source>
-      <guid isPermaLink="false">fb7cb61fe1e0c51fd429783f49cbee7f</guid>
-    </item>
-    <item>
-      <title>ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments</title>
-      <link>https://huggingface.co/papers/2609.19134</link>
-      <description>Scientific code repositories encode decades of human knowledge in executable models, methods, and tools.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19134">Hugging Face Papers</source>
-      <guid isPermaLink="false">83069e3e3afd151ccb52559eea043c5c</guid>
-    </item>
-    <item>
-      <title>VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention</title>
-      <link>https://huggingface.co/papers/2609.15810</link>
-      <description>Diffusion Transformers deliver state-of-the-art video generation, but their long spatiotemporal sequences make attention the dominant deployment cost, and a deployable low-bit ker…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15810">Hugging Face Papers</source>
-      <guid isPermaLink="false">cefc48528ae1721920f0f616f916750e</guid>
-    </item>
-    <item>
-      <title>EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents</title>
-      <link>https://huggingface.co/papers/2609.17632</link>
-      <description>Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies t…</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.17632">Hugging Face Papers</source>
-      <guid isPermaLink="false">94379da8f62aff0865d79385c3e9ed9d</guid>
-    </item>
-    <item>
-      <title>HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses</title>
-      <link>https://huggingface.co/papers/2609.15938</link>
-      <description>Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new explanations.</description>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15938">Hugging Face Papers</source>
-      <guid isPermaLink="false">320281035cdad0daf61cab8eea327b90</guid>
     </item>
   </channel>
 </rss>

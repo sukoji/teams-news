@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:51:21 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 18:43:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인</title>
+      <link>https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970</link>
+      <description>Fast Jev Compaction 소개 코딩 에이전트와 한 세션을 오래 이어 가면 주고받은 대화가 컨텍스트 창을 채웁니다. 이때 대부분의 도구는 오래된 대화를 언어 모델에 넘겨 요약문으로 바꿔 놓는데, 요약은 본질적으로 정보가 줄어드는 처리입니다. 나중에 다시 필요해지는 파일 경로, 정확한 오류 문구, 사용자가 걸어 둔 제약, 실행했던 명령어가 요약 과정에서 빠질 수 있습니다.</description>
+      <pubDate>Mon, 21 Sep 2026 16:00:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970">PyTorch Korea</source>
+      <guid isPermaLink="false">23562a34b9d1674c4f79a9f263316fff</guid>
+    </item>
+    <item>
+      <title>Jev Search: 사용자의 질의에 대해, 어디를 검색해야 하는지 URL과 순위만 제공하는 웹 검색 프로젝트</title>
+      <link>https://discuss.pytorch.kr/t/jev-search-url/11976</link>
+      <description>Jev Search 소개 웹 검색에 언어 모델을 결합하는 방식은 지금 거의 하나로 수렴해 있습니다. 사용자의 질문을 모델이 읽고, 검색어를 새로 써서 엔진에 던지고, 돌아온 문서를 다시 읽어 답변 문장을 만들어 냅니다. 편리한 대신 대가가 따릅니다.</description>
+      <pubDate>Mon, 21 Sep 2026 18:30:30 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-search-url/11976">PyTorch Korea</source>
+      <guid isPermaLink="false">da72a6be2192ff2a48a09764dac98022</guid>
+    </item>
     <item>
       <title>Stonkfly: LLM 없이 초파리 커넥톰 16만 뉴런이 매매를 제안하는 실험 (수익성은 미검증)</title>
       <link>https://discuss.pytorch.kr/t/stonkfly-llm-16/11967</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/reverify-ai-byte/11831">PyTorch Korea</source>
       <guid isPermaLink="false">92e25ab6c6466e150f0f105b89666469</guid>
-    </item>
-    <item>
-      <title>OpenAI, 자동화 연구 인턴 목표 달성 발표와 함께 공개한 사내 측정치: 에이전트 노동이 사람의 3.1배</title>
-      <link>https://discuss.pytorch.kr/t/openai-3-1/11849</link>
-      <description>OpenAI 연구 가속 보고서 소개: 자사 연구 조직의 계기판을 공개한 이유 OpenAI 가 2026년 9월 6일에 공개한 Research acceleration: The view inside OpenAI 는 신규 모델 발표도, 벤치마크 자랑도 아닙니다.</description>
-      <pubDate>Tue, 08 Sep 2026 12:00:21 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-3-1/11849">PyTorch Korea</source>
-      <guid isPermaLink="false">f341d7c6736f42f55bf734b8b77c735a</guid>
-    </item>
-    <item>
-      <title>Anthropic, Claude Code 시스템 프롬프트 80% 삭제: Claude 5 세대 컨텍스트 엔지니어링 규칙 6가지</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-claude-code-80-claude-5-6/11845</link>
-      <description>Claude 5 세대를 위한 컨텍스트 엔지니어링 규칙 소개 Anthropic 은 Claude Code 의 시스템 프롬프트에서 80% 이상을 덜어내고도 자사 코딩 평가에서 측정 가능한 성능 손실이 없었다고 밝혔습니다.</description>
-      <pubDate>Tue, 08 Sep 2026 07:00:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-claude-code-80-claude-5-6/11845">PyTorch Korea</source>
-      <guid isPermaLink="false">cbb0bb02e64434d0bdf21b806b1871ce</guid>
     </item>
   </channel>
 </rss>
