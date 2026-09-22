@@ -5,9 +5,90 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:48:32 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:08:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion</title>
+      <link>https://huggingface.co/papers/2609.24220</link>
+      <description>Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24220">Hugging Face Papers</source>
+      <guid isPermaLink="false">c5f83452268789b219bfb6cbbd74fb1f</guid>
+    </item>
+    <item>
+      <title>onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction</title>
+      <link>https://huggingface.co/papers/2609.24983</link>
+      <description>We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24983">Hugging Face Papers</source>
+      <guid isPermaLink="false">1b973e03de853da149c3d3915db0cdab</guid>
+    </item>
+    <item>
+      <title>Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations</title>
+      <link>https://huggingface.co/papers/2609.22255</link>
+      <description>Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across e…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22255">Hugging Face Papers</source>
+      <guid isPermaLink="false">e45bc38ce43b9a8be11886241f7430fc</guid>
+    </item>
+    <item>
+      <title>CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies</title>
+      <link>https://huggingface.co/papers/2609.24118</link>
+      <description>Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execution deviates from nominal trajectories.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24118">Hugging Face Papers</source>
+      <guid isPermaLink="false">d6092c85c23f0d987e6b5ef4db3d7e17</guid>
+    </item>
+    <item>
+      <title>Harness-Zero: Harness Distillation via Agent-as-Harness</title>
+      <link>https://huggingface.co/papers/2609.24974</link>
+      <description>Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deploy…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24974">Hugging Face Papers</source>
+      <guid isPermaLink="false">03bd9ef352ff683af9d6e9ce73b6d49a</guid>
+    </item>
+    <item>
+      <title>OmniEdu: Open Foundation Models for Learning and Teaching</title>
+      <link>https://huggingface.co/papers/2609.23088</link>
+      <description>Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.23088">Hugging Face Papers</source>
+      <guid isPermaLink="false">8b35e69367bebe4a18311369f4253e32</guid>
+    </item>
+    <item>
+      <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
+      <link>https://huggingface.co/papers/2609.22220</link>
+      <description>Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point tolerance, and their verdicts now feed leaderboards and reinforceme…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22220">Hugging Face Papers</source>
+      <guid isPermaLink="false">bedac454bafe6c03d02a13a94c240c72</guid>
+    </item>
+    <item>
+      <title>Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene</title>
+      <link>https://huggingface.co/papers/2609.23796</link>
+      <description>Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.23796">Hugging Face Papers</source>
+      <guid isPermaLink="false">3bfbf9cf0f05621f5231523f7201e780</guid>
+    </item>
+    <item>
+      <title>1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.24432</link>
+      <description>Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24432">Hugging Face Papers</source>
+      <guid isPermaLink="false">93bd92ac0bac2070b65c936c7bf158bb</guid>
+    </item>
     <item>
       <title>HuRo: Robotizing Human Videos for Scalable VLA Pretraining</title>
       <link>https://huggingface.co/papers/2609.10706</link>
@@ -376,87 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.20942">Hugging Face Papers</source>
       <guid isPermaLink="false">94f6cdb624f4d8361e479d5149abbabb</guid>
-    </item>
-    <item>
-      <title>DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation</title>
-      <link>https://huggingface.co/papers/2609.18620</link>
-      <description>Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18620">Hugging Face Papers</source>
-      <guid isPermaLink="false">f3543d95848784eb83e00c3e09a21b31</guid>
-    </item>
-    <item>
-      <title>🥇Top AI Papers of the Week</title>
-      <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-bca</link>
-      <description>The Top AI Papers of the Week (September 14 - 20)</description>
-      <pubDate>Mon, 21 Sep 2026 02:20:29 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-bca">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">131716efc53aeff2640cd8990a62360d</guid>
-    </item>
-    <item>
-      <title>🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&amp;D Metrics, Periodic Neon, Gemini 3.8 Live, and More</title>
-      <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-jev-salesforce-koa</link>
-      <description>Jev, Salesforce Koa, Claude Code Projects, Anthropic R&amp;D Metrics, Periodic Neon, Gemini 3.8 Live,...</description>
-      <pubDate>Sun, 20 Sep 2026 02:27:24 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://nlp.elvissaravia.com/p/ai-agents-weekly-jev-salesforce-koa">Elvis AI Newsletter</source>
-      <guid isPermaLink="false">55ac5369cbc6f846aae1926c4ea77d82</guid>
-    </item>
-    <item>
-      <title>Verifiable Social Reasoning for LLM Assistants</title>
-      <link>https://huggingface.co/papers/2609.17496</link>
-      <description>LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where…</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.17496">Hugging Face Papers</source>
-      <guid isPermaLink="false">a3b742e880a4e947bb7b6616ba94c786</guid>
-    </item>
-    <item>
-      <title>Self-Evolving Search Index</title>
-      <link>https://huggingface.co/papers/2609.19656</link>
-      <description>Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19656">Hugging Face Papers</source>
-      <guid isPermaLink="false">7be238fa8fd18bb4deb32b196950bd8f</guid>
-    </item>
-    <item>
-      <title>Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling</title>
-      <link>https://huggingface.co/papers/2609.19499</link>
-      <description>Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19499">Hugging Face Papers</source>
-      <guid isPermaLink="false">23025d63c624b1f7b47d8b95d80af82b</guid>
-    </item>
-    <item>
-      <title>Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL</title>
-      <link>https://huggingface.co/papers/2609.20715</link>
-      <description>Agent trajectories record what an agent does and what happens next.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.20715">Hugging Face Papers</source>
-      <guid isPermaLink="false">8d034dcace3a167eef71dbcd46876013</guid>
-    </item>
-    <item>
-      <title>VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering</title>
-      <link>https://huggingface.co/papers/2609.19879</link>
-      <description>Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.19879">Hugging Face Papers</source>
-      <guid isPermaLink="false">8ccc9a6187896e681e93bb7c5b5888d5</guid>
-    </item>
-    <item>
-      <title>PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?</title>
-      <link>https://huggingface.co/papers/2609.18605</link>
-      <description>As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance.</description>
-      <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.18605">Hugging Face Papers</source>
-      <guid isPermaLink="false">8e4e8e5460c80b85e46a46414b5413d0</guid>
     </item>
   </channel>
 </rss>

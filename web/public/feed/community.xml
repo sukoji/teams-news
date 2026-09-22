@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:48:32 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:08:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AIPerf: 서버 성능 측정 시, 부하 생성기가 병목이 되지 않도록 NVIDIA가 개발 및 공개한 LLM 추론 벤치마크 도구</title>
+      <link>https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975</link>
+      <description>AIPerf 소개: 측정 도구가 측정 대상을 가려 버리는 문제 모델을 서버에 올리고 프롬프트를 던지면 응답이 돌아옵니다. 그다음에 반드시 나오는 질문은 "이거 빠른 건가요?" 입니다. 이 질문에 답하려고 개발자들이 가장 먼저 하는 일은 대개 curl 을 몇 번 날려 보거나, asyncio 기반의 짧은 부하 스크립트를 직접 짜거나, 일회용 부하 생성기를 하나 더 만드는 것입니다.</description>
+      <pubDate>Tue, 22 Sep 2026 18:00:46 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975">PyTorch Korea</source>
+      <guid isPermaLink="false">3c01ab6c3564b85a774cd00e43221cf4</guid>
+    </item>
+    <item>
+      <title>R4T(Retrieve-for-Train): RL로 찾은 질의 팬아웃(fan-out) 행동을 경량 확산 검색기(Diffusion Model)로 컴파일하는 연구</title>
+      <link>https://discuss.pytorch.kr/t/r4t-retrieve-for-train-rl-fan-out-diffusion-model/11933</link>
+      <description>R4T(Retrieve-for-Train) 논문 소개 검색창에 " 캠핑 장비 "라고 입력한 사용자가 기대하는 결과는 4인용 텐트 열 개가 아닙니다. 텐트, 침낭, 버너, 헤드램프처럼 서로 보완하는 물건들이 한 묶음으로 나와야 합니다.</description>
+      <pubDate>Tue, 22 Sep 2026 15:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/r4t-retrieve-for-train-rl-fan-out-diffusion-model/11933">PyTorch Korea</source>
+      <guid isPermaLink="false">155389b6b410efe659c60db8b6156a9c</guid>
+    </item>
     <item>
       <title>Xiaomi, RL 코드와 학습 환경까지 공개한 1.02T 옴니모달 MiMo-V2.6 출시, 오픈소스 지능 지수 1위</title>
       <link>https://discuss.pytorch.kr/t/xiaomi-rl-1-02t-mimo-v2-6-1/11981</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claude-11-lean/11861">PyTorch Korea</source>
       <guid isPermaLink="false">aef90f0ed777de1055f489e37dbf1c5b</guid>
-    </item>
-    <item>
-      <title>my-free-code: Claude Code와 Codex 등 코딩 에이전트 9종이 모델 설정을 공유하는 로컬 게이트웨이</title>
-      <link>https://discuss.pytorch.kr/t/my-free-code-claude-code-codex-9/11843</link>
-      <description>my-free-code 소개 터미널 코딩 에이전트를 여러 개 쓰다 보면 같은 설정을 도구마다 다시 하게 됩니다. Claude Code 는 Anthropic Messages 형식으로 요청을 보내고 Codex 계열은 OpenAI 형식을 쓰기 때문에, 같은 모델을 붙이려 해도 환경 변수와 엔드포인트를 도구별로 따로 맞춰야 합니다.</description>
-      <pubDate>Tue, 08 Sep 2026 21:00:39 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/my-free-code-claude-code-codex-9/11843">PyTorch Korea</source>
-      <guid isPermaLink="false">1f024af69eacb9db870a6ace5b5c934d</guid>
-    </item>
-    <item>
-      <title>Microsoft, 1시간분량 오디오를 10초만에 전사하는 60개 언어 음성 인식 모델 MAI-Transcribe-2 출시 (가중치 공개 X)</title>
-      <link>https://discuss.pytorch.kr/t/microsoft-1-10-60-mai-transcribe-2-x/11839</link>
-      <description>MAI-Transcribe-2 소개 Microsoft AI(MAI) 가 2026년 9월 3일 새 음성 인식(ASR) 모델 MAI-Transcribe-2 를 공개했습니다.</description>
-      <pubDate>Tue, 08 Sep 2026 18:30:18 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/microsoft-1-10-60-mai-transcribe-2-x/11839">PyTorch Korea</source>
-      <guid isPermaLink="false">d6dec6352f150a5df6e454530604dc5f</guid>
     </item>
   </channel>
 </rss>
