@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 18:08:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 23:26:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Streaming Video Editing with Easy Adaptation</title>
+      <link>https://huggingface.co/papers/2609.24788</link>
+      <description>In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24788">Hugging Face Papers</source>
+      <guid isPermaLink="false">d3608a8226dc37b0ebb4c70e5e1785ea</guid>
+    </item>
+    <item>
+      <title>Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation</title>
+      <link>https://huggingface.co/papers/2609.20758</link>
+      <description>Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20758">Hugging Face Papers</source>
+      <guid isPermaLink="false">eb6cecb941b54673ea2d1a455bd31421</guid>
+    </item>
+    <item>
+      <title>EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation</title>
+      <link>https://huggingface.co/papers/2609.24115</link>
+      <description>Tool-calling LLM agents are increasingly deployed in enterprise applications.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24115">Hugging Face Papers</source>
+      <guid isPermaLink="false">65309c96ecd0c2f8c9dd5a59d4af71f8</guid>
+    </item>
+    <item>
+      <title>Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention</title>
+      <link>https://huggingface.co/papers/2609.24797</link>
+      <description>Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correction constrain their expressivity.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24797">Hugging Face Papers</source>
+      <guid isPermaLink="false">fff4c39656c37f1134f65b7efa127d79</guid>
+    </item>
+    <item>
+      <title>ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2609.13231</link>
+      <description>Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13231">Hugging Face Papers</source>
+      <guid isPermaLink="false">a7fffde02e6918f69ab5d0ab0d0e309f</guid>
+    </item>
+    <item>
+      <title>TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision</title>
+      <link>https://huggingface.co/papers/2609.20869</link>
+      <description>We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured representation that encodes relations among perceptual elements b…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.20869">Hugging Face Papers</source>
+      <guid isPermaLink="false">0dfc8fe58c08b9d1bb10ed79f846ca0b</guid>
+    </item>
     <item>
       <title>Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion</title>
       <link>https://huggingface.co/papers/2609.24220</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.22000">Hugging Face Papers</source>
       <guid isPermaLink="false">9e4b93dae5ce001127991365fb892463</guid>
-    </item>
-    <item>
-      <title>GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills</title>
-      <link>https://huggingface.co/papers/2609.21749</link>
-      <description>Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance, while skill optimization further improves their effectivene…</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.21749">Hugging Face Papers</source>
-      <guid isPermaLink="false">3f74808594e909c9f84df484637bbf78</guid>
-    </item>
-    <item>
-      <title>Paint-Anything: Unified Any-Color Control for Image Generation and Editing</title>
-      <link>https://huggingface.co/papers/2609.20816</link>
-      <description>Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.20816">Hugging Face Papers</source>
-      <guid isPermaLink="false">69454317024d56872ed3a29ff208c14e</guid>
-    </item>
-    <item>
-      <title>Learning Foresight without Explicit Trajectories for 3D Diffusion Policies</title>
-      <link>https://huggingface.co/papers/2609.20669</link>
-      <description>3D diffusion policies are strong at generating geometrically grounded actions from current observations, but successful manipulation requires not only knowing what motion is feasi…</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.20669">Hugging Face Papers</source>
-      <guid isPermaLink="false">a3f61f8c8f18c940406fc673c66200b1</guid>
-    </item>
-    <item>
-      <title>OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation</title>
-      <link>https://huggingface.co/papers/2609.22069</link>
-      <description>Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.22069">Hugging Face Papers</source>
-      <guid isPermaLink="false">2199967c5289c7326776b4d233772c24</guid>
-    </item>
-    <item>
-      <title>MintAct: A Unified Visual Agent for Digital Environments</title>
-      <link>https://huggingface.co/papers/2609.22083</link>
-      <description>We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, an…</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.22083">Hugging Face Papers</source>
-      <guid isPermaLink="false">8545a45f8ac3d7a1907007b5aaacbaf1</guid>
-    </item>
-    <item>
-      <title>When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation</title>
-      <link>https://huggingface.co/papers/2609.20942</link>
-      <description>Large language models (LLMs) increasingly participate in scientific evaluation, both as automated reviewers and as assistants to human reviewers.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.20942">Hugging Face Papers</source>
-      <guid isPermaLink="false">94f6cdb624f4d8361e479d5149abbabb</guid>
     </item>
   </channel>
 </rss>
