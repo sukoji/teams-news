@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-21",
-  "generated_at": "2026-09-21T09:48:21.635924+09:00",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T10:24:19.023338+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,50 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "55ac5369cbc6f846aae1926c4ea77d82",
+          "id": "e843112813c25ea69a12eba272d5c6d9",
           "index": 1,
-          "title": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
-          "title_ko": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
-          "summary": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
-          "summary_ko": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-jev-salesforce-koa",
-          "source": "Elvis AI Newsletter",
+          "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+          "title_ko": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+          "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
+          "summary_ko": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
+          "url": "https://huggingface.co/papers/2609.22068",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-20T02:27:24+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 21.9,
-          "importance_score": 9.9,
+          "published_at": "2026-09-21T09:00:00+09:00",
+          "popularity": 186,
+          "upvotes": 88,
+          "score": 27.69,
+          "importance_score": 15.69,
           "matched_keywords": [
             "ai",
             "agent",
-            "claude",
-            "gemini"
+            "reinforcement learning",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 88
+          }
         },
         {
-          "id": "131716efc53aeff2640cd8990a62360d",
+          "id": "cc0749b8cb4e2d67dbd742dc62f88290",
           "index": 2,
-          "title": "🥇Top AI Papers of the Week",
-          "title_ko": "🥇Top AI Papers of the Week",
-          "summary": "The Top AI Papers of the Week (September 14 - 20)",
-          "summary_ko": "The Top AI Papers of the Week (September 14 - 20)",
-          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-bca",
-          "source": "Elvis AI Newsletter",
+          "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+          "title_ko": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+          "summary": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
+          "summary_ko": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
+          "url": "https://huggingface.co/papers/2609.15779",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-21T02:20:29+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 21.45,
-          "importance_score": 16.89,
+          "published_at": "2026-09-21T09:00:00+09:00",
+          "popularity": 393,
+          "upvotes": 69,
+          "score": 25.93,
+          "importance_score": 17.93,
           "matched_keywords": [
             "ai",
-            "paper"
+            "agent"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 69
+          }
         }
       ]
     },
@@ -62,44 +68,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "a2582167628e49870a663df85541c617",
+          "id": "eef4c8a2c4073ce1abb5fec88c953a97",
           "index": 3,
-          "title": "“문장 생성 버렸다”…판단 전용 AI ‘제브’에 개발자 반응 폭발",
+          "title": "[9월21일] AI ‘킬 스위치’ 논의 확대…“정말 AI를 멈출 수 있을까”",
           "title_ko": null,
-          "summary": "\\'챗GPT\\' 개발의 핵심 역할을 맡았던 연구원이 공개한 ‘글 못 쓰는 AI’가 전 세계 엔지니어들을 열광시키고 있다.",
+          "summary": "AI가 통제를 벗어났을 때 강제로 작동을 중단시키는 ‘킬 스위치(Kill Switch)’ 논의가 최근 부쩍 늘고 있습니다. 미국 의회에서도 지난 7월 위험한 AI 시스템을 필요할 때 중단할 수 있는 기술적 능력을 갖추도록 하는 ‘AI 킬 스위치법’이 발의됐습니다. 또 캘리포니아주는 지난 18일(현지시간) 첨단 AI 모델에 비상 정지 기능을 갖추도록 하는 행정명령을 내렸습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215506",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215518",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-20T17:40:45+09:00",
+          "published_at": "2026-09-22T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.64,
-          "importance_score": 13.28,
+          "score": 22.29,
+          "importance_score": 18.58,
           "matched_keywords": [
             "ai",
-            "gpt",
-            "연구"
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "b8676cf5db753fe5e7ecf9eba7986169",
+          "id": "cd399cfc3ae23ac671b12830d5ac55af",
           "index": 4,
-          "title": "\"AI로 취향 맛집 추천\"...티맵, 장소추천 서비스 개편",
+          "title": "아마존, 외부 AI 에이전트에 빗장…메타 '뮤즈' 상품 구매 차단",
           "title_ko": null,
-          "summary": "[지디넷코리아]티맵에서 AI 개인화 추천과 실제 운전자들의 이동 데이터를 결합해 맛집과 관광명소 등 장소 탐색 기능이 강화된다.",
+          "summary": "[지디넷코리아]사람 대신 물건을 구매하는 인공지능(AI) 에이전트가 전자상거래 플랫폼 벽에 막혔다.21일(현지시간) 테크크런치와 더버지 등 외신에 따르면 아마존은 메타의 개인용 AI 에이전트 뮤즈가 자사 쇼핑몰에 접근하는 것을 차단했다. 뮤즈를 이용한 아마존 상품 구매도 막혔다.아마존은 승인받지 않은 AI 에이전트가 자사 쇼핑몰에 지속적으로 접근하는 것은 이용약관 위반이라는 입장이다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260921085646",
+          "url": "https://zdnet.co.kr/view/?no=20260922082149",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-21T08:56:46+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-22T09:48:28+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 19.62,
-          "importance_score": 19.44,
+          "score": 19.38,
+          "importance_score": 19.25,
           "matched_keywords": [
             "ai"
           ],
@@ -122,42 +127,43 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-21T09:08:40+09:00",
-          "popularity": 611,
-          "upvotes": 611,
-          "score": 32.32,
-          "importance_score": 32.18,
+          "published_at": "2026-09-22T08:35:16+09:00",
+          "popularity": 985,
+          "upvotes": 985,
+          "score": 33.75,
+          "importance_score": 33.37,
           "matched_keywords": [
             "ai"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 611
+            "value": 985
           }
         },
         {
-          "id": "62ca47caa61425b088293afb2bcc394e",
+          "id": "7ab3b335b470d2ae923836dfe7c90d64",
           "index": 6,
-          "title": "ruc-datalab/EvoOntology — EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化",
-          "title_ko": "ruc-datalab/EvoOntology — EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化",
-          "summary": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
-          "summary_ko": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
-          "url": "https://github.com/ruc-datalab/EvoOntology",
+          "title": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
+          "title_ko": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
+          "summary": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
+          "summary_ko": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
+          "url": "https://github.com/agent-labs-dev/fastbrowse",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-21T01:21:10+09:00",
-          "popularity": 212,
-          "upvotes": 212,
-          "score": 30.0,
-          "importance_score": 25.24,
+          "published_at": "2026-09-22T09:48:54+09:00",
+          "popularity": 93,
+          "upvotes": 93,
+          "score": 31.78,
+          "importance_score": 25.66,
           "matched_keywords": [
-            "agent",
-            "claude"
+            "ai",
+            "llm",
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 212
+            "value": 93
           }
         }
       ]
@@ -167,24 +173,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "762243a0c30f7d4b5ac5e192d246b4c9",
+          "id": "23562a34b9d1674c4f79a9f263316fff",
           "index": 7,
-          "title": "JEV 에코시스템 해부 — 답변 검증기 13종을 한 시험지에 세우면 무엇이 보이는가?",
+          "title": "Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인",
           "title_ko": null,
-          "summary": "TypeSafe AI가 Jev 를 내놓으면서 «System One 모델»이라는 이름이 붙었다. 텍스트를 생성하지 않고 참·거짓·선택·점수 같은 유형화된 판정 만 돌려주는 모델이다. 생성 토큰이 0개이므로 같은 일을 프런티어 LLM에게 시키는 것보다 수십에서 수천 배 싸다.",
+          "summary": "Fast Jev Compaction 소개 코딩 에이전트와 한 세션을 오래 이어 가면 주고받은 대화가 컨텍스트 창을 채웁니다. 이때 대부분의 도구는 오래된 대화를 언어 모델에 넘겨 요약문으로 바꿔 놓는데, 요약은 본질적으로 정보가 줄어드는 처리입니다. 나중에 다시 필요해지는 파일 경로, 정확한 오류 문구, 사용자가 걸어 둔 제약, 실행했던 명령어가 요약 과정에서 빠질 수 있습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/jev-13/11968",
+          "url": "https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-20T17:45:20+09:00",
-          "popularity": 97,
+          "published_at": "2026-09-21T16:00:19+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 22.36,
-          "importance_score": 13.01,
+          "score": 18.97,
+          "importance_score": 12.13,
           "matched_keywords": [
-            "ai",
-            "llm",
+            "claude",
             "모델"
           ],
           "engagement": null
@@ -194,90 +199,95 @@
   ],
   "items": [
     {
-      "id": "55ac5369cbc6f846aae1926c4ea77d82",
+      "id": "e843112813c25ea69a12eba272d5c6d9",
       "index": 1,
-      "title": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
-      "title_ko": "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More",
-      "summary": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
-      "summary_ko": "Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live,...",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-jev-salesforce-koa",
-      "source": "Elvis AI Newsletter",
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "title_ko": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
+      "summary_ko": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
+      "url": "https://huggingface.co/papers/2609.22068",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-20T02:27:24+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 21.9,
-      "importance_score": 9.9,
+      "published_at": "2026-09-21T09:00:00+09:00",
+      "popularity": 186,
+      "upvotes": 88,
+      "score": 27.69,
+      "importance_score": 15.69,
       "matched_keywords": [
         "ai",
         "agent",
-        "claude",
-        "gemini"
+        "reinforcement learning",
+        "training"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 88
+      }
     },
     {
-      "id": "131716efc53aeff2640cd8990a62360d",
+      "id": "cc0749b8cb4e2d67dbd742dc62f88290",
       "index": 2,
-      "title": "🥇Top AI Papers of the Week",
-      "title_ko": "🥇Top AI Papers of the Week",
-      "summary": "The Top AI Papers of the Week (September 14 - 20)",
-      "summary_ko": "The Top AI Papers of the Week (September 14 - 20)",
-      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-bca",
-      "source": "Elvis AI Newsletter",
+      "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+      "title_ko": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+      "summary": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
+      "summary_ko": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
+      "url": "https://huggingface.co/papers/2609.15779",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-21T02:20:29+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 21.45,
-      "importance_score": 16.89,
+      "published_at": "2026-09-21T09:00:00+09:00",
+      "popularity": 393,
+      "upvotes": 69,
+      "score": 25.93,
+      "importance_score": 17.93,
       "matched_keywords": [
         "ai",
-        "paper"
+        "agent"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 69
+      }
     },
     {
-      "id": "a2582167628e49870a663df85541c617",
+      "id": "eef4c8a2c4073ce1abb5fec88c953a97",
       "index": 3,
-      "title": "“문장 생성 버렸다”…판단 전용 AI ‘제브’에 개발자 반응 폭발",
+      "title": "[9월21일] AI ‘킬 스위치’ 논의 확대…“정말 AI를 멈출 수 있을까”",
       "title_ko": null,
-      "summary": "\\'챗GPT\\' 개발의 핵심 역할을 맡았던 연구원이 공개한 ‘글 못 쓰는 AI’가 전 세계 엔지니어들을 열광시키고 있다.",
+      "summary": "AI가 통제를 벗어났을 때 강제로 작동을 중단시키는 ‘킬 스위치(Kill Switch)’ 논의가 최근 부쩍 늘고 있습니다. 미국 의회에서도 지난 7월 위험한 AI 시스템을 필요할 때 중단할 수 있는 기술적 능력을 갖추도록 하는 ‘AI 킬 스위치법’이 발의됐습니다. 또 캘리포니아주는 지난 18일(현지시간) 첨단 AI 모델에 비상 정지 기능을 갖추도록 하는 행정명령을 내렸습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215506",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215518",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-20T17:40:45+09:00",
+      "published_at": "2026-09-22T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.64,
-      "importance_score": 13.28,
+      "score": 22.29,
+      "importance_score": 18.58,
       "matched_keywords": [
         "ai",
-        "gpt",
-        "연구"
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "b8676cf5db753fe5e7ecf9eba7986169",
+      "id": "cd399cfc3ae23ac671b12830d5ac55af",
       "index": 4,
-      "title": "\"AI로 취향 맛집 추천\"...티맵, 장소추천 서비스 개편",
+      "title": "아마존, 외부 AI 에이전트에 빗장…메타 '뮤즈' 상품 구매 차단",
       "title_ko": null,
-      "summary": "[지디넷코리아]티맵에서 AI 개인화 추천과 실제 운전자들의 이동 데이터를 결합해 맛집과 관광명소 등 장소 탐색 기능이 강화된다.",
+      "summary": "[지디넷코리아]사람 대신 물건을 구매하는 인공지능(AI) 에이전트가 전자상거래 플랫폼 벽에 막혔다.21일(현지시간) 테크크런치와 더버지 등 외신에 따르면 아마존은 메타의 개인용 AI 에이전트 뮤즈가 자사 쇼핑몰에 접근하는 것을 차단했다. 뮤즈를 이용한 아마존 상품 구매도 막혔다.아마존은 승인받지 않은 AI 에이전트가 자사 쇼핑몰에 지속적으로 접근하는 것은 이용약관 위반이라는 입장이다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260921085646",
+      "url": "https://zdnet.co.kr/view/?no=20260922082149",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-21T08:56:46+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-22T09:48:28+09:00",
+      "popularity": 95,
       "upvotes": 0,
-      "score": 19.62,
-      "importance_score": 19.44,
+      "score": 19.38,
+      "importance_score": 19.25,
       "matched_keywords": [
         "ai"
       ],
@@ -294,63 +304,63 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-21T09:08:40+09:00",
-      "popularity": 611,
-      "upvotes": 611,
-      "score": 32.32,
-      "importance_score": 32.18,
+      "published_at": "2026-09-22T08:35:16+09:00",
+      "popularity": 985,
+      "upvotes": 985,
+      "score": 33.75,
+      "importance_score": 33.37,
       "matched_keywords": [
         "ai"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 611
+        "value": 985
       }
     },
     {
-      "id": "62ca47caa61425b088293afb2bcc394e",
+      "id": "7ab3b335b470d2ae923836dfe7c90d64",
       "index": 6,
-      "title": "ruc-datalab/EvoOntology — EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化",
-      "title_ko": "ruc-datalab/EvoOntology — EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化",
-      "summary": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
-      "summary_ko": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
-      "url": "https://github.com/ruc-datalab/EvoOntology",
+      "title": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
+      "title_ko": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
+      "summary": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
+      "summary_ko": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
+      "url": "https://github.com/agent-labs-dev/fastbrowse",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-21T01:21:10+09:00",
-      "popularity": 212,
-      "upvotes": 212,
-      "score": 30.0,
-      "importance_score": 25.24,
-      "matched_keywords": [
-        "agent",
-        "claude"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 212
-      }
-    },
-    {
-      "id": "762243a0c30f7d4b5ac5e192d246b4c9",
-      "index": 7,
-      "title": "JEV 에코시스템 해부 — 답변 검증기 13종을 한 시험지에 세우면 무엇이 보이는가?",
-      "title_ko": null,
-      "summary": "TypeSafe AI가 Jev 를 내놓으면서 «System One 모델»이라는 이름이 붙었다. 텍스트를 생성하지 않고 참·거짓·선택·점수 같은 유형화된 판정 만 돌려주는 모델이다. 생성 토큰이 0개이므로 같은 일을 프런티어 LLM에게 시키는 것보다 수십에서 수천 배 싸다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/jev-13/11968",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-09-20T17:45:20+09:00",
-      "popularity": 97,
-      "upvotes": 0,
-      "score": 22.36,
-      "importance_score": 13.01,
+      "published_at": "2026-09-22T09:48:54+09:00",
+      "popularity": 93,
+      "upvotes": 93,
+      "score": 31.78,
+      "importance_score": 25.66,
       "matched_keywords": [
         "ai",
         "llm",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 93
+      }
+    },
+    {
+      "id": "23562a34b9d1674c4f79a9f263316fff",
+      "index": 7,
+      "title": "Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인",
+      "title_ko": null,
+      "summary": "Fast Jev Compaction 소개 코딩 에이전트와 한 세션을 오래 이어 가면 주고받은 대화가 컨텍스트 창을 채웁니다. 이때 대부분의 도구는 오래된 대화를 언어 모델에 넘겨 요약문으로 바꿔 놓는데, 요약은 본질적으로 정보가 줄어드는 처리입니다. 나중에 다시 필요해지는 파일 경로, 정확한 오류 문구, 사용자가 걸어 둔 제약, 실행했던 명령어가 요약 과정에서 빠질 수 있습니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-09-21T16:00:19+09:00",
+      "popularity": 98,
+      "upvotes": 0,
+      "score": 18.97,
+      "importance_score": 12.13,
+      "matched_keywords": [
+        "claude",
         "모델"
       ],
       "engagement": null
