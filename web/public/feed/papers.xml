@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 23:26:48 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 03:35:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>The Functionalizer: Lossless Functional Decomposition for Subword Tokenization</title>
+      <link>https://huggingface.co/papers/2609.15991</link>
+      <description>Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embed…</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.15991">Hugging Face Papers</source>
+      <guid isPermaLink="false">c4466ff2708a9665e89dc5491d9059fa</guid>
+    </item>
+    <item>
+      <title>SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness</title>
+      <link>https://huggingface.co/papers/2609.06052</link>
+      <description>SkillSpec uses specification reasoning over a unified skill graph to detect semantic defects in autonomous agent skills by balancing contextual views and sandbox validation.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.06052">Hugging Face Papers</source>
+      <guid isPermaLink="false">f5de20db579fd8253ad14287d38f2d2a</guid>
+    </item>
+    <item>
+      <title>UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing</title>
+      <link>https://huggingface.co/papers/2609.23169</link>
+      <description>High-quality texture generation is essential for creating realistic and production-ready 3D assets.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.23169">Hugging Face Papers</source>
+      <guid isPermaLink="false">ba3415b80726bb393874e409ca8e5f5c</guid>
+    </item>
+    <item>
+      <title>A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal</title>
+      <link>https://huggingface.co/papers/2609.21996</link>
+      <description>Large language models can hold knowledge they do not report.</description>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.21996">Hugging Face Papers</source>
+      <guid isPermaLink="false">6a4ffa2e8975599556ddaefcafa676d8</guid>
+    </item>
     <item>
       <title>Streaming Video Editing with Easy Adaptation</title>
       <link>https://huggingface.co/papers/2609.24788</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.21619">Hugging Face Papers</source>
       <guid isPermaLink="false">4538d79ef9146eb229ae7823849f7fc4</guid>
-    </item>
-    <item>
-      <title>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</title>
-      <link>https://huggingface.co/papers/2609.15779</link>
-      <description>Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15779">Hugging Face Papers</source>
-      <guid isPermaLink="false">cc0749b8cb4e2d67dbd742dc62f88290</guid>
-    </item>
-    <item>
-      <title>CodeMidas: Scaling Agentic Coding RL Environments from Code Itself</title>
-      <link>https://huggingface.co/papers/2609.22068</link>
-      <description>Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.22068">Hugging Face Papers</source>
-      <guid isPermaLink="false">e843112813c25ea69a12eba272d5c6d9</guid>
-    </item>
-    <item>
-      <title>Grounded Skill Synthesis from Code at Scale for Agentic Intelligence</title>
-      <link>https://huggingface.co/papers/2609.05571</link>
-      <description>Code2Skill automatically extracts verifiable procedural skills from source code to improve agent performance before interaction experience accumulates.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.05571">Hugging Face Papers</source>
-      <guid isPermaLink="false">dfb3470fb5a86e6b320fb1ba6cb50bab</guid>
-    </item>
-    <item>
-      <title>RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents</title>
-      <link>https://huggingface.co/papers/2609.22000</link>
-      <description>Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line.</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.22000">Hugging Face Papers</source>
-      <guid isPermaLink="false">9e4b93dae5ce001127991365fb892463</guid>
     </item>
   </channel>
 </rss>
