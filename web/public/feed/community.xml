@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 22 Sep 2026 10:24:19 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 12:48:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Xiaomi, RL 코드와 학습 환경까지 공개한 1.02T 옴니모달 MiMo-V2.6 출시, 오픈소스 지능 지수 1위</title>
+      <link>https://discuss.pytorch.kr/t/xiaomi-rl-1-02t-mimo-v2-6-1/11981</link>
+      <description>MiMo-V2.6 소개 Xiaomi 의 MiMo 팀이 2026년 9월 22일 MiMo-V2.6 시리즈 를 공개하고 가중치를 오픈소스로 배포했습니다. 텍스트와 이미지, 영상, 음성을 한 모델에서 처리하는 옴니모달(Omnimodal) 구조에 희소 전문가 혼합(Sparse Mixture of Experts, MoE) 백본을 얹었고, 컨텍스트 길이는 두 모델 모두 100만(1M) 토큰입니다.</description>
+      <pubDate>Tue, 22 Sep 2026 12:00:48 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/xiaomi-rl-1-02t-mimo-v2-6-1/11981">PyTorch Korea</source>
+      <guid isPermaLink="false">1a941b17dd198266cb2fce105a8f983f</guid>
+    </item>
     <item>
       <title>Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인</title>
       <link>https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/microsoft-1-10-60-mai-transcribe-2-x/11839">PyTorch Korea</source>
       <guid isPermaLink="false">d6dec6352f150a5df6e454530604dc5f</guid>
-    </item>
-    <item>
-      <title>Reverify: 바이너리를 읽는 AI의 주장을 결정론적 도구가 실제 내용(byte)으로 판정하는 리버스 엔지니어링 도구</title>
-      <link>https://discuss.pytorch.kr/t/reverify-ai-byte/11831</link>
-      <description>Reverify 소개 언어 모델은 소스 코드를 읽는 일은 잘하지만 바이너리를 읽는 일에서는 신뢰하기 어렵습니다. 구조체나 알고리즘을 복원해 달라고 하면 오프셋과 크기, 동작을 자신 있게 지어내고, 그것을 사실처럼 서술합니다.</description>
-      <pubDate>Tue, 08 Sep 2026 15:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/reverify-ai-byte/11831">PyTorch Korea</source>
-      <guid isPermaLink="false">92e25ab6c6466e150f0f105b89666469</guid>
     </item>
   </channel>
 </rss>
