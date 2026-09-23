@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-22",
-  "generated_at": "2026-09-22T10:24:19.023338+09:00",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T10:11:33.638956+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,52 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "e843112813c25ea69a12eba272d5c6d9",
+          "id": "1fad19240e29e85ae129f3c65252dc2b",
           "index": 1,
-          "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-          "title_ko": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-          "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
-          "summary_ko": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
-          "url": "https://huggingface.co/papers/2609.22068",
+          "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+          "title_ko": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+          "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
+          "summary_ko": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
+          "url": "https://huggingface.co/papers/2609.24972",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-21T09:00:00+09:00",
-          "popularity": 186,
-          "upvotes": 88,
-          "score": 27.69,
-          "importance_score": 15.69,
+          "published_at": "2026-09-22T09:00:00+09:00",
+          "popularity": 367,
+          "upvotes": 154,
+          "score": 25.72,
+          "importance_score": 17.72,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "reinforcement learning",
-            "training"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 88
-          }
-        },
-        {
-          "id": "cc0749b8cb4e2d67dbd742dc62f88290",
-          "index": 2,
-          "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
-          "title_ko": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
-          "summary": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
-          "summary_ko": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
-          "url": "https://huggingface.co/papers/2609.15779",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-09-21T09:00:00+09:00",
-          "popularity": 393,
-          "upvotes": 69,
-          "score": 25.93,
-          "importance_score": 17.93,
-          "matched_keywords": [
-            "ai",
+            "llm",
             "agent"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 69
+            "value": 154
+          }
+        },
+        {
+          "id": "b67dfc441fe014b40d1e47c5f2045098",
+          "index": 2,
+          "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+          "title_ko": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+          "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons.",
+          "summary_ko": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control ov…",
+          "url": "https://huggingface.co/papers/2609.25001",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-09-22T09:00:00+09:00",
+          "popularity": 358,
+          "upvotes": 111,
+          "score": 23.65,
+          "importance_score": 17.65,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 111
           }
         }
       ]
@@ -68,43 +65,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "eef4c8a2c4073ce1abb5fec88c953a97",
+          "id": "4f00db12c72931bf324d50861ae45647",
           "index": 3,
-          "title": "[9월21일] AI ‘킬 스위치’ 논의 확대…“정말 AI를 멈출 수 있을까”",
+          "title": "[AI리더의 서가] LLM 마스터: 모델 × 시스템 엔지니어링",
           "title_ko": null,
-          "summary": "AI가 통제를 벗어났을 때 강제로 작동을 중단시키는 ‘킬 스위치(Kill Switch)’ 논의가 최근 부쩍 늘고 있습니다. 미국 의회에서도 지난 7월 위험한 AI 시스템을 필요할 때 중단할 수 있는 기술적 능력을 갖추도록 하는 ‘AI 킬 스위치법’이 발의됐습니다. 또 캘리포니아주는 지난 18일(현지시간) 첨단 AI 모델에 비상 정지 기능을 갖추도록 하는 행정명령을 내렸습니다.",
+          "summary": "LLM 마스터: 모델 × 시스템 엔지니어링에디 유·양기빈·장지선·조수현 | 프리렉2026년 9월 28일추천이유독자는 API 활용을 넘어 트랜스포머의 원리부터 파인튜닝, 서빙 최적화, 고급 RAG와 에이전트까지 LLM 개발의 전체 흐름을 익혀 실제 서비스를 구현하는 역량을 갖추게 됩니다.상세보기올 하반기 들어 서점에서 감지되는 흐름이 하나 있다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215518",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215467",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-22T07:00:00+09:00",
+          "published_at": "2026-09-23T09:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.29,
-          "importance_score": 18.58,
+          "score": 28.75,
+          "importance_score": 19.5,
           "matched_keywords": [
             "ai",
+            "llm",
+            "rag",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "cd399cfc3ae23ac671b12830d5ac55af",
+          "id": "9e003532b40f54bdddd4bdcb4b690fd8",
           "index": 4,
-          "title": "아마존, 외부 AI 에이전트에 빗장…메타 '뮤즈' 상품 구매 차단",
+          "title": "미디어텍, 구글북용 SoC '디멘시티 CX C10 맥스' 공개",
           "title_ko": null,
-          "summary": "[지디넷코리아]사람 대신 물건을 구매하는 인공지능(AI) 에이전트가 전자상거래 플랫폼 벽에 막혔다.21일(현지시간) 테크크런치와 더버지 등 외신에 따르면 아마존은 메타의 개인용 AI 에이전트 뮤즈가 자사 쇼핑몰에 접근하는 것을 차단했다. 뮤즈를 이용한 아마존 상품 구매도 막혔다.아마존은 승인받지 않은 AI 에이전트가 자사 쇼핑몰에 지속적으로 접근하는 것은 이용약관 위반이라는 입장이다.",
+          "summary": "[지디넷코리아]대만 팹리스 미디어텍이 구글 AI 노트북 플랫폼 '구글북'용 새 시스템반도체(SoC)인 '디멘시티 CX C10 맥스'를 공개했다.디멘시티 CX C10 맥스는 Arm이 2024년 공개한 클라이언트용 컴퓨팅 서브시스템(CSS) 기반으로 설계됐다.Arm 코어텍스-X925 1개와 코어텍스-X4 3개, 코어텍스-A720 4개 등 총 8개 코어 CPU와 11코어 Arm 이모탈리스-G92…",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260922082149",
+          "url": "https://zdnet.co.kr/view/?no=20260923080809",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-22T09:48:28+09:00",
-          "popularity": 95,
+          "published_at": "2026-09-23T08:33:51+09:00",
+          "popularity": 94,
           "upvotes": 0,
-          "score": 19.38,
-          "importance_score": 19.25,
+          "score": 19.06,
+          "importance_score": 18.72,
           "matched_keywords": [
             "ai"
           ],
@@ -127,43 +126,42 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-22T08:35:16+09:00",
-          "popularity": 985,
-          "upvotes": 985,
-          "score": 33.75,
-          "importance_score": 33.37,
+          "published_at": "2026-09-23T02:16:54+09:00",
+          "popularity": 1310,
+          "upvotes": 1310,
+          "score": 32.85,
+          "importance_score": 31.2,
           "matched_keywords": [
             "ai"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 985
+            "value": 1310
           }
         },
         {
-          "id": "7ab3b335b470d2ae923836dfe7c90d64",
+          "id": "89ae77e288ec03888b00aa0ef74597e0",
           "index": 6,
-          "title": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
-          "title_ko": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
-          "summary": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
-          "summary_ko": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
-          "url": "https://github.com/agent-labs-dev/fastbrowse",
+          "title": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
+          "title_ko": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
+          "summary": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
+          "summary_ko": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
+          "url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-22T09:48:54+09:00",
-          "popularity": 93,
-          "upvotes": 93,
-          "score": 31.78,
-          "importance_score": 25.66,
+          "published_at": "2026-09-22T22:27:29+09:00",
+          "popularity": 343,
+          "upvotes": 343,
+          "score": 31.0,
+          "importance_score": 25.55,
           "matched_keywords": [
             "ai",
-            "llm",
-            "agent"
+            "paper"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 93
+            "value": 343
           }
         }
       ]
@@ -173,23 +171,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "23562a34b9d1674c4f79a9f263316fff",
+          "id": "3c01ab6c3564b85a774cd00e43221cf4",
           "index": 7,
-          "title": "Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인",
+          "title": "AIPerf: 서버 성능 측정 시, 부하 생성기가 병목이 되지 않도록 NVIDIA가 개발 및 공개한 LLM 추론 벤치마크 도구",
           "title_ko": null,
-          "summary": "Fast Jev Compaction 소개 코딩 에이전트와 한 세션을 오래 이어 가면 주고받은 대화가 컨텍스트 창을 채웁니다. 이때 대부분의 도구는 오래된 대화를 언어 모델에 넘겨 요약문으로 바꿔 놓는데, 요약은 본질적으로 정보가 줄어드는 처리입니다. 나중에 다시 필요해지는 파일 경로, 정확한 오류 문구, 사용자가 걸어 둔 제약, 실행했던 명령어가 요약 과정에서 빠질 수 있습니다.",
+          "summary": "AIPerf 소개: 측정 도구가 측정 대상을 가려 버리는 문제 모델을 서버에 올리고 프롬프트를 던지면 응답이 돌아옵니다. 그다음에 반드시 나오는 질문은 \"이거 빠른 건가요?\" 입니다. 이 질문에 답하려고 개발자들이 가장 먼저 하는 일은 대개 curl 을 몇 번 날려 보거나, asyncio 기반의 짧은 부하 스크립트를 직접 짜거나, 일회용 부하 생성기를 하나 더 만드는 것입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970",
+          "url": "https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-21T16:00:19+09:00",
+          "published_at": "2026-09-22T18:00:46+09:00",
           "popularity": 98,
           "upvotes": 0,
-          "score": 18.97,
-          "importance_score": 12.13,
+          "score": 25.43,
+          "importance_score": 13.06,
           "matched_keywords": [
-            "claude",
+            "ai",
+            "llm",
+            "추론",
             "모델"
           ],
           "engagement": null
@@ -199,95 +199,94 @@
   ],
   "items": [
     {
-      "id": "e843112813c25ea69a12eba272d5c6d9",
+      "id": "1fad19240e29e85ae129f3c65252dc2b",
       "index": 1,
-      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-      "title_ko": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
-      "summary_ko": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers.",
-      "url": "https://huggingface.co/papers/2609.22068",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "title_ko": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
+      "summary_ko": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
+      "url": "https://huggingface.co/papers/2609.24972",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-21T09:00:00+09:00",
-      "popularity": 186,
-      "upvotes": 88,
-      "score": 27.69,
-      "importance_score": 15.69,
+      "published_at": "2026-09-22T09:00:00+09:00",
+      "popularity": 367,
+      "upvotes": 154,
+      "score": 25.72,
+      "importance_score": 17.72,
       "matched_keywords": [
-        "ai",
-        "agent",
-        "reinforcement learning",
-        "training"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 88
-      }
-    },
-    {
-      "id": "cc0749b8cb4e2d67dbd742dc62f88290",
-      "index": 2,
-      "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
-      "title_ko": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
-      "summary": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
-      "summary_ko": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases.",
-      "url": "https://huggingface.co/papers/2609.15779",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-21T09:00:00+09:00",
-      "popularity": 393,
-      "upvotes": 69,
-      "score": 25.93,
-      "importance_score": 17.93,
-      "matched_keywords": [
-        "ai",
+        "llm",
         "agent"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 69
+        "value": 154
       }
     },
     {
-      "id": "eef4c8a2c4073ce1abb5fec88c953a97",
+      "id": "b67dfc441fe014b40d1e47c5f2045098",
+      "index": 2,
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "title_ko": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons.",
+      "summary_ko": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control ov…",
+      "url": "https://huggingface.co/papers/2609.25001",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-22T09:00:00+09:00",
+      "popularity": 358,
+      "upvotes": 111,
+      "score": 23.65,
+      "importance_score": 17.65,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 111
+      }
+    },
+    {
+      "id": "4f00db12c72931bf324d50861ae45647",
       "index": 3,
-      "title": "[9월21일] AI ‘킬 스위치’ 논의 확대…“정말 AI를 멈출 수 있을까”",
+      "title": "[AI리더의 서가] LLM 마스터: 모델 × 시스템 엔지니어링",
       "title_ko": null,
-      "summary": "AI가 통제를 벗어났을 때 강제로 작동을 중단시키는 ‘킬 스위치(Kill Switch)’ 논의가 최근 부쩍 늘고 있습니다. 미국 의회에서도 지난 7월 위험한 AI 시스템을 필요할 때 중단할 수 있는 기술적 능력을 갖추도록 하는 ‘AI 킬 스위치법’이 발의됐습니다. 또 캘리포니아주는 지난 18일(현지시간) 첨단 AI 모델에 비상 정지 기능을 갖추도록 하는 행정명령을 내렸습니다.",
+      "summary": "LLM 마스터: 모델 × 시스템 엔지니어링에디 유·양기빈·장지선·조수현 | 프리렉2026년 9월 28일추천이유독자는 API 활용을 넘어 트랜스포머의 원리부터 파인튜닝, 서빙 최적화, 고급 RAG와 에이전트까지 LLM 개발의 전체 흐름을 익혀 실제 서비스를 구현하는 역량을 갖추게 됩니다.상세보기올 하반기 들어 서점에서 감지되는 흐름이 하나 있다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215518",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215467",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-22T07:00:00+09:00",
+      "published_at": "2026-09-23T09:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.29,
-      "importance_score": 18.58,
+      "score": 28.75,
+      "importance_score": 19.5,
       "matched_keywords": [
         "ai",
+        "llm",
+        "rag",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "cd399cfc3ae23ac671b12830d5ac55af",
+      "id": "9e003532b40f54bdddd4bdcb4b690fd8",
       "index": 4,
-      "title": "아마존, 외부 AI 에이전트에 빗장…메타 '뮤즈' 상품 구매 차단",
+      "title": "미디어텍, 구글북용 SoC '디멘시티 CX C10 맥스' 공개",
       "title_ko": null,
-      "summary": "[지디넷코리아]사람 대신 물건을 구매하는 인공지능(AI) 에이전트가 전자상거래 플랫폼 벽에 막혔다.21일(현지시간) 테크크런치와 더버지 등 외신에 따르면 아마존은 메타의 개인용 AI 에이전트 뮤즈가 자사 쇼핑몰에 접근하는 것을 차단했다. 뮤즈를 이용한 아마존 상품 구매도 막혔다.아마존은 승인받지 않은 AI 에이전트가 자사 쇼핑몰에 지속적으로 접근하는 것은 이용약관 위반이라는 입장이다.",
+      "summary": "[지디넷코리아]대만 팹리스 미디어텍이 구글 AI 노트북 플랫폼 '구글북'용 새 시스템반도체(SoC)인 '디멘시티 CX C10 맥스'를 공개했다.디멘시티 CX C10 맥스는 Arm이 2024년 공개한 클라이언트용 컴퓨팅 서브시스템(CSS) 기반으로 설계됐다.Arm 코어텍스-X925 1개와 코어텍스-X4 3개, 코어텍스-A720 4개 등 총 8개 코어 CPU와 11코어 Arm 이모탈리스-G92…",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260922082149",
+      "url": "https://zdnet.co.kr/view/?no=20260923080809",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-22T09:48:28+09:00",
-      "popularity": 95,
+      "published_at": "2026-09-23T08:33:51+09:00",
+      "popularity": 94,
       "upvotes": 0,
-      "score": 19.38,
-      "importance_score": 19.25,
+      "score": 19.06,
+      "importance_score": 18.72,
       "matched_keywords": [
         "ai"
       ],
@@ -304,63 +303,64 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-22T08:35:16+09:00",
-      "popularity": 985,
-      "upvotes": 985,
-      "score": 33.75,
-      "importance_score": 33.37,
+      "published_at": "2026-09-23T02:16:54+09:00",
+      "popularity": 1310,
+      "upvotes": 1310,
+      "score": 32.85,
+      "importance_score": 31.2,
       "matched_keywords": [
         "ai"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 985
+        "value": 1310
       }
     },
     {
-      "id": "7ab3b335b470d2ae923836dfe7c90d64",
+      "id": "89ae77e288ec03888b00aa0ef74597e0",
       "index": 6,
-      "title": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
-      "title_ko": "agent-labs-dev/fastbrowse — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and ev",
-      "summary": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
-      "summary_ko": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
-      "url": "https://github.com/agent-labs-dev/fastbrowse",
+      "title": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
+      "title_ko": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
+      "summary": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
+      "summary_ko": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
+      "url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-22T09:48:54+09:00",
-      "popularity": 93,
-      "upvotes": 93,
-      "score": 31.78,
-      "importance_score": 25.66,
+      "published_at": "2026-09-22T22:27:29+09:00",
+      "popularity": 343,
+      "upvotes": 343,
+      "score": 31.0,
+      "importance_score": 25.55,
       "matched_keywords": [
         "ai",
-        "llm",
-        "agent"
+        "paper"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 93
+        "value": 343
       }
     },
     {
-      "id": "23562a34b9d1674c4f79a9f263316fff",
+      "id": "3c01ab6c3564b85a774cd00e43221cf4",
       "index": 7,
-      "title": "Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인",
+      "title": "AIPerf: 서버 성능 측정 시, 부하 생성기가 병목이 되지 않도록 NVIDIA가 개발 및 공개한 LLM 추론 벤치마크 도구",
       "title_ko": null,
-      "summary": "Fast Jev Compaction 소개 코딩 에이전트와 한 세션을 오래 이어 가면 주고받은 대화가 컨텍스트 창을 채웁니다. 이때 대부분의 도구는 오래된 대화를 언어 모델에 넘겨 요약문으로 바꿔 놓는데, 요약은 본질적으로 정보가 줄어드는 처리입니다. 나중에 다시 필요해지는 파일 경로, 정확한 오류 문구, 사용자가 걸어 둔 제약, 실행했던 명령어가 요약 과정에서 빠질 수 있습니다.",
+      "summary": "AIPerf 소개: 측정 도구가 측정 대상을 가려 버리는 문제 모델을 서버에 올리고 프롬프트를 던지면 응답이 돌아옵니다. 그다음에 반드시 나오는 질문은 \"이거 빠른 건가요?\" 입니다. 이 질문에 답하려고 개발자들이 가장 먼저 하는 일은 대개 curl 을 몇 번 날려 보거나, asyncio 기반의 짧은 부하 스크립트를 직접 짜거나, 일회용 부하 생성기를 하나 더 만드는 것입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970",
+      "url": "https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-21T16:00:19+09:00",
+      "published_at": "2026-09-22T18:00:46+09:00",
       "popularity": 98,
       "upvotes": 0,
-      "score": 18.97,
-      "importance_score": 12.13,
+      "score": 25.43,
+      "importance_score": 13.06,
       "matched_keywords": [
-        "claude",
+        "ai",
+        "llm",
+        "추론",
         "모델"
       ],
       "engagement": null
