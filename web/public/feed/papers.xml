@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 23 Sep 2026 19:59:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:25:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>JEV-as-a-Judge: Accept When Confident, Escalate When Unsure</title>
+      <link>https://huggingface.co/papers/2609.26550</link>
+      <description>LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale.</description>
+      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.26550">Hugging Face Papers</source>
+      <guid isPermaLink="false">0410c783f739f3fa8434543dcd3c548c</guid>
+    </item>
+    <item>
+      <title>Agensh: Scaling Organizational Intelligence to 1,024 Agents</title>
+      <link>https://huggingface.co/papers/2609.26781</link>
+      <description>A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems.</description>
+      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.26781">Hugging Face Papers</source>
+      <guid isPermaLink="false">2c4dbc0b5a4d00cb740c6fbe02c189cd</guid>
+    </item>
+    <item>
+      <title>Embedding Physics Priors in Robot Learning: A Survey</title>
+      <link>https://huggingface.co/papers/2609.22319</link>
+      <description>The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches.</description>
+      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22319">Hugging Face Papers</source>
+      <guid isPermaLink="false">3fa8d9710e58374bd9df76f05ca09f61</guid>
+    </item>
+    <item>
+      <title>Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts</title>
+      <link>https://huggingface.co/papers/2609.06011</link>
+      <description>Tri-PvP benchmark reveals visual bias and asymmetric evidence-form preferences in omni-modal language models, with early-layer decodable modality effects resistant to surface miti…</description>
+      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.06011">Hugging Face Papers</source>
+      <guid isPermaLink="false">6e15b4216bc2d46a9505bf6a25b3ed0e</guid>
+    </item>
+    <item>
+      <title>LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay</title>
+      <link>https://huggingface.co/papers/2609.25053</link>
+      <description>Can one language model hand its live memory to another without the receiver rereading the context?</description>
+      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.25053">Hugging Face Papers</source>
+      <guid isPermaLink="false">5c7512f2abf53bb10a12f33a8b2529bd</guid>
+    </item>
     <item>
       <title>Emergent Collusion in Long-Horizon LLM Agent Interaction</title>
       <link>https://huggingface.co/papers/2609.24967</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.23986">Hugging Face Papers</source>
       <guid isPermaLink="false">6aa4e024a12dce9106d8597b0e738250</guid>
-    </item>
-    <item>
-      <title>Grounded Action Model: 3D Grounding as a Foundation for Robotics</title>
-      <link>https://huggingface.co/papers/2609.23863</link>
-      <description>Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-langua…</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.23863">Hugging Face Papers</source>
-      <guid isPermaLink="false">77a9c4fe08b5033dc299967de8692ce9</guid>
-    </item>
-    <item>
-      <title>Why Do Video Diffusion Models Violate Physics? Unveiling the Flaws in Attention Mechanisms</title>
-      <link>https://huggingface.co/papers/2609.23658</link>
-      <description>Despite impressive visual quality, state-of-the-art video diffusion models often generate content that violates real-world physical laws.</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.23658">Hugging Face Papers</source>
-      <guid isPermaLink="false">260e9f75df6bc708a8af56b41975afec</guid>
-    </item>
-    <item>
-      <title>WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory</title>
-      <link>https://huggingface.co/papers/2609.24984</link>
-      <description>Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints.</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.24984">Hugging Face Papers</source>
-      <guid isPermaLink="false">1232d7282ca9fa55db490f5df96e07ca</guid>
-    </item>
-    <item>
-      <title>Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies</title>
-      <link>https://huggingface.co/papers/2609.24682</link>
-      <description>Vision-Language-Action (VLA) models map observations to actions with no objective that accounts for how the world responds, so their robustness is bounded primarily by data covera…</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.24682">Hugging Face Papers</source>
-      <guid isPermaLink="false">ede00fb620ca9acd95720c839a22bd2c</guid>
-    </item>
-    <item>
-      <title>SteerDuplex: Steerable Duplex Speech Dialogue Models</title>
-      <link>https://huggingface.co/papers/2609.12623</link>
-      <description>Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the abilit…</description>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.12623">Hugging Face Papers</source>
-      <guid isPermaLink="false">daf21bac914f3b8f5bcb52a06ed6c78c</guid>
     </item>
   </channel>
 </rss>
