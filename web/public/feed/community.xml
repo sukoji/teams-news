@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 23 Sep 2026 14:36:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 19:59:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>평면 이미지가 3D가 되는 순간</title>
+      <link>https://discuss.pytorch.kr/t/3d/11999</link>
+      <description>한 장의 이미지에서 시작해 보세요. Image to 3D AI는 캐릭터, 제품 이미지, 스케치, 컨셉 아트 등을 바탕으로 3D 모델을 생성할 수 있는 온라인 AI 도구입니다. 복잡한 3D 프로그램을 먼저 배울 필요 없이, 이미 가지고 있는 이미지를 업로드하고 결과를 확인해 보세요.</description>
+      <pubDate>Wed, 23 Sep 2026 19:32:39 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/3d/11999">PyTorch Korea</source>
+      <guid isPermaLink="false">df447a4cb402312127a79086b597880e</guid>
+    </item>
+    <item>
+      <title>NVIDIA가 정리한 AI 에이전트 평가: 도구 호출 정확도 대신 과업 완수를 채점하는 지표들과 트레이스 읽는 법</title>
+      <link>https://discuss.pytorch.kr/t/nvidia-ai/11986</link>
+      <description>AI 에이전트 평가가 도구 호출 채점에서 과업 완수 채점으로 옮겨간 이유 NVIDIA 기술 블로그 가 2026년 9월 21일 공개한 How to Evaluate AI Agents From Tool Calls to Task Completion 은 AI 에이전트 의 평가 방법이 함수 호출 한 건을 채점하는 방식에서 과업 전체를 채점하는 방식으로 어떻게 옮겨왔는지를 정리한 글입니다.</description>
+      <pubDate>Wed, 23 Sep 2026 17:30:59 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/nvidia-ai/11986">PyTorch Korea</source>
+      <guid isPermaLink="false">5d2024d47898dad1eec3244e24410ae9</guid>
+    </item>
     <item>
       <title>OpenAI, API 가격을 절반으로 낮춘 GPT-6 Sol과 Luna 출시: 추론 강도별 과제당 비용으로 본 성능과 정렬</title>
       <link>https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/hugging-face-papers-with-code-11-feat-pgvector-rrf/11859">PyTorch Korea</source>
       <guid isPermaLink="false">7a4a24445eb72106288f83c3c13e9b88</guid>
-    </item>
-    <item>
-      <title>VDN-H3: MiniMax H3 영상을 재생 시간보다 빠르게 생성하는 하이브리드 어텐션 모델 (단, H3 모델은 한국 사용 불가 주의)</title>
-      <link>https://discuss.pytorch.kr/t/vdn-h3-minimax-h3-h3/11862</link>
-      <description>VDN-H3 소개 영상 생성 모델에서 가장 비싼 연산은 어텐션(Attention)입니다. 영상 한 편은 수만 개의 잠재 프레임 토큰으로 펼쳐지고, 소프트맥스 어텐션의 비용은 시퀀스 길이의 제곱으로 늘어납니다.</description>
-      <pubDate>Wed, 09 Sep 2026 18:30:11 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vdn-h3-minimax-h3-h3/11862">PyTorch Korea</source>
-      <guid isPermaLink="false">f24de7c80385861bb324bf650a04397d</guid>
-    </item>
-    <item>
-      <title>FrontierAgent: 단일 에이전트와 병렬 팀 두 방식을 한 터미널에서 고르는 오픈소스 에이전트 런타임 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/frontieragent/11842</link>
-      <description>FrontierAgent 소개 여러 시간에 걸친 조사 작업을 에이전트에게 맡기려면 대화형 챗봇과는 다른 것들이 필요합니다. 파일을 읽고 쓰는 권한을 어디까지 줄지, 중간에 사람이 끼어들면 진행 중인 작업을 버려야 하는지, 실행이 끊겼을 때 어디서부터 다시 시작할지, 결과물이 어느 디렉토리에 남는지를 정해 두지 않으면 오래 걸리는 작업일수록 손댈 수 없게 됩니다.</description>
-      <pubDate>Wed, 09 Sep 2026 15:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/frontieragent/11842">PyTorch Korea</source>
-      <guid isPermaLink="false">135d894ef4a46f63d26d6f826068d429</guid>
     </item>
   </channel>
 </rss>
