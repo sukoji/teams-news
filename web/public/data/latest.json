@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-23",
-  "generated_at": "2026-09-23T10:11:33.638956+09:00",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T10:00:43.929746+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,52 +10,53 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "1fad19240e29e85ae129f3c65252dc2b",
+          "id": "6bdc55955deb110cce330d81ecbc6c62",
           "index": 1,
-          "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-          "title_ko": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-          "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
-          "summary_ko": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
-          "url": "https://huggingface.co/papers/2609.24972",
+          "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+          "title_ko": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+          "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
+          "summary_ko": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the…",
+          "url": "https://huggingface.co/papers/2609.25804",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-22T09:00:00+09:00",
-          "popularity": 367,
-          "upvotes": 154,
-          "score": 25.72,
-          "importance_score": 17.72,
+          "published_at": "2026-09-23T09:00:00+09:00",
+          "popularity": 248,
+          "upvotes": 111,
+          "score": 24.55,
+          "importance_score": 16.55,
           "matched_keywords": [
             "llm",
             "agent"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 154
+            "value": 111
           }
         },
         {
-          "id": "b67dfc441fe014b40d1e47c5f2045098",
+          "id": "4ad8b8f425b46dce65be98e785f7b9c2",
           "index": 2,
-          "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-          "title_ko": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-          "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons.",
-          "summary_ko": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control ov…",
-          "url": "https://huggingface.co/papers/2609.25001",
+          "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+          "title_ko": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+          "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+          "summary_ko": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+          "url": "https://huggingface.co/papers/2609.25199",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-22T09:00:00+09:00",
-          "popularity": 358,
-          "upvotes": 111,
-          "score": 23.65,
-          "importance_score": 17.65,
+          "published_at": "2026-09-23T09:00:00+09:00",
+          "popularity": 145,
+          "upvotes": 11,
+          "score": 22.95,
+          "importance_score": 14.95,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "agent"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 111
+            "value": 11
           }
         }
       ]
@@ -65,45 +66,42 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "4f00db12c72931bf324d50861ae45647",
+          "id": "0d509be5a37b9fd86ef4391f6844d1d1",
           "index": 3,
-          "title": "[AI리더의 서가] LLM 마스터: 모델 × 시스템 엔지니어링",
+          "title": "[9월23일] AI 에이전트, 이제야 ‘진짜 개인 비서’에 가까워지나",
           "title_ko": null,
-          "summary": "LLM 마스터: 모델 × 시스템 엔지니어링에디 유·양기빈·장지선·조수현 | 프리렉2026년 9월 28일추천이유독자는 API 활용을 넘어 트랜스포머의 원리부터 파인튜닝, 서빙 최적화, 고급 RAG와 에이전트까지 LLM 개발의 전체 흐름을 익혀 실제 서비스를 구현하는 역량을 갖추게 됩니다.상세보기올 하반기 들어 서점에서 감지되는 흐름이 하나 있다.",
+          "summary": "AI 에이전트라는 말이 등장한 지는 벌써 2~3년이 됐습니다. 하지만 최근 들어서야 일반 사용자들이 체감할 만한 서비스가 나오기 시작했습니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215467",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215598",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-23T09:00:00+09:00",
+          "published_at": "2026-09-24T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 28.75,
-          "importance_score": 19.5,
+          "score": 19.37,
+          "importance_score": 18.75,
           "matched_keywords": [
-            "ai",
-            "llm",
-            "rag",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "9e003532b40f54bdddd4bdcb4b690fd8",
+          "id": "2fd8bb6303fd719932cae20dd9986bb6",
           "index": 4,
-          "title": "미디어텍, 구글북용 SoC '디멘시티 CX C10 맥스' 공개",
+          "title": "새만금개발청, 현대차그룹  'AI 데이터센터' 건축심의 본격 착수",
           "title_ko": null,
-          "summary": "[지디넷코리아]대만 팹리스 미디어텍이 구글 AI 노트북 플랫폼 '구글북'용 새 시스템반도체(SoC)인 '디멘시티 CX C10 맥스'를 공개했다.디멘시티 CX C10 맥스는 Arm이 2024년 공개한 클라이언트용 컴퓨팅 서브시스템(CSS) 기반으로 설계됐다.Arm 코어텍스-X925 1개와 코어텍스-X4 3개, 코어텍스-A720 4개 등 총 8개 코어 CPU와 11코어 Arm 이모탈리스-G92…",
+          "summary": "새만금개발청(청장 문성요)은 새만금 1산단 7공구에 착공하는 현대자동차그룹의 인공지능(AI) 데이터센터(AI DC) 건축계획(안)에 대한 건축심의에 착수했다고 24일 밝혔다. 현대자동차그룹은 지난 2월 27일 자율자동차와 로봇 학습을 지원하기 위해 그래픽처리장치(GPU) 5만장을 투입해 새만금에 5조8000억원 규모의 AI DC를 구축하는 등 약 9조원을 투자하기로 발표한 바 있다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260923080809",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260922000449",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-23T08:33:51+09:00",
-          "popularity": 94,
+          "published_at": "2026-09-24T08:00:00+09:00",
+          "popularity": 97,
           "upvotes": 0,
-          "score": 19.06,
-          "importance_score": 18.72,
+          "score": 19.28,
+          "importance_score": 18.86,
           "matched_keywords": [
             "ai"
           ],
@@ -116,52 +114,54 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "dcfdc0856c42fc9843a8b5170c9052a4",
+          "id": "bffcda8963a87a2bf05780bb373b8d1f",
           "index": 5,
-          "title": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
-          "title_ko": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
-          "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-          "summary_ko": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-          "url": "https://github.com/yibie/awesome-jev",
+          "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+          "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+          "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "summary_ko": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "url": "https://github.com/nokia-applied-research/AnyJev",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-23T02:16:54+09:00",
-          "popularity": 1310,
-          "upvotes": 1310,
-          "score": 32.85,
-          "importance_score": 31.2,
+          "published_at": "2026-09-24T05:55:55+09:00",
+          "popularity": 388,
+          "upvotes": 388,
+          "score": 36.02,
+          "importance_score": 29.17,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "llm",
+            "training"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1310
+            "value": 388
           }
         },
         {
-          "id": "89ae77e288ec03888b00aa0ef74597e0",
+          "id": "ccfaeba0af74198239a38d672699bf7d",
           "index": 6,
-          "title": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
-          "title_ko": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
-          "summary": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
-          "summary_ko": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
-          "url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
+          "title": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+          "title_ko": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+          "summary": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+          "summary_ko": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+          "url": "https://github.com/Alex314618-create/JevRev",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-22T22:27:29+09:00",
-          "popularity": 343,
-          "upvotes": 343,
-          "score": 31.0,
-          "importance_score": 25.55,
+          "published_at": "2026-09-24T01:23:14+09:00",
+          "popularity": 219,
+          "upvotes": 219,
+          "score": 30.08,
+          "importance_score": 25.28,
           "matched_keywords": [
             "ai",
-            "paper"
+            "llm"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 343
+            "value": 219
           }
         }
       ]
@@ -171,26 +171,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "3c01ab6c3564b85a774cd00e43221cf4",
+          "id": "fc98f7585798131fb80bd8812c445fa8",
           "index": 7,
-          "title": "AIPerf: 서버 성능 측정 시, 부하 생성기가 병목이 되지 않도록 NVIDIA가 개발 및 공개한 LLM 추론 벤치마크 도구",
+          "title": "OpenAI, API 가격을 절반으로 낮춘 GPT-6 Sol과 Luna 출시: 추론 강도별 과제당 비용으로 본 성능과 정렬",
           "title_ko": null,
-          "summary": "AIPerf 소개: 측정 도구가 측정 대상을 가려 버리는 문제 모델을 서버에 올리고 프롬프트를 던지면 응답이 돌아옵니다. 그다음에 반드시 나오는 질문은 \"이거 빠른 건가요?\" 입니다. 이 질문에 답하려고 개발자들이 가장 먼저 하는 일은 대개 curl 을 몇 번 날려 보거나, asyncio 기반의 짧은 부하 스크립트를 직접 짜거나, 일회용 부하 생성기를 하나 더 만드는 것입니다.",
+          "summary": "GPT-6 Sol과 Luna 소개 OpenAI 가 2026년 9월 22일, GPT-6 제품군의 중간 티어 GPT-6 Sol 과 경량 티어 GPT-6 Luna 를 공개했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975",
+          "url": "https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-22T18:00:46+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-23T10:30:30+09:00",
+          "popularity": 96,
           "upvotes": 0,
-          "score": 25.43,
-          "importance_score": 13.06,
+          "score": 20.7,
+          "importance_score": 9.81,
           "matched_keywords": [
             "ai",
-            "llm",
-            "추론",
-            "모델"
+            "gpt",
+            "추론"
           ],
           "engagement": null
         }
@@ -199,48 +198,24 @@
   ],
   "items": [
     {
-      "id": "1fad19240e29e85ae129f3c65252dc2b",
+      "id": "6bdc55955deb110cce330d81ecbc6c62",
       "index": 1,
-      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-      "title_ko": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
-      "summary_ko": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model.",
-      "url": "https://huggingface.co/papers/2609.24972",
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "title_ko": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
+      "summary_ko": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the…",
+      "url": "https://huggingface.co/papers/2609.25804",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-22T09:00:00+09:00",
-      "popularity": 367,
-      "upvotes": 154,
-      "score": 25.72,
-      "importance_score": 17.72,
+      "published_at": "2026-09-23T09:00:00+09:00",
+      "popularity": 248,
+      "upvotes": 111,
+      "score": 24.55,
+      "importance_score": 16.55,
       "matched_keywords": [
         "llm",
         "agent"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 154
-      }
-    },
-    {
-      "id": "b67dfc441fe014b40d1e47c5f2045098",
-      "index": 2,
-      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-      "title_ko": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons.",
-      "summary_ko": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control ov…",
-      "url": "https://huggingface.co/papers/2609.25001",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-22T09:00:00+09:00",
-      "popularity": 358,
-      "upvotes": 111,
-      "score": 23.65,
-      "importance_score": 17.65,
-      "matched_keywords": [
-        "ai"
       ],
       "engagement": {
         "label": "Upvotes",
@@ -248,120 +223,143 @@
       }
     },
     {
-      "id": "4f00db12c72931bf324d50861ae45647",
+      "id": "4ad8b8f425b46dce65be98e785f7b9c2",
+      "index": 2,
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "title_ko": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "summary_ko": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "url": "https://huggingface.co/papers/2609.25199",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-23T09:00:00+09:00",
+      "popularity": 145,
+      "upvotes": 11,
+      "score": 22.95,
+      "importance_score": 14.95,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 11
+      }
+    },
+    {
+      "id": "0d509be5a37b9fd86ef4391f6844d1d1",
       "index": 3,
-      "title": "[AI리더의 서가] LLM 마스터: 모델 × 시스템 엔지니어링",
+      "title": "[9월23일] AI 에이전트, 이제야 ‘진짜 개인 비서’에 가까워지나",
       "title_ko": null,
-      "summary": "LLM 마스터: 모델 × 시스템 엔지니어링에디 유·양기빈·장지선·조수현 | 프리렉2026년 9월 28일추천이유독자는 API 활용을 넘어 트랜스포머의 원리부터 파인튜닝, 서빙 최적화, 고급 RAG와 에이전트까지 LLM 개발의 전체 흐름을 익혀 실제 서비스를 구현하는 역량을 갖추게 됩니다.상세보기올 하반기 들어 서점에서 감지되는 흐름이 하나 있다.",
+      "summary": "AI 에이전트라는 말이 등장한 지는 벌써 2~3년이 됐습니다. 하지만 최근 들어서야 일반 사용자들이 체감할 만한 서비스가 나오기 시작했습니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215467",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215598",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-23T09:00:00+09:00",
+      "published_at": "2026-09-24T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 28.75,
-      "importance_score": 19.5,
+      "score": 19.37,
+      "importance_score": 18.75,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "2fd8bb6303fd719932cae20dd9986bb6",
+      "index": 4,
+      "title": "새만금개발청, 현대차그룹  'AI 데이터센터' 건축심의 본격 착수",
+      "title_ko": null,
+      "summary": "새만금개발청(청장 문성요)은 새만금 1산단 7공구에 착공하는 현대자동차그룹의 인공지능(AI) 데이터센터(AI DC) 건축계획(안)에 대한 건축심의에 착수했다고 24일 밝혔다. 현대자동차그룹은 지난 2월 27일 자율자동차와 로봇 학습을 지원하기 위해 그래픽처리장치(GPU) 5만장을 투입해 새만금에 5조8000억원 규모의 AI DC를 구축하는 등 약 9조원을 투자하기로 발표한 바 있다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260922000449",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-24T08:00:00+09:00",
+      "popularity": 97,
+      "upvotes": 0,
+      "score": 19.28,
+      "importance_score": 18.86,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "bffcda8963a87a2bf05780bb373b8d1f",
+      "index": 5,
+      "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+      "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+      "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+      "summary_ko": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+      "url": "https://github.com/nokia-applied-research/AnyJev",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-24T05:55:55+09:00",
+      "popularity": 388,
+      "upvotes": 388,
+      "score": 36.02,
+      "importance_score": 29.17,
       "matched_keywords": [
         "ai",
         "llm",
-        "rag",
-        "모델"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "9e003532b40f54bdddd4bdcb4b690fd8",
-      "index": 4,
-      "title": "미디어텍, 구글북용 SoC '디멘시티 CX C10 맥스' 공개",
-      "title_ko": null,
-      "summary": "[지디넷코리아]대만 팹리스 미디어텍이 구글 AI 노트북 플랫폼 '구글북'용 새 시스템반도체(SoC)인 '디멘시티 CX C10 맥스'를 공개했다.디멘시티 CX C10 맥스는 Arm이 2024년 공개한 클라이언트용 컴퓨팅 서브시스템(CSS) 기반으로 설계됐다.Arm 코어텍스-X925 1개와 코어텍스-X4 3개, 코어텍스-A720 4개 등 총 8개 코어 CPU와 11코어 Arm 이모탈리스-G92…",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260923080809",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-23T08:33:51+09:00",
-      "popularity": 94,
-      "upvotes": 0,
-      "score": 19.06,
-      "importance_score": 18.72,
-      "matched_keywords": [
-        "ai"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "dcfdc0856c42fc9843a8b5170c9052a4",
-      "index": 5,
-      "title": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
-      "title_ko": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System",
-      "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-      "summary_ko": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-      "url": "https://github.com/yibie/awesome-jev",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-23T02:16:54+09:00",
-      "popularity": 1310,
-      "upvotes": 1310,
-      "score": 32.85,
-      "importance_score": 31.2,
-      "matched_keywords": [
-        "ai"
+        "training"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 1310
+        "value": 388
       }
     },
     {
-      "id": "89ae77e288ec03888b00aa0ef74597e0",
+      "id": "ccfaeba0af74198239a38d672699bf7d",
       "index": 6,
-      "title": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
-      "title_ko": "qwdwqfwq/topconf-paper-figure-gallery — A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR",
-      "summary": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
-      "summary_ko": "A searchable gallery of 2,730 well-designed Figure 1 / teaser figures from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2025), tagged with Oral / Spotlight / Best-paper tiers.",
-      "url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
+      "title": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+      "title_ko": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+      "summary": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+      "summary_ko": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
+      "url": "https://github.com/Alex314618-create/JevRev",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-22T22:27:29+09:00",
-      "popularity": 343,
-      "upvotes": 343,
-      "score": 31.0,
-      "importance_score": 25.55,
+      "published_at": "2026-09-24T01:23:14+09:00",
+      "popularity": 219,
+      "upvotes": 219,
+      "score": 30.08,
+      "importance_score": 25.28,
       "matched_keywords": [
         "ai",
-        "paper"
+        "llm"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 343
+        "value": 219
       }
     },
     {
-      "id": "3c01ab6c3564b85a774cd00e43221cf4",
+      "id": "fc98f7585798131fb80bd8812c445fa8",
       "index": 7,
-      "title": "AIPerf: 서버 성능 측정 시, 부하 생성기가 병목이 되지 않도록 NVIDIA가 개발 및 공개한 LLM 추론 벤치마크 도구",
+      "title": "OpenAI, API 가격을 절반으로 낮춘 GPT-6 Sol과 Luna 출시: 추론 강도별 과제당 비용으로 본 성능과 정렬",
       "title_ko": null,
-      "summary": "AIPerf 소개: 측정 도구가 측정 대상을 가려 버리는 문제 모델을 서버에 올리고 프롬프트를 던지면 응답이 돌아옵니다. 그다음에 반드시 나오는 질문은 \"이거 빠른 건가요?\" 입니다. 이 질문에 답하려고 개발자들이 가장 먼저 하는 일은 대개 curl 을 몇 번 날려 보거나, asyncio 기반의 짧은 부하 스크립트를 직접 짜거나, 일회용 부하 생성기를 하나 더 만드는 것입니다.",
+      "summary": "GPT-6 Sol과 Luna 소개 OpenAI 가 2026년 9월 22일, GPT-6 제품군의 중간 티어 GPT-6 Sol 과 경량 티어 GPT-6 Luna 를 공개했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975",
+      "url": "https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-22T18:00:46+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-23T10:30:30+09:00",
+      "popularity": 96,
       "upvotes": 0,
-      "score": 25.43,
-      "importance_score": 13.06,
+      "score": 20.7,
+      "importance_score": 9.81,
       "matched_keywords": [
         "ai",
-        "llm",
-        "추론",
-        "모델"
+        "gpt",
+        "추론"
       ],
       "engagement": null
     }
