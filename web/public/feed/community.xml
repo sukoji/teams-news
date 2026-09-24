@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 24 Sep 2026 10:11:44 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 16:21:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GravityOCR: 확산(Diffusion) 및 자기회귀(AR) 기법으로 초안 작성 및 검증을 수행하는 OCR 모델 (feat. Trillion Labs)</title>
+      <link>https://discuss.pytorch.kr/t/gravityocr-diffusion-ar-ocr-feat-trillion-labs/11997</link>
+      <description>GravityOCR 소개 GravityOCR은 문서 이미지를 텍스트, HTML 표, LaTeX 수식으로 옮기는 OCR 모델로, 하나의 가중치가 확산(Diffusion) 방식으로 여러 토큰의 초안을 한 번에 쓰고 같은 모델의 자기회귀(AR) 경로가 그 초안을 검증하는 방식으로 디코딩 속도를 높였습니다.</description>
+      <pubDate>Thu, 24 Sep 2026 11:00:29 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gravityocr-diffusion-ar-ocr-feat-trillion-labs/11997">PyTorch Korea</source>
+      <guid isPermaLink="false">217d72318cac23c70096b2e93ca4a219</guid>
+    </item>
     <item>
       <title>Top-Conf Figure Gallery: 논문 작성시 참고하면 좋을, 주요 AI/ML 학회 논문들의 첫번째 이미지(Figure 1) 모음집</title>
       <link>https://discuss.pytorch.kr/t/top-conf-figure-gallery-ai-ml-figure-1/11996</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/envoy-ai-gateway-agent-router-aaif-crd-aigw-cli/11880">PyTorch Korea</source>
       <guid isPermaLink="false">caa702855d58e9f39a58233f65e4099f</guid>
-    </item>
-    <item>
-      <title>WeatherNext 3: 위성 관측을 직접 읽어 매시간 갱신하는 5km 해상도 기상 예보 AI (feat. Google DeepMind)</title>
-      <link>https://discuss.pytorch.kr/t/weathernext-3-5km-ai-feat-google-deepmind/11858</link>
-      <description>WeatherNext 3 소개 WeatherNext 3 는 Google DeepMind 와 Google Research 가 2026년 9월 3일 발표한 전 지구 기상 예보 AI 모델로, 정지궤도 위성 관측을 모델 입력으로 직접 받아 매시간 새 예보를 만들고 지표 기온과 이슬점을 5km 해상도로 예측합니다.</description>
-      <pubDate>Thu, 10 Sep 2026 11:30:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/weathernext-3-5km-ai-feat-google-deepmind/11858">PyTorch Korea</source>
-      <guid isPermaLink="false">4bc71fd75a8aaac05abcee916a775a0a</guid>
     </item>
   </channel>
 </rss>
