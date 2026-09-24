@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 24 Sep 2026 16:21:39 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:21:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression</title>
+      <link>https://huggingface.co/papers/2609.25963</link>
+      <description>Transformer architectures exhibit cross-layer redundancies, yet post-training compression pipelines typically optimize layers in isolation or rely on heuristic grouping strategies…</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.25963">Hugging Face Papers</source>
+      <guid isPermaLink="false">b20dfa25b2d025c6bf55b6bc90a515eb</guid>
+    </item>
+    <item>
+      <title>X-Planner: Event-Structured Task Planning for Embodied Intelligence</title>
+      <link>https://huggingface.co/papers/2609.25187</link>
+      <description>Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate s…</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.25187">Hugging Face Papers</source>
+      <guid isPermaLink="false">bf727d91ac13188a81e770ba322c1292</guid>
+    </item>
+    <item>
+      <title>Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery</title>
+      <link>https://huggingface.co/papers/2609.27980</link>
+      <description>Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the decoder led to significant end-to-end transcription speedup…</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.27980">Hugging Face Papers</source>
+      <guid isPermaLink="false">48493ed5ecd233a266aa8cbcd4fd1759</guid>
+    </item>
+    <item>
+      <title>Uranus: Building the Next-Generation Simulation Infrastructure for Embodied AI</title>
+      <link>https://huggingface.co/papers/2609.24815</link>
+      <description>Scalable simulation is essential for robot data generation, policy training, evaluation, and safe iteration, yet real-world interaction is costly and conventional simulators requi…</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24815">Hugging Face Papers</source>
+      <guid isPermaLink="false">428b9c8f1bb9f6cf40851cba0c0bed7a</guid>
+    </item>
+    <item>
+      <title>Calibration as a First-Class Criterion in LLM Evaluation</title>
+      <link>https://huggingface.co/papers/2609.26489</link>
+      <description>Calibration of language models -- the alignment between expressed or implicit confidence and empirical correctness -- is a well-studied subfield within NLP.</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.26489">Hugging Face Papers</source>
+      <guid isPermaLink="false">3c4e33b4c0ee678b0c5fd35de08e7aa3</guid>
+    </item>
+    <item>
+      <title>FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation</title>
+      <link>https://huggingface.co/papers/2609.27657</link>
+      <description>Solutions based on large language models (LLMs) often rely on temperature sampling to improve accuracy and stability by aggregating multiple samples from the completion distributi…</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.27657">Hugging Face Papers</source>
+      <guid isPermaLink="false">2c8f7d58f53d6644c957e538c16ddef6</guid>
+    </item>
+    <item>
+      <title>MemoryAthena: Adaptive Routing over Latent and Generated Memories</title>
+      <link>https://huggingface.co/papers/2609.25853</link>
+      <description>Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addressing, storage, and reading to be modified independently.</description>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.25853">Hugging Face Papers</source>
+      <guid isPermaLink="false">830e2220347b73ce90bb77f641589680</guid>
+    </item>
     <item>
       <title>PACT: From Credit Assignment to Critic Alignment</title>
       <link>https://huggingface.co/papers/2609.26355</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.11063">Hugging Face Papers</source>
       <guid isPermaLink="false">b0ed1e2bb594ecd75cd03c5ab3d66ec6</guid>
-    </item>
-    <item>
-      <title>Towards Full Pipeline FP8 Reinforcement Learning for LLMs</title>
-      <link>https://huggingface.co/papers/2609.22870</link>
-      <description>Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large language models (LLMs).</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.22870">Hugging Face Papers</source>
-      <guid isPermaLink="false">2e51ededa5a411ce855545079723ec11</guid>
-    </item>
-    <item>
-      <title>ACLArena: Agent Continue Learning in Multi-stage Post-training</title>
-      <link>https://huggingface.co/papers/2609.23989</link>
-      <description>Building general-purpose agents for industrial deployment requires integrating multiple capabilities, each typically acquired at a distinct stage of training.</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.23989">Hugging Face Papers</source>
-      <guid isPermaLink="false">c628bd5b4d80e40f4d034c7c4f73705a</guid>
-    </item>
-    <item>
-      <title>The Functionalizer: Lossless Functional Decomposition for Subword Tokenization</title>
-      <link>https://huggingface.co/papers/2609.15991</link>
-      <description>Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embed…</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.15991">Hugging Face Papers</source>
-      <guid isPermaLink="false">c4466ff2708a9665e89dc5491d9059fa</guid>
-    </item>
-    <item>
-      <title>SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness</title>
-      <link>https://huggingface.co/papers/2609.06052</link>
-      <description>SkillSpec uses specification reasoning over a unified skill graph to detect semantic defects in autonomous agent skills by balancing contextual views and sandbox validation.</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.06052">Hugging Face Papers</source>
-      <guid isPermaLink="false">f5de20db579fd8253ad14287d38f2d2a</guid>
-    </item>
-    <item>
-      <title>UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing</title>
-      <link>https://huggingface.co/papers/2609.23169</link>
-      <description>High-quality texture generation is essential for creating realistic and production-ready 3D assets.</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.23169">Hugging Face Papers</source>
-      <guid isPermaLink="false">ba3415b80726bb393874e409ca8e5f5c</guid>
-    </item>
-    <item>
-      <title>A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal</title>
-      <link>https://huggingface.co/papers/2609.21996</link>
-      <description>Large language models can hold knowledge they do not report.</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.21996">Hugging Face Papers</source>
-      <guid isPermaLink="false">6a4ffa2e8975599556ddaefcafa676d8</guid>
-    </item>
-    <item>
-      <title>Streaming Video Editing with Easy Adaptation</title>
-      <link>https://huggingface.co/papers/2609.24788</link>
-      <description>In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in…</description>
-      <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.24788">Hugging Face Papers</source>
-      <guid isPermaLink="false">d3608a8226dc37b0ebb4c70e5e1785ea</guid>
     </item>
   </channel>
 </rss>
