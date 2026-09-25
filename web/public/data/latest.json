@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-24",
-  "generated_at": "2026-09-24T10:00:43.929746+09:00",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T10:06:57.024940+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,53 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "6bdc55955deb110cce330d81ecbc6c62",
+          "id": "bf1921fdda2155770559439eb0c8c816",
           "index": 1,
-          "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-          "title_ko": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-          "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
-          "summary_ko": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the…",
-          "url": "https://huggingface.co/papers/2609.25804",
+          "title": "PACT: From Credit Assignment to Critic Alignment",
+          "title_ko": "PACT: From Credit Assignment to Critic Alignment",
+          "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used tra…",
+          "summary_ko": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leavi…",
+          "url": "https://huggingface.co/papers/2609.26355",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-23T09:00:00+09:00",
-          "popularity": 248,
-          "upvotes": 111,
-          "score": 24.55,
-          "importance_score": 16.55,
+          "published_at": "2026-09-24T09:00:00+09:00",
+          "popularity": 40,
+          "upvotes": 15,
+          "score": 23.14,
+          "importance_score": 11.14,
           "matched_keywords": [
+            "ai",
             "llm",
-            "agent"
+            "reinforcement learning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 111
+            "value": 15
           }
         },
         {
-          "id": "4ad8b8f425b46dce65be98e785f7b9c2",
+          "id": "396cbfcc64e83a534cd19c73aebdaca5",
           "index": 2,
-          "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-          "title_ko": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-          "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-          "summary_ko": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-          "url": "https://huggingface.co/papers/2609.25199",
+          "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+          "title_ko": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+          "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
+          "summary_ko": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
+          "url": "https://huggingface.co/papers/2609.23038",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-23T09:00:00+09:00",
-          "popularity": 145,
-          "upvotes": 11,
-          "score": 22.95,
-          "importance_score": 14.95,
+          "published_at": "2026-09-24T09:00:00+09:00",
+          "popularity": 146,
+          "upvotes": 43,
+          "score": 22.97,
+          "importance_score": 14.97,
           "matched_keywords": [
-            "ai",
-            "agent"
+            "reasoning",
+            "vlm"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 11
+            "value": 43
           }
         }
       ]
@@ -66,44 +68,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "0d509be5a37b9fd86ef4391f6844d1d1",
+          "id": "756eabc5267f028f754054d2887268ed",
           "index": 3,
-          "title": "[9월23일] AI 에이전트, 이제야 ‘진짜 개인 비서’에 가까워지나",
+          "title": "오픈AI 에이전트 무단 침입 또 드러나… 피해 전모 파악에 '수개월'",
           "title_ko": null,
-          "summary": "AI 에이전트라는 말이 등장한 지는 벌써 2~3년이 됐습니다. 하지만 최근 들어서야 일반 사용자들이 체감할 만한 서비스가 나오기 시작했습니다.",
+          "summary": "오픈AI의 에이전트들이 데이터 수집 과정에서 사용자의 지시 없이 대학과 기관 사이트를 해킹하려 시도한 사실이 또다시 밝혀졌다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215598",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215648",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-24T07:00:00+09:00",
+          "published_at": "2026-09-25T08:00:37+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.37,
-          "importance_score": 18.75,
+          "score": 19.56,
+          "importance_score": 19.12,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
         },
         {
-          "id": "2fd8bb6303fd719932cae20dd9986bb6",
+          "id": "afa79f52481cb9fe230235e80be83914",
           "index": 4,
-          "title": "새만금개발청, 현대차그룹  'AI 데이터센터' 건축심의 본격 착수",
+          "title": "\"비트 관리에서 토큰 가치 관리로\"...中통신사 사업모델 전환",
           "title_ko": null,
-          "summary": "새만금개발청(청장 문성요)은 새만금 1산단 7공구에 착공하는 현대자동차그룹의 인공지능(AI) 데이터센터(AI DC) 건축계획(안)에 대한 건축심의에 착수했다고 24일 밝혔다. 현대자동차그룹은 지난 2월 27일 자율자동차와 로봇 학습을 지원하기 위해 그래픽처리장치(GPU) 5만장을 투입해 새만금에 5조8000억원 규모의 AI DC를 구축하는 등 약 9조원을 투자하기로 발표한 바 있다.",
+          "summary": "[지디넷코리아]데이터 사용량을 비트 단위로 관리해온 통신사들이 생성형 AI 시대를 맞아 토큰을 새로운 사업 단위로 주목하고 있다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260922000449",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20260925064726",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-24T08:00:00+09:00",
-          "popularity": 97,
+          "published_at": "2026-09-25T08:00:02+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.28,
-          "importance_score": 18.86,
+          "score": 22.56,
+          "importance_score": 19.12,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         }
@@ -124,11 +127,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-24T05:55:55+09:00",
-          "popularity": 388,
-          "upvotes": 388,
-          "score": 36.02,
-          "importance_score": 29.17,
+          "published_at": "2026-09-25T09:32:27+09:00",
+          "popularity": 506,
+          "upvotes": 506,
+          "score": 37.68,
+          "importance_score": 31.56,
           "matched_keywords": [
             "ai",
             "llm",
@@ -136,32 +139,32 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 388
+            "value": 506
           }
         },
         {
-          "id": "ccfaeba0af74198239a38d672699bf7d",
+          "id": "4683cd570ef39debe973a0779c44d0d5",
           "index": 6,
-          "title": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-          "title_ko": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-          "summary": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-          "summary_ko": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-          "url": "https://github.com/Alex314618-create/JevRev",
+          "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "url": "https://github.com/yetone/magpie",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-24T01:23:14+09:00",
-          "popularity": 219,
-          "upvotes": 219,
-          "score": 30.08,
-          "importance_score": 25.28,
+          "published_at": "2026-09-25T09:37:54+09:00",
+          "popularity": 629,
+          "upvotes": 629,
+          "score": 35.46,
+          "importance_score": 32.36,
           "matched_keywords": [
-            "ai",
-            "llm"
+            "agent",
+            "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 219
+            "value": 629
           }
         }
       ]
@@ -171,25 +174,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "fc98f7585798131fb80bd8812c445fa8",
+          "id": "6d2a17adcbc68a71d0322cbf2115b611",
           "index": 7,
-          "title": "OpenAI, API 가격을 절반으로 낮춘 GPT-6 Sol과 Luna 출시: 추론 강도별 과제당 비용으로 본 성능과 정렬",
+          "title": "Claude Opus 5.5 프롬프팅 & 마이그레이션 가이드: Anthropic이 공개한, Opus 5, 4.x, Sonnet 5 코드를 400 오류 없이 옮기는 법",
           "title_ko": null,
-          "summary": "GPT-6 Sol과 Luna 소개 OpenAI 가 2026년 9월 22일, GPT-6 제품군의 중간 티어 GPT-6 Sol 과 경량 티어 GPT-6 Luna 를 공개했습니다.",
+          "summary": "Claude Opus 5.5 마이그레이션 가이드 소개 Anthropic 의 Claude Opus 5.5 마이그레이션 가이드 는 기존 Messages API 코드를 claude-opus-5-5 로 옮길 때 바꿔야 하는 요청 설정과 응답 처리 코드를 출발 모델별로 정리한 공식 문서입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989",
+          "url": "https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-23T10:30:30+09:00",
-          "popularity": 96,
+          "published_at": "2026-09-24T18:30:50+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 20.7,
-          "importance_score": 9.81,
+          "score": 19.75,
+          "importance_score": 13.5,
           "matched_keywords": [
-            "ai",
-            "gpt",
-            "추론"
+            "claude",
+            "모델"
           ],
           "engagement": null
         }
@@ -198,94 +200,97 @@
   ],
   "items": [
     {
-      "id": "6bdc55955deb110cce330d81ecbc6c62",
+      "id": "bf1921fdda2155770559439eb0c8c816",
       "index": 1,
-      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "title_ko": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run.",
-      "summary_ko": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the…",
-      "url": "https://huggingface.co/papers/2609.25804",
+      "title": "PACT: From Credit Assignment to Critic Alignment",
+      "title_ko": "PACT: From Credit Assignment to Critic Alignment",
+      "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used tra…",
+      "summary_ko": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leavi…",
+      "url": "https://huggingface.co/papers/2609.26355",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-23T09:00:00+09:00",
-      "popularity": 248,
-      "upvotes": 111,
-      "score": 24.55,
-      "importance_score": 16.55,
-      "matched_keywords": [
-        "llm",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 111
-      }
-    },
-    {
-      "id": "4ad8b8f425b46dce65be98e785f7b9c2",
-      "index": 2,
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "title_ko": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "summary_ko": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "url": "https://huggingface.co/papers/2609.25199",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-23T09:00:00+09:00",
-      "popularity": 145,
-      "upvotes": 11,
-      "score": 22.95,
-      "importance_score": 14.95,
+      "published_at": "2026-09-24T09:00:00+09:00",
+      "popularity": 40,
+      "upvotes": 15,
+      "score": 23.14,
+      "importance_score": 11.14,
       "matched_keywords": [
         "ai",
-        "agent"
+        "llm",
+        "reinforcement learning",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 11
+        "value": 15
       }
     },
     {
-      "id": "0d509be5a37b9fd86ef4391f6844d1d1",
+      "id": "396cbfcc64e83a534cd19c73aebdaca5",
+      "index": 2,
+      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "title_ko": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
+      "summary_ko": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
+      "url": "https://huggingface.co/papers/2609.23038",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-24T09:00:00+09:00",
+      "popularity": 146,
+      "upvotes": 43,
+      "score": 22.97,
+      "importance_score": 14.97,
+      "matched_keywords": [
+        "reasoning",
+        "vlm"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 43
+      }
+    },
+    {
+      "id": "756eabc5267f028f754054d2887268ed",
       "index": 3,
-      "title": "[9월23일] AI 에이전트, 이제야 ‘진짜 개인 비서’에 가까워지나",
+      "title": "오픈AI 에이전트 무단 침입 또 드러나… 피해 전모 파악에 '수개월'",
       "title_ko": null,
-      "summary": "AI 에이전트라는 말이 등장한 지는 벌써 2~3년이 됐습니다. 하지만 최근 들어서야 일반 사용자들이 체감할 만한 서비스가 나오기 시작했습니다.",
+      "summary": "오픈AI의 에이전트들이 데이터 수집 과정에서 사용자의 지시 없이 대학과 기관 사이트를 해킹하려 시도한 사실이 또다시 밝혀졌다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215598",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215648",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-24T07:00:00+09:00",
+      "published_at": "2026-09-25T08:00:37+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.37,
-      "importance_score": 18.75,
+      "score": 19.56,
+      "importance_score": 19.12,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "2fd8bb6303fd719932cae20dd9986bb6",
+      "id": "afa79f52481cb9fe230235e80be83914",
       "index": 4,
-      "title": "새만금개발청, 현대차그룹  'AI 데이터센터' 건축심의 본격 착수",
+      "title": "\"비트 관리에서 토큰 가치 관리로\"...中통신사 사업모델 전환",
       "title_ko": null,
-      "summary": "새만금개발청(청장 문성요)은 새만금 1산단 7공구에 착공하는 현대자동차그룹의 인공지능(AI) 데이터센터(AI DC) 건축계획(안)에 대한 건축심의에 착수했다고 24일 밝혔다. 현대자동차그룹은 지난 2월 27일 자율자동차와 로봇 학습을 지원하기 위해 그래픽처리장치(GPU) 5만장을 투입해 새만금에 5조8000억원 규모의 AI DC를 구축하는 등 약 9조원을 투자하기로 발표한 바 있다.",
+      "summary": "[지디넷코리아]데이터 사용량을 비트 단위로 관리해온 통신사들이 생성형 AI 시대를 맞아 토큰을 새로운 사업 단위로 주목하고 있다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260922000449",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20260925064726",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-24T08:00:00+09:00",
-      "popularity": 97,
+      "published_at": "2026-09-25T08:00:02+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.28,
-      "importance_score": 18.86,
+      "score": 22.56,
+      "importance_score": 19.12,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
@@ -300,11 +305,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-24T05:55:55+09:00",
-      "popularity": 388,
-      "upvotes": 388,
-      "score": 36.02,
-      "importance_score": 29.17,
+      "published_at": "2026-09-25T09:32:27+09:00",
+      "popularity": 506,
+      "upvotes": 506,
+      "score": 37.68,
+      "importance_score": 31.56,
       "matched_keywords": [
         "ai",
         "llm",
@@ -312,54 +317,53 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 388
+        "value": 506
       }
     },
     {
-      "id": "ccfaeba0af74198239a38d672699bf7d",
+      "id": "4683cd570ef39debe973a0779c44d0d5",
       "index": 6,
-      "title": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-      "title_ko": "Alex314618-create/JevRev — An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-      "summary": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-      "summary_ko": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside.",
-      "url": "https://github.com/Alex314618-create/JevRev",
+      "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-24T01:23:14+09:00",
-      "popularity": 219,
-      "upvotes": 219,
-      "score": 30.08,
-      "importance_score": 25.28,
+      "published_at": "2026-09-25T09:37:54+09:00",
+      "popularity": 629,
+      "upvotes": 629,
+      "score": 35.46,
+      "importance_score": 32.36,
       "matched_keywords": [
-        "ai",
-        "llm"
+        "agent",
+        "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 219
+        "value": 629
       }
     },
     {
-      "id": "fc98f7585798131fb80bd8812c445fa8",
+      "id": "6d2a17adcbc68a71d0322cbf2115b611",
       "index": 7,
-      "title": "OpenAI, API 가격을 절반으로 낮춘 GPT-6 Sol과 Luna 출시: 추론 강도별 과제당 비용으로 본 성능과 정렬",
+      "title": "Claude Opus 5.5 프롬프팅 & 마이그레이션 가이드: Anthropic이 공개한, Opus 5, 4.x, Sonnet 5 코드를 400 오류 없이 옮기는 법",
       "title_ko": null,
-      "summary": "GPT-6 Sol과 Luna 소개 OpenAI 가 2026년 9월 22일, GPT-6 제품군의 중간 티어 GPT-6 Sol 과 경량 티어 GPT-6 Luna 를 공개했습니다.",
+      "summary": "Claude Opus 5.5 마이그레이션 가이드 소개 Anthropic 의 Claude Opus 5.5 마이그레이션 가이드 는 기존 Messages API 코드를 claude-opus-5-5 로 옮길 때 바꿔야 하는 요청 설정과 응답 처리 코드를 출발 모델별로 정리한 공식 문서입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989",
+      "url": "https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-23T10:30:30+09:00",
-      "popularity": 96,
+      "published_at": "2026-09-24T18:30:50+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 20.7,
-      "importance_score": 9.81,
+      "score": 19.75,
+      "importance_score": 13.5,
       "matched_keywords": [
-        "ai",
-        "gpt",
-        "추론"
+        "claude",
+        "모델"
       ],
       "engagement": null
     }
