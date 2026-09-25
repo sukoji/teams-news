@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 25 Sep 2026 10:13:04 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 16:16:53 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM Semantic Router팀, Jev와 유사한 Decision 1.0 기능 및 6개 모델, Decision Studio 공개</title>
+      <link>https://discuss.pytorch.kr/t/vllm-semantic-router-jev-decision-1-0-6-decision-studio/12005</link>
+      <description>Decision 1.0과 Decision Studio 소개 vLLM Semantic Router 팀이 공개한 Decision 1.0 은 문장을 생성하는 대신, 애플리케이션이 제시한 선택지와 판단 기준에 대해 확률을 반환하는 6개 공개 가중치 모델입니다. 사용자는 같은 고객 문의를 두고 담당 부서를 고르거나, 환불 요청이 있는지 확인하거나, 긴급도를 매기는 질문을 각각 정의할 수 있습니다.</description>
+      <pubDate>Fri, 25 Sep 2026 10:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-semantic-router-jev-decision-1-0-6-decision-studio/12005">PyTorch Korea</source>
+      <guid isPermaLink="false">cb32a4b97d2d4b8c19f811b32940ca0e</guid>
+    </item>
     <item>
       <title>Claude Opus 5.5 프롬프팅 &amp; 마이그레이션 가이드: Anthropic이 공개한, Opus 5, 4.x, Sonnet 5 코드를 400 오류 없이 옮기는 법</title>
       <link>https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883">PyTorch Korea</source>
       <guid isPermaLink="false">9d2d14ec5bb8585d117fd88a8eea94b0</guid>
-    </item>
-    <item>
-      <title>Paw Work: 보고 있는 웹 페이지에서 고른 요소를 편집 가능한 오피스 파일로 바꾸는 크롬 확장</title>
-      <link>https://discuss.pytorch.kr/t/paw-work/11879</link>
-      <description>Paw Work 소개 로그인해서 보고 있는 페이지의 내용을 표나 문서로 정리하는 일은 아직 손으로 복사해 붙이는 작업으로 남아 있습니다. 브라우저를 다루는 AI 에이전트는 여러 갈래로 나왔지만, 별도의 헤드리스(Headless) 브라우저를 새로 띄우거나 브라우저 자체를 갈아타는 형태가 많아서 이미 로그인해 둔 세션과 지금 화면에 떠 있는 페이지를 그대로 쓰기 어렵습니다.</description>
-      <pubDate>Thu, 10 Sep 2026 20:30:07 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/paw-work/11879">PyTorch Korea</source>
-      <guid isPermaLink="false">9d599125a6d4f81f228eba880bcef32d</guid>
     </item>
   </channel>
 </rss>
