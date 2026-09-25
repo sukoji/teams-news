@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 25 Sep 2026 22:21:39 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 03:18:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Mac에서 PyTorch MPS OOM이 났을 때: 캐시를 비우기 전에 확인할 것</title>
+      <link>https://discuss.pytorch.kr/t/mac-pytorch-mps-oom/12015</link>
+      <description>Apple Silicon Mac에서 모델을 돌리다가 MPS backend out of memory 를 만났다면, 먼저 메모리 수치를 구분해 보자. 이 글은 MPS 메모리의 범위, 살아 있는 텐서와 캐시의 차이, 학습·추론 코드에서 메모리를 줄이는 순서를 다룬다. Mac에서 PyTorch를 쓰다 OOM이 나면 torch.mps.empty_cache() 부터 찾기 쉽습니다.</description>
+      <pubDate>Fri, 25 Sep 2026 23:40:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mac-pytorch-mps-oom/12015">PyTorch Korea</source>
+      <guid isPermaLink="false">2f88204b098f545e170a0ab90cf9fcef</guid>
+    </item>
     <item>
       <title>vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)</title>
       <link>https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/a2a-1-a2a/11892">PyTorch Korea</source>
       <guid isPermaLink="false">4a08d2df29ec9e3a92939a4564d32ee5</guid>
-    </item>
-    <item>
-      <title>MAPL-EMIT: 합성 플룸 360만 개로 학습해 전문가보다 1.5배 많은 메탄 누출을 찾아낸 위성 탐지 모델 (feat. Google, NASA JPL)</title>
-      <link>https://discuss.pytorch.kr/t/mapl-emit-360-1-5-feat-google-nasa-jpl/11882</link>
-      <description>MAPL-EMIT 소개 MAPL-EMIT(Methane Analysis and Plume Localization with EMIT) 는 Google Research 와 NASA 제트추진연구소(JPL) 가 함께 만든 딥러닝 모델로, 국제우주정거장에 실린 초분광 관측 장비가 찍은 원본 복사휘도(radiance)에서 메탄 누출 지점을 자동으로 찾아냅니다.</description>
-      <pubDate>Fri, 11 Sep 2026 11:00:12 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/mapl-emit-360-1-5-feat-google-nasa-jpl/11882">PyTorch Korea</source>
-      <guid isPermaLink="false">49d2b03a84b65b6546b24094f6a441e1</guid>
     </item>
   </channel>
 </rss>
