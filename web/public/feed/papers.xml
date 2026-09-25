@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 25 Sep 2026 16:16:53 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 22:21:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Coding Agents for Generalized Task and Motion Planning Problems</title>
+      <link>https://huggingface.co/papers/2609.30233</link>
+      <description>Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinem…</description>
+      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.30233">Hugging Face Papers</source>
+      <guid isPermaLink="false">7cf89289d7d9cecb218a4afb63287702</guid>
+    </item>
+    <item>
+      <title>Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures</title>
+      <link>https://huggingface.co/papers/2609.29429</link>
+      <description>Detectors of alignment failures screen deployed language models and score alignment benchmarks.</description>
+      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.29429">Hugging Face Papers</source>
+      <guid isPermaLink="false">7b0b3c53edeabf8ea881d59cd8d7992b</guid>
+    </item>
+    <item>
+      <title>Parts-of-Speech as Emergent Categories in SAE Latent Space</title>
+      <link>https://huggingface.co/papers/2609.29362</link>
+      <description>Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose.</description>
+      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.29362">Hugging Face Papers</source>
+      <guid isPermaLink="false">628049f2c7955ff4fc69b5cdceb52d31</guid>
+    </item>
+    <item>
+      <title>Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs</title>
+      <link>https://huggingface.co/papers/2609.29845</link>
+      <description>While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text stream…</description>
+      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.29845">Hugging Face Papers</source>
+      <guid isPermaLink="false">e532c709e5f2b31eb08c5053e6dc9b3f</guid>
+    </item>
     <item>
       <title>Training Object Permanence in World Models</title>
       <link>https://huggingface.co/papers/2609.28654</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.26550">Hugging Face Papers</source>
       <guid isPermaLink="false">0410c783f739f3fa8434543dcd3c548c</guid>
-    </item>
-    <item>
-      <title>Agensh: Scaling Organizational Intelligence to 1,024 Agents</title>
-      <link>https://huggingface.co/papers/2609.26781</link>
-      <description>A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems.</description>
-      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.26781">Hugging Face Papers</source>
-      <guid isPermaLink="false">2c4dbc0b5a4d00cb740c6fbe02c189cd</guid>
-    </item>
-    <item>
-      <title>Embedding Physics Priors in Robot Learning: A Survey</title>
-      <link>https://huggingface.co/papers/2609.22319</link>
-      <description>The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches.</description>
-      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.22319">Hugging Face Papers</source>
-      <guid isPermaLink="false">3fa8d9710e58374bd9df76f05ca09f61</guid>
-    </item>
-    <item>
-      <title>Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts</title>
-      <link>https://huggingface.co/papers/2609.06011</link>
-      <description>Tri-PvP benchmark reveals visual bias and asymmetric evidence-form preferences in omni-modal language models, with early-layer decodable modality effects resistant to surface miti…</description>
-      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.06011">Hugging Face Papers</source>
-      <guid isPermaLink="false">6e15b4216bc2d46a9505bf6a25b3ed0e</guid>
-    </item>
-    <item>
-      <title>LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay</title>
-      <link>https://huggingface.co/papers/2609.25053</link>
-      <description>Can one language model hand its live memory to another without the receiver rereading the context?</description>
-      <pubDate>Wed, 23 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.25053">Hugging Face Papers</source>
-      <guid isPermaLink="false">5c7512f2abf53bb10a12f33a8b2529bd</guid>
     </item>
   </channel>
 </rss>

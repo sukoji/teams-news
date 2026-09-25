@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 25 Sep 2026 16:16:53 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 22:21:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)</title>
+      <link>https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012</link>
+      <description>모델 파일에는 그 모델을 어떻게 돌려야 하는지가 적혀 있습니다(RoPE 밑과 스케일링, soft-capping, sliding window, 채팅 템플릿). 이 선언이 엔진에 닿지 않아도 아무것도 실패하지 않고, 출력은 매끄럽게 틀립니다. Hugging Face에서 가장 많이 받는 텍스트 생성 모델 300개의 설정을 vLLM 0.30이 하는 방식 그대로 만들어 봤습니다.</description>
+      <pubDate>Fri, 25 Sep 2026 17:08:02 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012">PyTorch Korea</source>
+      <guid isPermaLink="false">fcd39c4bd8319199753c9d0d708bffd7</guid>
+    </item>
+    <item>
+      <title>Jev 생태계: Jev 모델 기반의 GitHub 프로젝트 1천여개를 23개 분야로 정리한 프로젝트 목록</title>
+      <link>https://discuss.pytorch.kr/t/jev-jev-github-1-23/12003</link>
+      <description>Jev 생태계 프로젝트 목록 소개 Jev는 TypeSafe AI 가 공개한 첫 System One 모델입니다. 앱이 현재 상태와 타입이 정해진 질문을 보내면, Jev는 긴 문장 대신 선택지(Choice), 점수(Score), 참일 확률(Noul)처럼 코드가 바로 다룰 수 있는 결과를 돌려줍니다.</description>
+      <pubDate>Fri, 25 Sep 2026 18:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-jev-github-1-23/12003">PyTorch Korea</source>
+      <guid isPermaLink="false">7490936ed37898e81afcf4e6576ca57d</guid>
+    </item>
     <item>
       <title>vLLM Semantic Router팀, Jev와 유사한 Decision 1.0 기능 및 6개 모델, Decision Studio 공개</title>
       <link>https://discuss.pytorch.kr/t/vllm-semantic-router-jev-decision-1-0-6-decision-studio/12005</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mapl-emit-360-1-5-feat-google-nasa-jpl/11882">PyTorch Korea</source>
       <guid isPermaLink="false">49d2b03a84b65b6546b24094f6a441e1</guid>
-    </item>
-    <item>
-      <title>DeepSeek-V4.1-Flash, KV 캐시를 토큰당 890바이트로 줄이고 플래그십 V4-Pro를 대체하는 552B 규모의 MoE 모델</title>
-      <link>https://discuss.pytorch.kr/t/deepseek-v4-1-flash-kv-890-v4-pro-552b-moe/11886</link>
-      <description>DeepSeek-V4.1-Flash 소개 DeepSeek 이 2026년 9월 10일 DeepSeek-V4.1-Flash 를 공개했습니다. 백본 552B 규모의 멀티모달 전문가 혼합(Mixture-of-Experts, MoE) 모델로, 이미지와 텍스트를 함께 입력받아 텍스트를 생성하며 최대 100만 토큰 컨텍스트를 지원합니다. 이 모델의 핵심 주장은 성능이 아니라 비용 구조 에 있습니다.</description>
-      <pubDate>Fri, 11 Sep 2026 14:00:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/deepseek-v4-1-flash-kv-890-v4-pro-552b-moe/11886">PyTorch Korea</source>
-      <guid isPermaLink="false">9651695cf94bc3187dea3a1dc06cca21</guid>
-    </item>
-    <item>
-      <title>E-P-D 분리 서빙: 비전 인코더를 떼어내 TTFT를 최대 93% 줄이는 조건과 오히려 느려지는 조건 (feat. NVIDIA Dynamo)</title>
-      <link>https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883</link>
-      <description>Encode-Prefill-Decode(EPD) 분리 서빙 소개 Encode-Prefill-Decode 분리(EPD Disaggregation) 는 멀티모달 모델을 서빙할 때 비전 인코더 단계를 프리필(prefill)과 디코드(decode) 단계에서 떼어내 독립적인 워커로 실행하는 추론(inference) 최적화 기법입니다.</description>
-      <pubDate>Fri, 11 Sep 2026 07:00:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/e-p-d-ttft-93-feat-nvidia-dynamo/11883">PyTorch Korea</source>
-      <guid isPermaLink="false">9d2d14ec5bb8585d117fd88a8eea94b0</guid>
     </item>
   </channel>
 </rss>
