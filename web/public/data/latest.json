@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-25",
-  "generated_at": "2026-09-25T10:06:57.024940+09:00",
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T10:08:24.408981+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "bf1921fdda2155770559439eb0c8c816",
+          "id": "47c3c5461094d71aace416c1044f7e7d",
           "index": 1,
-          "title": "PACT: From Credit Assignment to Critic Alignment",
-          "title_ko": "PACT: From Credit Assignment to Critic Alignment",
-          "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used tra…",
-          "summary_ko": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leavi…",
-          "url": "https://huggingface.co/papers/2609.26355",
+          "title": "Training Object Permanence in World Models",
+          "title_ko": "Training Object Permanence in World Models",
+          "summary": "Object permanence and solidity are hallmarks of human cognitive priors.",
+          "summary_ko": "Object permanence and solidity are hallmarks of human cognitive priors.",
+          "url": "https://huggingface.co/papers/2609.28654",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-24T09:00:00+09:00",
-          "popularity": 40,
-          "upvotes": 15,
-          "score": 23.14,
-          "importance_score": 11.14,
+          "published_at": "2026-09-25T09:00:00+09:00",
+          "popularity": 381,
+          "upvotes": 184,
+          "score": 27.84,
+          "importance_score": 17.84,
           "matched_keywords": [
             "ai",
             "llm",
-            "reinforcement learning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 15
+            "value": 184
           }
         },
         {
-          "id": "396cbfcc64e83a534cd19c73aebdaca5",
+          "id": "283ed46fc3421d439c7c8ae95693982e",
           "index": 2,
-          "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
-          "title_ko": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
-          "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
-          "summary_ko": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
-          "url": "https://huggingface.co/papers/2609.23038",
+          "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "title_ko": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding A…",
+          "summary_ko": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instructi…",
+          "url": "https://huggingface.co/papers/2609.29421",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-24T09:00:00+09:00",
-          "popularity": 146,
-          "upvotes": 43,
-          "score": 22.97,
-          "importance_score": 14.97,
+          "published_at": "2026-09-25T09:00:00+09:00",
+          "popularity": 19,
+          "upvotes": 7,
+          "score": 22.99,
+          "importance_score": 8.99,
           "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
             "reasoning",
-            "vlm"
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 43
+            "value": 7
           }
         }
       ]
@@ -68,45 +70,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "756eabc5267f028f754054d2887268ed",
+          "id": "451656c41b41a579ffeb144278111455",
           "index": 3,
-          "title": "오픈AI 에이전트 무단 침입 또 드러나… 피해 전모 파악에 '수개월'",
+          "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어서는 '전용 배포 제품' 선보인다",
           "title_ko": null,
-          "summary": "오픈AI의 에이전트들이 데이터 수집 과정에서 사용자의 지시 없이 대학과 기관 사이트를 해킹하려 시도한 사실이 또다시 밝혀졌다.",
+          "summary": "오픈AI가 최신 사이버 보안 전용 모델 \\'GPT-6 사이버(Cyber)\\'를 몇주 안에 공개하고, 기존 모델 API 공급 방식에서 벗어나 고객이 모델을 더 안전하고 자동화된 방식으로 배포 및 운용할 수 있도록 지원하는 최초의 사이버 보안 전용 제품을 선보인다.포춘은 24일(현지시간) 소식통을 인용해 오픈AI가 오는 29일 미국 샌프란시스코에서 열리는 \\'데브데이 2026\\'에서 GPT-6…",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215648",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215667",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-25T08:00:37+09:00",
+          "published_at": "2026-09-26T08:57:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.56,
-          "importance_score": 19.12,
+          "score": 25.75,
+          "importance_score": 19.5,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "gpt",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "afa79f52481cb9fe230235e80be83914",
+          "id": "ea13eb665f58b23bce97a8a6ab1f2abb",
           "index": 4,
-          "title": "\"비트 관리에서 토큰 가치 관리로\"...中통신사 사업모델 전환",
+          "title": "운동 멈추면 독설 폭격…27년 된 장난감의 변신",
           "title_ko": null,
-          "summary": "[지디넷코리아]데이터 사용량을 비트 단위로 관리해온 통신사들이 생성형 AI 시대를 맞아 토큰을 새로운 사업 단위로 주목하고 있다.",
+          "summary": "운동을 멈추려고 할 때마다 독설을 쏟아내는 'AI 물고기 트레이너'가 등장했습니다. 콘텐츠 제작자 'gptars'는 최근 27년 된 물고기 장난감 '빅 마우스 빌리 배스'에 AI를 적용해 운동 트레이너로 개조한 영상을 공개했습니다. 영상에서 사용자가 덤벨 운동을 시작하면 물고기는 입을 움직이며 계속 반복하라고 지시합니다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20260925064726",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20260923000161",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-25T08:00:02+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-26T06:00:00+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 22.56,
-          "importance_score": 19.12,
+          "score": 21.94,
+          "importance_score": 18.08,
           "matched_keywords": [
             "ai",
-            "모델"
+            "gpt"
           ],
           "engagement": null
         }
@@ -117,8 +121,33 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "bffcda8963a87a2bf05780bb373b8d1f",
+          "id": "4683cd570ef39debe973a0779c44d0d5",
           "index": 5,
+          "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "url": "https://github.com/yetone/magpie",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-09-26T04:54:44+09:00",
+          "popularity": 802,
+          "upvotes": 802,
+          "score": 35.32,
+          "importance_score": 31.23,
+          "matched_keywords": [
+            "agent",
+            "claude"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 802
+          }
+        },
+        {
+          "id": "bffcda8963a87a2bf05780bb373b8d1f",
+          "index": 6,
           "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
           "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
           "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
@@ -128,10 +157,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-09-25T09:32:27+09:00",
-          "popularity": 506,
-          "upvotes": 506,
-          "score": 37.68,
-          "importance_score": 31.56,
+          "popularity": 705,
+          "upvotes": 705,
+          "score": 33.96,
+          "importance_score": 22.96,
           "matched_keywords": [
             "ai",
             "llm",
@@ -139,32 +168,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 506
-          }
-        },
-        {
-          "id": "4683cd570ef39debe973a0779c44d0d5",
-          "index": 6,
-          "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "url": "https://github.com/yetone/magpie",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-25T09:37:54+09:00",
-          "popularity": 629,
-          "upvotes": 629,
-          "score": 35.46,
-          "importance_score": 32.36,
-          "matched_keywords": [
-            "agent",
-            "claude"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 629
+            "value": 705
           }
         }
       ]
@@ -174,23 +178,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "6d2a17adcbc68a71d0322cbf2115b611",
+          "id": "fcd39c4bd8319199753c9d0d708bffd7",
           "index": 7,
-          "title": "Claude Opus 5.5 프롬프팅 & 마이그레이션 가이드: Anthropic이 공개한, Opus 5, 4.x, Sonnet 5 코드를 400 오류 없이 옮기는 법",
+          "title": "vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)",
           "title_ko": null,
-          "summary": "Claude Opus 5.5 마이그레이션 가이드 소개 Anthropic 의 Claude Opus 5.5 마이그레이션 가이드 는 기존 Messages API 코드를 claude-opus-5-5 로 옮길 때 바꿔야 하는 요청 설정과 응답 처리 코드를 출발 모델별로 정리한 공식 문서입니다.",
+          "summary": "모델 파일에는 그 모델을 어떻게 돌려야 하는지가 적혀 있습니다(RoPE 밑과 스케일링, soft-capping, sliding window, 채팅 템플릿). 이 선언이 엔진에 닿지 않아도 아무것도 실패하지 않고, 출력은 매끄럽게 틀립니다. Hugging Face에서 가장 많이 받는 텍스트 생성 모델 300개의 설정을 vLLM 0.30이 하는 방식 그대로 만들어 봤습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002",
+          "url": "https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-24T18:30:50+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-25T17:08:02+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 19.75,
-          "importance_score": 13.5,
+          "score": 22.26,
+          "importance_score": 12.71,
           "matched_keywords": [
-            "claude",
+            "ai",
+            "llm",
             "모델"
           ],
           "engagement": null
@@ -200,103 +205,132 @@
   ],
   "items": [
     {
-      "id": "bf1921fdda2155770559439eb0c8c816",
+      "id": "47c3c5461094d71aace416c1044f7e7d",
       "index": 1,
-      "title": "PACT: From Credit Assignment to Critic Alignment",
-      "title_ko": "PACT: From Credit Assignment to Critic Alignment",
-      "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used tra…",
-      "summary_ko": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leavi…",
-      "url": "https://huggingface.co/papers/2609.26355",
+      "title": "Training Object Permanence in World Models",
+      "title_ko": "Training Object Permanence in World Models",
+      "summary": "Object permanence and solidity are hallmarks of human cognitive priors.",
+      "summary_ko": "Object permanence and solidity are hallmarks of human cognitive priors.",
+      "url": "https://huggingface.co/papers/2609.28654",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-24T09:00:00+09:00",
-      "popularity": 40,
-      "upvotes": 15,
-      "score": 23.14,
-      "importance_score": 11.14,
+      "published_at": "2026-09-25T09:00:00+09:00",
+      "popularity": 381,
+      "upvotes": 184,
+      "score": 27.84,
+      "importance_score": 17.84,
       "matched_keywords": [
         "ai",
         "llm",
-        "reinforcement learning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 15
+        "value": 184
       }
     },
     {
-      "id": "396cbfcc64e83a534cd19c73aebdaca5",
+      "id": "283ed46fc3421d439c7c8ae95693982e",
       "index": 2,
-      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
-      "title_ko": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
-      "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
-      "summary_ko": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world.",
-      "url": "https://huggingface.co/papers/2609.23038",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "title_ko": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding A…",
+      "summary_ko": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instructi…",
+      "url": "https://huggingface.co/papers/2609.29421",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-24T09:00:00+09:00",
-      "popularity": 146,
-      "upvotes": 43,
-      "score": 22.97,
-      "importance_score": 14.97,
+      "published_at": "2026-09-25T09:00:00+09:00",
+      "popularity": 19,
+      "upvotes": 7,
+      "score": 22.99,
+      "importance_score": 8.99,
       "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
         "reasoning",
-        "vlm"
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 43
+        "value": 7
       }
     },
     {
-      "id": "756eabc5267f028f754054d2887268ed",
+      "id": "451656c41b41a579ffeb144278111455",
       "index": 3,
-      "title": "오픈AI 에이전트 무단 침입 또 드러나… 피해 전모 파악에 '수개월'",
+      "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어서는 '전용 배포 제품' 선보인다",
       "title_ko": null,
-      "summary": "오픈AI의 에이전트들이 데이터 수집 과정에서 사용자의 지시 없이 대학과 기관 사이트를 해킹하려 시도한 사실이 또다시 밝혀졌다.",
+      "summary": "오픈AI가 최신 사이버 보안 전용 모델 \\'GPT-6 사이버(Cyber)\\'를 몇주 안에 공개하고, 기존 모델 API 공급 방식에서 벗어나 고객이 모델을 더 안전하고 자동화된 방식으로 배포 및 운용할 수 있도록 지원하는 최초의 사이버 보안 전용 제품을 선보인다.포춘은 24일(현지시간) 소식통을 인용해 오픈AI가 오는 29일 미국 샌프란시스코에서 열리는 \\'데브데이 2026\\'에서 GPT-6…",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215648",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215667",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-25T08:00:37+09:00",
+      "published_at": "2026-09-26T08:57:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.56,
-      "importance_score": 19.12,
-      "matched_keywords": [
-        "ai"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "afa79f52481cb9fe230235e80be83914",
-      "index": 4,
-      "title": "\"비트 관리에서 토큰 가치 관리로\"...中통신사 사업모델 전환",
-      "title_ko": null,
-      "summary": "[지디넷코리아]데이터 사용량을 비트 단위로 관리해온 통신사들이 생성형 AI 시대를 맞아 토큰을 새로운 사업 단위로 주목하고 있다.",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20260925064726",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-09-25T08:00:02+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 22.56,
-      "importance_score": 19.12,
+      "score": 25.75,
+      "importance_score": 19.5,
       "matched_keywords": [
         "ai",
+        "gpt",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "bffcda8963a87a2bf05780bb373b8d1f",
+      "id": "ea13eb665f58b23bce97a8a6ab1f2abb",
+      "index": 4,
+      "title": "운동 멈추면 독설 폭격…27년 된 장난감의 변신",
+      "title_ko": null,
+      "summary": "운동을 멈추려고 할 때마다 독설을 쏟아내는 'AI 물고기 트레이너'가 등장했습니다. 콘텐츠 제작자 'gptars'는 최근 27년 된 물고기 장난감 '빅 마우스 빌리 배스'에 AI를 적용해 운동 트레이너로 개조한 영상을 공개했습니다. 영상에서 사용자가 덤벨 운동을 시작하면 물고기는 입을 움직이며 계속 반복하라고 지시합니다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20260923000161",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-09-26T06:00:00+09:00",
+      "popularity": 98,
+      "upvotes": 0,
+      "score": 21.94,
+      "importance_score": 18.08,
+      "matched_keywords": [
+        "ai",
+        "gpt"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "4683cd570ef39debe973a0779c44d0d5",
       "index": 5,
+      "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-26T04:54:44+09:00",
+      "popularity": 802,
+      "upvotes": 802,
+      "score": 35.32,
+      "importance_score": 31.23,
+      "matched_keywords": [
+        "agent",
+        "claude"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 802
+      }
+    },
+    {
+      "id": "bffcda8963a87a2bf05780bb373b8d1f",
+      "index": 6,
       "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
       "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
       "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
@@ -306,10 +340,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-09-25T09:32:27+09:00",
-      "popularity": 506,
-      "upvotes": 506,
-      "score": 37.68,
-      "importance_score": 31.56,
+      "popularity": 705,
+      "upvotes": 705,
+      "score": 33.96,
+      "importance_score": 22.96,
       "matched_keywords": [
         "ai",
         "llm",
@@ -317,52 +351,28 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 506
+        "value": 705
       }
     },
     {
-      "id": "4683cd570ef39debe973a0779c44d0d5",
-      "index": 6,
-      "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "url": "https://github.com/yetone/magpie",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-25T09:37:54+09:00",
-      "popularity": 629,
-      "upvotes": 629,
-      "score": 35.46,
-      "importance_score": 32.36,
-      "matched_keywords": [
-        "agent",
-        "claude"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 629
-      }
-    },
-    {
-      "id": "6d2a17adcbc68a71d0322cbf2115b611",
+      "id": "fcd39c4bd8319199753c9d0d708bffd7",
       "index": 7,
-      "title": "Claude Opus 5.5 프롬프팅 & 마이그레이션 가이드: Anthropic이 공개한, Opus 5, 4.x, Sonnet 5 코드를 400 오류 없이 옮기는 법",
+      "title": "vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)",
       "title_ko": null,
-      "summary": "Claude Opus 5.5 마이그레이션 가이드 소개 Anthropic 의 Claude Opus 5.5 마이그레이션 가이드 는 기존 Messages API 코드를 claude-opus-5-5 로 옮길 때 바꿔야 하는 요청 설정과 응답 처리 코드를 출발 모델별로 정리한 공식 문서입니다.",
+      "summary": "모델 파일에는 그 모델을 어떻게 돌려야 하는지가 적혀 있습니다(RoPE 밑과 스케일링, soft-capping, sliding window, 채팅 템플릿). 이 선언이 엔진에 닿지 않아도 아무것도 실패하지 않고, 출력은 매끄럽게 틀립니다. Hugging Face에서 가장 많이 받는 텍스트 생성 모델 300개의 설정을 vLLM 0.30이 하는 방식 그대로 만들어 봤습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002",
+      "url": "https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-24T18:30:50+09:00",
-      "popularity": 100,
+      "published_at": "2026-09-25T17:08:02+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 19.75,
-      "importance_score": 13.5,
+      "score": 22.26,
+      "importance_score": 12.71,
       "matched_keywords": [
-        "claude",
+        "ai",
+        "llm",
         "모델"
       ],
       "engagement": null
