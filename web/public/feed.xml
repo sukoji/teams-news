@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 27 Sep 2026 16:42:53 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 22:36:37 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>agent-shell: Claude Code, Codex, Gemini CLI를 Emacs 버퍼에서 쓰는 ACP 클라이언트</title>
+      <link>https://discuss.pytorch.kr/t/agent-shell-claude-code-codex-gemini-cli-emacs-acp/12007</link>
+      <description>agent-shell 소개 Claude Code , Codex , Gemini CLI 같은 코딩 에이전트는 각자 자기만의 터미널 화면(TUI)을 가진 CLI로 배포됩니다. 이런 에이전트를 에디터 안에서 쓰려면 에디터와 에이전트의 조합마다 연동을 따로 만들어야 했고, 그런 연동이 없으면 Emacs 안의 터미널 에뮬레이터 버퍼에 에이전트 TUI를 그대로 띄워 쓸 수밖에 없었습니다.</description>
+      <pubDate>Sun, 27 Sep 2026 18:30:27 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agent-shell-claude-code-codex-gemini-cli-emacs-acp/12007">PyTorch Korea</source>
+      <guid isPermaLink="false">29bb37ee17f1b03a9e5a1fb2b92b7b59</guid>
+    </item>
+    <item>
+      <title>GPT-6 아스트라, 물리적 명령에 잇따라 치명적 행위 실행</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=215692</link>
+      <description>오픈AI의 \'GPT-6 아스트라\'가 물리적·로보틱스 시뮬레이션 환경에서 치명적인 유해 명령을 거부하지 않고 수행한 연구 결과들이 잇달아 공개됐다.</description>
+      <pubDate>Sun, 27 Sep 2026 17:39:33 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=215692">AI Times</source>
+      <guid isPermaLink="false">7327dd3521b905952f6b6b9c9bb3424a</guid>
+    </item>
+    <item>
+      <title>llmwiki-serve: Markdown/Obsidian 문서를 코딩 에이전트용 읽기 전용 컨텍스트로 연결하기</title>
+      <link>https://discuss.pytorch.kr/t/llmwiki-serve-markdown-obsidian/12026</link>
+      <description>llmwiki-serve 는 이미 가지고 있는 Markdown, Obsidian 또는 LLMWiki 폴더를 코딩 에이전트가 조회할 수 있는 읽기 전용 Knowledge Source 로 열어주는 로컬 서버입니다. 문서를 새로 생성하는 위키 컴파일러가 아니라, 기존 파일을 그대로 두고 필요한 근거를 CLI, HTTP, MCP로 찾고 읽게 하는 도구입니다.</description>
+      <pubDate>Sun, 27 Sep 2026 21:56:48 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llmwiki-serve-markdown-obsidian/12026">PyTorch Korea</source>
+      <guid isPermaLink="false">49b3bc13b995b6aada46dd5c8686914e</guid>
+    </item>
+    <item>
+      <title>Show GN: 7축 로봇팔 개발 프로젝트 - 스텝 드라이버 개발</title>
+      <link>https://news.hada.io/topic?id=34361</link>
+      <description>개인 프로젝트인 7축 로봇팔의 모터 드라이버를 직접 설계, 제작한 이야기입니다. 모든 회로는 직접 데이터시트 하나하나 읽고 소자 하나하나 비교하며 제작하였습니다.. AI 딸깍이 아니죠 후후 아래는 드라이버가 제 역할을 하는 모습입니다.</description>
+      <pubDate>Sun, 27 Sep 2026 21:58:28 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=34361">GeekNews</source>
+      <guid isPermaLink="false">a4ce3a001a7b65661a08cb1f881bf076</guid>
+    </item>
     <item>
       <title>라이너, 에이전트 연결 도구 '라이너 액션 MCP' 출시…국내 도입 임박</title>
       <link>https://www.aitimes.com/news/articleView.html?idxno=215655</link>
@@ -421,42 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/jev-jev-github-1-23/12003">PyTorch Korea</source>
       <guid isPermaLink="false">7490936ed37898e81afcf4e6576ca57d</guid>
-    </item>
-    <item>
-      <title>'클로드' 국내 AI 앱 2위 굳히기…1위는 챗GPT</title>
-      <link>https://www.etnews.com/20260925000038</link>
-      <description>앤트로픽의 생성형 인공지능(AI) 서비스 '클로드'가 국내 모바일 AI 앱 시장에서 월간 사용자 수와 신규 설치 수 모두 챗GPT에 이어 2위 자리를 굳혔다. 25일 AI 테크기업 아이지에이웍스의 모바일인덱스에 따르면 지난달 안드로이드와 iOS를 합산한 국내 AI·인공지능 앱 월간 사용자 수에서 클로드는 149만9096명으로 오픈AI의 '챗GPT'(1709만9052명)에 이어 2위를 기록했…</description>
-      <pubDate>Fri, 25 Sep 2026 17:33:09 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20260925000038">전자신문 IT</source>
-      <guid isPermaLink="false">820d6c441776eff29dcf8d58d4b34214</guid>
-    </item>
-    <item>
-      <title>Coding Agents for Generalized Task and Motion Planning Problems</title>
-      <link>https://huggingface.co/papers/2609.30233</link>
-      <description>Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinem…</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.30233">Hugging Face Papers</source>
-      <guid isPermaLink="false">7cf89289d7d9cecb218a4afb63287702</guid>
-    </item>
-    <item>
-      <title>Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures</title>
-      <link>https://huggingface.co/papers/2609.29429</link>
-      <description>Detectors of alignment failures screen deployed language models and score alignment benchmarks.</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.29429">Hugging Face Papers</source>
-      <guid isPermaLink="false">7b0b3c53edeabf8ea881d59cd8d7992b</guid>
-    </item>
-    <item>
-      <title>전력 이어 물까지…美 텍사스, 수백개 데이터센터 용수 조사</title>
-      <link>https://zdnet.co.kr/view/?no=20260925082237</link>
-      <description>[지디넷코리아]미국의 인공지능(AI) 데이터센터 투자 중심지인 텍사스주가 전력망과 환경 인허가에 이어 용수 사용에 대한 조사까지 확대했다.24일(현지시간) 블룸버그통신에 따르면 켄 팩스턴 텍사스주 법무장관은 주내 수백개 데이터센터 개발 사업을 대상으로 용수 사용량 보고 의무를 제대로 준수하고 있는지 조사에 착수했다.1차 조사 대상은 휴스턴·샌안토니오·댈러스·포트워스 등이 포함된 18개 카운…</description>
-      <pubDate>Fri, 25 Sep 2026 17:30:01 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20260925082237">ZDNet Korea</source>
-      <guid isPermaLink="false">599bb79a5188e639caf64f4d8d5dc3e8</guid>
     </item>
   </channel>
 </rss>
