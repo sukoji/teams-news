@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-26",
-  "generated_at": "2026-09-26T10:08:24.408981+09:00",
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T10:03:56.435207+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,58 +10,50 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "47c3c5461094d71aace416c1044f7e7d",
+          "id": "bab0428ea62fe783f543c79c28a3503f",
           "index": 1,
-          "title": "Training Object Permanence in World Models",
-          "title_ko": "Training Object Permanence in World Models",
-          "summary": "Object permanence and solidity are hallmarks of human cognitive priors.",
-          "summary_ko": "Object permanence and solidity are hallmarks of human cognitive priors.",
-          "url": "https://huggingface.co/papers/2609.28654",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+          "title_ko": "🤖 AI Agents Weekly: Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+          "summary": "Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+          "summary_ko": "Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-55-gpt",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-25T09:00:00+09:00",
-          "popularity": 381,
-          "upvotes": 184,
-          "score": 27.84,
-          "importance_score": 17.84,
+          "published_at": "2026-09-26T23:55:56+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 24.89,
+          "importance_score": 15.78,
           "matched_keywords": [
             "ai",
-            "llm",
-            "training"
+            "agent",
+            "gpt",
+            "claude"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 184
-          }
+          "engagement": null
         },
         {
-          "id": "283ed46fc3421d439c7c8ae95693982e",
+          "id": "131716efc53aeff2640cd8990a62360d",
           "index": 2,
-          "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-          "title_ko": "Rufus-Air: An Open LLM Post-Training Recipe",
-          "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding A…",
-          "summary_ko": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instructi…",
-          "url": "https://huggingface.co/papers/2609.29421",
-          "source": "Hugging Face Papers",
+          "title": "🥇Top AI Papers of the Week",
+          "title_ko": "🥇Top AI Papers of the Week",
+          "summary": "The Top AI Papers of the Week (September 14 - 20)",
+          "summary_ko": "The Top AI Papers of the Week (September 14 - 20)",
+          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-bca",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-25T09:00:00+09:00",
-          "popularity": 19,
-          "upvotes": 7,
-          "score": 22.99,
-          "importance_score": 8.99,
+          "published_at": "2026-09-21T02:20:29+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 17.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
-            "llm",
-            "agent",
-            "reasoning",
-            "training"
+            "paper"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 7
-          }
+          "engagement": null
         }
       ]
     },
@@ -70,47 +62,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "451656c41b41a579ffeb144278111455",
+          "id": "535f462f6a44454fe30bc6217de6f9db",
           "index": 3,
-          "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어서는 '전용 배포 제품' 선보인다",
+          "title": "오픈AI 에이전트, 미국 정부 사이트까지 뒤졌다…‘에이전트 스팸’도 확인",
           "title_ko": null,
-          "summary": "오픈AI가 최신 사이버 보안 전용 모델 \\'GPT-6 사이버(Cyber)\\'를 몇주 안에 공개하고, 기존 모델 API 공급 방식에서 벗어나 고객이 모델을 더 안전하고 자동화된 방식으로 배포 및 운용할 수 있도록 지원하는 최초의 사이버 보안 전용 제품을 선보인다.포춘은 24일(현지시간) 소식통을 인용해 오픈AI가 오는 29일 미국 샌프란시스코에서 열리는 \\'데브데이 2026\\'에서 GPT-6…",
+          "summary": "오픈AI의 AI 에이전트가 인터넷에서 예상하지 못한 방식으로 외부 웹사이트에 접근하거나 정보를 게시하는 사례가 잇달아 확인됐다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215667",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215679",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-26T08:57:00+09:00",
+          "published_at": "2026-09-27T09:12:01+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.75,
-          "importance_score": 19.5,
+          "score": 19.82,
+          "importance_score": 19.64,
           "matched_keywords": [
-            "ai",
-            "gpt",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "ea13eb665f58b23bce97a8a6ab1f2abb",
+          "id": "6daff726653054e4c2fbca0cf7b70f2a",
           "index": 4,
-          "title": "운동 멈추면 독설 폭격…27년 된 장난감의 변신",
+          "title": "전북도, 현대차 투자 연계 '피지컬AI·청정수소·AI데이터센터' 3대 축 육성",
           "title_ko": null,
-          "summary": "운동을 멈추려고 할 때마다 독설을 쏟아내는 'AI 물고기 트레이너'가 등장했습니다. 콘텐츠 제작자 'gptars'는 최근 27년 된 물고기 장난감 '빅 마우스 빌리 배스'에 AI를 적용해 운동 트레이너로 개조한 영상을 공개했습니다. 영상에서 사용자가 덤벨 운동을 시작하면 물고기는 입을 움직이며 계속 반복하라고 지시합니다.",
+          "summary": "전북특별자치도는 현대자동차그룹의 새만금 투자를 지렛대 삼아 피지컬 인공지능(AI)·로봇, 청정수소, AI데이터센터를 3대 축으로 하는 미래첨단산업 육성에 나선다고 27일 밝혔다. 앵커기업의 투자 효과를 새만금에 가두지 않고 14개 시·군의 산업전환과 상생 성장으로 확산하겠다는 구상이다. 현대차그룹의 새만금 투자 규모는 8조9000억원, 부지는 34만평이다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260923000161",
+          "url": "https://www.etnews.com/20260927000031",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-26T06:00:00+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-27T09:09:36+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 21.94,
-          "importance_score": 18.08,
+          "score": 19.81,
+          "importance_score": 19.62,
           "matched_keywords": [
-            "ai",
-            "gpt"
+            "ai"
           ],
           "engagement": null
         }
@@ -121,8 +110,34 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "4683cd570ef39debe973a0779c44d0d5",
+          "id": "bffcda8963a87a2bf05780bb373b8d1f",
           "index": 5,
+          "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+          "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+          "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
+          "summary_ko": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
+          "url": "https://github.com/nokia-applied-research/AnyJev",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-09-27T05:53:47+09:00",
+          "popularity": 796,
+          "upvotes": 796,
+          "score": 38.51,
+          "importance_score": 31.65,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "training"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 796
+          }
+        },
+        {
+          "id": "4683cd570ef39debe973a0779c44d0d5",
+          "index": 6,
           "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
           "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
           "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
@@ -131,44 +146,18 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-09-26T04:54:44+09:00",
-          "popularity": 802,
-          "upvotes": 802,
-          "score": 35.32,
-          "importance_score": 31.23,
+          "published_at": "2026-09-27T09:44:39+09:00",
+          "popularity": 1026,
+          "upvotes": 1026,
+          "score": 37.2,
+          "importance_score": 34.14,
           "matched_keywords": [
             "agent",
             "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 802
-          }
-        },
-        {
-          "id": "bffcda8963a87a2bf05780bb373b8d1f",
-          "index": 6,
-          "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
-          "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
-          "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
-          "summary_ko": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
-          "url": "https://github.com/nokia-applied-research/AnyJev",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-25T09:32:27+09:00",
-          "popularity": 705,
-          "upvotes": 705,
-          "score": 33.96,
-          "importance_score": 22.96,
-          "matched_keywords": [
-            "ai",
-            "llm",
-            "training"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 705
+            "value": 1026
           }
         }
       ]
@@ -178,25 +167,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "fcd39c4bd8319199753c9d0d708bffd7",
+          "id": "925d88552087050f56053772920bbb3a",
           "index": 7,
-          "title": "vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)",
+          "title": "Andrew Ng의 AI Engineering Skills Map: 코딩 에이전트 활용 역량(Using coding agents)",
           "title_ko": null,
-          "summary": "모델 파일에는 그 모델을 어떻게 돌려야 하는지가 적혀 있습니다(RoPE 밑과 스케일링, soft-capping, sliding window, 채팅 템플릿). 이 선언이 엔진에 닿지 않아도 아무것도 실패하지 않고, 출력은 매끄럽게 틀립니다. Hugging Face에서 가장 많이 받는 텍스트 생성 모델 300개의 설정을 vLLM 0.30이 하는 방식 그대로 만들어 봤습니다.",
+          "summary": "코딩 에이전트를 잘 쓰는 역량 소개 Andrew Ng 는 AI Engineering Skills Map의 세 번째 축으로 코딩 에이전트를 활용하는 능력을 제시합니다. 에이전트가 코드를 작성하는 속도만 보는 것이 아니라, 무엇을 맡기고 어느 정도 자율성을 주며 어떤 증거로 결과를 검증할지를 결정하는 능력입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012",
+          "url": "https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-using-coding-agents/11994",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-25T17:08:02+09:00",
-          "popularity": 98,
+          "published_at": "2026-09-26T18:00:00+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.26,
-          "importance_score": 12.71,
+          "score": 19.55,
+          "importance_score": 13.21,
           "matched_keywords": [
             "ai",
-            "llm",
-            "모델"
+            "agent"
           ],
           "engagement": null
         }
@@ -205,107 +193,122 @@
   ],
   "items": [
     {
-      "id": "47c3c5461094d71aace416c1044f7e7d",
+      "id": "bab0428ea62fe783f543c79c28a3503f",
       "index": 1,
-      "title": "Training Object Permanence in World Models",
-      "title_ko": "Training Object Permanence in World Models",
-      "summary": "Object permanence and solidity are hallmarks of human cognitive priors.",
-      "summary_ko": "Object permanence and solidity are hallmarks of human cognitive priors.",
-      "url": "https://huggingface.co/papers/2609.28654",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+      "title_ko": "🤖 AI Agents Weekly: Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+      "summary": "Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+      "summary_ko": "Claude Opus 5.5, GPT-6 Sol and Luna, MiMo-V2.6, Step 5 Preview, Google AX, Agensh, and More",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-55-gpt",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-25T09:00:00+09:00",
-      "popularity": 381,
-      "upvotes": 184,
-      "score": 27.84,
-      "importance_score": 17.84,
+      "published_at": "2026-09-26T23:55:56+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 24.89,
+      "importance_score": 15.78,
       "matched_keywords": [
         "ai",
-        "llm",
-        "training"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 184
-      }
-    },
-    {
-      "id": "283ed46fc3421d439c7c8ae95693982e",
-      "index": 2,
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "title_ko": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding A…",
-      "summary_ko": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instructi…",
-      "url": "https://huggingface.co/papers/2609.29421",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-09-25T09:00:00+09:00",
-      "popularity": 19,
-      "upvotes": 7,
-      "score": 22.99,
-      "importance_score": 8.99,
-      "matched_keywords": [
-        "ai",
-        "llm",
         "agent",
-        "reasoning",
-        "training"
+        "gpt",
+        "claude"
       ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 7
-      }
+      "engagement": null
     },
     {
-      "id": "451656c41b41a579ffeb144278111455",
+      "id": "131716efc53aeff2640cd8990a62360d",
+      "index": 2,
+      "title": "🥇Top AI Papers of the Week",
+      "title_ko": "🥇Top AI Papers of the Week",
+      "summary": "The Top AI Papers of the Week (September 14 - 20)",
+      "summary_ko": "The Top AI Papers of the Week (September 14 - 20)",
+      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-bca",
+      "source": "Elvis AI Newsletter",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-21T02:20:29+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 17.9,
+      "importance_score": 9.9,
+      "matched_keywords": [
+        "ai",
+        "paper"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "535f462f6a44454fe30bc6217de6f9db",
       "index": 3,
-      "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어서는 '전용 배포 제품' 선보인다",
+      "title": "오픈AI 에이전트, 미국 정부 사이트까지 뒤졌다…‘에이전트 스팸’도 확인",
       "title_ko": null,
-      "summary": "오픈AI가 최신 사이버 보안 전용 모델 \\'GPT-6 사이버(Cyber)\\'를 몇주 안에 공개하고, 기존 모델 API 공급 방식에서 벗어나 고객이 모델을 더 안전하고 자동화된 방식으로 배포 및 운용할 수 있도록 지원하는 최초의 사이버 보안 전용 제품을 선보인다.포춘은 24일(현지시간) 소식통을 인용해 오픈AI가 오는 29일 미국 샌프란시스코에서 열리는 \\'데브데이 2026\\'에서 GPT-6…",
+      "summary": "오픈AI의 AI 에이전트가 인터넷에서 예상하지 못한 방식으로 외부 웹사이트에 접근하거나 정보를 게시하는 사례가 잇달아 확인됐다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215667",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215679",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-26T08:57:00+09:00",
+      "published_at": "2026-09-27T09:12:01+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.75,
-      "importance_score": 19.5,
+      "score": 19.82,
+      "importance_score": 19.64,
       "matched_keywords": [
-        "ai",
-        "gpt",
-        "모델"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "ea13eb665f58b23bce97a8a6ab1f2abb",
+      "id": "6daff726653054e4c2fbca0cf7b70f2a",
       "index": 4,
-      "title": "운동 멈추면 독설 폭격…27년 된 장난감의 변신",
+      "title": "전북도, 현대차 투자 연계 '피지컬AI·청정수소·AI데이터센터' 3대 축 육성",
       "title_ko": null,
-      "summary": "운동을 멈추려고 할 때마다 독설을 쏟아내는 'AI 물고기 트레이너'가 등장했습니다. 콘텐츠 제작자 'gptars'는 최근 27년 된 물고기 장난감 '빅 마우스 빌리 배스'에 AI를 적용해 운동 트레이너로 개조한 영상을 공개했습니다. 영상에서 사용자가 덤벨 운동을 시작하면 물고기는 입을 움직이며 계속 반복하라고 지시합니다.",
+      "summary": "전북특별자치도는 현대자동차그룹의 새만금 투자를 지렛대 삼아 피지컬 인공지능(AI)·로봇, 청정수소, AI데이터센터를 3대 축으로 하는 미래첨단산업 육성에 나선다고 27일 밝혔다. 앵커기업의 투자 효과를 새만금에 가두지 않고 14개 시·군의 산업전환과 상생 성장으로 확산하겠다는 구상이다. 현대차그룹의 새만금 투자 규모는 8조9000억원, 부지는 34만평이다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260923000161",
+      "url": "https://www.etnews.com/20260927000031",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-26T06:00:00+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-27T09:09:36+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 21.94,
-      "importance_score": 18.08,
+      "score": 19.81,
+      "importance_score": 19.62,
       "matched_keywords": [
-        "ai",
-        "gpt"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "4683cd570ef39debe973a0779c44d0d5",
+      "id": "bffcda8963a87a2bf05780bb373b8d1f",
       "index": 5,
+      "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+      "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
+      "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
+      "summary_ko": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
+      "url": "https://github.com/nokia-applied-research/AnyJev",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-27T05:53:47+09:00",
+      "popularity": 796,
+      "upvotes": 796,
+      "score": 38.51,
+      "importance_score": 31.65,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "training"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 796
+      }
+    },
+    {
+      "id": "4683cd570ef39debe973a0779c44d0d5",
+      "index": 6,
       "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
       "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
       "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
@@ -314,66 +317,39 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-09-26T04:54:44+09:00",
-      "popularity": 802,
-      "upvotes": 802,
-      "score": 35.32,
-      "importance_score": 31.23,
+      "published_at": "2026-09-27T09:44:39+09:00",
+      "popularity": 1026,
+      "upvotes": 1026,
+      "score": 37.2,
+      "importance_score": 34.14,
       "matched_keywords": [
         "agent",
         "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 802
+        "value": 1026
       }
     },
     {
-      "id": "bffcda8963a87a2bf05780bb373b8d1f",
-      "index": 6,
-      "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
-      "title_ko": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (con",
-      "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
-      "summary_ko": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
-      "url": "https://github.com/nokia-applied-research/AnyJev",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-25T09:32:27+09:00",
-      "popularity": 705,
-      "upvotes": 705,
-      "score": 33.96,
-      "importance_score": 22.96,
-      "matched_keywords": [
-        "ai",
-        "llm",
-        "training"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 705
-      }
-    },
-    {
-      "id": "fcd39c4bd8319199753c9d0d708bffd7",
+      "id": "925d88552087050f56053772920bbb3a",
       "index": 7,
-      "title": "vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)",
+      "title": "Andrew Ng의 AI Engineering Skills Map: 코딩 에이전트 활용 역량(Using coding agents)",
       "title_ko": null,
-      "summary": "모델 파일에는 그 모델을 어떻게 돌려야 하는지가 적혀 있습니다(RoPE 밑과 스케일링, soft-capping, sliding window, 채팅 템플릿). 이 선언이 엔진에 닿지 않아도 아무것도 실패하지 않고, 출력은 매끄럽게 틀립니다. Hugging Face에서 가장 많이 받는 텍스트 생성 모델 300개의 설정을 vLLM 0.30이 하는 방식 그대로 만들어 봤습니다.",
+      "summary": "코딩 에이전트를 잘 쓰는 역량 소개 Andrew Ng 는 AI Engineering Skills Map의 세 번째 축으로 코딩 에이전트를 활용하는 능력을 제시합니다. 에이전트가 코드를 작성하는 속도만 보는 것이 아니라, 무엇을 맡기고 어느 정도 자율성을 주며 어떤 증거로 결과를 검증할지를 결정하는 능력입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012",
+      "url": "https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-using-coding-agents/11994",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-25T17:08:02+09:00",
-      "popularity": 98,
+      "published_at": "2026-09-26T18:00:00+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.26,
-      "importance_score": 12.71,
+      "score": 19.55,
+      "importance_score": 13.21,
       "matched_keywords": [
         "ai",
-        "llm",
-        "모델"
+        "agent"
       ],
       "engagement": null
     }
