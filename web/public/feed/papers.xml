@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:02:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 06:38:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Disaggregated Quantization: Specializing LLM Prefill and Decode</title>
+      <link>https://huggingface.co/papers/2609.26333</link>
+      <description>Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing, while compact weights reduce memory traffic during generati…</description>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.26333">Hugging Face Papers</source>
+      <guid isPermaLink="false">43ab67e2372bd81a94831ce9bd003070</guid>
+    </item>
+    <item>
+      <title>D-JEPA: A Decision-Aligned Latent World Model</title>
+      <link>https://huggingface.co/papers/2609.24749</link>
+      <description>Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distance reflects which candidate will execute successfully.</description>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.24749">Hugging Face Papers</source>
+      <guid isPermaLink="false">c78a746991593db6d5d8f3bc0bdec167</guid>
+    </item>
     <item>
       <title>RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation</title>
       <link>https://huggingface.co/papers/2609.18703</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.29837">Hugging Face Papers</source>
       <guid isPermaLink="false">c16eed539dbce7eb1c16fdf7eb046122</guid>
-    </item>
-    <item>
-      <title>DeltaWAM: Delta World Action Models for Bimanual Manipulation</title>
-      <link>https://huggingface.co/papers/2609.28811</link>
-      <description>World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions.</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.28811">Hugging Face Papers</source>
-      <guid isPermaLink="false">cd50ae7db520d6931c65c41adedea9c1</guid>
-    </item>
-    <item>
-      <title>ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds</title>
-      <link>https://huggingface.co/papers/2609.30199</link>
-      <description>Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results.</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.30199">Hugging Face Papers</source>
-      <guid isPermaLink="false">f1635f4ec6d46b71bdf53b98507c0e18</guid>
     </item>
   </channel>
 </rss>
