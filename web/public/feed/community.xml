@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 28 Sep 2026 15:24:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:02:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Liquid AI, VLM 디코딩 속도를 2.66~3.13배 가량 높인 LFM2.5-VL-3B-DSpark 모델 공개</title>
+      <link>https://discuss.pytorch.kr/t/liquid-ai-vlm-2-66-3-13-lfm2-5-vl-3b-dspark/12019</link>
+      <description>LFM2.5-VL-3B-DSpark 소개 LFM2.5-VL-3B-DSpark는 Liquid AI 가 자사의 비전-언어 모델(VLM, Vision-Language Model) LFM2.5-VL-3B 를 위해 공개한 약 280M 파라미터 규모의 추측 디코딩(Speculative Decoding) 용 초안 모델(Draft Model)로, 출력은 그대로 유지하면서 디코딩 속도를 H100에서 최대…</description>
+      <pubDate>Mon, 28 Sep 2026 16:30:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/liquid-ai-vlm-2-66-3-13-lfm2-5-vl-3b-dspark/12019">PyTorch Korea</source>
+      <guid isPermaLink="false">6fe4e4018b0cb07013daf18e7b823038</guid>
+    </item>
+    <item>
+      <title>CLM(Contrastive LM), 대조 학습을 통해 Jev와 같은 형식으로, 상태에 맞는 행동을 빠르게 선택하는 언어 모델</title>
+      <link>https://discuss.pytorch.kr/t/clm-contrastive-lm-jev/12013</link>
+      <description>CLM 소개 에이전트가 매 순간 해야 할 일이 긴 답변 작성인 것은 아닙니다. 사용할 도구를 고르거나, 가능한 다음 행동을 비교하거나, 이미 생성된 여러 해답 중 하나를 선택하는 경우도 있습니다. 이런 작업에서는 현재 상태와 후보 행동이 얼마나 잘 맞는지 빠르게 판단하는 능력 이 필요합니다.</description>
+      <pubDate>Mon, 28 Sep 2026 20:00:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/clm-contrastive-lm-jev/12013">PyTorch Korea</source>
+      <guid isPermaLink="false">e674d51997d00ab4f3885ee19cb15431</guid>
+    </item>
     <item>
       <title>Cloudflare가 제안하는 소프트웨어 개발 방법론의 변화: SDLC에서 ADLC로, 배포와 운영까지 에이전트에게 맡기는 소프트웨어 팩토리</title>
       <link>https://discuss.pytorch.kr/t/cloudflare-sdlc-adlc/12021</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/paperthin-28-in-1/11921">PyTorch Korea</source>
       <guid isPermaLink="false">7fcca072dd13ec3581f9c8e7f943de39</guid>
-    </item>
-    <item>
-      <title>Chat On Steroids: 승인한 폴더 내에서 ChatGPT가 파일과 터미널을 다루도록 하는 로컬 MCP 앱</title>
-      <link>https://discuss.pytorch.kr/t/chat-on-steroids-chatgpt-mcp/11915</link>
-      <description>Chat On Steroids 소개 브라우저에서 쓰는 대화형 모델은 코드를 잘 읽고 잘 고쳐 주지만, 그 결과를 실제 프로젝트에 반영하는 일은 사람이 직접 합니다. 대화창에 붙여 넣을 파일을 고르고, 답으로 돌아온 코드를 편집기에 옮기고, 테스트를 돌린 뒤 그 출력을 다시 대화창에 붙여 넣는 왕복이 반복됩니다.</description>
-      <pubDate>Tue, 15 Sep 2026 12:30:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/chat-on-steroids-chatgpt-mcp/11915">PyTorch Korea</source>
-      <guid isPermaLink="false">028bb9cb99b37350a813c8832b8792bb</guid>
-    </item>
-    <item>
-      <title>edge0: 35B MoE 모델을 활성 메모리 3GiB로 실행하는 SSD 전문가 스트리밍 추론 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/edge0-35b-moe-3gib-ssd/11914</link>
-      <description>edge0 소개 희소 전문가 혼합(Sparse Mixture-of-Experts, MoE) 구조는 토큰 하나를 만들 때 전체 전문가 중 일부만 계산에 참여시키므로 연산량이 작습니다. 그런데 이 구조를 개인 기기에서 실행하려고 하면 연산량보다 메모리가 먼저 막힙니다.</description>
-      <pubDate>Tue, 15 Sep 2026 08:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/edge0-35b-moe-3gib-ssd/11914">PyTorch Korea</source>
-      <guid isPermaLink="false">1aa1d46bba74935a28318e7b4865a784</guid>
     </item>
   </channel>
 </rss>
