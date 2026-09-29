@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 29 Sep 2026 06:38:44 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 10:33:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TimeEvo: Failure-Driven Self-Evolution of a Time Series Agent</title>
+      <link>https://huggingface.co/papers/2609.27277</link>
+      <description>Time series agents answer analytical questions by calling external tools, and which tools they carry is decided by people before the agent runs.</description>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.27277">Hugging Face Papers</source>
+      <guid isPermaLink="false">2617821ea65625409792c41258a93cc8</guid>
+    </item>
+    <item>
+      <title>Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks</title>
+      <link>https://huggingface.co/papers/2609.22237</link>
+      <description>Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference time.</description>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.22237">Hugging Face Papers</source>
+      <guid isPermaLink="false">d578a252eaa0e0ce4ff2719a2121c464</guid>
+    </item>
+    <item>
+      <title>LastOPD: Taming Collapse in Latent On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.28845</link>
+      <description>On-policy distillation (OPD) corrects a student on the responses it writes, but its signal is the teacher's next-token distribution: it tells the student what the teacher says but…</description>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.28845">Hugging Face Papers</source>
+      <guid isPermaLink="false">f3ec7f790427d88120431c093ee2bfb7</guid>
+    </item>
     <item>
       <title>Disaggregated Quantization: Specializing LLM Prefill and Decode</title>
       <link>https://huggingface.co/papers/2609.26333</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.29444">Hugging Face Papers</source>
       <guid isPermaLink="false">a3a1a0b3f8839b694532eefd1220aa03</guid>
-    </item>
-    <item>
-      <title>Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone</title>
-      <link>https://huggingface.co/papers/2609.23087</link>
-      <description>Modern Transformer design and compression both reduce to allocating capacity under a budget.</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.23087">Hugging Face Papers</source>
-      <guid isPermaLink="false">732880aa6248540e39809ea9152e747b</guid>
-    </item>
-    <item>
-      <title>AgentKernel: The Trust-Native Agentic Operating System</title>
-      <link>https://huggingface.co/papers/2609.29647</link>
-      <description>Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and in…</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.29647">Hugging Face Papers</source>
-      <guid isPermaLink="false">4dae7b9e944cae213b60b1fb0f578982</guid>
-    </item>
-    <item>
-      <title>PUBG Ally: A Conversational Embodied Agent as an AI Teammate</title>
-      <link>https://huggingface.co/papers/2609.29837</link>
-      <description>We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate.</description>
-      <pubDate>Fri, 25 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.29837">Hugging Face Papers</source>
-      <guid isPermaLink="false">c16eed539dbce7eb1c16fdf7eb046122</guid>
     </item>
   </channel>
 </rss>
