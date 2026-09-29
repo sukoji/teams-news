@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 30 Sep 2026 04:51:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 08:31:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Do We Really Need KL Divergence for On-Policy Distillation of Large Language Models?</title>
+      <link>https://huggingface.co/papers/2609.33791</link>
+      <description>Since the advent of knowledge distillation, KL divergence has been the standard loss in distillation.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.33791">Hugging Face Papers</source>
+      <guid isPermaLink="false">6cf699e2808efab36a18a8e72359e4fc</guid>
+    </item>
+    <item>
+      <title>NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech</title>
+      <link>https://huggingface.co/papers/2609.31892</link>
+      <description>While modern text-to-speech (TTS) systems generate highly natural speech and support inline non-verbal vocalization (NVV) tags, accurate control over these events remains challeng…</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.31892">Hugging Face Papers</source>
+      <guid isPermaLink="false">da761d4a283b74d6bd24327779742327</guid>
+    </item>
+    <item>
+      <title>WhiteMatter: All-to-All Cross-Layer Connections via KV Source Mixing</title>
+      <link>https://huggingface.co/papers/2608.18486</link>
+      <description>When generating text, a Transformer produces representations of past tokens at every layer, but each layer can normally use only representations from the same depth.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.18486">Hugging Face Papers</source>
+      <guid isPermaLink="false">f5c7d5b379d033d641306ad4468487a2</guid>
+    </item>
+    <item>
+      <title>Can We Trust the Teacher? Decoupled Credit Direction-Magnitude for Self-Distillation</title>
+      <link>https://huggingface.co/papers/2609.34848</link>
+      <description>RLVR provides reliable trajectory-level credit, while OPSD offers dense supervision for token-level credit.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34848">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d37a43a09e8cbc17f6acb6227cdc1e4</guid>
+    </item>
     <item>
       <title>VisionHOPE: Visual Backbones as Self-Modifying Learning Systems</title>
       <link>https://huggingface.co/papers/2609.33325</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.31669">Hugging Face Papers</source>
       <guid isPermaLink="false">ddb2e7eb8f1f0bac149835e84f7c825a</guid>
-    </item>
-    <item>
-      <title>TokenCast: Forecasting Token Consumption During LLM Agent Execution</title>
-      <link>https://huggingface.co/papers/2609.35760</link>
-      <description>When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.35760">Hugging Face Papers</source>
-      <guid isPermaLink="false">5b9b19e2bb997c680cdf05ac24233e96</guid>
-    </item>
-    <item>
-      <title>Imprint Reader: From Weight-Update Readout to Behavioral Intervention</title>
-      <link>https://huggingface.co/papers/2609.35261</link>
-      <description>As language models take a growing role in AI development, a natural aspiration is for them to reflect on their own learning process, as humans do, and use that reflection to impro…</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.35261">Hugging Face Papers</source>
-      <guid isPermaLink="false">c3ad9de62562a0bc785d41d7c759778a</guid>
-    </item>
-    <item>
-      <title>What masking geometry works best for EEG foundation models?</title>
-      <link>https://huggingface.co/papers/2609.33487</link>
-      <description>EEG foundation models hold promise for scalable brain-signal decoding across clinical and cognitive neuroscience applications, yet their pre-training pipelines remain poorly under…</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.33487">Hugging Face Papers</source>
-      <guid isPermaLink="false">088db7725b020f62fa2bb9f704b6b36b</guid>
-    </item>
-    <item>
-      <title>Not All Objectives Are Born Equal: Priority-Constrained Descent for Hierarchical Multi-Objective Optimization</title>
-      <link>https://huggingface.co/papers/2606.29521</link>
-      <description>Deep learning problems rarely involve objectives that are equal in importance.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.29521">Hugging Face Papers</source>
-      <guid isPermaLink="false">0375bb20f461d8d509a98a0284dac7d4</guid>
     </item>
   </channel>
 </rss>

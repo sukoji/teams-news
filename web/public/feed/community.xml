@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 30 Sep 2026 04:51:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 08:31:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenRig: Claude Code와 Codex 세션들을 저장하고 불러올 수 있도록 하는 멀티 에이전트 하네스</title>
+      <link>https://discuss.pytorch.kr/t/openrig-claude-code-codex/12042</link>
+      <description>OpenRig 소개 코딩 에이전트를 여러 개 함께 쓰다 보면 에이전트보다 세션 관리가 먼저 문제가 됩니다. 터미널 탭을 하나씩 늘려 가며 오케스트레이터, 리뷰어, 리서치 에이전트를 띄우고 tmux 로 서로 연결해 두면, 며칠 뒤에는 어느 세션이 어떤 역할이었는지, 작업 디렉토리가 어디였는지를 기억하기 어려워집니다.</description>
+      <pubDate>Wed, 30 Sep 2026 08:00:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openrig-claude-code-codex/12042">PyTorch Korea</source>
+      <guid isPermaLink="false">07b5002f96391260222d959815e60213</guid>
+    </item>
     <item>
       <title>포켓몬 옐로에서 좀보이드로: 게임 에이전트의 행동을 어떻게 검증할까</title>
       <link>https://discuss.pytorch.kr/t/topic/12052</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/bernini-wan-mllm-6/11931">PyTorch Korea</source>
       <guid isPermaLink="false">f3ff28b75b9329e154018dcd742a88a8</guid>
-    </item>
-    <item>
-      <title>탐지·분할·깊이 추정을 하나의 모델로 출력하는 SenseNova-Vision 모델</title>
-      <link>https://discuss.pytorch.kr/t/sensenova-vision/11939</link>
-      <description>탐지·분할·깊이 추정을 하나의 모델로? SenseNova-Vision 소개 좌표는 텍스트로, 마스크와 깊이는 이미지로. 컴퓨터 비전의 다양한 출력을 하나의 생성 인터페이스로 다루는 접근입니다.</description>
-      <pubDate>Thu, 17 Sep 2026 09:51:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sensenova-vision/11939">PyTorch Korea</source>
-      <guid isPermaLink="false">2857f5358dbf5442a222b03e0a236126</guid>
     </item>
   </channel>
 </rss>
