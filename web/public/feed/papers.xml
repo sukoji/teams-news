@@ -5,9 +5,90 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 29 Sep 2026 23:49:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 04:51:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>VisionHOPE: Visual Backbones as Self-Modifying Learning Systems</title>
+      <link>https://huggingface.co/papers/2609.33325</link>
+      <description>Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) wi…</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.33325">Hugging Face Papers</source>
+      <guid isPermaLink="false">72b65815abf75fef8d332d183349d14d</guid>
+    </item>
+    <item>
+      <title>SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis</title>
+      <link>https://huggingface.co/papers/2609.34479</link>
+      <description>Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential for medical image understanding.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34479">Hugging Face Papers</source>
+      <guid isPermaLink="false">fe1e83f9d94663dc5e0fb56ac9295a54</guid>
+    </item>
+    <item>
+      <title>Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training</title>
+      <link>https://huggingface.co/papers/2609.33645</link>
+      <description>Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-level supervision, but conventional implementations material…</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.33645">Hugging Face Papers</source>
+      <guid isPermaLink="false">2e1d3440a30a51a1cf642b3afaac4df7</guid>
+    </item>
+    <item>
+      <title>ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis</title>
+      <link>https://huggingface.co/papers/2609.32630</link>
+      <description>Learning from experience in LLM agents has become a key paradigm for developing self-evolving agents that continuously learn and expand their capabilities.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.32630">Hugging Face Papers</source>
+      <guid isPermaLink="false">d61c50c91c060c61c1ddbfe675c0ca99</guid>
+    </item>
+    <item>
+      <title>SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2609.34044</link>
+      <description>Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference expensive.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34044">Hugging Face Papers</source>
+      <guid isPermaLink="false">83a16b15d80d81613e77d74f73dd6225</guid>
+    </item>
+    <item>
+      <title>Reinforcing Agentic Creativity in Scientific Ideation with Night Science</title>
+      <link>https://huggingface.co/papers/2609.35706</link>
+      <description>Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-end…</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.35706">Hugging Face Papers</source>
+      <guid isPermaLink="false">1058fa444f5c5e8e731d0ebfb7296f77</guid>
+    </item>
+    <item>
+      <title>Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation</title>
+      <link>https://huggingface.co/papers/2609.34722</link>
+      <description>Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing visual history.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34722">Hugging Face Papers</source>
+      <guid isPermaLink="false">7014ede8d31bfee3b13c4878a51deab7</guid>
+    </item>
+    <item>
+      <title>Allspark: Weak to Strong Transfer via Alternating Chain of Thought</title>
+      <link>https://huggingface.co/papers/2609.32913</link>
+      <description>Recent progress in frontier models has renewed interest in large-scale reinforcement learning (RL), but the cost of generating large-model rollouts makes even testing RL recipes e…</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.32913">Hugging Face Papers</source>
+      <guid isPermaLink="false">ddc2f2edb2cecdf30ae5a4db0fc5de02</guid>
+    </item>
+    <item>
+      <title>Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models</title>
+      <link>https://huggingface.co/papers/2609.34065</link>
+      <description>Names are personal identifiers, but they also carry social meaning and are widely used to evaluate how language models treat different people.</description>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34065">Hugging Face Papers</source>
+      <guid isPermaLink="false">582f5e45400e1510d4fd97f7cc192fc6</guid>
+    </item>
     <item>
       <title>Nereus: Adaptive Parallelism for LLM Post-Training</title>
       <link>https://huggingface.co/papers/2609.34645</link>
@@ -376,87 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2606.29521">Hugging Face Papers</source>
       <guid isPermaLink="false">0375bb20f461d8d509a98a0284dac7d4</guid>
-    </item>
-    <item>
-      <title>When Do Model Internals Help? Exploring the Role of Representation Engineering in LLM Safety</title>
-      <link>https://huggingface.co/papers/2609.34771</link>
-      <description>Reliable AI safeguards require both control mechanisms that reduce unsafe behavior and monitoring mechanisms that detect safety risks during model interactions.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.34771">Hugging Face Papers</source>
-      <guid isPermaLink="false">058e5fd5ab243c32f9e595972768d151</guid>
-    </item>
-    <item>
-      <title>GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space</title>
-      <link>https://huggingface.co/papers/2609.35734</link>
-      <description>Novel view synthesis from sparse images must reconcile faithful reconstruction of observed regions with plausible completion of unseen content, while maintaining world consistency…</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.35734">Hugging Face Papers</source>
-      <guid isPermaLink="false">50d2c7ed0c2a8ad65119d93b9e052c47</guid>
-    </item>
-    <item>
-      <title>Rethinking Automated Voice Similarity by Shifting from EER to Embedding Geometry</title>
-      <link>https://huggingface.co/papers/2609.33999</link>
-      <description>Speaker verification (SV) models are commonly assumed to better capture nuances among speaker characteristics as verification accuracy improves, leading to their widespread use as…</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.33999">Hugging Face Papers</source>
-      <guid isPermaLink="false">7412dfddd18c5326595ed466422669dc</guid>
-    </item>
-    <item>
-      <title>KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation</title>
-      <link>https://huggingface.co/papers/2609.33074</link>
-      <description>High-performance GPU kernels are essential to modern machine learning systems, yet automatically generating kernels that are both correct and efficient remains challenging.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.33074">Hugging Face Papers</source>
-      <guid isPermaLink="false">e0ce137402b592c385ead5689ccbc1ad</guid>
-    </item>
-    <item>
-      <title>Precise Editing and Flexible Referencing for Interactable Worlds</title>
-      <link>https://huggingface.co/papers/2609.34470</link>
-      <description>We present EditWorld, a video world model for precise editing and flexible referencing in interactable worlds.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.34470">Hugging Face Papers</source>
-      <guid isPermaLink="false">22771eb3692db6becc352757281bd7c3</guid>
-    </item>
-    <item>
-      <title>How Reproducible Are Evaluation Conclusions? A Self-Audit of LLM-Inferred Prompt Structure</title>
-      <link>https://huggingface.co/papers/2609.30074</link>
-      <description>Evaluations of LLM systems routinely average over small prompt sets and report models as a ranked table.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.30074">Hugging Face Papers</source>
-      <guid isPermaLink="false">17d910d764e1d2d3330f766bd9d371fc</guid>
-    </item>
-    <item>
-      <title>InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video</title>
-      <link>https://huggingface.co/papers/2609.35743</link>
-      <description>World-space hand motion estimation from egocentric video requires recovering 3D articulated hand geometry while tracking camera egomotion.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.35743">Hugging Face Papers</source>
-      <guid isPermaLink="false">5f8bf09a0e64f822c88184097c9d00b5</guid>
-    </item>
-    <item>
-      <title>In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion</title>
-      <link>https://huggingface.co/papers/2609.32540</link>
-      <description>Few-step autoregressive video diffusion generates a long video by splitting the video into temporal chunks and generating chunk-by-chunk, each through a short sequence of denoisin…</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.32540">Hugging Face Papers</source>
-      <guid isPermaLink="false">95936d788bb9069c6fa806cd032ffb3b</guid>
-    </item>
-    <item>
-      <title>Residual Transferability in Neural Image Watermarking</title>
-      <link>https://huggingface.co/papers/2609.32241</link>
-      <description>Neural image watermarks can be forged by extracting watermark-bearing residuals from released images and transferring them to unrelated content.</description>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.32241">Hugging Face Papers</source>
-      <guid isPermaLink="false">4f64e2261256d20d22e2d3738c638082</guid>
     </item>
   </channel>
 </rss>
