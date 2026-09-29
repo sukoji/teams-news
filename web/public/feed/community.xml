@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 29 Sep 2026 11:27:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 17:00:36 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>180B 모델로, 수학올림피아드 벤치마크(AIME2026) 만점 포함 5개 부문 모조리 1위 랭크 비결 공개</title>
+      <link>https://discuss.pytorch.kr/t/180b-aime2026-5-1/12047</link>
+      <description>Darwin-180B-RSI, 허깅페이스 공식 리더보드 5관왕 — 엔지니어 관점 해설 모델: FINAL-Bench/Darwin-180B-RSI · Hugging Face 개발: 비드래프트(VIDRAFT) 공개: 2026-09-28 0. 요약 무엇을 했나 공개 모델 Qwen3.8-Flash-Next(180B MoE)의 파라미터를 약 0.02%만 바꿨습니다.</description>
+      <pubDate>Tue, 29 Sep 2026 16:23:53 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/180b-aime2026-5-1/12047">PyTorch Korea</source>
+      <guid isPermaLink="false">986904c49edbe32e9b283067077881ff</guid>
+    </item>
+    <item>
+      <title>Datadog가 공개한 장애 원인 변경을 찾는 에이전트 학습기 활용기: 교사 모델 GLM-5.3의 재현율 87%를 1/20 비용의 Qwen3.5-9B으로</title>
+      <link>https://discuss.pytorch.kr/t/datadog-glm-5-3-87-1-20-qwen3-5-9b/12020</link>
+      <description>Datadog의 변경 원인 분석 특화 9B 모델 소개 Datadog 이 프로덕션 알림(alert)을 일으킨 배포, 기능 플래그, 설정 변경을 찾아내는 조사 에이전트를 9B 크기의 오픈 모델로 만든 과정을 공개했습니다.</description>
+      <pubDate>Tue, 29 Sep 2026 16:00:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/datadog-glm-5-3-87-1-20-qwen3-5-9b/12020">PyTorch Korea</source>
+      <guid isPermaLink="false">2b712b048266b37d3bcfeef448c2221f</guid>
+    </item>
+    <item>
+      <title>Hugging Face Transformers, 이제 GGUF 가중치도 지원하여 바로 불러와 실행 가능 (feat. llama.cpp, ggml)</title>
+      <link>https://discuss.pytorch.kr/t/hugging-face-transformers-gguf-feat-llama-cpp-ggml/12036</link>
+      <description>Transformers의 GGUF 직접 실행 지원 소개 Hugging Face가 Transformers 에서 llama.cpp 용 GGUF 양자화 체크포인트를 압축된 그대로 불러와 실행하는 기능을 공개했습니다.</description>
+      <pubDate>Tue, 29 Sep 2026 11:30:02 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/hugging-face-transformers-gguf-feat-llama-cpp-ggml/12036">PyTorch Korea</source>
+      <guid isPermaLink="false">7d1f37f5597543091137aa79e9924286</guid>
+    </item>
     <item>
       <title>Laya: 텍스트 생성 없이 한 번의 순전파로 결정을 내리는 Jev 호환 오픈 가중치 모델과 로컬 실행 도구들</title>
       <link>https://discuss.pytorch.kr/t/laya-jev/12027</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/nvidia-transformer-engine-jax-dropless-moe-10-105-1-025-tflops/11927">PyTorch Korea</source>
       <guid isPermaLink="false">7e4782fa774d4b32a3ee1f2ded0a9f8e</guid>
-    </item>
-    <item>
-      <title>llmfit: 로컬 LLM 모델을 내려받기 전, 내 하드웨어에서의 생성 속도(tok/s)가 얼마 정도일지 추정하는 도구</title>
-      <link>https://discuss.pytorch.kr/t/llmfit-llm-tok-s/11922</link>
-      <description>llmfit 소개 로컬에서 대규모 언어 모델(Large Language Model, LLM)을 직접 실행해 보려는 사람이 가장 먼저 부딪히는 질문은 내 컴퓨터에서 어떤 모델이 실제로 실행 가능한지 에 대한 것입니다.</description>
-      <pubDate>Wed, 16 Sep 2026 12:00:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llmfit-llm-tok-s/11922">PyTorch Korea</source>
-      <guid isPermaLink="false">00dc10d052b1481968ef30c79c461451</guid>
-    </item>
-    <item>
-      <title>UnifoLM-WLA-1.0: 영상의 변화 영역을 토큰으로 예측하는 Unitree의 6B 규모 휴머노이드용 모델</title>
-      <link>https://discuss.pytorch.kr/t/unifolm-wla-1-0-unitree-6b/11929</link>
-      <description>UnifoLM-WLA-1.0 소개 UnifoLM-WLA-1.0 은 중국의 휴머노이드 로봇 제조사 Unitree Robotics 가 2026년 9월 11일에 공개한 60억(6B) 파라미터 규모의 범용 휴머노이드 로봇 파운데이션 모델입니다.</description>
-      <pubDate>Wed, 16 Sep 2026 07:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/unifolm-wla-1-0-unitree-6b/11929">PyTorch Korea</source>
-      <guid isPermaLink="false">9e04876a69ee216f7b704bf6fe0e8205</guid>
-    </item>
-    <item>
-      <title>모델보다 데이터가 어려웠다 — 학부생이 제조 AI 프로젝트를 하며 배운 것</title>
-      <link>https://discuss.pytorch.kr/t/ai/11930</link>
-      <description>모델보다 데이터가 어려웠다 — 학부생이 제조 AI 프로젝트를 하며 배운 것 SECOM 데이터로 불량을 예측하고, 그 판단 근거를 사람이 읽을 수 있는 형태로 연결하기까지. 안녕하세요. AI를 공부하고 있는 학부생입니다.</description>
-      <pubDate>Tue, 15 Sep 2026 23:04:17 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai/11930">PyTorch Korea</source>
-      <guid isPermaLink="false">72139170e6577735863931df3b5e6536</guid>
     </item>
   </channel>
 </rss>
