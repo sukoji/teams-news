@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:31:04 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 19:58:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>402 Payment Required: 엔터프라이즈 MCP 서버가 비용을 지불하는 에이전트에게 지켜야 할 것 (402 Payment Required: What Enterprise MCP Servers Owe the Agents That Pay Them)</title>
+      <link>https://discuss.pytorch.kr/t/402-payment-required-mcp-402-payment-required-what-enterprise-mcp-servers-owe-the-agents-that-pay-them/12038</link>
+      <description>Agentic AI Foundation(AAIF) 블로그에 게재된 글을 원저자 중 한 명인 Marco Gonzalez 의 허락 하에 번역하였습니다. 이 글의 후속편인 x402 + MCP: 예산 확인은 어디에서 해야 할까 도 함께 번역하였습니다. 원문은 아래 링크에서 확인하실 수 있습니다.</description>
+      <pubDate>Wed, 30 Sep 2026 18:00:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/402-payment-required-mcp-402-payment-required-what-enterprise-mcp-servers-owe-the-agents-that-pay-them/12038">PyTorch Korea</source>
+      <guid isPermaLink="false">21619410a05759f40aaa8866d5c01090</guid>
+    </item>
+    <item>
+      <title>RelateAnything: 객체 레이블 없이 관계 어휘를 문자열로 받는 실시간 개방형 관계 예측 모델</title>
+      <link>https://discuss.pytorch.kr/t/relateanything/12041</link>
+      <description>RelateAnything 논문 소개 RelateAnything은 이미지와 임의의 출처에서 온 영역(region), 그리고 추론(Inference) 시점에 문자열 목록으로 넘겨주는 관계 어휘를 입력받아, 영역 쌍마다 점수가 매겨진 관계를 돌려주는 5,300만(53M) 파라미터 규모의 관계 예측 모델입니다.</description>
+      <pubDate>Wed, 30 Sep 2026 14:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/relateanything/12041">PyTorch Korea</source>
+      <guid isPermaLink="false">1be0419c5021a7a69e56174383ae69aa</guid>
+    </item>
+    <item>
+      <title>재귀적 자가개선(RSI)의 기술적 분류와 차이점 분석</title>
+      <link>https://discuss.pytorch.kr/t/rsi/12057</link>
+      <description>재귀적 자기개선(RSI)의 네 가지 층: 정확히 무엇이 스스로 좋아지는가 한 줄 답: 「재귀적 자기개선(RSI)」이라는 말은 이제 최소 네 가지 서로 다른 것을 가리킨다. 물어야 할 것은 스스로 좋아지느냐 가 아니라 무엇이 좋아지느냐다. 모델을 둘러싼 작업 틀(harness) , 모델 가중치 , 모델을 채점하는 채점기 , 모델을 만드는 연구 과정 .</description>
+      <pubDate>Wed, 30 Sep 2026 15:55:51 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rsi/12057">PyTorch Korea</source>
+      <guid isPermaLink="false">f26d435c54f3e3bdd60e6094c41eb851</guid>
+    </item>
     <item>
       <title>Ember-1: 40% 가량 적은 토큰으로 Kimi K3와 비슷한 품질을 보여주는 Fireworks AI의 추론 효율화 모델 (공개X)</title>
       <link>https://discuss.pytorch.kr/t/ember-1-40-kimi-k3-fireworks-ai-x/12040</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953">PyTorch Korea</source>
       <guid isPermaLink="false">d49d49b25969aeeed10295b088c89d7a</guid>
-    </item>
-    <item>
-      <title>RLT(Recurrent Looped Transformer): 생성하는 토큰이 길어질수록 더 많은 연산을 하는 순환 디코더에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/rlt-recurrent-looped-transformer/11937</link>
-      <description>Recurrent Looped Transformer(RLT) 소개 트랜스포머는 토큰을 아무리 많이 써도 한 토큰의 계산 깊이가 늘어나지 않습니다 머릿속으로 긴 곱셈을 할 때를 떠올려 봅시다. 우리는 자릿수를 하나씩 처리하면서 올림 수를 계속 손에 쥐고 갑니다. 자릿수가 늘어나면 붙잡고 있어야 할 중간 결과도 늘어나고, 그만큼 머릿속에서 굴리는 단계도 길어집니다.</description>
-      <pubDate>Fri, 18 Sep 2026 12:00:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/rlt-recurrent-looped-transformer/11937">PyTorch Korea</source>
-      <guid isPermaLink="false">752dcb96e4761aecc14a0c94ab9c2c81</guid>
-    </item>
-    <item>
-      <title>'라틴방진'으로 '트랜스포머' 스택을 해부한 실증 연구 분석</title>
-      <link>https://discuss.pytorch.kr/t/topic/11950</link>
-      <description>모든 층에 같은 어텐션을 쌓는 건, 결론이 아니라 습관이었다 — 라틴방진으로 트랜스포머 스택을 해부한 실증 연구 읽기 논문 : Placement Is Free, Composition Is Not: The Latin Square as a Provably-Balanced Construction for Heterogeneous Sequence-Mixer Stacks arXiv:2609.20269…</description>
-      <pubDate>Fri, 18 Sep 2026 12:51:35 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/topic/11950">PyTorch Korea</source>
-      <guid isPermaLink="false">307b05991120d50c7a8e5a204b6aae91</guid>
-    </item>
-    <item>
-      <title>Kaggle TPU Lab: 무료 Kaggle TPU에서 320B 크기의 GLM-5.3-Flash을 서빙하는 코딩 에이전트용 API 레시피 저장소</title>
-      <link>https://discuss.pytorch.kr/t/kaggle-tpu-lab-kaggle-tpu-320b-glm-5-3-flash-api/11944</link>
-      <description>kaggle-tpu-lab 소개 가중치가 공개된 모델을 직접 서빙하려면 가속기부터 구해야 합니다. 27B 규모 모델을 bf16 그대로 적재하는 데만 55GB가 넘는 가중치를 담을 메모리가 필요하고, 320B 규모의 전문가 혼합(MoE, Mixture of Experts) 모델은 그보다 훨씬 더 듭니다.</description>
-      <pubDate>Fri, 18 Sep 2026 07:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kaggle-tpu-lab-kaggle-tpu-320b-glm-5-3-flash-api/11944">PyTorch Korea</source>
-      <guid isPermaLink="false">ad81db354e1435265336fd9b906edd37</guid>
     </item>
   </channel>
 </rss>
