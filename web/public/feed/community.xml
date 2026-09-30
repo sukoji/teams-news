@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 30 Sep 2026 10:47:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 13:31:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Ember-1: 40% 가량 적은 토큰으로 Kimi K3와 비슷한 품질을 보여주는 Fireworks AI의 추론 효율화 모델 (공개X)</title>
+      <link>https://discuss.pytorch.kr/t/ember-1-40-kimi-k3-fireworks-ai-x/12040</link>
+      <description>Ember-1 소개 Ember-1 은 Fireworks AI 의 연구 조직 Fireworks Research가 2026년 9월 23일 공개한 추론(reasoning) 효율화 모델로, Kimi K3 를 기반으로 추가 학습해 비슷한 품질을 약 40% 적은 토큰으로 내도록 만든 것이 핵심입니다.</description>
+      <pubDate>Wed, 30 Sep 2026 11:30:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ember-1-40-kimi-k3-fireworks-ai-x/12040">PyTorch Korea</source>
+      <guid isPermaLink="false">a8187007cd6a32ea191a0bd300736846</guid>
+    </item>
+    <item>
+      <title>OpenAI DevDay 2026 발표 25가지 총정리: 상시 에이전트 dots부터 GPT-6.1 Sol, 플러그인 확장까지</title>
+      <link>https://discuss.pytorch.kr/t/openai-devday-2026-25-dots-gpt-6-1-sol/12053</link>
+      <description>OpenAI DevDay 2026 소개 OpenAI 가 2026년 9월 29일 개발자 행사 DevDay 2026 을 열고 ChatGPT, Codex , API 전반에 걸친 발표 25가지를 공개했습니다. 핵심은 세 가지입니다.</description>
+      <pubDate>Wed, 30 Sep 2026 10:30:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-devday-2026-25-dots-gpt-6-1-sol/12053">PyTorch Korea</source>
+      <guid isPermaLink="false">647ba3cea2241ba61dbd31a9cb21fe35</guid>
+    </item>
     <item>
       <title>OpenRig: Claude Code와 Codex 세션들을 저장하고 불러올 수 있도록 하는 멀티 에이전트 하네스</title>
       <link>https://discuss.pytorch.kr/t/openrig-claude-code-codex/12042</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/kaggle-tpu-lab-kaggle-tpu-320b-glm-5-3-flash-api/11944">PyTorch Korea</source>
       <guid isPermaLink="false">ad81db354e1435265336fd9b906edd37</guid>
-    </item>
-    <item>
-      <title>BrowserSkill: 사람이 사용하던 브라우저 상태 그대로 에이전트에게 사용할 수 있도록 하는 CLI 도구</title>
-      <link>https://discuss.pytorch.kr/t/browserskill-cli/11936</link>
-      <description>BrowserSkill 소개 AI 에이전트가 브라우저를 직접 조작하게 하려면 보통 둘 중 하나를 감수해야 합니다. 매번 새 프로필로 로그인부터 다시 하는 헤드리스(headless) 브라우저를 쓰거나, 에이전트가 사용자의 실제 브라우저 창을 그대로 가져가 사람이 다른 작업을 하지 못하게 막는 방식입니다.</description>
-      <pubDate>Thu, 17 Sep 2026 17:30:37 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/browserskill-cli/11936">PyTorch Korea</source>
-      <guid isPermaLink="false">a4e32e29bd266590294e7e6e991aa57c</guid>
-    </item>
-    <item>
-      <title>Bernini: Wan 렌더러에 MLLM 플래너를 더해 영상 생성과 편집 6개 작업을 하나로 묶은 영상 생성 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/bernini-wan-mllm-6/11931</link>
-      <description>Bernini 소개 영상을 만들거나 고치는 확산 모델(Diffusion Model)은 대개 텍스트 조건 하나로 픽셀 생성을 통제합니다. 이 구조에서는 지시가 복합적일수록 무엇을 바꾸고 무엇을 그대로 둘지가 렌더러까지 충분히 전달되지 않습니다.</description>
-      <pubDate>Thu, 17 Sep 2026 11:30:03 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bernini-wan-mllm-6/11931">PyTorch Korea</source>
-      <guid isPermaLink="false">f3ff28b75b9329e154018dcd742a88a8</guid>
     </item>
   </channel>
 </rss>
