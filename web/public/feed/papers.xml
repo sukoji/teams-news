@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:47:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:17:40 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression</title>
+      <link>https://huggingface.co/papers/2609.36322</link>
+      <description>Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stri…</description>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36322">Hugging Face Papers</source>
+      <guid isPermaLink="false">20cc903cfbb78ffb295578627204e40f</guid>
+    </item>
+    <item>
+      <title>Fractional State Space Transition for Long Sequence Modeling</title>
+      <link>https://huggingface.co/papers/2609.36314</link>
+      <description>State Space Models (SSMs) compress sequence history into a bounded recurrent state, making the resulting memory law a central architectural choice for long-context performance.</description>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36314">Hugging Face Papers</source>
+      <guid isPermaLink="false">13b3e88eea14ae1bf7223d751d4e9384</guid>
+    </item>
     <item>
       <title>Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning</title>
       <link>https://huggingface.co/papers/2608.19669</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.37989">Hugging Face Papers</source>
       <guid isPermaLink="false">fa7fb1c676ba212223cecb328d60f204</guid>
-    </item>
-    <item>
-      <title>TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs</title>
-      <link>https://huggingface.co/papers/2609.33589</link>
-      <description>Efficient exploration often remains a central bottleneck in reinforcement learning with verifiable rewards (RLVR).</description>
-      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.33589">Hugging Face Papers</source>
-      <guid isPermaLink="false">812264c8fcf7e99952ac4e25bf510c8e</guid>
-    </item>
-    <item>
-      <title>Principled Thoughts for Latent Recursive LLM Systems</title>
-      <link>https://huggingface.co/papers/2609.36159</link>
-      <description>Large language models can reason in continuous space instead of decoded text, by recurring on their own hidden states or by passing those states between agents, while training sup…</description>
-      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.36159">Hugging Face Papers</source>
-      <guid isPermaLink="false">06bff9b0940c1bb8a8dbdbe40a44cd35</guid>
     </item>
   </channel>
 </rss>
