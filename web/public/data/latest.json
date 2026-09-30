@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-09-29",
-  "generated_at": "2026-09-29T11:27:49.374273+09:00",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T10:47:58.257142+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,58 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "7cac912e7805e6a794f2ce4e85215fa1",
+          "id": "4104dc545cf4930baa55e359641241dc",
           "index": 1,
-          "title": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
-          "title_ko": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
-          "summary": "We study training-inference mismatch in reinforcement learning with verifiable rewards (RLVR) for large language models, where rollouts are sampled by an inference engine while gradients are computed by a training engin…",
-          "summary_ko": "We study training-inference mismatch in reinforcement learning with verifiable rewards (RLVR) for large language models, where rollouts are sampled by an inference engine while gr…",
-          "url": "https://huggingface.co/papers/2609.32444",
+          "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+          "title_ko": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+          "summary": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior.",
+          "summary_ko": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior.",
+          "url": "https://huggingface.co/papers/2609.35457",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-09-29T09:00:00+09:00",
-          "popularity": 11,
-          "upvotes": 3,
-          "score": 25.94,
-          "importance_score": 16.43,
+          "popularity": 120,
+          "upvotes": 55,
+          "score": 26.39,
+          "importance_score": 14.39,
           "matched_keywords": [
             "ai",
             "llm",
-            "reinforcement learning",
-            "inference",
+            "multimodal",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 3
+            "value": 55
           }
         },
         {
-          "id": "88777f90196c8e27345eb47f39e02632",
+          "id": "9d1913185e8880c26d0e1ecdbd12a9d5",
           "index": 2,
-          "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-          "title_ko": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-          "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation.",
-          "summary_ko": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image ge…",
-          "url": "https://huggingface.co/papers/2609.31620",
+          "title": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+          "title_ko": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+          "summary": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a single execution can span hours, hundreds of model--environment interactions, and nearly 1M tokens per rollout.",
+          "summary_ko": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a single execution can span hours, hundreds of model--environment interactions,…",
+          "url": "https://huggingface.co/papers/2609.33848",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-28T09:00:00+09:00",
-          "popularity": 260,
-          "upvotes": 116,
-          "score": 24.69,
-          "importance_score": 16.69,
+          "published_at": "2026-09-29T09:00:00+09:00",
+          "popularity": 59,
+          "upvotes": 27,
+          "score": 26.28,
+          "importance_score": 12.28,
           "matched_keywords": [
             "ai",
-            "diffusion"
+            "llm",
+            "agent",
+            "reinforcement learning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 116
+            "value": 27
           }
         }
       ]
@@ -69,21 +71,21 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "a0211869b64c83776d4db1034854c473",
+          "id": "6b3a41fefc8d707befae72e35e2fb41f",
           "index": 3,
-          "title": "[AI리더의 서가] 케라스 창시자에게 배우는 딥러닝",
+          "title": "오픈AI, 가성비 모델 'GPT-6.1 솔'·AI 에이전트 '닷츠' 공개",
           "title_ko": null,
-          "summary": "케라스 창시자에게 배우는 딥러닝프랑소와 숄레·매튜 왓슨 | 길벗2026년 9월 30일추천이유저자는 케라스 창시자로서 기본 원리부터 최신 생성형 AI까지 명쾌하게 설명하며, 독자는 이미지 분류, 자연어 처리, 트랜스포머, 미니 GPT, 디퓨전 모델 등을 직접 구축하고 실무 기법을 익힐 수 있습니다.상세보기길벗이 오는 30일 펴내는 『케라스 창시자에게 배우는 딥러닝』은 이미 여러 해 서가를 지…",
+          "summary": "오픈AI가 최상위 인공지능(AI) 모델급 성능을 5분의 1 비용으로 제공하는 '가성비' 모델을 선보였다. 샘 올트먼 오픈AI 최고경영자(CEO)는 29일(현지시간) 미국 샌프란시스코 포트메이슨센터에서 연례 개발자회의 '데브데이' 기조 발표를 통해 'GPT-6.1 솔'을 공개했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215623",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20260930000004",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-29T09:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-30T08:02:12+09:00",
+          "popularity": 92,
           "upvotes": 0,
-          "score": 25.49,
-          "importance_score": 18.97,
+          "score": 24.62,
+          "importance_score": 18.05,
           "matched_keywords": [
             "ai",
             "gpt",
@@ -92,23 +94,24 @@
           "engagement": null
         },
         {
-          "id": "67e21866a133db0576676c965c714a23",
+          "id": "51e3ff78f1c899b1bab1c9536f7ac342",
           "index": 4,
-          "title": "LG전자, '블록형 냉각설비' 모듈러 솔루션 공개…AI 데이터센터 구축기간 줄인다",
+          "title": "배경훈 부총리 “독파모 계속된다…프런티어 AI에도 도전”",
           "title_ko": null,
-          "summary": "LG전자가 펌프와 배관 등 데이터센터 냉각설비를 컨테이너에 미리 조립해 공급하는 모듈형 솔루션을 공개했다. 현장 공사를 줄이고 서버 증설에 맞춰 냉각 용량을 단계적으로 늘릴 수 있는 것이 강점이다. LG전자는 29일 싱가포르에서 개막한 데이터센터 전시회 '데이터센터월드 아시아 2026'에서 '하이드로닉 모듈러' 솔루션을 처음 선보였다.",
+          "summary": "정부가 독자 인공지능(AI) 파운데이션 모델, 이른바 '독파모' 사업을 계속 추진하는 동시에 세계 최고 수준의 '프런티어 AI' 개발에도 본격 도전한다. 배경훈 부총리 겸 과학기술정보통신부 장관은 30일 자신의 페이스북에 '대한민국 독파모는 계속됩니다'라는 글을 올리고 “결론부터 말씀 드리면 독파모는 계속된다”면서 “그리고 동시에 프런티어 AI에도 도전해야 한다고 본다”고 밝혔다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20260929000109",
+          "url": "https://www.etnews.com/20260930000002",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-09-29T10:26:07+09:00",
-          "popularity": 100,
+          "published_at": "2026-09-30T07:49:13+09:00",
+          "popularity": 91,
           "upvotes": 0,
-          "score": 19.79,
-          "importance_score": 19.57,
+          "score": 21.48,
+          "importance_score": 17.86,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "모델"
           ],
           "engagement": null
         }
@@ -119,33 +122,8 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "4683cd570ef39debe973a0779c44d0d5",
-          "index": 5,
-          "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "url": "https://github.com/yetone/magpie",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-29T11:26:23+09:00",
-          "popularity": 1629,
-          "upvotes": 1629,
-          "score": 37.5,
-          "importance_score": 34.49,
-          "matched_keywords": [
-            "agent",
-            "claude"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 1629
-          }
-        },
-        {
           "id": "08a2531986b8fc497406621a1dcb8f72",
-          "index": 6,
+          "index": 5,
           "title": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
           "title_ko": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
           "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
@@ -155,10 +133,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-09-25T13:53:31+09:00",
-          "popularity": 463,
-          "upvotes": 463,
-          "score": 35.49,
-          "importance_score": 21.49,
+          "popularity": 468,
+          "upvotes": 468,
+          "score": 35.53,
+          "importance_score": 21.53,
           "matched_keywords": [
             "ai",
             "llm",
@@ -167,7 +145,31 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 463
+            "value": 468
+          }
+        },
+        {
+          "id": "f0028017ccfc329380efa1a23cea8a67",
+          "index": 6,
+          "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "title_ko": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "summary_ko": null,
+          "url": "https://github.com/KKKKhazix/AIHOT",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-09-30T03:02:56+09:00",
+          "popularity": 3224,
+          "upvotes": 3224,
+          "score": 32.89,
+          "importance_score": 31.27,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 3224
           }
         }
       ]
@@ -177,24 +179,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "ab6532cce0e9bcd5899785df13ec4569",
+          "id": "647ba3cea2241ba61dbd31a9cb21fe35",
           "index": 7,
-          "title": "Laya: 텍스트 생성 없이 한 번의 순전파로 결정을 내리는 Jev 호환 오픈 가중치 모델과 로컬 실행 도구들",
+          "title": "OpenAI DevDay 2026 발표 25가지 총정리: 상시 에이전트 dots부터 GPT-6.1 Sol, 플러그인 확장까지",
           "title_ko": null,
-          "summary": "Laya 소개 문의 메일을 어느 팀에 배정할지, 이 프롬프트가 탈옥(jailbreak) 시도인지, 고객이 해지를 암시하는지처럼 소프트웨어가 짧게 내려야 하는 판단은 대부분 정해진 선택지 중 하나를 고르거나 확률 하나를 매기는 일입니다.",
+          "summary": "OpenAI DevDay 2026 소개 OpenAI 가 2026년 9월 29일 개발자 행사 DevDay 2026 을 열고 ChatGPT, Codex , API 전반에 걸친 발표 25가지를 공개했습니다. 핵심은 세 가지입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/laya-jev/12027",
+          "url": "https://discuss.pytorch.kr/t/openai-devday-2026-25-dots-gpt-6-1-sol/12053",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-29T07:01:00+09:00",
+          "published_at": "2026-09-30T10:30:56+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.07,
-          "importance_score": 18.15,
+          "score": 22.94,
+          "importance_score": 19.88,
           "matched_keywords": [
             "ai",
-            "모델"
+            "gpt"
           ],
           "engagement": null
         }
@@ -203,74 +205,76 @@
   ],
   "items": [
     {
-      "id": "7cac912e7805e6a794f2ce4e85215fa1",
+      "id": "4104dc545cf4930baa55e359641241dc",
       "index": 1,
-      "title": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
-      "title_ko": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
-      "summary": "We study training-inference mismatch in reinforcement learning with verifiable rewards (RLVR) for large language models, where rollouts are sampled by an inference engine while gradients are computed by a training engin…",
-      "summary_ko": "We study training-inference mismatch in reinforcement learning with verifiable rewards (RLVR) for large language models, where rollouts are sampled by an inference engine while gr…",
-      "url": "https://huggingface.co/papers/2609.32444",
+      "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+      "title_ko": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+      "summary": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior.",
+      "summary_ko": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior.",
+      "url": "https://huggingface.co/papers/2609.35457",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-09-29T09:00:00+09:00",
-      "popularity": 11,
-      "upvotes": 3,
-      "score": 25.94,
-      "importance_score": 16.43,
+      "popularity": 120,
+      "upvotes": 55,
+      "score": 26.39,
+      "importance_score": 14.39,
       "matched_keywords": [
         "ai",
         "llm",
-        "reinforcement learning",
-        "inference",
+        "multimodal",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 3
+        "value": 55
       }
     },
     {
-      "id": "88777f90196c8e27345eb47f39e02632",
+      "id": "9d1913185e8880c26d0e1ecdbd12a9d5",
       "index": 2,
-      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-      "title_ko": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation.",
-      "summary_ko": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image ge…",
-      "url": "https://huggingface.co/papers/2609.31620",
+      "title": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+      "title_ko": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+      "summary": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a single execution can span hours, hundreds of model--environment interactions, and nearly 1M tokens per rollout.",
+      "summary_ko": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a single execution can span hours, hundreds of model--environment interactions,…",
+      "url": "https://huggingface.co/papers/2609.33848",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-28T09:00:00+09:00",
-      "popularity": 260,
-      "upvotes": 116,
-      "score": 24.69,
-      "importance_score": 16.69,
+      "published_at": "2026-09-29T09:00:00+09:00",
+      "popularity": 59,
+      "upvotes": 27,
+      "score": 26.28,
+      "importance_score": 12.28,
       "matched_keywords": [
         "ai",
-        "diffusion"
+        "llm",
+        "agent",
+        "reinforcement learning",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 116
+        "value": 27
       }
     },
     {
-      "id": "a0211869b64c83776d4db1034854c473",
+      "id": "6b3a41fefc8d707befae72e35e2fb41f",
       "index": 3,
-      "title": "[AI리더의 서가] 케라스 창시자에게 배우는 딥러닝",
+      "title": "오픈AI, 가성비 모델 'GPT-6.1 솔'·AI 에이전트 '닷츠' 공개",
       "title_ko": null,
-      "summary": "케라스 창시자에게 배우는 딥러닝프랑소와 숄레·매튜 왓슨 | 길벗2026년 9월 30일추천이유저자는 케라스 창시자로서 기본 원리부터 최신 생성형 AI까지 명쾌하게 설명하며, 독자는 이미지 분류, 자연어 처리, 트랜스포머, 미니 GPT, 디퓨전 모델 등을 직접 구축하고 실무 기법을 익힐 수 있습니다.상세보기길벗이 오는 30일 펴내는 『케라스 창시자에게 배우는 딥러닝』은 이미 여러 해 서가를 지…",
+      "summary": "오픈AI가 최상위 인공지능(AI) 모델급 성능을 5분의 1 비용으로 제공하는 '가성비' 모델을 선보였다. 샘 올트먼 오픈AI 최고경영자(CEO)는 29일(현지시간) 미국 샌프란시스코 포트메이슨센터에서 연례 개발자회의 '데브데이' 기조 발표를 통해 'GPT-6.1 솔'을 공개했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215623",
-      "source": "AI Times",
+      "url": "https://www.etnews.com/20260930000004",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-29T09:00:00+09:00",
-      "popularity": 100,
+      "published_at": "2026-09-30T08:02:12+09:00",
+      "popularity": 92,
       "upvotes": 0,
-      "score": 25.49,
-      "importance_score": 18.97,
+      "score": 24.62,
+      "importance_score": 18.05,
       "matched_keywords": [
         "ai",
         "gpt",
@@ -279,54 +283,30 @@
       "engagement": null
     },
     {
-      "id": "67e21866a133db0576676c965c714a23",
+      "id": "51e3ff78f1c899b1bab1c9536f7ac342",
       "index": 4,
-      "title": "LG전자, '블록형 냉각설비' 모듈러 솔루션 공개…AI 데이터센터 구축기간 줄인다",
+      "title": "배경훈 부총리 “독파모 계속된다…프런티어 AI에도 도전”",
       "title_ko": null,
-      "summary": "LG전자가 펌프와 배관 등 데이터센터 냉각설비를 컨테이너에 미리 조립해 공급하는 모듈형 솔루션을 공개했다. 현장 공사를 줄이고 서버 증설에 맞춰 냉각 용량을 단계적으로 늘릴 수 있는 것이 강점이다. LG전자는 29일 싱가포르에서 개막한 데이터센터 전시회 '데이터센터월드 아시아 2026'에서 '하이드로닉 모듈러' 솔루션을 처음 선보였다.",
+      "summary": "정부가 독자 인공지능(AI) 파운데이션 모델, 이른바 '독파모' 사업을 계속 추진하는 동시에 세계 최고 수준의 '프런티어 AI' 개발에도 본격 도전한다. 배경훈 부총리 겸 과학기술정보통신부 장관은 30일 자신의 페이스북에 '대한민국 독파모는 계속됩니다'라는 글을 올리고 “결론부터 말씀 드리면 독파모는 계속된다”면서 “그리고 동시에 프런티어 AI에도 도전해야 한다고 본다”고 밝혔다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20260929000109",
+      "url": "https://www.etnews.com/20260930000002",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-09-29T10:26:07+09:00",
-      "popularity": 100,
+      "published_at": "2026-09-30T07:49:13+09:00",
+      "popularity": 91,
       "upvotes": 0,
-      "score": 19.79,
-      "importance_score": 19.57,
+      "score": 21.48,
+      "importance_score": 17.86,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "4683cd570ef39debe973a0779c44d0d5",
-      "index": 5,
-      "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "title_ko": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary_ko": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "url": "https://github.com/yetone/magpie",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-29T11:26:23+09:00",
-      "popularity": 1629,
-      "upvotes": 1629,
-      "score": 37.5,
-      "importance_score": 34.49,
-      "matched_keywords": [
-        "agent",
-        "claude"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 1629
-      }
-    },
-    {
       "id": "08a2531986b8fc497406621a1dcb8f72",
-      "index": 6,
+      "index": 5,
       "title": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
       "title_ko": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
       "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
@@ -336,10 +316,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-09-25T13:53:31+09:00",
-      "popularity": 463,
-      "upvotes": 463,
-      "score": 35.49,
-      "importance_score": 21.49,
+      "popularity": 468,
+      "upvotes": 468,
+      "score": 35.53,
+      "importance_score": 21.53,
       "matched_keywords": [
         "ai",
         "llm",
@@ -348,28 +328,52 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 463
+        "value": 468
       }
     },
     {
-      "id": "ab6532cce0e9bcd5899785df13ec4569",
-      "index": 7,
-      "title": "Laya: 텍스트 생성 없이 한 번의 순전파로 결정을 내리는 Jev 호환 오픈 가중치 모델과 로컬 실행 도구들",
-      "title_ko": null,
-      "summary": "Laya 소개 문의 메일을 어느 팀에 배정할지, 이 프롬프트가 탈옥(jailbreak) 시도인지, 고객이 해지를 암시하는지처럼 소프트웨어가 짧게 내려야 하는 판단은 대부분 정해진 선택지 중 하나를 고르거나 확률 하나를 매기는 일입니다.",
+      "id": "f0028017ccfc329380efa1a23cea8a67",
+      "index": 6,
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "title_ko": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/laya-jev/12027",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-09-30T03:02:56+09:00",
+      "popularity": 3224,
+      "upvotes": 3224,
+      "score": 32.89,
+      "importance_score": 31.27,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 3224
+      }
+    },
+    {
+      "id": "647ba3cea2241ba61dbd31a9cb21fe35",
+      "index": 7,
+      "title": "OpenAI DevDay 2026 발표 25가지 총정리: 상시 에이전트 dots부터 GPT-6.1 Sol, 플러그인 확장까지",
+      "title_ko": null,
+      "summary": "OpenAI DevDay 2026 소개 OpenAI 가 2026년 9월 29일 개발자 행사 DevDay 2026 을 열고 ChatGPT, Codex , API 전반에 걸친 발표 25가지를 공개했습니다. 핵심은 세 가지입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/openai-devday-2026-25-dots-gpt-6-1-sol/12053",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-29T07:01:00+09:00",
+      "published_at": "2026-09-30T10:30:56+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.07,
-      "importance_score": 18.15,
+      "score": 22.94,
+      "importance_score": 19.88,
       "matched_keywords": [
         "ai",
-        "모델"
+        "gpt"
       ],
       "engagement": null
     }
