@@ -5,9 +5,99 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 02 Oct 2026 01:05:41 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 06:37:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>BiasReducer: Adaptive Bias Mitigation for Reward Models</title>
+      <link>https://huggingface.co/papers/2609.32720</link>
+      <description>Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.32720">Hugging Face Papers</source>
+      <guid isPermaLink="false">d782bfc77ca6f59b874ef61ce462db6c</guid>
+    </item>
+    <item>
+      <title>BIABench: Evaluating AI agents on real-world bioimage analysis tasks</title>
+      <link>https://huggingface.co/papers/2609.34274</link>
+      <description>Artificial-intelligence (AI) agents hold promise for automating bioimage analysis, yet no benchmark evaluates whether they can carry out real-world analyses end to end.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34274">Hugging Face Papers</source>
+      <guid isPermaLink="false">f0f32b0b095f1c9b56037986c19f86df</guid>
+    </item>
+    <item>
+      <title>MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution</title>
+      <link>https://huggingface.co/papers/2609.38349</link>
+      <description>Modern agentic systems combine an AI model with a harness that controls execution and environmental interactions.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38349">Hugging Face Papers</source>
+      <guid isPermaLink="false">6ffc33551b860f5a4de43fbfa5ac119e</guid>
+    </item>
+    <item>
+      <title>Training LLM Judges from Language Feedback via Position-Selective Self-Distillation</title>
+      <link>https://huggingface.co/papers/2609.38792</link>
+      <description>We study training LLM judges from natural language feedback, especially for subjective tasks where the verdict depends strongly on which evaluation criteria the judge invokes and…</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38792">Hugging Face Papers</source>
+      <guid isPermaLink="false">854365aafe2166c2267e9d89aca80841</guid>
+    </item>
+    <item>
+      <title>Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems</title>
+      <link>https://huggingface.co/papers/2609.35928</link>
+      <description>Multi-agent LLM systems increasingly mix models from several providers, yet exposing each agent's underlying model identity to its peers significantly impairs cooperation.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.35928">Hugging Face Papers</source>
+      <guid isPermaLink="false">db9a79ddbaa7957ba214ff56fd792fc4</guid>
+    </item>
+    <item>
+      <title>Aligning One-Step Generative Models with Reward-Weighted Transport Distillation</title>
+      <link>https://huggingface.co/papers/2609.30840</link>
+      <description>One-step generators enable high-quality visual generation with a single network evaluation, but their post-training is difficult: general implicit generators provide neither tract…</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.30840">Hugging Face Papers</source>
+      <guid isPermaLink="false">3242484c341023d8d09ed2e4b73fae3b</guid>
+    </item>
+    <item>
+      <title>Rubric Rewards from Item Response Theory</title>
+      <link>https://huggingface.co/papers/2609.35646</link>
+      <description>Many language tasks have no single answer that can be checked automatically. Rubrics provide criteria for judging responses to these tasks.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.35646">Hugging Face Papers</source>
+      <guid isPermaLink="false">4770a89577e8ceec070b384bc1b0d965</guid>
+    </item>
+    <item>
+      <title>DAGent: Evaluate-then-Grow Planning for Deep Research Agents</title>
+      <link>https://huggingface.co/papers/2609.39154</link>
+      <description>Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and adapt their plans as findings emerge.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.39154">Hugging Face Papers</source>
+      <guid isPermaLink="false">d83f6c5132d20afdcc2d14737d9a7fc6</guid>
+    </item>
+    <item>
+      <title>Who Said What, and Will It Be Remembered? Evaluating Persistent Speaker Attribution Across Meetings</title>
+      <link>https://huggingface.co/papers/2609.39344</link>
+      <description>Speech transcripts used as long-term memory must preserve both words and stable speaker identities.</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.39344">Hugging Face Papers</source>
+      <guid isPermaLink="false">2252852fa16ad9228a0484aaf4aa8a21</guid>
+    </item>
+    <item>
+      <title>Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning</title>
+      <link>https://huggingface.co/papers/2609.38658</link>
+      <description>TTS systems with autoregressive semantic modeling have demonstrated strong zero-shot voice cloning performance and rich expressive variation, but their sequential decoding incurs…</description>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38658">Hugging Face Papers</source>
+      <guid isPermaLink="false">593305f648c9fb34f794dbfd8c6f3d2b</guid>
+    </item>
     <item>
       <title>TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion</title>
       <link>https://huggingface.co/papers/2609.38653</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.39903">Hugging Face Papers</source>
       <guid isPermaLink="false">88c440f91f90feed0e7059b7386193d3</guid>
-    </item>
-    <item>
-      <title>RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement</title>
-      <link>https://huggingface.co/papers/2609.39045</link>
-      <description>Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challe…</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.39045">Hugging Face Papers</source>
-      <guid isPermaLink="false">4fd60ae9a685db97f8161c43fc974c8b</guid>
-    </item>
-    <item>
-      <title>CheatBench: Measuring Reward Gaming in AI Agents</title>
-      <link>https://huggingface.co/papers/2609.36308</link>
-      <description>Reinforcement learning has helped AI agents solve increasingly difficult tasks, but high rewards do not always reflect the work users intended.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.36308">Hugging Face Papers</source>
-      <guid isPermaLink="false">0e173ea9eeaaae722207cb507df6989c</guid>
-    </item>
-    <item>
-      <title>Unmask the State: When Does State Adaptation Matter for Masked Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2609.33355</link>
-      <description>Masked diffusion language models (MDMs) admit flexible generation orders, making the unmasking strategy an inference decision.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.33355">Hugging Face Papers</source>
-      <guid isPermaLink="false">b7cabbb9c70b7cb1f47f01392e803a96</guid>
-    </item>
-    <item>
-      <title>PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents</title>
-      <link>https://huggingface.co/papers/2609.40285</link>
-      <description>On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.40285">Hugging Face Papers</source>
-      <guid isPermaLink="false">b1b5083f1d263ff585a2ab8da2a8e77b</guid>
-    </item>
-    <item>
-      <title>A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?</title>
-      <link>https://huggingface.co/papers/2609.39564</link>
-      <description>Delegating complete application development to coding agents requires preserving the intended design rather than simply producing plausible outputs through naive prompting.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.39564">Hugging Face Papers</source>
-      <guid isPermaLink="false">87f9b0bd91a80ee44b526cf44d738050</guid>
-    </item>
-    <item>
-      <title>More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models</title>
-      <link>https://huggingface.co/papers/2609.38827</link>
-      <description>Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.38827">Hugging Face Papers</source>
-      <guid isPermaLink="false">a5bcde43f35b6a8cb8edfc7a68d01fca</guid>
-    </item>
-    <item>
-      <title>I Have a Stream: Making Self-Supervised Learning Work on Continuous Video</title>
-      <link>https://huggingface.co/papers/2609.40333</link>
-      <description>Self-supervised learning draws inspiration from infant visual development, yet standard training pipelines bear little resemblance to it: images are independently sampled and glob…</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.40333">Hugging Face Papers</source>
-      <guid isPermaLink="false">9200398b3ec69cd9cbc25f6ddcdd82ab</guid>
-    </item>
-    <item>
-      <title>The Geometry of Inference in Transformer Residual Streams</title>
-      <link>https://huggingface.co/papers/2609.37824</link>
-      <description>Transformer language models build predictions through successive residual updates, but how their representations become specific to an eventual outcome remains unclear.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37824">Hugging Face Papers</source>
-      <guid isPermaLink="false">111b5288d014ab6f8462bd5e7a6cf627</guid>
-    </item>
-    <item>
-      <title>WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms</title>
-      <link>https://huggingface.co/papers/2609.38121</link>
-      <description>KV cache memory and bandwidth costs grow with context length and batch size, which limits efficient long-context inference.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.38121">Hugging Face Papers</source>
-      <guid isPermaLink="false">d7bfc2afd87505852a208acd3e5f55a5</guid>
-    </item>
-    <item>
-      <title>Understanding Multimodality in Generative Behavioral Cloning</title>
-      <link>https://huggingface.co/papers/2605.22493</link>
-      <description>Behavioral cloning becomes challenging when the same observation admits several valid actions.</description>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2605.22493">Hugging Face Papers</source>
-      <guid isPermaLink="false">e5f75d72e409221eaec8e7cd11536078</guid>
     </item>
   </channel>
 </rss>
