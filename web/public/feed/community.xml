@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Oct 2026 17:28:38 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 01:05:41 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Bilibili, 150개 언어의 텍스트와 음성 번역이 가능한 다국어 번역 모델 Index-Translate 5종 공개</title>
+      <link>https://discuss.pytorch.kr/t/bilibili-150-index-translate-5/12070</link>
+      <description>Index-Translate 소개 Index-Translate 는 중국의 동영상 플랫폼 Bilibili 의 Index 팀이 2026년 9월 30일 공개한 다국어 번역 모델 패밀리로, Qwen3.5 베이스 모델을 150개 언어 번역에 맞춰 다시 학습한 2B, 9B, 35B-A3B(프리뷰) 텍스트 모델과, 그 위에 음성 번역, 음절 수 제어 더빙, 장문 문서 번역을 각각 맡는 확장 모델들로 이…</description>
+      <pubDate>Thu, 01 Oct 2026 19:30:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/bilibili-150-index-translate-5/12070">PyTorch Korea</source>
+      <guid isPermaLink="false">81569953982a3a6c930c5e84ae9e0e1e</guid>
+    </item>
     <item>
       <title>Liquid AI, 문장 생성 대신 Jev 호환 API로 분류 / 라우팅 / 점수를 처리하는 결정 모델 d1 공개</title>
       <link>https://discuss.pytorch.kr/t/liquid-ai-jev-api-d1/12063</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/jev-13/11968">PyTorch Korea</source>
       <guid isPermaLink="false">762243a0c30f7d4b5ac5e192d246b4c9</guid>
-    </item>
-    <item>
-      <title>kev: 비공개 모델 Jev를 Qwen과 LoRA로 재현해 맥북에서 학습하고 실행하는 결정 모델</title>
-      <link>https://discuss.pytorch.kr/t/kev-jev-qwen-lora/11963</link>
-      <description>kev 소개 소프트웨어가 사람 손을 거치지 않고 내리는 판단, 예를 들어 들어온 문의를 어느 팀으로 보낼지나 이 요청을 사람에게 넘길지 같은 결정을 대형 언어 모델(Large Language Model, LLM)에 맡기면 한 가지 문제가 남습니다. 모델은 "confidence": 0.9 라는 글자를 만들어 낼 뿐이고, 그 글자가 나올 확률과 답이 실제로 맞을 확률은 서로 다른 값입니다.</description>
-      <pubDate>Sun, 20 Sep 2026 18:00:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kev-jev-qwen-lora/11963">PyTorch Korea</source>
-      <guid isPermaLink="false">6206b4c32a4a71d9164129bf57fc2012</guid>
     </item>
   </channel>
 </rss>
