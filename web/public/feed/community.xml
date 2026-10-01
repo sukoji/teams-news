@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Oct 2026 06:17:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:08:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Google, Gemini 4 Argon 출시: 출력 한도 1M 토큰, 일반 출시에 앞서 사이버 방어 기관에 먼저 제공</title>
+      <link>https://discuss.pytorch.kr/t/google-gemini-4-argon-1m/12064</link>
+      <description>Gemini 4 Argon 소개 Google이 2026년 9월 30일 새 프런티어 모델 Gemini 4 Argon 을 공개했습니다. 긴 호흡의 다단계 작업을 끝까지 수행하도록 만든 모델로, 출력 토큰 한도를 기존 64K에서 1M으로 늘렸고 소프트웨어 엔지니어링, 법률과 금융 같은 전문 업무, 사이버 보안 방어 영역의 벤치마크에서 1위를 주장합니다.</description>
+      <pubDate>Thu, 01 Oct 2026 09:30:37 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-gemini-4-argon-1m/12064">PyTorch Korea</source>
+      <guid isPermaLink="false">583405824549307567d25a76843e3844</guid>
+    </item>
+    <item>
+      <title>x402 + MCP: 예산 확인은 어디에서 해야 할까 (x402 + MCP: where does the budget check go?)</title>
+      <link>https://discuss.pytorch.kr/t/x402-mcp-x402-mcp-where-does-the-budget-check-go/12039</link>
+      <description>DEV Community 에 게재된 Prakash Rao Bethapudi, Marco Gonzalez의 글을 원저자의 허락 하에 번역하였습니다. 이 글이 여러 차례 인용하는 AAIF 글, 402 Payment Required: 엔터프라이즈 MCP 서버가 비용을 지불하는 에이전트에게 지켜야 할 것 도 함께 번역하였습니다. 원문은 아래 링크에서 확인하실 수 있습니다.</description>
+      <pubDate>Thu, 01 Oct 2026 08:30:39 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/x402-mcp-x402-mcp-where-does-the-budget-check-go/12039">PyTorch Korea</source>
+      <guid isPermaLink="false">8ba3434566d6d5498596ec105dd384f4</guid>
+    </item>
     <item>
       <title>402 Payment Required: 엔터프라이즈 MCP 서버가 비용을 지불하는 에이전트에게 지켜야 할 것 (402 Payment Required: What Enterprise MCP Servers Owe the Agents That Pay Them)</title>
       <link>https://discuss.pytorch.kr/t/402-payment-required-mcp-402-payment-required-what-enterprise-mcp-servers-owe-the-agents-that-pay-them/12038</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/harnesstax-7-x-3-feat-uc-berkeley/11957">PyTorch Korea</source>
       <guid isPermaLink="false">f73a63a33ee588bdee25269926911b71</guid>
-    </item>
-    <item>
-      <title>Ternary Bonsai 2 27B, 5.93GB로 줄이고도 FP16 성능의 98.2%를 지킨 삼진 모델 (feat. PrismML)</title>
-      <link>https://discuss.pytorch.kr/t/ternary-bonsai-2-27b-5-93gb-fp16-98-2-feat-prismml/11949</link>
-      <description>Ternary Bonsai 2 27B 소개 PrismML 이 Ternary Bonsai 2 27B 를 공개했습니다. 270억 파라미터급 멀티모달 언어 모델의 행렬 가중치를 \{-1, 0, +1\} 세 값으로만 저장해서, FP16으로 53.80GB를 차지하던 언어 모델을 5.93GB 로 줄인 모델입니다.</description>
-      <pubDate>Sat, 19 Sep 2026 11:00:49 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ternary-bonsai-2-27b-5-93gb-fp16-98-2-feat-prismml/11949">PyTorch Korea</source>
-      <guid isPermaLink="false">b287f5ce848d9e6b26f965b2b1369d0b</guid>
-    </item>
-    <item>
-      <title>Anthropic, 내부의 AI 개발 속도를 측정하는 3가지 지표 공개 공개: Claude가 AI R&amp;D의 26%를 주도</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953</link>
-      <description>Anthropic의 AI 개발 속도 측정 지표 소개 Anthropic 이 2026년 9월 Anthropic Institute ( Anthropic, 프런티어 AI 시대의 사회적 과제 해결을 위한 Anthropic Institute 설립 발표 )를 통해 공개한 Measurements for understanding the pace of AI development inside frontier…</description>
-      <pubDate>Fri, 18 Sep 2026 20:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-ai-3-claude-ai-r-d-26/11953">PyTorch Korea</source>
-      <guid isPermaLink="false">d49d49b25969aeeed10295b088c89d7a</guid>
     </item>
   </channel>
 </rss>

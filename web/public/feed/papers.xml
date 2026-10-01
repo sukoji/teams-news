@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Oct 2026 06:17:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 10:08:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PreviewDiff: Multimodal Critic-Guided Search over Diffusion Latents</title>
+      <link>https://huggingface.co/papers/2609.36199</link>
+      <description>Diffusion models can produce striking images and videos, but they still struggle with the compositional details that make a generation faithful to a prompt, such as object counts,…</description>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36199">Hugging Face Papers</source>
+      <guid isPermaLink="false">9786ed6a6b65bcc865fbcc08cc2f7f61</guid>
+    </item>
+    <item>
+      <title>What Makes Recurrence Effective in Looped Language Models?</title>
+      <link>https://huggingface.co/papers/2609.36636</link>
+      <description>Looped language models (LoopLMs) increase computational depth through parameter sharing, offering a path to scale inference computation without adding parameters.</description>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36636">Hugging Face Papers</source>
+      <guid isPermaLink="false">41e56ef0656ae191ec7b7951b8c54a04</guid>
+    </item>
+    <item>
+      <title>AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents</title>
+      <link>https://huggingface.co/papers/2609.32915</link>
+      <description>Browser-use agents often carry information in their context as they move between websites.</description>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.32915">Hugging Face Papers</source>
+      <guid isPermaLink="false">0142ce85ccca3402acb57007edef2529</guid>
+    </item>
+    <item>
+      <title>Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation</title>
+      <link>https://huggingface.co/papers/2609.38172</link>
+      <description>Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots.</description>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38172">Hugging Face Papers</source>
+      <guid isPermaLink="false">5ab2df1d97acfcadf0578e654fb63002</guid>
+    </item>
     <item>
       <title>Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression</title>
       <link>https://huggingface.co/papers/2609.36322</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2609.38119">Hugging Face Papers</source>
       <guid isPermaLink="false">924d8b0c50c5bd9978c854ccf82d3825</guid>
-    </item>
-    <item>
-      <title>WorldAttention: An Efficient Attention Architecture for Interactive Video World Models</title>
-      <link>https://huggingface.co/papers/2609.34606</link>
-      <description>Leveraging the paradigm of autoregressive diffusion, text-conditioned interactive video world models aim to simulate temporally coherent environments guided by textual instruction…</description>
-      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.34606">Hugging Face Papers</source>
-      <guid isPermaLink="false">6c517c9942474d49bd738d31dc2c4da3</guid>
-    </item>
-    <item>
-      <title>SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2609.36601</link>
-      <description>On-policy distillation (OPD) reduces train-test state mismatch by training a student on its own generated trajectories, but weak students may visit teacher-misaligned prefixes whe…</description>
-      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.36601">Hugging Face Papers</source>
-      <guid isPermaLink="false">70bdcbec43ba214953fbb85f59cc1568</guid>
-    </item>
-    <item>
-      <title>Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR</title>
-      <link>https://huggingface.co/papers/2609.37868</link>
-      <description>Reinforcement Learning with Verifiable Rewards (RLVR) methods such as GRPO rely on successful self-generated trajectories, but finite rollout budgets can produce all-fail groups w…</description>
-      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37868">Hugging Face Papers</source>
-      <guid isPermaLink="false">30fcd1411c419e9f333fef9d2a517ba9</guid>
-    </item>
-    <item>
-      <title>TabFM-Auto: Self-Evolving Pipelines for Tabular Foundation Models</title>
-      <link>https://huggingface.co/papers/2609.37989</link>
-      <description>Tabular foundation models achieve strong zero-shot accuracy on structured data by pretraining on synthetic tables, but they ignore the column names, task descriptions, and auxilia…</description>
-      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37989">Hugging Face Papers</source>
-      <guid isPermaLink="false">fa7fb1c676ba212223cecb328d60f204</guid>
     </item>
   </channel>
 </rss>
