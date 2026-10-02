@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-01",
-  "generated_at": "2026-10-01T10:46:26.372161+09:00",
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T10:57:02.320857+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "368bd23d6628b0804f4d8fa16ed07865",
+          "id": "8337ba93f241d61b1fc917f0e0d5400b",
           "index": 1,
-          "title": "Scaling Properties of Same-Family On-Policy Distillation",
-          "title_ko": "Scaling Properties of Same-Family On-Policy Distillation",
-          "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear.",
-          "summary_ko": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how…",
-          "url": "https://huggingface.co/papers/2609.32722",
+          "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+          "title_ko": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+          "summary": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words.",
+          "summary_ko": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoni…",
+          "url": "https://huggingface.co/papers/2609.34563",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-30T09:00:00+09:00",
-          "popularity": 451,
-          "upvotes": 213,
-          "score": 30.0,
+          "published_at": "2026-10-01T09:00:00+09:00",
+          "popularity": 429,
+          "upvotes": 206,
+          "score": 28.0,
           "importance_score": 18.0,
           "matched_keywords": [
-            "ai",
             "llm",
-            "reinforcement learning",
+            "multimodal",
             "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 213
+            "value": 206
           }
         },
         {
-          "id": "8021bd6819ed73b93750d01e0208ce04",
+          "id": "6340abe55f55768c15f0729518b474a5",
           "index": 2,
-          "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-          "title_ko": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-          "summary": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmented across text, images, audio, video, documents, 3D assets, and code.",
-          "summary_ko": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmented across text, images, audio, video, documents, 3D assets, a…",
-          "url": "https://huggingface.co/papers/2609.31847",
+          "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+          "title_ko": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+          "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
+          "summary_ko": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
+          "url": "https://huggingface.co/papers/2609.39102",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-09-30T09:00:00+09:00",
-          "popularity": 342,
-          "upvotes": 159,
-          "score": 27.51,
-          "importance_score": 17.51,
+          "published_at": "2026-10-01T09:00:00+09:00",
+          "popularity": 390,
+          "upvotes": 190,
+          "score": 27.91,
+          "importance_score": 17.91,
           "matched_keywords": [
             "ai",
             "agent",
-            "rag"
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 159
+            "value": 190
           }
         }
       ]
@@ -69,45 +68,47 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "a1a55882f5a6c85cf93df788dfe4da03",
+          "id": "4b35e03cd9636cf2312a8d1fe41d0b4a",
           "index": 3,
-          "title": "[기고] AI판 빅맥지수가 비춘 'AI 강국'의 그림자",
+          "title": "최대선 센터장 \"사이버보안 특화 모델 AI 기본법 사각지대...기준 마련 시급\"",
           "title_ko": null,
-          "summary": "지난 9월10일 오픈AI는 월 200달러짜리 챗GPT 프로 요금제의 신규 가입을 멈췄다. 시스템 부하가 이유였다. 값을 올리지도 내리지도 않고 판매 자체를 멈췄다.챗GPT 프로 200달러는 서울에서도 베를린에서도 같다.",
+          "summary": "최대선 숭실대 AI안전성연구센터장이 정부 주도로 개발 중인 \\'사이버보안 특화 AI 파운데이션 모델\\'이 정작 안전성을 규율하는 \\'AI 기본법\\'의 법적 규제와 관리 체계에서 벗어나 있어 명확한 기준과 평가 체계 마련이 시급하다고 지적했다.최대선 센터장은 1일 오후 국가AI전략위원회에서 열린 \\'AI 개발 속도조절론\\' 세미나에 참석해 보안 특화 모델은 현행 AI 기본법상 별도 관리 대상…",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215819",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215867",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-01T09:00:00+09:00",
+          "published_at": "2026-10-02T04:56:01+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.63,
-          "importance_score": 19.26,
+          "score": 24.75,
+          "importance_score": 17.49,
           "matched_keywords": [
             "ai",
-            "gpt"
+            "연구",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "a6a1e15b508e455b2406c4f0bf02ba9a",
+          "id": "19d2faf49178c9e1daaf6990f72a65ef",
           "index": 4,
-          "title": "구글, '제미나이 4 아르곤' 공개…100만 토큰·사이버보안 강화",
+          "title": "업스테이지, 소형 LLM '솔라 미니 4' 공개…350억 파라미터 규모",
           "title_ko": null,
-          "summary": "구글이 복잡한 소프트웨어 개발과 기업 업무, 사이버보안 방어에 초점을 맞춘 새 인공지능(AI) 모델 '제미나이 4 아르곤(Argon)'을 공개했다. 최대 출력 한도를 기존 6만4000개에서 100만 토큰으로 확대해 장시간 이어지는 복잡한 작업 수행 능력을 강화했다.",
+          "summary": "업스테이지는 경량언어모델(SLM) '솔라 미니 4'를 공개했다고 1일 밝혔다. '솔라 미니 4'는 적은 연산량으로 고성능·고효율을 구현한 것이 특징이다. 전체 350억개 매개변수에 전문가혼합(MoE) 구조를 적용해 실제 추론 시에는 30억개만 선택적으로 활성화한다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261001000025",
+          "url": "https://www.etnews.com/20261001000457",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-01T07:28:33+09:00",
-          "popularity": 91,
+          "published_at": "2026-10-01T17:12:07+09:00",
+          "popularity": 88,
           "upvotes": 0,
-          "score": 21.41,
-          "importance_score": 17.73,
+          "score": 21.1,
+          "importance_score": 11.41,
           "matched_keywords": [
-            "ai",
+            "llm",
+            "추론",
             "모델"
           ],
           "engagement": null
@@ -119,55 +120,52 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "08a2531986b8fc497406621a1dcb8f72",
-          "index": 5,
-          "title": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-          "title_ko": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-          "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-          "summary_ko": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-          "url": "https://github.com/amitshekhariitbhu/ai-system-design",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-09-25T13:53:31+09:00",
-          "popularity": 476,
-          "upvotes": 476,
-          "score": 35.59,
-          "importance_score": 21.59,
-          "matched_keywords": [
-            "ai",
-            "llm",
-            "agent",
-            "rag"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 476
-          }
-        },
-        {
           "id": "d9838d6f1098949b6f0c11cece85b277",
-          "index": 6,
-          "title": "nanaism/yomiyasu — AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
-          "title_ko": "nanaism/yomiyasu — AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
-          "summary": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
-          "summary_ko": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+          "index": 5,
+          "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
+          "title_ko": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
+          "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+          "summary_ko": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
           "url": "https://github.com/nanaism/yomiyasu",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-01T03:53:59+09:00",
-          "popularity": 344,
-          "upvotes": 344,
-          "score": 32.02,
-          "importance_score": 27.59,
+          "published_at": "2026-10-02T02:50:43+09:00",
+          "popularity": 984,
+          "upvotes": 984,
+          "score": 35.44,
+          "importance_score": 30.75,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 344
+            "value": 984
+          }
+        },
+        {
+          "id": "f0028017ccfc329380efa1a23cea8a67",
+          "index": 6,
+          "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "title_ko": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+          "summary_ko": null,
+          "url": "https://github.com/KKKKhazix/AIHOT",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-10-02T02:58:37+09:00",
+          "popularity": 4666,
+          "upvotes": 4666,
+          "score": 32.84,
+          "importance_score": 31.18,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 4666
           }
         }
       ]
@@ -177,26 +175,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "a8187007cd6a32ea191a0bd300736846",
+          "id": "5fbf101b1f72934624eeea83b13124b4",
           "index": 7,
-          "title": "Ember-1: 40% 가량 적은 토큰으로 Kimi K3와 비슷한 품질을 보여주는 Fireworks AI의 추론 효율화 모델 (공개X)",
+          "title": "Liquid AI, 문장 생성 대신 Jev 호환 API로 분류 / 라우팅 / 점수를 처리하는 결정 모델 d1 공개",
           "title_ko": null,
-          "summary": "Ember-1 소개 Ember-1 은 Fireworks AI 의 연구 조직 Fireworks Research가 2026년 9월 23일 공개한 추론(reasoning) 효율화 모델로, Kimi K3 를 기반으로 추가 학습해 비슷한 품질을 약 40% 적은 토큰으로 내도록 만든 것이 핵심입니다.",
+          "summary": "Liquid AI d1 소개 Liquid AI 가 공개한 d1 은 문장을 생성하지 않고, 애플리케이션이 미리 정한 선택지에 대한 확률을 한 번의 호출로 돌려주는 이 회사의 첫 결정 모델(Decision Model) 입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/ember-1-40-kimi-k3-fireworks-ai-x/12040",
+          "url": "https://discuss.pytorch.kr/t/liquid-ai-jev-api-d1/12063",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-09-30T11:30:10+09:00",
-          "popularity": 95,
+          "published_at": "2026-10-01T15:30:20+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 26.65,
-          "importance_score": 9.8,
+          "score": 18.85,
+          "importance_score": 11.8,
           "matched_keywords": [
             "ai",
-            "추론",
-            "연구",
-            "reasoning",
             "모델"
           ],
           "engagement": null
@@ -206,175 +201,170 @@
   ],
   "items": [
     {
-      "id": "368bd23d6628b0804f4d8fa16ed07865",
+      "id": "8337ba93f241d61b1fc917f0e0d5400b",
       "index": 1,
-      "title": "Scaling Properties of Same-Family On-Policy Distillation",
-      "title_ko": "Scaling Properties of Same-Family On-Policy Distillation",
-      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear.",
-      "summary_ko": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how…",
-      "url": "https://huggingface.co/papers/2609.32722",
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "title_ko": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "summary": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words.",
+      "summary_ko": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoni…",
+      "url": "https://huggingface.co/papers/2609.34563",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-30T09:00:00+09:00",
-      "popularity": 451,
-      "upvotes": 213,
-      "score": 30.0,
+      "published_at": "2026-10-01T09:00:00+09:00",
+      "popularity": 429,
+      "upvotes": 206,
+      "score": 28.0,
       "importance_score": 18.0,
       "matched_keywords": [
-        "ai",
         "llm",
-        "reinforcement learning",
+        "multimodal",
         "reasoning"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 213
+        "value": 206
       }
     },
     {
-      "id": "8021bd6819ed73b93750d01e0208ce04",
+      "id": "6340abe55f55768c15f0729518b474a5",
       "index": 2,
-      "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-      "title_ko": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-      "summary": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmented across text, images, audio, video, documents, 3D assets, and code.",
-      "summary_ko": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmented across text, images, audio, video, documents, 3D assets, a…",
-      "url": "https://huggingface.co/papers/2609.31847",
+      "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+      "title_ko": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+      "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
+      "summary_ko": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
+      "url": "https://huggingface.co/papers/2609.39102",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-09-30T09:00:00+09:00",
-      "popularity": 342,
-      "upvotes": 159,
-      "score": 27.51,
-      "importance_score": 17.51,
+      "published_at": "2026-10-01T09:00:00+09:00",
+      "popularity": 390,
+      "upvotes": 190,
+      "score": 27.91,
+      "importance_score": 17.91,
       "matched_keywords": [
         "ai",
         "agent",
-        "rag"
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 159
+        "value": 190
       }
     },
     {
-      "id": "a1a55882f5a6c85cf93df788dfe4da03",
+      "id": "4b35e03cd9636cf2312a8d1fe41d0b4a",
       "index": 3,
-      "title": "[기고] AI판 빅맥지수가 비춘 'AI 강국'의 그림자",
+      "title": "최대선 센터장 \"사이버보안 특화 모델 AI 기본법 사각지대...기준 마련 시급\"",
       "title_ko": null,
-      "summary": "지난 9월10일 오픈AI는 월 200달러짜리 챗GPT 프로 요금제의 신규 가입을 멈췄다. 시스템 부하가 이유였다. 값을 올리지도 내리지도 않고 판매 자체를 멈췄다.챗GPT 프로 200달러는 서울에서도 베를린에서도 같다.",
+      "summary": "최대선 숭실대 AI안전성연구센터장이 정부 주도로 개발 중인 \\'사이버보안 특화 AI 파운데이션 모델\\'이 정작 안전성을 규율하는 \\'AI 기본법\\'의 법적 규제와 관리 체계에서 벗어나 있어 명확한 기준과 평가 체계 마련이 시급하다고 지적했다.최대선 센터장은 1일 오후 국가AI전략위원회에서 열린 \\'AI 개발 속도조절론\\' 세미나에 참석해 보안 특화 모델은 현행 AI 기본법상 별도 관리 대상…",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215819",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215867",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-01T09:00:00+09:00",
+      "published_at": "2026-10-02T04:56:01+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.63,
-      "importance_score": 19.26,
+      "score": 24.75,
+      "importance_score": 17.49,
       "matched_keywords": [
         "ai",
-        "gpt"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "a6a1e15b508e455b2406c4f0bf02ba9a",
-      "index": 4,
-      "title": "구글, '제미나이 4 아르곤' 공개…100만 토큰·사이버보안 강화",
-      "title_ko": null,
-      "summary": "구글이 복잡한 소프트웨어 개발과 기업 업무, 사이버보안 방어에 초점을 맞춘 새 인공지능(AI) 모델 '제미나이 4 아르곤(Argon)'을 공개했다. 최대 출력 한도를 기존 6만4000개에서 100만 토큰으로 확대해 장시간 이어지는 복잡한 작업 수행 능력을 강화했다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20261001000025",
-      "source": "전자신문 IT",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-10-01T07:28:33+09:00",
-      "popularity": 91,
-      "upvotes": 0,
-      "score": 21.41,
-      "importance_score": 17.73,
-      "matched_keywords": [
-        "ai",
+        "연구",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "08a2531986b8fc497406621a1dcb8f72",
-      "index": 5,
-      "title": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-      "title_ko": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-      "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-      "summary_ko": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-09-25T13:53:31+09:00",
-      "popularity": 476,
-      "upvotes": 476,
-      "score": 35.59,
-      "importance_score": 21.59,
+      "id": "19d2faf49178c9e1daaf6990f72a65ef",
+      "index": 4,
+      "title": "업스테이지, 소형 LLM '솔라 미니 4' 공개…350억 파라미터 규모",
+      "title_ko": null,
+      "summary": "업스테이지는 경량언어모델(SLM) '솔라 미니 4'를 공개했다고 1일 밝혔다. '솔라 미니 4'는 적은 연산량으로 고성능·고효율을 구현한 것이 특징이다. 전체 350억개 매개변수에 전문가혼합(MoE) 구조를 적용해 실제 추론 시에는 30억개만 선택적으로 활성화한다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261001000457",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-01T17:12:07+09:00",
+      "popularity": 88,
+      "upvotes": 0,
+      "score": 21.1,
+      "importance_score": 11.41,
       "matched_keywords": [
-        "ai",
         "llm",
-        "agent",
-        "rag"
+        "추론",
+        "모델"
       ],
-      "engagement": {
-        "label": "Stars",
-        "value": 476
-      }
+      "engagement": null
     },
     {
       "id": "d9838d6f1098949b6f0c11cece85b277",
-      "index": 6,
-      "title": "nanaism/yomiyasu — AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
-      "title_ko": "nanaism/yomiyasu — AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
-      "summary": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
-      "summary_ko": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+      "index": 5,
+      "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
+      "title_ko": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
+      "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "summary_ko": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
       "url": "https://github.com/nanaism/yomiyasu",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-01T03:53:59+09:00",
-      "popularity": 344,
-      "upvotes": 344,
-      "score": 32.02,
-      "importance_score": 27.59,
+      "published_at": "2026-10-02T02:50:43+09:00",
+      "popularity": 984,
+      "upvotes": 984,
+      "score": 35.44,
+      "importance_score": 30.75,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 344
+        "value": 984
       }
     },
     {
-      "id": "a8187007cd6a32ea191a0bd300736846",
-      "index": 7,
-      "title": "Ember-1: 40% 가량 적은 토큰으로 Kimi K3와 비슷한 품질을 보여주는 Fireworks AI의 추론 효율화 모델 (공개X)",
-      "title_ko": null,
-      "summary": "Ember-1 소개 Ember-1 은 Fireworks AI 의 연구 조직 Fireworks Research가 2026년 9월 23일 공개한 추론(reasoning) 효율화 모델로, Kimi K3 를 기반으로 추가 학습해 비슷한 품질을 약 40% 적은 토큰으로 내도록 만든 것이 핵심입니다.",
+      "id": "f0028017ccfc329380efa1a23cea8a67",
+      "index": 6,
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "title_ko": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/ember-1-40-kimi-k3-fireworks-ai-x/12040",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-02T02:58:37+09:00",
+      "popularity": 4666,
+      "upvotes": 4666,
+      "score": 32.84,
+      "importance_score": 31.18,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 4666
+      }
+    },
+    {
+      "id": "5fbf101b1f72934624eeea83b13124b4",
+      "index": 7,
+      "title": "Liquid AI, 문장 생성 대신 Jev 호환 API로 분류 / 라우팅 / 점수를 처리하는 결정 모델 d1 공개",
+      "title_ko": null,
+      "summary": "Liquid AI d1 소개 Liquid AI 가 공개한 d1 은 문장을 생성하지 않고, 애플리케이션이 미리 정한 선택지에 대한 확률을 한 번의 호출로 돌려주는 이 회사의 첫 결정 모델(Decision Model) 입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/liquid-ai-jev-api-d1/12063",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-09-30T11:30:10+09:00",
-      "popularity": 95,
+      "published_at": "2026-10-01T15:30:20+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 26.65,
-      "importance_score": 9.8,
+      "score": 18.85,
+      "importance_score": 11.8,
       "matched_keywords": [
         "ai",
-        "추론",
-        "연구",
-        "reasoning",
         "모델"
       ],
       "engagement": null
