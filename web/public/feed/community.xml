@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 03 Oct 2026 15:08:31 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 21:18:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>NVIDIA VSS 3.3: 영상 AI 에이전트를 프롬프트로 조립하고, 변하지 않은 화면의 VLM 토큰은 줄이기 (feat. Adaptive EVS)</title>
+      <link>https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077</link>
+      <description>핵심 요약 NVIDIA가 영상 검색과 요약 블루프린트 VSS 3.3을 발표하며, 개발 비용을 줄이는 Build Vision Agent 스킬과 VLM 처리 비용을 줄이는 Adaptive EVS를 함께 소개했습니다.</description>
+      <pubDate>Sat, 03 Oct 2026 18:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077">PyTorch Korea</source>
+      <guid isPermaLink="false">546f1caaf988ed08276c0f9506f7956a</guid>
+    </item>
     <item>
       <title>AutoSynthData: 에이전트가 실패한 과제를 검증된 학습 데이터로 바꾸는 ServiceNow의 파이프라인 (feat. EnterpriseOps-Gym)</title>
       <link>https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970">PyTorch Korea</source>
       <guid isPermaLink="false">23562a34b9d1674c4f79a9f263316fff</guid>
-    </item>
-    <item>
-      <title>Jev Search: 사용자의 질의에 대해, 어디를 검색해야 하는지 URL과 순위만 제공하는 웹 검색 프로젝트</title>
-      <link>https://discuss.pytorch.kr/t/jev-search-url/11976</link>
-      <description>Jev Search 소개 웹 검색에 언어 모델을 결합하는 방식은 지금 거의 하나로 수렴해 있습니다. 사용자의 질문을 모델이 읽고, 검색어를 새로 써서 엔진에 던지고, 돌아온 문서를 다시 읽어 답변 문장을 만들어 냅니다. 편리한 대신 대가가 따릅니다.</description>
-      <pubDate>Mon, 21 Sep 2026 18:30:30 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jev-search-url/11976">PyTorch Korea</source>
-      <guid isPermaLink="false">da72a6be2192ff2a48a09764dac98022</guid>
     </item>
   </channel>
 </rss>
