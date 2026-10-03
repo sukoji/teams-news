@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 03 Oct 2026 10:41:44 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 15:08:31 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AutoSynthData: 에이전트가 실패한 과제를 검증된 학습 데이터로 바꾸는 ServiceNow의 파이프라인 (feat. EnterpriseOps-Gym)</title>
+      <link>https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083</link>
+      <description>핵심 요약 ServiceNow CoreAI가 대상 모델이 실패하고 교사 모델이 성공한 과제를 분석해, 환경에서 실행 검증을 통과한 새 학습 과제를 만드는 합성 데이터 파이프라인 AutoSynthData를 Huggign Face 블로그에 소개 했습니다.</description>
+      <pubDate>Sat, 03 Oct 2026 10:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083">PyTorch Korea</source>
+      <guid isPermaLink="false">9729c048e35151336504c655b9af5dc7</guid>
+    </item>
     <item>
       <title>dots: 봇 탐지를 피하도록 패치하고, Firefox로 웹 작업을 하는 오픈소스 로컬 브라우저 에이전트 (≠ OpenAI dots)</title>
       <link>https://discuss.pytorch.kr/t/dots-firefox-openai-dots/12078</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/jev-search-url/11976">PyTorch Korea</source>
       <guid isPermaLink="false">da72a6be2192ff2a48a09764dac98022</guid>
-    </item>
-    <item>
-      <title>Stonkfly: LLM 없이 초파리 커넥톰 16만 뉴런이 매매를 제안하는 실험 (수익성은 미검증)</title>
-      <link>https://discuss.pytorch.kr/t/stonkfly-llm-16/11967</link>
-      <description>Stonkfly 소개 자동 매매 도구는 판단을 만드는 자리가 대체로 정해져 있습니다. 가격과 거래량을 숫자로 받아 사람이 설계한 지표와 규칙으로 방향을 정하거나, 최근에는 그 숫자와 뉴스를 대규모 언어 모델(LLM)에 넘겨 매수와 매도를 고르게 합니다.</description>
-      <pubDate>Mon, 21 Sep 2026 12:30:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/stonkfly-llm-16/11967">PyTorch Korea</source>
-      <guid isPermaLink="false">2531bcb215901058e37986077a3dc6eb</guid>
     </item>
   </channel>
 </rss>
