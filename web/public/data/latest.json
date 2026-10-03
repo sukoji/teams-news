@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-02",
-  "generated_at": "2026-10-02T10:57:02.320857+09:00",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T10:41:44.262964+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,55 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "8337ba93f241d61b1fc917f0e0d5400b",
+          "id": "db37ee2426250d7f90119e2776467ff1",
           "index": 1,
-          "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
-          "title_ko": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
-          "summary": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words.",
-          "summary_ko": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoni…",
-          "url": "https://huggingface.co/papers/2609.34563",
+          "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+          "title_ko": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+          "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
+          "summary_ko": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
+          "url": "https://huggingface.co/papers/2610.01762",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-01T09:00:00+09:00",
-          "popularity": 429,
-          "upvotes": 206,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-10-02T09:00:00+09:00",
+          "popularity": 342,
+          "upvotes": 146,
+          "score": 25.51,
+          "importance_score": 17.51,
           "matched_keywords": [
-            "llm",
-            "multimodal",
-            "reasoning"
+            "ai",
+            "llm"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 206
+            "value": 146
           }
         },
         {
-          "id": "6340abe55f55768c15f0729518b474a5",
+          "id": "2846271efba6e98e923a18c1a576eed8",
           "index": 2,
-          "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-          "title_ko": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-          "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
-          "summary_ko": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
-          "url": "https://huggingface.co/papers/2609.39102",
+          "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+          "title_ko": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+          "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead.",
+          "summary_ko": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial to…",
+          "url": "https://huggingface.co/papers/2610.01939",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-01T09:00:00+09:00",
-          "popularity": 390,
-          "upvotes": 190,
-          "score": 27.91,
-          "importance_score": 17.91,
+          "published_at": "2026-10-02T09:00:00+09:00",
+          "popularity": 77,
+          "upvotes": 25,
+          "score": 25.07,
+          "importance_score": 13.07,
           "matched_keywords": [
-            "ai",
             "agent",
-            "training"
+            "gpt",
+            "vision language",
+            "vlm"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 190
+            "value": 25
           }
         }
       ]
@@ -68,48 +68,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "4b35e03cd9636cf2312a8d1fe41d0b4a",
+          "id": "6874748772369ef64835d2d17cea5197",
           "index": 3,
-          "title": "최대선 센터장 \"사이버보안 특화 모델 AI 기본법 사각지대...기준 마련 시급\"",
+          "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
           "title_ko": null,
-          "summary": "최대선 숭실대 AI안전성연구센터장이 정부 주도로 개발 중인 \\'사이버보안 특화 AI 파운데이션 모델\\'이 정작 안전성을 규율하는 \\'AI 기본법\\'의 법적 규제와 관리 체계에서 벗어나 있어 명확한 기준과 평가 체계 마련이 시급하다고 지적했다.최대선 센터장은 1일 오후 국가AI전략위원회에서 열린 \\'AI 개발 속도조절론\\' 세미나에 참석해 보안 특화 모델은 현행 AI 기본법상 별도 관리 대상…",
+          "summary": "AI 모델의 안전성과 인간의 통제력을 담보하던 핵심 장치인 \\'사고 사슬(CoT)\\' 모니터링 체계가 흔들리고 있다. 프롬프트와 정답 사이의 중간 추론 과정을 인간의 언어로 보여주던 기존 방식과 달리, 최근 등장한 차세대 추론 기술은 모델 내부에서 \\'침묵 속 추론\\'을 수행해 모니터링을 무력화한다는 지적이 잇따르고 있다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215867",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-02T04:56:01+09:00",
+          "published_at": "2026-10-03T09:57:25+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 24.75,
-          "importance_score": 17.49,
+          "score": 25.85,
+          "importance_score": 19.69,
           "matched_keywords": [
             "ai",
-            "연구",
+            "추론",
             "모델"
           ],
           "engagement": null
         },
         {
-          "id": "19d2faf49178c9e1daaf6990f72a65ef",
+          "id": "fbffc230ccc9d6208a611f0b9799712c",
           "index": 4,
-          "title": "업스테이지, 소형 LLM '솔라 미니 4' 공개…350억 파라미터 규모",
+          "title": "'모두의 AI'가 바꾸는 일상…AI페스타26에서 확인한다",
           "title_ko": null,
-          "summary": "업스테이지는 경량언어모델(SLM) '솔라 미니 4'를 공개했다고 1일 밝혔다. '솔라 미니 4'는 적은 연산량으로 고성능·고효율을 구현한 것이 특징이다. 전체 350억개 매개변수에 전문가혼합(MoE) 구조를 적용해 실제 추론 시에는 30억개만 선택적으로 활성화한다.",
+          "summary": "[지디넷코리아]인공지능(AI)이 기업 업무를 돕는 기술을 넘어 일상 속 문제를 해결하는 도구로 활용 범위를 넓히고 있다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261001000457",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20261002172531",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-01T17:12:07+09:00",
-          "popularity": 88,
+          "published_at": "2026-10-03T09:11:16+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 21.1,
-          "importance_score": 11.41,
+          "score": 19.49,
+          "importance_score": 19.17,
           "matched_keywords": [
-            "llm",
-            "추론",
-            "모델"
+            "ai"
           ],
           "engagement": null
         }
@@ -130,42 +128,43 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-02T02:50:43+09:00",
-          "popularity": 984,
-          "upvotes": 984,
-          "score": 35.44,
-          "importance_score": 30.75,
+          "published_at": "2026-10-03T00:10:08+09:00",
+          "popularity": 1187,
+          "upvotes": 1187,
+          "score": 35.31,
+          "importance_score": 30.11,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 984
+            "value": 1187
           }
         },
         {
-          "id": "f0028017ccfc329380efa1a23cea8a67",
+          "id": "4414bc68b4d0c28b008ef769d485242e",
           "index": 6,
-          "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-          "title_ko": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-          "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-          "summary_ko": null,
-          "url": "https://github.com/KKKKhazix/AIHOT",
+          "title": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+          "title_ko": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+          "summary": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+          "summary_ko": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+          "url": "https://github.com/Edwardxlai/easyread",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-02T02:58:37+09:00",
-          "popularity": 4666,
-          "upvotes": 4666,
-          "score": 32.84,
-          "importance_score": 31.18,
+          "published_at": "2026-10-03T03:50:43+09:00",
+          "popularity": 602,
+          "upvotes": 602,
+          "score": 33.98,
+          "importance_score": 29.55,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "paper"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 4666
+            "value": 602
           }
         }
       ]
@@ -175,21 +174,21 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "5fbf101b1f72934624eeea83b13124b4",
+          "id": "9729c048e35151336504c655b9af5dc7",
           "index": 7,
-          "title": "Liquid AI, 문장 생성 대신 Jev 호환 API로 분류 / 라우팅 / 점수를 처리하는 결정 모델 d1 공개",
+          "title": "AutoSynthData: 에이전트가 실패한 과제를 검증된 학습 데이터로 바꾸는 ServiceNow의 파이프라인 (feat. EnterpriseOps-Gym)",
           "title_ko": null,
-          "summary": "Liquid AI d1 소개 Liquid AI 가 공개한 d1 은 문장을 생성하지 않고, 애플리케이션이 미리 정한 선택지에 대한 확률을 한 번의 호출로 돌려주는 이 회사의 첫 결정 모델(Decision Model) 입니다.",
+          "summary": "핵심 요약 ServiceNow CoreAI가 대상 모델이 실패하고 교사 모델이 성공한 과제를 분석해, 환경에서 실행 검증을 통과한 새 학습 과제를 만드는 합성 데이터 파이프라인 AutoSynthData를 Huggign Face 블로그에 소개 했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/liquid-ai-jev-api-d1/12063",
+          "url": "https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-01T15:30:20+09:00",
-          "popularity": 99,
+          "published_at": "2026-10-03T10:30:42+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 18.85,
-          "importance_score": 11.8,
+          "score": 22.96,
+          "importance_score": 19.92,
           "matched_keywords": [
             "ai",
             "모델"
@@ -201,100 +200,98 @@
   ],
   "items": [
     {
-      "id": "8337ba93f241d61b1fc917f0e0d5400b",
+      "id": "db37ee2426250d7f90119e2776467ff1",
       "index": 1,
-      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
-      "title_ko": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
-      "summary": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words.",
-      "summary_ko": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoni…",
-      "url": "https://huggingface.co/papers/2609.34563",
+      "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+      "title_ko": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+      "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
+      "summary_ko": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
+      "url": "https://huggingface.co/papers/2610.01762",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-01T09:00:00+09:00",
-      "popularity": 429,
-      "upvotes": 206,
-      "score": 28.0,
-      "importance_score": 18.0,
-      "matched_keywords": [
-        "llm",
-        "multimodal",
-        "reasoning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 206
-      }
-    },
-    {
-      "id": "6340abe55f55768c15f0729518b474a5",
-      "index": 2,
-      "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-      "title_ko": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-      "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
-      "summary_ko": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them.",
-      "url": "https://huggingface.co/papers/2609.39102",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-10-01T09:00:00+09:00",
-      "popularity": 390,
-      "upvotes": 190,
-      "score": 27.91,
-      "importance_score": 17.91,
+      "published_at": "2026-10-02T09:00:00+09:00",
+      "popularity": 342,
+      "upvotes": 146,
+      "score": 25.51,
+      "importance_score": 17.51,
       "matched_keywords": [
         "ai",
-        "agent",
-        "training"
+        "llm"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 190
+        "value": 146
       }
     },
     {
-      "id": "4b35e03cd9636cf2312a8d1fe41d0b4a",
+      "id": "2846271efba6e98e923a18c1a576eed8",
+      "index": 2,
+      "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+      "title_ko": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+      "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead.",
+      "summary_ko": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial to…",
+      "url": "https://huggingface.co/papers/2610.01939",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-02T09:00:00+09:00",
+      "popularity": 77,
+      "upvotes": 25,
+      "score": 25.07,
+      "importance_score": 13.07,
+      "matched_keywords": [
+        "agent",
+        "gpt",
+        "vision language",
+        "vlm"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 25
+      }
+    },
+    {
+      "id": "6874748772369ef64835d2d17cea5197",
       "index": 3,
-      "title": "최대선 센터장 \"사이버보안 특화 모델 AI 기본법 사각지대...기준 마련 시급\"",
+      "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
       "title_ko": null,
-      "summary": "최대선 숭실대 AI안전성연구센터장이 정부 주도로 개발 중인 \\'사이버보안 특화 AI 파운데이션 모델\\'이 정작 안전성을 규율하는 \\'AI 기본법\\'의 법적 규제와 관리 체계에서 벗어나 있어 명확한 기준과 평가 체계 마련이 시급하다고 지적했다.최대선 센터장은 1일 오후 국가AI전략위원회에서 열린 \\'AI 개발 속도조절론\\' 세미나에 참석해 보안 특화 모델은 현행 AI 기본법상 별도 관리 대상…",
+      "summary": "AI 모델의 안전성과 인간의 통제력을 담보하던 핵심 장치인 \\'사고 사슬(CoT)\\' 모니터링 체계가 흔들리고 있다. 프롬프트와 정답 사이의 중간 추론 과정을 인간의 언어로 보여주던 기존 방식과 달리, 최근 등장한 차세대 추론 기술은 모델 내부에서 \\'침묵 속 추론\\'을 수행해 모니터링을 무력화한다는 지적이 잇따르고 있다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215867",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-02T04:56:01+09:00",
+      "published_at": "2026-10-03T09:57:25+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 24.75,
-      "importance_score": 17.49,
+      "score": 25.85,
+      "importance_score": 19.69,
       "matched_keywords": [
         "ai",
-        "연구",
+        "추론",
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "19d2faf49178c9e1daaf6990f72a65ef",
+      "id": "fbffc230ccc9d6208a611f0b9799712c",
       "index": 4,
-      "title": "업스테이지, 소형 LLM '솔라 미니 4' 공개…350억 파라미터 규모",
+      "title": "'모두의 AI'가 바꾸는 일상…AI페스타26에서 확인한다",
       "title_ko": null,
-      "summary": "업스테이지는 경량언어모델(SLM) '솔라 미니 4'를 공개했다고 1일 밝혔다. '솔라 미니 4'는 적은 연산량으로 고성능·고효율을 구현한 것이 특징이다. 전체 350억개 매개변수에 전문가혼합(MoE) 구조를 적용해 실제 추론 시에는 30억개만 선택적으로 활성화한다.",
+      "summary": "[지디넷코리아]인공지능(AI)이 기업 업무를 돕는 기술을 넘어 일상 속 문제를 해결하는 도구로 활용 범위를 넓히고 있다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261001000457",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20261002172531",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-01T17:12:07+09:00",
-      "popularity": 88,
+      "published_at": "2026-10-03T09:11:16+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 21.1,
-      "importance_score": 11.41,
+      "score": 19.49,
+      "importance_score": 19.17,
       "matched_keywords": [
-        "llm",
-        "추론",
-        "모델"
+        "ai"
       ],
       "engagement": null
     },
@@ -309,60 +306,61 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-02T02:50:43+09:00",
-      "popularity": 984,
-      "upvotes": 984,
-      "score": 35.44,
-      "importance_score": 30.75,
+      "published_at": "2026-10-03T00:10:08+09:00",
+      "popularity": 1187,
+      "upvotes": 1187,
+      "score": 35.31,
+      "importance_score": 30.11,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 984
+        "value": 1187
       }
     },
     {
-      "id": "f0028017ccfc329380efa1a23cea8a67",
+      "id": "4414bc68b4d0c28b008ef769d485242e",
       "index": 6,
-      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-      "title_ko": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-      "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-      "summary_ko": null,
-      "url": "https://github.com/KKKKhazix/AIHOT",
+      "title": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+      "title_ko": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+      "summary": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+      "summary_ko": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+      "url": "https://github.com/Edwardxlai/easyread",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-02T02:58:37+09:00",
-      "popularity": 4666,
-      "upvotes": 4666,
-      "score": 32.84,
-      "importance_score": 31.18,
+      "published_at": "2026-10-03T03:50:43+09:00",
+      "popularity": 602,
+      "upvotes": 602,
+      "score": 33.98,
+      "importance_score": 29.55,
       "matched_keywords": [
-        "ai"
+        "ai",
+        "paper"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 4666
+        "value": 602
       }
     },
     {
-      "id": "5fbf101b1f72934624eeea83b13124b4",
+      "id": "9729c048e35151336504c655b9af5dc7",
       "index": 7,
-      "title": "Liquid AI, 문장 생성 대신 Jev 호환 API로 분류 / 라우팅 / 점수를 처리하는 결정 모델 d1 공개",
+      "title": "AutoSynthData: 에이전트가 실패한 과제를 검증된 학습 데이터로 바꾸는 ServiceNow의 파이프라인 (feat. EnterpriseOps-Gym)",
       "title_ko": null,
-      "summary": "Liquid AI d1 소개 Liquid AI 가 공개한 d1 은 문장을 생성하지 않고, 애플리케이션이 미리 정한 선택지에 대한 확률을 한 번의 호출로 돌려주는 이 회사의 첫 결정 모델(Decision Model) 입니다.",
+      "summary": "핵심 요약 ServiceNow CoreAI가 대상 모델이 실패하고 교사 모델이 성공한 과제를 분석해, 환경에서 실행 검증을 통과한 새 학습 과제를 만드는 합성 데이터 파이프라인 AutoSynthData를 Huggign Face 블로그에 소개 했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/liquid-ai-jev-api-d1/12063",
+      "url": "https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-01T15:30:20+09:00",
-      "popularity": 99,
+      "published_at": "2026-10-03T10:30:42+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 18.85,
-      "importance_score": 11.8,
+      "score": 22.96,
+      "importance_score": 19.92,
       "matched_keywords": [
         "ai",
         "모델"
