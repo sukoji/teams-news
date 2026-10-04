@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 04 Oct 2026 13:47:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:58:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AstaBrief, Ai2가 공개한, 과학 문헌 인용 보고서를 Claude 기반 모드보다 3.5배 빠르게 쓰는 8B 오픈 모델</title>
+      <link>https://discuss.pytorch.kr/t/astabrief-ai2-claude-3-5-8b/12088</link>
+      <description>핵심 요약 Ai2(AllenAI)가 연구 질문과 검색된 논문 발췌문을 받아 인용이 달린 문헌 보고서를 한 번에 쓰는 8B 모델 AstaBrief 를 Apache 2.0으로 공개했습니다. Qwen3-8B에 SFT와 DPO만 적용했고, 학습 데이터(SFT 39.5K건, DPO 6.6K건)는 CC BY-NC 4.0입니다.</description>
+      <pubDate>Sun, 04 Oct 2026 18:30:54 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/astabrief-ai2-claude-3-5-8b/12088">PyTorch Korea</source>
+      <guid isPermaLink="false">09cf6fc5bc967083252543b4349eb66f</guid>
+    </item>
     <item>
       <title>humanize: Python 기반의 작업 명세에 따라 Claude Code와 Codex를 실행하며 작업을 수행하는 에이전트 플로우 실행기</title>
       <link>https://discuss.pytorch.kr/t/humanize-python-claude-code-codex/12089</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/r4t-retrieve-for-train-rl-fan-out-diffusion-model/11933">PyTorch Korea</source>
       <guid isPermaLink="false">155389b6b410efe659c60db8b6156a9c</guid>
-    </item>
-    <item>
-      <title>Xiaomi, RL 코드와 학습 환경까지 공개한 1.02T 옴니모달 MiMo-V2.6 출시, 오픈소스 지능 지수 1위</title>
-      <link>https://discuss.pytorch.kr/t/xiaomi-rl-1-02t-mimo-v2-6-1/11981</link>
-      <description>MiMo-V2.6 소개 Xiaomi 의 MiMo 팀이 2026년 9월 22일 MiMo-V2.6 시리즈 를 공개하고 가중치를 오픈소스로 배포했습니다. 텍스트와 이미지, 영상, 음성을 한 모델에서 처리하는 옴니모달(Omnimodal) 구조에 희소 전문가 혼합(Sparse Mixture of Experts, MoE) 백본을 얹었고, 컨텍스트 길이는 두 모델 모두 100만(1M) 토큰입니다.</description>
-      <pubDate>Tue, 22 Sep 2026 12:00:48 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/xiaomi-rl-1-02t-mimo-v2-6-1/11981">PyTorch Korea</source>
-      <guid isPermaLink="false">1a941b17dd198266cb2fce105a8f983f</guid>
     </item>
   </channel>
 </rss>
