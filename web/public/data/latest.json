@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-03",
-  "generated_at": "2026-10-03T10:41:44.262964+09:00",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T11:20:41.260965+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,51 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "db37ee2426250d7f90119e2776467ff1",
+          "id": "48ab019b83ac18db5bcc610933863898",
           "index": 1,
-          "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-          "title_ko": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-          "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
-          "summary_ko": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
-          "url": "https://huggingface.co/papers/2610.01762",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "title_ko": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "summary": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "summary_ko": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gemini-4-argon-openai",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-02T09:00:00+09:00",
-          "popularity": 342,
-          "upvotes": 146,
-          "score": 25.51,
-          "importance_score": 17.51,
+          "published_at": "2026-10-03T23:48:39+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 26.6,
+          "importance_score": 15.19,
           "matched_keywords": [
             "ai",
-            "llm"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 146
-          }
-        },
-        {
-          "id": "2846271efba6e98e923a18c1a576eed8",
-          "index": 2,
-          "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-          "title_ko": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-          "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead.",
-          "summary_ko": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial to…",
-          "url": "https://huggingface.co/papers/2610.01939",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-10-02T09:00:00+09:00",
-          "popularity": 77,
-          "upvotes": 25,
-          "score": 25.07,
-          "importance_score": 13.07,
-          "matched_keywords": [
             "agent",
             "gpt",
-            "vision language",
-            "vlm"
+            "claude",
+            "gemini"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 25
-          }
+          "engagement": null
+        },
+        {
+          "id": "b8d14748866063a64622dfcb4020a83a",
+          "index": 2,
+          "title": "🥇Top AI Papers of the Week",
+          "title_ko": "🥇Top AI Papers of the Week",
+          "summary": "The Top AI Papers of the Week (September 21 - 27)",
+          "summary_ko": "The Top AI Papers of the Week (September 21 - 27)",
+          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-0ac",
+          "source": "Elvis AI Newsletter",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-09-28T02:15:43+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 17.9,
+          "importance_score": 9.9,
+          "matched_keywords": [
+            "ai",
+            "paper"
+          ],
+          "engagement": null
         }
       ]
     },
@@ -68,46 +63,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "6874748772369ef64835d2d17cea5197",
+          "id": "77f8cb80bf2b3a6436550b1dabd16f00",
           "index": 3,
-          "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
+          "title": "미 재무장관 \"AI 정부 규제 요구하는 CEO들은 한니발 렉터와 같아\"",
           "title_ko": null,
-          "summary": "AI 모델의 안전성과 인간의 통제력을 담보하던 핵심 장치인 \\'사고 사슬(CoT)\\' 모니터링 체계가 흔들리고 있다. 프롬프트와 정답 사이의 중간 추론 과정을 인간의 언어로 보여주던 기존 방식과 달리, 최근 등장한 차세대 추론 기술은 모델 내부에서 \\'침묵 속 추론\\'을 수행해 모니터링을 무력화한다는 지적이 잇따르고 있다.",
+          "summary": "미국 정부가 AI 기술의 실존적 위험성을 경고하며 정부 규제를 요구하는 AI 기업 CEO들을 향해 비판을 쏟아냈다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=215948",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-03T09:57:25+09:00",
+          "published_at": "2026-10-04T10:57:16+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.85,
-          "importance_score": 19.69,
+          "score": 19.92,
+          "importance_score": 19.84,
           "matched_keywords": [
-            "ai",
-            "추론",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "fbffc230ccc9d6208a611f0b9799712c",
+          "id": "f0b0ade16e922f2df1579df1275c24ec",
           "index": 4,
-          "title": "'모두의 AI'가 바꾸는 일상…AI페스타26에서 확인한다",
+          "title": "“AI가 말하는 줄”…챗GPT 쓰더니 직장인 말투까지 변했다",
           "title_ko": null,
-          "summary": "[지디넷코리아]인공지능(AI)이 기업 업무를 돕는 기술을 넘어 일상 속 문제를 해결하는 도구로 활용 범위를 넓히고 있다.",
+          "summary": "사람들이 챗GPT와 클로드 같은 생성형 인공지능(AI)을 생활 속에서 활용하는 일이 늘면서 인간의 언어 습관에도 변화가 나타나고 있다는 주장이 나왔다. 지난 30일(현지시간) 월스트리트저널(WSJ)은 일상적인 대화나 업무 과정에서 AI 특유의 화법이 사람들의 표현 방식에 스며들고 있다고 전했다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261002172531",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20261002000159",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-03T09:11:16+09:00",
-          "popularity": 98,
+          "published_at": "2026-10-03T22:30:00+09:00",
+          "popularity": 96,
           "upvotes": 0,
-          "score": 19.49,
-          "importance_score": 19.17,
+          "score": 19.92,
+          "importance_score": 14.25,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "gpt"
           ],
           "engagement": null
         }
@@ -128,43 +122,43 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-03T00:10:08+09:00",
-          "popularity": 1187,
-          "upvotes": 1187,
-          "score": 35.31,
-          "importance_score": 30.11,
+          "published_at": "2026-10-04T01:28:52+09:00",
+          "popularity": 1324,
+          "upvotes": 1324,
+          "score": 35.45,
+          "importance_score": 30.39,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1187
+            "value": 1324
           }
         },
         {
-          "id": "4414bc68b4d0c28b008ef769d485242e",
+          "id": "c0fe2517f6ec00a715f37bf4b3f9eaf0",
           "index": 6,
-          "title": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-          "title_ko": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-          "summary": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-          "summary_ko": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-          "url": "https://github.com/Edwardxlai/easyread",
+          "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
+          "title_ko": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
+          "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+          "summary_ko": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+          "url": "https://github.com/QingYunA/answer-me-with-html",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-03T03:50:43+09:00",
-          "popularity": 602,
-          "upvotes": 602,
-          "score": 33.98,
-          "importance_score": 29.55,
+          "published_at": "2026-10-04T10:53:24+09:00",
+          "popularity": 369,
+          "upvotes": 369,
+          "score": 33.6,
+          "importance_score": 30.51,
           "matched_keywords": [
             "ai",
-            "paper"
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 602
+            "value": 369
           }
         }
       ]
@@ -174,24 +168,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "9729c048e35151336504c655b9af5dc7",
+          "id": "546f1caaf988ed08276c0f9506f7956a",
           "index": 7,
-          "title": "AutoSynthData: 에이전트가 실패한 과제를 검증된 학습 데이터로 바꾸는 ServiceNow의 파이프라인 (feat. EnterpriseOps-Gym)",
+          "title": "NVIDIA VSS 3.3: 영상 AI 에이전트를 프롬프트로 조립하고, 변하지 않은 화면의 VLM 토큰은 줄이기 (feat. Adaptive EVS)",
           "title_ko": null,
-          "summary": "핵심 요약 ServiceNow CoreAI가 대상 모델이 실패하고 교사 모델이 성공한 과제를 분석해, 환경에서 실행 검증을 통과한 새 학습 과제를 만드는 합성 데이터 파이프라인 AutoSynthData를 Huggign Face 블로그에 소개 했습니다.",
+          "summary": "핵심 요약 NVIDIA가 영상 검색과 요약 블루프린트 VSS 3.3을 발표하며, 개발 비용을 줄이는 Build Vision Agent 스킬과 VLM 처리 비용을 줄이는 Adaptive EVS를 함께 소개했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083",
+          "url": "https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-03T10:30:42+09:00",
-          "popularity": 100,
+          "published_at": "2026-10-03T18:30:42+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.96,
-          "importance_score": 19.92,
+          "score": 22.39,
+          "importance_score": 12.89,
           "matched_keywords": [
             "ai",
-            "모델"
+            "agent",
+            "vlm"
           ],
           "engagement": null
         }
@@ -200,98 +195,92 @@
   ],
   "items": [
     {
-      "id": "db37ee2426250d7f90119e2776467ff1",
+      "id": "48ab019b83ac18db5bcc610933863898",
       "index": 1,
-      "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-      "title_ko": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-      "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
-      "summary_ko": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available.",
-      "url": "https://huggingface.co/papers/2610.01762",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "title_ko": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "summary": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "summary_ko": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gemini-4-argon-openai",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-02T09:00:00+09:00",
-      "popularity": 342,
-      "upvotes": 146,
-      "score": 25.51,
-      "importance_score": 17.51,
-      "matched_keywords": [
-        "ai",
-        "llm"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 146
-      }
-    },
-    {
-      "id": "2846271efba6e98e923a18c1a576eed8",
-      "index": 2,
-      "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-      "title_ko": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-      "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead.",
-      "summary_ko": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial to…",
-      "url": "https://huggingface.co/papers/2610.01939",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-10-02T09:00:00+09:00",
-      "popularity": 77,
-      "upvotes": 25,
-      "score": 25.07,
-      "importance_score": 13.07,
-      "matched_keywords": [
-        "agent",
-        "gpt",
-        "vision language",
-        "vlm"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 25
-      }
-    },
-    {
-      "id": "6874748772369ef64835d2d17cea5197",
-      "index": 3,
-      "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
-      "title_ko": null,
-      "summary": "AI 모델의 안전성과 인간의 통제력을 담보하던 핵심 장치인 \\'사고 사슬(CoT)\\' 모니터링 체계가 흔들리고 있다. 프롬프트와 정답 사이의 중간 추론 과정을 인간의 언어로 보여주던 기존 방식과 달리, 최근 등장한 차세대 추론 기술은 모델 내부에서 \\'침묵 속 추론\\'을 수행해 모니터링을 무력화한다는 지적이 잇따르고 있다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-10-03T09:57:25+09:00",
+      "published_at": "2026-10-03T23:48:39+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.85,
-      "importance_score": 19.69,
+      "score": 26.6,
+      "importance_score": 15.19,
       "matched_keywords": [
         "ai",
-        "추론",
-        "모델"
+        "agent",
+        "gpt",
+        "claude",
+        "gemini"
       ],
       "engagement": null
     },
     {
-      "id": "fbffc230ccc9d6208a611f0b9799712c",
-      "index": 4,
-      "title": "'모두의 AI'가 바꾸는 일상…AI페스타26에서 확인한다",
+      "id": "b8d14748866063a64622dfcb4020a83a",
+      "index": 2,
+      "title": "🥇Top AI Papers of the Week",
+      "title_ko": "🥇Top AI Papers of the Week",
+      "summary": "The Top AI Papers of the Week (September 21 - 27)",
+      "summary_ko": "The Top AI Papers of the Week (September 21 - 27)",
+      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-0ac",
+      "source": "Elvis AI Newsletter",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-09-28T02:15:43+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 17.9,
+      "importance_score": 9.9,
+      "matched_keywords": [
+        "ai",
+        "paper"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "77f8cb80bf2b3a6436550b1dabd16f00",
+      "index": 3,
+      "title": "미 재무장관 \"AI 정부 규제 요구하는 CEO들은 한니발 렉터와 같아\"",
       "title_ko": null,
-      "summary": "[지디넷코리아]인공지능(AI)이 기업 업무를 돕는 기술을 넘어 일상 속 문제를 해결하는 도구로 활용 범위를 넓히고 있다.",
+      "summary": "미국 정부가 AI 기술의 실존적 위험성을 경고하며 정부 규제를 요구하는 AI 기업 CEO들을 향해 비판을 쏟아냈다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261002172531",
-      "source": "ZDNet Korea",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=215948",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-03T09:11:16+09:00",
-      "popularity": 98,
+      "published_at": "2026-10-04T10:57:16+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 19.49,
-      "importance_score": 19.17,
+      "score": 19.92,
+      "importance_score": 19.84,
       "matched_keywords": [
         "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "f0b0ade16e922f2df1579df1275c24ec",
+      "index": 4,
+      "title": "“AI가 말하는 줄”…챗GPT 쓰더니 직장인 말투까지 변했다",
+      "title_ko": null,
+      "summary": "사람들이 챗GPT와 클로드 같은 생성형 인공지능(AI)을 생활 속에서 활용하는 일이 늘면서 인간의 언어 습관에도 변화가 나타나고 있다는 주장이 나왔다. 지난 30일(현지시간) 월스트리트저널(WSJ)은 일상적인 대화나 업무 과정에서 AI 특유의 화법이 사람들의 표현 방식에 스며들고 있다고 전했다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261002000159",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-03T22:30:00+09:00",
+      "popularity": 96,
+      "upvotes": 0,
+      "score": 19.92,
+      "importance_score": 14.25,
+      "matched_keywords": [
+        "ai",
+        "gpt"
       ],
       "engagement": null
     },
@@ -306,64 +295,65 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-03T00:10:08+09:00",
-      "popularity": 1187,
-      "upvotes": 1187,
-      "score": 35.31,
-      "importance_score": 30.11,
+      "published_at": "2026-10-04T01:28:52+09:00",
+      "popularity": 1324,
+      "upvotes": 1324,
+      "score": 35.45,
+      "importance_score": 30.39,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 1187
+        "value": 1324
       }
     },
     {
-      "id": "4414bc68b4d0c28b008ef769d485242e",
+      "id": "c0fe2517f6ec00a715f37bf4b3f9eaf0",
       "index": 6,
-      "title": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-      "title_ko": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-      "summary": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-      "summary_ko": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-      "url": "https://github.com/Edwardxlai/easyread",
+      "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
+      "title_ko": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
+      "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "summary_ko": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-03T03:50:43+09:00",
-      "popularity": 602,
-      "upvotes": 602,
-      "score": 33.98,
-      "importance_score": 29.55,
+      "published_at": "2026-10-04T10:53:24+09:00",
+      "popularity": 369,
+      "upvotes": 369,
+      "score": 33.6,
+      "importance_score": 30.51,
       "matched_keywords": [
         "ai",
-        "paper"
+        "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 602
+        "value": 369
       }
     },
     {
-      "id": "9729c048e35151336504c655b9af5dc7",
+      "id": "546f1caaf988ed08276c0f9506f7956a",
       "index": 7,
-      "title": "AutoSynthData: 에이전트가 실패한 과제를 검증된 학습 데이터로 바꾸는 ServiceNow의 파이프라인 (feat. EnterpriseOps-Gym)",
+      "title": "NVIDIA VSS 3.3: 영상 AI 에이전트를 프롬프트로 조립하고, 변하지 않은 화면의 VLM 토큰은 줄이기 (feat. Adaptive EVS)",
       "title_ko": null,
-      "summary": "핵심 요약 ServiceNow CoreAI가 대상 모델이 실패하고 교사 모델이 성공한 과제를 분석해, 환경에서 실행 검증을 통과한 새 학습 과제를 만드는 합성 데이터 파이프라인 AutoSynthData를 Huggign Face 블로그에 소개 했습니다.",
+      "summary": "핵심 요약 NVIDIA가 영상 검색과 요약 블루프린트 VSS 3.3을 발표하며, 개발 비용을 줄이는 Build Vision Agent 스킬과 VLM 처리 비용을 줄이는 Adaptive EVS를 함께 소개했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/autosynthdata-servicenow-feat-enterpriseops-gym/12083",
+      "url": "https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-03T10:30:42+09:00",
-      "popularity": 100,
+      "published_at": "2026-10-03T18:30:42+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.96,
-      "importance_score": 19.92,
+      "score": 22.39,
+      "importance_score": 12.89,
       "matched_keywords": [
         "ai",
-        "모델"
+        "agent",
+        "vlm"
       ],
       "engagement": null
     }
