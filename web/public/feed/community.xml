@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 04 Oct 2026 11:20:41 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 13:47:13 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>humanize: Python 기반의 작업 명세에 따라 Claude Code와 Codex를 실행하며 작업을 수행하는 에이전트 플로우 실행기</title>
+      <link>https://discuss.pytorch.kr/t/humanize-python-claude-code-codex/12089</link>
+      <description>핵심 요약 humanize 는 Claude Code, Codex 같은 코딩 에이전트 CLI를 직접 대체하지 않고, 사람이 Python으로 작성한 루프(플로우, flow)에 따라 이 CLI들에게 턴을 차례로 맡기며 실행 전체를 기록하는 런타임(runtime)입니다.</description>
+      <pubDate>Sun, 04 Oct 2026 10:30:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/humanize-python-claude-code-codex/12089">PyTorch Korea</source>
+      <guid isPermaLink="false">25a0d063512b6cde83ba953b89b41be9</guid>
+    </item>
     <item>
       <title>NVIDIA VSS 3.3: 영상 AI 에이전트를 프롬프트로 조립하고, 변하지 않은 화면의 VLM 토큰은 줄이기 (feat. Adaptive EVS)</title>
       <link>https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/xiaomi-rl-1-02t-mimo-v2-6-1/11981">PyTorch Korea</source>
       <guid isPermaLink="false">1a941b17dd198266cb2fce105a8f983f</guid>
-    </item>
-    <item>
-      <title>Fast Jev Compaction: 컨텍스트 정리 시, 불필요한 도구 호출 결과를 제외하는 Claude Code 플러그인</title>
-      <link>https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970</link>
-      <description>Fast Jev Compaction 소개 코딩 에이전트와 한 세션을 오래 이어 가면 주고받은 대화가 컨텍스트 창을 채웁니다. 이때 대부분의 도구는 오래된 대화를 언어 모델에 넘겨 요약문으로 바꿔 놓는데, 요약은 본질적으로 정보가 줄어드는 처리입니다. 나중에 다시 필요해지는 파일 경로, 정확한 오류 문구, 사용자가 걸어 둔 제약, 실행했던 명령어가 요약 과정에서 빠질 수 있습니다.</description>
-      <pubDate>Mon, 21 Sep 2026 16:00:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/fast-jev-compaction-claude-code/11970">PyTorch Korea</source>
-      <guid isPermaLink="false">23562a34b9d1674c4f79a9f263316fff</guid>
     </item>
   </channel>
 </rss>
