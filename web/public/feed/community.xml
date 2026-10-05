@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 05 Oct 2026 10:41:51 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 17:33:13 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>A.I.G(AI-Infra-Guard): AI 인프라와 MCP 서버, 에이전트, 모델을 계층별로 점검하는 텐센트의 레드팀 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/a-i-g-ai-infra-guard-ai-mcp/12090</link>
+      <description>핵심 요약 A.I.G(AI-Infra-Guard) 는 텐센트 주췌 연구소(Zhuque Lab)가 공개한 AI 레드팀 플랫폼으로, 추론 서버의 알려진 CVE(Common Vulnerabilities and Exposures), MCP 서버와 에이전트 스킬의 코드, 운영 중인 에이전트, 모델의 탈옥 내성을 하나의 웹 UI에서 점검합니다.</description>
+      <pubDate>Mon, 05 Oct 2026 11:30:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/a-i-g-ai-infra-guard-ai-mcp/12090">PyTorch Korea</source>
+      <guid isPermaLink="false">735c970bcfbb25bdb0097703c98fd3e2</guid>
+    </item>
+    <item>
+      <title>Jev 기반 추천 재순위화(Reranking)에 대한 실증 연구: 결정 지향 모델과 LLM 재순위화의 품질 및 지연 시간 비교</title>
+      <link>https://discuss.pytorch.kr/t/jev-reranking-llm/12091</link>
+      <description>핵심 요약 Decision-Oriented Recommendation Reranking 논문 은 TypeSafe AI의 결정 지향 모델 Jev로 추천 후보를 재순위화한 실증 연구입니다. 비교 대상은 Qwen2.5 7B Instruct 기반 재순위화 2종과 SASRec, DCNv2입니다.</description>
+      <pubDate>Mon, 05 Oct 2026 16:30:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-reranking-llm/12091">PyTorch Korea</source>
+      <guid isPermaLink="false">b3f0541cff91d4fb191237a1e2611731</guid>
+    </item>
+    <item>
+      <title>허깅페이스 공인 벤치마크 리더보드 48개 전수 분석: 데이터 구조, 집계 방법, 그리고 숫자가 말해 주는 것</title>
+      <link>https://discuss.pytorch.kr/t/topic/12099</link>
+      <description>기준 시점: 2026년 10월 5일 (허깅페이스 공개 API 실측) 실시간 대시보드: Hugging Face Official Benchmarks Map - a Hugging Face Space by quantid TL;DR 허깅페이스가 benchmark:official 로 지정한 데이터셋은 48개 , 그중 리더보드 항목이 1건 이상인 것은 44개 , 기본 화면 기준 등록 항목은 **1,02…</description>
+      <pubDate>Mon, 05 Oct 2026 16:56:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/topic/12099">PyTorch Korea</source>
+      <guid isPermaLink="false">91f876dab9e4352eb87c619b2e00fb36</guid>
+    </item>
+    <item>
+      <title>Translate Book: arXiv - arXiv 논문을 원문 구조 그대로 번역 논문으로 만들어 주는 Claude Code 스킬</title>
+      <link>https://discuss.pytorch.kr/t/translate-book-arxiv-arxiv-claude-code/12097</link>
+      <description>왼쪽: arXiv:2609.11801 "Thinking with Looped Flows" 원문 7쪽 (CC BY 4.0), 오른쪽: 이 스킬로 만든 한국어 번역본 12쪽의 같은 표입니다. 영어 논문을 번역기에 넣어 본 분들은 겪어보셨을텐데, 문장은 그럭저럭 나오는데 수식이 다 깨집니다. 기호가 흩어지고, 식 번호가 사라지고, 그림은 엉뚱한데 붙어 있고요.</description>
+      <pubDate>Mon, 05 Oct 2026 15:20:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/translate-book-arxiv-arxiv-claude-code/12097">PyTorch Korea</source>
+      <guid isPermaLink="false">98fb8d13adc0f3668f6f96f6b6d992e7</guid>
+    </item>
     <item>
       <title>[2026/09/28 ~ 10/04] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-09-28-10-04-ai-ml/12093</link>
@@ -421,42 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/nvidia-ai/11986">PyTorch Korea</source>
       <guid isPermaLink="false">5d2024d47898dad1eec3244e24410ae9</guid>
-    </item>
-    <item>
-      <title>OpenAI, API 가격을 절반으로 낮춘 GPT-6 Sol과 Luna 출시: 추론 강도별 과제당 비용으로 본 성능과 정렬</title>
-      <link>https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989</link>
-      <description>GPT-6 Sol과 Luna 소개 OpenAI 가 2026년 9월 22일, GPT-6 제품군의 중간 티어 GPT-6 Sol 과 경량 티어 GPT-6 Luna 를 공개했습니다.</description>
-      <pubDate>Wed, 23 Sep 2026 10:30:30 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-api-gpt-6-sol-luna/11989">PyTorch Korea</source>
-      <guid isPermaLink="false">fc98f7585798131fb80bd8812c445fa8</guid>
-    </item>
-    <item>
-      <title>Anthropic, Claude Opus 5.5 출시: Fable 5.1급 성능에 Opus 5보다 40% 낮은 실행 비용</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-claude-opus-5-5-fable-5-1-opus-5-40/11988</link>
-      <description>Claude Opus 5.5 소개 Anthropic 이 2026년 9월 22일 새 5.5 세대의 첫 모델인 Claude Opus 5.5 를 공개했습니다. Anthropic은 이 모델이 대부분의 작업에서 Claude Fable 5.1 수준으로 동작하면서, 일반적인 작업량 기준 실행 비용은 Claude Opus 5 보다 40% 낮다고 밝혔습니다.</description>
-      <pubDate>Wed, 23 Sep 2026 10:00:05 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-claude-opus-5-5-fable-5-1-opus-5-40/11988">PyTorch Korea</source>
-      <guid isPermaLink="false">0e94db0c75ebd1ba9e4b09aa7e2938fd</guid>
-    </item>
-    <item>
-      <title>StepFun Step 5 Preview 출시: Kimi K3와 같은 지능, 작업 비용은 1/3, 가중치 공개는 10/15 예정</title>
-      <link>https://discuss.pytorch.kr/t/stepfun-step-5-preview-kimi-k3-1-3-10-15/11987</link>
-      <description>Step 5 Preview 소개 StepFun (阶跃星辰)이 에이전트 작업을 겨냥한 플래그십 모델 Step 5 Preview 를 공개했습니다. 희소 전문가 혼합(Mixture-of-Experts, MoE) 구조로 전체 600B 파라미터 중 토큰당 27B만 활성화하고, 1M 토큰 컨텍스트 윈도우와 이미지 및 영상 입력을 함께 지원합니다.</description>
-      <pubDate>Wed, 23 Sep 2026 12:30:08 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/stepfun-step-5-preview-kimi-k3-1-3-10-15/11987">PyTorch Korea</source>
-      <guid isPermaLink="false">10fd7e25de7b2a0bf342b150c84ec19b</guid>
-    </item>
-    <item>
-      <title>AIPerf: 서버 성능 측정 시, 부하 생성기가 병목이 되지 않도록 NVIDIA가 개발 및 공개한 LLM 추론 벤치마크 도구</title>
-      <link>https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975</link>
-      <description>AIPerf 소개: 측정 도구가 측정 대상을 가려 버리는 문제 모델을 서버에 올리고 프롬프트를 던지면 응답이 돌아옵니다. 그다음에 반드시 나오는 질문은 "이거 빠른 건가요?" 입니다. 이 질문에 답하려고 개발자들이 가장 먼저 하는 일은 대개 curl 을 몇 번 날려 보거나, asyncio 기반의 짧은 부하 스크립트를 직접 짜거나, 일회용 부하 생성기를 하나 더 만드는 것입니다.</description>
-      <pubDate>Tue, 22 Sep 2026 18:00:46 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/aiperf-nvidia-llm/11975">PyTorch Korea</source>
-      <guid isPermaLink="false">3c01ab6c3564b85a774cd00e43221cf4</guid>
     </item>
   </channel>
 </rss>
