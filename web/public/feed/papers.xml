@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 06 Oct 2026 03:03:26 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 09:38:50 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes</title>
+      <link>https://huggingface.co/papers/2610.03715</link>
+      <description>We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs.</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03715">Hugging Face Papers</source>
+      <guid isPermaLink="false">b1d5f2634e23c7c7763811c80197f66e</guid>
+    </item>
+    <item>
+      <title>Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing</title>
+      <link>https://huggingface.co/papers/2610.02772</link>
+      <description>Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameters do not automatically reflect information that changes afte…</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02772">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee035e549c962ba04cea26b0e3a913e5</guid>
+    </item>
+    <item>
+      <title>WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning</title>
+      <link>https://huggingface.co/papers/2609.34826</link>
+      <description>Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-language models (VLMs) reason primarily through language.</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.34826">Hugging Face Papers</source>
+      <guid isPermaLink="false">dab72149aed90b20c1c47b5c8b2117e9</guid>
+    </item>
+    <item>
+      <title>Self-Supervised Scaling of Terminal Environments for Scientific Domains</title>
+      <link>https://huggingface.co/papers/2610.02710</link>
+      <description>Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains.</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02710">Hugging Face Papers</source>
+      <guid isPermaLink="false">81a1c8211c2101f21faa1c6ce0dcdd28</guid>
+    </item>
+    <item>
+      <title>JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts</title>
+      <link>https://huggingface.co/papers/2610.00722</link>
+      <description>World models enable agents to plan by predicting future states of the environment, but their predictions can become unreliable when test-time dynamics differ from those seen durin…</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.00722">Hugging Face Papers</source>
+      <guid isPermaLink="false">384b3224ec6ccc0a7927cb855d355fa5</guid>
+    </item>
+    <item>
+      <title>EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras</title>
+      <link>https://huggingface.co/papers/2610.03710</link>
+      <description>Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera.</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03710">Hugging Face Papers</source>
+      <guid isPermaLink="false">eec925fb84a34034531f056c14e6c814</guid>
+    </item>
+    <item>
+      <title>The Extender: A Log-Structured Transformer</title>
+      <link>https://huggingface.co/papers/2609.32759</link>
+      <description>We introduce the Extender, a log-structured variant of the standard Transformer architecture.</description>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.32759">Hugging Face Papers</source>
+      <guid isPermaLink="false">cdd05075f439de7a55cdbeb0987b1259</guid>
+    </item>
     <item>
       <title>RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations</title>
       <link>https://huggingface.co/papers/2610.01780</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.01153">Hugging Face Papers</source>
       <guid isPermaLink="false">8324d37ba061ef1b114972b4a044248f</guid>
-    </item>
-    <item>
-      <title>Local Support Learning</title>
-      <link>https://huggingface.co/papers/2610.02126</link>
-      <description>We explore catastrophic forgetting in the context of large pre-trained models.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02126">Hugging Face Papers</source>
-      <guid isPermaLink="false">65ca2cf963c94519883e977f2d160ce4</guid>
-    </item>
-    <item>
-      <title>ProAR: Learning Prospective Reasoning with Autoregressive Video Models</title>
-      <link>https://huggingface.co/papers/2610.03664</link>
-      <description>Autoregressive (AR) video models excel at causal generation, but their reliance on next-chunk prediction confines them to a short-sighted, reactive paradigm.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.03664">Hugging Face Papers</source>
-      <guid isPermaLink="false">ade4b5d882703dd70bdd716ab7f18450</guid>
-    </item>
-    <item>
-      <title>Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production</title>
-      <link>https://huggingface.co/papers/2609.39963</link>
-      <description>Reference listening is a common strategy in music production, but current comparison tools often obscure a key human judgment: deciding what should be compared.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.39963">Hugging Face Papers</source>
-      <guid isPermaLink="false">d03c3a9220a3e32319b7fd9c4816b5cd</guid>
-    </item>
-    <item>
-      <title>VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks</title>
-      <link>https://huggingface.co/papers/2610.00972</link>
-      <description>As LLM agents undertake increasingly complex, long-horizon tasks, verifying their outputs becomes increasingly challenging.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.00972">Hugging Face Papers</source>
-      <guid isPermaLink="false">7ed8dced4a29c163b6b03ab703d74caa</guid>
-    </item>
-    <item>
-      <title>MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.02824</link>
-      <description>Rubric-based reinforcement learning extends reward-driven optimization to open-ended tasks by assigning partial credit to individual response requirements.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02824">Hugging Face Papers</source>
-      <guid isPermaLink="false">e57926359ea5fbd417d3c25b60cb8a79</guid>
-    </item>
-    <item>
-      <title>EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling</title>
-      <link>https://huggingface.co/papers/2610.02298</link>
-      <description>3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving…</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02298">Hugging Face Papers</source>
-      <guid isPermaLink="false">f430b8b8a2ea97f38f9106b22830b9d6</guid>
-    </item>
-    <item>
-      <title>LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models</title>
-      <link>https://huggingface.co/papers/2609.39071</link>
-      <description>Legal language models require reward signals that capture not only answer correctness but also the multidimensional quality of legal responses.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.39071">Hugging Face Papers</source>
-      <guid isPermaLink="false">01fd351d49960996fea110a9c33409a2</guid>
     </item>
   </channel>
 </rss>
