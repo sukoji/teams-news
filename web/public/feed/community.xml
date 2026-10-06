@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 06 Oct 2026 16:17:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 23:50:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (2/2): 검증 계층과 자동 연구, 안전 문제 등</title>
+      <link>https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069</link>
+      <description>핵심 요약 Recursive Self-Improvement in AI 서베이는 개선 신호를 신뢰도에 따라 형식 검증기, 실행 피드백, 학습된 심판, 내재 신호의 네 단계 검증 계층으로 정렬하고, 실제로 입증된 자기 개선의 강도가 이 계층을 따른다고 관찰합니다(측정된 법칙이 아닌 정성적 패턴입니다).</description>
+      <pubDate>Tue, 06 Oct 2026 18:00:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069">PyTorch Korea</source>
+      <guid isPermaLink="false">922f110e5f354ee24164da0e43cd932f</guid>
+    </item>
     <item>
       <title>재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (1/2): 분류체계 및 배포 시점, 학습 시점의 자기 개선 루프 등</title>
       <link>https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-1-2/12068</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/vllm-semantic-router-jev-decision-1-0-6-decision-studio/12005">PyTorch Korea</source>
       <guid isPermaLink="false">cb32a4b97d2d4b8c19f811b32940ca0e</guid>
-    </item>
-    <item>
-      <title>Claude Opus 5.5 프롬프팅 &amp; 마이그레이션 가이드: Anthropic이 공개한, Opus 5, 4.x, Sonnet 5 코드를 400 오류 없이 옮기는 법</title>
-      <link>https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002</link>
-      <description>Claude Opus 5.5 마이그레이션 가이드 소개 Anthropic 의 Claude Opus 5.5 마이그레이션 가이드 는 기존 Messages API 코드를 claude-opus-5-5 로 옮길 때 바꿔야 하는 요청 설정과 응답 처리 코드를 출발 모델별로 정리한 공식 문서입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 18:30:50 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002">PyTorch Korea</source>
-      <guid isPermaLink="false">6d2a17adcbc68a71d0322cbf2115b611</guid>
     </item>
   </channel>
 </rss>

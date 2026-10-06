@@ -5,9 +5,405 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 06 Oct 2026 16:17:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 23:50:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Data Unlearning via Inverse Distillation</title>
+      <link>https://huggingface.co/papers/2609.36099</link>
+      <description>Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36099">Hugging Face Papers</source>
+      <guid isPermaLink="false">050a405aae7203fb890ca45e629a5020</guid>
+    </item>
+    <item>
+      <title>'미국 오픈소스 대표' 리플렉션 AI, 첫 모델 공개…반응은 엇갈려</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=215987</link>
+      <description>미국 오픈소스 진영의 기대주 리플렉션 AI가 첫 자체 오픈웨이트 모델을 선보였다. 최첨단 모델 수준의 성능에는 미치지 못했으나, 코딩·추론·에이전트 작업에 특화해 경쟁 모델 대비 적은 연산으로 동급 성능을 내는 뛰어난 효율성을 강점으로 내세웠다.리플렉션 AI는 5일(현지시간) 첫 오픈웨이트 모델 ‘빔(Beam)’을 공개했다.</description>
+      <pubDate>Tue, 06 Oct 2026 18:19:10 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=215987">AI Times</source>
+      <guid isPermaLink="false">ad502068900e88bebd5dbaf1680a3293</guid>
+    </item>
+    <item>
+      <title>Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation</title>
+      <link>https://huggingface.co/papers/2610.05076</link>
+      <description>Test-time training (TTT) lets a model store information in its weights during inference.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05076">Hugging Face Papers</source>
+      <guid isPermaLink="false">1afcf96897073d26b524ba0e303310d3</guid>
+    </item>
+    <item>
+      <title>UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents</title>
+      <link>https://huggingface.co/papers/2610.05622</link>
+      <description>Tool-using AI agents are increasingly deployed across enterprise software systems, yet widely used benchmarks primarily evaluate nominal task completion, conflating baseline plann…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05622">Hugging Face Papers</source>
+      <guid isPermaLink="false">81ae02ceb649f9578d1e1085a937dec2</guid>
+    </item>
+    <item>
+      <title>재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (2/2): 검증 계층과 자동 연구, 안전 문제 등</title>
+      <link>https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069</link>
+      <description>핵심 요약 Recursive Self-Improvement in AI 서베이는 개선 신호를 신뢰도에 따라 형식 검증기, 실행 피드백, 학습된 심판, 내재 신호의 네 단계 검증 계층으로 정렬하고, 실제로 입증된 자기 개선의 강도가 이 계층을 따른다고 관찰합니다(측정된 법칙이 아닌 정성적 패턴입니다).</description>
+      <pubDate>Tue, 06 Oct 2026 18:00:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069">PyTorch Korea</source>
+      <guid isPermaLink="false">922f110e5f354ee24164da0e43cd932f</guid>
+    </item>
+    <item>
+      <title>In-Distribution Forcing for Long Video Generation at Test Time</title>
+      <link>https://huggingface.co/papers/2610.03120</link>
+      <description>Modern autoregressive (AR) video diffusion models excel at short-horizon video generation, yet generating long videos remains challenging due to drifting, where colors and texture…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03120">Hugging Face Papers</source>
+      <guid isPermaLink="false">fb51d894e2dbba97c618bc8425bb39f4</guid>
+    </item>
+    <item>
+      <title>Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym</title>
+      <link>https://huggingface.co/papers/2609.37267</link>
+      <description>Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.37267">Hugging Face Papers</source>
+      <guid isPermaLink="false">b0eeeb80fb76679ef9d65f2dca769fb9</guid>
+    </item>
+    <item>
+      <title>RobotUse: Allocating Computation, Context, and Decisions</title>
+      <link>https://huggingface.co/papers/2610.04929</link>
+      <description>Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise their choices over repeated attempts.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.04929">Hugging Face Papers</source>
+      <guid isPermaLink="false">851df4dc6995e5a8e6df82c65f17b411</guid>
+    </item>
+    <item>
+      <title>[포토] 참가사·부스 역대 최대…AI 페스타 첫날 이모저모</title>
+      <link>https://zdnet.co.kr/view/?no=20261006181459</link>
+      <description>[지디넷코리아]정부가 주최하는 국내 최대 인공지능(AI) 행사 'AI페스타 26'이 개막 첫날부터 북적였다. AI가 산업과 일상에 적용되는 현장을 직접 살펴보기 위해 하루 만에 약 2만명의 참관객이 서울 코엑스를 찾았다.과학기술정보통신부가 주최하고 한국인공지능·소프트웨어산업협회(KOSA)와 AI페스타조직위원회가 주관하는 'AI페스타 26'이 6일 서울 코엑스 C홀에서 개막했다.</description>
+      <pubDate>Tue, 06 Oct 2026 18:50:59 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20261006181459">ZDNet Korea</source>
+      <guid isPermaLink="false">588bdf7a2300b17be5979b5a65d65e36</guid>
+    </item>
+    <item>
+      <title>노벨물리학상에 '중성미자 관측 개척' 프랜시스 할젠 교수</title>
+      <link>https://www.etnews.com/20261006000420</link>
+      <description>우주에서 가장 가볍고 눈에 띄지 않는 기본 입자인 중성미자(뉴트리노) 관측 연구를 개척한 프랜시스 할젠 미국 위스콘신대 교수가 2026년 노벨 물리학상을 수상했다. 스웨덴 왕립과학원은 6일(현지시간) “아이스큐브 중성미자 관측소에 대한 결정적인 기여와 천체물리학적 기원을 가진 고에너지 중성미자를 발견한 공로로 할젠 교수를 노벨 물리학상 수상자로 선정했다”고 밝혔다.</description>
+      <pubDate>Tue, 06 Oct 2026 19:25:26 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000420">전자신문 IT</source>
+      <guid isPermaLink="false">6493b924475edf313359355120b2e0cc</guid>
+    </item>
+    <item>
+      <title>BoatswainValve94/1min-ai-download — 1min.AI — Business SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original auth</title>
+      <link>https://github.com/BoatswainValve94/1min-ai-download</link>
+      <description>1min.AI — Business SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.</description>
+      <pubDate>Tue, 06 Oct 2026 03:53:15 +0900</pubDate>
+      <category>trending</category>
+      <source url="https://github.com/BoatswainValve94/1min-ai-download">GitHub Trending</source>
+      <guid isPermaLink="false">0c7ab6083f4ef6d279ebafd5cc1f7649</guid>
+    </item>
+    <item>
+      <title>SK인텔릭스, '나무엑스' 中 위탁생산 추진…원가 경쟁력 확보 '승부수'</title>
+      <link>https://www.etnews.com/20261006000060</link>
+      <description>SK인텔릭스가 인공지능(AI) 웰니스 로봇 '나무엑스' 중국 위탁생산을 추진한다. 중국 로봇 생태계를 활용해 원가 경쟁력을 확보, 글로벌 시장 확대에 발맞춰 수익성을 극대화하겠다는 전략으로 풀이된다. 6일 업계에 따르면 SK인텔릭스는 나무엑스 양산 체계를 중국 주문자상표부착생산(OEM) 방식으로 전환하는 방안을 추진하고 있다.</description>
+      <pubDate>Tue, 06 Oct 2026 17:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000060">전자신문 IT</source>
+      <guid isPermaLink="false">5097aaac93f05ff86ac9c344bc4fed0d</guid>
+    </item>
+    <item>
+      <title>OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning</title>
+      <link>https://huggingface.co/papers/2609.39490</link>
+      <description>Recent advances have enabled unified omni-modal models in understanding audio, vision, and language.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.39490">Hugging Face Papers</source>
+      <guid isPermaLink="false">6bc8be6fece1544f98db832b55d5c3a2</guid>
+    </item>
+    <item>
+      <title>美 제재에도 특허 협력…화웨이, 퀄컴과 5G·AI·컴퓨팅 상호 사용</title>
+      <link>https://www.etnews.com/20261006000392</link>
+      <description>화웨이와 퀄컴이 5G를 비롯해 인공지능(AI), 컴퓨팅, 네트워크 기술까지 포괄하는 특허 크로스라이선스 계약을 체결했다. 미국 대중국 반도체 수출 규제로 양사 간 칩 공급 거래는 사실상 끊겼지만, 특허 분야에서는 협력 범위를 넓혔다. 화웨이와 퀄컴은 5일(현지시간) 이 같은 내용의 다년간 포괄적 특허 라이선스 계약을 체결했다고 밝혔다.</description>
+      <pubDate>Tue, 06 Oct 2026 16:40:07 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000392">전자신문 IT</source>
+      <guid isPermaLink="false">7826805c40b4f6da4436b92254817963</guid>
+    </item>
+    <item>
+      <title>LiFT: Loop Flow Transformers</title>
+      <link>https://huggingface.co/papers/2610.05538</link>
+      <description>We introduce Loop Flow Transformers (LiFT), a family of looped generative models that scales computation by repeatedly applying a shared Diffusion Transformer (DiT) core, with onl…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05538">Hugging Face Papers</source>
+      <guid isPermaLink="false">fb566bf5053b808ab3d60a901a182395</guid>
+    </item>
+    <item>
+      <title>What Matters for Latent Reasoning with Flow Matching</title>
+      <link>https://huggingface.co/papers/2610.06666</link>
+      <description>Latent reasoning lets a large language model (LLM) think in a continuous space and verbalize only the answer.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.06666">Hugging Face Papers</source>
+      <guid isPermaLink="false">f6cd584de3e9f6bc9a6563cfb4a64d06</guid>
+    </item>
+    <item>
+      <title>What Gradients Add to Text Leakage in Split Language Models, Counted per Token and per Document</title>
+      <link>https://huggingface.co/papers/2610.04128</link>
+      <description>Split learning lets a client train a language model on a server without sending its text.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.04128">Hugging Face Papers</source>
+      <guid isPermaLink="false">60eb16f17e082df41e294f5654d11f29</guid>
+    </item>
+    <item>
+      <title>SearchJev: A Fast and Calibrated System-1 Model for Search Agents</title>
+      <link>https://huggingface.co/papers/2610.05107</link>
+      <description>Search agents repeatedly make short decisions about relevance, evidence sufficiency, and search actions.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05107">Hugging Face Papers</source>
+      <guid isPermaLink="false">f150f75d33fa5c2b81ce5fafd63e6639</guid>
+    </item>
+    <item>
+      <title>GeoSET: Generalist Foundation Model for SAR-to-EO Image Translation</title>
+      <link>https://huggingface.co/papers/2609.37496</link>
+      <description>Paired synthetic aperture radar (SAR) and electro-optical (EO) imagery is increasingly available across sensors, resolutions, and geographic regions.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.37496">Hugging Face Papers</source>
+      <guid isPermaLink="false">219a3cf46a47da87cbb5430d8864b469</guid>
+    </item>
+    <item>
+      <title>수조원 버는 5대 시중은행, 정보보호 투자는 2% 안팎</title>
+      <link>https://www.etnews.com/20261006000267</link>
+      <description>5대 시중은행이 조 단위의 수익을 벌어들이고 있지만, 정보보호 투자는 1~2% 수준인 수백억원 수준에 머무르고 있는 것으로 나타났다. 최근 신한은행을 시작으로 KB국민은행, 하나은행, BNK부산은행 등 은행권을 대상으로 인공지능(AI)을 활용한 해킹이 이어진 가운데, 고도화된 공격에 대응하려면 투자액을 늘려야한다는 목소리가 나온다.</description>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000267">전자신문 IT</source>
+      <guid isPermaLink="false">c0bfb28814cd10af604f6c4ebeadbb4a</guid>
+    </item>
+    <item>
+      <title>韓 스타트업, 日·獨 독점 'AI 반도체 접착소재' 개발</title>
+      <link>https://www.etnews.com/20261006000119</link>
+      <description>일본과 독일 기업이 독점해 온 인공지능(AI) 반도체 접착소재 시장에 우리나라 기업이 진입 준비를 마쳤다. 국내 소재 스타트업 코파는 반도체 칩과 기판 사이 공간을 채우는 언더필(Underfill) 개발에 성공, 주요 패키징기업과 품질평가(퀄)에 돌입했다고 6일 밝혔다. 퀄 테스트 결과에 따라 이르면 연내 초기 양산을 개시할 계획이며, 이후 HBM용 언더필까지 시장 확장을 타진한다.</description>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000119">전자신문 IT</source>
+      <guid isPermaLink="false">daf8a567db9506ea77a20bc7fd04bd6c</guid>
+    </item>
+    <item>
+      <title>Learning to Learn a Language</title>
+      <link>https://huggingface.co/papers/2610.05879</link>
+      <description>We present the Prior-Fitted Language Model (PFLM), a 300M-parameter byte-level transformer pretrained only on samples from a synthetic non-linguistic prior.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05879">Hugging Face Papers</source>
+      <guid isPermaLink="false">75c0ad5ba80230a232f63e96f5004824</guid>
+    </item>
+    <item>
+      <title>MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations</title>
+      <link>https://huggingface.co/papers/2610.02480</link>
+      <description>Recent years have seen the employment of a plethora of machine learning (ML) models in high-stakes domains, but they remain largely opaque to the practitioners who act on their pr…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02480">Hugging Face Papers</source>
+      <guid isPermaLink="false">0412e3a6f9c142073767981203288cb5</guid>
+    </item>
+    <item>
+      <title>한계도전 R&amp;D 재도전 트랙 신설…“실패 과정도 국가 자산으로 삼는다”</title>
+      <link>https://www.etnews.com/20261001000449</link>
+      <description>책임 프로젝트 관리자(PM)의 밀착 관리 아래 변혁적 기술을 개발하는 '한계도전 연구개발(R&amp;D) 프로젝트'에 내년 재도전 전형을 신설한다. 실패를 두려워하지 않고 혁신 기술에 과감히 도전하는 문화가 확산될 것으로 기대된다. 5일 정부부처에 따르면 내년 한계도전 프로젝트 4년 차를 맞아 과기정통부는 정부 예산안에 54억원 규모의 '한계도전프론티어' 사업을 새롭게 편성했다.</description>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261001000449">전자신문 IT</source>
+      <guid isPermaLink="false">14afa980672d430a961a0513436742c5</guid>
+    </item>
+    <item>
+      <title>오픈AI, 앤트로픽 이어 AI 생성 텍스트에 워터마크…EU 먼저</title>
+      <link>https://www.etnews.com/20261006000374</link>
+      <description>오픈AI가 인공지능(AI)으로 생성한 텍스트에 워터마크를 적용한다. 유럽연합(EU) 내 우선 적용되는 것으로 AI기본법 등 표시 의무가 있는 우리나라를 비롯해 다른 국가로 확산될지 주목된다. 오픈AI는 5일(현지시간) EU 'AI 액트'의 생성형 AI 투명성 의무 규정에 대응해 AI로 생성한 글인지 식별하는 기술인 '텍스트그레인'을 도입한다고 밝혔다.</description>
+      <pubDate>Tue, 06 Oct 2026 15:50:05 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000374">전자신문 IT</source>
+      <guid isPermaLink="false">e25e4bd5a805e306b2f98d36f0d15911</guid>
+    </item>
+    <item>
+      <title>Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation</title>
+      <link>https://huggingface.co/papers/2610.06577</link>
+      <description>Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.06577">Hugging Face Papers</source>
+      <guid isPermaLink="false">ca2aa7aa9f2ff20cc0a42ee3dc9ae08f</guid>
+    </item>
+    <item>
+      <title>삼성전기, 2900억원 AI 서버용 MLCC 공급 계약…“AI 부품 '4조 클럽' 달성”</title>
+      <link>https://www.etnews.com/20261006000218</link>
+      <description>삼성전기가 글로벌 대형기업과 약 2900억원 규모의 인공지능(AI) 서버용 적층세라믹콘덴서(MLCC) 공급계약을 체결했다고 6일 밝혔다. 계약 기간은 2027년 1월 1일부터 2027년 12월 31일까지 1년간이다. 구체적인 계약 상대방은 공개되지 않았다.</description>
+      <pubDate>Tue, 06 Oct 2026 15:14:26 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000218">전자신문 IT</source>
+      <guid isPermaLink="false">2128b1c022b1893cd39f9c23d61cbf19</guid>
+    </item>
+    <item>
+      <title>인간 통제 벗어난 AI 에이전트…오픈AI·앤트로픽 등 사례 지속 확인</title>
+      <link>https://www.etnews.com/20261006000322</link>
+      <description>빅테크 인공지능(AI) 기업의 통제를 벗어난 AI 에이전트가 외부 사이트나 시스템에 침투한 사실이 지속 확인되고 있다. 개인정보 유출 등 실제 피해로 이어진 사례는 아직 확인되지 않았지만, AI 에이전트가 스스로 인간 지시를 우회할 수단을 찾았다는 점에서 AI 통제 불능 문제를 드러낸 것으로 평가된다.</description>
+      <pubDate>Tue, 06 Oct 2026 14:49:59 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000322">전자신문 IT</source>
+      <guid isPermaLink="false">607cc5fb9a3e2cdb66a340f62366b495</guid>
+    </item>
+    <item>
+      <title>'침투테스트 AI'로 누구나 보안망 뚫는다</title>
+      <link>https://www.etnews.com/20261006000318</link>
+      <description>최근 국내 금융권 공격에 악용된 것으로 알려진 '아르텍스(ARTEX)'뿐 아니라 다양한 침투테스트 인공지능(AI)이 누구나 접할 수 있는 오픈소스로 공개된 것으로 나타났다. 초급자라도 소스코드를 수정하면 실제 공격에 활용할 수 있어 보안 위협이 커졌다는 평가다. AI 기반 공격을 전제로 한 취약점 진단이 시급하다.</description>
+      <pubDate>Tue, 06 Oct 2026 14:47:21 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000318">전자신문 IT</source>
+      <guid isPermaLink="false">c20cdcfddd3163be6c3acec0e1a8dfa2</guid>
+    </item>
+    <item>
+      <title>도시 곳곳으로 들어온 AI…'SLW 2026'서 펼쳐진 피지컬 AI 미래 일상</title>
+      <link>https://www.etnews.com/20261006000286</link>
+      <description>인공지능(AI)이 화면을 넘어 도시 속에서 움직이기 시작했다. 자율주행차가 사람과 물건을 나르고, 로봇과 드론이 사람 대신 지하철 선로와 위험 현장을 점검하며, AI는 시민의 피부와 건강 상태를 살피고 행정서비스에도 스며든다.</description>
+      <pubDate>Tue, 06 Oct 2026 14:33:21 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000286">전자신문 IT</source>
+      <guid isPermaLink="false">e814c34c1972b0f84be97ba9fbfa5aab</guid>
+    </item>
+    <item>
+      <title>How to Loop MoE: Flatten the Experts, Untie the Attention</title>
+      <link>https://huggingface.co/papers/2609.35751</link>
+      <description>Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed size further, and so use its parameters more fully; while spa…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.35751">Hugging Face Papers</source>
+      <guid isPermaLink="false">bc82cc416b4d4db7056ecca11e13c408</guid>
+    </item>
+    <item>
+      <title>OpenRUA: Robot-Use Agents Are Zero-Shot Visuomotor Policies</title>
+      <link>https://huggingface.co/papers/2610.02459</link>
+      <description>Coding agents are extending their reach into the physical world by writing and executing robot control programs.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02459">Hugging Face Papers</source>
+      <guid isPermaLink="false">ebabf414b0259ce2f346c83f438af41f</guid>
+    </item>
+    <item>
+      <title>제주 초콜릿에서 글로벌 디저트로…제키스, '정책면세점' 타고 세계로</title>
+      <link>https://www.etnews.com/20261006000061</link>
+      <description>제주 감귤로 만든 초콜릿에서 시작해 타르트와 쿠키, 바움쿠헨까지. 제주 토종 식품기업 제키스(JeKiss)가 제주를 넘어 세계 시장으로 보폭을 넓히고 있다. 관광 기념품에 머무르지 않고 자체 연구개발(R&amp;D)과 생산 역량을 갖춘 디저트 기업으로 성장한 데 이어 인천국제공항 정책면세점을 발판 삼아 해외 소비자와의 접점도 확대하고 있다.</description>
+      <pubDate>Tue, 06 Oct 2026 14:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000061">전자신문 IT</source>
+      <guid isPermaLink="false">e1333ae1cb33b9bd5c3dedec2eac5421</guid>
+    </item>
+    <item>
+      <title>GeoCR: Learning a Generalist Cloud Removal Prior from Heterogeneous Observations</title>
+      <link>https://huggingface.co/papers/2609.32510</link>
+      <description>Cloud removal methods are typically specialized to individual datasets and input configurations, limiting reuse across sensors, spectral bands, and observation settings.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.32510">Hugging Face Papers</source>
+      <guid isPermaLink="false">829fb54e3290f7b734854a572f0be421</guid>
+    </item>
+    <item>
+      <title>韓·사우디, 에너지 넘어 전기차·AI·방산 맞손…'비전 2030' 협력 가속</title>
+      <link>https://www.etnews.com/20261006000212</link>
+      <description>우리나라와 사우디아라비아가 전기차와 인공지능(AI), 헬스케어, 방위산업 등 미래 첨단산업 전반으로 경제 동맹의 지평을 넓힌다. 전통적인 인프라·에너지 중심의 협력을 넘어 첨단산업 위주의 협력을 강화한다는 방침이다.</description>
+      <pubDate>Tue, 06 Oct 2026 13:29:11 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.etnews.com/20261006000212">전자신문 IT</source>
+      <guid isPermaLink="false">411862556ae0f048226201189f78ce95</guid>
+    </item>
+    <item>
+      <title>CurveCodec 2: Skeleton-agnostic animation compression with a learned entropy model</title>
+      <link>https://huggingface.co/papers/2610.04211</link>
+      <description>Skeletal motion is stored as every joint's transform at every frame, yet most of it is implied by the body rather than by what the motion is about.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.04211">Hugging Face Papers</source>
+      <guid isPermaLink="false">bc91f1e7799e40aac5d3c85b7277c447</guid>
+    </item>
+    <item>
+      <title>HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models</title>
+      <link>https://huggingface.co/papers/2610.05739</link>
+      <description>Long-horizon video world models require persistent memory to preserve scene consistency over extended rollouts.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05739">Hugging Face Papers</source>
+      <guid isPermaLink="false">3be20d6e2e0c7b8275c4c2b5561b47b0</guid>
+    </item>
+    <item>
+      <title>Empirical Variational Autoencoder</title>
+      <link>https://huggingface.co/papers/2610.06545</link>
+      <description>We present Empirical Variational Autoencoder, a general generative framework for continuous-valued (i.e., non-vector-quantized) sequences.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.06545">Hugging Face Papers</source>
+      <guid isPermaLink="false">a716f12f2733efd761dabd5429620d6f</guid>
+    </item>
+    <item>
+      <title>DEPICT: Scoring Text-to-Image Alignment by Answer Agreement</title>
+      <link>https://huggingface.co/papers/2610.03617</link>
+      <description>Image-text alignment is a core problem in computer vision with applications in caption evaluation, hallucination detection, data curation, and the benchmarking of text-to-image (T…</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03617">Hugging Face Papers</source>
+      <guid isPermaLink="false">1e1df4991d6f50aca0e132ccbb30d02d</guid>
+    </item>
+    <item>
+      <title>Periscope: Extending Frozen Language Models Beyond Their Context Window</title>
+      <link>https://huggingface.co/papers/2610.04047</link>
+      <description>A language model reads long text in one quadratic forward pass, stops at the context window, and loses accuracy with length before reaching it.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.04047">Hugging Face Papers</source>
+      <guid isPermaLink="false">34221a6ee4c991fb82f7589f21dbe848</guid>
+    </item>
+    <item>
+      <title>Learning Steadily: Accumulating Relative Point Margin Scores for Face Image Quality Assessment</title>
+      <link>https://huggingface.co/papers/2609.31662</link>
+      <description>Face Image Quality Assessment determines the suitability of captured face images for automated face recognition (FR), a critical capability for reliable biometric systems.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.31662">Hugging Face Papers</source>
+      <guid isPermaLink="false">c1d73a4d4a19a652b5c50400e950b74e</guid>
+    </item>
+    <item>
+      <title>SoK: Semantic Decision Engines in Network Control Loops</title>
+      <link>https://huggingface.co/papers/2610.06425</link>
+      <description>A semantic decision engine such as Jev can return a valid answer and still miss a network deadline, select an infeasible action or leave the service unverified.</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.06425">Hugging Face Papers</source>
+      <guid isPermaLink="false">27ac3cd98acad7f189bf1aa4e12ad59c</guid>
+    </item>
+    <item>
+      <title>Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN</title>
+      <link>https://huggingface.co/papers/2609.23136</link>
+      <description>Intent-based Open RAN needs an interpreter that turns intents into A1 policies within the loop of the RAN intelligent controller (RIC).</description>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.23136">Hugging Face Papers</source>
+      <guid isPermaLink="false">2f0fa131852cec60dec07f02b2a92d99</guid>
+    </item>
+    <item>
+      <title>종 손실 후 자연의 회복 능력은 크게 과대평가돼 있음</title>
+      <link>https://news.hada.io/topic?id=34895</link>
+      <description>전 세계 연구를 종합한 결과, 대부분의 생태계 서비스와 기능 은 소수의 종만으로 충분해지는 것이 아니라 생물다양성이 높아질수록 계속 증가함 423개 연구, 222,829개 데이터 포인트 를 분석한 이번 연구는 종들이 서로를 대신해 종 손실의 영향을 줄인다는</description>
+      <pubDate>Tue, 06 Oct 2026 23:45:03 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=34895">GeekNews</source>
+      <guid isPermaLink="false">572d93f93ca855e0f235f861eb86c080</guid>
+    </item>
     <item>
       <title>ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience</title>
       <link>https://huggingface.co/papers/2610.05303</link>
@@ -61,402 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.04198">Hugging Face Papers</source>
       <guid isPermaLink="false">9b2b6a811ea45c75b304257bf5c1e453</guid>
-    </item>
-    <item>
-      <title>Base Models Can Reason By Taking a Cue From Training Data</title>
-      <link>https://huggingface.co/papers/2610.06851</link>
-      <description>In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06851">Hugging Face Papers</source>
-      <guid isPermaLink="false">30904f5d82e5ca1d1f358cccc2e718a7</guid>
-    </item>
-    <item>
-      <title>CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG</title>
-      <link>https://huggingface.co/papers/2610.00923</link>
-      <description>Multimodal RAG retrieves text, tables, images, and videos, but choosing a retrieval granularity does not determine how much context to retain within each item.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.00923">Hugging Face Papers</source>
-      <guid isPermaLink="false">7af2e36f21ec4453b73bbb9babb50dfd</guid>
-    </item>
-    <item>
-      <title>재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (1/2): 분류체계 및 배포 시점, 학습 시점의 자기 개선 루프 등</title>
-      <link>https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-1-2/12068</link>
-      <description>핵심 요약 Recursive Self-Improvement in AI 서베이는 2024~2026년 arXiv 논문 1,250편을 무엇을 개선하는가 (배포 시점 자기 진화, 학습 시점 자기 반복, 자기 평가, 자동 연구)와 누가 그 개선을 검증하는가 (사람이 루프 안, 사람이 루프 위, 닫힌 루프)라는 두 가지 분류 기준으로 정리합니다.</description>
-      <pubDate>Tue, 06 Oct 2026 15:30:22 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-1-2/12068">PyTorch Korea</source>
-      <guid isPermaLink="false">303d766abe39a995359b8fc73bb74528</guid>
-    </item>
-    <item>
-      <title>Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy</title>
-      <link>https://huggingface.co/papers/2610.05162</link>
-      <description>Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting personalization and long-horizon interactions.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05162">Hugging Face Papers</source>
-      <guid isPermaLink="false">244ed8d9faf8ad8cb1b832c981ec9661</guid>
-    </item>
-    <item>
-      <title>AgentCraft: Claude 에이전트 팀의 코딩 작업을 Minecraft 스튜디오에서 지켜보고 병합하는 모드</title>
-      <link>https://discuss.pytorch.kr/t/agentcraft-claude-minecraft/12101</link>
-      <description>핵심 요약 AgentCraft 는 Claude 에이전트 여러 개가 실제 git 저장소에서 계획, 구현, 리뷰를 나눠 맡는 과정을 Minecraft: Java Edition 안의 스튜디오 화면으로 보여주는 Fabric 모드와 오케스트레이터입니다.</description>
-      <pubDate>Tue, 06 Oct 2026 12:30:35 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agentcraft-claude-minecraft/12101">PyTorch Korea</source>
-      <guid isPermaLink="false">26f60f3e4c35f45c4e9274391bbad955</guid>
-    </item>
-    <item>
-      <title>The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models</title>
-      <link>https://huggingface.co/papers/2610.02191</link>
-      <description>While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical u…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02191">Hugging Face Papers</source>
-      <guid isPermaLink="false">2a5668fe761046e3d977254a48b6381f</guid>
-    </item>
-    <item>
-      <title>Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery</title>
-      <link>https://huggingface.co/papers/2610.03872</link>
-      <description>AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.03872">Hugging Face Papers</source>
-      <guid isPermaLink="false">d34e959ce57631097fee1f193f53317c</guid>
-    </item>
-    <item>
-      <title>Representation-Space MMD for Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2610.06648</link>
-      <description>We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) between generated and reference distributions in the feature…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06648">Hugging Face Papers</source>
-      <guid isPermaLink="false">af35ddb2aa66f55abda8721781576fa5</guid>
-    </item>
-    <item>
-      <title>Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training</title>
-      <link>https://huggingface.co/papers/2610.05416</link>
-      <description>Natively training joint video-audio generation models at higher resolutions empowers them to learn richer visual details and sharper motion dynamics.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05416">Hugging Face Papers</source>
-      <guid isPermaLink="false">d5d1c8799e180c110ab5f194162c42a9</guid>
-    </item>
-    <item>
-      <title>뉴뉴욕시의회, AI 빅테크 청문회…전직 내부고발자 "통제력 상실" 경고</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=216008</link>
-      <description>미국 뉴욕시의회가 급속도로 치닫는 AI 위험성에 대응해 빅테크 경영진을 직접 소환하고 강도 높은 심문을 벌였다.</description>
-      <pubDate>Tue, 06 Oct 2026 15:52:32 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=216008">AI Times</source>
-      <guid isPermaLink="false">96984eb0b26a3a63e865c2d71c6ea53b</guid>
-    </item>
-    <item>
-      <title>NHN클라우드, 국내 1위 슈퍼컴 전면에…'팩토리X'로 AI 인프라 공략</title>
-      <link>https://zdnet.co.kr/view/?no=20261006151010</link>
-      <description>[지디넷코리아]NHN클라우드가 대규모 그래픽처리장치(GPU) 인프라를 기반으로 기업과 공공기관의 인공지능(AI) 도입 지원에 박차를 가한다.</description>
-      <pubDate>Tue, 06 Oct 2026 15:12:07 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20261006151010">ZDNet Korea</source>
-      <guid isPermaLink="false">72ce72b0df54b4f271a272322dab4d54</guid>
-    </item>
-    <item>
-      <title>Noise Out, Bias In: Targeted Bias Injection in Diffusion Language Models via Closed-Loop Activation Steering</title>
-      <link>https://huggingface.co/papers/2610.05894</link>
-      <description>Masked diffusion language models (dLLMs) generate text by iteratively denoising masked positions, re-predicting each token multiple times before it is committed.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05894">Hugging Face Papers</source>
-      <guid isPermaLink="false">4a5caf8a0d851adb3875dafd38df8070</guid>
-    </item>
-    <item>
-      <title>PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training</title>
-      <link>https://huggingface.co/papers/2610.04616</link>
-      <description>A vision--language--action (VLA) policy can complete complex tasks while ignoring the evidence that should determine its actions.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04616">Hugging Face Papers</source>
-      <guid isPermaLink="false">fc3e1fcc1875798b7caf2e61350b9460</guid>
-    </item>
-    <item>
-      <title>Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency</title>
-      <link>https://huggingface.co/papers/2610.04318</link>
-      <description>Efficient long-video understanding with vision-language models (VLMs) is often framed as selecting informative frames or visual tokens at a fixed native resolution.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04318">Hugging Face Papers</source>
-      <guid isPermaLink="false">0205738f0efcfad4562aca8c00b27a00</guid>
-    </item>
-    <item>
-      <title>Code2Games: Enabling Coding Agents for Gaming World Generation</title>
-      <link>https://huggingface.co/papers/2610.05033</link>
-      <description>Generating a high-quality gaming world from a natural-language game intent requires joint reasoning about scene structure, spatial layout, gameplay objectives, interactive entitie…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05033">Hugging Face Papers</source>
-      <guid isPermaLink="false">b023b8651dccbc83b71202db740386a6</guid>
-    </item>
-    <item>
-      <title>OSWorld-Pro: Process-based Evaluation for Computer Use Agents</title>
-      <link>https://huggingface.co/papers/2609.24890</link>
-      <description>Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen i…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.24890">Hugging Face Papers</source>
-      <guid isPermaLink="false">b394f8e50f868e995f5da59b71372f54</guid>
-    </item>
-    <item>
-      <title>TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization</title>
-      <link>https://huggingface.co/papers/2605.21318</link>
-      <description>Large language models (LLMs) are highly sensitive to the prompts used to specify task objectives and behavioral constraints.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2605.21318">Hugging Face Papers</source>
-      <guid isPermaLink="false">c2a1e311587fbd5ce9cd6923c4b209b4</guid>
-    </item>
-    <item>
-      <title>From Knowledge Access to Source Learning: Developing Source-Specific Competence</title>
-      <link>https://huggingface.co/papers/2610.02150</link>
-      <description>Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02150">Hugging Face Papers</source>
-      <guid isPermaLink="false">1250ad576201d4952722c3d69a56e7ef</guid>
-    </item>
-    <item>
-      <title>When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2610.05719</link>
-      <description>Vision-Language-Action (VLA) models serve as unified policies for robotic manipulation, yet their expensive inference forces robots to pause between policy calls, resulting in sto…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05719">Hugging Face Papers</source>
-      <guid isPermaLink="false">59a21c10fe5c07928fd07f2fa83829da</guid>
-    </item>
-    <item>
-      <title>QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code</title>
-      <link>https://huggingface.co/papers/2609.39420</link>
-      <description>Large language models are strong general-purpose code generators, but executable algorithmic trading remains a demanding specialization target: a model must translate a natural-la…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.39420">Hugging Face Papers</source>
-      <guid isPermaLink="false">32435b632e970cc3e9e6f8684af65ce2</guid>
-    </item>
-    <item>
-      <title>PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation</title>
-      <link>https://huggingface.co/papers/2610.02840</link>
-      <description>World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02840">Hugging Face Papers</source>
-      <guid isPermaLink="false">0e14abc0b22ba09a5d5b252481cf5eab</guid>
-    </item>
-    <item>
-      <title>PluginRSI: Recursive Improvement of Agent Harnesses with Reusable Plugins</title>
-      <link>https://huggingface.co/papers/2609.32423</link>
-      <description>The harness surrounding a language model is a central determinant of agent performance.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.32423">Hugging Face Papers</source>
-      <guid isPermaLink="false">e2b4de85e0066826a3188ff9aacb2349</guid>
-    </item>
-    <item>
-      <title>PaLoRA: Paced Low-Rank Adaptation for Continual Learning</title>
-      <link>https://huggingface.co/papers/2610.04226</link>
-      <description>LoRA-based continual learning methods mitigate catastrophic forgetting through various mechanisms, yet nearly all complement these with small learning rates as a heuristic to rest…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04226">Hugging Face Papers</source>
-      <guid isPermaLink="false">d9ab4bf059ded5d2c9cb3aedef425f70</guid>
-    </item>
-    <item>
-      <title>OmniConfess: Eliciting Token Confessions to Mitigate Omni-Modal Hallucination</title>
-      <link>https://huggingface.co/papers/2610.02999</link>
-      <description>Omni-modal large language models (OmniLLMs) unify text, images, audio, and video, yet hallucinate when generation relies on the wrong evidence.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02999">Hugging Face Papers</source>
-      <guid isPermaLink="false">ce6c1b3bc9a8134b94a9cd75db36ad3d</guid>
-    </item>
-    <item>
-      <title>Dynamic Harness Search: Building Multi-Agent Systems Per-Query via Prediction</title>
-      <link>https://huggingface.co/papers/2610.04137</link>
-      <description>Agent harnesses specify the roles, instructions, tools, and communication structure used to solve a task, and the right harness depends on the query.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04137">Hugging Face Papers</source>
-      <guid isPermaLink="false">929e383cfbc232c9c5bb9b09c9fdabc4</guid>
-    </item>
-    <item>
-      <title>Certification of Real Images through Calibrated Content Authentication</title>
-      <link>https://huggingface.co/papers/2610.05870</link>
-      <description>Generative models can synthesize high-quality inauthentic multimedia content that is already being misused at scale.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05870">Hugging Face Papers</source>
-      <guid isPermaLink="false">27e66849965b0ef3702118060a9c7388</guid>
-    </item>
-    <item>
-      <title>Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2610.06184</link>
-      <description>Generalization in multi-arm collaboration can be studied as composing familiar atomic skills in new ways across arms.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06184">Hugging Face Papers</source>
-      <guid isPermaLink="false">e26d31e1cc413b45e9acc0263e9ee8e3</guid>
-    </item>
-    <item>
-      <title>InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation</title>
-      <link>https://huggingface.co/papers/2610.06850</link>
-      <description>Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06850">Hugging Face Papers</source>
-      <guid isPermaLink="false">3724ba5d37d74e9183f8fb8a327a3b5c</guid>
-    </item>
-    <item>
-      <title>Iroh의 글로벌 콘텐츠 탐색</title>
-      <link>https://news.hada.io/topic?id=34879</link>
-      <description>Iroh가 BitTorrent Mainline DHT 와 별도 주소 인덱스를 결합해, BLAKE3 해시로 콘텐츠 제공자를 찾고 데이터를 내려받는 실험적 시스템을 구현함 콘텐츠 탐색과 전송을 분리하고, iroh-blobs의 BLAKE3 검증 스트리밍 으로 데이터를 검증함. DHT가 잘못된 제공자를 반...</description>
-      <pubDate>Tue, 06 Oct 2026 16:04:07 +0900</pubDate>
-      <category>news</category>
-      <source url="https://news.hada.io/topic?id=34879">GeekNews</source>
-      <guid isPermaLink="false">4e0648d938088704e10e963ae9c44eff</guid>
-    </item>
-    <item>
-      <title>Jev와 유사한 오픈소스 결정 모델에 대한 정리: Decision Index와 JevBench로 비교한 결정 모델 성능 비교</title>
-      <link>https://discuss.pytorch.kr/t/jev-decision-index-jevbench/12095</link>
-      <description>핵심 요약 Jev Decision Index 는 Hugging Face의 ML 엔지니어 apolinário(multimodalart)가 운영하는 Space입니다. News 탭은 Jev 재현 산출물 66개를 모으고, Index 탭은 모델 70개를 같은 38개 벤치마크로 채점합니다.</description>
-      <pubDate>Tue, 06 Oct 2026 08:30:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jev-decision-index-jevbench/12095">PyTorch Korea</source>
-      <guid isPermaLink="false">07103f445619a2e12e85a1533ca5cedf</guid>
-    </item>
-    <item>
-      <title>제네시스, 첫 하이브리드 'GV80 HEV' 출시…연비 12㎞·1회 주유 912㎞ 주행</title>
-      <link>https://www.etnews.com/20261006000030</link>
-      <description>제네시스가 브랜드 첫 하이브리드 모델 'GV80 하이브리드'를 6일 출시하고 판매에 돌입했다. GV80 하이브리드는 2.5 가솔린 터보 엔진에 시동 모터(P1)와 최고출력 59.1㎾ 구동 모터(P2)를 병렬형으로 배치한 차세대 시스템을 탑재했다.</description>
-      <pubDate>Tue, 06 Oct 2026 09:23:23 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261006000030">전자신문 IT</source>
-      <guid isPermaLink="false">7be77817b2c3b9a9e24ea295fbabca53</guid>
-    </item>
-    <item>
-      <title>[AI리더의 서가] CEO의  AI</title>
-      <link>https://www.aitimes.com/news/articleView.html?idxno=215956</link>
-      <description>CEO의 AI여현덕·이승환·이창훈 | 박영사2026년 8월 24일추천이유CEO가 AI 시대에 마주하는 실제 경영 판단을 다루며, 기술 도입을 넘어 조직 구조와 거버넌스를 함께 재설계해야 함을 강조합니다.상세보기 최근 영풍문고 경영분야 코너에서 자주 듣는 질문이 있다. \"대표님께 드릴 AI 책이 있나요?\" 임원 비서실이나 전략기획 부서 직원이 찾아와 묻는 경우가 많다.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.aitimes.com/news/articleView.html?idxno=215956">AI Times</source>
-      <guid isPermaLink="false">e65a9d0980fa730ef7a2f289c5dbc3fe</guid>
-    </item>
-    <item>
-      <title>SKT 국방 AX 공략…전술 판단 돕는 ‘AI 참모’ 선봬</title>
-      <link>https://zdnet.co.kr/view/?no=20261006085004</link>
-      <description>[지디넷코리아]SK텔레콤이 AI로 전장 데이터를 분석해 지휘관의 전술 판단을 지원하는 ‘AI 참모’를 선보였다. 저궤도 위성과 양자암호 등 통신·보안 기술도 함께 공개하며 국방 AX 사업 확대에 속도를 낸다.SK텔레콤은 지난 1일부터 5일까지 충남 계룡시 계룡대 활주로에서 열린 ‘2026 지상군페스티벌’에 민간기업 가운데 유일하게 참가했다고 밝혔다.</description>
-      <pubDate>Tue, 06 Oct 2026 08:50:04 +0900</pubDate>
-      <category>news</category>
-      <source url="https://zdnet.co.kr/view/?no=20261006085004">ZDNet Korea</source>
-      <guid isPermaLink="false">38ec99a558f2ec475f3a055d9dc74fda</guid>
-    </item>
-    <item>
-      <title>4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes</title>
-      <link>https://huggingface.co/papers/2610.03715</link>
-      <description>We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.03715">Hugging Face Papers</source>
-      <guid isPermaLink="false">b1d5f2634e23c7c7763811c80197f66e</guid>
-    </item>
-    <item>
-      <title>배경훈 부총리 “프런티어 AI, 초지능 발전 역량 확보 차원”</title>
-      <link>https://www.etnews.com/20261006000008</link>
-      <description>“프런티어 AI는 현재 인공지능(AI) 기술 최전선에 있는 고성능 AI입니다.</description>
-      <pubDate>Tue, 06 Oct 2026 08:20:14 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261006000008">전자신문 IT</source>
-      <guid isPermaLink="false">0aedf339a0392fd82a5a06f12b0a152e</guid>
-    </item>
-    <item>
-      <title>오픈AI 에이전트, 또 통제 벗어나…'위키백과' 무단 침해</title>
-      <link>https://www.etnews.com/20261006000002</link>
-      <description>오픈AI의 통제를 벗어난 인공지능(AI) 에이전트가 온라인 백과사전 '위키백과' 플랫폼을 침해한 것으로 나타났다. 위키백과 운영사인 위키미디어재단은 5일(현지시간) 오픈AI 에이전트의 무단 활동을 플랫폼 내에서 발견했다고 밝혔다. 앞서 지난 5월 플랫폼에서 발생한 일부 서비스 장애도 AI 에이전트가 위키백과 내용 수백만건을 가져가고 데이터 수십만건을 조회하는 과정에서 발생한 것으로 보고 있…</description>
-      <pubDate>Tue, 06 Oct 2026 07:21:47 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261006000002">전자신문 IT</source>
-      <guid isPermaLink="false">8ecc9d658317676b1ab8690e1538ac42</guid>
-    </item>
-    <item>
-      <title>누리호 5차, 오전 6시 발사대 이송 시작</title>
-      <link>https://www.etnews.com/20261006000001</link>
-      <description>7일 우주로 향하는 한국형 발사체 누리호 5차가 발사대로 출발했다. 우주항공청과 한국항공우주연구원은 6일 오전 6시부터 누리호의 발사대 이송을 시작했다. 항우연은 앞서 5일 오후 6시 30분 발사준비위원회를 열고, 기술적 준비 상황과 기상 상황 등을 검토해 누리호를 발사대로 이송하기로 결정했다.</description>
-      <pubDate>Tue, 06 Oct 2026 06:25:53 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261006000001">전자신문 IT</source>
-      <guid isPermaLink="false">00fb3c07d97405db190b73b6f2980a77</guid>
-    </item>
-    <item>
-      <title>“공사판 드릴 수준”…131dB 찍은 '세계에서 가장 시끄러운 새'는?</title>
-      <link>https://www.etnews.com/20261004000022</link>
-      <description>공사판 착암기 소음에 맞먹는 울음소리를 내는 새 2종이 새롭게 확인됐다. CNN 방송에 따르면 최근 미국 매사추세츠대 애머스트 연구진은 벌거숭이목방울새(bare-throated bellbird)와 붉은다리카리아마(red-legged seriema)의 울음소리가 모두 120데시벨(dB)을 넘는다는 연구 결과를 발표했다. 이번 연구는 학술지 '에볼루션(Evolution)'에 게재됐다.</description>
-      <pubDate>Tue, 06 Oct 2026 06:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261004000022">전자신문 IT</source>
-      <guid isPermaLink="false">c4183a2ac0c55778fad90d1743ea67c1</guid>
-    </item>
-    <item>
-      <title>15년간 젊은 과학자 연구비 주겠다는 中…“성과 없어도 연구실에만 있어라”</title>
-      <link>https://www.etnews.com/20261002000216</link>
-      <description>중국이 젊은 과학자 유치와 장기 연구 지원을 위해 최대 15년 동안 단기 성과 평가 없이 연구비를 지급하는 새로운 제도를 도입했다. 1일(현지시간) 사우스차이나모닝포스트(SCMP) 등에 따르면 중국 국가자연과학기금위원회(NSFC)는 35세 미만 과학자 44명을 대상으로 최대 15년간 장기 연구비를 지원하는 첫 대상자를 선정했다.</description>
-      <pubDate>Tue, 06 Oct 2026 06:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261002000216">전자신문 IT</source>
-      <guid isPermaLink="false">5a61c7566d033fd543f11b4d2b20b8a2</guid>
-    </item>
-    <item>
-      <title>Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing</title>
-      <link>https://huggingface.co/papers/2610.02772</link>
-      <description>Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameters do not automatically reflect information that changes afte…</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02772">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee035e549c962ba04cea26b0e3a913e5</guid>
-    </item>
-    <item>
-      <title>WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning</title>
-      <link>https://huggingface.co/papers/2609.34826</link>
-      <description>Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-language models (VLMs) reason primarily through language.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.34826">Hugging Face Papers</source>
-      <guid isPermaLink="false">dab72149aed90b20c1c47b5c8b2117e9</guid>
-    </item>
-    <item>
-      <title>Self-Supervised Scaling of Terminal Environments for Scientific Domains</title>
-      <link>https://huggingface.co/papers/2610.02710</link>
-      <description>Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.02710">Hugging Face Papers</source>
-      <guid isPermaLink="false">81a1c8211c2101f21faa1c6ce0dcdd28</guid>
-    </item>
-    <item>
-      <title>JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts</title>
-      <link>https://huggingface.co/papers/2610.00722</link>
-      <description>World models enable agents to plan by predicting future states of the environment, but their predictions can become unreliable when test-time dynamics differ from those seen durin…</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.00722">Hugging Face Papers</source>
-      <guid isPermaLink="false">384b3224ec6ccc0a7927cb855d355fa5</guid>
-    </item>
-    <item>
-      <title>EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras</title>
-      <link>https://huggingface.co/papers/2610.03710</link>
-      <description>Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera.</description>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.03710">Hugging Face Papers</source>
-      <guid isPermaLink="false">eec925fb84a34034531f056c14e6c814</guid>
     </item>
   </channel>
 </rss>
