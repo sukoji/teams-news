@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 06 Oct 2026 11:39:10 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 16:17:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (1/2): 분류체계 및 배포 시점, 학습 시점의 자기 개선 루프 등</title>
+      <link>https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-1-2/12068</link>
+      <description>핵심 요약 Recursive Self-Improvement in AI 서베이는 2024~2026년 arXiv 논문 1,250편을 무엇을 개선하는가 (배포 시점 자기 진화, 학습 시점 자기 반복, 자기 평가, 자동 연구)와 누가 그 개선을 검증하는가 (사람이 루프 안, 사람이 루프 위, 닫힌 루프)라는 두 가지 분류 기준으로 정리합니다.</description>
+      <pubDate>Tue, 06 Oct 2026 15:30:22 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-1-2/12068">PyTorch Korea</source>
+      <guid isPermaLink="false">303d766abe39a995359b8fc73bb74528</guid>
+    </item>
+    <item>
+      <title>AgentCraft: Claude 에이전트 팀의 코딩 작업을 Minecraft 스튜디오에서 지켜보고 병합하는 모드</title>
+      <link>https://discuss.pytorch.kr/t/agentcraft-claude-minecraft/12101</link>
+      <description>핵심 요약 AgentCraft 는 Claude 에이전트 여러 개가 실제 git 저장소에서 계획, 구현, 리뷰를 나눠 맡는 과정을 Minecraft: Java Edition 안의 스튜디오 화면으로 보여주는 Fabric 모드와 오케스트레이터입니다.</description>
+      <pubDate>Tue, 06 Oct 2026 12:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agentcraft-claude-minecraft/12101">PyTorch Korea</source>
+      <guid isPermaLink="false">26f60f3e4c35f45c4e9274391bbad955</guid>
+    </item>
     <item>
       <title>Jev와 유사한 오픈소스 결정 모델에 대한 정리: Decision Index와 JevBench로 비교한 결정 모델 성능 비교</title>
       <link>https://discuss.pytorch.kr/t/jev-decision-index-jevbench/12095</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claude-opus-5-5-anthropic-opus-5-4-x-sonnet-5-400/12002">PyTorch Korea</source>
       <guid isPermaLink="false">6d2a17adcbc68a71d0322cbf2115b611</guid>
-    </item>
-    <item>
-      <title>GravityOCR: 확산(Diffusion) 및 자기회귀(AR) 기법으로 초안 작성 및 검증을 수행하는 OCR 모델 (feat. Trillion Labs)</title>
-      <link>https://discuss.pytorch.kr/t/gravityocr-diffusion-ar-ocr-feat-trillion-labs/11997</link>
-      <description>GravityOCR 소개 GravityOCR은 문서 이미지를 텍스트, HTML 표, LaTeX 수식으로 옮기는 OCR 모델로, 하나의 가중치가 확산(Diffusion) 방식으로 여러 토큰의 초안을 한 번에 쓰고 같은 모델의 자기회귀(AR) 경로가 그 초안을 검증하는 방식으로 디코딩 속도를 높였습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 11:00:29 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gravityocr-diffusion-ar-ocr-feat-trillion-labs/11997">PyTorch Korea</source>
-      <guid isPermaLink="false">217d72318cac23c70096b2e93ca4a219</guid>
-    </item>
-    <item>
-      <title>Top-Conf Figure Gallery: 논문 작성시 참고하면 좋을, 주요 AI/ML 학회 논문들의 첫번째 이미지(Figure 1) 모음집</title>
-      <link>https://discuss.pytorch.kr/t/top-conf-figure-gallery-ai-ml-figure-1/11996</link>
-      <description>Top-Conf Figure Gallery 소개 논문의 첫 번째 그림인 Figure 1(또는 티저(Teaser) 그림)은 연구 내용을 한 장으로 압축하는 개요도(Overview Figure) 역할을 하는 경우가 많아, 모듈과 화살표를 어떻게 배치할지 정하는 데 시간이 오래 걸립니다.</description>
-      <pubDate>Wed, 23 Sep 2026 20:30:38 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/top-conf-figure-gallery-ai-ml-figure-1/11996">PyTorch Korea</source>
-      <guid isPermaLink="false">27ecdc557696a2e9bb6e057e0434bc77</guid>
     </item>
   </channel>
 </rss>
