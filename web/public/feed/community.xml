@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 07 Oct 2026 11:00:55 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 15:56:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>경쟁사 벤치마크로 검증한 로컬 문서 파서 성능 비교 (PyMuPDF vs Docling)</title>
+      <link>https://discuss.pytorch.kr/t/pymupdf-vs-docling/12120</link>
+      <description>태그: rag , llm , document-ai , benchmark , pymupdf , docling , opensource 최근 RAG(검색 증강 생성)나 멀티모달 LLM 파이프라인을 구축할 때 가장 먼저 마주치는 고민 중 하나가 바로 "비정형 PDF 문서를 어떻게 빠르고 정확하게 파싱할 것인가?"일 것입니다.</description>
+      <pubDate>Wed, 07 Oct 2026 14:53:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pymupdf-vs-docling/12120">PyTorch Korea</source>
+      <guid isPermaLink="false">ed7004f2bdb24a1732ca9f229add5146</guid>
+    </item>
+    <item>
+      <title>Reflection AI, 활성 23B로 추론 연산을 줄인 501B 오픈 웨이트 모델 Beam 발표 (가중치는 이번 달 내 공개 예정)</title>
+      <link>https://discuss.pytorch.kr/t/reflection-ai-23b-501b-beam/12112</link>
+      <description>핵심 요약 Reflection AI가 Beam 소개 블로그 에서 첫 오픈 웨이트(Open-Weight) 모델 Beam을 발표했습니다. 전체 501B, 토큰당 활성 23B 파라미터의 희소 MoE 모델이며 코딩, 추론, 에이전트 작업을 겨냥합니다. 지금은 Reflection 플랫폼 의 대기자 명단으로 일부 사용자에게만 열려 있습니다.</description>
+      <pubDate>Wed, 07 Oct 2026 11:30:24 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/reflection-ai-23b-501b-beam/12112">PyTorch Korea</source>
+      <guid isPermaLink="false">971fa1fb503af8c53d0e3ea01ab7ea78</guid>
+    </item>
+    <item>
+      <title>Google, 텍스트 전용이던 EmbeddingGemma를 이미지, 영상, 음성까지 넓힌 EmbeddingGemma 2 공개</title>
+      <link>https://discuss.pytorch.kr/t/google-embeddinggemma-embeddinggemma-2/12118</link>
+      <description>핵심 요약 Google DeepMind가 EmbeddingGemma 2 발표 글 에서 텍스트, 코드, 이미지, 영상, 음성을 하나의 768차원 공간에 담는 740M 임베딩 모델을 Apache 2.0 라이선스로 공개했습니다. 텍스트 전용 270M 모델에 비전(170M)과 오디오(300M) 인코더를 골라 붙이는 구조라, 텍스트만 다루는 서비스는 270M만 불러 쓸 수 있습니다.</description>
+      <pubDate>Wed, 07 Oct 2026 15:00:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-embeddinggemma-embeddinggemma-2/12118">PyTorch Korea</source>
+      <guid isPermaLink="false">7303675710cc506afae1081c34555c84</guid>
+    </item>
     <item>
       <title>ThinkingBox: 에이전트가 남긴 DB 상태로 채점하고 20번 반복해 신뢰성을 재는 업무 에이전트 벤치마크</title>
       <link>https://discuss.pytorch.kr/t/thinkingbox-db-20/12107</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-software-engineering-fundamentals/11993">PyTorch Korea</source>
       <guid isPermaLink="false">3f4e202bb3b286d65530f3d913e74466</guid>
-    </item>
-    <item>
-      <title>Mac에서 PyTorch MPS OOM이 났을 때: 캐시를 비우기 전에 확인할 것</title>
-      <link>https://discuss.pytorch.kr/t/mac-pytorch-mps-oom/12015</link>
-      <description>Apple Silicon Mac에서 모델을 돌리다가 MPS backend out of memory 를 만났다면, 먼저 메모리 수치를 구분해 보자. 이 글은 MPS 메모리의 범위, 살아 있는 텐서와 캐시의 차이, 학습·추론 코드에서 메모리를 줄이는 순서를 다룬다. Mac에서 PyTorch를 쓰다 OOM이 나면 torch.mps.empty_cache() 부터 찾기 쉽습니다.</description>
-      <pubDate>Fri, 25 Sep 2026 23:40:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/mac-pytorch-mps-oom/12015">PyTorch Korea</source>
-      <guid isPermaLink="false">2f88204b098f545e170a0ab90cf9fcef</guid>
-    </item>
-    <item>
-      <title>vLLM에 rope_scaling을 실행 때 넘기면 인기 모델 180개 중 64개의 RoPE 밑이 조용히 바뀝니다 — 측정과 검사 라이브러리(entail)</title>
-      <link>https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012</link>
-      <description>모델 파일에는 그 모델을 어떻게 돌려야 하는지가 적혀 있습니다(RoPE 밑과 스케일링, soft-capping, sliding window, 채팅 템플릿). 이 선언이 엔진에 닿지 않아도 아무것도 실패하지 않고, 출력은 매끄럽게 틀립니다. Hugging Face에서 가장 많이 받는 텍스트 생성 모델 300개의 설정을 vLLM 0.30이 하는 방식 그대로 만들어 봤습니다.</description>
-      <pubDate>Fri, 25 Sep 2026 17:08:02 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vllm-rope-scaling-180-64-rope-entail/12012">PyTorch Korea</source>
-      <guid isPermaLink="false">fcd39c4bd8319199753c9d0d708bffd7</guid>
-    </item>
-    <item>
-      <title>Jev 생태계: Jev 모델 기반의 GitHub 프로젝트 1천여개를 23개 분야로 정리한 프로젝트 목록</title>
-      <link>https://discuss.pytorch.kr/t/jev-jev-github-1-23/12003</link>
-      <description>Jev 생태계 프로젝트 목록 소개 Jev는 TypeSafe AI 가 공개한 첫 System One 모델입니다. 앱이 현재 상태와 타입이 정해진 질문을 보내면, Jev는 긴 문장 대신 선택지(Choice), 점수(Score), 참일 확률(Noul)처럼 코드가 바로 다룰 수 있는 결과를 돌려줍니다.</description>
-      <pubDate>Fri, 25 Sep 2026 18:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jev-jev-github-1-23/12003">PyTorch Korea</source>
-      <guid isPermaLink="false">7490936ed37898e81afcf4e6576ca57d</guid>
     </item>
   </channel>
 </rss>
