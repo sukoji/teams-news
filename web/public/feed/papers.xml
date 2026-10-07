@@ -5,9 +5,99 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 07 Oct 2026 23:18:03 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 05:27:32 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation</title>
+      <link>https://huggingface.co/papers/2610.02188</link>
+      <description>Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusi…</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02188">Hugging Face Papers</source>
+      <guid isPermaLink="false">add0cc43f4955c248e4a0115512ab924</guid>
+    </item>
+    <item>
+      <title>CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?</title>
+      <link>https://huggingface.co/papers/2610.07557</link>
+      <description>Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repe…</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.07557">Hugging Face Papers</source>
+      <guid isPermaLink="false">e0355c977048cbc4b0d473e24491c96f</guid>
+    </item>
+    <item>
+      <title>Stepped MoE: Segment-Level Routing with Configurable Inference Complexity</title>
+      <link>https://huggingface.co/papers/2610.07348</link>
+      <description>Training large language models (LLMs) is resource-intensive, and adapting them for diverse deployment scenarios with varying computational constraints remains challenging.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.07348">Hugging Face Papers</source>
+      <guid isPermaLink="false">837577d953956a3648fe57c0950bef30</guid>
+    </item>
+    <item>
+      <title>Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models</title>
+      <link>https://huggingface.co/papers/2610.00864</link>
+      <description>In this paper, we study how to achieve one-step action generation in Robotic Foundation Models (RFMs), aiming to overcome the high inference latency of multi-step flow matching.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.00864">Hugging Face Papers</source>
+      <guid isPermaLink="false">872c0e044537888093270ab83e02ba65</guid>
+    </item>
+    <item>
+      <title>Learning Functional Subspaces for Neural Network Compression</title>
+      <link>https://huggingface.co/papers/2609.40127</link>
+      <description>Modern transformers pair impressive capabilities with substantial memory and compute demands.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.40127">Hugging Face Papers</source>
+      <guid isPermaLink="false">dabfe010e79d8a048ffd1de295578d84</guid>
+    </item>
+    <item>
+      <title>OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2610.02781</link>
+      <description>Many useful language-model tasks cannot be evaluated by exact outcome verification.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02781">Hugging Face Papers</source>
+      <guid isPermaLink="false">34c9cd9d3bc8a0d4fa944969fe542764</guid>
+    </item>
+    <item>
+      <title>Sherpa: Teaching LLMs to Teach Adaptively</title>
+      <link>https://huggingface.co/papers/2610.08778</link>
+      <description>Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.08778">Hugging Face Papers</source>
+      <guid isPermaLink="false">2e38c60d8a2706ced096ad66807e8a11</guid>
+    </item>
+    <item>
+      <title>JumpStart Your Policy Learning with Lessons from 160,000 Training Runs</title>
+      <link>https://huggingface.co/papers/2609.13730</link>
+      <description>Reliable progress in offline policy learning depends on careful reporting, well-tuned baselines, and evaluation across diverse conditions.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.13730">Hugging Face Papers</source>
+      <guid isPermaLink="false">fd8c91a198730f0b70691d5503053bf1</guid>
+    </item>
+    <item>
+      <title>DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency</title>
+      <link>https://huggingface.co/papers/2609.39096</link>
+      <description>Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows continuously with the generated history.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.39096">Hugging Face Papers</source>
+      <guid isPermaLink="false">99dbd8350254f48bd2f65ca23675701e</guid>
+    </item>
+    <item>
+      <title>Sensor-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2610.08244</link>
+      <description>Sensors are useful not only for understanding the world but also for deciding what to do next.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.08244">Hugging Face Papers</source>
+      <guid isPermaLink="false">d85b2a513d5b2bc3646259da8876f4cd</guid>
+    </item>
     <item>
       <title>AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation</title>
       <link>https://huggingface.co/papers/2610.01218</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.08773">Hugging Face Papers</source>
       <guid isPermaLink="false">2fa760cf192e4ca458eba642903482de</guid>
-    </item>
-    <item>
-      <title>Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution</title>
-      <link>https://huggingface.co/papers/2610.07641</link>
-      <description>Tool-augmented speech assistants typically serialize automatic speech recognition, large language model inference, and external tool execution.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07641">Hugging Face Papers</source>
-      <guid isPermaLink="false">4c98cbca9f33486895becd00d9c48b62</guid>
-    </item>
-    <item>
-      <title>GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution</title>
-      <link>https://huggingface.co/papers/2610.00948</link>
-      <description>The executable harness surrounding a GUI model determines how observations are assembled, actions are executed, and verification, recovery, and termination are controlled.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.00948">Hugging Face Papers</source>
-      <guid isPermaLink="false">15c9ea8e92fce85a617fa98ae1fd1b08</guid>
-    </item>
-    <item>
-      <title>Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions</title>
-      <link>https://huggingface.co/papers/2610.06191</link>
-      <description>An agent whose tool keeps returning nothing useful should stop relying on it.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06191">Hugging Face Papers</source>
-      <guid isPermaLink="false">bc9111fe40c0a4f52ff1d08d61872c4f</guid>
-    </item>
-    <item>
-      <title>DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling</title>
-      <link>https://huggingface.co/papers/2610.04933</link>
-      <description>Scaling robot data and model capacity has improved Vision-Language-Action (VLA) policies, but further progress is constrained by the high cost of robotic data.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04933">Hugging Face Papers</source>
-      <guid isPermaLink="false">49e39e5a5a553b7b7216d772d4ef6306</guid>
-    </item>
-    <item>
-      <title>Personal-Agent Mediated Recommendation with Cross-Platform User History</title>
-      <link>https://huggingface.co/papers/2610.07588</link>
-      <description>Modern recommendation is shifting from platform-centric personalization toward user-governed personalization, where a personal LLM agent can act on the user's behalf across servic…</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07588">Hugging Face Papers</source>
-      <guid isPermaLink="false">57bd2e63d2b2ea8e9d3735c74d3ce827</guid>
-    </item>
-    <item>
-      <title>MEND: RL For Flow Models via Proximal Velocity Matching</title>
-      <link>https://huggingface.co/papers/2610.05954</link>
-      <description>Reward post-training of flow models either reweights the model's own samples under a KL penalty or a frozen reference, often for thousands of updates, or backpropagates the reward…</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05954">Hugging Face Papers</source>
-      <guid isPermaLink="false">dd6f6200ced950d7abb47c84bafb235b</guid>
-    </item>
-    <item>
-      <title>MiniCorp: The Last Mile of the AI Agent Firm</title>
-      <link>https://huggingface.co/papers/2610.05912</link>
-      <description>The last mile toward enterprise AGI is a company that runs itself.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.05912">Hugging Face Papers</source>
-      <guid isPermaLink="false">dc09a04faa86c57238a1bd673444cf43</guid>
-    </item>
-    <item>
-      <title>SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting</title>
-      <link>https://huggingface.co/papers/2610.04109</link>
-      <description>Real-world time series are frequently driven by exogenous events and structural shifts, rendering conventional forecasting based solely on historical numerical observations insuff…</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04109">Hugging Face Papers</source>
-      <guid isPermaLink="false">01368b2a28f079947ea1eecdd9ea43da</guid>
-    </item>
-    <item>
-      <title>Capability-Driven Self-Evolution of Agent Memory</title>
-      <link>https://huggingface.co/papers/2610.06361</link>
-      <description>Memory self-evolution uses task feedback to iteratively improve executable memory programs that store and retrieve information from past interactions.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06361">Hugging Face Papers</source>
-      <guid isPermaLink="false">ce42b815349d53fddf79f818f7bf0bf3</guid>
-    </item>
-    <item>
-      <title>Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents</title>
-      <link>https://huggingface.co/papers/2610.07785</link>
-      <description>A central capability of embodied agents is to accomplish complex objectives through sequences of interdependent tasks.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07785">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ee978c5628b98c4dfddee214287af5a</guid>
     </item>
   </channel>
 </rss>
