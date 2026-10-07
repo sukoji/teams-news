@@ -1,64 +1,66 @@
 {
   "schema_version": 1,
-  "date": "2026-10-06",
-  "generated_at": "2026-10-06T11:39:10.328879+09:00",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T11:00:55.203191+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 7,
+  "item_count": 6,
   "sections": [
     {
       "id": "papers",
       "title": "📄 Papers",
       "items": [
         {
-          "id": "1abc61418465133db05c033757adf9a0",
+          "id": "050a405aae7203fb890ca45e629a5020",
           "index": 1,
-          "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
-          "title_ko": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
-          "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it.",
-          "summary_ko": "A companion that talks with a person for months should come to understand them.",
-          "url": "https://huggingface.co/papers/2610.01780",
+          "title": "Data Unlearning via Inverse Distillation",
+          "title_ko": "Data Unlearning via Inverse Distillation",
+          "summary": "Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their training datasets.",
+          "summary_ko": "Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their…",
+          "url": "https://huggingface.co/papers/2609.36099",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-05T09:00:00+09:00",
-          "popularity": 522,
-          "upvotes": 256,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-10-06T09:00:00+09:00",
+          "popularity": 48,
+          "upvotes": 19,
+          "score": 25.68,
+          "importance_score": 11.68,
           "matched_keywords": [
             "ai",
-            "reasoning",
-            "benchmark"
+            "diffusion",
+            "inference",
+            "training",
+            "dataset"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 256
+            "value": 19
           }
         },
         {
-          "id": "a86c6fa75a92c941f332cb34d4502ae8",
+          "id": "48ab019b83ac18db5bcc610933863898",
           "index": 2,
-          "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
-          "title_ko": "CUAWright: A Minimal Unified Interface for Digital Agents",
-          "summary": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed before task execution.",
-          "summary_ko": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed…",
-          "url": "https://huggingface.co/papers/2610.04116",
-          "source": "Hugging Face Papers",
+          "title": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "title_ko": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "summary": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "summary_ko": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gemini-4-argon-openai",
+          "source": "Elvis AI Newsletter",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-05T09:00:00+09:00",
-          "popularity": 6034,
-          "upvotes": 1,
-          "score": 26.0,
-          "importance_score": 18.0,
+          "published_at": "2026-10-03T23:48:39+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 23.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
-            "agent"
+            "agent",
+            "gpt",
+            "claude",
+            "gemini"
           ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 1
-          }
+          "engagement": null
         }
       ]
     },
@@ -67,42 +69,43 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "b61e03381404889cb8bcab1223926607",
+          "id": "03fb1d7c6bc9a842ecab4384f0e3cbfd",
           "index": 3,
-          "title": "한국형 발사체 누리호, 오전 10시 35분 발사대 기립 완료",
+          "title": "롯데하이마트, 물류센터에 '휴머노이드 로봇' 투입한다",
           "title_ko": null,
-          "summary": "한국형 발사체 누리호 5차가 6일 오전 10시 35분 현재 발사대 기립과 고정 작업을 마쳤다. 오후 누리호에 전원과 추진제 등을 충전하기 위한 연결·기밀 점검 등을 진행하면 발사 준비를 마치게 된다. 우주항공청과 한국항공우주연구원은 6일 오전 6시부터 누리호의 발사대 이송을 시작했다.",
+          "summary": "롯데하이마트는 산업통상부 산하 한국산업기술기획평가원(KEIT)이 주관하는 '2026년도 로봇산업기술개발사업' 국책 과제에 최종 선정됐다고 7일 밝혔다. 산업 특화 휴머노이드 로봇을 국내 자체 개발해 외산 로봇과 인공지능(AI) 모델 의존도를 낮추고 물류 AI 전환 기반을 확보한다는 계획이다. 롯데하이마트는 롯데글로벌로지스와 수요기업으로 참여한다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261006000143",
+          "url": "https://www.etnews.com/20261006000426",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-06T10:57:59+09:00",
-          "popularity": 99,
+          "published_at": "2026-10-07T08:00:00+09:00",
+          "popularity": 86,
           "upvotes": 0,
-          "score": 19.76,
-          "importance_score": 19.61,
+          "score": 20.97,
+          "importance_score": 17.34,
           "matched_keywords": [
-            "연구"
+            "ai",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "dfb4a2f58a91424319f8f24104381dcb",
+          "id": "62e056130de9c592ec470c91340ce434",
           "index": 4,
-          "title": "인터넷 끊긴 군함에서 AI 쓴다…마키나락스, 포항함 실증",
+          "title": "어플라이드, 인텔과 AI 반도체 공정·3D 패키징 개발 협력",
           "title_ko": null,
-          "summary": "[지디넷코리아]마키나락스가 해군 함정에 인공지능(AI) 참모를 실제로 탑재하며 폐쇄망 환경에서 국방 인공지능(AI) 실증에 나섰다.마키나락스는 해군 제1함대사령부 포항함에 '장비운용 AI 참모'를 탑재하고 실증 운용에 돌입했다고 6일 밝혔다.",
+          "summary": "어플라이드 머티어리얼즈와 인텔이 인공지능(AI) 반도체용 차세대 공정과 첨단 패키징 기술 개발 협력에 나선다. 트랜지스터와 배선부터 칩을 수직으로 쌓는 3차원(3D) 적층까지 협력해 기술 상용화를 앞당긴다는 계획이다. 어플라이드는 6일(현지시간) 인텔과 차세대 트랜지스터·인터커넥트·첨단 패키징 개발을 위해 협력한다고 밝혔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261006101858",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20261007000126",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-06T10:18:58+09:00",
-          "popularity": 98,
+          "published_at": "2026-10-07T10:31:11+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 19.52,
-          "importance_score": 19.24,
+          "score": 19.9,
+          "importance_score": 19.79,
           "matched_keywords": [
             "ai"
           ],
@@ -111,86 +114,49 @@
       ]
     },
     {
-      "id": "trending",
-      "title": "🔥 Trending",
-      "items": [
-        {
-          "id": "c0fe2517f6ec00a715f37bf4b3f9eaf0",
-          "index": 5,
-          "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
-          "title_ko": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
-          "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-          "summary_ko": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-          "url": "https://github.com/QingYunA/answer-me-with-html",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-10-06T11:34:28+09:00",
-          "popularity": 1501,
-          "upvotes": 1501,
-          "score": 37.48,
-          "importance_score": 34.47,
-          "matched_keywords": [
-            "ai",
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 1501
-          }
-        },
-        {
-          "id": "d9838d6f1098949b6f0c11cece85b277",
-          "index": 6,
-          "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
-          "title_ko": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
-          "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-          "summary_ko": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-          "url": "https://github.com/nanaism/yomiyasu",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-10-05T18:32:15+09:00",
-          "popularity": 1520,
-          "upvotes": 1520,
-          "score": 33.93,
-          "importance_score": 27.37,
-          "matched_keywords": [
-            "ai",
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 1520
-          }
-        }
-      ]
-    },
-    {
       "id": "community",
       "title": "💬 Community",
       "items": [
         {
-          "id": "b3f0541cff91d4fb191237a1e2611731",
-          "index": 7,
-          "title": "Jev 기반 추천 재순위화(Reranking)에 대한 실증 연구: 결정 지향 모델과 LLM 재순위화의 품질 및 지연 시간 비교",
+          "id": "b6d78d68fb1ee7c0df0e5157c9d97976",
+          "index": 5,
+          "title": "ThinkingBox: 에이전트가 남긴 DB 상태로 채점하고 20번 반복해 신뢰성을 재는 업무 에이전트 벤치마크",
           "title_ko": null,
-          "summary": "핵심 요약 Decision-Oriented Recommendation Reranking 논문 은 TypeSafe AI의 결정 지향 모델 Jev로 추천 후보를 재순위화한 실증 연구입니다. 비교 대상은 Qwen2.5 7B Instruct 기반 재순위화 2종과 SASRec, DCNv2입니다.",
+          "summary": "핵심 요약 Microsoft와 피츠버그대, 노스웨스턴대 등의 연구팀은 ThinkingBox 논문 에서 에이전트가 작업을 끝낸 뒤의 백엔드 데이터베이스 상태와 부수 효과(side effect)로 채점하는 샌드박스 ThinkingBox 를 공개했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/jev-reranking-llm/12091",
+          "url": "https://discuss.pytorch.kr/t/thinkingbox-db-20/12107",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-05T16:30:42+09:00",
-          "popularity": 97,
+          "published_at": "2026-10-07T08:00:41+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 24.71,
-          "importance_score": 11.72,
+          "score": 19.37,
+          "importance_score": 18.75,
+          "matched_keywords": [
+            "연구"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "922f110e5f354ee24164da0e43cd932f",
+          "index": 6,
+          "title": "재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (2/2): 검증 계층과 자동 연구, 안전 문제 등",
+          "title_ko": null,
+          "summary": "핵심 요약 Recursive Self-Improvement in AI 서베이는 개선 신호를 신뢰도에 따라 형식 검증기, 실행 피드백, 학습된 심판, 내재 신호의 네 단계 검증 계층으로 정렬하고, 실제로 입증된 자기 개선의 강도가 이 계층을 따른다고 관찰합니다(측정된 법칙이 아닌 정성적 패턴입니다).",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-10-06T18:00:47+09:00",
+          "popularity": 99,
+          "upvotes": 0,
+          "score": 19.36,
+          "importance_score": 12.82,
           "matched_keywords": [
             "ai",
-            "llm",
-            "연구",
-            "모델"
+            "연구"
           ],
           "engagement": null
         }
@@ -199,169 +165,141 @@
   ],
   "items": [
     {
-      "id": "1abc61418465133db05c033757adf9a0",
+      "id": "050a405aae7203fb890ca45e629a5020",
       "index": 1,
-      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
-      "title_ko": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
-      "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it.",
-      "summary_ko": "A companion that talks with a person for months should come to understand them.",
-      "url": "https://huggingface.co/papers/2610.01780",
+      "title": "Data Unlearning via Inverse Distillation",
+      "title_ko": "Data Unlearning via Inverse Distillation",
+      "summary": "Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their training datasets.",
+      "summary_ko": "Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their…",
+      "url": "https://huggingface.co/papers/2609.36099",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-05T09:00:00+09:00",
-      "popularity": 522,
-      "upvotes": 256,
-      "score": 28.0,
-      "importance_score": 18.0,
+      "published_at": "2026-10-06T09:00:00+09:00",
+      "popularity": 48,
+      "upvotes": 19,
+      "score": 25.68,
+      "importance_score": 11.68,
       "matched_keywords": [
         "ai",
-        "reasoning",
-        "benchmark"
+        "diffusion",
+        "inference",
+        "training",
+        "dataset"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 256
+        "value": 19
       }
     },
     {
-      "id": "a86c6fa75a92c941f332cb34d4502ae8",
+      "id": "48ab019b83ac18db5bcc610933863898",
       "index": 2,
-      "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
-      "title_ko": "CUAWright: A Minimal Unified Interface for Digital Agents",
-      "summary": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed before task execution.",
-      "summary_ko": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed…",
-      "url": "https://huggingface.co/papers/2610.04116",
-      "source": "Hugging Face Papers",
+      "title": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "title_ko": "🤖 AI Agents Weekly: Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "summary": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "summary_ko": "Gemini 4 Argon, OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, Pi 1.0, Claude Code Mods, and More",
+      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gemini-4-argon-openai",
+      "source": "Elvis AI Newsletter",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-05T09:00:00+09:00",
-      "popularity": 6034,
-      "upvotes": 1,
-      "score": 26.0,
-      "importance_score": 18.0,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 1
-      }
-    },
-    {
-      "id": "b61e03381404889cb8bcab1223926607",
-      "index": 3,
-      "title": "한국형 발사체 누리호, 오전 10시 35분 발사대 기립 완료",
-      "title_ko": null,
-      "summary": "한국형 발사체 누리호 5차가 6일 오전 10시 35분 현재 발사대 기립과 고정 작업을 마쳤다. 오후 누리호에 전원과 추진제 등을 충전하기 위한 연결·기밀 점검 등을 진행하면 발사 준비를 마치게 된다. 우주항공청과 한국항공우주연구원은 6일 오전 6시부터 누리호의 발사대 이송을 시작했다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20261006000143",
-      "source": "전자신문 IT",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-10-06T10:57:59+09:00",
+      "published_at": "2026-10-03T23:48:39+09:00",
       "popularity": 99,
       "upvotes": 0,
-      "score": 19.76,
-      "importance_score": 19.61,
+      "score": 23.9,
+      "importance_score": 9.9,
       "matched_keywords": [
-        "연구"
+        "ai",
+        "agent",
+        "gpt",
+        "claude",
+        "gemini"
       ],
       "engagement": null
     },
     {
-      "id": "dfb4a2f58a91424319f8f24104381dcb",
-      "index": 4,
-      "title": "인터넷 끊긴 군함에서 AI 쓴다…마키나락스, 포항함 실증",
+      "id": "03fb1d7c6bc9a842ecab4384f0e3cbfd",
+      "index": 3,
+      "title": "롯데하이마트, 물류센터에 '휴머노이드 로봇' 투입한다",
       "title_ko": null,
-      "summary": "[지디넷코리아]마키나락스가 해군 함정에 인공지능(AI) 참모를 실제로 탑재하며 폐쇄망 환경에서 국방 인공지능(AI) 실증에 나섰다.마키나락스는 해군 제1함대사령부 포항함에 '장비운용 AI 참모'를 탑재하고 실증 운용에 돌입했다고 6일 밝혔다.",
+      "summary": "롯데하이마트는 산업통상부 산하 한국산업기술기획평가원(KEIT)이 주관하는 '2026년도 로봇산업기술개발사업' 국책 과제에 최종 선정됐다고 7일 밝혔다. 산업 특화 휴머노이드 로봇을 국내 자체 개발해 외산 로봇과 인공지능(AI) 모델 의존도를 낮추고 물류 AI 전환 기반을 확보한다는 계획이다. 롯데하이마트는 롯데글로벌로지스와 수요기업으로 참여한다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261006101858",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20261006000426",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-06T10:18:58+09:00",
-      "popularity": 98,
+      "published_at": "2026-10-07T08:00:00+09:00",
+      "popularity": 86,
       "upvotes": 0,
-      "score": 19.52,
-      "importance_score": 19.24,
+      "score": 20.97,
+      "importance_score": 17.34,
+      "matched_keywords": [
+        "ai",
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "62e056130de9c592ec470c91340ce434",
+      "index": 4,
+      "title": "어플라이드, 인텔과 AI 반도체 공정·3D 패키징 개발 협력",
+      "title_ko": null,
+      "summary": "어플라이드 머티어리얼즈와 인텔이 인공지능(AI) 반도체용 차세대 공정과 첨단 패키징 기술 개발 협력에 나선다. 트랜지스터와 배선부터 칩을 수직으로 쌓는 3차원(3D) 적층까지 협력해 기술 상용화를 앞당긴다는 계획이다. 어플라이드는 6일(현지시간) 인텔과 차세대 트랜지스터·인터커넥트·첨단 패키징 개발을 위해 협력한다고 밝혔다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261007000126",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-07T10:31:11+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.9,
+      "importance_score": 19.79,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "c0fe2517f6ec00a715f37bf4b3f9eaf0",
+      "id": "b6d78d68fb1ee7c0df0e5157c9d97976",
       "index": 5,
-      "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
-      "title_ko": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actual",
-      "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "summary_ko": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-10-06T11:34:28+09:00",
-      "popularity": 1501,
-      "upvotes": 1501,
-      "score": 37.48,
-      "importance_score": 34.47,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 1501
-      }
-    },
-    {
-      "id": "d9838d6f1098949b6f0c11cece85b277",
-      "index": 6,
-      "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
-      "title_ko": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japane",
-      "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-      "summary_ko": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-      "url": "https://github.com/nanaism/yomiyasu",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-10-05T18:32:15+09:00",
-      "popularity": 1520,
-      "upvotes": 1520,
-      "score": 33.93,
-      "importance_score": 27.37,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 1520
-      }
-    },
-    {
-      "id": "b3f0541cff91d4fb191237a1e2611731",
-      "index": 7,
-      "title": "Jev 기반 추천 재순위화(Reranking)에 대한 실증 연구: 결정 지향 모델과 LLM 재순위화의 품질 및 지연 시간 비교",
+      "title": "ThinkingBox: 에이전트가 남긴 DB 상태로 채점하고 20번 반복해 신뢰성을 재는 업무 에이전트 벤치마크",
       "title_ko": null,
-      "summary": "핵심 요약 Decision-Oriented Recommendation Reranking 논문 은 TypeSafe AI의 결정 지향 모델 Jev로 추천 후보를 재순위화한 실증 연구입니다. 비교 대상은 Qwen2.5 7B Instruct 기반 재순위화 2종과 SASRec, DCNv2입니다.",
+      "summary": "핵심 요약 Microsoft와 피츠버그대, 노스웨스턴대 등의 연구팀은 ThinkingBox 논문 에서 에이전트가 작업을 끝낸 뒤의 백엔드 데이터베이스 상태와 부수 효과(side effect)로 채점하는 샌드박스 ThinkingBox 를 공개했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/jev-reranking-llm/12091",
+      "url": "https://discuss.pytorch.kr/t/thinkingbox-db-20/12107",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-05T16:30:42+09:00",
-      "popularity": 97,
+      "published_at": "2026-10-07T08:00:41+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 24.71,
-      "importance_score": 11.72,
+      "score": 19.37,
+      "importance_score": 18.75,
+      "matched_keywords": [
+        "연구"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "922f110e5f354ee24164da0e43cd932f",
+      "index": 6,
+      "title": "재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (2/2): 검증 계층과 자동 연구, 안전 문제 등",
+      "title_ko": null,
+      "summary": "핵심 요약 Recursive Self-Improvement in AI 서베이는 개선 신호를 신뢰도에 따라 형식 검증기, 실행 피드백, 학습된 심판, 내재 신호의 네 단계 검증 계층으로 정렬하고, 실제로 입증된 자기 개선의 강도가 이 계층을 따른다고 관찰합니다(측정된 법칙이 아닌 정성적 패턴입니다).",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-10-06T18:00:47+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 19.36,
+      "importance_score": 12.82,
       "matched_keywords": [
         "ai",
-        "llm",
-        "연구",
-        "모델"
+        "연구"
       ],
       "engagement": null
     }
