@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 08 Oct 2026 05:27:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:46:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Octop: 서버 한 대로 가족과 소규모 팀이 각자 전용 AI 에이전트를 쓰는 셀프 호스팅 비서 (feat. Tencent)</title>
+      <link>https://discuss.pytorch.kr/t/octop-ai-feat-tencent/12124</link>
+      <description>핵심 요약 Octop 은 텐센트 클라우드(Tencent Cloud)가 공개한 셀프 호스팅 AI 비서로, 프로세스 하나가 웹 대시보드, CLI, 메신저 채널, 예약 작업을 함께 처리하고 상태를 기본으로 ~/.octop/ 아래에 둡니다. 한 번 설치하면 가족이나 소규모 팀의 각 사용자가 로그인 계정별로 자기 에이전트, 작업공간, 모델 설정, 채널을 따로 갖습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 06:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/octop-ai-feat-tencent/12124">PyTorch Korea</source>
+      <guid isPermaLink="false">b4d6a24e064c7c17be750aeaa6196c51</guid>
+    </item>
+    <item>
+      <title>Google이 공개한 AI 에이전트 프라이버시와 보안의 51가지 이슈에 대한 워크숍 보고서 [영문/PDF/116p]</title>
+      <link>https://discuss.pytorch.kr/t/google-ai-51-pdf-116p/12113</link>
+      <description>핵심 요약 Google Research가 2026년 10월 5일 블로그 글 과 함께 116쪽 분량의 워크숍 보고서 를 공개했습니다. 2025년 11월 뉴욕에서 열린 CAPS 워크숍의 논의를 정리한 문서이며, 공저자는 66명입니다. 보고서는 AI 에이전트의 프라이버시와 보안을 " 맥락에 맞는 적절한 행동 "의 문제로 봅니다.</description>
+      <pubDate>Thu, 08 Oct 2026 08:00:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-ai-51-pdf-116p/12113">PyTorch Korea</source>
+      <guid isPermaLink="false">8072b476efdfde4bdfb3f3c2589dfd59</guid>
+    </item>
     <item>
       <title>경쟁사 벤치마크로 검증한 로컬 문서 파서 성능 비교 (PyMuPDF vs Docling)</title>
       <link>https://discuss.pytorch.kr/t/pymupdf-vs-docling/12120</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-shaping-the-build/11995">PyTorch Korea</source>
       <guid isPermaLink="false">2e144ac76d26995238770174940352c3</guid>
-    </item>
-    <item>
-      <title>Andrew Ng의 AI Engineering Skills Map: AI 앱 구축과 운영 역량 (Building and deploying AI applications)</title>
-      <link>https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-ai-building-and-deploying-ai-applications/11992</link>
-      <description>AI 애플리케이션을 만들고 운영하는 역량 소개 Andrew Ng 가 설명한 AI Engineering Skills Map의 첫 번째 축은 AI 애플리케이션을 만들고 실제 사용자에게 제공하는 역량입니다. 모델을 호출해 시연하는 단계에서 끝나지 않고, 적절한 데이터를 연결하고 결과를 평가하며 운영 중 발생하는 문제까지 다루는 일입니다.</description>
-      <pubDate>Sat, 26 Sep 2026 10:30:45 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-ai-building-and-deploying-ai-applications/11992">PyTorch Korea</source>
-      <guid isPermaLink="false">e1bac0d4cbe25045f2277606c7ccf990</guid>
-    </item>
-    <item>
-      <title>Andrew Ng의 AI Engineering Skills Map: 개발자의 소프트웨어 기본기(Software engineering fundamentals)</title>
-      <link>https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-software-engineering-fundamentals/11993</link>
-      <description>코딩 에이전트 시대에도 소프트웨어 기본기가 필요한 이유 Andrew Ng 는 AI Engineering Skills Map의 두 번째 축으로 소프트웨어 엔지니어링 기본기를 꼽습니다. 코딩 에이전트가 코드를 빠르게 작성하더라도, 어떤 데이터 구조와 시스템 구성이 서비스에 맞는지 판단하고 결과를 검증하는 일은 남기 때문입니다.</description>
-      <pubDate>Sat, 26 Sep 2026 15:00:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-software-engineering-fundamentals/11993">PyTorch Korea</source>
-      <guid isPermaLink="false">3f4e202bb3b286d65530f3d913e74466</guid>
     </item>
   </channel>
 </rss>

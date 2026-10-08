@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 08 Oct 2026 05:27:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:46:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Structuring MoE Expert Selection for Agentic Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2610.07332</link>
+      <description>Long-horizon LLM agents are frequently implemented using sparse mixture-of-experts (MoE) models, yet the co-design of agentic behavior and MoE structures remains underexplored.</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.07332">Hugging Face Papers</source>
+      <guid isPermaLink="false">6c166cf3902089e2f70a4f34b12d9a3b</guid>
+    </item>
+    <item>
+      <title>TimeBraid: Unifying Time Series and Language for Understanding and Forecasting</title>
+      <link>https://huggingface.co/papers/2609.29792</link>
+      <description>We present TimeBraid, a series of unified time-series and language models that align pretrained language models and pretrained time-series foundation models through interleaved gl…</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.29792">Hugging Face Papers</source>
+      <guid isPermaLink="false">868ee8fa8ae65c539c789c7a34edccf9</guid>
+    </item>
+    <item>
+      <title>TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2610.07043</link>
+      <description>Low-precision execution can substantially accelerate reinforcement learning (RL) for large language models, but discrepancies between learner and sampler execution can destabilize…</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.07043">Hugging Face Papers</source>
+      <guid isPermaLink="false">e1176b1b53722892e48f6df311bea0f7</guid>
+    </item>
+    <item>
+      <title>Technical Report on the Turba Fertilizer Machine Learning Stack in Morocco</title>
+      <link>https://huggingface.co/papers/2610.05949</link>
+      <description>Site-specific fertilizer recommendation systems adapt nutrient advice to location, soil properties, crop type, and production targets, but scientific reuse is constrained when rec…</description>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05949">Hugging Face Papers</source>
+      <guid isPermaLink="false">7b7f227083049bcf03702274b053bdd6</guid>
+    </item>
     <item>
       <title>DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation</title>
       <link>https://huggingface.co/papers/2610.02188</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.03543">Hugging Face Papers</source>
       <guid isPermaLink="false">32804df43d6b7012468cdf0ad340fe66</guid>
-    </item>
-    <item>
-      <title>Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing</title>
-      <link>https://huggingface.co/papers/2609.37334</link>
-      <description>Vision-language-action (VLA) policies often fail when a robot's executed motion deviates from their commanded action.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37334">Hugging Face Papers</source>
-      <guid isPermaLink="false">ec712281613a5a6be7100321175754fa</guid>
-    </item>
-    <item>
-      <title>Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment</title>
-      <link>https://huggingface.co/papers/2609.38972</link>
-      <description>Chain-of-thought (CoT) traces often serve as a proxy for how Large Language Models (LLMs) arrive at their answers.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.38972">Hugging Face Papers</source>
-      <guid isPermaLink="false">9baa5e9b78e79e9d0083798d5718bac0</guid>
-    </item>
-    <item>
-      <title>LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches</title>
-      <link>https://huggingface.co/papers/2610.06647</link>
-      <description>Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier to broader adoption.</description>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06647">Hugging Face Papers</source>
-      <guid isPermaLink="false">0eaf287c887efab8aa136d74c3614455</guid>
-    </item>
-    <item>
-      <title>AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model</title>
-      <link>https://huggingface.co/papers/2610.08773</link>
-      <description>Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal.</description>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.08773">Hugging Face Papers</source>
-      <guid isPermaLink="false">2fa760cf192e4ca458eba642903482de</guid>
     </item>
   </channel>
 </rss>
