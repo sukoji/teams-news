@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 08 Oct 2026 11:25:55 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 16:04:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LoopCD: 루프 트랜스포머의 첫 반복을 약한 참조로 쓰는 학습 없는 대조 디코딩에 대한 Apple의 연구</title>
+      <link>https://discuss.pytorch.kr/t/loopcd-apple/12094</link>
+      <description>핵심 요약 Apple 연구팀은 Decoding Looped Transformers Better for (Almost) Free 논문에서 디코딩 방법 LoopCD 를 제안했습니다. 같은 블록을 여러 번 반복하는 루프 트랜스포머에서 첫 반복의 예측을 약한 참조(reference)로 삼아 마지막 예측과 대조하는 방법입니다. 추가 학습이나 보조 모델 없이 추론 시점에만 적용합니다.</description>
+      <pubDate>Thu, 08 Oct 2026 11:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/loopcd-apple/12094">PyTorch Korea</source>
+      <guid isPermaLink="false">8e0576924df94075f669a98a456d998f</guid>
+    </item>
+    <item>
+      <title>Jeff-Code: 0.8B 결정 모델이 턴마다 사고 여부를 골라 Qwen3.8-27B의 작업당 시간을 32% 줄인 Pi 포크</title>
+      <link>https://discuss.pytorch.kr/t/jeff-code-0-8b-qwen3-8-27b-32-pi/12122</link>
+      <description>핵심 요약 Jeff-Code 는 Pi 코딩 에이전트를 포크한 연구용 코드입니다. 0.8B 결정 모델 Jeff가 Qwen3.8-27B의 매 턴 앞에서 두 가지를 정합니다. 파일 읽기나 코드 검색 같은 정보 수집 단계를 자기가 먼저 실행할지, 이번 턴에 Qwen의 사고 모드를 켤지입니다.</description>
+      <pubDate>Thu, 08 Oct 2026 15:30:36 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jeff-code-0-8b-qwen3-8-27b-32-pi/12122">PyTorch Korea</source>
+      <guid isPermaLink="false">6200b0086f90a54a92322ec82f39f425</guid>
+    </item>
+    <item>
+      <title>[오픈소스] 협업을 재려면 정보 배치부터 설계해야 했다: AgentWorld 경량 실험장 (비공식)</title>
+      <link>https://discuss.pytorch.kr/t/agentworld/12131</link>
+      <description>멀티에이전트 과제에서 채팅이 실제로 필요한지 확인하고 싶어, AgentWorld를 가볍게 실험할 수 있는 시뮬레이터를 만들었습니다. 처음 만든 9개 과제는 공유 문서만으로도 많이 풀렸습니다. 그래서 과제 생성기에 "정보 은닉 정도"를 넣었고, 정보가 각자의 개인 브리핑으로 옮겨갈수록 채팅 횟수와 채팅 차단 시 성공률 차이가 함께 커지는 모습을 관찰했습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 15:41:37 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agentworld/12131">PyTorch Korea</source>
+      <guid isPermaLink="false">4e846a296f59810a546a7b3a46757ffe</guid>
+    </item>
     <item>
       <title>Octop: 서버 한 대로 가족과 소규모 팀이 각자 전용 AI 에이전트를 쓰는 셀프 호스팅 비서 (feat. Tencent)</title>
       <link>https://discuss.pytorch.kr/t/octop-ai-feat-tencent/12124</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/llmwiki-serve-markdown-obsidian/12026">PyTorch Korea</source>
       <guid isPermaLink="false">49b3bc13b995b6aada46dd5c8686914e</guid>
-    </item>
-    <item>
-      <title>Helix 2.5, 처음 보는 30개 집에서 집안일을 수행한 휴머노이드 모델</title>
-      <link>https://discuss.pytorch.kr/t/helix-2-5-30/12008</link>
-      <description>Helix 2.5 소개 Figure 의 Helix 2.5 는 사람의 행동 데이터로 사전 학습한 뒤, 처음 방문하는 가정에서도 집안일을 수행하도록 만든 휴머노이드 로봇용 모델입니다. Figure는 2026년 9월 17일 발표에서 베이 에어리어의 학습에 포함되지 않은 30개 집을 대상으로 거실 정리, 수건 접기, 침대 정돈을 평가한 결과를 공개했습니다.</description>
-      <pubDate>Sun, 27 Sep 2026 11:00:22 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/helix-2-5-30/12008">PyTorch Korea</source>
-      <guid isPermaLink="false">07c32112463eacbdcb14afcc50518032</guid>
-    </item>
-    <item>
-      <title>Andrew Ng의 AI Engineering Skills Map: 코딩 에이전트 활용 역량(Using coding agents)</title>
-      <link>https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-using-coding-agents/11994</link>
-      <description>코딩 에이전트를 잘 쓰는 역량 소개 Andrew Ng 는 AI Engineering Skills Map의 세 번째 축으로 코딩 에이전트를 활용하는 능력을 제시합니다. 에이전트가 코드를 작성하는 속도만 보는 것이 아니라, 무엇을 맡기고 어느 정도 자율성을 주며 어떤 증거로 결과를 검증할지를 결정하는 능력입니다.</description>
-      <pubDate>Sat, 26 Sep 2026 18:00:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-using-coding-agents/11994">PyTorch Korea</source>
-      <guid isPermaLink="false">925d88552087050f56053772920bbb3a</guid>
-    </item>
-    <item>
-      <title>Andrew Ng의 AI Engineering Skills Map: 제품 개발 방향을 정하는 역량(Shaping the build)</title>
-      <link>https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-shaping-the-build/11995</link>
-      <description>AI 엔지니어가 제품 개발 방향에도 참여하는 이유 Andrew Ng 가 설명한 AI Engineering Skills Map의 마지막 축은 개발 방향 설정(shaping the build) 입니다. 구현 속도가 빨라진 만큼 개발자는 주어진 명세를 코드로 옮기는 데 그치지 않고, 어떤 문제를 먼저 풀고 어떤 결과를 확인할지 결정하는 과정에도 참여할 수 있습니다.</description>
-      <pubDate>Sat, 26 Sep 2026 21:00:24 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/andrew-ng-ai-engineering-skills-map-shaping-the-build/11995">PyTorch Korea</source>
-      <guid isPermaLink="false">2e144ac76d26995238770174940352c3</guid>
     </item>
   </channel>
 </rss>
