@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 09 Oct 2026 11:42:42 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 17:36:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Liquid AI, 엣지 기기에서 한 번의 순전파로 판단하는 결정 모델 d1-3B와 d1-omni-600M 공개</title>
+      <link>https://discuss.pytorch.kr/t/liquid-ai-d1-3b-d1-omni-600m/12130</link>
+      <description>핵심 요약 Liquid AI가 Open d1 소개 글 에서 결정 모델 두 종의 가중치를 공개했습니다. 디코더 기반 d1-3B 는 텍스트와 이미지를, 인코더 기반 실험판 d1-omni-600M 은 텍스트와 이미지 또는 텍스트와 음성을 받습니다. 두 모델 모두 문장을 생성하지 않고, 예/아니오(Noul), 선택(Choice), 점수(Score) 질문에 대한 확률을 순전파 한 번으로 돌려줍니다.</description>
+      <pubDate>Fri, 09 Oct 2026 15:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/liquid-ai-d1-3b-d1-omni-600m/12130">PyTorch Korea</source>
+      <guid isPermaLink="false">9b74b910f470e02c0f8d87b2d318f09f</guid>
+    </item>
+    <item>
+      <title>허깅페이스 리더보드에서 JEV를 5위로 밀어내고 1위를 차지한 한국의 ZTC 기술 분석</title>
+      <link>https://discuss.pytorch.kr/t/jev-5-1-ztc/12136</link>
+      <description>생성하지 않고 판정하는 27B 모델: Darwin-27B-ZTC의 판정 엔진 리더보드 1위와 분석 요약: 비드래프트(VIDRAFT)의 판정 엔진 Darwin-27B-ZTC가 Hugging Face 공식 Typed Decisions 리더보드에서 1위(정확도 0.743, zero-shot)를 했고, 후속 모델 Darwin-27B-ZTC-v2가 판정 엔진 102개가 겨루는 S1MB 리더보드에서…</description>
+      <pubDate>Fri, 09 Oct 2026 12:52:34 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-5-1-ztc/12136">PyTorch Korea</source>
+      <guid isPermaLink="false">5052523241445fd634a46be3bfde4fb9</guid>
+    </item>
     <item>
       <title>Google과 NBER이 공개한 특허변호사 133명과 AI의 협업 실험 결과: 특허 초안은 좋아졌지만 주니어의 실력은 늘지 않았음</title>
       <link>https://discuss.pytorch.kr/t/google-nber-133-ai/12134</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cloudflare-sdlc-adlc/12021">PyTorch Korea</source>
       <guid isPermaLink="false">10985af1507162eb971b3d89ea00a92b</guid>
-    </item>
-    <item>
-      <title>AI Workers' Inquiry 2026: 영국 AI 기술자들의 업무 강도와 역량 변화에 대한 보고서 [영문/PDF/36p]</title>
-      <link>https://discuss.pytorch.kr/t/ai-workers-inquiry-2026-ai-pdf-36p/12022</link>
-      <description>AI Workers' Inquiry 2026 소개 AI Workers' Inquiry 2026 은 영국의 기술 노동자 노동조합 UTAW(United Tech &amp; Allied Workers) 가 2026년 9월 24일 공개한 36쪽 분량의 보고서로, AI 시스템을 직접 만들고 배포하고 평가하고 사용하는 기술 노동자들의 증언을 모아 생성형 AI가 실제 업무를 어떻게 바꾸고 있는지 정리한 문서입…</description>
-      <pubDate>Mon, 28 Sep 2026 08:30:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-workers-inquiry-2026-ai-pdf-36p/12022">PyTorch Korea</source>
-      <guid isPermaLink="false">ff5335c400e715fcef403125ce83bdea</guid>
-    </item>
-    <item>
-      <title>[2026/09/21 ~ 27] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-09-21-27-ai-ml/12024</link>
-      <description>PyTorchKR​ 이번 주에 선정된 논문들을 종합해 보면, AI 모델을 더욱 실용적이고 효율적인 시스템으로 발전시키기 위한 세 가지 연구 흐름을 확인할 수 있습니다: 에이전트 하네스 최적화 및 자기개선의 고도화 : 이번 주 선정된 논문들을 살펴보면, 대규모 언어 모델의 가중치 자체보다 에이전트를 둘러싼 프롬프트나 제어 흐름인 하네스를 최적화하여 성능을 극대화하는 연구가 돋보입니다.</description>
-      <pubDate>Mon, 28 Sep 2026 06:30:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-09-21-27-ai-ml/12024">PyTorch Korea</source>
-      <guid isPermaLink="false">5c108c41c34d0deee503104d34292020</guid>
     </item>
   </channel>
 </rss>
