@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 09 Oct 2026 06:06:07 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 10:48:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight</title>
+      <link>https://huggingface.co/papers/2610.08077</link>
+      <description>Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction.</description>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.08077">Hugging Face Papers</source>
+      <guid isPermaLink="false">830eb0d09274e507d9fbe7c7d27ddb57</guid>
+    </item>
+    <item>
+      <title>AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework</title>
+      <link>https://huggingface.co/papers/2609.30541</link>
+      <description>Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale.</description>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.30541">Hugging Face Papers</source>
+      <guid isPermaLink="false">e16a87de00bb878d756c8add7c5e886e</guid>
+    </item>
+    <item>
+      <title>ReGain: Restoring Subject Fidelity in Personalization on Synthetic Images</title>
+      <link>https://huggingface.co/papers/2609.38680</link>
+      <description>Text-to-image diffusion models are personalized to a subject by DreamBooth fine-tuning on a handful of its images.</description>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38680">Hugging Face Papers</source>
+      <guid isPermaLink="false">098a16ebdc469ac7c416666f1e766eba</guid>
+    </item>
+    <item>
+      <title>Agent Plasticity: Measuring Self-Improvement Through Experience</title>
+      <link>https://huggingface.co/papers/2610.08902</link>
+      <description>AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet existing evaluations largely measure what an agent can do at a…</description>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.08902">Hugging Face Papers</source>
+      <guid isPermaLink="false">5328f5c5c95124c535f25eb032dd68f4</guid>
+    </item>
+    <item>
+      <title>Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute</title>
+      <link>https://huggingface.co/papers/2610.10845</link>
+      <description>A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent.</description>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.10845">Hugging Face Papers</source>
+      <guid isPermaLink="false">738874d3ec66f970bbb4b08fb0bd1a9b</guid>
+    </item>
+    <item>
+      <title>LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation</title>
+      <link>https://huggingface.co/papers/2609.38562</link>
+      <description>World models, game simulators, and long-take video creation require coherent scene evolution and sustained dynamics over extended durations.</description>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38562">Hugging Face Papers</source>
+      <guid isPermaLink="false">69f36bc45455cc5d9005a1fa2afa2f00</guid>
+    </item>
     <item>
       <title>Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning</title>
       <link>https://huggingface.co/papers/2610.09450</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.05034">Hugging Face Papers</source>
       <guid isPermaLink="false">2e2dd5c1ca5e3c0de5e0b44db86226f1</guid>
-    </item>
-    <item>
-      <title>SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles</title>
-      <link>https://huggingface.co/papers/2610.09832</link>
-      <description>Memory-augmented reinforcement learning strengthens LLM agents' ability to solve complex long-horizon tasks.</description>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.09832">Hugging Face Papers</source>
-      <guid isPermaLink="false">3008e9c420c928a73044d1d616c42c5b</guid>
-    </item>
-    <item>
-      <title>WorldSonus: Bringing Sound to Worlds</title>
-      <link>https://huggingface.co/papers/2610.08760</link>
-      <description>Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent.</description>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.08760">Hugging Face Papers</source>
-      <guid isPermaLink="false">03ed2b7b9a6940eedde0cabefb918b3a</guid>
-    </item>
-    <item>
-      <title>Inverting Multi-Vector Visual Document Indices</title>
-      <link>https://huggingface.co/papers/2610.09920</link>
-      <description>Prevailing multi-vector visual document retrievers store each page as about a thousand patch vectors, often in vector databases run by a third party.</description>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.09920">Hugging Face Papers</source>
-      <guid isPermaLink="false">c091ff13bc07dda402a26f88e0d56b6c</guid>
-    </item>
-    <item>
-      <title>On-Policy Distillation with Negative-Policy Rollouts</title>
-      <link>https://huggingface.co/papers/2610.07874</link>
-      <description>On-policy distillation (OPD) has been widely studied as a post-training method in which a student model obtains token-level supervision from a stronger teacher on its own rollouts.</description>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07874">Hugging Face Papers</source>
-      <guid isPermaLink="false">5555df76f8844ea069bc31da382ed27b</guid>
-    </item>
-    <item>
-      <title>Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation</title>
-      <link>https://huggingface.co/papers/2610.07250</link>
-      <description>Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harness can leverage memory, skills, workflow orchestration, res…</description>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07250">Hugging Face Papers</source>
-      <guid isPermaLink="false">359763063d7525fecdf7d8fd45112420</guid>
-    </item>
-    <item>
-      <title>Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position</title>
-      <link>https://huggingface.co/papers/2610.10114</link>
-      <description>The architectural design of Large Language Models (LLMs) is shifting from traditional full-attention-only models to hybrid models, which combine different attention modules to imp…</description>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.10114">Hugging Face Papers</source>
-      <guid isPermaLink="false">29b7439b4e9060f93f2dbf0bd37fa554</guid>
     </item>
   </channel>
 </rss>
