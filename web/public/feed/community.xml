@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 10 Oct 2026 15:45:52 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 22:21:20 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM-Omni 기술 보고서: 음성, 이미지, 영상, 로봇 행동 모델을 한 런타임에서 서빙하는 구조</title>
+      <link>https://discuss.pytorch.kr/t/vllm-omni/12128</link>
+      <description>핵심 요약 vLLM-Omni 기술 보고서 는 텍스트, 음성, 이미지, 영상, 로봇 행동을 출력하는 모델을 여러 스테이지(stage)의 파이프라인으로 봅니다. 그리고 오케스트레이터 하나가 요청 수락, 스테이지 진행, 스트리밍, 완료를 관리 하는 구조를 설명합니다. 코드는 vLLM-Omni GitHub 저장소 에 Apache-2.0 라이선스로 공개되어 있습니다.</description>
+      <pubDate>Sat, 10 Oct 2026 19:30:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-omni/12128">PyTorch Korea</source>
+      <guid isPermaLink="false">403162b75f540f5a4400d5a6d14fc2af</guid>
+    </item>
     <item>
       <title>Liquid AI, 엣지 기기에서 한 번의 순전파로 판단하는 결정 모델 d1-3B와 d1-omni-600M 공개</title>
       <link>https://discuss.pytorch.kr/t/liquid-ai-d1-3b-d1-omni-600m/12130</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/clm-contrastive-lm-jev/12013">PyTorch Korea</source>
       <guid isPermaLink="false">e674d51997d00ab4f3885ee19cb15431</guid>
-    </item>
-    <item>
-      <title>Cloudflare가 제안하는 소프트웨어 개발 방법론의 변화: SDLC에서 ADLC로, 배포와 운영까지 에이전트에게 맡기는 소프트웨어 팩토리</title>
-      <link>https://discuss.pytorch.kr/t/cloudflare-sdlc-adlc/12021</link>
-      <description>Cloudflare가 제안하는 에이전트 개발 수명 주기(ADLC) 소개 에이전트 개발 수명 주기(Agent Development Lifecycle, ADLC) 는 Cloudflare 가 2026년 8월 4일 블로그 글 The Agent Development Lifecycle has arrived on Cloudflare 에서 제안한 개념으로, 코드 작성뿐 아니라 테스트, 배포, 운영, 유지…</description>
-      <pubDate>Mon, 28 Sep 2026 12:00:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cloudflare-sdlc-adlc/12021">PyTorch Korea</source>
-      <guid isPermaLink="false">10985af1507162eb971b3d89ea00a92b</guid>
     </item>
   </channel>
 </rss>
