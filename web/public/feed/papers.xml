@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 10 Oct 2026 05:37:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 09:33:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Opera: A Verbal Critic Framework for Long-horizon Coding Agents</title>
+      <link>https://huggingface.co/papers/2609.33987</link>
+      <description>Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem.</description>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.33987">Hugging Face Papers</source>
+      <guid isPermaLink="false">90a1131d17d8721b144bf77ee5c601e0</guid>
+    </item>
+    <item>
+      <title>Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics</title>
+      <link>https://huggingface.co/papers/2609.38527</link>
+      <description>This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights.</description>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38527">Hugging Face Papers</source>
+      <guid isPermaLink="false">2c1a28fd030abb0be471f766d01ca2ce</guid>
+    </item>
+    <item>
+      <title>The Lattice of Transition Laws</title>
+      <link>https://huggingface.co/papers/2610.11216</link>
+      <description>Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discret…</description>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.11216">Hugging Face Papers</source>
+      <guid isPermaLink="false">b69937ae64ed80621f50346ff690ed0a</guid>
+    </item>
+    <item>
+      <title>Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation</title>
+      <link>https://huggingface.co/papers/2610.09280</link>
+      <description>This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator…</description>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.09280">Hugging Face Papers</source>
+      <guid isPermaLink="false">5d2faab124ebb07d5e91a88f3e8e8d3b</guid>
+    </item>
     <item>
       <title>Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution</title>
       <link>https://huggingface.co/papers/2609.35855</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.12360">Hugging Face Papers</source>
       <guid isPermaLink="false">13532f0d409757a202b9b446970726d6</guid>
-    </item>
-    <item>
-      <title>Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2610.12355</link>
-      <description>Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence.</description>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12355">Hugging Face Papers</source>
-      <guid isPermaLink="false">d741733ad6c2a0d54e830e5044c868c0</guid>
-    </item>
-    <item>
-      <title>USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation</title>
-      <link>https://huggingface.co/papers/2610.11322</link>
-      <description>Geometrically faithful and functional articulated 3D assets are essential for real-to-sim robot manipulation, where policies trained in simulation must transfer to physical object…</description>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.11322">Hugging Face Papers</source>
-      <guid isPermaLink="false">4bea78bb54f54a732af91d463e6ba43b</guid>
-    </item>
-    <item>
-      <title>LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation</title>
-      <link>https://huggingface.co/papers/2610.12442</link>
-      <description>Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target vie…</description>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12442">Hugging Face Papers</source>
-      <guid isPermaLink="false">6632ac4f54e33429189ca724a50c2688</guid>
-    </item>
-    <item>
-      <title>What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents</title>
-      <link>https://huggingface.co/papers/2610.06406</link>
-      <description>As agents take on long-horizon tasks, users shift from making individual decisions to overseeing autonomous execution.</description>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06406">Hugging Face Papers</source>
-      <guid isPermaLink="false">dafa96d5a0c03c2ab46c1149c5e68f3b</guid>
     </item>
   </channel>
 </rss>
