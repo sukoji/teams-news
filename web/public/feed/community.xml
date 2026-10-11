@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 11 Oct 2026 17:24:15 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:22:58 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLM-as-Jev: 범용 LLM을 학습 없이 Jev식 결정 모델로 쓰는 방법과 미세조정이 필요한 조건</title>
+      <link>https://discuss.pytorch.kr/t/llm-as-jev-llm-jev/12129</link>
+      <description>핵심 요약 LLM-as-Jev 논문 은 범용 LLM을 구조 변경 없이 Jev식 결정 모델로 쓰는 방법을 제안합니다. 선택지에 [1] 부터 [K] 까지 번호를 붙이고 답을 Best answer: [ 로 미리 채운 뒤, k] 꼴 답의 토큰 확률만 읽습니다. 학습 없이도 Qwen3.5-4B는 JevBench 공개 항목 231개 중 188개( 81.4\% )를 맞혔습니다.</description>
+      <pubDate>Sun, 11 Oct 2026 19:30:54 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llm-as-jev-llm-jev/12129">PyTorch Korea</source>
+      <guid isPermaLink="false">cc35efd6e24dc2a58a36e137a193bdc0</guid>
+    </item>
     <item>
       <title>[프로젝트 소개] WITAN: 에이전트가 직접 잰 실측값과 데이터셋을 MCP로 찾아 쓰는 마켓 (테스트넷 베타)</title>
       <link>https://discuss.pytorch.kr/t/witan-mcp/12147</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/hugging-face-transformers-gguf-feat-llama-cpp-ggml/12036">PyTorch Korea</source>
       <guid isPermaLink="false">7d1f37f5597543091137aa79e9924286</guid>
-    </item>
-    <item>
-      <title>Laya: 텍스트 생성 없이 한 번의 순전파로 결정을 내리는 Jev 호환 오픈 가중치 모델과 로컬 실행 도구들</title>
-      <link>https://discuss.pytorch.kr/t/laya-jev/12027</link>
-      <description>Laya 소개 문의 메일을 어느 팀에 배정할지, 이 프롬프트가 탈옥(jailbreak) 시도인지, 고객이 해지를 암시하는지처럼 소프트웨어가 짧게 내려야 하는 판단은 대부분 정해진 선택지 중 하나를 고르거나 확률 하나를 매기는 일입니다.</description>
-      <pubDate>Tue, 29 Sep 2026 07:01:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/laya-jev/12027">PyTorch Korea</source>
-      <guid isPermaLink="false">ab6532cce0e9bcd5899785df13ec4569</guid>
     </item>
   </channel>
 </rss>
