@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 11 Oct 2026 10:36:36 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 17:24:15 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[프로젝트 소개] WITAN: 에이전트가 직접 잰 실측값과 데이터셋을 MCP로 찾아 쓰는 마켓 (테스트넷 베타)</title>
+      <link>https://discuss.pytorch.kr/t/witan-mcp/12147</link>
+      <description>에이전트에게 일을 맡기다 보면 "이건 누군가 이미 재 봤을 텐데" 싶은 순간이 자주 옵니다. API의 실제 rate limit, pgvector 인덱스가 언제부터 이득인지, 어떤 SDK 버전에서 무엇이 깨졌는지 같은 것들입니다. 웹 검색으로는 조건이 빠진 글이 나오기 쉽고, 결국 에이전트가 같은 실험을 다시 돌리게 됩니다.</description>
+      <pubDate>Sun, 11 Oct 2026 15:57:13 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/witan-mcp/12147">PyTorch Korea</source>
+      <guid isPermaLink="false">962698ee8e34edf612b5b04177c8292a</guid>
+    </item>
+    <item>
+      <title>Google의 TEE 기반 연합 학습(FL) 외부에서 검증 가능한 차등 프라이버시로 Gboard 모델 학습 사례 공유</title>
+      <link>https://discuss.pytorch.kr/t/google-tee-fl-gboard/12135</link>
+      <description>핵심 요약 Google Research는 Toward provably private learning from federated data 블로그 글 과 같은 제목의 논문 에서 새 연합 학습 시스템을 발표했습니다. 기기가 암호화한 학습 데이터는 서버의 TEE(신뢰 실행 환경) 안에서만 풀려 학습에 쓰입니다.</description>
+      <pubDate>Sun, 11 Oct 2026 13:30:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-tee-fl-gboard/12135">PyTorch Korea</source>
+      <guid isPermaLink="false">0e639f1a4d55491167b3e7277d059189</guid>
+    </item>
     <item>
       <title>vLLM-Omni 기술 보고서: 음성, 이미지, 영상, 로봇 행동 모델을 한 런타임에서 서빙하는 구조</title>
       <link>https://discuss.pytorch.kr/t/vllm-omni/12128</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/laya-jev/12027">PyTorch Korea</source>
       <guid isPermaLink="false">ab6532cce0e9bcd5899785df13ec4569</guid>
-    </item>
-    <item>
-      <title>Liquid AI, VLM 디코딩 속도를 2.66~3.13배 가량 높인 LFM2.5-VL-3B-DSpark 모델 공개</title>
-      <link>https://discuss.pytorch.kr/t/liquid-ai-vlm-2-66-3-13-lfm2-5-vl-3b-dspark/12019</link>
-      <description>LFM2.5-VL-3B-DSpark 소개 LFM2.5-VL-3B-DSpark는 Liquid AI 가 자사의 비전-언어 모델(VLM, Vision-Language Model) LFM2.5-VL-3B 를 위해 공개한 약 280M 파라미터 규모의 추측 디코딩(Speculative Decoding) 용 초안 모델(Draft Model)로, 출력은 그대로 유지하면서 디코딩 속도를 H100에서 최대…</description>
-      <pubDate>Mon, 28 Sep 2026 16:30:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/liquid-ai-vlm-2-66-3-13-lfm2-5-vl-3b-dspark/12019">PyTorch Korea</source>
-      <guid isPermaLink="false">6fe4e4018b0cb07013daf18e7b823038</guid>
-    </item>
-    <item>
-      <title>CLM(Contrastive LM), 대조 학습을 통해 Jev와 같은 형식으로, 상태에 맞는 행동을 빠르게 선택하는 언어 모델</title>
-      <link>https://discuss.pytorch.kr/t/clm-contrastive-lm-jev/12013</link>
-      <description>CLM 소개 에이전트가 매 순간 해야 할 일이 긴 답변 작성인 것은 아닙니다. 사용할 도구를 고르거나, 가능한 다음 행동을 비교하거나, 이미 생성된 여러 해답 중 하나를 선택하는 경우도 있습니다. 이런 작업에서는 현재 상태와 후보 행동이 얼마나 잘 맞는지 빠르게 판단하는 능력 이 필요합니다.</description>
-      <pubDate>Mon, 28 Sep 2026 20:00:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/clm-contrastive-lm-jev/12013">PyTorch Korea</source>
-      <guid isPermaLink="false">e674d51997d00ab4f3885ee19cb15431</guid>
     </item>
   </channel>
 </rss>
