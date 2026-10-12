@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 12 Oct 2026 13:50:35 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 21:50:45 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OECD, 25개 조직 인터뷰로 본 에이전틱 AI 도입 현황: 자율성을 제한 없이 맡긴 곳은 없었다 [영문/PDF/36p]</title>
+      <link>https://discuss.pytorch.kr/t/oecd-25-ai-pdf-36p/12148</link>
+      <description>핵심 요약 OECD가 2026년 9월 16일 발간한 보고서 'Agentic AI in organisations' 는 25개 조직을 인터뷰한 결과입니다. 개발사, 도입 기업, 정부 기관이 에이전틱 AI를 어떻게 만들고 배포하고 통제하는지 정리했습니다. 인터뷰한 조직 중 제한 없는 자율성으로 에이전트를 배포했다고 답한 곳은 없었습니다.</description>
+      <pubDate>Mon, 12 Oct 2026 15:30:54 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/oecd-25-ai-pdf-36p/12148">PyTorch Korea</source>
+      <guid isPermaLink="false">a35f05141b678410f1f0145577fdc512</guid>
+    </item>
+    <item>
+      <title>Microsoft, Jev 호환 API의 결정 모델 Microsoft-Decision-1 출시 (입력 1M 토큰당 $0.042)</title>
+      <link>https://discuss.pytorch.kr/t/microsoft-jev-api-microsoft-decision-1-1m-0-042/12140</link>
+      <description>핵심 요약 Microsoft가 2026년 10월 9일 Microsoft-Decision-1 발표 글 에서 문장 대신 선택지별 확률을 돌려주는 결정 모델을 정식(GA) 출시했습니다. Qwen3.5-9B를 후학습했고, 가중치는 배포하지 않습니다. 요청 형식은 Jev와 같습니다.</description>
+      <pubDate>Mon, 12 Oct 2026 19:00:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/microsoft-jev-api-microsoft-decision-1-1m-0-042/12140">PyTorch Korea</source>
+      <guid isPermaLink="false">4dc13b65fd0f7fec96498edef810b8d7</guid>
+    </item>
     <item>
       <title>GuideLLM v0.8.0 공개, 지연 SLO를 지키는 최대 동시성 탐색과 에이전트 트레이스 재생 (feat. vLLM)</title>
       <link>https://discuss.pytorch.kr/t/guidellm-v0-8-0-slo-feat-vllm/12149</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openrig-claude-code-codex/12042">PyTorch Korea</source>
       <guid isPermaLink="false">07b5002f96391260222d959815e60213</guid>
-    </item>
-    <item>
-      <title>포켓몬 옐로에서 좀보이드로: 게임 에이전트의 행동을 어떻게 검증할까</title>
-      <link>https://discuss.pytorch.kr/t/topic/12052</link>
-      <description>안녕하세요. 포켓몬 옐로를 플레이하는 개인 프로젝트 Pikagente를 만들다가, 지금은 Project Zomboid에서 같은 문제를 풀고 있습니다. 어떤 행동을 고르게 할지뿐 아니라, 그 행동이 게임 안에서 실제로 일어났는지가 생각보다 어렵더군요.</description>
-      <pubDate>Wed, 30 Sep 2026 04:01:11 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/topic/12052">PyTorch Korea</source>
-      <guid isPermaLink="false">2245ca114f5a65f57ba0ca18089bfde6</guid>
-    </item>
-    <item>
-      <title>OpenProse: Markdown 기반의 계약으로 지속적인 AI 작업을 정의하는, AI Agent의 동작을 위한 언어</title>
-      <link>https://discuss.pytorch.kr/t/openprose-markdown-ai-ai-agent/12010</link>
-      <description>OpenProse 소개 에이전트에게 여러 단계의 작업을 지시할 때는 보통 실행 순서와 종료 조건을 프롬프트에 적습니다. 그러나 한 번 끝나는 작업이 아니라, 입력이 바뀔 때마다 같은 목표 상태를 유지해야 하는 작업이라면 매번 전체 순서를 다시 설명해야 합니다. OpenProse 는 이런 지속적인 AI 작업을 Markdown 계약( *.prose.md )으로 정의하는 언어입니다.</description>
-      <pubDate>Tue, 29 Sep 2026 19:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openprose-markdown-ai-ai-agent/12010">PyTorch Korea</source>
-      <guid isPermaLink="false">55b56963af61ac74430dd6b1590890a1</guid>
     </item>
   </channel>
 </rss>
