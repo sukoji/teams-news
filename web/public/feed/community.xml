@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 12 Oct 2026 11:01:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 13:50:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GuideLLM v0.8.0 공개, 지연 SLO를 지키는 최대 동시성 탐색과 에이전트 트레이스 재생 (feat. vLLM)</title>
+      <link>https://discuss.pytorch.kr/t/guidellm-v0-8-0-slo-feat-vllm/12149</link>
+      <description>핵심 요약 vLLM 프로젝트가 2026년 9월 30일 GuideLLM v0.8.0 릴리스 를 공개했습니다. 지연 목표(SLO)를 지킨 요청의 처리율(goodput)을 재고, 그 목표를 지키는 최대 동시 요청 수를 찾는 goodput 프로파일이 추가되었습니다. WEKA 형식과 OpenTelemetry(OTEL) 형식의 에이전트 트레이스를 기록된 시간대로 재생할 수 있게 되었습니다.</description>
+      <pubDate>Mon, 12 Oct 2026 11:30:48 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/guidellm-v0-8-0-slo-feat-vllm/12149">PyTorch Korea</source>
+      <guid isPermaLink="false">71f907b53be1aaf54e272fb3355c64a5</guid>
+    </item>
     <item>
       <title>[2026/10/05 ~ 11] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-10-05-11-ai-ml/12155</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openprose-markdown-ai-ai-agent/12010">PyTorch Korea</source>
       <guid isPermaLink="false">55b56963af61ac74430dd6b1590890a1</guid>
-    </item>
-    <item>
-      <title>180B 모델로, 수학올림피아드 벤치마크(AIME2026) 만점 포함 5개 부문 모조리 1위 랭크 비결 공개</title>
-      <link>https://discuss.pytorch.kr/t/180b-aime2026-5-1/12047</link>
-      <description>Darwin-180B-RSI, 허깅페이스 공식 리더보드 5관왕 — 엔지니어 관점 해설 모델: FINAL-Bench/Darwin-180B-RSI · Hugging Face 개발: 비드래프트(VIDRAFT) 공개: 2026-09-28 0. 요약 무엇을 했나 공개 모델 Qwen3.8-Flash-Next(180B MoE)의 파라미터를 약 0.02%만 바꿨습니다.</description>
-      <pubDate>Tue, 29 Sep 2026 16:23:53 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/180b-aime2026-5-1/12047">PyTorch Korea</source>
-      <guid isPermaLink="false">986904c49edbe32e9b283067077881ff</guid>
     </item>
   </channel>
 </rss>
