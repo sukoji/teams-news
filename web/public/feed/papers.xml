@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:19:34 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:14:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives</title>
+      <link>https://huggingface.co/papers/2609.39601</link>
+      <description>Precise grounding matters.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.39601">Hugging Face Papers</source>
+      <guid isPermaLink="false">9e816f217a40b2a213c5dc036636cdbd</guid>
+    </item>
+    <item>
+      <title>Scaling Agentic Data for Long-Horizon Terminal Intelligence</title>
+      <link>https://huggingface.co/papers/2610.13166</link>
+      <description>Terminal agents are moving beyond local operations toward completing real-world professional tasks.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.13166">Hugging Face Papers</source>
+      <guid isPermaLink="false">cdfa1b62cd35b609139f30b19cd4cbc5</guid>
+    </item>
+    <item>
+      <title>AgentSWE: Can Coding Agents Build the Agent You Actually Want?</title>
+      <link>https://huggingface.co/papers/2610.13361</link>
+      <description>As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.13361">Hugging Face Papers</source>
+      <guid isPermaLink="false">a9c380b2d278d8eae5077682073f7bc4</guid>
+    </item>
+    <item>
+      <title>CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation</title>
+      <link>https://huggingface.co/papers/2609.36616</link>
+      <description>Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36616">Hugging Face Papers</source>
+      <guid isPermaLink="false">6f483047b735a34e6338b3b95dff6ea1</guid>
+    </item>
+    <item>
+      <title>Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training</title>
+      <link>https://huggingface.co/papers/2610.12933</link>
+      <description>Large language models have achieved remarkable advances in complex reasoning.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.12933">Hugging Face Papers</source>
+      <guid isPermaLink="false">6fe9f861be47a5b592cc858f47fd0344</guid>
+    </item>
+    <item>
+      <title>GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed</title>
+      <link>https://huggingface.co/papers/2609.39600</link>
+      <description>Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.39600">Hugging Face Papers</source>
+      <guid isPermaLink="false">4490a6c93eca300b5ef95cd0b318e8f3</guid>
+    </item>
+    <item>
+      <title>VIS-Ground: Video Interactive Storytelling with Contextual Grounding</title>
+      <link>https://huggingface.co/papers/2610.09326</link>
+      <description>Video interactive storytelling enables viewers to actively steer how a video unfolds.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.09326">Hugging Face Papers</source>
+      <guid isPermaLink="false">9495141e8becacbb28cb8f593a1e17ce</guid>
+    </item>
+    <item>
+      <title>SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code</title>
+      <link>https://huggingface.co/papers/2610.09116</link>
+      <description>The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before building on them.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.09116">Hugging Face Papers</source>
+      <guid isPermaLink="false">71dcc898fa906d284b43889f681e263d</guid>
+    </item>
     <item>
       <title>Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method</title>
       <link>https://huggingface.co/papers/2609.35965</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.12416">Hugging Face Papers</source>
       <guid isPermaLink="false">bdfdf46a1cfbb965aec5ec3eeee292f1</guid>
-    </item>
-    <item>
-      <title>Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration</title>
-      <link>https://huggingface.co/papers/2610.12470</link>
-      <description>While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrat…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12470">Hugging Face Papers</source>
-      <guid isPermaLink="false">550e9699bb2dbc940ed6cac38de4cb22</guid>
-    </item>
-    <item>
-      <title>Inducing Process Supervision from Outcome-Only Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2609.36641</link>
-      <description>Process reward models (PRMs) have become a key component for LLMs, as their step-level feedback supports both post-training and test-time reasoning.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.36641">Hugging Face Papers</source>
-      <guid isPermaLink="false">04373d8d3a6af9e1bf3be2500f8f2e05</guid>
-    </item>
-    <item>
-      <title>ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents</title>
-      <link>https://huggingface.co/papers/2610.13395</link>
-      <description>Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a gi…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13395">Hugging Face Papers</source>
-      <guid isPermaLink="false">4a2882d30389b2a6b571b1f4b718c613</guid>
-    </item>
-    <item>
-      <title>VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs</title>
-      <link>https://huggingface.co/papers/2610.07987</link>
-      <description>Multimodal large language models have become the dominant paradigm for visual understanding, but incur substantial costs by encoding inputs into dense, fixed-size patch tokens.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07987">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f610a9e1299132fb4ca0fd8432fe2a5</guid>
-    </item>
-    <item>
-      <title>Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark</title>
-      <link>https://huggingface.co/papers/2610.13947</link>
-      <description>In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13947">Hugging Face Papers</source>
-      <guid isPermaLink="false">adc3cf8281f2f986dc42ebb80b00dbf0</guid>
-    </item>
-    <item>
-      <title>PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence</title>
-      <link>https://huggingface.co/papers/2609.37712</link>
-      <description>Optical Character Recognition (OCR) is evolving from plain-text transcription toward general visual intelligence, requiring models to recognize, localize, and reason over textual…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37712">Hugging Face Papers</source>
-      <guid isPermaLink="false">ff4576379464be58f3aca2c69c10ad9f</guid>
-    </item>
-    <item>
-      <title>SWE-Duel: Towards a Self-Scaling Arena for Coding Agents</title>
-      <link>https://huggingface.co/papers/2610.12569</link>
-      <description>Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12569">Hugging Face Papers</source>
-      <guid isPermaLink="false">b5f1c4439cee37a3537ebdbcdb8a2e3c</guid>
-    </item>
-    <item>
-      <title>Learning Representations to Guide Pixel Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2610.12978</link>
-      <description>Visual representations are largely developed for understanding, yet what makes them useful for generation remains unclear.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12978">Hugging Face Papers</source>
-      <guid isPermaLink="false">930403119337ab3df35a7feafbf86b3e</guid>
     </item>
   </channel>
 </rss>
