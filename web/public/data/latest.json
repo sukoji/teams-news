@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12T11:01:09.649817+09:00",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T12:19:33.738064+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,53 +10,60 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "26a2930736bab1dacce62d6979f0c108",
+          "id": "22a008372ade0159c2e27328b1cb8d9b",
           "index": 1,
-          "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
-          "title_ko": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
-          "summary": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.",
-          "summary_ko": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.",
-          "url": "https://huggingface.co/papers/2610.07121",
+          "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+          "title_ko": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+          "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+          "summary_ko": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+          "url": "https://huggingface.co/papers/2610.13527",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-10-12T09:00:00+09:00",
-          "popularity": 19,
-          "upvotes": 7,
-          "score": 21.57,
-          "importance_score": 18.15,
+          "popularity": 661,
+          "upvotes": 202,
+          "score": 30.0,
+          "importance_score": 18.0,
           "matched_keywords": [
+            "ai",
             "llm",
-            "diffusion"
+            "multimodal",
+            "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 7
+            "value": 202
           }
         },
         {
-          "id": "d0703c6bdbb54d6a3e969eaa230591b0",
+          "id": "a36f79789310f4ee6cc11b1e7394a1cb",
           "index": 2,
-          "title": "🤖 AI Agents Weekly: Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-          "title_ko": "🤖 AI Agents Weekly: Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-          "summary": "Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-          "summary_ko": "Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-haiku-55",
-          "source": "Elvis AI Newsletter",
+          "title": "When Do Biological Reasoning Models Use Their Biological Inputs?",
+          "title_ko": "When Do Biological Reasoning Models Use Their Biological Inputs?",
+          "summary": "Biological reasoning models use post-training to connect LLMs to biological foundation model representations and biological text. Their benchmark accuracy is taken as evidence that LLMs reason over these inputs.",
+          "summary_ko": "Biological reasoning models use post-training to connect LLMs to biological foundation model representations and biological text.",
+          "url": "https://huggingface.co/papers/2610.00898",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-10T23:40:28+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 21.9,
-          "importance_score": 9.9,
+          "published_at": "2026-10-12T09:00:00+09:00",
+          "popularity": 30,
+          "upvotes": 10,
+          "score": 26.3,
+          "importance_score": 10.3,
           "matched_keywords": [
             "ai",
-            "agent",
-            "claude",
-            "gemini"
+            "llm",
+            "reasoning",
+            "benchmark",
+            "foundation model",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 10
+          }
         }
       ]
     },
@@ -65,46 +72,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "dff6a458528278643a5eec969972c732",
+          "id": "db3da36c6e884abc5f72ee465e1f2e4f",
           "index": 3,
-          "title": "[AI리더의 서가] 핸즈온 머신러닝 with 사이킷런. 파이토치",
+          "title": "오픈AI·앤트로픽 쫓는 메타…AI 모델 '뮤즈 원더' 공개",
           "title_ko": null,
-          "summary": "핸즈온 머신러닝 with 사이킷런. 파이토치오렐리앙 제롱 | 한빛미디어2026년 9월 28일추천이유저자는 머신러닝의 기본 원리부터 트랜스포머, LLM, 멀티모달까지 실제 코드로 직접 구현하며 현대 AI 기술의 흐름을 이해하도록 안내합니다.",
+          "summary": "메타가 오픈AI와 앤트로픽에 맞설 최상위 인공지능(AI) 모델 시리즈를 공개했다. 12일(현지시간) 블룸버그통신에 따르면 메타는 최상위 AI 모델 '뮤즈 원더(Muse Wonder)'와 '뮤즈 원더 풀'(Muse Wonder Full)을 공개했다. 내부 모델명은 '워터멜론'으로 메타가 개발한 모델 가운데 최고 성능을 갖췄다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216139",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20261013000086",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-12T09:03:08+09:00",
-          "popularity": 100,
+          "published_at": "2026-10-13T10:08:45+09:00",
+          "popularity": 92,
           "upvotes": 0,
-          "score": 22.59,
-          "importance_score": 19.18,
+          "score": 21.75,
+          "importance_score": 18.29,
           "matched_keywords": [
             "ai",
-            "llm"
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "f66a55660310e5ae93d92e02db0e6c9e",
+          "id": "e0a1f78a8114b10bb32b743baf7f8922",
           "index": 4,
-          "title": "MS CEO “AI 비상장치 마련 필요...언제든 종료할 수 있어야”",
+          "title": "MS, 자체 AI칩 '마이아300' 공개…“내년 100만개 투입”",
           "title_ko": null,
-          "summary": "사티아 나델라 마이크로소프트(MS) 최고경영자(CEO)가 인공지능(AI) 모델의 행동을 인간이 언제든 중단할 수 있는 '비상 브레이크'의 필요성을 강조했다. AI 에이전트가 인간의 의도와 통제를 벗어나 행동할 가능성에 대비해, 모델의 정보 접근과 작업 수행 권한을 외부에서 통제하는 체계를 마련해야 한다는 주장이다.",
+          "summary": "마이크로소프트(MS)가 3세대 자체 인공지능(AI) 칩 '마이아300'을 공개했다. 내년부터 100만여개를 투입해 엔비디아 칩 의존도를 낮춘다. 12일(현지시간) 로이터통신 등에 따르면 MS는 내년부터 자체 개발한 '애저 마이아(Azure Maia)' 칩을 수 기가와트(GW) 규모로 확대해 자사 AI 제품과 서비스의 핵심 추론 인프라로 활용한다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261012000001",
+          "url": "https://www.etnews.com/20261013000085",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-12T06:54:48+09:00",
-          "popularity": 97,
+          "published_at": "2026-10-13T10:05:52+09:00",
+          "popularity": 91,
           "upvotes": 0,
-          "score": 21.84,
-          "importance_score": 17.99,
+          "score": 21.64,
+          "importance_score": 18.17,
           "matched_keywords": [
             "ai",
-            "모델"
+            "추론"
           ],
           "engagement": null
         }
@@ -115,53 +122,54 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "b5eefe6f7d5e7afa4bc9ac56bc5e3574",
+          "id": "a86086d815a0547947505959b33af872",
           "index": 5,
-          "title": "LosaLosSantos/aurelio-finance — Open-source personal finance app with an AI financial advisor: track your net worth, investments, ET",
-          "title_ko": "LosaLosSantos/aurelio-finance — Open-source personal finance app with an AI financial advisor: track your net worth, investments, ET",
-          "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-          "summary_ko": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-          "url": "https://github.com/LosaLosSantos/aurelio-finance",
+          "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+          "title_ko": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+          "summary": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+          "summary_ko": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes p…",
+          "url": "https://github.com/NousResearch/hermes-official-plugins",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-12T04:25:34+09:00",
-          "popularity": 2281,
-          "upvotes": 2281,
-          "score": 33.13,
-          "importance_score": 31.75,
+          "published_at": "2026-10-13T10:25:52+09:00",
+          "popularity": 253,
+          "upvotes": 253,
+          "score": 34.99,
+          "importance_score": 28.59,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "agent",
+            "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 2281
+            "value": 253
           }
         },
         {
-          "id": "b4ca25f9e0a5d0f2197f9728ac050cff",
+          "id": "46d4d209813615e29c124f0c989ace79",
           "index": 6,
-          "title": "datologyai/zephon — Fast, flexible, elastically deterministic data loading for foundation model training",
-          "title_ko": "datologyai/zephon — Fast, flexible, elastically deterministic data loading for foundation model training",
-          "summary": "Fast, flexible, elastically deterministic data loading for foundation model training",
-          "summary_ko": "Fast, flexible, elastically deterministic data loading for foundation model training",
-          "url": "https://github.com/datologyai/zephon",
+          "title": "onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatibl",
+          "title_ko": "onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatibl",
+          "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+          "summary_ko": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+          "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-12T10:44:30+09:00",
-          "popularity": 64,
-          "upvotes": 64,
-          "score": 30.55,
-          "importance_score": 24.5,
+          "published_at": "2026-10-13T02:38:21+09:00",
+          "popularity": 783,
+          "upvotes": 783,
+          "score": 34.31,
+          "importance_score": 29.29,
           "matched_keywords": [
             "ai",
-            "foundation model",
-            "training"
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 64
+            "value": 783
           }
         }
       ]
@@ -171,23 +179,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "19bf46f4ba22f4743955b7b4cf167be1",
+          "id": "81aaf4d50d0a896a406be4e0e7944bf8",
           "index": 7,
-          "title": "[2026/10/05 ~ 11] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+          "title": "Anthropic이 공개한, Claude 모델 평가 중 발생한 4가지 의도치 않은 행동들에 대한 모델 행동 보고서",
           "title_ko": null,
-          "summary": "PyTorchKR​ 이번 주 선정된 10편의 주요 논문들을 분석하면, 대규모 언어 모델 기반 에이전트의 실제 운영과 지속적 개선에 초점이 맞춰져 있음을 확인할 수 있습니다.",
+          "summary": "핵심 요약 Anthropic은 2026년 10월 9일 Investigating unintended model actions in our evaluations and internal use 보고서에서, Claude가 평가와 사내 사용 중 실제 웹사이트와 시스템에 의도하지 않은 행동을 한 사례를 네 가지 유형으로 공개했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/2026-10-05-11-ai-ml/12155",
+          "url": "https://discuss.pytorch.kr/t/anthropic-claude-4/12165",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-12T06:30:07+09:00",
+          "published_at": "2026-10-13T11:30:15+09:00",
           "popularity": 99,
           "upvotes": 0,
-          "score": 21.96,
-          "importance_score": 18.02,
+          "score": 22.73,
+          "importance_score": 19.56,
           "matched_keywords": [
-            "ai",
+            "claude",
             "모델"
           ],
           "engagement": null
@@ -197,92 +205,77 @@
   ],
   "items": [
     {
-      "id": "26a2930736bab1dacce62d6979f0c108",
+      "id": "22a008372ade0159c2e27328b1cb8d9b",
       "index": 1,
-      "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
-      "title_ko": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
-      "summary": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.",
-      "summary_ko": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.",
-      "url": "https://huggingface.co/papers/2610.07121",
+      "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+      "title_ko": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+      "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+      "summary_ko": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood.",
+      "url": "https://huggingface.co/papers/2610.13527",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-10-12T09:00:00+09:00",
-      "popularity": 19,
-      "upvotes": 7,
-      "score": 21.57,
-      "importance_score": 18.15,
+      "popularity": 661,
+      "upvotes": 202,
+      "score": 30.0,
+      "importance_score": 18.0,
       "matched_keywords": [
+        "ai",
         "llm",
-        "diffusion"
+        "multimodal",
+        "reasoning"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 7
+        "value": 202
       }
     },
     {
-      "id": "d0703c6bdbb54d6a3e969eaa230591b0",
+      "id": "a36f79789310f4ee6cc11b1e7394a1cb",
       "index": 2,
-      "title": "🤖 AI Agents Weekly: Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-      "title_ko": "🤖 AI Agents Weekly: Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-      "summary": "Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-      "summary_ko": "Claude Haiku 5.5, Gemini Agent, Mistral Large 4, Decisions API, Personal Agent Protocol, Devin Dreaming, and More",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-haiku-55",
-      "source": "Elvis AI Newsletter",
+      "title": "When Do Biological Reasoning Models Use Their Biological Inputs?",
+      "title_ko": "When Do Biological Reasoning Models Use Their Biological Inputs?",
+      "summary": "Biological reasoning models use post-training to connect LLMs to biological foundation model representations and biological text. Their benchmark accuracy is taken as evidence that LLMs reason over these inputs.",
+      "summary_ko": "Biological reasoning models use post-training to connect LLMs to biological foundation model representations and biological text.",
+      "url": "https://huggingface.co/papers/2610.00898",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-10T23:40:28+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 21.9,
-      "importance_score": 9.9,
+      "published_at": "2026-10-12T09:00:00+09:00",
+      "popularity": 30,
+      "upvotes": 10,
+      "score": 26.3,
+      "importance_score": 10.3,
       "matched_keywords": [
         "ai",
-        "agent",
-        "claude",
-        "gemini"
+        "llm",
+        "reasoning",
+        "benchmark",
+        "foundation model",
+        "training"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 10
+      }
     },
     {
-      "id": "dff6a458528278643a5eec969972c732",
+      "id": "db3da36c6e884abc5f72ee465e1f2e4f",
       "index": 3,
-      "title": "[AI리더의 서가] 핸즈온 머신러닝 with 사이킷런. 파이토치",
+      "title": "오픈AI·앤트로픽 쫓는 메타…AI 모델 '뮤즈 원더' 공개",
       "title_ko": null,
-      "summary": "핸즈온 머신러닝 with 사이킷런. 파이토치오렐리앙 제롱 | 한빛미디어2026년 9월 28일추천이유저자는 머신러닝의 기본 원리부터 트랜스포머, LLM, 멀티모달까지 실제 코드로 직접 구현하며 현대 AI 기술의 흐름을 이해하도록 안내합니다.",
+      "summary": "메타가 오픈AI와 앤트로픽에 맞설 최상위 인공지능(AI) 모델 시리즈를 공개했다. 12일(현지시간) 블룸버그통신에 따르면 메타는 최상위 AI 모델 '뮤즈 원더(Muse Wonder)'와 '뮤즈 원더 풀'(Muse Wonder Full)을 공개했다. 내부 모델명은 '워터멜론'으로 메타가 개발한 모델 가운데 최고 성능을 갖췄다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216139",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-10-12T09:03:08+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 22.59,
-      "importance_score": 19.18,
-      "matched_keywords": [
-        "ai",
-        "llm"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "f66a55660310e5ae93d92e02db0e6c9e",
-      "index": 4,
-      "title": "MS CEO “AI 비상장치 마련 필요...언제든 종료할 수 있어야”",
-      "title_ko": null,
-      "summary": "사티아 나델라 마이크로소프트(MS) 최고경영자(CEO)가 인공지능(AI) 모델의 행동을 인간이 언제든 중단할 수 있는 '비상 브레이크'의 필요성을 강조했다. AI 에이전트가 인간의 의도와 통제를 벗어나 행동할 가능성에 대비해, 모델의 정보 접근과 작업 수행 권한을 외부에서 통제하는 체계를 마련해야 한다는 주장이다.",
-      "summary_ko": null,
-      "url": "https://www.etnews.com/20261012000001",
+      "url": "https://www.etnews.com/20261013000086",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-12T06:54:48+09:00",
-      "popularity": 97,
+      "published_at": "2026-10-13T10:08:45+09:00",
+      "popularity": 92,
       "upvotes": 0,
-      "score": 21.84,
-      "importance_score": 17.99,
+      "score": 21.75,
+      "importance_score": 18.29,
       "matched_keywords": [
         "ai",
         "모델"
@@ -290,73 +283,96 @@
       "engagement": null
     },
     {
-      "id": "b5eefe6f7d5e7afa4bc9ac56bc5e3574",
-      "index": 5,
-      "title": "LosaLosSantos/aurelio-finance — Open-source personal finance app with an AI financial advisor: track your net worth, investments, ET",
-      "title_ko": "LosaLosSantos/aurelio-finance — Open-source personal finance app with an AI financial advisor: track your net worth, investments, ET",
-      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-      "summary_ko": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-      "url": "https://github.com/LosaLosSantos/aurelio-finance",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-10-12T04:25:34+09:00",
-      "popularity": 2281,
-      "upvotes": 2281,
-      "score": 33.13,
-      "importance_score": 31.75,
-      "matched_keywords": [
-        "ai"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 2281
-      }
-    },
-    {
-      "id": "b4ca25f9e0a5d0f2197f9728ac050cff",
-      "index": 6,
-      "title": "datologyai/zephon — Fast, flexible, elastically deterministic data loading for foundation model training",
-      "title_ko": "datologyai/zephon — Fast, flexible, elastically deterministic data loading for foundation model training",
-      "summary": "Fast, flexible, elastically deterministic data loading for foundation model training",
-      "summary_ko": "Fast, flexible, elastically deterministic data loading for foundation model training",
-      "url": "https://github.com/datologyai/zephon",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-10-12T10:44:30+09:00",
-      "popularity": 64,
-      "upvotes": 64,
-      "score": 30.55,
-      "importance_score": 24.5,
+      "id": "e0a1f78a8114b10bb32b743baf7f8922",
+      "index": 4,
+      "title": "MS, 자체 AI칩 '마이아300' 공개…“내년 100만개 투입”",
+      "title_ko": null,
+      "summary": "마이크로소프트(MS)가 3세대 자체 인공지능(AI) 칩 '마이아300'을 공개했다. 내년부터 100만여개를 투입해 엔비디아 칩 의존도를 낮춘다. 12일(현지시간) 로이터통신 등에 따르면 MS는 내년부터 자체 개발한 '애저 마이아(Azure Maia)' 칩을 수 기가와트(GW) 규모로 확대해 자사 AI 제품과 서비스의 핵심 추론 인프라로 활용한다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261013000085",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-13T10:05:52+09:00",
+      "popularity": 91,
+      "upvotes": 0,
+      "score": 21.64,
+      "importance_score": 18.17,
       "matched_keywords": [
         "ai",
-        "foundation model",
-        "training"
+        "추론"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "a86086d815a0547947505959b33af872",
+      "index": 5,
+      "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+      "title_ko": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+      "summary": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+      "summary_ko": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes p…",
+      "url": "https://github.com/NousResearch/hermes-official-plugins",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-13T10:25:52+09:00",
+      "popularity": 253,
+      "upvotes": 253,
+      "score": 34.99,
+      "importance_score": 28.59,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "claude"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 64
+        "value": 253
       }
     },
     {
-      "id": "19bf46f4ba22f4743955b7b4cf167be1",
+      "id": "46d4d209813615e29c124f0c989ace79",
+      "index": 6,
+      "title": "onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatibl",
+      "title_ko": "onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatibl",
+      "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "summary_ko": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-13T02:38:21+09:00",
+      "popularity": 783,
+      "upvotes": 783,
+      "score": 34.31,
+      "importance_score": 29.29,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 783
+      }
+    },
+    {
+      "id": "81aaf4d50d0a896a406be4e0e7944bf8",
       "index": 7,
-      "title": "[2026/10/05 ~ 11] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+      "title": "Anthropic이 공개한, Claude 모델 평가 중 발생한 4가지 의도치 않은 행동들에 대한 모델 행동 보고서",
       "title_ko": null,
-      "summary": "PyTorchKR​ 이번 주 선정된 10편의 주요 논문들을 분석하면, 대규모 언어 모델 기반 에이전트의 실제 운영과 지속적 개선에 초점이 맞춰져 있음을 확인할 수 있습니다.",
+      "summary": "핵심 요약 Anthropic은 2026년 10월 9일 Investigating unintended model actions in our evaluations and internal use 보고서에서, Claude가 평가와 사내 사용 중 실제 웹사이트와 시스템에 의도하지 않은 행동을 한 사례를 네 가지 유형으로 공개했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/2026-10-05-11-ai-ml/12155",
+      "url": "https://discuss.pytorch.kr/t/anthropic-claude-4/12165",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-12T06:30:07+09:00",
+      "published_at": "2026-10-13T11:30:15+09:00",
       "popularity": 99,
       "upvotes": 0,
-      "score": 21.96,
-      "importance_score": 18.02,
+      "score": 22.73,
+      "importance_score": 19.56,
       "matched_keywords": [
-        "ai",
+        "claude",
         "모델"
       ],
       "engagement": null
