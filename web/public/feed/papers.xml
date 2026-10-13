@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 13 Oct 2026 19:14:39 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 03:01:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps</title>
+      <link>https://huggingface.co/papers/2610.02740</link>
+      <description>Reinforcement learning for long-horizon agents relies on purely retrospective training signals: credit is assigned only after observing environmental consequences, leaving the age…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02740">Hugging Face Papers</source>
+      <guid isPermaLink="false">2d5172dfc835655ddd4996d47c3a7cb8</guid>
+    </item>
+    <item>
+      <title>Evaluating LLM Creativity through Long-Tail Performance</title>
+      <link>https://huggingface.co/papers/2610.12998</link>
+      <description>Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question of whether they capture a common notion of creativity.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.12998">Hugging Face Papers</source>
+      <guid isPermaLink="false">bac1f5496a4546733808251d560ca6b7</guid>
+    </item>
+    <item>
+      <title>Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score</title>
+      <link>https://huggingface.co/papers/2610.03825</link>
+      <description>A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on the first term. We measure the second.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03825">Hugging Face Papers</source>
+      <guid isPermaLink="false">29693d9adbe82aacc3c2c89c1fd94774</guid>
+    </item>
+    <item>
+      <title>Initialization Improves LLM-Driven Discovery</title>
+      <link>https://huggingface.co/papers/2610.00707</link>
+      <description>Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively opti…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.00707">Hugging Face Papers</source>
+      <guid isPermaLink="false">86874891fe18668eae462abd3b275de0</guid>
+    </item>
+    <item>
+      <title>Branching On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2610.13481</link>
+      <description>On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at each decision, limiting supe…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.13481">Hugging Face Papers</source>
+      <guid isPermaLink="false">d003a1d1d68856bbcf9df6831ba5f59b</guid>
+    </item>
     <item>
       <title>GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives</title>
       <link>https://huggingface.co/papers/2609.39601</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.10288">Hugging Face Papers</source>
       <guid isPermaLink="false">30252427b3635d9163c34b69ea2d1a79</guid>
-    </item>
-    <item>
-      <title>ThinkDrag: Semantic Drag-Based Image Editing with Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2610.13316</link>
-      <description>Drag-based image editing provides an intuitive interface for spatially controlled image manipulation by allowing users to specify handle and target points.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13316">Hugging Face Papers</source>
-      <guid isPermaLink="false">9b035374c6863af0179472c86097857a</guid>
-    </item>
-    <item>
-      <title>Less from More: Reinforcing Sparse Video Reasoning from Dense References</title>
-      <link>https://huggingface.co/papers/2610.10893</link>
-      <description>Video-language models commonly assume that more temporal observations lead to more reliable reasoning.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.10893">Hugging Face Papers</source>
-      <guid isPermaLink="false">40da72afad698adc59f59fbb355e6125</guid>
-    </item>
-    <item>
-      <title>Encore: Few-Shot Agentic Discovery of Manipulation Strategies</title>
-      <link>https://huggingface.co/papers/2609.37359</link>
-      <description>Coding agents can now write, run, and debug programs with little human help.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37359">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ff52164c0bc759616fa0a38a8ab4d98</guid>
-    </item>
-    <item>
-      <title>When Do We Need On-Policy Distillation? Distilling on Offline Student Rollouts Is Often Better</title>
-      <link>https://huggingface.co/papers/2610.11291</link>
-      <description>On-policy distillation (OPD) has become increasingly popular for transferring teacher capabilities to student models.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.11291">Hugging Face Papers</source>
-      <guid isPermaLink="false">2662cd80cb1910472a0f1dfccd980d07</guid>
-    </item>
-    <item>
-      <title>MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances</title>
-      <link>https://huggingface.co/papers/2610.12416</link>
-      <description>Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and s…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12416">Hugging Face Papers</source>
-      <guid isPermaLink="false">bdfdf46a1cfbb965aec5ec3eeee292f1</guid>
     </item>
   </channel>
 </rss>
