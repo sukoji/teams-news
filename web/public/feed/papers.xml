@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 13 Oct 2026 06:37:14 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 11:54:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method</title>
+      <link>https://huggingface.co/papers/2609.35965</link>
+      <description>Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.35965">Hugging Face Papers</source>
+      <guid isPermaLink="false">843a57ee54b1d50cbc632bc290e1350e</guid>
+    </item>
+    <item>
+      <title>Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models</title>
+      <link>https://huggingface.co/papers/2610.08966</link>
+      <description>Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit be…</description>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.08966">Hugging Face Papers</source>
+      <guid isPermaLink="false">581ba4f45e4f78a105a8dbda484b8c11</guid>
+    </item>
+    <item>
+      <title>Thinking Inertia: LLMs Keep Thinking When Told Not To</title>
+      <link>https://huggingface.co/papers/2610.11765</link>
+      <description>Large Language Models (LLMs) increasingly ship with explicit "thinking modes", yet their counterpart, "no-thinking", has received far less attention.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.11765">Hugging Face Papers</source>
+      <guid isPermaLink="false">a6c8bece0ccbe43708a7eabbd88d1695</guid>
+    </item>
+    <item>
+      <title>Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents</title>
+      <link>https://huggingface.co/papers/2609.33304</link>
+      <description>Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.33304">Hugging Face Papers</source>
+      <guid isPermaLink="false">8435bede7303933b2fabe90b5f2490db</guid>
+    </item>
+    <item>
+      <title>Multi-Stream Attention Residuals</title>
+      <link>https://huggingface.co/papers/2610.13630</link>
+      <description>Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.13630">Hugging Face Papers</source>
+      <guid isPermaLink="false">00fe7de2f5c71559652ba802cda4e147</guid>
+    </item>
+    <item>
+      <title>SpatialASM: Internalizing Active Mentalization for Spatial Reasoning</title>
+      <link>https://huggingface.co/papers/2610.13832</link>
+      <description>When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those vi…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.13832">Hugging Face Papers</source>
+      <guid isPermaLink="false">2ea574d60d71a91d94cf38dceddf7b62</guid>
+    </item>
+    <item>
+      <title>T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images</title>
+      <link>https://huggingface.co/papers/2610.03308</link>
+      <description>We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03308">Hugging Face Papers</source>
+      <guid isPermaLink="false">303cf4dc24da1cb3de86c196a6f3c881</guid>
+    </item>
+    <item>
+      <title>ARCS: Towards Precise Text-to-SQL via Structured Disambiguation</title>
+      <link>https://huggingface.co/papers/2610.09396</link>
+      <description>As text-to-SQL systems move beyond demonstrations toward real-world deployment, ambiguity in user questions becomes a primary source of errors.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.09396">Hugging Face Papers</source>
+      <guid isPermaLink="false">59079862e67872e260467049008f3d97</guid>
+    </item>
     <item>
       <title>Coding-Agent Benchmarks Should Match Their Users' Task Flows</title>
       <link>https://huggingface.co/papers/2610.09633</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.12978">Hugging Face Papers</source>
       <guid isPermaLink="false">930403119337ab3df35a7feafbf86b3e</guid>
-    </item>
-    <item>
-      <title>SoloQ: Calibration-Free Quantization for Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2610.07121</link>
-      <description>Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07121">Hugging Face Papers</source>
-      <guid isPermaLink="false">26a2930736bab1dacce62d6979f0c108</guid>
-    </item>
-    <item>
-      <title>EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents</title>
-      <link>https://huggingface.co/papers/2610.13021</link>
-      <description>Continual learning requires models to accumulate past experience and transfer it to new tasks.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13021">Hugging Face Papers</source>
-      <guid isPermaLink="false">d273e16fead697480d6726c0d6208130</guid>
-    </item>
-    <item>
-      <title>DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models</title>
-      <link>https://huggingface.co/papers/2610.12572</link>
-      <description>Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assig…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12572">Hugging Face Papers</source>
-      <guid isPermaLink="false">5aa3dba3daf901f686ef5e027c6ec28f</guid>
-    </item>
-    <item>
-      <title>Stateless Language Agents: Scaling Long-Horizon Automated Research</title>
-      <link>https://huggingface.co/papers/2610.07625</link>
-      <description>Automated research systems increasingly run LLM agents over long horizons, but more inference does not by itself produce more progress: agents replay growing histories, duplicate…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07625">Hugging Face Papers</source>
-      <guid isPermaLink="false">5812789cedb8ef34a6769fb4ce8323d1</guid>
-    </item>
-    <item>
-      <title>RSI-Anything: Unlocking Recursive Self-Improvement with World Models</title>
-      <link>https://huggingface.co/papers/2610.13912</link>
-      <description>Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unre…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13912">Hugging Face Papers</source>
-      <guid isPermaLink="false">5c7b003776a9d552fa404d2ce38e2f26</guid>
-    </item>
-    <item>
-      <title>From Given to Gathered Evidence: Agentic Learning for Longitudinal Medical Reasoning</title>
-      <link>https://huggingface.co/papers/2609.39566</link>
-      <description>Foundation models can serve as clinical agents through tool-use harnesses.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.39566">Hugging Face Papers</source>
-      <guid isPermaLink="false">51363015db5ee2bb601a4499dceae160</guid>
-    </item>
-    <item>
-      <title>Here the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation</title>
-      <link>https://huggingface.co/papers/2609.38748</link>
-      <description>Recent joint video-audio generation models have achieved strong semantic correspondence and temporal synchronization.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.38748">Hugging Face Papers</source>
-      <guid isPermaLink="false">bf4a65336756ec180abd53f7578dd4f2</guid>
-    </item>
-    <item>
-      <title>GraphDecisionBench: Benchmarking System One Models on Graph Tasks</title>
-      <link>https://huggingface.co/papers/2610.06354</link>
-      <description>Large language models (LLMs) are increasingly explored for graph understanding and decision-making, while System One models such as Jev select directly from supplied options.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.06354">Hugging Face Papers</source>
-      <guid isPermaLink="false">686ad229f2360128b0d3fa2e63453664</guid>
     </item>
   </channel>
 </rss>
