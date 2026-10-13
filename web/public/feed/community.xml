@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 14 Oct 2026 03:01:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 07:37:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ReplaySSM: 상태-공간 모델(SSM)의 상태 쓰기를 줄여 하이브리드 모델 디코딩을 가속하는 NVIDIA 블로그 글 정리</title>
+      <link>https://discuss.pytorch.kr/t/replayssm-ssm-nvidia/12174</link>
+      <description>핵심 요약 NVIDIA와 프린스턴 대학교 Dao AI Lab이 ReplaySSM 소개 블로그 와 논문 으로, SSM 레이어의 상태를 매 스텝 저장하지 않고 체크포인트와 최근 입력 버퍼로 표현하는 디코딩 방법을 공개했습니다.</description>
+      <pubDate>Wed, 14 Oct 2026 07:30:34 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/replayssm-ssm-nvidia/12174">PyTorch Korea</source>
+      <guid isPermaLink="false">8d8431589d341e855006e68dc9f17dea</guid>
+    </item>
     <item>
       <title>Vercel, 지난 6월 공개한 오픈소스 에이전트 프레임워크 eve를 기반으로 한 100개 이상의 사내 에이전트 운영 경험 공유</title>
       <link>https://discuss.pytorch.kr/t/vercel-6-eve-100/12139</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-gemini-4-argon-1m/12064">PyTorch Korea</source>
       <guid isPermaLink="false">583405824549307567d25a76843e3844</guid>
-    </item>
-    <item>
-      <title>x402 + MCP: 예산 확인은 어디에서 해야 할까 (x402 + MCP: where does the budget check go?)</title>
-      <link>https://discuss.pytorch.kr/t/x402-mcp-x402-mcp-where-does-the-budget-check-go/12039</link>
-      <description>DEV Community 에 게재된 Prakash Rao Bethapudi, Marco Gonzalez의 글을 원저자의 허락 하에 번역하였습니다. 이 글이 여러 차례 인용하는 AAIF 글, 402 Payment Required: 엔터프라이즈 MCP 서버가 비용을 지불하는 에이전트에게 지켜야 할 것 도 함께 번역하였습니다. 원문은 아래 링크에서 확인하실 수 있습니다.</description>
-      <pubDate>Thu, 01 Oct 2026 08:30:39 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/x402-mcp-x402-mcp-where-does-the-budget-check-go/12039">PyTorch Korea</source>
-      <guid isPermaLink="false">8ba3434566d6d5498596ec105dd384f4</guid>
     </item>
   </channel>
 </rss>

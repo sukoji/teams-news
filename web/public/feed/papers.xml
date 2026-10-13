@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 14 Oct 2026 03:01:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 07:37:57 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2609.36642</link>
+      <description>Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-distillation enriches it by letting the same policy, given a s…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.36642">Hugging Face Papers</source>
+      <guid isPermaLink="false">b324a8214d5e0a065daded800a2e44a4</guid>
+    </item>
+    <item>
+      <title>UNITAS: A 3D-Native World Action Model for Embodied Manipulation</title>
+      <link>https://huggingface.co/papers/2610.12099</link>
+      <description>World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surroundi…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.12099">Hugging Face Papers</source>
+      <guid isPermaLink="false">a2081cb713bf461987c0538fc22a4a4a</guid>
+    </item>
+    <item>
+      <title>Visual Grounding Safety in Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2610.05637</link>
+      <description>Vision-language models (VLMs) are increasingly trained to generate structured outputs like points and bounding boxes that downstream interfaces, agents, and robots can act on, yet…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05637">Hugging Face Papers</source>
+      <guid isPermaLink="false">d1405917952551169ee2328c7913c202</guid>
+    </item>
     <item>
       <title>Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps</title>
       <link>https://huggingface.co/papers/2610.02740</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.09607">Hugging Face Papers</source>
       <guid isPermaLink="false">864e9ec3b2332dd887ef058c1c53738f</guid>
-    </item>
-    <item>
-      <title>Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2610.12939</link>
-      <description>Decoder hidden states from different layers of large language models (LLMs) often encode complementary information.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12939">Hugging Face Papers</source>
-      <guid isPermaLink="false">67d12e41bd597261aaaaff0e04f6696f</guid>
-    </item>
-    <item>
-      <title>The value of information and the emergence of communication in evolved e-puck robots</title>
-      <link>https://huggingface.co/papers/2610.13118</link>
-      <description>We study when communication emerges between autonomous agents and what role an innate action selection architecture plays.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13118">Hugging Face Papers</source>
-      <guid isPermaLink="false">80ca2a83b50cb260c792c39935c3b7ec</guid>
-    </item>
-    <item>
-      <title>TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning</title>
-      <link>https://huggingface.co/papers/2610.10288</link>
-      <description>Large-scale egocentric human interaction data is becoming an important source of physical supervision for embodied learning, yet video alone leaves the contact and pressure that c…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.10288">Hugging Face Papers</source>
-      <guid isPermaLink="false">30252427b3635d9163c34b69ea2d1a79</guid>
     </item>
   </channel>
 </rss>
