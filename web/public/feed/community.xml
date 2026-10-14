@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 14 Oct 2026 16:14:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 22:24:44 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Ai2의 GPU 인프라 개선 사례: GPU 클러스터 스케줄러를 개선하여 디버그 작업 p90 대기 시간을 대폭 개선 (2시간 → 30초)</title>
+      <link>https://discuss.pytorch.kr/t/ai2-gpu-gpu-p90-2-30/12164</link>
+      <description>핵심 요약 Ai2 AI 인프라 팀이 Impactful scheduling for GPU clusters 에서 사내 GPU 클러스터 스케줄러를 바꾼 과정을 공개했습니다. 우선순위 방식을 GPU 시간 예산, 계층형 공정 분배, 최소 실행 시간 계약으로 대체했습니다.</description>
+      <pubDate>Wed, 14 Oct 2026 19:30:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai2-gpu-gpu-p90-2-30/12164">PyTorch Korea</source>
+      <guid isPermaLink="false">178ac7be3f21aa0be8933ac874bcc25f</guid>
+    </item>
     <item>
       <title>RSI-Anything: 월드 모델로 후보를 고르고 검증된 업데이트만 남기는 재귀적 자기 개선 프레임워크에 대한 연구</title>
       <link>https://discuss.pytorch.kr/t/rsi-anything/12175</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openshell-ai-nvidia/12079">PyTorch Korea</source>
       <guid isPermaLink="false">0691d3338d87c959d797cf6e7a429528</guid>
-    </item>
-    <item>
-      <title>Bilibili, 150개 언어의 텍스트와 음성 번역이 가능한 다국어 번역 모델 Index-Translate 5종 공개</title>
-      <link>https://discuss.pytorch.kr/t/bilibili-150-index-translate-5/12070</link>
-      <description>Index-Translate 소개 Index-Translate 는 중국의 동영상 플랫폼 Bilibili 의 Index 팀이 2026년 9월 30일 공개한 다국어 번역 모델 패밀리로, Qwen3.5 베이스 모델을 150개 언어 번역에 맞춰 다시 학습한 2B, 9B, 35B-A3B(프리뷰) 텍스트 모델과, 그 위에 음성 번역, 음절 수 제어 더빙, 장문 문서 번역을 각각 맡는 확장 모델들로 이…</description>
-      <pubDate>Thu, 01 Oct 2026 19:30:12 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bilibili-150-index-translate-5/12070">PyTorch Korea</source>
-      <guid isPermaLink="false">81569953982a3a6c930c5e84ae9e0e1e</guid>
     </item>
   </channel>
 </rss>
