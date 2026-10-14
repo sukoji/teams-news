@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 14 Oct 2026 10:33:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:40:53 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment</title>
+      <link>https://huggingface.co/papers/2609.35291</link>
+      <description>Modern AI models are aligned through post-training to adapt them to downstream tasks.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.35291">Hugging Face Papers</source>
+      <guid isPermaLink="false">ce06db174302fd077aa9cf03f6f01150</guid>
+    </item>
+    <item>
+      <title>WOVEN: Weaving Visual World Modeling into Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2610.12417</link>
+      <description>Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning.</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.12417">Hugging Face Papers</source>
+      <guid isPermaLink="false">6f9697dce171e6470a0082495178e7de</guid>
+    </item>
+    <item>
+      <title>HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning</title>
+      <link>https://huggingface.co/papers/2610.03039</link>
+      <description>Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs), but they introduce high inference-time overhead, with lat…</description>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.03039">Hugging Face Papers</source>
+      <guid isPermaLink="false">627b6893d506823aef257e43e254464e</guid>
+    </item>
+    <item>
+      <title>PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos</title>
+      <link>https://huggingface.co/papers/2609.38377</link>
+      <description>Evaluating the physical consistency of generated videos remains a fundamental challenge.</description>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2609.38377">Hugging Face Papers</source>
+      <guid isPermaLink="false">1c233fb3a02c31f99dceb2e66562fa76</guid>
+    </item>
     <item>
       <title>PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning</title>
       <link>https://huggingface.co/papers/2609.36642</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.11993">Hugging Face Papers</source>
       <guid isPermaLink="false">95ae1652baf9c1bcb9a497407d526a7b</guid>
-    </item>
-    <item>
-      <title>Contextual Correction of Parallel Draftsfor Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2610.12570</link>
-      <description>Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target…</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12570">Hugging Face Papers</source>
-      <guid isPermaLink="false">8c1a846fcb1ef880afe798375f9ebef2</guid>
-    </item>
-    <item>
-      <title>PreSTO: Predictive Subtree Prefetching for Fast LLM Power Sampling</title>
-      <link>https://huggingface.co/papers/2610.13171</link>
-      <description>Power sampling improves large language model (LLM) reasoning at test time by sampling from a sharpened version of the base model's distribution.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13171">Hugging Face Papers</source>
-      <guid isPermaLink="false">4a9db0a8649a54649aa889930512aa38</guid>
-    </item>
-    <item>
-      <title>When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2610.07018</link>
-      <description>Vision-language models (VLMs) have achieved strong performance in multimodal reasoning, yet they remain prone to generating plausible but incorrect answers.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.07018">Hugging Face Papers</source>
-      <guid isPermaLink="false">d6c58298262c8d89ab8fbc3b7382672a</guid>
-    </item>
-    <item>
-      <title>Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning</title>
-      <link>https://huggingface.co/papers/2610.09607</link>
-      <description>Skeleton-based reasoning prompting is a promising training-free approach for structuring LLM reasoning, but prior work largely assumes an English-centric setting.</description>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.09607">Hugging Face Papers</source>
-      <guid isPermaLink="false">864e9ec3b2332dd887ef058c1c53738f</guid>
     </item>
   </channel>
 </rss>
