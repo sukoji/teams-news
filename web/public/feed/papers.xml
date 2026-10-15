@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 15 Oct 2026 10:11:24 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 10:17:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Model-Based Online Decision Making via Generative Trajectory Planning</title>
+      <link>https://huggingface.co/papers/2610.18677</link>
+      <description>Online decision-making faces a tension between efficient inference and long-horizon reasoning.</description>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.18677">Hugging Face Papers</source>
+      <guid isPermaLink="false">6af58c6c5ab159b712ddc77e3d73a966</guid>
+    </item>
+    <item>
+      <title>Batched Speech Decisions Without Decoding: Single-Token Supervision Lets a Frozen LLM Hear Beyond the Transcript</title>
+      <link>https://huggingface.co/papers/2610.02638</link>
+      <description>Full-duplex voice agents make many small, closed decisions, which current systems answer by slow autoregressive decoding.</description>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.02638">Hugging Face Papers</source>
+      <guid isPermaLink="false">2074aed45b13634c0273909a75bdc7ea</guid>
+    </item>
+    <item>
+      <title>Simplifying and Improving On-Policy Distillation for Few-Step Diffusion</title>
+      <link>https://huggingface.co/papers/2610.18472</link>
+      <description>Few-step distillation reduces the sampling cost of diffusion and flow models, but existing approaches often require auxiliary score models or specialized architectures.</description>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.18472">Hugging Face Papers</source>
+      <guid isPermaLink="false">7a4dfc577b9f45c5d76a4c25fd5bbf75</guid>
+    </item>
     <item>
       <title>Who to Trust in Multi-Robot Systems: Joint Robot and Object Hypothesis Trust Inference via Neural-Symbolic Cross-Validation</title>
       <link>https://huggingface.co/papers/2610.14530</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.18067">Hugging Face Papers</source>
       <guid isPermaLink="false">11f37a088187fd3483988285c5e8fe0a</guid>
-    </item>
-    <item>
-      <title>Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics</title>
-      <link>https://huggingface.co/papers/2609.38847</link>
-      <description>Rubric-based reinforcement learning (Rubric-RL) trains language models where no verifier exists.</description>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.38847">Hugging Face Papers</source>
-      <guid isPermaLink="false">4949776895f459e2d22b25ad868aa59c</guid>
-    </item>
-    <item>
-      <title>Vela: User Behavior as Supervision Sparks LLM Intelligence</title>
-      <link>https://huggingface.co/papers/2610.14709</link>
-      <description>Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems.</description>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.14709">Hugging Face Papers</source>
-      <guid isPermaLink="false">c961dec7f14e05a06cb44a4c68f32a01</guid>
-    </item>
-    <item>
-      <title>ReTerm: Recovery Training for Self-Improving Terminal Agents</title>
-      <link>https://huggingface.co/papers/2610.18484</link>
-      <description>Terminal agents have shown strong abilities in complex coding tasks.</description>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18484">Hugging Face Papers</source>
-      <guid isPermaLink="false">ca5423f59637fc6652518251eacdb504</guid>
     </item>
   </channel>
 </rss>
