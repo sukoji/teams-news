@@ -5,9 +5,189 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:06:51 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 22:10:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions</title>
+      <link>https://huggingface.co/papers/2610.17309</link>
+      <description>StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² rei…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17309">Hugging Face Papers</source>
+      <guid isPermaLink="false">162587d68dae67baea635707df29d4c7</guid>
+    </item>
+    <item>
+      <title>RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios</title>
+      <link>https://huggingface.co/papers/2610.19698</link>
+      <description>RuleTrek is a multi-domain benchmark that evaluates large language model agents on identifying, deducing, and applying domain-specific rules across complex, multi-file scenarios,…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19698">Hugging Face Papers</source>
+      <guid isPermaLink="false">3523a6e28270de251b5a3c90aa087a09</guid>
+    </item>
+    <item>
+      <title>Generative World Simulation with DAO and JING</title>
+      <link>https://huggingface.co/papers/2610.19726</link>
+      <description>A generative framework couples a persistent shared world state with continuous first-person audiovisual generation to enable sustained interactive experiences that evolve through…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19726">Hugging Face Papers</source>
+      <guid isPermaLink="false">e6ed0c2fb9d0a63b97d45ed7f139a58d</guid>
+    </item>
+    <item>
+      <title>The Thinking Leakage in Reinforcement Learning for LLMs</title>
+      <link>https://huggingface.co/papers/2610.14270</link>
+      <description>Reinforcement learning gains in hybrid reasoning models' NO-THINK mode largely stem from reactivating existing THINK-mode reasoning rather than learning new capabilities.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.14270">Hugging Face Papers</source>
+      <guid isPermaLink="false">a3daee8ea311d0724d9122437d926e22</guid>
+    </item>
+    <item>
+      <title>Jag: Direct Box Prediction for Efficient Visual Grounding</title>
+      <link>https://huggingface.co/papers/2610.13239</link>
+      <description>Jag adapts a compact pretrained multimodal model to predict bounding boxes directly via a regression head, improving grounding accuracy and reducing inference latency.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.13239">Hugging Face Papers</source>
+      <guid isPermaLink="false">959767fb69a0d8b37f38d5d43d9263d6</guid>
+    </item>
+    <item>
+      <title>Rethinking Projector Training in Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2610.18598</link>
+      <description>PORTAL initializes multimodal projectors without paired data by aligning vision and language feature distributions via optimal transport, matching standard training performance wh…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.18598">Hugging Face Papers</source>
+      <guid isPermaLink="false">55c323b8452f96f1a2043d70488d5031</guid>
+    </item>
+    <item>
+      <title>Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders</title>
+      <link>https://huggingface.co/papers/2610.17771</link>
+      <description>ReMaRk improves reinforcement learning for recommendation by scoring generated lists against all valid replies jointly, reducing training cost while matching or exceeding prior pe…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17771">Hugging Face Papers</source>
+      <guid isPermaLink="false">b6665ab282801f821e32f2e93ef9e2ec</guid>
+    </item>
+    <item>
+      <title>Rethinking LLM-Guided Visual Question Answering: Does Deeper Knowledge Integration Really Help?</title>
+      <link>https://huggingface.co/papers/2610.17079</link>
+      <description>Shallow late fusion of LLM-generated reasoning guidance outperforms deep attention injection in knowledge-based VQA under limited data, highlighting that integration depth should…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17079">Hugging Face Papers</source>
+      <guid isPermaLink="false">131664fa09fac418830b2062c61bd059</guid>
+    </item>
+    <item>
+      <title>Share the Symbol, Not the Vector: Training-Free Fact Communication Across Language Models</title>
+      <link>https://huggingface.co/papers/2610.19696</link>
+      <description>SYNC enables heterogeneous language models to share selective object facts via word indices and receiver-local hidden-state directions without fine-tuning or translators.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19696">Hugging Face Papers</source>
+      <guid isPermaLink="false">ff87e6dfa1d6790465ec0b6ffeb9420e</guid>
+    </item>
+    <item>
+      <title>Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance</title>
+      <link>https://huggingface.co/papers/2610.20220</link>
+      <description>Glance Forcing improves video generation efficiency by splitting denoising into specialized experts guided by stage-specific objectives, reducing training costs while improving qu…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20220">Hugging Face Papers</source>
+      <guid isPermaLink="false">230aab16601a5738794490f6baaa41bb</guid>
+    </item>
+    <item>
+      <title>AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety</title>
+      <link>https://huggingface.co/papers/2610.19422</link>
+      <description>AgentSafeEvo uses adversarial co-evolution to train LLM agents to resist malicious tool-use attacks across diverse tasks without sacrificing general capabilities.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19422">Hugging Face Papers</source>
+      <guid isPermaLink="false">aeeb5ed254167bc0585424bd234b6839</guid>
+    </item>
+    <item>
+      <title>LLM-to-Flow Distillation: Teaching Natural Language Goals to Scientific Generators</title>
+      <link>https://huggingface.co/papers/2610.17246</link>
+      <description>LLM-to-Flow Distillation aligns scientific generators with high-level discovery goals by using a frozen LLM to build adaptive curricula and distill preferences via DPO, enabling c…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17246">Hugging Face Papers</source>
+      <guid isPermaLink="false">4d8db788824ad30f5b6118c6498b8d79</guid>
+    </item>
+    <item>
+      <title>SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm</title>
+      <link>https://huggingface.co/papers/2610.20431</link>
+      <description>SwarmRSI evolves scientific agent swarms through feedback-guided mutation and complementary recombination to enable recursive self-improvement across research tasks.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20431">Hugging Face Papers</source>
+      <guid isPermaLink="false">1851434ff4fa7922099add3ea06dba1b</guid>
+    </item>
+    <item>
+      <title>ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty</title>
+      <link>https://huggingface.co/papers/2610.17016</link>
+      <description>ProbabilityBench supplies exact instance-level class probabilities across simulated text domains to directly evaluate model calibration and benchmark standard metrics against know…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17016">Hugging Face Papers</source>
+      <guid isPermaLink="false">57b028de77e1d1d651d95fa32ebf7bed</guid>
+    </item>
+    <item>
+      <title>Your Transformer Is Secretly Elastic</title>
+      <link>https://huggingface.co/papers/2610.20588</link>
+      <description>The method converts pre-trained transformers into elastic models that adapt continuously to varying computational budgets by jointly ranking and softly pruning individual neurons…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20588">Hugging Face Papers</source>
+      <guid isPermaLink="false">991c6c3b286d7fbef01fae5c082cf8fe</guid>
+    </item>
+    <item>
+      <title>VASPO: Self-Distillation with Privileged Value Estimation</title>
+      <link>https://huggingface.co/papers/2610.20516</link>
+      <description>Value-Augmented Self-Distillation Policy Optimization integrates a self-teacher and critic within PPO to improve reasoning by combining token-level advantages with bounded probabi…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20516">Hugging Face Papers</source>
+      <guid isPermaLink="false">f95f124070d75cfa3b0425dac976bf86</guid>
+    </item>
+    <item>
+      <title>To Align or Not To Align: Check Your COMPASS Before You Train</title>
+      <link>https://huggingface.co/papers/2610.18638</link>
+      <description>COMPASS estimates model-pair compatibility before alignment or merging by measuring local neighborhood overlap and paradigm limits, guiding resource allocation across cross-modal…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.18638">Hugging Face Papers</source>
+      <guid isPermaLink="false">bbe54bea060abc5e83337097213602d7</guid>
+    </item>
+    <item>
+      <title>Joint Subspace Sparse Attention for Efficient Long-Context Decoding</title>
+      <link>https://huggingface.co/papers/2610.19026</link>
+      <description>Joint Subspace Sparse Attention improves long-context decoding by learning a shared low-dimensional query-key subspace for accurate token selection and using a gather-free kernel,…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19026">Hugging Face Papers</source>
+      <guid isPermaLink="false">9c9e3f62aedcf2c7ca1a0fc5de85fca7</guid>
+    </item>
+    <item>
+      <title>StreamErase: Towards Ultra-Fast Streaming Video Erasing</title>
+      <link>https://huggingface.co/papers/2610.20137</link>
+      <description>StreamErase enables real-time, streaming video object removal with sub-second latency by transferring erasing capabilities from a bidirectional model to an efficient unidirectiona…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20137">Hugging Face Papers</source>
+      <guid isPermaLink="false">7fe0c13ebf8dcd2a1f7d09e574ff4454</guid>
+    </item>
+    <item>
+      <title>Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization</title>
+      <link>https://huggingface.co/papers/2610.05230</link>
+      <description>Vela is a vision-language-action model that uses continuous spline-based trajectories to adapt temporal resolution for robot manipulation, improving long-horizon planning and loca…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.05230">Hugging Face Papers</source>
+      <guid isPermaLink="false">dd41e3d516f9fbec61df7d509074fd54</guid>
+    </item>
     <item>
       <title>NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime</title>
       <link>https://huggingface.co/papers/2610.10787</link>
@@ -277,186 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.19525">Hugging Face Papers</source>
       <guid isPermaLink="false">55cbfb5652a6460853bc29195458ed81</guid>
-    </item>
-    <item>
-      <title>What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds</title>
-      <link>https://huggingface.co/papers/2610.20195</link>
-      <description>Effective social interaction requires more than fluent responses: agents must reach plans that fit the participants' needs and circumstances.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20195">Hugging Face Papers</source>
-      <guid isPermaLink="false">f9302be972f992da4148a8051ced61ef</guid>
-    </item>
-    <item>
-      <title>Acting Through Registers</title>
-      <link>https://huggingface.co/papers/2610.17638</link>
-      <description>World Action Models (WAMs) use generative visual representations to condition robot actions, yet how these representations organize action-relevant information remains poorly unde…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.17638">Hugging Face Papers</source>
-      <guid isPermaLink="false">fe73623d4b74c7c16177899f408926d7</guid>
-    </item>
-    <item>
-      <title>VITAL: From Visual Motion to Precise Action</title>
-      <link>https://huggingface.co/papers/2610.20604</link>
-      <description>World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynami…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20604">Hugging Face Papers</source>
-      <guid isPermaLink="false">d1372e20da1cbdcd78a2dde9ad92d0c9</guid>
-    </item>
-    <item>
-      <title>G^3VLA: Geometric Inductive Bias for Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2606.24472</link>
-      <description>G³VLA injects calibrated multi-camera geometry into vision-language-action models via ray embeddings and cross-view fusion, improving robot manipulation without changing the actio…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.24472">Hugging Face Papers</source>
-      <guid isPermaLink="false">7a11cbffe20520e1b05ed8a355c291f9</guid>
-    </item>
-    <item>
-      <title>Scaling Online Optimal Transport Minibatches for Flow Matching</title>
-      <link>https://huggingface.co/papers/2610.18838</link>
-      <description>A central challenge in scaling flow models is maintaining stability in training and integration.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18838">Hugging Face Papers</source>
-      <guid isPermaLink="false">99933dab8048476e44208d5b1efb8e7c</guid>
-    </item>
-    <item>
-      <title>Latent Compaction with Test-Time Training</title>
-      <link>https://huggingface.co/papers/2610.20582</link>
-      <description>Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20582">Hugging Face Papers</source>
-      <guid isPermaLink="false">9bff9a1243f5d9a85f8a7b247709ab20</guid>
-    </item>
-    <item>
-      <title>Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing</title>
-      <link>https://huggingface.co/papers/2610.17831</link>
-      <description>Diffusion large language models (dLLMs) are appealing for code generation because they can update many tokens in parallel, yet many are optimized for sequence synthesis rather tha…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.17831">Hugging Face Papers</source>
-      <guid isPermaLink="false">7fbdd8553517b9e9261039f4e2ef0e62</guid>
-    </item>
-    <item>
-      <title>The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation</title>
-      <link>https://huggingface.co/papers/2610.20456</link>
-      <description>The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as well.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20456">Hugging Face Papers</source>
-      <guid isPermaLink="false">2654c1a6ea70fc44780a106c619ac29d</guid>
-    </item>
-    <item>
-      <title>Exploring the Limits of Combinatorial Generalization in Embodied Manipulation</title>
-      <link>https://huggingface.co/papers/2610.15425</link>
-      <description>In embodied manipulation, Vision Language Action (VLA) models can execute atomic skills, but long-horizon manipulation requires recombining these skills without demonstrations for…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.15425">Hugging Face Papers</source>
-      <guid isPermaLink="false">617cc604a3bac3be2b1e862ef7a227de</guid>
-    </item>
-    <item>
-      <title>TextVerifier: Seeing Beyond Recognition to Verify Chinese Text Rendering</title>
-      <link>https://huggingface.co/papers/2610.19551</link>
-      <description>Text-to-image models increasingly generate readable Chinese text that still contains local rendering defects, such as a character with an extra or missing stroke or a malformed co…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19551">Hugging Face Papers</source>
-      <guid isPermaLink="false">dffbc6f0fe3db68ffafefbe42da57079</guid>
-    </item>
-    <item>
-      <title>SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?</title>
-      <link>https://huggingface.co/papers/2610.14096</link>
-      <description>Coding agents increasingly interact with users by generating interactive software on the fly rather than replying in text, yet many bugs in such software reveal themselves only af…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.14096">Hugging Face Papers</source>
-      <guid isPermaLink="false">e40f11006c286911d43c897b04a6ee68</guid>
-    </item>
-    <item>
-      <title>DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision</title>
-      <link>https://huggingface.co/papers/2610.19118</link>
-      <description>Emerging decision models such as JEV provide typed interfaces that map task instructions and observations directly to choices, judgments, and scores.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19118">Hugging Face Papers</source>
-      <guid isPermaLink="false">7ddb50caa785f2b711eb8132dfaf9661</guid>
-    </item>
-    <item>
-      <title>Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation</title>
-      <link>https://huggingface.co/papers/2610.18284</link>
-      <description>Generated images often have coherent layouts and visual content, yet local errors in small text and complex characters still limit their readability and practical use.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18284">Hugging Face Papers</source>
-      <guid isPermaLink="false">d6db000a47b704b11c0364e8f5691047</guid>
-    </item>
-    <item>
-      <title>Beyond Perfect Teammates: Multi-Agent Collaboration with Unreliable Colleagues</title>
-      <link>https://huggingface.co/papers/2610.16117</link>
-      <description>LLM-based multi-agent collaboration is increasingly used to solve complex tasks by dividing work among specialized agents and integrating complementary expertise.</description>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.16117">Hugging Face Papers</source>
-      <guid isPermaLink="false">2ba80912aa376360f00abfa6479c0fb0</guid>
-    </item>
-    <item>
-      <title>Continuum Attention</title>
-      <link>https://huggingface.co/papers/2610.20586</link>
-      <description>We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear mem…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20586">Hugging Face Papers</source>
-      <guid isPermaLink="false">48a37624349f60239ce2fa1c992a42fa</guid>
-    </item>
-    <item>
-      <title>SyncReward: Human-Aligned Synchronization Reward for Audio-Visual Generation</title>
-      <link>https://huggingface.co/papers/2610.16338</link>
-      <description>Recent years have witnessed rapid progress in joint audio--visual generation.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.16338">Hugging Face Papers</source>
-      <guid isPermaLink="false">529b943b81fadff317c869f371b91cec</guid>
-    </item>
-    <item>
-      <title>BigCell: Generating Gigapixel Whole-Slide Images</title>
-      <link>https://huggingface.co/papers/2610.14261</link>
-      <description>Whole-slide images (WSIs) are gigapixel-scale digital scans of histopathology tissue and serve as the primary basis for cancer diagnosis.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.14261">Hugging Face Papers</source>
-      <guid isPermaLink="false">7256a2cee63ecd0d4338c3bc6ebf5494</guid>
-    </item>
-    <item>
-      <title>Physical Time as a Missing Dimension of Robot Policy Memory Dynamics</title>
-      <link>https://huggingface.co/papers/2610.20524</link>
-      <description>Existing robot policy memories typically evolve with observation sequences, implicitly treating each update as the same amount of physical time.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20524">Hugging Face Papers</source>
-      <guid isPermaLink="false">e4d17797593b7db18a62ab5ce4c5b577</guid>
-    </item>
-    <item>
-      <title>MA-Bench: Measuring Operational Planning in Language Models</title>
-      <link>https://huggingface.co/papers/2610.19138</link>
-      <description>How well can a language model turn a large, incomplete and partly contradictory body of documents into a plan when no single correct answer exists?</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19138">Hugging Face Papers</source>
-      <guid isPermaLink="false">b4a142711f33d9e8fd4744ae1432ef74</guid>
-    </item>
-    <item>
-      <title>Model-Based Online Decision Making via Generative Trajectory Planning</title>
-      <link>https://huggingface.co/papers/2610.18677</link>
-      <description>Online decision-making faces a tension between efficient inference and long-horizon reasoning.</description>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18677">Hugging Face Papers</source>
-      <guid isPermaLink="false">6af58c6c5ab159b712ddc77e3d73a966</guid>
     </item>
   </channel>
 </rss>
