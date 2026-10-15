@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 03:05:14 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:00:20 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>When Left Is Right? Camera-Motion Understanding beyond Screen</title>
+      <link>https://huggingface.co/papers/2610.17242</link>
+      <description>CameraVLM improves vision-language model understanding of camera motion by jointly learning off-screen motion states and on-screen flow dynamics with language-aligned training.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17242">Hugging Face Papers</source>
+      <guid isPermaLink="false">c1aa00e821791021b3e43d3ab3fd255f</guid>
+    </item>
+    <item>
+      <title>Lluna: Collaborative Unimodal Models for Missing-Modality Inference</title>
+      <link>https://huggingface.co/papers/2610.20526</link>
+      <description>Lluna improves multimodal predictions under missing inputs by combining private unimodal predictions with graph-based residual collaboration and progressive consistency training.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20526">Hugging Face Papers</source>
+      <guid isPermaLink="false">f4bf387ee52012c656e6df0d02be9c5c</guid>
+    </item>
+    <item>
+      <title>PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards</title>
+      <link>https://huggingface.co/papers/2610.18755</link>
+      <description>PreciseCoder improves code repair by rewarding precise, localized edits rather than only unit-test passage, reducing unnecessary changes and improving generalization across model…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.18755">Hugging Face Papers</source>
+      <guid isPermaLink="false">fa58f5d4e4ff5870cfe547003bd62946</guid>
+    </item>
+    <item>
+      <title>Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports</title>
+      <link>https://huggingface.co/papers/2610.18762</link>
+      <description>LLM-generated crisis reports match human performance on some metrics but fail to supply professional provenance and reproduce few official figures, while common automatic scores p…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.18762">Hugging Face Papers</source>
+      <guid isPermaLink="false">6a958bbe1367fb7e61c72eda61cb60ae</guid>
+    </item>
     <item>
       <title>VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement</title>
       <link>https://huggingface.co/papers/2610.19361</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.20399">Hugging Face Papers</source>
       <guid isPermaLink="false">c92b8321116b8e02024be3aa4060a2f9</guid>
-    </item>
-    <item>
-      <title>SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification</title>
-      <link>https://huggingface.co/papers/2610.15725</link>
-      <description>Agent skills encode operational procedures and domain expertise as reusable knowledge assets, yet their distribution in plaintext exposes them to unauthorized copying and leakage.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.15725">Hugging Face Papers</source>
-      <guid isPermaLink="false">809bbc617bcc744ca5dd78af5e102ee1</guid>
-    </item>
-    <item>
-      <title>Recovering Reliable Supervision via Critique-Guided On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2610.20572</link>
-      <description>On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any…</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20572">Hugging Face Papers</source>
-      <guid isPermaLink="false">066987406da6f54bd19ca7057a59a049</guid>
-    </item>
-    <item>
-      <title>GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.19100</link>
-      <description>Constructing robust GUI agents relies on multimodal visual grounding: the ability to precisely map natural language intents to actionable on-screen components.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19100">Hugging Face Papers</source>
-      <guid isPermaLink="false">5827b642b291154c179eac7cb2fa9187</guid>
-    </item>
-    <item>
-      <title>ProgAgent: Learning Tool Orchestration through Programmatic Training</title>
-      <link>https://huggingface.co/papers/2610.14774</link>
-      <description>Large language models (LLMs) are increasingly expected to orchestrate diverse tools over long-horizon tasks.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.14774">Hugging Face Papers</source>
-      <guid isPermaLink="false">c6993a385f934e61484891b181d3d24a</guid>
     </item>
   </channel>
 </rss>
