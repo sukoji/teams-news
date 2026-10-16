@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T10:11:24.694913+09:00",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T09:58:39.473943+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,54 +10,57 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "ba57bf1c690ddbd0feea81e70e486c03",
+          "id": "162587d68dae67baea635707df29d4c7",
           "index": 1,
-          "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
-          "title_ko": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
-          "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning.",
-          "summary_ko": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning.",
-          "url": "https://huggingface.co/papers/2610.17953",
+          "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+          "title_ko": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+          "summary": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² reinforcement learning, and evaluates them…",
+          "summary_ko": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² rei…",
+          "url": "https://huggingface.co/papers/2610.17309",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-14T09:00:00+09:00",
-          "popularity": 448,
-          "upvotes": 194,
-          "score": 26.0,
+          "published_at": "2026-10-15T09:00:00+09:00",
+          "popularity": 435,
+          "upvotes": 7,
+          "score": 28.0,
           "importance_score": 18.0,
           "matched_keywords": [
-            "agent",
+            "ai",
+            "reinforcement learning",
             "reasoning"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 194
+            "value": 7
           }
         },
         {
-          "id": "fc6b0cd5809b9651245bb6e00b7d85b6",
+          "id": "5902a8fb8079ffc5c3a60220fb0a265a",
           "index": 2,
-          "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-          "title_ko": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-          "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents.",
-          "summary_ko": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear.",
-          "url": "https://huggingface.co/papers/2610.14766",
+          "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+          "title_ko": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+          "summary": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
+          "summary_ko": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
+          "url": "https://huggingface.co/papers/2610.15542",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-14T09:00:00+09:00",
-          "popularity": 132,
-          "upvotes": 53,
-          "score": 24.67,
-          "importance_score": 14.67,
+          "published_at": "2026-10-15T09:00:00+09:00",
+          "popularity": 73,
+          "upvotes": 34,
+          "score": 26.91,
+          "importance_score": 12.91,
           "matched_keywords": [
             "ai",
-            "agent",
-            "benchmark"
+            "multimodal",
+            "reinforcement learning",
+            "reasoning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 53
+            "value": 34
           }
         }
       ]
@@ -67,46 +70,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "f10e1d6c7d3955a092a8dc19d17d30a1",
+          "id": "276f59038689e4cf6637a087572ec816",
           "index": 3,
-          "title": "에이수스, ‘에이전트 컴퓨터’ 국내 시장 확대...개인용 AI PC부터 기업용 에이전틱 AI까지",
+          "title": "[AI리더의 서가] 벡터 데이터베이스",
           "title_ko": null,
-          "summary": "에이수스 코리아(오픈플랫폼 비즈니스 사업 총괄 이종혁)는 AI 에이전트를 활용하는 새로운 개인용 PC 활용 개념인 ‘에이전트 컴퓨터(Agent Computer)’의 국내 시장 확대에 나선다고 15일 밝혔다.",
+          "summary": "벡터 데이터베이스니틴 보르완카르 | 한빛미디어2026년 8월 30일추천이유이 책은 벡터 데이터베이스의 핵심 개념을 코드로 직접 구현하며 배우고, SQLite3와 PostgreSQL 같은 익숙한 도구로 임베딩부터 RAG 시스템까지 단계적으로 구축하는 방법을 제시합니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216267",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216146",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-15T09:05:00+09:00",
+          "published_at": "2026-10-16T09:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.77,
-          "importance_score": 19.54,
+          "score": 22.8,
+          "importance_score": 19.59,
           "matched_keywords": [
             "ai",
-            "agent"
+            "rag"
           ],
           "engagement": null
         },
         {
-          "id": "8876dd7199acc2fab3cdcefd36581423",
+          "id": "38d275dbc8395324e023fa771aedcc1f",
           "index": 4,
-          "title": "“AI가 암 고칠 테니 담배 피운다?”… 팔란티어 CTO 주장에 '술렁'",
+          "title": "아마존, AI 웨어러블 ‘비’ 신제품 출시…월 1.6만원 구독 요금제도",
           "title_ko": null,
-          "summary": "인공지능(AI)이 미래에 암까지 치료할 수 있다는 믿음을 과시하기 위해 일부 AI 연구자들이 담배를 피우기 시작했다는 주장이 나왔다. 이 같은 주장을 내놓은 샴 샹카르 팔란티어 최고기술책임자(CTO)는 AI를 둘러싼 실리콘밸리의 과도한 신념을 두고 “집단적 정신착란”, “사회적 망상”이라고 비판했다.",
+          "summary": "[지디넷코리아]아마존이 지난해 인수한 스타트업 ‘비(Bee)’의 제품군을 재편한 웨어러블 기기 2종을 출시하고, 월 12달러(약 1만6000원)의 구독 플랜도 함께 내놨다.15일(현지시간) 블룸버그 등 외신에 따르면 아마존은 기존 손목밴드보다 가볍고 크기가 작으며 방수 기능을 갖춘 신제품 ‘비 프런티어’를 발표했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261014000322",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20261016091007",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-15T06:00:00+09:00",
-          "popularity": 96,
+          "published_at": "2026-10-16T09:14:07+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 21.73,
-          "importance_score": 17.85,
+          "score": 19.75,
+          "importance_score": 19.59,
           "matched_keywords": [
-            "ai",
-            "연구"
+            "ai"
           ],
           "engagement": null
         }
@@ -127,43 +129,44 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-15T05:51:31+09:00",
-          "popularity": 2087,
-          "upvotes": 2087,
-          "score": 36.6,
-          "importance_score": 32.7,
+          "published_at": "2026-10-15T23:59:03+09:00",
+          "popularity": 2448,
+          "upvotes": 2448,
+          "score": 35.42,
+          "importance_score": 30.34,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 2087
+            "value": 2448
           }
         },
         {
-          "id": "de6a3ba228af281406f06ad7688093aa",
+          "id": "a86086d815a0547947505959b33af872",
           "index": 6,
-          "title": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
-          "title_ko": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
-          "summary": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-          "summary_ko": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-          "url": "https://github.com/outcrawlai/scout",
+          "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+          "title_ko": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+          "summary": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+          "summary_ko": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes p…",
+          "url": "https://github.com/NousResearch/hermes-official-plugins",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-15T09:44:38+09:00",
-          "popularity": 653,
-          "upvotes": 653,
-          "score": 35.6,
-          "importance_score": 32.51,
+          "published_at": "2026-10-15T23:52:43+09:00",
+          "popularity": 293,
+          "upvotes": 293,
+          "score": 33.79,
+          "importance_score": 25.69,
           "matched_keywords": [
             "ai",
-            "agent"
+            "agent",
+            "claude"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 653
+            "value": 293
           }
         }
       ]
@@ -173,25 +176,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "bf167a2e8aad234e25e27e4107241af8",
+          "id": "1521c4c33fb8315d8833f23c567a7463",
           "index": 7,
-          "title": "MASS(Multi-Agent Self-Supervision): 자신을 복제한 에이전트 팀의 작업 궤적으로 학습하는 재귀적 자기 개선(RSI)에 대한 연구 (feat. SakanaAI)",
+          "title": "Liquid AI, 활성 2B로 로컬 에이전트를 돌리는 MoE 추론 모델 LFM2.5-24B-A2B 공개 (feat. Hermes Agent)",
           "title_ko": null,
-          "summary": "핵심 요약 UC Berkeley와 Sakana AI 연구팀의 MASS(Multi-Agent Self-Supervision) 논문 은 언어 모델 하나가 과제 수행, 결과 평가, 워크플로우 개선을 모두 맡는 재귀적 자기 개선(RSI) 방법입니다. 그 모델의 복제본으로 꾸린 팀의 작업 궤적을 다시 미세조정 데이터로 씁니다. 코드는 SakanaAI/mass 저장소에 공개되어 있습니다.",
+          "summary": "핵심 요약 Liquid AI가 LFM2.5-24B-A2B 출시 블로그 에서 전체 24B, 토큰당 활성 2.45B 파라미터의 MoE 추론 모델과 그 사전학습 모델(Base)의 가중치를 공개했습니다. 답하기 전에 항상 사고 과정을 먼저 생성하고, 컨텍스트는 131K 토큰입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/mass-multi-agent-self-supervision-rsi-feat-sakanaai/12176",
+          "url": "https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-15T08:00:21+09:00",
-          "popularity": 100,
+          "published_at": "2026-10-15T18:00:37+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 28.55,
-          "importance_score": 19.09,
+          "score": 25.57,
+          "importance_score": 13.25,
           "matched_keywords": [
             "ai",
             "agent",
-            "연구",
+            "추론",
             "모델"
           ],
           "engagement": null
@@ -201,97 +204,99 @@
   ],
   "items": [
     {
-      "id": "ba57bf1c690ddbd0feea81e70e486c03",
+      "id": "162587d68dae67baea635707df29d4c7",
       "index": 1,
-      "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
-      "title_ko": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
-      "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning.",
-      "summary_ko": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning.",
-      "url": "https://huggingface.co/papers/2610.17953",
+      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "title_ko": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "summary": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² reinforcement learning, and evaluates them…",
+      "summary_ko": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² rei…",
+      "url": "https://huggingface.co/papers/2610.17309",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-14T09:00:00+09:00",
-      "popularity": 448,
-      "upvotes": 194,
-      "score": 26.0,
+      "published_at": "2026-10-15T09:00:00+09:00",
+      "popularity": 435,
+      "upvotes": 7,
+      "score": 28.0,
       "importance_score": 18.0,
       "matched_keywords": [
-        "agent",
+        "ai",
+        "reinforcement learning",
         "reasoning"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 194
+        "value": 7
       }
     },
     {
-      "id": "fc6b0cd5809b9651245bb6e00b7d85b6",
+      "id": "5902a8fb8079ffc5c3a60220fb0a265a",
       "index": 2,
-      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-      "title_ko": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-      "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents.",
-      "summary_ko": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear.",
-      "url": "https://huggingface.co/papers/2610.14766",
+      "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+      "title_ko": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+      "summary": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
+      "summary_ko": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
+      "url": "https://huggingface.co/papers/2610.15542",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-14T09:00:00+09:00",
-      "popularity": 132,
-      "upvotes": 53,
-      "score": 24.67,
-      "importance_score": 14.67,
+      "published_at": "2026-10-15T09:00:00+09:00",
+      "popularity": 73,
+      "upvotes": 34,
+      "score": 26.91,
+      "importance_score": 12.91,
       "matched_keywords": [
         "ai",
-        "agent",
-        "benchmark"
+        "multimodal",
+        "reinforcement learning",
+        "reasoning",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 53
+        "value": 34
       }
     },
     {
-      "id": "f10e1d6c7d3955a092a8dc19d17d30a1",
+      "id": "276f59038689e4cf6637a087572ec816",
       "index": 3,
-      "title": "에이수스, ‘에이전트 컴퓨터’ 국내 시장 확대...개인용 AI PC부터 기업용 에이전틱 AI까지",
+      "title": "[AI리더의 서가] 벡터 데이터베이스",
       "title_ko": null,
-      "summary": "에이수스 코리아(오픈플랫폼 비즈니스 사업 총괄 이종혁)는 AI 에이전트를 활용하는 새로운 개인용 PC 활용 개념인 ‘에이전트 컴퓨터(Agent Computer)’의 국내 시장 확대에 나선다고 15일 밝혔다.",
+      "summary": "벡터 데이터베이스니틴 보르완카르 | 한빛미디어2026년 8월 30일추천이유이 책은 벡터 데이터베이스의 핵심 개념을 코드로 직접 구현하며 배우고, SQLite3와 PostgreSQL 같은 익숙한 도구로 임베딩부터 RAG 시스템까지 단계적으로 구축하는 방법을 제시합니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216267",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216146",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-15T09:05:00+09:00",
+      "published_at": "2026-10-16T09:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.77,
-      "importance_score": 19.54,
+      "score": 22.8,
+      "importance_score": 19.59,
       "matched_keywords": [
         "ai",
-        "agent"
+        "rag"
       ],
       "engagement": null
     },
     {
-      "id": "8876dd7199acc2fab3cdcefd36581423",
+      "id": "38d275dbc8395324e023fa771aedcc1f",
       "index": 4,
-      "title": "“AI가 암 고칠 테니 담배 피운다?”… 팔란티어 CTO 주장에 '술렁'",
+      "title": "아마존, AI 웨어러블 ‘비’ 신제품 출시…월 1.6만원 구독 요금제도",
       "title_ko": null,
-      "summary": "인공지능(AI)이 미래에 암까지 치료할 수 있다는 믿음을 과시하기 위해 일부 AI 연구자들이 담배를 피우기 시작했다는 주장이 나왔다. 이 같은 주장을 내놓은 샴 샹카르 팔란티어 최고기술책임자(CTO)는 AI를 둘러싼 실리콘밸리의 과도한 신념을 두고 “집단적 정신착란”, “사회적 망상”이라고 비판했다.",
+      "summary": "[지디넷코리아]아마존이 지난해 인수한 스타트업 ‘비(Bee)’의 제품군을 재편한 웨어러블 기기 2종을 출시하고, 월 12달러(약 1만6000원)의 구독 플랜도 함께 내놨다.15일(현지시간) 블룸버그 등 외신에 따르면 아마존은 기존 손목밴드보다 가볍고 크기가 작으며 방수 기능을 갖춘 신제품 ‘비 프런티어’를 발표했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261014000322",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20261016091007",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-15T06:00:00+09:00",
-      "popularity": 96,
+      "published_at": "2026-10-16T09:14:07+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 21.73,
-      "importance_score": 17.85,
+      "score": 19.75,
+      "importance_score": 19.59,
       "matched_keywords": [
-        "ai",
-        "연구"
+        "ai"
       ],
       "engagement": null
     },
@@ -306,65 +311,66 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-15T05:51:31+09:00",
-      "popularity": 2087,
-      "upvotes": 2087,
-      "score": 36.6,
-      "importance_score": 32.7,
+      "published_at": "2026-10-15T23:59:03+09:00",
+      "popularity": 2448,
+      "upvotes": 2448,
+      "score": 35.42,
+      "importance_score": 30.34,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 2087
+        "value": 2448
       }
     },
     {
-      "id": "de6a3ba228af281406f06ad7688093aa",
+      "id": "a86086d815a0547947505959b33af872",
       "index": 6,
-      "title": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
-      "title_ko": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
-      "summary": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-      "summary_ko": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-      "url": "https://github.com/outcrawlai/scout",
+      "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+      "title_ko": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
+      "summary": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+      "summary_ko": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes p…",
+      "url": "https://github.com/NousResearch/hermes-official-plugins",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-15T09:44:38+09:00",
-      "popularity": 653,
-      "upvotes": 653,
-      "score": 35.6,
-      "importance_score": 32.51,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 653
-      }
-    },
-    {
-      "id": "bf167a2e8aad234e25e27e4107241af8",
-      "index": 7,
-      "title": "MASS(Multi-Agent Self-Supervision): 자신을 복제한 에이전트 팀의 작업 궤적으로 학습하는 재귀적 자기 개선(RSI)에 대한 연구 (feat. SakanaAI)",
-      "title_ko": null,
-      "summary": "핵심 요약 UC Berkeley와 Sakana AI 연구팀의 MASS(Multi-Agent Self-Supervision) 논문 은 언어 모델 하나가 과제 수행, 결과 평가, 워크플로우 개선을 모두 맡는 재귀적 자기 개선(RSI) 방법입니다. 그 모델의 복제본으로 꾸린 팀의 작업 궤적을 다시 미세조정 데이터로 씁니다. 코드는 SakanaAI/mass 저장소에 공개되어 있습니다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/mass-multi-agent-self-supervision-rsi-feat-sakanaai/12176",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-10-15T08:00:21+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 28.55,
-      "importance_score": 19.09,
+      "published_at": "2026-10-15T23:52:43+09:00",
+      "popularity": 293,
+      "upvotes": 293,
+      "score": 33.79,
+      "importance_score": 25.69,
       "matched_keywords": [
         "ai",
         "agent",
-        "연구",
+        "claude"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 293
+      }
+    },
+    {
+      "id": "1521c4c33fb8315d8833f23c567a7463",
+      "index": 7,
+      "title": "Liquid AI, 활성 2B로 로컬 에이전트를 돌리는 MoE 추론 모델 LFM2.5-24B-A2B 공개 (feat. Hermes Agent)",
+      "title_ko": null,
+      "summary": "핵심 요약 Liquid AI가 LFM2.5-24B-A2B 출시 블로그 에서 전체 24B, 토큰당 활성 2.45B 파라미터의 MoE 추론 모델과 그 사전학습 모델(Base)의 가중치를 공개했습니다. 답하기 전에 항상 사고 과정을 먼저 생성하고, 컨텍스트는 131K 토큰입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-10-15T18:00:37+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 25.57,
+      "importance_score": 13.25,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "추론",
         "모델"
       ],
       "engagement": null
