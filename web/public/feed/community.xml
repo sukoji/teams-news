@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:58:39 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 14:34:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AI-DLC: Claude Code와 Codex 등에서 요구사항부터 배포까지 진행하며, 필요한 경우 사람 승인 단계를 강제하는 워크플로우 (feat. AWS)</title>
+      <link>https://discuss.pytorch.kr/t/ai-dlc-claude-code-codex-feat-aws/12204</link>
+      <description>핵심 요약 AI-DLC 는 AWS가 공개한 AI 주도 개발 방법론의 오픈소스 구현체로, AI가 아닌 결정적(deterministic) 엔진이 다음 단계를 정하고 코딩 에이전트는 그 단계를 수행한 뒤 사람의 승인을 기다립니다. 하나의 코어를 Claude Code, Kiro CLI, Kiro IDE, Codex CLI, Cursor, opencode, GitHub Copilot에서 실행합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 11:30:05 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-dlc-claude-code-codex-feat-aws/12204">PyTorch Korea</source>
+      <guid isPermaLink="false">8b3ad4069137de72e6286fecac9716a3</guid>
+    </item>
+    <item>
+      <title>Meta, Mac Studio 두 대에서 돌아가는 816B 오픈 웨이트 모델 Muse Spark Open 공개 (feat. MLX)</title>
+      <link>https://discuss.pytorch.kr/t/meta-mac-studio-816b-muse-spark-open-feat-mlx/12209</link>
+      <description>핵심 요약 Meta가 2026년 10월 15일 Muse Spark Open 발표 글 에서 전체 816B, 토큰당 활성 42B 파라미터의 MoE 모델 가중치를 공개했습니다. 텍스트, 이미지, 영상, 음성을 입력으로 받고 1M 토큰 컨텍스트를 지원하며, Muse Spark 1.3과 같은 베이스 모델을 씁니다.</description>
+      <pubDate>Fri, 16 Oct 2026 14:00:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/meta-mac-studio-816b-muse-spark-open-feat-mlx/12209">PyTorch Korea</source>
+      <guid isPermaLink="false">2f7f7657eb721f4751757e6b6278b2eb</guid>
+    </item>
     <item>
       <title>VideoJev: 답을 생성하는 대신 후보를 채점해 비디오 구간 찾기와 객관식 QA를 푸는 System One 모델 공개</title>
       <link>https://discuss.pytorch.kr/t/videojev-qa-system-one/12203</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/2026-09-28-10-04-ai-ml/12093">PyTorch Korea</source>
       <guid isPermaLink="false">375a68678b135bcdc23803a323e55b63</guid>
-    </item>
-    <item>
-      <title>AstaBrief, Ai2가 공개한, 과학 문헌 인용 보고서를 Claude 기반 모드보다 3.5배 빠르게 쓰는 8B 오픈 모델</title>
-      <link>https://discuss.pytorch.kr/t/astabrief-ai2-claude-3-5-8b/12088</link>
-      <description>핵심 요약 Ai2(AllenAI)가 연구 질문과 검색된 논문 발췌문을 받아 인용이 달린 문헌 보고서를 한 번에 쓰는 8B 모델 AstaBrief 를 Apache 2.0으로 공개했습니다. Qwen3-8B에 SFT와 DPO만 적용했고, 학습 데이터(SFT 39.5K건, DPO 6.6K건)는 CC BY-NC 4.0입니다.</description>
-      <pubDate>Sun, 04 Oct 2026 18:30:54 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/astabrief-ai2-claude-3-5-8b/12088">PyTorch Korea</source>
-      <guid isPermaLink="false">09cf6fc5bc967083252543b4349eb66f</guid>
-    </item>
-    <item>
-      <title>humanize: Python 기반의 작업 명세에 따라 Claude Code와 Codex를 실행하며 작업을 수행하는 에이전트 플로우 실행기</title>
-      <link>https://discuss.pytorch.kr/t/humanize-python-claude-code-codex/12089</link>
-      <description>핵심 요약 humanize 는 Claude Code, Codex 같은 코딩 에이전트 CLI를 직접 대체하지 않고, 사람이 Python으로 작성한 루프(플로우, flow)에 따라 이 CLI들에게 턴을 차례로 맡기며 실행 전체를 기록하는 런타임(runtime)입니다.</description>
-      <pubDate>Sun, 04 Oct 2026 10:30:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/humanize-python-claude-code-codex/12089">PyTorch Korea</source>
-      <guid isPermaLink="false">25a0d063512b6cde83ba953b89b41be9</guid>
     </item>
   </channel>
 </rss>
