@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:18:01 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:24:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents</title>
+      <link>https://huggingface.co/papers/2610.22280</link>
+      <description>LEASH is a training-free framework that uses latent uncertainty to escalate from a weak to a strong computer-use agent only when needed and monitors the strong agent afterward, re…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22280">Hugging Face Papers</source>
+      <guid isPermaLink="false">6074538e63f0bc98a083367460045089</guid>
+    </item>
+    <item>
+      <title>Learning to Read Out: Unembedding Dynamics in Language Model Pretraining</title>
+      <link>https://huggingface.co/papers/2610.21025</link>
+      <description>Hidden states encode task information before the readout expresses it, so behavioral timelines reflect readout learning rather than model acquisition, and faster readout training…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.21025">Hugging Face Papers</source>
+      <guid isPermaLink="false">2d0a7dd9c38e2b66982d97c408c4e824</guid>
+    </item>
+    <item>
+      <title>LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification</title>
+      <link>https://huggingface.co/papers/2610.17697</link>
+      <description>LeanPRM uses the Lean proof assistant to automatically generate step-level correctness labels for natural-language mathematical proofs, enabling scalable training of learned verif…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17697">Hugging Face Papers</source>
+      <guid isPermaLink="false">62f900db870e6de1caaeb355af8619d5</guid>
+    </item>
+    <item>
+      <title>Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR</title>
+      <link>https://huggingface.co/papers/2610.20461</link>
+      <description>A new metric called semCER uses an LLM judge to weight grapheme edits by severity, improving alignment with human ratings over standard character error rate for OCR and vision-lan…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20461">Hugging Face Papers</source>
+      <guid isPermaLink="false">c29765a2fce340d5262de1cd39cb70d3</guid>
+    </item>
+    <item>
+      <title>Scalable Weak-to-Strong Verifier Hardening for Agent Environments</title>
+      <link>https://huggingface.co/papers/2610.15924</link>
+      <description>The study proposes an automated weak-to-strong loop that hardens agent environment verifiers against reward hacking by iteratively finding and repairing vulnerabilities in isolate…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.15924">Hugging Face Papers</source>
+      <guid isPermaLink="false">84d4a181a1b7d40925e4618b5f0cd445</guid>
+    </item>
+    <item>
+      <title>Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility</title>
+      <link>https://huggingface.co/papers/2610.20680</link>
+      <description>Sparse autoencoders can be trained with far fewer activation tokens when data budgets align with evaluation goals, though feature-level reproducibility demands larger scales.</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20680">Hugging Face Papers</source>
+      <guid isPermaLink="false">ad40513a499994d77eb7b51d045fd31c</guid>
+    </item>
+    <item>
+      <title>PathFM: Fast Generative Forecasting of Multivariate Trajectories</title>
+      <link>https://huggingface.co/papers/2610.22358</link>
+      <description>PathFM is a trajectory-based forecasting model using flow matching to generate complete future paths, enabling efficient multi-path sampling and improved dependence modeling for t…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22358">Hugging Face Papers</source>
+      <guid isPermaLink="false">aa658f0857f1e6eb84250574a6e01e9c</guid>
+    </item>
     <item>
       <title>Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR</title>
       <link>https://huggingface.co/papers/2610.16105</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.20693">Hugging Face Papers</source>
       <guid isPermaLink="false">648117b8a5680af9c3425486d16a4838</guid>
-    </item>
-    <item>
-      <title>InfoVis: Unified Slide Image Generation and Editing</title>
-      <link>https://huggingface.co/papers/2610.16784</link>
-      <description>InfoVis is a unified 9B model for slide generation and editing trained on millions of native records and evaluated on a new multidimensional benchmark, achieving top open-source p…</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.16784">Hugging Face Papers</source>
-      <guid isPermaLink="false">e803cb5b3ea3aa0e3f26b978bb1ae900</guid>
-    </item>
-    <item>
-      <title>CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation</title>
-      <link>https://huggingface.co/papers/2610.20603</link>
-      <description>CommerceGen-Studio is a three-stage framework that generates commercial e-commerce product images by combining iterative metadata distillation, layout optimization, and a speciali…</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20603">Hugging Face Papers</source>
-      <guid isPermaLink="false">279b0c1617302b29e2ac0c78c03fd193</guid>
-    </item>
-    <item>
-      <title>Self-Evolving Agent Harness</title>
-      <link>https://huggingface.co/papers/2610.18813</link>
-      <description>A framework for self-evolving agent harnesses uses feedback-driven revisions and evolutionary optimization with theoretical generalization guarantees while keeping model weights f…</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18813">Hugging Face Papers</source>
-      <guid isPermaLink="false">e923c7b1e12726201d6a9dd0ec3dcdaf</guid>
-    </item>
-    <item>
-      <title>Learning Where to Split: Dynamic Band Splitting for Audio Source Separation</title>
-      <link>https://huggingface.co/papers/2610.14993</link>
-      <description>Dynamic Band Splitting adapts frequency partition boundaries to each audio mixture, improving source separation quality while maintaining a fixed token budget.</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.14993">Hugging Face Papers</source>
-      <guid isPermaLink="false">270b11c619a22ac7cabef5541793c761</guid>
-    </item>
-    <item>
-      <title>3DCodeVerse: Exploring 3D Worlds as Code</title>
-      <link>https://huggingface.co/papers/2610.22341</link>
-      <description>3DCodeVerse is a research ecosystem that provides datasets, automated verification harnesses, and empirical guidance to enable scalable, editable, and verifiable 3D content genera…</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.22341">Hugging Face Papers</source>
-      <guid isPermaLink="false">eee664f38314e78ad2cb72930ba13858</guid>
-    </item>
-    <item>
-      <title>Speculative Forcing for Efficient Autoregressive Video Generation</title>
-      <link>https://huggingface.co/papers/2610.22347</link>
-      <description>Speculative Forcing accelerates few-step autoregressive video generation by accepting early token drafts and skipping unnecessary denoising steps while preserving output quality.</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.22347">Hugging Face Papers</source>
-      <guid isPermaLink="false">54b6864f0b6fea9659f8d21c2892bb1d</guid>
-    </item>
-    <item>
-      <title>WorldCast: Exploring Intelligent Visual Generation in World State Prediction</title>
-      <link>https://huggingface.co/papers/2610.20731</link>
-      <description>Researchers propose a four-level hierarchy for multimodal generative models and introduce the WorldCast benchmark to evaluate multi-step world state prediction, revealing rapid pr…</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20731">Hugging Face Papers</source>
-      <guid isPermaLink="false">6b707949f7b254dc5a44b3e6b5326114</guid>
     </item>
   </channel>
 </rss>
