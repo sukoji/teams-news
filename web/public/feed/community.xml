@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 14:34:38 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:55:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>텍스트 레이어가 있는 문서까지 VLM 파서로 처리해야 할까? - CPU 기반 네이티브 추출로 RAG 문서 파싱하기 (feat. PyMuPDF Pro)</title>
+      <link>https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211</link>
+      <description>소개 RAG 파이프라인을 설계할 때는 보통 LLM 선정, 임베딩, 벡터 DB 구조에 관심이 집중되지만, 실제로 사내 문서를 넣기 시작하면 문서 파서의 인프라 비용 이 생각보다 큰 문제가 됩니다. 최근 많이 쓰이는 레이아웃 모델·VLM 기반 파서는 고가의 GPU가 필요하고, 상용 VLM API는 대량 처리 시 비용과 처리 시간이 크게 늘어납니다.</description>
+      <pubDate>Fri, 16 Oct 2026 15:08:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211">PyTorch Korea</source>
+      <guid isPermaLink="false">01e7944c19eb09ed56e30501f813d363</guid>
+    </item>
+    <item>
+      <title>DigUp: EmbeddingGemma 2 모델로 사진, PDF, 녹음, 영상 속 내용을 문장으로 찾는 (macOS의 Spotlight와 같은) 로컬 파일 검색 앱 🔍</title>
+      <link>https://discuss.pytorch.kr/t/digup-embeddinggemma-2-pdf-macos-spotlight/12205</link>
+      <description>핵심 요약 DigUp 은 Google DeepMind의 EmbeddingGemma 2 모델로 사진, PDF, 문서, 녹음, 영상, 코드를 한 색인에 넣는 데스크톱 앱입니다. 파일 이름 대신 내용을 설명하는 문장으로 파일을 찾습니다. 검색 결과를 열면 PDF는 해당 페이지, 녹음과 영상은 해당 시점, 코드는 편집기의 해당 줄로 이동합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 17:30:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/digup-embeddinggemma-2-pdf-macos-spotlight/12205">PyTorch Korea</source>
+      <guid isPermaLink="false">138adc4fa6d401f1cd6e5bf71c74700c</guid>
+    </item>
     <item>
       <title>AI-DLC: Claude Code와 Codex 등에서 요구사항부터 배포까지 진행하며, 필요한 경우 사람 승인 단계를 강제하는 워크플로우 (feat. AWS)</title>
       <link>https://discuss.pytorch.kr/t/ai-dlc-claude-code-codex-feat-aws/12204</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/topic/12099">PyTorch Korea</source>
       <guid isPermaLink="false">91f876dab9e4352eb87c619b2e00fb36</guid>
-    </item>
-    <item>
-      <title>Translate Book: arXiv - arXiv 논문을 원문 구조 그대로 번역 논문으로 만들어 주는 Claude Code 스킬</title>
-      <link>https://discuss.pytorch.kr/t/translate-book-arxiv-arxiv-claude-code/12097</link>
-      <description>왼쪽: arXiv:2609.11801 "Thinking with Looped Flows" 원문 7쪽 (CC BY 4.0), 오른쪽: 이 스킬로 만든 한국어 번역본 12쪽의 같은 표입니다. 영어 논문을 번역기에 넣어 본 분들은 겪어보셨을텐데, 문장은 그럭저럭 나오는데 수식이 다 깨집니다. 기호가 흩어지고, 식 번호가 사라지고, 그림은 엉뚱한데 붙어 있고요.</description>
-      <pubDate>Mon, 05 Oct 2026 15:20:35 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/translate-book-arxiv-arxiv-claude-code/12097">PyTorch Korea</source>
-      <guid isPermaLink="false">98fb8d13adc0f3668f6f96f6b6d992e7</guid>
-    </item>
-    <item>
-      <title>[2026/09/28 ~ 10/04] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-09-28-10-04-ai-ml/12093</link>
-      <description>PyTorchKR​ 이번 주에 선정된 10편의 논문들을 종합해 본 결과, AI가 외부의 도움 없이 스스로 진화하고, 더욱 복잡하고 현실적인 환경에서 장기적인 문제를 주도적으로 해결해 나가는 방향으로 연구가 집중되고 있음을 확인할 수 있었습니다. 주요 트렌드 3가지는 다음과 같습니다.</description>
-      <pubDate>Mon, 05 Oct 2026 06:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-09-28-10-04-ai-ml/12093">PyTorch Korea</source>
-      <guid isPermaLink="false">375a68678b135bcdc23803a323e55b63</guid>
     </item>
   </channel>
 </rss>
