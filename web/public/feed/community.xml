@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:55:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:18:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Strata: 12GB 그래픽카드 PC에서 125B 모델 Qwen3.8-Flash-Next만을 위해 만든 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/strata-12gb-pc-125b-qwen3-8-flash-next/12189</link>
+      <description>핵심 요약 Strata 는 1,250억(125B) 파라미터 MoE 모델 Qwen3.8-Flash-Next 하나만을 위해 작성한 추론(Inference) 엔진입니다. 12GB 이상 그래픽카드와 32GB 이상 RAM을 갖춘 Windows/Linux PC에서 이 모델을 실행합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 21:00:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/strata-12gb-pc-125b-qwen3-8-flash-next/12189">PyTorch Korea</source>
+      <guid isPermaLink="false">4d96cfb353fdfbda9bb1cc28da79399d</guid>
+    </item>
     <item>
       <title>텍스트 레이어가 있는 문서까지 VLM 파서로 처리해야 할까? - CPU 기반 네이티브 추출로 RAG 문서 파싱하기 (feat. PyMuPDF Pro)</title>
       <link>https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/jev-reranking-llm/12091">PyTorch Korea</source>
       <guid isPermaLink="false">b3f0541cff91d4fb191237a1e2611731</guid>
-    </item>
-    <item>
-      <title>허깅페이스 공인 벤치마크 리더보드 48개 전수 분석: 데이터 구조, 집계 방법, 그리고 숫자가 말해 주는 것</title>
-      <link>https://discuss.pytorch.kr/t/topic/12099</link>
-      <description>기준 시점: 2026년 10월 5일 (허깅페이스 공개 API 실측) 실시간 대시보드: Hugging Face Official Benchmarks Map - a Hugging Face Space by quantid TL;DR 허깅페이스가 benchmark:official 로 지정한 데이터셋은 48개 , 그중 리더보드 항목이 1건 이상인 것은 44개 , 기본 화면 기준 등록 항목은 **1,02…</description>
-      <pubDate>Mon, 05 Oct 2026 16:56:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/topic/12099">PyTorch Korea</source>
-      <guid isPermaLink="false">91f876dab9e4352eb87c619b2e00fb36</guid>
     </item>
   </channel>
 </rss>

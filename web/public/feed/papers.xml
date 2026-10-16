@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:55:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:18:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR</title>
+      <link>https://huggingface.co/papers/2610.16105</link>
+      <description>EDEN improves reinforcement learning with verifiable rewards by injecting anchored embedding noise into rollout conditioning to increase diversity and strengthen group-relative ad…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.16105">Hugging Face Papers</source>
+      <guid isPermaLink="false">243f8ceea60f760b99bc7335e189a600</guid>
+    </item>
+    <item>
+      <title>Copy-Paste Language Models</title>
+      <link>https://huggingface.co/papers/2610.19247</link>
+      <description>Copy-Paste Language Models enhance in-context copying by adding a lightweight head that improves training efficiency, downstream performance, and long-context retrieval with minim…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19247">Hugging Face Papers</source>
+      <guid isPermaLink="false">521abfbd543ab896acdcf97009734c04</guid>
+    </item>
+    <item>
+      <title>Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization</title>
+      <link>https://huggingface.co/papers/2610.22127</link>
+      <description>Personalizing sparse Mixture-of-Experts language models enables localized, interpretable control over user-specific behaviors through specialized expert routing and learned person…</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22127">Hugging Face Papers</source>
+      <guid isPermaLink="false">3b855958ad9212e19b57d171ecb5d3bf</guid>
+    </item>
+    <item>
+      <title>PAIR: Bridging Perception and Action in Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2610.09016</link>
+      <description>PAIR introduces a shared perception-action representation via masked action autoencoders and bridge tokens to improve continuous-action vision-language-action models.</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.09016">Hugging Face Papers</source>
+      <guid isPermaLink="false">f034ae0c068b4fbaae051189266f80d4</guid>
+    </item>
     <item>
       <title>MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments</title>
       <link>https://huggingface.co/papers/2610.20939</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.20731">Hugging Face Papers</source>
       <guid isPermaLink="false">6b707949f7b254dc5a44b3e6b5326114</guid>
-    </item>
-    <item>
-      <title>SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation</title>
-      <link>https://huggingface.co/papers/2610.22264</link>
-      <description>SCOPE improves text-to-image prompt rewriting via reinforcement learning by aligning policy updates with semantic spans, boosting generation quality without extra rendering.</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.22264">Hugging Face Papers</source>
-      <guid isPermaLink="false">da8ff643c4ca59667b1a7535c5410345</guid>
-    </item>
-    <item>
-      <title>SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models</title>
-      <link>https://huggingface.co/papers/2610.13781</link>
-      <description>SimVTA improves driving world action models by combining simulator-rendered video supervision with reinforcement learning trajectory optimization.</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.13781">Hugging Face Papers</source>
-      <guid isPermaLink="false">2a6e91e57960812ee8503bd8779b0a16</guid>
-    </item>
-    <item>
-      <title>Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL</title>
-      <link>https://huggingface.co/papers/2610.21439</link>
-      <description>MRTPO improves multi-reward training by assigning each reward's advantage only to relevant tokens via replay-based relevance measurement, accelerating convergence and boosting per…</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.21439">Hugging Face Papers</source>
-      <guid isPermaLink="false">a4585c45a8cc0c5c617b01fcd30d8142</guid>
-    </item>
-    <item>
-      <title>WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models</title>
-      <link>https://huggingface.co/papers/2610.19063</link>
-      <description>WorldMemBench evaluates world memory in video models by testing static and dynamic retention across repeated revisits and state transitions.</description>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19063">Hugging Face Papers</source>
-      <guid isPermaLink="false">a6029a60435c9ce9b4662004a61d27c2</guid>
     </item>
   </channel>
 </rss>
