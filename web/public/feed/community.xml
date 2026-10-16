@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:00:20 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:16:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>VideoJev: 답을 생성하는 대신 후보를 채점해 비디오 구간 찾기와 객관식 QA를 푸는 System One 모델 공개</title>
+      <link>https://discuss.pytorch.kr/t/videojev-qa-system-one/12203</link>
+      <description>핵심 요약 VideoJev 논문 은 비디오 멀티모달 LLM의 출력 헤드를 후보 채점 헤드로 바꿉니다. 그래서 시간 구간 찾기와 객관식 비디오 질의응답을 텍스트 생성 없이 한 번의 순전파로 풉니다. 영상 부분을 한 번만 인코딩하고 여러 질문이 그 계산을 공유합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 07:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/videojev-qa-system-one/12203">PyTorch Korea</source>
+      <guid isPermaLink="false">c438a189e1ac4dad222436c28c461e4c</guid>
+    </item>
     <item>
       <title>Liquid AI, 활성 2B로 로컬 에이전트를 돌리는 MoE 추론 모델 LFM2.5-24B-A2B 공개 (feat. Hermes Agent)</title>
       <link>https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/humanize-python-claude-code-codex/12089">PyTorch Korea</source>
       <guid isPermaLink="false">25a0d063512b6cde83ba953b89b41be9</guid>
-    </item>
-    <item>
-      <title>NVIDIA VSS 3.3: 영상 AI 에이전트를 프롬프트로 조립하고, 변하지 않은 화면의 VLM 토큰은 줄이기 (feat. Adaptive EVS)</title>
-      <link>https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077</link>
-      <description>핵심 요약 NVIDIA가 영상 검색과 요약 블루프린트 VSS 3.3을 발표하며, 개발 비용을 줄이는 Build Vision Agent 스킬과 VLM 처리 비용을 줄이는 Adaptive EVS를 함께 소개했습니다.</description>
-      <pubDate>Sat, 03 Oct 2026 18:30:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nvidia-vss-3-3-ai-vlm-feat-adaptive-evs/12077">PyTorch Korea</source>
-      <guid isPermaLink="false">546f1caaf988ed08276c0f9506f7956a</guid>
     </item>
   </channel>
 </rss>

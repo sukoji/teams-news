@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:00:20 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:16:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming</title>
+      <link>https://huggingface.co/papers/2610.19121</link>
+      <description>LayerTrim is a training-free structured pruning approach that removes redundant decoder layers and trims MLP features to preserve reasoning ability, reducing inference costs and g…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19121">Hugging Face Papers</source>
+      <guid isPermaLink="false">032eb604c51bd24cd7b8cf557fcac04f</guid>
+    </item>
+    <item>
+      <title>FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation</title>
+      <link>https://huggingface.co/papers/2610.17191</link>
+      <description>FreeSolo introduces a native sparse attention mechanism with short-range and long-range branches that achieves linear-time complexity and improves zero-shot length extrapolation w…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17191">Hugging Face Papers</source>
+      <guid isPermaLink="false">671bad526db2a87a2279617a38c7f188</guid>
+    </item>
     <item>
       <title>When Left Is Right? Camera-Motion Understanding beyond Screen</title>
       <link>https://huggingface.co/papers/2610.17242</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.19820">Hugging Face Papers</source>
       <guid isPermaLink="false">cf1e24ecc9500dce1c012967ac47ad8b</guid>
-    </item>
-    <item>
-      <title>LensErase: A Foundation Model for Erase Anything</title>
-      <link>https://huggingface.co/papers/2610.18072</link>
-      <description>We introduce LensErase, a general-purpose mask-based Erase Anything foundation model designed to cover a broad spectrum of real-world erase scenarios.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18072">Hugging Face Papers</source>
-      <guid isPermaLink="false">76f3c65e366c58cb541c7c7211dd17fd</guid>
-    </item>
-    <item>
-      <title>Cortex: Consolidating Context into Parametric Memory</title>
-      <link>https://huggingface.co/papers/2610.20399</link>
-      <description>Context can improve large language model performance, but these gains may be lost after context removal.</description>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20399">Hugging Face Papers</source>
-      <guid isPermaLink="false">c92b8321116b8e02024be3aa4060a2f9</guid>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:00:20 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:16:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>VideoJev: 답을 생성하는 대신 후보를 채점해 비디오 구간 찾기와 객관식 QA를 푸는 System One 모델 공개</title>
+      <link>https://discuss.pytorch.kr/t/videojev-qa-system-one/12203</link>
+      <description>핵심 요약 VideoJev 논문 은 비디오 멀티모달 LLM의 출력 헤드를 후보 채점 헤드로 바꿉니다. 그래서 시간 구간 찾기와 객관식 비디오 질의응답을 텍스트 생성 없이 한 번의 순전파로 풉니다. 영상 부분을 한 번만 인코딩하고 여러 질문이 그 계산을 공유합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 07:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/videojev-qa-system-one/12203">PyTorch Korea</source>
+      <guid isPermaLink="false">c438a189e1ac4dad222436c28c461e4c</guid>
+    </item>
+    <item>
+      <title>[10월15일] AI 수학 능력 급발전의 파장…과학 연구부터 인터넷 보안까지</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=216279</link>
+      <description>지난주 오픈AI가 722편의 수학 연구 원고를 공개하면서 AI의 과학 연구 능력에 관심이 집중됐습니다. 그동안 AI가 과학 연구를 수십년 앞당길 수 있다는 전망이 이어졌지만, 일반인들이 그 의미를 체감하기는 쉽지 않았습니다.</description>
+      <pubDate>Fri, 16 Oct 2026 07:00:00 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=216279">AI Times</source>
+      <guid isPermaLink="false">6e7abde278441d619351b9aaf9e94607</guid>
+    </item>
+    <item>
+      <title>Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming</title>
+      <link>https://huggingface.co/papers/2610.19121</link>
+      <description>LayerTrim is a training-free structured pruning approach that removes redundant decoder layers and trims MLP features to preserve reasoning ability, reducing inference costs and g…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19121">Hugging Face Papers</source>
+      <guid isPermaLink="false">032eb604c51bd24cd7b8cf557fcac04f</guid>
+    </item>
+    <item>
+      <title>FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation</title>
+      <link>https://huggingface.co/papers/2610.17191</link>
+      <description>FreeSolo introduces a native sparse attention mechanism with short-range and long-range branches that achieves linear-time complexity and improves zero-shot length extrapolation w…</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.17191">Hugging Face Papers</source>
+      <guid isPermaLink="false">671bad526db2a87a2279617a38c7f188</guid>
+    </item>
+    <item>
+      <title>decomp.dev 운영 축소, 공개 목록과 신규 프로젝트 등록 중단</title>
+      <link>https://news.hada.io/topic?id=35439</link>
+      <description>디컴파일 진행 상황을 모아 보여주던 decomp.dev 가 공개 목록과 순위표의 해악이 이익보다 커졌다는 판단 아래 메인 목록과 신규 프로젝트 등록을 중단함 기존 프로젝트 추적 은 계속하며, 개별 프로젝트 페이지와 과거 데이터도 유지함 AI는 디컴...</description>
+      <pubDate>Fri, 16 Oct 2026 09:07:58 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=35439">GeekNews</source>
+      <guid isPermaLink="false">fb20c792331e8c6a9ee2fde913742a4c</guid>
+    </item>
     <item>
       <title>메타, ‘뮤즈 스파크 오픈’ 공개…맥 2대로 구동·미국 최고 성능 내세워</title>
       <link>https://www.aitimes.com/news/articleView.html?idxno=216309</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.17016">Hugging Face Papers</source>
       <guid isPermaLink="false">57b028de77e1d1d651d95fa32ebf7bed</guid>
-    </item>
-    <item>
-      <title>[WAC 2026]셀트리온·빅파마, 日서 최신 알레르기 임상 성과 공개</title>
-      <link>https://www.etnews.com/20261015000225</link>
-      <description>글로벌 제약·바이오 기업들이 알레르기 치료 연구 성과를 일본 교토에서 공개한다. 치료 접근성을 높일 바이오시밀러를 비롯해 먹는 두드러기 치료제, 알레르기 유발 물질을 겨냥한 항체 신약 등 주요 기업들의 전략을 세계알레르기학회(WAC 2026)에서 소개한다. 국내 기업 중에서는 셀트리온이 WAC 2026에 부스를 마련하고 현지 의료진과의 접점 확대에 나선다.</description>
-      <pubDate>Thu, 15 Oct 2026 16:00:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261015000225">전자신문 IT</source>
-      <guid isPermaLink="false">7204c495585152194135506781d6ff39</guid>
-    </item>
-    <item>
-      <title>제조 AI전환 거점 경남의 든든한 방패 '경남정보보호지원센터' 공식 출범</title>
-      <link>https://www.etnews.com/20261015000060</link>
-      <description>경남 제조업 디지털 전환의 안전한 기반이자 지역 내 정보보호 인식 확산과 보안 생태계 활성화 거점인 '경남정보보호지원센터'가 공식 출범했다. 과학기술정보통신부와 한국인터넷진흥원(KISA), 경상남도, 경남테크노파크는 15일 창원컨벤션센터(CECO) 내 특별행사장에서 경남정보보호지원센터 개소식을 개최했다.</description>
-      <pubDate>Thu, 15 Oct 2026 14:30:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261015000060">전자신문 IT</source>
-      <guid isPermaLink="false">57c0b99a889169f3a4539611148913ea</guid>
-    </item>
-    <item>
-      <title>신생아 대상 'B형 간염 백신' 임상시험?…“유병률 높은 아프리카서 7000명 접종 보류”</title>
-      <link>https://www.etnews.com/20261014000405</link>
-      <description>미국 보건당국의 지원을 받는 B형간염 백신 임상시험이 서아프리카 기니비사우에서 추진된다. 신생아 1만4000명 가운데 절반에게만 출생 직후 백신을 접종하고, 나머지 절반은 생후 6주 동안 접종을 미루는 방식이어서 윤리적 논쟁이 커지고 있다. 9일(현지시간) 영국 가디언에 따르면 덴마크 남덴마크대 연구윤리위원회는 해당 임상시험 진행을 승인했다.</description>
-      <pubDate>Thu, 15 Oct 2026 14:25:00 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261014000405">전자신문 IT</source>
-      <guid isPermaLink="false">d374e194e091edf19b932723ea8ea8db</guid>
-    </item>
-    <item>
-      <title>소버린 의료AI 향한 '제2의 금 모으기'…국민 100만명 바이오 데이터 구축 속도</title>
-      <link>https://www.etnews.com/20261015000307</link>
-      <description>“외환위기 당시 금 모으기 운동처럼 국민이 힘을 모아 국가 경쟁력을 키운다는 점에서 바이오 데이터 기증도 비슷합니다.” 하정우 국가인공지능전략위원회 부위원장이 국민의 바이오 데이터 기증을 외환위기 당시 금 모으기 운동에 비유하며 자발적인 참여를 독려했다. 국민이 기증한 데이터를 기반으로 글로벌 인공지능(AI)·바이오 패권 경쟁에서 국가 경쟁력을 확보하고 미래 의료 혁신을 이끌자는 취지다.</description>
-      <pubDate>Thu, 15 Oct 2026 14:21:08 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261015000307">전자신문 IT</source>
-      <guid isPermaLink="false">26a85c1d478dccef6e8bd2a973e5e852</guid>
-    </item>
-    <item>
-      <title>현대차, AI·로봇산업협회 부회장사 합류…로봇 생태계 힘 싣는다</title>
-      <link>https://www.etnews.com/20261015000291</link>
-      <description>현대자동차가 한국AI·로봇산업협회 부회장사로 합류한다. 보스턴다이내믹스를 중심으로 휴머노이드와 피지컬 인공지능(AI) 사업을 확대하는 현대차가 협회 주요 임원사로 참여하면서 국내 로봇산업계와의 협력도 확대될 전망이다. 15일 관련 업계에 따르면 한국AI·로봇산업협회는 최근 이사회를 열고 현대차를 신규 부회장사로 승인했다.</description>
-      <pubDate>Thu, 15 Oct 2026 14:05:53 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261015000291">전자신문 IT</source>
-      <guid isPermaLink="false">77295e9e9698647bb74247294abbce45</guid>
     </item>
   </channel>
 </rss>
