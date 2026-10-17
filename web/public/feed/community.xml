@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 17 Oct 2026 20:28:01 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:09:34 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MAI-Base-2 사전학습 레시피: Microsoft AI가 공개한, DeepSeek-V4-Pro-Base보다 4~12배 효율적이라는 2.8T MoE 모델의 사전학습 방법</title>
+      <link>https://discuss.pytorch.kr/t/mai-base-2-microsoft-ai-deepseek-v4-pro-base-4-12-2-8t-moe/12210</link>
+      <description>핵심 요약 Microsoft AI가 Frontier Pre-training at Microsoft AI 글에서 활성 80B, 전체 2.8T 파라미터의 MoE 기반 모델 MAI-Base-2의 사전학습 완료를 알렸습니다. GB200 GPU 1만 6천 장으로 2026년 8~9월 38일 동안 50T 토큰을 학습했고, 지금은 사후 학습 중입니다.</description>
+      <pubDate>Sat, 17 Oct 2026 22:00:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mai-base-2-microsoft-ai-deepseek-v4-pro-base-4-12-2-8t-moe/12210">PyTorch Korea</source>
+      <guid isPermaLink="false">c8658bc5d9feb6c438f9eccac3d105a6</guid>
+    </item>
     <item>
       <title>vLLM과 SGLang 중 무엇을 골라야 할까? Red Hat이 공개한 PagedAttention과 RadixAttention의 차이와 벤치마크 해석법</title>
       <link>https://discuss.pytorch.kr/t/vllm-sglang-red-hat-pagedattention-radixattention/12212</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/sql-db-46/12105">PyTorch Korea</source>
       <guid isPermaLink="false">33d7121de93d1802a4cd56b4eafe7d70</guid>
-    </item>
-    <item>
-      <title>A.I.G(AI-Infra-Guard): AI 인프라와 MCP 서버, 에이전트, 모델을 계층별로 점검하는 텐센트의 레드팀 플랫폼</title>
-      <link>https://discuss.pytorch.kr/t/a-i-g-ai-infra-guard-ai-mcp/12090</link>
-      <description>핵심 요약 A.I.G(AI-Infra-Guard) 는 텐센트 주췌 연구소(Zhuque Lab)가 공개한 AI 레드팀 플랫폼으로, 추론 서버의 알려진 CVE(Common Vulnerabilities and Exposures), MCP 서버와 에이전트 스킬의 코드, 운영 중인 에이전트, 모델의 탈옥 내성을 하나의 웹 UI에서 점검합니다.</description>
-      <pubDate>Mon, 05 Oct 2026 11:30:57 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/a-i-g-ai-infra-guard-ai-mcp/12090">PyTorch Korea</source>
-      <guid isPermaLink="false">735c970bcfbb25bdb0097703c98fd3e2</guid>
     </item>
   </channel>
 </rss>
