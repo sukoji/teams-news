@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 17 Oct 2026 10:09:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 15:42:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM과 SGLang 중 무엇을 골라야 할까? Red Hat이 공개한 PagedAttention과 RadixAttention의 차이와 벤치마크 해석법</title>
+      <link>https://discuss.pytorch.kr/t/vllm-sglang-red-hat-pagedattention-radixattention/12212</link>
+      <description>핵심 요약 Red Hat Developer 블로그의 vLLM vs. SGLang 비교 글 은 두 엔진이 같은 KV 캐시 문제에서 출발했다고 정리합니다. vLLM 은 메모리를 블록으로 나누는 PagedAttention, SGLang 은 공유 접두사를 트리로 재사용하는 RadixAttention이 출발점입니다.</description>
+      <pubDate>Sat, 17 Oct 2026 11:00:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-sglang-red-hat-pagedattention-radixattention/12212">PyTorch Korea</source>
+      <guid isPermaLink="false">c906ff20e6765f9dbf89362e63b614f1</guid>
+    </item>
     <item>
       <title>Strata: 12GB 그래픽카드 PC에서 125B 모델 Qwen3.8-Flash-Next만을 위해 만든 추론 엔진</title>
       <link>https://discuss.pytorch.kr/t/strata-12gb-pc-125b-qwen3-8-flash-next/12189</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/a-i-g-ai-infra-guard-ai-mcp/12090">PyTorch Korea</source>
       <guid isPermaLink="false">735c970bcfbb25bdb0097703c98fd3e2</guid>
-    </item>
-    <item>
-      <title>Jev 기반 추천 재순위화(Reranking)에 대한 실증 연구: 결정 지향 모델과 LLM 재순위화의 품질 및 지연 시간 비교</title>
-      <link>https://discuss.pytorch.kr/t/jev-reranking-llm/12091</link>
-      <description>핵심 요약 Decision-Oriented Recommendation Reranking 논문 은 TypeSafe AI의 결정 지향 모델 Jev로 추천 후보를 재순위화한 실증 연구입니다. 비교 대상은 Qwen2.5 7B Instruct 기반 재순위화 2종과 SASRec, DCNv2입니다.</description>
-      <pubDate>Mon, 05 Oct 2026 16:30:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jev-reranking-llm/12091">PyTorch Korea</source>
-      <guid isPermaLink="false">b3f0541cff91d4fb191237a1e2611731</guid>
     </item>
   </channel>
 </rss>
