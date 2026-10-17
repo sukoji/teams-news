@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T09:58:39.473943+09:00",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T09:59:22.441685+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,57 +10,59 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "162587d68dae67baea635707df29d4c7",
+          "id": "8e8736d559e8098ee5e1def45dd2c500",
           "index": 1,
-          "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
-          "title_ko": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
-          "summary": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² reinforcement learning, and evaluates them…",
-          "summary_ko": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² rei…",
-          "url": "https://huggingface.co/papers/2610.17309",
+          "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+          "title_ko": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+          "summary": "A post-training framework using hierarchical supervised fine-tuning and windowed interaction reinforcement learning trains a 35B mixture-of-experts agent to autonomously optimize long-horizon machine learning engineerin…",
+          "summary_ko": "A post-training framework using hierarchical supervised fine-tuning and windowed interaction reinforcement learning trains a 35B mixture-of-experts agent to autonomously optimize…",
+          "url": "https://huggingface.co/papers/2610.22344",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-15T09:00:00+09:00",
-          "popularity": 435,
-          "upvotes": 7,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-10-16T09:00:00+09:00",
+          "popularity": 62,
+          "upvotes": 24,
+          "score": 28.43,
+          "importance_score": 12.43,
           "matched_keywords": [
             "ai",
+            "agent",
+            "machine learning",
+            "fine-tuning",
             "reinforcement learning",
-            "reasoning"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 7
-          }
-        },
-        {
-          "id": "5902a8fb8079ffc5c3a60220fb0a265a",
-          "index": 2,
-          "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
-          "title_ko": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
-          "summary": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
-          "summary_ko": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
-          "url": "https://huggingface.co/papers/2610.15542",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-10-15T09:00:00+09:00",
-          "popularity": 73,
-          "upvotes": 34,
-          "score": 26.91,
-          "importance_score": 12.91,
-          "matched_keywords": [
-            "ai",
-            "multimodal",
-            "reinforcement learning",
-            "reasoning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 34
+            "value": 24
+          }
+        },
+        {
+          "id": "2d359d13d1c79d43705db64b7e888483",
+          "index": 2,
+          "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+          "title_ko": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+          "summary": "MAI-Gym is an open platform that unifies GUI agent evaluation, data collection, and online reinforcement learning training across mobile, computer, and web environments, enabling scalable synthesis of verified tasks and…",
+          "summary_ko": "MAI-Gym is an open platform that unifies GUI agent evaluation, data collection, and online reinforcement learning training across mobile, computer, and web environments, enabling…",
+          "url": "https://huggingface.co/papers/2610.20939",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-10-16T09:00:00+09:00",
+          "popularity": 216,
+          "upvotes": 94,
+          "score": 28.14,
+          "importance_score": 16.14,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "reinforcement learning",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 94
           }
         }
       ]
@@ -70,43 +72,42 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "276f59038689e4cf6637a087572ec816",
+          "id": "d36293a9e785d5b9780b7e268d1345f2",
           "index": 3,
-          "title": "[AI리더의 서가] 벡터 데이터베이스",
+          "title": "[10월16일] AI 수요는 넘치는데 채권은 급락…코어위브가 드러낸 '부채 위험'",
           "title_ko": null,
-          "summary": "벡터 데이터베이스니틴 보르완카르 | 한빛미디어2026년 8월 30일추천이유이 책은 벡터 데이터베이스의 핵심 개념을 코드로 직접 구현하며 배우고, SQLite3와 PostgreSQL 같은 익숙한 도구로 임베딩부터 RAG 시스템까지 단계적으로 구축하는 방법을 제시합니다.",
+          "summary": "최근 며칠 동안 글로벌 증시에서 AI 관련 주식이 급락했습니다. 엔비디아를 비롯한 반도체 기업들이 직격탄을 맞았고, 미국 반도체 기업들의 시가총액은 최근 매도세로 최대 2조달러(약 2800조원)가 사라질 것으로 예상됐습니다. AI 투자 열풍의 최대 수혜주들이 한꺼번에 매도 대상이 된 것입니다.그런데 AI 수요가 줄어서 생긴 문제가 아니라는 것이 주목됩니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216146",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216325",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-16T09:00:00+09:00",
+          "published_at": "2026-10-17T07:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.8,
-          "importance_score": 19.59,
+          "score": 19.38,
+          "importance_score": 18.75,
           "matched_keywords": [
-            "ai",
-            "rag"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "38d275dbc8395324e023fa771aedcc1f",
+          "id": "f538089024e52ce0f98b60ee7331bfb3",
           "index": 4,
-          "title": "아마존, AI 웨어러블 ‘비’ 신제품 출시…월 1.6만원 구독 요금제도",
+          "title": "깃허브, PHP·테라폼 코드 취약점 찾는 'AI 스캔' 정식 출시",
           "title_ko": null,
-          "summary": "[지디넷코리아]아마존이 지난해 인수한 스타트업 ‘비(Bee)’의 제품군을 재편한 웨어러블 기기 2종을 출시하고, 월 12달러(약 1만6000원)의 구독 플랜도 함께 내놨다.15일(현지시간) 블룸버그 등 외신에 따르면 아마존은 기존 손목밴드보다 가볍고 크기가 작으며 방수 기능을 갖춘 신제품 ‘비 프런티어’를 발표했다.",
+          "summary": "[지디넷코리아]깃허브가 현지 시각 10월 15일 코드 변경 요청(풀 리퀘스트)에 포함된 보안 취약점을 AI로 찾는 'AI 스캔' 기능을 정식 출시했다. 풀 리퀘스트는 개발자가 수정한 코드를 프로젝트에 반영해 달라고 요청하는 절차다.AI 스캔은 깃허브의 기존 코드 보안 분석 도구 코드QL(CodeQL)이 지원하지 않는 언어와 형식의 코드를 검사한다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261016091007",
+          "url": "https://zdnet.co.kr/view/?no=20261017092459",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-16T09:14:07+09:00",
+          "published_at": "2026-10-17T09:24:59+09:00",
           "popularity": 99,
           "upvotes": 0,
-          "score": 19.75,
-          "importance_score": 19.59,
+          "score": 19.78,
+          "importance_score": 19.66,
           "matched_keywords": [
             "ai"
           ],
@@ -129,44 +130,43 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-15T23:59:03+09:00",
-          "popularity": 2448,
-          "upvotes": 2448,
-          "score": 35.42,
-          "importance_score": 30.34,
+          "published_at": "2026-10-17T04:59:18+09:00",
+          "popularity": 2858,
+          "upvotes": 2858,
+          "score": 36.46,
+          "importance_score": 32.42,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 2448
+            "value": 2858
           }
         },
         {
-          "id": "a86086d815a0547947505959b33af872",
+          "id": "de6a3ba228af281406f06ad7688093aa",
           "index": 6,
-          "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
-          "title_ko": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
-          "summary": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
-          "summary_ko": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes p…",
-          "url": "https://github.com/NousResearch/hermes-official-plugins",
+          "title": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
+          "title_ko": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
+          "summary": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+          "summary_ko": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+          "url": "https://github.com/outcrawlai/scout",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-15T23:52:43+09:00",
-          "popularity": 293,
-          "upvotes": 293,
-          "score": 33.79,
-          "importance_score": 25.69,
+          "published_at": "2026-10-16T16:57:53+09:00",
+          "popularity": 894,
+          "upvotes": 894,
+          "score": 33.24,
+          "importance_score": 26.7,
           "matched_keywords": [
             "ai",
-            "agent",
-            "claude"
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 293
+            "value": 894
           }
         }
       ]
@@ -176,25 +176,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "1521c4c33fb8315d8833f23c567a7463",
+          "id": "01e7944c19eb09ed56e30501f813d363",
           "index": 7,
-          "title": "Liquid AI, 활성 2B로 로컬 에이전트를 돌리는 MoE 추론 모델 LFM2.5-24B-A2B 공개 (feat. Hermes Agent)",
+          "title": "텍스트 레이어가 있는 문서까지 VLM 파서로 처리해야 할까? - CPU 기반 네이티브 추출로 RAG 문서 파싱하기 (feat. PyMuPDF Pro)",
           "title_ko": null,
-          "summary": "핵심 요약 Liquid AI가 LFM2.5-24B-A2B 출시 블로그 에서 전체 24B, 토큰당 활성 2.45B 파라미터의 MoE 추론 모델과 그 사전학습 모델(Base)의 가중치를 공개했습니다. 답하기 전에 항상 사고 과정을 먼저 생성하고, 컨텍스트는 131K 토큰입니다.",
+          "summary": "소개 RAG 파이프라인을 설계할 때는 보통 LLM 선정, 임베딩, 벡터 DB 구조에 관심이 집중되지만, 실제로 사내 문서를 넣기 시작하면 문서 파서의 인프라 비용 이 생각보다 큰 문제가 됩니다. 최근 많이 쓰이는 레이아웃 모델·VLM 기반 파서는 고가의 GPU가 필요하고, 상용 VLM API는 대량 처리 시 비용과 처리 시간이 크게 늘어납니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188",
+          "url": "https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-15T18:00:37+09:00",
-          "popularity": 99,
+          "published_at": "2026-10-16T15:08:26+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 25.57,
-          "importance_score": 13.25,
+          "score": 24.87,
+          "importance_score": 11.95,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "추론",
+            "llm",
+            "rag",
+            "vlm",
             "모델"
           ],
           "engagement": null
@@ -204,97 +204,98 @@
   ],
   "items": [
     {
-      "id": "162587d68dae67baea635707df29d4c7",
+      "id": "8e8736d559e8098ee5e1def45dd2c500",
       "index": 1,
-      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
-      "title_ko": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
-      "summary": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² reinforcement learning, and evaluates them…",
-      "summary_ko": "StartLux-Decision introduces efficient and adaptive decision models using single-pass prediction and confidence-guided reasoning, trained via a three-stage pipeline with RLCD² rei…",
-      "url": "https://huggingface.co/papers/2610.17309",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "title_ko": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "summary": "A post-training framework using hierarchical supervised fine-tuning and windowed interaction reinforcement learning trains a 35B mixture-of-experts agent to autonomously optimize long-horizon machine learning engineerin…",
+      "summary_ko": "A post-training framework using hierarchical supervised fine-tuning and windowed interaction reinforcement learning trains a 35B mixture-of-experts agent to autonomously optimize…",
+      "url": "https://huggingface.co/papers/2610.22344",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-15T09:00:00+09:00",
-      "popularity": 435,
-      "upvotes": 7,
-      "score": 28.0,
-      "importance_score": 18.0,
+      "published_at": "2026-10-16T09:00:00+09:00",
+      "popularity": 62,
+      "upvotes": 24,
+      "score": 28.43,
+      "importance_score": 12.43,
       "matched_keywords": [
         "ai",
+        "agent",
+        "machine learning",
+        "fine-tuning",
         "reinforcement learning",
-        "reasoning"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 7
-      }
-    },
-    {
-      "id": "5902a8fb8079ffc5c3a60220fb0a265a",
-      "index": 2,
-      "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
-      "title_ko": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
-      "summary": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
-      "summary_ko": "Apertus 1.5 extends open multimodal language models to image and audio reasoning with long-context training, reinforcement learning, and fully open data and weights.",
-      "url": "https://huggingface.co/papers/2610.15542",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-10-15T09:00:00+09:00",
-      "popularity": 73,
-      "upvotes": 34,
-      "score": 26.91,
-      "importance_score": 12.91,
-      "matched_keywords": [
-        "ai",
-        "multimodal",
-        "reinforcement learning",
-        "reasoning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 34
+        "value": 24
       }
     },
     {
-      "id": "276f59038689e4cf6637a087572ec816",
+      "id": "2d359d13d1c79d43705db64b7e888483",
+      "index": 2,
+      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "title_ko": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "summary": "MAI-Gym is an open platform that unifies GUI agent evaluation, data collection, and online reinforcement learning training across mobile, computer, and web environments, enabling scalable synthesis of verified tasks and…",
+      "summary_ko": "MAI-Gym is an open platform that unifies GUI agent evaluation, data collection, and online reinforcement learning training across mobile, computer, and web environments, enabling…",
+      "url": "https://huggingface.co/papers/2610.20939",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-16T09:00:00+09:00",
+      "popularity": 216,
+      "upvotes": 94,
+      "score": 28.14,
+      "importance_score": 16.14,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "reinforcement learning",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 94
+      }
+    },
+    {
+      "id": "d36293a9e785d5b9780b7e268d1345f2",
       "index": 3,
-      "title": "[AI리더의 서가] 벡터 데이터베이스",
+      "title": "[10월16일] AI 수요는 넘치는데 채권은 급락…코어위브가 드러낸 '부채 위험'",
       "title_ko": null,
-      "summary": "벡터 데이터베이스니틴 보르완카르 | 한빛미디어2026년 8월 30일추천이유이 책은 벡터 데이터베이스의 핵심 개념을 코드로 직접 구현하며 배우고, SQLite3와 PostgreSQL 같은 익숙한 도구로 임베딩부터 RAG 시스템까지 단계적으로 구축하는 방법을 제시합니다.",
+      "summary": "최근 며칠 동안 글로벌 증시에서 AI 관련 주식이 급락했습니다. 엔비디아를 비롯한 반도체 기업들이 직격탄을 맞았고, 미국 반도체 기업들의 시가총액은 최근 매도세로 최대 2조달러(약 2800조원)가 사라질 것으로 예상됐습니다. AI 투자 열풍의 최대 수혜주들이 한꺼번에 매도 대상이 된 것입니다.그런데 AI 수요가 줄어서 생긴 문제가 아니라는 것이 주목됩니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216146",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216325",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-16T09:00:00+09:00",
+      "published_at": "2026-10-17T07:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.8,
-      "importance_score": 19.59,
+      "score": 19.38,
+      "importance_score": 18.75,
       "matched_keywords": [
-        "ai",
-        "rag"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "38d275dbc8395324e023fa771aedcc1f",
+      "id": "f538089024e52ce0f98b60ee7331bfb3",
       "index": 4,
-      "title": "아마존, AI 웨어러블 ‘비’ 신제품 출시…월 1.6만원 구독 요금제도",
+      "title": "깃허브, PHP·테라폼 코드 취약점 찾는 'AI 스캔' 정식 출시",
       "title_ko": null,
-      "summary": "[지디넷코리아]아마존이 지난해 인수한 스타트업 ‘비(Bee)’의 제품군을 재편한 웨어러블 기기 2종을 출시하고, 월 12달러(약 1만6000원)의 구독 플랜도 함께 내놨다.15일(현지시간) 블룸버그 등 외신에 따르면 아마존은 기존 손목밴드보다 가볍고 크기가 작으며 방수 기능을 갖춘 신제품 ‘비 프런티어’를 발표했다.",
+      "summary": "[지디넷코리아]깃허브가 현지 시각 10월 15일 코드 변경 요청(풀 리퀘스트)에 포함된 보안 취약점을 AI로 찾는 'AI 스캔' 기능을 정식 출시했다. 풀 리퀘스트는 개발자가 수정한 코드를 프로젝트에 반영해 달라고 요청하는 절차다.AI 스캔은 깃허브의 기존 코드 보안 분석 도구 코드QL(CodeQL)이 지원하지 않는 언어와 형식의 코드를 검사한다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261016091007",
+      "url": "https://zdnet.co.kr/view/?no=20261017092459",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-16T09:14:07+09:00",
+      "published_at": "2026-10-17T09:24:59+09:00",
       "popularity": 99,
       "upvotes": 0,
-      "score": 19.75,
-      "importance_score": 19.59,
+      "score": 19.78,
+      "importance_score": 19.66,
       "matched_keywords": [
         "ai"
       ],
@@ -311,66 +312,65 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-15T23:59:03+09:00",
-      "popularity": 2448,
-      "upvotes": 2448,
-      "score": 35.42,
-      "importance_score": 30.34,
+      "published_at": "2026-10-17T04:59:18+09:00",
+      "popularity": 2858,
+      "upvotes": 2858,
+      "score": 36.46,
+      "importance_score": 32.42,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 2448
+        "value": 2858
       }
     },
     {
-      "id": "a86086d815a0547947505959b33af872",
+      "id": "de6a3ba228af281406f06ad7688093aa",
       "index": 6,
-      "title": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
-      "title_ko": "NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spot",
-      "summary": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
-      "summary_ko": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes p…",
-      "url": "https://github.com/NousResearch/hermes-official-plugins",
+      "title": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
+      "title_ko": "outcrawlai/scout — Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own reposi",
+      "summary": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+      "summary_ko": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+      "url": "https://github.com/outcrawlai/scout",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-15T23:52:43+09:00",
-      "popularity": 293,
-      "upvotes": 293,
-      "score": 33.79,
-      "importance_score": 25.69,
+      "published_at": "2026-10-16T16:57:53+09:00",
+      "popularity": 894,
+      "upvotes": 894,
+      "score": 33.24,
+      "importance_score": 26.7,
       "matched_keywords": [
         "ai",
-        "agent",
-        "claude"
+        "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 293
+        "value": 894
       }
     },
     {
-      "id": "1521c4c33fb8315d8833f23c567a7463",
+      "id": "01e7944c19eb09ed56e30501f813d363",
       "index": 7,
-      "title": "Liquid AI, 활성 2B로 로컬 에이전트를 돌리는 MoE 추론 모델 LFM2.5-24B-A2B 공개 (feat. Hermes Agent)",
+      "title": "텍스트 레이어가 있는 문서까지 VLM 파서로 처리해야 할까? - CPU 기반 네이티브 추출로 RAG 문서 파싱하기 (feat. PyMuPDF Pro)",
       "title_ko": null,
-      "summary": "핵심 요약 Liquid AI가 LFM2.5-24B-A2B 출시 블로그 에서 전체 24B, 토큰당 활성 2.45B 파라미터의 MoE 추론 모델과 그 사전학습 모델(Base)의 가중치를 공개했습니다. 답하기 전에 항상 사고 과정을 먼저 생성하고, 컨텍스트는 131K 토큰입니다.",
+      "summary": "소개 RAG 파이프라인을 설계할 때는 보통 LLM 선정, 임베딩, 벡터 DB 구조에 관심이 집중되지만, 실제로 사내 문서를 넣기 시작하면 문서 파서의 인프라 비용 이 생각보다 큰 문제가 됩니다. 최근 많이 쓰이는 레이아웃 모델·VLM 기반 파서는 고가의 GPU가 필요하고, 상용 VLM API는 대량 처리 시 비용과 처리 시간이 크게 늘어납니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188",
+      "url": "https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-15T18:00:37+09:00",
-      "popularity": 99,
+      "published_at": "2026-10-16T15:08:26+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 25.57,
-      "importance_score": 13.25,
+      "score": 24.87,
+      "importance_score": 11.95,
       "matched_keywords": [
-        "ai",
-        "agent",
-        "추론",
+        "llm",
+        "rag",
+        "vlm",
         "모델"
       ],
       "engagement": null
