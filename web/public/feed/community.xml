@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 18 Oct 2026 17:38:52 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 22:02:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Bespoke Labs, 사실 하나만 바꾼 대조 데이터로 만든 9B 결정 모델 Nimble과 학습 레시피 공개</title>
+      <link>https://discuss.pytorch.kr/t/bespoke-labs-9b-nimble/12196</link>
+      <description>핵심 요약 Bespoke Labs가 Bespoke Nimble 저장소에 Jev식 결정 모델의 학습 데이터, 학습 레시피, 서빙 코드를 공개했습니다. 모델은 Qwen3.5-9B에 LoRA를 붙인 Bespoke-Nimble-9B 이고, 답을 생성하지 않고 허용된 답 토큰의 로짓만 읽어 확률을 냅니다.</description>
+      <pubDate>Sun, 18 Oct 2026 19:30:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/bespoke-labs-9b-nimble/12196">PyTorch Korea</source>
+      <guid isPermaLink="false">7cc363f0e5cfa586f87bd48b71d290d7</guid>
+    </item>
     <item>
       <title>Pie: KV 캐시와 디코딩 루프를 사용자 프로그램에 맡기는 오픈소스 LLM 서빙 시스템 (feat. SOSP 2025)</title>
       <link>https://discuss.pytorch.kr/t/pie-kv-llm-feat-sosp-2025/12197</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/agentcraft-claude-minecraft/12101">PyTorch Korea</source>
       <guid isPermaLink="false">26f60f3e4c35f45c4e9274391bbad955</guid>
-    </item>
-    <item>
-      <title>Jev와 유사한 오픈소스 결정 모델에 대한 정리: Decision Index와 JevBench로 비교한 결정 모델 성능 비교</title>
-      <link>https://discuss.pytorch.kr/t/jev-decision-index-jevbench/12095</link>
-      <description>핵심 요약 Jev Decision Index 는 Hugging Face의 ML 엔지니어 apolinário(multimodalart)가 운영하는 Space입니다. News 탭은 Jev 재현 산출물 66개를 모으고, Index 탭은 모델 70개를 같은 38개 벤치마크로 채점합니다.</description>
-      <pubDate>Tue, 06 Oct 2026 08:30:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jev-decision-index-jevbench/12095">PyTorch Korea</source>
-      <guid isPermaLink="false">07103f445619a2e12e85a1533ca5cedf</guid>
     </item>
   </channel>
 </rss>
