@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:30:28 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 17:38:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Pie: KV 캐시와 디코딩 루프를 사용자 프로그램에 맡기는 오픈소스 LLM 서빙 시스템 (feat. SOSP 2025)</title>
+      <link>https://discuss.pytorch.kr/t/pie-kv-llm-feat-sosp-2025/12197</link>
+      <description>핵심 요약 Yale 대학교 연구진의 Pie 논문 (SOSP 2025)은 LLM 서빙 엔진의 고정된 생성 루프를 42개의 API로 쪼갭니다. 사용자가 쓴 WebAssembly 프로그램(인퍼렛, Inferlet)이 이 API로 KV(Key-Value) 캐시, 순전파, 샘플링, 도구 호출을 직접 제어합니다.</description>
+      <pubDate>Sun, 18 Oct 2026 12:30:18 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/pie-kv-llm-feat-sosp-2025/12197">PyTorch Korea</source>
+      <guid isPermaLink="false">dd3424381e924486ebd93fe0e4cb779a</guid>
+    </item>
     <item>
       <title>MAI-Base-2 사전학습 레시피: Microsoft AI가 공개한, DeepSeek-V4-Pro-Base보다 4~12배 효율적이라는 2.8T MoE 모델의 사전학습 방법</title>
       <link>https://discuss.pytorch.kr/t/mai-base-2-microsoft-ai-deepseek-v4-pro-base-4-12-2-8t-moe/12210</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/jev-decision-index-jevbench/12095">PyTorch Korea</source>
       <guid isPermaLink="false">07103f445619a2e12e85a1533ca5cedf</guid>
-    </item>
-    <item>
-      <title>로컬 모델로 SQL을 쓰고 실행하는 에이전트를 붙인 오픈소스 DB 클라이언트, 46개 엔진에서 실제로 되는지 재봤습니다</title>
-      <link>https://discuss.pytorch.kr/t/sql-db-46/12105</link>
-      <description>안녕하세요. LibreDB Studio를 만드는 팀에서 글을 씁니다. 자랑보다는 저희가 잰 숫자와 깨진 부분을 같이 올리고 피드백을 받고 싶어서 올립니다.</description>
-      <pubDate>Mon, 05 Oct 2026 21:49:38 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/sql-db-46/12105">PyTorch Korea</source>
-      <guid isPermaLink="false">33d7121de93d1802a4cd56b4eafe7d70</guid>
     </item>
   </channel>
 </rss>
