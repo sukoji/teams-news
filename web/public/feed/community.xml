@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 19 Oct 2026 14:50:31 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 21:26:40 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>2030년까지 AI의 발전 기대에 대한 차이 연구: 노벨상급 발견, 노동 시장 등에 AI가 미칠 영향에 대한 인식 차이 [영문/PDF/16p]</title>
+      <link>https://discuss.pytorch.kr/t/2030-ai-ai-pdf-16p/12228</link>
+      <description>핵심 요약 Anthropic Institute의 The AI Expectations Gap 보고서 는 2026년 8월에 미국 성인 10,980명과 Anthropic 직원 1,334명에게 대부분 같은 질문을 던져 AI의 미래에 대한 기대를 비교했습니다.</description>
+      <pubDate>Mon, 19 Oct 2026 16:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/2030-ai-ai-pdf-16p/12228">PyTorch Korea</source>
+      <guid isPermaLink="false">f0da0acb9322adc47c8d1e3979c8d624</guid>
+    </item>
+    <item>
+      <title>[프로젝트 소개] APIGOTO: OpenAI Python SDK에서 base_url만 바꿔 여러 모델을 같은 코드로 비교하기</title>
+      <link>https://discuss.pytorch.kr/t/apigoto-openai-python-sdk-base-url/12241</link>
+      <description>먼저 밝힙니다. 저는 APIGOTO 팀에서 일합니다. APIGOTO는 OpenAI 호환 API 게이트웨이이고, OpenAI·Anthropic·Google과는 관계없는 독립 서비스입니다.</description>
+      <pubDate>Mon, 19 Oct 2026 16:04:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/apigoto-openai-python-sdk-base-url/12241">PyTorch Korea</source>
+      <guid isPermaLink="false">ae54ce9991c4df4ff68c3abe0103a6f5</guid>
+    </item>
+    <item>
+      <title>LeanREA: REA의 MCP 도구 207개 대신 8KB 스킬 파일 하나로 리버스 엔지니어링을 안내하는 에이전트 스킬 (≠ REA 공식 경량판)</title>
+      <link>https://discuss.pytorch.kr/t/leanrea-rea-mcp-207-8kb-rea/12233</link>
+      <description>핵심 요약 leanrea 는 리버스 엔지니어링 MCP 서버인 REA(Reverse Engineer Anything) 대신, 8KB짜리 SKILL.md 한 장으로 코딩 에이전트가 otool , nm , go version -m , rg 같은 명령줄 도구를 직접 실행하게 하는 에이전트 스킬입니다. 이름과 달리 REA 팀이 만든 경량판이 아니며, 저자는 REA와 관계가 없다고 밝히고 있습니다.</description>
+      <pubDate>Mon, 19 Oct 2026 19:30:10 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/leanrea-rea-mcp-207-8kb-rea/12233">PyTorch Korea</source>
+      <guid isPermaLink="false">9bc80870befad032091e48d6dd4766d0</guid>
+    </item>
+    <item>
+      <title>[프로젝트 소개] AI 코딩 에이전트의 작업 결과를 웹과 Git에서 확인하는 Orke</title>
+      <link>https://discuss.pytorch.kr/t/ai-git-orke/12246</link>
+      <description>제품 소개 글입니다. 저는 BOMTOBE에서 Orke의 한국어 홍보를 맡고 있습니다. 개인 사용 후기나 성능 비교가 아니라 공식 안내에 근거해 제품을 소개합니다.</description>
+      <pubDate>Mon, 19 Oct 2026 18:49:43 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-git-orke/12246">PyTorch Korea</source>
+      <guid isPermaLink="false">665fd00189e52d1c43b4774de24a066d</guid>
+    </item>
     <item>
       <title>Claudemy: 주제 하나로 웹을 조사해 출처가 달린 2분 오디오 강의를 만드는 Claude Code 스킬</title>
       <link>https://discuss.pytorch.kr/t/claudemy-2-claude-code/12234</link>
@@ -421,42 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/pymupdf-vs-docling/12120">PyTorch Korea</source>
       <guid isPermaLink="false">ed7004f2bdb24a1732ca9f229add5146</guid>
-    </item>
-    <item>
-      <title>Reflection AI, 활성 23B로 추론 연산을 줄인 501B 오픈 웨이트 모델 Beam 발표 (가중치는 이번 달 내 공개 예정)</title>
-      <link>https://discuss.pytorch.kr/t/reflection-ai-23b-501b-beam/12112</link>
-      <description>핵심 요약 Reflection AI가 Beam 소개 블로그 에서 첫 오픈 웨이트(Open-Weight) 모델 Beam을 발표했습니다. 전체 501B, 토큰당 활성 23B 파라미터의 희소 MoE 모델이며 코딩, 추론, 에이전트 작업을 겨냥합니다. 지금은 Reflection 플랫폼 의 대기자 명단으로 일부 사용자에게만 열려 있습니다.</description>
-      <pubDate>Wed, 07 Oct 2026 11:30:24 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/reflection-ai-23b-501b-beam/12112">PyTorch Korea</source>
-      <guid isPermaLink="false">971fa1fb503af8c53d0e3ea01ab7ea78</guid>
-    </item>
-    <item>
-      <title>Google, 텍스트 전용이던 EmbeddingGemma를 이미지, 영상, 음성까지 넓힌 EmbeddingGemma 2 공개</title>
-      <link>https://discuss.pytorch.kr/t/google-embeddinggemma-embeddinggemma-2/12118</link>
-      <description>핵심 요약 Google DeepMind가 EmbeddingGemma 2 발표 글 에서 텍스트, 코드, 이미지, 영상, 음성을 하나의 768차원 공간에 담는 740M 임베딩 모델을 Apache 2.0 라이선스로 공개했습니다. 텍스트 전용 270M 모델에 비전(170M)과 오디오(300M) 인코더를 골라 붙이는 구조라, 텍스트만 다루는 서비스는 270M만 불러 쓸 수 있습니다.</description>
-      <pubDate>Wed, 07 Oct 2026 15:00:18 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/google-embeddinggemma-embeddinggemma-2/12118">PyTorch Korea</source>
-      <guid isPermaLink="false">7303675710cc506afae1081c34555c84</guid>
-    </item>
-    <item>
-      <title>ThinkingBox: 에이전트가 남긴 DB 상태로 채점하고 20번 반복해 신뢰성을 재는 업무 에이전트 벤치마크</title>
-      <link>https://discuss.pytorch.kr/t/thinkingbox-db-20/12107</link>
-      <description>핵심 요약 Microsoft와 피츠버그대, 노스웨스턴대 등의 연구팀은 ThinkingBox 논문 에서 에이전트가 작업을 끝낸 뒤의 백엔드 데이터베이스 상태와 부수 효과(side effect)로 채점하는 샌드박스 ThinkingBox 를 공개했습니다.</description>
-      <pubDate>Wed, 07 Oct 2026 08:00:41 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/thinkingbox-db-20/12107">PyTorch Korea</source>
-      <guid isPermaLink="false">b6d78d68fb1ee7c0df0e5157c9d97976</guid>
-    </item>
-    <item>
-      <title>재귀적 자기 개선(RSI, Recursive Self-Improvement) 기법에 대한 서베이 연구 (2/2): 검증 계층과 자동 연구, 안전 문제 등</title>
-      <link>https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069</link>
-      <description>핵심 요약 Recursive Self-Improvement in AI 서베이는 개선 신호를 신뢰도에 따라 형식 검증기, 실행 피드백, 학습된 심판, 내재 신호의 네 단계 검증 계층으로 정렬하고, 실제로 입증된 자기 개선의 강도가 이 계층을 따른다고 관찰합니다(측정된 법칙이 아닌 정성적 패턴입니다).</description>
-      <pubDate>Tue, 06 Oct 2026 18:00:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/rsi-recursive-self-improvement-2-2/12069">PyTorch Korea</source>
-      <guid isPermaLink="false">922f110e5f354ee24164da0e43cd932f</guid>
     </item>
   </channel>
 </rss>
