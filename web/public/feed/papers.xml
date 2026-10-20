@@ -5,9 +5,99 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Oct 2026 23:46:56 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 04:00:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale</title>
+      <link>https://huggingface.co/papers/2604.11331</link>
+      <description>Direct diffusion modeling in a 3D latent space improves spatial consistency and efficiency for scene-level 3D generation compared to 2D-based methods.</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2604.11331">Hugging Face Papers</source>
+      <guid isPermaLink="false">816fb0dd73740b59e25e099b9af32c8a</guid>
+    </item>
+    <item>
+      <title>Heterogeneous Agentic Coevolution</title>
+      <link>https://huggingface.co/papers/2610.16078</link>
+      <description>HACE is a framework that jointly evolves specialized foundation models and LLM agents through reciprocal learning and evolutionary optimization of their interaction harness, impro…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.16078">Hugging Face Papers</source>
+      <guid isPermaLink="false">9b657f2360e2d74b4b50be42014119ae</guid>
+    </item>
+    <item>
+      <title>Predicting Privileged Information Effectiveness for On-Policy Self-Distillation</title>
+      <link>https://huggingface.co/papers/2610.22512</link>
+      <description>On-policy self-distillation with privileged information improves multi-turn agent performance depending on content and source, and KL-based metrics better predict training gains t…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22512">Hugging Face Papers</source>
+      <guid isPermaLink="false">4aae4940d5c0a9152ea3c78eabe9c219</guid>
+    </item>
+    <item>
+      <title>StopLoss: Teaching Agents to Predict Failure and Stop Early</title>
+      <link>https://huggingface.co/papers/2610.25525</link>
+      <description>StopLoss is a lightweight external monitor that predicts coding-agent failures from recent tool steps to abort doomed runs early, reducing compute costs while preserving successfu…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.25525">Hugging Face Papers</source>
+      <guid isPermaLink="false">6ea84747b524322ed740f182b2b2b887</guid>
+    </item>
+    <item>
+      <title>Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents</title>
+      <link>https://huggingface.co/papers/2610.19439</link>
+      <description>Progress-Aware Distillation detects and penalizes stagnation in distilled small language model agents to improve reasoning efficiency and success rates.</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19439">Hugging Face Papers</source>
+      <guid isPermaLink="false">85a2e8b5dd76ba9a7e1aed7d570d599b</guid>
+    </item>
+    <item>
+      <title>HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention</title>
+      <link>https://huggingface.co/papers/2610.06563</link>
+      <description>HERA co-evolves agent harnesses and task environments to improve abstention and task completion across diverse LLMs without model-specific tuning.</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.06563">Hugging Face Papers</source>
+      <guid isPermaLink="false">c1dd181537f2aef0c30cbec575073ffc</guid>
+    </item>
+    <item>
+      <title>Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness</title>
+      <link>https://huggingface.co/papers/2610.22636</link>
+      <description>Mechanistic uncertainty is quantified via internal mechanism stability using causal robustness margins and concept steering vectors, revealing that incorrect responses are more se…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22636">Hugging Face Papers</source>
+      <guid isPermaLink="false">cb1c05aa7b6fe4bec9bd9a98aeb693ee</guid>
+    </item>
+    <item>
+      <title>Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations</title>
+      <link>https://huggingface.co/papers/2610.25159</link>
+      <description>The study develops a taxonomy to identify legal guidance requests in conversational AI, annotates thousands of chats, and evaluates ModernBERT models against a baseline for detect…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.25159">Hugging Face Papers</source>
+      <guid isPermaLink="false">f8e5a3b19828ffccac92fcc47e59894a</guid>
+    </item>
+    <item>
+      <title>Competence-Based Evaluation of Logical Reasoning in Large Language Models</title>
+      <link>https://huggingface.co/papers/2610.22894</link>
+      <description>Competence-based evaluation reveals that large language models fail to consistently apply reasoning rules across varied problem presentations despite high accuracy on bounded task…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22894">Hugging Face Papers</source>
+      <guid isPermaLink="false">c7e288f15513c2aeaec415ce0ac3f691</guid>
+    </item>
+    <item>
+      <title>First Passage Attention</title>
+      <link>https://huggingface.co/papers/2610.22714</link>
+      <description>First Passage Attention replaces monotonic decay accumulation with path extrema to selectively retain older context, enabling perfect long-range retrieval with compressed caches.</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22714">Hugging Face Papers</source>
+      <guid isPermaLink="false">61a43ca83938c8b8c34f4ba143a771a5</guid>
+    </item>
     <item>
       <title>Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation</title>
       <link>https://huggingface.co/papers/2610.25964</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.20597">Hugging Face Papers</source>
       <guid isPermaLink="false">613c253b0765c939081d2595d6b372df</guid>
-    </item>
-    <item>
-      <title>Self-Evolving Coding Agents via Harness-Policy Optimization</title>
-      <link>https://huggingface.co/papers/2610.22791</link>
-      <description>Self-HPO is a recursive framework that alternates harness and policy optimization for coding agents, improving performance by targeting evolving failure modes through reinforcemen…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.22791">Hugging Face Papers</source>
-      <guid isPermaLink="false">6630740b12bfcbcd7fd47b78e9975a33</guid>
-    </item>
-    <item>
-      <title>CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents</title>
-      <link>https://huggingface.co/papers/2610.24960</link>
-      <description>CoworkEnv synthesizes executable training environments for AI coworkers using workflow-guided task construction and programmatic validation, enabling supervised fine-tuning and re…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24960">Hugging Face Papers</source>
-      <guid isPermaLink="false">07e441464c1ab9c6578f1686e3253242</guid>
-    </item>
-    <item>
-      <title>ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation</title>
-      <link>https://huggingface.co/papers/2610.25690</link>
-      <description>ScaleNav learns goal-directed visual dynamics from internet egocentric videos to generate robot actions for language-conditioned local navigation, achieving high success rates in…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.25690">Hugging Face Papers</source>
-      <guid isPermaLink="false">d86739c39636ce506fef0be2810572e8</guid>
-    </item>
-    <item>
-      <title>OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners</title>
-      <link>https://huggingface.co/papers/2610.24087</link>
-      <description>OR-License evaluates whether LLM agents can solve real-world operations research problems from original client materials, finding that while some achieve high objective quality, n…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24087">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f892fdc51382ce6a447ca0f9a914c0b</guid>
-    </item>
-    <item>
-      <title>Interlock: From Local Correctness to Task Completion in Long-Horizon Agents</title>
-      <link>https://huggingface.co/papers/2610.19686</link>
-      <description>Interlock synthesizes long-horizon tasks as typed completion graphs to enforce cross-component constraints, then uses agent-based verification and self-training to improve agent p…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19686">Hugging Face Papers</source>
-      <guid isPermaLink="false">e33aa0e7fa021ed914c1fafbb553aa5f</guid>
-    </item>
-    <item>
-      <title>MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion</title>
-      <link>https://huggingface.co/papers/2610.25404</link>
-      <description>MT Forcing improves multi-turn image editing by combining single-turn distribution matching distillation and teacher-forcing guidance to stabilize visual quality and preserve cros…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.25404">Hugging Face Papers</source>
-      <guid isPermaLink="false">faa89f9afe28461e08530b68faba6c7a</guid>
-    </item>
-    <item>
-      <title>World Model Interpretability: From Decoding Representations to Understanding Latent Worlds</title>
-      <link>https://huggingface.co/papers/2610.25296</link>
-      <description>JEPA latent-world interpretability should shift from decoding representations to analyzing how latent variables interact, evolve, and causally drive prediction through grounding,…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.25296">Hugging Face Papers</source>
-      <guid isPermaLink="false">691774d0ab2853ef294204c6fa6bee21</guid>
-    </item>
-    <item>
-      <title>Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips</title>
-      <link>https://huggingface.co/papers/2610.25666</link>
-      <description>Fréchet Forcing fine-tunes streaming video world models using self-generated rollouts and real-data statistics to prevent long-horizon drift without requiring teachers or long vid…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.25666">Hugging Face Papers</source>
-      <guid isPermaLink="false">c6b05c3b1de6445ec2f6b65f1a1099f6</guid>
-    </item>
-    <item>
-      <title>Self-Evaluating Recursive Agents</title>
-      <link>https://huggingface.co/papers/2610.04902</link>
-      <description>SERA trains recursive language agents to generate evaluation rubrics for subtasks, improving decomposition, solving, and self-evaluation with reduced external supervision.</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.04902">Hugging Face Papers</source>
-      <guid isPermaLink="false">1e7f081e3f2a7e0368d15922aa1d2952</guid>
-    </item>
-    <item>
-      <title>Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution</title>
-      <link>https://huggingface.co/papers/2610.17816</link>
-      <description>EC2-Bench evaluates edge-cloud collaboration for long-horizon LLM agents, revealing trade-offs among performance, resource use, and privacy, and showing that stronger edge models…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.17816">Hugging Face Papers</source>
-      <guid isPermaLink="false">9c55b939858aaedbfa1819b2b89a33bf</guid>
     </item>
   </channel>
 </rss>
