@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Oct 2026 10:29:56 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 12:53:21 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Traceway: LLM 호출 비용까지 추적하고 AI 에이전트가 직접 조회하는 셀프 호스팅 관측 플랫폼</title>
+      <link>https://discuss.pytorch.kr/t/traceway-llm-ai/12232</link>
+      <description>핵심 요약 Traceway 는 로그, 트레이스, 메트릭, 예외, 세션 리플레이, LLM 호출 추적을 하나의 서버에 모으는 OpenTelemetry 기반 관측 플랫폼으로, OTLP(OpenTelemetry Protocol)/HTTP 엔드포인트 하나로 데이터를 받습니다. LLM 호출은 gen_ai.* 속성이 붙은 span으로 들어오면 모델, 토큰, 비용, 대화, 도구 호출 단위로 정리됩니다.</description>
+      <pubDate>Tue, 20 Oct 2026 11:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/traceway-llm-ai/12232">PyTorch Korea</source>
+      <guid isPermaLink="false">a12df87d0ff6e9809008e9b6aed78dd5</guid>
+    </item>
+    <item>
+      <title>[오픈소스] 하네스 논문 세 편을 에이전트 하나로 묶어 봤습니다: LongHarness + Harmony Harness + Harness² 경량 구현 (비공식)</title>
+      <link>https://discuss.pytorch.kr/t/longharness-harmony-harness-harness/12248</link>
+      <description>지난주 이번 주에 살펴볼 만한 AI/ML 논문 모음(10/12~18) 에서 첫 번째 흐름으로 묶인 세 편을 읽었습니다. 셋 다 모델이 아니라 하네스 를 고칩니다. 하네스는 모델 바깥의 시스템 프롬프트, 도구 안내, 스킬, 검증 규칙, 예산을 말합니다.</description>
+      <pubDate>Tue, 20 Oct 2026 08:34:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/longharness-harmony-harness-harness/12248">PyTorch Korea</source>
+      <guid isPermaLink="false">0b6a74fc181ca5b6f782ce81bd7b90bc</guid>
+    </item>
     <item>
       <title>2030년까지 AI의 발전 기대에 대한 차이 연구: 노벨상급 발견, 노동 시장 등에 AI가 미칠 영향에 대한 인식 차이 [영문/PDF/16p]</title>
       <link>https://discuss.pytorch.kr/t/2030-ai-ai-pdf-16p/12228</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/octop-ai-feat-tencent/12124">PyTorch Korea</source>
       <guid isPermaLink="false">b4d6a24e064c7c17be750aeaa6196c51</guid>
-    </item>
-    <item>
-      <title>Google이 공개한 AI 에이전트 프라이버시와 보안의 51가지 이슈에 대한 워크숍 보고서 [영문/PDF/116p]</title>
-      <link>https://discuss.pytorch.kr/t/google-ai-51-pdf-116p/12113</link>
-      <description>핵심 요약 Google Research가 2026년 10월 5일 블로그 글 과 함께 116쪽 분량의 워크숍 보고서 를 공개했습니다. 2025년 11월 뉴욕에서 열린 CAPS 워크숍의 논의를 정리한 문서이며, 공저자는 66명입니다. 보고서는 AI 에이전트의 프라이버시와 보안을 " 맥락에 맞는 적절한 행동 "의 문제로 봅니다.</description>
-      <pubDate>Thu, 08 Oct 2026 08:00:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/google-ai-51-pdf-116p/12113">PyTorch Korea</source>
-      <guid isPermaLink="false">8072b476efdfde4bdfb3f3c2589dfd59</guid>
-    </item>
-    <item>
-      <title>경쟁사 벤치마크로 검증한 로컬 문서 파서 성능 비교 (PyMuPDF vs Docling)</title>
-      <link>https://discuss.pytorch.kr/t/pymupdf-vs-docling/12120</link>
-      <description>태그: rag , llm , document-ai , benchmark , pymupdf , docling , opensource 최근 RAG(검색 증강 생성)나 멀티모달 LLM 파이프라인을 구축할 때 가장 먼저 마주치는 고민 중 하나가 바로 "비정형 PDF 문서를 어떻게 빠르고 정확하게 파싱할 것인가?"일 것입니다.</description>
-      <pubDate>Wed, 07 Oct 2026 14:53:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pymupdf-vs-docling/12120">PyTorch Korea</source>
-      <guid isPermaLink="false">ed7004f2bdb24a1732ca9f229add5146</guid>
     </item>
   </channel>
 </rss>
