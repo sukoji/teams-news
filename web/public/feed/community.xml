@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Oct 2026 18:15:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 23:46:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (2/2): 프로토콜과 하네스 엔지니어링, 남은 과제</title>
+      <link>https://discuss.pytorch.kr/t/llm-externalization-2-2/12178</link>
+      <description>핵심 요약 Externalization in LLM Agents 리뷰의 2부입니다. 프로토콜은 호출 문법, 수명주기 규칙, 권한과 신뢰 경계, 탐색 메타데이터를 모델 밖의 명시적인 계약으로 옮깁니다. 저자들은 MCP, A2A, ACP, ANP, A2UI, AG-UI, UCP, AP2를 상호작용 대상에 따라 네 갈래로 정리합니다.</description>
+      <pubDate>Tue, 20 Oct 2026 19:30:58 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llm-externalization-2-2/12178">PyTorch Korea</source>
+      <guid isPermaLink="false">b440af189afe9e4927e7345e261d41dd</guid>
+    </item>
     <item>
       <title>LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (1/2): 가중치에서 하네스로, 메모리와 스킬</title>
       <link>https://discuss.pytorch.kr/t/llm-externalization-1-2/12177</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/jeff-code-0-8b-qwen3-8-27b-32-pi/12122">PyTorch Korea</source>
       <guid isPermaLink="false">6200b0086f90a54a92322ec82f39f425</guid>
-    </item>
-    <item>
-      <title>[오픈소스] 협업을 재려면 정보 배치부터 설계해야 했다: AgentWorld 경량 실험장 (비공식)</title>
-      <link>https://discuss.pytorch.kr/t/agentworld/12131</link>
-      <description>멀티에이전트 과제에서 채팅이 실제로 필요한지 확인하고 싶어, AgentWorld를 가볍게 실험할 수 있는 시뮬레이터를 만들었습니다. 처음 만든 9개 과제는 공유 문서만으로도 많이 풀렸습니다. 그래서 과제 생성기에 "정보 은닉 정도"를 넣었고, 정보가 각자의 개인 브리핑으로 옮겨갈수록 채팅 횟수와 채팅 차단 시 성공률 차이가 함께 커지는 모습을 관찰했습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 15:41:37 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/agentworld/12131">PyTorch Korea</source>
-      <guid isPermaLink="false">4e846a296f59810a546a7b3a46757ffe</guid>
     </item>
   </channel>
 </rss>
