@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Oct 2026 04:00:33 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 07:14:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>A Language-Informed Loss for Visual Generation</title>
+      <link>https://huggingface.co/papers/2610.23653</link>
+      <description>LILIE uses an invertible normalizing-flow encoder to derive language-informed supervision for text-to-image generation, improving fidelity over pixel-only training.</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.23653">Hugging Face Papers</source>
+      <guid isPermaLink="false">849ada0c6b4cb4afacdf0876c1b8e7a7</guid>
+    </item>
+    <item>
+      <title>Vision as Proprioception: Estimating Humanoid Robot Pose from Video</title>
+      <link>https://huggingface.co/papers/2610.25288</link>
+      <description>HumanoidPose recovers full-body humanoid robot joint configurations from video by combining human-pose features with robot kinematics and self-training on unlabeled videos.</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.25288">Hugging Face Papers</source>
+      <guid isPermaLink="false">c1547b2ff8e9d71591541c1066bafc78</guid>
+    </item>
+    <item>
+      <title>Harness-Delta Attribution: Dissecting Gains From Harness Evolution</title>
+      <link>https://huggingface.co/papers/2610.22466</link>
+      <description>Harness-Delta Attribution dissects harness evolution gains into overfitting, test-time scaling, and residual generalizable improvement, finding that most search-set gains do not r…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22466">Hugging Face Papers</source>
+      <guid isPermaLink="false">ac05c88580a07c807d05fed1cc943617</guid>
+    </item>
     <item>
       <title>Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale</title>
       <link>https://huggingface.co/papers/2604.11331</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.26765">Hugging Face Papers</source>
       <guid isPermaLink="false">aaa739fbf8e53768003d5896a671c435</guid>
-    </item>
-    <item>
-      <title>Harnessing Textual Refusal Directions for Multimodal Safety</title>
-      <link>https://huggingface.co/papers/2606.31876</link>
-      <description>MARS enables multimodal safety steering using only text-derived refusal directions, avoiding the need for multimodal safety data.</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31876">Hugging Face Papers</source>
-      <guid isPermaLink="false">5df1677c7c9c30987a79b45cf6bb7ccc</guid>
-    </item>
-    <item>
-      <title>Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2610.09496</link>
-      <description>Researchers identify state hallucination in vision-language-action models and propose sparse feature unlearning to reduce failure behaviors while preserving manipulation skills.</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.09496">Hugging Face Papers</source>
-      <guid isPermaLink="false">d22c7ca5b971e7ea386ec23bd3c389b0</guid>
-    </item>
-    <item>
-      <title>Co-Evolving Acting and Forecasting for Language Agents</title>
-      <link>https://huggingface.co/papers/2610.20597</link>
-      <description>CoPE improves agentic reinforcement learning by training policies to generate multi-step action sequences from trajectory histories, increasing sample efficiency without inference…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20597">Hugging Face Papers</source>
-      <guid isPermaLink="false">613c253b0765c939081d2595d6b372df</guid>
     </item>
   </channel>
 </rss>
