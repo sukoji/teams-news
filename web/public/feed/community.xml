@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Oct 2026 16:13:34 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 22:33:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Google, Willow 양자 프로세서에서 매직 상태 배양에 대한 실험하여 오류를 40배 감소하는 결과 공개</title>
+      <link>https://discuss.pytorch.kr/t/google-willow-40/12229</link>
+      <description>핵심 요약 Google Quantum AI가 Science 논문 으로 매직 상태 배양(magic state cultivation)을 Willow 프로세서에서 실험으로 검증했습니다. 배양을 넣자 |T\rangle 상태의 회로 전체 논리 오류가 주입만 했을 때보다 약 40배 줄었고, 충실도 하한은 0.9999(1)입니다. 이 수치는 검출된 오류가 하나라도 있는 시도를 모두 버린 뒤의 값입니다.</description>
+      <pubDate>Wed, 21 Oct 2026 17:30:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-willow-40/12229">PyTorch Korea</source>
+      <guid isPermaLink="false">d14279cc35102ef0c94513ed8d749406</guid>
+    </item>
     <item>
       <title>gitai: 한 브랜치에 몰린 코딩 에이전트들의 변경을 서버가 대신 rebase해 반영하는 Git 서버 (Anthropic Scion 설계 참고)</title>
       <link>https://discuss.pytorch.kr/t/gitai-rebase-git-anthropic-scion/12235</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-nber-133-ai/12134">PyTorch Korea</source>
       <guid isPermaLink="false">ac7cb822a74937b06ea51282e54a8519</guid>
-    </item>
-    <item>
-      <title>Darwin-27B-ZTC: 생성 없는 단일 순전파 판정기와 보정 품질의 정량 분석</title>
-      <link>https://discuss.pytorch.kr/t/darwin-27b-ztc/12132</link>
-      <description>들어가며: LLM-as-judge의 두 가지 구조적 부채 LLM을 평가자(judge)로 쓰는 패턴이 빠르게 표준이 됐습니다. 응답 채점, 선호 비교, 라우팅, 안전 필터링까지, 사람이 매기던 판단을 모델이 대신합니다. 그런데 생성형 LLM을 판정기로 쓰는 순간 두 가지 구조적 부채가 따라옵니다.</description>
-      <pubDate>Thu, 08 Oct 2026 17:19:21 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/darwin-27b-ztc/12132">PyTorch Korea</source>
-      <guid isPermaLink="false">e2696696234812243c305f9c080e9a50</guid>
     </item>
   </channel>
 </rss>
