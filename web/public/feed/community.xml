@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Oct 2026 10:13:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:23:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Harness²: 정답 라벨 없이 작업마다 에이전트 하네스를 고치고, 그 경험을 다음 작업에 넘기는 프레임워크 (feat. Google)</title>
+      <link>https://discuss.pytorch.kr/t/harness-feat-google/12231</link>
+      <description>핵심 요약 Harness² 는 모델 가중치를 고정한 채, 처음 보는 작업마다 에이전트 하네스(시스템 프롬프트, 스킬, 스크립트 등 8가지 파일)를 고쳐 보고 그 경험을 도메인별 라이브러리에 쌓아 다음 작업에 넘기는 프레임워크입니다.</description>
+      <pubDate>Wed, 21 Oct 2026 08:00:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/harness-feat-google/12231">PyTorch Korea</source>
+      <guid isPermaLink="false">bab112140b2da814f489712dccadab43</guid>
+    </item>
     <item>
       <title>LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (2/2): 프로토콜과 하네스 엔지니어링, 남은 과제</title>
       <link>https://discuss.pytorch.kr/t/llm-externalization-2-2/12178</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/loopcd-apple/12094">PyTorch Korea</source>
       <guid isPermaLink="false">8e0576924df94075f669a98a456d998f</guid>
-    </item>
-    <item>
-      <title>Jeff-Code: 0.8B 결정 모델이 턴마다 사고 여부를 골라 Qwen3.8-27B의 작업당 시간을 32% 줄인 Pi 포크</title>
-      <link>https://discuss.pytorch.kr/t/jeff-code-0-8b-qwen3-8-27b-32-pi/12122</link>
-      <description>핵심 요약 Jeff-Code 는 Pi 코딩 에이전트를 포크한 연구용 코드입니다. 0.8B 결정 모델 Jeff가 Qwen3.8-27B의 매 턴 앞에서 두 가지를 정합니다. 파일 읽기나 코드 검색 같은 정보 수집 단계를 자기가 먼저 실행할지, 이번 턴에 Qwen의 사고 모드를 켤지입니다.</description>
-      <pubDate>Thu, 08 Oct 2026 15:30:36 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jeff-code-0-8b-qwen3-8-27b-32-pi/12122">PyTorch Korea</source>
-      <guid isPermaLink="false">6200b0086f90a54a92322ec82f39f425</guid>
     </item>
   </channel>
 </rss>

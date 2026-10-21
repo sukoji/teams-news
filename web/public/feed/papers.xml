@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Oct 2026 10:13:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:23:39 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning</title>
+      <link>https://huggingface.co/papers/2610.26754</link>
+      <description>TokenGate is a lightweight learnable token-pruning module that accelerates long-context prefill in transformers by selectively skipping unimportant tokens via token-gated attentio…</description>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.26754">Hugging Face Papers</source>
+      <guid isPermaLink="false">21333a2d82b5b24150338b68c36d31af</guid>
+    </item>
     <item>
       <title>A Language-Informed Loss for Visual Generation</title>
       <link>https://huggingface.co/papers/2610.23653</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.25011">Hugging Face Papers</source>
       <guid isPermaLink="false">e08ced13462ebffb0e25bd48168e2a2a</guid>
-    </item>
-    <item>
-      <title>HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation</title>
-      <link>https://huggingface.co/papers/2610.26765</link>
-      <description>HandsOn is a cross-embodiment simulation benchmark and platform for dexterous manipulation that evaluates generalization across robotic arms, hands, objects, and composed tasks, r…</description>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.26765">Hugging Face Papers</source>
-      <guid isPermaLink="false">aaa739fbf8e53768003d5896a671c435</guid>
     </item>
   </channel>
 </rss>
