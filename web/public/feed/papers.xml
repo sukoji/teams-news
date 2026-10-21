@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Oct 2026 22:33:46 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 03:28:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents</title>
+      <link>https://huggingface.co/papers/2610.16523</link>
+      <description>EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.16523">Hugging Face Papers</source>
+      <guid isPermaLink="false">8eb13611aab9952a70df44f22a794965</guid>
+    </item>
+    <item>
+      <title>Training the Whole Agent, Not Just the Model</title>
+      <link>https://huggingface.co/papers/2610.28069</link>
+      <description>HarnessAdapt-RL jointly trains a coding policy and adapts its evaluation harness via mechanism-level skills and evolving tools, improving benchmark pass rates over fixed-harness r…</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.28069">Hugging Face Papers</source>
+      <guid isPermaLink="false">eea108a44324e00ac450f1811227b0fc</guid>
+    </item>
+    <item>
+      <title>Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling</title>
+      <link>https://huggingface.co/papers/2610.28388</link>
+      <description>LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks.</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.28388">Hugging Face Papers</source>
+      <guid isPermaLink="false">d9a7cb3a7d3a62ccdf4b0188abec84b7</guid>
+    </item>
+    <item>
+      <title>BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks</title>
+      <link>https://huggingface.co/papers/2610.25459</link>
+      <description>BiDex-100 is a simulation benchmark for bimanual dexterous manipulation that evaluates vision-language-action models across diverse tasks, robustness variants, and demonstration s…</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.25459">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d6f24946c79c36c961205787520531f</guid>
+    </item>
+    <item>
+      <title>On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs</title>
+      <link>https://huggingface.co/papers/2610.23400</link>
+      <description>Many factual errors in large language models stem from failing to generate the correct first token of an answer, and providing that token allows the model to complete and recogniz…</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.23400">Hugging Face Papers</source>
+      <guid isPermaLink="false">6eaa782142a4c8f01ffc6069718fa2c7</guid>
+    </item>
+    <item>
+      <title>Axiomatic World Modeling for Physics Reasoning</title>
+      <link>https://huggingface.co/papers/2610.24519</link>
+      <description>RLAWM improves physics reasoning by penalizing divergence between a model's internal world model and true physical axioms through hierarchical modeling and solving rewards.</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.24519">Hugging Face Papers</source>
+      <guid isPermaLink="false">2699e849c5dd2678901406d010fe228d</guid>
+    </item>
+    <item>
+      <title>World Models with Configurable Perception</title>
+      <link>https://huggingface.co/papers/2610.27914</link>
+      <description>ConfigWM uses task descriptions to steer visual embeddings into task-specific state spaces, filtering irrelevant noise for robust planning.</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27914">Hugging Face Papers</source>
+      <guid isPermaLink="false">f2bd5ecc185f8b371b3226e27c066ceb</guid>
+    </item>
     <item>
       <title>SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration</title>
       <link>https://huggingface.co/papers/2610.26837</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.27406">Hugging Face Papers</source>
       <guid isPermaLink="false">5b1eb541cbba6b195082d40db9e1fbbe</guid>
-    </item>
-    <item>
-      <title>TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction</title>
-      <link>https://huggingface.co/papers/2610.25765</link>
-      <description>TRACE organizes daily clinical events into temporal trajectories to improve inpatient risk prediction across mortality, length of stay, and readmission tasks.</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.25765">Hugging Face Papers</source>
-      <guid isPermaLink="false">6981bb2b518396019af23fb6cb4ad1ea</guid>
-    </item>
-    <item>
-      <title>λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation</title>
-      <link>https://huggingface.co/papers/2610.18950</link>
-      <description>HumanVerse pairs egocentric video with synchronized body and hand motion to train a humanoid foundation model for whole-body loco-manipulation via human-to-robot transfer without…</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.18950">Hugging Face Papers</source>
-      <guid isPermaLink="false">fbd878453f2338790a3d7c52a138e816</guid>
-    </item>
-    <item>
-      <title>WinARDet: Compressed Window Auto-Regression for Long-Horizon Vision-Language Grounding</title>
-      <link>https://huggingface.co/papers/2610.19419</link>
-      <description>Compressed Window Auto-Regression partitions long answer sequences into windows with restricted autoregression and compressed latent history to prevent attention takeover and box…</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19419">Hugging Face Papers</source>
-      <guid isPermaLink="false">92b0ce73faa81403ce9270fbb62b6ec4</guid>
-    </item>
-    <item>
-      <title>Multimodal Reranking Is a System One Decision</title>
-      <link>https://huggingface.co/papers/2610.28435</link>
-      <description>A general vision-language model can serve as a multimodal reranker via single-pass choice questions, matching or exceeding dedicated rerankers with minimal tuning.</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28435">Hugging Face Papers</source>
-      <guid isPermaLink="false">4390c3fe271061c2aaea87cedf7af394</guid>
-    </item>
-    <item>
-      <title>Harness Self-Evolution for Long-Horizon Terminal Agents</title>
-      <link>https://huggingface.co/papers/2610.27435</link>
-      <description>RiseHarness iteratively improves agent harness reliability by analyzing execution traces and integrating mechanisms from other frameworks without altering model weights.</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.27435">Hugging Face Papers</source>
-      <guid isPermaLink="false">5d37188997becfb61062944b94261697</guid>
-    </item>
-    <item>
-      <title>Evolving Agent Interfaces</title>
-      <link>https://huggingface.co/papers/2610.28601</link>
-      <description>Agent S4 autonomously evolves computer-use interfaces from task experience, significantly improving open-source agent performance and reducing costs compared to larger proprietary…</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28601">Hugging Face Papers</source>
-      <guid isPermaLink="false">ee42110065a704239e1b3b5c62b8481f</guid>
-    </item>
-    <item>
-      <title>Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization</title>
-      <link>https://huggingface.co/papers/2606.31002</link>
-      <description>The study evaluates whether Lean compilation alone ensures faithful statement autoformalization, finding substantial gaps between compiling and semantically accepted outputs acros…</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2606.31002">Hugging Face Papers</source>
-      <guid isPermaLink="false">161a85331d624bd5ff508c7523f6abe5</guid>
     </item>
   </channel>
 </rss>
