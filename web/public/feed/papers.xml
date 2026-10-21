@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 22 Oct 2026 03:28:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 07:11:21 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2603.19233</link>
+      <description>A mechanistic interpretability study of vision-language-action policies reveals that motor programs are bound to absolute coordinates and ignores visual scene changes, with sparse…</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2603.19233">Hugging Face Papers</source>
+      <guid isPermaLink="false">5c2a9b9bbd8bbf06977dea795684838a</guid>
+    </item>
+    <item>
+      <title>What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?</title>
+      <link>https://huggingface.co/papers/2610.23010</link>
+      <description>Symbols for robot planning are invented by identifying discrete commitments that simplify solving continuous optimization problems, reducing cost while preserving quality.</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.23010">Hugging Face Papers</source>
+      <guid isPermaLink="false">712ed399a4ae159c44251443c763b4e6</guid>
+    </item>
     <item>
       <title>EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents</title>
       <link>https://huggingface.co/papers/2610.16523</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.24649">Hugging Face Papers</source>
       <guid isPermaLink="false">802a6eb435ca121738266ab3d514f1eb</guid>
-    </item>
-    <item>
-      <title>From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping</title>
-      <link>https://huggingface.co/papers/2610.26681</link>
-      <description>StreamingSwap is a real-time flow-matching framework for video face swapping that improves identity fidelity and efficiency via joint identity-reconstruction loss and reduced spat…</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.26681">Hugging Face Papers</source>
-      <guid isPermaLink="false">75db51a5c1734ce404d5956fe0bf2a32</guid>
-    </item>
-    <item>
-      <title>More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents</title>
-      <link>https://huggingface.co/papers/2610.27406</link>
-      <description>Anti-Persistence improves LLM agent self-improvement by accumulating execution experience while discarding synthesized guidance after use, reducing error reproduction and cost.</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.27406">Hugging Face Papers</source>
-      <guid isPermaLink="false">5b1eb541cbba6b195082d40db9e1fbbe</guid>
     </item>
   </channel>
 </rss>
