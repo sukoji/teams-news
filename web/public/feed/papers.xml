@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 22 Oct 2026 10:10:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:19:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference</title>
+      <link>https://huggingface.co/papers/2610.25519</link>
+      <description>Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling budgets ignore both query difficulty and the changing energy…</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.25519">Hugging Face Papers</source>
+      <guid isPermaLink="false">a201a6ff2f7e3006e327364003747f3e</guid>
+    </item>
+    <item>
+      <title>Ask to Distill: Learning to Synthesize Data for On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2610.27450</link>
+      <description>Ask-to-Distill optimizes synthetic questions to maximize teacher-student distributional supervision for on-policy distillation without requiring correct answers, improving reasoni…</description>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27450">Hugging Face Papers</source>
+      <guid isPermaLink="false">bf1a60dfe2d632cfb9cc4d92f96c1688</guid>
+    </item>
     <item>
       <title>Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2603.19233</link>
@@ -439,24 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2511.14102">Hugging Face Papers</source>
       <guid isPermaLink="false">c586952c5a82b043609ba51078da407e</guid>
-    </item>
-    <item>
-      <title>EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends</title>
-      <link>https://huggingface.co/papers/2610.24648</link>
-      <description>EdgeKernelBench and LEKA enable unified evaluation and layered optimization of LLM-generated kernels across heterogeneous edge backends, revealing a gap between correctness and pe…</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24648">Hugging Face Papers</source>
-      <guid isPermaLink="false">a3f4b47be9f60c632bf5dfadc7541ebb</guid>
-    </item>
-    <item>
-      <title>Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success</title>
-      <link>https://huggingface.co/papers/2610.24649</link>
-      <description>A typed decision model consulted at fixed points increased agent costs without improving success rates, despite better ranking of finish requests, due to poor calibration.</description>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24649">Hugging Face Papers</source>
-      <guid isPermaLink="false">802a6eb435ca121738266ab3d514f1eb</guid>
     </item>
   </channel>
 </rss>
