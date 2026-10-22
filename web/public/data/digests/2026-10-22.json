@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T10:10:12.764760+09:00",
+  "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
+  "item_count": 7,
+  "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "8eb13611aab9952a70df44f22a794965",
+          "index": 1,
+          "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+          "title_ko": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+          "summary": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+          "summary_ko": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+          "url": "https://huggingface.co/papers/2610.16523",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-10-21T09:00:00+09:00",
+          "popularity": 54,
+          "upvotes": 9,
+          "score": 26.02,
+          "importance_score": 12.02,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
+            "reinforcement learning",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 9
+          }
+        },
+        {
+          "id": "d0c3415df0a3f30da96d49049ce7f8b8",
+          "index": 2,
+          "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+          "title_ko": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+          "summary": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results across diverse benchmarks.",
+          "summary_ko": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results…",
+          "url": "https://huggingface.co/papers/2610.26855",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-10-21T09:00:00+09:00",
+          "popularity": 397,
+          "upvotes": 178,
+          "score": 25.96,
+          "importance_score": 17.96,
+          "matched_keywords": [
+            "benchmark",
+            "foundation model"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 178
+          }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "📰 News",
+      "items": [
+        {
+          "id": "94e9586e047f569b0d0113f27017afee",
+          "index": 3,
+          "title": "[AI리더의 서가] 그냥 Postgres를 쓰세요",
+          "title_ko": null,
+          "summary": "그냥 Postgres를 쓰세요이매뉴얼 트러머 | 에이콘출판사2026년 8월 20일추천이유이 책은 PostgreSQL이 관계형 데이터베이스를 넘어 JSON, 벡터 검색, 시계열 데이터 등 현대 애플리케이션의 다양한 워크로드를 감당할 수 있음을 실제 예제로 보여줍니다.",
+          "summary_ko": null,
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216345",
+          "source": "AI Times",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-10-22T09:00:00+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 19.76,
+          "importance_score": 19.51,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "f06a792e1d872f6a8b26f530a08add6b",
+          "index": 4,
+          "title": "LG이노텍, 엔비디아와 로봇용 센싱 솔루션 개발…내년 성과 공개",
+          "title_ko": null,
+          "summary": "[지디넷코리아]LG이노텍은 20일(현지시간) 독일 베를린서 개최된 'GTC 베를린'에서 3메가픽셀(MP) 카메라 모듈, 다양한 카메라 및 센서를 결합한 멀티모달 비전 시스템(MVS) 등 엔비디아의 최신 홀로스캔 센서 브릿지(HSB) 기술이 적용된 센싱 솔루션 라인업을 공개했다고 22일 밝혔다.GTC는 엔비디아가 GPU∙AI∙자율주행 등 최신 기술 트렌드를 주제로 매년 개최하는 세계적인 개발…",
+          "summary_ko": null,
+          "url": "https://zdnet.co.kr/view/?no=20261022084054",
+          "source": "ZDNet Korea",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-10-22T08:53:18+09:00",
+          "popularity": 98,
+          "upvotes": 0,
+          "score": 19.53,
+          "importance_score": 19.27,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "c1bcc3f8e7eca445532fb3f96cd52278",
+          "index": 5,
+          "title": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+          "title_ko": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+          "summary": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+          "summary_ko": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+          "url": "https://github.com/Umair/stalemap",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-10-21T23:13:28+09:00",
+          "popularity": 96,
+          "upvotes": 96,
+          "score": 32.73,
+          "importance_score": 21.45,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "claude",
+            "training"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 96
+          }
+        },
+        {
+          "id": "60b327d6ad835cd9daa71ea19e402679",
+          "index": 6,
+          "title": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+          "title_ko": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+          "summary": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+          "summary_ko": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+          "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-10-20T12:29:11+09:00",
+          "popularity": 422,
+          "upvotes": 422,
+          "score": 32.17,
+          "importance_score": 21.17,
+          "matched_keywords": [
+            "ai",
+            "claude",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 422
+          }
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "💬 Community",
+      "items": [
+        {
+          "id": "9c82e8cf0a90546d2edc5a27e37c20ac",
+          "index": 7,
+          "title": "DeepInfer: DeepSeek이 V4.1-Flash 모델의 서비스에 사용하는 추론 프레임워크 (단, 오프라인 추론만 공개 😅)",
+          "title_ko": null,
+          "summary": "핵심 요약 DeepSeek이 2026년 10월 20일 공개한 DeepInfer 는 DeepSeek-V4.1-Flash의 대규모 운영 서비스를 실제로 구동하는 추론 프레임워크입니다. 이번 공개 범위는 오프라인 추론입니다.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-10-22T08:30:56+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 22.66,
+          "importance_score": 19.31,
+          "matched_keywords": [
+            "추론",
+            "모델"
+          ],
+          "engagement": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "8eb13611aab9952a70df44f22a794965",
+      "index": 1,
+      "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+      "title_ko": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+      "summary": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+      "summary_ko": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+      "url": "https://huggingface.co/papers/2610.16523",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-21T09:00:00+09:00",
+      "popularity": 54,
+      "upvotes": 9,
+      "score": 26.02,
+      "importance_score": 12.02,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "reinforcement learning",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 9
+      }
+    },
+    {
+      "id": "d0c3415df0a3f30da96d49049ce7f8b8",
+      "index": 2,
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "title_ko": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "summary": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results across diverse benchmarks.",
+      "summary_ko": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results…",
+      "url": "https://huggingface.co/papers/2610.26855",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-21T09:00:00+09:00",
+      "popularity": 397,
+      "upvotes": 178,
+      "score": 25.96,
+      "importance_score": 17.96,
+      "matched_keywords": [
+        "benchmark",
+        "foundation model"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 178
+      }
+    },
+    {
+      "id": "94e9586e047f569b0d0113f27017afee",
+      "index": 3,
+      "title": "[AI리더의 서가] 그냥 Postgres를 쓰세요",
+      "title_ko": null,
+      "summary": "그냥 Postgres를 쓰세요이매뉴얼 트러머 | 에이콘출판사2026년 8월 20일추천이유이 책은 PostgreSQL이 관계형 데이터베이스를 넘어 JSON, 벡터 검색, 시계열 데이터 등 현대 애플리케이션의 다양한 워크로드를 감당할 수 있음을 실제 예제로 보여줍니다.",
+      "summary_ko": null,
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216345",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-22T09:00:00+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.76,
+      "importance_score": 19.51,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "f06a792e1d872f6a8b26f530a08add6b",
+      "index": 4,
+      "title": "LG이노텍, 엔비디아와 로봇용 센싱 솔루션 개발…내년 성과 공개",
+      "title_ko": null,
+      "summary": "[지디넷코리아]LG이노텍은 20일(현지시간) 독일 베를린서 개최된 'GTC 베를린'에서 3메가픽셀(MP) 카메라 모듈, 다양한 카메라 및 센서를 결합한 멀티모달 비전 시스템(MVS) 등 엔비디아의 최신 홀로스캔 센서 브릿지(HSB) 기술이 적용된 센싱 솔루션 라인업을 공개했다고 22일 밝혔다.GTC는 엔비디아가 GPU∙AI∙자율주행 등 최신 기술 트렌드를 주제로 매년 개최하는 세계적인 개발…",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20261022084054",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-22T08:53:18+09:00",
+      "popularity": 98,
+      "upvotes": 0,
+      "score": 19.53,
+      "importance_score": 19.27,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "c1bcc3f8e7eca445532fb3f96cd52278",
+      "index": 5,
+      "title": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+      "title_ko": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+      "summary": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+      "summary_ko": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+      "url": "https://github.com/Umair/stalemap",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-21T23:13:28+09:00",
+      "popularity": 96,
+      "upvotes": 96,
+      "score": 32.73,
+      "importance_score": 21.45,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "claude",
+        "training"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 96
+      }
+    },
+    {
+      "id": "60b327d6ad835cd9daa71ea19e402679",
+      "index": 6,
+      "title": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+      "title_ko": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+      "summary": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+      "summary_ko": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+      "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-20T12:29:11+09:00",
+      "popularity": 422,
+      "upvotes": 422,
+      "score": 32.17,
+      "importance_score": 21.17,
+      "matched_keywords": [
+        "ai",
+        "claude",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 422
+      }
+    },
+    {
+      "id": "9c82e8cf0a90546d2edc5a27e37c20ac",
+      "index": 7,
+      "title": "DeepInfer: DeepSeek이 V4.1-Flash 모델의 서비스에 사용하는 추론 프레임워크 (단, 오프라인 추론만 공개 😅)",
+      "title_ko": null,
+      "summary": "핵심 요약 DeepSeek이 2026년 10월 20일 공개한 DeepInfer 는 DeepSeek-V4.1-Flash의 대규모 운영 서비스를 실제로 구동하는 추론 프레임워크입니다. 이번 공개 범위는 오프라인 추론입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-10-22T08:30:56+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 22.66,
+      "importance_score": 19.31,
+      "matched_keywords": [
+        "추론",
+        "모델"
+      ],
+      "engagement": null
+    }
+  ]
+}

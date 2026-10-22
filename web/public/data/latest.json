@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-21",
-  "generated_at": "2026-10-21T10:13:24.244582+09:00",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T10:10:12.764760+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "38814028fb34d44c864e67e53ed72f0c",
+          "id": "8eb13611aab9952a70df44f22a794965",
           "index": 1,
-          "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-          "title_ko": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-          "summary": "Parameter-efficient fine-tuning with low-rank adapters enables efficient adaptation of very large multimodal backbones for brain encoding, improving performance and interpretability while reducing computational cost.",
-          "summary_ko": "Parameter-efficient fine-tuning with low-rank adapters enables efficient adaptation of very large multimodal backbones for brain encoding, improving performance and interpretabili…",
-          "url": "https://huggingface.co/papers/2610.26802",
+          "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+          "title_ko": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+          "summary": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+          "summary_ko": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+          "url": "https://huggingface.co/papers/2610.16523",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-20T09:00:00+09:00",
-          "popularity": 478,
-          "upvotes": 234,
-          "score": 28.0,
-          "importance_score": 18.0,
+          "published_at": "2026-10-21T09:00:00+09:00",
+          "popularity": 54,
+          "upvotes": 9,
+          "score": 26.02,
+          "importance_score": 12.02,
           "matched_keywords": [
             "ai",
-            "fine-tuning",
-            "multimodal"
+            "llm",
+            "agent",
+            "reinforcement learning",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 234
+            "value": 9
           }
         },
         {
-          "id": "8489bae3e6c9df3a6ee33ff939ab711e",
+          "id": "d0c3415df0a3f30da96d49049ce7f8b8",
           "index": 2,
-          "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
-          "title_ko": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
-          "summary": "BlenderWorld is a benchmark for evaluating multimodal language models on realistic 3D creation tasks using rendered outputs and binary rubrics, revealing significant gaps in spatial coherence.",
-          "summary_ko": "BlenderWorld is a benchmark for evaluating multimodal language models on realistic 3D creation tasks using rendered outputs and binary rubrics, revealing significant gaps in spati…",
-          "url": "https://huggingface.co/papers/2610.23986",
+          "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+          "title_ko": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+          "summary": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results across diverse benchmarks.",
+          "summary_ko": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results…",
+          "url": "https://huggingface.co/papers/2610.26855",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-20T09:00:00+09:00",
-          "popularity": 219,
-          "upvotes": 21,
-          "score": 26.18,
-          "importance_score": 16.18,
+          "published_at": "2026-10-21T09:00:00+09:00",
+          "popularity": 397,
+          "upvotes": 178,
+          "score": 25.96,
+          "importance_score": 17.96,
           "matched_keywords": [
-            "agent",
-            "multimodal",
-            "benchmark"
+            "benchmark",
+            "foundation model"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 21
+            "value": 178
           }
         }
       ]
@@ -68,46 +69,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "3edaa1952d576ae021ebcdc8451fca54",
+          "id": "94e9586e047f569b0d0113f27017afee",
           "index": 3,
-          "title": "[AI리더의 서가] LLM을 활용한 데이터 분석",
+          "title": "[AI리더의 서가] 그냥 Postgres를 쓰세요",
           "title_ko": null,
-          "summary": "LLM을 활용한 데이터 분석데니스 로스먼 | 위키북스2026년 6월 12일추천이유저자는 코넬대 교수로서 프롬프트와 파이썬을 활용하여 텍스트, 테이블, 이미지, 동영상, 오디오까지 분석하는 실무 기법을 체계적으로 제시합니다. 독자는 이 책을 통해 자신의 데이터 분석 환경을 효율적으로 구축할 수 있습니다.상세보기 에이전트를 다룬 책이 늘어나면서 영풍문고 IT 서가의 풍경도 세분됐다.",
+          "summary": "그냥 Postgres를 쓰세요이매뉴얼 트러머 | 에이콘출판사2026년 8월 20일추천이유이 책은 PostgreSQL이 관계형 데이터베이스를 넘어 JSON, 벡터 검색, 시계열 데이터 등 현대 애플리케이션의 다양한 워크로드를 감당할 수 있음을 실제 예제로 보여줍니다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216343",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216345",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-21T09:00:00+09:00",
+          "published_at": "2026-10-22T09:00:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.75,
-          "importance_score": 19.49,
+          "score": 19.76,
+          "importance_score": 19.51,
           "matched_keywords": [
-            "ai",
-            "llm"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "a76f8508798f3435a196a0fec10c2bad",
+          "id": "f06a792e1d872f6a8b26f530a08add6b",
           "index": 4,
-          "title": "국가유산청 국립경주문화유산연구소, AI 활용 신라 기와 연구 방안 모색",
+          "title": "LG이노텍, 엔비디아와 로봇용 센싱 솔루션 개발…내년 성과 공개",
           "title_ko": null,
-          "summary": "[지디넷코리아]국립경주문화유산연구소가 신라 기와의 디지털 기록과 인공지능(AI) 분석을 연계하는 연구 방안을 모색한다.국가유산청 국립문화유산연구원 국립경주문화유산연구소는 한국고고학회와 함께 경주 더케이호텔 거문고A홀에서 ‘AX시대의 신라 기와 연구, 어떻게 접근할 것인가’를 주제로 공동 학술 연수를 개최한다고 21일 밝혔다.AX(AI Transformation)는 인공지능 기반의 기술 전환…",
+          "summary": "[지디넷코리아]LG이노텍은 20일(현지시간) 독일 베를린서 개최된 'GTC 베를린'에서 3메가픽셀(MP) 카메라 모듈, 다양한 카메라 및 센서를 결합한 멀티모달 비전 시스템(MVS) 등 엔비디아의 최신 홀로스캔 센서 브릿지(HSB) 기술이 적용된 센싱 솔루션 라인업을 공개했다고 22일 밝혔다.GTC는 엔비디아가 GPU∙AI∙자율주행 등 최신 기술 트렌드를 주제로 매년 개최하는 세계적인 개발…",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261021093518",
+          "url": "https://zdnet.co.kr/view/?no=20261022084054",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-21T09:55:01+09:00",
-          "popularity": 99,
+          "published_at": "2026-10-22T08:53:18+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 22.84,
-          "importance_score": 19.77,
+          "score": 19.53,
+          "importance_score": 19.27,
           "matched_keywords": [
-            "ai",
-            "연구"
+            "ai"
           ],
           "engagement": null
         }
@@ -118,32 +117,30 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "572c37f8f97344a449e7686b9b393341",
+          "id": "c1bcc3f8e7eca445532fb3f96cd52278",
           "index": 5,
-          "title": "LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
-          "title_ko": "LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
-          "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode.",
-          "summary_ko": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode.",
-          "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+          "title": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+          "title_ko": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+          "summary": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+          "summary_ko": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+          "url": "https://github.com/Umair/stalemap",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-20T11:31:42+09:00",
-          "popularity": 936,
-          "upvotes": 936,
-          "score": 44.22,
-          "importance_score": 24.49,
+          "published_at": "2026-10-21T23:13:28+09:00",
+          "popularity": 96,
+          "upvotes": 96,
+          "score": 32.73,
+          "importance_score": 21.45,
           "matched_keywords": [
             "ai",
             "agent",
-            "gpt",
             "claude",
-            "gemini",
-            "mcp"
+            "training"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 936
+            "value": 96
           }
         },
         {
@@ -158,10 +155,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-10-20T12:29:11+09:00",
-          "popularity": 351,
-          "upvotes": 351,
-          "score": 31.99,
-          "importance_score": 21.47,
+          "popularity": 422,
+          "upvotes": 422,
+          "score": 32.17,
+          "importance_score": 21.17,
           "matched_keywords": [
             "ai",
             "claude",
@@ -169,7 +166,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 351
+            "value": 422
           }
         }
       ]
@@ -179,25 +176,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "b440af189afe9e4927e7345e261d41dd",
+          "id": "9c82e8cf0a90546d2edc5a27e37c20ac",
           "index": 7,
-          "title": "LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (2/2): 프로토콜과 하네스 엔지니어링, 남은 과제",
+          "title": "DeepInfer: DeepSeek이 V4.1-Flash 모델의 서비스에 사용하는 추론 프레임워크 (단, 오프라인 추론만 공개 😅)",
           "title_ko": null,
-          "summary": "핵심 요약 Externalization in LLM Agents 리뷰의 2부입니다. 프로토콜은 호출 문법, 수명주기 규칙, 권한과 신뢰 경계, 탐색 메타데이터를 모델 밖의 명시적인 계약으로 옮깁니다. 저자들은 MCP, A2A, ACP, ANP, A2UI, AG-UI, UCP, AP2를 상호작용 대상에 따라 네 갈래로 정리합니다.",
+          "summary": "핵심 요약 DeepSeek이 2026년 10월 20일 공개한 DeepInfer 는 DeepSeek-V4.1-Flash의 대규모 운영 서비스를 실제로 구동하는 추론 프레임워크입니다. 이번 공개 범위는 오프라인 추론입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/llm-externalization-2-2/12178",
+          "url": "https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-20T19:30:58+09:00",
-          "popularity": 99,
+          "published_at": "2026-10-22T08:30:56+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 25.84,
-          "importance_score": 13.77,
+          "score": 22.66,
+          "importance_score": 19.31,
           "matched_keywords": [
-            "llm",
-            "agent",
-            "mcp",
+            "추론",
             "모델"
           ],
           "engagement": null
@@ -207,128 +202,125 @@
   ],
   "items": [
     {
-      "id": "38814028fb34d44c864e67e53ed72f0c",
+      "id": "8eb13611aab9952a70df44f22a794965",
       "index": 1,
-      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-      "title_ko": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-      "summary": "Parameter-efficient fine-tuning with low-rank adapters enables efficient adaptation of very large multimodal backbones for brain encoding, improving performance and interpretability while reducing computational cost.",
-      "summary_ko": "Parameter-efficient fine-tuning with low-rank adapters enables efficient adaptation of very large multimodal backbones for brain encoding, improving performance and interpretabili…",
-      "url": "https://huggingface.co/papers/2610.26802",
+      "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+      "title_ko": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+      "summary": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+      "summary_ko": "EAU is a meta-agent framework that co-evolves the user simulator, environment, and reinforcement learning setup alongside the policy to improve multi-turn LLM agent training.",
+      "url": "https://huggingface.co/papers/2610.16523",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-20T09:00:00+09:00",
-      "popularity": 478,
-      "upvotes": 234,
-      "score": 28.0,
-      "importance_score": 18.0,
+      "published_at": "2026-10-21T09:00:00+09:00",
+      "popularity": 54,
+      "upvotes": 9,
+      "score": 26.02,
+      "importance_score": 12.02,
       "matched_keywords": [
         "ai",
-        "fine-tuning",
-        "multimodal"
+        "llm",
+        "agent",
+        "reinforcement learning",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 234
+        "value": 9
       }
     },
     {
-      "id": "8489bae3e6c9df3a6ee33ff939ab711e",
+      "id": "d0c3415df0a3f30da96d49049ce7f8b8",
       "index": 2,
-      "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
-      "title_ko": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
-      "summary": "BlenderWorld is a benchmark for evaluating multimodal language models on realistic 3D creation tasks using rendered outputs and binary rubrics, revealing significant gaps in spatial coherence.",
-      "summary_ko": "BlenderWorld is a benchmark for evaluating multimodal language models on realistic 3D creation tasks using rendered outputs and binary rubrics, revealing significant gaps in spati…",
-      "url": "https://huggingface.co/papers/2610.23986",
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "title_ko": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "summary": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results across diverse benchmarks.",
+      "summary_ko": "Ropedia W0 is a world foundation model for cross-embodiment loco-manipulation that unifies human and robot data via kinematic representations and achieves state-of-the-art results…",
+      "url": "https://huggingface.co/papers/2610.26855",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-20T09:00:00+09:00",
-      "popularity": 219,
-      "upvotes": 21,
-      "score": 26.18,
-      "importance_score": 16.18,
+      "published_at": "2026-10-21T09:00:00+09:00",
+      "popularity": 397,
+      "upvotes": 178,
+      "score": 25.96,
+      "importance_score": 17.96,
       "matched_keywords": [
-        "agent",
-        "multimodal",
-        "benchmark"
+        "benchmark",
+        "foundation model"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 21
+        "value": 178
       }
     },
     {
-      "id": "3edaa1952d576ae021ebcdc8451fca54",
+      "id": "94e9586e047f569b0d0113f27017afee",
       "index": 3,
-      "title": "[AI리더의 서가] LLM을 활용한 데이터 분석",
+      "title": "[AI리더의 서가] 그냥 Postgres를 쓰세요",
       "title_ko": null,
-      "summary": "LLM을 활용한 데이터 분석데니스 로스먼 | 위키북스2026년 6월 12일추천이유저자는 코넬대 교수로서 프롬프트와 파이썬을 활용하여 텍스트, 테이블, 이미지, 동영상, 오디오까지 분석하는 실무 기법을 체계적으로 제시합니다. 독자는 이 책을 통해 자신의 데이터 분석 환경을 효율적으로 구축할 수 있습니다.상세보기 에이전트를 다룬 책이 늘어나면서 영풍문고 IT 서가의 풍경도 세분됐다.",
+      "summary": "그냥 Postgres를 쓰세요이매뉴얼 트러머 | 에이콘출판사2026년 8월 20일추천이유이 책은 PostgreSQL이 관계형 데이터베이스를 넘어 JSON, 벡터 검색, 시계열 데이터 등 현대 애플리케이션의 다양한 워크로드를 감당할 수 있음을 실제 예제로 보여줍니다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216343",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216345",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-21T09:00:00+09:00",
+      "published_at": "2026-10-22T09:00:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.75,
-      "importance_score": 19.49,
+      "score": 19.76,
+      "importance_score": 19.51,
       "matched_keywords": [
-        "ai",
-        "llm"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "a76f8508798f3435a196a0fec10c2bad",
+      "id": "f06a792e1d872f6a8b26f530a08add6b",
       "index": 4,
-      "title": "국가유산청 국립경주문화유산연구소, AI 활용 신라 기와 연구 방안 모색",
+      "title": "LG이노텍, 엔비디아와 로봇용 센싱 솔루션 개발…내년 성과 공개",
       "title_ko": null,
-      "summary": "[지디넷코리아]국립경주문화유산연구소가 신라 기와의 디지털 기록과 인공지능(AI) 분석을 연계하는 연구 방안을 모색한다.국가유산청 국립문화유산연구원 국립경주문화유산연구소는 한국고고학회와 함께 경주 더케이호텔 거문고A홀에서 ‘AX시대의 신라 기와 연구, 어떻게 접근할 것인가’를 주제로 공동 학술 연수를 개최한다고 21일 밝혔다.AX(AI Transformation)는 인공지능 기반의 기술 전환…",
+      "summary": "[지디넷코리아]LG이노텍은 20일(현지시간) 독일 베를린서 개최된 'GTC 베를린'에서 3메가픽셀(MP) 카메라 모듈, 다양한 카메라 및 센서를 결합한 멀티모달 비전 시스템(MVS) 등 엔비디아의 최신 홀로스캔 센서 브릿지(HSB) 기술이 적용된 센싱 솔루션 라인업을 공개했다고 22일 밝혔다.GTC는 엔비디아가 GPU∙AI∙자율주행 등 최신 기술 트렌드를 주제로 매년 개최하는 세계적인 개발…",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261021093518",
+      "url": "https://zdnet.co.kr/view/?no=20261022084054",
       "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-21T09:55:01+09:00",
-      "popularity": 99,
+      "published_at": "2026-10-22T08:53:18+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 22.84,
-      "importance_score": 19.77,
+      "score": 19.53,
+      "importance_score": 19.27,
       "matched_keywords": [
-        "ai",
-        "연구"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "572c37f8f97344a449e7686b9b393341",
+      "id": "c1bcc3f8e7eca445532fb3f96cd52278",
       "index": 5,
-      "title": "LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
-      "title_ko": "LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode.",
-      "summary_ko": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode.",
-      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "title": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+      "title_ko": "Umair/stalemap — Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changel",
+      "summary": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+      "summary_ko": "Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.",
+      "url": "https://github.com/Umair/stalemap",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-20T11:31:42+09:00",
-      "popularity": 936,
-      "upvotes": 936,
-      "score": 44.22,
-      "importance_score": 24.49,
+      "published_at": "2026-10-21T23:13:28+09:00",
+      "popularity": 96,
+      "upvotes": 96,
+      "score": 32.73,
+      "importance_score": 21.45,
       "matched_keywords": [
         "ai",
         "agent",
-        "gpt",
         "claude",
-        "gemini",
-        "mcp"
+        "training"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 936
+        "value": 96
       }
     },
     {
@@ -343,10 +335,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-10-20T12:29:11+09:00",
-      "popularity": 351,
-      "upvotes": 351,
-      "score": 31.99,
-      "importance_score": 21.47,
+      "popularity": 422,
+      "upvotes": 422,
+      "score": 32.17,
+      "importance_score": 21.17,
       "matched_keywords": [
         "ai",
         "claude",
@@ -354,29 +346,27 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 351
+        "value": 422
       }
     },
     {
-      "id": "b440af189afe9e4927e7345e261d41dd",
+      "id": "9c82e8cf0a90546d2edc5a27e37c20ac",
       "index": 7,
-      "title": "LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (2/2): 프로토콜과 하네스 엔지니어링, 남은 과제",
+      "title": "DeepInfer: DeepSeek이 V4.1-Flash 모델의 서비스에 사용하는 추론 프레임워크 (단, 오프라인 추론만 공개 😅)",
       "title_ko": null,
-      "summary": "핵심 요약 Externalization in LLM Agents 리뷰의 2부입니다. 프로토콜은 호출 문법, 수명주기 규칙, 권한과 신뢰 경계, 탐색 메타데이터를 모델 밖의 명시적인 계약으로 옮깁니다. 저자들은 MCP, A2A, ACP, ANP, A2UI, AG-UI, UCP, AP2를 상호작용 대상에 따라 네 갈래로 정리합니다.",
+      "summary": "핵심 요약 DeepSeek이 2026년 10월 20일 공개한 DeepInfer 는 DeepSeek-V4.1-Flash의 대규모 운영 서비스를 실제로 구동하는 추론 프레임워크입니다. 이번 공개 범위는 오프라인 추론입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/llm-externalization-2-2/12178",
+      "url": "https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-20T19:30:58+09:00",
-      "popularity": 99,
+      "published_at": "2026-10-22T08:30:56+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 25.84,
-      "importance_score": 13.77,
+      "score": 22.66,
+      "importance_score": 19.31,
       "matched_keywords": [
-        "llm",
-        "agent",
-        "mcp",
+        "추론",
         "모델"
       ],
       "engagement": null
