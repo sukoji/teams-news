@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 22 Oct 2026 16:15:43 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 22:34:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>REAP: 리버스 엔지니어링 에이전트(REA)에서 바로 사용 가능한 55개의 리버스 엔지니어링 프롬프트 저장소 (≠ REA 공식)</title>
+      <link>https://discuss.pytorch.kr/t/reap-rea-55-rea/12255</link>
+      <description>핵심 요약 REAP(REA Investigation Prompts) 는 리버스 엔지니어링 도구 REA를 연결한 코딩 에이전트에 붙여 넣어 쓰도록 만든 프롬프트 55개를 README 파일 하나에 17개 분야로 정리한 저장소입니다. REA 개발팀이 아니라 보안 연구자 Joas A Santos가 만들었습니다.</description>
+      <pubDate>Thu, 22 Oct 2026 18:30:07 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/reap-rea-55-rea/12255">PyTorch Korea</source>
+      <guid isPermaLink="false">e8f3d908232d94f2bc4a2a0c025e1fb8</guid>
+    </item>
     <item>
       <title>PyMuPDF 2.0 릴리스: pip install 한 번으로 PDF → LLM용 마크다운까지 (3개 패키지 통합)</title>
       <link>https://discuss.pytorch.kr/t/pymupdf-2-0-pip-install-pdf-llm-3/12271</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-tee-fl-gboard/12135">PyTorch Korea</source>
       <guid isPermaLink="false">0e639f1a4d55491167b3e7277d059189</guid>
-    </item>
-    <item>
-      <title>vLLM-Omni 기술 보고서: 음성, 이미지, 영상, 로봇 행동 모델을 한 런타임에서 서빙하는 구조</title>
-      <link>https://discuss.pytorch.kr/t/vllm-omni/12128</link>
-      <description>핵심 요약 vLLM-Omni 기술 보고서 는 텍스트, 음성, 이미지, 영상, 로봇 행동을 출력하는 모델을 여러 스테이지(stage)의 파이프라인으로 봅니다. 그리고 오케스트레이터 하나가 요청 수락, 스테이지 진행, 스트리밍, 완료를 관리 하는 구조를 설명합니다. 코드는 vLLM-Omni GitHub 저장소 에 Apache-2.0 라이선스로 공개되어 있습니다.</description>
-      <pubDate>Sat, 10 Oct 2026 19:30:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vllm-omni/12128">PyTorch Korea</source>
-      <guid isPermaLink="false">403162b75f540f5a4400d5a6d14fc2af</guid>
     </item>
   </channel>
 </rss>
