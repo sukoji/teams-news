@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 16:06:59 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 22:10:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Modular의 Mojo와 MAX: CUDA 종속 없이 여러 AI 하드웨어를 같은 코드로 다루려는 언어와 추론 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/modular-mojo-max-cuda-ai/12266</link>
+      <description>핵심 요약 Modular는 2022년 초 Chris Lattner와 Tim Davis가 세운 회사입니다. Democratizing AI Compute 연재 에서 밝힌 목표는 CUDA에 묶인 AI 소프트웨어 스택을 여러 하드웨어가 함께 쓰는 공용 계층으로 다시 만드는 것입니다.</description>
+      <pubDate>Fri, 23 Oct 2026 20:26:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/modular-mojo-max-cuda-ai/12266">PyTorch Korea</source>
+      <guid isPermaLink="false">bbf73e170502f4b431743c6b7b267cd5</guid>
+    </item>
+    <item>
+      <title>Hugging Face, Apple Foundation Models 코드를 그대로 로컬과 클라우드에서 사용 가능한 AnyLanguageModel 1.0 공개</title>
+      <link>https://discuss.pytorch.kr/t/hugging-face-apple-foundation-models-anylanguagemodel-1-0/12258</link>
+      <description>핵심 요약 Hugging Face가 Apple Foundation Models API를 그대로 따르는 Swift 패키지인 AnyLanguageModel 1.0을 발표 했습니다. import 한 줄만 바꾸면 같은 세션 코드로 시스템 모델, MLX, llama.cpp, Core ML, 클라우드 API를 바꿔 쓸 수 있습니다.</description>
+      <pubDate>Fri, 23 Oct 2026 16:30:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/hugging-face-apple-foundation-models-anylanguagemodel-1-0/12258">PyTorch Korea</source>
+      <guid isPermaLink="false">b3c98d6a0a4307f331afb64c2fb16528</guid>
+    </item>
     <item>
       <title>whatsapp-mcp: 메시지 전송 없이 내 WhatsApp 대화를 AI 에이전트가 검색하게 하는 셀프 호스팅 MCP 서버</title>
       <link>https://discuss.pytorch.kr/t/whatsapp-mcp-whatsapp-ai-mcp/12254</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/oecd-25-ai-pdf-36p/12148">PyTorch Korea</source>
       <guid isPermaLink="false">a35f05141b678410f1f0145577fdc512</guid>
-    </item>
-    <item>
-      <title>Microsoft, Jev 호환 API의 결정 모델 Microsoft-Decision-1 출시 (입력 1M 토큰당 $0.042)</title>
-      <link>https://discuss.pytorch.kr/t/microsoft-jev-api-microsoft-decision-1-1m-0-042/12140</link>
-      <description>핵심 요약 Microsoft가 2026년 10월 9일 Microsoft-Decision-1 발표 글 에서 문장 대신 선택지별 확률을 돌려주는 결정 모델을 정식(GA) 출시했습니다. Qwen3.5-9B를 후학습했고, 가중치는 배포하지 않습니다. 요청 형식은 Jev와 같습니다.</description>
-      <pubDate>Mon, 12 Oct 2026 19:00:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/microsoft-jev-api-microsoft-decision-1-1m-0-042/12140">PyTorch Korea</source>
-      <guid isPermaLink="false">4dc13b65fd0f7fec96498edef810b8d7</guid>
-    </item>
-    <item>
-      <title>GuideLLM v0.8.0 공개, 지연 SLO를 지키는 최대 동시성 탐색과 에이전트 트레이스 재생 (feat. vLLM)</title>
-      <link>https://discuss.pytorch.kr/t/guidellm-v0-8-0-slo-feat-vllm/12149</link>
-      <description>핵심 요약 vLLM 프로젝트가 2026년 9월 30일 GuideLLM v0.8.0 릴리스 를 공개했습니다. 지연 목표(SLO)를 지킨 요청의 처리율(goodput)을 재고, 그 목표를 지키는 최대 동시 요청 수를 찾는 goodput 프로파일이 추가되었습니다. WEKA 형식과 OpenTelemetry(OTEL) 형식의 에이전트 트레이스를 기록된 시간대로 재생할 수 있게 되었습니다.</description>
-      <pubDate>Mon, 12 Oct 2026 11:30:48 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/guidellm-v0-8-0-slo-feat-vllm/12149">PyTorch Korea</source>
-      <guid isPermaLink="false">71f907b53be1aaf54e272fb3355c64a5</guid>
     </item>
   </channel>
 </rss>

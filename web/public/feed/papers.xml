@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 16:06:59 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 22:10:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems</title>
+      <link>https://huggingface.co/papers/2610.30949</link>
+      <description>IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabi…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30949">Hugging Face Papers</source>
+      <guid isPermaLink="false">20820c722eba832284042b86beadd700</guid>
+    </item>
+    <item>
+      <title>WeVisOne-VL: Unified Visual Perception from Objects to Pixels</title>
+      <link>https://huggingface.co/papers/2610.31329</link>
+      <description>WeVisOne-VL unifies object-level and pixel-level visual perception via structured token prediction, supporting detection, localization, counting, OCR, segmentation, and matting wi…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31329">Hugging Face Papers</source>
+      <guid isPermaLink="false">0f4bc2a13348e254780cb3a2528c1382</guid>
+    </item>
+    <item>
+      <title>MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2610.22951</link>
+      <description>MambaAct replaces the transformer action expert in flow-matching VLA policies with a compact Mamba-based expert and a context compressor to cut inference latency while improving r…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22951">Hugging Face Papers</source>
+      <guid isPermaLink="false">6ca65ee0fc1290167207673e1e18b18c</guid>
+    </item>
+    <item>
+      <title>RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation</title>
+      <link>https://huggingface.co/papers/2610.20091</link>
+      <description>RTAformer separately models persistent entities and changing relations in video scene graphs by injecting calibrated query differences and aligning cross-frame instances to overco…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20091">Hugging Face Papers</source>
+      <guid isPermaLink="false">04d3426f77d797314c28137086cdfd1a</guid>
+    </item>
+    <item>
+      <title>SplatLab: Autonomous Scientific Discovery for 3DGS Research</title>
+      <link>https://huggingface.co/papers/2610.30468</link>
+      <description>SplatLab autonomously reproduces 3D Gaussian Splatting baselines, proposes extensions, and writes manuscripts with fully traceable training logs, improving PSNR by up to 3.78 dB.</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30468">Hugging Face Papers</source>
+      <guid isPermaLink="false">3e7f85612b5cc4954c16a9670a065c6d</guid>
+    </item>
+    <item>
+      <title>RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention</title>
+      <link>https://huggingface.co/papers/2610.31372</link>
+      <description>RIDAR detects and mitigates research integrity violations in autonomous agents via taxonomy-based post-hoc analysis and real-time intervention.</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31372">Hugging Face Papers</source>
+      <guid isPermaLink="false">9d92781dd386d16b2cc9d222164deafd</guid>
+    </item>
+    <item>
+      <title>Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective</title>
+      <link>https://huggingface.co/papers/2610.12586</link>
+      <description>Event sequence forecasting is evaluated as conditional generative modeling, revealing a trade-off between accuracy and realism, and a proposed algorithm converts realism into pred…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.12586">Hugging Face Papers</source>
+      <guid isPermaLink="false">942e3ea89fdc85a04e9cffbc167ec05c</guid>
+    </item>
     <item>
       <title>Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation</title>
       <link>https://huggingface.co/papers/2610.30926</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.29934">Hugging Face Papers</source>
       <guid isPermaLink="false">722e679c5e41ec7ba32d5c6d997927a7</guid>
-    </item>
-    <item>
-      <title>Design Anything, Design at Scale</title>
-      <link>https://huggingface.co/papers/2610.24771</link>
-      <description>Design Anything uses an intent-execution graph and task contracts to maintain design alignment across long projects, improving constraint satisfaction and deliverable completeness…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24771">Hugging Face Papers</source>
-      <guid isPermaLink="false">28a011af3a569f246bba30e8d8fc9770</guid>
-    </item>
-    <item>
-      <title>Language Models Learn to Improve Language Models</title>
-      <link>https://huggingface.co/papers/2610.23344</link>
-      <description>LM2LM uses a frozen research world model to provide scalable reinforcement learning rewards for generating language model improvements, maintaining reliability through periodic re…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.23344">Hugging Face Papers</source>
-      <guid isPermaLink="false">0baeb2e769b67105d719005ca9f1ad53</guid>
-    </item>
-    <item>
-      <title>Exploring The Empirical Privacy Landscape of Synthetic Data</title>
-      <link>https://huggingface.co/papers/2610.22659</link>
-      <description>Privacy-aware rewriting of synthetic medical records improves privacy protection with less capability loss than direct fine-tuning or DP-SGD, offering a favorable trade-off for se…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.22659">Hugging Face Papers</source>
-      <guid isPermaLink="false">18c349e5bea4697c887d358726f7d033</guid>
-    </item>
-    <item>
-      <title>RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation</title>
-      <link>https://huggingface.co/papers/2610.27861</link>
-      <description>RoboCasa-Shift evaluates vision-language-action robustness through paired rollouts and stage-aware diagnostics, revealing that failure patterns vary by shift factor and task rathe…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.27861">Hugging Face Papers</source>
-      <guid isPermaLink="false">b882511a86bbe1b97ff500b1c4d406f9</guid>
-    </item>
-    <item>
-      <title>SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?</title>
-      <link>https://huggingface.co/papers/2610.26659</link>
-      <description>SpatialScout evaluates vision-language agents on active 3D object mapping, revealing major gaps in precise metric map construction.</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.26659">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f1cd46063b505b1d026cfe0f24757da</guid>
-    </item>
-    <item>
-      <title>From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks</title>
-      <link>https://huggingface.co/papers/2610.28027</link>
-      <description>Most proposed reinforcement learning training methods for language models are not adopted by open-source frameworks, with adoption rates remaining low despite growing publication…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28027">Hugging Face Papers</source>
-      <guid isPermaLink="false">58e907496b11c8e41886886fd6d3f157</guid>
-    </item>
-    <item>
-      <title>From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation</title>
-      <link>https://huggingface.co/papers/2610.29560</link>
-      <description>SERA improves long-horizon robotic manipulation by using an editable harness to maintain task context and evolve planning through execution feedback, paired with a fixed low-level…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.29560">Hugging Face Papers</source>
-      <guid isPermaLink="false">277e7152563cfeba42f36102b40970d2</guid>
     </item>
   </channel>
 </rss>
