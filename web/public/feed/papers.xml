@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 10:09:44 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 10:18:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows</title>
+      <link>https://huggingface.co/papers/2610.27233</link>
+      <description>MMedAgent-Plus is a multimodal medical agent that coordinates specialist AI models via a vision-language planner to execute multi-step clinical analyses with high accuracy and fai…</description>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27233">Hugging Face Papers</source>
+      <guid isPermaLink="false">e38dfacf51a89f447b3367a07ddbd56f</guid>
+    </item>
+    <item>
+      <title>Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy</title>
+      <link>https://huggingface.co/papers/2610.26836</link>
+      <description>Agent harnesses that retrieve long simulator outputs from files rather than including them in context cause GPT models to substitute their own approximations for authoritative res…</description>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.26836">Hugging Face Papers</source>
+      <guid isPermaLink="false">715eb5de6e083613602e441ad200bf97</guid>
+    </item>
+    <item>
+      <title>Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity</title>
+      <link>https://huggingface.co/papers/2610.28441</link>
+      <description>Stratified Sparse Attention unifies deterministic retrieval and score-guided sampling to recover attention mass, improving long-context inference accuracy and speed across multipl…</description>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.28441">Hugging Face Papers</source>
+      <guid isPermaLink="false">2266a7461d1bac507868bc8122e6b100</guid>
+    </item>
+    <item>
+      <title>Bridged Self-Distillation for On-Policy Learning</title>
+      <link>https://huggingface.co/papers/2610.26397</link>
+      <description>Bridged Self-Distillation unifies on-policy reasoning transfer from any teacher by using privileged reasoning traces to score student rollouts and guide updates via outcome verifi…</description>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.26397">Hugging Face Papers</source>
+      <guid isPermaLink="false">e2c92c74bcdf9bfa85e70375507a2d0d</guid>
+    </item>
     <item>
       <title>FrontierCS 2: A Benchmark for Computer Science R&amp;D</title>
       <link>https://huggingface.co/papers/2610.29932</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.30090">Hugging Face Papers</source>
       <guid isPermaLink="false">67f95ea3cea9ab2aeda7d1b4db2ee486</guid>
-    </item>
-    <item>
-      <title>DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents</title>
-      <link>https://huggingface.co/papers/2610.19376</link>
-      <description>DeLoop is a self-supervised preference optimization method that reduces repetitive tool-use loops in language-model agents by learning from their own rollouts, improving efficienc…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.19376">Hugging Face Papers</source>
-      <guid isPermaLink="false">f3712ab3a1c74fd343d0caaa65a7c8cb</guid>
-    </item>
-    <item>
-      <title>Toward Part-Aware Choral Transcription with singing voice assignment</title>
-      <link>https://huggingface.co/papers/2610.09861</link>
-      <description>PawCT is an end-to-end neural framework that jointly transcribes choral audio into separate SATB note tracks using part-specific predictions, range priors, and ordered-continuity…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.09861">Hugging Face Papers</source>
-      <guid isPermaLink="false">42c90e8135b3a7cd518d32a29166a94a</guid>
-    </item>
-    <item>
-      <title>Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting</title>
-      <link>https://huggingface.co/papers/2610.29784</link>
-      <description>Most contemporary artificial intelligence (AI) systems are released with frozen parameters and improve through external updates, whereas an ideal system would keep improving from…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.29784">Hugging Face Papers</source>
-      <guid isPermaLink="false">656e24c78b2ed81f5e527edac4272b02</guid>
-    </item>
-    <item>
-      <title>Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents</title>
-      <link>https://huggingface.co/papers/2610.11942</link>
-      <description>A decoder-free, action-conditioned world model predicts next-screen representations to verify GUI transitions and detect hijacked screens with high accuracy and low latency.</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.11942">Hugging Face Papers</source>
-      <guid isPermaLink="false">43d18d3aecfab4b9228ff695372f3fd3</guid>
     </item>
   </channel>
 </rss>

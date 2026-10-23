@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 10:09:44 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 10:18:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AAIF에 Agent Skills, Open Responses, OpenEnv, OpenSandbox 합류해 프로젝트 10개로</title>
+      <link>https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275</link>
+      <description>핵심 요약 Agentic AI Foundation(AAIF) 이 2026년 10월 22일 새 프로젝트 4개를 발표했습니다. Agent Skills(Anthropic), Open Responses(OpenAI), OpenEnv(Hugging Face), OpenSandbox(Alibaba)입니다.</description>
+      <pubDate>Fri, 23 Oct 2026 10:00:05 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275">PyTorch Korea</source>
+      <guid isPermaLink="false">8a2eb9e8131de6267094cb3c42aef51e</guid>
+    </item>
+    <item>
+      <title>AWS, Trainium을 CUDA처럼 PyTorch 장치로 쓰는 네이티브 백엔드 TorchNeuron 공개 (feat. Hugging Face)</title>
+      <link>https://discuss.pytorch.kr/t/aws-trainium-cuda-pytorch-torchneuron-feat-hugging-face/12259</link>
+      <description>핵심 요약 AWS가 Trainium용 네이티브 PyTorch 백엔드 TorchNeuron 을 Apache 2.0 오픈소스로 공개했습니다. 2026년 10월 19일 Neuron SDK 2.33.0에 포함됐고, 10월 20일 PyTorch Conference North America에 맞춰 공개 베타로 열렸습니다.</description>
+      <pubDate>Fri, 23 Oct 2026 08:00:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/aws-trainium-cuda-pytorch-torchneuron-feat-hugging-face/12259">PyTorch Korea</source>
+      <guid isPermaLink="false">29e917c23fa64bb0650a91c1661491ec</guid>
+    </item>
     <item>
       <title>REAP: 리버스 엔지니어링 에이전트(REA)에서 바로 사용 가능한 55개의 리버스 엔지니어링 프롬프트 저장소 (≠ REA 공식)</title>
       <link>https://discuss.pytorch.kr/t/reap-rea-55-rea/12255</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/llm-as-jev-llm-jev/12129">PyTorch Korea</source>
       <guid isPermaLink="false">cc35efd6e24dc2a58a36e137a193bdc0</guid>
-    </item>
-    <item>
-      <title>[프로젝트 소개] WITAN: 에이전트가 직접 잰 실측값과 데이터셋을 MCP로 찾아 쓰는 마켓 (테스트넷 베타)</title>
-      <link>https://discuss.pytorch.kr/t/witan-mcp/12147</link>
-      <description>에이전트에게 일을 맡기다 보면 "이건 누군가 이미 재 봤을 텐데" 싶은 순간이 자주 옵니다. API의 실제 rate limit, pgvector 인덱스가 언제부터 이득인지, 어떤 SDK 버전에서 무엇이 깨졌는지 같은 것들입니다. 웹 검색으로는 조건이 빠진 글이 나오기 쉽고, 결국 에이전트가 같은 실험을 다시 돌리게 됩니다.</description>
-      <pubDate>Sun, 11 Oct 2026 15:57:13 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/witan-mcp/12147">PyTorch Korea</source>
-      <guid isPermaLink="false">962698ee8e34edf612b5b04177c8292a</guid>
-    </item>
-    <item>
-      <title>Google의 TEE 기반 연합 학습(FL) 외부에서 검증 가능한 차등 프라이버시로 Gboard 모델 학습 사례 공유</title>
-      <link>https://discuss.pytorch.kr/t/google-tee-fl-gboard/12135</link>
-      <description>핵심 요약 Google Research는 Toward provably private learning from federated data 블로그 글 과 같은 제목의 논문 에서 새 연합 학습 시스템을 발표했습니다. 기기가 암호화한 학습 데이터는 서버의 TEE(신뢰 실행 환경) 안에서만 풀려 학습에 쓰입니다.</description>
-      <pubDate>Sun, 11 Oct 2026 13:30:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/google-tee-fl-gboard/12135">PyTorch Korea</source>
-      <guid isPermaLink="false">0e639f1a4d55491167b3e7277d059189</guid>
     </item>
   </channel>
 </rss>
