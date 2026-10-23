@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 22:10:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 03:09:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems</title>
+      <link>https://huggingface.co/papers/2610.30418</link>
+      <description>LLM agents frequently leak sensitive conclusions assembled from multiple confidential documents, and common safeguards fail to eliminate this mosaic-style disclosure risk.</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30418">Hugging Face Papers</source>
+      <guid isPermaLink="false">ea2dedc9331b93b5188e1590ea47d12a</guid>
+    </item>
+    <item>
+      <title>IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems</title>
+      <link>https://huggingface.co/papers/2610.24383</link>
+      <description>IF-MAP identifies high-impact agents in multi-agent LLM systems via prompt perturbation analysis to maximize system-level gains from targeted improvements.</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.24383">Hugging Face Papers</source>
+      <guid isPermaLink="false">2d78b29ed767d2c8b9cd1812518f8e54</guid>
+    </item>
+    <item>
+      <title>FilmFlow: Agentic System for 3D Virtual Film Cinematography</title>
+      <link>https://huggingface.co/papers/2610.30753</link>
+      <description>FilmFlow is an agentic framework that translates natural-language or video instructions into executable camera trajectories for 3D scenes using specialized director, interpreter,…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30753">Hugging Face Papers</source>
+      <guid isPermaLink="false">ecbfa6ed58f055fc6a4939b7d240c17d</guid>
+    </item>
+    <item>
+      <title>Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans</title>
+      <link>https://huggingface.co/papers/2610.27148</link>
+      <description>Researchers use a shared-control maze to show that stronger language-model agents selectively involve humans based on route advantage rather than failing to collaborate.</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27148">Hugging Face Papers</source>
+      <guid isPermaLink="false">b06ea8f25becfdef6ce12477f821a3bd</guid>
+    </item>
+    <item>
+      <title>Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization</title>
+      <link>https://huggingface.co/papers/2610.24385</link>
+      <description>ID-TAP uses a neural dueling-bandit framework with similarity-weighted warm starts to adapt LLM agents to user preferences via binary response comparisons within a limited interac…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.24385">Hugging Face Papers</source>
+      <guid isPermaLink="false">1407dbaefafd7a40128936c14d1fa177</guid>
+    </item>
+    <item>
+      <title>BrickWright: Agentic Creation of Physically Feasible Brick Builds</title>
+      <link>https://huggingface.co/papers/2610.31651</link>
+      <description>BrickWright improves physical validity of AI-generated LEGO assemblies by providing agents with an assembly API and feasibility validator, achieving perfect validity while preserv…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31651">Hugging Face Papers</source>
+      <guid isPermaLink="false">6b066cadc7dd868a2628c1422012f46c</guid>
+    </item>
+    <item>
+      <title>HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second</title>
+      <link>https://huggingface.co/papers/2610.28950</link>
+      <description>HyperDrone is a GPU-accelerated quadrotor simulator using a ray-tracing engine to render high-fidelity observations at high speed, enabling vision-based policy training and real-w…</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.28950">Hugging Face Papers</source>
+      <guid isPermaLink="false">46ee1a4aebfa6b3d1e0d2e58b0f59a44</guid>
+    </item>
     <item>
       <title>IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems</title>
       <link>https://huggingface.co/papers/2610.30949</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.29932">Hugging Face Papers</source>
       <guid isPermaLink="false">431393a0325e79dacb6a2cf7db220478</guid>
-    </item>
-    <item>
-      <title>StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion</title>
-      <link>https://huggingface.co/papers/2610.28940</link>
-      <description>StyleStream 2.0 improves streaming voice conversion with lower latency via a few-step MeanFlow model and enables text-based voice design and editing through a unified flow matchin…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28940">Hugging Face Papers</source>
-      <guid isPermaLink="false">23493d94c4d498f1c64572a4f8a38b30</guid>
-    </item>
-    <item>
-      <title>Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research</title>
-      <link>https://huggingface.co/papers/2610.30113</link>
-      <description>Quant-Arena benchmarks end-to-end quantitative research by evaluating whether language models can build trading strategies on historical A-share data that remain profitable in a s…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.30113">Hugging Face Papers</source>
-      <guid isPermaLink="false">3b2585b4d1ac939aa7160de0558679c2</guid>
-    </item>
-    <item>
-      <title>Looped Uniform Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2610.30066</link>
-      <description>Looping early Transformer layers improves training and inference efficiency of uniform diffusion language models without altering their objective or sampler.</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.30066">Hugging Face Papers</source>
-      <guid isPermaLink="false">9df4c63c3548e44e64e146e51420b860</guid>
-    </item>
-    <item>
-      <title>DiffResearch: Accelerating Deep Research with Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2610.28909</link>
-      <description>DiffResearch replaces autoregressive backbones with diffusion language models in multi-agent deep research, achieving large latency reductions and improved report quality via iter…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28909">Hugging Face Papers</source>
-      <guid isPermaLink="false">b70e1b5bacc0e6bc526db3c4cf54174c</guid>
-    </item>
-    <item>
-      <title>Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication</title>
-      <link>https://huggingface.co/papers/2610.28905</link>
-      <description>Diffusion language model agents can exchange compressed continuous hidden messages that causally affect reasoning, with the timing of transfer sometimes outweighing repeated excha…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28905">Hugging Face Papers</source>
-      <guid isPermaLink="false">9bd41ebe46db922aa00a860dd72a6bf8</guid>
-    </item>
-    <item>
-      <title>VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents</title>
-      <link>https://huggingface.co/papers/2610.28679</link>
-      <description>Agents generate executable verifiers to validate outputs, but these verifiers often wrongly reject valid solutions due to hidden assumptions, prompting recommendations to test acc…</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28679">Hugging Face Papers</source>
-      <guid isPermaLink="false">014e12787de4cca1b198b7fd9bb5fb34</guid>
-    </item>
-    <item>
-      <title>ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination</title>
-      <link>https://huggingface.co/papers/2610.29934</link>
-      <description>ToM2Vec learns abstract partner-state representations via continuous latent reasoning tokens to improve multi-agent collaboration across diverse settings.</description>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.29934">Hugging Face Papers</source>
-      <guid isPermaLink="false">722e679c5e41ec7ba32d5c6d997927a7</guid>
     </item>
   </channel>
 </rss>
