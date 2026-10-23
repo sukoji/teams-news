@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T10:09:43.976465+09:00",
+  "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
+  "item_count": 7,
+  "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "f5b4a943446f2058c9abe6477d40e035",
+          "index": 1,
+          "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+          "title_ko": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+          "summary": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training cost.",
+          "summary_ko": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training co…",
+          "url": "https://huggingface.co/papers/2610.29989",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-10-22T09:00:00+09:00",
+          "popularity": 294,
+          "upvotes": 116,
+          "score": 27.06,
+          "importance_score": 17.06,
+          "matched_keywords": [
+            "ai",
+            "diffusion",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 116
+          }
+        },
+        {
+          "id": "1df6ea20f3e4e881859ac93d236c7c10",
+          "index": 2,
+          "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+          "title_ko": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+          "summary": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating richer training beyond imitation.",
+          "summary_ko": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating ric…",
+          "url": "https://huggingface.co/papers/2610.28698",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-10-22T09:00:00+09:00",
+          "popularity": 284,
+          "upvotes": 49,
+          "score": 26.96,
+          "importance_score": 16.96,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 49
+          }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "📰 News",
+      "items": [
+        {
+          "id": "7478355b1982491b5561ccebfcac8a8f",
+          "index": 3,
+          "title": "[AI리더의 서가] 클로드 코드로 완성하는 에이전틱 코딩 자동화",
+          "title_ko": null,
+          "summary": "클로드 코드로 완성하는 에이전틱 코딩 자동화오사와 후미타카 | 위키북스2026년 10월 7일추천이유이 책은 Claude Code를 실제 업무에 안전하게 활용하는 방법을 제시하며, 명세와 테스트를 통해 AI 결과물을 검증하는 개발 프로세스를 제안합니다.",
+          "summary_ko": null,
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216346",
+          "source": "AI Times",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-10-23T09:00:00+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 22.76,
+          "importance_score": 19.52,
+          "matched_keywords": [
+            "ai",
+            "claude"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "d512f3c286fd385e455cacadd8305744",
+          "index": 4,
+          "title": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
+          "title_ko": null,
+          "summary": "메타의 '뮤즈', 오픈AI의 '닷츠'에 이어 앤트로픽도 개인이 사용하는 인공지능(AI) 에이전트를 선보였다. 앤트로픽은 차상위 AI 모델 '클로드 오퍼스 5.5'를 기반으로 한 에이전트 '클로드 듀엣'의 연구용 미리보기판을 22일(현지시간) 공개했다. 이 에이전트 도구는 이용자가 일일이 지시하지 않아도 스스로 연동된 자료와 애플리케이션(앱)을 지켜보며 필요한 업무를 찾아 수행한다.",
+          "summary_ko": null,
+          "url": "https://www.etnews.com/20261023000003",
+          "source": "전자신문 IT",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-10-23T07:27:07+09:00",
+          "popularity": 96,
+          "upvotes": 0,
+          "score": 25.04,
+          "importance_score": 18.47,
+          "matched_keywords": [
+            "ai",
+            "연구",
+            "모델"
+          ],
+          "engagement": null
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "60b327d6ad835cd9daa71ea19e402679",
+          "index": 5,
+          "title": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+          "title_ko": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+          "summary": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+          "summary_ko": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+          "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-10-22T22:32:02+09:00",
+          "popularity": 443,
+          "upvotes": 443,
+          "score": 34.91,
+          "importance_score": 26.49,
+          "matched_keywords": [
+            "ai",
+            "claude",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 443
+          }
+        },
+        {
+          "id": "8c0f82e046d653aaaf2fdb1c684da173",
+          "index": 6,
+          "title": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
+          "title_ko": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
+          "summary": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+          "summary_ko": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow…",
+          "url": "https://github.com/C4rohan/Lampline",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-10-23T03:11:59+09:00",
+          "popularity": 163,
+          "upvotes": 163,
+          "score": 32.4,
+          "importance_score": 24.95,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "open source"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 163
+          }
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "💬 Community",
+      "items": [
+        {
+          "id": "8a2eb9e8131de6267094cb3c42aef51e",
+          "index": 7,
+          "title": "AAIF에 Agent Skills, Open Responses, OpenEnv, OpenSandbox 합류해 프로젝트 10개로",
+          "title_ko": null,
+          "summary": "핵심 요약 Agentic AI Foundation(AAIF) 이 2026년 10월 22일 새 프로젝트 4개를 발표했습니다. Agent Skills(Anthropic), Open Responses(OpenAI), OpenEnv(Hugging Face), OpenSandbox(Alibaba)입니다.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-10-23T10:00:05+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 22.97,
+          "importance_score": 19.93,
+          "matched_keywords": [
+            "ai",
+            "agent"
+          ],
+          "engagement": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "f5b4a943446f2058c9abe6477d40e035",
+      "index": 1,
+      "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "title_ko": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "summary": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training cost.",
+      "summary_ko": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training co…",
+      "url": "https://huggingface.co/papers/2610.29989",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-22T09:00:00+09:00",
+      "popularity": 294,
+      "upvotes": 116,
+      "score": 27.06,
+      "importance_score": 17.06,
+      "matched_keywords": [
+        "ai",
+        "diffusion",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 116
+      }
+    },
+    {
+      "id": "1df6ea20f3e4e881859ac93d236c7c10",
+      "index": 2,
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "title_ko": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "summary": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating richer training beyond imitation.",
+      "summary_ko": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating ric…",
+      "url": "https://huggingface.co/papers/2610.28698",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-22T09:00:00+09:00",
+      "popularity": 284,
+      "upvotes": 49,
+      "score": 26.96,
+      "importance_score": 16.96,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 49
+      }
+    },
+    {
+      "id": "7478355b1982491b5561ccebfcac8a8f",
+      "index": 3,
+      "title": "[AI리더의 서가] 클로드 코드로 완성하는 에이전틱 코딩 자동화",
+      "title_ko": null,
+      "summary": "클로드 코드로 완성하는 에이전틱 코딩 자동화오사와 후미타카 | 위키북스2026년 10월 7일추천이유이 책은 Claude Code를 실제 업무에 안전하게 활용하는 방법을 제시하며, 명세와 테스트를 통해 AI 결과물을 검증하는 개발 프로세스를 제안합니다.",
+      "summary_ko": null,
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216346",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-23T09:00:00+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 22.76,
+      "importance_score": 19.52,
+      "matched_keywords": [
+        "ai",
+        "claude"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "d512f3c286fd385e455cacadd8305744",
+      "index": 4,
+      "title": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
+      "title_ko": null,
+      "summary": "메타의 '뮤즈', 오픈AI의 '닷츠'에 이어 앤트로픽도 개인이 사용하는 인공지능(AI) 에이전트를 선보였다. 앤트로픽은 차상위 AI 모델 '클로드 오퍼스 5.5'를 기반으로 한 에이전트 '클로드 듀엣'의 연구용 미리보기판을 22일(현지시간) 공개했다. 이 에이전트 도구는 이용자가 일일이 지시하지 않아도 스스로 연동된 자료와 애플리케이션(앱)을 지켜보며 필요한 업무를 찾아 수행한다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261023000003",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-23T07:27:07+09:00",
+      "popularity": 96,
+      "upvotes": 0,
+      "score": 25.04,
+      "importance_score": 18.47,
+      "matched_keywords": [
+        "ai",
+        "연구",
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "60b327d6ad835cd9daa71ea19e402679",
+      "index": 5,
+      "title": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+      "title_ko": "kanaworksai-hue/audio-studio-mcp — Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (",
+      "summary": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+      "summary_ko": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+      "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-22T22:32:02+09:00",
+      "popularity": 443,
+      "upvotes": 443,
+      "score": 34.91,
+      "importance_score": 26.49,
+      "matched_keywords": [
+        "ai",
+        "claude",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 443
+      }
+    },
+    {
+      "id": "8c0f82e046d653aaaf2fdb1c684da173",
+      "index": 6,
+      "title": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
+      "title_ko": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
+      "summary": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+      "summary_ko": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow…",
+      "url": "https://github.com/C4rohan/Lampline",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-23T03:11:59+09:00",
+      "popularity": 163,
+      "upvotes": 163,
+      "score": 32.4,
+      "importance_score": 24.95,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "open source"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 163
+      }
+    },
+    {
+      "id": "8a2eb9e8131de6267094cb3c42aef51e",
+      "index": 7,
+      "title": "AAIF에 Agent Skills, Open Responses, OpenEnv, OpenSandbox 합류해 프로젝트 10개로",
+      "title_ko": null,
+      "summary": "핵심 요약 Agentic AI Foundation(AAIF) 이 2026년 10월 22일 새 프로젝트 4개를 발표했습니다. Agent Skills(Anthropic), Open Responses(OpenAI), OpenEnv(Hugging Face), OpenSandbox(Alibaba)입니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-10-23T10:00:05+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 22.97,
+      "importance_score": 19.93,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": null
+    }
+  ]
+}
