@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T10:09:43.976465+09:00",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T10:20:27.831053+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,55 +10,59 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "f5b4a943446f2058c9abe6477d40e035",
+          "id": "c7b34f1ef8116a37e978f4fc5899fff3",
           "index": 1,
-          "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-          "title_ko": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-          "summary": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training cost.",
-          "summary_ko": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training co…",
-          "url": "https://huggingface.co/papers/2610.29989",
+          "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+          "title_ko": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+          "summary": "Factor-Aware Predictive Learning enables video diffusion transformers to leverage multimodal language model representations for sparse temporal inference and factor-aware cinematic control through staged grounding and o…",
+          "summary_ko": "Factor-Aware Predictive Learning enables video diffusion transformers to leverage multimodal language model representations for sparse temporal inference and factor-aware cinemati…",
+          "url": "https://huggingface.co/papers/2610.30926",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-22T09:00:00+09:00",
-          "popularity": 294,
-          "upvotes": 116,
-          "score": 27.06,
-          "importance_score": 17.06,
+          "published_at": "2026-10-23T09:00:00+09:00",
+          "popularity": 334,
+          "upvotes": 164,
+          "score": 33.44,
+          "importance_score": 17.44,
           "matched_keywords": [
-            "ai",
+            "llm",
+            "rag",
+            "transformer",
+            "multimodal",
             "diffusion",
-            "training"
+            "inference"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 116
+            "value": 164
           }
         },
         {
-          "id": "1df6ea20f3e4e881859ac93d236c7c10",
+          "id": "20820c722eba832284042b86beadd700",
           "index": 2,
-          "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-          "title_ko": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-          "summary": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating richer training beyond imitation.",
-          "summary_ko": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating ric…",
-          "url": "https://huggingface.co/papers/2610.28698",
+          "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+          "title_ko": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+          "summary": "IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabilities.",
+          "summary_ko": "IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabi…",
+          "url": "https://huggingface.co/papers/2610.30949",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-22T09:00:00+09:00",
-          "popularity": 284,
-          "upvotes": 49,
-          "score": 26.96,
-          "importance_score": 16.96,
+          "published_at": "2026-10-23T09:00:00+09:00",
+          "popularity": 113,
+          "upvotes": 54,
+          "score": 26.21,
+          "importance_score": 14.21,
           "matched_keywords": [
             "ai",
             "agent",
+            "foundation model",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 49
+            "value": 54
           }
         }
       ]
@@ -68,45 +72,46 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "7478355b1982491b5561ccebfcac8a8f",
+          "id": "691add1cd578dbdb7739efe55a0cbf83",
           "index": 3,
-          "title": "[AI리더의 서가] 클로드 코드로 완성하는 에이전틱 코딩 자동화",
+          "title": "구글 ‘제미나이 4 카본’ 외부 테스트설…“3D 개선됐지만 속도 느려”",
           "title_ko": null,
-          "summary": "클로드 코드로 완성하는 에이전틱 코딩 자동화오사와 후미타카 | 위키북스2026년 10월 7일추천이유이 책은 Claude Code를 실제 업무에 안전하게 활용하는 방법을 제시하며, 명세와 테스트를 통해 AI 결과물을 검증하는 개발 프로세스를 제안합니다.",
+          "summary": "구글이 개발 중인 ‘제미나이 4 카본’이 외부 파트너 테스트에 들어갔다는 소식이 나왔다. ‘아르곤’ 공개 약 일주일 만에 카본으로 추정되는 모델의 결과물까지 등장했으며, 초기 이용자들은 아르곤과 비교해 3D 작업 능력이 개선됐다고 평가했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216346",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216604",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-23T09:00:00+09:00",
+          "published_at": "2026-10-24T09:05:59+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.76,
-          "importance_score": 19.52,
+          "score": 19.74,
+          "importance_score": 19.48,
           "matched_keywords": [
-            "ai",
-            "claude"
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "d512f3c286fd385e455cacadd8305744",
+          "id": "e116fdcda96beabc55318ca224321f33",
           "index": 4,
-          "title": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
+          "title": "LLM '명령'에 두 글자 추가했더니…로봇이 한 섬뜩한 행동",
           "title_ko": null,
-          "summary": "메타의 '뮤즈', 오픈AI의 '닷츠'에 이어 앤트로픽도 개인이 사용하는 인공지능(AI) 에이전트를 선보였다. 앤트로픽은 차상위 AI 모델 '클로드 오퍼스 5.5'를 기반으로 한 에이전트 '클로드 듀엣'의 연구용 미리보기판을 22일(현지시간) 공개했다. 이 에이전트 도구는 이용자가 일일이 지시하지 않아도 스스로 연동된 자료와 애플리케이션(앱)을 지켜보며 필요한 업무를 찾아 수행한다.",
+          "summary": "[지디넷코리아]오픈AI 챗GPT, 제미나이, 클로드 등 대규모 언어모델(LLM)의 보안 취약점을 악용하면 로봇이 위험한 행동을 하도록 유도할 수 있다는 연구 결과가 나왔다.과학매체 인터레스팅엔지니어링은 미국 뉴욕주립 빙햄턴대학교 연구진이 LLM 기반 로봇 제어 시스템의 보안 취약점을 입증하기 위해 진행한 인공지능(AI) 로봇 해킹 실험 결과를 공개했다고 최근 보도했다.연구진은 LLM에 악의…",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261023000003",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20261023193807",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-23T07:27:07+09:00",
-          "popularity": 96,
+          "published_at": "2026-10-24T09:17:20+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 25.04,
-          "importance_score": 18.47,
+          "score": 31.78,
+          "importance_score": 19.56,
           "matched_keywords": [
             "ai",
+            "llm",
+            "gpt",
             "연구",
             "모델"
           ],
@@ -130,10 +135,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-10-22T22:32:02+09:00",
-          "popularity": 443,
-          "upvotes": 443,
-          "score": 34.91,
-          "importance_score": 26.49,
+          "popularity": 462,
+          "upvotes": 462,
+          "score": 32.48,
+          "importance_score": 21.48,
           "matched_keywords": [
             "ai",
             "claude",
@@ -141,33 +146,32 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 443
+            "value": 462
           }
         },
         {
-          "id": "8c0f82e046d653aaaf2fdb1c684da173",
+          "id": "8a6e0e920f0cf8ca64312c8d60486d62",
           "index": 6,
-          "title": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
-          "title_ko": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
-          "summary": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
-          "summary_ko": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow…",
-          "url": "https://github.com/C4rohan/Lampline",
+          "title": "xingjian-bai/opal — OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+          "title_ko": "xingjian-bai/opal — OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+          "summary": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+          "summary_ko": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+          "url": "https://github.com/xingjian-bai/opal",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-23T03:11:59+09:00",
-          "popularity": 163,
-          "upvotes": 163,
-          "score": 32.4,
-          "importance_score": 24.95,
+          "published_at": "2026-10-24T06:55:48+09:00",
+          "popularity": 184,
+          "upvotes": 184,
+          "score": 30.56,
+          "importance_score": 26.85,
           "matched_keywords": [
             "ai",
-            "agent",
-            "open source"
+            "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 163
+            "value": 184
           }
         }
       ]
@@ -177,23 +181,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "8a2eb9e8131de6267094cb3c42aef51e",
+          "id": "5328e0e1e0809bd3365f7cb9541da514",
           "index": 7,
-          "title": "AAIF에 Agent Skills, Open Responses, OpenEnv, OpenSandbox 합류해 프로젝트 10개로",
+          "title": "OpenAI가 AAIF에 기증한 Open Responses: 여러 LLM 제공자를 같은 요청 형식으로 호출하는 공개 사양",
           "title_ko": null,
-          "summary": "핵심 요약 Agentic AI Foundation(AAIF) 이 2026년 10월 22일 새 프로젝트 4개를 발표했습니다. Agent Skills(Anthropic), Open Responses(OpenAI), OpenEnv(Hugging Face), OpenSandbox(Alibaba)입니다.",
+          "summary": "핵심 요약 OpenAI가 Open Responses 사양을 Linux Foundation 산하 Agentic AI Foundation(AAIF)에 기증했습니다. Open Responses는 OpenAI Responses API를 바탕으로 요청, 응답, 스트리밍 이벤트, 도구 호출의 형식을 정한 공개 API 사양입니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275",
+          "url": "https://discuss.pytorch.kr/t/openai-aaif-open-responses-llm/12277",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-23T10:00:05+09:00",
-          "popularity": 100,
+          "published_at": "2026-10-24T09:00:59+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.97,
-          "importance_score": 19.93,
+          "score": 25.62,
+          "importance_score": 19.35,
           "matched_keywords": [
             "ai",
+            "llm",
             "agent"
           ],
           "engagement": null
@@ -203,97 +208,102 @@
   ],
   "items": [
     {
-      "id": "f5b4a943446f2058c9abe6477d40e035",
+      "id": "c7b34f1ef8116a37e978f4fc5899fff3",
       "index": 1,
-      "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-      "title_ko": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-      "summary": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training cost.",
-      "summary_ko": "Future Chunk Prediction improves autoregressive video diffusion by enforcing future-chunk supervision, yielding more physically plausible video generation with reduced training co…",
-      "url": "https://huggingface.co/papers/2610.29989",
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "title_ko": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "summary": "Factor-Aware Predictive Learning enables video diffusion transformers to leverage multimodal language model representations for sparse temporal inference and factor-aware cinematic control through staged grounding and o…",
+      "summary_ko": "Factor-Aware Predictive Learning enables video diffusion transformers to leverage multimodal language model representations for sparse temporal inference and factor-aware cinemati…",
+      "url": "https://huggingface.co/papers/2610.30926",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-22T09:00:00+09:00",
-      "popularity": 294,
-      "upvotes": 116,
-      "score": 27.06,
-      "importance_score": 17.06,
+      "published_at": "2026-10-23T09:00:00+09:00",
+      "popularity": 334,
+      "upvotes": 164,
+      "score": 33.44,
+      "importance_score": 17.44,
       "matched_keywords": [
-        "ai",
+        "llm",
+        "rag",
+        "transformer",
+        "multimodal",
         "diffusion",
-        "training"
+        "inference"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 116
+        "value": 164
       }
     },
     {
-      "id": "1df6ea20f3e4e881859ac93d236c7c10",
+      "id": "20820c722eba832284042b86beadd700",
       "index": 2,
-      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-      "title_ko": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-      "summary": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating richer training beyond imitation.",
-      "summary_ko": "Continued pre-training across data scale, diversity, and model size improves embodied learning in virtual worlds but reveals limits in distant-world generalization, motivating ric…",
-      "url": "https://huggingface.co/papers/2610.28698",
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "title_ko": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "summary": "IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabilities.",
+      "summary_ko": "IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabi…",
+      "url": "https://huggingface.co/papers/2610.30949",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-22T09:00:00+09:00",
-      "popularity": 284,
-      "upvotes": 49,
-      "score": 26.96,
-      "importance_score": 16.96,
+      "published_at": "2026-10-23T09:00:00+09:00",
+      "popularity": 113,
+      "upvotes": 54,
+      "score": 26.21,
+      "importance_score": 14.21,
       "matched_keywords": [
         "ai",
         "agent",
+        "foundation model",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 49
+        "value": 54
       }
     },
     {
-      "id": "7478355b1982491b5561ccebfcac8a8f",
+      "id": "691add1cd578dbdb7739efe55a0cbf83",
       "index": 3,
-      "title": "[AI리더의 서가] 클로드 코드로 완성하는 에이전틱 코딩 자동화",
+      "title": "구글 ‘제미나이 4 카본’ 외부 테스트설…“3D 개선됐지만 속도 느려”",
       "title_ko": null,
-      "summary": "클로드 코드로 완성하는 에이전틱 코딩 자동화오사와 후미타카 | 위키북스2026년 10월 7일추천이유이 책은 Claude Code를 실제 업무에 안전하게 활용하는 방법을 제시하며, 명세와 테스트를 통해 AI 결과물을 검증하는 개발 프로세스를 제안합니다.",
+      "summary": "구글이 개발 중인 ‘제미나이 4 카본’이 외부 파트너 테스트에 들어갔다는 소식이 나왔다. ‘아르곤’ 공개 약 일주일 만에 카본으로 추정되는 모델의 결과물까지 등장했으며, 초기 이용자들은 아르곤과 비교해 3D 작업 능력이 개선됐다고 평가했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216346",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216604",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-23T09:00:00+09:00",
+      "published_at": "2026-10-24T09:05:59+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.76,
-      "importance_score": 19.52,
+      "score": 19.74,
+      "importance_score": 19.48,
       "matched_keywords": [
-        "ai",
-        "claude"
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "d512f3c286fd385e455cacadd8305744",
+      "id": "e116fdcda96beabc55318ca224321f33",
       "index": 4,
-      "title": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
+      "title": "LLM '명령'에 두 글자 추가했더니…로봇이 한 섬뜩한 행동",
       "title_ko": null,
-      "summary": "메타의 '뮤즈', 오픈AI의 '닷츠'에 이어 앤트로픽도 개인이 사용하는 인공지능(AI) 에이전트를 선보였다. 앤트로픽은 차상위 AI 모델 '클로드 오퍼스 5.5'를 기반으로 한 에이전트 '클로드 듀엣'의 연구용 미리보기판을 22일(현지시간) 공개했다. 이 에이전트 도구는 이용자가 일일이 지시하지 않아도 스스로 연동된 자료와 애플리케이션(앱)을 지켜보며 필요한 업무를 찾아 수행한다.",
+      "summary": "[지디넷코리아]오픈AI 챗GPT, 제미나이, 클로드 등 대규모 언어모델(LLM)의 보안 취약점을 악용하면 로봇이 위험한 행동을 하도록 유도할 수 있다는 연구 결과가 나왔다.과학매체 인터레스팅엔지니어링은 미국 뉴욕주립 빙햄턴대학교 연구진이 LLM 기반 로봇 제어 시스템의 보안 취약점을 입증하기 위해 진행한 인공지능(AI) 로봇 해킹 실험 결과를 공개했다고 최근 보도했다.연구진은 LLM에 악의…",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261023000003",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20261023193807",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-23T07:27:07+09:00",
-      "popularity": 96,
+      "published_at": "2026-10-24T09:17:20+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 25.04,
-      "importance_score": 18.47,
+      "score": 31.78,
+      "importance_score": 19.56,
       "matched_keywords": [
         "ai",
+        "llm",
+        "gpt",
         "연구",
         "모델"
       ],
@@ -311,10 +321,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-10-22T22:32:02+09:00",
-      "popularity": 443,
-      "upvotes": 443,
-      "score": 34.91,
-      "importance_score": 26.49,
+      "popularity": 462,
+      "upvotes": 462,
+      "score": 32.48,
+      "importance_score": 21.48,
       "matched_keywords": [
         "ai",
         "claude",
@@ -322,53 +332,53 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 443
+        "value": 462
       }
     },
     {
-      "id": "8c0f82e046d653aaaf2fdb1c684da173",
+      "id": "8a6e0e920f0cf8ca64312c8d60486d62",
       "index": 6,
-      "title": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
-      "title_ko": "C4rohan/Lampline — Build AI phone agents on your own computer and test every change with an AI caller. Open source, run",
-      "summary": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
-      "summary_ko": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow…",
-      "url": "https://github.com/C4rohan/Lampline",
+      "title": "xingjian-bai/opal — OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+      "title_ko": "xingjian-bai/opal — OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+      "summary": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+      "summary_ko": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+      "url": "https://github.com/xingjian-bai/opal",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-23T03:11:59+09:00",
-      "popularity": 163,
-      "upvotes": 163,
-      "score": 32.4,
-      "importance_score": 24.95,
+      "published_at": "2026-10-24T06:55:48+09:00",
+      "popularity": 184,
+      "upvotes": 184,
+      "score": 30.56,
+      "importance_score": 26.85,
       "matched_keywords": [
         "ai",
-        "agent",
-        "open source"
+        "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 163
+        "value": 184
       }
     },
     {
-      "id": "8a2eb9e8131de6267094cb3c42aef51e",
+      "id": "5328e0e1e0809bd3365f7cb9541da514",
       "index": 7,
-      "title": "AAIF에 Agent Skills, Open Responses, OpenEnv, OpenSandbox 합류해 프로젝트 10개로",
+      "title": "OpenAI가 AAIF에 기증한 Open Responses: 여러 LLM 제공자를 같은 요청 형식으로 호출하는 공개 사양",
       "title_ko": null,
-      "summary": "핵심 요약 Agentic AI Foundation(AAIF) 이 2026년 10월 22일 새 프로젝트 4개를 발표했습니다. Agent Skills(Anthropic), Open Responses(OpenAI), OpenEnv(Hugging Face), OpenSandbox(Alibaba)입니다.",
+      "summary": "핵심 요약 OpenAI가 Open Responses 사양을 Linux Foundation 산하 Agentic AI Foundation(AAIF)에 기증했습니다. Open Responses는 OpenAI Responses API를 바탕으로 요청, 응답, 스트리밍 이벤트, 도구 호출의 형식을 정한 공개 API 사양입니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275",
+      "url": "https://discuss.pytorch.kr/t/openai-aaif-open-responses-llm/12277",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-23T10:00:05+09:00",
-      "popularity": 100,
+      "published_at": "2026-10-24T09:00:59+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.97,
-      "importance_score": 19.93,
+      "score": 25.62,
+      "importance_score": 19.35,
       "matched_keywords": [
         "ai",
+        "llm",
         "agent"
       ],
       "engagement": null
