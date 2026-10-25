@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 26 Oct 2026 06:30:49 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 08:54:51 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic, Agent Skills 표준을 AAIF에 기증: SKILL.md는 그대로, 배포와 보안은 남은 과제</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-agent-skills-aaif-skill-md/12278</link>
+      <description>핵심 요약 Anthropic이 2026년 10월 22일 Agent Skills 표준을 Agentic AI Foundation(AAIF)에 기증 했습니다. 이름과 로고, agentskills GitHub 조직, agentskills.io 도메인이 Linux Foundation 산하 재단으로 넘어갑니다. 스킬 작성자가 지금 바꿔야 할 것은 없습니다.</description>
+      <pubDate>Mon, 26 Oct 2026 08:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-agent-skills-aaif-skill-md/12278">PyTorch Korea</source>
+      <guid isPermaLink="false">25e2eebe3281a650e87af4daf5f96043</guid>
+    </item>
+    <item>
+      <title>[2026/10/19 ~ 25] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
+      <link>https://discuss.pytorch.kr/t/2026-10-19-25-ai-ml/12294</link>
+      <description>PyTorchKR​ 이번 주 선정된 10편의 논문들을 살펴본 결과, 다음과 같은 주요한 연구 트렌드를 발견할 수 있었습니다: 에이전트 하네스 최적화 및 자기 진화 구조의 발전 : 이번 주 논문들에서는 에이전트가 도구를 사용하고 작업을 수행하는 기반인 하네스(Harness)를 최적화하고 스스로 진화시키는 연구들이 두드러졌습니다.</description>
+      <pubDate>Mon, 26 Oct 2026 06:30:52 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/2026-10-19-25-ai-ml/12294">PyTorch Korea</source>
+      <guid isPermaLink="false">b688f3e27aefc259e97817a399d2c076</guid>
+    </item>
     <item>
       <title>Docker와 Kubernetes를 같은 API로 다루는 에이전트 샌드박스 OpenSandbox, AAIF 프로젝트로 합류</title>
       <link>https://discuss.pytorch.kr/t/docker-kubernetes-api-opensandbox-aaif/12276</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/replayssm-ssm-nvidia/12174">PyTorch Korea</source>
       <guid isPermaLink="false">8d8431589d341e855006e68dc9f17dea</guid>
-    </item>
-    <item>
-      <title>Vercel, 지난 6월 공개한 오픈소스 에이전트 프레임워크 eve를 기반으로 한 100개 이상의 사내 에이전트 운영 경험 공유</title>
-      <link>https://discuss.pytorch.kr/t/vercel-6-eve-100/12139</link>
-      <description>핵심 요약 Vercel은 2026년 6월 17일 블로그 글 을 통해 에이전트를 파일 디렉터리로 정의하는 오픈소스 프레임워크 eve를 공개했고, 사내에서 100개가 넘는 에이전트를 이 구조로 운영한다고 밝혔습니다. ( eve: 파일시스템을 저작 인터페이스로 삼는 AI 에이전트 프레임워크 프로젝트 (feat.</description>
-      <pubDate>Tue, 13 Oct 2026 20:00:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vercel-6-eve-100/12139">PyTorch Korea</source>
-      <guid isPermaLink="false">7c05ab2a846e6fdc7fdacdc85caccc12</guid>
-    </item>
-    <item>
-      <title>Muse Wonder, Meta가 출시한 장기 코딩 평가 1위 및 Claude Opus 5.5과 유사한 성능의 에이전트 모델</title>
-      <link>https://discuss.pytorch.kr/t/muse-wonder-meta-1-claude-opus-5-5/12171</link>
-      <description>핵심 요약 Meta가 2026년 10월 12일 Muse Wonder 발표 글 에서 에이전트용 모델 Muse Wonder와 상위 변형 Muse Wonder Full을 출시했습니다. 가중치는 공개하지 않고 API와 구독으로만 제공합니다. Meta가 고른 5개 모델의 결과표 14개 항목 중 7개에서 Muse Wonder 계열이 1위입니다.</description>
-      <pubDate>Tue, 13 Oct 2026 18:00:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/muse-wonder-meta-1-claude-opus-5-5/12171">PyTorch Korea</source>
-      <guid isPermaLink="false">f9cdea6191df3c91f465d81ce88581fd</guid>
     </item>
   </channel>
 </rss>
