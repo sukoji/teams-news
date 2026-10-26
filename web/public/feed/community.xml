@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 26 Oct 2026 12:42:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:51:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>추론 전용 NPU에서 325M 언어모델을 0부터 사전학습하고, B200 GPU와 짝지은 비교로 품질 동등성을 검증한 기록</title>
+      <link>https://discuss.pytorch.kr/t/npu-325m-0-b200-gpu/12304</link>
+      <description>추론 전용으로 설계된 상용 NPU(리벨리온 ATOM-Max, 2025년 출시)에서 3억 2,560만 파라미터 디코더 모델을 무작위 초기값부터 사전학습했습니다. 같은 모델을 같은 조건으로 B200 GPU에서도 학습해, 학습에 쓰지 않은 텍스트에서 두 모델을 짝지어 비교했습니다. 이 글은 실험 설계와 측정 방법, 그리고 평가 과정에서 저희가 바로잡은 실수를 중심으로 정리합니다.</description>
+      <pubDate>Mon, 26 Oct 2026 15:03:44 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/npu-325m-0-b200-gpu/12304">PyTorch Korea</source>
+      <guid isPermaLink="false">9fdeb11d81da35068abf3486d12ce705</guid>
+    </item>
+    <item>
+      <title>Corgi: Claude Code, Codex 등 여러 코딩 에이전트를 한 터미널에서 지켜보는 멀티플렉서 (feat. Ghostty, herdr)</title>
+      <link>https://discuss.pytorch.kr/t/corgi-claude-code-codex-feat-ghostty-herdr/12290</link>
+      <description>핵심 요약 Corgi 는 Claude Code, Codex, Pi, OpenCode를 여러 창에 띄워 쓰는 개발자를 위한 터미널 멀티플렉서로, 사이드바에서 에이전트마다 작업 중, 입력 대기, 완료 상태를 보여 줍니다. tmux처럼 런타임(runtime)이 백그라운드에 남아 있어, 터미널을 닫거나 SSH가 끊겨도 에이전트와 개발 서버가 계속 실행되고 corgi 한 번으로 다시 연결됩니다.</description>
+      <pubDate>Mon, 26 Oct 2026 16:00:00 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/corgi-claude-code-codex-feat-ghostty-herdr/12290">PyTorch Korea</source>
+      <guid isPermaLink="false">6d9e9087042382fab510e80cc39482e8</guid>
+    </item>
     <item>
       <title>StepFun, Step 5 Preview 가중치 공개: H200 8장에서 도는 FP8 체크포인트 (단, 상업적 사용 시 별도 계약 필요)</title>
       <link>https://discuss.pytorch.kr/t/stepfun-step-5-preview-h200-8-fp8/12288</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/rsi-anything/12175">PyTorch Korea</source>
       <guid isPermaLink="false">fa1dc6e383b0cee70589fab7ea0a3b34</guid>
-    </item>
-    <item>
-      <title>추론 전용 NPU에서 역전파로 '밑바닥부터' 사전학습했다는 모델: VKORE-46M-NPU 모델카드 뜯어보기</title>
-      <link>https://discuss.pytorch.kr/t/npu-vkore-46m-npu/12184</link>
-      <description>허깅페이스에 흥미로운 모델카드가 하나 올라왔습니다. FINAL-Bench/VKORE-46M-NPU . 요지는 간단하지만 꽤 도발적입니다.</description>
-      <pubDate>Wed, 14 Oct 2026 14:39:27 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/npu-vkore-46m-npu/12184">PyTorch Korea</source>
-      <guid isPermaLink="false">d0dc547d0b1ddb3462bd8a4b53a47b25</guid>
-    </item>
-    <item>
-      <title>Awesome Reverse Engineering: MCP 서버까지 작업별로 정리한 리버스 엔지니어링 도구 목록</title>
-      <link>https://discuss.pytorch.kr/t/awesome-reverse-engineering-mcp/12172</link>
-      <description>핵심 요약 Awesome Reverse Engineering 은 바이너리, 앱, 펌웨어, 파일 형식, 프로토콜 분석에 쓰는 도구, 학습 자료, 관련 목록 140개 항목을 "하려는 작업" 기준으로 나눈 큐레이션 목록입니다. AI 에이전트와 연결하는 MCP 서버와 플러그인 10개는 별도 절에 모았습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 11:30:27 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/awesome-reverse-engineering-mcp/12172">PyTorch Korea</source>
-      <guid isPermaLink="false">09d4df5172264b200ef2875945f0f6c5</guid>
     </item>
   </channel>
 </rss>
