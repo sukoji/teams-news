@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:36:38 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 06:26:50 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows</title>
+      <link>https://huggingface.co/papers/2610.21109</link>
+      <description>Kolab is a dataset of professional screen recordings that reveals frontier AI agents overestimate collaboration quality and fail to predict expert adoption of contributions in lon…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.21109">Hugging Face Papers</source>
+      <guid isPermaLink="false">1200b7b12c4d6c18937875af05ab124a</guid>
+    </item>
+    <item>
+      <title>FLORA: An Open Model Suite for Scaling Robotics Data Engines</title>
+      <link>https://huggingface.co/papers/2610.31779</link>
+      <description>Flora is an open-source industrial data engine for robotics foundation models that provides captioning, outcome and process reward labeling, and pretraining data curation at scale…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31779">Hugging Face Papers</source>
+      <guid isPermaLink="false">8b15f5ea2373f50db24436fea9e4eb07</guid>
+    </item>
+    <item>
+      <title>LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification</title>
+      <link>https://huggingface.co/papers/2610.30524</link>
+      <description>A benchmark of nonlinear dynamical systems and an LLM-driven framework that synthesizes and verifies stability and safety certificates via SMT solvers and proof repair agents achi…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30524">Hugging Face Papers</source>
+      <guid isPermaLink="false">0735f3c38c0e03f691e93e4687891b2f</guid>
+    </item>
+    <item>
+      <title>Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection</title>
+      <link>https://huggingface.co/papers/2610.27364</link>
+      <description>JEPA feature selection depends on predictive relationships between features rather than individual predictability, allowing unpredictable but relationally useful features to be re…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27364">Hugging Face Papers</source>
+      <guid isPermaLink="false">bb3918638ed6ee2832441e4e945217f6</guid>
+    </item>
+    <item>
+      <title>KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks</title>
+      <link>https://huggingface.co/papers/2610.20117</link>
+      <description>KANLab is an interactive browser tool for teaching Kolmogorov-Arnold Networks by visualizing B-spline activation curves, gradient descent, and pruning in a compact 2D setting.</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20117">Hugging Face Papers</source>
+      <guid isPermaLink="false">3254a521e224eeb87fe3848744778dcb</guid>
+    </item>
+    <item>
+      <title>On the Token Collapse Phenomenon in Textual Graph Soft Prompting</title>
+      <link>https://huggingface.co/papers/2610.31572</link>
+      <description>Graph soft prompting in LLMs suffers from token collapse, where learned graph tokens become indistinguishable and function as generic prompts rather than conveying relational stru…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31572">Hugging Face Papers</source>
+      <guid isPermaLink="false">c95d3cf22199c8598cbfd39b2c3ea427</guid>
+    </item>
+    <item>
+      <title>Judging the Justification: Decision Certificate Supervision for Generative Reward Models</title>
+      <link>https://huggingface.co/papers/2610.27528</link>
+      <description>DeCert evaluates and improves generative reward model rationales by assessing justification validity and verdict consistency without reference explanations, yielding stronger pref…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27528">Hugging Face Papers</source>
+      <guid isPermaLink="false">66cfbdf5473e85e847ad43083de5a390</guid>
+    </item>
     <item>
       <title>JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making</title>
       <link>https://huggingface.co/papers/2610.19589</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.30753">Hugging Face Papers</source>
       <guid isPermaLink="false">ecbfa6ed58f055fc6a4939b7d240c17d</guid>
-    </item>
-    <item>
-      <title>Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans</title>
-      <link>https://huggingface.co/papers/2610.27148</link>
-      <description>Researchers use a shared-control maze to show that stronger language-model agents selectively involve humans based on route advantage rather than failing to collaborate.</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.27148">Hugging Face Papers</source>
-      <guid isPermaLink="false">b06ea8f25becfdef6ce12477f821a3bd</guid>
-    </item>
-    <item>
-      <title>Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization</title>
-      <link>https://huggingface.co/papers/2610.24385</link>
-      <description>ID-TAP uses a neural dueling-bandit framework with similarity-weighted warm starts to adapt LLM agents to user preferences via binary response comparisons within a limited interac…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24385">Hugging Face Papers</source>
-      <guid isPermaLink="false">1407dbaefafd7a40128936c14d1fa177</guid>
-    </item>
-    <item>
-      <title>BrickWright: Agentic Creation of Physically Feasible Brick Builds</title>
-      <link>https://huggingface.co/papers/2610.31651</link>
-      <description>BrickWright improves physical validity of AI-generated LEGO assemblies by providing agents with an assembly API and feasibility validator, achieving perfect validity while preserv…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.31651">Hugging Face Papers</source>
-      <guid isPermaLink="false">6b066cadc7dd868a2628c1422012f46c</guid>
-    </item>
-    <item>
-      <title>HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second</title>
-      <link>https://huggingface.co/papers/2610.28950</link>
-      <description>HyperDrone is a GPU-accelerated quadrotor simulator using a ray-tracing engine to render high-fidelity observations at high speed, enabling vision-based policy training and real-w…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.28950">Hugging Face Papers</source>
-      <guid isPermaLink="false">46ee1a4aebfa6b3d1e0d2e58b0f59a44</guid>
-    </item>
-    <item>
-      <title>IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems</title>
-      <link>https://huggingface.co/papers/2610.30949</link>
-      <description>IQuest-Q1 is a sparse Mixture-of-Experts foundation model trained via multi-stage pre-training, mid-training, and post-training to achieve strong agentic coding and general capabi…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.30949">Hugging Face Papers</source>
-      <guid isPermaLink="false">20820c722eba832284042b86beadd700</guid>
-    </item>
-    <item>
-      <title>WeVisOne-VL: Unified Visual Perception from Objects to Pixels</title>
-      <link>https://huggingface.co/papers/2610.31329</link>
-      <description>WeVisOne-VL unifies object-level and pixel-level visual perception via structured token prediction, supporting detection, localization, counting, OCR, segmentation, and matting wi…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.31329">Hugging Face Papers</source>
-      <guid isPermaLink="false">0f4bc2a13348e254780cb3a2528c1382</guid>
-    </item>
-    <item>
-      <title>MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2610.22951</link>
-      <description>MambaAct replaces the transformer action expert in flow-matching VLA policies with a compact Mamba-based expert and a context compressor to cut inference latency while improving r…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.22951">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ca65ee0fc1290167207673e1e18b18c</guid>
     </item>
   </channel>
 </rss>
