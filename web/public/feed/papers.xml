@@ -5,9 +5,63 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 26 Oct 2026 18:51:46 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:36:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making</title>
+      <link>https://huggingface.co/papers/2610.19589</link>
+      <description>JockeyBench evaluates repeated event forecasting via Japanese horse racing, finding that reusable predictors improve efficiency but all configurations yield negative average betti…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.19589">Hugging Face Papers</source>
+      <guid isPermaLink="false">dbf78887482e1fd8147d1573165c46b8</guid>
+    </item>
+    <item>
+      <title>Speculative Diffusion is a Tale of Two Tradeoffs</title>
+      <link>https://huggingface.co/papers/2610.31819</link>
+      <description>This paper explores trading inference speed for output quality in speculative decoding by jointly adjusting diffusion effort and acceptance leniency to extend the speed-quality Pa…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31819">Hugging Face Papers</source>
+      <guid isPermaLink="false">8e76dc04121b99b1a587da59d947bf6c</guid>
+    </item>
+    <item>
+      <title>Does LeWorldModel Preserve Local Action Geometry?</title>
+      <link>https://huggingface.co/papers/2610.31716</link>
+      <description>Pretrained LeWorldModel's reproduction of small action effects is evaluated via Gram matrices across perturbation scales, showing scale-dependent sensitivity differences and highe…</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31716">Hugging Face Papers</source>
+      <guid isPermaLink="false">47f366fd5513f1b19b4444e6f2607823</guid>
+    </item>
+    <item>
+      <title>PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean</title>
+      <link>https://huggingface.co/papers/2610.31810</link>
+      <description>Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions.</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31810">Hugging Face Papers</source>
+      <guid isPermaLink="false">0aa8416440b4440b5cfa11b5e1f41662</guid>
+    </item>
+    <item>
+      <title>What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories</title>
+      <link>https://huggingface.co/papers/2610.28655</link>
+      <description>Repository traces of AI use in computational research are partially visible and unreliable for measuring involvement, requiring auditable provenance systems.</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.28655">Hugging Face Papers</source>
+      <guid isPermaLink="false">a87ebf0c7cbf851ac0543720df5d924d</guid>
+    </item>
+    <item>
+      <title>FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2610.31423</link>
+      <description>FocusVLA improves robotic manipulation by dynamically routing between global and local camera views based on predicted interaction intent across task stages.</description>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.31423">Hugging Face Papers</source>
+      <guid isPermaLink="false">eebbf26cf2ccee08696577e666d83c35</guid>
+    </item>
     <item>
       <title>MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning</title>
       <link>https://huggingface.co/papers/2610.01352</link>
@@ -403,60 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.22951">Hugging Face Papers</source>
       <guid isPermaLink="false">6ca65ee0fc1290167207673e1e18b18c</guid>
-    </item>
-    <item>
-      <title>RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation</title>
-      <link>https://huggingface.co/papers/2610.20091</link>
-      <description>RTAformer separately models persistent entities and changing relations in video scene graphs by injecting calibrated query differences and aligning cross-frame instances to overco…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.20091">Hugging Face Papers</source>
-      <guid isPermaLink="false">04d3426f77d797314c28137086cdfd1a</guid>
-    </item>
-    <item>
-      <title>SplatLab: Autonomous Scientific Discovery for 3DGS Research</title>
-      <link>https://huggingface.co/papers/2610.30468</link>
-      <description>SplatLab autonomously reproduces 3D Gaussian Splatting baselines, proposes extensions, and writes manuscripts with fully traceable training logs, improving PSNR by up to 3.78 dB.</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.30468">Hugging Face Papers</source>
-      <guid isPermaLink="false">3e7f85612b5cc4954c16a9670a065c6d</guid>
-    </item>
-    <item>
-      <title>RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention</title>
-      <link>https://huggingface.co/papers/2610.31372</link>
-      <description>RIDAR detects and mitigates research integrity violations in autonomous agents via taxonomy-based post-hoc analysis and real-time intervention.</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.31372">Hugging Face Papers</source>
-      <guid isPermaLink="false">9d92781dd386d16b2cc9d222164deafd</guid>
-    </item>
-    <item>
-      <title>Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective</title>
-      <link>https://huggingface.co/papers/2610.12586</link>
-      <description>Event sequence forecasting is evaluated as conditional generative modeling, revealing a trade-off between accuracy and realism, and a proposed algorithm converts realism into pred…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.12586">Hugging Face Papers</source>
-      <guid isPermaLink="false">942e3ea89fdc85a04e9cffbc167ec05c</guid>
-    </item>
-    <item>
-      <title>Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation</title>
-      <link>https://huggingface.co/papers/2610.30926</link>
-      <description>Factor-Aware Predictive Learning enables video diffusion transformers to leverage multimodal language model representations for sparse temporal inference and factor-aware cinemati…</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.30926">Hugging Face Papers</source>
-      <guid isPermaLink="false">c7b34f1ef8116a37e978f4fc5899fff3</guid>
-    </item>
-    <item>
-      <title>Deep Search in Real-World Web Environments</title>
-      <link>https://huggingface.co/papers/2610.30181</link>
-      <description>OpenDS-World introduces a live-web benchmark to evaluate autonomous multi-step deep search agents, revealing significant gaps between frontier models and human performance.</description>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.30181">Hugging Face Papers</source>
-      <guid isPermaLink="false">96a0b349c8be6b2e2df3c271d69ee82e</guid>
     </item>
   </channel>
 </rss>
