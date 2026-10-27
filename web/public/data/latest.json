@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T09:57:27.419942+09:00",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T10:47:26.710522+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,49 +10,58 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "7ee5e53a1fa89eb95144c3298dde8d84",
+          "id": "3c063587217718e54ec7a57032b095a7",
           "index": 1,
-          "title": "🥇Top AI Papers of the Week",
-          "title_ko": "🥇Top AI Papers of the Week",
-          "summary": "The Top AI Papers of the Week (October 19 - October 25)",
-          "summary_ko": "The Top AI Papers of the Week (October 19 - October 25)",
-          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-a74",
-          "source": "Elvis AI Newsletter",
+          "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+          "title_ko": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+          "summary": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppress misleading priors.",
+          "summary_ko": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppr…",
+          "url": "https://huggingface.co/papers/2610.27103",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-26T01:14:31+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 21.18,
-          "importance_score": 16.37,
+          "published_at": "2026-10-26T09:00:00+09:00",
+          "popularity": 158,
+          "upvotes": 22,
+          "score": 25.21,
+          "importance_score": 15.21,
           "matched_keywords": [
             "ai",
-            "paper"
+            "llm",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 22
+          }
         },
         {
-          "id": "f8f7bced84c9c01d5af3e6c6f616f5ec",
+          "id": "f2ba4b3397d8bce42a2b0f13660e2854",
           "index": 2,
-          "title": "🤖 AI Agents Weekly: Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-          "title_ko": "🤖 AI Agents Weekly: Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-          "summary": "Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-          "summary_ko": "Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-duet-kimi",
-          "source": "Elvis AI Newsletter",
+          "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+          "title_ko": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+          "summary": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
+          "summary_ko": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
+          "url": "https://huggingface.co/papers/2610.29139",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-10-25T01:49:07+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 19.9,
-          "importance_score": 9.9,
+          "published_at": "2026-10-27T09:00:00+09:00",
+          "popularity": 7,
+          "upvotes": 1,
+          "score": 24.87,
+          "importance_score": 15.49,
           "matched_keywords": [
             "ai",
+            "llm",
             "agent",
-            "claude"
+            "fine-tuning",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 1
+          }
         }
       ]
     },
@@ -61,46 +70,48 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "8413e6075475c695bb37103bcd1f8eb9",
+          "id": "a9eef0a97a228dab855bf950d3148514",
           "index": 3,
-          "title": "[AI리더의 서가] AI 자율학습 AI 에이전트 개발 입문",
+          "title": "오픈AI “수학·컴퓨터과학·물리 난제 해결”…노벨상 수상자가 검증한다",
           "title_ko": null,
-          "summary": "AI 자율학습 AI 에이전트 개발 입문박경민 | 길벗2026년 7월 1일추천이유이 책은 LLM의 기초부터 AI 에이전트까지 단계적으로 설명하며 OpenAI API를 활용한 실습을 통해 핵심 기술을 직접 구현합니다.",
+          "summary": "오픈AI가 인공지능(AI)을 활용해 수학·컴퓨터과학·물리학 분야 오랜 난제 3건에 대한 새로운 증명을 도출했다고 발표했다. 오픈AI는 26일(현지시간) 홈페이지를 통해 조화해석, 계산복잡도 이론, 양자장론 등 3개 분야에서 자체 AI 모델이 새로운 연구 성과를 도출했다고 밝혔다. 수십 년간 풀리지 않았던 수학적 추측을 해결하고 컴퓨터과학계에서 널리 받아들여진 가설을 증명했다는 것이다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216577",
-          "source": "AI Times",
+          "url": "https://www.etnews.com/20261027000007",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-26T09:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-10-27T08:11:53+09:00",
+          "popularity": 94,
           "upvotes": 0,
-          "score": 22.8,
-          "importance_score": 19.6,
+          "score": 24.86,
+          "importance_score": 18.32,
           "matched_keywords": [
             "ai",
-            "llm"
+            "연구",
+            "모델"
           ],
           "engagement": null
         },
         {
-          "id": "68eac5b4d423211334274e998625288a",
+          "id": "3788f22259000a5d3783784d209d0732",
           "index": 4,
-          "title": "국제 전파감시 지침에 韓 AI기술 반영, 16년 만에 전면 개정",
+          "title": "오픈AI, 비용 효율 높인 'GPT-6.1 테라' 공개…시각·조작 강화",
           "title_ko": null,
-          "summary": "[지디넷코리아]국제전기통신연합(ITU)이 16년 만에 전파감시 국제 지침을 개정하면서 한국의 인공지능(AI) 기반 신호 분석 기술과 운용 경험이 반영됐다. 국내 연구진이 핵심 분야의 개정 작업을 주도하면서 전파감시 기술의 국제적 활용 기반도 넓어졌다.중앙전파관리소는 국제전기통신연합 전파통신 부문(ITU-R)이 지난 22일 '전파감시 핸드북' 개정판을 발간했다고 26일 밝혔다.",
+          "summary": "오픈AI가 인공지능(AI) 시각적 이해와 컴퓨터 조작 능력을 강화한 최신 모델 'GPT-6.1 테라(Terra)'를 공개했다. 기존 모델보다 성능을 높이면서 사용 비용을 절반으로 낮춘 '가성비(가격 대비 성능)' 모델로 기업의 AI 기반 업무 자동화 수요를 공략한다. 오픈AI는 26일(현지시간) GPT-6.1 테라 출시를 공식화했다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261026091622",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20261027000006",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-26T09:16:22+09:00",
-          "popularity": 92,
+          "published_at": "2026-10-27T08:00:47+09:00",
+          "popularity": 93,
           "upvotes": 0,
-          "score": 22.06,
-          "importance_score": 18.92,
+          "score": 24.72,
+          "importance_score": 18.14,
           "matched_keywords": [
             "ai",
-            "연구"
+            "gpt",
+            "모델"
           ],
           "engagement": null
         }
@@ -121,11 +132,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-26T08:49:33+09:00",
-          "popularity": 58,
-          "upvotes": 58,
-          "score": 30.04,
-          "importance_score": 23.8,
+          "published_at": "2026-10-27T10:09:28+09:00",
+          "popularity": 65,
+          "upvotes": 65,
+          "score": 30.53,
+          "importance_score": 24.4,
           "matched_keywords": [
             "llm",
             "agent",
@@ -133,29 +144,29 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 58
+            "value": 65
           }
         },
         {
-          "id": "4927f9374abc3f975bea96993ac7dc67",
+          "id": "b50e311c70ceaa0593c0dc384213aa61",
           "index": 6,
-          "title": "heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server — WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-          "title_ko": "heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server — WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-          "summary": "WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-          "summary_ko": "WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-          "url": "https://github.com/heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server",
+          "title": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
+          "title_ko": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
+          "summary": "Open Source Data Science Agent for Discord and Slack",
+          "summary_ko": "Open Source Data Science Agent for Discord and Slack",
+          "url": "https://github.com/emrahaydemir960-ai/daimon-data-agent",
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-26T08:41:45+09:00",
+          "published_at": "2026-10-27T10:17:26+09:00",
           "popularity": 58,
           "upvotes": 58,
-          "score": 30.01,
-          "importance_score": 23.75,
+          "score": 30.17,
+          "importance_score": 24.06,
           "matched_keywords": [
             "ai",
             "agent",
-            "mcp"
+            "open source"
           ],
           "engagement": {
             "label": "Stars",
@@ -169,24 +180,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "25e2eebe3281a650e87af4daf5f96043",
+          "id": "7ba8db59de681bc083a9ec9d850afc4d",
           "index": 7,
-          "title": "Anthropic, Agent Skills 표준을 AAIF에 기증: SKILL.md는 그대로, 배포와 보안은 남은 과제",
+          "title": "한국어 STT 평가: 정답의 숫자 표기 하나로 모델 비교가 뒤집히는 문제 (공개 모델 6개로 확인해 본 것들)",
           "title_ko": null,
-          "summary": "핵심 요약 Anthropic이 2026년 10월 22일 Agent Skills 표준을 Agentic AI Foundation(AAIF)에 기증 했습니다. 이름과 로고, agentskills GitHub 조직, agentskills.io 도메인이 Linux Foundation 산하 재단으로 넘어갑니다. 스킬 작성자가 지금 바꿔야 할 것은 없습니다.",
+          "summary": "안녕하세요. 한국어 음성인식 일을 하면서 공개 모델들을 평가하다가 알게 된 것들을 공유합니다. 평가하는 과정에서 채점 스크립트를 직접 만들게 됐는데, 그건 오픈소스로 공개해 뒀고 아래 링크에 있습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/anthropic-agent-skills-aaif-skill-md/12278",
+          "url": "https://discuss.pytorch.kr/t/stt-6/12327",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-26T08:30:04+09:00",
+          "published_at": "2026-10-27T09:34:05+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 22.7,
-          "importance_score": 19.39,
+          "score": 19.75,
+          "importance_score": 19.49,
           "matched_keywords": [
-            "ai",
-            "agent"
+            "모델"
           ],
           "engagement": null
         }
@@ -195,91 +205,102 @@
   ],
   "items": [
     {
-      "id": "7ee5e53a1fa89eb95144c3298dde8d84",
+      "id": "3c063587217718e54ec7a57032b095a7",
       "index": 1,
-      "title": "🥇Top AI Papers of the Week",
-      "title_ko": "🥇Top AI Papers of the Week",
-      "summary": "The Top AI Papers of the Week (October 19 - October 25)",
-      "summary_ko": "The Top AI Papers of the Week (October 19 - October 25)",
-      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-a74",
-      "source": "Elvis AI Newsletter",
+      "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+      "title_ko": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+      "summary": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppress misleading priors.",
+      "summary_ko": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppr…",
+      "url": "https://huggingface.co/papers/2610.27103",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-10-26T01:14:31+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 21.18,
-      "importance_score": 16.37,
-      "matched_keywords": [
-        "ai",
-        "paper"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "f8f7bced84c9c01d5af3e6c6f616f5ec",
-      "index": 2,
-      "title": "🤖 AI Agents Weekly: Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-      "title_ko": "🤖 AI Agents Weekly: Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-      "summary": "Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-      "summary_ko": "Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-duet-kimi",
-      "source": "Elvis AI Newsletter",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-10-25T01:49:07+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 19.9,
-      "importance_score": 9.9,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "claude"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "8413e6075475c695bb37103bcd1f8eb9",
-      "index": 3,
-      "title": "[AI리더의 서가] AI 자율학습 AI 에이전트 개발 입문",
-      "title_ko": null,
-      "summary": "AI 자율학습 AI 에이전트 개발 입문박경민 | 길벗2026년 7월 1일추천이유이 책은 LLM의 기초부터 AI 에이전트까지 단계적으로 설명하며 OpenAI API를 활용한 실습을 통해 핵심 기술을 직접 구현합니다.",
-      "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=216577",
-      "source": "AI Times",
-      "section": "📰 News",
-      "section_id": "news",
       "published_at": "2026-10-26T09:00:00+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 22.8,
-      "importance_score": 19.6,
+      "popularity": 158,
+      "upvotes": 22,
+      "score": 25.21,
+      "importance_score": 15.21,
       "matched_keywords": [
         "ai",
-        "llm"
+        "llm",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 22
+      }
+    },
+    {
+      "id": "f2ba4b3397d8bce42a2b0f13660e2854",
+      "index": 2,
+      "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "title_ko": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "summary": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
+      "summary_ko": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
+      "url": "https://huggingface.co/papers/2610.29139",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-27T09:00:00+09:00",
+      "popularity": 7,
+      "upvotes": 1,
+      "score": 24.87,
+      "importance_score": 15.49,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "fine-tuning",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 1
+      }
+    },
+    {
+      "id": "a9eef0a97a228dab855bf950d3148514",
+      "index": 3,
+      "title": "오픈AI “수학·컴퓨터과학·물리 난제 해결”…노벨상 수상자가 검증한다",
+      "title_ko": null,
+      "summary": "오픈AI가 인공지능(AI)을 활용해 수학·컴퓨터과학·물리학 분야 오랜 난제 3건에 대한 새로운 증명을 도출했다고 발표했다. 오픈AI는 26일(현지시간) 홈페이지를 통해 조화해석, 계산복잡도 이론, 양자장론 등 3개 분야에서 자체 AI 모델이 새로운 연구 성과를 도출했다고 밝혔다. 수십 년간 풀리지 않았던 수학적 추측을 해결하고 컴퓨터과학계에서 널리 받아들여진 가설을 증명했다는 것이다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261027000007",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-10-27T08:11:53+09:00",
+      "popularity": 94,
+      "upvotes": 0,
+      "score": 24.86,
+      "importance_score": 18.32,
+      "matched_keywords": [
+        "ai",
+        "연구",
+        "모델"
       ],
       "engagement": null
     },
     {
-      "id": "68eac5b4d423211334274e998625288a",
+      "id": "3788f22259000a5d3783784d209d0732",
       "index": 4,
-      "title": "국제 전파감시 지침에 韓 AI기술 반영, 16년 만에 전면 개정",
+      "title": "오픈AI, 비용 효율 높인 'GPT-6.1 테라' 공개…시각·조작 강화",
       "title_ko": null,
-      "summary": "[지디넷코리아]국제전기통신연합(ITU)이 16년 만에 전파감시 국제 지침을 개정하면서 한국의 인공지능(AI) 기반 신호 분석 기술과 운용 경험이 반영됐다. 국내 연구진이 핵심 분야의 개정 작업을 주도하면서 전파감시 기술의 국제적 활용 기반도 넓어졌다.중앙전파관리소는 국제전기통신연합 전파통신 부문(ITU-R)이 지난 22일 '전파감시 핸드북' 개정판을 발간했다고 26일 밝혔다.",
+      "summary": "오픈AI가 인공지능(AI) 시각적 이해와 컴퓨터 조작 능력을 강화한 최신 모델 'GPT-6.1 테라(Terra)'를 공개했다. 기존 모델보다 성능을 높이면서 사용 비용을 절반으로 낮춘 '가성비(가격 대비 성능)' 모델로 기업의 AI 기반 업무 자동화 수요를 공략한다. 오픈AI는 26일(현지시간) GPT-6.1 테라 출시를 공식화했다.",
       "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261026091622",
-      "source": "ZDNet Korea",
+      "url": "https://www.etnews.com/20261027000006",
+      "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-26T09:16:22+09:00",
-      "popularity": 92,
+      "published_at": "2026-10-27T08:00:47+09:00",
+      "popularity": 93,
       "upvotes": 0,
-      "score": 22.06,
-      "importance_score": 18.92,
+      "score": 24.72,
+      "importance_score": 18.14,
       "matched_keywords": [
         "ai",
-        "연구"
+        "gpt",
+        "모델"
       ],
       "engagement": null
     },
@@ -294,11 +315,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-26T08:49:33+09:00",
-      "popularity": 58,
-      "upvotes": 58,
-      "score": 30.04,
-      "importance_score": 23.8,
+      "published_at": "2026-10-27T10:09:28+09:00",
+      "popularity": 65,
+      "upvotes": 65,
+      "score": 30.53,
+      "importance_score": 24.4,
       "matched_keywords": [
         "llm",
         "agent",
@@ -306,29 +327,29 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 58
+        "value": 65
       }
     },
     {
-      "id": "4927f9374abc3f975bea96993ac7dc67",
+      "id": "b50e311c70ceaa0593c0dc384213aa61",
       "index": 6,
-      "title": "heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server — WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-      "title_ko": "heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server — WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-      "summary": "WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-      "summary_ko": "WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API",
-      "url": "https://github.com/heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server",
+      "title": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
+      "title_ko": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
+      "summary": "Open Source Data Science Agent for Discord and Slack",
+      "summary_ko": "Open Source Data Science Agent for Discord and Slack",
+      "url": "https://github.com/emrahaydemir960-ai/daimon-data-agent",
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-26T08:41:45+09:00",
+      "published_at": "2026-10-27T10:17:26+09:00",
       "popularity": 58,
       "upvotes": 58,
-      "score": 30.01,
-      "importance_score": 23.75,
+      "score": 30.17,
+      "importance_score": 24.06,
       "matched_keywords": [
         "ai",
         "agent",
-        "mcp"
+        "open source"
       ],
       "engagement": {
         "label": "Stars",
@@ -336,24 +357,23 @@
       }
     },
     {
-      "id": "25e2eebe3281a650e87af4daf5f96043",
+      "id": "7ba8db59de681bc083a9ec9d850afc4d",
       "index": 7,
-      "title": "Anthropic, Agent Skills 표준을 AAIF에 기증: SKILL.md는 그대로, 배포와 보안은 남은 과제",
+      "title": "한국어 STT 평가: 정답의 숫자 표기 하나로 모델 비교가 뒤집히는 문제 (공개 모델 6개로 확인해 본 것들)",
       "title_ko": null,
-      "summary": "핵심 요약 Anthropic이 2026년 10월 22일 Agent Skills 표준을 Agentic AI Foundation(AAIF)에 기증 했습니다. 이름과 로고, agentskills GitHub 조직, agentskills.io 도메인이 Linux Foundation 산하 재단으로 넘어갑니다. 스킬 작성자가 지금 바꿔야 할 것은 없습니다.",
+      "summary": "안녕하세요. 한국어 음성인식 일을 하면서 공개 모델들을 평가하다가 알게 된 것들을 공유합니다. 평가하는 과정에서 채점 스크립트를 직접 만들게 됐는데, 그건 오픈소스로 공개해 뒀고 아래 링크에 있습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/anthropic-agent-skills-aaif-skill-md/12278",
+      "url": "https://discuss.pytorch.kr/t/stt-6/12327",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-26T08:30:04+09:00",
+      "published_at": "2026-10-27T09:34:05+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 22.7,
-      "importance_score": 19.39,
+      "score": 19.75,
+      "importance_score": 19.49,
       "matched_keywords": [
-        "ai",
-        "agent"
+        "모델"
       ],
       "engagement": null
     }
