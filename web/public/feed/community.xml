@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Oct 2026 04:53:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:36:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Qwen3 0.6B로 평가부터 GRPO, 증류까지 설명하는, 추론 모델을 PyTorch로 직접 만드는 11시간 영상 강의 (feat. Sebastian Raschka)</title>
+      <link>https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331</link>
+      <description>핵심 요약 LLM 아키텍처 갤러리 및 최근 LLM 아키텍처의 발전 동향 등을 공개한 Sebastian Raschka가 새롭게 Building Reasoning Models from the Ground Up 글에서 추론 모델을 직접 구현하는 영상 8편(합계 약 11시간 7분)을 한데 묶어 소개했습니다.</description>
+      <pubDate>Wed, 28 Oct 2026 08:30:00 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331">PyTorch Korea</source>
+      <guid isPermaLink="false">dccb502f54edcc87255e0b9f9bc8ab12</guid>
+    </item>
+    <item>
+      <title>[실험] 고객 정보가 계속 바뀌는 상담 기록에서도 단순 RAG가 Mem0를 이길까: Raw-RAG 로컬 재현 (비공식)</title>
+      <link>https://discuss.pytorch.kr/t/rag-mem0-raw-rag/12333</link>
+      <description>지난주 이번 주에 살펴볼 만한 AI/ML 논문 모음(10/19~25) 에서 Raw-RAG 논문을 골랐습니다. 대화 기록을 그대로 잘라 검색하고 재정렬만 하는 단순한 방법이, Mem0 같은 에이전트형 메모리보다 낫다는 주장입니다. 논문은 독자 모델로 GPT-4o-mini급 이상을 썼고, "능력 있는 독자는 원본 근거만 있으면 바뀐 상태를 스스로 정리한다"고 말합니다.</description>
+      <pubDate>Wed, 28 Oct 2026 08:26:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rag-mem0-raw-rag/12333">PyTorch Korea</source>
+      <guid isPermaLink="false">a91e32ee38e0ca6bde6a302b8a405f0e</guid>
+    </item>
     <item>
       <title>ThinkingBox-Training 공개: DB 상태 채점 시 강화 학습 보상으로 매번 성공하는 과제 수를 2.8배 ↑</title>
       <link>https://discuss.pytorch.kr/t/thinkingbox-training-db-2-8/12293</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/ai-dlc-claude-code-codex-feat-aws/12204">PyTorch Korea</source>
       <guid isPermaLink="false">8b3ad4069137de72e6286fecac9716a3</guid>
-    </item>
-    <item>
-      <title>Meta, Mac Studio 두 대에서 돌아가는 816B 오픈 웨이트 모델 Muse Spark Open 공개 (feat. MLX)</title>
-      <link>https://discuss.pytorch.kr/t/meta-mac-studio-816b-muse-spark-open-feat-mlx/12209</link>
-      <description>핵심 요약 Meta가 2026년 10월 15일 Muse Spark Open 발표 글 에서 전체 816B, 토큰당 활성 42B 파라미터의 MoE 모델 가중치를 공개했습니다. 텍스트, 이미지, 영상, 음성을 입력으로 받고 1M 토큰 컨텍스트를 지원하며, Muse Spark 1.3과 같은 베이스 모델을 씁니다.</description>
-      <pubDate>Fri, 16 Oct 2026 14:00:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/meta-mac-studio-816b-muse-spark-open-feat-mlx/12209">PyTorch Korea</source>
-      <guid isPermaLink="false">2f7f7657eb721f4751757e6b6278b2eb</guid>
-    </item>
-    <item>
-      <title>VideoJev: 답을 생성하는 대신 후보를 채점해 비디오 구간 찾기와 객관식 QA를 푸는 System One 모델 공개</title>
-      <link>https://discuss.pytorch.kr/t/videojev-qa-system-one/12203</link>
-      <description>핵심 요약 VideoJev 논문 은 비디오 멀티모달 LLM의 출력 헤드를 후보 채점 헤드로 바꿉니다. 그래서 시간 구간 찾기와 객관식 비디오 질의응답을 텍스트 생성 없이 한 번의 순전파로 풉니다. 영상 부분을 한 번만 인코딩하고 여러 질문이 그 계산을 공유합니다.</description>
-      <pubDate>Fri, 16 Oct 2026 07:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/videojev-qa-system-one/12203">PyTorch Korea</source>
-      <guid isPermaLink="false">c438a189e1ac4dad222436c28c461e4c</guid>
     </item>
   </channel>
 </rss>

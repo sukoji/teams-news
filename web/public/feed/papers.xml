@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Oct 2026 04:53:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:36:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>EnvLunch: The Environment as a Free Lunch for Learning to Interact</title>
+      <link>https://huggingface.co/papers/2610.33817</link>
+      <description>EnvLunch leverages executable environments to generate verifiable training trajectories without human annotations, improving agent performance and reducing labeled data requiremen…</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.33817">Hugging Face Papers</source>
+      <guid isPermaLink="false">d291fbd1bd6bd5ef09f7d7caec182a1d</guid>
+    </item>
+    <item>
+      <title>Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?</title>
+      <link>https://huggingface.co/papers/2610.32046</link>
+      <description>Test-Time Memory Evolution updates external memory without changing model weights to guide scientific discovery more efficiently than test-time training.</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.32046">Hugging Face Papers</source>
+      <guid isPermaLink="false">1d3339b45085ee2f5fa024b44f07ecae</guid>
+    </item>
+    <item>
+      <title>Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models</title>
+      <link>https://huggingface.co/papers/2610.35295</link>
+      <description>CREDIT improves language model self-attribution of external information via counterfactual training, reducing false acknowledgment of non-influential sources.</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.35295">Hugging Face Papers</source>
+      <guid isPermaLink="false">74d8c303b5ef6a72e3dab00927dcaed5</guid>
+    </item>
+    <item>
+      <title>Representation Redistribution in Sparse Autoencoders</title>
+      <link>https://huggingface.co/papers/2610.21240</link>
+      <description>Sparse autoencoders decompose language model activations into sparse features, and the redistribution sensitivity score identifies recurring feature changes that contribute to dow…</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.21240">Hugging Face Papers</source>
+      <guid isPermaLink="false">d55eba45787539bfd31905af3f4e97eb</guid>
+    </item>
+    <item>
+      <title>Rethinking Verification in Agent Harnesses</title>
+      <link>https://huggingface.co/papers/2610.34577</link>
+      <description>Verification strategies for agent harnesses—spanning instructions, reminders, gates, and independent review—show that independent critic review improves accuracy with minimal cost…</description>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.34577">Hugging Face Papers</source>
+      <guid isPermaLink="false">d0448e989400c9ad375babac721a6dcc</guid>
+    </item>
     <item>
       <title>Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila</title>
       <link>https://huggingface.co/papers/2610.34638</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.33512">Hugging Face Papers</source>
       <guid isPermaLink="false">8eaac20a63157bf48f847a872a4c11f2</guid>
-    </item>
-    <item>
-      <title>Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization</title>
-      <link>https://huggingface.co/papers/2610.31309</link>
-      <description>OPTIC achieves extreme compression of per-layer embeddings by using token-shared indexed codes and layer-specific affine decoders fitted to the output path, preserving most model…</description>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.31309">Hugging Face Papers</source>
-      <guid isPermaLink="false">5805b0b4633433a5ef5861372283786f</guid>
-    </item>
-    <item>
-      <title>Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion</title>
-      <link>https://huggingface.co/papers/2610.34415</link>
-      <description>AMBIT is a unified framework that generates and edits first-order ambisonics audio by coupling autoregressive scene planning with rectified-flow rendering, using a specialized con…</description>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34415">Hugging Face Papers</source>
-      <guid isPermaLink="false">e5188f4b14d881287024a921c88209d0</guid>
-    </item>
-    <item>
-      <title>Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?</title>
-      <link>https://huggingface.co/papers/2610.34149</link>
-      <description>While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily evaluated through static, passive observation.</description>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34149">Hugging Face Papers</source>
-      <guid isPermaLink="false">9620eaf2250b66d08356d5020701272e</guid>
-    </item>
-    <item>
-      <title>AgentProofBench: Benchmarking Reusable Verifiers for Web Agents</title>
-      <link>https://huggingface.co/papers/2610.34634</link>
-      <description>AgentProofBench evaluates reusable web-agent verification by linking frozen acceptance rules to execution traces, establishing baseline measurements for program-gate correctness a…</description>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34634">Hugging Face Papers</source>
-      <guid isPermaLink="false">a9d1e65638c6afa8056d6b5ae3c78c8f</guid>
-    </item>
-    <item>
-      <title>Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</title>
-      <link>https://huggingface.co/papers/2610.35193</link>
-      <description>This survey defines recursive self-improvement and organizes trustworthy advancement requirements into improvement validity, constraint preservation, and oversight across recursiv…</description>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.35193">Hugging Face Papers</source>
-      <guid isPermaLink="false">83d8184a50b820b655294793291aee14</guid>
     </item>
   </channel>
 </rss>
