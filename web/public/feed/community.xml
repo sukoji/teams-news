@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 27 Oct 2026 06:26:50 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:15:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>한국어 STT 평가: 정답의 숫자 표기 하나로 모델 비교가 뒤집히는 문제 (공개 모델 6개로 확인해 본 것들)</title>
+      <link>https://discuss.pytorch.kr/t/stt-6/12327</link>
+      <description>안녕하세요. 한국어 음성인식 일을 하면서 공개 모델들을 평가하다가 알게 된 것들을 공유합니다. 평가하는 과정에서 채점 스크립트를 직접 만들게 됐는데, 그건 오픈소스로 공개해 뒀고 아래 링크에 있습니다.</description>
+      <pubDate>Tue, 27 Oct 2026 09:34:05 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/stt-6/12327">PyTorch Korea</source>
+      <guid isPermaLink="false">7ba8db59de681bc083a9ec9d850afc4d</guid>
+    </item>
+    <item>
+      <title>3D Model Anything: 아이폰 LiDAR 스캔과 사진으로 자신의 방을 Web 기반 3D로 재구성하는 프로젝트 (feat. Three.js)</title>
+      <link>https://discuss.pytorch.kr/t/3d-model-anything-lidar-web-3d-feat-three-js/12308</link>
+      <description>핵심 요약 3D Model Anything 은 아이폰 LiDAR로 방을 스캔한 측정값과 촬영 위치가 기록된 사진을 근거로, AI 코딩 에이전트가 편집 가능한 Three.js 장면 코드를 작성하게 하는 프로젝트입니다. 아이폰 캡처 앱, 에이전트 스킬 scan-to-threejs , 웹 뷰어, 완성된 사무실 예제를 함께 공개했습니다. 스캔 메시를 그대로 보여주는 변환기가 아닙니다.</description>
+      <pubDate>Tue, 27 Oct 2026 07:30:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/3d-model-anything-lidar-web-3d-feat-three-js/12308">PyTorch Korea</source>
+      <guid isPermaLink="false">102ff4bd0a47c63cd705929ce7c69bb8</guid>
+    </item>
     <item>
       <title>추론 전용 NPU에서 325M 언어모델을 0부터 사전학습하고, B200 GPU와 짝지은 비교로 품질 동등성을 검증한 기록</title>
       <link>https://discuss.pytorch.kr/t/npu-325m-0-b200-gpu/12304</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mass-multi-agent-self-supervision-rsi-feat-sakanaai/12176">PyTorch Korea</source>
       <guid isPermaLink="false">bf167a2e8aad234e25e27e4107241af8</guid>
-    </item>
-    <item>
-      <title>Ai2의 GPU 인프라 개선 사례: GPU 클러스터 스케줄러를 개선하여 디버그 작업 p90 대기 시간을 대폭 개선 (2시간 → 30초)</title>
-      <link>https://discuss.pytorch.kr/t/ai2-gpu-gpu-p90-2-30/12164</link>
-      <description>핵심 요약 Ai2 AI 인프라 팀이 Impactful scheduling for GPU clusters 에서 사내 GPU 클러스터 스케줄러를 바꾼 과정을 공개했습니다. 우선순위 방식을 GPU 시간 예산, 계층형 공정 분배, 최소 실행 시간 계약으로 대체했습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 19:30:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai2-gpu-gpu-p90-2-30/12164">PyTorch Korea</source>
-      <guid isPermaLink="false">178ac7be3f21aa0be8933ac874bcc25f</guid>
-    </item>
-    <item>
-      <title>RSI-Anything: 월드 모델로 후보를 고르고 검증된 업데이트만 남기는 재귀적 자기 개선 프레임워크에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/rsi-anything/12175</link>
-      <description>핵심 요약 RSI-Anything 논문 은 정책이 낸 후보 중 실제로 실행할 것을 월드 모델의 예측으로 고르는 재귀적 자기 개선 프레임워크를 제안합니다. 실행 피드백으로 정책과 월드 모델을 갱신하고, 두 검사를 통과한 정책과 모델 쌍만 다음 라운드에 남깁니다.</description>
-      <pubDate>Wed, 14 Oct 2026 16:00:11 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/rsi-anything/12175">PyTorch Korea</source>
-      <guid isPermaLink="false">fa1dc6e383b0cee70589fab7ea0a3b34</guid>
     </item>
   </channel>
 </rss>
