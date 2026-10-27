@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:26:58 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 23:06:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ThinkingBox-Training 공개: DB 상태 채점 시 강화 학습 보상으로 매번 성공하는 과제 수를 2.8배 ↑</title>
+      <link>https://discuss.pytorch.kr/t/thinkingbox-training-db-2-8/12293</link>
+      <description>핵심 요약 Microsoft와 Hugging Face는 이전의 ThinkingBox 블로그 에 대한 후속 게시물 에서 ThinkingBox의 데이터베이스 상태 판정을 강화 학습 보상으로 쓴 학습 스택 ThinkingBox-Training 을 오픈소스로 공개했습니다.</description>
+      <pubDate>Tue, 27 Oct 2026 18:30:17 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinkingbox-training-db-2-8/12293">PyTorch Korea</source>
+      <guid isPermaLink="false">08b79c262306d942824c087042215d8a</guid>
+    </item>
+    <item>
+      <title>durable-harness: 실행 중 함수가 죽어도 Claude Code와 Codex, Pi의 턴을 로그에서 이어 가게 하는 어댑터 (feat. Vercel)</title>
+      <link>https://discuss.pytorch.kr/t/durable-harness-claude-code-codex-pi-feat-vercel/12274</link>
+      <description>핵심 요약 Vercel 이 2026년 10월 19일 블로그 글 로 durable-harness 를 공개했습니다. Claude Code, Codex, OpenCode, Pi 같은 코딩 에이전트 하네스의 세션을 내구성 있는 로그에 기록해, 턴 도중에 함수가 죽어도 새 함수가 로그를 읽고 그 턴을 이어 가게 하는 TypeScript 어댑터 모음입니다.</description>
+      <pubDate>Tue, 27 Oct 2026 21:00:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/durable-harness-claude-code-codex-pi-feat-vercel/12274">PyTorch Korea</source>
+      <guid isPermaLink="false">3d28b0dbc969fc00e87f09b5c9f5b62a</guid>
+    </item>
     <item>
       <title>Memento: 성공과 실패 사례를 별도 공간에 저장하는 방식으로, LLM 파인튜닝 없이 성능을 높이는 딥 리서치 에이전트</title>
       <link>https://discuss.pytorch.kr/t/memento-llm/12309</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/videojev-qa-system-one/12203">PyTorch Korea</source>
       <guid isPermaLink="false">c438a189e1ac4dad222436c28c461e4c</guid>
-    </item>
-    <item>
-      <title>Liquid AI, 활성 2B로 로컬 에이전트를 돌리는 MoE 추론 모델 LFM2.5-24B-A2B 공개 (feat. Hermes Agent)</title>
-      <link>https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188</link>
-      <description>핵심 요약 Liquid AI가 LFM2.5-24B-A2B 출시 블로그 에서 전체 24B, 토큰당 활성 2.45B 파라미터의 MoE 추론 모델과 그 사전학습 모델(Base)의 가중치를 공개했습니다. 답하기 전에 항상 사고 과정을 먼저 생성하고, 컨텍스트는 131K 토큰입니다.</description>
-      <pubDate>Thu, 15 Oct 2026 18:00:37 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/liquid-ai-2b-moe-lfm2-5-24b-a2b-feat-hermes-agent/12188">PyTorch Korea</source>
-      <guid isPermaLink="false">1521c4c33fb8315d8833f23c567a7463</guid>
-    </item>
-    <item>
-      <title>고려대 DMIS 연구실, 마스킹 비율마다 LM 헤드를 나눠 분류와 검색을 함께 잡은 32K 인코더 UltraBERT 공개</title>
-      <link>https://discuss.pytorch.kr/t/dmis-lm-32k-ultrabert/12199</link>
-      <description>핵심 요약 고려대학교 DMIS 연구실이 UltraBERT 논문 과 소개 블로그 에서 영어 양방향 인코더 UltraBERT-150M, UltraBERT-380M과 임베딩 모델 UltraBERT-Embed-150M을 Apache 2.0으로 공개했습니다. 세 모델 모두 32K 토큰 컨텍스트를 지원합니다.</description>
-      <pubDate>Thu, 15 Oct 2026 15:00:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/dmis-lm-32k-ultrabert/12199">PyTorch Korea</source>
-      <guid isPermaLink="false">7e95e33e1ce742aa62cdd8f196710e23</guid>
     </item>
   </channel>
 </rss>
