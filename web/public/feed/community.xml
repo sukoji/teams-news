@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Oct 2026 11:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 13:33:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Nanbeige4.3-33B, 3B 증류용 교사 학습으로 만든 33B 규모의, 유사 크기 모델들 대비 우수한 성능을 보인 에이전트 모델 공개</title>
+      <link>https://discuss.pytorch.kr/t/nanbeige4-3-33b-3b-33b/12332</link>
+      <description>핵심 요약 중국 채용 플랫폼 BOSS Zhipin을 운영하는 Kanzhun의 Nanbeige 팀이 Nanbeige4.3-33B 모델 카드 와 함께 33B 밀집(dense) 모델의 가중치를 Apache 2.0으로 공개했습니다. 컨텍스트는 512K 토큰이고, 텍스트 입력만 받습니다.</description>
+      <pubDate>Wed, 28 Oct 2026 11:30:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/nanbeige4-3-33b-3b-33b/12332">PyTorch Korea</source>
+      <guid isPermaLink="false">d2f87940e0e9b7521f0cc583ba75c6ea</guid>
+    </item>
     <item>
       <title>Qwen3 0.6B로 평가부터 GRPO, 증류까지 설명하는, 추론 모델을 PyTorch로 직접 만드는 11시간 영상 강의 (feat. Sebastian Raschka)</title>
       <link>https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/digup-embeddinggemma-2-pdf-macos-spotlight/12205">PyTorch Korea</source>
       <guid isPermaLink="false">138adc4fa6d401f1cd6e5bf71c74700c</guid>
-    </item>
-    <item>
-      <title>AI-DLC: Claude Code와 Codex 등에서 요구사항부터 배포까지 진행하며, 필요한 경우 사람 승인 단계를 강제하는 워크플로우 (feat. AWS)</title>
-      <link>https://discuss.pytorch.kr/t/ai-dlc-claude-code-codex-feat-aws/12204</link>
-      <description>핵심 요약 AI-DLC 는 AWS가 공개한 AI 주도 개발 방법론의 오픈소스 구현체로, AI가 아닌 결정적(deterministic) 엔진이 다음 단계를 정하고 코딩 에이전트는 그 단계를 수행한 뒤 사람의 승인을 기다립니다. 하나의 코어를 Claude Code, Kiro CLI, Kiro IDE, Codex CLI, Cursor, opencode, GitHub Copilot에서 실행합니다.</description>
-      <pubDate>Fri, 16 Oct 2026 11:30:05 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-dlc-claude-code-codex-feat-aws/12204">PyTorch Korea</source>
-      <guid isPermaLink="false">8b3ad4069137de72e6286fecac9716a3</guid>
     </item>
   </channel>
 </rss>
