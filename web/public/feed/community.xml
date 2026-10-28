@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Oct 2026 13:33:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:04:20 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Day Trader Skill: Python으로 숫자들을 계산하고, 주문은 사람의 2번 승인이 필요한 (미국 주식 전용) Claude용 트레이딩 스킬</title>
+      <link>https://discuss.pytorch.kr/t/day-trader-skill-python-2-claude/12307</link>
+      <description>핵심 요약 Day Trader skill 은 미국 주식 데이 트레이딩(Day Trading)의 한 거래를 차트 검색부터 주문까지 11개의 Claude 스킬로 나눈 묶음입니다. 패턴 판정, 확률, 주문 수량 같은 매매 수치는 LLM이 아니라 표준 라이브러리만 쓰는 Python 도구가 계산합니다.</description>
+      <pubDate>Wed, 28 Oct 2026 16:00:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/day-trader-skill-python-2-claude/12307">PyTorch Korea</source>
+      <guid isPermaLink="false">8769fe3ed9f6bc2fd8de7ab15031b89d</guid>
+    </item>
+    <item>
+      <title>OpenGCUA: 클릭 대신 Python 프로그램으로 컴퓨터를 다루게 해 기존 모델 성능을 높이는 에이전트 하네스</title>
+      <link>https://discuss.pytorch.kr/t/opengcua-python/12311</link>
+      <description>핵심 요약 OpenGCUA 는 컴퓨터 사용 에이전트가 화면을 보고 클릭 하나씩 하는 대신, 매 단계 Python 프로그램 하나로 GUI 조작, 접근성 트리, 셸 명령, API 호출을 묶어 실행하게 하는 에이전트 하네스와 SDK입니다. 개발팀은 기술 보고서 에서 모델을 새로 학습하지 않고 하네스만 바꿔 측정한 결과를 공개했습니다.</description>
+      <pubDate>Wed, 28 Oct 2026 19:00:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/opengcua-python/12311">PyTorch Korea</source>
+      <guid isPermaLink="false">de1b8038cfbc46fb55b26b7df9384137</guid>
+    </item>
+    <item>
+      <title>IBM, 시계열 모델 4종의 분위수 예측을 하나로 합치는 Granite Timeseries Ensemble R1 공개</title>
+      <link>https://discuss.pytorch.kr/t/ibm-4-granite-timeseries-ensemble-r1/12321</link>
+      <description>핵심 요약 IBM Research가 Granite 시계열 앙상블 소개 글 에서 사전학습 시계열 모델 4종의 분위수 예측을 하나의 분포로 합치는 레시피를 공개했습니다. 추가 학습이나 가중치 학습 없이 pip install "granite-tsfm&gt;=0.3.11" 뒤 몇 줄로 씁니다.</description>
+      <pubDate>Wed, 28 Oct 2026 18:30:08 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ibm-4-granite-timeseries-ensemble-r1/12321">PyTorch Korea</source>
+      <guid isPermaLink="false">a151e076425e97db57c678f9cf824cd5</guid>
+    </item>
     <item>
       <title>Nanbeige4.3-33B, 3B 증류용 교사 학습으로 만든 33B 규모의, 유사 크기 모델들 대비 우수한 성능을 보인 에이전트 모델 공개</title>
       <link>https://discuss.pytorch.kr/t/nanbeige4-3-33b-3b-33b/12332</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/vllm-sglang-red-hat-pagedattention-radixattention/12212">PyTorch Korea</source>
       <guid isPermaLink="false">c906ff20e6765f9dbf89362e63b614f1</guid>
-    </item>
-    <item>
-      <title>Strata: 12GB 그래픽카드 PC에서 125B 모델 Qwen3.8-Flash-Next만을 위해 만든 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/strata-12gb-pc-125b-qwen3-8-flash-next/12189</link>
-      <description>핵심 요약 Strata 는 1,250억(125B) 파라미터 MoE 모델 Qwen3.8-Flash-Next 하나만을 위해 작성한 추론(Inference) 엔진입니다. 12GB 이상 그래픽카드와 32GB 이상 RAM을 갖춘 Windows/Linux PC에서 이 모델을 실행합니다.</description>
-      <pubDate>Fri, 16 Oct 2026 21:00:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/strata-12gb-pc-125b-qwen3-8-flash-next/12189">PyTorch Korea</source>
-      <guid isPermaLink="false">4d96cfb353fdfbda9bb1cc28da79399d</guid>
-    </item>
-    <item>
-      <title>텍스트 레이어가 있는 문서까지 VLM 파서로 처리해야 할까? - CPU 기반 네이티브 추출로 RAG 문서 파싱하기 (feat. PyMuPDF Pro)</title>
-      <link>https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211</link>
-      <description>소개 RAG 파이프라인을 설계할 때는 보통 LLM 선정, 임베딩, 벡터 DB 구조에 관심이 집중되지만, 실제로 사내 문서를 넣기 시작하면 문서 파서의 인프라 비용 이 생각보다 큰 문제가 됩니다. 최근 많이 쓰이는 레이아웃 모델·VLM 기반 파서는 고가의 GPU가 필요하고, 상용 VLM API는 대량 처리 시 비용과 처리 시간이 크게 늘어납니다.</description>
-      <pubDate>Fri, 16 Oct 2026 15:08:26 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vlm-cpu-rag-feat-pymupdf-pro/12211">PyTorch Korea</source>
-      <guid isPermaLink="false">01e7944c19eb09ed56e30501f813d363</guid>
-    </item>
-    <item>
-      <title>DigUp: EmbeddingGemma 2 모델로 사진, PDF, 녹음, 영상 속 내용을 문장으로 찾는 (macOS의 Spotlight와 같은) 로컬 파일 검색 앱 🔍</title>
-      <link>https://discuss.pytorch.kr/t/digup-embeddinggemma-2-pdf-macos-spotlight/12205</link>
-      <description>핵심 요약 DigUp 은 Google DeepMind의 EmbeddingGemma 2 모델로 사진, PDF, 문서, 녹음, 영상, 코드를 한 색인에 넣는 데스크톱 앱입니다. 파일 이름 대신 내용을 설명하는 문장으로 파일을 찾습니다. 검색 결과를 열면 PDF는 해당 페이지, 녹음과 영상은 해당 시점, 코드는 편집기의 해당 줄로 이동합니다.</description>
-      <pubDate>Fri, 16 Oct 2026 17:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/digup-embeddinggemma-2-pdf-macos-spotlight/12205">PyTorch Korea</source>
-      <guid isPermaLink="false">138adc4fa6d401f1cd6e5bf71c74700c</guid>
     </item>
   </channel>
 </rss>
