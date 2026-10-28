@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T10:47:26.710522+09:00",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T11:00:00.077758+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,57 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "3c063587217718e54ec7a57032b095a7",
+          "id": "04cdf708753e75c9ccaf3836bfd05ab1",
           "index": 1,
-          "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
-          "title_ko": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
-          "summary": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppress misleading priors.",
-          "summary_ko": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppr…",
-          "url": "https://huggingface.co/papers/2610.27103",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-10-26T09:00:00+09:00",
-          "popularity": 158,
-          "upvotes": 22,
-          "score": 25.21,
-          "importance_score": 15.21,
-          "matched_keywords": [
-            "ai",
-            "llm",
-            "training"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 22
-          }
-        },
-        {
-          "id": "f2ba4b3397d8bce42a2b0f13660e2854",
-          "index": 2,
-          "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-          "title_ko": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-          "summary": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
-          "summary_ko": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
-          "url": "https://huggingface.co/papers/2610.29139",
+          "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+          "title_ko": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+          "summary": "S3AC introduces a stabilized actor-critic training method with difficulty-aware prompt sampling to improve long reasoning in large language models without relying on grouped rollouts.",
+          "summary_ko": "S3AC introduces a stabilized actor-critic training method with difficulty-aware prompt sampling to improve long reasoning in large language models without relying on grouped rollo…",
+          "url": "https://huggingface.co/papers/2610.35518",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-10-27T09:00:00+09:00",
-          "popularity": 7,
-          "upvotes": 1,
-          "score": 24.87,
-          "importance_score": 15.49,
+          "popularity": 5262,
+          "upvotes": 16,
+          "score": 30.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "ai",
             "llm",
-            "agent",
-            "fine-tuning",
+            "reasoning",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 1
+            "value": 16
+          }
+        },
+        {
+          "id": "8a37b37e1ba6d93a5ec48ac2d2e44b16",
+          "index": 2,
+          "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
+          "title_ko": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
+          "summary": "RoboHarness enables LLM agents to perform embodied manipulation via a visual-geometric control interface, surpassing specialized vision-language-action models on robotics benchmarks.",
+          "summary_ko": "RoboHarness enables LLM agents to perform embodied manipulation via a visual-geometric control interface, surpassing specialized vision-language-action models on robotics benchmar…",
+          "url": "https://huggingface.co/papers/2610.14018",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-10-27T09:00:00+09:00",
+          "popularity": 295,
+          "upvotes": 8,
+          "score": 27.07,
+          "importance_score": 17.07,
+          "matched_keywords": [
+            "llm",
+            "agent",
+            "benchmark"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 8
           }
         }
       ]
@@ -70,48 +69,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "a9eef0a97a228dab855bf950d3148514",
+          "id": "30da427290ccf75f90c7a028f1bc5180",
           "index": 3,
-          "title": "오픈AI “수학·컴퓨터과학·물리 난제 해결”…노벨상 수상자가 검증한다",
+          "title": "[AI리더의 서가] 머신러닝 플랫폼 엔지니어링",
           "title_ko": null,
-          "summary": "오픈AI가 인공지능(AI)을 활용해 수학·컴퓨터과학·물리학 분야 오랜 난제 3건에 대한 새로운 증명을 도출했다고 발표했다. 오픈AI는 26일(현지시간) 홈페이지를 통해 조화해석, 계산복잡도 이론, 양자장론 등 3개 분야에서 자체 AI 모델이 새로운 연구 성과를 도출했다고 밝혔다. 수십 년간 풀리지 않았던 수학적 추측을 해결하고 컴퓨터과학계에서 널리 받아들여진 가설을 증명했다는 것이다.",
+          "summary": "머신러닝 플랫폼 엔지니어링벤자민 탄 웨이 하오·샤눕 파드마나반·바룬 말랴 | 책만2026년 7월 20일추천이유이 책은 쿠버네티스 기반의 엔드투엔드 ML/LLM 플랫폼을 처음부터 구축하는 방법을 실전 예제를 통해 배웁니다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261027000007",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216583",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-27T08:11:53+09:00",
-          "popularity": 94,
+          "published_at": "2026-10-28T09:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 24.86,
-          "importance_score": 18.32,
+          "score": 22.58,
+          "importance_score": 19.17,
           "matched_keywords": [
             "ai",
-            "연구",
-            "모델"
+            "llm"
           ],
           "engagement": null
         },
         {
-          "id": "3788f22259000a5d3783784d209d0732",
+          "id": "b44d5fdcd2df23520a5d866020e2f4e4",
           "index": 4,
-          "title": "오픈AI, 비용 효율 높인 'GPT-6.1 테라' 공개…시각·조작 강화",
+          "title": "유라클, KT와 AI 플랫폼 사업 협력…글로벌 기업시장 공략 확대",
           "title_ko": null,
-          "summary": "오픈AI가 인공지능(AI) 시각적 이해와 컴퓨터 조작 능력을 강화한 최신 모델 'GPT-6.1 테라(Terra)'를 공개했다. 기존 모델보다 성능을 높이면서 사용 비용을 절반으로 낮춘 '가성비(가격 대비 성능)' 모델로 기업의 AI 기반 업무 자동화 수요를 공략한다. 오픈AI는 26일(현지시간) GPT-6.1 테라 출시를 공식화했다.",
+          "summary": "[지디넷코리아]유라클(대표 조준희, 권태일)이 KT와 협력해 국내외 기업용 인공지능(AI) 플랫폼 사업을 확대한다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261027000006",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20261028102010",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-10-27T08:00:47+09:00",
-          "popularity": 93,
+          "published_at": "2026-10-28T10:20:22+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 24.72,
-          "importance_score": 18.14,
+          "score": 19.66,
+          "importance_score": 19.53,
           "matched_keywords": [
-            "ai",
-            "gpt",
-            "모델"
+            "ai"
           ],
           "engagement": null
         }
@@ -122,8 +118,34 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "50d53d3d6cc120f455553545a73b0724",
+          "id": "0dd219798868d1fdbe6e0cbb811d04b2",
           "index": 5,
+          "title": "ChannelCooperStart/capri-ai — 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity",
+          "title_ko": "ChannelCooperStart/capri-ai — 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity",
+          "summary": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+          "summary_ko": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+          "url": "https://github.com/ChannelCooperStart/capri-ai",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-10-28T07:56:43+09:00",
+          "popularity": 169,
+          "upvotes": 169,
+          "score": 33.34,
+          "importance_score": 26.7,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "claude"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 169
+          }
+        },
+        {
+          "id": "50d53d3d6cc120f455553545a73b0724",
+          "index": 6,
           "title": "KhulekanisiyandaMchunu/llm-trading-arena — Live trading arena for LLM agents: public reasoning, real market data, virtual capital",
           "title_ko": "KhulekanisiyandaMchunu/llm-trading-arena — Live trading arena for LLM agents: public reasoning, real market data, virtual capital",
           "summary": "Live trading arena for LLM agents: public reasoning, real market data, virtual capital",
@@ -132,11 +154,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-10-27T10:09:28+09:00",
+          "published_at": "2026-10-28T08:30:26+09:00",
           "popularity": 65,
           "upvotes": 65,
-          "score": 30.53,
-          "importance_score": 24.4,
+          "score": 30.14,
+          "importance_score": 23.63,
           "matched_keywords": [
             "llm",
             "agent",
@@ -146,32 +168,6 @@
             "label": "Stars",
             "value": 65
           }
-        },
-        {
-          "id": "b50e311c70ceaa0593c0dc384213aa61",
-          "index": 6,
-          "title": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
-          "title_ko": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
-          "summary": "Open Source Data Science Agent for Discord and Slack",
-          "summary_ko": "Open Source Data Science Agent for Discord and Slack",
-          "url": "https://github.com/emrahaydemir960-ai/daimon-data-agent",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-10-27T10:17:26+09:00",
-          "popularity": 58,
-          "upvotes": 58,
-          "score": 30.17,
-          "importance_score": 24.06,
-          "matched_keywords": [
-            "ai",
-            "agent",
-            "open source"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 58
-          }
         }
       ]
     },
@@ -180,22 +176,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "7ba8db59de681bc083a9ec9d850afc4d",
+          "id": "dccb502f54edcc87255e0b9f9bc8ab12",
           "index": 7,
-          "title": "한국어 STT 평가: 정답의 숫자 표기 하나로 모델 비교가 뒤집히는 문제 (공개 모델 6개로 확인해 본 것들)",
+          "title": "Qwen3 0.6B로 평가부터 GRPO, 증류까지 설명하는, 추론 모델을 PyTorch로 직접 만드는 11시간 영상 강의 (feat. Sebastian Raschka)",
           "title_ko": null,
-          "summary": "안녕하세요. 한국어 음성인식 일을 하면서 공개 모델들을 평가하다가 알게 된 것들을 공유합니다. 평가하는 과정에서 채점 스크립트를 직접 만들게 됐는데, 그건 오픈소스로 공개해 뒀고 아래 링크에 있습니다.",
+          "summary": "핵심 요약 LLM 아키텍처 갤러리 및 최근 LLM 아키텍처의 발전 동향 등을 공개한 Sebastian Raschka가 새롭게 Building Reasoning Models from the Ground Up 글에서 추론 모델을 직접 구현하는 영상 8편(합계 약 11시간 7분)을 한데 묶어 소개했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/stt-6/12327",
+          "url": "https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-10-27T09:34:05+09:00",
+          "published_at": "2026-10-28T08:30:00+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.75,
-          "importance_score": 19.49,
+          "score": 28.48,
+          "importance_score": 18.96,
           "matched_keywords": [
+            "llm",
+            "추론",
+            "reasoning",
             "모델"
           ],
           "engagement": null
@@ -205,108 +204,130 @@
   ],
   "items": [
     {
-      "id": "3c063587217718e54ec7a57032b095a7",
+      "id": "04cdf708753e75c9ccaf3836bfd05ab1",
       "index": 1,
-      "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
-      "title_ko": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
-      "summary": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppress misleading priors.",
-      "summary_ko": "Omni-Woodpecker is a training-free framework that reduces cross-modal hallucinations in omni LLMs by identifying modality conflicts and rebalancing hidden representations to suppr…",
-      "url": "https://huggingface.co/papers/2610.27103",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-10-26T09:00:00+09:00",
-      "popularity": 158,
-      "upvotes": 22,
-      "score": 25.21,
-      "importance_score": 15.21,
-      "matched_keywords": [
-        "ai",
-        "llm",
-        "training"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 22
-      }
-    },
-    {
-      "id": "f2ba4b3397d8bce42a2b0f13660e2854",
-      "index": 2,
-      "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-      "title_ko": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-      "summary": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
-      "summary_ko": "PAWM selectively predicts multi-step failures to guide black-box LLM agents away from pitfalls, improving performance via supervised fine-tuning and reinforcement co-training.",
-      "url": "https://huggingface.co/papers/2610.29139",
+      "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+      "title_ko": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+      "summary": "S3AC introduces a stabilized actor-critic training method with difficulty-aware prompt sampling to improve long reasoning in large language models without relying on grouped rollouts.",
+      "summary_ko": "S3AC introduces a stabilized actor-critic training method with difficulty-aware prompt sampling to improve long reasoning in large language models without relying on grouped rollo…",
+      "url": "https://huggingface.co/papers/2610.35518",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-10-27T09:00:00+09:00",
-      "popularity": 7,
-      "upvotes": 1,
-      "score": 24.87,
-      "importance_score": 15.49,
+      "popularity": 5262,
+      "upvotes": 16,
+      "score": 30.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "ai",
         "llm",
-        "agent",
-        "fine-tuning",
+        "reasoning",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 1
+        "value": 16
       }
     },
     {
-      "id": "a9eef0a97a228dab855bf950d3148514",
+      "id": "8a37b37e1ba6d93a5ec48ac2d2e44b16",
+      "index": 2,
+      "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
+      "title_ko": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
+      "summary": "RoboHarness enables LLM agents to perform embodied manipulation via a visual-geometric control interface, surpassing specialized vision-language-action models on robotics benchmarks.",
+      "summary_ko": "RoboHarness enables LLM agents to perform embodied manipulation via a visual-geometric control interface, surpassing specialized vision-language-action models on robotics benchmar…",
+      "url": "https://huggingface.co/papers/2610.14018",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-10-27T09:00:00+09:00",
+      "popularity": 295,
+      "upvotes": 8,
+      "score": 27.07,
+      "importance_score": 17.07,
+      "matched_keywords": [
+        "llm",
+        "agent",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 8
+      }
+    },
+    {
+      "id": "30da427290ccf75f90c7a028f1bc5180",
       "index": 3,
-      "title": "오픈AI “수학·컴퓨터과학·물리 난제 해결”…노벨상 수상자가 검증한다",
+      "title": "[AI리더의 서가] 머신러닝 플랫폼 엔지니어링",
       "title_ko": null,
-      "summary": "오픈AI가 인공지능(AI)을 활용해 수학·컴퓨터과학·물리학 분야 오랜 난제 3건에 대한 새로운 증명을 도출했다고 발표했다. 오픈AI는 26일(현지시간) 홈페이지를 통해 조화해석, 계산복잡도 이론, 양자장론 등 3개 분야에서 자체 AI 모델이 새로운 연구 성과를 도출했다고 밝혔다. 수십 년간 풀리지 않았던 수학적 추측을 해결하고 컴퓨터과학계에서 널리 받아들여진 가설을 증명했다는 것이다.",
+      "summary": "머신러닝 플랫폼 엔지니어링벤자민 탄 웨이 하오·샤눕 파드마나반·바룬 말랴 | 책만2026년 7월 20일추천이유이 책은 쿠버네티스 기반의 엔드투엔드 ML/LLM 플랫폼을 처음부터 구축하는 방법을 실전 예제를 통해 배웁니다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261027000007",
-      "source": "전자신문 IT",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216583",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-27T08:11:53+09:00",
-      "popularity": 94,
+      "published_at": "2026-10-28T09:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 24.86,
-      "importance_score": 18.32,
+      "score": 22.58,
+      "importance_score": 19.17,
       "matched_keywords": [
         "ai",
-        "연구",
-        "모델"
+        "llm"
       ],
       "engagement": null
     },
     {
-      "id": "3788f22259000a5d3783784d209d0732",
+      "id": "b44d5fdcd2df23520a5d866020e2f4e4",
       "index": 4,
-      "title": "오픈AI, 비용 효율 높인 'GPT-6.1 테라' 공개…시각·조작 강화",
+      "title": "유라클, KT와 AI 플랫폼 사업 협력…글로벌 기업시장 공략 확대",
       "title_ko": null,
-      "summary": "오픈AI가 인공지능(AI) 시각적 이해와 컴퓨터 조작 능력을 강화한 최신 모델 'GPT-6.1 테라(Terra)'를 공개했다. 기존 모델보다 성능을 높이면서 사용 비용을 절반으로 낮춘 '가성비(가격 대비 성능)' 모델로 기업의 AI 기반 업무 자동화 수요를 공략한다. 오픈AI는 26일(현지시간) GPT-6.1 테라 출시를 공식화했다.",
+      "summary": "[지디넷코리아]유라클(대표 조준희, 권태일)이 KT와 협력해 국내외 기업용 인공지능(AI) 플랫폼 사업을 확대한다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261027000006",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20261028102010",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-10-27T08:00:47+09:00",
-      "popularity": 93,
+      "published_at": "2026-10-28T10:20:22+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 24.72,
-      "importance_score": 18.14,
+      "score": 19.66,
+      "importance_score": 19.53,
       "matched_keywords": [
-        "ai",
-        "gpt",
-        "모델"
+        "ai"
       ],
       "engagement": null
+    },
+    {
+      "id": "0dd219798868d1fdbe6e0cbb811d04b2",
+      "index": 5,
+      "title": "ChannelCooperStart/capri-ai — 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity",
+      "title_ko": "ChannelCooperStart/capri-ai — 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity",
+      "summary": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+      "summary_ko": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+      "url": "https://github.com/ChannelCooperStart/capri-ai",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-10-28T07:56:43+09:00",
+      "popularity": 169,
+      "upvotes": 169,
+      "score": 33.34,
+      "importance_score": 26.7,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "claude"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 169
+      }
     },
     {
       "id": "50d53d3d6cc120f455553545a73b0724",
-      "index": 5,
+      "index": 6,
       "title": "KhulekanisiyandaMchunu/llm-trading-arena — Live trading arena for LLM agents: public reasoning, real market data, virtual capital",
       "title_ko": "KhulekanisiyandaMchunu/llm-trading-arena — Live trading arena for LLM agents: public reasoning, real market data, virtual capital",
       "summary": "Live trading arena for LLM agents: public reasoning, real market data, virtual capital",
@@ -315,11 +336,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-10-27T10:09:28+09:00",
+      "published_at": "2026-10-28T08:30:26+09:00",
       "popularity": 65,
       "upvotes": 65,
-      "score": 30.53,
-      "importance_score": 24.4,
+      "score": 30.14,
+      "importance_score": 23.63,
       "matched_keywords": [
         "llm",
         "agent",
@@ -331,48 +352,25 @@
       }
     },
     {
-      "id": "b50e311c70ceaa0593c0dc384213aa61",
-      "index": 6,
-      "title": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
-      "title_ko": "emrahaydemir960-ai/daimon-data-agent — Open Source Data Science Agent for Discord and Slack",
-      "summary": "Open Source Data Science Agent for Discord and Slack",
-      "summary_ko": "Open Source Data Science Agent for Discord and Slack",
-      "url": "https://github.com/emrahaydemir960-ai/daimon-data-agent",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-10-27T10:17:26+09:00",
-      "popularity": 58,
-      "upvotes": 58,
-      "score": 30.17,
-      "importance_score": 24.06,
-      "matched_keywords": [
-        "ai",
-        "agent",
-        "open source"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 58
-      }
-    },
-    {
-      "id": "7ba8db59de681bc083a9ec9d850afc4d",
+      "id": "dccb502f54edcc87255e0b9f9bc8ab12",
       "index": 7,
-      "title": "한국어 STT 평가: 정답의 숫자 표기 하나로 모델 비교가 뒤집히는 문제 (공개 모델 6개로 확인해 본 것들)",
+      "title": "Qwen3 0.6B로 평가부터 GRPO, 증류까지 설명하는, 추론 모델을 PyTorch로 직접 만드는 11시간 영상 강의 (feat. Sebastian Raschka)",
       "title_ko": null,
-      "summary": "안녕하세요. 한국어 음성인식 일을 하면서 공개 모델들을 평가하다가 알게 된 것들을 공유합니다. 평가하는 과정에서 채점 스크립트를 직접 만들게 됐는데, 그건 오픈소스로 공개해 뒀고 아래 링크에 있습니다.",
+      "summary": "핵심 요약 LLM 아키텍처 갤러리 및 최근 LLM 아키텍처의 발전 동향 등을 공개한 Sebastian Raschka가 새롭게 Building Reasoning Models from the Ground Up 글에서 추론 모델을 직접 구현하는 영상 8편(합계 약 11시간 7분)을 한데 묶어 소개했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/stt-6/12327",
+      "url": "https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-10-27T09:34:05+09:00",
+      "published_at": "2026-10-28T08:30:00+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.75,
-      "importance_score": 19.49,
+      "score": 28.48,
+      "importance_score": 18.96,
       "matched_keywords": [
+        "llm",
+        "추론",
+        "reasoning",
         "모델"
       ],
       "engagement": null
