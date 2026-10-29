@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:03:50 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 11:12:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Liquid AI, 텍스트, 비전, 오디오, 옴니, 결정 모델을 처리하는 2B 규모의 LFM3 모델 6종 공개</title>
+      <link>https://discuss.pytorch.kr/t/liquid-ai-2b-lfm3-6/12338</link>
+      <description>핵심 요약 Liquid AI가 LFM3 발표 글 에서 텍스트, 비전, 오디오, 옴니, 결정 모델 6종을 공개했습니다. 6종 모두 22T 토큰으로 사전 학습한 같은 백본 LFM3-1.7B-Base에서 갈라져 나왔고, 크기는 1.7B~2.2B입니다. 텍스트 모델 LFM3-1.7B 는 Liquid AI가 고른 29개 벤치마크 평균에서 Qwen3.5-9B보다 약간 높았습니다.</description>
+      <pubDate>Thu, 29 Oct 2026 07:30:34 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/liquid-ai-2b-lfm3-6/12338">PyTorch Korea</source>
+      <guid isPermaLink="false">ae40fd808e3197bfdd711a54f2470bdb</guid>
+    </item>
     <item>
       <title>Day Trader Skill: Python으로 숫자들을 계산하고, 주문은 사람의 2번 승인이 필요한 (미국 주식 전용) Claude용 트레이딩 스킬</title>
       <link>https://discuss.pytorch.kr/t/day-trader-skill-python-2-claude/12307</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/mai-base-2-microsoft-ai-deepseek-v4-pro-base-4-12-2-8t-moe/12210">PyTorch Korea</source>
       <guid isPermaLink="false">c8658bc5d9feb6c438f9eccac3d105a6</guid>
-    </item>
-    <item>
-      <title>vLLM과 SGLang 중 무엇을 골라야 할까? Red Hat이 공개한 PagedAttention과 RadixAttention의 차이와 벤치마크 해석법</title>
-      <link>https://discuss.pytorch.kr/t/vllm-sglang-red-hat-pagedattention-radixattention/12212</link>
-      <description>핵심 요약 Red Hat Developer 블로그의 vLLM vs. SGLang 비교 글 은 두 엔진이 같은 KV 캐시 문제에서 출발했다고 정리합니다. vLLM 은 메모리를 블록으로 나누는 PagedAttention, SGLang 은 공유 접두사를 트리로 재사용하는 RadixAttention이 출발점입니다.</description>
-      <pubDate>Sat, 17 Oct 2026 11:00:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vllm-sglang-red-hat-pagedattention-radixattention/12212">PyTorch Korea</source>
-      <guid isPermaLink="false">c906ff20e6765f9dbf89362e63b614f1</guid>
     </item>
   </channel>
 </rss>
