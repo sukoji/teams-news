@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:12:12 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 18:32:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Digital Human Koubo: Renoise로 만든 AI 발표자 영상을 Remotion으로 편집하는 에이전트 스킬</title>
+      <link>https://discuss.pytorch.kr/t/digital-human-koubo-renoise-ai-remotion/12340</link>
+      <description>핵심 요약 Digital Human Koubo 는 AI 디지털 휴먼(가상 발표자)이 카메라를 보고 말하는 영상을 대본 작성부터 생성, 검수, 편집까지 코딩 에이전트에게 맡기는 에이전트 스킬입니다. 저장소에는 영상 생성 모델이 없고, 생성은 유료 서비스 Renoise 의 MCP 서버로 Grok Video 1.5를 호출하며 편집과 렌더링은 Remotion이 맡습니다.</description>
+      <pubDate>Thu, 29 Oct 2026 15:30:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/digital-human-koubo-renoise-ai-remotion/12340">PyTorch Korea</source>
+      <guid isPermaLink="false">e03edf5276c517cac760cc617d6d0e90</guid>
+    </item>
+    <item>
+      <title>CPU 파서 vs 최신 VLM, 문서 파싱 성능 비교: PyMuPDF와 GPT-6 Astra</title>
+      <link>https://discuss.pytorch.kr/t/cpu-vs-vlm-pymupdf-gpt-6-astra/12348</link>
+      <description>RAG나 문서 분석 파이프라인을 만들다 보면 PDF 파싱 단계에서 고민이 생깁니다. 최근에는 VLM에 PDF를 통째로 넣는 방식이 많이 쓰이지만, 페이지당 API 비용과 처리 시간이 만만치 않습니다. 반대로 CPU 기반 파서는 빠르고 싸지만, "정확도는 떨어지지 않나?"라는 의문이 따라붙습니다.</description>
+      <pubDate>Thu, 29 Oct 2026 15:23:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/cpu-vs-vlm-pymupdf-gpt-6-astra/12348">PyTorch Korea</source>
+      <guid isPermaLink="false">5ed15f101860c9e71777f716dc8fd475</guid>
+    </item>
+    <item>
+      <title>OpenDuet: 내 서버와 원하는 모델로 운영하는, Claude Duet 같은 선제적 업무 에이전트</title>
+      <link>https://discuss.pytorch.kr/t/openduet-claude-duet/12341</link>
+      <description>핵심 요약 OpenDuet 은 CopilotKit 이 공개한 선제적(proactive) 업무 에이전트입니다. 매일 아침 메일과 일정을 읽어 브리핑을 보내고, 다른 사람에게 메시지를 보내는 동작은 사용자의 승인을 받은 뒤에 실행합니다. Anthropic의 Claude Duet과 같은 범주를 겨냥하지만, 직접 호스팅하고 OpenAI나 Anthropic 등의 모델을 골라 쓸 수 있다는 점이 다릅…</description>
+      <pubDate>Thu, 29 Oct 2026 11:30:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openduet-claude-duet/12341">PyTorch Korea</source>
+      <guid isPermaLink="false">f9e74895f8e776ae76c2a66415d260d6</guid>
+    </item>
+    <item>
+      <title>tstack: 코딩 에이전트가 변경 증명부터 리뷰 봇 대응, PR 병합까지 맡게 하는 스킬 9종 (feat. Theo Browne)</title>
+      <link>https://discuss.pytorch.kr/t/tstack-pr-9-feat-theo-browne/12342</link>
+      <description>핵심 요약 tstack 은 Theo Browne이 매일 쓰는 에이전트 스킬 9개를 정리해 공개한 저장소로, Claude Code와 Codex에서 동작합니다. 스킬은 주로 코드를 쓴 뒤의 단계, 곧 변경 증명, 리뷰, PR 작성, CI와 리뷰 봇 대응, 병합을 다룹니다. 중심 스킬인 full-send 는 사용자가 지켜보지 않는다는 전제로 일합니다.</description>
+      <pubDate>Thu, 29 Oct 2026 18:00:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/tstack-pr-9-feat-theo-browne/12342">PyTorch Korea</source>
+      <guid isPermaLink="false">292fddf68a89d361090d274f68ace956</guid>
+    </item>
     <item>
       <title>Liquid AI, 텍스트, 비전, 오디오, 옴니, 결정 모델을 처리하는 2B 규모의 LFM3 모델 6종 공개</title>
       <link>https://discuss.pytorch.kr/t/liquid-ai-2b-lfm3-6/12338</link>
@@ -421,42 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claudemy-2-claude-code/12234">PyTorch Korea</source>
       <guid isPermaLink="false">7cfa0aec9f493c59ac1be598bcd1c59f</guid>
-    </item>
-    <item>
-      <title>[2026/10/12 ~ 18] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-10-12-18-ai-ml/12236</link>
-      <description>PyTorchKR​ 에이전트 실행 환경(Harness)의 자동 진화 및 명시적 상태 관리 : 이번 주 선정된 논문들에서는 AI 에이전트의 능력을 극대화하기 위해 모델 자체뿐만 아니라 실행 환경인 하네스(Harness) 를 고도화하는 연구가 두드러졌습니다.</description>
-      <pubDate>Mon, 19 Oct 2026 06:30:30 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-10-12-18-ai-ml/12236">PyTorch Korea</source>
-      <guid isPermaLink="false">7cfd405a83531226615908629959399c</guid>
-    </item>
-    <item>
-      <title>Bespoke Labs, 사실 하나만 바꾼 대조 데이터로 만든 9B 결정 모델 Nimble과 학습 레시피 공개</title>
-      <link>https://discuss.pytorch.kr/t/bespoke-labs-9b-nimble/12196</link>
-      <description>핵심 요약 Bespoke Labs가 Bespoke Nimble 저장소에 Jev식 결정 모델의 학습 데이터, 학습 레시피, 서빙 코드를 공개했습니다. 모델은 Qwen3.5-9B에 LoRA를 붙인 Bespoke-Nimble-9B 이고, 답을 생성하지 않고 허용된 답 토큰의 로짓만 읽어 확률을 냅니다.</description>
-      <pubDate>Sun, 18 Oct 2026 19:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/bespoke-labs-9b-nimble/12196">PyTorch Korea</source>
-      <guid isPermaLink="false">7cc363f0e5cfa586f87bd48b71d290d7</guid>
-    </item>
-    <item>
-      <title>Pie: KV 캐시와 디코딩 루프를 사용자 프로그램에 맡기는 오픈소스 LLM 서빙 시스템 (feat. SOSP 2025)</title>
-      <link>https://discuss.pytorch.kr/t/pie-kv-llm-feat-sosp-2025/12197</link>
-      <description>핵심 요약 Yale 대학교 연구진의 Pie 논문 (SOSP 2025)은 LLM 서빙 엔진의 고정된 생성 루프를 42개의 API로 쪼갭니다. 사용자가 쓴 WebAssembly 프로그램(인퍼렛, Inferlet)이 이 API로 KV(Key-Value) 캐시, 순전파, 샘플링, 도구 호출을 직접 제어합니다.</description>
-      <pubDate>Sun, 18 Oct 2026 12:30:18 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pie-kv-llm-feat-sosp-2025/12197">PyTorch Korea</source>
-      <guid isPermaLink="false">dd3424381e924486ebd93fe0e4cb779a</guid>
-    </item>
-    <item>
-      <title>MAI-Base-2 사전학습 레시피: Microsoft AI가 공개한, DeepSeek-V4-Pro-Base보다 4~12배 효율적이라는 2.8T MoE 모델의 사전학습 방법</title>
-      <link>https://discuss.pytorch.kr/t/mai-base-2-microsoft-ai-deepseek-v4-pro-base-4-12-2-8t-moe/12210</link>
-      <description>핵심 요약 Microsoft AI가 Frontier Pre-training at Microsoft AI 글에서 활성 80B, 전체 2.8T 파라미터의 MoE 기반 모델 MAI-Base-2의 사전학습 완료를 알렸습니다. GB200 GPU 1만 6천 장으로 2026년 8~9월 38일 동안 50T 토큰을 학습했고, 지금은 사후 학습 중입니다.</description>
-      <pubDate>Sat, 17 Oct 2026 22:00:45 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/mai-base-2-microsoft-ai-deepseek-v4-pro-base-4-12-2-8t-moe/12210">PyTorch Korea</source>
-      <guid isPermaLink="false">c8658bc5d9feb6c438f9eccac3d105a6</guid>
     </item>
   </channel>
 </rss>
