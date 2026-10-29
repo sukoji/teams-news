@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 29 Oct 2026 18:32:42 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:42:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Amortizing Sequential Experimental Design in Reasoning LLMs</title>
+      <link>https://huggingface.co/papers/2610.20832</link>
+      <description>Large language models learn adaptive information gathering by training reasoning with information-gain rewards, improving experimental design efficiency and generalizing across ta…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.20832">Hugging Face Papers</source>
+      <guid isPermaLink="false">2ca76152c196b3e3c4d0090921c83e23</guid>
+    </item>
+    <item>
+      <title>LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data</title>
+      <link>https://huggingface.co/papers/2610.30132</link>
+      <description>LongZero enables large language models to self-improve long-context reasoning by synthesizing structured multi-hop and retrieval tasks and training with GRPO without external data.</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30132">Hugging Face Papers</source>
+      <guid isPermaLink="false">1de784d525fbc1b6b9afba8745921c6e</guid>
+    </item>
+    <item>
+      <title>RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents</title>
+      <link>https://huggingface.co/papers/2610.22507</link>
+      <description>REALCLI is a benchmark that jointly evaluates CLI agent task execution and human-agent collaboration quality, revealing major gaps in steerability, trust calibration, and safety m…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22507">Hugging Face Papers</source>
+      <guid isPermaLink="false">26faf48bf2d899bbbca6000e72929f03</guid>
+    </item>
+    <item>
+      <title>TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents</title>
+      <link>https://huggingface.co/papers/2610.30161</link>
+      <description>TauIndianBankBench evaluates language model assistants on Indian retail banking by verifying both procedural compliance and final outcomes across 1,000 simulated tasks.</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.30161">Hugging Face Papers</source>
+      <guid isPermaLink="false">5329be3cc33eb8cbb32a7886d2403aa3</guid>
+    </item>
+    <item>
+      <title>Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks</title>
+      <link>https://huggingface.co/papers/2610.35671</link>
+      <description>Independent safety evaluation of DeepSeek V4.1 Flash-1017 reveals substantial improvements over prior versions and near-parity with leading closed-source models, while recommendin…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.35671">Hugging Face Papers</source>
+      <guid isPermaLink="false">7c525e991e0542c47fb36736affa6fa5</guid>
+    </item>
     <item>
       <title>Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</title>
       <link>https://huggingface.co/papers/2610.32749</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.37219">Hugging Face Papers</source>
       <guid isPermaLink="false">13a3390b9f33d04979d96c40dc6e0ac4</guid>
-    </item>
-    <item>
-      <title>RSI Arena: Towards Recursive Self-Improvement with Human Feedback</title>
-      <link>https://huggingface.co/papers/2610.33624</link>
-      <description>RSI Arena demonstrates that autonomous AI agents can independently train and iteratively improve language models using human feedback, with most agents achieving preference gains…</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.33624">Hugging Face Papers</source>
-      <guid isPermaLink="false">35c5ae7438619ef3ec0dba949d6169c2</guid>
-    </item>
-    <item>
-      <title>Memory Tax: Dissecting the Net Value of Agent Memory</title>
-      <link>https://huggingface.co/papers/2610.34073</link>
-      <description>Large-scale evaluation reveals that dedicated memory systems often underperform naive retrieval-augmented generation, introducing a framework of memory benefit and memory tax to a…</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34073">Hugging Face Papers</source>
-      <guid isPermaLink="false">c9930e2bbe338168825d260d9503e6ef</guid>
-    </item>
-    <item>
-      <title>SO-101 Bench: Accessible Spatial Manipulation</title>
-      <link>https://huggingface.co/papers/2610.36420</link>
-      <description>A simulated benchmark for language-conditioned spatial manipulation on low-cost robot arms reveals that hybrid LLM agents outperform learned vision-language-action policies, with…</description>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.36420">Hugging Face Papers</source>
-      <guid isPermaLink="false">b94d1779d3ecb9524b1c3be2b7a45b25</guid>
-    </item>
-    <item>
-      <title>Cross-modal Steering Vectors Exist Across Both Image and Text Generation</title>
-      <link>https://huggingface.co/papers/2610.36269</link>
-      <description>Cross-modal steering vectors transfer between text and image generation in unified multimodal models, revealing shared causal control mechanisms despite a modality gap.</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.36269">Hugging Face Papers</source>
-      <guid isPermaLink="false">b4b5925f22fef0555c1b42a2799a3ef1</guid>
-    </item>
-    <item>
-      <title>SearchHorizonBench: A Benchmark for Search Value in AI Agents</title>
-      <link>https://huggingface.co/papers/2610.34714</link>
-      <description>SearchHorizonBench evaluates how agents learn to estimate the value of additional search from execution history, showing that historical calibration improves prediction accuracy b…</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34714">Hugging Face Papers</source>
-      <guid isPermaLink="false">770d9d84225c427bd84889e154b0593e</guid>
     </item>
   </channel>
 </rss>
