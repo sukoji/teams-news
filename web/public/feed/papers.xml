@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 31 Oct 2026 00:39:42 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 05:30:27 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents</title>
+      <link>https://huggingface.co/papers/2610.34298</link>
+      <description>Matched interface representations significantly alter agent behavior despite identical executable capabilities, and targeted repair of interface-specific realization improves perf…</description>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.34298">Hugging Face Papers</source>
+      <guid isPermaLink="false">fbeed9a7515b731fcbfece365e5061ed</guid>
+    </item>
+    <item>
+      <title>Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models</title>
+      <link>https://huggingface.co/papers/2610.38681</link>
+      <description>WISD improves reasoning models by contrasting them with weaker quantized or pruned versions to generate training signals without privileged data.</description>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.38681">Hugging Face Papers</source>
+      <guid isPermaLink="false">d86e57a2655c591cccf6c59b3d607e3f</guid>
+    </item>
+    <item>
+      <title>Unlocking Any-Order Generation in Pretrained Autoregressive Image Models</title>
+      <link>https://huggingface.co/papers/2610.39293</link>
+      <description>Pretrained raster-scan autoregressive image models can be adapted into flexible any-order generators via future-aware positional embeddings and an ordering curriculum, enabling in…</description>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.39293">Hugging Face Papers</source>
+      <guid isPermaLink="false">1769c4536826b17625f70e60e4864e4f</guid>
+    </item>
     <item>
       <title>AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers</title>
       <link>https://huggingface.co/papers/2610.39663</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.37230">Hugging Face Papers</source>
       <guid isPermaLink="false">fc7d9dc4a208b6a52c1a8b52ed2d85c5</guid>
-    </item>
-    <item>
-      <title>Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success</title>
-      <link>https://huggingface.co/papers/2610.31670</link>
-      <description>Sensorimotor alignment measures how sensory representations match physical motion geometry, serving as a low-cost offline predictor of robot model performance.</description>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.31670">Hugging Face Papers</source>
-      <guid isPermaLink="false">221c3aca4541cf93c89e1438afb105ec</guid>
-    </item>
-    <item>
-      <title>CausGround: Causal Interaction Grounding for Adaptive Embodied Planning</title>
-      <link>https://huggingface.co/papers/2610.29702</link>
-      <description>CausGround extracts reusable action preconditions and effects from interaction experience to improve embodied planning and reasoning across diverse environments without model retr…</description>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.29702">Hugging Face Papers</source>
-      <guid isPermaLink="false">c80b67b8644eb4a0d997f8e3133ffcec</guid>
-    </item>
-    <item>
-      <title>HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience</title>
-      <link>https://huggingface.co/papers/2610.34186</link>
-      <description>HuGe pre-trains vision-language-action models on egocentric human and robot data with pseudo-proprioception and visual adaptation to enable whole-body humanoid control.</description>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34186">Hugging Face Papers</source>
-      <guid isPermaLink="false">5281de8bd640795650c581d5fc08b7e0</guid>
     </item>
   </channel>
 </rss>
