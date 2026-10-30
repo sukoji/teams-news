@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 30 Oct 2026 17:13:18 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 00:39:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>VocabX: 토큰 빈도 대신 생성 비용으로 어휘를 골라 Qwen3-4B 채점 모델의 추론 비용을 77% 줄인 사례</title>
+      <link>https://discuss.pytorch.kr/t/vocabx-qwen3-4b-77/12322</link>
+      <description>핵심 요약 브라질의 Dharma AI가 Hugging Face 블로그 글 에서 소형 모델의 토크나이저 어휘를 도메인에 맞게 다시 만드는 방법인 VocabX의 결과 일부를 먼저 공개했습니다. 논문은 아직 심사 중이며 공개 전이고, 이번 글에 코드는 포함되지 않았습니다. VocabX는 토큰의 등장 빈도가 아니라 그 토큰을 줄였을 때 아끼는 비용으로 어휘를 고릅니다.</description>
+      <pubDate>Fri, 30 Oct 2026 20:30:17 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vocabx-qwen3-4b-77/12322">PyTorch Korea</source>
+      <guid isPermaLink="false">82a1c1936de221a8430966c04c201ddf</guid>
+    </item>
+    <item>
+      <title>ThinkRail: Pi 코딩 에이전트를 Git 워크트리별로 병렬 실행하고 턴 단위로 검토하는 IDE (feat. JetBrains)</title>
+      <link>https://discuss.pytorch.kr/t/thinkrail-pi-git-ide-feat-jetbrains/12334</link>
+      <description>핵심 요약 ThinkRail 은 JetBrains가 인큐베이터 프로젝트로 공개한 에이전틱 IDE로, 터미널용 코딩 에이전트 Pi를 라이브러리로 내장해 웹 UI와 데스크톱 앱에서 쓰게 해 줍니다. 작업 공간마다 별도의 git worktree 와 브랜치를 만들어 여러 Pi 세션을 병렬로 실행하고, 에이전트가 한 번 실행되는 동안 바뀐 파일을 한 화면에 모아 검토할 수 있습니다.</description>
+      <pubDate>Fri, 30 Oct 2026 17:30:15 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinkrail-pi-git-ide-feat-jetbrains/12334">PyTorch Korea</source>
+      <guid isPermaLink="false">107be6b394553c49583231629711b8db</guid>
+    </item>
     <item>
       <title>Claude Code 팀의 코드 리뷰 방식: 병합 PR이 2배로 늘 때 되돌림 비율은 40% 넘게 줄인 방법 (feat. Anthropic)</title>
       <link>https://discuss.pytorch.kr/t/claude-code-pr-2-40-feat-anthropic/12336</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/longharness-harmony-harness-harness/12248">PyTorch Korea</source>
       <guid isPermaLink="false">0b6a74fc181ca5b6f782ce81bd7b90bc</guid>
-    </item>
-    <item>
-      <title>2030년까지 AI의 발전 기대에 대한 차이 연구: 노벨상급 발견, 노동 시장 등에 AI가 미칠 영향에 대한 인식 차이 [영문/PDF/16p]</title>
-      <link>https://discuss.pytorch.kr/t/2030-ai-ai-pdf-16p/12228</link>
-      <description>핵심 요약 Anthropic Institute의 The AI Expectations Gap 보고서 는 2026년 8월에 미국 성인 10,980명과 Anthropic 직원 1,334명에게 대부분 같은 질문을 던져 AI의 미래에 대한 기대를 비교했습니다.</description>
-      <pubDate>Mon, 19 Oct 2026 16:30:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2030-ai-ai-pdf-16p/12228">PyTorch Korea</source>
-      <guid isPermaLink="false">f0da0acb9322adc47c8d1e3979c8d624</guid>
-    </item>
-    <item>
-      <title>[프로젝트 소개] APIGOTO: OpenAI Python SDK에서 base_url만 바꿔 여러 모델을 같은 코드로 비교하기</title>
-      <link>https://discuss.pytorch.kr/t/apigoto-openai-python-sdk-base-url/12241</link>
-      <description>먼저 밝힙니다. 저는 APIGOTO 팀에서 일합니다. APIGOTO는 OpenAI 호환 API 게이트웨이이고, OpenAI·Anthropic·Google과는 관계없는 독립 서비스입니다.</description>
-      <pubDate>Mon, 19 Oct 2026 16:04:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/apigoto-openai-python-sdk-base-url/12241">PyTorch Korea</source>
-      <guid isPermaLink="false">ae54ce9991c4df4ff68c3abe0103a6f5</guid>
     </item>
   </channel>
 </rss>
