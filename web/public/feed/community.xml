@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:22:19 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:13:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Claude Code 팀의 코드 리뷰 방식: 병합 PR이 2배로 늘 때 되돌림 비율은 40% 넘게 줄인 방법 (feat. Anthropic)</title>
+      <link>https://discuss.pytorch.kr/t/claude-code-pr-2-40-feat-anthropic/12336</link>
+      <description>핵심 요약 Anthropic의 Claude Code 팀 코드 리뷰 글 에 따르면, 2026년 6월부터 9월까지 Claude Code 저장소의 병합 PR 수는 2배 넘게 늘었고 되돌린(revert) PR의 비율은 상대값으로 40% 넘게 줄었습니다.</description>
+      <pubDate>Fri, 30 Oct 2026 15:00:59 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-code-pr-2-40-feat-anthropic/12336">PyTorch Korea</source>
+      <guid isPermaLink="false">eee2b62c2cee136a215b7bb8d328fde5</guid>
+    </item>
     <item>
       <title>Runway Praxis-1: 웹 영상으로 사전학습한 로봇 정책 모델 발표, 모델 가중치는 수개월 내 공개 예정</title>
       <link>https://discuss.pytorch.kr/t/runway-praxis-1/12346</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/apigoto-openai-python-sdk-base-url/12241">PyTorch Korea</source>
       <guid isPermaLink="false">ae54ce9991c4df4ff68c3abe0103a6f5</guid>
-    </item>
-    <item>
-      <title>LeanREA: REA의 MCP 도구 207개 대신 8KB 스킬 파일 하나로 리버스 엔지니어링을 안내하는 에이전트 스킬 (≠ REA 공식 경량판)</title>
-      <link>https://discuss.pytorch.kr/t/leanrea-rea-mcp-207-8kb-rea/12233</link>
-      <description>핵심 요약 leanrea 는 리버스 엔지니어링 MCP 서버인 REA(Reverse Engineer Anything) 대신, 8KB짜리 SKILL.md 한 장으로 코딩 에이전트가 otool , nm , go version -m , rg 같은 명령줄 도구를 직접 실행하게 하는 에이전트 스킬입니다. 이름과 달리 REA 팀이 만든 경량판이 아니며, 저자는 REA와 관계가 없다고 밝히고 있습니다.</description>
-      <pubDate>Mon, 19 Oct 2026 19:30:10 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/leanrea-rea-mcp-207-8kb-rea/12233">PyTorch Korea</source>
-      <guid isPermaLink="false">9bc80870befad032091e48d6dd4766d0</guid>
     </item>
   </channel>
 </rss>
