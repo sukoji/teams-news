@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 30 Oct 2026 06:37:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 10:39:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas</title>
+      <link>https://huggingface.co/papers/2610.22990</link>
+      <description>PersonaCUABench reveals that computer-use agents frequently fail to satisfy real user requirements and constraints, reducing task completion and satisfaction compared to fixed ben…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.22990">Hugging Face Papers</source>
+      <guid isPermaLink="false">d4c6a1bb3ac200f86eab7bf83ff5788c</guid>
+    </item>
+    <item>
+      <title>LOB-Impact Benchmark: Emergent Market Impact in Generative Limit Order Book Models</title>
+      <link>https://huggingface.co/papers/2610.27100</link>
+      <description>Neural generative limit order book models trained for next-token prediction exhibit emergent market impact under metaorder injection, though relaxation decay remains unobserved du…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.27100">Hugging Face Papers</source>
+      <guid isPermaLink="false">d15dbede82cf8287cd48c076cc31eac2</guid>
+    </item>
+    <item>
+      <title>Know, then Draw: A New Learning Paradigm for Visual Generation</title>
+      <link>https://huggingface.co/papers/2610.37626</link>
+      <description>A hybrid paradigm combining autoregressive pretraining for semantics and diffusion post-training for rendering achieves efficient, high-quality text-to-image generation with favor…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.37626">Hugging Face Papers</source>
+      <guid isPermaLink="false">a7b5092b637cd656523dd51d7308f2c9</guid>
+    </item>
+    <item>
+      <title>PreView: Enhancing GUI Grounding with Preprocessed Views and Cues</title>
+      <link>https://huggingface.co/papers/2610.33645</link>
+      <description>PreView is an auxiliary preprocessor that enhances GUI grounding by providing localized zoomed views and visual-textual target cues to frozen grounding models, improving accuracy…</description>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.33645">Hugging Face Papers</source>
+      <guid isPermaLink="false">42a64f6786dfcaf4dc29cf764353608f</guid>
+    </item>
     <item>
       <title>Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load</title>
       <link>https://huggingface.co/papers/2610.36095</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.22543">Hugging Face Papers</source>
       <guid isPermaLink="false">9c3e932bbaae203de8c8766f4355065e</guid>
-    </item>
-    <item>
-      <title>MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting</title>
-      <link>https://huggingface.co/papers/2610.35724</link>
-      <description>MatAnyone-E accelerates high-resolution video matting by selectively applying high-resolution matching to uncertain regions and using a lightweight decoder, achieving large speedu…</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.35724">Hugging Face Papers</source>
-      <guid isPermaLink="false">b296baf5aea9478cfabb990b7c4cd418</guid>
-    </item>
-    <item>
-      <title>Rollback: Experience Backtracking in World Models for Policy Improvement</title>
-      <link>https://huggingface.co/papers/2610.36068</link>
-      <description>Rollback improves robot policies by using world models to rewind to past decisions, explore counterfactual actions, and generate fine-grained supervision, while continuously refin…</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.36068">Hugging Face Papers</source>
-      <guid isPermaLink="false">8cc129403be8d48fb9f8d5074e408377</guid>
-    </item>
-    <item>
-      <title>HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory</title>
-      <link>https://huggingface.co/papers/2610.24520</link>
-      <description>HABIT-Bench evaluates whether LLM agent memory systems can infer implicit user habits from sparse dialogue evidence and apply them correctly across long-term interactions.</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.24520">Hugging Face Papers</source>
-      <guid isPermaLink="false">65d8080c43a7bffccee32c0b352dfac9</guid>
-    </item>
-    <item>
-      <title>OvisOCR3 Technical Report</title>
-      <link>https://huggingface.co/papers/2610.33066</link>
-      <description>OvisOCR3 is a compact 0.8B vision-language model that unifies diverse OCR tasks through multi-teacher distillation and reinforcement learning, achieving state-of-the-art results a…</description>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.33066">Hugging Face Papers</source>
-      <guid isPermaLink="false">cd888315338faeb59beb5254f368d807</guid>
     </item>
   </channel>
 </rss>
