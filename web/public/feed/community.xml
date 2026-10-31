@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 31 Oct 2026 15:44:30 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 22:24:49 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>neuron explorer: 최대 활성 예시 대신 스티어링 결과로 Qwen3.5-4B 뉴런을 읽는 탐색기</title>
+      <link>https://discuss.pytorch.kr/t/neuron-explorer-qwen3-5-4b/12310</link>
+      <description>핵심 요약 neuron explorer 는 Qwen3.5-4B의 한 층에 있는 MLP 뉴런 9,216개를 하나씩 위아래로 밀어 본 생성 결과를 모두 남기고, 무작위 방향 대조군과 비교해 순위를 매긴 뒤 3D 지도 위에서 탐색하는 도구입니다. 웹 텍스트에서 가장 크게 반응한 예시가 아니라 "이 뉴런을 밀면 모델이 무엇을 쓰는가"로 뉴런을 해석하려는 해석 가능성 연구자가 대상입니다.</description>
+      <pubDate>Sat, 31 Oct 2026 19:30:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/neuron-explorer-qwen3-5-4b/12310">PyTorch Korea</source>
+      <guid isPermaLink="false">c7760bc672f316d198196a53aab7dbee</guid>
+    </item>
     <item>
       <title>OpenQodex: 코딩 에이전트의 변경을 push 전에 별도 Claude Code와 Codex 세션이 검토하는 도구</title>
       <link>https://discuss.pytorch.kr/t/openqodex-push-claude-code-codex/12335</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/llm-externalization-1-2/12177">PyTorch Korea</source>
       <guid isPermaLink="false">2d3a29a44dc8992ecfd7200c3aa5dc81</guid>
-    </item>
-    <item>
-      <title>Traceway: LLM 호출 비용까지 추적하고 AI 에이전트가 직접 조회하는 셀프 호스팅 관측 플랫폼</title>
-      <link>https://discuss.pytorch.kr/t/traceway-llm-ai/12232</link>
-      <description>핵심 요약 Traceway 는 로그, 트레이스, 메트릭, 예외, 세션 리플레이, LLM 호출 추적을 하나의 서버에 모으는 OpenTelemetry 기반 관측 플랫폼으로, OTLP(OpenTelemetry Protocol)/HTTP 엔드포인트 하나로 데이터를 받습니다. LLM 호출은 gen_ai.* 속성이 붙은 span으로 들어오면 모델, 토큰, 비용, 대화, 도구 호출 단위로 정리됩니다.</description>
-      <pubDate>Tue, 20 Oct 2026 11:30:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/traceway-llm-ai/12232">PyTorch Korea</source>
-      <guid isPermaLink="false">a12df87d0ff6e9809008e9b6aed78dd5</guid>
     </item>
   </channel>
 </rss>
