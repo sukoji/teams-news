@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:57:48 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 15:44:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenQodex: 코딩 에이전트의 변경을 push 전에 별도 Claude Code와 Codex 세션이 검토하는 도구</title>
+      <link>https://discuss.pytorch.kr/t/openqodex-push-claude-code-codex/12335</link>
+      <description>핵심 요약 OpenQodex 는 코딩 에이전트가 작성한 변경을 push 전에 별도의 Claude Code 또는 Codex 프로세스가 검토하게 하는 오픈소스 코드 리뷰 도구입니다. 리뷰 대상은 아직 push하지 않은 커밋과 커밋하지 않은 수정이고, 기본 설정에서는 코드를 쓴 에이전트가 리뷰를 맡지 않습니다.</description>
+      <pubDate>Sat, 31 Oct 2026 13:00:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openqodex-push-claude-code-codex/12335">PyTorch Korea</source>
+      <guid isPermaLink="false">2cab52f8ff25b817f20de9e5aacbfd9f</guid>
+    </item>
     <item>
       <title>VocabX: 토큰 빈도 대신 생성 비용으로 어휘를 골라 Qwen3-4B 채점 모델의 추론 비용을 77% 줄인 사례</title>
       <link>https://discuss.pytorch.kr/t/vocabx-qwen3-4b-77/12322</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/traceway-llm-ai/12232">PyTorch Korea</source>
       <guid isPermaLink="false">a12df87d0ff6e9809008e9b6aed78dd5</guid>
-    </item>
-    <item>
-      <title>[오픈소스] 하네스 논문 세 편을 에이전트 하나로 묶어 봤습니다: LongHarness + Harmony Harness + Harness² 경량 구현 (비공식)</title>
-      <link>https://discuss.pytorch.kr/t/longharness-harmony-harness-harness/12248</link>
-      <description>지난주 이번 주에 살펴볼 만한 AI/ML 논문 모음(10/12~18) 에서 첫 번째 흐름으로 묶인 세 편을 읽었습니다. 셋 다 모델이 아니라 하네스 를 고칩니다. 하네스는 모델 바깥의 시스템 프롬프트, 도구 안내, 스킬, 검증 규칙, 예산을 말합니다.</description>
-      <pubDate>Tue, 20 Oct 2026 08:34:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/longharness-harmony-harness-harness/12248">PyTorch Korea</source>
-      <guid isPermaLink="false">0b6a74fc181ca5b6f782ce81bd7b90bc</guid>
     </item>
   </channel>
 </rss>
