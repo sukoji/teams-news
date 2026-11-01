@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 01 Nov 2026 17:56:16 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:54:01 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Google, Gemini 4 Carbon 출시: Argon과 같은 가격에 AA 지수 1위, 사이버 방어 기관부터 제공</title>
+      <link>https://discuss.pytorch.kr/t/google-gemini-4-carbon-argon-aa-1/12361</link>
+      <description>핵심 요약 Google은 10월 28일 Gemini 4 Carbon 발표 글 에서 Argon 일반 출시 2주 만에 후속 프런티어 모델을 공개했습니다. Artificial Analysis Intelligence Index v5.0에서 59점으로 1위이고, 2위 Claude Opus 5.5와는 1점 차입니다. 이번 주부터는 일부 사이버 방어 기관만 쓸 수 있습니다.</description>
+      <pubDate>Sun, 01 Nov 2026 20:00:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/google-gemini-4-carbon-argon-aa-1/12361">PyTorch Korea</source>
+      <guid isPermaLink="false">40d471400ee298283a9bf3d7e583ffbd</guid>
+    </item>
+    <item>
+      <title>[프로젝트 공유] day-trader-skill-kr: 미국 주식 전용 Day Trader Skill을 국내 주식용으로 옮기고, 장기 투자 검증·대가 점검표·논지 추적을 더한 Claude 스킬 묶음</title>
+      <link>https://discuss.pytorch.kr/t/day-trader-skill-kr-day-trader-skill-claude/12373</link>
+      <description>며칠 전 이 게시판에 Day Trader Skill이 소개됐습니다. 미국 주식 데이 트레이딩의 한 거래를 Claude 스킬로 나누고, 숫자는 Python이 계산하고, 주문은 사람이 승인해야 나가는 프로젝트였습니다. 소개 글 끝에 "국내 주식에는 쓸 수 없다"는 말이 있어서, 원본의 원칙은 그대로 두고 국내 시장으로 옮겨 봤습니다.</description>
+      <pubDate>Sun, 01 Nov 2026 19:53:38 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/day-trader-skill-kr-day-trader-skill-claude/12373">PyTorch Korea</source>
+      <guid isPermaLink="false">238be90c850f98176e47a3a4ad4b0ebd</guid>
+    </item>
     <item>
       <title>AI는 조직도의 아래, 옆, 사이 중 어디로 들어올까: 기업의 미래에 대한 세 가지 시나리오와 네 가지 질문 (feat. OpenAI)</title>
       <link>https://discuss.pytorch.kr/t/ai-feat-openai/12362</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256">PyTorch Korea</source>
       <guid isPermaLink="false">9c82e8cf0a90546d2edc5a27e37c20ac</guid>
-    </item>
-    <item>
-      <title>Google, Willow 양자 프로세서에서 매직 상태 배양에 대한 실험하여 오류를 40배 감소하는 결과 공개</title>
-      <link>https://discuss.pytorch.kr/t/google-willow-40/12229</link>
-      <description>핵심 요약 Google Quantum AI가 Science 논문 으로 매직 상태 배양(magic state cultivation)을 Willow 프로세서에서 실험으로 검증했습니다. 배양을 넣자 |T\rangle 상태의 회로 전체 논리 오류가 주입만 했을 때보다 약 40배 줄었고, 충실도 하한은 0.9999(1)입니다. 이 수치는 검출된 오류가 하나라도 있는 시도를 모두 버린 뒤의 값입니다.</description>
-      <pubDate>Wed, 21 Oct 2026 17:30:57 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/google-willow-40/12229">PyTorch Korea</source>
-      <guid isPermaLink="false">d14279cc35102ef0c94513ed8d749406</guid>
-    </item>
-    <item>
-      <title>gitai: 한 브랜치에 몰린 코딩 에이전트들의 변경을 서버가 대신 rebase해 반영하는 Git 서버 (Anthropic Scion 설계 참고)</title>
-      <link>https://discuss.pytorch.kr/t/gitai-rebase-git-anthropic-scion/12235</link>
-      <description>핵심 요약 gitai 는 Anthropic이 Redesigning source control at Anthropic 글에서 설명한 사내 버전 관리 시스템 Scion의 아이디어를, GitLab의 Git 서버인 Gitaly 위에 구현한 프로젝트입니다. Anthropic과 관계없는 개인 개발자의 비공식 구현입니다.</description>
-      <pubDate>Wed, 21 Oct 2026 11:30:06 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/gitai-rebase-git-anthropic-scion/12235">PyTorch Korea</source>
-      <guid isPermaLink="false">df47a6743f0edcdea9af88ea82c61430</guid>
     </item>
   </channel>
 </rss>
