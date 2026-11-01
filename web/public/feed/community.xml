@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 01 Nov 2026 10:47:47 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 10:56:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>uzu: Mac과 iPhone 앱에 내장해 로컬 LLM을 실행하는 Apple Silicon용 Rust 추론 엔진</title>
+      <link>https://discuss.pytorch.kr/t/uzu-mac-iphone-llm-apple-silicon-rust/12363</link>
+      <description>핵심 요약 uzu 는 런던의 Mirai가 MIT 라이선스로 공개한 Rust 추론 엔진으로, Swift, Python, TypeScript, Rust 앱 안에서 Mac과 iPhone의 GPU(Metal)로 LLM을 실행합니다.</description>
+      <pubDate>Sun, 01 Nov 2026 10:30:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/uzu-mac-iphone-llm-apple-silicon-rust/12363">PyTorch Korea</source>
+      <guid isPermaLink="false">b271e5c2e625b0b42fda89cb5c037a4d</guid>
+    </item>
     <item>
       <title>neuron explorer: 최대 활성 예시 대신 스티어링 결과로 Qwen3.5-4B 뉴런을 읽는 탐색기</title>
       <link>https://discuss.pytorch.kr/t/neuron-explorer-qwen3-5-4b/12310</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/llm-externalization-2-2/12178">PyTorch Korea</source>
       <guid isPermaLink="false">b440af189afe9e4927e7345e261d41dd</guid>
-    </item>
-    <item>
-      <title>LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (1/2): 가중치에서 하네스로, 메모리와 스킬</title>
-      <link>https://discuss.pytorch.kr/t/llm-externalization-1-2/12177</link>
-      <description>핵심 요약 Externalization in LLM Agents 는 상하이교통대학교 등 5개 기관 연구진이 정리한 54쪽 분량의 리뷰 논문입니다. 저자들은 최근 LLM 에이전트의 발전을, 모델 가중치를 바꾸는 일이 아니라 모델이 감당하던 인지 부담을 메모리, 스킬, 프로토콜, 하네스로 옮기는 외부화(Externalization) 로 설명합니다.</description>
-      <pubDate>Tue, 20 Oct 2026 16:30:39 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llm-externalization-1-2/12177">PyTorch Korea</source>
-      <guid isPermaLink="false">2d3a29a44dc8992ecfd7200c3aa5dc81</guid>
     </item>
   </channel>
 </rss>
