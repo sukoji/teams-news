@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 01 Nov 2026 10:56:42 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 17:56:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>AI는 조직도의 아래, 옆, 사이 중 어디로 들어올까: 기업의 미래에 대한 세 가지 시나리오와 네 가지 질문 (feat. OpenAI)</title>
+      <link>https://discuss.pytorch.kr/t/ai-feat-openai/12362</link>
+      <description>핵심 요약 OpenAI의 Intelligence Age 블로그가 2026년 10월 28일 에세이 기업의 미래(The future of the firm) 를 공개했습니다. AI가 기업 조직도에 들어가는 경로를 사람 아래(승진), 옆(동료로 합류), 사이(중간 계층 추가)의 세 가지 시나리오로 나눕니다.</description>
+      <pubDate>Sun, 01 Nov 2026 17:30:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-feat-openai/12362">PyTorch Korea</source>
+      <guid isPermaLink="false">b0972007e7467ad496ca715cc13f0fde</guid>
+    </item>
+    <item>
+      <title>Qwenputer, Gated DeltaNet 상태를 RAM으로 취급하여 가중치에 RISC-V CPU를 넣은 실험적 모델</title>
+      <link>https://discuss.pytorch.kr/t/qwenputer-gated-deltanet-ram-risc-v-cpu/12365</link>
+      <description>핵심 요약 Qwenputer 는 Qwen3.5-4B 앞에 32비트 RISC-V CPU(RV32IM)를 11개 층으로 붙인 실험 모델입니다. 이 층의 가중치는 학습이 아니라 컴파일러가 계산했고, CPU의 메모리로는 이 층들이 가진 Gated DeltaNet 상태를 씁니다. Qwen3.5와 같은 종류의 층이라 새 층 유형은 필요 없습니다.</description>
+      <pubDate>Sun, 01 Nov 2026 17:00:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/qwenputer-gated-deltanet-ram-risc-v-cpu/12365">PyTorch Korea</source>
+      <guid isPermaLink="false">70a68fb71dff99f0d49f38a789eec2cc</guid>
+    </item>
     <item>
       <title>uzu: Mac과 iPhone 앱에 내장해 로컬 LLM을 실행하는 Apple Silicon용 Rust 추론 엔진</title>
       <link>https://discuss.pytorch.kr/t/uzu-mac-iphone-llm-apple-silicon-rust/12363</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/gitai-rebase-git-anthropic-scion/12235">PyTorch Korea</source>
       <guid isPermaLink="false">df47a6743f0edcdea9af88ea82c61430</guid>
-    </item>
-    <item>
-      <title>Harness²: 정답 라벨 없이 작업마다 에이전트 하네스를 고치고, 그 경험을 다음 작업에 넘기는 프레임워크 (feat. Google)</title>
-      <link>https://discuss.pytorch.kr/t/harness-feat-google/12231</link>
-      <description>핵심 요약 Harness² 는 모델 가중치를 고정한 채, 처음 보는 작업마다 에이전트 하네스(시스템 프롬프트, 스킬, 스크립트 등 8가지 파일)를 고쳐 보고 그 경험을 도메인별 라이브러리에 쌓아 다음 작업에 넘기는 프레임워크입니다.</description>
-      <pubDate>Wed, 21 Oct 2026 08:00:16 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/harness-feat-google/12231">PyTorch Korea</source>
-      <guid isPermaLink="false">bab112140b2da814f489712dccadab43</guid>
-    </item>
-    <item>
-      <title>LLM 에이전트의 외부화(Externalization)에 대한 리뷰 논문 (2/2): 프로토콜과 하네스 엔지니어링, 남은 과제</title>
-      <link>https://discuss.pytorch.kr/t/llm-externalization-2-2/12178</link>
-      <description>핵심 요약 Externalization in LLM Agents 리뷰의 2부입니다. 프로토콜은 호출 문법, 수명주기 규칙, 권한과 신뢰 경계, 탐색 메타데이터를 모델 밖의 명시적인 계약으로 옮깁니다. 저자들은 MCP, A2A, ACP, ANP, A2UI, AG-UI, UCP, AP2를 상호작용 대상에 따라 네 갈래로 정리합니다.</description>
-      <pubDate>Tue, 20 Oct 2026 19:30:58 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llm-externalization-2-2/12178">PyTorch Korea</source>
-      <guid isPermaLink="false">b440af189afe9e4927e7345e261d41dd</guid>
     </item>
   </channel>
 </rss>
