@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:02:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:23:19 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Apple 음성 API로 오픈 모델 쓰는 AnySpeechRecognizer와 결정 모델용 AnyDecisionModel 공개 (feat. Hugging Face)</title>
+      <link>https://discuss.pytorch.kr/t/apple-api-anyspeechrecognizer-anydecisionmodel-feat-hugging-face/12369</link>
+      <description>핵심 요약 Mattt가 Hugging Face 블로그의 소개 글 에서 Apple 플랫폼용 Swift 패키지 두 개를 공개했습니다. 둘 다 Apache 2.0이며, 2026년 10월 말 기준 버전은 AnySpeechRecognizer 0.1.0과 AnyDecisionModel 0.6.0입니다. AnySpeechRecognizer는 Apple의 음성 인식 API를 같은 모양으로 다시 구현합니다.</description>
+      <pubDate>Mon, 02 Nov 2026 16:00:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/apple-api-anyspeechrecognizer-anydecisionmodel-feat-hugging-face/12369">PyTorch Korea</source>
+      <guid isPermaLink="false">cb18e554a93a8a8323f71ea3b1972c60</guid>
+    </item>
+    <item>
+      <title>KOMOS – 한국어 음성 품질 평가 모델을 오픈소스로 공개했습니다</title>
+      <link>https://discuss.pytorch.kr/t/komos/12380</link>
+      <description>안녕하세요. 한국어 음성의 품질을 평가하는 MOS(Mean Opinion Score) 예측 모델 KOMOS 를 개발하고 오픈소스로 공개했습니다. 기존 UTMOS 모델을 한국어 음성에 적용하면서 발견한 한계를 개선하고자 시작한 프로젝트입니다.</description>
+      <pubDate>Mon, 02 Nov 2026 12:50:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/komos/12380">PyTorch Korea</source>
+      <guid isPermaLink="false">a5932dd6607d8c6479a068c8119e0e40</guid>
+    </item>
+    <item>
+      <title>Baseten, 입력 1M 토큰당 $0.01인 2B 결정 모델 joey-1 공개</title>
+      <link>https://discuss.pytorch.kr/t/baseten-1m-0-01-2b-joey-1/12359</link>
+      <description>핵심 요약 Baseten이 10월 29일 joey-1 발표 글 에서 Qwen3.5-2B를 후학습한 결정 모델 joey-1을 공개했습니다. 가중치는 Hugging Face 에 있고, Baseten Model APIs 가격은 입력 100만 토큰당 $0.01입니다.</description>
+      <pubDate>Mon, 02 Nov 2026 11:30:52 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/baseten-1m-0-01-2b-joey-1/12359">PyTorch Korea</source>
+      <guid isPermaLink="false">7b8f3b5e576ccc27adf0947ce931a3e9</guid>
+    </item>
+    <item>
+      <title>방송 영상을 클립으로 만드는 SceneMaker를 소개합니다 (디노이즈했더니 언어 판별이 떨어진 실험 공유)</title>
+      <link>https://discuss.pytorch.kr/t/scenemaker/12378</link>
+      <description>안녕하세요. 긴 방송 영상을 짧은 클립으로 만들어 주는 SceneMaker를 개발하고 있습니다. 2026 아이치·나고야 아시안게임 때 SBS와 함께 야구 대표팀 경기에 적용했는데, 자동으로 만든 클립 초안 79개를 운영자가 검수해서 SBS의 AI PICK 페이지에 올렸습니다.</description>
+      <pubDate>Mon, 02 Nov 2026 10:48:01 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/scenemaker/12378">PyTorch Korea</source>
+      <guid isPermaLink="false">c99ae611ad4716559778a654c0a1fc12</guid>
+    </item>
     <item>
       <title>[2026/10/26 ~ 11/01] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-10-26-11-01-ai-ml/12374</link>
@@ -421,42 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/litellm-v1-107-0/12282">PyTorch Korea</source>
       <guid isPermaLink="false">ec04f0d86eaeb4fb12992480852055b5</guid>
-    </item>
-    <item>
-      <title>Lafa: 여러 토큰을 함께 생성하는 Flow 언어 모델</title>
-      <link>https://discuss.pytorch.kr/t/lafa-flow/12281</link>
-      <description>생성 속도 챗봇에 긴 답변을 요청하면 내용이 조금씩 나타나는 모습을 보게 됩니다. 화면의 표시 방식과 별개로, 많은 언어 모델은 실제로 다음 토큰을 하나씩 결정하며 답변을 만듭니다. 토큰은 모델이 텍스트를 처리하는 단위입니다.</description>
-      <pubDate>Fri, 23 Oct 2026 10:58:03 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/lafa-flow/12281">PyTorch Korea</source>
-      <guid isPermaLink="false">ea3873e9845377d089edc2e99a5d4a2c</guid>
-    </item>
-    <item>
-      <title>AAIF에 Agent Skills, Open Responses, OpenEnv, OpenSandbox 합류해 프로젝트 10개로</title>
-      <link>https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275</link>
-      <description>핵심 요약 Agentic AI Foundation(AAIF) 이 2026년 10월 22일 새 프로젝트 4개를 발표했습니다. Agent Skills(Anthropic), Open Responses(OpenAI), OpenEnv(Hugging Face), OpenSandbox(Alibaba)입니다.</description>
-      <pubDate>Fri, 23 Oct 2026 10:00:05 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/aaif-agent-skills-open-responses-openenv-opensandbox-10/12275">PyTorch Korea</source>
-      <guid isPermaLink="false">8a2eb9e8131de6267094cb3c42aef51e</guid>
-    </item>
-    <item>
-      <title>AWS, Trainium을 CUDA처럼 PyTorch 장치로 쓰는 네이티브 백엔드 TorchNeuron 공개 (feat. Hugging Face)</title>
-      <link>https://discuss.pytorch.kr/t/aws-trainium-cuda-pytorch-torchneuron-feat-hugging-face/12259</link>
-      <description>핵심 요약 AWS가 Trainium용 네이티브 PyTorch 백엔드 TorchNeuron 을 Apache 2.0 오픈소스로 공개했습니다. 2026년 10월 19일 Neuron SDK 2.33.0에 포함됐고, 10월 20일 PyTorch Conference North America에 맞춰 공개 베타로 열렸습니다.</description>
-      <pubDate>Fri, 23 Oct 2026 08:00:31 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/aws-trainium-cuda-pytorch-torchneuron-feat-hugging-face/12259">PyTorch Korea</source>
-      <guid isPermaLink="false">29e917c23fa64bb0650a91c1661491ec</guid>
-    </item>
-    <item>
-      <title>REAP: 리버스 엔지니어링 에이전트(REA)에서 바로 사용 가능한 55개의 리버스 엔지니어링 프롬프트 저장소 (≠ REA 공식)</title>
-      <link>https://discuss.pytorch.kr/t/reap-rea-55-rea/12255</link>
-      <description>핵심 요약 REAP(REA Investigation Prompts) 는 리버스 엔지니어링 도구 REA를 연결한 코딩 에이전트에 붙여 넣어 쓰도록 만든 프롬프트 55개를 README 파일 하나에 17개 분야로 정리한 저장소입니다. REA 개발팀이 아니라 보안 연구자 Joas A Santos가 만들었습니다.</description>
-      <pubDate>Thu, 22 Oct 2026 18:30:07 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/reap-rea-55-rea/12255">PyTorch Korea</source>
-      <guid isPermaLink="false">e8f3d908232d94f2bc4a2a0c025e1fb8</guid>
     </item>
   </channel>
 </rss>
