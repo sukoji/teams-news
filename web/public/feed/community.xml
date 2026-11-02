@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 02 Nov 2026 05:18:02 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:22:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[2026/10/26 ~ 11/01] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
+      <link>https://discuss.pytorch.kr/t/2026-10-26-11-01-ai-ml/12374</link>
+      <description>PyTorchKR​ 이번 주 선정된 10편의 논문들을 살펴본 결과, 다음과 같은 주요한 연구 트렌드를 발견할 수 있었습니다: 에이전트 작업 효율화를 위한 소형 언어 모델(SLM)의 전문화 및 협업 : 이번 주 선정된 논문들에서는 복잡한 에이전트 시스템을 구동할 때 발생하는 막대한 비용을 줄이기 위해, 소형 모델을 적극적으로 활용하고 역할을 분담하는 연구가 두드러졌습니다.</description>
+      <pubDate>Mon, 02 Nov 2026 06:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/2026-10-26-11-01-ai-ml/12374">PyTorch Korea</source>
+      <guid isPermaLink="false">33c8550c5d057d9b554c6eb0e4ba6a2b</guid>
+    </item>
+    <item>
+      <title>ViKernel 기술 분석: 모델 가중치 안에 운영체제와 킬스위치를 넣는다는 것의 의미</title>
+      <link>https://discuss.pytorch.kr/t/vikernel/12376</link>
+      <description>ViKernel 기술 분석: 모델 가중치 안에 운영체제와 킬스위치를 넣는다는 것의 의미 대상: VIDRAFT 「ViKernel : Weight-Native OS」 공개 데모(Demo v0.1) 관점: 공개된 데모와 공식 설명을 기준으로 한 제3자 기술 분석입니다. 내부 구현은 공개되지 않았으므로, 구현 방식에 대한 서술은 공개 자료에서 추론한 일반론으로 한정합니다.</description>
+      <pubDate>Mon, 02 Nov 2026 08:41:51 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vikernel/12376">PyTorch Korea</source>
+      <guid isPermaLink="false">b65ee37b2456b0e73f3f4b9b8f773c21</guid>
+    </item>
+    <item>
+      <title>NVIDIA, 40개 언어 받아쓰기와 화자 구분, 번역을 한 모델로 처리하는 Nemotron 3.5 Transcribe 공개 (feat. Granary v2)</title>
+      <link>https://discuss.pytorch.kr/t/nvidia-40-nemotron-3-5-transcribe-feat-granary-v2/12368</link>
+      <description>핵심 요약 NVIDIA가 2026년 10월 28일 Nemotron 3.5 Transcribe 소개 글 과 함께 음성 모델을 OpenMDW-1.1 라이선스로 공개했습니다. 녹음된 음성의 받아쓰기, 화자 구분, 번역, 오디오 질의응답을 체크포인트 하나로 처리합니다. 40개 언어를 받아쓰고, 31개 언어를 영어와 상호 번역하며, 13개 언어에서 화자를 구분합니다.</description>
+      <pubDate>Mon, 02 Nov 2026 09:00:57 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/nvidia-40-nemotron-3-5-transcribe-feat-granary-v2/12368">PyTorch Korea</source>
+      <guid isPermaLink="false">56e512c9759fde56deba52bfae2bb2d5</guid>
+    </item>
     <item>
       <title>Google, Gemini 4 Carbon 출시: Argon과 같은 가격에 AA 지수 1위, 사이버 방어 기관부터 제공</title>
       <link>https://discuss.pytorch.kr/t/google-gemini-4-carbon-argon-aa-1/12361</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/reap-rea-55-rea/12255">PyTorch Korea</source>
       <guid isPermaLink="false">e8f3d908232d94f2bc4a2a0c025e1fb8</guid>
-    </item>
-    <item>
-      <title>PyMuPDF 2.0 릴리스: pip install 한 번으로 PDF → LLM용 마크다운까지 (3개 패키지 통합)</title>
-      <link>https://discuss.pytorch.kr/t/pymupdf-2-0-pip-install-pdf-llm-3/12271</link>
-      <description>RAG나 LLM 파이프라인을 만들다 보면 어느 순간 꼭 PDF 전처리에서 시간을 쓰게 되죠. 저희도 파이토치 커뮤니티에 PyMuPDF 레이아웃 분석 이야기를 몇 번 공유드렸는데요. 이번에 PyMuPDF가 2.0으로 메이저 업데이트되어 바뀐 점을 정리해 봤습니다.</description>
-      <pubDate>Thu, 22 Oct 2026 15:23:47 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/pymupdf-2-0-pip-install-pdf-llm-3/12271">PyTorch Korea</source>
-      <guid isPermaLink="false">18ab6facc49d505f7c04bb572cb0e46a</guid>
-    </item>
-    <item>
-      <title>[프로젝트 공유] GeulPU — 배치·캐시·GPU 제조사가 달라도 로짓이 비트까지 같은 GGUF 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/geulpu-gpu-gguf/12268</link>
-      <description>안녕하세요. 로컬 GPU에서 GGUF 모델을 돌리는 추론 엔진 GeulPU를 만들고 있습니다. 이 엔진은 속도나 지원 범위보다 같은 입력이면 언제나 같은 비트 를 목표로 합니다.</description>
-      <pubDate>Thu, 22 Oct 2026 13:37:09 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/geulpu-gpu-gguf/12268">PyTorch Korea</source>
-      <guid isPermaLink="false">54055b27952ba9e59cff2ed0e69b1790</guid>
-    </item>
-    <item>
-      <title>DeepInfer: DeepSeek이 V4.1-Flash 모델의 서비스에 사용하는 추론 프레임워크 (단, 오프라인 추론만 공개 😅)</title>
-      <link>https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256</link>
-      <description>핵심 요약 DeepSeek이 2026년 10월 20일 공개한 DeepInfer 는 DeepSeek-V4.1-Flash의 대규모 운영 서비스를 실제로 구동하는 추론 프레임워크입니다. 이번 공개 범위는 오프라인 추론입니다.</description>
-      <pubDate>Thu, 22 Oct 2026 08:30:56 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/deepinfer-deepseek-v4-1-flash/12256">PyTorch Korea</source>
-      <guid isPermaLink="false">9c82e8cf0a90546d2edc5a27e37c20ac</guid>
     </item>
   </channel>
 </rss>
