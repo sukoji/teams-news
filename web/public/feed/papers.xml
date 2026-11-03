@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 03 Nov 2026 02:56:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:45:16 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding</title>
+      <link>https://huggingface.co/papers/2610.36384</link>
+      <description>SOMA is a benchmark assessing fine-grained egocentric body-motion reasoning in multimodal models, revealing substantial gaps versus human performance and providing training data a…</description>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.36384">Hugging Face Papers</source>
+      <guid isPermaLink="false">03634c3c61fb2bae238fecef8596b574</guid>
+    </item>
+    <item>
+      <title>GEPA-Curator: Curated Learning for Self Improving Agents</title>
+      <link>https://huggingface.co/papers/2610.37651</link>
+      <description>GEPA-Curator improves agentic prompt optimization by filtering unreliable failure signals and retrieving past successes, boosting performance across multiple benchmarks.</description>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.37651">Hugging Face Papers</source>
+      <guid isPermaLink="false">3bb6efecbde03329e5aa6c8740a9e994</guid>
+    </item>
+    <item>
+      <title>AuditFL: A Contract-Backed Clearing Layer for Open Federated Learning</title>
+      <link>https://huggingface.co/papers/2610.41278</link>
+      <description>AuditFL is a blockchain-backed clearing layer that makes federated learning rounds auditable and economically constrained without removing the aggregator, preserving model accurac…</description>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.41278">Hugging Face Papers</source>
+      <guid isPermaLink="false">3dbbbbe1d527e6655109e8397db3261c</guid>
+    </item>
     <item>
       <title>No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates</title>
       <link>https://huggingface.co/papers/2610.40914</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.25276">Hugging Face Papers</source>
       <guid isPermaLink="false">f6a18da51d834c57e0e7237f3cdfef12</guid>
-    </item>
-    <item>
-      <title>Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities</title>
-      <link>https://huggingface.co/papers/2610.39301</link>
-      <description>Youtu-Parsing-Omni is a unified multi-modal parser that encodes documents, images, audio, and video into structured spatiotemporal records using shared weights and cross-modal fus…</description>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.39301">Hugging Face Papers</source>
-      <guid isPermaLink="false">9f49db3472d65681fd2d1e85349d5bbf</guid>
-    </item>
-    <item>
-      <title>Scaling Lean Theorem Proving for Real-World Code Verification</title>
-      <link>https://huggingface.co/papers/2610.38174</link>
-      <description>EasyProver is a Lean proving system using recursive agents and asynchronous search that solves nearly all Putnam and IMO benchmark problems, while Aegis generates harder verificat…</description>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.38174">Hugging Face Papers</source>
-      <guid isPermaLink="false">f99400fddcf801b555bff0477319ce44</guid>
-    </item>
-    <item>
-      <title>PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions</title>
-      <link>https://huggingface.co/papers/2610.40453</link>
-      <description>PhysInsert enables physically plausible object insertion by jointly adapting objects and scenes using geometry-guided adaptation and spatial supervision on aligned counterfactual…</description>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.40453">Hugging Face Papers</source>
-      <guid isPermaLink="false">00bf239a182b54b48b51e2c32d771f3d</guid>
     </item>
   </channel>
 </rss>
