@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 03 Nov 2026 16:40:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:56:17 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>NVIDIA, 재학습 없이 MLIP 분자 동역학을 최대 1.7배 가속한 Tensor Core FP32 기법 실측 기법 공개</title>
+      <link>https://discuss.pytorch.kr/t/nvidia-mlip-1-7-tensor-core-fp32/12360</link>
+      <description>핵심 요약 NVIDIA와 EPFL 연구진이 NVIDIA 기술 블로그 글 에서 원자간 포텐셜 모델 PET의 FP32 행렬 곱을 Tensor Core로 돌린 결과를 공개했습니다. 방법은 FP32를 낮은 정밀도 조각으로 나눠 계산하는 BF16x9와 TF32x3입니다. B300에서 BF16x9는 분자 동역학(MD) 한 스텝을 최대 1.7배, A100에서 TF32x3는 최대 1.5배 빠르게 했습니다.</description>
+      <pubDate>Tue, 03 Nov 2026 20:00:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/nvidia-mlip-1-7-tensor-core-fp32/12360">PyTorch Korea</source>
+      <guid isPermaLink="false">df6152621e4c6a33a49cb9c8aea2f7c0</guid>
+    </item>
+    <item>
+      <title>LLM은 신경망 가중치를 읽고 쓸 수 있을까요?</title>
+      <link>https://discuss.pytorch.kr/t/llm/12397</link>
+      <description>rikiyat.github.io – 2 Nov 26 Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural...</description>
+      <pubDate>Tue, 03 Nov 2026 16:39:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llm/12397">PyTorch Korea</source>
+      <guid isPermaLink="false">51270b391d5b4dc35475b6dc3c488f0a</guid>
+    </item>
     <item>
       <title>OpenAI Pando: Git 호환을 유지한 채 push 지연을 80% 줄이고 하루 1PB를 전송하는 모노레포 Git 백엔드 (&amp; Anthropic Scion 비교)</title>
       <link>https://discuss.pytorch.kr/t/openai-pando-git-push-80-1pb-git-anthropic-scion/12394</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/kimi-k3-1-pro-k3-33-api-3t-11-4/12289">PyTorch Korea</source>
       <guid isPermaLink="false">b80af2bb7b42afe516f9c9138989380e</guid>
-    </item>
-    <item>
-      <title>NVIDIA, 4GB VRAM에서 동작하는 대화형 에이전트용 소형 모델 Nemotron 3.5 Bolt E4B 공개 (feat. Gemma 4)</title>
-      <link>https://discuss.pytorch.kr/t/nvidia-4gb-vram-nemotron-3-5-bolt-e4b-feat-gemma-4/12291</link>
-      <description>핵심 요약 NVIDIA가 Nemotron 3.5 Bolt E4B 4GB 소개 글 에서 Gemma 4 E4B를 강화학습으로만 사후 학습한 대화형 에이전트용 소형 모델을 공개했습니다. 음성 비서, 게임 NPC(Non-Player Character), 로봇 인터페이스처럼 대화와 도구 호출을 함께 하는 로컬 에이전트가 대상입니다.</description>
-      <pubDate>Sat, 24 Oct 2026 15:30:34 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nvidia-4gb-vram-nemotron-3-5-bolt-e4b-feat-gemma-4/12291">PyTorch Korea</source>
-      <guid isPermaLink="false">aed4d300b76116c96045ebb6870f6bc5</guid>
-    </item>
-    <item>
-      <title>OpenEnv, AAIF 프로젝트로 합류: 에이전트 학습 환경을 과제 정의부터 TRL 학습까지 만드는 방법 (feat. Hugging Face)</title>
-      <link>https://discuss.pytorch.kr/t/openenv-aaif-trl-feat-hugging-face/12279</link>
-      <description>핵심 요약 OpenEnv 메인테이너 9명이 AAIF 블로그에 합류 글 을 썼습니다. 글은 에이전트 학습 환경을 만드는 순서를 여섯 단계로 정리합니다. Agentic AI Foundation(AAIF) 은 2026년 10월 22일 OpenEnv를 새 호스팅 프로젝트로 발표했습니다.</description>
-      <pubDate>Sat, 24 Oct 2026 09:30:59 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openenv-aaif-trl-feat-hugging-face/12279">PyTorch Korea</source>
-      <guid isPermaLink="false">4793b4079c37e0b61b67dc91e23f9ac4</guid>
     </item>
   </channel>
 </rss>
