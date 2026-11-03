@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:56:17 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:34:58 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?</title>
+      <link>https://huggingface.co/papers/2611.03424</link>
+      <description>IdeaTaste benchmarks LLM research proposals against future publications, revealing that AI agents match human communities in broad directions but fall far behind in concrete appro…</description>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.03424">Hugging Face Papers</source>
+      <guid isPermaLink="false">7a572a8d1732e1b5f374d0f4ea10aa68</guid>
+    </item>
+    <item>
+      <title>Order-Only On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2611.02112</link>
+      <description>Order-only on-policy distillation trains students to match teacher token rankings rather than probabilities, improving reasoning performance without temperature tuning.</description>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.02112">Hugging Face Papers</source>
+      <guid isPermaLink="false">2d073d6c7c4dcd20db9741e829f6998e</guid>
+    </item>
+    <item>
+      <title>History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models</title>
+      <link>https://huggingface.co/papers/2611.02782</link>
+      <description>History Forcing improves long-range consistency in few-step autoregressive video generation by using historical context residuals to correct distillation targets.</description>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.02782">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d5323e17cdc743d4a0e05ed111ccf1a</guid>
+    </item>
     <item>
       <title>CoworkOS:Scaling Agent Coworkers for Real-world Automation</title>
       <link>https://huggingface.co/papers/2611.03178</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.40727">Hugging Face Papers</source>
       <guid isPermaLink="false">12e0ebcefa1094478da4bede5281740b</guid>
-    </item>
-    <item>
-      <title>REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control</title>
-      <link>https://huggingface.co/papers/2610.42053</link>
-      <description>REA unifies deliberative and reactive policies in a single runtime with asynchronous coordination, achieving high success rates with reduced control overhead across simulated and…</description>
-      <pubDate>Mon, 02 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.42053">Hugging Face Papers</source>
-      <guid isPermaLink="false">9cee083d7e6f65c16bf04a5cfa96a550</guid>
-    </item>
-    <item>
-      <title>Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage</title>
-      <link>https://huggingface.co/papers/2610.37918</link>
-      <description>Venus-DefakerOne2 is a unified anti-forgery foundation model that extends detection to diverse forgery forms and media types through alternating LoRA and full-parameter tuning and…</description>
-      <pubDate>Mon, 02 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.37918">Hugging Face Papers</source>
-      <guid isPermaLink="false">4d8b3c93687f52ebece202309cd404b6</guid>
-    </item>
-    <item>
-      <title>Follow the Gradient: Tracing Safety Degradation Back to Training Data</title>
-      <link>https://huggingface.co/papers/2610.37481</link>
-      <description>SimpleLoRIF uses gradient alignment to filter instruction data that silently degrades LLM safety, yielding a safer dataset that reduces adversarial success while preserving capabi…</description>
-      <pubDate>Mon, 02 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.37481">Hugging Face Papers</source>
-      <guid isPermaLink="false">6e8f39731fa15f39eb46c28ae452f9ae</guid>
     </item>
   </channel>
 </rss>
