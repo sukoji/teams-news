@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 03 Nov 2026 12:49:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 16:40:58 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenAI Pando: Git 호환을 유지한 채 push 지연을 80% 줄이고 하루 1PB를 전송하는 모노레포 Git 백엔드 (&amp; Anthropic Scion 비교)</title>
+      <link>https://discuss.pytorch.kr/t/openai-pando-git-push-80-1pb-git-anthropic-scion/12394</link>
+      <description>핵심 요약 OpenAI가 2026년 11월 2일 Scaling Git at OpenAI 글에서 사내 모노레포(Monorepo)의 Git 백엔드를 자체 개발한 Pando로 바꿨다고 밝혔습니다. Git 프로토콜과 클라이언트는 그대로 두고 서버 쪽만 바꿨습니다. OpenAI에 따르면 전환 후 중간값(median) push 지연이 약 80% 줄었고 병합 신뢰성이 좋아졌습니다.</description>
+      <pubDate>Tue, 03 Nov 2026 15:30:29 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-pando-git-push-80-1pb-git-anthropic-scion/12394">PyTorch Korea</source>
+      <guid isPermaLink="false">662e79088717a89c6b7cebebb0a0b520</guid>
+    </item>
+    <item>
+      <title>Mistral Large 4 가중치 공개: 토큰을 절반 가량 적게 쓰면서 GLM-5.3과 비슷한 코딩 성능을 기록한 1T 규모의 MoE 모델</title>
+      <link>https://discuss.pytorch.kr/t/mistral-large-4-glm-5-3-1t-moe/12386</link>
+      <description>핵심 요약 Mistral은 Le Chonk 가중치 공개 블로그 에서 10월 6일 API 프리뷰로 먼저 내놓았던 Mistral Large 4의 가중치를 10월 29일 공개했습니다. 프리뷰 이후 3주 동안 강화학습을 더 돌린 체크포인트입니다. Hugging Face 모델 카드 기준으로 총 약 1조 개 매개변수 중 토큰당 490억 개를 쓰는 MoE 모델입니다.</description>
+      <pubDate>Tue, 03 Nov 2026 12:00:19 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mistral-large-4-glm-5-3-1t-moe/12386">PyTorch Korea</source>
+      <guid isPermaLink="false">67ab5a7830c294a5d0b0bd29a404062d</guid>
+    </item>
     <item>
       <title>Google의 Sleep 프레임워크: LLM이 문맥으로 배운 지식을 덮어쓰기 없이 새 매개변수로 옮기는 지속 학습에 대한 연구</title>
       <link>https://discuss.pytorch.kr/t/google-sleep-llm/12367</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openenv-aaif-trl-feat-hugging-face/12279">PyTorch Korea</source>
       <guid isPermaLink="false">4793b4079c37e0b61b67dc91e23f9ac4</guid>
-    </item>
-    <item>
-      <title>OpenAI가 AAIF에 기증한 Open Responses: 여러 LLM 제공자를 같은 요청 형식으로 호출하는 공개 사양</title>
-      <link>https://discuss.pytorch.kr/t/openai-aaif-open-responses-llm/12277</link>
-      <description>핵심 요약 OpenAI가 Open Responses 사양을 Linux Foundation 산하 Agentic AI Foundation(AAIF)에 기증했습니다. Open Responses는 OpenAI Responses API를 바탕으로 요청, 응답, 스트리밍 이벤트, 도구 호출의 형식을 정한 공개 API 사양입니다.</description>
-      <pubDate>Sat, 24 Oct 2026 09:00:59 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-aaif-open-responses-llm/12277">PyTorch Korea</source>
-      <guid isPermaLink="false">5328e0e1e0809bd3365f7cb9541da514</guid>
-    </item>
-    <item>
-      <title>Modular의 Mojo와 MAX: CUDA 종속 없이 여러 AI 하드웨어를 같은 코드로 다루려는 언어와 추론 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/modular-mojo-max-cuda-ai/12266</link>
-      <description>핵심 요약 Modular는 2022년 초 Chris Lattner와 Tim Davis가 세운 회사입니다. Democratizing AI Compute 연재 에서 밝힌 목표는 CUDA에 묶인 AI 소프트웨어 스택을 여러 하드웨어가 함께 쓰는 공용 계층으로 다시 만드는 것입니다.</description>
-      <pubDate>Fri, 23 Oct 2026 20:26:49 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/modular-mojo-max-cuda-ai/12266">PyTorch Korea</source>
-      <guid isPermaLink="false">bbf73e170502f4b431743c6b7b267cd5</guid>
     </item>
   </channel>
 </rss>
