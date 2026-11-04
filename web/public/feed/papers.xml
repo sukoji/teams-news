@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:56:17 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 07:29:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing</title>
+      <link>https://huggingface.co/papers/2610.35497</link>
+      <description>Fine-grained process rewards improve long-horizon video editing tasks but cause reward hacking in shorter tasks, which is mitigated by decaying their weight, while on-policy self-…</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.35497">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee4aef960b7b2549cd9d21e8a3dac34b</guid>
+    </item>
+    <item>
+      <title>QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board</title>
+      <link>https://huggingface.co/papers/2611.01598</link>
+      <description>QFabric demonstrates that migrating tasks to a microcontroller on heterogeneous boards fails to isolate them from Linux interference, emphasizing that guarded recovery mechanisms…</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.01598">Hugging Face Papers</source>
+      <guid isPermaLink="false">3758be4f2cea55f980cfaeaeaa041226</guid>
+    </item>
+    <item>
+      <title>Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval</title>
+      <link>https://huggingface.co/papers/2611.04169</link>
+      <description>In retrieval tasks, language model failure on long inputs stems from attention competition rather than sequence length, as rival evidence statements sharply reduce accuracy while…</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04169">Hugging Face Papers</source>
+      <guid isPermaLink="false">04d1724bbba8dca16865734e52e1d3db</guid>
+    </item>
+    <item>
+      <title>SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere</title>
+      <link>https://huggingface.co/papers/2611.04414</link>
+      <description>SphereFlow projects modalities onto a shared hypersphere to enable short-range cross-modal imputation via flow matching with geometry-aware noise and decoder modifications.</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04414">Hugging Face Papers</source>
+      <guid isPermaLink="false">6507fb524d94f446b0edf6662f83846f</guid>
+    </item>
+    <item>
+      <title>Cross-Prompt Reuse of Entity-Replacement Responses</title>
+      <link>https://huggingface.co/papers/2611.00352</link>
+      <description>Hidden-state reuse across factual questions partially transfers relation-specific answer shifts in small language models, with effectiveness depending on format, cohort, and sourc…</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.00352">Hugging Face Papers</source>
+      <guid isPermaLink="false">d4d0a32a16f23c436abb0f19754ab99a</guid>
+    </item>
     <item>
       <title>Factorized MLLM Embeddings for Composed Image Retrieval</title>
       <link>https://huggingface.co/papers/2611.05193</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.03360">Hugging Face Papers</source>
       <guid isPermaLink="false">2496a74137e0d6c1608e068640f5662f</guid>
-    </item>
-    <item>
-      <title>GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data</title>
-      <link>https://huggingface.co/papers/2611.02476</link>
-      <description>GigaSpeech 3 provides 39,000 hours of weakly transcribed dialectal Arabic speech, enabling improved recognition across five dialects via self-supervised labeling and noisy-student…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.02476">Hugging Face Papers</source>
-      <guid isPermaLink="false">23c00cf29d055816c49f9d638556270b</guid>
-    </item>
-    <item>
-      <title>StreamDuo: A Live Commentator and a Research Agent for Unseen Games</title>
-      <link>https://huggingface.co/papers/2611.01120</link>
-      <description>StreamDuo pairs a trainable commentator with a frozen research agent that retrieves game wiki entries to improve cross-game streaming commentary without training on target games.</description>
-      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.01120">Hugging Face Papers</source>
-      <guid isPermaLink="false">5d452b50d33521abcdd78bd3596e6267</guid>
-    </item>
-    <item>
-      <title>A Tutorial on Generative Models for Music Audio</title>
-      <link>https://huggingface.co/papers/2610.38252</link>
-      <description>This monograph surveys neural methods for music audio generation, covering codecs, autoregressive and diffusion models, flow matching, preference optimization, evaluation practice…</description>
-      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.38252">Hugging Face Papers</source>
-      <guid isPermaLink="false">92344583335e882b30a3522bd163c94c</guid>
-    </item>
-    <item>
-      <title>IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?</title>
-      <link>https://huggingface.co/papers/2611.03424</link>
-      <description>IdeaTaste benchmarks LLM research proposals against future publications, revealing that AI agents match human communities in broad directions but fall far behind in concrete appro…</description>
-      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.03424">Hugging Face Papers</source>
-      <guid isPermaLink="false">7a572a8d1732e1b5f374d0f4ea10aa68</guid>
-    </item>
-    <item>
-      <title>Order-Only On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2611.02112</link>
-      <description>Order-only on-policy distillation trains students to match teacher token rankings rather than probabilities, improving reasoning performance without temperature tuning.</description>
-      <pubDate>Tue, 03 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.02112">Hugging Face Papers</source>
-      <guid isPermaLink="false">2d073d6c7c4dcd20db9741e829f6998e</guid>
     </item>
   </channel>
 </rss>
