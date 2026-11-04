@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Nov 2026 06:34:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 10:58:17 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Auto Ontology: DB 메타데이터로 온톨로지를 생성해 AI 에이전트의 SQL을 검증하는 NVIDIA의 시맨틱 레이어 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/auto-ontology-db-ai-sql-nvidia/12402</link>
+      <description>핵심 요약 Auto Ontology 는 NVIDIA가 공개한 파이썬 프레임워크로, 기업 데이터베이스의 메타데이터에서 온톨로지(용어 정의, 컬럼 매핑, 관계)를 생성하고 이를 근거로 자연어 질문을 SQL로 바꿔 실행합니다. AI 에이전트는 읽기 전용 도구 9개를 제공하는 MCP 서버, REST API, 웹 UI로 접근하며, 답변에는 실행한 SQL과 출처가 함께 돌아옵니다.</description>
+      <pubDate>Wed, 04 Nov 2026 08:00:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/auto-ontology-db-ai-sql-nvidia/12402">PyTorch Korea</source>
+      <guid isPermaLink="false">6bea22793fe6993944762a3b2665b4a5</guid>
+    </item>
     <item>
       <title>NVIDIA, 재학습 없이 MLIP 분자 동역학을 최대 1.7배 가속한 Tensor Core FP32 기법 실측 기법 공개</title>
       <link>https://discuss.pytorch.kr/t/nvidia-mlip-1-7-tensor-core-fp32/12360</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/docker-kubernetes-api-opensandbox-aaif/12276">PyTorch Korea</source>
       <guid isPermaLink="false">1dfb8142eba1bf1844d073d81edef63f</guid>
-    </item>
-    <item>
-      <title>Kimi K3.1 Pro 출시: K3보다 33% 낮은 API 가격, 사이버 보안 데이터를 뺀 3T급 오픈 웨이트 모델 (가중치는 11/4까지 공개 예정)</title>
-      <link>https://discuss.pytorch.kr/t/kimi-k3-1-pro-k3-33-api-3t-11-4/12289</link>
-      <description>핵심 요약 문샷 AI는 Kimi K3.1 Pro 소개 블로그 에서 Kimi K3에 사후 학습을 더 많이 투입한 Kimi K3.1 Pro를 발표했습니다. 컨텍스트는 100만 토큰이고, 전체 가중치는 11월 4일까지 공개할 예정입니다. Kimi API 가격표 에서 kimi-k3.1-pro 는 100만 토큰당 입력 2달러, 출력 10달러로 K3보다 33% 낮습니다.</description>
-      <pubDate>Sat, 24 Oct 2026 18:30:05 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/kimi-k3-1-pro-k3-33-api-3t-11-4/12289">PyTorch Korea</source>
-      <guid isPermaLink="false">b80af2bb7b42afe516f9c9138989380e</guid>
     </item>
   </channel>
 </rss>
