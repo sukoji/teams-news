@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Nov 2026 17:55:18 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 01:56:17 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TensorRT Edge-LLM으로 DGX Spark에서 Nemotron 3.5 Lightning 실행하기 (DSpark로 생성 속도 최대 1.7배)</title>
+      <link>https://discuss.pytorch.kr/t/tensorrt-edge-llm-dgx-spark-nemotron-3-5-lightning-dspark-1-7/12401</link>
+      <description>핵심 요약 NVIDIA가 기술 블로그 튜토리얼 에서 DGX Spark 64GB에 TensorRT Edge-LLM 0.11.1을 설치해 Nemotron 3.5 Lightning(전체 30B, 활성 3B, NVFP4)을 실행하는 절차를 공개했습니다.</description>
+      <pubDate>Wed, 04 Nov 2026 19:30:53 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/tensorrt-edge-llm-dgx-spark-nemotron-3-5-lightning-dspark-1-7/12401">PyTorch Korea</source>
+      <guid isPermaLink="false">1b1b6974b80028bdf9364407932f229c</guid>
+    </item>
     <item>
       <title>플라토닉 표현 정리: 같은 장면의 두 묘사로 학습한 109M JEPA 모델이 72B LLM보다 비전 모델과 더 잘 정렬됨을 확인한 연구 (feat. Yann LeCun)</title>
       <link>https://discuss.pytorch.kr/t/109m-jepa-72b-llm-feat-yann-lecun/12393</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/stepfun-step-5-preview-h200-8-fp8/12288">PyTorch Korea</source>
       <guid isPermaLink="false">3e6b08a4fffd0d78cfafc21957baf832</guid>
-    </item>
-    <item>
-      <title>Anthropic, Agent Skills 표준을 AAIF에 기증: SKILL.md는 그대로, 배포와 보안은 남은 과제</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-agent-skills-aaif-skill-md/12278</link>
-      <description>핵심 요약 Anthropic이 2026년 10월 22일 Agent Skills 표준을 Agentic AI Foundation(AAIF)에 기증 했습니다. 이름과 로고, agentskills GitHub 조직, agentskills.io 도메인이 Linux Foundation 산하 재단으로 넘어갑니다. 스킬 작성자가 지금 바꿔야 할 것은 없습니다.</description>
-      <pubDate>Mon, 26 Oct 2026 08:30:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-agent-skills-aaif-skill-md/12278">PyTorch Korea</source>
-      <guid isPermaLink="false">25e2eebe3281a650e87af4daf5f96043</guid>
     </item>
   </channel>
 </rss>
