@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:03:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:17:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Solv3R: 3D Looped Transformer as a Multi-view Solver</title>
+      <link>https://huggingface.co/papers/2611.02857</link>
+      <description>Solv3R is a looped transformer that iteratively refines multi-view geometry from its current state, supporting incremental updates, caching, and multiple reconstruction tasks with…</description>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.02857">Hugging Face Papers</source>
+      <guid isPermaLink="false">831560124ad6f7a9734a51f19286572b</guid>
+    </item>
+    <item>
+      <title>SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding</title>
+      <link>https://huggingface.co/papers/2611.02846</link>
+      <description>SpecOPD accelerates speculative decoding by parallelizing on-policy draft supervision across independent branches, improving acceptance length and training throughput across diver…</description>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.02846">Hugging Face Papers</source>
+      <guid isPermaLink="false">96f5fcc532150b03e6c595976ac47fad</guid>
+    </item>
+    <item>
+      <title>GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling</title>
+      <link>https://huggingface.co/papers/2610.37257</link>
+      <description>GameVerse is a large-scale gameplay dataset with minute-long sequences and event-aligned annotations that improves long-horizon interactive world modeling.</description>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.37257">Hugging Face Papers</source>
+      <guid isPermaLink="false">b085fe7330c11fbe836abce7c608619f</guid>
+    </item>
+    <item>
+      <title>Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs</title>
+      <link>https://huggingface.co/papers/2611.04391</link>
+      <description>H2RB adapts pretrained vision-language-action policies to new robots using unpaired human demonstrations via geometry-anchored alignment and a decoupled-decoder tokenizer, substan…</description>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04391">Hugging Face Papers</source>
+      <guid isPermaLink="false">6b3892b04e60065782107f77652a6fe3</guid>
+    </item>
+    <item>
+      <title>VeriSpoof: Beyond Real or Fake with One Audio LLM</title>
+      <link>https://huggingface.co/papers/2611.04634</link>
+      <description>VeriSpoof is an audio language model that unifies deepfake detection, generator attribution, source verification, and evidence-based rationale generation with minimal parameter up…</description>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04634">Hugging Face Papers</source>
+      <guid isPermaLink="false">39149466ad805ad42d2cf1a70004e1d9</guid>
+    </item>
+    <item>
+      <title>FinForesight: A Diagnostic Backtesting Benchmark for Deep Research Systems in Financial Forecasting</title>
+      <link>https://huggingface.co/papers/2611.01621</link>
+      <description>FinForesight is a diagnostic backtesting benchmark that evaluates financial deep research forecasting under time-restricted retrieval and compares historical, post-cutoff, and liv…</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.01621">Hugging Face Papers</source>
+      <guid isPermaLink="false">8af70190d2ea5686cd6c55ebc8eeadce</guid>
+    </item>
+    <item>
+      <title>Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs</title>
+      <link>https://huggingface.co/papers/2611.04166</link>
+      <description>Visual perturbations can alter physical actions in vision-language-action models while leaving rationales unchanged, demonstrating that unchanged reasoning does not guarantee safe…</description>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04166">Hugging Face Papers</source>
+      <guid isPermaLink="false">2926a46a625c27821b37faa3223825ba</guid>
+    </item>
     <item>
       <title>When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing</title>
       <link>https://huggingface.co/papers/2610.35497</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.41366">Hugging Face Papers</source>
       <guid isPermaLink="false">feddfe9d201d00a1f99694448069d925</guid>
-    </item>
-    <item>
-      <title>Is Forgetting Unified? Exploring Concept Unlearning in Unified Multimodal Models</title>
-      <link>https://huggingface.co/papers/2611.04467</link>
-      <description>Cross-pathway concept unlearning in unified multimodal models is addressed by a new benchmark and method that jointly suppresses target concept generation and recognition while pr…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.04467">Hugging Face Papers</source>
-      <guid isPermaLink="false">79e26a7b4db90cdf84dcbdb0b22f2071</guid>
-    </item>
-    <item>
-      <title>Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction</title>
-      <link>https://huggingface.co/papers/2611.03183</link>
-      <description>An autonomous agent adaptively designs target-specific multiple sequence alignments for AlphaFold 3 by reasoning over biological hypotheses and self-directed experimentation, impr…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.03183">Hugging Face Papers</source>
-      <guid isPermaLink="false">123c5c8040cd3fc4a6700d622bc8bc17</guid>
-    </item>
-    <item>
-      <title>Going Deeper With Memories</title>
-      <link>https://huggingface.co/papers/2611.05255</link>
-      <description>DeepMem is a causal multiscale byte-level architecture that uses invertible subband transforms and fast weight memory to compress sequences for efficient reasoning while preservin…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.05255">Hugging Face Papers</source>
-      <guid isPermaLink="false">8706e95d82d94fab817a2e8471009657</guid>
-    </item>
-    <item>
-      <title>RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On</title>
-      <link>https://huggingface.co/papers/2611.05163</link>
-      <description>RoboTryOn translates human demonstration videos into robot videos to train control policies without real robot demonstrations, improving success rates and reducing data collection…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.05163">Hugging Face Papers</source>
-      <guid isPermaLink="false">2bd86c3c6b93e426ac167b33880c4fba</guid>
-    </item>
-    <item>
-      <title>Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation</title>
-      <link>https://huggingface.co/papers/2611.03747</link>
-      <description>A retrieval-augmented generation system for stock market queries improves response accuracy and speed, validated by high ROUGE scores and low latency.</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.03747">Hugging Face Papers</source>
-      <guid isPermaLink="false">c5c674f7183929aad5fb4fb408a8eeaf</guid>
-    </item>
-    <item>
-      <title>Muon Makes the First Mixture-of-Experts Layer Harder to Balance</title>
-      <link>https://huggingface.co/papers/2610.37914</link>
-      <description>Using Muon to train mixture-of-experts language models increases routing imbalance in early layers, which can be mitigated by centering router inputs or reducing the optimizer lea…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.37914">Hugging Face Papers</source>
-      <guid isPermaLink="false">7e437a2659bf12d8293ae5cd00f9920c</guid>
-    </item>
-    <item>
-      <title>Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry</title>
-      <link>https://huggingface.co/papers/2611.03360</link>
-      <description>Kev-Bio is a vision-language model that guides ultrasound landmark detection via clinical questions, generating spatial probability maps to derive measurements with reduced operat…</description>
-      <pubDate>Wed, 04 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.03360">Hugging Face Papers</source>
-      <guid isPermaLink="false">2496a74137e0d6c1608e068640f5662f</guid>
     </item>
   </channel>
 </rss>
