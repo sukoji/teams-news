@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:17:02 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:58:12 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Weight-Space Programming: GPT-6 Astra가 모델의 가중치를 직접 읽고 고친 8가지 실험 (feat. MIT CSAIL)</title>
+      <link>https://discuss.pytorch.kr/t/weight-space-programming-gpt-6-astra-8-feat-mit-csail/12415</link>
+      <description>핵심 요약 MIT CSAIL 연구진은 Sparks of Weight-Space Programming 블로그 글 (2026-11-02)에서 OpenAI의 GPT-6 Astra가 경사하강법 없이 신경망 가중치를 직접 읽고, 고치고, 처음부터 쓰는 실험 8개를 보고했습니다.</description>
+      <pubDate>Thu, 05 Nov 2026 18:30:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/weight-space-programming-gpt-6-astra-8-feat-mit-csail/12415">PyTorch Korea</source>
+      <guid isPermaLink="false">c52eb84405a4c6f0e3b7203d04352c75</guid>
+    </item>
     <item>
       <title>특정 프레임워크에서 모델이 버그없이 동작하는지를 확인하기 위한 Transformers 모델 통합 계약(MIC) 제안 소개 (feat. Hugging Face)</title>
       <link>https://discuss.pytorch.kr/t/transformers-mic-feat-hugging-face/12411</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/npu-325m-0-b200-gpu/12304">PyTorch Korea</source>
       <guid isPermaLink="false">9fdeb11d81da35068abf3486d12ce705</guid>
-    </item>
-    <item>
-      <title>Corgi: Claude Code, Codex 등 여러 코딩 에이전트를 한 터미널에서 지켜보는 멀티플렉서 (feat. Ghostty, herdr)</title>
-      <link>https://discuss.pytorch.kr/t/corgi-claude-code-codex-feat-ghostty-herdr/12290</link>
-      <description>핵심 요약 Corgi 는 Claude Code, Codex, Pi, OpenCode를 여러 창에 띄워 쓰는 개발자를 위한 터미널 멀티플렉서로, 사이드바에서 에이전트마다 작업 중, 입력 대기, 완료 상태를 보여 줍니다. tmux처럼 런타임(runtime)이 백그라운드에 남아 있어, 터미널을 닫거나 SSH가 끊겨도 에이전트와 개발 서버가 계속 실행되고 corgi 한 번으로 다시 연결됩니다.</description>
-      <pubDate>Mon, 26 Oct 2026 16:00:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/corgi-claude-code-codex-feat-ghostty-herdr/12290">PyTorch Korea</source>
-      <guid isPermaLink="false">6d9e9087042382fab510e80cc39482e8</guid>
     </item>
   </channel>
 </rss>
