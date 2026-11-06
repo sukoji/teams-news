@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 07 Nov 2026 00:45:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 06:21:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling</title>
+      <link>https://huggingface.co/papers/2611.08237</link>
+      <description>TB-MathModel is a terminal benchmark that makes complete contest-style mathematical modeling problems agentic and verifiable, scoring final numeric answers against multiple human…</description>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.08237">Hugging Face Papers</source>
+      <guid isPermaLink="false">ad09090070d19c7564a90daafadaf8f1</guid>
+    </item>
+    <item>
+      <title>SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization</title>
+      <link>https://huggingface.co/papers/2611.08483</link>
+      <description>LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods.</description>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.08483">Hugging Face Papers</source>
+      <guid isPermaLink="false">46f9cf93b95d491c0133703c1878048f</guid>
+    </item>
+    <item>
+      <title>StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models</title>
+      <link>https://huggingface.co/papers/2611.04386</link>
+      <description>StepX-OPD jointly trains a text-to-image diffusion model to acquire capabilities and few-step sampling simultaneously, outperforming sequential approaches while reducing training…</description>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04386">Hugging Face Papers</source>
+      <guid isPermaLink="false">8fa8f381f9654cace35dbafcfbc59da7</guid>
+    </item>
+    <item>
+      <title>OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery</title>
+      <link>https://huggingface.co/papers/2610.37739</link>
+      <description>OpenFrontiers links a broad corpus of open research problems with a formally graded benchmark of recently resolved mathematics problems to evaluate LLM agents’ ability to rediscov…</description>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.37739">Hugging Face Papers</source>
+      <guid isPermaLink="false">2dc0a854fb29b2377abd987d6a8cfb5c</guid>
+    </item>
+    <item>
+      <title>Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation</title>
+      <link>https://huggingface.co/papers/2611.06498</link>
+      <description>Signed retrieval packs can contain embedding vectors that do not match their text, and practical vector verification and compressed-index audits leave many queries vulnerable, whi…</description>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.06498">Hugging Face Papers</source>
+      <guid isPermaLink="false">e7888f219f45aec0465c402c3a337d25</guid>
+    </item>
     <item>
       <title>Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents</title>
       <link>https://huggingface.co/papers/2611.02075</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.40516">Hugging Face Papers</source>
       <guid isPermaLink="false">235ff0d64f99decf8b5bb226ade00851</guid>
-    </item>
-    <item>
-      <title>From Pixels to Actions - Towards Native Vision-Language-Action Policies</title>
-      <link>https://huggingface.co/papers/2611.06918</link>
-      <description>NEO-VLA eliminates fixed visual encoders to let action policies access evolving visual representations across network depths, improving manipulation robustness.</description>
-      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.06918">Hugging Face Papers</source>
-      <guid isPermaLink="false">bf847f4610885a0948262844a710e2fe</guid>
-    </item>
-    <item>
-      <title>TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens</title>
-      <link>https://huggingface.co/papers/2611.01926</link>
-      <description>TAC-CoT replaces explicit reasoning traces with compact latent segments while preserving textual tokens for tool interactions, improving agentic accuracy and reducing computation.</description>
-      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.01926">Hugging Face Papers</source>
-      <guid isPermaLink="false">a2098197913f507f631436dcdad81781</guid>
-    </item>
-    <item>
-      <title>MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation</title>
-      <link>https://huggingface.co/papers/2610.41104</link>
-      <description>Muon-RT eliminates separate momentum buffers by reusing teacher-student displacement for hidden weight matrices, reducing memory while improving fine-tuning and policy optimizatio…</description>
-      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.41104">Hugging Face Papers</source>
-      <guid isPermaLink="false">0412672ba794610207a44dbf522a65a3</guid>
-    </item>
-    <item>
-      <title>NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2611.05648</link>
-      <description>Multimodal diffusion transformers use text-stream adversarial distillation and aspect-conditioned discrimination to achieve high-quality one- to two-step image generation.</description>
-      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.05648">Hugging Face Papers</source>
-      <guid isPermaLink="false">0bfa4a4cb3c4ec7ca28523df69b6b934</guid>
-    </item>
-    <item>
-      <title>VideoMemBench: How Well Do MLLMs Remember in Video Conversations?</title>
-      <link>https://huggingface.co/papers/2610.40131</link>
-      <description>VideoMemBench evaluates multimodal language models on long multi-turn video dialogues requiring retrieval of earlier visual and conversational context, revealing substantial perfo…</description>
-      <pubDate>Thu, 05 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.40131">Hugging Face Papers</source>
-      <guid isPermaLink="false">96900ccbabe3e813e79651055158fe2a</guid>
     </item>
   </channel>
 </rss>
