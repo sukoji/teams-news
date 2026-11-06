@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:03:55 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 16:45:30 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>중국 최고 권위 AI 모델 평가기관 SuperClue가 SOTA 모델 평가 순위 발표 결과 분석</title>
+      <link>https://discuss.pytorch.kr/t/ai-superclue-sota/12421</link>
+      <description>SuperCLUE 2026년 11월 부문별 성능과 종합 결과 분석 2026년 11월 5일 공개된 SuperCLUE 결과를 보면 모델의 강점이 평가 항목에 따라 나뉩니다. GPT-6.1-Sol은 에이전트 코딩과 수학·과학 추론에서, Gemini-4-Argon은 환각 제어와 초장문 문맥에서 가장 높은 점수 를 기록했습니다. 정밀 지시 이행에서는 두 모델이 같은 점수를 받았습니다.</description>
+      <pubDate>Fri, 06 Nov 2026 11:19:09 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai-superclue-sota/12421">PyTorch Korea</source>
+      <guid isPermaLink="false">ada4d28ad032c43aa79d3150347fee63</guid>
+    </item>
+    <item>
+      <title>Mago Studio: 프로젝트와 영상을 내 PC에 두고 ComfyUI로 렌더링하는 로컬 우선 AI 영상 편집기 (단, 기본 모델 H3는 별도 승인 필요)</title>
+      <link>https://discuss.pytorch.kr/t/mago-studio-pc-comfyui-ai-h3/12422</link>
+      <description>핵심 요약 Mago Studio 는 AI 영상 편집기 Mago의 로컬 우선(Local-first) 데스크톱판으로, 프로젝트와 원본 영상을 사용자 PC에 두고 렌더링만 내 GPU의 ComfyUI 또는 로그인 후의 Mago Cloud로 보냅니다.</description>
+      <pubDate>Fri, 06 Nov 2026 12:00:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mago-studio-pc-comfyui-ai-h3/12422">PyTorch Korea</source>
+      <guid isPermaLink="false">58b5f5b243375374a8f0d7a6efcab2da</guid>
+    </item>
     <item>
       <title>LLM Inference Handbook: 지표부터 PD 분리, GPU 커널, 추론 비용까지 다룬 Modular의 안내서</title>
       <link>https://discuss.pytorch.kr/t/llm-inference-handbook-pd-gpu-modular/12414</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/step-code-stepfun-pi/12287">PyTorch Korea</source>
       <guid isPermaLink="false">09cd7f9bb6e0daaa6a204b8ae1d7e17f</guid>
-    </item>
-    <item>
-      <title>한국어 STT 평가: 정답의 숫자 표기 하나로 모델 비교가 뒤집히는 문제 (공개 모델 6개로 확인해 본 것들)</title>
-      <link>https://discuss.pytorch.kr/t/stt-6/12327</link>
-      <description>안녕하세요. 한국어 음성인식 일을 하면서 공개 모델들을 평가하다가 알게 된 것들을 공유합니다. 평가하는 과정에서 채점 스크립트를 직접 만들게 됐는데, 그건 오픈소스로 공개해 뒀고 아래 링크에 있습니다.</description>
-      <pubDate>Tue, 27 Oct 2026 09:34:05 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/stt-6/12327">PyTorch Korea</source>
-      <guid isPermaLink="false">7ba8db59de681bc083a9ec9d850afc4d</guid>
-    </item>
-    <item>
-      <title>3D Model Anything: 아이폰 LiDAR 스캔과 사진으로 자신의 방을 Web 기반 3D로 재구성하는 프로젝트 (feat. Three.js)</title>
-      <link>https://discuss.pytorch.kr/t/3d-model-anything-lidar-web-3d-feat-three-js/12308</link>
-      <description>핵심 요약 3D Model Anything 은 아이폰 LiDAR로 방을 스캔한 측정값과 촬영 위치가 기록된 사진을 근거로, AI 코딩 에이전트가 편집 가능한 Three.js 장면 코드를 작성하게 하는 프로젝트입니다. 아이폰 캡처 앱, 에이전트 스킬 scan-to-threejs , 웹 뷰어, 완성된 사무실 예제를 함께 공개했습니다. 스캔 메시를 그대로 보여주는 변환기가 아닙니다.</description>
-      <pubDate>Tue, 27 Oct 2026 07:30:26 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/3d-model-anything-lidar-web-3d-feat-three-js/12308">PyTorch Korea</source>
-      <guid isPermaLink="false">102ff4bd0a47c63cd705929ce7c69bb8</guid>
     </item>
   </channel>
 </rss>
