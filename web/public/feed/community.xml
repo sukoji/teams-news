@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 06 Nov 2026 04:47:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:53:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LLM Inference Handbook: 지표부터 PD 분리, GPU 커널, 추론 비용까지 다룬 Modular의 안내서</title>
+      <link>https://discuss.pytorch.kr/t/llm-inference-handbook-pd-gpu-modular/12414</link>
+      <description>핵심 요약 Modular의 LLM Inference Handbook 은 LLM 추론의 지표 정의부터 배칭, KV 캐시, 커널 최적화, 운영 비용까지를 7개 부, 57개 페이지로 정리한 무료 웹 안내서입니다. 대화형 계산기와 시뮬레이터 22개가 함께 들어 있습니다.</description>
+      <pubDate>Fri, 06 Nov 2026 07:30:44 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/llm-inference-handbook-pd-gpu-modular/12414">PyTorch Korea</source>
+      <guid isPermaLink="false">229f1a8623ad1250122f832b29d113a5</guid>
+    </item>
     <item>
       <title>Weight-Space Programming: GPT-6 Astra가 모델의 가중치를 직접 읽고 고친 8가지 실험 (feat. MIT CSAIL)</title>
       <link>https://discuss.pytorch.kr/t/weight-space-programming-gpt-6-astra-8-feat-mit-csail/12415</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/3d-model-anything-lidar-web-3d-feat-three-js/12308">PyTorch Korea</source>
       <guid isPermaLink="false">102ff4bd0a47c63cd705929ce7c69bb8</guid>
-    </item>
-    <item>
-      <title>추론 전용 NPU에서 325M 언어모델을 0부터 사전학습하고, B200 GPU와 짝지은 비교로 품질 동등성을 검증한 기록</title>
-      <link>https://discuss.pytorch.kr/t/npu-325m-0-b200-gpu/12304</link>
-      <description>추론 전용으로 설계된 상용 NPU(리벨리온 ATOM-Max, 2025년 출시)에서 3억 2,560만 파라미터 디코더 모델을 무작위 초기값부터 사전학습했습니다. 같은 모델을 같은 조건으로 B200 GPU에서도 학습해, 학습에 쓰지 않은 텍스트에서 두 모델을 짝지어 비교했습니다. 이 글은 실험 설계와 측정 방법, 그리고 평가 과정에서 저희가 바로잡은 실수를 중심으로 정리합니다.</description>
-      <pubDate>Mon, 26 Oct 2026 15:03:44 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/npu-325m-0-b200-gpu/12304">PyTorch Korea</source>
-      <guid isPermaLink="false">9fdeb11d81da35068abf3486d12ce705</guid>
     </item>
   </channel>
 </rss>
