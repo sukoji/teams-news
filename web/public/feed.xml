@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed</link>
     <description>Latest 50 keyword-matched items from the growing archive.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 07 Nov 2026 06:21:48 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 10:42:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Thinking Machines Lab, 활성 17B의 2세대 모델 Inkling 2 Small을 Tinker에 먼저 출시 (가중치는 다음 주 공개 예정)</title>
+      <link>https://discuss.pytorch.kr/t/thinking-machines-lab-17b-2-inkling-2-small-tinker/12438</link>
+      <description>핵심 요약 Thinking Machines Lab이 Inkling 2 Small 소개 글 에서 2세대 첫 모델을 발표했습니다. 총 594B, 활성 17B의 MoE 모델이고 텍스트와 이미지를 입력받으며, 지금은 Tinker에서만 추론(inference)과 파인튜닝을 할 수 있습니다. Apache 2.0 가중치는 외부 안전성 테스트와 레드팀을 마친 뒤 다음 주에 공개할 계획입니다.</description>
+      <pubDate>Sat, 07 Nov 2026 09:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinking-machines-lab-17b-2-inkling-2-small-tinker/12438">PyTorch Korea</source>
+      <guid isPermaLink="false">153d1e2eb7f7855b0fb6b58904dfe1c4</guid>
+    </item>
+    <item>
+      <title>오픈AI CFO "중간선거 결과와 관계없이 데이터센터 투자 계속할 것"</title>
+      <link>https://www.aitimes.com/news/articleView.html?idxno=217119</link>
+      <description>오픈AI가 미국 중간선거에서 데이터센터 건설에 반대하는 민주당이 압승했음에도 AI 인프라 확장 계획을 유지하겠다고 밝혔다.</description>
+      <pubDate>Sat, 07 Nov 2026 10:03:29 +0900</pubDate>
+      <category>news</category>
+      <source url="https://www.aitimes.com/news/articleView.html?idxno=217119">AI Times</source>
+      <guid isPermaLink="false">4a749a70e5f0312fad7653cc91df4dd3</guid>
+    </item>
+    <item>
+      <title>로보터블, 내년 초 휴머노이드 '스킬 이식' 소프트웨어 출시</title>
+      <link>https://zdnet.co.kr/view/?no=20261106211924</link>
+      <description>[지디넷코리아]피지컬 인공지능(AI) 기업 로보터블이 휴머노이드 로봇의 동작 기술을 서로 다른 하드웨어에 이식하는 '스킬 리타게팅' 소프트웨어 판매에 나선다.</description>
+      <pubDate>Sat, 07 Nov 2026 09:29:15 +0900</pubDate>
+      <category>news</category>
+      <source url="https://zdnet.co.kr/view/?no=20261106211924">ZDNet Korea</source>
+      <guid isPermaLink="false">8e7d0c908bbd9f08c4970065692d40d3</guid>
+    </item>
+    <item>
+      <title>DoorDash가 정확도를 유지하면서 LLM 검색 비용을 98% 줄인 방법</title>
+      <link>https://news.hada.io/topic?id=36733&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news</link>
+      <description>LLM의 내장 웹 검색을 별도의 검색 API로 분리 해, 검색어의 의도를 분류하는 평가에서 정확도를 유지하면서 검색 요금을 98% 이상 절감 함. 모델 추론 비용은 제외한 수치임 여러 AI 에이전트가 하나의 검색 게이트웨이 를 공유하며, 모델과 검색 업체를 독립적으로 교체할 수 있음.</description>
+      <pubDate>Sat, 07 Nov 2026 09:40:02 +0900</pubDate>
+      <category>news</category>
+      <source url="https://news.hada.io/topic?id=36733&amp;utm_source=geeknews&amp;utm_medium=rss&amp;utm_campaign=news">GeekNews</source>
+      <guid isPermaLink="false">1af217370b2588ae42cd50c01f5b39a1</guid>
+    </item>
+    <item>
+      <title>Tools Need Not Speak in Text: Latent Context Compression for Agents</title>
+      <link>https://huggingface.co/papers/2611.06500</link>
+      <description>Large language model (LLM) agents typically append raw tool outputs to their context.</description>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.06500">Hugging Face Papers</source>
+      <guid isPermaLink="false">b9ca7c2eedc76462a83e82a0537f89aa</guid>
+    </item>
     <item>
       <title>Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling</title>
       <link>https://huggingface.co/papers/2611.08237</link>
@@ -412,51 +457,6 @@
       <category>news</category>
       <source url="https://zdnet.co.kr/view/?no=20261106154943">ZDNet Korea</source>
       <guid isPermaLink="false">22e442374a71a68941673e0bfca26922</guid>
-    </item>
-    <item>
-      <title>Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models</title>
-      <link>https://huggingface.co/papers/2611.06982</link>
-      <description>A training-free, lossless speculative decoding framework exploits idle compute in chunk-interleaved full-duplex speech language models to draft and verify upcoming audio chunks, s…</description>
-      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.06982">Hugging Face Papers</source>
-      <guid isPermaLink="false">ab8178a6a575dd0853a1e88f3a2423a5</guid>
-    </item>
-    <item>
-      <title>Identically Trained Language Models Break on Different Jailbreaks</title>
-      <link>https://huggingface.co/papers/2610.34074</link>
-      <description>Jailbreak vulnerability is primarily determined by pretraining randomness rather than data recipes, with pretraining seeds leaving identifiable fingerprints across prompts.</description>
-      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.34074">Hugging Face Papers</source>
-      <guid isPermaLink="false">e1388750d36c7828ccc9416fc79ceb1e</guid>
-    </item>
-    <item>
-      <title>코스피 장중 4900선까지 폭락…AI 산업 규제 우려가 현실로</title>
-      <link>https://www.etnews.com/20261106000268</link>
-      <description>미국 중간선거 이후 민주당이 인공지능(AI) 산업을 규제할 것이라는 우려가 현실화되며 코스피가 장중 8% 이상 떨어졌다. 미 선거에서 당선된 주지사가 데이터센터 건설을 중단해야 한다고 밝히며 시장의 경계감이 커졌다. 6일 한국거래소에 따르면 이날 코스피는 6.02%(324.11P) 하락한 5059.69에 마감했다.</description>
-      <pubDate>Fri, 06 Nov 2026 15:52:25 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261106000268">전자신문 IT</source>
-      <guid isPermaLink="false">eae462efa7e26e7b078a04237af46e76</guid>
-    </item>
-    <item>
-      <title>하루 새 20조 날린 젠슨황…세계 10대 부자서 밀려났다</title>
-      <link>https://www.etnews.com/20261106000262</link>
-      <description>미국 중간선거에서 민주당이 압승한 여파로 인공지능(AI) 관련주가 급락하면서 젠슨 황 엔비디아 최고경영자(CEO)의 자산이 하루 만에 약 20조원 증발했다. 세계 부자 순위에서도 10위권 밖으로 밀려났다. 6일(현지시간) 블룸버그통신에 따르면 황 CEO의 순자산은 전날 미국 증시 급락으로 하루 만에 151억달러(약 20조5420억원) 감소한 1509억달러(약 205조2844억원)를 기록했다.</description>
-      <pubDate>Fri, 06 Nov 2026 15:19:15 +0900</pubDate>
-      <category>news</category>
-      <source url="https://www.etnews.com/20261106000262">전자신문 IT</source>
-      <guid isPermaLink="false">2ddd7b39585b36cfacfb1f9ba2e2c107</guid>
-    </item>
-    <item>
-      <title>Future Representation Distillation for Imagination-free World Action Models</title>
-      <link>https://huggingface.co/papers/2611.04527</link>
-      <description>DreamFree repurposes a pretrained video diffusion model as a predictive visual encoder through representation distillation, enabling real-time robot action prediction without gene…</description>
-      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.04527">Hugging Face Papers</source>
-      <guid isPermaLink="false">88dc56acd7d66b2a50e64504c0d78e71</guid>
     </item>
   </channel>
 </rss>

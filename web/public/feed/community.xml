@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 07 Nov 2026 06:21:48 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 10:42:35 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Thinking Machines Lab, 활성 17B의 2세대 모델 Inkling 2 Small을 Tinker에 먼저 출시 (가중치는 다음 주 공개 예정)</title>
+      <link>https://discuss.pytorch.kr/t/thinking-machines-lab-17b-2-inkling-2-small-tinker/12438</link>
+      <description>핵심 요약 Thinking Machines Lab이 Inkling 2 Small 소개 글 에서 2세대 첫 모델을 발표했습니다. 총 594B, 활성 17B의 MoE 모델이고 텍스트와 이미지를 입력받으며, 지금은 Tinker에서만 추론(inference)과 파인튜닝을 할 수 있습니다. Apache 2.0 가중치는 외부 안전성 테스트와 레드팀을 마친 뒤 다음 주에 공개할 계획입니다.</description>
+      <pubDate>Sat, 07 Nov 2026 09:30:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinking-machines-lab-17b-2-inkling-2-small-tinker/12438">PyTorch Korea</source>
+      <guid isPermaLink="false">153d1e2eb7f7855b0fb6b58904dfe1c4</guid>
+    </item>
     <item>
       <title>OpenDots: 역할별 AI 에이전트에게 전용 컴퓨터를 주고 작업 결과를 편집 가능한 문서로 받는 템플릿</title>
       <link>https://discuss.pytorch.kr/t/opendots-ai/12427</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/durable-harness-claude-code-codex-pi-feat-vercel/12274">PyTorch Korea</source>
       <guid isPermaLink="false">3d28b0dbc969fc00e87f09b5c9f5b62a</guid>
-    </item>
-    <item>
-      <title>Memento: 성공과 실패 사례를 별도 공간에 저장하는 방식으로, LLM 파인튜닝 없이 성능을 높이는 딥 리서치 에이전트</title>
-      <link>https://discuss.pytorch.kr/t/memento-llm/12309</link>
-      <description>핵심 요약 Memento 는 LLM 가중치를 고치지 않고, 과거 과제의 (질문, 계획, 성공 여부)를 케이스 뱅크에 쌓아 다음 과제의 계획에 참고하게 하는 딥 리서치 에이전트입니다. 논문 은 GAIA 검증(validation) 세트 87.88%(Pass@3)와 테스트(test) 세트 79.40%를 보고하지만, 사례 기반 추론(CBR)만 따로 더한 몫은 F1 기준 3.7~6.7점입니다.</description>
-      <pubDate>Tue, 27 Oct 2026 15:30:45 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/memento-llm/12309">PyTorch Korea</source>
-      <guid isPermaLink="false">50fb9caab2a69decff1c5db050632a68</guid>
     </item>
   </channel>
 </rss>
