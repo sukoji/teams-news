@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:30:43 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 17:28:52 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>OpenAI, 승인된 보안 조직 전용 GPT-6 Cyber 출시: 범위 밖 공격 0.07%, Linux 익스플로잇 948건</title>
+      <link>https://discuss.pytorch.kr/t/openai-gpt-6-cyber-0-07-linux-948/12434</link>
+      <description>핵심 요약 OpenAI가 2026년 11월 5일 GPT-6 Cyber 발표 글 에서 취약점 검증과 익스플로잇 개발용 모델 GPT-6 Cyber를 공개했습니다. 처음에는 별도 모델 승인을 받은 Daybreak Red 고객만 API와 Codex로 쓸 수 있습니다. ExploitGym 점수는 48.5%로 GPT-5.6 Cyber(32.1%)보다 상대 51% 높습니다.</description>
+      <pubDate>Sat, 07 Nov 2026 13:30:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-gpt-6-cyber-0-07-linux-948/12434">PyTorch Korea</source>
+      <guid isPermaLink="false">f1d98265ff83722781b3cff8f34aab3e</guid>
+    </item>
     <item>
       <title>Thinking Machines Lab, 활성 17B의 2세대 모델 Inkling 2 Small을 Tinker에 먼저 출시 (가중치는 다음 주 공개 예정)</title>
       <link>https://discuss.pytorch.kr/t/thinking-machines-lab-17b-2-inkling-2-small-tinker/12438</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/thinkingbox-training-db-2-8/12293">PyTorch Korea</source>
       <guid isPermaLink="false">08b79c262306d942824c087042215d8a</guid>
-    </item>
-    <item>
-      <title>durable-harness: 실행 중 함수가 죽어도 Claude Code와 Codex, Pi의 턴을 로그에서 이어 가게 하는 어댑터 (feat. Vercel)</title>
-      <link>https://discuss.pytorch.kr/t/durable-harness-claude-code-codex-pi-feat-vercel/12274</link>
-      <description>핵심 요약 Vercel 이 2026년 10월 19일 블로그 글 로 durable-harness 를 공개했습니다. Claude Code, Codex, OpenCode, Pi 같은 코딩 에이전트 하네스의 세션을 내구성 있는 로그에 기록해, 턴 도중에 함수가 죽어도 새 함수가 로그를 읽고 그 턴을 이어 가게 하는 TypeScript 어댑터 모음입니다.</description>
-      <pubDate>Tue, 27 Oct 2026 21:00:08 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/durable-harness-claude-code-codex-pi-feat-vercel/12274">PyTorch Korea</source>
-      <guid isPermaLink="false">3d28b0dbc969fc00e87f09b5c9f5b62a</guid>
     </item>
   </channel>
 </rss>
