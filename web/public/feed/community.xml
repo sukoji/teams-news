@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 08 Nov 2026 13:57:03 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 20:47:48 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>jev-chat: Jev 결정 모델로 상대 의도를 판정하고 LLM 답장 후보를 검사해 입력창에만 채우는 채팅 보조 앱</title>
+      <link>https://discuss.pytorch.kr/t/jev-chat-jev-llm/12426</link>
+      <description>핵심 요약 jev-chat 은 채팅 앱 위에 떠서 대화를 읽고, TypeSafe의 결정 모델 Jev로 상대의 의도와 대화의 위험도를 먼저 판정한 뒤 언어 모델이 쓴 답장 후보를 다시 Jev로 검사해 입력창에만 채워 주는 안드로이드 앱입니다. 전송 버튼을 누르는 코드 경로는 없습니다.</description>
+      <pubDate>Sun, 08 Nov 2026 18:00:27 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/jev-chat-jev-llm/12426">PyTorch Korea</source>
+      <guid isPermaLink="false">d0547a8bdad4469f9859042143c7bc19</guid>
+    </item>
     <item>
       <title>METR의 Anthropic 내부 AI R&amp;D 가속 평가: 능력 향상 속도 약 2배, 핵심 근거는 비공개</title>
       <link>https://discuss.pytorch.kr/t/metr-anthropic-ai-r-d-2/12437</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/nanbeige4-3-33b-3b-33b/12332">PyTorch Korea</source>
       <guid isPermaLink="false">d2f87940e0e9b7521f0cc583ba75c6ea</guid>
-    </item>
-    <item>
-      <title>Qwen3 0.6B로 평가부터 GRPO, 증류까지 설명하는, 추론 모델을 PyTorch로 직접 만드는 11시간 영상 강의 (feat. Sebastian Raschka)</title>
-      <link>https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331</link>
-      <description>핵심 요약 LLM 아키텍처 갤러리 및 최근 LLM 아키텍처의 발전 동향 등을 공개한 Sebastian Raschka가 새롭게 Building Reasoning Models from the Ground Up 글에서 추론 모델을 직접 구현하는 영상 8편(합계 약 11시간 7분)을 한데 묶어 소개했습니다.</description>
-      <pubDate>Wed, 28 Oct 2026 08:30:00 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/qwen3-0-6b-grpo-pytorch-11-feat-sebastian-raschka/12331">PyTorch Korea</source>
-      <guid isPermaLink="false">dccb502f54edcc87255e0b9f9bc8ab12</guid>
     </item>
   </channel>
 </rss>
