@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:19:30 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 05:30:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>에이전트 메모리, 많이 저장하기보다 검증하고 다시 정리하기 (feat. Anthropic)</title>
+      <link>https://discuss.pytorch.kr/t/feat-anthropic/12449</link>
+      <description>핵심 요약 Anthropic의 에이전트 메모리 분석 은 원본 기록, 선별한 메모, 연결된 위키, 세션 시작 시 미리 제공하는 정보를 구분합니다. 실험에서는 메모리의 효과가 모델과 지침에 따라 달랐고, 검증되지 않은 추측이나 오래된 기록이 후속 작업을 방해했습니다.</description>
+      <pubDate>Mon, 09 Nov 2026 20:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/feat-anthropic/12449">PyTorch Korea</source>
+      <guid isPermaLink="false">6fd9ee6cd648ae0ad7addc7859c585c9</guid>
+    </item>
     <item>
       <title>Anthropic, 과학 연구 세션 20만건 분석 보고서: AI를 통한 과학 연구가 가속 중 [영문/PDF/35p]</title>
       <link>https://discuss.pytorch.kr/t/anthropic-20-ai-pdf-35p/12429</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/liquid-ai-2b-lfm3-6/12338">PyTorch Korea</source>
       <guid isPermaLink="false">ae40fd808e3197bfdd711a54f2470bdb</guid>
-    </item>
-    <item>
-      <title>Day Trader Skill: Python으로 숫자들을 계산하고, 주문은 사람의 2번 승인이 필요한 (미국 주식 전용) Claude용 트레이딩 스킬</title>
-      <link>https://discuss.pytorch.kr/t/day-trader-skill-python-2-claude/12307</link>
-      <description>핵심 요약 Day Trader skill 은 미국 주식 데이 트레이딩(Day Trading)의 한 거래를 차트 검색부터 주문까지 11개의 Claude 스킬로 나눈 묶음입니다. 패턴 판정, 확률, 주문 수량 같은 매매 수치는 LLM이 아니라 표준 라이브러리만 쓰는 Python 도구가 계산합니다.</description>
-      <pubDate>Wed, 28 Oct 2026 16:00:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/day-trader-skill-python-2-claude/12307">PyTorch Korea</source>
-      <guid isPermaLink="false">8769fe3ed9f6bc2fd8de7ab15031b89d</guid>
     </item>
   </channel>
 </rss>
