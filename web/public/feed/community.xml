@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Nov 2026 06:47:48 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 10:30:15 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Anthropic, 과학 연구 세션 20만건 분석 보고서: AI를 통한 과학 연구가 가속 중 [영문/PDF/35p]</title>
+      <link>https://discuss.pytorch.kr/t/anthropic-20-ai-pdf-35p/12429</link>
+      <description>핵심 요약 Anthropic이 개인 요금제의 Claude, Claude Code 연구 세션 207,049건(2026년 8~9월)을 분류한 AI for Scientific Discovery 보고서 를 공개했습니다.</description>
+      <pubDate>Mon, 09 Nov 2026 08:30:29 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/anthropic-20-ai-pdf-35p/12429">PyTorch Korea</source>
+      <guid isPermaLink="false">d3296de0cbfd954fd11a760cdb6800a4</guid>
+    </item>
+    <item>
+      <title>모델 학습도 이제 코딩 에이전트에게: Claude Code에 맡겼더니 20분 만에 계약서 검토 모델이 배포됐습니다 (정확도 69.5→87.8%, 오픈소스 Overmind)</title>
+      <link>https://discuss.pytorch.kr/t/claude-code-20-69-5-87-8-overmind/12451</link>
+      <description>안녕하세요, (한국어가 서툴러 번역 도움을 받아 썼습니다. 어색한 문장이 있어도 너그럽게 봐주세요 ) 한 줄 요약 코딩은 이미 Claude Code나 Codex에 맡기고 계시죠. Overmind는 모델 학습도 코딩 에이전트에게 맡길 수 있게 해 주는 오픈소스 플랫폼입니다.</description>
+      <pubDate>Mon, 09 Nov 2026 08:29:48 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/claude-code-20-69-5-87-8-overmind/12451">PyTorch Korea</source>
+      <guid isPermaLink="false">eaa2a4a3792aa02ca83d319a882ea41b</guid>
+    </item>
     <item>
       <title>[2026/11/02 ~ 08] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-11-02-08-ai-ml/12446</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/day-trader-skill-python-2-claude/12307">PyTorch Korea</source>
       <guid isPermaLink="false">8769fe3ed9f6bc2fd8de7ab15031b89d</guid>
-    </item>
-    <item>
-      <title>OpenGCUA: 클릭 대신 Python 프로그램으로 컴퓨터를 다루게 해 기존 모델 성능을 높이는 에이전트 하네스</title>
-      <link>https://discuss.pytorch.kr/t/opengcua-python/12311</link>
-      <description>핵심 요약 OpenGCUA 는 컴퓨터 사용 에이전트가 화면을 보고 클릭 하나씩 하는 대신, 매 단계 Python 프로그램 하나로 GUI 조작, 접근성 트리, 셸 명령, API 호출을 묶어 실행하게 하는 에이전트 하네스와 SDK입니다. 개발팀은 기술 보고서 에서 모델을 새로 학습하지 않고 하네스만 바꿔 측정한 결과를 공개했습니다.</description>
-      <pubDate>Wed, 28 Oct 2026 19:00:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/opengcua-python/12311">PyTorch Korea</source>
-      <guid isPermaLink="false">de1b8038cfbc46fb55b26b7df9384137</guid>
-    </item>
-    <item>
-      <title>IBM, 시계열 모델 4종의 분위수 예측을 하나로 합치는 Granite Timeseries Ensemble R1 공개</title>
-      <link>https://discuss.pytorch.kr/t/ibm-4-granite-timeseries-ensemble-r1/12321</link>
-      <description>핵심 요약 IBM Research가 Granite 시계열 앙상블 소개 글 에서 사전학습 시계열 모델 4종의 분위수 예측을 하나의 분포로 합치는 레시피를 공개했습니다. 추가 학습이나 가중치 학습 없이 pip install "granite-tsfm&gt;=0.3.11" 뒤 몇 줄로 씁니다.</description>
-      <pubDate>Wed, 28 Oct 2026 18:30:08 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ibm-4-granite-timeseries-ensemble-r1/12321">PyTorch Korea</source>
-      <guid isPermaLink="false">a151e076425e97db57c678f9cf824cd5</guid>
     </item>
   </channel>
 </rss>
