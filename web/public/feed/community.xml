@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:28:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 21:15:53 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Reshard: NVIDIA가 공개한, 강화 학습 가중치 전송을 최대 5.7배 가속하는 집단 통신 연산</title>
+      <link>https://discuss.pytorch.kr/t/reshard-nvidia-5-7/12447</link>
+      <description>핵심 요약 Reshard 는 학습 GPU의 최신 가중치를 추론 GPU로 옮길 때 각 GPU에 필요한 조각만 직접 전달합니다. NVIDIA의 NeMo RL 실험에서 H100과 GB200 시스템의 가중치 갱신(Refit) 구간이 기존 방식보다 약 2.7~5.7배 빨라졌으며, 이 배속은 전체 강화 학습 시간의 개선율과 구분해야 합니다.</description>
+      <pubDate>Tue, 10 Nov 2026 15:30:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/reshard-nvidia-5-7/12447">PyTorch Korea</source>
+      <guid isPermaLink="false">396098d7057a0101ac9d380495f91785</guid>
+    </item>
     <item>
       <title>[실험] 비싼 모델이 앞부분만 하고 로컬 4B 모델에 넘기면? 재무 분석 에이전트로 해 본 AgentBaton 축소 재현 (비공식)</title>
       <link>https://discuss.pytorch.kr/t/4b-agentbaton/12464</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/cpu-vs-vlm-pymupdf-gpt-6-astra/12348">PyTorch Korea</source>
       <guid isPermaLink="false">5ed15f101860c9e71777f716dc8fd475</guid>
-    </item>
-    <item>
-      <title>OpenDuet: 내 서버와 원하는 모델로 운영하는, Claude Duet 같은 선제적 업무 에이전트</title>
-      <link>https://discuss.pytorch.kr/t/openduet-claude-duet/12341</link>
-      <description>핵심 요약 OpenDuet 은 CopilotKit 이 공개한 선제적(proactive) 업무 에이전트입니다. 매일 아침 메일과 일정을 읽어 브리핑을 보내고, 다른 사람에게 메시지를 보내는 동작은 사용자의 승인을 받은 뒤에 실행합니다. Anthropic의 Claude Duet과 같은 범주를 겨냥하지만, 직접 호스팅하고 OpenAI나 Anthropic 등의 모델을 골라 쓸 수 있다는 점이 다릅…</description>
-      <pubDate>Thu, 29 Oct 2026 11:30:23 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openduet-claude-duet/12341">PyTorch Korea</source>
-      <guid isPermaLink="false">f9e74895f8e776ae76c2a66415d260d6</guid>
     </item>
   </channel>
 </rss>
