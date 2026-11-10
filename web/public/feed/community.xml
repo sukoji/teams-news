@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 05:30:59 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:16:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[실험] 비싼 모델이 앞부분만 하고 로컬 4B 모델에 넘기면? 재무 분석 에이전트로 해 본 AgentBaton 축소 재현 (비공식)</title>
+      <link>https://discuss.pytorch.kr/t/4b-agentbaton/12464</link>
+      <description>PyTorchKR의 10/26~11/01 주간 AI/ML 논문 모음 에서 AgentBaton 논문을 골랐습니다. 긴 에이전트 작업을 고성능 모델이 먼저 하다가, 알맞은 때 한 번 저비용 모델에게 넘기는 방법입니다. 논문은 넘길 때를 고르는 2B 판별기로 모델 쌍 11개와 벤치마크 2개에서 API 비용을 평균 65.9% 줄이면서 정확도는 대체로 지켰다고 보고합니다.</description>
+      <pubDate>Tue, 10 Nov 2026 09:23:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/4b-agentbaton/12464">PyTorch Korea</source>
+      <guid isPermaLink="false">03945c0e054f5f52fe5e1d5dce8afb40</guid>
+    </item>
+    <item>
+      <title>ToyBlocks: AllenAI가 공개한, 블록 조작으로 로봇 학습의 실패 원인을 분석하는 공개 실험 환경</title>
+      <link>https://discuss.pytorch.kr/t/toyblocks-allenai/12448</link>
+      <description>핵심 요약 ToyBlocks 는 블록 조작 시연을 자동으로 생성하고 모델 학습과 평가를 연결하는 공개 로봇 실험 프레임워크입니다. 계획 모델과 동작 모델을 각각 평가할 수 있어, 로봇 학습 실험에서 실패 원인을 구분하는 데 활용할 수 있습니다. 공개 데이터셋 은 세 블록 쌓기의 성공 시연으로 구성되며, 발표문과 데이터 카드의 규모 집계가 다릅니다.</description>
+      <pubDate>Tue, 10 Nov 2026 08:30:45 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/toyblocks-allenai/12448">PyTorch Korea</source>
+      <guid isPermaLink="false">f2d4bbd754bb75f51f642ce15e26dc36</guid>
+    </item>
     <item>
       <title>에이전트 메모리, 많이 저장하기보다 검증하고 다시 정리하기 (feat. Anthropic)</title>
       <link>https://discuss.pytorch.kr/t/feat-anthropic/12449</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openduet-claude-duet/12341">PyTorch Korea</source>
       <guid isPermaLink="false">f9e74895f8e776ae76c2a66415d260d6</guid>
-    </item>
-    <item>
-      <title>tstack: 코딩 에이전트가 변경 증명부터 리뷰 봇 대응, PR 병합까지 맡게 하는 스킬 9종 (feat. Theo Browne)</title>
-      <link>https://discuss.pytorch.kr/t/tstack-pr-9-feat-theo-browne/12342</link>
-      <description>핵심 요약 tstack 은 Theo Browne이 매일 쓰는 에이전트 스킬 9개를 정리해 공개한 저장소로, Claude Code와 Codex에서 동작합니다. 스킬은 주로 코드를 쓴 뒤의 단계, 곧 변경 증명, 리뷰, PR 작성, CI와 리뷰 봇 대응, 병합을 다룹니다. 중심 스킬인 full-send 는 사용자가 지켜보지 않는다는 전제로 일합니다.</description>
-      <pubDate>Thu, 29 Oct 2026 18:00:41 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/tstack-pr-9-feat-theo-browne/12342">PyTorch Korea</source>
-      <guid isPermaLink="false">292fddf68a89d361090d274f68ace956</guid>
-    </item>
-    <item>
-      <title>Liquid AI, 텍스트, 비전, 오디오, 옴니, 결정 모델을 처리하는 2B 규모의 LFM3 모델 6종 공개</title>
-      <link>https://discuss.pytorch.kr/t/liquid-ai-2b-lfm3-6/12338</link>
-      <description>핵심 요약 Liquid AI가 LFM3 발표 글 에서 텍스트, 비전, 오디오, 옴니, 결정 모델 6종을 공개했습니다. 6종 모두 22T 토큰으로 사전 학습한 같은 백본 LFM3-1.7B-Base에서 갈라져 나왔고, 크기는 1.7B~2.2B입니다. 텍스트 모델 LFM3-1.7B 는 Liquid AI가 고른 29개 벤치마크 평균에서 Qwen3.5-9B보다 약간 높았습니다.</description>
-      <pubDate>Thu, 29 Oct 2026 07:30:34 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/liquid-ai-2b-lfm3-6/12338">PyTorch Korea</source>
-      <guid isPermaLink="false">ae40fd808e3197bfdd711a54f2470bdb</guid>
     </item>
   </channel>
 </rss>

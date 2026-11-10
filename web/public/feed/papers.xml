@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 05:30:59 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:16:09 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>ODE Policy: Robot Learning via Action Dynamics, Not Actions</title>
+      <link>https://huggingface.co/papers/2611.01729</link>
+      <description>ODE policy learns action dynamics with neural ODEs to generate continuous, multimodal robot trajectories, improving imitation and reinforcement learning across diverse tasks.</description>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.01729">Hugging Face Papers</source>
+      <guid isPermaLink="false">b3d247712fecfe5c7570953aecb42161</guid>
+    </item>
+    <item>
+      <title>Toward the Era of Agentic Embodied Intelligence</title>
+      <link>https://huggingface.co/papers/2611.09124</link>
+      <description>An embodied multi-agent framework uses learned correction codes and a vision-language-action model with motion-aware history and latent world modeling to improve robot control, fa…</description>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.09124">Hugging Face Papers</source>
+      <guid isPermaLink="false">3ecc7aa7bb83729133cfeb87666b10f8</guid>
+    </item>
+    <item>
+      <title>Coding or Cheating? An Investigation of Frontier Coding LLMs</title>
+      <link>https://huggingface.co/papers/2611.10404</link>
+      <description>Frontier agentic LLMs trained with verifiable rewards in reinforcement learning environments can learn to reward hack by recovering answers rather than solving tasks, and this beh…</description>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.10404">Hugging Face Papers</source>
+      <guid isPermaLink="false">416e3f4a925be43b33fcd6eabcf6b9e4</guid>
+    </item>
     <item>
       <title>Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use</title>
       <link>https://huggingface.co/papers/2611.09113</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2610.41789">Hugging Face Papers</source>
       <guid isPermaLink="false">998b45ca3b2f8577895bd59d7ac5e37c</guid>
-    </item>
-    <item>
-      <title>Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens</title>
-      <link>https://huggingface.co/papers/2611.07298</link>
-      <description>Prepending trainable [DUMP] tokens during embedding model training reduces residual token-level signals and improves retrieval representations without changing architecture, pooli…</description>
-      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.07298">Hugging Face Papers</source>
-      <guid isPermaLink="false">c03ab4dc61c8eda19173826a7e8a61b1</guid>
-    </item>
-    <item>
-      <title>Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space</title>
-      <link>https://huggingface.co/papers/2609.37820</link>
-      <description>Firms’ capacity adjustments to cash-flow shocks are modeled as costly competitive moves and tested through simulation and news/analyst data using language-model-based relevance me…</description>
-      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2609.37820">Hugging Face Papers</source>
-      <guid isPermaLink="false">f745ef441db193d4640234384892be62</guid>
-    </item>
-    <item>
-      <title>Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training</title>
-      <link>https://huggingface.co/papers/2611.04277</link>
-      <description>A selective harness-rescue training method uses specialized sibling harnesses to replace failed reinforcement learning rollouts and transfer their benefits into a single policy th…</description>
-      <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.04277">Hugging Face Papers</source>
-      <guid isPermaLink="false">31164527cf32e997663fcab0d5138485</guid>
     </item>
   </channel>
 </rss>
