@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T13:28:29.026952+09:00",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T11:29:09.903469+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,8 +10,36 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "455c442f91f6d5b89f2a8a98872e8f26",
+          "id": "e60667676202f903fb749ffc57d60d48",
           "index": 1,
+          "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+          "title_ko": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+          "summary": "Reframe is a two-stage post-training framework that aligns visual agents’ observation states through evidence-aware reinforcement learning and observation-gated on-policy distillation, improving tool use and outperformi…",
+          "summary_ko": "Reframe is a two-stage post-training framework that aligns visual agents’ observation states through evidence-aware reinforcement learning and observation-gated on-policy distilla…",
+          "url": "https://huggingface.co/papers/2611.12886",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-11-10T09:00:00+09:00",
+          "popularity": 122,
+          "upvotes": 38,
+          "score": 28.44,
+          "importance_score": 14.44,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "reinforcement learning",
+            "reasoning",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 38
+          }
+        },
+        {
+          "id": "455c442f91f6d5b89f2a8a98872e8f26",
+          "index": 2,
           "title": "Flide: Accelerating Decision Inference with Exact State Forking",
           "title_ko": "Flide: Accelerating Decision Inference with Exact State Forking",
           "summary": "Flide is an exact inference engine that accelerates decision-model LLM agents by decoupling logical request trees from physical execution and using ForkAttention to preserve exact branch evaluations.",
@@ -21,10 +49,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-11-10T09:00:00+09:00",
-          "popularity": 298,
-          "upvotes": 1,
-          "score": 31.17,
-          "importance_score": 25.24,
+          "popularity": 423,
+          "upvotes": 32,
+          "score": 28.0,
+          "importance_score": 18.0,
           "matched_keywords": [
             "llm",
             "agent",
@@ -32,32 +60,7 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 1
-          }
-        },
-        {
-          "id": "c88b38af3bfc72d91b7ca1de208c4973",
-          "index": 2,
-          "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-          "title_ko": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-          "summary": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems, with traceable evidence and benchmarks.",
-          "summary_ko": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems,…",
-          "url": "https://huggingface.co/papers/2611.10771",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-11-10T09:00:00+09:00",
-          "popularity": 343,
-          "upvotes": 8,
-          "score": 29.59,
-          "importance_score": 25.66,
-          "matched_keywords": [
-            "benchmark",
-            "inference"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 8
+            "value": 32
           }
         }
       ]
@@ -67,46 +70,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "ff5f9fdaeb63f256e556e48d8f75c36f",
+          "id": "75519b261538f4b5dde8c683d6b0190e",
           "index": 3,
-          "title": "BCI 기술 상용화 이끌 '브레인링크' 사업단 내년 출범…'K문샷' 전진기지로",
+          "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
           "title_ko": null,
-          "summary": "인간이 생각만으로 컴퓨터를 조작하도록 도와주는 뇌-컴퓨터 인터페이스(BCI) 기술 연구개발(R&D)을 총괄할 정부 사업단이 내년 출범한다. 2029년 BCI 실증 완료, 2035년 국산 BCI 기술 상용화를 목표로 관련 인공지능(AI) 모델·인프라 구축과 임상시험·규제 장벽 해소 등을 주도할 예정이다.",
+          "summary": "파이토치로 배우는 현대 인공지능김태훈 | 한빛아카데미2026년 7월 3일추천이유독자는 신경망 기초부터 트랜스포머, LLM까지 현대 딥러닝의 핵심 이론을 학습하고 파이토치로 직접 구현하며, 개인화 음성 어시스턴트 프로젝트를 통해 실무 기반의 AI 엔지니어로 성장할 수 있습니다.상세보기 \\\"LLM API로 서비스는 몇 개 만들어 봤어요. 그런데 내부가 어떻게 돌아가는지는 모르겠습니다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261109000314",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217031",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-09T16:00:00+09:00",
-          "popularity": 85,
+          "published_at": "2026-11-11T09:00:00+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 20.03,
-          "importance_score": 9.55,
+          "score": 22.48,
+          "importance_score": 18.96,
           "matched_keywords": [
             "ai",
-            "연구",
-            "모델"
+            "llm"
           ],
           "engagement": null
         },
         {
-          "id": "dbc7208ccd78743a86e07c5b71243540",
+          "id": "134afa66bbf6eb00b0909ea1331e0627",
           "index": 4,
-          "title": "브이캣 \"AI 라이브, 기존 광고 대비 제작비 59% 절감\"",
+          "title": "\"아이패드 에어도 OLED 입는다…내년 초 출시\"",
           "title_ko": null,
-          "summary": "[지디넷코리아]AX기술 기업 브이캣(VCAT)은 AI 라이브 등 생성형 AI를 활용한 라이브 광고를 통해 제작비를 대폭 절감하고 거래 효율을 높였다고 10일 밝혔다.기존 라이브커머스는 스튜디오 촬영과 쇼호스트 출연을 전제로 해 공간과 연출에 제약이 컸다.",
+          "summary": "[지디넷코리아]최근 아이패드 미니가 OLED 디스플레이를 탑재한 모델로 업데이트된 가운데, 아이패드 에어에도 OLED 화면이 적용될 것이라는 전망이 나왔다.대만 IT매체 디지타임스는 10일(현지시간) 애플이 2027년 초 아이패드 에어 2개 모델에 OLED 디스플레이를 도입할 예정이라고 보도했다.OLED 아이패드 에어에 대한 소문은 1년 넘게 이어져 왔다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261110113940",
+          "url": "https://zdnet.co.kr/view/?no=20261111101003",
           "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-10T12:49:57+09:00",
-          "popularity": 99,
+          "published_at": "2026-11-11T10:26:42+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 19.77,
-          "importance_score": 19.63,
+          "score": 19.58,
+          "importance_score": 19.37,
           "matched_keywords": [
-            "ai"
+            "모델"
           ],
           "engagement": null
         }
@@ -117,33 +119,8 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "bdf80d72547ade5aafc96dc53f5180f9",
-          "index": 5,
-          "title": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
-          "title_ko": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
-          "summary": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-          "summary_ko": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-          "url": "https://github.com/Dodaios/ste80-humanizer",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-11-10T03:05:33+09:00",
-          "popularity": 145,
-          "upvotes": 145,
-          "score": 28.28,
-          "importance_score": 23.12,
-          "matched_keywords": [
-            "ai",
-            "agent"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 145
-          }
-        },
-        {
           "id": "790a29191dcdd8248958eb363ef6a54c",
-          "index": 6,
+          "index": 5,
           "title": "yucezerey/turkish-anti-ai-skill — Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK",
           "title_ko": "yucezerey/turkish-anti-ai-skill — Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK",
           "summary": "Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hatalarını) temizleyen Agent Skill ve Humanizer paketi.",
@@ -152,18 +129,43 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-11-09T06:30:56+09:00",
-          "popularity": 289,
-          "upvotes": 289,
-          "score": 27.84,
-          "importance_score": 19.84,
+          "published_at": "2026-11-11T10:15:26+09:00",
+          "popularity": 302,
+          "upvotes": 302,
+          "score": 32.74,
+          "importance_score": 29.49,
           "matched_keywords": [
             "ai",
             "agent"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 289
+            "value": 302
+          }
+        },
+        {
+          "id": "bdf80d72547ade5aafc96dc53f5180f9",
+          "index": 6,
+          "title": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
+          "title_ko": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
+          "summary": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+          "summary_ko": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+          "url": "https://github.com/Dodaios/ste80-humanizer",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-10T17:52:47+09:00",
+          "popularity": 315,
+          "upvotes": 315,
+          "score": 29.48,
+          "importance_score": 22.81,
+          "matched_keywords": [
+            "ai",
+            "agent"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 315
           }
         }
       ]
@@ -173,25 +175,27 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "03945c0e054f5f52fe5e1d5dce8afb40",
+          "id": "8d205f3889b8e3163559433efd341912",
           "index": 7,
-          "title": "[실험] 비싼 모델이 앞부분만 하고 로컬 4B 모델에 넘기면? 재무 분석 에이전트로 해 본 AgentBaton 축소 재현 (비공식)",
+          "title": "VFlash: 로봇과 자율주행 궤적의 좌표를 한 번에 예측하는 병렬 디코딩에 대한 연구",
           "title_ko": null,
-          "summary": "PyTorchKR의 10/26~11/01 주간 AI/ML 논문 모음 에서 AgentBaton 논문을 골랐습니다. 긴 에이전트 작업을 고성능 모델이 먼저 하다가, 알맞은 때 한 번 저비용 모델에게 넘기는 방법입니다. 논문은 넘길 때를 고르는 2B 판별기로 모델 쌍 11개와 벤치마크 2개에서 API 비용을 평균 65.9% 줄이면서 정확도는 대체로 지켰다고 보고합니다.",
+          "summary": "핵심 요약 VFlash 는 시각 언어 모델(VLM)이 경계 상자나 궤적의 좌표를 토큰 하나씩 생성하는 대신, 작은 초안 모델이 좌표 묶음 전체를 한 번의 순전파로 예측하게 하는 NVIDIA의 디코딩 방법입니다. 초안 모델은 대상 모델의 출력이 아닌 주석 좌표를 정답으로 학습하고, 추론(Inference) 시에는 대상 모델과 토큰이 일치하는지 확인하지 않습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/4b-agentbaton/12464",
+          "url": "https://discuss.pytorch.kr/t/vflash/12459",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-11-10T09:23:40+09:00",
+          "published_at": "2026-11-11T08:30:28+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 25.15,
-          "importance_score": 18.3,
+          "score": 31.38,
+          "importance_score": 18.76,
           "matched_keywords": [
-            "ai",
-            "agent",
-            "모델"
+            "추론",
+            "연구",
+            "vlm",
+            "모델",
+            "inference"
           ],
           "engagement": null
         }
@@ -200,8 +204,36 @@
   ],
   "items": [
     {
-      "id": "455c442f91f6d5b89f2a8a98872e8f26",
+      "id": "e60667676202f903fb749ffc57d60d48",
       "index": 1,
+      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "title_ko": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "summary": "Reframe is a two-stage post-training framework that aligns visual agents’ observation states through evidence-aware reinforcement learning and observation-gated on-policy distillation, improving tool use and outperformi…",
+      "summary_ko": "Reframe is a two-stage post-training framework that aligns visual agents’ observation states through evidence-aware reinforcement learning and observation-gated on-policy distilla…",
+      "url": "https://huggingface.co/papers/2611.12886",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-11-10T09:00:00+09:00",
+      "popularity": 122,
+      "upvotes": 38,
+      "score": 28.44,
+      "importance_score": 14.44,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "reinforcement learning",
+        "reasoning",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 38
+      }
+    },
+    {
+      "id": "455c442f91f6d5b89f2a8a98872e8f26",
+      "index": 2,
       "title": "Flide: Accelerating Decision Inference with Exact State Forking",
       "title_ko": "Flide: Accelerating Decision Inference with Exact State Forking",
       "summary": "Flide is an exact inference engine that accelerates decision-model LLM agents by decoupling logical request trees from physical execution and using ForkAttention to preserve exact branch evaluations.",
@@ -211,10 +243,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-11-10T09:00:00+09:00",
-      "popularity": 298,
-      "upvotes": 1,
-      "score": 31.17,
-      "importance_score": 25.24,
+      "popularity": 423,
+      "upvotes": 32,
+      "score": 28.0,
+      "importance_score": 18.0,
       "matched_keywords": [
         "llm",
         "agent",
@@ -222,106 +254,55 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 1
+        "value": 32
       }
     },
     {
-      "id": "c88b38af3bfc72d91b7ca1de208c4973",
-      "index": 2,
-      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-      "title_ko": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-      "summary": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems, with traceable evidence and benchmarks.",
-      "summary_ko": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems,…",
-      "url": "https://huggingface.co/papers/2611.10771",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-11-10T09:00:00+09:00",
-      "popularity": 343,
-      "upvotes": 8,
-      "score": 29.59,
-      "importance_score": 25.66,
-      "matched_keywords": [
-        "benchmark",
-        "inference"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 8
-      }
-    },
-    {
-      "id": "ff5f9fdaeb63f256e556e48d8f75c36f",
+      "id": "75519b261538f4b5dde8c683d6b0190e",
       "index": 3,
-      "title": "BCI 기술 상용화 이끌 '브레인링크' 사업단 내년 출범…'K문샷' 전진기지로",
+      "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
       "title_ko": null,
-      "summary": "인간이 생각만으로 컴퓨터를 조작하도록 도와주는 뇌-컴퓨터 인터페이스(BCI) 기술 연구개발(R&D)을 총괄할 정부 사업단이 내년 출범한다. 2029년 BCI 실증 완료, 2035년 국산 BCI 기술 상용화를 목표로 관련 인공지능(AI) 모델·인프라 구축과 임상시험·규제 장벽 해소 등을 주도할 예정이다.",
+      "summary": "파이토치로 배우는 현대 인공지능김태훈 | 한빛아카데미2026년 7월 3일추천이유독자는 신경망 기초부터 트랜스포머, LLM까지 현대 딥러닝의 핵심 이론을 학습하고 파이토치로 직접 구현하며, 개인화 음성 어시스턴트 프로젝트를 통해 실무 기반의 AI 엔지니어로 성장할 수 있습니다.상세보기 \\\"LLM API로 서비스는 몇 개 만들어 봤어요. 그런데 내부가 어떻게 돌아가는지는 모르겠습니다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261109000314",
-      "source": "전자신문 IT",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217031",
+      "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-09T16:00:00+09:00",
-      "popularity": 85,
+      "published_at": "2026-11-11T09:00:00+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 20.03,
-      "importance_score": 9.55,
+      "score": 22.48,
+      "importance_score": 18.96,
       "matched_keywords": [
         "ai",
-        "연구",
+        "llm"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "134afa66bbf6eb00b0909ea1331e0627",
+      "index": 4,
+      "title": "\"아이패드 에어도 OLED 입는다…내년 초 출시\"",
+      "title_ko": null,
+      "summary": "[지디넷코리아]최근 아이패드 미니가 OLED 디스플레이를 탑재한 모델로 업데이트된 가운데, 아이패드 에어에도 OLED 화면이 적용될 것이라는 전망이 나왔다.대만 IT매체 디지타임스는 10일(현지시간) 애플이 2027년 초 아이패드 에어 2개 모델에 OLED 디스플레이를 도입할 예정이라고 보도했다.OLED 아이패드 에어에 대한 소문은 1년 넘게 이어져 왔다.",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20261111101003",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-11-11T10:26:42+09:00",
+      "popularity": 98,
+      "upvotes": 0,
+      "score": 19.58,
+      "importance_score": 19.37,
+      "matched_keywords": [
         "모델"
       ],
       "engagement": null
     },
     {
-      "id": "dbc7208ccd78743a86e07c5b71243540",
-      "index": 4,
-      "title": "브이캣 \"AI 라이브, 기존 광고 대비 제작비 59% 절감\"",
-      "title_ko": null,
-      "summary": "[지디넷코리아]AX기술 기업 브이캣(VCAT)은 AI 라이브 등 생성형 AI를 활용한 라이브 광고를 통해 제작비를 대폭 절감하고 거래 효율을 높였다고 10일 밝혔다.기존 라이브커머스는 스튜디오 촬영과 쇼호스트 출연을 전제로 해 공간과 연출에 제약이 컸다.",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261110113940",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-11-10T12:49:57+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 19.77,
-      "importance_score": 19.63,
-      "matched_keywords": [
-        "ai"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "bdf80d72547ade5aafc96dc53f5180f9",
-      "index": 5,
-      "title": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
-      "title_ko": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
-      "summary": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-      "summary_ko": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-      "url": "https://github.com/Dodaios/ste80-humanizer",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-11-10T03:05:33+09:00",
-      "popularity": 145,
-      "upvotes": 145,
-      "score": 28.28,
-      "importance_score": 23.12,
-      "matched_keywords": [
-        "ai",
-        "agent"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 145
-      }
-    },
-    {
       "id": "790a29191dcdd8248958eb363ef6a54c",
-      "index": 6,
+      "index": 5,
       "title": "yucezerey/turkish-anti-ai-skill — Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK",
       "title_ko": "yucezerey/turkish-anti-ai-skill — Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK",
       "summary": "Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hatalarını) temizleyen Agent Skill ve Humanizer paketi.",
@@ -330,40 +311,67 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-11-09T06:30:56+09:00",
-      "popularity": 289,
-      "upvotes": 289,
-      "score": 27.84,
-      "importance_score": 19.84,
+      "published_at": "2026-11-11T10:15:26+09:00",
+      "popularity": 302,
+      "upvotes": 302,
+      "score": 32.74,
+      "importance_score": 29.49,
       "matched_keywords": [
         "ai",
         "agent"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 289
+        "value": 302
       }
     },
     {
-      "id": "03945c0e054f5f52fe5e1d5dce8afb40",
+      "id": "bdf80d72547ade5aafc96dc53f5180f9",
+      "index": 6,
+      "title": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
+      "title_ko": "Dodaios/ste80-humanizer — STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (S",
+      "summary": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "summary_ko": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-10T17:52:47+09:00",
+      "popularity": 315,
+      "upvotes": 315,
+      "score": 29.48,
+      "importance_score": 22.81,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 315
+      }
+    },
+    {
+      "id": "8d205f3889b8e3163559433efd341912",
       "index": 7,
-      "title": "[실험] 비싼 모델이 앞부분만 하고 로컬 4B 모델에 넘기면? 재무 분석 에이전트로 해 본 AgentBaton 축소 재현 (비공식)",
+      "title": "VFlash: 로봇과 자율주행 궤적의 좌표를 한 번에 예측하는 병렬 디코딩에 대한 연구",
       "title_ko": null,
-      "summary": "PyTorchKR의 10/26~11/01 주간 AI/ML 논문 모음 에서 AgentBaton 논문을 골랐습니다. 긴 에이전트 작업을 고성능 모델이 먼저 하다가, 알맞은 때 한 번 저비용 모델에게 넘기는 방법입니다. 논문은 넘길 때를 고르는 2B 판별기로 모델 쌍 11개와 벤치마크 2개에서 API 비용을 평균 65.9% 줄이면서 정확도는 대체로 지켰다고 보고합니다.",
+      "summary": "핵심 요약 VFlash 는 시각 언어 모델(VLM)이 경계 상자나 궤적의 좌표를 토큰 하나씩 생성하는 대신, 작은 초안 모델이 좌표 묶음 전체를 한 번의 순전파로 예측하게 하는 NVIDIA의 디코딩 방법입니다. 초안 모델은 대상 모델의 출력이 아닌 주석 좌표를 정답으로 학습하고, 추론(Inference) 시에는 대상 모델과 토큰이 일치하는지 확인하지 않습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/4b-agentbaton/12464",
+      "url": "https://discuss.pytorch.kr/t/vflash/12459",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-11-10T09:23:40+09:00",
+      "published_at": "2026-11-11T08:30:28+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 25.15,
-      "importance_score": 18.3,
+      "score": 31.38,
+      "importance_score": 18.76,
       "matched_keywords": [
-        "ai",
-        "agent",
-        "모델"
+        "추론",
+        "연구",
+        "vlm",
+        "모델",
+        "inference"
       ],
       "engagement": null
     }
