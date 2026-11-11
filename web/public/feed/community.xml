@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Nov 2026 05:19:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 10:05:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>VFlash: 로봇과 자율주행 궤적의 좌표를 한 번에 예측하는 병렬 디코딩에 대한 연구</title>
+      <link>https://discuss.pytorch.kr/t/vflash/12459</link>
+      <description>핵심 요약 VFlash 는 시각 언어 모델(VLM)이 경계 상자나 궤적의 좌표를 토큰 하나씩 생성하는 대신, 작은 초안 모델이 좌표 묶음 전체를 한 번의 순전파로 예측하게 하는 NVIDIA의 디코딩 방법입니다. 초안 모델은 대상 모델의 출력이 아닌 주석 좌표를 정답으로 학습하고, 추론(Inference) 시에는 대상 모델과 토큰이 일치하는지 확인하지 않습니다.</description>
+      <pubDate>Wed, 11 Nov 2026 08:30:28 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vflash/12459">PyTorch Korea</source>
+      <guid isPermaLink="false">8d205f3889b8e3163559433efd341912</guid>
+    </item>
     <item>
       <title>Reshard: NVIDIA가 공개한, 강화 학습 가중치 전송을 최대 5.7배 가속하는 집단 통신 연산</title>
       <link>https://discuss.pytorch.kr/t/reshard-nvidia-5-7/12447</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/digital-human-koubo-renoise-ai-remotion/12340">PyTorch Korea</source>
       <guid isPermaLink="false">e03edf5276c517cac760cc617d6d0e90</guid>
-    </item>
-    <item>
-      <title>CPU 파서 vs 최신 VLM, 문서 파싱 성능 비교: PyMuPDF와 GPT-6 Astra</title>
-      <link>https://discuss.pytorch.kr/t/cpu-vs-vlm-pymupdf-gpt-6-astra/12348</link>
-      <description>RAG나 문서 분석 파이프라인을 만들다 보면 PDF 파싱 단계에서 고민이 생깁니다. 최근에는 VLM에 PDF를 통째로 넣는 방식이 많이 쓰이지만, 페이지당 API 비용과 처리 시간이 만만치 않습니다. 반대로 CPU 기반 파서는 빠르고 싸지만, "정확도는 떨어지지 않나?"라는 의문이 따라붙습니다.</description>
-      <pubDate>Thu, 29 Oct 2026 15:23:26 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/cpu-vs-vlm-pymupdf-gpt-6-astra/12348">PyTorch Korea</source>
-      <guid isPermaLink="false">5ed15f101860c9e71777f716dc8fd475</guid>
     </item>
   </channel>
 </rss>

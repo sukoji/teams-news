@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Nov 2026 05:19:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 10:05:38 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>e-means: outperforming k-means (in one-tenth the epochs)</title>
+      <link>https://huggingface.co/papers/2611.09501</link>
+      <description>Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation.</description>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.09501">Hugging Face Papers</source>
+      <guid isPermaLink="false">e74e760e6e514e227dc994d6b0618fe7</guid>
+    </item>
+    <item>
+      <title>Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization</title>
+      <link>https://huggingface.co/papers/2611.11995</link>
+      <description>In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons.</description>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.11995">Hugging Face Papers</source>
+      <guid isPermaLink="false">e4284db1de11fd44f5d3213a16b83424</guid>
+    </item>
+    <item>
+      <title>MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification</title>
+      <link>https://huggingface.co/papers/2611.10592</link>
+      <description>Large language models can generate motion graphics from static images and natural language requests, but it remains difficult to evaluate how well models can follow requests that…</description>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.10592">Hugging Face Papers</source>
+      <guid isPermaLink="false">03cadd916e698d74df3437fec46d6524</guid>
+    </item>
+    <item>
+      <title>EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving</title>
+      <link>https://huggingface.co/papers/2611.11994</link>
+      <description>Small multimodal models can misjudge emotion when words, voice, and visual cues conflict.</description>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.11994">Hugging Face Papers</source>
+      <guid isPermaLink="false">04b53da4da48994969b66db94712aebb</guid>
+    </item>
     <item>
       <title>Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages</title>
       <link>https://huggingface.co/papers/2611.10304</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.08179">Hugging Face Papers</source>
       <guid isPermaLink="false">247b3984814f5406c32c95fab8c4ddec</guid>
-    </item>
-    <item>
-      <title>IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection</title>
-      <link>https://huggingface.co/papers/2611.08647</link>
-      <description>Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients.</description>
-      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.08647">Hugging Face Papers</source>
-      <guid isPermaLink="false">8c29bfad6eb5be22165a0a52269cf6f2</guid>
-    </item>
-    <item>
-      <title>Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription</title>
-      <link>https://huggingface.co/papers/2611.06043</link>
-      <description>A stable-prefix streaming speech recognition model achieves near full-context accuracy with low latency by post-training on longest stable prefix labels without architectural chan…</description>
-      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.06043">Hugging Face Papers</source>
-      <guid isPermaLink="false">8ed0c7f6f77bf5174905f87f3dde7c9f</guid>
-    </item>
-    <item>
-      <title>Video-Coder: Reinforcing Agentic Coding for Video Generation</title>
-      <link>https://huggingface.co/papers/2611.09894</link>
-      <description>Video-Coder is a code-driven video generation agent that writes and executes code to construct dynamic 3D scenes, trained with supervised fine-tuning and reinforcement learning us…</description>
-      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.09894">Hugging Face Papers</source>
-      <guid isPermaLink="false">e5198360b8973062d85ea76251681491</guid>
-    </item>
-    <item>
-      <title>LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</title>
-      <link>https://huggingface.co/papers/2611.06856</link>
-      <description>We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image…</description>
-      <pubDate>Mon, 09 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.06856">Hugging Face Papers</source>
-      <guid isPermaLink="false">147358782f71abff71462205a3e67a5c</guid>
     </item>
   </channel>
 </rss>
