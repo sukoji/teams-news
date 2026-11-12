@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 17:01:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 01:46:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM Router: 세션과 캐시를 고려해 추론 요청을 분산하는 라우터</title>
+      <link>https://discuss.pytorch.kr/t/vllm-router/12492</link>
+      <description>vLLM Router 소개 vLLM 서버를 여러 대 운영하면 요청을 어느 서버로 보낼지 정해야 합니다. 순서대로 나누면 요청 수는 고르게 분산되지만, 같은 대화의 다음 요청이 다른 서버로 전달될 수 있습니다. vLLM Router 는 세션, 워커 부하, 프롬프트 캐시를 고려해 추론 요청을 전달하는 라우터입니다.</description>
+      <pubDate>Thu, 12 Nov 2026 20:00:14 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-router/12492">PyTorch Korea</source>
+      <guid isPermaLink="false">eae81f083ef4d98ad629818201766c10</guid>
+    </item>
     <item>
       <title>BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델</title>
       <link>https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/openqodex-push-claude-code-codex/12335">PyTorch Korea</source>
       <guid isPermaLink="false">2cab52f8ff25b817f20de9e5aacbfd9f</guid>
-    </item>
-    <item>
-      <title>VocabX: 토큰 빈도 대신 생성 비용으로 어휘를 골라 Qwen3-4B 채점 모델의 추론 비용을 77% 줄인 사례</title>
-      <link>https://discuss.pytorch.kr/t/vocabx-qwen3-4b-77/12322</link>
-      <description>핵심 요약 브라질의 Dharma AI가 Hugging Face 블로그 글 에서 소형 모델의 토크나이저 어휘를 도메인에 맞게 다시 만드는 방법인 VocabX의 결과 일부를 먼저 공개했습니다. 논문은 아직 심사 중이며 공개 전이고, 이번 글에 코드는 포함되지 않았습니다. VocabX는 토큰의 등장 빈도가 아니라 그 토큰을 줄였을 때 아끼는 비용으로 어휘를 고릅니다.</description>
-      <pubDate>Fri, 30 Oct 2026 20:30:17 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vocabx-qwen3-4b-77/12322">PyTorch Korea</source>
-      <guid isPermaLink="false">82a1c1936de221a8430966c04c201ddf</guid>
     </item>
   </channel>
 </rss>

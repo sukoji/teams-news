@@ -5,9 +5,99 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 17:01:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 01:46:11 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering</title>
+      <link>https://huggingface.co/papers/2611.13410</link>
+      <description>Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on correcte…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13410">Hugging Face Papers</source>
+      <guid isPermaLink="false">554e0ae150d4ac641f1da26ffd8c53c4</guid>
+    </item>
+    <item>
+      <title>Evolving Infra: Agent-Adaptive LLM Serving at Scale</title>
+      <link>https://huggingface.co/papers/2611.12304</link>
+      <description>Agentic workloads are a major source of LLM inference demand.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.12304">Hugging Face Papers</source>
+      <guid isPermaLink="false">e866172dec9aa1dacd64a9451a8179cc</guid>
+    </item>
+    <item>
+      <title>Mixed Signals: Weight-Space Programming for EEG and ECG</title>
+      <link>https://huggingface.co/papers/2611.13758</link>
+      <description>Weight-space programming allows language models to read a trained neural network's weights and edit them.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13758">Hugging Face Papers</source>
+      <guid isPermaLink="false">7542b246e109b470a674f5d250e1cf5b</guid>
+    </item>
+    <item>
+      <title>Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model</title>
+      <link>https://huggingface.co/papers/2611.14418</link>
+      <description>A dynamic weight precision allocation strategy is proposed, utilizing low-bit quantization and uncertainty-based gating to selectively upgrade weight precision during LLM generati…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.14418">Hugging Face Papers</source>
+      <guid isPermaLink="false">cf6329b47bd62c2225667e6e15d74861</guid>
+    </item>
+    <item>
+      <title>Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis</title>
+      <link>https://huggingface.co/papers/2611.12869</link>
+      <description>Cross-modal representational alignment between unimodal language and vision models increases with model capability when captions are clean and informative, but remains below same-…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.12869">Hugging Face Papers</source>
+      <guid isPermaLink="false">d214178140d00baec1d2f5e55bf6b044</guid>
+    </item>
+    <item>
+      <title>Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models</title>
+      <link>https://huggingface.co/papers/2611.14413</link>
+      <description>Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.14413">Hugging Face Papers</source>
+      <guid isPermaLink="false">feb3812e580e2ededc6b03de07a013c0</guid>
+    </item>
+    <item>
+      <title>ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping</title>
+      <link>https://huggingface.co/papers/2611.11306</link>
+      <description>AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.11306">Hugging Face Papers</source>
+      <guid isPermaLink="false">0cfb1d6e0163b5d769f06e662657b8c3</guid>
+    </item>
+    <item>
+      <title>PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard</title>
+      <link>https://huggingface.co/papers/2611.13843</link>
+      <description>Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13843">Hugging Face Papers</source>
+      <guid isPermaLink="false">fdfddad46e64086c763902358678ddb1</guid>
+    </item>
+    <item>
+      <title>FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control</title>
+      <link>https://huggingface.co/papers/2611.13766</link>
+      <description>We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13766">Hugging Face Papers</source>
+      <guid isPermaLink="false">07498bda0574cf7aca2d1c3b5566a07b</guid>
+    </item>
+    <item>
+      <title>CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines</title>
+      <link>https://huggingface.co/papers/2611.05862</link>
+      <description>Large language model (LLM) shopping assistants now recommend products in multi-turn conversations.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.05862">Hugging Face Papers</source>
+      <guid isPermaLink="false">fe876dbea8b3885da012723dbaebc23c</guid>
+    </item>
     <item>
       <title>Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</title>
       <link>https://huggingface.co/papers/2610.39671</link>
@@ -367,96 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.12527">Hugging Face Papers</source>
       <guid isPermaLink="false">2decb89af6c68e29b7e0ab25083c4bad</guid>
-    </item>
-    <item>
-      <title>Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models</title>
-      <link>https://huggingface.co/papers/2611.05927</link>
-      <description>MAEP is a training-free modality-aware expert pruning framework that decomposes expert importance by modality to compress MoE-based multimodal LLMs, reducing memory while maintain…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.05927">Hugging Face Papers</source>
-      <guid isPermaLink="false">3c33d73d3bb6fbc4352cb7ec1285b3e6</guid>
-    </item>
-    <item>
-      <title>Market-Conditioned JEPA: Learning from Unpredictable Market Shocks</title>
-      <link>https://huggingface.co/papers/2611.13572</link>
-      <description>A market-conditioned joint-embedding predictive architecture improves financial time-series prediction by conditioning on a leave-one-out market factor, enhancing market exposure,…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13572">Hugging Face Papers</source>
-      <guid isPermaLink="false">3a5dfbf0b24a4599e570f4088e631db7</guid>
-    </item>
-    <item>
-      <title>Few-Step Streaming Video Generation via Condition Shifting</title>
-      <link>https://huggingface.co/papers/2611.14033</link>
-      <description>APEX extends a streaming video generation method by replacing a separate fake-score network with condition shifting to estimate the generated distribution’s velocity field, improv…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.14033">Hugging Face Papers</source>
-      <guid isPermaLink="false">2927812d5bfc90b15c539625766d2cd6</guid>
-    </item>
-    <item>
-      <title>FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance</title>
-      <link>https://huggingface.co/papers/2611.07464</link>
-      <description>Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest.</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.07464">Hugging Face Papers</source>
-      <guid isPermaLink="false">5b31e47765e6acd60fd89b4af785532c</guid>
-    </item>
-    <item>
-      <title>ProTEUS: A mutation-resolved world model for closed-loop protein evolution</title>
-      <link>https://huggingface.co/papers/2611.13348</link>
-      <description>ProTEUS is a mutation-resolved world model that combines sequence, evolutionary, and structural representations with fast all-atom prediction and closed-loop feedback to guide pro…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13348">Hugging Face Papers</source>
-      <guid isPermaLink="false">07a0c8cd35ccc5c9afad3aefafa36b62</guid>
-    </item>
-    <item>
-      <title>PhysOPSD: Code as Privilege for Physically Plausible Video Generation</title>
-      <link>https://huggingface.co/papers/2611.12411</link>
-      <description>PhysOPSD uses executable code as privileged physical context to improve the physical plausibility of video generative models through on-policy self-distillation with dual-level pr…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12411">Hugging Face Papers</source>
-      <guid isPermaLink="false">43a11cd415d85621b23cee406000444a</guid>
-    </item>
-    <item>
-      <title>Lipschitz-Controlled Flow Matching for Robust Image Restoration</title>
-      <link>https://huggingface.co/papers/2611.13995</link>
-      <description>LipsFlower stabilizes flow-matching image restoration by combining Lipschitz-aware architecture and regularization to reduce perturbation amplification while maintaining competiti…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13995">Hugging Face Papers</source>
-      <guid isPermaLink="false">0cc6390fc2bd9b077444e93d92ca715e</guid>
-    </item>
-    <item>
-      <title>Learning to Act with World Models by Valuing What Comes Next</title>
-      <link>https://huggingface.co/papers/2611.12200</link>
-      <description>WM-PPO combines a world model with PPO’s critic to create auxiliary policy advantages and value targets from predicted successor states, improving task success without privileged…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12200">Hugging Face Papers</source>
-      <guid isPermaLink="false">14bc8ff107d5d0f064d21db2e5fdf71e</guid>
-    </item>
-    <item>
-      <title>Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series</title>
-      <link>https://huggingface.co/papers/2611.12955</link>
-      <description>A self-supervised method segments time series by predictive surprise from a frozen forecaster, clusters segments into dynamical concepts, and classifies with reliability-aware abs…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12955">Hugging Face Papers</source>
-      <guid isPermaLink="false">ba40872d614e3f2758d09ee4817fcade</guid>
-    </item>
-    <item>
-      <title>e-means: outperforming k-means (in one-tenth the epochs)</title>
-      <link>https://huggingface.co/papers/2611.09501</link>
-      <description>Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation.</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.09501">Hugging Face Papers</source>
-      <guid isPermaLink="false">e74e760e6e514e227dc994d6b0618fe7</guid>
     </item>
   </channel>
 </rss>
