@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 02:02:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:11:25 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Embodied First Exam</title>
+      <link>https://huggingface.co/papers/2611.12177</link>
+      <description>Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots.</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.12177">Hugging Face Papers</source>
+      <guid isPermaLink="false">1d5b0e2b8d6dd4c67e3a2b363237f533</guid>
+    </item>
+    <item>
+      <title>LEASH: Stay Safe in Agentic Robotics</title>
+      <link>https://huggingface.co/papers/2611.14115</link>
+      <description>Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence.</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.14115">Hugging Face Papers</source>
+      <guid isPermaLink="false">bc26fbf440c52f9d165b0989bdb21ddc</guid>
+    </item>
+    <item>
+      <title>Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking</title>
+      <link>https://huggingface.co/papers/2611.10486</link>
+      <description>Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality.</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.10486">Hugging Face Papers</source>
+      <guid isPermaLink="false">875ccc763e9921bd74f4f9aaa1482bd6</guid>
+    </item>
+    <item>
+      <title>Visual Similarity in Adult Word Extension and Artificial Word Learning</title>
+      <link>https://huggingface.co/papers/2611.14116</link>
+      <description>Visual similarity measured by a self-supervised visual encoder partially explains word generalization in adults and artificial learners, while the composition of teaching examples…</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.14116">Hugging Face Papers</source>
+      <guid isPermaLink="false">708a888cf946884716f930e090873be0</guid>
+    </item>
+    <item>
+      <title>Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model</title>
+      <link>https://huggingface.co/papers/2611.13425</link>
+      <description>P2Echo is a unified view-aware text-prompted segmentation framework that uses dynamic image-text alignment to segment diverse cardiac structures across multiple echocardiographic…</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13425">Hugging Face Papers</source>
+      <guid isPermaLink="false">bb3a7b6769a17bd7d5593dc4c7120725</guid>
+    </item>
     <item>
       <title>TorchCurves: Differentiable Parametric Curves</title>
       <link>https://huggingface.co/papers/2611.14516</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.12167">Hugging Face Papers</source>
       <guid isPermaLink="false">53cbdc4ed81de94553ed423d4727e396</guid>
-    </item>
-    <item>
-      <title>Creative Priming: Decoupling Process from Product to Escape the Creative Paradox</title>
-      <link>https://huggingface.co/papers/2611.11740</link>
-      <description>A method called creative priming uses a priming model trained with GRPO to generate prompt-specific primers that help a response model produce novel, high-quality, and diverse out…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.11740">Hugging Face Papers</source>
-      <guid isPermaLink="false">5c467b03908c8c1a19f56952f0e834f2</guid>
-    </item>
-    <item>
-      <title>Energy-Tweedie: Score meets Score, Energy meets Energy</title>
-      <link>https://huggingface.co/papers/2512.23818</link>
-      <description>A generalized identity links denoising posteriors under Gibbs noise to Stein scores via kernel scoring rules, enabling score estimation, noise-parameter estimation, and diffusion-…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2512.23818">Hugging Face Papers</source>
-      <guid isPermaLink="false">3d813fc394873ef86dad00ec4a73f857</guid>
-    </item>
-    <item>
-      <title>SWAM: Scaling World Action Models with Cross-Modal Alignment</title>
-      <link>https://huggingface.co/papers/2611.12870</link>
-      <description>World action models jointly predict video and actions conditioned on language.</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12870">Hugging Face Papers</source>
-      <guid isPermaLink="false">f00c9c326feef60aabba4e5f00a534a8</guid>
-    </item>
-    <item>
-      <title>Flide: Accelerating Decision Inference with Exact State Forking</title>
-      <link>https://huggingface.co/papers/2610.42148</link>
-      <description>Flide is an exact inference engine that accelerates decision-model LLM agents by decoupling logical request trees from physical execution and using ForkAttention to preserve exact…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.42148">Hugging Face Papers</source>
-      <guid isPermaLink="false">455c442f91f6d5b89f2a8a98872e8f26</guid>
-    </item>
-    <item>
-      <title>Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2611.12886</link>
-      <description>Reframe is a two-stage post-training framework that aligns visual agents’ observation states through evidence-aware reinforcement learning and observation-gated on-policy distilla…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12886">Hugging Face Papers</source>
-      <guid isPermaLink="false">e60667676202f903fb749ffc57d60d48</guid>
     </item>
   </channel>
 </rss>
