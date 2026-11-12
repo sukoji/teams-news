@@ -5,9 +5,108 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:33:35 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 17:01:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2610.39671</link>
+      <description>Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.39671">Hugging Face Papers</source>
+      <guid isPermaLink="false">0ce38ae102587f6e801b5864a1f1e082</guid>
+    </item>
+    <item>
+      <title>GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2611.13028</link>
+      <description>AAA games offer a rich testbed for evaluating agent perception, reasoning, and control.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13028">Hugging Face Papers</source>
+      <guid isPermaLink="false">db6f0f806d3316e18c73c4f315574495</guid>
+    </item>
+    <item>
+      <title>Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference</title>
+      <link>https://huggingface.co/papers/2611.10193</link>
+      <description>PISA and PISA-E use prompt-adaptive capability estimation to route prompts or select cost-aware ensembles, improving cost-performance trade-offs across LLM routing benchmarks.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.10193">Hugging Face Papers</source>
+      <guid isPermaLink="false">ebf3206eaaa1ba3fcbf47cca3cfbee60</guid>
+    </item>
+    <item>
+      <title>Scaling Mathematical Proof Supervision from Structured Textbooks</title>
+      <link>https://huggingface.co/papers/2610.40394</link>
+      <description>A large-scale corpus of structured proof-supervision records derived from university mathematics textbooks improves language model mathematical reasoning by 16.7 percentage points…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2610.40394">Hugging Face Papers</source>
+      <guid isPermaLink="false">5605712242da3270bef1e6ec6ae53983</guid>
+    </item>
+    <item>
+      <title>Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents</title>
+      <link>https://huggingface.co/papers/2608.22237</link>
+      <description>Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is neede…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2608.22237">Hugging Face Papers</source>
+      <guid isPermaLink="false">1a5a9ff48790ff2a03bf97ef73fce2f4</guid>
+    </item>
+    <item>
+      <title>One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction</title>
+      <link>https://huggingface.co/papers/2611.13001</link>
+      <description>A large aligned benchmark reveals that tabular generation, imputation, and prediction share useful conditional information but show distinct fidelity rankings and objective intera…</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.13001">Hugging Face Papers</source>
+      <guid isPermaLink="false">76da3ebe9713a814c8e981b1fe9af848</guid>
+    </item>
+    <item>
+      <title>Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds</title>
+      <link>https://huggingface.co/papers/2611.08286</link>
+      <description>Interactive Visual Gym enables closed-loop evaluation and training of visual interaction models by jointly simulating task environments and human users, exposing limitations in st…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.08286">Hugging Face Papers</source>
+      <guid isPermaLink="false">e2b8073f4e47a6ae89cb9f9a35e23c19</guid>
+    </item>
+    <item>
+      <title>Module-Aware Optimization for Graph Neural Networks</title>
+      <link>https://huggingface.co/papers/2611.08379</link>
+      <description>GraphMuon adapts Muon's matrix orthogonalization to the covariance of graph-propagated representations, reducing graph-induced update amplification and speeding validation-loss ti…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.08379">Hugging Face Papers</source>
+      <guid isPermaLink="false">4b14439484565a51ee680396b7914faa</guid>
+    </item>
+    <item>
+      <title>CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models</title>
+      <link>https://huggingface.co/papers/2607.24999</link>
+      <description>CogBattery compares open-weight language models to humans across cognitive tasks, revealing that matching effect directions does not imply human-like error patterns or confidence…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2607.24999">Hugging Face Papers</source>
+      <guid isPermaLink="false">9aeaea9c7b52abf80d8c10967f0193aa</guid>
+    </item>
+    <item>
+      <title>WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models</title>
+      <link>https://huggingface.co/papers/2603.27343</link>
+      <description>Large language models struggle with cumulative state tracking across multiple updates despite strong single-step arithmetic, and their measured accuracy depends heavily on output…</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2603.27343">Hugging Face Papers</source>
+      <guid isPermaLink="false">eba45eb3620759f0f6745d7e90bf6ff4</guid>
+    </item>
+    <item>
+      <title>LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting</title>
+      <link>https://huggingface.co/papers/2611.11912</link>
+      <description>A unified 4D world model jointly forecasts LiDAR point clouds and 3D semantic occupancy in a shared BEV latent space, improving accuracy and real-time throughput.</description>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.11912">Hugging Face Papers</source>
+      <guid isPermaLink="false">941181db16e3f1c76e9d0fd2d00f3630</guid>
+    </item>
     <item>
       <title>Embodied First Exam</title>
       <link>https://huggingface.co/papers/2611.12177</link>
@@ -358,105 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.09501">Hugging Face Papers</source>
       <guid isPermaLink="false">e74e760e6e514e227dc994d6b0618fe7</guid>
-    </item>
-    <item>
-      <title>Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization</title>
-      <link>https://huggingface.co/papers/2611.11995</link>
-      <description>In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons.</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.11995">Hugging Face Papers</source>
-      <guid isPermaLink="false">e4284db1de11fd44f5d3213a16b83424</guid>
-    </item>
-    <item>
-      <title>MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification</title>
-      <link>https://huggingface.co/papers/2611.10592</link>
-      <description>Large language models can generate motion graphics from static images and natural language requests, but it remains difficult to evaluate how well models can follow requests that…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.10592">Hugging Face Papers</source>
-      <guid isPermaLink="false">03cadd916e698d74df3437fec46d6524</guid>
-    </item>
-    <item>
-      <title>EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving</title>
-      <link>https://huggingface.co/papers/2611.11994</link>
-      <description>Small multimodal models can misjudge emotion when words, voice, and visual cues conflict.</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.11994">Hugging Face Papers</source>
-      <guid isPermaLink="false">04b53da4da48994969b66db94712aebb</guid>
-    </item>
-    <item>
-      <title>Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages</title>
-      <link>https://huggingface.co/papers/2611.10304</link>
-      <description>Challenging repository-level benchmarks remain limited for many programming language ecosystems, where filtering scarce candidates with ambiguous descriptions or defective tests c…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.10304">Hugging Face Papers</source>
-      <guid isPermaLink="false">496bf1c90d6fab03eb17b18944a7c7b3</guid>
-    </item>
-    <item>
-      <title>Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching</title>
-      <link>https://huggingface.co/papers/2501.08686</link>
-      <description>A knowledge graph-based retrieval-augmented generation method improves schema matching by retrieving relevant subgraphs and reducing large language model hallucinations without re…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2501.08686">Hugging Face Papers</source>
-      <guid isPermaLink="false">e27165a52468a17fe47809371dd28a9b</guid>
-    </item>
-    <item>
-      <title>Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation</title>
-      <link>https://huggingface.co/papers/2611.01112</link>
-      <description>Auriga, a task-agnostic agent harness, closes most of the planning-execution gap in zero-shot robot manipulation by combining explicit task beliefs, calibrated 3D measurements, du…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.01112">Hugging Face Papers</source>
-      <guid isPermaLink="false">a45cced0b49a54dd94940e071c34877e</guid>
-    </item>
-    <item>
-      <title>onóna: Twin Embeddings with Tied Unembeddings</title>
-      <link>https://huggingface.co/papers/2611.10556</link>
-      <description>A two-table weight-sharing method for Transformer language models improves output expressiveness and reduces validation loss and perplexity across several architectures and scales…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.10556">Hugging Face Papers</source>
-      <guid isPermaLink="false">a41ca8eb8cb1c97aa24231302fd93f5c</guid>
-    </item>
-    <item>
-      <title>RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill</title>
-      <link>https://huggingface.co/papers/2611.09709</link>
-      <description>RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt.</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.09709">Hugging Face Papers</source>
-      <guid isPermaLink="false">29939de46c5396cded3b4ff6fa682c3d</guid>
-    </item>
-    <item>
-      <title>LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation</title>
-      <link>https://huggingface.co/papers/2610.37570</link>
-      <description>LCM-Promo, a finetuned large language model trained on transactional commerce data, predicts promotion response through monotonic curves and single-token conversion-threshold prob…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.37570">Hugging Face Papers</source>
-      <guid isPermaLink="false">5a6c39bc222436dfc094d1a7299dd43d</guid>
-    </item>
-    <item>
-      <title>Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks</title>
-      <link>https://huggingface.co/papers/2611.12875</link>
-      <description>A framework for interactive geometric correction enables sparse human correspondence clicks to improve feed-forward 3D reconstruction by injecting constraints through a lightweigh…</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12875">Hugging Face Papers</source>
-      <guid isPermaLink="false">8cfc86d2b782e67b947af6552447abf5</guid>
-    </item>
-    <item>
-      <title>FraudBench: A Legal Evaluation of AI Deception</title>
-      <link>https://huggingface.co/papers/2611.12167</link>
-      <description>We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law.</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12167">Hugging Face Papers</source>
-      <guid isPermaLink="false">53cbdc4ed81de94553ed423d4727e396</guid>
     </item>
   </channel>
 </rss>

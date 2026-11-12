@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:33:35 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 17:01:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델</title>
+      <link>https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486</link>
+      <description>핵심 요약 Tether AI Research가 BotPsy 발표 글 과 함께 Qwen3.5-0.8B를 사후 학습한 0.8B 크기의 도구 호출용 모델 BotPsy-0.8B 를 Apache 2.0 라이선스로 공개했습니다. 개발사가 직접 측정한 도구 사용 벤치마크 6종 가운데 5종에서, 비교한 5개 모델 중 가장 높은 점수를 기록했습니다.</description>
+      <pubDate>Thu, 12 Nov 2026 12:30:37 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486">PyTorch Korea</source>
+      <guid isPermaLink="false">f86a24fe0974d8c577b3739cddce87e5</guid>
+    </item>
+    <item>
+      <title>Solo to Team: 여러 AI 에이전트에게 맡긴 작업을 회수하고 증거로 검증하는 협업 스킬 4종</title>
+      <link>https://discuss.pytorch.kr/t/solo-to-team-ai-4/12487</link>
+      <description>핵심 요약 Solo to Team 은 한 사람이 여러 AI 어시스턴트에게 작업을 나눠 맡길 때 따를 절차를 스킬 4종과 작업 등록 행 템플릿 1종으로 정리한 프로젝트입니다. 작업을 맡기기 전에 '수령 대기' 한 줄을 먼저 적고, 접수와 결과 수령, 검수 완료를 각각 다른 줄로 기록합니다. '검수 완료'나 '취소'가 기록된 작업만 미완료 목록에서 빠집니다.</description>
+      <pubDate>Thu, 12 Nov 2026 16:00:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/solo-to-team-ai-4/12487">PyTorch Korea</source>
+      <guid isPermaLink="false">5b370f0e0d02a6c6ef99366222aa2942</guid>
+    </item>
     <item>
       <title>Anthropic, Claude Fable 5.2와 Mythos 5.2 출시: 가격 인하와 최대 30% 빠른 출력 (feat. Opus 5.5)</title>
       <link>https://discuss.pytorch.kr/t/anthropic-claude-fable-5-2-mythos-5-2-30-feat-opus-5-5/12478</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/vocabx-qwen3-4b-77/12322">PyTorch Korea</source>
       <guid isPermaLink="false">82a1c1936de221a8430966c04c201ddf</guid>
-    </item>
-    <item>
-      <title>ThinkRail: Pi 코딩 에이전트를 Git 워크트리별로 병렬 실행하고 턴 단위로 검토하는 IDE (feat. JetBrains)</title>
-      <link>https://discuss.pytorch.kr/t/thinkrail-pi-git-ide-feat-jetbrains/12334</link>
-      <description>핵심 요약 ThinkRail 은 JetBrains가 인큐베이터 프로젝트로 공개한 에이전틱 IDE로, 터미널용 코딩 에이전트 Pi를 라이브러리로 내장해 웹 UI와 데스크톱 앱에서 쓰게 해 줍니다. 작업 공간마다 별도의 git worktree 와 브랜치를 만들어 여러 Pi 세션을 병렬로 실행하고, 에이전트가 한 번 실행되는 동안 바뀐 파일을 한 화면에 모아 검토할 수 있습니다.</description>
-      <pubDate>Fri, 30 Oct 2026 17:30:15 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/thinkrail-pi-git-ide-feat-jetbrains/12334">PyTorch Korea</source>
-      <guid isPermaLink="false">107be6b394553c49583231629711b8db</guid>
-    </item>
-    <item>
-      <title>Claude Code 팀의 코드 리뷰 방식: 병합 PR이 2배로 늘 때 되돌림 비율은 40% 넘게 줄인 방법 (feat. Anthropic)</title>
-      <link>https://discuss.pytorch.kr/t/claude-code-pr-2-40-feat-anthropic/12336</link>
-      <description>핵심 요약 Anthropic의 Claude Code 팀 코드 리뷰 글 에 따르면, 2026년 6월부터 9월까지 Claude Code 저장소의 병합 PR 수는 2배 넘게 늘었고 되돌린(revert) PR의 비율은 상대값으로 40% 넘게 줄었습니다.</description>
-      <pubDate>Fri, 30 Oct 2026 15:00:59 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-code-pr-2-40-feat-anthropic/12336">PyTorch Korea</source>
-      <guid isPermaLink="false">eee2b62c2cee136a215b7bb8d328fde5</guid>
     </item>
   </channel>
 </rss>
