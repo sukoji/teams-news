@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T12:33:34.746287+09:00",
+  "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
+  "item_count": 7,
+  "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "e172500d47d758bc0379a03b84bf1a11",
+          "index": 1,
+          "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+          "title_ko": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+          "summary": "Tree-Ising repairs reasoning loops in LLM weights by solving sparse Ising/QUBO problems over BF16 parameters, improving math benchmark accuracy with fewer weight edits and no gradient or LLM-token cost.",
+          "summary_ko": "Tree-Ising repairs reasoning loops in LLM weights by solving sparse Ising/QUBO problems over BF16 parameters, improving math benchmark accuracy with fewer weight edits and no grad…",
+          "url": "https://huggingface.co/papers/2611.14210",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-11-11T09:00:00+09:00",
+          "popularity": 164,
+          "upvotes": 77,
+          "score": 27.32,
+          "importance_score": 15.32,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "reasoning",
+            "benchmark"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 77
+          }
+        },
+        {
+          "id": "a91ed8fdf8e94d180b3b2c739e3195a1",
+          "index": 2,
+          "title": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
+          "title_ko": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
+          "summary": "Micius-Flash is a 27B-parameter multimodal reasoning model trained with a knowledge-tree data pipeline and multi-teacher on-policy distillation, achieving strong hardware and semiconductor agent benchmark results and su…",
+          "summary_ko": "Micius-Flash is a 27B-parameter multimodal reasoning model trained with a knowledge-tree data pipeline and multi-teacher on-policy distillation, achieving strong hardware and semi…",
+          "url": "https://huggingface.co/papers/2611.10015",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-11-11T09:00:00+09:00",
+          "popularity": 29,
+          "upvotes": 7,
+          "score": 24.2,
+          "importance_score": 10.2,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "multimodal",
+            "reasoning",
+            "benchmark"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "📰 News",
+      "items": [
+        {
+          "id": "f74fc977700408b35c3a849d8e2e37fd",
+          "index": 3,
+          "title": "구글, 차세대 경량 모델 '하이드로젠' 테스트…출시 임박 관측",
+          "title_ko": null,
+          "summary": "구글이 \\'하이드로젠(Hydrogen)\\'이라는 모델의 내부 테스트를 시작했다. 기존 고성능 모델보다 빠르고 저렴한 경량 모델로, 최근 공개한 \\'제미나이 4\\' 시리즈의 플래시(Flash)급 제품이 될 것으로 예상된다.",
+          "summary_ko": null,
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217308",
+          "source": "AI Times",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-11-12T12:22:39+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 19.96,
+          "importance_score": 19.92,
+          "matched_keywords": [
+            "모델"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "9b9637c9b54c09881e38dacefdb8890d",
+          "index": 4,
+          "title": "1년 앞당겼다…삼성 충청 온양캠퍼스 'AI 반도체 심장' 뛴다",
+          "title_ko": null,
+          "summary": "[지디넷코리아]충청권 일대에 삼성전자의 수백조 대규모 자본이 투입되는 첨단 산업 '메가 프로젝트'가 본격적인 닻을 올렸다.",
+          "summary_ko": null,
+          "url": "https://zdnet.co.kr/view/?no=20261112113651",
+          "source": "ZDNet Korea",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-11-12T11:57:05+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 19.87,
+          "importance_score": 19.75,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "e8f83b32a816aa299c97cf85a7f26fdf",
+          "index": 5,
+          "title": "SsKanDon/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+          "title_ko": "SsKanDon/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+          "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+          "summary_ko": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode.",
+          "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-12T02:41:53+09:00",
+          "popularity": 128,
+          "upvotes": 128,
+          "score": 39.96,
+          "importance_score": 22.9,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "gpt",
+            "claude",
+            "gemini",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 128
+          }
+        },
+        {
+          "id": "0d55c9b9c7200b937fe8c42c99cec526",
+          "index": 6,
+          "title": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+          "title_ko": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+          "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+          "summary_ko": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+          "url": "https://github.com/agentes-chat/agentes-chat",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-12T12:29:51+09:00",
+          "popularity": 365,
+          "upvotes": 365,
+          "score": 33.65,
+          "importance_score": 30.63,
+          "matched_keywords": [
+            "ai",
+            "agent"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 365
+          }
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "💬 Community",
+      "items": [
+        {
+          "id": "f86a24fe0974d8c577b3739cddce87e5",
+          "index": 7,
+          "title": "BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델",
+          "title_ko": null,
+          "summary": "핵심 요약 Tether AI Research가 BotPsy 발표 글 과 함께 Qwen3.5-0.8B를 사후 학습한 0.8B 크기의 도구 호출용 모델 BotPsy-0.8B 를 Apache 2.0 라이선스로 공개했습니다. 개발사가 직접 측정한 도구 사용 벤치마크 6종 가운데 5종에서, 비교한 5개 모델 중 가장 높은 점수를 기록했습니다.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-11-12T12:30:37+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 25.99,
+          "importance_score": 19.98,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "모델"
+          ],
+          "engagement": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "e172500d47d758bc0379a03b84bf1a11",
+      "index": 1,
+      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "title_ko": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "summary": "Tree-Ising repairs reasoning loops in LLM weights by solving sparse Ising/QUBO problems over BF16 parameters, improving math benchmark accuracy with fewer weight edits and no gradient or LLM-token cost.",
+      "summary_ko": "Tree-Ising repairs reasoning loops in LLM weights by solving sparse Ising/QUBO problems over BF16 parameters, improving math benchmark accuracy with fewer weight edits and no grad…",
+      "url": "https://huggingface.co/papers/2611.14210",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-11-11T09:00:00+09:00",
+      "popularity": 164,
+      "upvotes": 77,
+      "score": 27.32,
+      "importance_score": 15.32,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "reasoning",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 77
+      }
+    },
+    {
+      "id": "a91ed8fdf8e94d180b3b2c739e3195a1",
+      "index": 2,
+      "title": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
+      "title_ko": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
+      "summary": "Micius-Flash is a 27B-parameter multimodal reasoning model trained with a knowledge-tree data pipeline and multi-teacher on-policy distillation, achieving strong hardware and semiconductor agent benchmark results and su…",
+      "summary_ko": "Micius-Flash is a 27B-parameter multimodal reasoning model trained with a knowledge-tree data pipeline and multi-teacher on-policy distillation, achieving strong hardware and semi…",
+      "url": "https://huggingface.co/papers/2611.10015",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-11-11T09:00:00+09:00",
+      "popularity": 29,
+      "upvotes": 7,
+      "score": 24.2,
+      "importance_score": 10.2,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "multimodal",
+        "reasoning",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 7
+      }
+    },
+    {
+      "id": "f74fc977700408b35c3a849d8e2e37fd",
+      "index": 3,
+      "title": "구글, 차세대 경량 모델 '하이드로젠' 테스트…출시 임박 관측",
+      "title_ko": null,
+      "summary": "구글이 \\'하이드로젠(Hydrogen)\\'이라는 모델의 내부 테스트를 시작했다. 기존 고성능 모델보다 빠르고 저렴한 경량 모델로, 최근 공개한 \\'제미나이 4\\' 시리즈의 플래시(Flash)급 제품이 될 것으로 예상된다.",
+      "summary_ko": null,
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217308",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-11-12T12:22:39+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.96,
+      "importance_score": 19.92,
+      "matched_keywords": [
+        "모델"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "9b9637c9b54c09881e38dacefdb8890d",
+      "index": 4,
+      "title": "1년 앞당겼다…삼성 충청 온양캠퍼스 'AI 반도체 심장' 뛴다",
+      "title_ko": null,
+      "summary": "[지디넷코리아]충청권 일대에 삼성전자의 수백조 대규모 자본이 투입되는 첨단 산업 '메가 프로젝트'가 본격적인 닻을 올렸다.",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20261112113651",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-11-12T11:57:05+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.87,
+      "importance_score": 19.75,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "e8f83b32a816aa299c97cf85a7f26fdf",
+      "index": 5,
+      "title": "SsKanDon/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+      "title_ko": "SsKanDon/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "summary_ko": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode.",
+      "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-12T02:41:53+09:00",
+      "popularity": 128,
+      "upvotes": 128,
+      "score": 39.96,
+      "importance_score": 22.9,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "gpt",
+        "claude",
+        "gemini",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 128
+      }
+    },
+    {
+      "id": "0d55c9b9c7200b937fe8c42c99cec526",
+      "index": 6,
+      "title": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+      "title_ko": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+      "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+      "summary_ko": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-12T12:29:51+09:00",
+      "popularity": 365,
+      "upvotes": 365,
+      "score": 33.65,
+      "importance_score": 30.63,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 365
+      }
+    },
+    {
+      "id": "f86a24fe0974d8c577b3739cddce87e5",
+      "index": 7,
+      "title": "BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델",
+      "title_ko": null,
+      "summary": "핵심 요약 Tether AI Research가 BotPsy 발표 글 과 함께 Qwen3.5-0.8B를 사후 학습한 0.8B 크기의 도구 호출용 모델 BotPsy-0.8B 를 Apache 2.0 라이선스로 공개했습니다. 개발사가 직접 측정한 도구 사용 벤치마크 6종 가운데 5종에서, 비교한 5개 모델 중 가장 높은 점수를 기록했습니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-11-12T12:30:37+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 25.99,
+      "importance_score": 19.98,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "모델"
+      ],
+      "engagement": null
+    }
+  ]
+}
