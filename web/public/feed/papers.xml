@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:06:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:14:13 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Subliminal Learning in Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2611.08538</link>
+      <description>Subliminal learning can transfer hidden preferences from teacher to student vision-language models through unrelated visual tasks, affecting image choices and explanations.</description>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.08538">Hugging Face Papers</source>
+      <guid isPermaLink="false">2fb2688f3514684c18677ac27706487b</guid>
+    </item>
     <item>
       <title>Probing Transformer Representations Layer by Layer, Module by Module</title>
       <link>https://huggingface.co/papers/2611.11531</link>
@@ -448,15 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.12865">Hugging Face Papers</source>
       <guid isPermaLink="false">e9ae177b80297cc9d00eca261d493c6a</guid>
-    </item>
-    <item>
-      <title>Are Dense Rewards Worth Their Tokens in GRPO?</title>
-      <link>https://huggingface.co/papers/2611.13560</link>
-      <description>At matched compute, dense process rewards such as Monte-Carlo rewards underperform standard GRPO for language-model reasoning, while selecting prompts with predicted success near…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13560">Hugging Face Papers</source>
-      <guid isPermaLink="false">947606fc56ce646b7a02f7a9bd7c703a</guid>
     </item>
   </channel>
 </rss>
