@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Nov 2026 20:56:50 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 04:24:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Experience-Handoff Reinforcement Learning for Recursive Self-Improvement</title>
+      <link>https://huggingface.co/papers/2611.16409</link>
+      <description>Language-model agents trained with reinforcement learning can improve by learning to create and curate experience artifacts that help future rollouts, not just by optimizing actio…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.16409">Hugging Face Papers</source>
+      <guid isPermaLink="false">49d4abd7632427093d5e4e16cfc95a83</guid>
+    </item>
+    <item>
+      <title>Unbundling Multimodal Vision Encoding</title>
+      <link>https://huggingface.co/papers/2611.17334</link>
+      <description>Controlled experiments show that multimodal language models do not need a pretrained vision encoder, but benefit from dedicated vision capacity trained jointly with the backbone a…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17334">Hugging Face Papers</source>
+      <guid isPermaLink="false">aaf194677c45f29c1bd1e051c94fb67e</guid>
+    </item>
+    <item>
+      <title>The Value of Thinking: Learning When to Reason in Hybrid Decision Models</title>
+      <link>https://huggingface.co/papers/2611.16961</link>
+      <description>A hybrid decision model routes between implicit single-forward-pass answering and full autoregressive reasoning via a self-routing block trained with calibrated decision policy op…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.16961">Hugging Face Papers</source>
+      <guid isPermaLink="false">fa467b5fc1b8242609ad49c6ee54820e</guid>
+    </item>
+    <item>
+      <title>The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?</title>
+      <link>https://huggingface.co/papers/2611.12750</link>
+      <description>A benchmark of news articles and queries shows that current large language models cannot reliably help users navigate diverse multilingual narratives, leaving gaps in exposure to…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.12750">Hugging Face Papers</source>
+      <guid isPermaLink="false">a9e357e00d1632f042570e3c23d2a159</guid>
+    </item>
+    <item>
+      <title>A frontier machine intelligence for human neuroimaging</title>
+      <link>https://huggingface.co/papers/2611.15094</link>
+      <description>A vision-language model trained on nearly one million clinical neuroimaging studies interprets complete examinations, discusses findings in natural language, and outperforms exist…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.15094">Hugging Face Papers</source>
+      <guid isPermaLink="false">cb6bd25068f4fccfb7a1e8d6359160e1</guid>
+    </item>
     <item>
       <title>SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models</title>
       <link>https://huggingface.co/papers/2611.15777</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2607.24999">Hugging Face Papers</source>
       <guid isPermaLink="false">9aeaea9c7b52abf80d8c10967f0193aa</guid>
-    </item>
-    <item>
-      <title>WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models</title>
-      <link>https://huggingface.co/papers/2603.27343</link>
-      <description>Large language models struggle with cumulative state tracking across multiple updates despite strong single-step arithmetic, and their measured accuracy depends heavily on output…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2603.27343">Hugging Face Papers</source>
-      <guid isPermaLink="false">eba45eb3620759f0f6745d7e90bf6ff4</guid>
-    </item>
-    <item>
-      <title>LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting</title>
-      <link>https://huggingface.co/papers/2611.11912</link>
-      <description>A unified 4D world model jointly forecasts LiDAR point clouds and 3D semantic occupancy in a shared BEV latent space, improving accuracy and real-time throughput.</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.11912">Hugging Face Papers</source>
-      <guid isPermaLink="false">941181db16e3f1c76e9d0fd2d00f3630</guid>
-    </item>
-    <item>
-      <title>Embodied First Exam</title>
-      <link>https://huggingface.co/papers/2611.12177</link>
-      <description>Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots.</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12177">Hugging Face Papers</source>
-      <guid isPermaLink="false">1d5b0e2b8d6dd4c67e3a2b363237f533</guid>
-    </item>
-    <item>
-      <title>LEASH: Stay Safe in Agentic Robotics</title>
-      <link>https://huggingface.co/papers/2611.14115</link>
-      <description>Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence.</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.14115">Hugging Face Papers</source>
-      <guid isPermaLink="false">bc26fbf440c52f9d165b0989bdb21ddc</guid>
-    </item>
-    <item>
-      <title>Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking</title>
-      <link>https://huggingface.co/papers/2611.10486</link>
-      <description>Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality.</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.10486">Hugging Face Papers</source>
-      <guid isPermaLink="false">875ccc763e9921bd74f4f9aaa1482bd6</guid>
     </item>
   </channel>
 </rss>
