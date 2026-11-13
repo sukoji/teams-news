@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T12:06:21.823430+09:00",
+  "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
+  "item_count": 7,
+  "sections": [
+    {
+      "id": "papers",
+      "title": "📄 Papers",
+      "items": [
+        {
+          "id": "554e0ae150d4ac641f1da26ffd8c53c4",
+          "index": 1,
+          "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+          "title_ko": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+          "summary": "Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on corrected and reference turns.",
+          "summary_ko": "Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on correcte…",
+          "url": "https://huggingface.co/papers/2611.13410",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-11-12T09:00:00+09:00",
+          "popularity": 86,
+          "upvotes": 32,
+          "score": 25.4,
+          "importance_score": 13.4,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "agent",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 32
+          }
+        },
+        {
+          "id": "0ce38ae102587f6e801b5864a1f1e082",
+          "index": 2,
+          "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+          "title_ko": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+          "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks.",
+          "summary_ko": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks.",
+          "url": "https://huggingface.co/papers/2610.39671",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-11-12T09:00:00+09:00",
+          "popularity": 96,
+          "upvotes": 28,
+          "score": 23.72,
+          "importance_score": 13.72,
+          "matched_keywords": [
+            "llm",
+            "rag",
+            "reinforcement learning"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "📰 News",
+      "items": [
+        {
+          "id": "5e8d2a75bb82472ad9b8c57906f860c9",
+          "index": 3,
+          "title": "MS 주요 서비스 대규모 장애…국내 기업도 업무 차질",
+          "title_ko": null,
+          "summary": "마이크로소프트(MS)의 업무용 서비스인 MS365와 아웃룩, 팀스에서 대규모 접속 장애가 발생했다. 오픈AI와 앤스로픽의 MS365 연동 기능까지 영향을 받으면서 장애 여파가 확산했다. 국내 기업 업무에도 차질이 빚어지고 있다.",
+          "summary_ko": null,
+          "url": "https://www.etnews.com/20261113000090",
+          "source": "전자신문 IT",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-11-13T10:28:53+09:00",
+          "popularity": 96,
+          "upvotes": 0,
+          "score": 19.26,
+          "importance_score": 18.92,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
+        },
+        {
+          "id": "6fa265810c6174278215864bf31276b9",
+          "index": 4,
+          "title": "마키나락스, 3분기 만에 작년 연간 매출 돌파…피지컬 AI 성장 가속",
+          "title_ko": null,
+          "summary": "[지디넷코리아]마키나락스가 올해 3분기 만에 지난해 연간 매출을 넘어섰다. 3분기에는 역대 최대 분기 매출을 기록하며 피지컬 인공지능(AI) 사업 성장세를 이어갔다.마키나락스는 올해 3분기 누적 연결 매출 143억원을 기록했다고 13일 밝혔다. 지난해 같은 기간보다 190% 증가했으며 지난해 연간 매출 115억원도 24% 웃돌았다.3분기 매출은 72억원으로 역대 최대를 기록했다.",
+          "summary_ko": null,
+          "url": "https://zdnet.co.kr/view/?no=20261113115246",
+          "source": "ZDNet Korea",
+          "section": "📰 News",
+          "section_id": "news",
+          "published_at": "2026-11-13T11:53:52+09:00",
+          "popularity": 100,
+          "upvotes": 0,
+          "score": 19.96,
+          "importance_score": 19.91,
+          "matched_keywords": [
+            "ai"
+          ],
+          "engagement": null
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "0d55c9b9c7200b937fe8c42c99cec526",
+          "index": 5,
+          "title": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+          "title_ko": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+          "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+          "summary_ko": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+          "url": "https://github.com/agentes-chat/agentes-chat",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-13T11:56:36+09:00",
+          "popularity": 1208,
+          "upvotes": 1208,
+          "score": 37.47,
+          "importance_score": 34.43,
+          "matched_keywords": [
+            "ai",
+            "agent"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 1208
+          }
+        },
+        {
+          "id": "1095460669402be44a28454d210d77c3",
+          "index": 6,
+          "title": "molly554/whiteboard-ai-tutor — Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 2",
+          "title_ko": "molly554/whiteboard-ai-tutor — Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 2",
+          "summary": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测",
+          "summary_ko": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测",
+          "url": "https://github.com/molly554/whiteboard-ai-tutor",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-12T15:30:40+09:00",
+          "popularity": 63,
+          "upvotes": 63,
+          "score": 32.27,
+          "importance_score": 15.98,
+          "matched_keywords": [
+            "ai",
+            "llm",
+            "claude",
+            "gemini",
+            "benchmark"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 63
+          }
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "💬 Community",
+      "items": [
+        {
+          "id": "f86a24fe0974d8c577b3739cddce87e5",
+          "index": 7,
+          "title": "BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델",
+          "title_ko": null,
+          "summary": "핵심 요약 Tether AI Research가 BotPsy 발표 글 과 함께 Qwen3.5-0.8B를 사후 학습한 0.8B 크기의 도구 호출용 모델 BotPsy-0.8B 를 Apache 2.0 라이선스로 공개했습니다. 개발사가 직접 측정한 도구 사용 벤치마크 6종 가운데 5종에서, 비교한 5개 모델 중 가장 높은 점수를 기록했습니다.",
+          "summary_ko": null,
+          "url": "https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486",
+          "source": "PyTorch Korea",
+          "section": "💬 Community",
+          "section_id": "community",
+          "published_at": "2026-11-12T12:30:37+09:00",
+          "popularity": 96,
+          "upvotes": 0,
+          "score": 20.68,
+          "importance_score": 9.77,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "모델"
+          ],
+          "engagement": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "554e0ae150d4ac641f1da26ffd8c53c4",
+      "index": 1,
+      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "title_ko": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "summary": "Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on corrected and reference turns.",
+      "summary_ko": "Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on correcte…",
+      "url": "https://huggingface.co/papers/2611.13410",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-11-12T09:00:00+09:00",
+      "popularity": 86,
+      "upvotes": 32,
+      "score": 25.4,
+      "importance_score": 13.4,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "agent",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 32
+      }
+    },
+    {
+      "id": "0ce38ae102587f6e801b5864a1f1e082",
+      "index": 2,
+      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "title_ko": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks.",
+      "summary_ko": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks.",
+      "url": "https://huggingface.co/papers/2610.39671",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-11-12T09:00:00+09:00",
+      "popularity": 96,
+      "upvotes": 28,
+      "score": 23.72,
+      "importance_score": 13.72,
+      "matched_keywords": [
+        "llm",
+        "rag",
+        "reinforcement learning"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 28
+      }
+    },
+    {
+      "id": "5e8d2a75bb82472ad9b8c57906f860c9",
+      "index": 3,
+      "title": "MS 주요 서비스 대규모 장애…국내 기업도 업무 차질",
+      "title_ko": null,
+      "summary": "마이크로소프트(MS)의 업무용 서비스인 MS365와 아웃룩, 팀스에서 대규모 접속 장애가 발생했다. 오픈AI와 앤스로픽의 MS365 연동 기능까지 영향을 받으면서 장애 여파가 확산했다. 국내 기업 업무에도 차질이 빚어지고 있다.",
+      "summary_ko": null,
+      "url": "https://www.etnews.com/20261113000090",
+      "source": "전자신문 IT",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-11-13T10:28:53+09:00",
+      "popularity": 96,
+      "upvotes": 0,
+      "score": 19.26,
+      "importance_score": 18.92,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "6fa265810c6174278215864bf31276b9",
+      "index": 4,
+      "title": "마키나락스, 3분기 만에 작년 연간 매출 돌파…피지컬 AI 성장 가속",
+      "title_ko": null,
+      "summary": "[지디넷코리아]마키나락스가 올해 3분기 만에 지난해 연간 매출을 넘어섰다. 3분기에는 역대 최대 분기 매출을 기록하며 피지컬 인공지능(AI) 사업 성장세를 이어갔다.마키나락스는 올해 3분기 누적 연결 매출 143억원을 기록했다고 13일 밝혔다. 지난해 같은 기간보다 190% 증가했으며 지난해 연간 매출 115억원도 24% 웃돌았다.3분기 매출은 72억원으로 역대 최대를 기록했다.",
+      "summary_ko": null,
+      "url": "https://zdnet.co.kr/view/?no=20261113115246",
+      "source": "ZDNet Korea",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-11-13T11:53:52+09:00",
+      "popularity": 100,
+      "upvotes": 0,
+      "score": 19.96,
+      "importance_score": 19.91,
+      "matched_keywords": [
+        "ai"
+      ],
+      "engagement": null
+    },
+    {
+      "id": "0d55c9b9c7200b937fe8c42c99cec526",
+      "index": 5,
+      "title": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+      "title_ko": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels a",
+      "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+      "summary_ko": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs.",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-13T11:56:36+09:00",
+      "popularity": 1208,
+      "upvotes": 1208,
+      "score": 37.47,
+      "importance_score": 34.43,
+      "matched_keywords": [
+        "ai",
+        "agent"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 1208
+      }
+    },
+    {
+      "id": "1095460669402be44a28454d210d77c3",
+      "index": 6,
+      "title": "molly554/whiteboard-ai-tutor — Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 2",
+      "title_ko": "molly554/whiteboard-ai-tutor — Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 2",
+      "summary": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测",
+      "summary_ko": "Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek): 288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测",
+      "url": "https://github.com/molly554/whiteboard-ai-tutor",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-12T15:30:40+09:00",
+      "popularity": 63,
+      "upvotes": 63,
+      "score": 32.27,
+      "importance_score": 15.98,
+      "matched_keywords": [
+        "ai",
+        "llm",
+        "claude",
+        "gemini",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 63
+      }
+    },
+    {
+      "id": "f86a24fe0974d8c577b3739cddce87e5",
+      "index": 7,
+      "title": "BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델",
+      "title_ko": null,
+      "summary": "핵심 요약 Tether AI Research가 BotPsy 발표 글 과 함께 Qwen3.5-0.8B를 사후 학습한 0.8B 크기의 도구 호출용 모델 BotPsy-0.8B 를 Apache 2.0 라이선스로 공개했습니다. 개발사가 직접 측정한 도구 사용 벤치마크 6종 가운데 5종에서, 비교한 5개 모델 중 가장 높은 점수를 기록했습니다.",
+      "summary_ko": null,
+      "url": "https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486",
+      "source": "PyTorch Korea",
+      "section": "💬 Community",
+      "section_id": "community",
+      "published_at": "2026-11-12T12:30:37+09:00",
+      "popularity": 96,
+      "upvotes": 0,
+      "score": 20.68,
+      "importance_score": 9.77,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "모델"
+      ],
+      "engagement": null
+    }
+  ]
+}
