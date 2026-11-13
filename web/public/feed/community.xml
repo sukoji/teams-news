@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:14:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 20:56:50 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[오픈소스] HWP까지 읽는 문서 → Markdown 변환기 OpenDocKit을 만들었습니다 (LangChain, LlamaIndex, MCP 지원)</title>
+      <link>https://discuss.pytorch.kr/t/hwp-markdown-opendockit-langchain-llamaindex-mcp/12505</link>
+      <description>안녕하세요. 문서를 LLM에 넣기 좋은 Markdown으로 바꿔 주는 Python 라이브러리 OpenDocKit 을 만들어 오픈소스(MIT)로 공개했습니다. 사내 문서로 RAG를 만들다 보면 검색이나 모델보다 먼저 변환 단계에서 막힙니다.</description>
+      <pubDate>Fri, 13 Nov 2026 17:28:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/hwp-markdown-opendockit-langchain-llamaindex-mcp/12505">PyTorch Korea</source>
+      <guid isPermaLink="false">0701a51de4b727af24e0312cd537e9ba</guid>
+    </item>
+    <item>
+      <title>tang: 연산자별 커널 없이 FlashAttention 순전파와 역전파를 유도하는 Rust 텐서 컴파일러</title>
+      <link>https://discuss.pytorch.kr/t/tang-flashattention-rust/12502</link>
+      <description>핵심 요약 휴머노이드 Rose 등 오픈소스 로봇을 만드는 Municipal Robotics의 Cam Pedersen이 연구 보고서 "Don't Write Kernels, Derive Them" 을 공개했습니다.</description>
+      <pubDate>Fri, 13 Nov 2026 20:00:29 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/tang-flashattention-rust/12502">PyTorch Korea</source>
+      <guid isPermaLink="false">4e7796e0ed09f9a2884401f61f163766</guid>
+    </item>
+    <item>
+      <title>Global Weather Model Leaderboard: 전 세계 기상 예측 모델을 매일 같은 조건으로 채점하는 공개 리더보드 공개</title>
+      <link>https://discuss.pytorch.kr/t/global-weather-model-leaderboard/12506</link>
+      <description>소개 VIDRAFT가 Hugging Face에 기상 예측 관련 공개물 두 가지를 올렸습니다. 하나는 전 세계 주요 예보 모델의 정확도를 매일 채점하는 Global Weather Model Leaderboard 이고, 다른 하나는 여러 전 지구 예보를 융합하는 예측 시스템 Darwin-Prediction-Weather 입니다.</description>
+      <pubDate>Fri, 13 Nov 2026 19:57:35 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/global-weather-model-leaderboard/12506">PyTorch Korea</source>
+      <guid isPermaLink="false">af9058f84d84b0a51dcac1a9f5d4fc78</guid>
+    </item>
+    <item>
+      <title>Arete-27B: SFT만으로 중국 정부의 정치적 입장을 대변하는 답변을 22% → 0.9%로 개선한 Qwen3.8-27B 기반 모델 (feat. NousResearch)</title>
+      <link>https://discuss.pytorch.kr/t/arete-27b-sft-22-0-9-qwen3-8-27b-feat-nousresearch/12493</link>
+      <description>핵심 요약 Nous Research 가 Arete-27B 소개 글 에서 Alibaba의 Qwen3.8-27B를 지도 미세조정(SFT)만으로 다시 학습한 Arete-27B를 Apache 2.0으로 공개했습니다. 정치적으로 민감한 질문에서 중국 정부의 시각을 그대로 따르는 답변을 줄이는 것이 목표입니다.</description>
+      <pubDate>Fri, 13 Nov 2026 16:30:56 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/arete-27b-sft-22-0-9-qwen3-8-27b-feat-nousresearch/12493">PyTorch Korea</source>
+      <guid isPermaLink="false">1943340f957e21cd3e7386722a8e6b4d</guid>
+    </item>
+    <item>
+      <title>RTX 4090 한 장에서 오픈 모델 속도, VRAM, 정확도, 라이선스를 재서 공개한 사이트를 만들었습니다</title>
+      <link>https://discuss.pytorch.kr/t/rtx-4090-vram/12500</link>
+      <description>안녕하세요. 제가 만든 사이트입니다. https://modelsthatrun.dev 광고 없고, 가입 없고, 수익화 계획도 없습니다.</description>
+      <pubDate>Fri, 13 Nov 2026 15:38:31 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rtx-4090-vram/12500">PyTorch Korea</source>
+      <guid isPermaLink="false">db2ab4fe41bbfd88fc9f11205ff037a4</guid>
+    </item>
     <item>
       <title>Google, 에이전트가 텍스트 대신 네이티브 화면으로 답하게 하는 생성형 UI 프로토콜 A2UI 1.0 공개 (feat. MCP Apps)</title>
       <link>https://discuss.pytorch.kr/t/google-ui-a2ui-1-0-feat-mcp-apps/12496</link>
@@ -412,51 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-gemini-4-carbon-argon-aa-1/12361">PyTorch Korea</source>
       <guid isPermaLink="false">40d471400ee298283a9bf3d7e583ffbd</guid>
-    </item>
-    <item>
-      <title>[프로젝트 공유] day-trader-skill-kr: 미국 주식 전용 Day Trader Skill을 국내 주식용으로 옮기고, 장기 투자 검증·대가 점검표·논지 추적을 더한 Claude 스킬 묶음</title>
-      <link>https://discuss.pytorch.kr/t/day-trader-skill-kr-day-trader-skill-claude/12373</link>
-      <description>며칠 전 이 게시판에 Day Trader Skill이 소개됐습니다. 미국 주식 데이 트레이딩의 한 거래를 Claude 스킬로 나누고, 숫자는 Python이 계산하고, 주문은 사람이 승인해야 나가는 프로젝트였습니다. 소개 글 끝에 "국내 주식에는 쓸 수 없다"는 말이 있어서, 원본의 원칙은 그대로 두고 국내 시장으로 옮겨 봤습니다.</description>
-      <pubDate>Sun, 01 Nov 2026 19:53:38 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/day-trader-skill-kr-day-trader-skill-claude/12373">PyTorch Korea</source>
-      <guid isPermaLink="false">238be90c850f98176e47a3a4ad4b0ebd</guid>
-    </item>
-    <item>
-      <title>AI는 조직도의 아래, 옆, 사이 중 어디로 들어올까: 기업의 미래에 대한 세 가지 시나리오와 네 가지 질문 (feat. OpenAI)</title>
-      <link>https://discuss.pytorch.kr/t/ai-feat-openai/12362</link>
-      <description>핵심 요약 OpenAI의 Intelligence Age 블로그가 2026년 10월 28일 에세이 기업의 미래(The future of the firm) 를 공개했습니다. AI가 기업 조직도에 들어가는 경로를 사람 아래(승진), 옆(동료로 합류), 사이(중간 계층 추가)의 세 가지 시나리오로 나눕니다.</description>
-      <pubDate>Sun, 01 Nov 2026 17:30:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-feat-openai/12362">PyTorch Korea</source>
-      <guid isPermaLink="false">b0972007e7467ad496ca715cc13f0fde</guid>
-    </item>
-    <item>
-      <title>Qwenputer, Gated DeltaNet 상태를 RAM으로 취급하여 가중치에 RISC-V CPU를 넣은 실험적 모델</title>
-      <link>https://discuss.pytorch.kr/t/qwenputer-gated-deltanet-ram-risc-v-cpu/12365</link>
-      <description>핵심 요약 Qwenputer 는 Qwen3.5-4B 앞에 32비트 RISC-V CPU(RV32IM)를 11개 층으로 붙인 실험 모델입니다. 이 층의 가중치는 학습이 아니라 컴파일러가 계산했고, CPU의 메모리로는 이 층들이 가진 Gated DeltaNet 상태를 씁니다. Qwen3.5와 같은 종류의 층이라 새 층 유형은 필요 없습니다.</description>
-      <pubDate>Sun, 01 Nov 2026 17:00:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/qwenputer-gated-deltanet-ram-risc-v-cpu/12365">PyTorch Korea</source>
-      <guid isPermaLink="false">70a68fb71dff99f0d49f38a789eec2cc</guid>
-    </item>
-    <item>
-      <title>uzu: Mac과 iPhone 앱에 내장해 로컬 LLM을 실행하는 Apple Silicon용 Rust 추론 엔진</title>
-      <link>https://discuss.pytorch.kr/t/uzu-mac-iphone-llm-apple-silicon-rust/12363</link>
-      <description>핵심 요약 uzu 는 런던의 Mirai가 MIT 라이선스로 공개한 Rust 추론 엔진으로, Swift, Python, TypeScript, Rust 앱 안에서 Mac과 iPhone의 GPU(Metal)로 LLM을 실행합니다.</description>
-      <pubDate>Sun, 01 Nov 2026 10:30:33 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/uzu-mac-iphone-llm-apple-silicon-rust/12363">PyTorch Korea</source>
-      <guid isPermaLink="false">b271e5c2e625b0b42fda89cb5c037a4d</guid>
-    </item>
-    <item>
-      <title>neuron explorer: 최대 활성 예시 대신 스티어링 결과로 Qwen3.5-4B 뉴런을 읽는 탐색기</title>
-      <link>https://discuss.pytorch.kr/t/neuron-explorer-qwen3-5-4b/12310</link>
-      <description>핵심 요약 neuron explorer 는 Qwen3.5-4B의 한 층에 있는 MLP 뉴런 9,216개를 하나씩 위아래로 밀어 본 생성 결과를 모두 남기고, 무작위 방향 대조군과 비교해 순위를 매긴 뒤 3D 지도 위에서 탐색하는 도구입니다. 웹 텍스트에서 가장 크게 반응한 예시가 아니라 "이 뉴런을 밀면 모델이 무엇을 쓰는가"로 뉴런을 해석하려는 해석 가능성 연구자가 대상입니다.</description>
-      <pubDate>Sat, 31 Oct 2026 19:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/neuron-explorer-qwen3-5-4b/12310">PyTorch Korea</source>
-      <guid isPermaLink="false">c7760bc672f316d198196a53aab7dbee</guid>
     </item>
   </channel>
 </rss>
