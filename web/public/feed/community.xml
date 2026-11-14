@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Nov 2026 16:27:08 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 23:51:29 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>FlashStates: 하이브리드 LLM 에이전트 서빙에서 Prefix Cache 재계산을 줄이는 상태 관리에 대한 연구 및 vLLM 확장</title>
+      <link>https://discuss.pytorch.kr/t/flashstates-llm-prefix-cache-vllm/12511</link>
+      <description>핵심 요약 FlashStates 는 Together AI, 일리노이 대학교 어배너-섐페인(UIUC), 텍사스 대학교 오스틴(UT Austin) 연구팀이 공개한 vLLM 확장입니다. 어텐션과 선형 어텐션(또는 상태 공간) 레이어를 섞은 하이브리드 모델을 코딩 에이전트처럼 문맥이 계속 길어지는 워크로드로 서빙할 때, 다시 계산하는 프리필을 줄입니다.</description>
+      <pubDate>Sat, 14 Nov 2026 18:30:49 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/flashstates-llm-prefix-cache-vllm/12511">PyTorch Korea</source>
+      <guid isPermaLink="false">9427020bbabf383fc0feb5f88d8015b1</guid>
+    </item>
     <item>
       <title>[오픈소스] HWP까지 읽는 문서 → Markdown 변환기 OpenDocKit을 만들었습니다 (LangChain, LlamaIndex, MCP 지원)</title>
       <link>https://discuss.pytorch.kr/t/hwp-markdown-opendockit-langchain-llamaindex-mcp/12505</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/nvidia-40-nemotron-3-5-transcribe-feat-granary-v2/12368">PyTorch Korea</source>
       <guid isPermaLink="false">56e512c9759fde56deba52bfae2bb2d5</guid>
-    </item>
-    <item>
-      <title>Google, Gemini 4 Carbon 출시: Argon과 같은 가격에 AA 지수 1위, 사이버 방어 기관부터 제공</title>
-      <link>https://discuss.pytorch.kr/t/google-gemini-4-carbon-argon-aa-1/12361</link>
-      <description>핵심 요약 Google은 10월 28일 Gemini 4 Carbon 발표 글 에서 Argon 일반 출시 2주 만에 후속 프런티어 모델을 공개했습니다. Artificial Analysis Intelligence Index v5.0에서 59점으로 1위이고, 2위 Claude Opus 5.5와는 1점 차입니다. 이번 주부터는 일부 사이버 방어 기관만 쓸 수 있습니다.</description>
-      <pubDate>Sun, 01 Nov 2026 20:00:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/google-gemini-4-carbon-argon-aa-1/12361">PyTorch Korea</source>
-      <guid isPermaLink="false">40d471400ee298283a9bf3d7e583ffbd</guid>
     </item>
   </channel>
 </rss>
