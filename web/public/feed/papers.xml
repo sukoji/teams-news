@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Nov 2026 04:24:06 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 09:44:54 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates</title>
+      <link>https://huggingface.co/papers/2611.09567</link>
+      <description>Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.09567">Hugging Face Papers</source>
+      <guid isPermaLink="false">afbcdb2768e3669c29df9d603653b51e</guid>
+    </item>
+    <item>
+      <title>Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes</title>
+      <link>https://huggingface.co/papers/2611.17190</link>
+      <description>Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable.</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17190">Hugging Face Papers</source>
+      <guid isPermaLink="false">5f723730bef891ebb8f0859855ee75d8</guid>
+    </item>
+    <item>
+      <title>EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming</title>
+      <link>https://huggingface.co/papers/2611.16728</link>
+      <description>EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations…</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.16728">Hugging Face Papers</source>
+      <guid isPermaLink="false">82d14f4913d4309fb6f69df56eeb2af9</guid>
+    </item>
+    <item>
+      <title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space</title>
+      <link>https://huggingface.co/papers/2611.17336</link>
+      <description>Frontier video generation models work in a VAE latent space that compresses video in both space and time.</description>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17336">Hugging Face Papers</source>
+      <guid isPermaLink="false">66421629b6c0b7aa866b728a54a6b98c</guid>
+    </item>
     <item>
       <title>Experience-Handoff Reinforcement Learning for Recursive Self-Improvement</title>
       <link>https://huggingface.co/papers/2611.16409</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2608.22237">Hugging Face Papers</source>
       <guid isPermaLink="false">1a5a9ff48790ff2a03bf97ef73fce2f4</guid>
-    </item>
-    <item>
-      <title>One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction</title>
-      <link>https://huggingface.co/papers/2611.13001</link>
-      <description>A large aligned benchmark reveals that tabular generation, imputation, and prediction share useful conditional information but show distinct fidelity rankings and objective intera…</description>
-      <pubDate>Wed, 11 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13001">Hugging Face Papers</source>
-      <guid isPermaLink="false">76da3ebe9713a814c8e981b1fe9af848</guid>
-    </item>
-    <item>
-      <title>Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds</title>
-      <link>https://huggingface.co/papers/2611.08286</link>
-      <description>Interactive Visual Gym enables closed-loop evaluation and training of visual interaction models by jointly simulating task environments and human users, exposing limitations in st…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.08286">Hugging Face Papers</source>
-      <guid isPermaLink="false">e2b8073f4e47a6ae89cb9f9a35e23c19</guid>
-    </item>
-    <item>
-      <title>Module-Aware Optimization for Graph Neural Networks</title>
-      <link>https://huggingface.co/papers/2611.08379</link>
-      <description>GraphMuon adapts Muon's matrix orthogonalization to the covariance of graph-propagated representations, reducing graph-induced update amplification and speeding validation-loss ti…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.08379">Hugging Face Papers</source>
-      <guid isPermaLink="false">4b14439484565a51ee680396b7914faa</guid>
-    </item>
-    <item>
-      <title>CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models</title>
-      <link>https://huggingface.co/papers/2607.24999</link>
-      <description>CogBattery compares open-weight language models to humans across cognitive tasks, revealing that matching effect directions does not imply human-like error patterns or confidence…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2607.24999">Hugging Face Papers</source>
-      <guid isPermaLink="false">9aeaea9c7b52abf80d8c10967f0193aa</guid>
     </item>
   </channel>
 </rss>
