@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 15 Nov 2026 14:19:43 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 22:37:24 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Saltline: Claude Fable 5.2가 지시 한 번으로 만든 HTML 파일 하나짜리 브라우저 FPS 게임</title>
+      <link>https://discuss.pytorch.kr/t/saltline-claude-fable-5-2-html-fps/12512</link>
+      <description>핵심 요약 Saltline 은 Anthropic의 Felix Rieseberg가 Claude Fable 5.2로 사람의 중간 피드백 없이 만든 브라우저 1인칭 슈팅(FPS) 게임입니다. 이 저장소는 그 공개 아티팩트를 로컬에서 실행할 수 있게 옮긴 제3자의 미러입니다. Felix는 이후 2시간을 더 들여 무기 모델과 사운드, 게임플레이를 손본 개선판으로 원래 아티팩트 주소를 바꿨습니다.</description>
+      <pubDate>Sun, 15 Nov 2026 16:00:27 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/saltline-claude-fable-5-2-html-fps/12512">PyTorch Korea</source>
+      <guid isPermaLink="false">cd08483001309c974e845e05461da9e7</guid>
+    </item>
+    <item>
+      <title>SimReady 에셋으로 Isaac Sim에서 UR17G 팔이 캔을 옮기는 픽 앤 플레이스 만들기 (feat. NVIDIA)</title>
+      <link>https://discuss.pytorch.kr/t/simready-isaac-sim-ur17g-feat-nvidia/12508</link>
+      <description>핵심 요약 NVIDIA가 Hugging Face에 올린 SimReady 픽 앤 플레이스 튜토리얼 은 UR17G 로봇 팔, Robotiq 2F-140 그리퍼, 음료 캔 에셋으로 Isaac Sim 6.2에서 픽 앤 플레이스 장면을 만듭니다. 조립과 제어 코드는 에이전트(GPT-6 Sol)가 맡습니다.</description>
+      <pubDate>Sun, 15 Nov 2026 20:00:47 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/simready-isaac-sim-ur17g-feat-nvidia/12508">PyTorch Korea</source>
+      <guid isPermaLink="false">af6ee23df42dff5471129461a217e0d6</guid>
+    </item>
     <item>
       <title>devvm: 프로젝트마다 전용 VM에서 코딩 에이전트를 실행하고 토큰은 내 컴퓨터에 두는 샌드박스</title>
       <link>https://discuss.pytorch.kr/t/devvm-vm/12515</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/scenemaker/12378">PyTorch Korea</source>
       <guid isPermaLink="false">c99ae611ad4716559778a654c0a1fc12</guid>
-    </item>
-    <item>
-      <title>[2026/10/26 ~ 11/01] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-10-26-11-01-ai-ml/12374</link>
-      <description>PyTorchKR​ 이번 주 선정된 10편의 논문들을 살펴본 결과, 다음과 같은 주요한 연구 트렌드를 발견할 수 있었습니다: 에이전트 작업 효율화를 위한 소형 언어 모델(SLM)의 전문화 및 협업 : 이번 주 선정된 논문들에서는 복잡한 에이전트 시스템을 구동할 때 발생하는 막대한 비용을 줄이기 위해, 소형 모델을 적극적으로 활용하고 역할을 분담하는 연구가 두드러졌습니다.</description>
-      <pubDate>Mon, 02 Nov 2026 06:30:04 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-10-26-11-01-ai-ml/12374">PyTorch Korea</source>
-      <guid isPermaLink="false">33c8550c5d057d9b554c6eb0e4ba6a2b</guid>
-    </item>
-    <item>
-      <title>ViKernel 기술 분석: 모델 가중치 안에 운영체제와 킬스위치를 넣는다는 것의 의미</title>
-      <link>https://discuss.pytorch.kr/t/vikernel/12376</link>
-      <description>ViKernel 기술 분석: 모델 가중치 안에 운영체제와 킬스위치를 넣는다는 것의 의미 대상: VIDRAFT 「ViKernel : Weight-Native OS」 공개 데모(Demo v0.1) 관점: 공개된 데모와 공식 설명을 기준으로 한 제3자 기술 분석입니다. 내부 구현은 공개되지 않았으므로, 구현 방식에 대한 서술은 공개 자료에서 추론한 일반론으로 한정합니다.</description>
-      <pubDate>Mon, 02 Nov 2026 08:41:51 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vikernel/12376">PyTorch Korea</source>
-      <guid isPermaLink="false">b65ee37b2456b0e73f3f4b9b8f773c21</guid>
     </item>
   </channel>
 </rss>
