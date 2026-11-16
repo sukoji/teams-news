@@ -5,9 +5,117 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 11:32:14 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 14:18:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent</title>
+      <link>https://huggingface.co/papers/2611.18397</link>
+      <description>Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18397">Hugging Face Papers</source>
+      <guid isPermaLink="false">96bff3e1764aeee2783ef75a489cd9de</guid>
+    </item>
+    <item>
+      <title>Envisioning Agentic Robotics: A New Era of Robotic Systems</title>
+      <link>https://huggingface.co/papers/2611.18359</link>
+      <description>Agentic robotics, centered on an Embodied System 2 formed by a foundation model and embodied harness, requires a shared evaluation framework and research roadmap to achieve reliab…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18359">Hugging Face Papers</source>
+      <guid isPermaLink="false">110227c037e2220df2e98f1799e92c62</guid>
+    </item>
+    <item>
+      <title>Emergent Biological Capabilities in a Foundation Model for Molecular Interactions</title>
+      <link>https://huggingface.co/papers/2611.14504</link>
+      <description>Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective.</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.14504">Hugging Face Papers</source>
+      <guid isPermaLink="false">b43ddf9631480905c5673df09b8df0d7</guid>
+    </item>
+    <item>
+      <title>JVT: Just Video Transformer makes pixel-space video diffusion simple</title>
+      <link>https://huggingface.co/papers/2611.18549</link>
+      <description>JVT, a simple large-patch DiT-style Transformer, enables pixel-space video diffusion without pretrained autoencoders or U-Net skip connections, achieving competitive quality and s…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18549">Hugging Face Papers</source>
+      <guid isPermaLink="false">3faba7ed5de19ce79d797de2c49d4294</guid>
+    </item>
+    <item>
+      <title>Aligning AI Teams</title>
+      <link>https://huggingface.co/papers/2611.17820</link>
+      <description>Alignment training on individual LLM agents often fails to transfer to multi-agent teams, but designating a safety lead and having a coordinator publish safety specifications can…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17820">Hugging Face Papers</source>
+      <guid isPermaLink="false">56773eaaaf00bd35d55fc097b5cb98ef</guid>
+    </item>
+    <item>
+      <title>GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs</title>
+      <link>https://huggingface.co/papers/2611.06866</link>
+      <description>Agentic workflows enable AI agents to perform recurring repository tasks on schedules or in response to repository events.</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.06866">Hugging Face Papers</source>
+      <guid isPermaLink="false">85d47f522935ce3452a2e40cef2956d0</guid>
+    </item>
+    <item>
+      <title>Loopback Transformer: Towards a Unified View of Residual Looped Transformers</title>
+      <link>https://huggingface.co/papers/2611.07226</link>
+      <description>A looped Transformer that separately controls input strength, total update weight, and per-update allocation achieves lower validation loss and higher downstream accuracy than sta…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.07226">Hugging Face Papers</source>
+      <guid isPermaLink="false">445dd1b17f284a5e09bf932249b8ae3f</guid>
+    </item>
+    <item>
+      <title>AI Reviews Are Biased Towards the Appendix</title>
+      <link>https://huggingface.co/papers/2611.17811</link>
+      <description>Large language models used for peer review draw about half or more of their identified weaknesses from paper appendices, whereas human reviewers draw only 8.4% and focus on presen…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17811">Hugging Face Papers</source>
+      <guid isPermaLink="false">f32ab78e913ea1eaad35c0957914d177</guid>
+    </item>
+    <item>
+      <title>Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding</title>
+      <link>https://huggingface.co/papers/2611.12901</link>
+      <description>StepRefine, a plug-and-play decoding strategy, mitigates hallucinations in multimodal diffusion language models by switching between discrete denoising and latent refinement based…</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.12901">Hugging Face Papers</source>
+      <guid isPermaLink="false">5b3d830cd7bb8f2f1feb44af3255bd0f</guid>
+    </item>
+    <item>
+      <title>MEM-SQL: Memory-Empowered Text-to-SQL</title>
+      <link>https://huggingface.co/papers/2611.18338</link>
+      <description>A history-aware benchmark and memory-powered method improve Text-to-SQL accuracy and reduce cost by reusing verified SQL components and consulting schemas on demand.</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18338">Hugging Face Papers</source>
+      <guid isPermaLink="false">0582c060b46a8b28534284b3cb4a3224</guid>
+    </item>
+    <item>
+      <title>HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation</title>
+      <link>https://huggingface.co/papers/2611.16439</link>
+      <description>Learning whole-body mobile manipulation requires demonstrations that coordinate bimanual actions with locomotion across extended workspaces.</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.16439">Hugging Face Papers</source>
+      <guid isPermaLink="false">23413026e428322a9e3ff43181c89d4c</guid>
+    </item>
+    <item>
+      <title>CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving</title>
+      <link>https://huggingface.co/papers/2611.18442</link>
+      <description>Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data.</description>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18442">Hugging Face Papers</source>
+      <guid isPermaLink="false">5e4b265aa66f0388bc406c9bcc90685c</guid>
+    </item>
     <item>
       <title>🥇Top AI Papers of the Week</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-cde</link>
@@ -349,114 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.11531">Hugging Face Papers</source>
       <guid isPermaLink="false">53ca9bb1d234fb3ed355d58e929d94bb</guid>
-    </item>
-    <item>
-      <title>SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering</title>
-      <link>https://huggingface.co/papers/2611.13410</link>
-      <description>Low-bit quantized LLM agents can recover much of their task success through closed-loop guidance from a full-precision teacher, followed by unassisted student training on correcte…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13410">Hugging Face Papers</source>
-      <guid isPermaLink="false">554e0ae150d4ac641f1da26ffd8c53c4</guid>
-    </item>
-    <item>
-      <title>Evolving Infra: Agent-Adaptive LLM Serving at Scale</title>
-      <link>https://huggingface.co/papers/2611.12304</link>
-      <description>Agentic workloads are a major source of LLM inference demand.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12304">Hugging Face Papers</source>
-      <guid isPermaLink="false">e866172dec9aa1dacd64a9451a8179cc</guid>
-    </item>
-    <item>
-      <title>Mixed Signals: Weight-Space Programming for EEG and ECG</title>
-      <link>https://huggingface.co/papers/2611.13758</link>
-      <description>Weight-space programming allows language models to read a trained neural network's weights and edit them.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13758">Hugging Face Papers</source>
-      <guid isPermaLink="false">7542b246e109b470a674f5d250e1cf5b</guid>
-    </item>
-    <item>
-      <title>Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model</title>
-      <link>https://huggingface.co/papers/2611.14418</link>
-      <description>A dynamic weight precision allocation strategy is proposed, utilizing low-bit quantization and uncertainty-based gating to selectively upgrade weight precision during LLM generati…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.14418">Hugging Face Papers</source>
-      <guid isPermaLink="false">cf6329b47bd62c2225667e6e15d74861</guid>
-    </item>
-    <item>
-      <title>Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis</title>
-      <link>https://huggingface.co/papers/2611.12869</link>
-      <description>Cross-modal representational alignment between unimodal language and vision models increases with model capability when captions are clean and informative, but remains below same-…</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12869">Hugging Face Papers</source>
-      <guid isPermaLink="false">d214178140d00baec1d2f5e55bf6b044</guid>
-    </item>
-    <item>
-      <title>Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models</title>
-      <link>https://huggingface.co/papers/2611.14413</link>
-      <description>Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.14413">Hugging Face Papers</source>
-      <guid isPermaLink="false">feb3812e580e2ededc6b03de07a013c0</guid>
-    </item>
-    <item>
-      <title>ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping</title>
-      <link>https://huggingface.co/papers/2611.11306</link>
-      <description>AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.11306">Hugging Face Papers</source>
-      <guid isPermaLink="false">0cfb1d6e0163b5d769f06e662657b8c3</guid>
-    </item>
-    <item>
-      <title>PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard</title>
-      <link>https://huggingface.co/papers/2611.13843</link>
-      <description>Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13843">Hugging Face Papers</source>
-      <guid isPermaLink="false">fdfddad46e64086c763902358678ddb1</guid>
-    </item>
-    <item>
-      <title>FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control</title>
-      <link>https://huggingface.co/papers/2611.13766</link>
-      <description>We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13766">Hugging Face Papers</source>
-      <guid isPermaLink="false">07498bda0574cf7aca2d1c3b5566a07b</guid>
-    </item>
-    <item>
-      <title>CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines</title>
-      <link>https://huggingface.co/papers/2611.05862</link>
-      <description>Large language model (LLM) shopping assistants now recommend products in multi-turn conversations.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.05862">Hugging Face Papers</source>
-      <guid isPermaLink="false">fe876dbea8b3885da012723dbaebc23c</guid>
-    </item>
-    <item>
-      <title>Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.39671</link>
-      <description>Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2610.39671">Hugging Face Papers</source>
-      <guid isPermaLink="false">0ce38ae102587f6e801b5864a1f1e082</guid>
-    </item>
-    <item>
-      <title>GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2611.13028</link>
-      <description>AAA games offer a rich testbed for evaluating agent perception, reasoning, and control.</description>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.13028">Hugging Face Papers</source>
-      <guid isPermaLink="false">db6f0f806d3316e18c73c4f315574495</guid>
     </item>
   </channel>
 </rss>

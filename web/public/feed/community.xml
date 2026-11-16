@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 11:32:14 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 14:18:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[실험] 중간 산출물이 생기는 긴 작업이면 넘기기가 될까? AgentBaton 축소 재현 후속: Haiku 5.5와 로컬 4B 비교 (비공식)</title>
+      <link>https://discuss.pytorch.kr/t/agentbaton-haiku-5-5-4b/12532</link>
+      <description>지난 글 에서 AgentBaton(arXiv:2610.35959)을 작게 재현해 봤습니다. 비싼 모델(Claude Sonnet 5.5)이 재무 분석 작업의 앞부분을 하다가 노트북에서 도는 qwen3:4b에게 넘기는 실험이었고, 결과는 기준 미달이었습니다. 이유는 두 가지로 보였습니다.</description>
+      <pubDate>Mon, 16 Nov 2026 13:36:42 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/agentbaton-haiku-5-5-4b/12532">PyTorch Korea</source>
+      <guid isPermaLink="false">00daea26ab02b5c5d8651b56f7b61c76</guid>
+    </item>
+    <item>
+      <title>XYBench: AllenAI가 공개한, 사용자가 잘못 짚은 질문에서 LLM이 진짜 목표를 찾는지 확인하는 벤치마크</title>
+      <link>https://discuss.pytorch.kr/t/xybench-allenai-llm/12507</link>
+      <description>핵심 요약 Ai2가 XYBench 소개 글 에서, 사용자가 잘못 고른 방법을 물을 때 LLM이 그 뒤의 진짜 목표로 안내하는지 재는 8,115개 질문 벤치마크를 공개했습니다. 이 논문은 EMNLP 2026 최우수 리소스 논문상(Best Resource Paper)을 받았습니다.</description>
+      <pubDate>Mon, 16 Nov 2026 09:30:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/xybench-allenai-llm/12507">PyTorch Korea</source>
+      <guid isPermaLink="false">86060ce08b09050e25b6bcc2befeb788</guid>
+    </item>
+    <item>
+      <title>Microsoft의 이미지-to-3D 모델 TRELLIS.2를 신발 스캔 179개로 구조와 형상 단계 LoRA 미세조정하기</title>
+      <link>https://discuss.pytorch.kr/t/microsoft-to-3d-trellis-2-179-lora/12510</link>
+      <description>핵심 요약 Hugging Face가 Microsoft의 이미지-3D 모델 TRELLIS.2를 미세조정하는 3D 생성 모델 미세조정 가이드 를 공개했습니다. 구조와 형상을 만드는 두 단계에만 LoRA 어댑터를 붙이고, Google Scanned Objects의 신발 188개 중 179개로 학습합니다.</description>
+      <pubDate>Mon, 16 Nov 2026 12:30:03 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/microsoft-to-3d-trellis-2-179-lora/12510">PyTorch Korea</source>
+      <guid isPermaLink="false">49c578f71b47f2903b949e1f0dd18896</guid>
+    </item>
     <item>
       <title>Saltline: Claude Fable 5.2가 지시 한 번으로 만든 HTML 파일 하나짜리 브라우저 FPS 게임</title>
       <link>https://discuss.pytorch.kr/t/saltline-claude-fable-5-2-html-fps/12512</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/apple-api-anyspeechrecognizer-anydecisionmodel-feat-hugging-face/12369">PyTorch Korea</source>
       <guid isPermaLink="false">cb18e554a93a8a8323f71ea3b1972c60</guid>
-    </item>
-    <item>
-      <title>KOMOS – 한국어 음성 품질 평가 모델을 오픈소스로 공개했습니다</title>
-      <link>https://discuss.pytorch.kr/t/komos/12380</link>
-      <description>안녕하세요. 한국어 음성의 품질을 평가하는 MOS(Mean Opinion Score) 예측 모델 KOMOS 를 개발하고 오픈소스로 공개했습니다. 기존 UTMOS 모델을 한국어 음성에 적용하면서 발견한 한계를 개선하고자 시작한 프로젝트입니다.</description>
-      <pubDate>Mon, 02 Nov 2026 12:50:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/komos/12380">PyTorch Korea</source>
-      <guid isPermaLink="false">a5932dd6607d8c6479a068c8119e0e40</guid>
-    </item>
-    <item>
-      <title>Baseten, 입력 1M 토큰당 $0.01인 2B 결정 모델 joey-1 공개</title>
-      <link>https://discuss.pytorch.kr/t/baseten-1m-0-01-2b-joey-1/12359</link>
-      <description>핵심 요약 Baseten이 10월 29일 joey-1 발표 글 에서 Qwen3.5-2B를 후학습한 결정 모델 joey-1을 공개했습니다. 가중치는 Hugging Face 에 있고, Baseten Model APIs 가격은 입력 100만 토큰당 $0.01입니다.</description>
-      <pubDate>Mon, 02 Nov 2026 11:30:52 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/baseten-1m-0-01-2b-joey-1/12359">PyTorch Korea</source>
-      <guid isPermaLink="false">7b8f3b5e576ccc27adf0947ce931a3e9</guid>
-    </item>
-    <item>
-      <title>방송 영상을 클립으로 만드는 SceneMaker를 소개합니다 (디노이즈했더니 언어 판별이 떨어진 실험 공유)</title>
-      <link>https://discuss.pytorch.kr/t/scenemaker/12378</link>
-      <description>안녕하세요. 긴 방송 영상을 짧은 클립으로 만들어 주는 SceneMaker를 개발하고 있습니다. 2026 아이치·나고야 아시안게임 때 SBS와 함께 야구 대표팀 경기에 적용했는데, 자동으로 만든 클립 초안 79개를 운영자가 검수해서 SBS의 AI PICK 페이지에 올렸습니다.</description>
-      <pubDate>Mon, 02 Nov 2026 10:48:01 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/scenemaker/12378">PyTorch Korea</source>
-      <guid isPermaLink="false">c99ae611ad4716559778a654c0a1fc12</guid>
     </item>
   </channel>
 </rss>
