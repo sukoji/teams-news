@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:18:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:06:02 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Haru-4B: 4,000만 시간의 실제 음성으로 학습한, 듣는 동안 말하는 전이중 음성 대화 모델 공개 (feat. Qwen3.5, MeanFlow)</title>
+      <link>https://discuss.pytorch.kr/t/haru-4b-4-000-feat-qwen3-5-meanflow/12533</link>
+      <description>핵심 요약 일본 음성 AI 기업 higurashi가 Haru-4B 소개 블로그 에서 듣는 동안 말하는 전이중(Full-Duplex) 음성 대화 기반 모델 Haru-4B를 공개했습니다. 가중치와 추론 코드는 Apache 2.0으로 배포되며, 가중치에 포함된 VibeVoice 코덱 등 일부 구성 요소는 MIT입니다.</description>
+      <pubDate>Mon, 16 Nov 2026 16:00:54 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/haru-4b-4-000-feat-qwen3-5-meanflow/12533">PyTorch Korea</source>
+      <guid isPermaLink="false">678e12521f19a403467155ed88820a15</guid>
+    </item>
     <item>
       <title>[실험] 중간 산출물이 생기는 긴 작업이면 넘기기가 될까? AgentBaton 축소 재현 후속: Haiku 5.5와 로컬 4B 비교 (비공식)</title>
       <link>https://discuss.pytorch.kr/t/agentbaton-haiku-5-5-4b/12532</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/meta-30b-cpu-npu-gpu-ram-rom-vikernel-v0-4/12390">PyTorch Korea</source>
       <guid isPermaLink="false">922ec81986f62b4258730a22b34a0194</guid>
-    </item>
-    <item>
-      <title>Apple 음성 API로 오픈 모델 쓰는 AnySpeechRecognizer와 결정 모델용 AnyDecisionModel 공개 (feat. Hugging Face)</title>
-      <link>https://discuss.pytorch.kr/t/apple-api-anyspeechrecognizer-anydecisionmodel-feat-hugging-face/12369</link>
-      <description>핵심 요약 Mattt가 Hugging Face 블로그의 소개 글 에서 Apple 플랫폼용 Swift 패키지 두 개를 공개했습니다. 둘 다 Apache 2.0이며, 2026년 10월 말 기준 버전은 AnySpeechRecognizer 0.1.0과 AnyDecisionModel 0.6.0입니다. AnySpeechRecognizer는 Apple의 음성 인식 API를 같은 모양으로 다시 구현합니다.</description>
-      <pubDate>Mon, 02 Nov 2026 16:00:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/apple-api-anyspeechrecognizer-anydecisionmodel-feat-hugging-face/12369">PyTorch Korea</source>
-      <guid isPermaLink="false">cb18e554a93a8a8323f71ea3b1972c60</guid>
     </item>
   </channel>
 </rss>
