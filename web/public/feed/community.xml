@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:06:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 09:01:59 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>[2026/11/09 ~ 15] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
+      <link>https://discuss.pytorch.kr/t/2026-11-09-15-ai-ml/12522</link>
+      <description>PyTorchKR​ 이번 주 선정된 10편의 논문들을 분석한 결과, 대규모 언어 모델(LLM)과 에이전트(Agent)가 직면한 실질적인 한계를 극복하고 효율성을 극대화하기 위한 3가지 주요 트렌드 를 발견할 수 있었습니다: 에이전트(Agent)의 반복적 자기 개선 및 실행 전 검증 : 일회성 생성에 그치던 기존 방식을 넘어, 피드백을 통해 스스로 문제를 개선하고 안전하게 실행하는 에이전트…</description>
+      <pubDate>Tue, 17 Nov 2026 06:30:32 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/2026-11-09-15-ai-ml/12522">PyTorch Korea</source>
+      <guid isPermaLink="false">a6b1ffd693b03b3219e673ee6e4e316f</guid>
+    </item>
+    <item>
+      <title>OpenAI, 에이전트가 실제 카드번호 없이 결제하는 ChatGPT Wallet 출시: 구매마다 생체 인증 (미국, Pro 요금제 한정)</title>
+      <link>https://discuss.pytorch.kr/t/openai-chatgpt-wallet-pro/12538</link>
+      <description>핵심 요약 OpenAI가 2026년 11월 13일 ChatGPT Wallet 발표 글 에서 에이전트가 사용자의 실제 카드 정보를 보지 않고 결제하는 지갑을 공개했습니다. 사용자는 구매마다 품목, 총액, 카드를 확인하고 Face ID나 지문으로 승인하며, 결제에는 카드 네트워크가 발급한 결제 토큰이 쓰입니다.</description>
+      <pubDate>Tue, 17 Nov 2026 08:30:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-chatgpt-wallet-pro/12538">PyTorch Korea</source>
+      <guid isPermaLink="false">ed87bf52fcdf7f02385ccee75ce76f0b</guid>
+    </item>
     <item>
       <title>Haru-4B: 4,000만 시간의 실제 음성으로 학습한, 듣는 동안 말하는 전이중 음성 대화 모델 공개 (feat. Qwen3.5, MeanFlow)</title>
       <link>https://discuss.pytorch.kr/t/haru-4b-4-000-feat-qwen3-5-meanflow/12533</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-sleep-llm/12367">PyTorch Korea</source>
       <guid isPermaLink="false">db829acbd274e74e9e692da05f596dc6</guid>
-    </item>
-    <item>
-      <title>AI 현황 보고서(State of AI) 2026: 프런티어 모델의 3강 구도, 에이전트 보안 사고, AGI 2027 예측 등 [영문/PDF/244p]</title>
-      <link>https://discuss.pytorch.kr/t/ai-state-of-ai-2026-3-agi-2027-pdf-244p/12366</link>
-      <description>핵심 요약 지난 10월 9일, Air Street Capital의 Nathan Benaich가 펴낸 9번째 State of AI Report 2026 은 244장 분량입니다. Explore 페이지 는 이를 9개 주제로 다시 묶어 근거 표, FAQ, 출처와 함께 제공합니다. 프런티어는 Anthropic, OpenAI, Google의 3강 구도입니다.</description>
-      <pubDate>Mon, 02 Nov 2026 19:30:08 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/ai-state-of-ai-2026-3-agi-2027-pdf-244p/12366">PyTorch Korea</source>
-      <guid isPermaLink="false">ab7dec8f0e5a3b788bcbd33044cc8410</guid>
-    </item>
-    <item>
-      <title>Meta 30B 모델 가중치 안에 CPU·NPU·GPU·RAM·ROM, 그리고 운영체제를 넣었다: ViKernel v0.4 기술 분석</title>
-      <link>https://discuss.pytorch.kr/t/meta-30b-cpu-npu-gpu-ram-rom-vikernel-v0-4/12390</link>
-      <description>CUDA 커널 34/34 정확 실행, 130배 가속, 백도어 공격 290건 전부 차단.</description>
-      <pubDate>Mon, 02 Nov 2026 22:02:26 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/meta-30b-cpu-npu-gpu-ram-rom-vikernel-v0-4/12390">PyTorch Korea</source>
-      <guid isPermaLink="false">922ec81986f62b4258730a22b34a0194</guid>
     </item>
   </channel>
 </rss>
