@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16T11:32:14.175869+09:00",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T13:56:06.267234+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,50 +10,60 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "7f98cb784a3fcbda99aae9323b75855c",
+          "id": "96bff3e1764aeee2783ef75a489cd9de",
           "index": 1,
-          "title": "🤖 AI Agents Weekly: Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-          "title_ko": "🤖 AI Agents Weekly: Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-          "summary": "Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-          "summary_ko": "Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-fable-52",
-          "source": "Elvis AI Newsletter",
+          "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+          "title_ko": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+          "summary": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and multi-turn reinforcement learning to in…",
+          "summary_ko": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and…",
+          "url": "https://huggingface.co/papers/2611.18397",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-15T01:58:07+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 21.9,
-          "importance_score": 9.9,
+          "published_at": "2026-11-16T09:00:00+09:00",
+          "popularity": 384,
+          "upvotes": 94,
+          "score": 33.86,
+          "importance_score": 17.86,
           "matched_keywords": [
             "ai",
             "agent",
-            "claude",
-            "gemini"
+            "reinforcement learning",
+            "reasoning",
+            "foundation model",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 94
+          }
         },
         {
-          "id": "3c95b073d2f253c6ef74d1256946dfa1",
+          "id": "bae09d16d71bc572ed6a6b0826bc7d10",
           "index": 2,
-          "title": "🥇Top AI Papers of the Week",
-          "title_ko": "🥇Top AI Papers of the Week",
-          "summary": "The Top AI Papers of the Week (November 9 - November 15)",
-          "summary_ko": "The Top AI Papers of the Week (November 9 - November 15)",
-          "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-cde",
-          "source": "Elvis AI Newsletter",
+          "title": "MIRIX-2.0: Multi-Agent Memory System",
+          "title_ko": "MIRIX-2.0: Multi-Agent Memory System",
+          "summary": "MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.",
+          "summary_ko": "MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.",
+          "url": "https://huggingface.co/papers/2611.12068",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-16T02:51:03+09:00",
-          "popularity": 100,
-          "upvotes": 0,
-          "score": 21.19,
-          "importance_score": 16.38,
+          "published_at": "2026-11-16T09:00:00+09:00",
+          "popularity": 3595,
+          "upvotes": 47,
+          "score": 30.0,
+          "importance_score": 18.0,
           "matched_keywords": [
-            "ai",
-            "paper"
+            "llm",
+            "agent",
+            "fine-tuning",
+            "benchmark"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 47
+          }
         }
       ]
     },
@@ -62,44 +72,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "95d9416769d0c269ca804793bd45d60f",
+          "id": "2265cfd027326cced519fadb37f14514",
           "index": 3,
-          "title": "차세대 칩렛 표준 'UCIe 4.0' 나왔다…AI 반도체 메모리 병목 해소에 방점",
+          "title": "트럼프, 엔비디아 주식 최대 830억 보유 추정…중국 수출 허용에 이해충돌 논란",
           "title_ko": null,
-          "summary": "서로 다른 반도체 연결, 성능을 끌어올리는 '칩렛'의 새로운 표준이 나왔다. 인공지능(AI) 반도체 시장 요구에 대응, 최대 병목인 '메모리 중심 시스템 통합'에 집중한 것이 주목된다. 16일 업계에 따르면, UCIe 컨소시엄은 최근 칩렛 최신 규격인 UCIe 4.0을 발표했다.",
+          "summary": "도널드 트럼프 미국 대통령이 엔비디아의 중국 AI 칩 수출을 허용하는 정책을 추진하는 동안 보유한 엔비디아 주식의 가치도 크게 증가한 것으로 나타났다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261116000155",
-          "source": "전자신문 IT",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217483",
+          "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-16T10:35:16+09:00",
-          "popularity": 100,
+          "published_at": "2026-11-17T13:21:02+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.8,
-          "importance_score": 19.6,
+          "score": 19.78,
+          "importance_score": 19.66,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
         },
         {
-          "id": "ce56c6fff17ff14861a049e74af920e8",
+          "id": "2545ff0465356968c92d6eea30a97191",
           "index": 4,
-          "title": "SKT, 효성중공업과 기가급 AIDC 전력 인프라 구축 협력",
+          "title": "[ETRI, 출연연 전략연구사업 앞장]AI, 차세대 통신 중심 R&R 재정립...전략연구사업 수행 근간 마련",
           "title_ko": null,
-          "summary": "[지디넷코리아]SK텔레콤이 대규모 전력이 필요한 기가와트(GW)급 AI 데이터센터(AIDC) 안정적 인프라 구축을 위해 효성중공업과 협력한다.SK텔레콤은 효성중공업과 GW급 AIDC 구축을 위한 전략적 협업 업무협약를 체결했다고 16일 밝혔다.양사는 345킬로볼트(kV) 변전소 핵심 기자재 안정적 공급과 800V 직류배전 등 차세대 전력기술 실증을 시작으로 신규 AIDC 사업 발굴에 힘을…",
+          "summary": "한국전자통신연구원(ETRI)은 전략연구사업 중심의 연구개발(R&D) 체계 변화와 아울러 기관의 '역할과 책임'(R&R)도 재정립한다. AI와 차세대 통신 인프라, 첨단 디지털 기술 중심의 새로운 국가 임무를 보다 잘 수행하기 위한 체질 변화다. R&R로 R&D 수행 체계를 강화해, 전략연구사업에 따른 성과 창출을 뒷받침한다.",
           "summary_ko": null,
-          "url": "https://zdnet.co.kr/view/?no=20261116100946",
-          "source": "ZDNet Korea",
+          "url": "https://www.etnews.com/20261117000002",
+          "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-16T11:00:01+09:00",
-          "popularity": 100,
+          "published_at": "2026-11-17T12:00:00+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.89,
-          "importance_score": 19.78,
+          "score": 22.5,
+          "importance_score": 19.09,
           "matched_keywords": [
-            "ai"
+            "ai",
+            "연구"
           ],
           "engagement": null
         }
@@ -121,8 +132,8 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-11-12T23:33:16+09:00",
-          "popularity": 1331,
-          "upvotes": 1331,
+          "popularity": 2280,
+          "upvotes": 2280,
           "score": 44.5,
           "importance_score": 24.5,
           "matched_keywords": [
@@ -135,7 +146,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1331
+            "value": 2280
           }
         },
         {
@@ -150,17 +161,17 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-11-16T01:49:31+09:00",
-          "popularity": 473,
-          "upvotes": 473,
-          "score": 32.54,
-          "importance_score": 27.52,
+          "popularity": 474,
+          "upvotes": 474,
+          "score": 29.57,
+          "importance_score": 21.57,
           "matched_keywords": [
             "ai",
             "gemini"
           ],
           "engagement": {
             "label": "Stars",
-            "value": 473
+            "value": 474
           }
         }
       ]
@@ -170,25 +181,26 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "86060ce08b09050e25b6bcc2befeb788",
+          "id": "a6b1ffd693b03b3219e673ee6e4e316f",
           "index": 7,
-          "title": "XYBench: AllenAI가 공개한, 사용자가 잘못 짚은 질문에서 LLM이 진짜 목표를 찾는지 확인하는 벤치마크",
+          "title": "[2026/11/09 ~ 15] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
           "title_ko": null,
-          "summary": "핵심 요약 Ai2가 XYBench 소개 글 에서, 사용자가 잘못 고른 방법을 물을 때 LLM이 그 뒤의 진짜 목표로 안내하는지 재는 8,115개 질문 벤치마크를 공개했습니다. 이 논문은 EMNLP 2026 최우수 리소스 논문상(Best Resource Paper)을 받았습니다.",
+          "summary": "PyTorchKR​ 이번 주 선정된 10편의 논문들을 분석한 결과, 대규모 언어 모델(LLM)과 에이전트(Agent)가 직면한 실질적인 한계를 극복하고 효율성을 극대화하기 위한 3가지 주요 트렌드 를 발견할 수 있었습니다: 에이전트(Agent)의 반복적 자기 개선 및 실행 전 검증 : 일회성 생성에 그치던 기존 방식을 넘어, 피드백을 통해 스스로 문제를 개선하고 안전하게 실행하는 에이전트…",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/xybench-allenai-llm/12507",
+          "url": "https://discuss.pytorch.kr/t/2026-11-09-15-ai-ml/12522",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-11-16T09:30:04+09:00",
-          "popularity": 100,
+          "published_at": "2026-11-17T06:30:32+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 25.58,
-          "importance_score": 19.15,
+          "score": 27.25,
+          "importance_score": 16.71,
           "matched_keywords": [
             "ai",
             "llm",
-            "paper"
+            "agent",
+            "모델"
           ],
           "engagement": null
         }
@@ -197,90 +209,101 @@
   ],
   "items": [
     {
-      "id": "7f98cb784a3fcbda99aae9323b75855c",
+      "id": "96bff3e1764aeee2783ef75a489cd9de",
       "index": 1,
-      "title": "🤖 AI Agents Weekly: Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-      "title_ko": "🤖 AI Agents Weekly: Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-      "summary": "Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-      "summary_ko": "Claude Fable 5.2, Gemini 4 Hydrogen, RIME, AlphaProof Code, Singularity-Bench, CoT Monitorability, Muse Ember, and More",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-fable-52",
-      "source": "Elvis AI Newsletter",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "title_ko": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "summary": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and multi-turn reinforcement learning to in…",
+      "summary_ko": "Gamer is a generalist agent framework that integrates perception, memory, and multi-step reasoning, trained through continued pre-training, sparse-thinking instruction tuning, and…",
+      "url": "https://huggingface.co/papers/2611.18397",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-15T01:58:07+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 21.9,
-      "importance_score": 9.9,
+      "published_at": "2026-11-16T09:00:00+09:00",
+      "popularity": 384,
+      "upvotes": 94,
+      "score": 33.86,
+      "importance_score": 17.86,
       "matched_keywords": [
         "ai",
         "agent",
-        "claude",
-        "gemini"
+        "reinforcement learning",
+        "reasoning",
+        "foundation model",
+        "training"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 94
+      }
     },
     {
-      "id": "3c95b073d2f253c6ef74d1256946dfa1",
+      "id": "bae09d16d71bc572ed6a6b0826bc7d10",
       "index": 2,
-      "title": "🥇Top AI Papers of the Week",
-      "title_ko": "🥇Top AI Papers of the Week",
-      "summary": "The Top AI Papers of the Week (November 9 - November 15)",
-      "summary_ko": "The Top AI Papers of the Week (November 9 - November 15)",
-      "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-cde",
-      "source": "Elvis AI Newsletter",
+      "title": "MIRIX-2.0: Multi-Agent Memory System",
+      "title_ko": "MIRIX-2.0: Multi-Agent Memory System",
+      "summary": "MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.",
+      "summary_ko": "MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.",
+      "url": "https://huggingface.co/papers/2611.12068",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-16T02:51:03+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 21.19,
-      "importance_score": 16.38,
+      "published_at": "2026-11-16T09:00:00+09:00",
+      "popularity": 3595,
+      "upvotes": 47,
+      "score": 30.0,
+      "importance_score": 18.0,
       "matched_keywords": [
-        "ai",
-        "paper"
+        "llm",
+        "agent",
+        "fine-tuning",
+        "benchmark"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 47
+      }
+    },
+    {
+      "id": "2265cfd027326cced519fadb37f14514",
+      "index": 3,
+      "title": "트럼프, 엔비디아 주식 최대 830억 보유 추정…중국 수출 허용에 이해충돌 논란",
+      "title_ko": null,
+      "summary": "도널드 트럼프 미국 대통령이 엔비디아의 중국 AI 칩 수출을 허용하는 정책을 추진하는 동안 보유한 엔비디아 주식의 가치도 크게 증가한 것으로 나타났다.",
+      "summary_ko": null,
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217483",
+      "source": "AI Times",
+      "section": "📰 News",
+      "section_id": "news",
+      "published_at": "2026-11-17T13:21:02+09:00",
+      "popularity": 99,
+      "upvotes": 0,
+      "score": 19.78,
+      "importance_score": 19.66,
+      "matched_keywords": [
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "95d9416769d0c269ca804793bd45d60f",
-      "index": 3,
-      "title": "차세대 칩렛 표준 'UCIe 4.0' 나왔다…AI 반도체 메모리 병목 해소에 방점",
+      "id": "2545ff0465356968c92d6eea30a97191",
+      "index": 4,
+      "title": "[ETRI, 출연연 전략연구사업 앞장]AI, 차세대 통신 중심 R&R 재정립...전략연구사업 수행 근간 마련",
       "title_ko": null,
-      "summary": "서로 다른 반도체 연결, 성능을 끌어올리는 '칩렛'의 새로운 표준이 나왔다. 인공지능(AI) 반도체 시장 요구에 대응, 최대 병목인 '메모리 중심 시스템 통합'에 집중한 것이 주목된다. 16일 업계에 따르면, UCIe 컨소시엄은 최근 칩렛 최신 규격인 UCIe 4.0을 발표했다.",
+      "summary": "한국전자통신연구원(ETRI)은 전략연구사업 중심의 연구개발(R&D) 체계 변화와 아울러 기관의 '역할과 책임'(R&R)도 재정립한다. AI와 차세대 통신 인프라, 첨단 디지털 기술 중심의 새로운 국가 임무를 보다 잘 수행하기 위한 체질 변화다. R&R로 R&D 수행 체계를 강화해, 전략연구사업에 따른 성과 창출을 뒷받침한다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261116000155",
+      "url": "https://www.etnews.com/20261117000002",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-16T10:35:16+09:00",
-      "popularity": 100,
+      "published_at": "2026-11-17T12:00:00+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 19.8,
-      "importance_score": 19.6,
+      "score": 22.5,
+      "importance_score": 19.09,
       "matched_keywords": [
-        "ai"
-      ],
-      "engagement": null
-    },
-    {
-      "id": "ce56c6fff17ff14861a049e74af920e8",
-      "index": 4,
-      "title": "SKT, 효성중공업과 기가급 AIDC 전력 인프라 구축 협력",
-      "title_ko": null,
-      "summary": "[지디넷코리아]SK텔레콤이 대규모 전력이 필요한 기가와트(GW)급 AI 데이터센터(AIDC) 안정적 인프라 구축을 위해 효성중공업과 협력한다.SK텔레콤은 효성중공업과 GW급 AIDC 구축을 위한 전략적 협업 업무협약를 체결했다고 16일 밝혔다.양사는 345킬로볼트(kV) 변전소 핵심 기자재 안정적 공급과 800V 직류배전 등 차세대 전력기술 실증을 시작으로 신규 AIDC 사업 발굴에 힘을…",
-      "summary_ko": null,
-      "url": "https://zdnet.co.kr/view/?no=20261116100946",
-      "source": "ZDNet Korea",
-      "section": "📰 News",
-      "section_id": "news",
-      "published_at": "2026-11-16T11:00:01+09:00",
-      "popularity": 100,
-      "upvotes": 0,
-      "score": 19.89,
-      "importance_score": 19.78,
-      "matched_keywords": [
-        "ai"
+        "ai",
+        "연구"
       ],
       "engagement": null
     },
@@ -296,8 +319,8 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-11-12T23:33:16+09:00",
-      "popularity": 1331,
-      "upvotes": 1331,
+      "popularity": 2280,
+      "upvotes": 2280,
       "score": 44.5,
       "importance_score": 24.5,
       "matched_keywords": [
@@ -310,7 +333,7 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 1331
+        "value": 2280
       }
     },
     {
@@ -325,39 +348,40 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-11-16T01:49:31+09:00",
-      "popularity": 473,
-      "upvotes": 473,
-      "score": 32.54,
-      "importance_score": 27.52,
+      "popularity": 474,
+      "upvotes": 474,
+      "score": 29.57,
+      "importance_score": 21.57,
       "matched_keywords": [
         "ai",
         "gemini"
       ],
       "engagement": {
         "label": "Stars",
-        "value": 473
+        "value": 474
       }
     },
     {
-      "id": "86060ce08b09050e25b6bcc2befeb788",
+      "id": "a6b1ffd693b03b3219e673ee6e4e316f",
       "index": 7,
-      "title": "XYBench: AllenAI가 공개한, 사용자가 잘못 짚은 질문에서 LLM이 진짜 목표를 찾는지 확인하는 벤치마크",
+      "title": "[2026/11/09 ~ 15] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
       "title_ko": null,
-      "summary": "핵심 요약 Ai2가 XYBench 소개 글 에서, 사용자가 잘못 고른 방법을 물을 때 LLM이 그 뒤의 진짜 목표로 안내하는지 재는 8,115개 질문 벤치마크를 공개했습니다. 이 논문은 EMNLP 2026 최우수 리소스 논문상(Best Resource Paper)을 받았습니다.",
+      "summary": "PyTorchKR​ 이번 주 선정된 10편의 논문들을 분석한 결과, 대규모 언어 모델(LLM)과 에이전트(Agent)가 직면한 실질적인 한계를 극복하고 효율성을 극대화하기 위한 3가지 주요 트렌드 를 발견할 수 있었습니다: 에이전트(Agent)의 반복적 자기 개선 및 실행 전 검증 : 일회성 생성에 그치던 기존 방식을 넘어, 피드백을 통해 스스로 문제를 개선하고 안전하게 실행하는 에이전트…",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/xybench-allenai-llm/12507",
+      "url": "https://discuss.pytorch.kr/t/2026-11-09-15-ai-ml/12522",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-11-16T09:30:04+09:00",
-      "popularity": 100,
+      "published_at": "2026-11-17T06:30:32+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 25.58,
-      "importance_score": 19.15,
+      "score": 27.25,
+      "importance_score": 16.71,
       "matched_keywords": [
         "ai",
         "llm",
-        "paper"
+        "agent",
+        "모델"
       ],
       "engagement": null
     }
