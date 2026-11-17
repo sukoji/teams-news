@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Nov 2026 17:53:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 03:15:42 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Qwen, 새로운 구조로 이전보다 토큰과 API 가격을 줄인 2.4T 규모 플래그십 모델 Qwen4-Max 출시 (소형 모델은 가중치 공개 예정)</title>
+      <link>https://discuss.pytorch.kr/t/qwen-api-2-4t-qwen4-max/12557</link>
+      <description>핵심 요약 Qwen 팀이 2026년 11월 16일 Qwen4-Max 발표 글 에서 2.4T 백본(토큰당 활성 71B)과 1M 토큰 컨텍스트를 갖춘 새 플래그십 모델을 출시했습니다. 어텐션, 잔차 연결, 임베딩 세 부분을 새로 설계했습니다.</description>
+      <pubDate>Tue, 17 Nov 2026 19:30:23 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/qwen-api-2-4t-qwen4-max/12557">PyTorch Korea</source>
+      <guid isPermaLink="false">8f2765e8e6e1b0a55166878d5633410c</guid>
+    </item>
     <item>
       <title>GPU 한 장에 안 들어가는 GLM-5.3 753B 모델을 DGX Station 2대에 나눠 vLLM으로 서빙하기</title>
       <link>https://discuss.pytorch.kr/t/gpu-glm-5-3-753b-dgx-station-2-vllm/12537</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/llm/12397">PyTorch Korea</source>
       <guid isPermaLink="false">51270b391d5b4dc35475b6dc3c488f0a</guid>
-    </item>
-    <item>
-      <title>OpenAI Pando: Git 호환을 유지한 채 push 지연을 80% 줄이고 하루 1PB를 전송하는 모노레포 Git 백엔드 (&amp; Anthropic Scion 비교)</title>
-      <link>https://discuss.pytorch.kr/t/openai-pando-git-push-80-1pb-git-anthropic-scion/12394</link>
-      <description>핵심 요약 OpenAI가 2026년 11월 2일 Scaling Git at OpenAI 글에서 사내 모노레포(Monorepo)의 Git 백엔드를 자체 개발한 Pando로 바꿨다고 밝혔습니다. Git 프로토콜과 클라이언트는 그대로 두고 서버 쪽만 바꿨습니다. OpenAI에 따르면 전환 후 중간값(median) push 지연이 약 80% 줄었고 병합 신뢰성이 좋아졌습니다.</description>
-      <pubDate>Tue, 03 Nov 2026 15:30:29 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-pando-git-push-80-1pb-git-anthropic-scion/12394">PyTorch Korea</source>
-      <guid isPermaLink="false">662e79088717a89c6b7cebebb0a0b520</guid>
     </item>
   </channel>
 </rss>
