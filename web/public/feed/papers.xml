@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 18:51:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 03:42:15 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>GameRealm: Grounding Visual Learning in Interactive Games</title>
+      <link>https://huggingface.co/papers/2611.23140</link>
+      <description>GameRealm is a large-scale multimodal gameplay dataset with synchronized depth, camera, audio, control, and 3D trajectory annotations that improves visual foundation models for ge…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.23140">Hugging Face Papers</source>
+      <guid isPermaLink="false">5113b3383b1dd83c41a1e90a097b6955</guid>
+    </item>
+    <item>
+      <title>CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference</title>
+      <link>https://huggingface.co/papers/2611.22563</link>
+      <description>CADMAGEDDON is an open-source agent that reconstructs editable CAD from meshes locally on single-GPU systems and laptops, using a mid-sized Qwen model and geometric tools to outpe…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.22563">Hugging Face Papers</source>
+      <guid isPermaLink="false">a6ab7fe664820a1ae4f88eecdcbca43c</guid>
+    </item>
+    <item>
+      <title>DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding</title>
+      <link>https://huggingface.co/papers/2611.21925</link>
+      <description>A lightweight feature-encoding method with rejection memory and architectural enhancements enables faster large language model inference by improving speculative-diffusion draft v…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.21925">Hugging Face Papers</source>
+      <guid isPermaLink="false">da2e61205a25549f09b86217530cbf58</guid>
+    </item>
+    <item>
+      <title>HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning</title>
+      <link>https://huggingface.co/papers/2611.21938</link>
+      <description>Robot policies trained by imitation generalize poorly outside the environments and objects seen in training.</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.21938">Hugging Face Papers</source>
+      <guid isPermaLink="false">a1eef190885389760cce163c56e55729</guid>
+    </item>
+    <item>
+      <title>VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications</title>
+      <link>https://huggingface.co/papers/2611.21382</link>
+      <description>Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs.</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.21382">Hugging Face Papers</source>
+      <guid isPermaLink="false">e5fc785f5b59f3d424d73b6a183cb7f0</guid>
+    </item>
+    <item>
+      <title>MillBill: A Machining Agent with Geometric Feedback</title>
+      <link>https://huggingface.co/papers/2611.22565</link>
+      <description>Turning a CAD model into a machining program requires both process knowledge and geometric precision.</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.22565">Hugging Face Papers</source>
+      <guid isPermaLink="false">aaa5a99beb8edd8d286c823f3d371bcb</guid>
+    </item>
+    <item>
+      <title>AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions</title>
+      <link>https://huggingface.co/papers/2611.21421</link>
+      <description>Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers such as Lean is slow and expertise-intensive, making specific…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.21421">Hugging Face Papers</source>
+      <guid isPermaLink="false">dfeda79a8f0e6d55e121ff41564be0ce</guid>
+    </item>
+    <item>
+      <title>PanDWM: Panoramic 4D Driving World Models</title>
+      <link>https://huggingface.co/papers/2611.19857</link>
+      <description>PanDWM stitches six camera views into a 360° panoramic band and uses a distilled causal student with a feed-forward 3D Gaussian decoder to generate consistent 4D driving scenes fa…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.19857">Hugging Face Papers</source>
+      <guid isPermaLink="false">5544665da6bd9304711c3569672ef832</guid>
+    </item>
     <item>
       <title>TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks</title>
       <link>https://huggingface.co/papers/2611.22115</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.19771">Hugging Face Papers</source>
       <guid isPermaLink="false">de5592339d027b0607b52079aacc0c0f</guid>
-    </item>
-    <item>
-      <title>Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality</title>
-      <link>https://huggingface.co/papers/2611.18919</link>
-      <description>A human-in-the-loop failure-mining pipeline turns persistently unsolved grasps of a reinforcement-learning point-cloud policy into virtual-reality human demonstrations, improving…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.18919">Hugging Face Papers</source>
-      <guid isPermaLink="false">4377db86e31a6ae99c3f7fbe4abb6d41</guid>
-    </item>
-    <item>
-      <title>A Reinforcement Learning Method to Navigate SMEFT Operator Space</title>
-      <link>https://huggingface.co/papers/2611.21439</link>
-      <description>A reinforcement learning agent with a lightweight actor-critic architecture explores the Standard Model Effective Field Theory operator space to discover diverse high-quality theo…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.21439">Hugging Face Papers</source>
-      <guid isPermaLink="false">25004f120e8f56f3dfe79595c8734618</guid>
-    </item>
-    <item>
-      <title>GPBam: A Retrieval-Aware German Public Law Exam Benchmark</title>
-      <link>https://huggingface.co/papers/2611.18981</link>
-      <description>A new benchmark of German public-law exam cases and statutory provisions jointly scores legal retrieval and long-form opinion generation across many models, finding that retrieval…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.18981">Hugging Face Papers</source>
-      <guid isPermaLink="false">d7af23f7ac8fb22ab145e8e2febe713d</guid>
-    </item>
-    <item>
-      <title>ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization</title>
-      <link>https://huggingface.co/papers/2611.21605</link>
-      <description>Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions.</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.21605">Hugging Face Papers</source>
-      <guid isPermaLink="false">1204b9d5a2fc18e7b858e2a4fbf6801f</guid>
-    </item>
-    <item>
-      <title>LynnReal-Hand: Unlocking World Interaction with Hand Control</title>
-      <link>https://huggingface.co/papers/2611.21479</link>
-      <description>Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control.</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.21479">Hugging Face Papers</source>
-      <guid isPermaLink="false">1a814590ec4c4280a70bb419b1cf1c67</guid>
-    </item>
-    <item>
-      <title>Zuse: A Decision Model for European Languages</title>
-      <link>https://huggingface.co/papers/2611.06238</link>
-      <description>Decision models read a document and return a probability for each of a fixed set of options instead of generating text.</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.06238">Hugging Face Papers</source>
-      <guid isPermaLink="false">4f2aa0672a619184ea49fc6025bd638c</guid>
-    </item>
-    <item>
-      <title>InclusionMed: Benchmarking AI for Inclusive Healthcare</title>
-      <link>https://huggingface.co/papers/2611.21218</link>
-      <description>InclusionMed is an open medical AI evaluation initiative that audits and reproduces benchmarks across healthcare roles and capabilities, revealing that model rankings and inferenc…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.21218">Hugging Face Papers</source>
-      <guid isPermaLink="false">cbcd538453a6bc136144f46aead146a8</guid>
-    </item>
-    <item>
-      <title>PaperCritic: Training AI Reviewers to Assess the Soundness of Papers</title>
-      <link>https://huggingface.co/papers/2611.17834</link>
-      <description>An AI reviewer trained by reinforcement learning to jointly maximize precision and recall of soundness review points outperforms frontier models and other training methods and tra…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.17834">Hugging Face Papers</source>
-      <guid isPermaLink="false">aac91bbad88bdfa1444715a4372cb026</guid>
     </item>
   </channel>
 </rss>
