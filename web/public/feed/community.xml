@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 03:15:42 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 10:31:15 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Sevren, 휴대폰에서 오프라인으로 돌아가는 10B-A1B 추론 모델 Embla 1 공개 (feat. embla-metal)</title>
+      <link>https://discuss.pytorch.kr/t/sevren-10b-a1b-embla-1-feat-embla-metal/12556</link>
+      <description>핵심 요약 덴마크 코펜하겐의 AI 연구소 Sevren이 휴대폰에서 실행하도록 설계한 추론 모델 Embla 1을 Embla 1 발표 글 과 함께 공개했습니다. 전체 10B(이 중 3B는 Engram 표) 파라미터에 토큰당 활성 파라미터는 1B인 MoE 모델이고, 가중치는 MIT 라이선스입니다.</description>
+      <pubDate>Wed, 18 Nov 2026 08:30:48 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/sevren-10b-a1b-embla-1-feat-embla-metal/12556">PyTorch Korea</source>
+      <guid isPermaLink="false">d80932a08f545ae77c6f901bea0c181f</guid>
+    </item>
     <item>
       <title>Qwen, 새로운 구조로 이전보다 토큰과 API 가격을 줄인 2.4T 규모 플래그십 모델 Qwen4-Max 출시 (소형 모델은 가중치 공개 예정)</title>
       <link>https://discuss.pytorch.kr/t/qwen-api-2-4t-qwen4-max/12557</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/nvidia-mlip-1-7-tensor-core-fp32/12360">PyTorch Korea</source>
       <guid isPermaLink="false">df6152621e4c6a33a49cb9c8aea2f7c0</guid>
-    </item>
-    <item>
-      <title>LLM은 신경망 가중치를 읽고 쓸 수 있을까요?</title>
-      <link>https://discuss.pytorch.kr/t/llm/12397</link>
-      <description>rikiyat.github.io – 2 Nov 26 Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural...</description>
-      <pubDate>Tue, 03 Nov 2026 16:39:55 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/llm/12397">PyTorch Korea</source>
-      <guid isPermaLink="false">51270b391d5b4dc35475b6dc3c488f0a</guid>
     </item>
   </channel>
 </rss>

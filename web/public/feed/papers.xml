@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 03:15:42 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 10:31:15 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Inside the Trading Loop: Markets, Models, and Moves with LLM Agents</title>
+      <link>https://huggingface.co/papers/2611.11657</link>
+      <description>A hybrid multi-agent trading system combining large language model analysts with momentum-based portfolio construction and rule-based execution produced a 34.5% paper-account retu…</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.11657">Hugging Face Papers</source>
+      <guid isPermaLink="false">043b94632b71bea5306a58bc38d18653</guid>
+    </item>
+    <item>
+      <title>More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs</title>
+      <link>https://huggingface.co/papers/2611.17610</link>
+      <description>Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass.</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17610">Hugging Face Papers</source>
+      <guid isPermaLink="false">16802700bec7e80df74347c45aec3713</guid>
+    </item>
+    <item>
+      <title>Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model</title>
+      <link>https://huggingface.co/papers/2611.08977</link>
+      <description>Energy-Based Reasoners guide looped latent reasoning by learning an energy function whose gradient refines states and signals when to stop, with exploration-based training improvi…</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.08977">Hugging Face Papers</source>
+      <guid isPermaLink="false">3e3c8acb73488b023ed2687a2295710c</guid>
+    </item>
+    <item>
+      <title>Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures</title>
+      <link>https://huggingface.co/papers/2611.20595</link>
+      <description>LLM agents answer questions by calling APIs and trusting the results. An API can fail silently.</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.20595">Hugging Face Papers</source>
+      <guid isPermaLink="false">8e48d013bfb05c031d67574c25de9531</guid>
+    </item>
+    <item>
+      <title>Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior</title>
+      <link>https://huggingface.co/papers/2611.04395</link>
+      <description>Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label.</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.04395">Hugging Face Papers</source>
+      <guid isPermaLink="false">ee115ec65b2ca463f3dd1653ece51d29</guid>
+    </item>
+    <item>
+      <title>When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision</title>
+      <link>https://huggingface.co/papers/2611.16694</link>
+      <description>A controlled two-pass audit varying only the revision context reveals that language models often fail to selectively correct errors under disagreement, with expert labels increasi…</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.16694">Hugging Face Papers</source>
+      <guid isPermaLink="false">3490786b5038effca27691829a272763</guid>
+    </item>
+    <item>
+      <title>Marimba: A System One Model for Speech</title>
+      <link>https://huggingface.co/papers/2611.18330</link>
+      <description>Marimba uses frozen Qwen3-ASR features and lightweight readouts to make lexical, turn-end, language, speaker-change, and personal-information decisions from speech, achieving stro…</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18330">Hugging Face Papers</source>
+      <guid isPermaLink="false">21a1aff24e430675b00c454f0a87b67e</guid>
+    </item>
+    <item>
+      <title>Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort</title>
+      <link>https://huggingface.co/papers/2611.21412</link>
+      <description>MS-HVED enables flexible super-resolution of partially overlapping brain MRI stacks by fusing independently encoded multi-scale Gaussian posteriors with a field-of-view-aware Prod…</description>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.21412">Hugging Face Papers</source>
+      <guid isPermaLink="false">de0289a1197ecf0d4bceb4fa3b96987a</guid>
+    </item>
     <item>
       <title>SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models</title>
       <link>https://huggingface.co/papers/2611.17110</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.17321">Hugging Face Papers</source>
       <guid isPermaLink="false">8bcb9eefcfdfe48cf8f7589775ab05e8</guid>
-    </item>
-    <item>
-      <title>Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing</title>
-      <link>https://huggingface.co/papers/2611.17169</link>
-      <description>A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell.</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.17169">Hugging Face Papers</source>
-      <guid isPermaLink="false">9519ae855a0d2dbcb44adbca5ffc5b1e</guid>
-    </item>
-    <item>
-      <title>Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems</title>
-      <link>https://huggingface.co/papers/2611.05843</link>
-      <description>Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain.</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.05843">Hugging Face Papers</source>
-      <guid isPermaLink="false">62c712259358c2bf7deb18a22e381d43</guid>
-    </item>
-    <item>
-      <title>Restoring Diversity in Distilled Image and Video Generators by Probing Activations</title>
-      <link>https://huggingface.co/papers/2611.18550</link>
-      <description>Distilled few-step diffusion models exhibit diversity collapse because activation variance is concentrated into fewer directions in an intermediate block at the initial denoising…</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.18550">Hugging Face Papers</source>
-      <guid isPermaLink="false">c87a8f1ad5d89de12688cb6b006de98a</guid>
-    </item>
-    <item>
-      <title>Alloy: A Multi-Material Physics Engine for Robot Learning</title>
-      <link>https://huggingface.co/papers/2611.16312</link>
-      <description>Robots handle much more than rigid objects: towels, cables, water, sand.</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.16312">Hugging Face Papers</source>
-      <guid isPermaLink="false">facc579e21941088fe63b24c36e362ff</guid>
-    </item>
-    <item>
-      <title>MIRIX-2.0: Multi-Agent Memory System</title>
-      <link>https://huggingface.co/papers/2611.12068</link>
-      <description>MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.12068">Hugging Face Papers</source>
-      <guid isPermaLink="false">bae09d16d71bc572ed6a6b0826bc7d10</guid>
-    </item>
-    <item>
-      <title>G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands</title>
-      <link>https://huggingface.co/papers/2611.17814</link>
-      <description>With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce.</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.17814">Hugging Face Papers</source>
-      <guid isPermaLink="false">8d1e0711389d8cf65761f34ea2e4dae0</guid>
-    </item>
-    <item>
-      <title>VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender</title>
-      <link>https://huggingface.co/papers/2611.15789</link>
-      <description>Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera.</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.15789">Hugging Face Papers</source>
-      <guid isPermaLink="false">af231b9b865928cdc34e4952920008fd</guid>
-    </item>
-    <item>
-      <title>eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means</title>
-      <link>https://huggingface.co/papers/2611.18529</link>
-      <description>A streaming speaker-diarization method removes the fixed speaker-slot limit by clustering speaker embeddings within slots after all slots are used, allowing unlimited speakers and…</description>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.18529">Hugging Face Papers</source>
-      <guid isPermaLink="false">24bcb88f3d26462e2bfe8d801e52b029</guid>
     </item>
   </channel>
 </rss>
