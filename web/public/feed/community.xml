@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:59:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 18:51:08 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>멀티모달 모델의 비전 인코더(Vision Encoder), 사전 학습보다 전용 파라미터가 중요하다는 통제 실험 연구</title>
+      <link>https://discuss.pytorch.kr/t/vision-encoder/12558</link>
+      <description>핵심 요약 Meta FAIR와 뉴욕대학교(NYU) 연구진의 Unbundling Multimodal Vision Encoding 논문은 멀티모달 언어 모델의 비전 인코더를 다룬 통제 실험 연구입니다. 비전 인코더에 함께 묶여 있는 설계 선택 세 가지(별도 사전 학습, 비전 전용 파라미터, 백본 앞 배치)를 하나씩 분리해 비교했습니다.</description>
+      <pubDate>Wed, 18 Nov 2026 17:00:04 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vision-encoder/12558">PyTorch Korea</source>
+      <guid isPermaLink="false">439d614ea70c440c7e5b4afe1ffc867c</guid>
+    </item>
+    <item>
+      <title>GPT-6.2 Astra 및 Sol 프롬프팅 가이드: 대화 이력을 고치면 추론이 버려지는 API 변경과 대응법</title>
+      <link>https://discuss.pytorch.kr/t/gpt-6-2-astra-sol-api/12563</link>
+      <description>핵심 요약 OpenAI의 GPT-6.2 사용 가이드 에 따르면, GPT-6.2부터 API는 대화 중간에 이력이 바뀐 것을 감지하면 그 뒤의 추론 항목을 버립니다. 도구 결과를 줄이거나 개발자 메시지를 고치는 통합은 비용과 품질이 함께 나빠질 수 있습니다. Keep the prefix unchanged 문서 는 설정을 바꿀 때 요청 파라미터를 고치지 말라고 안내합니다.</description>
+      <pubDate>Wed, 18 Nov 2026 14:00:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/gpt-6-2-astra-sol-api/12563">PyTorch Korea</source>
+      <guid isPermaLink="false">bd0b336132a226d66786a28b1499147c</guid>
+    </item>
+    <item>
+      <title>OpenAI, GPT-6.2 Astra와 Sol 출시: Astra 가격 20% 인하, AI 자기 개선 High 등급 첫 출시</title>
+      <link>https://discuss.pytorch.kr/t/openai-gpt-6-2-astra-sol-astra-20-ai-high/12562</link>
+      <description>핵심 요약 OpenAI가 GPT-6.2 Astra와 Sol 발표 글 에서 최상위 모델 GPT-6.2 Astra와 일상 업무용 모델 GPT-6.2 Sol을 출시했습니다. Plus, Pro, Enterprise, Edu 사용자는 ChatGPT Work와 Codex에서, 개발자는 API의 gpt-6.2-astra , gpt-6.2-sol 로 쓸 수 있습니다.</description>
+      <pubDate>Wed, 18 Nov 2026 12:30:11 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/openai-gpt-6-2-astra-sol-astra-20-ai-high/12562">PyTorch Korea</source>
+      <guid isPermaLink="false">f5101cdda56366a4fcefb0bdb40a028f</guid>
+    </item>
+    <item>
+      <title>Personal Agent Protocol 1.0 공개: Sierra와 Meta가 주도하는, 개인용 AI 에이전트의 로그인과 권한에 대한 공개 표준</title>
+      <link>https://discuss.pytorch.kr/t/personal-agent-protocol-1-0-sierra-meta-ai/12554</link>
+      <description>핵심 요약 Sierra와 Meta가 주도하는 오픈 표준 Personal Agent Protocol(Poppy) 1.0 명세 가 나왔습니다. 개인 AI 에이전트가 기업 사이트를 찾고, 사용자 대신 로그인하고, API와 웹, 기업 에이전트를 쓰는 방법을 정합니다.</description>
+      <pubDate>Wed, 18 Nov 2026 11:30:41 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/personal-agent-protocol-1-0-sierra-meta-ai/12554">PyTorch Korea</source>
+      <guid isPermaLink="false">645fba7cb3d5c82e86809365c17b8227</guid>
+    </item>
     <item>
       <title>Sevren, 휴대폰에서 오프라인으로 돌아가는 10B-A1B 추론 모델 Embla 1 공개 (feat. embla-metal)</title>
       <link>https://discuss.pytorch.kr/t/sevren-10b-a1b-embla-1-feat-embla-metal/12556</link>
@@ -421,42 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/tensorrt-edge-llm-dgx-spark-nemotron-3-5-lightning-dspark-1-7/12401">PyTorch Korea</source>
       <guid isPermaLink="false">1b1b6974b80028bdf9364407932f229c</guid>
-    </item>
-    <item>
-      <title>플라토닉 표현 정리: 같은 장면의 두 묘사로 학습한 109M JEPA 모델이 72B LLM보다 비전 모델과 더 잘 정렬됨을 확인한 연구 (feat. Yann LeCun)</title>
-      <link>https://discuss.pytorch.kr/t/109m-jepa-72b-llm-feat-yann-lecun/12393</link>
-      <description>핵심 요약 Randall Balestriero와 Yann LeCun의 Proving and Improving the Platonic Representation Hypothesis with JEPAs 논문은 하나의 정리를 증명했습니다. 모달리티별로 따로 학습한 JEPA가 같은 장면의 두 관측을 양성 쌍으로 쓰면 회전 하나만 다른 같은 표현을 배운다 는 정리입니다.</description>
-      <pubDate>Wed, 04 Nov 2026 15:30:42 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/109m-jepa-72b-llm-feat-yann-lecun/12393">PyTorch Korea</source>
-      <guid isPermaLink="false">bad98dfb21c1faa1c1702fb5d8acdb92</guid>
-    </item>
-    <item>
-      <title>OpenAI, 사람의 일상 과제를 대신 처리하는 능력을 재기 위한 LifeVal 벤치마크 및 최신 GPT 모델들의 측정 결과 공개</title>
-      <link>https://discuss.pytorch.kr/t/openai-lifeval-gpt/12392</link>
-      <description>핵심 요약 OpenAI가 2026년 11월 2일 LifeVal 발표 글 에서 육아, 건강, 행정 서류, 장보기 같은 일상 과제 169개로 만든 평가 LifeVal을 소개했습니다. 과제당 여러 번 시도한 평균 보상을 다시 169개 과제에 같은 비중으로 평균하면, xhigh 설정에서 GPT-5.2가 49.3%, GPT-6 Astra가 80.6%입니다. 최근 상승 폭은 작습니다.</description>
-      <pubDate>Wed, 04 Nov 2026 11:30:25 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-lifeval-gpt/12392">PyTorch Korea</source>
-      <guid isPermaLink="false">94e2fd0f0563c2068ff8e55e5c6e8b38</guid>
-    </item>
-    <item>
-      <title>Auto Ontology: DB 메타데이터로 온톨로지를 생성해 AI 에이전트의 SQL을 검증하는 NVIDIA의 시맨틱 레이어 프레임워크</title>
-      <link>https://discuss.pytorch.kr/t/auto-ontology-db-ai-sql-nvidia/12402</link>
-      <description>핵심 요약 Auto Ontology 는 NVIDIA가 공개한 파이썬 프레임워크로, 기업 데이터베이스의 메타데이터에서 온톨로지(용어 정의, 컬럼 매핑, 관계)를 생성하고 이를 근거로 자연어 질문을 SQL로 바꿔 실행합니다. AI 에이전트는 읽기 전용 도구 9개를 제공하는 MCP 서버, REST API, 웹 UI로 접근하며, 답변에는 실행한 SQL과 출처가 함께 돌아옵니다.</description>
-      <pubDate>Wed, 04 Nov 2026 08:00:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/auto-ontology-db-ai-sql-nvidia/12402">PyTorch Korea</source>
-      <guid isPermaLink="false">6bea22793fe6993944762a3b2665b4a5</guid>
-    </item>
-    <item>
-      <title>NVIDIA, 재학습 없이 MLIP 분자 동역학을 최대 1.7배 가속한 Tensor Core FP32 기법 실측 기법 공개</title>
-      <link>https://discuss.pytorch.kr/t/nvidia-mlip-1-7-tensor-core-fp32/12360</link>
-      <description>핵심 요약 NVIDIA와 EPFL 연구진이 NVIDIA 기술 블로그 글 에서 원자간 포텐셜 모델 PET의 FP32 행렬 곱을 Tensor Core로 돌린 결과를 공개했습니다. 방법은 FP32를 낮은 정밀도 조각으로 나눠 계산하는 BF16x9와 TF32x3입니다. B300에서 BF16x9는 분자 동역학(MD) 한 스텝을 최대 1.7배, A100에서 TF32x3는 최대 1.5배 빠르게 했습니다.</description>
-      <pubDate>Tue, 03 Nov 2026 20:00:41 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/nvidia-mlip-1-7-tensor-core-fp32/12360">PyTorch Korea</source>
-      <guid isPermaLink="false">df6152621e4c6a33a49cb9c8aea2f7c0</guid>
     </item>
   </channel>
 </rss>
