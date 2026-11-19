@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Nov 2026 03:42:15 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:59:54 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)</title>
+      <link>https://huggingface.co/papers/2611.20003</link>
+      <description>In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents t…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.20003">Hugging Face Papers</source>
+      <guid isPermaLink="false">aeca426b6a1d80de2d0db7fe6472cb5f</guid>
+    </item>
+    <item>
+      <title>WeightBench: Evaluating Language Models as Weight-Space Programmers</title>
+      <link>https://huggingface.co/papers/2611.18553</link>
+      <description>The WEIGHTBENCH benchmark evaluates the capacity of large language models to perform Weight-Space Programming tasks, which involve reading, modifying, and generating the weights o…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.18553">Hugging Face Papers</source>
+      <guid isPermaLink="false">5be92a15fcfbc12a272953ef0eb4953a</guid>
+    </item>
+    <item>
+      <title>Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark</title>
+      <link>https://huggingface.co/papers/2611.20321</link>
+      <description>A simple monocular pose estimator trained on synthetic spacecraft images shows poor real-world transfer, with overconfident pose errors and uneven gains from backbone adaptation a…</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.20321">Hugging Face Papers</source>
+      <guid isPermaLink="false">9fcea7fdc8b43f90cc1a905e7d0d7883</guid>
+    </item>
+    <item>
+      <title>CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference</title>
+      <link>https://huggingface.co/papers/2611.20995</link>
+      <description>In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet generic inference methods relearn this geometry during warmup.</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.20995">Hugging Face Papers</source>
+      <guid isPermaLink="false">55bb9d8b1bd0b4614cb30a031916cf74</guid>
+    </item>
+    <item>
+      <title>Attention at Absolute Zero</title>
+      <link>https://huggingface.co/papers/2611.11937</link>
+      <description>Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature.</description>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.11937">Hugging Face Papers</source>
+      <guid isPermaLink="false">dfc15c016bc262f3236c41d2db2531bf</guid>
+    </item>
     <item>
       <title>GameRealm: Grounding Visual Learning in Interactive Games</title>
       <link>https://huggingface.co/papers/2611.23140</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.16642">Hugging Face Papers</source>
       <guid isPermaLink="false">562c4806676fc3e3624395e9c2729fc8</guid>
-    </item>
-    <item>
-      <title>OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination</title>
-      <link>https://huggingface.co/papers/2611.17933</link>
-      <description>OutfitterBench evaluates LLM agents managing a 200-day outdoor-equipment rental business under fixed capital and uncertain demand, revealing limitations in sustaining feasible com…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.17933">Hugging Face Papers</source>
-      <guid isPermaLink="false">fde7ce2b1549f4bcc96dbb68b824705b</guid>
-    </item>
-    <item>
-      <title>BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design</title>
-      <link>https://huggingface.co/papers/2611.09825</link>
-      <description>BitDecoding-FP4 co-designs FP4 quantization and system optimizations to enable accurate, high-throughput long-context KV decoding for LLMs.</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.09825">Hugging Face Papers</source>
-      <guid isPermaLink="false">7d2a328d80cf42844dcd7472be949a3c</guid>
-    </item>
-    <item>
-      <title>Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax</title>
-      <link>https://huggingface.co/papers/2611.19537</link>
-      <description>A framework uses coding agents and a feedback cascade to synthesize code-based policies that achieve long-horizon success and can be factored into a reusable goal compiler for zer…</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.19537">Hugging Face Papers</source>
-      <guid isPermaLink="false">f45315d335a7bf693d3b46884f9da9f5</guid>
-    </item>
-    <item>
-      <title>Termination Lag: Coding Agents Solve Early but Stop Late</title>
-      <link>https://huggingface.co/papers/2611.14960</link>
-      <description>Coding agents often find correct patches early but continue working, sometimes undoing correct solutions, with termination lag varying by model and benchmark.</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.14960">Hugging Face Papers</source>
-      <guid isPermaLink="false">082932c95dd927b21810816bf7666617</guid>
-    </item>
-    <item>
-      <title>JEPA4R: Embodied JEPA World Models with 4D Point Planning</title>
-      <link>https://huggingface.co/papers/2611.19771</link>
-      <description>Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space.</description>
-      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.19771">Hugging Face Papers</source>
-      <guid isPermaLink="false">de5592339d027b0607b52079aacc0c0f</guid>
     </item>
   </channel>
 </rss>
