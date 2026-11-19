@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T12:59:59.120424+09:00",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T12:57:02.263394+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,8 +10,34 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "f7c372bd59cea80a2d4e9bd6260a716b",
+          "id": "887ee97acada33a1baab988d588d0673",
           "index": 1,
+          "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+          "title_ko": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+          "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
+          "summary_ko": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
+          "url": "https://huggingface.co/papers/2611.22115",
+          "source": "Hugging Face Papers",
+          "section": "📄 Papers",
+          "section_id": "papers",
+          "published_at": "2026-11-18T09:00:00+09:00",
+          "popularity": 317,
+          "upvotes": 151,
+          "score": 27.29,
+          "importance_score": 17.29,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "training"
+          ],
+          "engagement": {
+            "label": "Upvotes",
+            "value": 151
+          }
+        },
+        {
+          "id": "f7c372bd59cea80a2d4e9bd6260a716b",
+          "index": 2,
           "title": "Weight-Space Programming Doesn't Need Transformers",
           "title_ko": "Weight-Space Programming Doesn't Need Transformers",
           "summary": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized Transformers with far fewer parameters an…",
@@ -21,10 +47,10 @@
           "section": "📄 Papers",
           "section_id": "papers",
           "published_at": "2026-11-18T09:00:00+09:00",
-          "popularity": 68,
-          "upvotes": 18,
-          "score": 28.87,
-          "importance_score": 21.04,
+          "popularity": 155,
+          "upvotes": 51,
+          "score": 27.15,
+          "importance_score": 15.15,
           "matched_keywords": [
             "ai",
             "transformer",
@@ -33,33 +59,7 @@
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 18
-          }
-        },
-        {
-          "id": "cbcd538453a6bc136144f46aead146a8",
-          "index": 2,
-          "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-          "title_ko": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-          "summary": "InclusionMed is an open medical AI evaluation initiative that audits and reproduces benchmarks across healthcare roles and capabilities, revealing that model rankings and inference costs vary by context and motivating b…",
-          "summary_ko": "InclusionMed is an open medical AI evaluation initiative that audits and reproduces benchmarks across healthcare roles and capabilities, revealing that model rankings and inferenc…",
-          "url": "https://huggingface.co/papers/2611.21218",
-          "source": "Hugging Face Papers",
-          "section": "📄 Papers",
-          "section_id": "papers",
-          "published_at": "2026-11-17T09:00:00+09:00",
-          "popularity": 196,
-          "upvotes": 74,
-          "score": 25.85,
-          "importance_score": 15.85,
-          "matched_keywords": [
-            "ai",
-            "benchmark",
-            "inference"
-          ],
-          "engagement": {
-            "label": "Upvotes",
-            "value": 74
+            "value": 51
           }
         }
       ]
@@ -69,45 +69,45 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "939189981c2941b27a7bce4ba6d63d55",
+          "id": "79123f7d7e98fc1d07802611fcda28b3",
           "index": 3,
-          "title": "[AI리더의 서가]  VLA 로보틱스 입문",
+          "title": "5명이 가상의 손가락 조작하자 AI가 문장으로…GIST 체험기술 공개",
           "title_ko": null,
-          "summary": "VLA 로보틱스 입문김병규 | 위키북스2026년 11월 17일추천이유독자는 파이썬 기초 지식만으로도 시뮬레이션에서 실제 로봇까지 피지컬 AI의 전 과정을 직접 경험할 수 있습니다. 이 책은 데이터 수집부터 모델 학습, 로봇 제어까지 단계적으로 실습하며 AI가 어떻게 로봇의 행동을 만드는지 실제로 체득하게 합니다.상세보기 \\\"로봇을 다뤄 본 적은 없는데 피지컬 AI를 공부하고 싶어요.",
+          "summary": "다섯 명이 각자 가상의 손가락 하나씩을 움직여 손 모양을 완성하면 AI가 이를 단어와 문장으로 바꾸는 기술이 공개됐다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217283",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217547",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-18T09:00:00+09:00",
-          "popularity": 99,
+          "published_at": "2026-11-19T12:43:12+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.07,
-          "importance_score": 18.23,
+          "score": 19.95,
+          "importance_score": 19.9,
           "matched_keywords": [
-            "ai",
-            "모델"
+            "ai"
           ],
           "engagement": null
         },
         {
-          "id": "060404f0317bf1824a03a4d98b9bdd53",
+          "id": "fc38ef984ff9da1db9c2c9374e0f52f1",
           "index": 4,
-          "title": "[국가연구소대학 UST, 연구·창업 앞장]강대임 총장 “최고 이공계 명문 도약할 것”",
+          "title": "“챗GPT로 진단서 41장 위조”…50일간 복무 이탈한 사회복무요원",
           "title_ko": null,
-          "summary": "“학생과 교원이 세계적 수준의 연구 성과를 더 많이 내놓고 있고, 국가연구소의 원천기술을 사업화하려는 창업 열기도 뜨겁습니다. 30개 국가연구소의 역량을 결집한 UST만의 교육 시스템을 고도화해 대한민국을 넘어 전 세계 과학기술 발전을 주도하는 국가연구소대학으로 도약하겠습니다.” 강대임 UST 총장이 올 한 해를 돌아보며 밝힌 소회다.",
+          "summary": "생성형 인공지능(AI) 챗GPT를 활용해 진단서를 대량으로 조작하고 사회복무를 무단으로 빠진 20대 남성이 징역형 집행유예를 선고받았다. 19일 법조계에 따르면 부산지법 형사4단독 변성환 판사는 사문서위조와 위조사문서행사, 병역법 위반 혐의로 기소된 A씨에게 징역 8개월에 집행유예 2년을 선고했다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261118000078",
+          "url": "https://www.etnews.com/20261119000169",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-18T12:00:00+09:00",
-          "popularity": 100,
+          "published_at": "2026-11-19T11:06:07+09:00",
+          "popularity": 98,
           "upvotes": 0,
-          "score": 19.79,
-          "importance_score": 19.58,
+          "score": 22.42,
+          "importance_score": 19.03,
           "matched_keywords": [
-            "연구"
+            "ai",
+            "gpt"
           ],
           "engagement": null
         }
@@ -129,10 +129,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-11-17T03:40:08+09:00",
-          "popularity": 950,
-          "upvotes": 950,
-          "score": 35.0,
-          "importance_score": 24.0,
+          "popularity": 1134,
+          "upvotes": 1134,
+          "score": 35.5,
+          "importance_score": 24.5,
           "matched_keywords": [
             "llm",
             "agent",
@@ -140,7 +140,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 950
+            "value": 1134
           }
         },
         {
@@ -175,25 +175,24 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "d80932a08f545ae77c6f901bea0c181f",
+          "id": "13000f42f8b27d313276251ee3061090",
           "index": 7,
-          "title": "Sevren, 휴대폰에서 오프라인으로 돌아가는 10B-A1B 추론 모델 Embla 1 공개 (feat. embla-metal)",
+          "title": "[실험] 힌트와 해석기 피드백으로 싼 모델이 재무 최적화 문제를 더 잘 정식화할까? OptiMind 축소 실험 (비공식)",
           "title_ko": null,
-          "summary": "핵심 요약 덴마크 코펜하겐의 AI 연구소 Sevren이 휴대폰에서 실행하도록 설계한 추론 모델 Embla 1을 Embla 1 발표 글 과 함께 공개했습니다. 전체 10B(이 중 3B는 Engram 표) 파라미터에 토큰당 활성 파라미터는 1B인 MoE 모델이고, 가중치는 MIT 라이선스입니다.",
+          "summary": "PyTorchKR의 11/09~15 주간 AI/ML 논문 모음 에서 OptiMind 논문을 골랐습니다. 자연어로 쓴 최적화 문제를 해석기(solver) 코드로 옮기는 작은 모델을 돕는 방법입니다. 추론 단계에서는 (1) 모델이 문제 유형을 고르고, (2) 그 유형에서 자주 나오는 실수와 예방 규칙(힌트)을 받고, (3) 해석기 출력을 보며 여러 턴 고칩니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/sevren-10b-a1b-embla-1-feat-embla-metal/12556",
+          "url": "https://discuss.pytorch.kr/t/optimind/12580",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-11-18T08:30:48+09:00",
-          "popularity": 98,
+          "published_at": "2026-11-19T10:45:01+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 27.87,
-          "importance_score": 17.93,
+          "score": 25.44,
+          "importance_score": 18.98,
           "matched_keywords": [
             "ai",
             "추론",
-            "연구",
             "모델"
           ],
           "engagement": null
@@ -203,8 +202,34 @@
   ],
   "items": [
     {
-      "id": "f7c372bd59cea80a2d4e9bd6260a716b",
+      "id": "887ee97acada33a1baab988d588d0673",
       "index": 1,
+      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "title_ko": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
+      "summary_ko": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
+      "url": "https://huggingface.co/papers/2611.22115",
+      "source": "Hugging Face Papers",
+      "section": "📄 Papers",
+      "section_id": "papers",
+      "published_at": "2026-11-18T09:00:00+09:00",
+      "popularity": 317,
+      "upvotes": 151,
+      "score": 27.29,
+      "importance_score": 17.29,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "training"
+      ],
+      "engagement": {
+        "label": "Upvotes",
+        "value": 151
+      }
+    },
+    {
+      "id": "f7c372bd59cea80a2d4e9bd6260a716b",
+      "index": 2,
       "title": "Weight-Space Programming Doesn't Need Transformers",
       "title_ko": "Weight-Space Programming Doesn't Need Transformers",
       "summary": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized Transformers with far fewer parameters an…",
@@ -214,10 +239,10 @@
       "section": "📄 Papers",
       "section_id": "papers",
       "published_at": "2026-11-18T09:00:00+09:00",
-      "popularity": 68,
-      "upvotes": 18,
-      "score": 28.87,
-      "importance_score": 21.04,
+      "popularity": 155,
+      "upvotes": 51,
+      "score": 27.15,
+      "importance_score": 15.15,
       "matched_keywords": [
         "ai",
         "transformer",
@@ -226,75 +251,49 @@
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 18
+        "value": 51
       }
     },
     {
-      "id": "cbcd538453a6bc136144f46aead146a8",
-      "index": 2,
-      "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-      "title_ko": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-      "summary": "InclusionMed is an open medical AI evaluation initiative that audits and reproduces benchmarks across healthcare roles and capabilities, revealing that model rankings and inference costs vary by context and motivating b…",
-      "summary_ko": "InclusionMed is an open medical AI evaluation initiative that audits and reproduces benchmarks across healthcare roles and capabilities, revealing that model rankings and inferenc…",
-      "url": "https://huggingface.co/papers/2611.21218",
-      "source": "Hugging Face Papers",
-      "section": "📄 Papers",
-      "section_id": "papers",
-      "published_at": "2026-11-17T09:00:00+09:00",
-      "popularity": 196,
-      "upvotes": 74,
-      "score": 25.85,
-      "importance_score": 15.85,
-      "matched_keywords": [
-        "ai",
-        "benchmark",
-        "inference"
-      ],
-      "engagement": {
-        "label": "Upvotes",
-        "value": 74
-      }
-    },
-    {
-      "id": "939189981c2941b27a7bce4ba6d63d55",
+      "id": "79123f7d7e98fc1d07802611fcda28b3",
       "index": 3,
-      "title": "[AI리더의 서가]  VLA 로보틱스 입문",
+      "title": "5명이 가상의 손가락 조작하자 AI가 문장으로…GIST 체험기술 공개",
       "title_ko": null,
-      "summary": "VLA 로보틱스 입문김병규 | 위키북스2026년 11월 17일추천이유독자는 파이썬 기초 지식만으로도 시뮬레이션에서 실제 로봇까지 피지컬 AI의 전 과정을 직접 경험할 수 있습니다. 이 책은 데이터 수집부터 모델 학습, 로봇 제어까지 단계적으로 실습하며 AI가 어떻게 로봇의 행동을 만드는지 실제로 체득하게 합니다.상세보기 \\\"로봇을 다뤄 본 적은 없는데 피지컬 AI를 공부하고 싶어요.",
+      "summary": "다섯 명이 각자 가상의 손가락 하나씩을 움직여 손 모양을 완성하면 AI가 이를 단어와 문장으로 바꾸는 기술이 공개됐다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217283",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217547",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-18T09:00:00+09:00",
-      "popularity": 99,
+      "published_at": "2026-11-19T12:43:12+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.07,
-      "importance_score": 18.23,
+      "score": 19.95,
+      "importance_score": 19.9,
       "matched_keywords": [
-        "ai",
-        "모델"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "060404f0317bf1824a03a4d98b9bdd53",
+      "id": "fc38ef984ff9da1db9c2c9374e0f52f1",
       "index": 4,
-      "title": "[국가연구소대학 UST, 연구·창업 앞장]강대임 총장 “최고 이공계 명문 도약할 것”",
+      "title": "“챗GPT로 진단서 41장 위조”…50일간 복무 이탈한 사회복무요원",
       "title_ko": null,
-      "summary": "“학생과 교원이 세계적 수준의 연구 성과를 더 많이 내놓고 있고, 국가연구소의 원천기술을 사업화하려는 창업 열기도 뜨겁습니다. 30개 국가연구소의 역량을 결집한 UST만의 교육 시스템을 고도화해 대한민국을 넘어 전 세계 과학기술 발전을 주도하는 국가연구소대학으로 도약하겠습니다.” 강대임 UST 총장이 올 한 해를 돌아보며 밝힌 소회다.",
+      "summary": "생성형 인공지능(AI) 챗GPT를 활용해 진단서를 대량으로 조작하고 사회복무를 무단으로 빠진 20대 남성이 징역형 집행유예를 선고받았다. 19일 법조계에 따르면 부산지법 형사4단독 변성환 판사는 사문서위조와 위조사문서행사, 병역법 위반 혐의로 기소된 A씨에게 징역 8개월에 집행유예 2년을 선고했다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261118000078",
+      "url": "https://www.etnews.com/20261119000169",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-18T12:00:00+09:00",
-      "popularity": 100,
+      "published_at": "2026-11-19T11:06:07+09:00",
+      "popularity": 98,
       "upvotes": 0,
-      "score": 19.79,
-      "importance_score": 19.58,
+      "score": 22.42,
+      "importance_score": 19.03,
       "matched_keywords": [
-        "연구"
+        "ai",
+        "gpt"
       ],
       "engagement": null
     },
@@ -310,10 +309,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-11-17T03:40:08+09:00",
-      "popularity": 950,
-      "upvotes": 950,
-      "score": 35.0,
-      "importance_score": 24.0,
+      "popularity": 1134,
+      "upvotes": 1134,
+      "score": 35.5,
+      "importance_score": 24.5,
       "matched_keywords": [
         "llm",
         "agent",
@@ -321,7 +320,7 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 950
+        "value": 1134
       }
     },
     {
@@ -350,25 +349,24 @@
       }
     },
     {
-      "id": "d80932a08f545ae77c6f901bea0c181f",
+      "id": "13000f42f8b27d313276251ee3061090",
       "index": 7,
-      "title": "Sevren, 휴대폰에서 오프라인으로 돌아가는 10B-A1B 추론 모델 Embla 1 공개 (feat. embla-metal)",
+      "title": "[실험] 힌트와 해석기 피드백으로 싼 모델이 재무 최적화 문제를 더 잘 정식화할까? OptiMind 축소 실험 (비공식)",
       "title_ko": null,
-      "summary": "핵심 요약 덴마크 코펜하겐의 AI 연구소 Sevren이 휴대폰에서 실행하도록 설계한 추론 모델 Embla 1을 Embla 1 발표 글 과 함께 공개했습니다. 전체 10B(이 중 3B는 Engram 표) 파라미터에 토큰당 활성 파라미터는 1B인 MoE 모델이고, 가중치는 MIT 라이선스입니다.",
+      "summary": "PyTorchKR의 11/09~15 주간 AI/ML 논문 모음 에서 OptiMind 논문을 골랐습니다. 자연어로 쓴 최적화 문제를 해석기(solver) 코드로 옮기는 작은 모델을 돕는 방법입니다. 추론 단계에서는 (1) 모델이 문제 유형을 고르고, (2) 그 유형에서 자주 나오는 실수와 예방 규칙(힌트)을 받고, (3) 해석기 출력을 보며 여러 턴 고칩니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/sevren-10b-a1b-embla-1-feat-embla-metal/12556",
+      "url": "https://discuss.pytorch.kr/t/optimind/12580",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-11-18T08:30:48+09:00",
-      "popularity": 98,
+      "published_at": "2026-11-19T10:45:01+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 27.87,
-      "importance_score": 17.93,
+      "score": 25.44,
+      "importance_score": 18.98,
       "matched_keywords": [
         "ai",
         "추론",
-        "연구",
         "모델"
       ],
       "engagement": null
