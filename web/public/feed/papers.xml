@@ -5,9 +5,45 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Nov 2026 02:38:05 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 08:46:10 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>RL Post-Training in Diffusion Transformers Is Activation Steering</title>
+      <link>https://huggingface.co/papers/2611.26627</link>
+      <description>A fixed set of steering vectors added to a frozen diffusion transformer recovers most of the quality gains from reinforcement learning post-training, indicating that much of the i…</description>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.26627">Hugging Face Papers</source>
+      <guid isPermaLink="false">12c383f44fb265b9ffccc1ee08726b2e</guid>
+    </item>
+    <item>
+      <title>In Situ Training of Optical Neural Networks by Coding Agents</title>
+      <link>https://huggingface.co/papers/2611.23875</link>
+      <description>A coding agent trains an optical neural network from measurements alone by reparametrizing it with interpretable optical elements, achieving better classification and image encodi…</description>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.23875">Hugging Face Papers</source>
+      <guid isPermaLink="false">620eb3f4dad74266b1fe8e317386d26c</guid>
+    </item>
+    <item>
+      <title>Lang-SVG: Hierarchical Image Vectorization with Language Priors</title>
+      <link>https://huggingface.co/papers/2611.15941</link>
+      <description>Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images.</description>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.15941">Hugging Face Papers</source>
+      <guid isPermaLink="false">24517cadb8be50da7e7a05d5892d69d1</guid>
+    </item>
+    <item>
+      <title>Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests</title>
+      <link>https://huggingface.co/papers/2611.25200</link>
+      <description>Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice.</description>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.25200">Hugging Face Papers</source>
+      <guid isPermaLink="false">748514f40160ee147dbaf890fcb856ff</guid>
+    </item>
     <item>
       <title>Training Vision Models for LLM-Driven Weight-Space Programming</title>
       <link>https://huggingface.co/papers/2611.26408</link>
@@ -421,42 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.23779">Hugging Face Papers</source>
       <guid isPermaLink="false">d16d580a6b6dccd2e5f9862cc508bc93</guid>
-    </item>
-    <item>
-      <title>Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts</title>
-      <link>https://huggingface.co/papers/2611.24059</link>
-      <description>Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-poli…</description>
-      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.24059">Hugging Face Papers</source>
-      <guid isPermaLink="false">1f5d7ce60587bc2350874eac978c3337</guid>
-    </item>
-    <item>
-      <title>General progress substitutes for specific training data in language models</title>
-      <link>https://huggingface.co/papers/2611.24844</link>
-      <description>Withholding training data delays but does not prevent language models from acquiring skills, and models can regain withheld capabilities with less data as they improve.</description>
-      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.24844">Hugging Face Papers</source>
-      <guid isPermaLink="false">3ffdf53d0f2337622a502cdb8448b725</guid>
-    </item>
-    <item>
-      <title>Choosing Quantized Code LLMs by File Size and Energy per Solved Task</title>
-      <link>https://huggingface.co/papers/2611.17605</link>
-      <description>A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine.</description>
-      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.17605">Hugging Face Papers</source>
-      <guid isPermaLink="false">0d5e2f8ad4d337197d7da26b5b942a5f</guid>
-    </item>
-    <item>
-      <title>Unified Law for Visual Tasks (The Four Laws of Computer Vision)</title>
-      <link>https://huggingface.co/papers/2611.24917</link>
-      <description>A unified framework, World Snapshot Models, is proposed to train and perform nearly all visual tasks by reformulating them as generation tasks, validated across over 1,000 visual…</description>
-      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.24917">Hugging Face Papers</source>
-      <guid isPermaLink="false">b7167cf4ef13d654f69835066b97a4da</guid>
     </item>
   </channel>
 </rss>
