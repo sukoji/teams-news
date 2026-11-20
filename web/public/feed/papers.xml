@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Nov 2026 03:01:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 09:34:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning</title>
+      <link>https://huggingface.co/papers/2611.23779</link>
+      <description>A large-scale benchmark of 94 curated biomedical tabular datasets standardizes evaluation across classification, regression, and multi-target tasks and finds that foundation model…</description>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.23779">Hugging Face Papers</source>
+      <guid isPermaLink="false">d16d580a6b6dccd2e5f9862cc508bc93</guid>
+    </item>
+    <item>
+      <title>Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts</title>
+      <link>https://huggingface.co/papers/2611.24059</link>
+      <description>Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-poli…</description>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.24059">Hugging Face Papers</source>
+      <guid isPermaLink="false">1f5d7ce60587bc2350874eac978c3337</guid>
+    </item>
+    <item>
+      <title>General progress substitutes for specific training data in language models</title>
+      <link>https://huggingface.co/papers/2611.24844</link>
+      <description>Withholding training data delays but does not prevent language models from acquiring skills, and models can regain withheld capabilities with less data as they improve.</description>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.24844">Hugging Face Papers</source>
+      <guid isPermaLink="false">3ffdf53d0f2337622a502cdb8448b725</guid>
+    </item>
+    <item>
+      <title>Choosing Quantized Code LLMs by File Size and Energy per Solved Task</title>
+      <link>https://huggingface.co/papers/2611.17605</link>
+      <description>A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine.</description>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.17605">Hugging Face Papers</source>
+      <guid isPermaLink="false">0d5e2f8ad4d337197d7da26b5b942a5f</guid>
+    </item>
+    <item>
+      <title>Unified Law for Visual Tasks (The Four Laws of Computer Vision)</title>
+      <link>https://huggingface.co/papers/2611.24917</link>
+      <description>A unified framework, World Snapshot Models, is proposed to train and perform nearly all visual tasks by reformulating them as generation tasks, validated across over 1,000 visual…</description>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.24917">Hugging Face Papers</source>
+      <guid isPermaLink="false">b7167cf4ef13d654f69835066b97a4da</guid>
+    </item>
     <item>
       <title>PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation</title>
       <link>https://huggingface.co/papers/2611.23236</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.22668">Hugging Face Papers</source>
       <guid isPermaLink="false">d1968ee38651ab049ca77983451257d9</guid>
-    </item>
-    <item>
-      <title>UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation</title>
-      <link>https://huggingface.co/papers/2611.24941</link>
-      <description>UltraTex employs a cascaded multi-view framework that integrates physical knowledge and vision-language model features to accurately generate physically plausible PBR texture maps.</description>
-      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.24941">Hugging Face Papers</source>
-      <guid isPermaLink="false">30d44e1f11463a5dae845318d28d5d2b</guid>
-    </item>
-    <item>
-      <title>The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)</title>
-      <link>https://huggingface.co/papers/2611.20003</link>
-      <description>In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents t…</description>
-      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.20003">Hugging Face Papers</source>
-      <guid isPermaLink="false">aeca426b6a1d80de2d0db7fe6472cb5f</guid>
-    </item>
-    <item>
-      <title>WeightBench: Evaluating Language Models as Weight-Space Programmers</title>
-      <link>https://huggingface.co/papers/2611.18553</link>
-      <description>The WEIGHTBENCH benchmark evaluates the capacity of large language models to perform Weight-Space Programming tasks, which involve reading, modifying, and generating the weights o…</description>
-      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.18553">Hugging Face Papers</source>
-      <guid isPermaLink="false">5be92a15fcfbc12a272953ef0eb4953a</guid>
-    </item>
-    <item>
-      <title>Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark</title>
-      <link>https://huggingface.co/papers/2611.20321</link>
-      <description>A simple monocular pose estimator trained on synthetic spacecraft images shows poor real-world transfer, with overconfident pose errors and uneven gains from backbone adaptation a…</description>
-      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.20321">Hugging Face Papers</source>
-      <guid isPermaLink="false">9fcea7fdc8b43f90cc1a905e7d0d7883</guid>
-    </item>
-    <item>
-      <title>CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference</title>
-      <link>https://huggingface.co/papers/2611.20995</link>
-      <description>In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet generic inference methods relearn this geometry during warmup.</description>
-      <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.20995">Hugging Face Papers</source>
-      <guid isPermaLink="false">55bb9d8b1bd0b4614cb30a031916cf74</guid>
     </item>
   </channel>
 </rss>
