@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19T12:57:02.263394+09:00",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T12:51:20.659822+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,56 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "887ee97acada33a1baab988d588d0673",
+          "id": "3aa93cb91ee52648a421270b411590c3",
           "index": 1,
-          "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-          "title_ko": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-          "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
-          "summary_ko": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
-          "url": "https://huggingface.co/papers/2611.22115",
+          "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+          "title_ko": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+          "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI).",
+          "summary_ko": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improv…",
+          "url": "https://huggingface.co/papers/2611.24651",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-18T09:00:00+09:00",
-          "popularity": 317,
-          "upvotes": 151,
-          "score": 27.29,
-          "importance_score": 17.29,
+          "published_at": "2026-11-19T09:00:00+09:00",
+          "popularity": 90,
+          "upvotes": 11,
+          "score": 25.53,
+          "importance_score": 13.53,
           "matched_keywords": [
             "ai",
             "agent",
+            "multimodal",
             "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 151
+            "value": 11
           }
         },
         {
-          "id": "f7c372bd59cea80a2d4e9bd6260a716b",
+          "id": "11eace409cbddaf9fb02f3eaf59771d5",
           "index": 2,
-          "title": "Weight-Space Programming Doesn't Need Transformers",
-          "title_ko": "Weight-Space Programming Doesn't Need Transformers",
-          "summary": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized Transformers with far fewer parameters an…",
-          "summary_ko": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized T…",
-          "url": "https://huggingface.co/papers/2611.22055",
+          "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+          "title_ko": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+          "summary": "A prototype-guided progressive obfuscation method preserves relative item relations while perturbing high-influence semantic embeddings to defend against inversion attacks in LLM-enhanced recommender systems.",
+          "summary_ko": "A prototype-guided progressive obfuscation method preserves relative item relations while perturbing high-influence semantic embeddings to defend against inversion attacks in LLM-…",
+          "url": "https://huggingface.co/papers/2611.23236",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-18T09:00:00+09:00",
-          "popularity": 155,
-          "upvotes": 51,
-          "score": 27.15,
-          "importance_score": 15.15,
+          "published_at": "2026-11-19T09:00:00+09:00",
+          "popularity": 170,
+          "upvotes": 2,
+          "score": 25.42,
+          "importance_score": 15.42,
           "matched_keywords": [
             "ai",
-            "transformer",
-            "neural",
-            "training"
+            "llm",
+            "embedding"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 51
+            "value": 2
           }
         }
       ]
@@ -69,45 +69,44 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "79123f7d7e98fc1d07802611fcda28b3",
+          "id": "e3098be5cbc6509d09a45025302529e5",
           "index": 3,
-          "title": "5명이 가상의 손가락 조작하자 AI가 문장으로…GIST 체험기술 공개",
+          "title": "한전, AI로 소상공인 전기료 분석 확대…영국은 요금 변경으로 비용 절감",
           "title_ko": null,
-          "summary": "다섯 명이 각자 가상의 손가락 하나씩을 움직여 손 모양을 완성하면 AI가 이를 단어와 문장으로 바꾸는 기술이 공개됐다.",
+          "summary": "한국전력이 소상공인의 전력 사용 패턴을 AI로 분석해 요금제와 계약전력 조정 방안을 제시하는 서비스를 확대한다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217547",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217598",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-19T12:43:12+09:00",
-          "popularity": 100,
+          "published_at": "2026-11-20T11:41:31+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 19.95,
-          "importance_score": 19.9,
+          "score": 19.66,
+          "importance_score": 19.42,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
         },
         {
-          "id": "fc38ef984ff9da1db9c2c9374e0f52f1",
+          "id": "3d580a48c54f2322ca2a44f6045e8405",
           "index": 4,
-          "title": "“챗GPT로 진단서 41장 위조”…50일간 복무 이탈한 사회복무요원",
+          "title": "2심 무죄 받은 김범수 창업자...\"카카오 불확실성 해소한 중요한 전기\"",
           "title_ko": null,
-          "summary": "생성형 인공지능(AI) 챗GPT를 활용해 진단서를 대량으로 조작하고 사회복무를 무단으로 빠진 20대 남성이 징역형 집행유예를 선고받았다. 19일 법조계에 따르면 부산지법 형사4단독 변성환 판사는 사문서위조와 위조사문서행사, 병역법 위반 혐의로 기소된 A씨에게 징역 8개월에 집행유예 2년을 선고했다.",
+          "summary": "[지디넷코리아]SM엔터테인먼트 시세 조종 의혹 2심에서 무죄를 선고받은 김범수 카카오 창업자가 재판부에 감사를 표하며, 인공지능(AI) 시대에 발맞춘 과감한 변화와 재도약 의지를 밝혔다.김 창업자는 20일 서울 서초구에 위치한 서울고등법원에서 2심 선고를 마치고 취재진을 만나 “오늘의 판결은 지난 3년간 카카오를 에워쌌던 불확실성을 해소하는 중요한 전기가 됐다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261119000169",
-          "source": "전자신문 IT",
+          "url": "https://zdnet.co.kr/view/?no=20261120111246",
+          "source": "ZDNet Korea",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-19T11:06:07+09:00",
-          "popularity": 98,
+          "published_at": "2026-11-20T11:19:26+09:00",
+          "popularity": 99,
           "upvotes": 0,
-          "score": 22.42,
-          "importance_score": 19.03,
+          "score": 19.58,
+          "importance_score": 19.26,
           "matched_keywords": [
-            "ai",
-            "gpt"
+            "ai"
           ],
           "engagement": null
         }
@@ -118,8 +117,37 @@
       "title": "🔥 Trending",
       "items": [
         {
-          "id": "34d18f2606ec330236e6ab8bd6e48ac6",
+          "id": "079a57dfe32b33e82b632fd90a54aed0",
           "index": 5,
+          "title": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+          "title_ko": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+          "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+          "summary_ko": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode.",
+          "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-19T23:44:11+09:00",
+          "popularity": 712,
+          "upvotes": 712,
+          "score": 45.26,
+          "importance_score": 27.53,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "gpt",
+            "claude",
+            "gemini",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 712
+          }
+        },
+        {
+          "id": "34d18f2606ec330236e6ab8bd6e48ac6",
+          "index": 6,
           "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, st",
           "title_ko": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, st",
           "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
@@ -129,8 +157,8 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-11-17T03:40:08+09:00",
-          "popularity": 1134,
-          "upvotes": 1134,
+          "popularity": 1270,
+          "upvotes": 1270,
           "score": 35.5,
           "importance_score": 24.5,
           "matched_keywords": [
@@ -140,32 +168,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 1134
-          }
-        },
-        {
-          "id": "31016c5a3636178c7f5e95e0417d71a2",
-          "index": 6,
-          "title": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in br",
-          "title_ko": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in br",
-          "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-          "summary_ko": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-          "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-          "source": "GitHub Trending",
-          "section": "🔥 Trending",
-          "section_id": "trending",
-          "published_at": "2026-11-16T01:49:31+09:00",
-          "popularity": 475,
-          "upvotes": 475,
-          "score": 29.58,
-          "importance_score": 21.58,
-          "matched_keywords": [
-            "ai",
-            "gemini"
-          ],
-          "engagement": {
-            "label": "Stars",
-            "value": 475
+            "value": 1270
           }
         }
       ]
@@ -175,25 +178,25 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "13000f42f8b27d313276251ee3061090",
+          "id": "48c751f0edfd8283bd1f9ba01116eda1",
           "index": 7,
-          "title": "[실험] 힌트와 해석기 피드백으로 싼 모델이 재무 최적화 문제를 더 잘 정식화할까? OptiMind 축소 실험 (비공식)",
+          "title": "Phai-A1: Qwen3.6-35B-A3B를 화웨이 Ascend 칩에서 사후 학습한 1M 컨텍스트의 코딩 에이전트용 공개 모델",
           "title_ko": null,
-          "summary": "PyTorchKR의 11/09~15 주간 AI/ML 논문 모음 에서 OptiMind 논문을 골랐습니다. 자연어로 쓴 최적화 문제를 해석기(solver) 코드로 옮기는 작은 모델을 돕는 방법입니다. 추론 단계에서는 (1) 모델이 문제 유형을 고르고, (2) 그 유형에서 자주 나오는 실수와 예방 규칙(힌트)을 받고, (3) 해석기 출력을 보며 여러 턴 고칩니다.",
+          "summary": "핵심 요약 Phanthy(范式)가 코딩과 에이전트 작업용 오픈 가중치 모델 Phai-A1-35B-1M 을 공개했습니다. Qwen3.6-35B-A3B에 SFT와 GRPO 강화 학습을 더한 사후 학습(Post-training) 모델이고, 사후 학습 전 과정을 화웨이 Ascend NPU에서 진행했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/optimind/12580",
+          "url": "https://discuss.pytorch.kr/t/phai-a1-qwen3-6-35b-a3b-ascend-1m/12587",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-11-19T10:45:01+09:00",
-          "popularity": 99,
+          "published_at": "2026-11-20T11:30:48+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 25.44,
-          "importance_score": 18.98,
+          "score": 25.72,
+          "importance_score": 19.44,
           "matched_keywords": [
             "ai",
-            "추론",
-            "모델"
+            "모델",
+            "training"
           ],
           "engagement": null
         }
@@ -202,104 +205,132 @@
   ],
   "items": [
     {
-      "id": "887ee97acada33a1baab988d588d0673",
+      "id": "3aa93cb91ee52648a421270b411590c3",
       "index": 1,
-      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-      "title_ko": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
-      "summary_ko": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
-      "url": "https://huggingface.co/papers/2611.22115",
+      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+      "title_ko": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+      "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI).",
+      "summary_ko": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improv…",
+      "url": "https://huggingface.co/papers/2611.24651",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-18T09:00:00+09:00",
-      "popularity": 317,
-      "upvotes": 151,
-      "score": 27.29,
-      "importance_score": 17.29,
+      "published_at": "2026-11-19T09:00:00+09:00",
+      "popularity": 90,
+      "upvotes": 11,
+      "score": 25.53,
+      "importance_score": 13.53,
       "matched_keywords": [
         "ai",
         "agent",
+        "multimodal",
         "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 151
+        "value": 11
       }
     },
     {
-      "id": "f7c372bd59cea80a2d4e9bd6260a716b",
+      "id": "11eace409cbddaf9fb02f3eaf59771d5",
       "index": 2,
-      "title": "Weight-Space Programming Doesn't Need Transformers",
-      "title_ko": "Weight-Space Programming Doesn't Need Transformers",
-      "summary": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized Transformers with far fewer parameters an…",
-      "summary_ko": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized T…",
-      "url": "https://huggingface.co/papers/2611.22055",
+      "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+      "title_ko": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+      "summary": "A prototype-guided progressive obfuscation method preserves relative item relations while perturbing high-influence semantic embeddings to defend against inversion attacks in LLM-enhanced recommender systems.",
+      "summary_ko": "A prototype-guided progressive obfuscation method preserves relative item relations while perturbing high-influence semantic embeddings to defend against inversion attacks in LLM-…",
+      "url": "https://huggingface.co/papers/2611.23236",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-18T09:00:00+09:00",
-      "popularity": 155,
-      "upvotes": 51,
-      "score": 27.15,
-      "importance_score": 15.15,
+      "published_at": "2026-11-19T09:00:00+09:00",
+      "popularity": 170,
+      "upvotes": 2,
+      "score": 25.42,
+      "importance_score": 15.42,
       "matched_keywords": [
         "ai",
-        "transformer",
-        "neural",
-        "training"
+        "llm",
+        "embedding"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 51
+        "value": 2
       }
     },
     {
-      "id": "79123f7d7e98fc1d07802611fcda28b3",
+      "id": "e3098be5cbc6509d09a45025302529e5",
       "index": 3,
-      "title": "5명이 가상의 손가락 조작하자 AI가 문장으로…GIST 체험기술 공개",
+      "title": "한전, AI로 소상공인 전기료 분석 확대…영국은 요금 변경으로 비용 절감",
       "title_ko": null,
-      "summary": "다섯 명이 각자 가상의 손가락 하나씩을 움직여 손 모양을 완성하면 AI가 이를 단어와 문장으로 바꾸는 기술이 공개됐다.",
+      "summary": "한국전력이 소상공인의 전력 사용 패턴을 AI로 분석해 요금제와 계약전력 조정 방안을 제시하는 서비스를 확대한다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217547",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217598",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-19T12:43:12+09:00",
-      "popularity": 100,
+      "published_at": "2026-11-20T11:41:31+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 19.95,
-      "importance_score": 19.9,
+      "score": 19.66,
+      "importance_score": 19.42,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "fc38ef984ff9da1db9c2c9374e0f52f1",
+      "id": "3d580a48c54f2322ca2a44f6045e8405",
       "index": 4,
-      "title": "“챗GPT로 진단서 41장 위조”…50일간 복무 이탈한 사회복무요원",
+      "title": "2심 무죄 받은 김범수 창업자...\"카카오 불확실성 해소한 중요한 전기\"",
       "title_ko": null,
-      "summary": "생성형 인공지능(AI) 챗GPT를 활용해 진단서를 대량으로 조작하고 사회복무를 무단으로 빠진 20대 남성이 징역형 집행유예를 선고받았다. 19일 법조계에 따르면 부산지법 형사4단독 변성환 판사는 사문서위조와 위조사문서행사, 병역법 위반 혐의로 기소된 A씨에게 징역 8개월에 집행유예 2년을 선고했다.",
+      "summary": "[지디넷코리아]SM엔터테인먼트 시세 조종 의혹 2심에서 무죄를 선고받은 김범수 카카오 창업자가 재판부에 감사를 표하며, 인공지능(AI) 시대에 발맞춘 과감한 변화와 재도약 의지를 밝혔다.김 창업자는 20일 서울 서초구에 위치한 서울고등법원에서 2심 선고를 마치고 취재진을 만나 “오늘의 판결은 지난 3년간 카카오를 에워쌌던 불확실성을 해소하는 중요한 전기가 됐다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261119000169",
-      "source": "전자신문 IT",
+      "url": "https://zdnet.co.kr/view/?no=20261120111246",
+      "source": "ZDNet Korea",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-19T11:06:07+09:00",
-      "popularity": 98,
+      "published_at": "2026-11-20T11:19:26+09:00",
+      "popularity": 99,
       "upvotes": 0,
-      "score": 22.42,
-      "importance_score": 19.03,
+      "score": 19.58,
+      "importance_score": 19.26,
       "matched_keywords": [
-        "ai",
-        "gpt"
+        "ai"
       ],
       "engagement": null
     },
     {
-      "id": "34d18f2606ec330236e6ab8bd6e48ac6",
+      "id": "079a57dfe32b33e82b632fd90a54aed0",
       "index": 5,
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+      "title_ko": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "summary_ko": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode.",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-19T23:44:11+09:00",
+      "popularity": 712,
+      "upvotes": 712,
+      "score": 45.26,
+      "importance_score": 27.53,
+      "matched_keywords": [
+        "ai",
+        "agent",
+        "gpt",
+        "claude",
+        "gemini",
+        "mcp"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 712
+      }
+    },
+    {
+      "id": "34d18f2606ec330236e6ab8bd6e48ac6",
+      "index": 6,
       "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, st",
       "title_ko": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, st",
       "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
@@ -309,8 +340,8 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-11-17T03:40:08+09:00",
-      "popularity": 1134,
-      "upvotes": 1134,
+      "popularity": 1270,
+      "upvotes": 1270,
       "score": 35.5,
       "importance_score": 24.5,
       "matched_keywords": [
@@ -320,54 +351,29 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 1134
+        "value": 1270
       }
     },
     {
-      "id": "31016c5a3636178c7f5e95e0417d71a2",
-      "index": 6,
-      "title": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in br",
-      "title_ko": "YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in br",
-      "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "summary_ko": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-      "source": "GitHub Trending",
-      "section": "🔥 Trending",
-      "section_id": "trending",
-      "published_at": "2026-11-16T01:49:31+09:00",
-      "popularity": 475,
-      "upvotes": 475,
-      "score": 29.58,
-      "importance_score": 21.58,
-      "matched_keywords": [
-        "ai",
-        "gemini"
-      ],
-      "engagement": {
-        "label": "Stars",
-        "value": 475
-      }
-    },
-    {
-      "id": "13000f42f8b27d313276251ee3061090",
+      "id": "48c751f0edfd8283bd1f9ba01116eda1",
       "index": 7,
-      "title": "[실험] 힌트와 해석기 피드백으로 싼 모델이 재무 최적화 문제를 더 잘 정식화할까? OptiMind 축소 실험 (비공식)",
+      "title": "Phai-A1: Qwen3.6-35B-A3B를 화웨이 Ascend 칩에서 사후 학습한 1M 컨텍스트의 코딩 에이전트용 공개 모델",
       "title_ko": null,
-      "summary": "PyTorchKR의 11/09~15 주간 AI/ML 논문 모음 에서 OptiMind 논문을 골랐습니다. 자연어로 쓴 최적화 문제를 해석기(solver) 코드로 옮기는 작은 모델을 돕는 방법입니다. 추론 단계에서는 (1) 모델이 문제 유형을 고르고, (2) 그 유형에서 자주 나오는 실수와 예방 규칙(힌트)을 받고, (3) 해석기 출력을 보며 여러 턴 고칩니다.",
+      "summary": "핵심 요약 Phanthy(范式)가 코딩과 에이전트 작업용 오픈 가중치 모델 Phai-A1-35B-1M 을 공개했습니다. Qwen3.6-35B-A3B에 SFT와 GRPO 강화 학습을 더한 사후 학습(Post-training) 모델이고, 사후 학습 전 과정을 화웨이 Ascend NPU에서 진행했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/optimind/12580",
+      "url": "https://discuss.pytorch.kr/t/phai-a1-qwen3-6-35b-a3b-ascend-1m/12587",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-11-19T10:45:01+09:00",
-      "popularity": 99,
+      "published_at": "2026-11-20T11:30:48+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 25.44,
-      "importance_score": 18.98,
+      "score": 25.72,
+      "importance_score": 19.44,
       "matched_keywords": [
         "ai",
-        "추론",
-        "모델"
+        "모델",
+        "training"
       ],
       "engagement": null
     }
