@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:33:55 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:08:18 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>skill-distill: Claude Code와 Codex의 성공 세션을 오픈 웨이트 모델이 재현하도록 스킬로 다듬는 루프</title>
+      <link>https://discuss.pytorch.kr/t/skill-distill-claude-code-codex/12609</link>
+      <description>핵심 요약 skill-distill 은 Claude Code나 Codex가 잘 끝낸 세션을, 오픈 웨이트 모델이 같은 작업을 재현할 수 있는 스킬(SKILL.md)로 바꾸는 에이전트 스킬입니다. 선생 에이전트가 스킬을 쓰고, 학생 모델을 깨끗한 시작 상태에서 버전마다 3번 실행한 뒤 기준 결과와 비교해 스킬을 고칩니다. 통과 여부의 최종 판정은 사용자가 합니다.</description>
+      <pubDate>Mon, 23 Nov 2026 15:30:46 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/skill-distill-claude-code-codex/12609">PyTorch Korea</source>
+      <guid isPermaLink="false">ade90aa81d5f3f5a5be07dec3f0c61e2</guid>
+    </item>
     <item>
       <title>Frostbite: AI가 명령어 집합부터 칩 레이아웃까지 설계한 상호작용 네트 기반 CPU (feat. Architect Labs)</title>
       <link>https://discuss.pytorch.kr/t/frostbite-ai-cpu-feat-architect-labs/12611</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/anthropic-20-ai-pdf-35p/12429">PyTorch Korea</source>
       <guid isPermaLink="false">d3296de0cbfd954fd11a760cdb6800a4</guid>
-    </item>
-    <item>
-      <title>모델 학습도 이제 코딩 에이전트에게: Claude Code에 맡겼더니 20분 만에 계약서 검토 모델이 배포됐습니다 (정확도 69.5→87.8%, 오픈소스 Overmind)</title>
-      <link>https://discuss.pytorch.kr/t/claude-code-20-69-5-87-8-overmind/12451</link>
-      <description>안녕하세요, (한국어가 서툴러 번역 도움을 받아 썼습니다. 어색한 문장이 있어도 너그럽게 봐주세요 ) 한 줄 요약 코딩은 이미 Claude Code나 Codex에 맡기고 계시죠. Overmind는 모델 학습도 코딩 에이전트에게 맡길 수 있게 해 주는 오픈소스 플랫폼입니다.</description>
-      <pubDate>Mon, 09 Nov 2026 08:29:48 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/claude-code-20-69-5-87-8-overmind/12451">PyTorch Korea</source>
-      <guid isPermaLink="false">eaa2a4a3792aa02ca83d319a882ea41b</guid>
     </item>
   </channel>
 </rss>
