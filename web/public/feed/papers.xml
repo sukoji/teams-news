@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:27:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 12:33:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching</title>
+      <link>https://huggingface.co/papers/2611.22343</link>
+      <description>A diagnostic benchmark evaluates multimodal large language models on multi-granularity identity matching, revealing gaps in understanding, reasoning, and evidence-grounded judgmen…</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.22343">Hugging Face Papers</source>
+      <guid isPermaLink="false">2457d384022810140e3a5f6781b0eaa9</guid>
+    </item>
+    <item>
+      <title>Duopra: From Full-Duplex Conversation to Full-Duplex Agency</title>
+      <link>https://huggingface.co/papers/2611.25773</link>
+      <description>Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.25773">Hugging Face Papers</source>
+      <guid isPermaLink="false">628168c0b3e45bcf1cb85bd63e6af936</guid>
+    </item>
+    <item>
+      <title>Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits</title>
+      <link>https://huggingface.co/papers/2611.21485</link>
+      <description>Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.21485">Hugging Face Papers</source>
+      <guid isPermaLink="false">a67d8e8fdc8ef345b3776958b68faabd</guid>
+    </item>
+    <item>
+      <title>Prune to Expand: Training Prompt Enhancers with Less to Imitate</title>
+      <link>https://huggingface.co/papers/2611.27229</link>
+      <description>Prune to Expand (P2E) refines dense-caption supervision by selectively removing redundant sentences under a per-example deletion bound, improving prompt enhancement alignment with…</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.27229">Hugging Face Papers</source>
+      <guid isPermaLink="false">8b5aefe8263c646e0e2a2c58ee05fbee</guid>
+    </item>
+    <item>
+      <title>AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation</title>
+      <link>https://huggingface.co/papers/2611.24077</link>
+      <description>Vision-language-action (VLA) models enable unmanned aerial vehicles (UAVs) to follow natural-language instructions, yet still fail frequently in closed-loop flight.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.24077">Hugging Face Papers</source>
+      <guid isPermaLink="false">5082843a8f3284fa5fb31a2e681bab02</guid>
+    </item>
     <item>
       <title>🥇Top AI Papers of the Week</title>
       <link>https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-d28</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.26603">Hugging Face Papers</source>
       <guid isPermaLink="false">07c2f8b28a37e6941102c29c831d7207</guid>
-    </item>
-    <item>
-      <title>PlayCraft: Designing Engaging Games from Agent Play Experience</title>
-      <link>https://huggingface.co/papers/2611.26624</link>
-      <description>PlayCraft uses a vision-based player agent and a crafter agent to iteratively revise games, improving player learning gains and slopes across intelligence settings.</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.26624">Hugging Face Papers</source>
-      <guid isPermaLink="false">543ed067750c513817642a7d03e2e7fb</guid>
-    </item>
-    <item>
-      <title>WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation</title>
-      <link>https://huggingface.co/papers/2611.24011</link>
-      <description>Arm-free quadrupeds can perform loco-manipulation, walking on three legs while manipulating with a front leg, yet no existing policy for it follows language instructions.</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.24011">Hugging Face Papers</source>
-      <guid isPermaLink="false">a3b53b871855502beb43952201e45387</guid>
-    </item>
-    <item>
-      <title>CompoundingKernel: Self-Improving from Zero to First</title>
-      <link>https://huggingface.co/papers/2611.19230</link>
-      <description>We present CompoundingKernel, a self-improving agent system that writes GPU kernels by search.</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.19230">Hugging Face Papers</source>
-      <guid isPermaLink="false">a1a136e9215ac9854d2d2c6a7aecead8</guid>
-    </item>
-    <item>
-      <title>VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2611.22666</link>
-      <description>VSpark accelerates autoregressive vision-language-action models by improving speculative decoding with calibrated action-noise rollouts, hidden-feature alignment, and reuse of rej…</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.22666">Hugging Face Papers</source>
-      <guid isPermaLink="false">7b79cb8836bc9f58e775dba83c6c8c71</guid>
-    </item>
-    <item>
-      <title>Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments</title>
-      <link>https://huggingface.co/papers/2611.17460</link>
-      <description>AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal docu…</description>
-      <pubDate>Thu, 19 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.17460">Hugging Face Papers</source>
-      <guid isPermaLink="false">9284084a552688e30916ceef162d55d7</guid>
     </item>
   </channel>
 </rss>

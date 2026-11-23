@@ -5,9 +5,27 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:27:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 12:33:55 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Frostbite: AI가 명령어 집합부터 칩 레이아웃까지 설계한 상호작용 네트 기반 CPU (feat. Architect Labs)</title>
+      <link>https://discuss.pytorch.kr/t/frostbite-ai-cpu-feat-architect-labs/12611</link>
+      <description>핵심 요약 AI로 칩을 설계하는 회사 Architect Labs가 2026년 11월 18일 Frostbite 소개 블로그 에서 상호작용 네트(Interaction Nets) 계산 모델을 그대로 실행하는 범용 CPU를 공개했습니다.</description>
+      <pubDate>Mon, 23 Nov 2026 08:30:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/frostbite-ai-cpu-feat-architect-labs/12611">PyTorch Korea</source>
+      <guid isPermaLink="false">680e8cfc3ee1348e86f13f1b806c1f4b</guid>
+    </item>
+    <item>
+      <title>Thinking Machines Lab, 32GB Mac에서 돌아가는 루프 트랜스포머 Inkling 2 Mini 공개</title>
+      <link>https://discuss.pytorch.kr/t/thinking-machines-lab-32gb-mac-inkling-2-mini/12612</link>
+      <description>핵심 요약 Thinking Machines Lab이 Inkling 2 Mini 소개 글 에서 총 26.4B, 활성 3.4B 파라미터의 MoE 모델을 Apache 2.0 가중치로 공개했습니다. 가운데 12개 층을 같은 가중치로 세 번 돌리는 루프 트랜스포머이고, 체크포인트는 약 20GB입니다.</description>
+      <pubDate>Mon, 23 Nov 2026 11:30:02 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/thinking-machines-lab-32gb-mac-inkling-2-mini/12612">PyTorch Korea</source>
+      <guid isPermaLink="false">ece61b070f6a2202a122f7f2374509e0</guid>
+    </item>
     <item>
       <title>[2026/11/16 ~ 22] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
       <link>https://discuss.pytorch.kr/t/2026-11-16-22-ai-ml/12608</link>
@@ -439,24 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/claude-code-20-69-5-87-8-overmind/12451">PyTorch Korea</source>
       <guid isPermaLink="false">eaa2a4a3792aa02ca83d319a882ea41b</guid>
-    </item>
-    <item>
-      <title>[2026/11/02 ~ 08] 이번 주에 살펴볼 만한 AI/ML 논문 모음</title>
-      <link>https://discuss.pytorch.kr/t/2026-11-02-08-ai-ml/12446</link>
-      <description>PyTorchKR​ 이번 주 선정된 10편의 논문들을 살펴본 결과, 다음과 같은 주요한 연구 트렌드를 발견할 수 있었습니다: 에이전트의 성능을 실제 실행과 운영까지 포함해 평가 : 에이전트 연구의 평가 범위가 답변의 정확도나 코드 생성 능력을 넘어, 시스템을 설계하고 도구를 조작해 완성된 결과물을 전달하는 과정으로 확대되고 있습니다.</description>
-      <pubDate>Mon, 09 Nov 2026 06:30:19 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/2026-11-02-08-ai-ml/12446">PyTorch Korea</source>
-      <guid isPermaLink="false">ab66096f56a1e5fd7c3ab058eae974a1</guid>
-    </item>
-    <item>
-      <title>jev-chat: Jev 결정 모델로 상대 의도를 판정하고 LLM 답장 후보를 검사해 입력창에만 채우는 채팅 보조 앱</title>
-      <link>https://discuss.pytorch.kr/t/jev-chat-jev-llm/12426</link>
-      <description>핵심 요약 jev-chat 은 채팅 앱 위에 떠서 대화를 읽고, TypeSafe의 결정 모델 Jev로 상대의 의도와 대화의 위험도를 먼저 판정한 뒤 언어 모델이 쓴 답장 후보를 다시 Jev로 검사해 입력창에만 채워 주는 안드로이드 앱입니다. 전송 버튼을 누르는 코드 경로는 없습니다.</description>
-      <pubDate>Sun, 08 Nov 2026 18:00:27 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/jev-chat-jev-llm/12426">PyTorch Korea</source>
-      <guid isPermaLink="false">d0547a8bdad4469f9859042143c7bc19</guid>
     </item>
   </channel>
 </rss>
