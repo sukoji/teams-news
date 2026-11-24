@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:42:19 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 22:23:04 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Z.ai, 750B 모델의 가운데 28개 층을 두 번 돌리는 루프 트랜스포머 GLM-5.4 출시 (Coding Plan 사용자에게 먼저 제공)</title>
+      <link>https://discuss.pytorch.kr/t/z-ai-750b-28-glm-5-4-coding-plan/12632</link>
+      <description>핵심 요약 Z.ai가 GLM-5.4 소개 블로그 에서 루프 트랜스포머(Loop Transformer) 구조로 만든 첫 플래그십 모델 GLM-5.4를 발표했습니다. 약 750B 규모 GLM-5 베이스 모델의 가운데 28개 층을 같은 가중치로 두 번 돌리며, 처음부터 학습하지 않고 사전 학습된 베이스 모델을 이어 학습해 바꿨습니다.</description>
+      <pubDate>Tue, 24 Nov 2026 16:00:37 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/z-ai-750b-28-glm-5-4-coding-plan/12632">PyTorch Korea</source>
+      <guid isPermaLink="false">1aff4f531403baf1ca194173d9499282</guid>
+    </item>
+    <item>
+      <title>DeepCrossAttention(DCA): 이전 층의 출력을 골라 읽는 잔차 연결로 같은 퍼플렉서티에 최대 3배 빨리 도달하는 기법 소개 (feat. Google)</title>
+      <link>https://discuss.pytorch.kr/t/deepcrossattention-dca-3-feat-google/12635</link>
+      <description>핵심 요약 Google Research가 Supercharging transformer residual connections 블로그 에서 ICML(International Conference on Machine Learning) 2025 논문 DeepCrossAttention(DCA) 을 다시 소개했습니다.</description>
+      <pubDate>Tue, 24 Nov 2026 20:00:16 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/deepcrossattention-dca-3-feat-google/12635">PyTorch Korea</source>
+      <guid isPermaLink="false">3ca87219d37d76fbbc4d57ea107f7272</guid>
+    </item>
+    <item>
+      <title>하네스 기반, RL로 학습한 Qwen3.8-27B LoRA 어댑터 공개: 정확도는 상승하면서 도구 호출 횟수는 감소</title>
+      <link>https://discuss.pytorch.kr/t/rl-qwen3-8-27b-lora/12610</link>
+      <description>핵심 요약 Hugging Face 연구진이 2026년 11월 20일 Introducing harness adapters 블로그 글 을 공개했습니다. 연구진은 Qwen3.8-27B 가중치를 고정한 채, pi, OpenCode, Hermes Agent 하네스마다 LoRA 어댑터를 하나씩 강화학습(RL)으로 학습했습니다.</description>
+      <pubDate>Tue, 24 Nov 2026 11:30:55 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rl-qwen3-8-27b-lora/12610">PyTorch Korea</source>
+      <guid isPermaLink="false">ce8acb2773748326e5e1b4f7336be9c6</guid>
+    </item>
     <item>
       <title>LookAtMyQuant: 텐서마다 압축 손상을 재서, 같은 파일 크기에서 원본에 더 가까운 양자화 모델을 만드는 컴파일러</title>
       <link>https://discuss.pytorch.kr/t/lookatmyquant/12613</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/reshard-nvidia-5-7/12447">PyTorch Korea</source>
       <guid isPermaLink="false">396098d7057a0101ac9d380495f91785</guid>
-    </item>
-    <item>
-      <title>[실험] 비싼 모델이 앞부분만 하고 로컬 4B 모델에 넘기면? 재무 분석 에이전트로 해 본 AgentBaton 축소 재현 (비공식)</title>
-      <link>https://discuss.pytorch.kr/t/4b-agentbaton/12464</link>
-      <description>PyTorchKR의 10/26~11/01 주간 AI/ML 논문 모음 에서 AgentBaton 논문을 골랐습니다. 긴 에이전트 작업을 고성능 모델이 먼저 하다가, 알맞은 때 한 번 저비용 모델에게 넘기는 방법입니다. 논문은 넘길 때를 고르는 2B 판별기로 모델 쌍 11개와 벤치마크 2개에서 API 비용을 평균 65.9% 줄이면서 정확도는 대체로 지켰다고 보고합니다.</description>
-      <pubDate>Tue, 10 Nov 2026 09:23:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/4b-agentbaton/12464">PyTorch Korea</source>
-      <guid isPermaLink="false">03945c0e054f5f52fe5e1d5dce8afb40</guid>
-    </item>
-    <item>
-      <title>ToyBlocks: AllenAI가 공개한, 블록 조작으로 로봇 학습의 실패 원인을 분석하는 공개 실험 환경</title>
-      <link>https://discuss.pytorch.kr/t/toyblocks-allenai/12448</link>
-      <description>핵심 요약 ToyBlocks 는 블록 조작 시연을 자동으로 생성하고 모델 학습과 평가를 연결하는 공개 로봇 실험 프레임워크입니다. 계획 모델과 동작 모델을 각각 평가할 수 있어, 로봇 학습 실험에서 실패 원인을 구분하는 데 활용할 수 있습니다. 공개 데이터셋 은 세 블록 쌓기의 성공 시연으로 구성되며, 발표문과 데이터 카드의 규모 집계가 다릅니다.</description>
-      <pubDate>Tue, 10 Nov 2026 08:30:45 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/toyblocks-allenai/12448">PyTorch Korea</source>
-      <guid isPermaLink="false">f2d4bbd754bb75f51f642ce15e26dc36</guid>
-    </item>
-    <item>
-      <title>에이전트 메모리, 많이 저장하기보다 검증하고 다시 정리하기 (feat. Anthropic)</title>
-      <link>https://discuss.pytorch.kr/t/feat-anthropic/12449</link>
-      <description>핵심 요약 Anthropic의 에이전트 메모리 분석 은 원본 기록, 선별한 메모, 연결된 위키, 세션 시작 시 미리 제공하는 정보를 구분합니다. 실험에서는 메모리의 효과가 모델과 지침에 따라 달랐고, 검증되지 않은 추측이나 오래된 기록이 후속 작업을 방해했습니다.</description>
-      <pubDate>Mon, 09 Nov 2026 20:30:49 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/feat-anthropic/12449">PyTorch Korea</source>
-      <guid isPermaLink="false">6fd9ee6cd648ae0ad7addc7859c585c9</guid>
     </item>
   </channel>
 </rss>
