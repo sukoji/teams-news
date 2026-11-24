@@ -1,63 +1,66 @@
 {
   "schema_version": 1,
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T12:27:33.201505+09:00",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T15:42:19.175658+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
-  "item_count": 6,
+  "item_count": 7,
   "sections": [
     {
       "id": "papers",
       "title": "📄 Papers",
       "items": [
         {
-          "id": "2457d384022810140e3a5f6781b0eaa9",
+          "id": "330c420ed1046d4f93065fba0f0dc80e",
           "index": 1,
-          "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
-          "title_ko": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
-          "summary": "A diagnostic benchmark evaluates multimodal large language models on multi-granularity identity matching, revealing gaps in understanding, reasoning, and evidence-grounded judgment across base and variant levels.",
-          "summary_ko": "A diagnostic benchmark evaluates multimodal large language models on multi-granularity identity matching, revealing gaps in understanding, reasoning, and evidence-grounded judgmen…",
-          "url": "https://huggingface.co/papers/2611.22343",
+          "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+          "title_ko": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+          "summary": "A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic framework that writes compact parametri…",
+          "summary_ko": "A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic…",
+          "url": "https://huggingface.co/papers/2611.30013",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-23T09:00:00+09:00",
-          "popularity": 18,
-          "upvotes": 5,
-          "score": 23.11,
-          "importance_score": 17.39,
+          "published_at": "2026-11-24T09:00:00+09:00",
+          "popularity": 1417,
+          "upvotes": 30,
+          "score": 29.6,
+          "importance_score": 25.21,
           "matched_keywords": [
-            "multimodal",
-            "reasoning",
+            "agent",
             "benchmark"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 5
+            "value": 30
           }
         },
         {
-          "id": "a0bb6b5dd1ae29caf140c61c492fedfd",
+          "id": "a325076231b3e45e6dba51a3f42c0c41",
           "index": 2,
-          "title": "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-          "title_ko": "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-          "summary": "GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-          "summary_ko": "GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-          "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-62-astra-and",
-          "source": "Elvis AI Newsletter",
+          "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+          "title_ko": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+          "summary": "nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving strong zero-shot success and faster streaming…",
+          "summary_ko": "nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving stron…",
+          "url": "https://huggingface.co/papers/2611.29338",
+          "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-22T01:35:02+09:00",
-          "popularity": 99,
-          "upvotes": 0,
-          "score": 21.9,
-          "importance_score": 9.9,
+          "published_at": "2026-11-24T09:00:00+09:00",
+          "popularity": 27,
+          "upvotes": 11,
+          "score": 27.6,
+          "importance_score": 17.2,
           "matched_keywords": [
             "ai",
-            "agent",
-            "gpt",
-            "gemini"
+            "fine-tuning",
+            "vlm",
+            "foundation model",
+            "training"
           ],
-          "engagement": null
+          "engagement": {
+            "label": "Upvotes",
+            "value": 11
+          }
         }
       ]
     },
@@ -66,42 +69,42 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "57e5d508fb8fd5cc108f8b1475ffaaea",
+          "id": "5ad65be48c108df458bb752a4a5ba54b",
           "index": 3,
-          "title": "AI 안경 '몰래 촬영' 막는다…촬영 표시 탑재·사적 촬영 고지 의무화 법안 발의",
+          "title": "황 CEO 복귀에 앤트로픽 주가 역주행…오픈웨이트 경쟁 부담",
           "title_ko": null,
-          "summary": "AI 안경으로 촬영시 상대방이 이를 알 수 있도록 하는 법안이 발의됐다. 제조 단계부터 촬영표시 기능 탑재를 의무화하고, 업무 목적 외 개인의 사적 촬영시에도 촬영사실 고지의무를 지우는 내용을 담고 있다.국회 과학기술정보방송통신위원회 소속 이주희 더불어민주당 의원은 23일 정보통신망법과 개인정보보호법 일부개정법률안, 이른바 \\'스마트글래스 불법촬영 방지법\\' 2건을 대표 발의했다고 밝혔다.",
+          "summary": "젠슨 황 엔비디아 CEO의 복귀 소식에 주요 AI 관련 종목이 동반 상승했지만, 앤트로픽은 오히려 주가가 하락했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217681",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217734",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-23T12:21:39+09:00",
+          "published_at": "2026-11-24T15:34:08+09:00",
           "popularity": 100,
           "upvotes": 0,
-          "score": 19.98,
-          "importance_score": 19.96,
+          "score": 19.97,
+          "importance_score": 19.94,
           "matched_keywords": [
             "ai"
           ],
           "engagement": null
         },
         {
-          "id": "c9a655a93b1bdc79774b5e9f749ed3e8",
+          "id": "6c5ace1abb674ab0c50ed83d764c4c39",
           "index": 4,
-          "title": "스스로 길 찾고 균형까지…산길 달리는 'AI 자전거 로봇'",
+          "title": "“의료 AI 국가 연구개발, 정확도 넘어 환자 치료 결과까지 평가해야”",
           "title_ko": null,
-          "summary": "사람이 조종하지 않아도 험한 산길을 스스로 달리는 AI 자전거 로봇이 등장했습니다. 스위스 취리히 연방공대와 로보틱스·AI 연구소 RAI 연구진은 자율주행 자전거 로봇 'UMV'의 주행 실험 결과를 공개했습니다. 이 로봇은 카메라와 라이다 센서로 주변 지형을 파악하고, AI를 이용해 스스로 길을 선택하고 균형을 잡습니다.",
+          "summary": "국가 보건의료 연구개발 과제를 기획할 때부터 인공지능(AI)이 진료 과정에서 맡는 역할에 따라 환자에 대한 성과와 안전 지표를 정해야 한다는 의견이 제기됐다. 입원환자의 상태 악화를 미리 알리는 AI를 평가할 때 경보가 얼마나 정확했는지, 의료진이 어떤 조치를 하고 환자 상태가 어떻게 달라졌는지까지 살펴야 한다는 것이다.",
           "summary_ko": null,
-          "url": "https://www.etnews.com/20261120000267",
+          "url": "https://www.etnews.com/20261124000383",
           "source": "전자신문 IT",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-23T06:00:00+09:00",
-          "popularity": 88,
+          "published_at": "2026-11-24T14:44:41+09:00",
+          "popularity": 95,
           "upvotes": 0,
-          "score": 20.45,
-          "importance_score": 16.11,
+          "score": 22.3,
+          "importance_score": 19.1,
           "matched_keywords": [
             "ai",
             "연구"
@@ -111,50 +114,85 @@
       ]
     },
     {
+      "id": "trending",
+      "title": "🔥 Trending",
+      "items": [
+        {
+          "id": "90a54083b7aa9fa91b518861d0e65ac0",
+          "index": 5,
+          "title": "w01fb0ss/PiBot — Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, brow",
+          "title_ko": "w01fb0ss/PiBot — Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, brow",
+          "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+          "summary_ko": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+          "url": "https://github.com/w01fb0ss/PiBot",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-24T15:24:42+09:00",
+          "popularity": 520,
+          "upvotes": 520,
+          "score": 37.83,
+          "importance_score": 31.77,
+          "matched_keywords": [
+            "ai",
+            "agent",
+            "mcp"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 520
+          }
+        },
+        {
+          "id": "9121917f87f40b617f50831383737ac1",
+          "index": 6,
+          "title": "sous-labs/songe — A training engine for your local model, using your idle compute",
+          "title_ko": "sous-labs/songe — A training engine for your local model, using your idle compute",
+          "summary": "A training engine for your local model, using your idle compute",
+          "summary_ko": "A training engine for your local model, using your idle compute",
+          "url": "https://github.com/sous-labs/songe",
+          "source": "GitHub Trending",
+          "section": "🔥 Trending",
+          "section_id": "trending",
+          "published_at": "2026-11-24T14:39:03+09:00",
+          "popularity": 340,
+          "upvotes": 340,
+          "score": 33.19,
+          "importance_score": 29.97,
+          "matched_keywords": [
+            "ai",
+            "training"
+          ],
+          "engagement": {
+            "label": "Stars",
+            "value": 340
+          }
+        }
+      ]
+    },
+    {
       "id": "community",
       "title": "💬 Community",
       "items": [
         {
-          "id": "680e8cfc3ee1348e86f13f1b806c1f4b",
-          "index": 5,
-          "title": "Frostbite: AI가 명령어 집합부터 칩 레이아웃까지 설계한 상호작용 네트 기반 CPU (feat. Architect Labs)",
+          "id": "ce8acb2773748326e5e1b4f7336be9c6",
+          "index": 7,
+          "title": "하네스 기반, RL로 학습한 Qwen3.8-27B LoRA 어댑터 공개: 정확도는 상승하면서 도구 호출 횟수는 감소",
           "title_ko": null,
-          "summary": "핵심 요약 AI로 칩을 설계하는 회사 Architect Labs가 2026년 11월 18일 Frostbite 소개 블로그 에서 상호작용 네트(Interaction Nets) 계산 모델을 그대로 실행하는 범용 CPU를 공개했습니다.",
+          "summary": "핵심 요약 Hugging Face 연구진이 2026년 11월 20일 Introducing harness adapters 블로그 글 을 공개했습니다. 연구진은 Qwen3.8-27B 가중치를 고정한 채, pi, OpenCode, Hermes Agent 하네스마다 LoRA 어댑터를 하나씩 강화학습(RL)으로 학습했습니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/frostbite-ai-cpu-feat-architect-labs/12611",
+          "url": "https://discuss.pytorch.kr/t/rl-qwen3-8-27b-lora/12610",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-11-23T08:30:12+09:00",
-          "popularity": 99,
+          "published_at": "2026-11-24T11:30:55+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.08,
+          "score": 22.13,
           "importance_score": 18.25,
           "matched_keywords": [
-            "ai",
-            "모델"
-          ],
-          "engagement": null
-        },
-        {
-          "id": "7ca54fab056afeaed1b1568ef58e3a7e",
-          "index": 6,
-          "title": "[2026/11/16 ~ 22] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
-          "title_ko": null,
-          "summary": "[2026/11/16 ~ 22] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주 선정된 10편의 논문을 살펴본 결과, 다음과 같은 3가지의 주요 트렌드를 확인할 수 있었습니다: 모델 가중치를 넘어선 에이전트 하네스·스킬·환경의 체계적 최적화 : 이번 주에는 모델 자체를 새로 학습하기보다 에이전트를 둘러싼 실행 환경과 하네스, 스킬을 정교하게 진화시켜 품질과 비용을…",
-          "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/2026-11-16-22-ai-ml/12608",
-          "source": "PyTorch Korea",
-          "section": "💬 Community",
-          "section_id": "community",
-          "published_at": "2026-11-23T06:30:27+09:00",
-          "popularity": 98,
-          "upvotes": 0,
-          "score": 21.56,
-          "importance_score": 17.32,
-          "matched_keywords": [
-            "ai",
-            "모델"
+            "agent",
+            "연구"
           ],
           "engagement": null
         }
@@ -163,92 +201,95 @@
   ],
   "items": [
     {
-      "id": "2457d384022810140e3a5f6781b0eaa9",
+      "id": "330c420ed1046d4f93065fba0f0dc80e",
       "index": 1,
-      "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
-      "title_ko": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
-      "summary": "A diagnostic benchmark evaluates multimodal large language models on multi-granularity identity matching, revealing gaps in understanding, reasoning, and evidence-grounded judgment across base and variant levels.",
-      "summary_ko": "A diagnostic benchmark evaluates multimodal large language models on multi-granularity identity matching, revealing gaps in understanding, reasoning, and evidence-grounded judgmen…",
-      "url": "https://huggingface.co/papers/2611.22343",
+      "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+      "title_ko": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+      "summary": "A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic framework that writes compact parametri…",
+      "summary_ko": "A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic…",
+      "url": "https://huggingface.co/papers/2611.30013",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-23T09:00:00+09:00",
-      "popularity": 18,
-      "upvotes": 5,
-      "score": 23.11,
-      "importance_score": 17.39,
+      "published_at": "2026-11-24T09:00:00+09:00",
+      "popularity": 1417,
+      "upvotes": 30,
+      "score": 29.6,
+      "importance_score": 25.21,
       "matched_keywords": [
-        "multimodal",
-        "reasoning",
+        "agent",
         "benchmark"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 5
+        "value": 30
       }
     },
     {
-      "id": "a0bb6b5dd1ae29caf140c61c492fedfd",
+      "id": "a325076231b3e45e6dba51a3f42c0c41",
       "index": 2,
-      "title": "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-      "title_ko": "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-      "summary": "GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-      "summary_ko": "GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More",
-      "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-62-astra-and",
-      "source": "Elvis AI Newsletter",
+      "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+      "title_ko": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+      "summary": "nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving strong zero-shot success and faster streaming…",
+      "summary_ko": "nanoAstra combines semantic action modeling with capability-preserving supervised fine-tuning to train vision-language models for generalizable robot manipulation, achieving stron…",
+      "url": "https://huggingface.co/papers/2611.29338",
+      "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-22T01:35:02+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 21.9,
-      "importance_score": 9.9,
+      "published_at": "2026-11-24T09:00:00+09:00",
+      "popularity": 27,
+      "upvotes": 11,
+      "score": 27.6,
+      "importance_score": 17.2,
       "matched_keywords": [
         "ai",
-        "agent",
-        "gpt",
-        "gemini"
+        "fine-tuning",
+        "vlm",
+        "foundation model",
+        "training"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Upvotes",
+        "value": 11
+      }
     },
     {
-      "id": "57e5d508fb8fd5cc108f8b1475ffaaea",
+      "id": "5ad65be48c108df458bb752a4a5ba54b",
       "index": 3,
-      "title": "AI 안경 '몰래 촬영' 막는다…촬영 표시 탑재·사적 촬영 고지 의무화 법안 발의",
+      "title": "황 CEO 복귀에 앤트로픽 주가 역주행…오픈웨이트 경쟁 부담",
       "title_ko": null,
-      "summary": "AI 안경으로 촬영시 상대방이 이를 알 수 있도록 하는 법안이 발의됐다. 제조 단계부터 촬영표시 기능 탑재를 의무화하고, 업무 목적 외 개인의 사적 촬영시에도 촬영사실 고지의무를 지우는 내용을 담고 있다.국회 과학기술정보방송통신위원회 소속 이주희 더불어민주당 의원은 23일 정보통신망법과 개인정보보호법 일부개정법률안, 이른바 \\'스마트글래스 불법촬영 방지법\\' 2건을 대표 발의했다고 밝혔다.",
+      "summary": "젠슨 황 엔비디아 CEO의 복귀 소식에 주요 AI 관련 종목이 동반 상승했지만, 앤트로픽은 오히려 주가가 하락했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217681",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217734",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-23T12:21:39+09:00",
+      "published_at": "2026-11-24T15:34:08+09:00",
       "popularity": 100,
       "upvotes": 0,
-      "score": 19.98,
-      "importance_score": 19.96,
+      "score": 19.97,
+      "importance_score": 19.94,
       "matched_keywords": [
         "ai"
       ],
       "engagement": null
     },
     {
-      "id": "c9a655a93b1bdc79774b5e9f749ed3e8",
+      "id": "6c5ace1abb674ab0c50ed83d764c4c39",
       "index": 4,
-      "title": "스스로 길 찾고 균형까지…산길 달리는 'AI 자전거 로봇'",
+      "title": "“의료 AI 국가 연구개발, 정확도 넘어 환자 치료 결과까지 평가해야”",
       "title_ko": null,
-      "summary": "사람이 조종하지 않아도 험한 산길을 스스로 달리는 AI 자전거 로봇이 등장했습니다. 스위스 취리히 연방공대와 로보틱스·AI 연구소 RAI 연구진은 자율주행 자전거 로봇 'UMV'의 주행 실험 결과를 공개했습니다. 이 로봇은 카메라와 라이다 센서로 주변 지형을 파악하고, AI를 이용해 스스로 길을 선택하고 균형을 잡습니다.",
+      "summary": "국가 보건의료 연구개발 과제를 기획할 때부터 인공지능(AI)이 진료 과정에서 맡는 역할에 따라 환자에 대한 성과와 안전 지표를 정해야 한다는 의견이 제기됐다. 입원환자의 상태 악화를 미리 알리는 AI를 평가할 때 경보가 얼마나 정확했는지, 의료진이 어떤 조치를 하고 환자 상태가 어떻게 달라졌는지까지 살펴야 한다는 것이다.",
       "summary_ko": null,
-      "url": "https://www.etnews.com/20261120000267",
+      "url": "https://www.etnews.com/20261124000383",
       "source": "전자신문 IT",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-23T06:00:00+09:00",
-      "popularity": 88,
+      "published_at": "2026-11-24T14:44:41+09:00",
+      "popularity": 95,
       "upvotes": 0,
-      "score": 20.45,
-      "importance_score": 16.11,
+      "score": 22.3,
+      "importance_score": 19.1,
       "matched_keywords": [
         "ai",
         "연구"
@@ -256,46 +297,75 @@
       "engagement": null
     },
     {
-      "id": "680e8cfc3ee1348e86f13f1b806c1f4b",
+      "id": "90a54083b7aa9fa91b518861d0e65ac0",
       "index": 5,
-      "title": "Frostbite: AI가 명령어 집합부터 칩 레이아웃까지 설계한 상호작용 네트 기반 CPU (feat. Architect Labs)",
-      "title_ko": null,
-      "summary": "핵심 요약 AI로 칩을 설계하는 회사 Architect Labs가 2026년 11월 18일 Frostbite 소개 블로그 에서 상호작용 네트(Interaction Nets) 계산 모델을 그대로 실행하는 범용 CPU를 공개했습니다.",
-      "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/frostbite-ai-cpu-feat-architect-labs/12611",
-      "source": "PyTorch Korea",
-      "section": "💬 Community",
-      "section_id": "community",
-      "published_at": "2026-11-23T08:30:12+09:00",
-      "popularity": 99,
-      "upvotes": 0,
-      "score": 22.08,
-      "importance_score": 18.25,
+      "title": "w01fb0ss/PiBot — Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, brow",
+      "title_ko": "w01fb0ss/PiBot — Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, brow",
+      "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "summary_ko": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "url": "https://github.com/w01fb0ss/PiBot",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-24T15:24:42+09:00",
+      "popularity": 520,
+      "upvotes": 520,
+      "score": 37.83,
+      "importance_score": 31.77,
       "matched_keywords": [
         "ai",
-        "모델"
+        "agent",
+        "mcp"
       ],
-      "engagement": null
+      "engagement": {
+        "label": "Stars",
+        "value": 520
+      }
     },
     {
-      "id": "7ca54fab056afeaed1b1568ef58e3a7e",
+      "id": "9121917f87f40b617f50831383737ac1",
       "index": 6,
-      "title": "[2026/11/16 ~ 22] 이번 주에 살펴볼 만한 AI/ML 논문 모음",
+      "title": "sous-labs/songe — A training engine for your local model, using your idle compute",
+      "title_ko": "sous-labs/songe — A training engine for your local model, using your idle compute",
+      "summary": "A training engine for your local model, using your idle compute",
+      "summary_ko": "A training engine for your local model, using your idle compute",
+      "url": "https://github.com/sous-labs/songe",
+      "source": "GitHub Trending",
+      "section": "🔥 Trending",
+      "section_id": "trending",
+      "published_at": "2026-11-24T14:39:03+09:00",
+      "popularity": 340,
+      "upvotes": 340,
+      "score": 33.19,
+      "importance_score": 29.97,
+      "matched_keywords": [
+        "ai",
+        "training"
+      ],
+      "engagement": {
+        "label": "Stars",
+        "value": 340
+      }
+    },
+    {
+      "id": "ce8acb2773748326e5e1b4f7336be9c6",
+      "index": 7,
+      "title": "하네스 기반, RL로 학습한 Qwen3.8-27B LoRA 어댑터 공개: 정확도는 상승하면서 도구 호출 횟수는 감소",
       "title_ko": null,
-      "summary": "[2026/11/16 ~ 22] 이번 주에 살펴볼 만한 AI/ML 논문 모음 PyTorchKR​ 이번 주 선정된 10편의 논문을 살펴본 결과, 다음과 같은 3가지의 주요 트렌드를 확인할 수 있었습니다: 모델 가중치를 넘어선 에이전트 하네스·스킬·환경의 체계적 최적화 : 이번 주에는 모델 자체를 새로 학습하기보다 에이전트를 둘러싼 실행 환경과 하네스, 스킬을 정교하게 진화시켜 품질과 비용을…",
+      "summary": "핵심 요약 Hugging Face 연구진이 2026년 11월 20일 Introducing harness adapters 블로그 글 을 공개했습니다. 연구진은 Qwen3.8-27B 가중치를 고정한 채, pi, OpenCode, Hermes Agent 하네스마다 LoRA 어댑터를 하나씩 강화학습(RL)으로 학습했습니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/2026-11-16-22-ai-ml/12608",
+      "url": "https://discuss.pytorch.kr/t/rl-qwen3-8-27b-lora/12610",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-11-23T06:30:27+09:00",
-      "popularity": 98,
+      "published_at": "2026-11-24T11:30:55+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 21.56,
-      "importance_score": 17.32,
+      "score": 22.13,
+      "importance_score": 18.25,
       "matched_keywords": [
-        "ai",
-        "모델"
+        "agent",
+        "연구"
       ],
       "engagement": null
     }
