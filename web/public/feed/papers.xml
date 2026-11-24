@@ -5,9 +5,72 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 23:08:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 11:02:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation</title>
+      <link>https://huggingface.co/papers/2611.26954</link>
+      <description>Future-OPSD trains vision-language models via on-policy self-distillation and a contrastive privilege advantage derived from a foresight score, improving video foresight predictio…</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.26954">Hugging Face Papers</source>
+      <guid isPermaLink="false">a18da0b1e315ad918553ceb688a3aa4e</guid>
+    </item>
+    <item>
+      <title>Search From the Start: Search-Native Pretraining for Language Models</title>
+      <link>https://huggingface.co/papers/2611.26809</link>
+      <description>Modern language models (LMs) are increasingly deployed with access to search tools at inference.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.26809">Hugging Face Papers</source>
+      <guid isPermaLink="false">1559e75eb74df772606fca9556baf290</guid>
+    </item>
+    <item>
+      <title>From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events</title>
+      <link>https://huggingface.co/papers/2611.24249</link>
+      <description>Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force tra…</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.24249">Hugging Face Papers</source>
+      <guid isPermaLink="false">8d19c105a81841d1e82a6b0ec71bfa21</guid>
+    </item>
+    <item>
+      <title>How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study</title>
+      <link>https://huggingface.co/papers/2611.25534</link>
+      <description>Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.25534">Hugging Face Papers</source>
+      <guid isPermaLink="false">00d8cf657da26434cd3a9d19e540df14</guid>
+    </item>
+    <item>
+      <title>Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval</title>
+      <link>https://huggingface.co/papers/2611.27490</link>
+      <description>Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.27490">Hugging Face Papers</source>
+      <guid isPermaLink="false">953ee7e53bdf1840450cebe79c2b3095</guid>
+    </item>
+    <item>
+      <title>Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields</title>
+      <link>https://huggingface.co/papers/2611.28123</link>
+      <description>Operating in the physical world requires reasoning beyond what cameras directly capture.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.28123">Hugging Face Papers</source>
+      <guid isPermaLink="false">ce5efc52a2f2e382d7a680a7704f7b42</guid>
+    </item>
+    <item>
+      <title>Autoregressive View Model</title>
+      <link>https://huggingface.co/papers/2611.23417</link>
+      <description>We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation.</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.23417">Hugging Face Papers</source>
+      <guid isPermaLink="false">9a9c183110ec9c689d0edf5cc304d1be</guid>
+    </item>
     <item>
       <title>Non-penetrating World Models</title>
       <link>https://huggingface.co/papers/2611.27963</link>
@@ -394,69 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.25279">Hugging Face Papers</source>
       <guid isPermaLink="false">03b87ba5083061abf1092724b054adc8</guid>
-    </item>
-    <item>
-      <title>Online Mistake Detection in Instruction-Conditioned Procedural Video</title>
-      <link>https://huggingface.co/papers/2611.25567</link>
-      <description>An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover.</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.25567">Hugging Face Papers</source>
-      <guid isPermaLink="false">bfad959d86864040818fecb4dae5e791</guid>
-    </item>
-    <item>
-      <title>TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis</title>
-      <link>https://huggingface.co/papers/2611.25935</link>
-      <description>TwinD, trained on reconstruction and blob twins derived from real frames, detects both blending and entire-face-synthesis deepfakes, improving AUROC over prior detectors.</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.25935">Hugging Face Papers</source>
-      <guid isPermaLink="false">8f1b9a96f5cba39c5eb81a71e9cd6a46</guid>
-    </item>
-    <item>
-      <title>AURA: AUdio-dRiven streaming Avatar</title>
-      <link>https://huggingface.co/papers/2611.26540</link>
-      <description>AURA enables low-latency, causal video generation for streaming applications by utilizing a rolling KV cache and a two-stage distillation pipeline to significantly reduce the requ…</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.26540">Hugging Face Papers</source>
-      <guid isPermaLink="false">e43c9c47f08328e61dc5571d47ea6f00</guid>
-    </item>
-    <item>
-      <title>Do Probing and Steering Favor the Same Directions Within and Across Language Models?</title>
-      <link>https://huggingface.co/papers/2611.19499</link>
-      <description>The best direction for probing a concept in a language model's hidden state is not the best direction for steering the model toward that concept, with implications for transfer an…</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.19499">Hugging Face Papers</source>
-      <guid isPermaLink="false">392cb73dd525a6fd34b3ca6d2e993a08</guid>
-    </item>
-    <item>
-      <title>WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection</title>
-      <link>https://huggingface.co/papers/2611.21373</link>
-      <description>WeVisForensics coordinates self-evolving visual and audio forensic inspector agents under a dual-timescale reinforcement learning policy to detect generated-video artifacts with l…</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.21373">Hugging Face Papers</source>
-      <guid isPermaLink="false">747c2fbed97c577911e8c0bc52549c50</guid>
-    </item>
-    <item>
-      <title>Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation</title>
-      <link>https://huggingface.co/papers/2611.26444</link>
-      <description>A diagnostic benchmark of 180 simulated manipulation configurations evaluates whether embodied systems can combine history-based reasoning, precise execution, and closed-loop envi…</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.26444">Hugging Face Papers</source>
-      <guid isPermaLink="false">e364aee0cbd7084d89630f6f65b3d2e9</guid>
-    </item>
-    <item>
-      <title>ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain</title>
-      <link>https://huggingface.co/papers/2611.26414</link>
-      <description>ZeroVLN is a slow-fast vision-language navigation framework that avoids navigation-domain supervised fine-tuning of the VLM brain by using a semantic tool-calling interface and cl…</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.26414">Hugging Face Papers</source>
-      <guid isPermaLink="false">895e3aef1074306456cec4aa494f9224</guid>
     </item>
   </channel>
 </rss>

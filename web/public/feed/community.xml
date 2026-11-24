@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 23:08:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 11:02:22 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>LookAtMyQuant: 텐서마다 압축 손상을 재서, 같은 파일 크기에서 원본에 더 가까운 양자화 모델을 만드는 컴파일러</title>
+      <link>https://discuss.pytorch.kr/t/lookatmyquant/12613</link>
+      <description>핵심 요약 LookAtMyQuant 는 모델의 각 조각(가중치 행렬, 임베딩 행 묶음, KV 캐시)을 하나씩 압축해 원본과의 KL 발산(Kullback-Leibler Divergence)을 잽니다. 그 측정값으로 정해진 크기 안에서 손상 합이 가장 작도록 조각마다 다른 양자화 방식을 고르는 양자화 컴파일러입니다.</description>
+      <pubDate>Tue, 24 Nov 2026 07:30:07 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/lookatmyquant/12613">PyTorch Korea</source>
+      <guid isPermaLink="false">f8d08db2cf4b2a395eab8c2bc62bb26d</guid>
+    </item>
     <item>
       <title>skill-distill: Claude Code와 Codex의 성공 세션을 오픈 웨이트 모델이 재현하도록 스킬로 다듬는 루프</title>
       <link>https://discuss.pytorch.kr/t/skill-distill-claude-code-codex/12609</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/feat-anthropic/12449">PyTorch Korea</source>
       <guid isPermaLink="false">6fd9ee6cd648ae0ad7addc7859c585c9</guid>
-    </item>
-    <item>
-      <title>Anthropic, 과학 연구 세션 20만건 분석 보고서: AI를 통한 과학 연구가 가속 중 [영문/PDF/35p]</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-20-ai-pdf-35p/12429</link>
-      <description>핵심 요약 Anthropic이 개인 요금제의 Claude, Claude Code 연구 세션 207,049건(2026년 8~9월)을 분류한 AI for Scientific Discovery 보고서 를 공개했습니다.</description>
-      <pubDate>Mon, 09 Nov 2026 08:30:29 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-20-ai-pdf-35p/12429">PyTorch Korea</source>
-      <guid isPermaLink="false">d3296de0cbfd954fd11a760cdb6800a4</guid>
     </item>
   </channel>
 </rss>
