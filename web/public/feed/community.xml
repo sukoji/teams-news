@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:12:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 16:28:46 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>vLLM-GR 공개: 생성형 추천 모델의 넓은 빔 서치를 요청 하나로 처리하는 vLLM 확장 소개</title>
+      <link>https://discuss.pytorch.kr/t/vllm-gr-vllm/12648</link>
+      <description>핵심 요약 vLLM 프로젝트가 발표 글 에서 생성형 추천 모델용 서빙 확장 vLLM-GR 0.30.0을 공개했습니다. 사용자 이력 하나로 빔 서치 전체를 한 요청 안에서 실행하고, 후보 아이템 ID와 점수를 한 번에 돌려줍니다. 현재 지원 모델은 Kuaishou의 OneRec-1.7B 하나입니다.</description>
+      <pubDate>Wed, 25 Nov 2026 15:30:12 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/vllm-gr-vllm/12648">PyTorch Korea</source>
+      <guid isPermaLink="false">ca4814c2def0aa1b102b9e98a1f9162c</guid>
+    </item>
+    <item>
+      <title>Cohere가 정리한 기업 AI 준비도 진단: 7개 영역 체크리스트와 자가진단표</title>
+      <link>https://discuss.pytorch.kr/t/cohere-ai-7/12633</link>
+      <description>핵심 요약 Cohere는 2026년 11월 23일 AI 준비도 진단 가이드 를 블로그에 올렸습니다. 기업이 AI 도입 전에 점검할 7개 영역마다 0~5점의 자가 점수를 매기는 체크리스트입니다. 7개 영역은 전략과 리더십, 기술 인력, 기술과 인프라, 거버넌스와 위험 관리, 데이터, 조직 변화, 유스케이스 발굴입니다.</description>
+      <pubDate>Wed, 25 Nov 2026 12:00:33 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/cohere-ai-7/12633">PyTorch Korea</source>
+      <guid isPermaLink="false">1593d05cc2dd780c7016fbbfadf72af9</guid>
+    </item>
+    <item>
+      <title>Ai2, 실제 로봇 조작 영상용 포인트 추적 벤치마크와 시뮬레이션 학습 데이터 RoboTrack 공개</title>
+      <link>https://discuss.pytorch.kr/t/ai2-robotrack/12634</link>
+      <description>핵심 요약 Ai2가 실제 로봇 조작 영상용 포인트 추적 벤치마크 RoboTrack-Bench(영상 307개, 사람이 검증한 궤적 2,522개)와 시뮬레이션 학습 데이터 RoboTrack-15M을 GitHub 저장소 와 함께 공개했습니다.</description>
+      <pubDate>Wed, 25 Nov 2026 08:30:26 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/ai2-robotrack/12634">PyTorch Korea</source>
+      <guid isPermaLink="false">1459836c81c80aeac31d99aac17b78eb</guid>
+    </item>
     <item>
       <title>Z.ai, 750B 모델의 가운데 28개 층을 두 번 돌리는 루프 트랜스포머 GLM-5.4 출시 (Coding Plan 사용자에게 먼저 제공)</title>
       <link>https://discuss.pytorch.kr/t/z-ai-750b-28-glm-5-4-coding-plan/12632</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/infrarsi-llm/12473">PyTorch Korea</source>
       <guid isPermaLink="false">9b95cea6967f1f46099e57ad1fa01b5d</guid>
-    </item>
-    <item>
-      <title>OpenAI 교육 AI 보고서: 숙제에 AI를 쓴 유럽 학생 79%, 사용법을 안내받은 학생 47% [영문/PDF/21p]</title>
-      <link>https://discuss.pytorch.kr/t/openai-ai-ai-79-47-pdf-21p/12471</link>
-      <description>핵심 요약 OpenAI가 2026년 11월, 유럽, 중동, 아프리카(EMEA) 정부와의 교육 협력에서 얻은 교훈을 정리한 21쪽 분량의 Responsible AI in Education 보고서 와 소개 글 을 공개했습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 13:00:48 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/openai-ai-ai-79-47-pdf-21p/12471">PyTorch Korea</source>
-      <guid isPermaLink="false">aab90d28d1e0cbea6277f1c6a6d7fd15</guid>
-    </item>
-    <item>
-      <title>VFlash: 로봇과 자율주행 궤적의 좌표를 한 번에 예측하는 병렬 디코딩에 대한 연구</title>
-      <link>https://discuss.pytorch.kr/t/vflash/12459</link>
-      <description>핵심 요약 VFlash 는 시각 언어 모델(VLM)이 경계 상자나 궤적의 좌표를 토큰 하나씩 생성하는 대신, 작은 초안 모델이 좌표 묶음 전체를 한 번의 순전파로 예측하게 하는 NVIDIA의 디코딩 방법입니다. 초안 모델은 대상 모델의 출력이 아닌 주석 좌표를 정답으로 학습하고, 추론(Inference) 시에는 대상 모델과 토큰이 일치하는지 확인하지 않습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 08:30:28 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vflash/12459">PyTorch Korea</source>
-      <guid isPermaLink="false">8d205f3889b8e3163559433efd341912</guid>
-    </item>
-    <item>
-      <title>Reshard: NVIDIA가 공개한, 강화 학습 가중치 전송을 최대 5.7배 가속하는 집단 통신 연산</title>
-      <link>https://discuss.pytorch.kr/t/reshard-nvidia-5-7/12447</link>
-      <description>핵심 요약 Reshard 는 학습 GPU의 최신 가중치를 추론 GPU로 옮길 때 각 GPU에 필요한 조각만 직접 전달합니다. NVIDIA의 NeMo RL 실험에서 H100과 GB200 시스템의 가중치 갱신(Refit) 구간이 기존 방식보다 약 2.7~5.7배 빨라졌으며, 이 배속은 전체 강화 학습 시간의 개선율과 구분해야 합니다.</description>
-      <pubDate>Tue, 10 Nov 2026 15:30:40 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/reshard-nvidia-5-7/12447">PyTorch Korea</source>
-      <guid isPermaLink="false">396098d7057a0101ac9d380495f91785</guid>
     </item>
   </channel>
 </rss>
