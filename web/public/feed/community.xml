@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 16:28:46 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:31:14 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>MBZUAI, LLM이 행동 시간표를 쓰고 29B 확산 모델이 영상으로 옮기는 오픈 월드 모델 PAN 2 공개</title>
+      <link>https://discuss.pytorch.kr/t/mbzuai-llm-29b-pan-2/12642</link>
+      <description>핵심 요약 MBZUAI 산하 IFM이 2026년 11월 10일 PAN 2 기술 블로그 와 함께 월드 모델 PAN 2를 Apache 2.0으로 공개했습니다. 언어 모델이 시간이 찍힌 행동 계획을 JSON으로 쓰면, 29B 확산 모델이 이를 최대 20초, 704x1248 해상도의 영상으로 옮깁니다. Hugging Face 저장소 에 올라온 가중치는 29B 확산 백본 하나입니다.</description>
+      <pubDate>Wed, 25 Nov 2026 19:30:05 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/mbzuai-llm-29b-pan-2/12642">PyTorch Korea</source>
+      <guid isPermaLink="false">5981aa708c5933dbaeb085f4c4e0e980</guid>
+    </item>
     <item>
       <title>vLLM-GR 공개: 생성형 추천 모델의 넓은 빔 서치를 요청 하나로 처리하는 vLLM 확장 소개</title>
       <link>https://discuss.pytorch.kr/t/vllm-gr-vllm/12648</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/anthropic-claude-fable-5-2-mythos-5-2-30-feat-opus-5-5/12478">PyTorch Korea</source>
       <guid isPermaLink="false">7402951f0dfc7220c1dcd5de6264358a</guid>
-    </item>
-    <item>
-      <title>InfraRSI: LLM 분산 학습의 설정과 코드를 함께 최적화하고 검증하는 에이전트 하네스</title>
-      <link>https://discuss.pytorch.kr/t/infrarsi-llm/12473</link>
-      <description>핵심 요약 InfraRSI 논문 은 LLM 분산 학습 작업의 실행 설정과 소스 코드를 함께 탐색하고, 통과한 변경만 반영하는 에이전트 하네스를 제안합니다. 코드는 InfraRSI GitHub 저장소 에 공개되어 있습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 16:30:51 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/infrarsi-llm/12473">PyTorch Korea</source>
-      <guid isPermaLink="false">9b95cea6967f1f46099e57ad1fa01b5d</guid>
     </item>
   </channel>
 </rss>
