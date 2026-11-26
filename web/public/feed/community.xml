@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Nov 2026 13:40:14 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 21:00:06 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>PrismML, FP16 에이전트 코딩 점수의 90%까지 끌어올린 5.93GB 규모의 삼진 모델 Ternary Bonsai 2.5 27B 공개</title>
+      <link>https://discuss.pytorch.kr/t/prismml-fp16-90-5-93gb-ternary-bonsai-2-5-27b/12653</link>
+      <description>핵심 요약 PrismML이 Ternary Bonsai 2.5 27B 발표 글 에서 에이전트 작업에 맞춰 다시 다듬은 27B 모델을 Apache 2.0으로 공개했습니다. 5.93GB 삼진(ternary) 가중치 형식은 Bonsai 2 27B와 같습니다.</description>
+      <pubDate>Thu, 26 Nov 2026 20:00:40 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/prismml-fp16-90-5-93gb-ternary-bonsai-2-5-27b/12653">PyTorch Korea</source>
+      <guid isPermaLink="false">3c53e9c4517a1f604b50498d1a214698</guid>
+    </item>
+    <item>
+      <title>Phai-M1: LTX-2.5를 중국 애니메이션과 CG 영상으로 사후 학습한, 가중치 공개 오디오-비디오 생성 모델</title>
+      <link>https://discuss.pytorch.kr/t/phai-m1-ltx-2-5-cg/12661</link>
+      <description>핵심 요약 Phanthy(范式)가 영상 생성 모델 Phai-M1 의 가중치를 Hugging Face와 ModelScope에 공개했습니다. Lightricks의 LTX-2.5(22B)를 150시간 넘는 영상으로 지도 미세조정한 모델이고, 중국 2D, 3D 애니메이션과 스타일화 CG 데이터를 보강했습니다. 공개한 가중치는 확산 트랜스포머(DiT) 파일뿐입니다.</description>
+      <pubDate>Thu, 26 Nov 2026 15:30:53 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/phai-m1-ltx-2-5-cg/12661">PyTorch Korea</source>
+      <guid isPermaLink="false">772fca14f786b62795fd8326dc1de9d1</guid>
+    </item>
+    <item>
+      <title>Rocket: Microsoft AI가 MAI-Base-2 사후학습을 위해 개선한 비동기 강화학습 인프라 프레임워크</title>
+      <link>https://discuss.pytorch.kr/t/rocket-microsoft-ai-mai-base-2/12654</link>
+      <description>핵심 요약 Microsoft AI(MAI)가 RL infrastructure at Microsoft AI 글에서 자체 강화학습(RL) 프레임워크 Rocket을 MAI-Base-2 규모로 키운 방법을 공개했습니다. Rocket은 MAI 사내 프레임워크이고 이번 발표에 코드는 포함되지 않았으며, 이 글은 설계와 운영 수치의 기록입니다.</description>
+      <pubDate>Thu, 26 Nov 2026 11:30:39 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/rocket-microsoft-ai-mai-base-2/12654">PyTorch Korea</source>
+      <guid isPermaLink="false">277d3ee07e0c01c5887b8fd0d6b4d372</guid>
+    </item>
     <item>
       <title>MBZUAI, LLM이 행동 시간표를 쓰고 29B 확산 모델이 영상으로 옮기는 오픈 월드 모델 PAN 2 공개</title>
       <link>https://discuss.pytorch.kr/t/mbzuai-llm-29b-pan-2/12642</link>
@@ -430,33 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/vllm-router/12492">PyTorch Korea</source>
       <guid isPermaLink="false">eae81f083ef4d98ad629818201766c10</guid>
-    </item>
-    <item>
-      <title>BotPsy: 2B 모델보다 도구 사용 성능이 뛰어난, Qwen3.5-0.8B 기반 On-Device Agent 모델</title>
-      <link>https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486</link>
-      <description>핵심 요약 Tether AI Research가 BotPsy 발표 글 과 함께 Qwen3.5-0.8B를 사후 학습한 0.8B 크기의 도구 호출용 모델 BotPsy-0.8B 를 Apache 2.0 라이선스로 공개했습니다. 개발사가 직접 측정한 도구 사용 벤치마크 6종 가운데 5종에서, 비교한 5개 모델 중 가장 높은 점수를 기록했습니다.</description>
-      <pubDate>Thu, 12 Nov 2026 12:30:37 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/botpsy-2b-qwen3-5-0-8b-on-device-agent/12486">PyTorch Korea</source>
-      <guid isPermaLink="false">f86a24fe0974d8c577b3739cddce87e5</guid>
-    </item>
-    <item>
-      <title>Solo to Team: 여러 AI 에이전트에게 맡긴 작업을 회수하고 증거로 검증하는 협업 스킬 4종</title>
-      <link>https://discuss.pytorch.kr/t/solo-to-team-ai-4/12487</link>
-      <description>핵심 요약 Solo to Team 은 한 사람이 여러 AI 어시스턴트에게 작업을 나눠 맡길 때 따를 절차를 스킬 4종과 작업 등록 행 템플릿 1종으로 정리한 프로젝트입니다. 작업을 맡기기 전에 '수령 대기' 한 줄을 먼저 적고, 접수와 결과 수령, 검수 완료를 각각 다른 줄로 기록합니다. '검수 완료'나 '취소'가 기록된 작업만 미완료 목록에서 빠집니다.</description>
-      <pubDate>Thu, 12 Nov 2026 16:00:32 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/solo-to-team-ai-4/12487">PyTorch Korea</source>
-      <guid isPermaLink="false">5b370f0e0d02a6c6ef99366222aa2942</guid>
-    </item>
-    <item>
-      <title>Anthropic, Claude Fable 5.2와 Mythos 5.2 출시: 가격 인하와 최대 30% 빠른 출력 (feat. Opus 5.5)</title>
-      <link>https://discuss.pytorch.kr/t/anthropic-claude-fable-5-2-mythos-5-2-30-feat-opus-5-5/12478</link>
-      <description>핵심 요약 Anthropic은 Claude Fable 5.2와 Mythos 5.2 발표 글 에서 두 모델이 같은 기반 모델이라고 밝혔습니다. Fable은 사이버보안과 생물학 안전장치를 붙여 모든 사용자에게, Mythos는 Cyber 또는 Life Sciences Verification Program에 신청해 승인된 기관에게 제공합니다.</description>
-      <pubDate>Wed, 11 Nov 2026 19:30:30 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/anthropic-claude-fable-5-2-mythos-5-2-30-feat-opus-5-5/12478">PyTorch Korea</source>
-      <guid isPermaLink="false">7402951f0dfc7220c1dcd5de6264358a</guid>
     </item>
   </channel>
 </rss>
