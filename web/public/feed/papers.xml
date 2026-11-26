@@ -5,9 +5,54 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Nov 2026 03:31:14 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 11:05:13 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics</title>
+      <link>https://huggingface.co/papers/2611.32393</link>
+      <description>Conventional neural networks store synaptic parameters as explicit tensors whose persistent Flash footprint scales linearly (O(W)) with parameter count, constraining resource-limi…</description>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.32393">Hugging Face Papers</source>
+      <guid isPermaLink="false">a1df2c8502cc28343d8253879233da6c</guid>
+    </item>
+    <item>
+      <title>Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models</title>
+      <link>https://huggingface.co/papers/2611.30564</link>
+      <description>A multimodal benchmark evaluates decision models on spatial awareness and geographic bias across image classification and location rating tasks, revealing reliance on vision and s…</description>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.30564">Hugging Face Papers</source>
+      <guid isPermaLink="false">abea055f0e7fede6db68c3619671924f</guid>
+    </item>
+    <item>
+      <title>Point Dynamics as Proxy for Robotic World Models</title>
+      <link>https://huggingface.co/papers/2611.25946</link>
+      <description>Separating dynamics prediction from visual rendering using 3D point dynamics as an intermediate representation improves object motion accuracy in robotic video world models withou…</description>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.25946">Hugging Face Papers</source>
+      <guid isPermaLink="false">e41f8c18019d025de618010085984b3d</guid>
+    </item>
+    <item>
+      <title>LookAnything: A Foundation Model for Holistic Gaze Following</title>
+      <link>https://huggingface.co/papers/2611.32351</link>
+      <description>Human gaze provides a rich window into attention and intent, making its understanding essential for applications ranging from social signal analysis to human-robot interaction.</description>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.32351">Hugging Face Papers</source>
+      <guid isPermaLink="false">54208c40873a672725f25e58f43d4fa2</guid>
+    </item>
+    <item>
+      <title>Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background</title>
+      <link>https://huggingface.co/papers/2611.27404</link>
+      <description>A method separates a language model's quality decline under controlled load into synchronization, rule execution, and misfires, then derives load-dependent laws that characterize…</description>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.27404">Hugging Face Papers</source>
+      <guid isPermaLink="false">4ac64efcbe983a7f91fe964435eb2364</guid>
+    </item>
     <item>
       <title>Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe</title>
       <link>https://huggingface.co/papers/2611.32884</link>
@@ -412,51 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.30219">Hugging Face Papers</source>
       <guid isPermaLink="false">c6ed8631fab1fdc5f367ca25dc0a8a83</guid>
-    </item>
-    <item>
-      <title>Context-Grounded Skill Internalization for Vision-Language Agents</title>
-      <link>https://huggingface.co/papers/2611.30075</link>
-      <description>Context-Grounded Skill Internalization mitigates context misalignment in skill-removed fine-tuning by detecting and masking or rewriting unsupported skill references, preserving t…</description>
-      <pubDate>Tue, 24 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.30075">Hugging Face Papers</source>
-      <guid isPermaLink="false">f487896922f74034b461fc85b9fd6e1b</guid>
-    </item>
-    <item>
-      <title>Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images</title>
-      <link>https://huggingface.co/papers/2611.29150</link>
-      <description>Visual agents navigate whole-slide images through magnified observations associated with claimed locations.</description>
-      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.29150">Hugging Face Papers</source>
-      <guid isPermaLink="false">b45e081102fffea30f12cd71ee5bedcc</guid>
-    </item>
-    <item>
-      <title>Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato</title>
-      <link>https://huggingface.co/papers/2611.29547</link>
-      <description>In one-step generator training, aligning the paired reconstruction path rather than the generative path improves recall and sample quality while accelerating both training stages…</description>
-      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.29547">Hugging Face Papers</source>
-      <guid isPermaLink="false">5a9574a11dcdd9261160a57dd9cb98f7</guid>
-    </item>
-    <item>
-      <title>Coding4Games: Can Modern Coding Agents Play Modern Video Games?</title>
-      <link>https://huggingface.co/papers/2611.31974</link>
-      <description>Games, especially modern AAA games, challenge language models to perceive complex scenes, control actions, and make decisions over long horizons.</description>
-      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.31974">Hugging Face Papers</source>
-      <guid isPermaLink="false">b2b6dfb83f4a1553b5d653d7c6b56c8a</guid>
-    </item>
-    <item>
-      <title>Factorized Context Attention: From Emulated to Native Grid Probing</title>
-      <link>https://huggingface.co/papers/2611.32423</link>
-      <description>Factorized Context Attention is a training-free block-sparse attention method that natively reproduces grid probing’s span-based attention pattern, encoding input once into a KV c…</description>
-      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.32423">Hugging Face Papers</source>
-      <guid isPermaLink="false">526a0f0da8b8ca3d4e4ecb2975d5cbaa</guid>
     </item>
   </channel>
 </rss>
