@@ -5,9 +5,81 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 27 Nov 2026 13:44:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:42:26 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models</title>
+      <link>https://huggingface.co/papers/2611.31619</link>
+      <description>A tool called Vernier measures the smallest score difference a time-series forecasting leaderboard can distinguish, showing that most boards cannot separate top entries and that r…</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.31619">Hugging Face Papers</source>
+      <guid isPermaLink="false">0638b51138d89bb24268949efaf8e49a</guid>
+    </item>
+    <item>
+      <title>Revisiting LLMs as Context Engineers</title>
+      <link>https://huggingface.co/papers/2611.30494</link>
+      <description>As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts…</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.30494">Hugging Face Papers</source>
+      <guid isPermaLink="false">66c7c42609e8fd680bacb27b0e9cc516</guid>
+    </item>
+    <item>
+      <title>When an AI agent makes a mistake in a database, what decides the damage?</title>
+      <link>https://huggingface.co/papers/2611.30483</link>
+      <description>AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider…</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.30483">Hugging Face Papers</source>
+      <guid isPermaLink="false">d0b25903a80e50c665be7f827fe25e4e</guid>
+    </item>
+    <item>
+      <title>Generation as Reverse Encoding</title>
+      <link>https://huggingface.co/papers/2611.34782</link>
+      <description>A generative framework reuses a frozen encoder’s intermediate representations as staged targets and shares a DiT backbone to reduce training and sampling cost while preserving ima…</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.34782">Hugging Face Papers</source>
+      <guid isPermaLink="false">d5acfa8523a45c2c655e747e8a91faab</guid>
+    </item>
+    <item>
+      <title>Pretrained Tabular Features and the Measurement of Financial Proximity</title>
+      <link>https://huggingface.co/papers/2611.31491</link>
+      <description>Using frozen internal representations of tabular foundation models as financial dissimilarity measures in a spatial asset-pricing model yields positive estimated gains over direct…</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.31491">Hugging Face Papers</source>
+      <guid isPermaLink="false">ebed3d807434ef16f73b5c813b16f2ed</guid>
+    </item>
+    <item>
+      <title>So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes</title>
+      <link>https://huggingface.co/papers/2611.31155</link>
+      <description>A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented.</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.31155">Hugging Face Papers</source>
+      <guid isPermaLink="false">df2c45dcdbc5351c6e54df4bf57f1485</guid>
+    </item>
+    <item>
+      <title>InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion</title>
+      <link>https://huggingface.co/papers/2611.31516</link>
+      <description>Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate.</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.31516">Hugging Face Papers</source>
+      <guid isPermaLink="false">783c6944259db67c8321c5b83ec3da3a</guid>
+    </item>
+    <item>
+      <title>Guarding with Judgment: Learning to Intervene for Multimodal Safety</title>
+      <link>https://huggingface.co/papers/2611.28849</link>
+      <description>When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved.</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.28849">Hugging Face Papers</source>
+      <guid isPermaLink="false">27436100a8efbe867fb4940d53bd6f5b</guid>
+    </item>
     <item>
       <title>CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes</title>
       <link>https://huggingface.co/papers/2611.29969</link>
@@ -385,78 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.34420">Hugging Face Papers</source>
       <guid isPermaLink="false">d7cff3c2a286ca73fcd15b90fe381a07</guid>
-    </item>
-    <item>
-      <title>When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL</title>
-      <link>https://huggingface.co/papers/2611.34777</link>
-      <description>SPLICE improves reinforcement learning on long-horizon agent tasks by constructing local training targets from failed trajectories using a proposal model to select splice points a…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.34777">Hugging Face Papers</source>
-      <guid isPermaLink="false">30ee97537b7d58f036bb97a3f91f5db6</guid>
-    </item>
-    <item>
-      <title>SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation</title>
-      <link>https://huggingface.co/papers/2611.34064</link>
-      <description>SPARC uses geometry-guided pruning of self-attention in pretrained video diffusion transformers to unify camera control and persistent scene memory, improving camera adherence and…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.34064">Hugging Face Papers</source>
-      <guid isPermaLink="false">89b619d5f75772185813ecc26cb43361</guid>
-    </item>
-    <item>
-      <title>RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution</title>
-      <link>https://huggingface.co/papers/2611.34675</link>
-      <description>RoboEvo$^2$ recursively co-evolves a coding-agent harness and a vision-language-action policy, using policy failures to discover reusable skills and preference distillation to imp…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.34675">Hugging Face Papers</source>
-      <guid isPermaLink="false">166b4565dc51bc333cac3ee0cab82343</guid>
-    </item>
-    <item>
-      <title>Loupe: Reinforcing Knowledge-Intensive Video Generation Agents</title>
-      <link>https://huggingface.co/papers/2611.31895</link>
-      <description>Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation.</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.31895">Hugging Face Papers</source>
-      <guid isPermaLink="false">cd8f7abf11e7b385cfc0e6570c7d0b01</guid>
-    </item>
-    <item>
-      <title>What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration</title>
-      <link>https://huggingface.co/papers/2611.33636</link>
-      <description>A multi-scale image restoration network reduces redundant computation in attention and feed-forward layers to achieve state-of-the-art restoration with faster inference.</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.33636">Hugging Face Papers</source>
-      <guid isPermaLink="false">48ff62fda39e46545d61138437911842</guid>
-    </item>
-    <item>
-      <title>Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations</title>
-      <link>https://huggingface.co/papers/2611.28010</link>
-      <description>SlidesWeaver combines language and vision agents with diffusion-based planning and shared state to generate editable, high-quality PPTX presentations while preserving native text…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.28010">Hugging Face Papers</source>
-      <guid isPermaLink="false">f902a38c88dc24a04baaaf7899e5106b</guid>
-    </item>
-    <item>
-      <title>Model Carving: Training Transformers That Optimize Their Own Topology</title>
-      <link>https://huggingface.co/papers/2611.27962</link>
-      <description>Model Carving jointly learns a Transformer's weights and architecture by gating sublayers during training, producing smaller, faster, and stronger models than dense, pruned, or di…</description>
-      <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.27962">Hugging Face Papers</source>
-      <guid isPermaLink="false">6ef217ff9a1e33d989612eca18c91a91</guid>
-    </item>
-    <item>
-      <title>ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification</title>
-      <link>https://huggingface.co/papers/2611.33143</link>
-      <description>Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act.</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.33143">Hugging Face Papers</source>
-      <guid isPermaLink="false">462470b568fc24ca9f692ab9ccba4d39</guid>
     </item>
   </channel>
 </rss>
