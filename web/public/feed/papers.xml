@@ -5,9 +5,36 @@
     <link>https://sukoji.github.io/teams-news/feed/papers.xml</link>
     <description>📄 Papers — AI research from Hugging Face Daily Papers</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 27 Nov 2026 22:42:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 07:32:33 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models</title>
+      <link>https://huggingface.co/papers/2611.30723</link>
+      <description>Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate.</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.30723">Hugging Face Papers</source>
+      <guid isPermaLink="false">e61c91e4edaa1a8f0f9d42c7a332e16e</guid>
+    </item>
+    <item>
+      <title>Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning</title>
+      <link>https://huggingface.co/papers/2611.30025</link>
+      <description>Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations.</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.30025">Hugging Face Papers</source>
+      <guid isPermaLink="false">21bf7cad0c2281ef2287bd69d2cee75b</guid>
+    </item>
+    <item>
+      <title>Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries</title>
+      <link>https://huggingface.co/papers/2611.27112</link>
+      <description>Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules.</description>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <category>papers</category>
+      <source url="https://huggingface.co/papers/2611.27112">Hugging Face Papers</source>
+      <guid isPermaLink="false">c7e508eda5b747d95463aad8bb206041</guid>
+    </item>
     <item>
       <title>What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models</title>
       <link>https://huggingface.co/papers/2611.31619</link>
@@ -430,33 +457,6 @@
       <category>papers</category>
       <source url="https://huggingface.co/papers/2611.33457">Hugging Face Papers</source>
       <guid isPermaLink="false">3144d5f49f930ddc527ca24c7e9c8da5</guid>
-    </item>
-    <item>
-      <title>Target-Part Preference Optimization for Part-Aware 3D Generation</title>
-      <link>https://huggingface.co/papers/2611.30472</link>
-      <description>Preference fine-tuning based on Direct Preference Optimization adapts a pretrained part-aware 3D generator with limited part annotations, yielding the best multi-part results at m…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.30472">Hugging Face Papers</source>
-      <guid isPermaLink="false">1c5ea85d2cf86eeab704efa3dd02f1b5</guid>
-    </item>
-    <item>
-      <title>Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures</title>
-      <link>https://huggingface.co/papers/2611.33925</link>
-      <description>Training world models on simulated manipulation failures with interaction alignment and surface correspondence reduces object trajectory and action-outcome prediction errors, incl…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.33925">Hugging Face Papers</source>
-      <guid isPermaLink="false">14e4bb61099242aa72caf5d916de1055</guid>
-    </item>
-    <item>
-      <title>DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding</title>
-      <link>https://huggingface.co/papers/2611.34420</link>
-      <description>DocSEAM is a lightweight module between a pretrained vision encoder and language model that enriches page visual tokens with neighboring-page context via center-anchored masked se…</description>
-      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
-      <category>papers</category>
-      <source url="https://huggingface.co/papers/2611.34420">Hugging Face Papers</source>
-      <guid isPermaLink="false">d7cff3c2a286ca73fcd15b90fe381a07</guid>
     </item>
   </channel>
 </rss>
