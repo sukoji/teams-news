@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T13:40:14.010489+09:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T13:44:12.986000+09:00",
   "title": "📄📰 오늘의 AI 논문 & 테크 뉴스",
   "item_count": 7,
   "sections": [
@@ -10,58 +10,56 @@
       "title": "📄 Papers",
       "items": [
         {
-          "id": "5814529dacaf573e2a2528c1790a9af6",
+          "id": "24553e4fd50fb66f10b2eeba08efb049",
           "index": 1,
-          "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-          "title_ko": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-          "summary": "A reinforcement learning method rewards agents for delaying commitment until their inferred posterior over answers is sufficiently narrow, improving evidence-based answering across vision-language benchmarks.",
-          "summary_ko": "A reinforcement learning method rewards agents for delaying commitment until their inferred posterior over answers is sufficiently narrow, improving evidence-based answering acros…",
-          "url": "https://huggingface.co/papers/2611.32884",
+          "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+          "title_ko": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+          "summary": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use an…",
+          "summary_ko": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain…",
+          "url": "https://huggingface.co/papers/2611.34232",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-25T09:00:00+09:00",
-          "popularity": 252,
-          "upvotes": 98,
-          "score": 28.6,
-          "importance_score": 16.6,
+          "published_at": "2026-11-27T09:00:00+09:00",
+          "popularity": 112,
+          "upvotes": 39,
+          "score": 28.2,
+          "importance_score": 22.21,
           "matched_keywords": [
             "ai",
             "agent",
-            "reinforcement learning",
             "benchmark"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 98
+            "value": 39
           }
         },
         {
-          "id": "77e23a9f8020cb685627f18985ffc481",
+          "id": "715934d93493d50a0cda2d322f87848e",
           "index": 2,
-          "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-          "title_ko": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-          "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions.",
-          "summary_ko": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's…",
-          "url": "https://huggingface.co/papers/2611.33148",
+          "title": "Mixture-of-Loops Transformer",
+          "title_ko": "Mixture-of-Loops Transformer",
+          "summary": "A Mixture-of-Loops Transformer reuses key-value memory across loops and depths, and its U-shaped variant improves pretraining efficiency and inference latency.",
+          "summary_ko": "A Mixture-of-Loops Transformer reuses key-value memory across loops and depths, and its U-shaped variant improves pretraining efficiency and inference latency.",
+          "url": "https://huggingface.co/papers/2611.34923",
           "source": "Hugging Face Papers",
           "section": "📄 Papers",
           "section_id": "papers",
-          "published_at": "2026-11-25T09:00:00+09:00",
-          "popularity": 38,
-          "upvotes": 14,
-          "score": 24.99,
-          "importance_score": 10.99,
+          "published_at": "2026-11-26T09:00:00+09:00",
+          "popularity": 211,
+          "upvotes": 66,
+          "score": 28.07,
+          "importance_score": 16.07,
           "matched_keywords": [
             "ai",
-            "agent",
-            "fine-tuning",
-            "reinforcement learning",
-            "reasoning"
+            "transformer",
+            "inference",
+            "training"
           ],
           "engagement": {
             "label": "Upvotes",
-            "value": 14
+            "value": 66
           }
         }
       ]
@@ -71,21 +69,21 @@
       "title": "📰 News",
       "items": [
         {
-          "id": "7cace7ead6d3f5bb0e5184436694f4d5",
+          "id": "c3649270ed2fad12712434239e8da579",
           "index": 3,
-          "title": "오픈AI, 챗GPT·코덱스 사용량 통합…\"헤비 유저 한도 조기 소진 가능\"",
+          "title": "'GPT-6 아스트라'로 양자 중력 이론 제안…'클로드'로 반박도 등장",
           "title_ko": null,
-          "summary": "오픈AI가 오는 12월부터 챗GPT와 코덱스의 사용량 한도를 하나로 통합한다.",
+          "summary": "미국 스탠퍼드대학교의 이론물리학자가 오픈AI의 \\'GPT-6 아스트라\\'를 활용해 새로운 양자 중력 이론을 제안했다.",
           "summary_ko": null,
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217800",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217864",
           "source": "AI Times",
           "section": "📰 News",
           "section_id": "news",
-          "published_at": "2026-11-26T12:28:43+09:00",
-          "popularity": 99,
+          "published_at": "2026-11-27T12:46:34+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.65,
-          "importance_score": 19.4,
+          "score": 22.8,
+          "importance_score": 19.6,
           "matched_keywords": [
             "ai",
             "gpt"
@@ -104,10 +102,10 @@
           "section": "📰 News",
           "section_id": "news",
           "published_at": "2026-11-25T16:01:41+09:00",
-          "popularity": 100,
+          "popularity": 99,
           "upvotes": 0,
-          "score": 21.49,
-          "importance_score": 10.98,
+          "score": 20.9,
+          "importance_score": 9.9,
           "matched_keywords": [
             "ai",
             "agent",
@@ -133,10 +131,10 @@
           "section": "🔥 Trending",
           "section_id": "trending",
           "published_at": "2026-11-26T00:42:44+09:00",
-          "popularity": 457,
-          "upvotes": 457,
-          "score": 37.74,
-          "importance_score": 26.05,
+          "popularity": 1648,
+          "upvotes": 1648,
+          "score": 38.5,
+          "importance_score": 24.5,
           "matched_keywords": [
             "ai",
             "llm",
@@ -145,7 +143,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 457
+            "value": 1648
           }
         },
         {
@@ -159,11 +157,11 @@
           "source": "GitHub Trending",
           "section": "🔥 Trending",
           "section_id": "trending",
-          "published_at": "2026-11-26T10:05:50+09:00",
-          "popularity": 608,
-          "upvotes": 608,
-          "score": 37.7,
-          "importance_score": 30.95,
+          "published_at": "2026-11-27T02:02:10+09:00",
+          "popularity": 659,
+          "upvotes": 659,
+          "score": 36.29,
+          "importance_score": 27.85,
           "matched_keywords": [
             "ai",
             "agent",
@@ -171,7 +169,7 @@
           ],
           "engagement": {
             "label": "Stars",
-            "value": 608
+            "value": 659
           }
         }
       ]
@@ -181,25 +179,23 @@
       "title": "💬 Community",
       "items": [
         {
-          "id": "5981aa708c5933dbaeb085f4c4e0e980",
+          "id": "4ee5bc27002292b6fd695a27f510492a",
           "index": 7,
-          "title": "MBZUAI, LLM이 행동 시간표를 쓰고 29B 확산 모델이 영상으로 옮기는 오픈 월드 모델 PAN 2 공개",
+          "title": "fast-anything: 앱 전체 대신 느린 함수만 코딩 에이전트로 Rust로 다시 직성하고 검증하는 도구",
           "title_ko": null,
-          "summary": "핵심 요약 MBZUAI 산하 IFM이 2026년 11월 10일 PAN 2 기술 블로그 와 함께 월드 모델 PAN 2를 Apache 2.0으로 공개했습니다. 언어 모델이 시간이 찍힌 행동 계획을 JSON으로 쓰면, 29B 확산 모델이 이를 최대 20초, 704x1248 해상도의 영상으로 옮깁니다. Hugging Face 저장소 에 올라온 가중치는 29B 확산 백본 하나입니다.",
+          "summary": "핵심 요약 fast-anything 은 앱에서 실행 시간을 많이 쓰는 함수만 Claude Code나 Codex 같은 코딩 에이전트에게 Rust로 옮기게 합니다. 앱 실행 중 녹화한 실제 호출에서 결과가 같을 때만 Rust 버전으로 바꿔 끼웁니다. Python, JavaScript/TypeScript, Ruby, Java, Go, C, C++, C# 등 12개 언어를 지원합니다.",
           "summary_ko": null,
-          "url": "https://discuss.pytorch.kr/t/mbzuai-llm-29b-pan-2/12642",
+          "url": "https://discuss.pytorch.kr/t/fast-anything-rust/12655",
           "source": "PyTorch Korea",
           "section": "💬 Community",
           "section_id": "community",
-          "published_at": "2026-11-25T19:30:05+09:00",
-          "popularity": 98,
+          "published_at": "2026-11-27T11:30:25+09:00",
+          "popularity": 100,
           "upvotes": 0,
-          "score": 22.01,
-          "importance_score": 12.23,
+          "score": 19.54,
+          "importance_score": 19.07,
           "matched_keywords": [
-            "ai",
-            "llm",
-            "모델"
+            "claude"
           ],
           "engagement": null
         }
@@ -208,76 +204,74 @@
   ],
   "items": [
     {
-      "id": "5814529dacaf573e2a2528c1790a9af6",
+      "id": "24553e4fd50fb66f10b2eeba08efb049",
       "index": 1,
-      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-      "title_ko": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-      "summary": "A reinforcement learning method rewards agents for delaying commitment until their inferred posterior over answers is sufficiently narrow, improving evidence-based answering across vision-language benchmarks.",
-      "summary_ko": "A reinforcement learning method rewards agents for delaying commitment until their inferred posterior over answers is sufficiently narrow, improving evidence-based answering acros…",
-      "url": "https://huggingface.co/papers/2611.32884",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "title_ko": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain far from platform-robust computer use an…",
+      "summary_ko": "A live cross-platform benchmark evaluates computer-using agents on long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android, and Web, showing that current agents remain…",
+      "url": "https://huggingface.co/papers/2611.34232",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-25T09:00:00+09:00",
-      "popularity": 252,
-      "upvotes": 98,
-      "score": 28.6,
-      "importance_score": 16.6,
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "popularity": 112,
+      "upvotes": 39,
+      "score": 28.2,
+      "importance_score": 22.21,
       "matched_keywords": [
         "ai",
         "agent",
-        "reinforcement learning",
         "benchmark"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 98
+        "value": 39
       }
     },
     {
-      "id": "77e23a9f8020cb685627f18985ffc481",
+      "id": "715934d93493d50a0cda2d322f87848e",
       "index": 2,
-      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-      "title_ko": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
-      "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions.",
-      "summary_ko": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's…",
-      "url": "https://huggingface.co/papers/2611.33148",
+      "title": "Mixture-of-Loops Transformer",
+      "title_ko": "Mixture-of-Loops Transformer",
+      "summary": "A Mixture-of-Loops Transformer reuses key-value memory across loops and depths, and its U-shaped variant improves pretraining efficiency and inference latency.",
+      "summary_ko": "A Mixture-of-Loops Transformer reuses key-value memory across loops and depths, and its U-shaped variant improves pretraining efficiency and inference latency.",
+      "url": "https://huggingface.co/papers/2611.34923",
       "source": "Hugging Face Papers",
       "section": "📄 Papers",
       "section_id": "papers",
-      "published_at": "2026-11-25T09:00:00+09:00",
-      "popularity": 38,
-      "upvotes": 14,
-      "score": 24.99,
-      "importance_score": 10.99,
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "popularity": 211,
+      "upvotes": 66,
+      "score": 28.07,
+      "importance_score": 16.07,
       "matched_keywords": [
         "ai",
-        "agent",
-        "fine-tuning",
-        "reinforcement learning",
-        "reasoning"
+        "transformer",
+        "inference",
+        "training"
       ],
       "engagement": {
         "label": "Upvotes",
-        "value": 14
+        "value": 66
       }
     },
     {
-      "id": "7cace7ead6d3f5bb0e5184436694f4d5",
+      "id": "c3649270ed2fad12712434239e8da579",
       "index": 3,
-      "title": "오픈AI, 챗GPT·코덱스 사용량 통합…\"헤비 유저 한도 조기 소진 가능\"",
+      "title": "'GPT-6 아스트라'로 양자 중력 이론 제안…'클로드'로 반박도 등장",
       "title_ko": null,
-      "summary": "오픈AI가 오는 12월부터 챗GPT와 코덱스의 사용량 한도를 하나로 통합한다.",
+      "summary": "미국 스탠퍼드대학교의 이론물리학자가 오픈AI의 \\'GPT-6 아스트라\\'를 활용해 새로운 양자 중력 이론을 제안했다.",
       "summary_ko": null,
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217800",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217864",
       "source": "AI Times",
       "section": "📰 News",
       "section_id": "news",
-      "published_at": "2026-11-26T12:28:43+09:00",
-      "popularity": 99,
+      "published_at": "2026-11-27T12:46:34+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.65,
-      "importance_score": 19.4,
+      "score": 22.8,
+      "importance_score": 19.6,
       "matched_keywords": [
         "ai",
         "gpt"
@@ -296,10 +290,10 @@
       "section": "📰 News",
       "section_id": "news",
       "published_at": "2026-11-25T16:01:41+09:00",
-      "popularity": 100,
+      "popularity": 99,
       "upvotes": 0,
-      "score": 21.49,
-      "importance_score": 10.98,
+      "score": 20.9,
+      "importance_score": 9.9,
       "matched_keywords": [
         "ai",
         "agent",
@@ -319,10 +313,10 @@
       "section": "🔥 Trending",
       "section_id": "trending",
       "published_at": "2026-11-26T00:42:44+09:00",
-      "popularity": 457,
-      "upvotes": 457,
-      "score": 37.74,
-      "importance_score": 26.05,
+      "popularity": 1648,
+      "upvotes": 1648,
+      "score": 38.5,
+      "importance_score": 24.5,
       "matched_keywords": [
         "ai",
         "llm",
@@ -331,7 +325,7 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 457
+        "value": 1648
       }
     },
     {
@@ -345,11 +339,11 @@
       "source": "GitHub Trending",
       "section": "🔥 Trending",
       "section_id": "trending",
-      "published_at": "2026-11-26T10:05:50+09:00",
-      "popularity": 608,
-      "upvotes": 608,
-      "score": 37.7,
-      "importance_score": 30.95,
+      "published_at": "2026-11-27T02:02:10+09:00",
+      "popularity": 659,
+      "upvotes": 659,
+      "score": 36.29,
+      "importance_score": 27.85,
       "matched_keywords": [
         "ai",
         "agent",
@@ -357,29 +351,27 @@
       ],
       "engagement": {
         "label": "Stars",
-        "value": 608
+        "value": 659
       }
     },
     {
-      "id": "5981aa708c5933dbaeb085f4c4e0e980",
+      "id": "4ee5bc27002292b6fd695a27f510492a",
       "index": 7,
-      "title": "MBZUAI, LLM이 행동 시간표를 쓰고 29B 확산 모델이 영상으로 옮기는 오픈 월드 모델 PAN 2 공개",
+      "title": "fast-anything: 앱 전체 대신 느린 함수만 코딩 에이전트로 Rust로 다시 직성하고 검증하는 도구",
       "title_ko": null,
-      "summary": "핵심 요약 MBZUAI 산하 IFM이 2026년 11월 10일 PAN 2 기술 블로그 와 함께 월드 모델 PAN 2를 Apache 2.0으로 공개했습니다. 언어 모델이 시간이 찍힌 행동 계획을 JSON으로 쓰면, 29B 확산 모델이 이를 최대 20초, 704x1248 해상도의 영상으로 옮깁니다. Hugging Face 저장소 에 올라온 가중치는 29B 확산 백본 하나입니다.",
+      "summary": "핵심 요약 fast-anything 은 앱에서 실행 시간을 많이 쓰는 함수만 Claude Code나 Codex 같은 코딩 에이전트에게 Rust로 옮기게 합니다. 앱 실행 중 녹화한 실제 호출에서 결과가 같을 때만 Rust 버전으로 바꿔 끼웁니다. Python, JavaScript/TypeScript, Ruby, Java, Go, C, C++, C# 등 12개 언어를 지원합니다.",
       "summary_ko": null,
-      "url": "https://discuss.pytorch.kr/t/mbzuai-llm-29b-pan-2/12642",
+      "url": "https://discuss.pytorch.kr/t/fast-anything-rust/12655",
       "source": "PyTorch Korea",
       "section": "💬 Community",
       "section_id": "community",
-      "published_at": "2026-11-25T19:30:05+09:00",
-      "popularity": 98,
+      "published_at": "2026-11-27T11:30:25+09:00",
+      "popularity": 100,
       "upvotes": 0,
-      "score": 22.01,
-      "importance_score": 12.23,
+      "score": 19.54,
+      "importance_score": 19.07,
       "matched_keywords": [
-        "ai",
-        "llm",
-        "모델"
+        "claude"
       ],
       "engagement": null
     }
