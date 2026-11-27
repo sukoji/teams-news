@@ -5,9 +5,18 @@
     <link>https://sukoji.github.io/teams-news/feed/community.xml</link>
     <description>💬 Community — PyTorch Korea discussions</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 27 Nov 2026 06:23:36 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 12:58:56 +0900</lastBuildDate>
     <generator>teams-news/1.0</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>fast-anything: 앱 전체 대신 느린 함수만 코딩 에이전트로 Rust로 다시 직성하고 검증하는 도구</title>
+      <link>https://discuss.pytorch.kr/t/fast-anything-rust/12655</link>
+      <description>핵심 요약 fast-anything 은 앱에서 실행 시간을 많이 쓰는 함수만 Claude Code나 Codex 같은 코딩 에이전트에게 Rust로 옮기게 합니다. 앱 실행 중 녹화한 실제 호출에서 결과가 같을 때만 Rust 버전으로 바꿔 끼웁니다. Python, JavaScript/TypeScript, Ruby, Java, Go, C, C++, C# 등 12개 언어를 지원합니다.</description>
+      <pubDate>Fri, 27 Nov 2026 11:30:25 +0900</pubDate>
+      <category>community</category>
+      <source url="https://discuss.pytorch.kr/t/fast-anything-rust/12655">PyTorch Korea</source>
+      <guid isPermaLink="false">4ee5bc27002292b6fd695a27f510492a</guid>
+    </item>
     <item>
       <title>PrismML, FP16 에이전트 코딩 점수의 90%까지 끌어올린 5.93GB 규모의 삼진 모델 Ternary Bonsai 2.5 27B 공개</title>
       <link>https://discuss.pytorch.kr/t/prismml-fp16-90-5-93gb-ternary-bonsai-2-5-27b/12653</link>
@@ -448,15 +457,6 @@
       <category>community</category>
       <source url="https://discuss.pytorch.kr/t/google-ui-a2ui-1-0-feat-mcp-apps/12496">PyTorch Korea</source>
       <guid isPermaLink="false">3a871d71e32213e78fcee577672b6a40</guid>
-    </item>
-    <item>
-      <title>vLLM Router: 세션과 캐시를 고려해 추론 요청을 분산하는 라우터</title>
-      <link>https://discuss.pytorch.kr/t/vllm-router/12492</link>
-      <description>vLLM Router 소개 vLLM 서버를 여러 대 운영하면 요청을 어느 서버로 보낼지 정해야 합니다. 순서대로 나누면 요청 수는 고르게 분산되지만, 같은 대화의 다음 요청이 다른 서버로 전달될 수 있습니다. vLLM Router 는 세션, 워커 부하, 프롬프트 캐시를 고려해 추론 요청을 전달하는 라우터입니다.</description>
-      <pubDate>Thu, 12 Nov 2026 20:00:14 +0900</pubDate>
-      <category>community</category>
-      <source url="https://discuss.pytorch.kr/t/vllm-router/12492">PyTorch Korea</source>
-      <guid isPermaLink="false">eae81f083ef4d98ad629818201766c10</guid>
     </item>
   </channel>
 </rss>
